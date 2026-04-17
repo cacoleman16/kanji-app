@@ -1,0 +1,596 @@
+{
+  "deck_id": "integrated-intermediate-ch2-recognition",
+  "deck_name": "An Integrated Approach — Ch.2 読めればいい漢字",
+  "version": "1.0",
+  "notes": "Recognition-only kanji (読めればいい漢字) from An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 2. All cards carry write_required=false. Students need to read these kanji but are not tested on writing them.",
+  "card_count": 14,
+  "cards": [
+    {
+      "kanji": "葉",
+      "meanings": [
+        "leaf",
+        "page",
+        "word (in 言葉)"
+      ],
+      "on_yomi": [
+        "ヨウ"
+      ],
+      "kun_yomi": [
+        "は"
+      ],
+      "examples": [
+        {
+          "kanji": "言葉",
+          "kana": "ことば",
+          "meaning": "word, language, speech"
+        },
+        {
+          "kanji": "葉",
+          "kana": "は",
+          "meaning": "leaf"
+        },
+        {
+          "kanji": "紅葉",
+          "kana": "こうよう",
+          "meaning": "autumn leaves"
+        }
+      ],
+      "keyword": "leaf",
+      "etymology": "Grass (艹) over a layered tree (木+世) — many leaves layered on a tree.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "釈",
+      "meanings": [
+        "explain",
+        "interpret",
+        "release",
+        "Buddhist term"
+      ],
+      "on_yomi": [
+        "シャク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "会釈",
+          "kana": "えしゃく",
+          "meaning": "slight bow, nod of greeting"
+        },
+        {
+          "kanji": "解釈",
+          "kana": "かいしゃく",
+          "meaning": "interpretation"
+        },
+        {
+          "kanji": "釈明",
+          "kana": "しゃくめい",
+          "meaning": "explanation, justification"
+        }
+      ],
+      "keyword": "explain",
+      "etymology": "Claws releasing something (采) over a measured length (尺) — freeing and explaining.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "頭",
+      "meanings": [
+        "head",
+        "top",
+        "chief",
+        "counter for animals"
+      ],
+      "on_yomi": [
+        "トウ",
+        "ズ"
+      ],
+      "kun_yomi": [
+        "あたま",
+        "かしら"
+      ],
+      "examples": [
+        {
+          "kanji": "頭",
+          "kana": "あたま",
+          "meaning": "head"
+        },
+        {
+          "kanji": "頭痛",
+          "kana": "ずつう",
+          "meaning": "headache"
+        },
+        {
+          "kanji": "先頭",
+          "kana": "せんとう",
+          "meaning": "the lead, the front"
+        }
+      ],
+      "keyword": "head",
+      "etymology": "A bean/vessel (豆) at the top of the body (頁 — head radical) — what sits at the very top.",
+      "stroke_count": 16,
+      "jlpt": "N3",
+      "grade": 2,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "鳴",
+      "meanings": [
+        "sound",
+        "cry",
+        "ring",
+        "chirp",
+        "roar"
+      ],
+      "on_yomi": [
+        "メイ"
+      ],
+      "kun_yomi": [
+        "な(く)",
+        "な(る)",
+        "な(らす)"
+      ],
+      "examples": [
+        {
+          "kanji": "鳴る",
+          "kana": "なる",
+          "meaning": "to ring, to sound"
+        },
+        {
+          "kanji": "鳴く",
+          "kana": "なく",
+          "meaning": "to chirp, to cry (of animal)"
+        },
+        {
+          "kanji": "悲鳴",
+          "kana": "ひめい",
+          "meaning": "scream, shriek"
+        }
+      ],
+      "keyword": "ring",
+      "etymology": "A bird (鳥) opening its mouth (口) — a bird making its call.",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 2,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "寮",
+      "meanings": [
+        "dormitory",
+        "official residence"
+      ],
+      "on_yomi": [
+        "リョウ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "寮",
+          "kana": "りょう",
+          "meaning": "dormitory"
+        },
+        {
+          "kanji": "学生寮",
+          "kana": "がくせいりょう",
+          "meaning": "student dormitory"
+        },
+        {
+          "kanji": "寮生",
+          "kana": "りょうせい",
+          "meaning": "dormitory resident"
+        }
+      ],
+      "keyword": "dormitory",
+      "etymology": "A roof (宀) over many burning torches (尞 — lit flames) — many people living together.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "室",
+      "meanings": [
+        "room",
+        "chamber",
+        "cave"
+      ],
+      "on_yomi": [
+        "シツ"
+      ],
+      "kun_yomi": [
+        "むろ"
+      ],
+      "examples": [
+        {
+          "kanji": "研究室",
+          "kana": "けんきゅうしつ",
+          "meaning": "laboratory, research room"
+        },
+        {
+          "kanji": "教室",
+          "kana": "きょうしつ",
+          "meaning": "classroom"
+        },
+        {
+          "kanji": "同室",
+          "kana": "どうしつ",
+          "meaning": "same room"
+        }
+      ],
+      "keyword": "room",
+      "etymology": "A roof (宀) with something reaching all the way to the floor (至) — a fully enclosed room.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "寝",
+      "meanings": [
+        "sleep",
+        "go to bed",
+        "lie down"
+      ],
+      "on_yomi": [
+        "シン"
+      ],
+      "kun_yomi": [
+        "ね(る)",
+        "ね(かす)"
+      ],
+      "examples": [
+        {
+          "kanji": "寝る",
+          "kana": "ねる",
+          "meaning": "to sleep, to go to bed"
+        },
+        {
+          "kanji": "寝室",
+          "kana": "しんしつ",
+          "meaning": "bedroom"
+        },
+        {
+          "kanji": "寝坊",
+          "kana": "ねぼう",
+          "meaning": "oversleeping"
+        }
+      ],
+      "keyword": "sleep",
+      "etymology": "A roof (宀) over a broom (帚) and a bed plank (爿) — sweeping the room then lying down to rest.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "授",
+      "meanings": [
+        "grant",
+        "award",
+        "teach",
+        "confer"
+      ],
+      "on_yomi": [
+        "ジュ"
+      ],
+      "kun_yomi": [
+        "さず(ける)",
+        "さず(かる)"
+      ],
+      "examples": [
+        {
+          "kanji": "授業",
+          "kana": "じゅぎょう",
+          "meaning": "class, lesson"
+        },
+        {
+          "kanji": "教授",
+          "kana": "きょうじゅ",
+          "meaning": "professor"
+        },
+        {
+          "kanji": "授与",
+          "kana": "じゅよ",
+          "meaning": "conferral, award"
+        }
+      ],
+      "keyword": "grant",
+      "etymology": "A hand (扌) passing through another hand (受 — receiving) — handing down a teaching.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "降",
+      "meanings": [
+        "descend",
+        "fall",
+        "rain",
+        "get off"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [
+        "ふ(る)",
+        "お(りる)",
+        "お(ろす)"
+      ],
+      "examples": [
+        {
+          "kanji": "降る",
+          "kana": "ふる",
+          "meaning": "to fall (rain or snow)"
+        },
+        {
+          "kanji": "降りる",
+          "kana": "おりる",
+          "meaning": "to get off, to descend"
+        },
+        {
+          "kanji": "下降",
+          "kana": "かこう",
+          "meaning": "descent, decline"
+        }
+      ],
+      "keyword": "fall",
+      "etymology": "A hill (阜) with both feet stepping downward (夅) — descending a slope step by step.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "級",
+      "meanings": [
+        "rank",
+        "class",
+        "grade",
+        "level"
+      ],
+      "on_yomi": [
+        "キュウ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "同級生",
+          "kana": "どうきゅうせい",
+          "meaning": "classmate"
+        },
+        {
+          "kanji": "上級",
+          "kana": "じょうきゅう",
+          "meaning": "advanced level"
+        },
+        {
+          "kanji": "一級",
+          "kana": "いっきゅう",
+          "meaning": "first class, top rank"
+        }
+      ],
+      "keyword": "rank",
+      "etymology": "Thread (糸) knotted to mark a level (及 — reaching up) — knot-marks showing grade.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "病",
+      "meanings": [
+        "illness",
+        "disease",
+        "sick",
+        "defect"
+      ],
+      "on_yomi": [
+        "ビョウ",
+        "ヘイ"
+      ],
+      "kun_yomi": [
+        "や(む)",
+        "やまい"
+      ],
+      "examples": [
+        {
+          "kanji": "病気",
+          "kana": "びょうき",
+          "meaning": "illness, sickness"
+        },
+        {
+          "kanji": "病院",
+          "kana": "びょういん",
+          "meaning": "hospital"
+        },
+        {
+          "kanji": "病む",
+          "kana": "やむ",
+          "meaning": "to be ill"
+        }
+      ],
+      "keyword": "illness",
+      "etymology": "A sickbed/illness radical (疒) over a bent-up figure (丙) — someone laid low by sickness.",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "常",
+      "meanings": [
+        "usual",
+        "ordinary",
+        "always",
+        "normal"
+      ],
+      "on_yomi": [
+        "ジョウ"
+      ],
+      "kun_yomi": [
+        "つね",
+        "とこ"
+      ],
+      "examples": [
+        {
+          "kanji": "日常",
+          "kana": "にちじょう",
+          "meaning": "everyday life, the ordinary"
+        },
+        {
+          "kanji": "常識",
+          "kana": "じょうしき",
+          "meaning": "common sense"
+        },
+        {
+          "kanji": "非常に",
+          "kana": "ひじょうに",
+          "meaning": "extremely, very"
+        }
+      ],
+      "keyword": "ordinary",
+      "etymology": "An elevated cloth (尚 — high) with a hanging skirt (巾) — the regular, customary draping.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "寒",
+      "meanings": [
+        "cold",
+        "wintry",
+        "chilly"
+      ],
+      "on_yomi": [
+        "カン"
+      ],
+      "kun_yomi": [
+        "さむ(い)"
+      ],
+      "examples": [
+        {
+          "kanji": "寒い",
+          "kana": "さむい",
+          "meaning": "cold"
+        },
+        {
+          "kanji": "寒気",
+          "kana": "さむけ",
+          "meaning": "chill, shiver"
+        },
+        {
+          "kanji": "厳寒",
+          "kana": "げんかん",
+          "meaning": "severe cold"
+        }
+      ],
+      "keyword": "cold",
+      "etymology": "A roof (宀) with ice crystals (仌) and straw mats (茻) — cold air seeping through a roof.",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "顔",
+      "meanings": [
+        "face",
+        "countenance",
+        "look"
+      ],
+      "on_yomi": [
+        "ガン"
+      ],
+      "kun_yomi": [
+        "かお"
+      ],
+      "examples": [
+        {
+          "kanji": "顔",
+          "kana": "かお",
+          "meaning": "face"
+        },
+        {
+          "kanji": "顔色",
+          "kana": "かおいろ",
+          "meaning": "complexion, facial expression"
+        },
+        {
+          "kanji": "笑顔",
+          "kana": "えがお",
+          "meaning": "smiling face, smile"
+        }
+      ],
+      "keyword": "face",
+      "etymology": "A talented person's decorated hair (彦) over the head radical (頁) — the adorned surface of the head.",
+      "stroke_count": 18,
+      "jlpt": "N3",
+      "grade": 2,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.2 (recognition)",
+        "JLPT N3"
+      ]
+    }
+  ]
+}

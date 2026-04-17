@@ -1,0 +1,950 @@
+{
+  "deck_id": "integrated-intermediate-ch3",
+  "deck_name": "An Integrated Approach — Ch.3 Kanji",
+  "version": "1.0",
+  "notes": "Kanji sourced from the 書くのを覚える漢字 list in An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 3. Each card covers one kanji with readings, 3 example words, a mnemonic etymology, stroke count, JLPT level, and school grade.",
+  "card_count": 23,
+  "cards": [
+    {
+      "kanji": "頼",
+      "meanings": [
+        "rely on",
+        "request",
+        "ask a favor",
+        "trust"
+      ],
+      "on_yomi": [
+        "ライ"
+      ],
+      "kun_yomi": [
+        "たの(む)",
+        "たの(もしい)",
+        "たよ(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "頼む",
+          "kana": "たのむ",
+          "meaning": "to ask, to request a favor"
+        },
+        {
+          "kanji": "依頼",
+          "kana": "いらい",
+          "meaning": "request, commission"
+        },
+        {
+          "kanji": "頼る",
+          "kana": "たよる",
+          "meaning": "to rely on, to depend on"
+        }
+      ],
+      "keyword": "rely",
+      "etymology": "A beam/bar (束) over a small page (頁) — leaning on something for support.",
+      "stroke_count": 16,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "忘",
+      "meanings": [
+        "forget",
+        "neglect"
+      ],
+      "on_yomi": [
+        "ボウ"
+      ],
+      "kun_yomi": [
+        "わす(れる)"
+      ],
+      "examples": [
+        {
+          "kanji": "忘れる",
+          "kana": "わすれる",
+          "meaning": "to forget"
+        },
+        {
+          "kanji": "忘れ物",
+          "kana": "わすれもの",
+          "meaning": "forgotten item, lost item"
+        },
+        {
+          "kanji": "備忘録",
+          "kana": "びぼうろく",
+          "meaning": "memorandum, notes"
+        }
+      ],
+      "keyword": "forget",
+      "etymology": "A dying/perishing heart (亡 + 心) — the heart fading and forgetting.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "枚",
+      "meanings": [
+        "counter for flat objects (sheets, boards)"
+      ],
+      "on_yomi": [
+        "マイ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "三枚",
+          "kana": "さんまい",
+          "meaning": "three sheets/pieces"
+        },
+        {
+          "kanji": "一枚",
+          "kana": "いちまい",
+          "meaning": "one sheet, one piece"
+        },
+        {
+          "kanji": "枚数",
+          "kana": "まいすう",
+          "meaning": "number of sheets"
+        }
+      ],
+      "keyword": "flat-counter",
+      "etymology": "A tree (木) split by a branch (攴) — flat planks split from a log.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "受",
+      "meanings": [
+        "receive",
+        "accept",
+        "take",
+        "undergo"
+      ],
+      "on_yomi": [
+        "ジュ"
+      ],
+      "kun_yomi": [
+        "う(ける)",
+        "う(かる)"
+      ],
+      "examples": [
+        {
+          "kanji": "受ける",
+          "kana": "うける",
+          "meaning": "to receive, to take (a test)"
+        },
+        {
+          "kanji": "受け取る",
+          "kana": "うけとる",
+          "meaning": "to receive"
+        },
+        {
+          "kanji": "受験",
+          "kana": "じゅけん",
+          "meaning": "taking an exam"
+        }
+      ],
+      "keyword": "receive",
+      "etymology": "Hands passing something (爪 + 又) with a boat (舟) between — handing off cargo.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "込",
+      "meanings": [
+        "crowded",
+        "included",
+        "packed in",
+        "込む"
+      ],
+      "on_yomi": [
+        "ニュウ（変）"
+      ],
+      "kun_yomi": [
+        "こ(む)",
+        "こ(める)"
+      ],
+      "examples": [
+        {
+          "kanji": "申し込む",
+          "kana": "もうしこむ",
+          "meaning": "to apply for, to sign up"
+        },
+        {
+          "kanji": "込む",
+          "kana": "こむ",
+          "meaning": "to be crowded"
+        },
+        {
+          "kanji": "書き込む",
+          "kana": "かきこむ",
+          "meaning": "to write in, to fill in"
+        }
+      ],
+      "keyword": "packed",
+      "etymology": "Walking (辶) into something (入) — pushing one's way inside.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "切",
+      "meanings": [
+        "cut",
+        "sever",
+        "expire",
+        "important"
+      ],
+      "on_yomi": [
+        "セツ",
+        "サイ"
+      ],
+      "kun_yomi": [
+        "き(る)",
+        "き(れる)"
+      ],
+      "examples": [
+        {
+          "kanji": "切手",
+          "kana": "きって",
+          "meaning": "postage stamp"
+        },
+        {
+          "kanji": "切る",
+          "kana": "きる",
+          "meaning": "to cut"
+        },
+        {
+          "kanji": "大切",
+          "kana": "たいせつ",
+          "meaning": "important, precious"
+        }
+      ],
+      "keyword": "cut",
+      "etymology": "A knife (刀) cutting through something (七 — a bent stroke) — a clean cut.",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "送",
+      "meanings": [
+        "send",
+        "dispatch",
+        "escort",
+        "transmit"
+      ],
+      "on_yomi": [
+        "ソウ"
+      ],
+      "kun_yomi": [
+        "おく(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "送る",
+          "kana": "おくる",
+          "meaning": "to send"
+        },
+        {
+          "kanji": "放送",
+          "kana": "ほうそう",
+          "meaning": "broadcast"
+        },
+        {
+          "kanji": "送別会",
+          "kana": "そうべつかい",
+          "meaning": "farewell party"
+        }
+      ],
+      "keyword": "send",
+      "etymology": "Walking (辶) while carrying something (关 — raised hands) — escorting and sending off.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "屋",
+      "meanings": [
+        "roof",
+        "house",
+        "shop",
+        "dealer",
+        "suffix for trades"
+      ],
+      "on_yomi": [
+        "オク"
+      ],
+      "kun_yomi": [
+        "や"
+      ],
+      "examples": [
+        {
+          "kanji": "部屋",
+          "kana": "へや",
+          "meaning": "room"
+        },
+        {
+          "kanji": "屋根",
+          "kana": "やね",
+          "meaning": "roof"
+        },
+        {
+          "kanji": "本屋",
+          "kana": "ほんや",
+          "meaning": "bookstore"
+        }
+      ],
+      "keyword": "shop",
+      "etymology": "A roof (尸) over a dead/inert thing (至) — a covered shelter, a shop under a roof.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "痛",
+      "meanings": [
+        "pain",
+        "ache",
+        "sore",
+        "grief"
+      ],
+      "on_yomi": [
+        "ツウ"
+      ],
+      "kun_yomi": [
+        "いた(い)",
+        "いた(む)"
+      ],
+      "examples": [
+        {
+          "kanji": "痛い",
+          "kana": "いたい",
+          "meaning": "painful, sore"
+        },
+        {
+          "kanji": "頭痛",
+          "kana": "ずつう",
+          "meaning": "headache"
+        },
+        {
+          "kanji": "苦痛",
+          "kana": "くつう",
+          "meaning": "pain, suffering"
+        }
+      ],
+      "keyword": "pain",
+      "etymology": "Illness (疒) from something gouging (甬 — piercing) — a stabbing pain.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "思",
+      "meanings": [
+        "think",
+        "consider",
+        "feel",
+        "miss"
+      ],
+      "on_yomi": [
+        "シ"
+      ],
+      "kun_yomi": [
+        "おも(う)"
+      ],
+      "examples": [
+        {
+          "kanji": "思い出",
+          "kana": "おもいで",
+          "meaning": "memory, recollection"
+        },
+        {
+          "kanji": "思う",
+          "kana": "おもう",
+          "meaning": "to think, to feel"
+        },
+        {
+          "kanji": "思想",
+          "kana": "しそう",
+          "meaning": "thought, ideology"
+        }
+      ],
+      "keyword": "think/feel",
+      "etymology": "A brain/field (囟/田) over the heart (心) — the mind and heart working together.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "利",
+      "meanings": [
+        "benefit",
+        "profit",
+        "advantage",
+        "interest"
+      ],
+      "on_yomi": [
+        "リ"
+      ],
+      "kun_yomi": [
+        "き(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "利用",
+          "kana": "りよう",
+          "meaning": "use, utilization"
+        },
+        {
+          "kanji": "便利",
+          "kana": "べんり",
+          "meaning": "convenient"
+        },
+        {
+          "kanji": "利益",
+          "kana": "りえき",
+          "meaning": "profit, benefit"
+        }
+      ],
+      "keyword": "benefit",
+      "etymology": "Grain (禾) cut with a knife (刀) — harvesting the crop, reaping benefit.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "便",
+      "meanings": [
+        "convenient",
+        "mail",
+        "excretion"
+      ],
+      "on_yomi": [
+        "ベン",
+        "ビン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "便利",
+          "kana": "べんり",
+          "meaning": "convenient"
+        },
+        {
+          "kanji": "郵便",
+          "kana": "ゆうびん",
+          "meaning": "postal mail"
+        },
+        {
+          "kanji": "便所",
+          "kana": "べんじょ",
+          "meaning": "toilet, lavatory"
+        }
+      ],
+      "keyword": "convenient",
+      "etymology": "A person (亻) modifying/changing (更) their position — adapting to be convenient.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "違",
+      "meanings": [
+        "differ",
+        "wrong",
+        "mistake",
+        "break a rule"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [
+        "ちが(う)",
+        "ちが(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "違う",
+          "kana": "ちがう",
+          "meaning": "to differ, to be wrong"
+        },
+        {
+          "kanji": "間違える",
+          "kana": "まちがえる",
+          "meaning": "to make a mistake"
+        },
+        {
+          "kanji": "違法",
+          "kana": "いほう",
+          "meaning": "illegal, unlawful"
+        }
+      ],
+      "keyword": "differ",
+      "etymology": "Walking (辶) in a crossed/opposite direction (韋) — going against the flow.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "以",
+      "meanings": [
+        "by means of",
+        "because of",
+        "compared to",
+        "since"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "以外",
+          "kana": "いがい",
+          "meaning": "other than, except for"
+        },
+        {
+          "kanji": "以上",
+          "kana": "いじょう",
+          "meaning": "more than, above"
+        },
+        {
+          "kanji": "以下",
+          "kana": "いか",
+          "meaning": "below, less than"
+        }
+      ],
+      "keyword": "by means of",
+      "etymology": "A person (人) facing a plowing tool (耜 simplified) — using a tool as a means.",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "助",
+      "meanings": [
+        "help",
+        "rescue",
+        "assist",
+        "save"
+      ],
+      "on_yomi": [
+        "ジョ"
+      ],
+      "kun_yomi": [
+        "たす(ける)",
+        "たす(かる)"
+      ],
+      "examples": [
+        {
+          "kanji": "助ける",
+          "kana": "たすける",
+          "meaning": "to help, to save"
+        },
+        {
+          "kanji": "助手",
+          "kana": "じょしゅ",
+          "meaning": "assistant"
+        },
+        {
+          "kanji": "救助",
+          "kana": "きゅうじょ",
+          "meaning": "rescue"
+        }
+      ],
+      "keyword": "help",
+      "etymology": "A bundle of power (且 — stacked) with strength (力) — lending one's strength.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "全",
+      "meanings": [
+        "all",
+        "whole",
+        "complete",
+        "entire",
+        "perfect"
+      ],
+      "on_yomi": [
+        "ゼン"
+      ],
+      "kun_yomi": [
+        "すべ(て)",
+        "まった(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "全部",
+          "kana": "ぜんぶ",
+          "meaning": "all, everything"
+        },
+        {
+          "kanji": "全員",
+          "kana": "ぜんいん",
+          "meaning": "all members"
+        },
+        {
+          "kanji": "完全",
+          "kana": "かんぜん",
+          "meaning": "perfect, complete"
+        }
+      ],
+      "keyword": "all",
+      "etymology": "A roof (入) sheltering a king's jewel (王) — everything under one roof, whole.",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "終",
+      "meanings": [
+        "end",
+        "finish",
+        "conclude",
+        "last"
+      ],
+      "on_yomi": [
+        "シュウ"
+      ],
+      "kun_yomi": [
+        "お(わる)",
+        "お(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "終わる",
+          "kana": "おわる",
+          "meaning": "to end, to finish"
+        },
+        {
+          "kanji": "終電",
+          "kana": "しゅうでん",
+          "meaning": "last train"
+        },
+        {
+          "kanji": "最終",
+          "kana": "さいしゅう",
+          "meaning": "last, final"
+        }
+      ],
+      "keyword": "end",
+      "etymology": "Thread (糸) tied in a winter knot (冬) — the thread of events knotted at the end.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "識",
+      "meanings": [
+        "know",
+        "distinguish",
+        "awareness",
+        "experience"
+      ],
+      "on_yomi": [
+        "シキ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "知識",
+          "kana": "ちしき",
+          "meaning": "knowledge"
+        },
+        {
+          "kanji": "常識",
+          "kana": "じょうしき",
+          "meaning": "common sense"
+        },
+        {
+          "kanji": "認識",
+          "kana": "にんしき",
+          "meaning": "recognition, understanding"
+        }
+      ],
+      "keyword": "knowledge",
+      "etymology": "Words (言) plus a halberd on a drum (戠) — registering and distinguishing sounds.",
+      "stroke_count": 19,
+      "jlpt": "N2",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "音",
+      "meanings": [
+        "sound",
+        "noise",
+        "pronunciation"
+      ],
+      "on_yomi": [
+        "オン",
+        "イン"
+      ],
+      "kun_yomi": [
+        "おと",
+        "ね"
+      ],
+      "examples": [
+        {
+          "kanji": "音楽",
+          "kana": "おんがく",
+          "meaning": "music"
+        },
+        {
+          "kanji": "音",
+          "kana": "おと",
+          "meaning": "sound, noise"
+        },
+        {
+          "kanji": "発音",
+          "kana": "はつおん",
+          "meaning": "pronunciation"
+        }
+      ],
+      "keyword": "sound",
+      "etymology": "The sun (日) breaking through the horizon (立) — the first sounds at dawn.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 1,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "楽",
+      "meanings": [
+        "music",
+        "ease",
+        "comfort",
+        "fun",
+        "enjoyable"
+      ],
+      "on_yomi": [
+        "ガク",
+        "ラク"
+      ],
+      "kun_yomi": [
+        "たの(しい)",
+        "たの(しむ)"
+      ],
+      "examples": [
+        {
+          "kanji": "音楽",
+          "kana": "おんがく",
+          "meaning": "music"
+        },
+        {
+          "kanji": "楽しい",
+          "kana": "たのしい",
+          "meaning": "fun, enjoyable"
+        },
+        {
+          "kanji": "気楽",
+          "kana": "きらく",
+          "meaning": "easygoing, relaxed"
+        }
+      ],
+      "keyword": "enjoy",
+      "etymology": "Bells (白 + 幺×2) hung on a wooden frame (木) — a musical instrument to enjoy.",
+      "stroke_count": 13,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "達",
+      "meanings": [
+        "reach",
+        "attain",
+        "plural suffix",
+        "experts"
+      ],
+      "on_yomi": [
+        "タツ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "友達",
+          "kana": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "kanji": "上達",
+          "kana": "じょうたつ",
+          "meaning": "improvement, progress"
+        },
+        {
+          "kanji": "達成",
+          "kana": "たっせい",
+          "meaning": "achievement, accomplishment"
+        }
+      ],
+      "keyword": "reach",
+      "etymology": "Walking (辶) while a lamb (羊 variant) follows — arriving together at the destination.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "特",
+      "meanings": [
+        "special",
+        "particular",
+        "distinguished"
+      ],
+      "on_yomi": [
+        "トク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "特に",
+          "kana": "とくに",
+          "meaning": "especially, particularly"
+        },
+        {
+          "kanji": "特別",
+          "kana": "とくべつ",
+          "meaning": "special"
+        },
+        {
+          "kanji": "特徴",
+          "kana": "とくちょう",
+          "meaning": "characteristic, feature"
+        }
+      ],
+      "keyword": "special",
+      "etymology": "A cow/ox (牛) at a temple (寺) — a specially chosen ox for ritual offering.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "知",
+      "meanings": [
+        "know",
+        "knowledge",
+        "wisdom"
+      ],
+      "on_yomi": [
+        "チ"
+      ],
+      "kun_yomi": [
+        "し(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "知識",
+          "kana": "ちしき",
+          "meaning": "knowledge"
+        },
+        {
+          "kanji": "知る",
+          "kana": "しる",
+          "meaning": "to know"
+        },
+        {
+          "kanji": "知人",
+          "kana": "ちじん",
+          "meaning": "acquaintance"
+        }
+      ],
+      "keyword": "know",
+      "etymology": "An arrow (矢) aimed at a mouth (口) — a quick, sharp knowing.",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.3",
+        "JLPT N4"
+      ]
+    }
+  ]
+}

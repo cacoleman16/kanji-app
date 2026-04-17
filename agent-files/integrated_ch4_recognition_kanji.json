@@ -1,0 +1,993 @@
+{
+  "deck_id": "integrated-intermediate-ch4-recognition",
+  "deck_name": "An Integrated Approach — Ch.4 読めればいい漢字",
+  "version": "1.0",
+  "notes": "Recognition-only kanji (読めればいい漢字) from An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 4. All cards carry write_required=false. Students need to read these kanji but are not tested on writing them.",
+  "card_count": 23,
+  "cards": [
+    {
+      "kanji": "許",
+      "meanings": [
+        "permit",
+        "allow",
+        "forgive",
+        "license"
+      ],
+      "on_yomi": [
+        "キョ"
+      ],
+      "kun_yomi": [
+        "ゆる(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "許可",
+          "kana": "きょか",
+          "meaning": "permission, authorization"
+        },
+        {
+          "kanji": "許す",
+          "kana": "ゆるす",
+          "meaning": "to permit, to forgive"
+        },
+        {
+          "kanji": "免許",
+          "kana": "めんきょ",
+          "meaning": "license, permit"
+        }
+      ],
+      "keyword": "permit",
+      "etymology": "Words (言) balanced at a midpoint (午 — balanced noon) — speaking in a measured, allowing way.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "財",
+      "meanings": [
+        "wealth",
+        "property",
+        "asset",
+        "talent"
+      ],
+      "on_yomi": [
+        "ザイ"
+      ],
+      "kun_yomi": [
+        "たから"
+      ],
+      "examples": [
+        {
+          "kanji": "財布",
+          "kana": "さいふ",
+          "meaning": "wallet, purse"
+        },
+        {
+          "kanji": "財産",
+          "kana": "ざいさん",
+          "meaning": "assets, property"
+        },
+        {
+          "kanji": "財政",
+          "kana": "ざいせい",
+          "meaning": "public finance"
+        }
+      ],
+      "keyword": "wealth",
+      "etymology": "Shell/money (貝) beside skill/talent (才) — wealth created through skilled hands.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "布",
+      "meanings": [
+        "cloth",
+        "spread",
+        "distribute",
+        "linen"
+      ],
+      "on_yomi": [
+        "フ"
+      ],
+      "kun_yomi": [
+        "ぬの"
+      ],
+      "examples": [
+        {
+          "kanji": "財布",
+          "kana": "さいふ",
+          "meaning": "wallet, purse"
+        },
+        {
+          "kanji": "布",
+          "kana": "ぬの",
+          "meaning": "cloth, fabric"
+        },
+        {
+          "kanji": "毛布",
+          "kana": "もうふ",
+          "meaning": "blanket"
+        }
+      ],
+      "keyword": "cloth",
+      "etymology": "A hand holding cloth out (父+巾) — spreading fabric to let it air.",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "背",
+      "meanings": [
+        "back",
+        "height",
+        "disobey",
+        "turn away"
+      ],
+      "on_yomi": [
+        "ハイ"
+      ],
+      "kun_yomi": [
+        "せ",
+        "せい",
+        "そむ(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "背",
+          "kana": "せ",
+          "meaning": "back; height"
+        },
+        {
+          "kanji": "背景",
+          "kana": "はいけい",
+          "meaning": "background, backdrop"
+        },
+        {
+          "kanji": "背中",
+          "kana": "せなか",
+          "meaning": "one's back"
+        }
+      ],
+      "keyword": "back",
+      "etymology": "Two people back-to-back (北 — turning away) above a body (月) — the back turned from another.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "弁",
+      "meanings": [
+        "speech",
+        "petal",
+        "valve",
+        "dialect",
+        "defense"
+      ],
+      "on_yomi": [
+        "ベン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "弁護士",
+          "kana": "べんごし",
+          "meaning": "lawyer, attorney"
+        },
+        {
+          "kanji": "弁当",
+          "kana": "べんとう",
+          "meaning": "boxed lunch"
+        },
+        {
+          "kanji": "弁護",
+          "kana": "べんご",
+          "meaning": "defense, advocacy"
+        }
+      ],
+      "keyword": "speech",
+      "etymology": "Two hands (廾) holding something in the middle (厶) — speaking to handle a matter.",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "護",
+      "meanings": [
+        "protect",
+        "defend",
+        "guard",
+        "care for"
+      ],
+      "on_yomi": [
+        "ゴ"
+      ],
+      "kun_yomi": [
+        "まも(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "弁護士",
+          "kana": "べんごし",
+          "meaning": "lawyer, attorney"
+        },
+        {
+          "kanji": "保護",
+          "kana": "ほご",
+          "meaning": "protection"
+        },
+        {
+          "kanji": "護衛",
+          "kana": "ごえい",
+          "meaning": "escort, bodyguard"
+        }
+      ],
+      "keyword": "protect",
+      "etymology": "Words (言) with a sheltering hand over a bird (隹+又) — guarding with care and speech.",
+      "stroke_count": 20,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "士",
+      "meanings": [
+        "samurai",
+        "warrior",
+        "professional (suffix)",
+        "man"
+      ],
+      "on_yomi": [
+        "シ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "弁護士",
+          "kana": "べんごし",
+          "meaning": "lawyer, attorney"
+        },
+        {
+          "kanji": "博士",
+          "kana": "はかせ",
+          "meaning": "doctor, PhD"
+        },
+        {
+          "kanji": "兵士",
+          "kana": "へいし",
+          "meaning": "soldier"
+        }
+      ],
+      "keyword": "warrior",
+      "etymology": "A horizontal stroke over a vertical — an axe standing upright, emblem of a warrior.",
+      "stroke_count": 3,
+      "jlpt": "N3",
+      "grade": 4,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "珍",
+      "meanings": [
+        "rare",
+        "unusual",
+        "curious",
+        "precious"
+      ],
+      "on_yomi": [
+        "チン"
+      ],
+      "kun_yomi": [
+        "めずら(しい)"
+      ],
+      "examples": [
+        {
+          "kanji": "珍しい",
+          "kana": "めずらしい",
+          "meaning": "rare, unusual"
+        },
+        {
+          "kanji": "珍味",
+          "kana": "ちんみ",
+          "meaning": "rare delicacy"
+        },
+        {
+          "kanji": "珍しい物",
+          "kana": "めずらしいもの",
+          "meaning": "rare item"
+        }
+      ],
+      "keyword": "rare",
+      "etymology": "Jade/gem (王) with scattered flecks (彡 — rays and stripes) — a gem with a uniquely rare pattern.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "然",
+      "meanings": [
+        "so",
+        "thus",
+        "natural",
+        "however",
+        "burning"
+      ],
+      "on_yomi": [
+        "ゼン",
+        "ネン"
+      ],
+      "kun_yomi": [
+        "しか(り)",
+        "しか(し)"
+      ],
+      "examples": [
+        {
+          "kanji": "全然",
+          "kana": "ぜんぜん",
+          "meaning": "not at all; completely"
+        },
+        {
+          "kanji": "自然",
+          "kana": "しぜん",
+          "meaning": "nature"
+        },
+        {
+          "kanji": "当然",
+          "kana": "とうぜん",
+          "meaning": "naturally, of course"
+        }
+      ],
+      "keyword": "natural",
+      "etymology": "A dog (犬) roasting over fire (灬) — something burning naturally, the way things truly are.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "都",
+      "meanings": [
+        "capital",
+        "metropolis",
+        "all",
+        "Tokyo"
+      ],
+      "on_yomi": [
+        "ト",
+        "ツ"
+      ],
+      "kun_yomi": [
+        "みやこ"
+      ],
+      "examples": [
+        {
+          "kanji": "州都",
+          "kana": "しゅうと",
+          "meaning": "state capital"
+        },
+        {
+          "kanji": "都市",
+          "kana": "とし",
+          "meaning": "city, urban area"
+        },
+        {
+          "kanji": "東京都",
+          "kana": "とうきょうと",
+          "meaning": "Tokyo Metropolis"
+        }
+      ],
+      "keyword": "metropolis",
+      "etymology": "Many people gathered (者) behind a city wall (阜) — where everyone converges, a capital.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "皆",
+      "meanings": [
+        "everyone",
+        "all",
+        "without exception"
+      ],
+      "on_yomi": [
+        "カイ"
+      ],
+      "kun_yomi": [
+        "みな",
+        "みんな"
+      ],
+      "examples": [
+        {
+          "kanji": "皆さん",
+          "kana": "みなさん",
+          "meaning": "everyone, all of you"
+        },
+        {
+          "kanji": "皆",
+          "kana": "みな",
+          "meaning": "everyone, all"
+        },
+        {
+          "kanji": "皆様",
+          "kana": "みなさま",
+          "meaning": "ladies and gentlemen (formal)"
+        }
+      ],
+      "keyword": "everyone",
+      "etymology": "Two people comparing (比) over a shell/value (貝) — all present and accounted for.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "求",
+      "meanings": [
+        "seek",
+        "request",
+        "desire",
+        "demand"
+      ],
+      "on_yomi": [
+        "キュウ"
+      ],
+      "kun_yomi": [
+        "もと(める)"
+      ],
+      "examples": [
+        {
+          "kanji": "求める",
+          "kana": "もとめる",
+          "meaning": "to seek, to desire"
+        },
+        {
+          "kanji": "要求",
+          "kana": "ようきゅう",
+          "meaning": "demand, request"
+        },
+        {
+          "kanji": "求人",
+          "kana": "きゅうじん",
+          "meaning": "job offer, help wanted"
+        }
+      ],
+      "keyword": "seek",
+      "etymology": "Water flowing outward in all directions — reaching out in every direction for what one needs.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "偶",
+      "meanings": [
+        "accidental",
+        "coincidental",
+        "even (number)",
+        "occasionally"
+      ],
+      "on_yomi": [
+        "グウ"
+      ],
+      "kun_yomi": [
+        "たま(に)"
+      ],
+      "examples": [
+        {
+          "kanji": "偶然",
+          "kana": "ぐうぜん",
+          "meaning": "coincidence, by chance"
+        },
+        {
+          "kanji": "偶数",
+          "kana": "ぐうすう",
+          "meaning": "even number"
+        },
+        {
+          "kanji": "偶に",
+          "kana": "たまに",
+          "meaning": "occasionally, once in a while"
+        }
+      ],
+      "keyword": "coincidence",
+      "etymology": "A person (亻) paired with a companion (禺 — a primate pair) — two brought together by chance.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "紅",
+      "meanings": [
+        "crimson",
+        "red",
+        "rouge",
+        "blush"
+      ],
+      "on_yomi": [
+        "コウ",
+        "ク"
+      ],
+      "kun_yomi": [
+        "く(れない)",
+        "べに"
+      ],
+      "examples": [
+        {
+          "kanji": "紅葉",
+          "kana": "こうよう",
+          "meaning": "autumn leaves; red maple"
+        },
+        {
+          "kanji": "紅茶",
+          "kana": "こうちゃ",
+          "meaning": "black tea"
+        },
+        {
+          "kanji": "紅白",
+          "kana": "こうはく",
+          "meaning": "red and white"
+        }
+      ],
+      "keyword": "crimson",
+      "etymology": "Thread (糸) dyed with a crafted red pigment (工) — thread brilliantly dyed crimson.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "居",
+      "meanings": [
+        "exist",
+        "reside",
+        "be (animate)",
+        "dwell"
+      ],
+      "on_yomi": [
+        "キョ"
+      ],
+      "kun_yomi": [
+        "い(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "居酒屋",
+          "kana": "いざかや",
+          "meaning": "izakaya, Japanese pub"
+        },
+        {
+          "kanji": "居る",
+          "kana": "いる",
+          "meaning": "to be (animate), to exist"
+        },
+        {
+          "kanji": "同居",
+          "kana": "どうきょ",
+          "meaning": "living together"
+        }
+      ],
+      "keyword": "reside",
+      "etymology": "A corpse/body shape (尸) settled over an ancient pot (古) — someone resting in a fixed place.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "酒",
+      "meanings": [
+        "sake",
+        "alcohol",
+        "liquor"
+      ],
+      "on_yomi": [
+        "シュ"
+      ],
+      "kun_yomi": [
+        "さけ",
+        "さか"
+      ],
+      "examples": [
+        {
+          "kanji": "居酒屋",
+          "kana": "いざかや",
+          "meaning": "izakaya, Japanese pub"
+        },
+        {
+          "kanji": "日本酒",
+          "kana": "にほんしゅ",
+          "meaning": "Japanese sake"
+        },
+        {
+          "kanji": "お酒",
+          "kana": "おさけ",
+          "meaning": "alcohol, sake"
+        }
+      ],
+      "keyword": "sake",
+      "etymology": "Water (氵) beside a wine jar (酉) — liquid fermenting in a vessel.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "経",
+      "meanings": [
+        "pass through",
+        "experience",
+        "longitude",
+        "sutra",
+        "manage"
+      ],
+      "on_yomi": [
+        "ケイ",
+        "キョウ"
+      ],
+      "kun_yomi": [
+        "へ(る)",
+        "た(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "経験",
+          "kana": "けいけん",
+          "meaning": "experience"
+        },
+        {
+          "kanji": "経済",
+          "kana": "けいざい",
+          "meaning": "economy"
+        },
+        {
+          "kanji": "経つ",
+          "kana": "たつ",
+          "meaning": "to pass (of time)"
+        }
+      ],
+      "keyword": "passage",
+      "etymology": "Thread (糸) following a straight warp line (巠) — threads running true, a continuous course.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "済",
+      "meanings": [
+        "settle",
+        "complete",
+        "finish",
+        "be of use"
+      ],
+      "on_yomi": [
+        "サイ"
+      ],
+      "kun_yomi": [
+        "す(む)",
+        "す(ます)"
+      ],
+      "examples": [
+        {
+          "kanji": "済む",
+          "kana": "すむ",
+          "meaning": "to be finished, to be settled"
+        },
+        {
+          "kanji": "返済",
+          "kana": "へんさい",
+          "meaning": "repayment"
+        },
+        {
+          "kanji": "経済",
+          "kana": "けいざい",
+          "meaning": "economy"
+        }
+      ],
+      "keyword": "settle",
+      "etymology": "Water (氵) that has been ordered and cleared (斉 — orderly) — everything settled and done.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "携",
+      "meanings": [
+        "carry",
+        "bring along",
+        "be involved"
+      ],
+      "on_yomi": [
+        "ケイ"
+      ],
+      "kun_yomi": [
+        "たずさ(える)",
+        "たずさ(わる)"
+      ],
+      "examples": [
+        {
+          "kanji": "携帯",
+          "kana": "けいたい",
+          "meaning": "mobile phone; carrying"
+        },
+        {
+          "kanji": "携帯電話",
+          "kana": "けいたいでんわ",
+          "meaning": "cell phone"
+        },
+        {
+          "kanji": "携わる",
+          "kana": "たずさわる",
+          "meaning": "to be involved in"
+        }
+      ],
+      "keyword": "carry",
+      "etymology": "A hand (扌) lifting something that crowns (隽 — a prize bird) — carefully carrying in hand.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "帯",
+      "meanings": [
+        "belt",
+        "sash",
+        "zone",
+        "wear around",
+        "carry"
+      ],
+      "on_yomi": [
+        "タイ"
+      ],
+      "kun_yomi": [
+        "お(びる)",
+        "おび"
+      ],
+      "examples": [
+        {
+          "kanji": "携帯",
+          "kana": "けいたい",
+          "meaning": "mobile phone; carrying"
+        },
+        {
+          "kanji": "地帯",
+          "kana": "ちたい",
+          "meaning": "zone, belt, area"
+        },
+        {
+          "kanji": "熱帯",
+          "kana": "ねったい",
+          "meaning": "tropics"
+        }
+      ],
+      "keyword": "belt",
+      "etymology": "A cloth (巾) cinched with a decorative cord — a sash wrapped around the middle.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "打",
+      "meanings": [
+        "strike",
+        "hit",
+        "knock",
+        "type",
+        "pitch"
+      ],
+      "on_yomi": [
+        "ダ"
+      ],
+      "kun_yomi": [
+        "う(つ)",
+        "ぶ(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "打つ",
+          "kana": "うつ",
+          "meaning": "to hit, to strike"
+        },
+        {
+          "kanji": "打ち合わせ",
+          "kana": "うちあわせ",
+          "meaning": "meeting, briefing"
+        },
+        {
+          "kanji": "打開",
+          "kana": "だかい",
+          "meaning": "breakthrough"
+        }
+      ],
+      "keyword": "strike",
+      "etymology": "A hand (扌) landing a clean single blow (丁 — a nail) — striking with precision.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "物",
+      "meanings": [
+        "thing",
+        "object",
+        "matter",
+        "goods"
+      ],
+      "on_yomi": [
+        "ブツ",
+        "モツ"
+      ],
+      "kun_yomi": [
+        "もの"
+      ],
+      "examples": [
+        {
+          "kanji": "物",
+          "kana": "もの",
+          "meaning": "thing, object"
+        },
+        {
+          "kanji": "荷物",
+          "kana": "にもつ",
+          "meaning": "luggage, baggage"
+        },
+        {
+          "kanji": "食べ物",
+          "kana": "たべもの",
+          "meaning": "food"
+        }
+      ],
+      "keyword": "thing",
+      "etymology": "A cow (牛) of many mixed colors (勿 — various/don't) — the varied things around us.",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "足",
+      "meanings": [
+        "foot",
+        "leg",
+        "enough",
+        "suffice",
+        "add"
+      ],
+      "on_yomi": [
+        "ソク"
+      ],
+      "kun_yomi": [
+        "あし",
+        "た(りる)",
+        "た(る)",
+        "た(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "足りる",
+          "kana": "たりる",
+          "meaning": "to be enough, to suffice"
+        },
+        {
+          "kanji": "足",
+          "kana": "あし",
+          "meaning": "foot, leg"
+        },
+        {
+          "kanji": "不足",
+          "kana": "ふそく",
+          "meaning": "shortage, deficiency"
+        }
+      ],
+      "keyword": "foot",
+      "etymology": "The shape of a knee joint above a foot — the body part from knee to toe, also 'sufficient'.",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 1,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.4 (recognition)",
+        "JLPT N4"
+      ]
+    }
+  ]
+}

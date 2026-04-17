@@ -1,0 +1,3159 @@
+{
+  "deck_id": "jlpt-n5",
+  "deck_name": "JLPT N5",
+  "version": "1.0",
+  "card_count": 80,
+  "cards": [
+    {
+      "meanings": [
+        "one"
+      ],
+      "on_yomi": [
+        "イチ",
+        "イツ"
+      ],
+      "kun_yomi": [
+        "ひと(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "一つ",
+          "kana": "ひとつ",
+          "meaning": "one thing"
+        },
+        {
+          "kanji": "一番",
+          "kana": "いちばん",
+          "meaning": "number one"
+        },
+        {
+          "kanji": "一週間",
+          "kana": "いっしゅうかん",
+          "meaning": "one week"
+        }
+      ],
+      "keyword": "one",
+      "etymology": "A single horizontal stroke — the simplest unit.",
+      "stroke_count": 1,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "一",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "two"
+      ],
+      "on_yomi": [
+        "ニ"
+      ],
+      "kun_yomi": [
+        "ふた(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "二つ",
+          "kana": "ふたつ",
+          "meaning": "two things"
+        },
+        {
+          "kanji": "二月",
+          "kana": "にがつ",
+          "meaning": "February"
+        },
+        {
+          "kanji": "二人",
+          "kana": "ふたり",
+          "meaning": "two people"
+        }
+      ],
+      "keyword": "two",
+      "etymology": "Two horizontal strokes stacked — two counts.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "二",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "three"
+      ],
+      "on_yomi": [
+        "サン"
+      ],
+      "kun_yomi": [
+        "みっ(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "三つ",
+          "kana": "みっつ",
+          "meaning": "three things"
+        },
+        {
+          "kanji": "三月",
+          "kana": "さんがつ",
+          "meaning": "March"
+        },
+        {
+          "kanji": "三人",
+          "kana": "さんにん",
+          "meaning": "three people"
+        }
+      ],
+      "keyword": "three",
+      "etymology": "Three horizontal strokes — three counts.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "三",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "four"
+      ],
+      "on_yomi": [
+        "シ"
+      ],
+      "kun_yomi": [
+        "よっ(つ)",
+        "よん"
+      ],
+      "examples": [
+        {
+          "kanji": "四つ",
+          "kana": "よっつ",
+          "meaning": "four things"
+        },
+        {
+          "kanji": "四月",
+          "kana": "しがつ",
+          "meaning": "April"
+        },
+        {
+          "kanji": "四人",
+          "kana": "よにん",
+          "meaning": "four people"
+        }
+      ],
+      "keyword": "four",
+      "etymology": "A mouth (口) divided — four sections.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "四",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "five"
+      ],
+      "on_yomi": [
+        "ゴ"
+      ],
+      "kun_yomi": [
+        "いつ(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "五つ",
+          "kana": "いつつ",
+          "meaning": "five things"
+        },
+        {
+          "kanji": "五月",
+          "kana": "ごがつ",
+          "meaning": "May"
+        },
+        {
+          "kanji": "五人",
+          "kana": "ごにん",
+          "meaning": "five people"
+        }
+      ],
+      "keyword": "five",
+      "etymology": "Two strokes crossed with a hook — an ancient tally mark for five.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "五",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "six"
+      ],
+      "on_yomi": [
+        "ロク"
+      ],
+      "kun_yomi": [
+        "むっ(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "六つ",
+          "kana": "むっつ",
+          "meaning": "six things"
+        },
+        {
+          "kanji": "六月",
+          "kana": "ろくがつ",
+          "meaning": "June"
+        },
+        {
+          "kanji": "六人",
+          "kana": "ろくにん",
+          "meaning": "six people"
+        }
+      ],
+      "keyword": "six",
+      "etymology": "A roof with two legs — a house split six ways.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "六",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "seven"
+      ],
+      "on_yomi": [
+        "シチ"
+      ],
+      "kun_yomi": [
+        "なな(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "七つ",
+          "kana": "ななつ",
+          "meaning": "seven things"
+        },
+        {
+          "kanji": "七月",
+          "kana": "しちがつ",
+          "meaning": "July"
+        },
+        {
+          "kanji": "七夕",
+          "kana": "たなばた",
+          "meaning": "Tanabata festival"
+        }
+      ],
+      "keyword": "seven",
+      "etymology": "A horizontal stroke with a hook — an old tally mark.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "七",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "eight"
+      ],
+      "on_yomi": [
+        "ハチ"
+      ],
+      "kun_yomi": [
+        "やっ(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "八つ",
+          "kana": "やっつ",
+          "meaning": "eight things"
+        },
+        {
+          "kanji": "八月",
+          "kana": "はちがつ",
+          "meaning": "August"
+        },
+        {
+          "kanji": "八百屋",
+          "kana": "やおや",
+          "meaning": "greengrocer"
+        }
+      ],
+      "keyword": "eight",
+      "etymology": "Two strokes spreading outward — diverging, spreading wide.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "八",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "nine"
+      ],
+      "on_yomi": [
+        "ク",
+        "キュウ"
+      ],
+      "kun_yomi": [
+        "ここの(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "九つ",
+          "kana": "ここのつ",
+          "meaning": "nine things"
+        },
+        {
+          "kanji": "九月",
+          "kana": "くがつ",
+          "meaning": "September"
+        },
+        {
+          "kanji": "九州",
+          "kana": "きゅうしゅう",
+          "meaning": "Kyushu"
+        }
+      ],
+      "keyword": "nine",
+      "etymology": "A curved stroke with a hook — nearly a full circle, one away from ten.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "九",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "ten"
+      ],
+      "on_yomi": [
+        "ジュウ",
+        "ジッ"
+      ],
+      "kun_yomi": [
+        "とお"
+      ],
+      "examples": [
+        {
+          "kanji": "十",
+          "kana": "じゅう",
+          "meaning": "ten"
+        },
+        {
+          "kanji": "十月",
+          "kana": "じゅうがつ",
+          "meaning": "October"
+        },
+        {
+          "kanji": "二十",
+          "kana": "はたち",
+          "meaning": "twenty / age 20"
+        }
+      ],
+      "keyword": "ten",
+      "etymology": "A vertical stroke crossed by a horizontal — a plus sign, ten directions.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "十",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "hundred"
+      ],
+      "on_yomi": [
+        "ヒャク"
+      ],
+      "kun_yomi": [
+        "もも"
+      ],
+      "examples": [
+        {
+          "kanji": "百",
+          "kana": "ひゃく",
+          "meaning": "one hundred"
+        },
+        {
+          "kanji": "百円",
+          "kana": "ひゃくえん",
+          "meaning": "100 yen"
+        },
+        {
+          "kanji": "三百",
+          "kana": "さんびゃく",
+          "meaning": "three hundred"
+        }
+      ],
+      "keyword": "hundred",
+      "etymology": "One (一) above a white (白) — a hundred white hairs on an elder's head.",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "百",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "thousand"
+      ],
+      "on_yomi": [
+        "セン"
+      ],
+      "kun_yomi": [
+        "ち"
+      ],
+      "examples": [
+        {
+          "kanji": "千",
+          "kana": "せん",
+          "meaning": "one thousand"
+        },
+        {
+          "kanji": "千円",
+          "kana": "せんえん",
+          "meaning": "1000 yen"
+        },
+        {
+          "kanji": "三千",
+          "kana": "さんぜん",
+          "meaning": "three thousand"
+        }
+      ],
+      "keyword": "thousand",
+      "etymology": "Ten (十) with a slanted stroke — a thousand-fold magnification of ten.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "千",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "ten thousand",
+        "myriad"
+      ],
+      "on_yomi": [
+        "マン",
+        "バン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "一万",
+          "kana": "いちまん",
+          "meaning": "ten thousand"
+        },
+        {
+          "kanji": "万年筆",
+          "kana": "まんねんひつ",
+          "meaning": "fountain pen"
+        },
+        {
+          "kanji": "万が一",
+          "kana": "まんがいち",
+          "meaning": "one in ten thousand"
+        }
+      ],
+      "keyword": "myriad",
+      "etymology": "A swirling stroke — so many it can't be counted, a myriad.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "万",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "yen",
+        "circle",
+        "round"
+      ],
+      "on_yomi": [
+        "エン"
+      ],
+      "kun_yomi": [
+        "まる(い)"
+      ],
+      "examples": [
+        {
+          "kanji": "円",
+          "kana": "えん",
+          "meaning": "yen"
+        },
+        {
+          "kanji": "円い",
+          "kana": "まるい",
+          "meaning": "round, circular"
+        },
+        {
+          "kanji": "千円",
+          "kana": "せんえん",
+          "meaning": "1000 yen"
+        }
+      ],
+      "keyword": "yen",
+      "etymology": "A frame enclosing strokes — a rounded coin shape.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "円",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "year"
+      ],
+      "on_yomi": [
+        "ネン"
+      ],
+      "kun_yomi": [
+        "とし"
+      ],
+      "examples": [
+        {
+          "kanji": "今年",
+          "kana": "ことし",
+          "meaning": "this year"
+        },
+        {
+          "kanji": "毎年",
+          "kana": "まいとし",
+          "meaning": "every year"
+        },
+        {
+          "kanji": "去年",
+          "kana": "きょねん",
+          "meaning": "last year"
+        }
+      ],
+      "keyword": "year",
+      "etymology": "Grain (禾) stalks bent at harvest — one full harvest cycle, a year.",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "年",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "month",
+        "moon"
+      ],
+      "on_yomi": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kun_yomi": [
+        "つき"
+      ],
+      "examples": [
+        {
+          "kanji": "月曜日",
+          "kana": "げつようび",
+          "meaning": "Monday"
+        },
+        {
+          "kanji": "今月",
+          "kana": "こんげつ",
+          "meaning": "this month"
+        },
+        {
+          "kanji": "月見",
+          "kana": "つきみ",
+          "meaning": "moon-viewing"
+        }
+      ],
+      "keyword": "moon",
+      "etymology": "The crescent moon in simplified form.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "月",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "day",
+        "sun",
+        "Japan"
+      ],
+      "on_yomi": [
+        "ニチ",
+        "ジツ"
+      ],
+      "kun_yomi": [
+        "ひ",
+        "か"
+      ],
+      "examples": [
+        {
+          "kanji": "今日",
+          "kana": "きょう",
+          "meaning": "today"
+        },
+        {
+          "kanji": "日曜日",
+          "kana": "にちようび",
+          "meaning": "Sunday"
+        },
+        {
+          "kanji": "毎日",
+          "kana": "まいにち",
+          "meaning": "every day"
+        }
+      ],
+      "keyword": "sun",
+      "etymology": "A circle with a center dot — the sun.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "日",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "time",
+        "hour",
+        "o'clock"
+      ],
+      "on_yomi": [
+        "ジ"
+      ],
+      "kun_yomi": [
+        "とき"
+      ],
+      "examples": [
+        {
+          "kanji": "時間",
+          "kana": "じかん",
+          "meaning": "time, hour"
+        },
+        {
+          "kanji": "何時",
+          "kana": "なんじ",
+          "meaning": "what time"
+        },
+        {
+          "kanji": "時々",
+          "kana": "ときどき",
+          "meaning": "sometimes"
+        }
+      ],
+      "keyword": "time",
+      "etymology": "Sun (日) + temple (寺) — when the temple bell marks the sun's position.",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "時",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "minute",
+        "part",
+        "understand"
+      ],
+      "on_yomi": [
+        "フン",
+        "ブン"
+      ],
+      "kun_yomi": [
+        "わ(かる)",
+        "わ(ける)"
+      ],
+      "examples": [
+        {
+          "kanji": "五分",
+          "kana": "ごふん",
+          "meaning": "five minutes"
+        },
+        {
+          "kanji": "自分",
+          "kana": "じぶん",
+          "meaning": "oneself"
+        },
+        {
+          "kanji": "分かる",
+          "kana": "わかる",
+          "meaning": "to understand"
+        }
+      ],
+      "keyword": "minute",
+      "etymology": "A knife (刀) dividing (八) — splitting into parts.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "分",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "half"
+      ],
+      "on_yomi": [
+        "ハン"
+      ],
+      "kun_yomi": [
+        "なか(ば)"
+      ],
+      "examples": [
+        {
+          "kanji": "半分",
+          "kana": "はんぶん",
+          "meaning": "half"
+        },
+        {
+          "kanji": "一時半",
+          "kana": "いちじはん",
+          "meaning": "one thirty"
+        },
+        {
+          "kanji": "前半",
+          "kana": "ぜんはん",
+          "meaning": "first half"
+        }
+      ],
+      "keyword": "half",
+      "etymology": "A vertical stroke splitting a horizontal in two — cut in half.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "半",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "now",
+        "present"
+      ],
+      "on_yomi": [
+        "コン",
+        "キン"
+      ],
+      "kun_yomi": [
+        "いま"
+      ],
+      "examples": [
+        {
+          "kanji": "今",
+          "kana": "いま",
+          "meaning": "now"
+        },
+        {
+          "kanji": "今日",
+          "kana": "きょう",
+          "meaning": "today"
+        },
+        {
+          "kanji": "今年",
+          "kana": "ことし",
+          "meaning": "this year"
+        }
+      ],
+      "keyword": "now",
+      "etymology": "A cover pressing down — pinning the present moment.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "今",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "what",
+        "how many"
+      ],
+      "on_yomi": [
+        "カ"
+      ],
+      "kun_yomi": [
+        "なに",
+        "なん"
+      ],
+      "examples": [
+        {
+          "kanji": "何",
+          "kana": "なに",
+          "meaning": "what"
+        },
+        {
+          "kanji": "何時",
+          "kana": "なんじ",
+          "meaning": "what time"
+        },
+        {
+          "kanji": "何人",
+          "kana": "なんにん",
+          "meaning": "how many people"
+        }
+      ],
+      "keyword": "what",
+      "etymology": "Person (亻) by a burdensome load (可) — asking 'what is this?'",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "何",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "person",
+        "people"
+      ],
+      "on_yomi": [
+        "ジン",
+        "ニン"
+      ],
+      "kun_yomi": [
+        "ひと"
+      ],
+      "examples": [
+        {
+          "kanji": "人",
+          "kana": "ひと",
+          "meaning": "person"
+        },
+        {
+          "kanji": "日本人",
+          "kana": "にほんじん",
+          "meaning": "Japanese person"
+        },
+        {
+          "kanji": "三人",
+          "kana": "さんにん",
+          "meaning": "three people"
+        }
+      ],
+      "keyword": "person",
+      "etymology": "Two strokes — a person leaning against another, supporting each other.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "人",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "big",
+        "large",
+        "great"
+      ],
+      "on_yomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kun_yomi": [
+        "おお(きい)"
+      ],
+      "examples": [
+        {
+          "kanji": "大きい",
+          "kana": "おおきい",
+          "meaning": "big"
+        },
+        {
+          "kanji": "大学",
+          "kana": "だいがく",
+          "meaning": "university"
+        },
+        {
+          "kanji": "大人",
+          "kana": "おとな",
+          "meaning": "adult"
+        }
+      ],
+      "keyword": "big",
+      "etymology": "A person (人) with arms spread wide — as big as you can get.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "大",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "small",
+        "little"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "ちい(さい)",
+        "こ",
+        "お"
+      ],
+      "examples": [
+        {
+          "kanji": "小さい",
+          "kana": "ちいさい",
+          "meaning": "small"
+        },
+        {
+          "kanji": "小学校",
+          "kana": "しょうがっこう",
+          "meaning": "elementary school"
+        },
+        {
+          "kanji": "小説",
+          "kana": "しょうせつ",
+          "meaning": "novel"
+        }
+      ],
+      "keyword": "small",
+      "etymology": "A vertical stroke splitting two tiny dots — something small, divided.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "小",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "middle",
+        "inside",
+        "China"
+      ],
+      "on_yomi": [
+        "チュウ"
+      ],
+      "kun_yomi": [
+        "なか"
+      ],
+      "examples": [
+        {
+          "kanji": "中",
+          "kana": "なか",
+          "meaning": "inside, middle"
+        },
+        {
+          "kanji": "中学校",
+          "kana": "ちゅうがっこう",
+          "meaning": "middle school"
+        },
+        {
+          "kanji": "中国",
+          "kana": "ちゅうごく",
+          "meaning": "China"
+        }
+      ],
+      "keyword": "middle",
+      "etymology": "A vertical stroke through the center of a rectangle — right in the middle.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "中",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "above",
+        "up",
+        "top"
+      ],
+      "on_yomi": [
+        "ジョウ",
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "うえ",
+        "あ(がる)",
+        "のぼ(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "上",
+          "kana": "うえ",
+          "meaning": "above, top"
+        },
+        {
+          "kanji": "上手",
+          "kana": "じょうず",
+          "meaning": "skilled"
+        },
+        {
+          "kanji": "上がる",
+          "kana": "あがる",
+          "meaning": "to rise"
+        }
+      ],
+      "keyword": "above",
+      "etymology": "A short stroke above a line — pointing up.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "上",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "below",
+        "down",
+        "bottom"
+      ],
+      "on_yomi": [
+        "カ",
+        "ゲ"
+      ],
+      "kun_yomi": [
+        "した",
+        "さ(がる)",
+        "くだ(さい)"
+      ],
+      "examples": [
+        {
+          "kanji": "下",
+          "kana": "した",
+          "meaning": "below"
+        },
+        {
+          "kanji": "下手",
+          "kana": "へた",
+          "meaning": "unskilled"
+        },
+        {
+          "kanji": "地下",
+          "kana": "ちか",
+          "meaning": "underground"
+        }
+      ],
+      "keyword": "below",
+      "etymology": "A short stroke hanging below a line — pointing down.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "下",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "left"
+      ],
+      "on_yomi": [
+        "サ"
+      ],
+      "kun_yomi": [
+        "ひだり"
+      ],
+      "examples": [
+        {
+          "kanji": "左",
+          "kana": "ひだり",
+          "meaning": "left"
+        },
+        {
+          "kanji": "左手",
+          "kana": "ひだりて",
+          "meaning": "left hand"
+        },
+        {
+          "kanji": "左側",
+          "kana": "ひだりがわ",
+          "meaning": "left side"
+        }
+      ],
+      "keyword": "left",
+      "etymology": "A hand (ナ) holding a carpenter's tool (工) — the left hand at work.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "左",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "right"
+      ],
+      "on_yomi": [
+        "ウ",
+        "ユウ"
+      ],
+      "kun_yomi": [
+        "みぎ"
+      ],
+      "examples": [
+        {
+          "kanji": "右",
+          "kana": "みぎ",
+          "meaning": "right"
+        },
+        {
+          "kanji": "右手",
+          "kana": "みぎて",
+          "meaning": "right hand"
+        },
+        {
+          "kanji": "右側",
+          "kana": "みぎがわ",
+          "meaning": "right side"
+        }
+      ],
+      "keyword": "right",
+      "etymology": "A hand (ナ) bringing food to the mouth (口) — the right hand eats.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "右",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "front",
+        "before",
+        "ago"
+      ],
+      "on_yomi": [
+        "ゼン"
+      ],
+      "kun_yomi": [
+        "まえ"
+      ],
+      "examples": [
+        {
+          "kanji": "前",
+          "kana": "まえ",
+          "meaning": "front, before"
+        },
+        {
+          "kanji": "午前",
+          "kana": "ごぜん",
+          "meaning": "morning, AM"
+        },
+        {
+          "kanji": "名前",
+          "kana": "なまえ",
+          "meaning": "name"
+        }
+      ],
+      "keyword": "front",
+      "etymology": "A boat (舟) stopped by a knife (刂) — halted out front.",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "前",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "behind",
+        "after",
+        "later"
+      ],
+      "on_yomi": [
+        "ゴ",
+        "コウ"
+      ],
+      "kun_yomi": [
+        "あと",
+        "うし(ろ)",
+        "のち"
+      ],
+      "examples": [
+        {
+          "kanji": "後",
+          "kana": "あと",
+          "meaning": "after, later"
+        },
+        {
+          "kanji": "午後",
+          "kana": "ごご",
+          "meaning": "afternoon, PM"
+        },
+        {
+          "kanji": "後ろ",
+          "kana": "うしろ",
+          "meaning": "behind"
+        }
+      ],
+      "keyword": "behind",
+      "etymology": "Walking (彳) slowly (幺) with a foot (夂) — lagging behind.",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "後",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "north"
+      ],
+      "on_yomi": [
+        "ホク"
+      ],
+      "kun_yomi": [
+        "きた"
+      ],
+      "examples": [
+        {
+          "kanji": "北",
+          "kana": "きた",
+          "meaning": "north"
+        },
+        {
+          "kanji": "北海道",
+          "kana": "ほっかいどう",
+          "meaning": "Hokkaido"
+        },
+        {
+          "kanji": "北口",
+          "kana": "きたぐち",
+          "meaning": "north exit"
+        }
+      ],
+      "keyword": "north",
+      "etymology": "Two people (比) sitting back to back — turned away from the cold north.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "北",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "south"
+      ],
+      "on_yomi": [
+        "ナン"
+      ],
+      "kun_yomi": [
+        "みなみ"
+      ],
+      "examples": [
+        {
+          "kanji": "南",
+          "kana": "みなみ",
+          "meaning": "south"
+        },
+        {
+          "kanji": "南口",
+          "kana": "みなみぐち",
+          "meaning": "south exit"
+        },
+        {
+          "kanji": "東南アジア",
+          "kana": "とうなんアジア",
+          "meaning": "Southeast Asia"
+        }
+      ],
+      "keyword": "south",
+      "etymology": "A shelter with hanging tendrils — a warm southern vine-covered hut.",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "南",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "east"
+      ],
+      "on_yomi": [
+        "トウ"
+      ],
+      "kun_yomi": [
+        "ひがし"
+      ],
+      "examples": [
+        {
+          "kanji": "東",
+          "kana": "ひがし",
+          "meaning": "east"
+        },
+        {
+          "kanji": "東京",
+          "kana": "とうきょう",
+          "meaning": "Tokyo"
+        },
+        {
+          "kanji": "東口",
+          "kana": "ひがしぐち",
+          "meaning": "east exit"
+        }
+      ],
+      "keyword": "east",
+      "etymology": "The sun (日) rising behind a tree (木) — the east at dawn.",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "東",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "west"
+      ],
+      "on_yomi": [
+        "セイ",
+        "サイ"
+      ],
+      "kun_yomi": [
+        "にし"
+      ],
+      "examples": [
+        {
+          "kanji": "西",
+          "kana": "にし",
+          "meaning": "west"
+        },
+        {
+          "kanji": "関西",
+          "kana": "かんさい",
+          "meaning": "Kansai region"
+        },
+        {
+          "kanji": "西口",
+          "kana": "にしぐち",
+          "meaning": "west exit"
+        }
+      ],
+      "keyword": "west",
+      "etymology": "A bird settling into its nest — birds roost at sunset in the west.",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "西",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "outside",
+        "foreign"
+      ],
+      "on_yomi": [
+        "ガイ",
+        "ゲ"
+      ],
+      "kun_yomi": [
+        "そと",
+        "はず(れる)"
+      ],
+      "examples": [
+        {
+          "kanji": "外",
+          "kana": "そと",
+          "meaning": "outside"
+        },
+        {
+          "kanji": "外国",
+          "kana": "がいこく",
+          "meaning": "foreign country"
+        },
+        {
+          "kanji": "外出",
+          "kana": "がいしゅつ",
+          "meaning": "going out"
+        }
+      ],
+      "keyword": "outside",
+      "etymology": "Evening (夕) + divination (卜) — reading omens outside at dusk.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "外",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "book",
+        "origin",
+        "main"
+      ],
+      "on_yomi": [
+        "ホン"
+      ],
+      "kun_yomi": [
+        "もと"
+      ],
+      "examples": [
+        {
+          "kanji": "本",
+          "kana": "ほん",
+          "meaning": "book"
+        },
+        {
+          "kanji": "日本",
+          "kana": "にほん",
+          "meaning": "Japan"
+        },
+        {
+          "kanji": "本当",
+          "kana": "ほんとう",
+          "meaning": "truth, really"
+        }
+      ],
+      "keyword": "origin",
+      "etymology": "A tree (木) with a mark at the root — the origin point.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "本",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "mountain"
+      ],
+      "on_yomi": [
+        "サン"
+      ],
+      "kun_yomi": [
+        "やま"
+      ],
+      "examples": [
+        {
+          "kanji": "山",
+          "kana": "やま",
+          "meaning": "mountain"
+        },
+        {
+          "kanji": "富士山",
+          "kana": "ふじさん",
+          "meaning": "Mt. Fuji"
+        },
+        {
+          "kanji": "山登り",
+          "kana": "やまのぼり",
+          "meaning": "mountain climbing"
+        }
+      ],
+      "keyword": "mountain",
+      "etymology": "Three peaks — a mountain range viewed from afar.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "山",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "river"
+      ],
+      "on_yomi": [
+        "セン"
+      ],
+      "kun_yomi": [
+        "かわ"
+      ],
+      "examples": [
+        {
+          "kanji": "川",
+          "kana": "かわ",
+          "meaning": "river"
+        },
+        {
+          "kanji": "川沿い",
+          "kana": "かわぞい",
+          "meaning": "along the river"
+        },
+        {
+          "kanji": "小川",
+          "kana": "おがわ",
+          "meaning": "stream, brook"
+        }
+      ],
+      "keyword": "river",
+      "etymology": "Three vertical strokes — water flowing between banks.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "川",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "water"
+      ],
+      "on_yomi": [
+        "スイ"
+      ],
+      "kun_yomi": [
+        "みず"
+      ],
+      "examples": [
+        {
+          "kanji": "水",
+          "kana": "みず",
+          "meaning": "water"
+        },
+        {
+          "kanji": "水曜日",
+          "kana": "すいようび",
+          "meaning": "Wednesday"
+        },
+        {
+          "kanji": "水泳",
+          "kana": "すいえい",
+          "meaning": "swimming"
+        }
+      ],
+      "keyword": "water",
+      "etymology": "A stream with droplets splashing — water in motion.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "水",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "fire"
+      ],
+      "on_yomi": [
+        "カ"
+      ],
+      "kun_yomi": [
+        "ひ"
+      ],
+      "examples": [
+        {
+          "kanji": "火",
+          "kana": "ひ",
+          "meaning": "fire"
+        },
+        {
+          "kanji": "火曜日",
+          "kana": "かようび",
+          "meaning": "Tuesday"
+        },
+        {
+          "kanji": "花火",
+          "kana": "はなび",
+          "meaning": "fireworks"
+        }
+      ],
+      "keyword": "fire",
+      "etymology": "Flames rising from a central point — a bonfire.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "火",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "tree",
+        "wood"
+      ],
+      "on_yomi": [
+        "モク",
+        "ボク"
+      ],
+      "kun_yomi": [
+        "き",
+        "こ"
+      ],
+      "examples": [
+        {
+          "kanji": "木",
+          "kana": "き",
+          "meaning": "tree"
+        },
+        {
+          "kanji": "木曜日",
+          "kana": "もくようび",
+          "meaning": "Thursday"
+        },
+        {
+          "kanji": "木村",
+          "kana": "きむら",
+          "meaning": "(surname Kimura)"
+        }
+      ],
+      "keyword": "tree",
+      "etymology": "A trunk with roots below and branches above.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "木",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "gold",
+        "money",
+        "Friday"
+      ],
+      "on_yomi": [
+        "キン",
+        "コン"
+      ],
+      "kun_yomi": [
+        "かね",
+        "かな"
+      ],
+      "examples": [
+        {
+          "kanji": "お金",
+          "kana": "おかね",
+          "meaning": "money"
+        },
+        {
+          "kanji": "金曜日",
+          "kana": "きんようび",
+          "meaning": "Friday"
+        },
+        {
+          "kanji": "金色",
+          "kana": "きんいろ",
+          "meaning": "golden color"
+        }
+      ],
+      "keyword": "gold",
+      "etymology": "Metal nuggets (王) in the ground — buried gold.",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "金",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "earth",
+        "soil",
+        "Saturday"
+      ],
+      "on_yomi": [
+        "ド",
+        "ト"
+      ],
+      "kun_yomi": [
+        "つち"
+      ],
+      "examples": [
+        {
+          "kanji": "土",
+          "kana": "つち",
+          "meaning": "earth, soil"
+        },
+        {
+          "kanji": "土曜日",
+          "kana": "どようび",
+          "meaning": "Saturday"
+        },
+        {
+          "kanji": "土地",
+          "kana": "とち",
+          "meaning": "land, soil"
+        }
+      ],
+      "keyword": "earth",
+      "etymology": "A seedling sprouting from the ground — earth.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "土",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "sky",
+        "heaven"
+      ],
+      "on_yomi": [
+        "テン"
+      ],
+      "kun_yomi": [
+        "あめ",
+        "あま"
+      ],
+      "examples": [
+        {
+          "kanji": "天気",
+          "kana": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "kanji": "天ぷら",
+          "kana": "てんぷら",
+          "meaning": "tempura"
+        },
+        {
+          "kanji": "天井",
+          "kana": "てんじょう",
+          "meaning": "ceiling"
+        }
+      ],
+      "keyword": "heaven",
+      "etymology": "Great (大) with a stroke above — what is above the great man, the sky.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "天",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "electricity",
+        "electric"
+      ],
+      "on_yomi": [
+        "デン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "電車",
+          "kana": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "kanji": "電話",
+          "kana": "でんわ",
+          "meaning": "telephone"
+        },
+        {
+          "kanji": "電気",
+          "kana": "でんき",
+          "meaning": "electricity"
+        }
+      ],
+      "keyword": "electricity",
+      "etymology": "Rain (雨) with lightning bolt — electric storm.",
+      "stroke_count": 13,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "電",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "car",
+        "vehicle"
+      ],
+      "on_yomi": [
+        "シャ"
+      ],
+      "kun_yomi": [
+        "くるま"
+      ],
+      "examples": [
+        {
+          "kanji": "電車",
+          "kana": "でんしゃ",
+          "meaning": "train"
+        },
+        {
+          "kanji": "車",
+          "kana": "くるま",
+          "meaning": "car"
+        },
+        {
+          "kanji": "自転車",
+          "kana": "じてんしゃ",
+          "meaning": "bicycle"
+        }
+      ],
+      "keyword": "vehicle",
+      "etymology": "Spokes of a wheel seen from above.",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "車",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "station"
+      ],
+      "on_yomi": [
+        "エキ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "駅",
+          "kana": "えき",
+          "meaning": "station"
+        },
+        {
+          "kanji": "駅前",
+          "kana": "えきまえ",
+          "meaning": "in front of station"
+        },
+        {
+          "kanji": "終点駅",
+          "kana": "しゅうてんえき",
+          "meaning": "terminal station"
+        }
+      ],
+      "keyword": "station",
+      "etymology": "Horse (馬) + post exchange (尺) — where horses were exchanged on a route.",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 3,
+      "kanji": "駅",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "country",
+        "nation"
+      ],
+      "on_yomi": [
+        "コク"
+      ],
+      "kun_yomi": [
+        "くに"
+      ],
+      "examples": [
+        {
+          "kanji": "国",
+          "kana": "くに",
+          "meaning": "country"
+        },
+        {
+          "kanji": "外国",
+          "kana": "がいこく",
+          "meaning": "foreign country"
+        },
+        {
+          "kanji": "国際",
+          "kana": "こくさい",
+          "meaning": "international"
+        }
+      ],
+      "keyword": "country",
+      "etymology": "A jewel (玉) enclosed by borders — a nation guarding its treasure.",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "国",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "school"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "学校",
+          "kana": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "kanji": "高校",
+          "kana": "こうこう",
+          "meaning": "high school"
+        },
+        {
+          "kanji": "校長",
+          "kana": "こうちょう",
+          "meaning": "principal"
+        }
+      ],
+      "keyword": "school",
+      "etymology": "Wood (木) building +交 (exchange) — a place of wooden structures where learning is exchanged.",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "校",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "ahead",
+        "previous",
+        "tip"
+      ],
+      "on_yomi": [
+        "セン"
+      ],
+      "kun_yomi": [
+        "さき"
+      ],
+      "examples": [
+        {
+          "kanji": "先生",
+          "kana": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "kanji": "先週",
+          "kana": "せんしゅう",
+          "meaning": "last week"
+        },
+        {
+          "kanji": "先輩",
+          "kana": "せんぱい",
+          "meaning": "senior"
+        }
+      ],
+      "keyword": "ahead",
+      "etymology": "Legs walking (先) past others — going ahead.",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "先",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "life",
+        "birth",
+        "student"
+      ],
+      "on_yomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "い(きる)",
+        "う(まれる)",
+        "なま"
+      ],
+      "examples": [
+        {
+          "kanji": "学生",
+          "kana": "がくせい",
+          "meaning": "student"
+        },
+        {
+          "kanji": "先生",
+          "kana": "せんせい",
+          "meaning": "teacher"
+        },
+        {
+          "kanji": "生まれる",
+          "kana": "うまれる",
+          "meaning": "to be born"
+        }
+      ],
+      "keyword": "life",
+      "etymology": "A seedling (屮) sprouting from the earth (土) — new life.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "生",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "study",
+        "learning"
+      ],
+      "on_yomi": [
+        "ガク"
+      ],
+      "kun_yomi": [
+        "まな(ぶ)"
+      ],
+      "examples": [
+        {
+          "kanji": "学校",
+          "kana": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "kanji": "大学",
+          "kana": "だいがく",
+          "meaning": "university"
+        },
+        {
+          "kanji": "学ぶ",
+          "kana": "まなぶ",
+          "meaning": "to learn"
+        }
+      ],
+      "keyword": "study",
+      "etymology": "Hands (爻) guiding a child (子) under a roof — learning.",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "学",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "spirit",
+        "feeling",
+        "air",
+        "energy"
+      ],
+      "on_yomi": [
+        "キ",
+        "ケ"
+      ],
+      "kun_yomi": [
+        "いき"
+      ],
+      "examples": [
+        {
+          "kanji": "天気",
+          "kana": "てんき",
+          "meaning": "weather"
+        },
+        {
+          "kanji": "気持ち",
+          "kana": "きもち",
+          "meaning": "feeling"
+        },
+        {
+          "kanji": "元気",
+          "kana": "げんき",
+          "meaning": "healthy, fine"
+        }
+      ],
+      "keyword": "spirit",
+      "etymology": "Rice steam (米 + 气) — the vital energy rising like steam.",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "気",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "rain"
+      ],
+      "on_yomi": [
+        "ウ"
+      ],
+      "kun_yomi": [
+        "あめ",
+        "あま"
+      ],
+      "examples": [
+        {
+          "kanji": "雨",
+          "kana": "あめ",
+          "meaning": "rain"
+        },
+        {
+          "kanji": "大雨",
+          "kana": "おおあめ",
+          "meaning": "heavy rain"
+        },
+        {
+          "kanji": "雨季",
+          "kana": "うき",
+          "meaning": "rainy season"
+        }
+      ],
+      "keyword": "rain",
+      "etymology": "Drops (冫冫) falling from a cloud under the sky (一).",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "雨",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "sky",
+        "empty",
+        "air"
+      ],
+      "on_yomi": [
+        "クウ"
+      ],
+      "kun_yomi": [
+        "そら",
+        "あ(く)",
+        "から"
+      ],
+      "examples": [
+        {
+          "kanji": "空",
+          "kana": "そら",
+          "meaning": "sky"
+        },
+        {
+          "kanji": "空港",
+          "kana": "くうこう",
+          "meaning": "airport"
+        },
+        {
+          "kanji": "空気",
+          "kana": "くうき",
+          "meaning": "air"
+        }
+      ],
+      "keyword": "sky",
+      "etymology": "A cave (穴) where work (工) is done — hollowed out, empty sky.",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "空",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "flower"
+      ],
+      "on_yomi": [
+        "カ"
+      ],
+      "kun_yomi": [
+        "はな"
+      ],
+      "examples": [
+        {
+          "kanji": "花",
+          "kana": "はな",
+          "meaning": "flower"
+        },
+        {
+          "kanji": "花火",
+          "kana": "はなび",
+          "meaning": "fireworks"
+        },
+        {
+          "kanji": "桜の花",
+          "kana": "さくらのはな",
+          "meaning": "cherry blossom"
+        }
+      ],
+      "keyword": "flower",
+      "etymology": "Grass (艹) changing (化) — plants transforming into bloom.",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "花",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "hand"
+      ],
+      "on_yomi": [
+        "シュ"
+      ],
+      "kun_yomi": [
+        "て"
+      ],
+      "examples": [
+        {
+          "kanji": "手",
+          "kana": "て",
+          "meaning": "hand"
+        },
+        {
+          "kanji": "上手",
+          "kana": "じょうず",
+          "meaning": "skilled"
+        },
+        {
+          "kanji": "手紙",
+          "kana": "てがみ",
+          "meaning": "letter"
+        }
+      ],
+      "keyword": "hand",
+      "etymology": "Five fingers and a wrist — the shape of a hand.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "手",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "foot",
+        "leg",
+        "enough"
+      ],
+      "on_yomi": [
+        "ソク"
+      ],
+      "kun_yomi": [
+        "あし",
+        "た(りる)"
+      ],
+      "examples": [
+        {
+          "kanji": "足",
+          "kana": "あし",
+          "meaning": "foot, leg"
+        },
+        {
+          "kanji": "足りる",
+          "kana": "たりる",
+          "meaning": "to be enough"
+        },
+        {
+          "kanji": "土足",
+          "kana": "どそく",
+          "meaning": "wearing shoes indoors"
+        }
+      ],
+      "keyword": "foot",
+      "etymology": "A knee and foot — the lower leg.",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "足",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "eye"
+      ],
+      "on_yomi": [
+        "モク",
+        "ボク"
+      ],
+      "kun_yomi": [
+        "め"
+      ],
+      "examples": [
+        {
+          "kanji": "目",
+          "kana": "め",
+          "meaning": "eye"
+        },
+        {
+          "kanji": "目的",
+          "kana": "もくてき",
+          "meaning": "purpose, goal"
+        },
+        {
+          "kanji": "注目",
+          "kana": "ちゅうもく",
+          "meaning": "attention"
+        }
+      ],
+      "keyword": "eye",
+      "etymology": "An eye turned on its side — the almond shape of an eye.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "目",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "mouth"
+      ],
+      "on_yomi": [
+        "コウ",
+        "ク"
+      ],
+      "kun_yomi": [
+        "くち"
+      ],
+      "examples": [
+        {
+          "kanji": "口",
+          "kana": "くち",
+          "meaning": "mouth"
+        },
+        {
+          "kanji": "入口",
+          "kana": "いりぐち",
+          "meaning": "entrance"
+        },
+        {
+          "kanji": "出口",
+          "kana": "でぐち",
+          "meaning": "exit"
+        }
+      ],
+      "keyword": "mouth",
+      "etymology": "A square opening — the shape of an open mouth.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "口",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "woman",
+        "female"
+      ],
+      "on_yomi": [
+        "ジョ",
+        "ニョ"
+      ],
+      "kun_yomi": [
+        "おんな",
+        "め"
+      ],
+      "examples": [
+        {
+          "kanji": "女性",
+          "kana": "じょせい",
+          "meaning": "woman, female"
+        },
+        {
+          "kanji": "女の人",
+          "kana": "おんなのひと",
+          "meaning": "woman"
+        },
+        {
+          "kanji": "女子",
+          "kana": "じょし",
+          "meaning": "girl, female"
+        }
+      ],
+      "keyword": "woman",
+      "etymology": "A figure seated gracefully — a woman.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "女",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "man",
+        "male"
+      ],
+      "on_yomi": [
+        "ダン",
+        "ナン"
+      ],
+      "kun_yomi": [
+        "おとこ"
+      ],
+      "examples": [
+        {
+          "kanji": "男性",
+          "kana": "だんせい",
+          "meaning": "man, male"
+        },
+        {
+          "kanji": "男の人",
+          "kana": "おとこのひと",
+          "meaning": "man"
+        },
+        {
+          "kanji": "男子",
+          "kana": "だんし",
+          "meaning": "boy, male"
+        }
+      ],
+      "keyword": "man",
+      "etymology": "A rice field (田) plus strength (力) — a man working the field.",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "男",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "child"
+      ],
+      "on_yomi": [
+        "シ",
+        "ス"
+      ],
+      "kun_yomi": [
+        "こ"
+      ],
+      "examples": [
+        {
+          "kanji": "子供",
+          "kana": "こども",
+          "meaning": "child"
+        },
+        {
+          "kanji": "女子",
+          "kana": "じょし",
+          "meaning": "girl"
+        },
+        {
+          "kanji": "椅子",
+          "kana": "いす",
+          "meaning": "chair"
+        }
+      ],
+      "keyword": "child",
+      "etymology": "A swaddled baby with arms outstretched.",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "子",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "mother"
+      ],
+      "on_yomi": [
+        "ボ"
+      ],
+      "kun_yomi": [
+        "はは"
+      ],
+      "examples": [
+        {
+          "kanji": "母",
+          "kana": "はは",
+          "meaning": "(my) mother"
+        },
+        {
+          "kanji": "お母さん",
+          "kana": "おかあさん",
+          "meaning": "mother (polite)"
+        },
+        {
+          "kanji": "母国",
+          "kana": "ぼこく",
+          "meaning": "mother country"
+        }
+      ],
+      "keyword": "mother",
+      "etymology": "A woman (女) with two dots marking her breast — a nursing mother.",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "母",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "father"
+      ],
+      "on_yomi": [
+        "フ"
+      ],
+      "kun_yomi": [
+        "ちち"
+      ],
+      "examples": [
+        {
+          "kanji": "父",
+          "kana": "ちち",
+          "meaning": "(my) father"
+        },
+        {
+          "kanji": "お父さん",
+          "kana": "おとうさん",
+          "meaning": "father (polite)"
+        },
+        {
+          "kanji": "父親",
+          "kana": "ちちおや",
+          "meaning": "father"
+        }
+      ],
+      "keyword": "father",
+      "etymology": "A hand wielding an axe — the father providing and protecting.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "父",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "friend"
+      ],
+      "on_yomi": [
+        "ユウ"
+      ],
+      "kun_yomi": [
+        "とも"
+      ],
+      "examples": [
+        {
+          "kanji": "友達",
+          "kana": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "kanji": "友人",
+          "kana": "ゆうじん",
+          "meaning": "friend (formal)"
+        },
+        {
+          "kanji": "親友",
+          "kana": "しんゆう",
+          "meaning": "close friend"
+        }
+      ],
+      "keyword": "friend",
+      "etymology": "Two right hands (又) clasped — hands joined in friendship.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "友",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "go",
+        "conduct"
+      ],
+      "on_yomi": [
+        "コウ",
+        "ギョウ"
+      ],
+      "kun_yomi": [
+        "い(く)",
+        "おこな(う)"
+      ],
+      "examples": [
+        {
+          "kanji": "行く",
+          "kana": "いく",
+          "meaning": "to go"
+        },
+        {
+          "kanji": "旅行",
+          "kana": "りょこう",
+          "meaning": "travel"
+        },
+        {
+          "kanji": "銀行",
+          "kana": "ぎんこう",
+          "meaning": "bank"
+        }
+      ],
+      "keyword": "go",
+      "etymology": "A crossroads — moving through an intersection.",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "行",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "come",
+        "next"
+      ],
+      "on_yomi": [
+        "ライ"
+      ],
+      "kun_yomi": [
+        "く(る)",
+        "きた(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "来る",
+          "kana": "くる",
+          "meaning": "to come"
+        },
+        {
+          "kanji": "来年",
+          "kana": "らいねん",
+          "meaning": "next year"
+        },
+        {
+          "kanji": "来週",
+          "kana": "らいしゅう",
+          "meaning": "next week"
+        }
+      ],
+      "keyword": "come",
+      "etymology": "Grain (木) with people clustering underneath — people coming to harvest.",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "来",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "return",
+        "go home"
+      ],
+      "on_yomi": [
+        "キ"
+      ],
+      "kun_yomi": [
+        "かえ(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "帰る",
+          "kana": "かえる",
+          "meaning": "to return home"
+        },
+        {
+          "kanji": "帰国",
+          "kana": "きこく",
+          "meaning": "returning to one's country"
+        },
+        {
+          "kanji": "帰宅",
+          "kana": "きたく",
+          "meaning": "returning home"
+        }
+      ],
+      "keyword": "return",
+      "etymology": "A broom sweeping toward a figure — sweeping the path home.",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "帰",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "eat",
+        "food"
+      ],
+      "on_yomi": [
+        "ショク",
+        "ジキ"
+      ],
+      "kun_yomi": [
+        "た(べる)",
+        "く(う)"
+      ],
+      "examples": [
+        {
+          "kanji": "食べる",
+          "kana": "たべる",
+          "meaning": "to eat"
+        },
+        {
+          "kanji": "食事",
+          "kana": "しょくじ",
+          "meaning": "meal"
+        },
+        {
+          "kanji": "食堂",
+          "kana": "しょくどう",
+          "meaning": "cafeteria"
+        }
+      ],
+      "keyword": "eat",
+      "etymology": "Gathered food (良) under a roof — food ready to eat.",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "食",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "drink"
+      ],
+      "on_yomi": [
+        "イン"
+      ],
+      "kun_yomi": [
+        "の(む)"
+      ],
+      "examples": [
+        {
+          "kanji": "飲む",
+          "kana": "のむ",
+          "meaning": "to drink"
+        },
+        {
+          "kanji": "飲み物",
+          "kana": "のみもの",
+          "meaning": "beverage"
+        },
+        {
+          "kanji": "飲食",
+          "kana": "いんしょく",
+          "meaning": "eating and drinking"
+        }
+      ],
+      "keyword": "drink",
+      "etymology": "Food (食) with a yawning mouth (欠) — opening wide to drink.",
+      "stroke_count": 12,
+      "jlpt": "N5",
+      "grade": 3,
+      "kanji": "飲",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "see",
+        "look"
+      ],
+      "on_yomi": [
+        "ケン"
+      ],
+      "kun_yomi": [
+        "み(る)",
+        "み(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "見る",
+          "kana": "みる",
+          "meaning": "to see"
+        },
+        {
+          "kanji": "意見",
+          "kana": "いけん",
+          "meaning": "opinion"
+        },
+        {
+          "kanji": "見える",
+          "kana": "みえる",
+          "meaning": "to be visible"
+        }
+      ],
+      "keyword": "see",
+      "etymology": "An eye (目) on legs — walking around looking.",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "見",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "write"
+      ],
+      "on_yomi": [
+        "ショ"
+      ],
+      "kun_yomi": [
+        "か(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "書く",
+          "kana": "かく",
+          "meaning": "to write"
+        },
+        {
+          "kanji": "図書館",
+          "kana": "としょかん",
+          "meaning": "library"
+        },
+        {
+          "kanji": "教科書",
+          "kana": "きょうかしょ",
+          "meaning": "textbook"
+        }
+      ],
+      "keyword": "write",
+      "etymology": "A brush (聿) drawing — writing with a brush.",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "書",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "read"
+      ],
+      "on_yomi": [
+        "ドク"
+      ],
+      "kun_yomi": [
+        "よ(む)"
+      ],
+      "examples": [
+        {
+          "kanji": "読む",
+          "kana": "よむ",
+          "meaning": "to read"
+        },
+        {
+          "kanji": "読書",
+          "kana": "どくしょ",
+          "meaning": "reading"
+        },
+        {
+          "kanji": "読み物",
+          "kana": "よみもの",
+          "meaning": "reading material"
+        }
+      ],
+      "keyword": "read",
+      "etymology": "Words (言) + sold (売) — paying attention to what is written.",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "読",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "speak",
+        "story"
+      ],
+      "on_yomi": [
+        "ワ"
+      ],
+      "kun_yomi": [
+        "はな(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "話す",
+          "kana": "はなす",
+          "meaning": "to speak"
+        },
+        {
+          "kanji": "電話",
+          "kana": "でんわ",
+          "meaning": "telephone"
+        },
+        {
+          "kanji": "話し合い",
+          "kana": "はなしあい",
+          "meaning": "discussion"
+        }
+      ],
+      "keyword": "speak",
+      "etymology": "Words (言) + tongue (舌) — the tongue making words.",
+      "stroke_count": 13,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "話",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "language",
+        "word",
+        "tell"
+      ],
+      "on_yomi": [
+        "ゴ"
+      ],
+      "kun_yomi": [
+        "かた(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "日本語",
+          "kana": "にほんご",
+          "meaning": "Japanese"
+        },
+        {
+          "kanji": "物語",
+          "kana": "ものがたり",
+          "meaning": "story, tale"
+        },
+        {
+          "kanji": "語る",
+          "kana": "かたる",
+          "meaning": "to narrate"
+        }
+      ],
+      "keyword": "language",
+      "etymology": "Words (言) + I/myself (吾) — the words that express myself.",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "語",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "hear",
+        "ask"
+      ],
+      "on_yomi": [
+        "ブン",
+        "モン"
+      ],
+      "kun_yomi": [
+        "き(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "聞く",
+          "kana": "きく",
+          "meaning": "to hear, ask"
+        },
+        {
+          "kanji": "新聞",
+          "kana": "しんぶん",
+          "meaning": "newspaper"
+        },
+        {
+          "kanji": "聞こえる",
+          "kana": "きこえる",
+          "meaning": "audible"
+        }
+      ],
+      "keyword": "hear",
+      "etymology": "Ear (耳) at a gate (門) — listening at the door.",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 2,
+      "kanji": "聞",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    },
+    {
+      "meanings": [
+        "enter",
+        "put in"
+      ],
+      "on_yomi": [
+        "ニュウ"
+      ],
+      "kun_yomi": [
+        "い(る)",
+        "はい(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "入る",
+          "kana": "はいる",
+          "meaning": "to enter"
+        },
+        {
+          "kanji": "入口",
+          "kana": "いりぐち",
+          "meaning": "entrance"
+        },
+        {
+          "kanji": "入学",
+          "kana": "にゅうがく",
+          "meaning": "enrollment"
+        }
+      ],
+      "keyword": "enter",
+      "etymology": "Two strokes converging inward — pointing into an opening.",
+      "stroke_count": 2,
+      "jlpt": "N5",
+      "grade": 1,
+      "kanji": "入",
+      "decks": [
+        "JLPT N5",
+        "JLPT N5"
+      ]
+    }
+  ]
+}

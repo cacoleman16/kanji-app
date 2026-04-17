@@ -1,0 +1,17 @@
+# Vercel
+.vercel
+
+# npm
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.babelrc.json
+
+# macOS
+.DS_Store
+.Rhistory
+
+# Build backups
+*.bak

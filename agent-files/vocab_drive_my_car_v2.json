@@ -1,0 +1,267 @@
+{
+  "deck_id": "murakami-drive-my-car-v2",
+  "deck_name": "Murakami — ドライブ・マイ・カー Vol. 2",
+  "version": "1.0",
+  "source": "村上春樹「ドライブ・マイ・カー」(『女のいない男たち』収録)",
+  "notes": "Second set of vocabulary from the story — focusing on emotion, theater craft, and the road.",
+  "card_count": 32,
+  "categories": ["theater", "driving", "emotion", "relationship", "narrative"],
+  "cards": [
+    {
+      "word": "演出",
+      "reading": "えんしゅつ",
+      "meanings": ["direction", "production", "staging"],
+      "jlpt": "N2",
+      "category": "theater",
+      "context": "Kafuku directs his own production of Uncle Vanya — the演出 is minimal, stripped of gesture."
+    },
+    {
+      "word": "演出家",
+      "reading": "えんしゅつか",
+      "meanings": ["director", "stage director"],
+      "jlpt": "N2",
+      "category": "theater",
+      "context": "As both actor and演出家, Kafuku controls every silence on stage."
+    },
+    {
+      "word": "幕",
+      "reading": "まく",
+      "meanings": ["curtain", "act", "scene"],
+      "jlpt": "N2",
+      "category": "theater",
+      "context": "The third幕 of Uncle Vanya — where everything unravels quietly."
+    },
+    {
+      "word": "出演",
+      "reading": "しゅつえん",
+      "meanings": ["appearing in", "performing in"],
+      "jlpt": "N2",
+      "category": "theater",
+      "context": "His出演 schedule kept him away from home for weeks at a stretch."
+    },
+    {
+      "word": "高速道路",
+      "reading": "こうそくどうろ",
+      "meanings": ["expressway", "highway"],
+      "jlpt": "N3",
+      "category": "driving",
+      "context": "The yellow Saab merges onto the高速道路 as Kafuku recites his lines into the tape deck."
+    },
+    {
+      "word": "渋滞",
+      "reading": "じゅうたい",
+      "meanings": ["traffic jam", "congestion"],
+      "jlpt": "N2",
+      "category": "driving",
+      "context": "Stuck in渋滞 on the expressway, neither of them speaks."
+    },
+    {
+      "word": "ハンドル",
+      "reading": "はんどる",
+      "meanings": ["steering wheel", "handle"],
+      "jlpt": "N3",
+      "category": "driving",
+      "context": "Misaki's hands rest on theハンドル with an economy of movement he admired."
+    },
+    {
+      "word": "車線",
+      "reading": "しゃせん",
+      "meanings": ["traffic lane"],
+      "jlpt": "N2",
+      "category": "driving",
+      "context": "She changed車線 without signaling — smooth and certain."
+    },
+    {
+      "word": "後悔",
+      "reading": "こうかい",
+      "meanings": ["regret", "remorse"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "His後悔 was not that he hadn't said more — it was that he hadn't listened."
+    },
+    {
+      "word": "許す",
+      "reading": "ゆるす",
+      "meanings": ["to forgive", "to allow", "to pardon"],
+      "jlpt": "N3",
+      "category": "emotion",
+      "context": "He couldn't decide whether he had already許した her, or whether that question even made sense."
+    },
+    {
+      "word": "打ち明ける",
+      "reading": "うちあける",
+      "meanings": ["to confide", "to open up", "to reveal"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "She had never打ち明けた why she drove — only that it kept her mind quiet."
+    },
+    {
+      "word": "信頼",
+      "reading": "しんらい",
+      "meanings": ["trust", "confidence", "reliance"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "信頼 accumulated slowly between them, the way distance does on a long drive."
+    },
+    {
+      "word": "傷つく",
+      "reading": "きずつく",
+      "meanings": ["to be hurt", "to be wounded", "to be damaged"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "He had been傷ついた by the truth, but more by realizing he had known it all along."
+    },
+    {
+      "word": "共感",
+      "reading": "きょうかん",
+      "meanings": ["empathy", "sympathy", "resonance"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "That was the strange共感 between them — both carrying something unspeakable."
+    },
+    {
+      "word": "向き合う",
+      "reading": "むきあう",
+      "meanings": ["to face", "to confront", "to come to terms with"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "He had to向き合う the fact that grief and love were, for him, the same thing."
+    },
+    {
+      "word": "回復",
+      "reading": "かいふく",
+      "meanings": ["recovery", "restoration", "rehabilitation"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "回復 wasn't a destination — it was the driving itself, the forward motion."
+    },
+    {
+      "word": "受け入れる",
+      "reading": "うけいれる",
+      "meanings": ["to accept", "to receive", "to take in"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "He finally受け入れた that she had been a different person to different men."
+    },
+    {
+      "word": "乗り越える",
+      "reading": "のりこえる",
+      "meanings": ["to overcome", "to get over", "to surmount"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "There are things you乗り越える and things that simply become part of you."
+    },
+    {
+      "word": "癒し",
+      "reading": "いやし",
+      "meanings": ["healing", "solace", "comfort"],
+      "jlpt": "N1",
+      "category": "emotion",
+      "context": "The quiet interior of the Saab became, unexpectedly, a space of癒し."
+    },
+    {
+      "word": "物語",
+      "reading": "ものがたり",
+      "meanings": ["story", "tale", "narrative"],
+      "jlpt": "N3",
+      "category": "narrative",
+      "context": "Every物語 Oto told began as something else — a way of approaching what she couldn't say directly."
+    },
+    {
+      "word": "語り",
+      "reading": "かたり",
+      "meanings": ["narration", "storytelling", "recitation"],
+      "jlpt": "N2",
+      "category": "narrative",
+      "context": "The tape-recorded語り of the script filled the car — his own voice, his dead wife's words."
+    },
+    {
+      "word": "象徴",
+      "reading": "しょうちょう",
+      "meanings": ["symbol", "emblem", "representation"],
+      "jlpt": "N2",
+      "category": "narrative",
+      "context": "The yellow Saab became a象徴 of the life he was still moving through."
+    },
+    {
+      "word": "比喩",
+      "reading": "ひゆ",
+      "meanings": ["metaphor", "simile", "figure of speech"],
+      "jlpt": "N1",
+      "category": "narrative",
+      "context": "Chekhov's plays work through比喩 — nothing is stated, everything is felt."
+    },
+    {
+      "word": "夫婦",
+      "reading": "ふうふ",
+      "meanings": ["married couple", "husband and wife"],
+      "jlpt": "N3",
+      "category": "relationship",
+      "context": "What kind of夫婦 had they been, really? He was no longer sure."
+    },
+    {
+      "word": "本心",
+      "reading": "ほんしん",
+      "meanings": ["true feelings", "real intention", "innermost thoughts"],
+      "jlpt": "N2",
+      "category": "relationship",
+      "context": "She had never fully revealed her本心 — and perhaps that was her gift to him."
+    },
+    {
+      "word": "語り合う",
+      "reading": "かたりあう",
+      "meanings": ["to talk together", "to converse", "to exchange stories"],
+      "jlpt": "N2",
+      "category": "relationship",
+      "context": "They never語り合った in the usual sense — but something passed between them on those drives."
+    },
+    {
+      "word": "距離",
+      "reading": "きょり",
+      "meanings": ["distance", "interval", "gap"],
+      "jlpt": "N3",
+      "category": "relationship",
+      "context": "The距離 between two people is not always measured in kilometers."
+    },
+    {
+      "word": "港",
+      "reading": "みなと",
+      "meanings": ["harbor", "port"],
+      "jlpt": "N3",
+      "category": "driving",
+      "context": "Hiroshima's港 was visible from the expressway on clear winter mornings."
+    },
+    {
+      "word": "路面電車",
+      "reading": "ろめんでんしゃ",
+      "meanings": ["streetcar", "tram"],
+      "jlpt": "N2",
+      "category": "driving",
+      "context": "The路面電車 of Hiroshima moved through the city like a slow, patient memory."
+    },
+    {
+      "word": "余白",
+      "reading": "よはく",
+      "meanings": ["blank space", "margin", "whitespace"],
+      "jlpt": "N1",
+      "category": "narrative",
+      "context": "A good story, like a good play, lives in the余白 — what is left unsaid."
+    },
+    {
+      "word": "手放す",
+      "reading": "てばなす",
+      "meanings": ["to let go of", "to release", "to give up"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "He wasn't sure he would ever手放す her — and he wasn't sure he needed to."
+    },
+    {
+      "word": "静けさ",
+      "reading": "しずけさ",
+      "meanings": ["quietness", "stillness", "tranquility"],
+      "jlpt": "N2",
+      "category": "emotion",
+      "context": "The静けさ between them was different from loneliness. It was something earned."
+    }
+  ]
+}

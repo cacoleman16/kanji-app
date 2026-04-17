@@ -1,0 +1,93 @@
+{
+  "deck_id": "genki2-preview",
+  "deck_name": "Genki 2 — Preview Sample",
+  "version": "0.1-preview",
+  "notes": "This is a hand-curated 5-card sample so you can evaluate content quality and structure before the full data pipeline runs. Fields and content style should match the final product.",
+  "cards": [
+    {
+      "kanji": "昔",
+      "meanings": ["long ago", "former times", "antiquity"],
+      "on_yomi": ["セキ", "シャク"],
+      "kun_yomi": ["むかし"],
+      "examples": [
+        { "kanji": "昔々", "kana": "むかしむかし", "meaning": "once upon a time" },
+        { "kanji": "大昔", "kana": "おおむかし", "meaning": "ancient times" },
+        { "kanji": "昔話", "kana": "むかしばなし", "meaning": "old tale, folklore" }
+      ],
+      "keyword": "antiquity",
+      "etymology": "Twenty (廿) stacked over days (日) — twenty days have passed, meaning long ago.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": ["Genki 2", "JLPT N3"]
+    },
+    {
+      "kanji": "神",
+      "meanings": ["god", "deity", "spirit"],
+      "on_yomi": ["シン", "ジン"],
+      "kun_yomi": ["かみ", "かん"],
+      "examples": [
+        { "kanji": "神社", "kana": "じんじゃ", "meaning": "Shinto shrine" },
+        { "kanji": "神様", "kana": "かみさま", "meaning": "god (honorific)" },
+        { "kanji": "精神", "kana": "せいしん", "meaning": "spirit, mind" }
+      ],
+      "keyword": "god",
+      "etymology": "Altar (礻) beside lightning extending from the sky (申) — where the divine makes itself known.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": ["Genki 2", "JLPT N3"]
+    },
+    {
+      "kanji": "働",
+      "meanings": ["to work", "to labor"],
+      "on_yomi": ["ドウ"],
+      "kun_yomi": ["はたら(く)"],
+      "examples": [
+        { "kanji": "働く", "kana": "はたらく", "meaning": "to work" },
+        { "kanji": "労働", "kana": "ろうどう", "meaning": "labor, manual work" },
+        { "kanji": "共働き", "kana": "ともばたらき", "meaning": "dual-income household" }
+      ],
+      "keyword": "work",
+      "etymology": "A person (亻) who moves (動) — one who moves is one who works.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": ["Genki 2", "JLPT N3"]
+    },
+    {
+      "kanji": "別",
+      "meanings": ["separate", "another", "different", "to part"],
+      "on_yomi": ["ベツ"],
+      "kun_yomi": ["わか(れる)"],
+      "examples": [
+        { "kanji": "別れる", "kana": "わかれる", "meaning": "to part, to separate" },
+        { "kanji": "特別", "kana": "とくべつ", "meaning": "special" },
+        { "kanji": "別々", "kana": "べつべつ", "meaning": "separately, individually" }
+      ],
+      "keyword": "separate",
+      "etymology": "Another piece (另) and a knife (刂) — the knife divides one thing into another.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": ["Genki 2", "JLPT N3"]
+    },
+    {
+      "kanji": "度",
+      "meanings": ["degree", "time (occurrence)", "extent", "counter for times"],
+      "on_yomi": ["ド", "タク"],
+      "kun_yomi": ["たび"],
+      "examples": [
+        { "kanji": "一度", "kana": "いちど", "meaning": "once, one time" },
+        { "kanji": "今度", "kana": "こんど", "meaning": "this time; next time" },
+        { "kanji": "温度", "kana": "おんど", "meaning": "temperature" }
+      ],
+      "keyword": "degree",
+      "etymology": "Under a shelter (广), a hand (又) measures with a stick — a measured degree.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": ["Genki 2", "JLPT N3"]
+    }
+  ]
+}

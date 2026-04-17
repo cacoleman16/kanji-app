@@ -1,0 +1,1120 @@
+{
+  "deck_id": "integrated-intermediate-ch5-recognition",
+  "deck_name": "An Integrated Approach — Ch.5 読めればいい漢字",
+  "version": "1.0",
+  "notes": "Recognition-only kanji (読めればいい漢字) from An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 5. All cards carry write_required=false. Students need to read these kanji but are not tested on writing them.",
+  "card_count": 26,
+  "cards": [
+    {
+      "kanji": "務",
+      "meanings": [
+        "duty",
+        "serve",
+        "work",
+        "business"
+      ],
+      "on_yomi": [
+        "ム"
+      ],
+      "kun_yomi": [
+        "つと(める)",
+        "つと(まる)"
+      ],
+      "examples": [
+        {
+          "kanji": "事務員",
+          "kana": "じむいん",
+          "meaning": "office worker, clerical staff"
+        },
+        {
+          "kanji": "業務",
+          "kana": "ぎょうむ",
+          "meaning": "work, business operations"
+        },
+        {
+          "kanji": "義務",
+          "kana": "ぎむ",
+          "meaning": "obligation, duty"
+        }
+      ],
+      "keyword": "duty",
+      "etymology": "A creeping vine (矛+攴 — persistent effort) with strength (力) — working steadily onward.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "建",
+      "meanings": [
+        "build",
+        "construct",
+        "establish"
+      ],
+      "on_yomi": [
+        "ケン",
+        "コン"
+      ],
+      "kun_yomi": [
+        "た(てる)",
+        "た(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "建物",
+          "kana": "たてもの",
+          "meaning": "building, structure"
+        },
+        {
+          "kanji": "建てる",
+          "kana": "たてる",
+          "meaning": "to build, to construct"
+        },
+        {
+          "kanji": "建築",
+          "kana": "けんちく",
+          "meaning": "architecture, construction"
+        }
+      ],
+      "keyword": "build",
+      "etymology": "A brush/writing tool (聿) tracing across a path (廴) — drawing out the plan before building.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "玄",
+      "meanings": [
+        "dark",
+        "deep",
+        "mysterious",
+        "black (archaic)"
+      ],
+      "on_yomi": [
+        "ゲン"
+      ],
+      "kun_yomi": [
+        "くろ"
+      ],
+      "examples": [
+        {
+          "kanji": "玄関",
+          "kana": "げんかん",
+          "meaning": "entrance, entryway, front door"
+        },
+        {
+          "kanji": "玄米",
+          "kana": "げんまい",
+          "meaning": "brown rice"
+        },
+        {
+          "kanji": "玄人",
+          "kana": "くろうと",
+          "meaning": "expert, professional"
+        }
+      ],
+      "keyword": "mysterious",
+      "etymology": "A thread with a twisted knot at the top — something tightly coiled and deep, hence mysterious.",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "貼",
+      "meanings": [
+        "paste",
+        "stick",
+        "affix",
+        "post"
+      ],
+      "on_yomi": [
+        "チョウ"
+      ],
+      "kun_yomi": [
+        "は(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "貼り紙",
+          "kana": "はりがみ",
+          "meaning": "posted notice, flier"
+        },
+        {
+          "kanji": "貼る",
+          "kana": "はる",
+          "meaning": "to paste, to stick"
+        },
+        {
+          "kanji": "貼り付ける",
+          "kana": "はりつける",
+          "meaning": "to affix, to paste on"
+        }
+      ],
+      "keyword": "paste",
+      "etymology": "Shell/money (貝) beside a fixed point (占 — a divination mark) — sticking a notice in place.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "発",
+      "meanings": [
+        "emit",
+        "depart",
+        "start",
+        "launch",
+        "issue"
+      ],
+      "on_yomi": [
+        "ハツ",
+        "ホツ"
+      ],
+      "kun_yomi": [
+        "おこ(る)",
+        "おこ(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "発表",
+          "kana": "はっぴょう",
+          "meaning": "announcement, presentation"
+        },
+        {
+          "kanji": "出発",
+          "kana": "しゅっぱつ",
+          "meaning": "departure"
+        },
+        {
+          "kanji": "発見",
+          "kana": "はっけん",
+          "meaning": "discovery"
+        }
+      ],
+      "keyword": "launch",
+      "etymology": "Feet pushing off the ground (癶 — splayed soles) — launching forward with both legs.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "表",
+      "meanings": [
+        "surface",
+        "express",
+        "outside",
+        "table (chart)"
+      ],
+      "on_yomi": [
+        "ヒョウ"
+      ],
+      "kun_yomi": [
+        "おもて",
+        "あらわ(す)",
+        "あらわ(れる)"
+      ],
+      "examples": [
+        {
+          "kanji": "発表",
+          "kana": "はっぴょう",
+          "meaning": "announcement, presentation"
+        },
+        {
+          "kanji": "表",
+          "kana": "おもて",
+          "meaning": "surface, front, outside"
+        },
+        {
+          "kanji": "代表",
+          "kana": "だいひょう",
+          "meaning": "representative"
+        }
+      ],
+      "keyword": "surface",
+      "etymology": "A fur coat (衣) showing its fur on the outside (毛) — the visible outer surface.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "談",
+      "meanings": [
+        "talk",
+        "discuss",
+        "negotiate",
+        "chat"
+      ],
+      "on_yomi": [
+        "ダン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "相談",
+          "kana": "そうだん",
+          "meaning": "consultation, discussion"
+        },
+        {
+          "kanji": "会談",
+          "kana": "かいだん",
+          "meaning": "meeting, talks, conference"
+        },
+        {
+          "kanji": "冗談",
+          "kana": "じょうだん",
+          "meaning": "joke"
+        }
+      ],
+      "keyword": "discuss",
+      "etymology": "Words (言) lit with fire/passion (炎 — flames) — speaking with energy and engagement.",
+      "stroke_count": 15,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "調",
+      "meanings": [
+        "investigate",
+        "tune",
+        "condition",
+        "adjust",
+        "prepare"
+      ],
+      "on_yomi": [
+        "チョウ"
+      ],
+      "kun_yomi": [
+        "しら(べる)",
+        "ととの(う)",
+        "ととの(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "調子",
+          "kana": "ちょうし",
+          "meaning": "condition, pitch, tone"
+        },
+        {
+          "kanji": "調べる",
+          "kana": "しらべる",
+          "meaning": "to investigate, to check"
+        },
+        {
+          "kanji": "調整",
+          "kana": "ちょうせい",
+          "meaning": "adjustment, regulation"
+        }
+      ],
+      "keyword": "tune",
+      "etymology": "Words (言) spoken at regular intervals (周 — cyclic/periodic) — regulated, rhythmic speech.",
+      "stroke_count": 15,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "配",
+      "meanings": [
+        "distribute",
+        "worry",
+        "arrange",
+        "deliver"
+      ],
+      "on_yomi": [
+        "ハイ"
+      ],
+      "kun_yomi": [
+        "くば(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "心配",
+          "kana": "しんぱい",
+          "meaning": "worry, concern"
+        },
+        {
+          "kanji": "配る",
+          "kana": "くばる",
+          "meaning": "to distribute, to hand out"
+        },
+        {
+          "kanji": "配達",
+          "kana": "はいたつ",
+          "meaning": "delivery"
+        }
+      ],
+      "keyword": "distribute",
+      "etymology": "A wine vessel (酉) with a kneeling figure (己) beside it — distributing portions to those present.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "様",
+      "meanings": [
+        "manner",
+        "appearance",
+        "Mr./Ms.",
+        "style",
+        "design"
+      ],
+      "on_yomi": [
+        "ヨウ"
+      ],
+      "kun_yomi": [
+        "さま"
+      ],
+      "examples": [
+        {
+          "kanji": "様子",
+          "kana": "ようす",
+          "meaning": "state, appearance, how things are"
+        },
+        {
+          "kanji": "様",
+          "kana": "さま",
+          "meaning": "honorific suffix (Mr./Ms.)"
+        },
+        {
+          "kanji": "模様",
+          "kana": "もよう",
+          "meaning": "pattern, design"
+        }
+      ],
+      "keyword": "manner",
+      "etymology": "Tree (木) plus water (氵) plus sheep (羊) — the oak tree that shifts beautifully with seasons.",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "励",
+      "meanings": [
+        "encourage",
+        "strive",
+        "exert",
+        "stimulate"
+      ],
+      "on_yomi": [
+        "レイ"
+      ],
+      "kun_yomi": [
+        "はげ(む)",
+        "はげ(ます)"
+      ],
+      "examples": [
+        {
+          "kanji": "励ます",
+          "kana": "はげます",
+          "meaning": "to encourage, to cheer on"
+        },
+        {
+          "kanji": "励む",
+          "kana": "はげむ",
+          "meaning": "to strive, to work hard"
+        },
+        {
+          "kanji": "奨励",
+          "kana": "しょうれい",
+          "meaning": "encouragement, promotion"
+        }
+      ],
+      "keyword": "encourage",
+      "etymology": "A cliff pressing down (厂) against rising force (力) — straining upward against resistance.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "無",
+      "meanings": [
+        "nothing",
+        "without",
+        "non-",
+        "un-"
+      ],
+      "on_yomi": [
+        "ム",
+        "ブ"
+      ],
+      "kun_yomi": [
+        "な(い)"
+      ],
+      "examples": [
+        {
+          "kanji": "無人島",
+          "kana": "むじんとう",
+          "meaning": "uninhabited island"
+        },
+        {
+          "kanji": "無理",
+          "kana": "むり",
+          "meaning": "impossible, unreasonable"
+        },
+        {
+          "kanji": "無い",
+          "kana": "ない",
+          "meaning": "nonexistent, without"
+        }
+      ],
+      "keyword": "nothing",
+      "etymology": "A person dancing in flames (舞 compressed over 灬) — consumed and gone, hence nothing.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "就",
+      "meanings": [
+        "take up a position",
+        "succeed",
+        "complete",
+        "engage in"
+      ],
+      "on_yomi": [
+        "シュウ",
+        "ジュ"
+      ],
+      "kun_yomi": [
+        "つ(く)",
+        "つ(ける)"
+      ],
+      "examples": [
+        {
+          "kanji": "就職",
+          "kana": "しゅうしょく",
+          "meaning": "getting a job, employment"
+        },
+        {
+          "kanji": "就く",
+          "kana": "つく",
+          "meaning": "to take up (a position)"
+        },
+        {
+          "kanji": "成就",
+          "kana": "じょうじゅ",
+          "meaning": "accomplishment, fulfillment"
+        }
+      ],
+      "keyword": "take up",
+      "etymology": "A special person (尤) beside a high building (京) — moving up to occupy a lofty post.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "職",
+      "meanings": [
+        "occupation",
+        "work",
+        "position",
+        "post"
+      ],
+      "on_yomi": [
+        "ショク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "就職",
+          "kana": "しゅうしょく",
+          "meaning": "getting a job"
+        },
+        {
+          "kanji": "職業",
+          "kana": "しょくぎょう",
+          "meaning": "occupation, profession"
+        },
+        {
+          "kanji": "職場",
+          "kana": "しょくば",
+          "meaning": "workplace"
+        }
+      ],
+      "keyword": "occupation",
+      "etymology": "Ears following a banner's instructions (耳+戠 — a war standard) — serving at one's post.",
+      "stroke_count": 18,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "将",
+      "meanings": [
+        "general",
+        "leader",
+        "shall",
+        "soon",
+        "future"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "まさ(に)"
+      ],
+      "examples": [
+        {
+          "kanji": "将来",
+          "kana": "しょうらい",
+          "meaning": "future"
+        },
+        {
+          "kanji": "将軍",
+          "kana": "しょうぐん",
+          "meaning": "shogun, general"
+        },
+        {
+          "kanji": "将棋",
+          "kana": "しょうぎ",
+          "meaning": "shogi, Japanese chess"
+        }
+      ],
+      "keyword": "general",
+      "etymology": "A hand presenting a serving tray (寸+肉) beside a great leader — presenting and commanding.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "流",
+      "meanings": [
+        "flow",
+        "stream",
+        "style",
+        "drift",
+        "current"
+      ],
+      "on_yomi": [
+        "リュウ",
+        "ル"
+      ],
+      "kun_yomi": [
+        "なが(れる)",
+        "なが(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "一流",
+          "kana": "いちりゅう",
+          "meaning": "first-class, top-notch"
+        },
+        {
+          "kanji": "流れる",
+          "kana": "ながれる",
+          "meaning": "to flow"
+        },
+        {
+          "kanji": "流行",
+          "kana": "りゅうこう",
+          "meaning": "trend, fashion"
+        }
+      ],
+      "keyword": "flow",
+      "etymology": "Water (氵) flowing from a source shape (㐬 — a person upside down, like a newborn) — life flowing from its origin.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "増",
+      "meanings": [
+        "increase",
+        "grow",
+        "add to",
+        "multiply"
+      ],
+      "on_yomi": [
+        "ゾウ"
+      ],
+      "kun_yomi": [
+        "ふ(える)",
+        "ふ(やす)",
+        "ま(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "増える",
+          "kana": "ふえる",
+          "meaning": "to increase"
+        },
+        {
+          "kanji": "増加",
+          "kana": "ぞうか",
+          "meaning": "increase, growth"
+        },
+        {
+          "kanji": "急増",
+          "kana": "きゅうぞう",
+          "meaning": "rapid increase"
+        }
+      ],
+      "keyword": "increase",
+      "etymology": "Earth (土) piling up in accumulated layers (曾) — things stacking higher and higher.",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "傾",
+      "meanings": [
+        "lean",
+        "incline",
+        "tend",
+        "tilt"
+      ],
+      "on_yomi": [
+        "ケイ"
+      ],
+      "kun_yomi": [
+        "かたむ(く)",
+        "かたむ(ける)"
+      ],
+      "examples": [
+        {
+          "kanji": "傾向",
+          "kana": "けいこう",
+          "meaning": "tendency, trend"
+        },
+        {
+          "kanji": "傾く",
+          "kana": "かたむく",
+          "meaning": "to lean, to tilt"
+        },
+        {
+          "kanji": "傾斜",
+          "kana": "けいしゃ",
+          "meaning": "slope, incline"
+        }
+      ],
+      "keyword": "lean",
+      "etymology": "A person (亻) with their head bowing toward a tilted page (頁+厂) — body tilting to one side.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "向",
+      "meanings": [
+        "face",
+        "direction",
+        "turn toward",
+        "suitable"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [
+        "む(く)",
+        "む(ける)",
+        "む(かう)",
+        "むこう"
+      ],
+      "examples": [
+        {
+          "kanji": "傾向",
+          "kana": "けいこう",
+          "meaning": "tendency, trend"
+        },
+        {
+          "kanji": "向く",
+          "kana": "むく",
+          "meaning": "to face, to be suited for"
+        },
+        {
+          "kanji": "方向",
+          "kana": "ほうこう",
+          "meaning": "direction"
+        }
+      ],
+      "keyword": "direction",
+      "etymology": "A window opening (口) cut into a wall — something that faces outward in a direction.",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "落",
+      "meanings": [
+        "fall",
+        "drop",
+        "decline",
+        "fail",
+        "omit"
+      ],
+      "on_yomi": [
+        "ラク"
+      ],
+      "kun_yomi": [
+        "お(ちる)",
+        "お(とす)"
+      ],
+      "examples": [
+        {
+          "kanji": "落ちる",
+          "kana": "おちる",
+          "meaning": "to fall, to fail (an exam)"
+        },
+        {
+          "kanji": "落下",
+          "kana": "らっか",
+          "meaning": "falling, dropping"
+        },
+        {
+          "kanji": "落語",
+          "kana": "らくご",
+          "meaning": "comic storytelling"
+        }
+      ],
+      "keyword": "fall",
+      "etymology": "Water drops (氵) falling from a high destination (各 — arriving somewhere below) — dripping down.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 3,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "浪",
+      "meanings": [
+        "wave",
+        "wandering",
+        "rōnin",
+        "extravagance"
+      ],
+      "on_yomi": [
+        "ロウ"
+      ],
+      "kun_yomi": [
+        "なみ"
+      ],
+      "examples": [
+        {
+          "kanji": "浪人",
+          "kana": "ろうにん",
+          "meaning": "rōnin; exam retaker"
+        },
+        {
+          "kanji": "放浪",
+          "kana": "ほうろう",
+          "meaning": "wandering, roaming"
+        },
+        {
+          "kanji": "浪費",
+          "kana": "ろうひ",
+          "meaning": "waste, extravagance"
+        }
+      ],
+      "keyword": "wander",
+      "etymology": "Water (氵) rolling in broad waves (良 — good, flowing) — waves spreading freely.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "確",
+      "meanings": [
+        "certain",
+        "sure",
+        "definite",
+        "confirm"
+      ],
+      "on_yomi": [
+        "カク"
+      ],
+      "kun_yomi": [
+        "たし(か)",
+        "たし(かめる)"
+      ],
+      "examples": [
+        {
+          "kanji": "確かに",
+          "kana": "たしかに",
+          "meaning": "certainly, for sure"
+        },
+        {
+          "kanji": "確認",
+          "kana": "かくにん",
+          "meaning": "confirmation, verification"
+        },
+        {
+          "kanji": "確実",
+          "kana": "かくじつ",
+          "meaning": "reliable, certain"
+        }
+      ],
+      "keyword": "certain",
+      "etymology": "Rock/stone (石 compressed) with a bird (隹) perched on top — as sure and solid as a stone.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "査",
+      "meanings": [
+        "examine",
+        "inspect",
+        "investigate"
+      ],
+      "on_yomi": [
+        "サ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "調査",
+          "kana": "ちょうさ",
+          "meaning": "survey, investigation"
+        },
+        {
+          "kanji": "検査",
+          "kana": "けんさ",
+          "meaning": "inspection, examination"
+        },
+        {
+          "kanji": "審査",
+          "kana": "しんさ",
+          "meaning": "screening, review, judging"
+        }
+      ],
+      "keyword": "inspect",
+      "etymology": "Wood (木) examined with a stacked measuring rod (且) — checking carefully for quality.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "講",
+      "meanings": [
+        "lecture",
+        "study",
+        "association",
+        "course"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "講義",
+          "kana": "こうぎ",
+          "meaning": "lecture"
+        },
+        {
+          "kanji": "講師",
+          "kana": "こうし",
+          "meaning": "lecturer, instructor"
+        },
+        {
+          "kanji": "講座",
+          "kana": "こうざ",
+          "meaning": "course, lecture series"
+        }
+      ],
+      "keyword": "lecture",
+      "etymology": "Words (言) flowing through a latticed beam (冓) — structured speech arranged in a frame.",
+      "stroke_count": 17,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "義",
+      "meanings": [
+        "righteousness",
+        "justice",
+        "meaning",
+        "in-law",
+        "duty"
+      ],
+      "on_yomi": [
+        "ギ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "講義",
+          "kana": "こうぎ",
+          "meaning": "lecture"
+        },
+        {
+          "kanji": "義務",
+          "kana": "ぎむ",
+          "meaning": "obligation, duty"
+        },
+        {
+          "kanji": "正義",
+          "kana": "せいぎ",
+          "meaning": "justice"
+        }
+      ],
+      "keyword": "righteousness",
+      "etymology": "A sheep (羊) over a weapon (我 — I/spear) — a righteous cause worth defending.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "減",
+      "meanings": [
+        "decrease",
+        "reduce",
+        "diminish",
+        "subtract"
+      ],
+      "on_yomi": [
+        "ゲン"
+      ],
+      "kun_yomi": [
+        "へ(る)",
+        "へ(らす)"
+      ],
+      "examples": [
+        {
+          "kanji": "減る",
+          "kana": "へる",
+          "meaning": "to decrease, to diminish"
+        },
+        {
+          "kanji": "削減",
+          "kana": "さくげん",
+          "meaning": "reduction, cutback"
+        },
+        {
+          "kanji": "減少",
+          "kana": "げんしょう",
+          "meaning": "decrease, decline"
+        }
+      ],
+      "keyword": "decrease",
+      "etymology": "Water (氵) cut off by a halting blow (咸 — a weapon stopping flow) — water reduced.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 5,
+      "write_required": false,
+      "decks": [
+        "An Integrated Approach Ch.5 (recognition)",
+        "JLPT N3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1362 @@
+{
+  "deck_id": "integrated-intermediate-ch2",
+  "deck_name": "An Integrated Approach — Ch.2 Kanji",
+  "version": "1.0",
+  "notes": "Kanji sourced from the 書くのを覚える漢字 list in An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 2. Each card covers one kanji with readings, 3 example words, a mnemonic etymology, stroke count, JLPT level, and school grade.",
+  "card_count": 33,
+  "cards": [
+    {
+      "kanji": "例",
+      "meanings": [
+        "example",
+        "instance",
+        "precedent",
+        "custom"
+      ],
+      "on_yomi": [
+        "レイ"
+      ],
+      "kun_yomi": [
+        "たと(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "例えば",
+          "kana": "たとえば",
+          "meaning": "for example"
+        },
+        {
+          "kanji": "例",
+          "kana": "れい",
+          "meaning": "example, instance"
+        },
+        {
+          "kanji": "例外",
+          "kana": "れいがい",
+          "meaning": "exception"
+        }
+      ],
+      "keyword": "example",
+      "etymology": "A person (亻) beside a ranked row (歹+夂) — setting up a case side by side.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "朝",
+      "meanings": [
+        "morning",
+        "dynasty"
+      ],
+      "on_yomi": [
+        "チョウ"
+      ],
+      "kun_yomi": [
+        "あさ"
+      ],
+      "examples": [
+        {
+          "kanji": "朝",
+          "kana": "あさ",
+          "meaning": "morning"
+        },
+        {
+          "kanji": "今朝",
+          "kana": "けさ",
+          "meaning": "this morning"
+        },
+        {
+          "kanji": "朝食",
+          "kana": "ちょうしょく",
+          "meaning": "breakfast"
+        }
+      ],
+      "keyword": "morning",
+      "etymology": "The moon (月) still visible as the sun (日) rises through reeds — early morning.",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "午",
+      "meanings": [
+        "noon",
+        "the Horse (zodiac)"
+      ],
+      "on_yomi": [
+        "ゴ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "午後",
+          "kana": "ごご",
+          "meaning": "afternoon, PM"
+        },
+        {
+          "kanji": "午前",
+          "kana": "ごぜん",
+          "meaning": "morning, AM"
+        },
+        {
+          "kanji": "正午",
+          "kana": "しょうご",
+          "meaning": "noon, midday"
+        }
+      ],
+      "keyword": "noon",
+      "etymology": "A vertical stroke through a horizontal line — the sun directly overhead at midday.",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N5"
+      ]
+    },
+    {
+      "kanji": "変",
+      "meanings": [
+        "change",
+        "strange",
+        "unusual",
+        "odd"
+      ],
+      "on_yomi": [
+        "ヘン"
+      ],
+      "kun_yomi": [
+        "か(わる)",
+        "か(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "変な",
+          "kana": "へんな",
+          "meaning": "strange, odd"
+        },
+        {
+          "kanji": "変化",
+          "kana": "へんか",
+          "meaning": "change, variation"
+        },
+        {
+          "kanji": "大変",
+          "kana": "たいへん",
+          "meaning": "difficult; very much"
+        }
+      ],
+      "keyword": "change",
+      "etymology": "Threads twisting (糸 variant) over a foot (夂) — things getting tangled and changing.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "意",
+      "meanings": [
+        "intention",
+        "meaning",
+        "will",
+        "mind"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "意味",
+          "kana": "いみ",
+          "meaning": "meaning"
+        },
+        {
+          "kanji": "意見",
+          "kana": "いけん",
+          "meaning": "opinion, view"
+        },
+        {
+          "kanji": "注意",
+          "kana": "ちゅうい",
+          "meaning": "caution, attention"
+        }
+      ],
+      "keyword": "intention",
+      "etymology": "Sound (音) coming from the heart (心) — the inner voice of one's will.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "味",
+      "meanings": [
+        "taste",
+        "flavor",
+        "meaning",
+        "interest"
+      ],
+      "on_yomi": [
+        "ミ"
+      ],
+      "kun_yomi": [
+        "あじ"
+      ],
+      "examples": [
+        {
+          "kanji": "意味",
+          "kana": "いみ",
+          "meaning": "meaning"
+        },
+        {
+          "kanji": "味",
+          "kana": "あじ",
+          "meaning": "taste, flavor"
+        },
+        {
+          "kanji": "趣味",
+          "kana": "しゅみ",
+          "meaning": "hobby, interest"
+        }
+      ],
+      "keyword": "taste",
+      "etymology": "A mouth (口) savoring a not-yet-ripe fruit (未) — appreciating subtle flavor.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "覚",
+      "meanings": [
+        "remember",
+        "memorize",
+        "awaken",
+        "feel"
+      ],
+      "on_yomi": [
+        "カク"
+      ],
+      "kun_yomi": [
+        "おぼ(える)",
+        "さ(める)",
+        "さ(ます)"
+      ],
+      "examples": [
+        {
+          "kanji": "覚える",
+          "kana": "おぼえる",
+          "meaning": "to memorize, to remember"
+        },
+        {
+          "kanji": "目覚める",
+          "kana": "めざめる",
+          "meaning": "to wake up"
+        },
+        {
+          "kanji": "感覚",
+          "kana": "かんかく",
+          "meaning": "sense, sensation"
+        }
+      ],
+      "keyword": "memorize",
+      "etymology": "Claws (爪) over a home (冖) guarding a child (子) — carefully watching over, hence aware.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "声",
+      "meanings": [
+        "voice",
+        "sound",
+        "reputation"
+      ],
+      "on_yomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "こえ"
+      ],
+      "examples": [
+        {
+          "kanji": "声",
+          "kana": "こえ",
+          "meaning": "voice"
+        },
+        {
+          "kanji": "声優",
+          "kana": "せいゆう",
+          "meaning": "voice actor"
+        },
+        {
+          "kanji": "大声",
+          "kana": "おおごえ",
+          "meaning": "loud voice"
+        }
+      ],
+      "keyword": "voice",
+      "etymology": "A mouth-organ (士) above an ear (耳) — sound produced and received.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "難",
+      "meanings": [
+        "difficult",
+        "hard",
+        "trouble",
+        "disaster"
+      ],
+      "on_yomi": [
+        "ナン"
+      ],
+      "kun_yomi": [
+        "むずか(しい)",
+        "かた(い)"
+      ],
+      "examples": [
+        {
+          "kanji": "難しい",
+          "kana": "むずかしい",
+          "meaning": "difficult, hard"
+        },
+        {
+          "kanji": "困難",
+          "kana": "こんなん",
+          "meaning": "difficulty, hardship"
+        },
+        {
+          "kanji": "難問",
+          "kana": "なんもん",
+          "meaning": "difficult problem"
+        }
+      ],
+      "keyword": "difficult",
+      "etymology": "A bird (隹) trapped in fire (熯 simplified) — a bird in distress, struggling.",
+      "stroke_count": 18,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "外",
+      "meanings": [
+        "outside",
+        "foreign",
+        "other",
+        "except"
+      ],
+      "on_yomi": [
+        "ガイ",
+        "ゲ"
+      ],
+      "kun_yomi": [
+        "そと",
+        "ほか",
+        "はず(れる)"
+      ],
+      "examples": [
+        {
+          "kanji": "外",
+          "kana": "そと",
+          "meaning": "outside"
+        },
+        {
+          "kanji": "外国",
+          "kana": "がいこく",
+          "meaning": "foreign country"
+        },
+        {
+          "kanji": "以外",
+          "kana": "いがい",
+          "meaning": "other than, except for"
+        }
+      ],
+      "keyword": "outside",
+      "etymology": "Evening (夕) plus a divination sign (卜) — fortune-telling done outside at dusk.",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "急",
+      "meanings": [
+        "hurry",
+        "sudden",
+        "urgent",
+        "steep"
+      ],
+      "on_yomi": [
+        "キュウ"
+      ],
+      "kun_yomi": [
+        "いそ(ぐ)"
+      ],
+      "examples": [
+        {
+          "kanji": "急ぐ",
+          "kana": "いそぐ",
+          "meaning": "to hurry, to rush"
+        },
+        {
+          "kanji": "急に",
+          "kana": "きゅうに",
+          "meaning": "suddenly"
+        },
+        {
+          "kanji": "緊急",
+          "kana": "きんきゅう",
+          "meaning": "emergency, urgent"
+        }
+      ],
+      "keyword": "hurry",
+      "etymology": "One gripping (及) with the heart (心) — the heart racing in a rush.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "代",
+      "meanings": [
+        "generation",
+        "era",
+        "substitute",
+        "charge",
+        "price"
+      ],
+      "on_yomi": [
+        "ダイ",
+        "タイ"
+      ],
+      "kun_yomi": [
+        "か(わる)",
+        "か(える)",
+        "よ",
+        "しろ"
+      ],
+      "examples": [
+        {
+          "kanji": "時代",
+          "kana": "じだい",
+          "meaning": "era, age, period"
+        },
+        {
+          "kanji": "代わり",
+          "kana": "かわり",
+          "meaning": "substitute, replacement"
+        },
+        {
+          "kanji": "代表",
+          "kana": "だいひょう",
+          "meaning": "representative, representation"
+        }
+      ],
+      "keyword": "era",
+      "etymology": "A person (亻) thrusting a spear (弋) — one person replacing another in battle.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "僕",
+      "meanings": [
+        "I/me (male informal)",
+        "manservant"
+      ],
+      "on_yomi": [
+        "ボク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "僕",
+          "kana": "ぼく",
+          "meaning": "I, me (informal male)"
+        },
+        {
+          "kanji": "僕たち",
+          "kana": "ぼくたち",
+          "meaning": "we, us (male informal)"
+        },
+        {
+          "kanji": "下僕",
+          "kana": "しもべ",
+          "meaning": "servant, manservant"
+        }
+      ],
+      "keyword": "I (male)",
+      "etymology": "A person (亻) who tends trees in a grove (業 variant) — a servant tending the estate.",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "番",
+      "meanings": [
+        "number",
+        "turn",
+        "watch",
+        "guard"
+      ],
+      "on_yomi": [
+        "バン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "番号",
+          "kana": "ばんごう",
+          "meaning": "number (in a series)"
+        },
+        {
+          "kanji": "一番",
+          "kana": "いちばん",
+          "meaning": "number one; the most"
+        },
+        {
+          "kanji": "番組",
+          "kana": "ばんぐみ",
+          "meaning": "TV/radio program"
+        }
+      ],
+      "keyword": "number",
+      "etymology": "Rice seedlings (采) in a field (田) counted in rows — numbered in order.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "号",
+      "meanings": [
+        "number",
+        "name",
+        "title",
+        "issue"
+      ],
+      "on_yomi": [
+        "ゴウ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "番号",
+          "kana": "ばんごう",
+          "meaning": "number (in a series)"
+        },
+        {
+          "kanji": "号",
+          "kana": "ごう",
+          "meaning": "issue number; name"
+        },
+        {
+          "kanji": "信号",
+          "kana": "しんごう",
+          "meaning": "traffic signal"
+        }
+      ],
+      "keyword": "number/title",
+      "etymology": "A mouth (口) calling out (丂) — announcing a name or number.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "困",
+      "meanings": [
+        "troubled",
+        "distressed",
+        "at a loss",
+        "poor"
+      ],
+      "on_yomi": [
+        "コン"
+      ],
+      "kun_yomi": [
+        "こま(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "困る",
+          "kana": "こまる",
+          "meaning": "to be troubled, to be at a loss"
+        },
+        {
+          "kanji": "困難",
+          "kana": "こんなん",
+          "meaning": "difficulty, hardship"
+        },
+        {
+          "kanji": "貧困",
+          "kana": "ひんこん",
+          "meaning": "poverty"
+        }
+      ],
+      "keyword": "troubled",
+      "etymology": "A tree (木) trapped inside a box (囗) — hemmed in and unable to grow.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "当",
+      "meanings": [
+        "hit",
+        "current",
+        "appropriate",
+        "natural"
+      ],
+      "on_yomi": [
+        "トウ",
+        "ドウ"
+      ],
+      "kun_yomi": [
+        "あ(たる)",
+        "あ(てる)"
+      ],
+      "examples": [
+        {
+          "kanji": "当たる",
+          "kana": "あたる",
+          "meaning": "to hit; to be correct"
+        },
+        {
+          "kanji": "本当",
+          "kana": "ほんとう",
+          "meaning": "truth, reality"
+        },
+        {
+          "kanji": "担当",
+          "kana": "たんとう",
+          "meaning": "in charge of"
+        }
+      ],
+      "keyword": "hit",
+      "etymology": "A hand (尚 simplified) striking a target (田) — hitting the mark.",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "相",
+      "meanings": [
+        "mutual",
+        "together",
+        "appearance",
+        "minister"
+      ],
+      "on_yomi": [
+        "ソウ",
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "あい"
+      ],
+      "examples": [
+        {
+          "kanji": "相手",
+          "kana": "あいて",
+          "meaning": "partner, opponent"
+        },
+        {
+          "kanji": "相談",
+          "kana": "そうだん",
+          "meaning": "consultation, discussion"
+        },
+        {
+          "kanji": "首相",
+          "kana": "しゅしょう",
+          "meaning": "prime minister"
+        }
+      ],
+      "keyword": "mutual",
+      "etymology": "An eye (目) examining a tree (木) — looking at something together from both sides.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "友",
+      "meanings": [
+        "friend",
+        "friendship"
+      ],
+      "on_yomi": [
+        "ユウ"
+      ],
+      "kun_yomi": [
+        "とも"
+      ],
+      "examples": [
+        {
+          "kanji": "友達",
+          "kana": "ともだち",
+          "meaning": "friend"
+        },
+        {
+          "kanji": "友人",
+          "kana": "ゆうじん",
+          "meaning": "friend (formal)"
+        },
+        {
+          "kanji": "親友",
+          "kana": "しんゆう",
+          "meaning": "close friend, best friend"
+        }
+      ],
+      "keyword": "friend",
+      "etymology": "Two hands (又 doubled) reaching out — a mutual handshake of friendship.",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "説",
+      "meanings": [
+        "explain",
+        "theory",
+        "opinion",
+        "persuade"
+      ],
+      "on_yomi": [
+        "セツ",
+        "ゼイ"
+      ],
+      "kun_yomi": [
+        "と(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "説明",
+          "kana": "せつめい",
+          "meaning": "explanation"
+        },
+        {
+          "kanji": "小説",
+          "kana": "しょうせつ",
+          "meaning": "novel, fiction"
+        },
+        {
+          "kanji": "説得",
+          "kana": "せっとく",
+          "meaning": "persuasion"
+        }
+      ],
+      "keyword": "explain",
+      "etymology": "Words (言) spoken with joy (兌) — words that delight and explain.",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "食",
+      "meanings": [
+        "eat",
+        "food",
+        "meal"
+      ],
+      "on_yomi": [
+        "ショク",
+        "ジキ"
+      ],
+      "kun_yomi": [
+        "た(べる)",
+        "く(う)"
+      ],
+      "examples": [
+        {
+          "kanji": "食事",
+          "kana": "しょくじ",
+          "meaning": "meal"
+        },
+        {
+          "kanji": "食べる",
+          "kana": "たべる",
+          "meaning": "to eat"
+        },
+        {
+          "kanji": "食堂",
+          "kana": "しょくどう",
+          "meaning": "cafeteria, dining hall"
+        }
+      ],
+      "keyword": "eat",
+      "etymology": "A lid (亼) over a bowl of rice (良) — covering a full bowl of food.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "事",
+      "meanings": [
+        "matter",
+        "thing",
+        "fact",
+        "affair",
+        "circumstance"
+      ],
+      "on_yomi": [
+        "ジ",
+        "ズ"
+      ],
+      "kun_yomi": [
+        "こと"
+      ],
+      "examples": [
+        {
+          "kanji": "食事",
+          "kana": "しょくじ",
+          "meaning": "meal"
+        },
+        {
+          "kanji": "仕事",
+          "kana": "しごと",
+          "meaning": "work, job"
+        },
+        {
+          "kanji": "大事",
+          "kana": "だいじ",
+          "meaning": "important; taking care"
+        }
+      ],
+      "keyword": "matter",
+      "etymology": "A hand (又) spinning a flagpole (亅 extended) — handling affairs, managing things.",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "対",
+      "meanings": [
+        "against",
+        "opposite",
+        "versus",
+        "pair",
+        "respond"
+      ],
+      "on_yomi": [
+        "タイ",
+        "ツイ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "対して",
+          "kana": "たいして",
+          "meaning": "against, toward; not very"
+        },
+        {
+          "kanji": "反対",
+          "kana": "はんたい",
+          "meaning": "opposition, objection"
+        },
+        {
+          "kanji": "対話",
+          "kana": "たいわ",
+          "meaning": "dialogue"
+        }
+      ],
+      "keyword": "versus",
+      "etymology": "A pair of trees (丵) trimmed by a knife (刂) — two things cut to face each other.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "族",
+      "meanings": [
+        "family",
+        "tribe",
+        "clan",
+        "group"
+      ],
+      "on_yomi": [
+        "ゾク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "家族",
+          "kana": "かぞく",
+          "meaning": "family"
+        },
+        {
+          "kanji": "民族",
+          "kana": "みんぞく",
+          "meaning": "ethnic group, people"
+        },
+        {
+          "kanji": "水族館",
+          "kana": "すいぞくかん",
+          "meaning": "aquarium"
+        }
+      ],
+      "keyword": "tribe",
+      "etymology": "A flag (方 + 斿) beside an arrow (矢) — a clan gathered under its banner.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "数",
+      "meanings": [
+        "number",
+        "count",
+        "several",
+        "fate"
+      ],
+      "on_yomi": [
+        "スウ",
+        "ス"
+      ],
+      "kun_yomi": [
+        "かず",
+        "かぞ(える)"
+      ],
+      "examples": [
+        {
+          "kanji": "数",
+          "kana": "かず",
+          "meaning": "number, amount"
+        },
+        {
+          "kanji": "数学",
+          "kana": "すうがく",
+          "meaning": "mathematics"
+        },
+        {
+          "kanji": "数日",
+          "kana": "すうじつ",
+          "meaning": "several days"
+        }
+      ],
+      "keyword": "number",
+      "etymology": "Woman (女) striking (攴) a knot-record (婁) — tallying counts on a rope.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "決",
+      "meanings": [
+        "decide",
+        "determine",
+        "fix",
+        "settle"
+      ],
+      "on_yomi": [
+        "ケツ"
+      ],
+      "kun_yomi": [
+        "き(まる)",
+        "き(める)"
+      ],
+      "examples": [
+        {
+          "kanji": "決まり文句",
+          "kana": "きまりもんく",
+          "meaning": "set phrase, stock expression"
+        },
+        {
+          "kanji": "決める",
+          "kana": "きめる",
+          "meaning": "to decide, to determine"
+        },
+        {
+          "kanji": "解決",
+          "kana": "かいけつ",
+          "meaning": "resolution, solution"
+        }
+      ],
+      "keyword": "decide",
+      "etymology": "Water (氵) breaking through a dam (夬) — the moment a decision bursts open.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "句",
+      "meanings": [
+        "phrase",
+        "clause",
+        "verse",
+        "haiku unit"
+      ],
+      "on_yomi": [
+        "ク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "文句",
+          "kana": "もんく",
+          "meaning": "complaint; phrase"
+        },
+        {
+          "kanji": "俳句",
+          "kana": "はいく",
+          "meaning": "haiku poem"
+        },
+        {
+          "kanji": "句読点",
+          "kana": "くとうてん",
+          "meaning": "punctuation marks"
+        }
+      ],
+      "keyword": "phrase",
+      "etymology": "A mouth (口) wrapped in a bend (勹) — a compressed unit of speech.",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "用",
+      "meanings": [
+        "use",
+        "utilize",
+        "business",
+        "errand"
+      ],
+      "on_yomi": [
+        "ヨウ"
+      ],
+      "kun_yomi": [
+        "もち(いる)"
+      ],
+      "examples": [
+        {
+          "kanji": "用語",
+          "kana": "ようご",
+          "meaning": "terminology, technical term"
+        },
+        {
+          "kanji": "使用",
+          "kana": "しよう",
+          "meaning": "use, usage"
+        },
+        {
+          "kanji": "用事",
+          "kana": "ようじ",
+          "meaning": "errand, business to attend to"
+        }
+      ],
+      "keyword": "use",
+      "etymology": "A bucket-shaped vessel (甬 simplified) — something used to hold and carry.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "語",
+      "meanings": [
+        "language",
+        "word",
+        "speak",
+        "story"
+      ],
+      "on_yomi": [
+        "ゴ"
+      ],
+      "kun_yomi": [
+        "かた(る)",
+        "かた(らう)"
+      ],
+      "examples": [
+        {
+          "kanji": "用語",
+          "kana": "ようご",
+          "meaning": "terminology"
+        },
+        {
+          "kanji": "日本語",
+          "kana": "にほんご",
+          "meaning": "Japanese language"
+        },
+        {
+          "kanji": "語学",
+          "kana": "ごがく",
+          "meaning": "language study"
+        }
+      ],
+      "keyword": "language",
+      "etymology": "Words (言) shaped by a cross-pattern (吾 — I/my) — one's own spoken tongue.",
+      "stroke_count": 14,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "客",
+      "meanings": [
+        "guest",
+        "visitor",
+        "customer",
+        "passenger"
+      ],
+      "on_yomi": [
+        "キャク",
+        "カク"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "お客さん",
+          "kana": "おきゃくさん",
+          "meaning": "customer, guest (polite)"
+        },
+        {
+          "kanji": "観客",
+          "kana": "かんきゃく",
+          "meaning": "audience, spectators"
+        },
+        {
+          "kanji": "客室",
+          "kana": "きゃくしつ",
+          "meaning": "guest room; passenger cabin"
+        }
+      ],
+      "keyword": "guest",
+      "etymology": "A person arriving at a house (宀) from afar (各) — a visitor from outside.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "供",
+      "meanings": [
+        "offer",
+        "accompany",
+        "companion",
+        "provide"
+      ],
+      "on_yomi": [
+        "キョウ",
+        "ク"
+      ],
+      "kun_yomi": [
+        "とも"
+      ],
+      "examples": [
+        {
+          "kanji": "子供",
+          "kana": "こども",
+          "meaning": "child"
+        },
+        {
+          "kanji": "提供",
+          "kana": "ていきょう",
+          "meaning": "provision, offer"
+        },
+        {
+          "kanji": "お供",
+          "kana": "おとも",
+          "meaning": "accompanying; an attendant"
+        }
+      ],
+      "keyword": "offer",
+      "etymology": "A person (亻) presenting something with both hands (共) — making an offering.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "育",
+      "meanings": [
+        "raise",
+        "nurture",
+        "grow up",
+        "educate"
+      ],
+      "on_yomi": [
+        "イク"
+      ],
+      "kun_yomi": [
+        "そだ(てる)",
+        "そだ(つ)"
+      ],
+      "examples": [
+        {
+          "kanji": "教育",
+          "kana": "きょういく",
+          "meaning": "education"
+        },
+        {
+          "kanji": "育てる",
+          "kana": "そだてる",
+          "meaning": "to raise, to bring up"
+        },
+        {
+          "kanji": "体育",
+          "kana": "たいいく",
+          "meaning": "physical education"
+        }
+      ],
+      "keyword": "nurture",
+      "etymology": "A child (子 inverted — newborn) emerging from a person (月 body) — being born and raised.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "社",
+      "meanings": [
+        "company",
+        "firm",
+        "shrine",
+        "society"
+      ],
+      "on_yomi": [
+        "シャ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "社会",
+          "kana": "しゃかい",
+          "meaning": "society"
+        },
+        {
+          "kanji": "会社",
+          "kana": "かいしゃ",
+          "meaning": "company, firm"
+        },
+        {
+          "kanji": "神社",
+          "kana": "じんじゃ",
+          "meaning": "Shinto shrine"
+        }
+      ],
+      "keyword": "company",
+      "etymology": "An altar (礻) on the earth (土) — the gathering place of the community.",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.2",
+        "JLPT N4"
+      ]
+    }
+  ]
+}

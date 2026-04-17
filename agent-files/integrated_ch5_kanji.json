@@ -1,0 +1,987 @@
+{
+  "deck_id": "integrated-intermediate-ch5",
+  "deck_name": "An Integrated Approach — Ch.5 Kanji",
+  "version": "1.0",
+  "notes": "Kanji sourced from the 書くのを覚える漢字 list in An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 5. Each card covers one kanji with readings, 3 example words, a mnemonic etymology, stroke count, JLPT level, and school grade.",
+  "card_count": 24,
+  "cards": [
+    {
+      "kanji": "質",
+      "meanings": [
+        "quality",
+        "nature",
+        "substance",
+        "pawn",
+        "question"
+      ],
+      "on_yomi": [
+        "シツ",
+        "シチ",
+        "チ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "質問",
+          "kana": "しつもん",
+          "meaning": "question"
+        },
+        {
+          "kanji": "品質",
+          "kana": "ひんしつ",
+          "meaning": "quality (of goods)"
+        },
+        {
+          "kanji": "物質",
+          "kana": "ぶっしつ",
+          "meaning": "substance, matter"
+        }
+      ],
+      "keyword": "quality",
+      "etymology": "Two axes (斤×2) over a shell/money (貝) — testing the true value of a thing.",
+      "stroke_count": 15,
+      "jlpt": "N3",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "科",
+      "meanings": [
+        "department",
+        "subject",
+        "course",
+        "section"
+      ],
+      "on_yomi": [
+        "カ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "別科",
+          "kana": "べっか",
+          "meaning": "special course, separate department"
+        },
+        {
+          "kanji": "科学",
+          "kana": "かがく",
+          "meaning": "science"
+        },
+        {
+          "kanji": "教科書",
+          "kana": "きょうかしょ",
+          "meaning": "textbook"
+        }
+      ],
+      "keyword": "subject",
+      "etymology": "Grain (禾) measured by a ladle (斗) — categorizing and portioning things out.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "伺",
+      "meanings": [
+        "visit (humble)",
+        "ask humbly",
+        "inquire"
+      ],
+      "on_yomi": [
+        "シ"
+      ],
+      "kun_yomi": [
+        "うかが(う)"
+      ],
+      "examples": [
+        {
+          "kanji": "伺う",
+          "kana": "うかがう",
+          "meaning": "to visit (humble); to ask (humble)"
+        },
+        {
+          "kanji": "お伺い",
+          "kana": "おうかがい",
+          "meaning": "visit; humble inquiry"
+        },
+        {
+          "kanji": "伺い",
+          "kana": "うかがい",
+          "meaning": "humble inquiry, visit"
+        }
+      ],
+      "keyword": "visit humbly",
+      "etymology": "A person (亻) in a listening posture (司 — official listening) — approaching respectfully.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "研",
+      "meanings": [
+        "grind",
+        "polish",
+        "sharpen",
+        "study",
+        "research"
+      ],
+      "on_yomi": [
+        "ケン"
+      ],
+      "kun_yomi": [
+        "と(ぐ)"
+      ],
+      "examples": [
+        {
+          "kanji": "研究",
+          "kana": "けんきゅう",
+          "meaning": "research, study"
+        },
+        {
+          "kanji": "研修",
+          "kana": "けんしゅう",
+          "meaning": "training, study program"
+        },
+        {
+          "kanji": "研ぐ",
+          "kana": "とぐ",
+          "meaning": "to sharpen, to grind"
+        }
+      ],
+      "keyword": "research",
+      "etymology": "Stone (石) shaped by a flat mold (幵) — grinding stone to sharpen it.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "究",
+      "meanings": [
+        "investigate",
+        "research",
+        "examine",
+        "extreme"
+      ],
+      "on_yomi": [
+        "キュウ"
+      ],
+      "kun_yomi": [
+        "きわ(める)"
+      ],
+      "examples": [
+        {
+          "kanji": "研究",
+          "kana": "けんきゅう",
+          "meaning": "research, study"
+        },
+        {
+          "kanji": "究明",
+          "kana": "きゅうめい",
+          "meaning": "investigation, inquiry"
+        },
+        {
+          "kanji": "学究",
+          "kana": "がっきゅう",
+          "meaning": "scholar, researcher"
+        }
+      ],
+      "keyword": "investigate",
+      "etymology": "A cave (穴) with a twisting staff (九) — burrowing deep to the extreme end.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "移",
+      "meanings": [
+        "move",
+        "shift",
+        "transfer",
+        "change"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [
+        "うつ(る)",
+        "うつ(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "移る",
+          "kana": "うつる",
+          "meaning": "to move, to transfer"
+        },
+        {
+          "kanji": "移動",
+          "kana": "いどう",
+          "meaning": "movement, transfer"
+        },
+        {
+          "kanji": "転移",
+          "kana": "てんい",
+          "meaning": "metastasis; transfer"
+        }
+      ],
+      "keyword": "move",
+      "etymology": "Grain (禾) loaded onto many (多) — spreading and shifting like a harvest distribution.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "績",
+      "meanings": [
+        "achievements",
+        "results",
+        "spin thread",
+        "score"
+      ],
+      "on_yomi": [
+        "セキ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "成績",
+          "kana": "せいせき",
+          "meaning": "grades, results, performance"
+        },
+        {
+          "kanji": "業績",
+          "kana": "ぎょうせき",
+          "meaning": "achievements, results"
+        },
+        {
+          "kanji": "功績",
+          "kana": "こうせき",
+          "meaning": "merits, achievements"
+        }
+      ],
+      "keyword": "results",
+      "etymology": "Thread (糸) with a bundled responsibility (責) — accumulating the threads of one's work.",
+      "stroke_count": 17,
+      "jlpt": "N2",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "予",
+      "meanings": [
+        "beforehand",
+        "in advance",
+        "I (archaic)"
+      ],
+      "on_yomi": [
+        "ヨ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "予習",
+          "kana": "よしゅう",
+          "meaning": "preparation for class"
+        },
+        {
+          "kanji": "予約",
+          "kana": "よやく",
+          "meaning": "reservation, appointment"
+        },
+        {
+          "kanji": "予定",
+          "kana": "よてい",
+          "meaning": "schedule, plan"
+        }
+      ],
+      "keyword": "in advance",
+      "etymology": "A curved hook (了) before something is set — preparing the hook before fishing.",
+      "stroke_count": 4,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "宿",
+      "meanings": [
+        "lodge",
+        "inn",
+        "stay overnight",
+        "home"
+      ],
+      "on_yomi": [
+        "シュク"
+      ],
+      "kun_yomi": [
+        "やど",
+        "やど(る)",
+        "やど(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "宿題",
+          "kana": "しゅくだい",
+          "meaning": "homework"
+        },
+        {
+          "kanji": "宿泊",
+          "kana": "しゅくはく",
+          "meaning": "lodging, overnight stay"
+        },
+        {
+          "kanji": "宿",
+          "kana": "やど",
+          "meaning": "inn, lodging"
+        }
+      ],
+      "keyword": "lodge",
+      "etymology": "A hundred (百 — many) people under one roof (宀) — a lodging for many travelers.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "現",
+      "meanings": [
+        "present",
+        "current",
+        "appear",
+        "actual"
+      ],
+      "on_yomi": [
+        "ゲン"
+      ],
+      "kun_yomi": [
+        "あらわ(れる)",
+        "あらわ(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "現代",
+          "kana": "げんだい",
+          "meaning": "modern times, the present age"
+        },
+        {
+          "kanji": "現在",
+          "kana": "げんざい",
+          "meaning": "present, now"
+        },
+        {
+          "kanji": "現れる",
+          "kana": "あらわれる",
+          "meaning": "to appear, to emerge"
+        }
+      ],
+      "keyword": "present",
+      "etymology": "Jade/gem (王+玉) that can be seen (見) — what is visible and real right now.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "員",
+      "meanings": [
+        "member",
+        "staff",
+        "employee",
+        "personnel"
+      ],
+      "on_yomi": [
+        "イン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "部員",
+          "kana": "ぶいん",
+          "meaning": "club member"
+        },
+        {
+          "kanji": "店員",
+          "kana": "てんいん",
+          "meaning": "store clerk, shop assistant"
+        },
+        {
+          "kanji": "全員",
+          "kana": "ぜんいん",
+          "meaning": "all members, everyone"
+        }
+      ],
+      "keyword": "member",
+      "etymology": "A mouth/opening (口) over a shell/money (貝) — counting mouths as members to support.",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "島",
+      "meanings": [
+        "island"
+      ],
+      "on_yomi": [
+        "トウ"
+      ],
+      "kun_yomi": [
+        "しま"
+      ],
+      "examples": [
+        {
+          "kanji": "島",
+          "kana": "しま",
+          "meaning": "island"
+        },
+        {
+          "kanji": "半島",
+          "kana": "はんとう",
+          "meaning": "peninsula"
+        },
+        {
+          "kanji": "広島",
+          "kana": "ひろしま",
+          "meaning": "Hiroshima"
+        }
+      ],
+      "keyword": "island",
+      "etymology": "A bird (鳥 simplified) above a mountain (山) — land rising above the water like a perch.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "験",
+      "meanings": [
+        "test",
+        "examination",
+        "effect",
+        "experience"
+      ],
+      "on_yomi": [
+        "ケン",
+        "ゲン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "試験",
+          "kana": "しけん",
+          "meaning": "exam, test"
+        },
+        {
+          "kanji": "経験",
+          "kana": "けいけん",
+          "meaning": "experience"
+        },
+        {
+          "kanji": "実験",
+          "kana": "じっけん",
+          "meaning": "experiment"
+        }
+      ],
+      "keyword": "test",
+      "etymology": "A horse (馬) put through its paces by a gathered crowd (僉) — testing performance.",
+      "stroke_count": 18,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "卒",
+      "meanings": [
+        "graduate",
+        "finish",
+        "soldier",
+        "abruptly"
+      ],
+      "on_yomi": [
+        "ソツ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "卒業",
+          "kana": "そつぎょう",
+          "meaning": "graduation"
+        },
+        {
+          "kanji": "卒論",
+          "kana": "そつろん",
+          "meaning": "graduation thesis"
+        },
+        {
+          "kanji": "新卒",
+          "kana": "しんそつ",
+          "meaning": "new graduate"
+        }
+      ],
+      "keyword": "graduate",
+      "etymology": "A garment (衣 variant) with a cross-stitch closure — finishing and fastening up, done.",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "業",
+      "meanings": [
+        "business",
+        "work",
+        "industry",
+        "karma",
+        "academic subject"
+      ],
+      "on_yomi": [
+        "ギョウ",
+        "ゴウ"
+      ],
+      "kun_yomi": [
+        "わざ"
+      ],
+      "examples": [
+        {
+          "kanji": "卒業",
+          "kana": "そつぎょう",
+          "meaning": "graduation"
+        },
+        {
+          "kanji": "授業",
+          "kana": "じゅぎょう",
+          "meaning": "class, lesson"
+        },
+        {
+          "kanji": "職業",
+          "kana": "しょくぎょう",
+          "meaning": "occupation, profession"
+        }
+      ],
+      "keyword": "work/business",
+      "etymology": "A rack of hanging bells and drums (業) — the elaborate setup of a craft or performance.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "理",
+      "meanings": [
+        "reason",
+        "logic",
+        "manage",
+        "arrange"
+      ],
+      "on_yomi": [
+        "リ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "理由",
+          "kana": "りゆう",
+          "meaning": "reason, cause"
+        },
+        {
+          "kanji": "理解",
+          "kana": "りかい",
+          "meaning": "understanding, comprehension"
+        },
+        {
+          "kanji": "料理",
+          "kana": "りょうり",
+          "meaning": "cooking, dish"
+        }
+      ],
+      "keyword": "reason",
+      "etymology": "Jade (王) being cut along its grain (里 — village pattern) — working with natural logic.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "由",
+      "meanings": [
+        "reason",
+        "cause",
+        "from",
+        "through"
+      ],
+      "on_yomi": [
+        "ユ",
+        "ユウ",
+        "ユイ"
+      ],
+      "kun_yomi": [
+        "よし",
+        "よ(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "理由",
+          "kana": "りゆう",
+          "meaning": "reason, cause"
+        },
+        {
+          "kanji": "自由",
+          "kana": "じゆう",
+          "meaning": "freedom, liberty"
+        },
+        {
+          "kanji": "由来",
+          "kana": "ゆらい",
+          "meaning": "origin, history"
+        }
+      ],
+      "keyword": "reason/from",
+      "etymology": "A flask or vessel with a narrow neck (田 + protrusion) — the source things flow from.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "強",
+      "meanings": [
+        "strong",
+        "powerful",
+        "hard",
+        "forceful"
+      ],
+      "on_yomi": [
+        "キョウ",
+        "ゴウ"
+      ],
+      "kun_yomi": [
+        "つよ(い)",
+        "し(いる)"
+      ],
+      "examples": [
+        {
+          "kanji": "強い",
+          "kana": "つよい",
+          "meaning": "strong, powerful"
+        },
+        {
+          "kanji": "強調",
+          "kana": "きょうちょう",
+          "meaning": "emphasis, stress"
+        },
+        {
+          "kanji": "勉強",
+          "kana": "べんきょう",
+          "meaning": "study"
+        }
+      ],
+      "keyword": "strong",
+      "etymology": "A bow (弓) stiffened by a bug's shell (虫 variant) — a hardened, powerful bow.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "般",
+      "meanings": [
+        "general",
+        "carry",
+        "round",
+        "sort"
+      ],
+      "on_yomi": [
+        "ハン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "一般",
+          "kana": "いっぱん",
+          "meaning": "general, common"
+        },
+        {
+          "kanji": "一般的",
+          "kana": "いっぱんてき",
+          "meaning": "general, typical"
+        },
+        {
+          "kanji": "全般",
+          "kana": "ぜんぱん",
+          "meaning": "overall, in general"
+        }
+      ],
+      "keyword": "general",
+      "etymology": "A boat (舟) with a hand pushing a pole (殳) — the routine movement of a vessel.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "点",
+      "meanings": [
+        "point",
+        "dot",
+        "score",
+        "mark",
+        "aspect"
+      ],
+      "on_yomi": [
+        "テン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "いい点",
+          "kana": "いいてん",
+          "meaning": "good point; good score"
+        },
+        {
+          "kanji": "点数",
+          "kana": "てんすう",
+          "meaning": "score, points"
+        },
+        {
+          "kanji": "欠点",
+          "kana": "けってん",
+          "meaning": "fault, weak point"
+        }
+      ],
+      "keyword": "point",
+      "etymology": "A torch flame (灬) below a divining bone (占) — marking a point with fire.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "重",
+      "meanings": [
+        "heavy",
+        "pile up",
+        "important",
+        "layer"
+      ],
+      "on_yomi": [
+        "ジュウ",
+        "チョウ"
+      ],
+      "kun_yomi": [
+        "おも(い)",
+        "かさ(なる)",
+        "かさ(ねる)"
+      ],
+      "examples": [
+        {
+          "kanji": "重要",
+          "kana": "じゅうよう",
+          "meaning": "important"
+        },
+        {
+          "kanji": "重い",
+          "kana": "おもい",
+          "meaning": "heavy"
+        },
+        {
+          "kanji": "重なる",
+          "kana": "かさなる",
+          "meaning": "to pile up, to overlap"
+        }
+      ],
+      "keyword": "heavy",
+      "etymology": "A person (人+东) carrying a heavy load (壬 — a laden pole) — weighed down.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "要",
+      "meanings": [
+        "need",
+        "necessity",
+        "important",
+        "essential"
+      ],
+      "on_yomi": [
+        "ヨウ"
+      ],
+      "kun_yomi": [
+        "い(る)",
+        "かなめ"
+      ],
+      "examples": [
+        {
+          "kanji": "重要",
+          "kana": "じゅうよう",
+          "meaning": "important"
+        },
+        {
+          "kanji": "必要",
+          "kana": "ひつよう",
+          "meaning": "necessary"
+        },
+        {
+          "kanji": "要する",
+          "kana": "ようする",
+          "meaning": "to require; in short"
+        }
+      ],
+      "keyword": "necessary",
+      "etymology": "A woman (女) at the waist (腰 origin — 西+女) — the waist as the body's essential pivot.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "第",
+      "meanings": [
+        "ordinal prefix (No./rank)",
+        "title",
+        "residence"
+      ],
+      "on_yomi": [
+        "ダイ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "第一",
+          "kana": "だいいち",
+          "meaning": "first, number one"
+        },
+        {
+          "kanji": "第二",
+          "kana": "だいに",
+          "meaning": "second, number two"
+        },
+        {
+          "kanji": "次第",
+          "kana": "しだい",
+          "meaning": "depending on; gradually"
+        }
+      ],
+      "keyword": "rank",
+      "etymology": "Bamboo (竹) over a rank-marking cord (弟 variant) — bamboo strips numbered in order.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "付",
+      "meanings": [
+        "attach",
+        "give",
+        "accompany",
+        "add"
+      ],
+      "on_yomi": [
+        "フ"
+      ],
+      "kun_yomi": [
+        "つ(ける)",
+        "つ(く)"
+      ],
+      "examples": [
+        {
+          "kanji": "付き合い",
+          "kana": "つきあい",
+          "meaning": "association, relationship"
+        },
+        {
+          "kanji": "付ける",
+          "kana": "つける",
+          "meaning": "to attach, to add"
+        },
+        {
+          "kanji": "交付",
+          "kana": "こうふ",
+          "meaning": "delivery, issuance"
+        }
+      ],
+      "keyword": "attach",
+      "etymology": "A person (亻) beside a hand (寸) — handing something to another person.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.5",
+        "JLPT N3"
+      ]
+    }
+  ]
+}

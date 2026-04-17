@@ -1,0 +1,1465 @@
+{
+  "deck_id": "integrated-intermediate-ch4",
+  "deck_name": "An Integrated Approach — Ch.4 Kanji",
+  "version": "1.0",
+  "notes": "Kanji sourced from the 書くのを覚える漢字 list in An Integrated Approach to Intermediate Japanese (Revised Ed.), Chapter 4. Each card covers one kanji with readings, 3 example words, a mnemonic etymology, stroke count, JLPT level, and school grade.",
+  "card_count": 36,
+  "cards": [
+    {
+      "kanji": "写",
+      "meanings": [
+        "copy",
+        "photograph",
+        "transcribe",
+        "depict"
+      ],
+      "on_yomi": [
+        "シャ"
+      ],
+      "kun_yomi": [
+        "うつ(す)",
+        "うつ(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "写真",
+          "kana": "しゃしん",
+          "meaning": "photograph"
+        },
+        {
+          "kanji": "写す",
+          "kana": "うつす",
+          "meaning": "to copy, to photograph"
+        },
+        {
+          "kanji": "描写",
+          "kana": "びょうしゃ",
+          "meaning": "description, depiction"
+        }
+      ],
+      "keyword": "copy",
+      "etymology": "A roof (宀) over a bird (與 simplified) — a bird captured under a shelter, portrayed.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "真",
+      "meanings": [
+        "true",
+        "reality",
+        "genuine",
+        "exact"
+      ],
+      "on_yomi": [
+        "シン"
+      ],
+      "kun_yomi": [
+        "ま"
+      ],
+      "examples": [
+        {
+          "kanji": "写真",
+          "kana": "しゃしん",
+          "meaning": "photograph"
+        },
+        {
+          "kanji": "真実",
+          "kana": "しんじつ",
+          "meaning": "truth, reality"
+        },
+        {
+          "kanji": "真剣",
+          "kana": "しんけん",
+          "meaning": "serious, earnest"
+        }
+      ],
+      "keyword": "true",
+      "etymology": "A spoon fills a pot (匕+鼎 simplified) — exactly measuring what is real.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "史",
+      "meanings": [
+        "history",
+        "chronicle",
+        "annals"
+      ],
+      "on_yomi": [
+        "シ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "歴史",
+          "kana": "れきし",
+          "meaning": "history"
+        },
+        {
+          "kanji": "日本史",
+          "kana": "にほんし",
+          "meaning": "Japanese history"
+        },
+        {
+          "kanji": "史上",
+          "kana": "しじょう",
+          "meaning": "in history, historical"
+        }
+      ],
+      "keyword": "history",
+      "etymology": "A hand (又) holding a writing brush over a mouth (口) — recording historical accounts.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "別",
+      "meanings": [
+        "separate",
+        "another",
+        "different",
+        "part"
+      ],
+      "on_yomi": [
+        "ベツ"
+      ],
+      "kun_yomi": [
+        "わか(れる)"
+      ],
+      "examples": [
+        {
+          "kanji": "別に",
+          "kana": "べつに",
+          "meaning": "not particularly; separately"
+        },
+        {
+          "kanji": "特別",
+          "kana": "とくべつ",
+          "meaning": "special"
+        },
+        {
+          "kanji": "別れる",
+          "kana": "わかれる",
+          "meaning": "to part, to separate"
+        }
+      ],
+      "keyword": "separate",
+      "etymology": "A bone fragment (冎) cut by a knife (刂) — severing and separating.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "兄",
+      "meanings": [
+        "older brother"
+      ],
+      "on_yomi": [
+        "キョウ",
+        "ケイ"
+      ],
+      "kun_yomi": [
+        "あに"
+      ],
+      "examples": [
+        {
+          "kanji": "お兄さん",
+          "kana": "おにいさん",
+          "meaning": "older brother (polite)"
+        },
+        {
+          "kanji": "兄弟",
+          "kana": "きょうだい",
+          "meaning": "siblings"
+        },
+        {
+          "kanji": "長兄",
+          "kana": "ちょうけい",
+          "meaning": "eldest brother"
+        }
+      ],
+      "keyword": "older brother",
+      "etymology": "A large mouth (口) on legs (儿) — the big talker at the top of the family.",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "妹",
+      "meanings": [
+        "younger sister"
+      ],
+      "on_yomi": [
+        "マイ"
+      ],
+      "kun_yomi": [
+        "いもうと"
+      ],
+      "examples": [
+        {
+          "kanji": "妹",
+          "kana": "いもうと",
+          "meaning": "younger sister"
+        },
+        {
+          "kanji": "姉妹",
+          "kana": "しまい",
+          "meaning": "sisters"
+        },
+        {
+          "kanji": "妹さん",
+          "kana": "いもうとさん",
+          "meaning": "younger sister (polite)"
+        }
+      ],
+      "keyword": "younger sister",
+      "etymology": "A woman (女) who is not yet ripe (未) — the younger, still-growing sibling.",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "似",
+      "meanings": [
+        "resemble",
+        "look like",
+        "take after"
+      ],
+      "on_yomi": [
+        "ジ"
+      ],
+      "kun_yomi": [
+        "に(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "似る",
+          "kana": "にる",
+          "meaning": "to resemble, to look like"
+        },
+        {
+          "kanji": "似合う",
+          "kana": "にあう",
+          "meaning": "to suit, to look good on"
+        },
+        {
+          "kanji": "類似",
+          "kana": "るいじ",
+          "meaning": "resemblance, similarity"
+        }
+      ],
+      "keyword": "resemble",
+      "etymology": "A person (亻) holding a symbol (以) — like one thing standing in for another.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "州",
+      "meanings": [
+        "state",
+        "province",
+        "continent",
+        "sandbank"
+      ],
+      "on_yomi": [
+        "シュウ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "州",
+          "kana": "しゅう",
+          "meaning": "state, province"
+        },
+        {
+          "kanji": "本州",
+          "kana": "ほんしゅう",
+          "meaning": "Honshu (main island of Japan)"
+        },
+        {
+          "kanji": "カリフォルニア州",
+          "kana": "カリフォルニアしゅう",
+          "meaning": "State of California"
+        }
+      ],
+      "keyword": "state",
+      "etymology": "Three dots of land (∵ arranged) in flowing water — sandbars forming a landmass.",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "有",
+      "meanings": [
+        "have",
+        "exist",
+        "possess",
+        "there is"
+      ],
+      "on_yomi": [
+        "ユウ",
+        "ウ"
+      ],
+      "kun_yomi": [
+        "あ(る)"
+      ],
+      "examples": [
+        {
+          "kanji": "有名",
+          "kana": "ゆうめい",
+          "meaning": "famous, well-known"
+        },
+        {
+          "kanji": "有る",
+          "kana": "ある",
+          "meaning": "to have, to exist"
+        },
+        {
+          "kanji": "所有",
+          "kana": "しょゆう",
+          "meaning": "ownership"
+        }
+      ],
+      "keyword": "have",
+      "etymology": "A hand (又) reaching for the moon (月) — possessing, holding onto something.",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "名",
+      "meanings": [
+        "name",
+        "fame",
+        "reputation",
+        "famous"
+      ],
+      "on_yomi": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kun_yomi": [
+        "な"
+      ],
+      "examples": [
+        {
+          "kanji": "有名",
+          "kana": "ゆうめい",
+          "meaning": "famous"
+        },
+        {
+          "kanji": "名前",
+          "kana": "なまえ",
+          "meaning": "name"
+        },
+        {
+          "kanji": "名刺",
+          "kana": "めいし",
+          "meaning": "business card"
+        }
+      ],
+      "keyword": "name",
+      "etymology": "Evening (夕) plus a mouth (口) — calling out one's name in the dark.",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 1,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "湖",
+      "meanings": [
+        "lake"
+      ],
+      "on_yomi": [
+        "コ"
+      ],
+      "kun_yomi": [
+        "みずうみ"
+      ],
+      "examples": [
+        {
+          "kanji": "湖",
+          "kana": "みずうみ",
+          "meaning": "lake"
+        },
+        {
+          "kanji": "琵琶湖",
+          "kana": "びわこ",
+          "meaning": "Lake Biwa"
+        },
+        {
+          "kanji": "湖畔",
+          "kana": "こはん",
+          "meaning": "lakeside, lakeshore"
+        }
+      ],
+      "keyword": "lake",
+      "etymology": "Water (氵) with an ancient vessel (胡 — gourd held by hand) — water in a natural bowl.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "冬",
+      "meanings": [
+        "winter"
+      ],
+      "on_yomi": [
+        "トウ"
+      ],
+      "kun_yomi": [
+        "ふゆ"
+      ],
+      "examples": [
+        {
+          "kanji": "冬",
+          "kana": "ふゆ",
+          "meaning": "winter"
+        },
+        {
+          "kanji": "冬休み",
+          "kana": "ふゆやすみ",
+          "meaning": "winter vacation"
+        },
+        {
+          "kanji": "真冬",
+          "kana": "まふゆ",
+          "meaning": "midwinter"
+        }
+      ],
+      "keyword": "winter",
+      "etymology": "Thread ends (夂) with ice crystals (仌) below — frozen threads at the end of the year.",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "春",
+      "meanings": [
+        "spring (season)",
+        "youth",
+        "New Year"
+      ],
+      "on_yomi": [
+        "シュン"
+      ],
+      "kun_yomi": [
+        "はる"
+      ],
+      "examples": [
+        {
+          "kanji": "春",
+          "kana": "はる",
+          "meaning": "spring"
+        },
+        {
+          "kanji": "春休み",
+          "kana": "はるやすみ",
+          "meaning": "spring break"
+        },
+        {
+          "kanji": "青春",
+          "kana": "せいしゅん",
+          "meaning": "youth, springtime of life"
+        }
+      ],
+      "keyword": "spring",
+      "etymology": "Three plants (艸+屯) soaking up sun (日) — vegetation bursting out in spring warmth.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "秋",
+      "meanings": [
+        "autumn",
+        "fall (season)"
+      ],
+      "on_yomi": [
+        "シュウ"
+      ],
+      "kun_yomi": [
+        "あき"
+      ],
+      "examples": [
+        {
+          "kanji": "秋",
+          "kana": "あき",
+          "meaning": "autumn, fall"
+        },
+        {
+          "kanji": "秋分",
+          "kana": "しゅうぶん",
+          "meaning": "autumn equinox"
+        },
+        {
+          "kanji": "秋田",
+          "kana": "あきた",
+          "meaning": "Akita (place name)"
+        }
+      ],
+      "keyword": "autumn",
+      "etymology": "Grain (禾) ripened by fire (火) — the harvest season when fields are burnt for planting.",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "駅",
+      "meanings": [
+        "train station",
+        "relay station"
+      ],
+      "on_yomi": [
+        "エキ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "駅",
+          "kana": "えき",
+          "meaning": "train station"
+        },
+        {
+          "kanji": "東京駅",
+          "kana": "とうきょうえき",
+          "meaning": "Tokyo Station"
+        },
+        {
+          "kanji": "駅員",
+          "kana": "えきいん",
+          "meaning": "station staff"
+        }
+      ],
+      "keyword": "station",
+      "etymology": "A horse (馬) at a stopping point (尺 — a measured pause) — a horse relay station.",
+      "stroke_count": 14,
+      "jlpt": "N4",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "遠",
+      "meanings": [
+        "far",
+        "distant",
+        "remote"
+      ],
+      "on_yomi": [
+        "エン",
+        "オン"
+      ],
+      "kun_yomi": [
+        "とお(い)"
+      ],
+      "examples": [
+        {
+          "kanji": "遠い",
+          "kana": "とおい",
+          "meaning": "far, distant"
+        },
+        {
+          "kanji": "遠足",
+          "kana": "えんそく",
+          "meaning": "excursion, field trip"
+        },
+        {
+          "kanji": "永遠",
+          "kana": "えいえん",
+          "meaning": "eternity, forever"
+        }
+      ],
+      "keyword": "far",
+      "etymology": "Walking (辶) a long winding road (袁 — a robe covering everything) — a distant journey.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "転",
+      "meanings": [
+        "revolve",
+        "roll",
+        "change",
+        "turn",
+        "move"
+      ],
+      "on_yomi": [
+        "テン"
+      ],
+      "kun_yomi": [
+        "ころ(がる)",
+        "ころ(げる)",
+        "ころ(がす)",
+        "ころ(ぶ)"
+      ],
+      "examples": [
+        {
+          "kanji": "自転車",
+          "kana": "じてんしゃ",
+          "meaning": "bicycle"
+        },
+        {
+          "kanji": "転ぶ",
+          "kana": "ころぶ",
+          "meaning": "to fall down"
+        },
+        {
+          "kanji": "転勤",
+          "kana": "てんきん",
+          "meaning": "job transfer, relocation"
+        }
+      ],
+      "keyword": "revolve",
+      "etymology": "A wheel axle (軍) rolling (専) — a wheel turning on the ground.",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "借",
+      "meanings": [
+        "borrow",
+        "owe",
+        "rent"
+      ],
+      "on_yomi": [
+        "シャク"
+      ],
+      "kun_yomi": [
+        "か(りる)"
+      ],
+      "examples": [
+        {
+          "kanji": "借りる",
+          "kana": "かりる",
+          "meaning": "to borrow, to rent"
+        },
+        {
+          "kanji": "借金",
+          "kana": "しゃっきん",
+          "meaning": "debt, loan"
+        },
+        {
+          "kanji": "貸し借り",
+          "kana": "かしかり",
+          "meaning": "lending and borrowing"
+        }
+      ],
+      "keyword": "borrow",
+      "etymology": "A person (亻) beside a measurement (昔 — a scored stick) — borrowing by the measure.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "遅",
+      "meanings": [
+        "late",
+        "slow",
+        "behind time"
+      ],
+      "on_yomi": [
+        "チ"
+      ],
+      "kun_yomi": [
+        "おそ(い)",
+        "おく(れる)",
+        "おく(らす)"
+      ],
+      "examples": [
+        {
+          "kanji": "遅れる",
+          "kana": "おくれる",
+          "meaning": "to be late, to be delayed"
+        },
+        {
+          "kanji": "遅い",
+          "kana": "おそい",
+          "meaning": "slow; late"
+        },
+        {
+          "kanji": "遅刻",
+          "kana": "ちこく",
+          "meaning": "being late, tardiness"
+        }
+      ],
+      "keyword": "late",
+      "etymology": "Walking (辶) while something drags behind (尾 — a tail trailing) — falling behind.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "夕",
+      "meanings": [
+        "evening",
+        "dusk"
+      ],
+      "on_yomi": [
+        "セキ"
+      ],
+      "kun_yomi": [
+        "ゆう"
+      ],
+      "examples": [
+        {
+          "kanji": "夕食",
+          "kana": "ゆうしょく",
+          "meaning": "dinner, evening meal"
+        },
+        {
+          "kanji": "夕方",
+          "kana": "ゆうがた",
+          "meaning": "evening, dusk"
+        },
+        {
+          "kanji": "夕日",
+          "kana": "ゆうひ",
+          "meaning": "setting sun, evening sun"
+        }
+      ],
+      "keyword": "evening",
+      "etymology": "A crescent moon barely visible — the thin sliver of moon at dusk.",
+      "stroke_count": 3,
+      "jlpt": "N4",
+      "grade": 1,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "久",
+      "meanings": [
+        "long time",
+        "a while",
+        "long-lasting"
+      ],
+      "on_yomi": [
+        "キュウ",
+        "ク"
+      ],
+      "kun_yomi": [
+        "ひさ(しい)"
+      ],
+      "examples": [
+        {
+          "kanji": "久しぶり",
+          "kana": "ひさしぶり",
+          "meaning": "long time no see"
+        },
+        {
+          "kanji": "永久",
+          "kana": "えいきゅう",
+          "meaning": "permanence, eternity"
+        },
+        {
+          "kanji": "久しい",
+          "kana": "ひさしい",
+          "meaning": "long, after a long time"
+        }
+      ],
+      "keyword": "long time",
+      "etymology": "A person (人) with something stretched behind (乀) — lingering, persisting over time.",
+      "stroke_count": 3,
+      "jlpt": "N3",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "末",
+      "meanings": [
+        "end",
+        "tip",
+        "powder",
+        "futility"
+      ],
+      "on_yomi": [
+        "マツ",
+        "バツ"
+      ],
+      "kun_yomi": [
+        "すえ"
+      ],
+      "examples": [
+        {
+          "kanji": "末",
+          "kana": "すえ",
+          "meaning": "end, conclusion; future"
+        },
+        {
+          "kanji": "週末",
+          "kana": "しゅうまつ",
+          "meaning": "weekend"
+        },
+        {
+          "kanji": "年末",
+          "kana": "ねんまつ",
+          "meaning": "year-end"
+        }
+      ],
+      "keyword": "end",
+      "etymology": "A tree (木) with its crown emphasized (上の横棒が長い) — the topmost tip.",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "夏",
+      "meanings": [
+        "summer"
+      ],
+      "on_yomi": [
+        "カ",
+        "ゲ"
+      ],
+      "kun_yomi": [
+        "なつ"
+      ],
+      "examples": [
+        {
+          "kanji": "夏",
+          "kana": "なつ",
+          "meaning": "summer"
+        },
+        {
+          "kanji": "夏休み",
+          "kana": "なつやすみ",
+          "meaning": "summer vacation"
+        },
+        {
+          "kanji": "真夏",
+          "kana": "まなつ",
+          "meaning": "midsummer"
+        }
+      ],
+      "keyword": "summer",
+      "etymology": "A person (頁 — head) dancing with arms and feet outstretched — summer festival dance.",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "暑",
+      "meanings": [
+        "hot (weather)",
+        "sultry"
+      ],
+      "on_yomi": [
+        "ショ"
+      ],
+      "kun_yomi": [
+        "あつ(い)"
+      ],
+      "examples": [
+        {
+          "kanji": "暑い",
+          "kana": "あつい",
+          "meaning": "hot (weather)"
+        },
+        {
+          "kanji": "暑さ",
+          "kana": "あつさ",
+          "meaning": "heat, hotness"
+        },
+        {
+          "kanji": "猛暑",
+          "kana": "もうしょ",
+          "meaning": "intense heat, scorching summer"
+        }
+      ],
+      "keyword": "hot",
+      "etymology": "The sun (日) beating down on someone (者 — a person) — the sweltering summer heat.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "通",
+      "meanings": [
+        "pass through",
+        "commute",
+        "communicate",
+        "avenue"
+      ],
+      "on_yomi": [
+        "ツウ",
+        "ツ"
+      ],
+      "kun_yomi": [
+        "とお(る)",
+        "とお(す)",
+        "かよ(う)"
+      ],
+      "examples": [
+        {
+          "kanji": "通う",
+          "kana": "かよう",
+          "meaning": "to commute, to attend regularly"
+        },
+        {
+          "kanji": "通り",
+          "kana": "とおり",
+          "meaning": "street, avenue"
+        },
+        {
+          "kanji": "交通",
+          "kana": "こうつう",
+          "meaning": "traffic, transportation"
+        }
+      ],
+      "keyword": "pass through",
+      "etymology": "Walking (辶) while carrying a bucket (甬 — a vessel on a pole) — moving goods along a route.",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "期",
+      "meanings": [
+        "period",
+        "term",
+        "season",
+        "expect"
+      ],
+      "on_yomi": [
+        "キ",
+        "ゴ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "今学期",
+          "kana": "こんがっき",
+          "meaning": "this semester/term"
+        },
+        {
+          "kanji": "期間",
+          "kana": "きかん",
+          "meaning": "period of time, term"
+        },
+        {
+          "kanji": "定期",
+          "kana": "ていき",
+          "meaning": "regular, fixed-term"
+        }
+      ],
+      "keyword": "period",
+      "etymology": "A moon (月) marking a measured cycle (其 — a set interval) — a fixed time period.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "活",
+      "meanings": [
+        "lively",
+        "active",
+        "live",
+        "activity"
+      ],
+      "on_yomi": [
+        "カツ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "生活",
+          "kana": "せいかつ",
+          "meaning": "life, living"
+        },
+        {
+          "kanji": "活動",
+          "kana": "かつどう",
+          "meaning": "activity"
+        },
+        {
+          "kanji": "活用",
+          "kana": "かつよう",
+          "meaning": "practical use; conjugation"
+        }
+      ],
+      "keyword": "active",
+      "etymology": "Water (氵) flowing out of a tongue/speech (舌) — the lively flow of activity.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "役",
+      "meanings": [
+        "role",
+        "service",
+        "duty",
+        "use",
+        "official"
+      ],
+      "on_yomi": [
+        "ヤク",
+        "エキ"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "役に立つ",
+          "kana": "やくにたつ",
+          "meaning": "to be useful"
+        },
+        {
+          "kanji": "役割",
+          "kana": "やくわり",
+          "meaning": "role, function"
+        },
+        {
+          "kanji": "主役",
+          "kana": "しゅやく",
+          "meaning": "leading role, protagonist"
+        }
+      ],
+      "keyword": "role",
+      "etymology": "A person walking (彳) with a weapon (殳) — serving in official capacity.",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "乗",
+      "meanings": [
+        "ride",
+        "board",
+        "get on",
+        "multiply"
+      ],
+      "on_yomi": [
+        "ジョウ"
+      ],
+      "kun_yomi": [
+        "の(る)",
+        "の(せる)"
+      ],
+      "examples": [
+        {
+          "kanji": "乗る",
+          "kana": "のる",
+          "meaning": "to ride, to board"
+        },
+        {
+          "kanji": "乗り換え",
+          "kana": "のりかえ",
+          "meaning": "transfer (train/bus)"
+        },
+        {
+          "kanji": "乗客",
+          "kana": "じょうきゃく",
+          "meaning": "passenger"
+        }
+      ],
+      "keyword": "ride",
+      "etymology": "A person climbing up a tree (木) — getting on top of something.",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "体",
+      "meanings": [
+        "body",
+        "substance",
+        "style",
+        "form"
+      ],
+      "on_yomi": [
+        "タイ",
+        "テイ"
+      ],
+      "kun_yomi": [
+        "からだ"
+      ],
+      "examples": [
+        {
+          "kanji": "体",
+          "kana": "からだ",
+          "meaning": "body"
+        },
+        {
+          "kanji": "体育",
+          "kana": "たいいく",
+          "meaning": "physical education"
+        },
+        {
+          "kanji": "体験",
+          "kana": "たいけん",
+          "meaning": "experience, personal experience"
+        }
+      ],
+      "keyword": "body",
+      "etymology": "A person (亻) with a root/foundation (本) — the essential substance of a person.",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "仏",
+      "meanings": [
+        "Buddha",
+        "France (abbr.)",
+        "Buddhist"
+      ],
+      "on_yomi": [
+        "ブツ",
+        "フツ"
+      ],
+      "kun_yomi": [
+        "ほとけ"
+      ],
+      "examples": [
+        {
+          "kanji": "仏教",
+          "kana": "ぶっきょう",
+          "meaning": "Buddhism"
+        },
+        {
+          "kanji": "仏様",
+          "kana": "ほとけさま",
+          "meaning": "Buddha (honorific)"
+        },
+        {
+          "kanji": "仏壇",
+          "kana": "ぶつだん",
+          "meaning": "Buddhist altar"
+        }
+      ],
+      "keyword": "Buddha",
+      "etymology": "A person (亻) who turns away from the world (弗 — not/contrary) — one who renounces.",
+      "stroke_count": 4,
+      "jlpt": "N2",
+      "grade": 5,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N2"
+      ]
+    },
+    {
+      "kanji": "新",
+      "meanings": [
+        "new",
+        "fresh",
+        "recent",
+        "novel"
+      ],
+      "on_yomi": [
+        "シン"
+      ],
+      "kun_yomi": [
+        "あたら(しい)",
+        "あら(た)",
+        "にい"
+      ],
+      "examples": [
+        {
+          "kanji": "新しい",
+          "kana": "あたらしい",
+          "meaning": "new"
+        },
+        {
+          "kanji": "新聞",
+          "kana": "しんぶん",
+          "meaning": "newspaper"
+        },
+        {
+          "kanji": "新幹線",
+          "kana": "しんかんせん",
+          "meaning": "bullet train"
+        }
+      ],
+      "keyword": "new",
+      "etymology": "Standing wood (立+木) cut by an axe (斤) — freshly felled timber, brand new.",
+      "stroke_count": 13,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "聞",
+      "meanings": [
+        "hear",
+        "listen",
+        "ask"
+      ],
+      "on_yomi": [
+        "ブン",
+        "モン"
+      ],
+      "kun_yomi": [
+        "き(く)",
+        "き(こえる)"
+      ],
+      "examples": [
+        {
+          "kanji": "新聞",
+          "kana": "しんぶん",
+          "meaning": "newspaper"
+        },
+        {
+          "kanji": "聞く",
+          "kana": "きく",
+          "meaning": "to hear, to listen, to ask"
+        },
+        {
+          "kanji": "聞こえる",
+          "kana": "きこえる",
+          "meaning": "to be audible"
+        }
+      ],
+      "keyword": "hear",
+      "etymology": "An ear (耳) inside a gate (門) — pressing one's ear to the gate to listen.",
+      "stroke_count": 14,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N4"
+      ]
+    },
+    {
+      "kanji": "漢",
+      "meanings": [
+        "China",
+        "Han people",
+        "kanji",
+        "man"
+      ],
+      "on_yomi": [
+        "カン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "漢字",
+          "kana": "かんじ",
+          "meaning": "kanji, Chinese character"
+        },
+        {
+          "kanji": "漢文",
+          "kana": "かんぶん",
+          "meaning": "classical Chinese text"
+        },
+        {
+          "kanji": "漢方",
+          "kana": "かんぽう",
+          "meaning": "traditional Chinese medicine"
+        }
+      ],
+      "keyword": "China/Han",
+      "etymology": "Water (氵) beside a place with the banner of the Han dynasty (𦰩) — the Han river.",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 3,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "回",
+      "meanings": [
+        "turn",
+        "rotate",
+        "times (counter)",
+        "circuit"
+      ],
+      "on_yomi": [
+        "カイ",
+        "エ"
+      ],
+      "kun_yomi": [
+        "まわ(る)",
+        "まわ(す)"
+      ],
+      "examples": [
+        {
+          "kanji": "一回",
+          "kana": "いっかい",
+          "meaning": "once, one time"
+        },
+        {
+          "kanji": "回る",
+          "kana": "まわる",
+          "meaning": "to turn, to go around"
+        },
+        {
+          "kanji": "回答",
+          "kana": "かいとう",
+          "meaning": "answer, response"
+        }
+      ],
+      "keyword": "turn",
+      "etymology": "A spiral path (□ with 口 inside) — going around in circles, revolving.",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    },
+    {
+      "kanji": "晩",
+      "meanings": [
+        "evening",
+        "night",
+        "late"
+      ],
+      "on_yomi": [
+        "バン"
+      ],
+      "kun_yomi": [],
+      "examples": [
+        {
+          "kanji": "今晩",
+          "kana": "こんばん",
+          "meaning": "tonight, this evening"
+        },
+        {
+          "kanji": "晩ご飯",
+          "kana": "ばんごはん",
+          "meaning": "dinner, evening meal"
+        },
+        {
+          "kanji": "晩年",
+          "kana": "ばんねん",
+          "meaning": "later years, old age"
+        }
+      ],
+      "keyword": "evening",
+      "etymology": "The sun (日) setting low (免 — sliding down) — the sun sinking in the evening.",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 6,
+      "decks": [
+        "An Integrated Approach Ch.4",
+        "JLPT N3"
+      ]
+    }
+  ]
+}
