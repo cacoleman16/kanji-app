@@ -2468,6 +2468,22 @@ function ungroupedDecks() {
 const MS_DAY = 24 * 60 * 60 * 1000;
 const MS_MIN = 60 * 1000;
 
+// Returns an inline fontSize style for vocab words based on character length.
+function vocabWordSize(word, base = "card") {
+  const len = (word || "").length;
+  if (base === "peek") {
+    if (len <= 3) return {};
+    if (len <= 5) return { fontSize: "64px" };
+    if (len <= 7) return { fontSize: "44px" };
+    return { fontSize: "34px" };
+  }
+  // study card front
+  if (len <= 3) return {};
+  if (len <= 5) return { fontSize: "clamp(34px, 10vw, 54px)" };
+  if (len <= 7) return { fontSize: "clamp(26px, 7.5vw, 40px)" };
+  return { fontSize: "clamp(20px, 6vw, 32px)" };
+}
+
 // Rating: "again" | "hard" | "good" | "easy"
 function sm2(prev, rating, now = Date.now()) {
   let ease = prev?.ease ?? 2.5;
@@ -3126,7 +3142,7 @@ function Study({ deck, state, setState, onDone }) {
           <div className={`face face-front${deck.kind === "vocab" ? " vocab-front" : ""}`}>
             {deck.kind === "vocab" ? (
               <>
-                <span className="vocab-word">{current.kanji}</span>
+                <span className="vocab-word" style={vocabWordSize(current.kanji)}>{current.kanji}</span>
                 {current.reading && <span className="vocab-reading">{current.reading}</span>}
               </>
             ) : (
@@ -3328,7 +3344,7 @@ function DeckDetail({ deck, state, onBack, onStudy }) {
         <div className="peek-backdrop" onClick={() => setPeekIdx(null)}>
           <div className="peek-card" onClick={e => e.stopPropagation()}>
             <button className="peek-close" onClick={() => setPeekIdx(null)} aria-label="Close">✕</button>
-            <div className="peek-kanji">{peek.kanji}</div>
+            <div className="peek-kanji" style={vocabWordSize(peek.kanji, "peek")}>{peek.kanji}</div>
             <div className="meaning">
               {peek.meanings[0]}
               {peek.meanings.length > 1 && <div className="secondary">{peek.meanings.slice(1).join(" · ")}</div>}
