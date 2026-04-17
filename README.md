@@ -257,17 +257,54 @@ First load needs internet (Noto Sans JP from Google Fonts). After that the brows
 
 ---
 
-## What's next
+## Roadmap
 
-1. **Fill in missing 読めればいい chapters** — Ch 6, 8–15 don't have recognition variants. Drop `agent-files/integrated_ch<N>_recognition_kanji.json` files and push to main.
-2. **Custom Vercel domain** — add a custom domain in the Vercel dashboard if you want a cleaner URL.
-3. **Stage 3 (Capacitor)** — only needed for haptics, widgets, or reliable push notifications. Prerequisite: migrate to Vite first.
+### Near-term (no architecture change needed)
+
+| Item | Effort | Notes |
+|---|---|---|
+| Fill in missing 読めればいい chapters | Low | Ch 6, 8–15 have no recognition variant. Drop `agent-files/integrated_ch<N>_recognition_kanji.json` and push. |
+| Add more vocab decks | Low | Create `agent-files/vocab_<name>.json`, push to main — CI handles the rest. |
+| Custom Vercel domain | Low | Add in Vercel dashboard, no code change. |
+| iCloud / server sync | Medium | Replace localStorage with a small backend (Cloudflare KV + a fetch call in `saveState`). Schema migration system already in place. |
+| Streak repair / undo session | Medium | Allow marking yesterday's session complete if you forgot to open the app. |
+
+### Storage reliability — solving the eviction problem
+
+**The issue:** Safari evicts PWA localStorage for origins unused for ~7 weeks. The current 30-day export reminder mitigates data loss but doesn't prevent it — if a user ignores the banner or is away 7+ weeks, progress is gone.
+
+**Option A — iCloud sync via CloudKit JS (best for a solo iOS app)**
+Use Apple's CloudKit JS SDK to sync the progress JSON to the user's private iCloud container. Free for end-users, no server needed, works in a PWA without a native wrapper.
+- Effort: ~1 day. Add CloudKit JS CDN call + `saveState`/`loadState` wrappers that mirror to CloudKit.
+- Tradeoff: Apple-only. Requires enrolling in the Apple Developer Program ($99/year) to provision a container, even for a free PWA.
+
+**Option B — Cloudflare KV + a tiny auth token (best low-cost cross-platform)**
+On first launch, generate a UUID device token stored in localStorage. On every `saveState`, POST the JSON to a Cloudflare Worker that writes it to KV under that token. On `loadState`, GET it back. Add a "link this device" QR code flow if you want multi-device.
+- Effort: ~half a day. Cloudflare Workers + KV free tier (100k reads/day) is more than enough.
+- Tradeoff: Progress is keyed to the token, not an account — if localStorage is already cleared the token is gone too. Mitigate with a "save my token" code shown in Settings.
+
+**Option C — Capacitor native wrapper (eliminates the problem entirely)**
+A native WKWebView wrapper uses the app's sandboxed storage, which iOS never evicts. Also unlocks haptics, push notifications, and App Store distribution.
+- Effort: ~2 days to wire up Capacitor, then $99/year Apple Developer for distribution.
+- Tradeoff: Biggest lift; overkill if the eviction risk is acceptable given the export reminder.
+
+**Recommendation:** Start with **Option B** (Cloudflare KV). It's an afternoon of work, free, and solves the eviction problem without requiring Apple enrollment. Add Option A later if you want seamless iCloud sync alongside the App Store path.
+
+---
+
+### Mid-term
+
+| Item | Effort | Notes |
+|---|---|---|
+| Capacitor native wrapper (Stage 3) | High | Haptics, push notifications, App Store. Prerequisite: migrate build to Vite first. |
+| Writing practice (stroke order) | High | Needs a canvas component + stroke-order data (KanjiVG). |
+| Sentence mining from reading | Medium | Parse user-pasted text, surface unknown vocab cards inline. |
 
 ---
 
 ## Things to know before going native (Stage 3)
 
-- **Storage eviction:** Safari may clear localStorage for sites unused ~7 weeks. Export reminder banner mitigates this; native wrapper (Capacitor) eliminates it.
+- **Storage eviction:** Safari may clear localStorage for sites unused ~7 weeks. See roadmap above for mitigation options.
 - **Push notifications** — only work reliably in a native wrapper on older iOS. iOS 16.4+ supports them for installed PWAs.
 - **Viewport / safe-area** — already handled in CSS. Re-verify after layout changes.
 - **Schema migrations** — always bump `SCHEMA_VERSION` and add a migration before changing the persisted state shape. Old exports continue to work.
