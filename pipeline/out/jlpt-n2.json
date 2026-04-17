@@ -1,0 +1,233 @@
+{
+  "deck_id": "n2-kanji-deck",
+  "deck_name": "JLPT N2 Kanji Deck",
+  "version": "1.0",
+  "card_count": 15,
+  "cards": [
+    {
+      "kanji": "愛",
+      "meanings": ["love", "affection"],
+      "on_yomi": ["アイ"],
+      "kun_yomi": ["いと(しい)", "め(でる)"],
+      "keyword": "love",
+      "etymology": "Heart (心) sheltered under a roof — love as something cherished and protected.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        { "kanji": "愛情", "kana": "あいじょう", "meaning": "affection, love" },
+        { "kanji": "愛国心", "kana": "あいこくしん", "meaning": "patriotism" }
+      ]
+    },
+    {
+      "kanji": "悪",
+      "meanings": ["bad", "evil", "wrong"],
+      "on_yomi": ["アク", "オ"],
+      "kun_yomi": ["わる(い)", "にく(む)"],
+      "keyword": "evil",
+      "etymology": "Heart (心) beneath a distorted shape — a twisted or crooked heart.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        { "kanji": "悪化", "kana": "あっか", "meaning": "deterioration, worsening" },
+        { "kanji": "悪夢", "kana": "あくむ", "meaning": "nightmare" }
+      ]
+    },
+    {
+      "kanji": "暗",
+      "meanings": ["dark", "gloomy", "secret"],
+      "on_yomi": ["アン"],
+      "kun_yomi": ["くら(い)", "くら(む)"],
+      "keyword": "dark",
+      "etymology": "Sun (日) blocked by sound (音) — so dark you can only hear, not see.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        { "kanji": "暗記", "kana": "あんき", "meaning": "memorization" },
+        { "kanji": "暗示", "kana": "あんじ", "meaning": "hint, suggestion" }
+      ]
+    },
+    {
+      "kanji": "以",
+      "meanings": ["by means of", "because", "since", "after"],
+      "on_yomi": ["イ"],
+      "kun_yomi": [],
+      "keyword": "by means of",
+      "etymology": "A person (人) carrying a plow — indicating the means by which something is done.",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        { "kanji": "以上", "kana": "いじょう", "meaning": "more than, above" },
+        { "kanji": "以外", "kana": "いがい", "meaning": "other than, except" }
+      ]
+    },
+    {
+      "kanji": "意",
+      "meanings": ["idea", "mind", "meaning", "thought"],
+      "on_yomi": ["イ"],
+      "kun_yomi": [],
+      "keyword": "idea",
+      "etymology": "Sound (音) over heart (心) — the sounds forming in one's mind.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        { "kanji": "意見", "kana": "いけん", "meaning": "opinion" },
+        { "kanji": "意味", "kana": "いみ", "meaning": "meaning, significance" }
+      ]
+    },
+    {
+      "kanji": "医",
+      "meanings": ["doctor", "medicine", "healing"],
+      "on_yomi": ["イ"],
+      "kun_yomi": ["い(やす)", "い(する)"],
+      "keyword": "medicine",
+      "etymology": "A chest/quiver of arrows (矢) inside a container — medicinal tools kept in a box.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        { "kanji": "医者", "kana": "いしゃ", "meaning": "doctor, physician" },
+        { "kanji": "医学", "kana": "いがく", "meaning": "medical science" }
+      ]
+    },
+    {
+      "kanji": "育",
+      "meanings": ["raise", "bring up", "educate", "grow"],
+      "on_yomi": ["イク"],
+      "kun_yomi": ["そだ(てる)", "そだ(つ)", "はぐく(む)"],
+      "keyword": "raise",
+      "etymology": "A child (子) born (生) inverted — the act of nurturing from birth.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        { "kanji": "教育", "kana": "きょういく", "meaning": "education" },
+        { "kanji": "育てる", "kana": "そだてる", "meaning": "to raise, to bring up" }
+      ]
+    },
+    {
+      "kanji": "違",
+      "meanings": ["differ", "be wrong", "mistake", "different"],
+      "on_yomi": ["イ"],
+      "kun_yomi": ["ちが(う)", "ちが(い)"],
+      "keyword": "differ",
+      "etymology": "Movement (辶) with a diverging path — to go a different way.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 0,
+      "examples": [
+        { "kanji": "違う", "kana": "ちがう", "meaning": "to differ, to be wrong" },
+        { "kanji": "違反", "kana": "いはん", "meaning": "violation, breach" }
+      ]
+    },
+    {
+      "kanji": "運",
+      "meanings": ["carry", "luck", "fate", "fortune"],
+      "on_yomi": ["ウン"],
+      "kun_yomi": ["はこ(ぶ)"],
+      "keyword": "luck",
+      "etymology": "Movement (辶) of an army (軍) — the fortune that follows one's movement through life.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        { "kanji": "運動", "kana": "うんどう", "meaning": "exercise, movement" },
+        { "kanji": "運命", "kana": "うんめい", "meaning": "fate, destiny" }
+      ]
+    },
+    {
+      "kanji": "映",
+      "meanings": ["reflect", "project", "film", "shine"],
+      "on_yomi": ["エイ"],
+      "kun_yomi": ["うつ(る)", "うつ(す)", "は(える)"],
+      "keyword": "reflect",
+      "etymology": "Sun (日) over center (央) — light radiating from the middle, casting a reflection.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        { "kanji": "映画", "kana": "えいが", "meaning": "movie, film" },
+        { "kanji": "反映", "kana": "はんえい", "meaning": "reflection, influence" }
+      ]
+    },
+    {
+      "kanji": "演",
+      "meanings": ["perform", "act", "play", "evolve"],
+      "on_yomi": ["エン"],
+      "kun_yomi": [],
+      "keyword": "perform",
+      "etymology": "Water (氵) flowing over a wide surface — spreading out as a performance unfolds.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        { "kanji": "演技", "kana": "えんぎ", "meaning": "acting, performance" },
+        { "kanji": "演奏", "kana": "えんそう", "meaning": "musical performance" }
+      ]
+    },
+    {
+      "kanji": "応",
+      "meanings": ["respond", "answer", "deal with", "apply"],
+      "on_yomi": ["オウ"],
+      "kun_yomi": ["こた(える)", "こた(え)"],
+      "keyword": "respond",
+      "etymology": "Heart (心) under a roof — gathering one's feelings to give an answer.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        { "kanji": "応用", "kana": "おうよう", "meaning": "application, applied use" },
+        { "kanji": "反応", "kana": "はんのう", "meaning": "reaction, response" }
+      ]
+    },
+    {
+      "kanji": "価",
+      "meanings": ["value", "price", "worth"],
+      "on_yomi": ["カ", "ケ"],
+      "kun_yomi": ["あたい"],
+      "keyword": "price",
+      "etymology": "Person (亻) and a balanced scale — a person assigning worth to something.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        { "kanji": "価値", "kana": "かち", "meaning": "value, worth" },
+        { "kanji": "物価", "kana": "ぶっか", "meaning": "commodity prices" }
+      ]
+    },
+    {
+      "kanji": "確",
+      "meanings": ["certain", "sure", "definite", "confirm"],
+      "on_yomi": ["カク"],
+      "kun_yomi": ["たし(か)", "たし(かめる)"],
+      "keyword": "certain",
+      "etymology": "Stone (石) under a cliff (厂) — solid and unmovable as rock.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        { "kanji": "確認", "kana": "かくにん", "meaning": "confirmation, verification" },
+        { "kanji": "確実", "kana": "かくじつ", "meaning": "certainty, reliability" }
+      ]
+    },
+    {
+      "kanji": "割",
+      "meanings": ["divide", "split", "proportion", "discount"],
+      "on_yomi": ["カツ"],
+      "kun_yomi": ["わ(る)", "わ(れる)", "さ(く)"],
+      "keyword": "divide",
+      "etymology": "Knife (刂) splitting something into cliffs (害 modified) — cutting cleanly apart.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        { "kanji": "割引", "kana": "わりびき", "meaning": "discount" },
+        { "kanji": "割合", "kana": "わりあい", "meaning": "proportion, ratio" }
+      ]
+    }
+  ]
+}
