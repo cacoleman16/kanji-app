@@ -25,12 +25,11 @@ On iPhone: open that URL in Safari → Share → **Add to Home Screen** → laun
 | `pipeline/build_decks.py` | Generates per-deck JSON files (Genki 1/2, JLPT N5/N4) from embedded kanji data. Run before `bundle.py` when changing kanji in those decks. |
 | `pipeline/out/*.json` | Generated deck files — intermediate, consumed by `bundle.py`. |
 | `agent-files/integrated_ch*.json` | Integrated Approach chapter decks. Auto-picked up by `bundle.py`. |
-| `agent-files/vocab_*.json` | Vocabulary decks. Auto-picked up by `bundle.py`. |
+| `agent-files/vocab_*.json` | Vocabulary decks. **Must start with `vocab_`** to be auto-picked up by `bundle.py`. |
 | `kanji-app.html.bak` | Backup from the last `bundle.py` run. |
 | `package.json` | npm — only dev dep is `@babel/cli` + `@babel/preset-react` for the build step. |
 | `.babelrc.json` | Babel config written by `build.py` at build time. |
-
-> **Loose files in root** (`drive_my_car_vocab.json`, `drive_my_car_vocab_v2.json`, `yotsubato_n3_vocab.json`): these are staging/draft vocab JSON files. Move them to `agent-files/` and rename to `vocab_*.json` to add them to the app, then run `python3 pipeline/build.py`.
+| `.github/workflows/deploy.yml` | GitHub Actions CD workflow — triggers on push to `main`. |
 
 ---
 
@@ -64,9 +63,43 @@ python3 pipeline/bundle.py
 # Kanji data changes (Genki/JLPT decks) need this first:
 python3 pipeline/build_decks.py && python3 pipeline/bundle.py
 
-# Deploy to production:
+# Deploy to production (manual):
 vercel --prod
+
+# Or just push to main — CI/CD handles the rest:
+git push origin main
 ```
+
+### CI/CD — how deploys work
+
+Every push to `main` triggers `.github/workflows/deploy.yml`:
+
+```
+git push origin main
+        │
+        └─ GitHub Actions (ubuntu-latest)
+              1. actions/checkout@v4          — clone repo
+              2. actions/setup-node@v4        — Node 20 (for Babel CLI)
+              3. actions/setup-python@v5      — Python 3.12 (for build.py + Pillow)
+              4. pip install pillow           — icon/splash generation
+              5. npm ci                       — install @babel/cli + @babel/preset-react
+              6. python3 pipeline/build.py    — compile JSX, inline React, write index.html + sw.js + assets
+              7. npx vercel --prod            — deploy to Vercel production
+```
+
+The workflow authenticates to Vercel via three repository secrets set with `gh secret set`:
+
+| Secret | What it is |
+|---|---|
+| `VERCEL_TOKEN` | Personal access token from vercel.com/account/tokens |
+| `VERCEL_ORG_ID` | Your Vercel team/org ID (`team_vjXi1UpWw9OJEJ0vRyaY5x0R`) |
+| `VERCEL_PROJECT_ID` | The Vercel project ID (`prj_JiNLrkU9oUigSHMoSSI74ZT2yEpD`) |
+
+Generated files (`index.html`, `sw.js`, `icons/`, `splash/`) are **not committed** to git — they are produced fresh in CI on every deploy. This keeps the repo lean; the source of truth is `kanji-app.html` and `agent-files/`.
+
+If you need to deploy without waiting for CI (e.g. hotfix), run `python3 pipeline/build.py && vercel --prod` locally.
+
+---
 
 ### What lives where in kanji-app.html
 
@@ -206,6 +239,8 @@ First load needs internet (Noto Sans JP from Google Fonts). After that the brows
 | Integrated Japanese chapter grouping | ✅ live |
 | 読めればいい (reading-only) sub-rows | ✅ live (Ch 1–5, 7) |
 | Murakami vocab deck (v1 52 words, v2 32 words) | ✅ live |
+| Core N3/N4 general vocab deck (65 words) | ✅ live |
+| よつばと！ vocab deck (58 words) | ✅ live |
 | Card peek + ← / → navigation | ✅ live |
 | Vocab card front (readable size + kana) | ✅ live |
 | Vocab deck JLPT priority filter | ✅ live |
@@ -218,15 +253,15 @@ First load needs internet (Noto Sans JP from Google Fonts). After that the brows
 | PNG app icons (180 / 192 / 512) | ✅ live (icons/) |
 | iOS splash screens (9 device sizes) | ✅ live (splash/) |
 | Deployed to Vercel | ✅ live — https://kanji-q81zpw0dg-cacoleman16s-projects.vercel.app |
+| GitHub Actions CI/CD (push to main → auto-deploy) | ✅ live |
 
 ---
 
 ## What's next
 
-1. **Add the staged vocab decks.** Move `drive_my_car_vocab.json`, `drive_my_car_vocab_v2.json`, `yotsubato_n3_vocab.json` from the project root into `agent-files/`, rename to `vocab_*.json`, run `python3 pipeline/build.py`, deploy.
-2. **Fill in missing 読めればいい chapters** (Ch 6, 8–15). Drop `agent-files/integrated_ch<N>_recognition_kanji.json`, run `python3 pipeline/build.py`.
-3. **Custom Vercel domain** — add a custom domain in the Vercel dashboard if you want a cleaner URL.
-4. **Stage 3 (Capacitor)** — only needed for haptics, widgets, or reliable push notifications. Prerequisite: migrate to Vite first.
+1. **Fill in missing 読めればいい chapters** — Ch 6, 8–15 don't have recognition variants. Drop `agent-files/integrated_ch<N>_recognition_kanji.json` files and push to main.
+2. **Custom Vercel domain** — add a custom domain in the Vercel dashboard if you want a cleaner URL.
+3. **Stage 3 (Capacitor)** — only needed for haptics, widgets, or reliable push notifications. Prerequisite: migrate to Vite first.
 
 ---
 
