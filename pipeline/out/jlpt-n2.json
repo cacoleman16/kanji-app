@@ -1,232 +1,2691 @@
 {
-  "deck_id": "n2-kanji-deck",
-  "deck_name": "JLPT N2 Kanji Deck",
+  "deck_id": "n2-kanji",
+  "deck_name": "JLPT N2 Kanji",
   "version": "1.0",
-  "card_count": 15,
+  "card_count": 83,
   "cards": [
     {
       "kanji": "愛",
-      "meanings": ["love", "affection"],
-      "on_yomi": ["アイ"],
-      "kun_yomi": ["いと(しい)", "め(でる)"],
+      "meanings": [
+        "love",
+        "affection",
+        "care"
+      ],
+      "on_yomi": [
+        "アイ"
+      ],
+      "kun_yomi": [
+        "いと(しい)",
+        "め(でる)"
+      ],
       "keyword": "love",
       "etymology": "Heart (心) sheltered under a roof — love as something cherished and protected.",
       "stroke_count": 13,
       "jlpt": "N2",
       "grade": 4,
       "examples": [
-        { "kanji": "愛情", "kana": "あいじょう", "meaning": "affection, love" },
-        { "kanji": "愛国心", "kana": "あいこくしん", "meaning": "patriotism" }
+        {
+          "kanji": "愛情",
+          "kana": "あいじょう",
+          "meaning": "affection, love"
+        },
+        {
+          "kanji": "愛国心",
+          "kana": "あいこくしん",
+          "meaning": "patriotism"
+        }
       ]
     },
     {
-      "kanji": "悪",
-      "meanings": ["bad", "evil", "wrong"],
-      "on_yomi": ["アク", "オ"],
-      "kun_yomi": ["わる(い)", "にく(む)"],
-      "keyword": "evil",
-      "etymology": "Heart (心) beneath a distorted shape — a twisted or crooked heart.",
-      "stroke_count": 11,
-      "jlpt": "N2",
-      "grade": 3,
-      "examples": [
-        { "kanji": "悪化", "kana": "あっか", "meaning": "deterioration, worsening" },
-        { "kanji": "悪夢", "kana": "あくむ", "meaning": "nightmare" }
-      ]
-    },
-    {
-      "kanji": "暗",
-      "meanings": ["dark", "gloomy", "secret"],
-      "on_yomi": ["アン"],
-      "kun_yomi": ["くら(い)", "くら(む)"],
-      "keyword": "dark",
-      "etymology": "Sun (日) blocked by sound (音) — so dark you can only hear, not see.",
-      "stroke_count": 13,
-      "jlpt": "N2",
-      "grade": 3,
-      "examples": [
-        { "kanji": "暗記", "kana": "あんき", "meaning": "memorization" },
-        { "kanji": "暗示", "kana": "あんじ", "meaning": "hint, suggestion" }
-      ]
-    },
-    {
-      "kanji": "以",
-      "meanings": ["by means of", "because", "since", "after"],
-      "on_yomi": ["イ"],
-      "kun_yomi": [],
-      "keyword": "by means of",
-      "etymology": "A person (人) carrying a plow — indicating the means by which something is done.",
-      "stroke_count": 5,
+      "kanji": "囲",
+      "meanings": [
+        "surround",
+        "enclose",
+        "encircle"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [
+        "かこ(む)",
+        "かこ(う)"
+      ],
+      "keyword": "surround",
+      "etymology": "An enclosure (囗) around a person (井) — walls closing in on all sides.",
+      "stroke_count": 7,
       "jlpt": "N2",
       "grade": 4,
       "examples": [
-        { "kanji": "以上", "kana": "いじょう", "meaning": "more than, above" },
-        { "kanji": "以外", "kana": "いがい", "meaning": "other than, except" }
+        {
+          "kanji": "包囲",
+          "kana": "ほうい",
+          "meaning": "encirclement, siege"
+        },
+        {
+          "kanji": "囲む",
+          "kana": "かこむ",
+          "meaning": "to surround, to encircle"
+        }
       ]
     },
     {
-      "kanji": "意",
-      "meanings": ["idea", "mind", "meaning", "thought"],
-      "on_yomi": ["イ"],
+      "kanji": "移",
+      "meanings": [
+        "move",
+        "transfer",
+        "migrate",
+        "shift"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [
+        "うつ(る)",
+        "うつ(す)"
+      ],
+      "keyword": "migrate",
+      "etymology": "Grain (禾) next to many people (多) — a whole crop of people moving on.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "移動",
+          "kana": "いどう",
+          "meaning": "movement, transfer"
+        },
+        {
+          "kanji": "移住",
+          "kana": "いじゅう",
+          "meaning": "migration, relocation"
+        }
+      ]
+    },
+    {
+      "kanji": "因",
+      "meanings": [
+        "cause",
+        "reason",
+        "depend on",
+        "due to"
+      ],
+      "on_yomi": [
+        "イン"
+      ],
+      "kun_yomi": [
+        "よ(る)",
+        "ちな(む)"
+      ],
+      "keyword": "cause",
+      "etymology": "A person (大) inside a container (囗) — boxed in by a cause, dependent on it.",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "原因",
+          "kana": "げんいん",
+          "meaning": "cause, origin"
+        },
+        {
+          "kanji": "因果",
+          "kana": "いんが",
+          "meaning": "karma, cause and effect"
+        }
+      ]
+    },
+    {
+      "kanji": "印",
+      "meanings": [
+        "stamp",
+        "seal",
+        "mark",
+        "sign"
+      ],
+      "on_yomi": [
+        "イン"
+      ],
+      "kun_yomi": [
+        "しるし",
+        "しる(す)"
+      ],
+      "keyword": "stamp",
+      "etymology": "A hand pressing down on a kneeling figure — the impression of an official seal.",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "印鑑",
+          "kana": "いんかん",
+          "meaning": "personal seal, stamp"
+        },
+        {
+          "kanji": "印象",
+          "kana": "いんしょう",
+          "meaning": "impression"
+        }
+      ]
+    },
+    {
+      "kanji": "液",
+      "meanings": [
+        "liquid",
+        "fluid",
+        "juice",
+        "sap"
+      ],
+      "on_yomi": [
+        "エキ"
+      ],
       "kun_yomi": [],
-      "keyword": "idea",
-      "etymology": "Sound (音) over heart (心) — the sounds forming in one's mind.",
-      "stroke_count": 13,
+      "keyword": "liquid",
+      "etymology": "Water (氵) with a night figure (夜) — fluid flowing in the dark like a night river.",
+      "stroke_count": 11,
       "jlpt": "N2",
-      "grade": 3,
+      "grade": 5,
       "examples": [
-        { "kanji": "意見", "kana": "いけん", "meaning": "opinion" },
-        { "kanji": "意味", "kana": "いみ", "meaning": "meaning, significance" }
-      ]
-    },
-    {
-      "kanji": "医",
-      "meanings": ["doctor", "medicine", "healing"],
-      "on_yomi": ["イ"],
-      "kun_yomi": ["い(やす)", "い(する)"],
-      "keyword": "medicine",
-      "etymology": "A chest/quiver of arrows (矢) inside a container — medicinal tools kept in a box.",
-      "stroke_count": 7,
-      "jlpt": "N2",
-      "grade": 3,
-      "examples": [
-        { "kanji": "医者", "kana": "いしゃ", "meaning": "doctor, physician" },
-        { "kanji": "医学", "kana": "いがく", "meaning": "medical science" }
-      ]
-    },
-    {
-      "kanji": "育",
-      "meanings": ["raise", "bring up", "educate", "grow"],
-      "on_yomi": ["イク"],
-      "kun_yomi": ["そだ(てる)", "そだ(つ)", "はぐく(む)"],
-      "keyword": "raise",
-      "etymology": "A child (子) born (生) inverted — the act of nurturing from birth.",
-      "stroke_count": 8,
-      "jlpt": "N2",
-      "grade": 3,
-      "examples": [
-        { "kanji": "教育", "kana": "きょういく", "meaning": "education" },
-        { "kanji": "育てる", "kana": "そだてる", "meaning": "to raise, to bring up" }
-      ]
-    },
-    {
-      "kanji": "違",
-      "meanings": ["differ", "be wrong", "mistake", "different"],
-      "on_yomi": ["イ"],
-      "kun_yomi": ["ちが(う)", "ちが(い)"],
-      "keyword": "differ",
-      "etymology": "Movement (辶) with a diverging path — to go a different way.",
-      "stroke_count": 13,
-      "jlpt": "N2",
-      "grade": 0,
-      "examples": [
-        { "kanji": "違う", "kana": "ちがう", "meaning": "to differ, to be wrong" },
-        { "kanji": "違反", "kana": "いはん", "meaning": "violation, breach" }
-      ]
-    },
-    {
-      "kanji": "運",
-      "meanings": ["carry", "luck", "fate", "fortune"],
-      "on_yomi": ["ウン"],
-      "kun_yomi": ["はこ(ぶ)"],
-      "keyword": "luck",
-      "etymology": "Movement (辶) of an army (軍) — the fortune that follows one's movement through life.",
-      "stroke_count": 12,
-      "jlpt": "N2",
-      "grade": 3,
-      "examples": [
-        { "kanji": "運動", "kana": "うんどう", "meaning": "exercise, movement" },
-        { "kanji": "運命", "kana": "うんめい", "meaning": "fate, destiny" }
-      ]
-    },
-    {
-      "kanji": "映",
-      "meanings": ["reflect", "project", "film", "shine"],
-      "on_yomi": ["エイ"],
-      "kun_yomi": ["うつ(る)", "うつ(す)", "は(える)"],
-      "keyword": "reflect",
-      "etymology": "Sun (日) over center (央) — light radiating from the middle, casting a reflection.",
-      "stroke_count": 9,
-      "jlpt": "N2",
-      "grade": 6,
-      "examples": [
-        { "kanji": "映画", "kana": "えいが", "meaning": "movie, film" },
-        { "kanji": "反映", "kana": "はんえい", "meaning": "reflection, influence" }
+        {
+          "kanji": "血液",
+          "kana": "けつえき",
+          "meaning": "blood"
+        },
+        {
+          "kanji": "液体",
+          "kana": "えきたい",
+          "meaning": "liquid, fluid"
+        }
       ]
     },
     {
       "kanji": "演",
-      "meanings": ["perform", "act", "play", "evolve"],
-      "on_yomi": ["エン"],
+      "meanings": [
+        "perform",
+        "play",
+        "act",
+        "illustrate"
+      ],
+      "on_yomi": [
+        "エン"
+      ],
       "kun_yomi": [],
       "keyword": "perform",
-      "etymology": "Water (氵) flowing over a wide surface — spreading out as a performance unfolds.",
+      "etymology": "Water (氵) spreading over everything — flowing through a performance.",
       "stroke_count": 14,
       "jlpt": "N2",
       "grade": 5,
       "examples": [
-        { "kanji": "演技", "kana": "えんぎ", "meaning": "acting, performance" },
-        { "kanji": "演奏", "kana": "えんそう", "meaning": "musical performance" }
+        {
+          "kanji": "演奏",
+          "kana": "えんそう",
+          "meaning": "musical performance"
+        },
+        {
+          "kanji": "演技",
+          "kana": "えんぎ",
+          "meaning": "acting, performance"
+        }
       ]
     },
     {
       "kanji": "応",
-      "meanings": ["respond", "answer", "deal with", "apply"],
-      "on_yomi": ["オウ"],
-      "kun_yomi": ["こた(える)", "こた(え)"],
+      "meanings": [
+        "respond",
+        "answer",
+        "accept",
+        "comply"
+      ],
+      "on_yomi": [
+        "オウ"
+      ],
+      "kun_yomi": [
+        "こた(える)",
+        "こた(え)"
+      ],
       "keyword": "respond",
-      "etymology": "Heart (心) under a roof — gathering one's feelings to give an answer.",
+      "etymology": "Heart (心) in a broad space — the heart opening up in response.",
       "stroke_count": 7,
       "jlpt": "N2",
       "grade": 5,
       "examples": [
-        { "kanji": "応用", "kana": "おうよう", "meaning": "application, applied use" },
-        { "kanji": "反応", "kana": "はんのう", "meaning": "reaction, response" }
+        {
+          "kanji": "応援",
+          "kana": "おうえん",
+          "meaning": "support, cheering"
+        },
+        {
+          "kanji": "反応",
+          "kana": "はんのう",
+          "meaning": "reaction, response"
+        }
       ]
     },
     {
-      "kanji": "価",
-      "meanings": ["value", "price", "worth"],
-      "on_yomi": ["カ", "ケ"],
-      "kun_yomi": ["あたい"],
-      "keyword": "price",
-      "etymology": "Person (亻) and a balanced scale — a person assigning worth to something.",
-      "stroke_count": 8,
+      "kanji": "温",
+      "meanings": [
+        "warm",
+        "temperature",
+        "mild",
+        "lukewarm"
+      ],
+      "on_yomi": [
+        "オン"
+      ],
+      "kun_yomi": [
+        "あたた(かい)",
+        "あたた(める)",
+        "ぬる(い)"
+      ],
+      "keyword": "warm",
+      "etymology": "Water (氵) and a dish (皿) of sun — a bowl warmed by sunlight.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        {
+          "kanji": "温度",
+          "kana": "おんど",
+          "meaning": "temperature"
+        },
+        {
+          "kanji": "温泉",
+          "kana": "おんせん",
+          "meaning": "hot spring"
+        }
+      ]
+    },
+    {
+      "kanji": "課",
+      "meanings": [
+        "section",
+        "department",
+        "lesson",
+        "impose"
+      ],
+      "on_yomi": [
+        "カ"
+      ],
+      "kun_yomi": [],
+      "keyword": "section",
+      "etymology": "Words (言) and fruit (果) — speaking results, assigning tasks bearing fruit.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "課題",
+          "kana": "かだい",
+          "meaning": "task, assignment"
+        },
+        {
+          "kanji": "課長",
+          "kana": "かちょう",
+          "meaning": "section chief"
+        }
+      ]
+    },
+    {
+      "kanji": "改",
+      "meanings": [
+        "reform",
+        "change",
+        "improve",
+        "alter"
+      ],
+      "on_yomi": [
+        "カイ"
+      ],
+      "kun_yomi": [
+        "あらた(める)",
+        "あらた(まる)"
+      ],
+      "keyword": "reform",
+      "etymology": "Self (己) struck by a stick (攴) — beating old habits out to change for the better.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "改善",
+          "kana": "かいぜん",
+          "meaning": "improvement"
+        },
+        {
+          "kanji": "改革",
+          "kana": "かいかく",
+          "meaning": "reform, reformation"
+        }
+      ]
+    },
+    {
+      "kanji": "解",
+      "meanings": [
+        "dissolve",
+        "explain",
+        "untie",
+        "understand"
+      ],
+      "on_yomi": [
+        "カイ",
+        "ゲ"
+      ],
+      "kun_yomi": [
+        "と(く)",
+        "と(ける)",
+        "ほど(く)"
+      ],
+      "keyword": "dissolve",
+      "etymology": "A horn (角) being cut (刀) from a cow (牛) — breaking something apart piece by piece.",
+      "stroke_count": 13,
       "jlpt": "N2",
       "grade": 5,
       "examples": [
-        { "kanji": "価値", "kana": "かち", "meaning": "value, worth" },
-        { "kanji": "物価", "kana": "ぶっか", "meaning": "commodity prices" }
+        {
+          "kanji": "理解",
+          "kana": "りかい",
+          "meaning": "understanding"
+        },
+        {
+          "kanji": "解決",
+          "kana": "かいけつ",
+          "meaning": "resolution, solution"
+        }
+      ]
+    },
+    {
+      "kanji": "格",
+      "meanings": [
+        "status",
+        "rank",
+        "case",
+        "standard"
+      ],
+      "on_yomi": [
+        "カク",
+        "コウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "rank",
+      "etymology": "Tree (木) arriving at (各) a destination — the proper place in a hierarchy.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "資格",
+          "kana": "しかく",
+          "meaning": "qualification, credential"
+        },
+        {
+          "kanji": "性格",
+          "kana": "せいかく",
+          "meaning": "personality, character"
+        }
       ]
     },
     {
       "kanji": "確",
-      "meanings": ["certain", "sure", "definite", "confirm"],
-      "on_yomi": ["カク"],
-      "kun_yomi": ["たし(か)", "たし(かめる)"],
+      "meanings": [
+        "certain",
+        "sure",
+        "reliable",
+        "confirm"
+      ],
+      "on_yomi": [
+        "カク"
+      ],
+      "kun_yomi": [
+        "たし(かめる)",
+        "たし(か)"
+      ],
       "keyword": "certain",
-      "etymology": "Stone (石) under a cliff (厂) — solid and unmovable as rock.",
+      "etymology": "Stone (石) and a bird (隹) — something as solid and reliable as a rock.",
       "stroke_count": 15,
       "jlpt": "N2",
       "grade": 5,
       "examples": [
-        { "kanji": "確認", "kana": "かくにん", "meaning": "confirmation, verification" },
-        { "kanji": "確実", "kana": "かくじつ", "meaning": "certainty, reliability" }
+        {
+          "kanji": "確認",
+          "kana": "かくにん",
+          "meaning": "confirmation"
+        },
+        {
+          "kanji": "確実",
+          "kana": "かくじつ",
+          "meaning": "certain, reliable"
+        }
+      ]
+    },
+    {
+      "kanji": "額",
+      "meanings": [
+        "forehead",
+        "amount",
+        "frame",
+        "large sum"
+      ],
+      "on_yomi": [
+        "ガク"
+      ],
+      "kun_yomi": [
+        "ひたい"
+      ],
+      "keyword": "forehead",
+      "etymology": "Guest (客) on top of a head (頁) — the broad brow, like a framed picture.",
+      "stroke_count": 18,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "金額",
+          "kana": "きんがく",
+          "meaning": "amount of money"
+        },
+        {
+          "kanji": "額縁",
+          "kana": "がくぶち",
+          "meaning": "picture frame"
+        }
       ]
     },
     {
       "kanji": "割",
-      "meanings": ["divide", "split", "proportion", "discount"],
-      "on_yomi": ["カツ"],
-      "kun_yomi": ["わ(る)", "わ(れる)", "さ(く)"],
+      "meanings": [
+        "divide",
+        "proportion",
+        "split",
+        "cut"
+      ],
+      "on_yomi": [
+        "カツ"
+      ],
+      "kun_yomi": [
+        "わ(る)",
+        "わ(れる)",
+        "わ(り)"
+      ],
       "keyword": "divide",
-      "etymology": "Knife (刂) splitting something into cliffs (害 modified) — cutting cleanly apart.",
+      "etymology": "A knife (刂) splitting (害 root) — cutting cleanly in proportion.",
       "stroke_count": 12,
       "jlpt": "N2",
       "grade": 6,
       "examples": [
-        { "kanji": "割引", "kana": "わりびき", "meaning": "discount" },
-        { "kanji": "割合", "kana": "わりあい", "meaning": "proportion, ratio" }
+        {
+          "kanji": "割引",
+          "kana": "わりびき",
+          "meaning": "discount"
+        },
+        {
+          "kanji": "役割",
+          "kana": "やくわり",
+          "meaning": "role, function"
+        }
+      ]
+    },
+    {
+      "kanji": "管",
+      "meanings": [
+        "pipe",
+        "tube",
+        "wind instrument",
+        "control"
+      ],
+      "on_yomi": [
+        "カン"
+      ],
+      "kun_yomi": [
+        "くだ"
+      ],
+      "keyword": "pipe",
+      "etymology": "Bamboo (竹) over an official (官) — a bamboo pipe, or a bureaucratic channel.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "管理",
+          "kana": "かんり",
+          "meaning": "management, administration"
+        },
+        {
+          "kanji": "血管",
+          "kana": "けっかん",
+          "meaning": "blood vessel"
+        }
+      ]
+    },
+    {
+      "kanji": "慣",
+      "meanings": [
+        "accustom",
+        "get used to",
+        "habitual"
+      ],
+      "on_yomi": [
+        "カン"
+      ],
+      "kun_yomi": [
+        "な(れる)",
+        "な(らす)"
+      ],
+      "keyword": "accustom",
+      "etymology": "Heart (心) and a thread of habit (貫) — the heart pierced through by repetition.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "習慣",
+          "kana": "しゅうかん",
+          "meaning": "habit, custom"
+        },
+        {
+          "kanji": "慣れる",
+          "kana": "なれる",
+          "meaning": "to get used to"
+        }
+      ]
+    },
+    {
+      "kanji": "機",
+      "meanings": [
+        "machine",
+        "opportunity",
+        "loom",
+        "chance"
+      ],
+      "on_yomi": [
+        "キ"
+      ],
+      "kun_yomi": [
+        "はた"
+      ],
+      "keyword": "machine",
+      "etymology": "Wood (木) and a weaving mechanism (幾) — the loom as the original machine.",
+      "stroke_count": 16,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "機会",
+          "kana": "きかい",
+          "meaning": "opportunity, chance"
+        },
+        {
+          "kanji": "飛行機",
+          "kana": "ひこうき",
+          "meaning": "airplane"
+        }
+      ]
+    },
+    {
+      "kanji": "基",
+      "meanings": [
+        "foundation",
+        "basis",
+        "base",
+        "ground"
+      ],
+      "on_yomi": [
+        "キ"
+      ],
+      "kun_yomi": [
+        "もと",
+        "もとい"
+      ],
+      "keyword": "foundation",
+      "etymology": "A mound of earth (土) under a frame (其) — the base layer on which everything rests.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "基本",
+          "kana": "きほん",
+          "meaning": "foundation, basics"
+        },
+        {
+          "kanji": "基準",
+          "kana": "きじゅん",
+          "meaning": "standard, criterion"
+        }
+      ]
+    },
+    {
+      "kanji": "規",
+      "meanings": [
+        "standard",
+        "rule",
+        "compass",
+        "regulate"
+      ],
+      "on_yomi": [
+        "キ"
+      ],
+      "kun_yomi": [],
+      "keyword": "standard",
+      "etymology": "See (見) with a compass (夫) — drawing the circle that sets the rule.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "規則",
+          "kana": "きそく",
+          "meaning": "rule, regulation"
+        },
+        {
+          "kanji": "規模",
+          "kana": "きぼ",
+          "meaning": "scale, scope"
+        }
+      ]
+    },
+    {
+      "kanji": "議",
+      "meanings": [
+        "deliberate",
+        "discuss",
+        "consider",
+        "council"
+      ],
+      "on_yomi": [
+        "ギ"
+      ],
+      "kun_yomi": [],
+      "keyword": "deliberate",
+      "etymology": "Words (言) balanced on righteousness (義) — careful speech in council.",
+      "stroke_count": 20,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "議論",
+          "kana": "ぎろん",
+          "meaning": "argument, debate"
+        },
+        {
+          "kanji": "会議",
+          "kana": "かいぎ",
+          "meaning": "meeting, conference"
+        }
+      ]
+    },
+    {
+      "kanji": "救",
+      "meanings": [
+        "rescue",
+        "save",
+        "help",
+        "aid"
+      ],
+      "on_yomi": [
+        "キュウ"
+      ],
+      "kun_yomi": [
+        "すく(う)"
+      ],
+      "keyword": "rescue",
+      "etymology": "A seeker (求) struck upright (攴) — reaching out to pull someone free.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "救急",
+          "kana": "きゅうきゅう",
+          "meaning": "emergency, first aid"
+        },
+        {
+          "kanji": "救助",
+          "kana": "きゅうじょ",
+          "meaning": "rescue, relief"
+        }
+      ]
+    },
+    {
+      "kanji": "給",
+      "meanings": [
+        "salary",
+        "provide",
+        "supply",
+        "pay"
+      ],
+      "on_yomi": [
+        "キュウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "salary",
+      "etymology": "Thread (糸) combined with a meeting (合) — threads distributed to those who gather.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "給料",
+          "kana": "きゅうりょう",
+          "meaning": "salary, wages"
+        },
+        {
+          "kanji": "給付",
+          "kana": "きゅうふ",
+          "meaning": "provision, benefit"
+        }
+      ]
+    },
+    {
+      "kanji": "挙",
+      "meanings": [
+        "raise",
+        "hold up",
+        "list",
+        "conduct"
+      ],
+      "on_yomi": [
+        "キョ"
+      ],
+      "kun_yomi": [
+        "あ(げる)",
+        "こぞ(って)"
+      ],
+      "keyword": "raise",
+      "etymology": "Two hands lifting from below — raising something up with both hands.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "挙手",
+          "kana": "きょしゅ",
+          "meaning": "raising one's hand"
+        },
+        {
+          "kanji": "選挙",
+          "kana": "せんきょ",
+          "meaning": "election"
+        }
+      ]
+    },
+    {
+      "kanji": "許",
+      "meanings": [
+        "permit",
+        "allow",
+        "forgive",
+        "accept"
+      ],
+      "on_yomi": [
+        "キョ"
+      ],
+      "kun_yomi": [
+        "ゆる(す)",
+        "ゆる(し)"
+      ],
+      "keyword": "permit",
+      "etymology": "Words (言) next to a sound (午) — speaking approval, granting permission.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "許可",
+          "kana": "きょか",
+          "meaning": "permission, approval"
+        },
+        {
+          "kanji": "許す",
+          "kana": "ゆるす",
+          "meaning": "to forgive, to permit"
+        }
+      ]
+    },
+    {
+      "kanji": "境",
+      "meanings": [
+        "boundary",
+        "border",
+        "region",
+        "situation"
+      ],
+      "on_yomi": [
+        "キョウ",
+        "ケイ"
+      ],
+      "kun_yomi": [
+        "さかい"
+      ],
+      "keyword": "boundary",
+      "etymology": "Earth (土) and a capital (京) region — the edge where territories meet.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "環境",
+          "kana": "かんきょう",
+          "meaning": "environment"
+        },
+        {
+          "kanji": "国境",
+          "kana": "こっきょう",
+          "meaning": "national border"
+        }
+      ]
+    },
+    {
+      "kanji": "競",
+      "meanings": [
+        "compete",
+        "rival",
+        "vie",
+        "contest"
+      ],
+      "on_yomi": [
+        "キョウ",
+        "ケイ"
+      ],
+      "kun_yomi": [
+        "きそ(う)",
+        "せ(る)"
+      ],
+      "keyword": "compete",
+      "etymology": "Two standing people (兄×2) facing off — rivals standing toe to toe.",
+      "stroke_count": 20,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "競争",
+          "kana": "きょうそう",
+          "meaning": "competition"
+        },
+        {
+          "kanji": "競技",
+          "kana": "きょうぎ",
+          "meaning": "athletic contest, game"
+        }
+      ]
+    },
+    {
+      "kanji": "型",
+      "meanings": [
+        "mold",
+        "model",
+        "type",
+        "pattern"
+      ],
+      "on_yomi": [
+        "ケイ"
+      ],
+      "kun_yomi": [
+        "かた"
+      ],
+      "keyword": "mold",
+      "etymology": "Earth (土) pressed by a thorn frame (刑) — a shape pressed into clay to make a mold.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "体型",
+          "kana": "たいけい",
+          "meaning": "body type, physique"
+        },
+        {
+          "kanji": "血液型",
+          "kana": "けつえきがた",
+          "meaning": "blood type"
+        }
+      ]
+    },
+    {
+      "kanji": "系",
+      "meanings": [
+        "lineage",
+        "system",
+        "group",
+        "series"
+      ],
+      "on_yomi": [
+        "ケイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "lineage",
+      "etymology": "Thread (糸) pulling down — a continuous line of descent or connection.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "体系",
+          "kana": "たいけい",
+          "meaning": "system, structure"
+        },
+        {
+          "kanji": "系統",
+          "kana": "けいとう",
+          "meaning": "lineage, system"
+        }
+      ]
+    },
+    {
+      "kanji": "経",
+      "meanings": [
+        "pass through",
+        "sutra",
+        "longitude",
+        "manage"
+      ],
+      "on_yomi": [
+        "ケイ",
+        "キョウ"
+      ],
+      "kun_yomi": [
+        "へ(る)",
+        "た(つ)"
+      ],
+      "keyword": "passage",
+      "etymology": "Thread (糸) woven through a frame — threads running through the warp, time passing.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "経験",
+          "kana": "けいけん",
+          "meaning": "experience"
+        },
+        {
+          "kanji": "経済",
+          "kana": "けいざい",
+          "meaning": "economy"
+        }
+      ]
+    },
+    {
+      "kanji": "警",
+      "meanings": [
+        "warn",
+        "admonish",
+        "police",
+        "alert"
+      ],
+      "on_yomi": [
+        "ケイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "warn",
+      "etymology": "Words (言) coming from someone who strikes (敬) — a sharp warning delivered with force.",
+      "stroke_count": 19,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "警察",
+          "kana": "けいさつ",
+          "meaning": "police"
+        },
+        {
+          "kanji": "警告",
+          "kana": "けいこく",
+          "meaning": "warning, alert"
+        }
+      ]
+    },
+    {
+      "kanji": "件",
+      "meanings": [
+        "matter",
+        "item",
+        "case",
+        "affair"
+      ],
+      "on_yomi": [
+        "ケン"
+      ],
+      "kun_yomi": [
+        "くだん"
+      ],
+      "keyword": "matter",
+      "etymology": "Person (亻) and a bull (牛) — a head of cattle as a countable item, a case.",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "条件",
+          "kana": "じょうけん",
+          "meaning": "condition, terms"
+        },
+        {
+          "kanji": "事件",
+          "kana": "じけん",
+          "meaning": "incident, affair"
+        }
+      ]
+    },
+    {
+      "kanji": "減",
+      "meanings": [
+        "decrease",
+        "diminish",
+        "reduce",
+        "lessen"
+      ],
+      "on_yomi": [
+        "ゲン"
+      ],
+      "kun_yomi": [
+        "へ(る)",
+        "へ(らす)"
+      ],
+      "keyword": "decrease",
+      "etymology": "Water (氵) that has all dried up — a level that has dropped.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "削減",
+          "kana": "さくげん",
+          "meaning": "reduction, cutback"
+        },
+        {
+          "kanji": "減る",
+          "kana": "へる",
+          "meaning": "to decrease, to diminish"
+        }
+      ]
+    },
+    {
+      "kanji": "限",
+      "meanings": [
+        "limit",
+        "restrict",
+        "bound",
+        "set"
+      ],
+      "on_yomi": [
+        "ゲン"
+      ],
+      "kun_yomi": [
+        "かぎ(る)",
+        "かぎ(り)"
+      ],
+      "keyword": "limit",
+      "etymology": "Mound (阜) with a root going deep (艮) — a hill that sets a hard boundary.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "制限",
+          "kana": "せいげん",
+          "meaning": "restriction, limit"
+        },
+        {
+          "kanji": "限界",
+          "kana": "げんかい",
+          "meaning": "limit, boundary"
+        }
+      ]
+    },
+    {
+      "kanji": "現",
+      "meanings": [
+        "appear",
+        "present",
+        "current",
+        "existing"
+      ],
+      "on_yomi": [
+        "ゲン"
+      ],
+      "kun_yomi": [
+        "あらわ(れる)",
+        "あらわ(す)"
+      ],
+      "keyword": "present",
+      "etymology": "King (王) gem coming to the surface (見) — the jewel revealing itself, the present moment.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "現在",
+          "kana": "げんざい",
+          "meaning": "present, now"
+        },
+        {
+          "kanji": "現実",
+          "kana": "げんじつ",
+          "meaning": "reality"
+        }
+      ]
+    },
+    {
+      "kanji": "誤",
+      "meanings": [
+        "mistake",
+        "err",
+        "be mistaken",
+        "wrong"
+      ],
+      "on_yomi": [
+        "ゴ"
+      ],
+      "kun_yomi": [
+        "あやま(る)",
+        "あやま(り)"
+      ],
+      "keyword": "mistake",
+      "etymology": "Words (言) and a tangled path — saying something that goes off course.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "誤解",
+          "kana": "ごかい",
+          "meaning": "misunderstanding"
+        },
+        {
+          "kanji": "誤り",
+          "kana": "あやまり",
+          "meaning": "error, mistake"
+        }
+      ]
+    },
+    {
+      "kanji": "効",
+      "meanings": [
+        "effect",
+        "efficacy",
+        "merit",
+        "result"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [
+        "き(く)"
+      ],
+      "keyword": "effect",
+      "etymology": "Crossing (交) with strength (力) — effort that crosses over and produces a result.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "効果",
+          "kana": "こうか",
+          "meaning": "effect, result"
+        },
+        {
+          "kanji": "有効",
+          "kana": "ゆうこう",
+          "meaning": "effective, valid"
+        }
+      ]
+    },
+    {
+      "kanji": "構",
+      "meanings": [
+        "posture",
+        "build",
+        "set up",
+        "concern"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [
+        "かま(える)",
+        "かま(う)"
+      ],
+      "keyword": "posture",
+      "etymology": "Tree (木) with a crisscross lattice (冓) — a wooden frame set up in position.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "構造",
+          "kana": "こうぞう",
+          "meaning": "structure, construction"
+        },
+        {
+          "kanji": "構成",
+          "kana": "こうせい",
+          "meaning": "composition, makeup"
+        }
+      ]
+    },
+    {
+      "kanji": "差",
+      "meanings": [
+        "distinction",
+        "difference",
+        "variation",
+        "dispatch"
+      ],
+      "on_yomi": [
+        "サ"
+      ],
+      "kun_yomi": [
+        "さ(す)",
+        "さし"
+      ],
+      "keyword": "difference",
+      "etymology": "A hand inserting under grain (禾) — the gap created when things don't line up.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "差別",
+          "kana": "さべつ",
+          "meaning": "discrimination"
+        },
+        {
+          "kanji": "時差",
+          "kana": "じさ",
+          "meaning": "time difference"
+        }
+      ]
+    },
+    {
+      "kanji": "採",
+      "meanings": [
+        "pick",
+        "gather",
+        "hire",
+        "adopt"
+      ],
+      "on_yomi": [
+        "サイ"
+      ],
+      "kun_yomi": [
+        "と(る)"
+      ],
+      "keyword": "pick",
+      "etymology": "Hand (爪) gathering from a tree (木) — reaching up to pluck the best choice.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "採用",
+          "kana": "さいよう",
+          "meaning": "hiring, adoption"
+        },
+        {
+          "kanji": "採点",
+          "kana": "さいてん",
+          "meaning": "grading, scoring"
+        }
+      ]
+    },
+    {
+      "kanji": "済",
+      "meanings": [
+        "settle",
+        "finish",
+        "pay off",
+        "done"
+      ],
+      "on_yomi": [
+        "サイ"
+      ],
+      "kun_yomi": [
+        "す(む)",
+        "す(ます)"
+      ],
+      "keyword": "settle",
+      "etymology": "Water (氵) crossing completely (斉) — finishing a crossing, settling a debt.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "経済",
+          "kana": "けいざい",
+          "meaning": "economy"
+        },
+        {
+          "kanji": "済む",
+          "kana": "すむ",
+          "meaning": "to finish, to be done"
+        }
+      ]
+    },
+    {
+      "kanji": "際",
+      "meanings": [
+        "occasion",
+        "time",
+        "edge",
+        "border"
+      ],
+      "on_yomi": [
+        "サイ"
+      ],
+      "kun_yomi": [
+        "きわ"
+      ],
+      "keyword": "occasion",
+      "etymology": "Mound (阜) and a sacrificial fire (祭) — meeting at the ritual boundary, the edge.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "国際",
+          "kana": "こくさい",
+          "meaning": "international"
+        },
+        {
+          "kanji": "実際",
+          "kana": "じっさい",
+          "meaning": "in reality, in practice"
+        }
+      ]
+    },
+    {
+      "kanji": "雑",
+      "meanings": [
+        "miscellaneous",
+        "mixed",
+        "messy",
+        "diverse"
+      ],
+      "on_yomi": [
+        "ザツ",
+        "ゾウ"
+      ],
+      "kun_yomi": [
+        "まじ(える)",
+        "まじ(る)"
+      ],
+      "keyword": "miscellaneous",
+      "etymology": "Trees (木×3) and a bird (隹) — many birds in many trees, a mixed jumble.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "複雑",
+          "kana": "ふくざつ",
+          "meaning": "complicated, complex"
+        },
+        {
+          "kanji": "雑誌",
+          "kana": "ざっし",
+          "meaning": "magazine"
+        }
+      ]
+    },
+    {
+      "kanji": "賛",
+      "meanings": [
+        "approve",
+        "agree",
+        "praise",
+        "support"
+      ],
+      "on_yomi": [
+        "サン"
+      ],
+      "kun_yomi": [],
+      "keyword": "approve",
+      "etymology": "Two shells (貝×2) offered together — bringing contributions, showing agreement.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "賛成",
+          "kana": "さんせい",
+          "meaning": "approval, agreement"
+        },
+        {
+          "kanji": "賛否",
+          "kana": "さんぴ",
+          "meaning": "pros and cons"
+        }
+      ]
+    },
+    {
+      "kanji": "資",
+      "meanings": [
+        "assets",
+        "resources",
+        "capital",
+        "funds"
+      ],
+      "on_yomi": [
+        "シ"
+      ],
+      "kun_yomi": [],
+      "keyword": "capital",
+      "etymology": "Next (次) and shell/money (貝) — next in line comes the money, resources.",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "資料",
+          "kana": "しりょう",
+          "meaning": "material, data"
+        },
+        {
+          "kanji": "資格",
+          "kana": "しかく",
+          "meaning": "qualification"
+        }
+      ]
+    },
+    {
+      "kanji": "質",
+      "meanings": [
+        "quality",
+        "nature",
+        "pawn",
+        "substance"
+      ],
+      "on_yomi": [
+        "シツ",
+        "シチ"
+      ],
+      "kun_yomi": [
+        "たち",
+        "ただ(す)"
+      ],
+      "keyword": "quality",
+      "etymology": "Two axes (斤×2) next to money (貝) — weighing material value, the substance of a thing.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "品質",
+          "kana": "ひんしつ",
+          "meaning": "quality of goods"
+        },
+        {
+          "kanji": "質問",
+          "kana": "しつもん",
+          "meaning": "question"
+        }
+      ]
+    },
+    {
+      "kanji": "収",
+      "meanings": [
+        "income",
+        "obtain",
+        "collect",
+        "harvest"
+      ],
+      "on_yomi": [
+        "シュウ"
+      ],
+      "kun_yomi": [
+        "おさ(める)",
+        "おさ(まる)"
+      ],
+      "keyword": "income",
+      "etymology": "A hand (又) pulling in — reaching out and drawing in.",
+      "stroke_count": 4,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "収入",
+          "kana": "しゅうにゅう",
+          "meaning": "income"
+        },
+        {
+          "kanji": "回収",
+          "kana": "かいしゅう",
+          "meaning": "collection, recovery"
+        }
+      ]
+    },
+    {
+      "kanji": "授",
+      "meanings": [
+        "impart",
+        "give",
+        "teach",
+        "grant"
+      ],
+      "on_yomi": [
+        "ジュ"
+      ],
+      "kun_yomi": [
+        "さず(ける)",
+        "さず(かる)"
+      ],
+      "keyword": "impart",
+      "etymology": "Hand (扌) receiving from another (受) — passing knowledge from one to another.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "教授",
+          "kana": "きょうじゅ",
+          "meaning": "professor"
+        },
+        {
+          "kanji": "授業",
+          "kana": "じゅぎょう",
+          "meaning": "class, lesson"
+        }
+      ]
+    },
+    {
+      "kanji": "承",
+      "meanings": [
+        "acquiesce",
+        "hear",
+        "be informed",
+        "undertake"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "うけたまわ(る)"
+      ],
+      "keyword": "acquiesce",
+      "etymology": "Many hands carrying a shape — handing something along, acknowledging.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "承認",
+          "kana": "しょうにん",
+          "meaning": "approval, authorization"
+        },
+        {
+          "kanji": "了承",
+          "kana": "りょうしょう",
+          "meaning": "understanding, consent"
+        }
+      ]
+    },
+    {
+      "kanji": "招",
+      "meanings": [
+        "invite",
+        "beckon",
+        "cause",
+        "summon"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "まね(く)"
+      ],
+      "keyword": "beckon",
+      "etymology": "Hand (扌) and a mouth calling (召) — waving and calling someone over.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "招待",
+          "kana": "しょうたい",
+          "meaning": "invitation"
+        },
+        {
+          "kanji": "招く",
+          "kana": "まねく",
+          "meaning": "to invite, to beckon"
+        }
+      ]
+    },
+    {
+      "kanji": "勝",
+      "meanings": [
+        "win",
+        "victory",
+        "prevail",
+        "surpass"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "か(つ)",
+        "まさ(る)"
+      ],
+      "keyword": "victory",
+      "etymology": "Moon (月) and force (力) — mustering all strength to overcome.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        {
+          "kanji": "勝利",
+          "kana": "しょうり",
+          "meaning": "victory"
+        },
+        {
+          "kanji": "優勝",
+          "kana": "ゆうしょう",
+          "meaning": "championship win"
+        }
+      ]
+    },
+    {
+      "kanji": "状",
+      "meanings": [
+        "form",
+        "shape",
+        "situation",
+        "letter",
+        "condition"
+      ],
+      "on_yomi": [
+        "ジョウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "situation",
+      "etymology": "Dog (犬) and a tree shape — a posture giving the shape of a situation.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "状況",
+          "kana": "じょうきょう",
+          "meaning": "situation, circumstances"
+        },
+        {
+          "kanji": "症状",
+          "kana": "しょうじょう",
+          "meaning": "symptoms"
+        }
+      ]
+    },
+    {
+      "kanji": "常",
+      "meanings": [
+        "usual",
+        "normal",
+        "always",
+        "ordinary"
+      ],
+      "on_yomi": [
+        "ジョウ"
+      ],
+      "kun_yomi": [
+        "つね",
+        "とこ"
+      ],
+      "keyword": "ordinary",
+      "etymology": "Cloth (巾) hanging from a roof (尚) — a banner always hanging there, the norm.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "日常",
+          "kana": "にちじょう",
+          "meaning": "daily life, everyday"
+        },
+        {
+          "kanji": "正常",
+          "kana": "せいじょう",
+          "meaning": "normal, regular"
+        }
+      ]
+    },
+    {
+      "kanji": "省",
+      "meanings": [
+        "ministry",
+        "omit",
+        "reflect",
+        "save"
+      ],
+      "on_yomi": [
+        "ショウ",
+        "セイ"
+      ],
+      "kun_yomi": [
+        "はぶ(く)",
+        "かえり(みる)"
+      ],
+      "keyword": "ministry",
+      "etymology": "Eye (目) looking at sparse (少) details — examining carefully, cutting away the rest.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "反省",
+          "kana": "はんせい",
+          "meaning": "reflection, introspection"
+        },
+        {
+          "kanji": "外務省",
+          "kana": "がいむしょう",
+          "meaning": "Ministry of Foreign Affairs"
+        }
+      ]
+    },
+    {
+      "kanji": "整",
+      "meanings": [
+        "arrange",
+        "put in order",
+        "tidy",
+        "organize"
+      ],
+      "on_yomi": [
+        "セイ"
+      ],
+      "kun_yomi": [
+        "ととの(える)",
+        "ととの(う)"
+      ],
+      "keyword": "arrange",
+      "etymology": "Bundle (束) and a right hand striking (攴) — neatly lining things up.",
+      "stroke_count": 16,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        {
+          "kanji": "整理",
+          "kana": "せいり",
+          "meaning": "arrangement, organization"
+        },
+        {
+          "kanji": "整備",
+          "kana": "せいび",
+          "meaning": "maintenance, upkeep"
+        }
+      ]
+    },
+    {
+      "kanji": "清",
+      "meanings": [
+        "pure",
+        "clean",
+        "clear",
+        "pristine"
+      ],
+      "on_yomi": [
+        "セイ",
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "きよ(い)",
+        "きよ(める)"
+      ],
+      "keyword": "pristine",
+      "etymology": "Water (氵) and blue-green (青) — water as clear and clean as a blue sky.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "清潔",
+          "kana": "せいけつ",
+          "meaning": "cleanliness, hygiene"
+        },
+        {
+          "kanji": "清書",
+          "kana": "せいしょ",
+          "meaning": "fair copy, clean copy"
+        }
+      ]
+    },
+    {
+      "kanji": "税",
+      "meanings": [
+        "tax",
+        "duty",
+        "levy"
+      ],
+      "on_yomi": [
+        "ゼイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "tax",
+      "etymology": "Grain (禾) removed (兌) — grain taken away by the state as tribute.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "税金",
+          "kana": "ぜいきん",
+          "meaning": "tax"
+        },
+        {
+          "kanji": "消費税",
+          "kana": "しょうひぜい",
+          "meaning": "consumption tax"
+        }
+      ]
+    },
+    {
+      "kanji": "増",
+      "meanings": [
+        "increase",
+        "gain",
+        "grow",
+        "add to"
+      ],
+      "on_yomi": [
+        "ゾウ"
+      ],
+      "kun_yomi": [
+        "ふ(える)",
+        "ふ(やす)",
+        "ま(す)"
+      ],
+      "keyword": "increase",
+      "etymology": "Earth (土) stacking up (曾) — layers building up, growing larger.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "増加",
+          "kana": "ぞうか",
+          "meaning": "increase"
+        },
+        {
+          "kanji": "増える",
+          "kana": "ふえる",
+          "meaning": "to increase, to grow"
+        }
+      ]
+    },
+    {
+      "kanji": "担",
+      "meanings": [
+        "shoulder",
+        "carry",
+        "bear",
+        "take charge"
+      ],
+      "on_yomi": [
+        "タン"
+      ],
+      "kun_yomi": [
+        "かつ(ぐ)",
+        "にな(う)"
+      ],
+      "keyword": "shoulder",
+      "etymology": "Hand (扌) and dawn (旦) — picking up the load at dawn, shouldering responsibility.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "担当",
+          "kana": "たんとう",
+          "meaning": "in charge, responsibility"
+        },
+        {
+          "kanji": "負担",
+          "kana": "ふたん",
+          "meaning": "burden, load"
+        }
+      ]
+    },
+    {
+      "kanji": "段",
+      "meanings": [
+        "step",
+        "stair",
+        "grade",
+        "paragraph"
+      ],
+      "on_yomi": [
+        "ダン"
+      ],
+      "kun_yomi": [
+        "きざはし"
+      ],
+      "keyword": "step",
+      "etymology": "A hand striking (殳) at ascending levels — steps carved by force, rising in grade.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "段階",
+          "kana": "だんかい",
+          "meaning": "stage, phase, step"
+        },
+        {
+          "kanji": "手段",
+          "kana": "しゅだん",
+          "meaning": "means, method"
+        }
+      ]
+    },
+    {
+      "kanji": "断",
+      "meanings": [
+        "sever",
+        "refuse",
+        "cut off",
+        "decide"
+      ],
+      "on_yomi": [
+        "ダン"
+      ],
+      "kun_yomi": [
+        "た(つ)",
+        "ことわ(る)"
+      ],
+      "keyword": "sever",
+      "etymology": "Axe (斤) cutting threads (糸) — slicing cleanly through to decide or refuse.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "決断",
+          "kana": "けつだん",
+          "meaning": "decision, determination"
+        },
+        {
+          "kanji": "断る",
+          "kana": "ことわる",
+          "meaning": "to refuse, to decline"
+        }
+      ]
+    },
+    {
+      "kanji": "値",
+      "meanings": [
+        "price",
+        "value",
+        "cost",
+        "worth"
+      ],
+      "on_yomi": [
+        "チ"
+      ],
+      "kun_yomi": [
+        "ね",
+        "あたい"
+      ],
+      "keyword": "value",
+      "etymology": "Person (亻) and straight (直) — one person's straightforward measure of worth.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "価値",
+          "kana": "かち",
+          "meaning": "value, worth"
+        },
+        {
+          "kanji": "値段",
+          "kana": "ねだん",
+          "meaning": "price"
+        }
+      ]
+    },
+    {
+      "kanji": "導",
+      "meanings": [
+        "guide",
+        "lead",
+        "conduct",
+        "introduce"
+      ],
+      "on_yomi": [
+        "ドウ"
+      ],
+      "kun_yomi": [
+        "みちび(く)"
+      ],
+      "keyword": "guide",
+      "etymology": "Way (道) with an added stroke of the hand — walking ahead to show the way.",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "指導",
+          "kana": "しどう",
+          "meaning": "guidance, leadership"
+        },
+        {
+          "kanji": "導く",
+          "kana": "みちびく",
+          "meaning": "to guide, to lead"
+        }
+      ]
+    },
+    {
+      "kanji": "統",
+      "meanings": [
+        "unite",
+        "govern",
+        "overall",
+        "control"
+      ],
+      "on_yomi": [
+        "トウ"
+      ],
+      "kun_yomi": [
+        "す(べる)"
+      ],
+      "keyword": "unite",
+      "etymology": "Thread (糸) and a general — threads pulled together under one command.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "統一",
+          "kana": "とういつ",
+          "meaning": "unification"
+        },
+        {
+          "kanji": "伝統",
+          "kana": "でんとう",
+          "meaning": "tradition"
+        }
+      ]
+    },
+    {
+      "kanji": "得",
+      "meanings": [
+        "gain",
+        "acquire",
+        "merit",
+        "can",
+        "ability"
+      ],
+      "on_yomi": [
+        "トク"
+      ],
+      "kun_yomi": [
+        "え(る)",
+        "う(る)"
+      ],
+      "keyword": "gain",
+      "etymology": "Step (彳) and a hand holding a shell (貝) — moving and picking up profit along the way.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "取得",
+          "kana": "しゅとく",
+          "meaning": "acquisition"
+        },
+        {
+          "kanji": "得意",
+          "kana": "とくい",
+          "meaning": "strong point, pride"
+        }
+      ]
+    },
+    {
+      "kanji": "認",
+      "meanings": [
+        "acknowledge",
+        "recognize",
+        "approve",
+        "perceive"
+      ],
+      "on_yomi": [
+        "ニン"
+      ],
+      "kun_yomi": [
+        "みと(める)"
+      ],
+      "keyword": "recognize",
+      "etymology": "Words (言) and a tolerating blade (忍) — speaking carefully to acknowledge a truth.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "認識",
+          "kana": "にんしき",
+          "meaning": "recognition, awareness"
+        },
+        {
+          "kanji": "確認",
+          "kana": "かくにん",
+          "meaning": "confirmation"
+        }
+      ]
+    },
+    {
+      "kanji": "破",
+      "meanings": [
+        "tear",
+        "break",
+        "rout",
+        "damage"
+      ],
+      "on_yomi": [
+        "ハ"
+      ],
+      "kun_yomi": [
+        "やぶ(る)",
+        "やぶ(れる)"
+      ],
+      "keyword": "break",
+      "etymology": "Stone (石) and the skin (皮) — a rock that tears through the surface.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "破壊",
+          "kana": "はかい",
+          "meaning": "destruction"
+        },
+        {
+          "kanji": "突破",
+          "kana": "とっぱ",
+          "meaning": "breakthrough"
+        }
+      ]
+    },
+    {
+      "kanji": "費",
+      "meanings": [
+        "expense",
+        "cost",
+        "spend",
+        "consume"
+      ],
+      "on_yomi": [
+        "ヒ"
+      ],
+      "kun_yomi": [
+        "つい(やす)",
+        "つい(える)"
+      ],
+      "keyword": "expense",
+      "etymology": "Splitting (弗) money (貝) apart — coins dispersed, money spent.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "費用",
+          "kana": "ひよう",
+          "meaning": "expense, cost"
+        },
+        {
+          "kanji": "消費",
+          "kana": "しょうひ",
+          "meaning": "consumption"
+        }
+      ]
+    },
+    {
+      "kanji": "府",
+      "meanings": [
+        "prefecture",
+        "government",
+        "storehouse"
+      ],
+      "on_yomi": [
+        "フ"
+      ],
+      "kun_yomi": [],
+      "keyword": "prefecture",
+      "etymology": "Shelter (广) over a hand and a gift (付) — a storeroom of government provisions.",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "政府",
+          "kana": "せいふ",
+          "meaning": "government"
+        },
+        {
+          "kanji": "大阪府",
+          "kana": "おおさかふ",
+          "meaning": "Osaka Prefecture"
+        }
+      ]
+    },
+    {
+      "kanji": "複",
+      "meanings": [
+        "duplicate",
+        "double",
+        "compound",
+        "multiple"
+      ],
+      "on_yomi": [
+        "フク"
+      ],
+      "kun_yomi": [],
+      "keyword": "duplicate",
+      "etymology": "Clothing (衤) with a repeated interior — a garment with a double lining.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "複雑",
+          "kana": "ふくざつ",
+          "meaning": "complicated"
+        },
+        {
+          "kanji": "複数",
+          "kana": "ふくすう",
+          "meaning": "plural, multiple"
+        }
+      ]
+    },
+    {
+      "kanji": "平",
+      "meanings": [
+        "flat",
+        "level",
+        "peaceful",
+        "ordinary"
+      ],
+      "on_yomi": [
+        "ヘイ",
+        "ビョウ"
+      ],
+      "kun_yomi": [
+        "たい(ら)",
+        "ひら"
+      ],
+      "keyword": "flat",
+      "etymology": "A balance with evenly spread water — perfectly level and at peace.",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 3,
+      "examples": [
+        {
+          "kanji": "平和",
+          "kana": "へいわ",
+          "meaning": "peace"
+        },
+        {
+          "kanji": "平均",
+          "kana": "へいきん",
+          "meaning": "average"
+        }
+      ]
+    },
+    {
+      "kanji": "報",
+      "meanings": [
+        "report",
+        "inform",
+        "reward",
+        "news"
+      ],
+      "on_yomi": [
+        "ホウ"
+      ],
+      "kun_yomi": [
+        "むく(いる)",
+        "むく(い)"
+      ],
+      "keyword": "report",
+      "etymology": "Hands seizing and kneeling — binding something to give back as a report or reward.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "報告",
+          "kana": "ほうこく",
+          "meaning": "report"
+        },
+        {
+          "kanji": "情報",
+          "kana": "じょうほう",
+          "meaning": "information"
+        }
+      ]
+    },
+    {
+      "kanji": "満",
+      "meanings": [
+        "full",
+        "fill",
+        "satisfy",
+        "enough"
+      ],
+      "on_yomi": [
+        "マン",
+        "バン"
+      ],
+      "kun_yomi": [
+        "み(ちる)",
+        "み(たす)"
+      ],
+      "keyword": "full",
+      "etymology": "Water (氵) and both hands overflowing — a vessel filled to the brim.",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "満足",
+          "kana": "まんぞく",
+          "meaning": "satisfaction"
+        },
+        {
+          "kanji": "満員",
+          "kana": "まんいん",
+          "meaning": "full capacity, no vacancy"
+        }
+      ]
+    },
+    {
+      "kanji": "訳",
+      "meanings": [
+        "translate",
+        "reason",
+        "meaning",
+        "excuse"
+      ],
+      "on_yomi": [
+        "ヤク"
+      ],
+      "kun_yomi": [
+        "わけ",
+        "わか(つ)"
+      ],
+      "keyword": "translate",
+      "etymology": "Words (言) and a branching split — splitting meaning across languages.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "翻訳",
+          "kana": "ほんやく",
+          "meaning": "translation"
+        },
+        {
+          "kanji": "訳す",
+          "kana": "やくす",
+          "meaning": "to translate"
+        }
+      ]
+    },
+    {
+      "kanji": "余",
+      "meanings": [
+        "too much",
+        "excess",
+        "surplus",
+        "besides"
+      ],
+      "on_yomi": [
+        "ヨ"
+      ],
+      "kun_yomi": [
+        "あま(る)",
+        "あま(り)",
+        "あま(す)"
+      ],
+      "keyword": "surplus",
+      "etymology": "Person (人) with food left over — more than enough, the remainder.",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "余裕",
+          "kana": "よゆう",
+          "meaning": "leeway, surplus, composure"
+        },
+        {
+          "kanji": "余り",
+          "kana": "あまり",
+          "meaning": "remainder, too much"
+        }
+      ]
+    },
+    {
+      "kanji": "容",
+      "meanings": [
+        "contain",
+        "appearance",
+        "form",
+        "allow"
+      ],
+      "on_yomi": [
+        "ヨウ"
+      ],
+      "kun_yomi": [
+        "い(れる)",
+        "かたち"
+      ],
+      "keyword": "contain",
+      "etymology": "Roof (宀) over a valley (谷) — a sheltered space that holds things.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "内容",
+          "kana": "ないよう",
+          "meaning": "content, substance"
+        },
+        {
+          "kanji": "容量",
+          "kana": "ようりょう",
+          "meaning": "capacity, volume"
+        }
+      ]
+    },
+    {
+      "kanji": "率",
+      "meanings": [
+        "rate",
+        "ratio",
+        "lead",
+        "command"
+      ],
+      "on_yomi": [
+        "リツ",
+        "ソツ"
+      ],
+      "kun_yomi": [
+        "ひき(いる)"
+      ],
+      "keyword": "rate",
+      "etymology": "A cord with threads pulled through a mesh — the proportion of strands passing through.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "効率",
+          "kana": "こうりつ",
+          "meaning": "efficiency"
+        },
+        {
+          "kanji": "確率",
+          "kana": "かくりつ",
+          "meaning": "probability"
+        }
+      ]
+    },
+    {
+      "kanji": "律",
+      "meanings": [
+        "law",
+        "regulation",
+        "rhythm",
+        "restrain"
+      ],
+      "on_yomi": [
+        "リツ",
+        "リチ"
+      ],
+      "kun_yomi": [],
+      "keyword": "regulation",
+      "etymology": "Step (彳) and a writing brush (聿) — the pace set by written rules.",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "規律",
+          "kana": "きりつ",
+          "meaning": "discipline, order"
+        },
+        {
+          "kanji": "法律",
+          "kana": "ほうりつ",
+          "meaning": "law"
+        }
+      ]
+    },
+    {
+      "kanji": "略",
+      "meanings": [
+        "abbreviate",
+        "omit",
+        "strategy",
+        "outline"
+      ],
+      "on_yomi": [
+        "リャク"
+      ],
+      "kun_yomi": [
+        "おか(す)",
+        "はか(る)"
+      ],
+      "keyword": "abbreviate",
+      "etymology": "Field (田) mapped out (各) — a quick sketch of the territory, an outline.",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "省略",
+          "kana": "しょうりゃく",
+          "meaning": "abbreviation, omission"
+        },
+        {
+          "kanji": "戦略",
+          "kana": "せんりゃく",
+          "meaning": "strategy"
+        }
+      ]
+    },
+    {
+      "kanji": "領",
+      "meanings": [
+        "territory",
+        "possess",
+        "domain",
+        "receipt"
+      ],
+      "on_yomi": [
+        "リョウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "territory",
+      "etymology": "A page (頁) of orders — the leader whose head commands a domain.",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 5,
+      "examples": [
+        {
+          "kanji": "領土",
+          "kana": "りょうど",
+          "meaning": "territory"
+        },
+        {
+          "kanji": "大統領",
+          "kana": "だいとうりょう",
+          "meaning": "president (of a country)"
+        }
+      ]
+    },
+    {
+      "kanji": "連",
+      "meanings": [
+        "connect",
+        "take along",
+        "continuous",
+        "accompany"
+      ],
+      "on_yomi": [
+        "レン"
+      ],
+      "kun_yomi": [
+        "つら(なる)",
+        "つら(ねる)",
+        "つ(れる)"
+      ],
+      "keyword": "connect",
+      "etymology": "Movement (辶) and a cart (車) — vehicles rolling one after another in a line.",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "連絡",
+          "kana": "れんらく",
+          "meaning": "contact, communication"
+        },
+        {
+          "kanji": "関連",
+          "kana": "かんれん",
+          "meaning": "relation, connection"
+        }
+      ]
+    },
+    {
+      "kanji": "録",
+      "meanings": [
+        "record",
+        "copy",
+        "write down",
+        "register"
+      ],
+      "on_yomi": [
+        "ロク"
+      ],
+      "kun_yomi": [],
+      "keyword": "record",
+      "etymology": "Metal (金) and a continuous water flow (彔) — engraving marks that flow one after another.",
+      "stroke_count": 16,
+      "jlpt": "N2",
+      "grade": 4,
+      "examples": [
+        {
+          "kanji": "記録",
+          "kana": "きろく",
+          "meaning": "record"
+        },
+        {
+          "kanji": "録音",
+          "kana": "ろくおん",
+          "meaning": "sound recording"
+        }
       ]
     }
   ]
