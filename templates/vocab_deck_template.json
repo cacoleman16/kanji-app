@@ -1,0 +1,22 @@
+{
+  "deck_id": "my-deck-id",
+  "deck_name": "My Vocab Deck",
+  "version": "1.0",
+  "source": "Where these words come from (book, show, corpus, etc.)",
+  "learner_level": "N3",
+  "notes": "Optional: describe the deck's focus, audience, or approach.",
+  "card_count": 0,
+  "cards": [
+    {
+      "word": "経験",
+      "reading": "けいけん",
+      "meanings": ["experience", "personal experience"],
+      "jlpt": "N3",
+      "category": "abstract_thinking",
+      "context": "Optional usage note or mnemonic — shown on the card back.",
+      "example_sentence": "海外で働いた経験がある。",
+      "example_reading": "かいがい で はたらいた けいけん が ある。",
+      "example_meaning": "I have experience working abroad."
+    }
+  ]
+}
