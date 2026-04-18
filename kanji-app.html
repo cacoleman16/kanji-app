@@ -534,6 +534,29 @@
   }
 
   /* ---------- Undo button ---------- */
+  .topbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .skip-btn {
+    appearance: none;
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 12px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: color 150ms, background 150ms, border-color 150ms;
+  }
+  .skip-btn:hover { color: var(--text); background: var(--surface); border-color: var(--text-dim); }
+  .skip-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+  }
   .undo-btn {
     appearance: none;
     background: none;
@@ -2646,18 +2669,25 @@ function previewIntervals(prev) {
 //   1. All cards already seen (have progress) whose `due` <= now → "review" queue
 //   2. New cards (no progress), capped at `newPerDay`, ordered by deck order
 //   3. Learning cards (just rated Again) re-inserted ~5 positions later via queue.push
-function buildQueue(deckCards, progress, { newPerDay, now }) {
+//   4. When includeAll=true, all deck cards are included (ignores newPerDay cap and due filter)
+function shuffleArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+}
+
+function buildQueue(deckCards, progress, { newPerDay, now, includeAll = false }) {
   const review = [];
   const fresh = [];
+  const notDue = [];
   for (const c of deckCards) {
     const p = progress[c.kanji];
-    if (!p) {
-      fresh.push(c);
-    } else if (p.due <= now) {
-      review.push(c);
-    }
+    if (!p) fresh.push(c);
+    else if (p.due <= now) review.push(c);
+    else notDue.push(c);
   }
-  // Interleave: due reviews first, then new, capped
+  if (includeAll) return [...review, ...notDue, ...fresh];
   return [...review, ...fresh.slice(0, newPerDay)];
 }
 
@@ -2790,7 +2820,7 @@ function App() {
         deck={deck}
         state={state}
         onBack={() => go(parent ? {name:"group", groupId: parent.id} : {name:"home"})}
-        onStudy={() => go({name:"study", deckId: route.deckId})}
+        onStudy={(opts) => go({name:"study", deckId: route.deckId, ...opts})}
       />;
       break;
     }
@@ -2805,7 +2835,7 @@ function App() {
     case "study": {
       const deck = DECKS.find(d => d.id === route.deckId);
       const parent = deck ? groupFor(deck) : null;
-      screen = <Study deck={deck} state={state} setState={setState} onDone={() => go({name:"deck", deckId: route.deckId})} />;
+      screen = <Study deck={deck} includeAll={!!route.includeAll} state={state} setState={setState} onDone={() => go({name:"deck", deckId: route.deckId})} />;
       break;
     }
     case "stats":
@@ -3098,12 +3128,13 @@ function GroupDetail({ group, state, onBack, onOpenDeck }) {
   );
 }
 
-function Study({ deck, state, setState, onDone }) {
-  const [queue, setQueue] = useState(() => buildQueue(deck.cards, state.progress, { newPerDay: state.settings.newPerDay, now: Date.now() }));
+function Study({ deck, state, setState, onDone, includeAll = false }) {
+  const [queue, setQueue] = useState(() => buildQueue(deck.cards, state.progress, { newPerDay: state.settings.newPerDay, now: Date.now(), includeAll }));
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
-  const [sessionStats, setSessionStats] = useState({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0 });
+  const [sessionStats, setSessionStats] = useState({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0, skipped: 0 });
   const [undoStack, setUndoStack] = useState([]);  // Snapshots for "undo last rating"
+  const skippedCards = useRef(new Set());           // Tracks cards skipped once (to avoid infinite re-queue)
 
   const total = queue.length;
   const current = queue[idx];
@@ -3173,12 +3204,37 @@ function Study({ deck, state, setState, onDone }) {
     });
   }, []);
 
+  const skip = useCallback(() => {
+    if (!current) return;
+    setFlipped(false);
+    setSessionStats(ss => ({ ...ss, skipped: ss.skipped + 1 }));
+    const wasSkipped = skippedCards.current.has(current.kanji);
+    if (wasSkipped || idx >= queue.length - 1) {
+      // Already skipped once or last card: just advance past it
+      setIdx(i => i + 1);
+    } else {
+      // First skip: move card to end, next card slides into current position
+      skippedCards.current.add(current.kanji);
+      setQueue(q => [...q.slice(0, idx), ...q.slice(idx + 1), current]);
+    }
+  }, [current, idx, queue]);
+
+  const shuffleRemaining = useCallback(() => {
+    setQueue(q => {
+      const seen = q.slice(0, idx + 1);
+      const remaining = q.slice(idx + 1);
+      shuffleArray(remaining);
+      return [...seen, ...remaining];
+    });
+  }, [idx]);
+
   // Keyboard shortcuts (defined after rate + undo so closure is fresh)
   useEffect(() => {
     const onKey = (e) => {
       if (!current) return;
       if (e.key === " " || e.key === "Enter") { e.preventDefault(); setFlipped(f => !f); }
       if (e.key === "u" || e.key === "U") { e.preventDefault(); undo(); }
+      if (e.key === "s" || e.key === "S") { e.preventDefault(); skip(); }
       if (flipped) {
         if (e.key === "1") rate("again");
         if (e.key === "2") rate("hard");
@@ -3188,7 +3244,7 @@ function Study({ deck, state, setState, onDone }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [current, flipped, rate, undo]);
+  }, [current, flipped, rate, undo, skip]);
 
   if (!deck) return <div className="session-done"><div className="done-title">Deck not found</div><button className="primary-btn" onClick={onDone}>Home</button></div>;
 
@@ -3228,16 +3284,27 @@ function Study({ deck, state, setState, onDone }) {
       <div className="study-topbar">
         <button className="icon-btn" onClick={onDone} aria-label="Back">←</button>
         <div className="study-progress-text">{idx + 1} / {total}</div>
-        <button
-          className="undo-btn"
-          onClick={undo}
-          disabled={undoStack.length === 0}
-          aria-label="Undo last rating"
-          title="Undo last rating (U)"
-        >
-          <span className="undo-glyph">↶</span>
-          Undo
-        </button>
+        <div className="topbar-actions">
+          <button
+            className="undo-btn"
+            onClick={shuffleRemaining}
+            disabled={total - idx - 1 < 2}
+            aria-label="Shuffle remaining cards"
+            title="Shuffle remaining cards"
+          >
+            ⇌ Shuffle
+          </button>
+          <button
+            className="undo-btn"
+            onClick={undo}
+            disabled={undoStack.length === 0}
+            aria-label="Undo last rating"
+            title="Undo last rating (U)"
+          >
+            <span className="undo-glyph">↶</span>
+            Undo
+          </button>
+        </div>
       </div>
       <div className="study-progress-bar"><div className="study-progress-fill" style={{width: progressPct + "%"}}/></div>
 
@@ -3324,6 +3391,9 @@ function Study({ deck, state, setState, onDone }) {
             </button>
           </div>
         )}
+        <div className="skip-area">
+          <button className="skip-btn" onClick={skip} title="Skip card (S)">Skip →</button>
+        </div>
       </div>
     </div>
   );
@@ -3369,7 +3439,7 @@ function DeckDetail({ deck, state, onBack, onStudy }) {
   }
   const total = deck.cards.length;
   const pctLearned = total === 0 ? 0 : Math.round((learned / total) * 100);
-  const canStudy = due > 0 || newCount > 0;
+  const allCaughtUp = due === 0 && newCount === 0;
 
   const statusFor = (c) => {
     const p = state.progress[c.kanji];
@@ -3411,8 +3481,8 @@ function DeckDetail({ deck, state, onBack, onStudy }) {
         </div>
       </div>
 
-      <button className="study-cta" onClick={onStudy} disabled={!canStudy}>
-        {canStudy ? (due > 0 && newCount > 0 ? `Study (${due} due · ${newCount} new)` : due > 0 ? `Study ${due} due card${due === 1 ? "" : "s"}` : `Start ${Math.min(newCount, state.settings.newPerDay)} new card${newCount === 1 ? "" : "s"}`) : "All caught up"}
+      <button className="study-cta" onClick={() => onStudy(allCaughtUp ? {includeAll: true} : {})}>
+        {due > 0 && newCount > 0 ? `Study (${due} due · ${newCount} new)` : due > 0 ? `Study ${due} due card${due === 1 ? "" : "s"}` : newCount > 0 ? `Start ${Math.min(newCount, state.settings.newPerDay)} new card${newCount === 1 ? "" : "s"}` : `Review all ${total} cards`}
       </button>
 
       <div className="section-label">All cards</div>
