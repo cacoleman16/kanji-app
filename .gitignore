@@ -16,3 +16,9 @@ __pycache__/
 # Build backups
 *.bak
 .claude/
+
+# Generated build artifacts (built fresh in CI by pipeline/build.py)
+index.html
+sw.js
+icons/
+splash/
