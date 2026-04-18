@@ -25,6 +25,7 @@ def load(path):
 
 n5   = load(os.path.join(PIPE, "jlpt-n5.json"))
 n4   = load(os.path.join(PIPE, "jlpt-n4.json"))
+n3   = load(os.path.join(PIPE, "jlpt-n3.json"))
 n2   = load(os.path.join(PIPE, "jlpt-n2.json"))
 n1   = load(os.path.join(PIPE, "jlpt-n1.json"))
 g1   = load(os.path.join(PIPE, "genki1.json"))
@@ -106,10 +107,9 @@ for ie in integrated_entries:
     decks_js += ie + ",\n"
 decks_js += deck_entry("n5", n5) + ",\n"
 decks_js += deck_entry("n4", n4) + ",\n"
-# Stubs for future kanji decks
 decks_js += '  { id: "quartet1", name: "Quartet 1", subtitle: "coming soon", kind: "kanji", cards: [], available: false },\n'
 decks_js += '  { id: "quartet2", name: "Quartet 2", subtitle: "coming soon", kind: "kanji", cards: [], available: false },\n'
-decks_js += '  { id: "n3", name: "JLPT N3", subtitle: "coming soon", kind: "kanji", cards: [], available: false },\n'
+decks_js += deck_entry("n3", n3) + ",\n"
 decks_js += deck_entry("n2", n2) + ",\n"
 decks_js += deck_entry("n1", n1) + ",\n"
 # Vocabulary decks
@@ -157,11 +157,12 @@ print(f"  Size: {len(new_html):,} bytes")
 
 # ── 5. Verify the patch ───────────────────────────────────────────────────────
 # Count how many kanji cards are now in the HTML
-total = n5['card_count'] + n4['card_count'] + n2['card_count'] + n1['card_count'] + g1['card_count'] + g2['card_count']
+total = n5['card_count'] + n4['card_count'] + n3['card_count'] + n2['card_count'] + n1['card_count'] + g1['card_count'] + g2['card_count']
 total += sum(d['card_count'] for d in integrated_decks)
 total += sum(d['card_count'] for d in vocab_decks)
 print(f"\n  JLPT N5:   {n5['card_count']} cards")
 print(f"  JLPT N4:   {n4['card_count']} cards")
+print(f"  JLPT N3:   {n3['card_count']} cards")
 print(f"  JLPT N2:   {n2['card_count']} cards")
 print(f"  JLPT N1:   {n1['card_count']} cards")
 print(f"  Genki 1:   {g1['card_count']} cards")
