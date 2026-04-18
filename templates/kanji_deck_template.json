@@ -1,0 +1,31 @@
+{
+  "deck_id": "my-kanji-deck-id",
+  "deck_name": "My Kanji Deck",
+  "version": "1.0",
+  "card_count": 0,
+  "cards": [
+    {
+      "kanji": "一",
+      "meanings": ["one"],
+      "on_yomi": ["イチ", "イツ"],
+      "kun_yomi": ["ひと(つ)"],
+      "keyword": "one",
+      "etymology": "A single horizontal stroke — the simplest unit.",
+      "stroke_count": 1,
+      "jlpt": "N5",
+      "grade": 1,
+      "examples": [
+        {
+          "kanji": "一つ",
+          "kana": "ひとつ",
+          "meaning": "one thing"
+        },
+        {
+          "kanji": "一番",
+          "kana": "いちばん",
+          "meaning": "number one"
+        }
+      ]
+    }
+  ]
+}
