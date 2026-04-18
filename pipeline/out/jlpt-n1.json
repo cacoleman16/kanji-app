@@ -1,118 +1,241 @@
 {
-  "deck_id": "n1-kanji-deck",
-  "deck_name": "JLPT N1 Kanji Deck",
+  "deck_id": "n1-kanji",
+  "deck_name": "JLPT N1 Kanji",
   "version": "1.0",
-  "card_count": 15,
+  "card_count": 85,
   "cards": [
     {
       "kanji": "握",
-      "meanings": ["grip", "grasp", "hold", "clench"],
-      "on_yomi": ["アク"],
-      "kun_yomi": ["にぎ(る)"],
+      "meanings": [
+        "grip",
+        "grasp",
+        "hold"
+      ],
+      "on_yomi": [
+        "アク"
+      ],
+      "kun_yomi": [
+        "にぎ(る)"
+      ],
       "keyword": "grip",
-      "etymology": "Hand (扌) and a crouching figure (屋 root) — a fist closing around something.",
+      "etymology": "Hand (扌) closing around a crouching shape — a fist clenching tight.",
       "stroke_count": 12,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "握手", "kana": "あくしゅ", "meaning": "handshake" },
-        { "kanji": "握力", "kana": "あくりょく", "meaning": "grip strength" }
+        {
+          "kanji": "握手",
+          "kana": "あくしゅ",
+          "meaning": "handshake"
+        },
+        {
+          "kanji": "握力",
+          "kana": "あくりょく",
+          "meaning": "grip strength"
+        }
       ]
     },
     {
       "kanji": "依",
-      "meanings": ["reliant", "depend on", "accordingly", "following"],
-      "on_yomi": ["イ", "エ"],
-      "kun_yomi": ["よ(る)"],
+      "meanings": [
+        "reliant",
+        "depend",
+        "accordingly"
+      ],
+      "on_yomi": [
+        "イ",
+        "エ"
+      ],
+      "kun_yomi": [
+        "よ(る)"
+      ],
       "keyword": "reliant",
-      "etymology": "Person (亻) leaning on a cloth (衣) — resting one's weight on another.",
+      "etymology": "Person (亻) leaning on a garment (衣) — resting weight on another.",
       "stroke_count": 8,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "依存", "kana": "いぞん", "meaning": "dependence, reliance" },
-        { "kanji": "依頼", "kana": "いらい", "meaning": "request, commission" }
+        {
+          "kanji": "依存",
+          "kana": "いぞん",
+          "meaning": "dependence"
+        },
+        {
+          "kanji": "依頼",
+          "kana": "いらい",
+          "meaning": "request, commission"
+        }
       ]
     },
     {
       "kanji": "偉",
-      "meanings": ["admirable", "great", "magnificent", "excellent"],
-      "on_yomi": ["イ"],
-      "kun_yomi": ["えら(い)"],
+      "meanings": [
+        "admirable",
+        "great",
+        "magnificent"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [
+        "えら(い)"
+      ],
       "keyword": "admirable",
-      "etymology": "Person (亻) of great stature (韋 — surrounding leather) — one who stands above others.",
+      "etymology": "Person (亻) of great stature wrapped in leather (韋) — one who towers above others.",
       "stroke_count": 12,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "偉大", "kana": "いだい", "meaning": "greatness, magnificence" },
-        { "kanji": "偉業", "kana": "いぎょう", "meaning": "great achievement, feat" }
+        {
+          "kanji": "偉大",
+          "kana": "いだい",
+          "meaning": "greatness"
+        },
+        {
+          "kanji": "偉業",
+          "kana": "いぎょう",
+          "meaning": "great achievement"
+        }
       ]
     },
     {
       "kanji": "慰",
-      "meanings": ["consolation", "soothe", "comfort", "encourage"],
-      "on_yomi": ["イ"],
-      "kun_yomi": ["なぐさ(める)", "なぐさ(む)"],
+      "meanings": [
+        "console",
+        "soothe",
+        "comfort"
+      ],
+      "on_yomi": [
+        "イ"
+      ],
+      "kun_yomi": [
+        "なぐさ(める)",
+        "なぐさ(む)"
+      ],
       "keyword": "console",
-      "etymology": "Heart (心) beneath a tiger (尉) — suppressing raw emotion to offer calm comfort.",
+      "etymology": "Heart (心) beneath an officer (尉) — suppressing raw emotion to offer calm.",
       "stroke_count": 15,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "慰める", "kana": "なぐさめる", "meaning": "to console, to comfort" },
-        { "kanji": "慰安", "kana": "いあん", "meaning": "consolation, recreation" }
+        {
+          "kanji": "慰める",
+          "kana": "なぐさめる",
+          "meaning": "to comfort"
+        },
+        {
+          "kanji": "慰安",
+          "kana": "いあん",
+          "meaning": "consolation, recreation"
+        }
       ]
     },
     {
       "kanji": "遺",
-      "meanings": ["bequeath", "leave behind", "forget", "lose"],
-      "on_yomi": ["イ", "ユイ"],
-      "kun_yomi": ["のこ(す)"],
+      "meanings": [
+        "bequeath",
+        "leave behind",
+        "legacy"
+      ],
+      "on_yomi": [
+        "イ",
+        "ユイ"
+      ],
+      "kun_yomi": [
+        "のこ(す)"
+      ],
       "keyword": "bequeath",
       "etymology": "Movement (辶) of something precious (貴) — what is left behind as one departs.",
       "stroke_count": 15,
       "jlpt": "N1",
       "grade": 6,
       "examples": [
-        { "kanji": "遺産", "kana": "いさん", "meaning": "inheritance, legacy" },
-        { "kanji": "遺言", "kana": "ゆいごん", "meaning": "will, last words" }
+        {
+          "kanji": "遺産",
+          "kana": "いさん",
+          "meaning": "inheritance, legacy"
+        },
+        {
+          "kanji": "遺言",
+          "kana": "ゆいごん",
+          "meaning": "will, last words"
+        }
       ]
     },
     {
       "kanji": "隠",
-      "meanings": ["hide", "conceal", "secret"],
-      "on_yomi": ["イン", "オン"],
-      "kun_yomi": ["かく(す)", "かく(れる)", "かく(し)"],
+      "meanings": [
+        "hide",
+        "conceal",
+        "secret"
+      ],
+      "on_yomi": [
+        "イン",
+        "オン"
+      ],
+      "kun_yomi": [
+        "かく(す)",
+        "かく(れる)"
+      ],
       "keyword": "conceal",
-      "etymology": "Mound (阜) next to a hand gripping tightly (急 root) — tucked away behind a hill.",
+      "etymology": "Mound (阜) beside a hand gripping tight — tucked away behind a hill.",
       "stroke_count": 14,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "隠す", "kana": "かくす", "meaning": "to hide, to conceal" },
-        { "kanji": "隠居", "kana": "いんきょ", "meaning": "retirement, reclusion" }
+        {
+          "kanji": "隠す",
+          "kana": "かくす",
+          "meaning": "to hide"
+        },
+        {
+          "kanji": "隠居",
+          "kana": "いんきょ",
+          "meaning": "retirement, reclusion"
+        }
       ]
     },
     {
       "kanji": "宴",
-      "meanings": ["banquet", "feast", "party"],
-      "on_yomi": ["エン"],
-      "kun_yomi": ["うたげ"],
+      "meanings": [
+        "banquet",
+        "feast",
+        "party"
+      ],
+      "on_yomi": [
+        "エン"
+      ],
+      "kun_yomi": [
+        "うたげ"
+      ],
       "keyword": "banquet",
       "etymology": "Roof (宀) over a woman (女) and sun (日) — a joyful gathering sheltered inside.",
       "stroke_count": 10,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "宴会", "kana": "えんかい", "meaning": "banquet, dinner party" },
-        { "kanji": "宴席", "kana": "えんせき", "meaning": "banquet seat, feast setting" }
+        {
+          "kanji": "宴会",
+          "kana": "えんかい",
+          "meaning": "banquet, dinner party"
+        },
+        {
+          "kanji": "宴席",
+          "kana": "えんせき",
+          "meaning": "banquet seat"
+        }
       ]
     },
     {
       "kanji": "援",
-      "meanings": ["abet", "help", "assist", "rescue"],
-      "on_yomi": ["エン"],
+      "meanings": [
+        "assist",
+        "help",
+        "rescue"
+      ],
+      "on_yomi": [
+        "エン"
+      ],
       "kun_yomi": [],
       "keyword": "assist",
       "etymology": "Hand (扌) pulling (爰) — reaching out to lift someone up.",
@@ -120,113 +243,2451 @@
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "支援", "kana": "しえん", "meaning": "support, aid" },
-        { "kanji": "援助", "kana": "えんじょ", "meaning": "assistance, help" }
+        {
+          "kanji": "支援",
+          "kana": "しえん",
+          "meaning": "support, aid"
+        },
+        {
+          "kanji": "援助",
+          "kana": "えんじょ",
+          "meaning": "assistance, help"
+        }
       ]
     },
     {
       "kanji": "汚",
-      "meanings": ["dirty", "pollute", "stain", "corrupt"],
-      "on_yomi": ["オ"],
-      "kun_yomi": ["よご(す)", "よご(れる)", "きたな(い)", "けが(す)", "けが(れる)"],
+      "meanings": [
+        "dirty",
+        "pollute",
+        "stain",
+        "corrupt"
+      ],
+      "on_yomi": [
+        "オ"
+      ],
+      "kun_yomi": [
+        "よご(す)",
+        "よご(れる)",
+        "きたな(い)",
+        "けが(す)"
+      ],
       "keyword": "dirty",
       "etymology": "Water (氵) flowing in a warped shape — stagnant, unclean water.",
       "stroke_count": 6,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "汚染", "kana": "おせん", "meaning": "pollution, contamination" },
-        { "kanji": "汚れる", "kana": "よごれる", "meaning": "to get dirty, to become stained" }
+        {
+          "kanji": "汚染",
+          "kana": "おせん",
+          "meaning": "pollution, contamination"
+        },
+        {
+          "kanji": "汚れる",
+          "kana": "よごれる",
+          "meaning": "to get dirty"
+        }
       ]
     },
     {
       "kanji": "奥",
-      "meanings": ["interior", "inner part", "depths", "heart"],
-      "on_yomi": ["オウ"],
-      "kun_yomi": ["おく"],
+      "meanings": [
+        "interior",
+        "inner part",
+        "depths"
+      ],
+      "on_yomi": [
+        "オウ"
+      ],
+      "kun_yomi": [
+        "おく"
+      ],
       "keyword": "interior",
-      "etymology": "A figure (大) enclosed deep inside a house (宀) — the innermost room.",
+      "etymology": "A figure enclosed deep inside a house (宀) — the innermost room.",
       "stroke_count": 12,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "奥さん", "kana": "おくさん", "meaning": "wife (someone else's)" },
-        { "kanji": "奥深い", "kana": "おくぶかい", "meaning": "profound, deep, subtle" }
+        {
+          "kanji": "奥さん",
+          "kana": "おくさん",
+          "meaning": "wife (someone else's)"
+        },
+        {
+          "kanji": "奥深い",
+          "kana": "おくぶかい",
+          "meaning": "profound, deep"
+        }
       ]
     },
     {
       "kanji": "架",
-      "meanings": ["erect", "build", "span", "shelf"],
-      "on_yomi": ["カ"],
-      "kun_yomi": ["か(ける)", "か(かる)"],
+      "meanings": [
+        "erect",
+        "span",
+        "shelf",
+        "build"
+      ],
+      "on_yomi": [
+        "カ"
+      ],
+      "kun_yomi": [
+        "か(ける)",
+        "か(かる)"
+      ],
       "keyword": "span",
       "etymology": "Tree (木) under a frame (加) — wooden beams placed across an opening.",
       "stroke_count": 9,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "架ける", "kana": "かける", "meaning": "to span, to build (a bridge)" },
-        { "kanji": "架空", "kana": "かくう", "meaning": "fictional, imaginary" }
+        {
+          "kanji": "架け橋",
+          "kana": "かけはし",
+          "meaning": "bridge, link"
+        },
+        {
+          "kanji": "架空",
+          "kana": "かくう",
+          "meaning": "fictional, imaginary"
+        }
       ]
     },
     {
       "kanji": "潔",
-      "meanings": ["clean", "pure", "upright", "chaste"],
-      "on_yomi": ["ケツ"],
-      "kun_yomi": ["いさぎよ(い)"],
+      "meanings": [
+        "clean",
+        "pure",
+        "upright",
+        "chaste"
+      ],
+      "on_yomi": [
+        "ケツ"
+      ],
+      "kun_yomi": [
+        "いさぎよ(い)"
+      ],
       "keyword": "pure",
       "etymology": "Water (氵) and a thread (糸) rinsed clean — cleansed to the last fiber.",
       "stroke_count": 15,
       "jlpt": "N1",
       "grade": 5,
       "examples": [
-        { "kanji": "清潔", "kana": "せいけつ", "meaning": "cleanliness, hygiene" },
-        { "kanji": "潔白", "kana": "けっぱく", "meaning": "innocence, purity" }
+        {
+          "kanji": "清潔",
+          "kana": "せいけつ",
+          "meaning": "cleanliness"
+        },
+        {
+          "kanji": "潔白",
+          "kana": "けっぱく",
+          "meaning": "innocence, purity"
+        }
       ]
     },
     {
       "kanji": "顕",
-      "meanings": ["appear", "manifest", "obvious", "visible"],
-      "on_yomi": ["ケン"],
-      "kun_yomi": ["あきらか", "あらわ(れる)"],
+      "meanings": [
+        "manifest",
+        "obvious",
+        "appear",
+        "visible"
+      ],
+      "on_yomi": [
+        "ケン"
+      ],
+      "kun_yomi": [
+        "あきらか",
+        "あらわ(れる)"
+      ],
       "keyword": "manifest",
-      "etymology": "Head (頁) combined with threads of silk (縣 root) — what is clearly visible to the eye.",
+      "etymology": "Head (頁) combined with threads — what is clearly visible to the eye.",
       "stroke_count": 18,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "顕著", "kana": "けんちょ", "meaning": "remarkable, conspicuous" },
-        { "kanji": "顕微鏡", "kana": "けんびきょう", "meaning": "microscope" }
+        {
+          "kanji": "顕著",
+          "kana": "けんちょ",
+          "meaning": "remarkable, conspicuous"
+        },
+        {
+          "kanji": "顕微鏡",
+          "kana": "けんびきょう",
+          "meaning": "microscope"
+        }
       ]
     },
     {
       "kanji": "凝",
-      "meanings": ["congeal", "coagulate", "stiff", "absorbed in"],
-      "on_yomi": ["ギョウ"],
-      "kun_yomi": ["こ(る)", "こ(らす)"],
+      "meanings": [
+        "congeal",
+        "coagulate",
+        "stiff",
+        "absorbed in"
+      ],
+      "on_yomi": [
+        "ギョウ"
+      ],
+      "kun_yomi": [
+        "こ(る)",
+        "こ(らす)"
+      ],
       "keyword": "congeal",
-      "etymology": "Ice (冫) and a figure bracing hard (疑 modified) — frozen stiff with effort.",
+      "etymology": "Ice (冫) and a figure bracing hard — frozen stiff with concentrated effort.",
       "stroke_count": 16,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "凝る", "kana": "こる", "meaning": "to be absorbed in, to have a stiff shoulder" },
-        { "kanji": "凝固", "kana": "ぎょうこ", "meaning": "solidification, coagulation" }
+        {
+          "kanji": "凝る",
+          "kana": "こる",
+          "meaning": "to be absorbed in, stiff"
+        },
+        {
+          "kanji": "凝固",
+          "kana": "ぎょうこ",
+          "meaning": "solidification"
+        }
       ]
     },
     {
       "kanji": "懸",
-      "meanings": ["hang", "suspend", "depend on", "at stake"],
-      "on_yomi": ["ケン", "ケ"],
-      "kun_yomi": ["か(ける)", "か(かる)"],
+      "meanings": [
+        "hang",
+        "suspend",
+        "depend on",
+        "at stake"
+      ],
+      "on_yomi": [
+        "ケン",
+        "ケ"
+      ],
+      "kun_yomi": [
+        "か(ける)",
+        "か(かる)"
+      ],
       "keyword": "hang",
-      "etymology": "Heart (心) suspended from a county (縣) — life hanging by a thread.",
+      "etymology": "Heart (心) suspended from a county sign (縣) — life hanging by a thread.",
       "stroke_count": 20,
       "jlpt": "N1",
       "grade": 0,
       "examples": [
-        { "kanji": "懸命", "kana": "けんめい", "meaning": "eagerness, desperate effort" },
-        { "kanji": "懸念", "kana": "けねん", "meaning": "concern, fear, worry" }
+        {
+          "kanji": "懸命",
+          "kana": "けんめい",
+          "meaning": "desperate effort"
+        },
+        {
+          "kanji": "懸念",
+          "kana": "けねん",
+          "meaning": "concern, worry"
+        }
+      ]
+    },
+    {
+      "kanji": "脅",
+      "meanings": [
+        "threaten",
+        "coerce",
+        "intimidate"
+      ],
+      "on_yomi": [
+        "キョウ"
+      ],
+      "kun_yomi": [
+        "おびや(かす)",
+        "おど(す)"
+      ],
+      "keyword": "threaten",
+      "etymology": "Three muscles (月×3) — raw physical force used to intimidate.",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "脅す",
+          "kana": "おどす",
+          "meaning": "to threaten"
+        },
+        {
+          "kanji": "脅迫",
+          "kana": "きょうはく",
+          "meaning": "threat, intimidation"
+        }
+      ]
+    },
+    {
+      "kanji": "筋",
+      "meanings": [
+        "muscle",
+        "sinew",
+        "logic",
+        "plot"
+      ],
+      "on_yomi": [
+        "キン"
+      ],
+      "kun_yomi": [
+        "すじ"
+      ],
+      "keyword": "muscle",
+      "etymology": "Bamboo (竹) over flesh (月) and strength (力) — sinews running through the body.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "筋肉",
+          "kana": "きんにく",
+          "meaning": "muscle"
+        },
+        {
+          "kanji": "筋道",
+          "kana": "すじみち",
+          "meaning": "logic, reasoning"
+        }
+      ]
+    },
+    {
+      "kanji": "謙",
+      "meanings": [
+        "humble",
+        "modest",
+        "self-effacing"
+      ],
+      "on_yomi": [
+        "ケン"
+      ],
+      "kun_yomi": [],
+      "keyword": "humble",
+      "etymology": "Words (言) held cautiously on both sides — speaking carefully, modestly.",
+      "stroke_count": 17,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "謙遜",
+          "kana": "けんそん",
+          "meaning": "humility, modesty"
+        },
+        {
+          "kanji": "謙虚",
+          "kana": "けんきょ",
+          "meaning": "humble, modest"
+        }
+      ]
+    },
+    {
+      "kanji": "顧",
+      "meanings": [
+        "look back",
+        "consider",
+        "review"
+      ],
+      "on_yomi": [
+        "コ"
+      ],
+      "kun_yomi": [
+        "かえり(みる)"
+      ],
+      "keyword": "reconsider",
+      "etymology": "Turning the head (頁) back to see — looking back over one's shoulder in reflection.",
+      "stroke_count": 21,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "顧客",
+          "kana": "こきゃく",
+          "meaning": "customer, client"
+        },
+        {
+          "kanji": "回顧",
+          "kana": "かいこ",
+          "meaning": "retrospection"
+        }
+      ]
+    },
+    {
+      "kanji": "更",
+      "meanings": [
+        "renew",
+        "furthermore",
+        "again",
+        "late night"
+      ],
+      "on_yomi": [
+        "コウ"
+      ],
+      "kun_yomi": [
+        "さら",
+        "ふ(ける)",
+        "ふ(かす)"
+      ],
+      "keyword": "renew",
+      "etymology": "The sun (日) twisting a handle — turning over a new day.",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "更新",
+          "kana": "こうしん",
+          "meaning": "renewal, update"
+        },
+        {
+          "kanji": "更衣室",
+          "kana": "こういしつ",
+          "meaning": "changing room"
+        }
+      ]
+    },
+    {
+      "kanji": "債",
+      "meanings": [
+        "debt",
+        "loan",
+        "bond"
+      ],
+      "on_yomi": [
+        "サイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "debt",
+      "etymology": "Person (亻) bearing a bundle of responsibilities (責) — one who owes.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "債務",
+          "kana": "さいむ",
+          "meaning": "debt, liability"
+        },
+        {
+          "kanji": "負債",
+          "kana": "ふさい",
+          "meaning": "debt, liabilities"
+        }
+      ]
+    },
+    {
+      "kanji": "策",
+      "meanings": [
+        "scheme",
+        "plan",
+        "policy",
+        "tactic"
+      ],
+      "on_yomi": [
+        "サク"
+      ],
+      "kun_yomi": [],
+      "keyword": "scheme",
+      "etymology": "Bamboo (竹) over thorns — a bamboo whip used to drive policy forward.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "政策",
+          "kana": "せいさく",
+          "meaning": "policy"
+        },
+        {
+          "kanji": "対策",
+          "kana": "たいさく",
+          "meaning": "countermeasure"
+        }
+      ]
+    },
+    {
+      "kanji": "暫",
+      "meanings": [
+        "temporarily",
+        "awhile",
+        "for the time being"
+      ],
+      "on_yomi": [
+        "ザン"
+      ],
+      "kun_yomi": [
+        "しばら(く)"
+      ],
+      "keyword": "temporarily",
+      "etymology": "A halberd (斬) over sun (日) — cutting off a moment in time, briefly.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "暫定",
+          "kana": "ざんてい",
+          "meaning": "provisional, temporary"
+        },
+        {
+          "kanji": "暫く",
+          "kana": "しばらく",
+          "meaning": "for a while"
+        }
+      ]
+    },
+    {
+      "kanji": "識",
+      "meanings": [
+        "discriminate",
+        "identify",
+        "know",
+        "consciousness"
+      ],
+      "on_yomi": [
+        "シキ"
+      ],
+      "kun_yomi": [],
+      "keyword": "discern",
+      "etymology": "Words (言) with a halberd and sign — marking distinctions through speech.",
+      "stroke_count": 19,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "知識",
+          "kana": "ちしき",
+          "meaning": "knowledge"
+        },
+        {
+          "kanji": "意識",
+          "kana": "いしき",
+          "meaning": "consciousness, awareness"
+        }
+      ]
+    },
+    {
+      "kanji": "執",
+      "meanings": [
+        "tenacious",
+        "carry out",
+        "grasp",
+        "administer"
+      ],
+      "on_yomi": [
+        "シツ",
+        "シュウ"
+      ],
+      "kun_yomi": [
+        "と(る)"
+      ],
+      "keyword": "tenacious",
+      "etymology": "Holding a ball in a hand — grasping stubbornly, refusing to let go.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "執行",
+          "kana": "しっこう",
+          "meaning": "execution, enforcement"
+        },
+        {
+          "kanji": "執着",
+          "kana": "しゅうちゃく",
+          "meaning": "attachment, obsession"
+        }
+      ]
+    },
+    {
+      "kanji": "湿",
+      "meanings": [
+        "damp",
+        "moist",
+        "humid",
+        "wet"
+      ],
+      "on_yomi": [
+        "シツ"
+      ],
+      "kun_yomi": [
+        "しめ(る)",
+        "しめ(す)"
+      ],
+      "keyword": "damp",
+      "etymology": "Water (氵) soaking into a wick — moisture seeping in continuously.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "湿度",
+          "kana": "しつど",
+          "meaning": "humidity"
+        },
+        {
+          "kanji": "湿気",
+          "kana": "しっけ",
+          "meaning": "moisture, dampness"
+        }
+      ]
+    },
+    {
+      "kanji": "需",
+      "meanings": [
+        "demand",
+        "need",
+        "require"
+      ],
+      "on_yomi": [
+        "ジュ"
+      ],
+      "kun_yomi": [],
+      "keyword": "demand",
+      "etymology": "Rain (雨) over a figure in ceremonial robes — rituals requiring the right conditions.",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "需要",
+          "kana": "じゅよう",
+          "meaning": "demand, need"
+        },
+        {
+          "kanji": "必需品",
+          "kana": "ひつじゅひん",
+          "meaning": "necessities"
+        }
+      ]
+    },
+    {
+      "kanji": "渉",
+      "meanings": [
+        "ford",
+        "wade",
+        "go through",
+        "involve"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [
+        "わた(る)"
+      ],
+      "keyword": "wade",
+      "etymology": "Water (氵) and steps — wading step by step through the current.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "交渉",
+          "kana": "こうしょう",
+          "meaning": "negotiation"
+        },
+        {
+          "kanji": "干渉",
+          "kana": "かんしょう",
+          "meaning": "interference, meddling"
+        }
+      ]
+    },
+    {
+      "kanji": "紹",
+      "meanings": [
+        "introduce",
+        "present"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "introduce",
+      "etymology": "Thread (糸) and a call (召) — threading two people together by calling out.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "紹介",
+          "kana": "しょうかい",
+          "meaning": "introduction"
+        },
+        {
+          "kanji": "自己紹介",
+          "kana": "じこしょうかい",
+          "meaning": "self-introduction"
+        }
+      ]
+    },
+    {
+      "kanji": "衝",
+      "meanings": [
+        "collide",
+        "rush",
+        "highway",
+        "important point"
+      ],
+      "on_yomi": [
+        "ショウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "collide",
+      "etymology": "Moving (行) with a heavy weight (重) — charging forward with force.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "衝突",
+          "kana": "しょうとつ",
+          "meaning": "collision, clash"
+        },
+        {
+          "kanji": "衝撃",
+          "kana": "しょうげき",
+          "meaning": "shock, impact"
+        }
+      ]
+    },
+    {
+      "kanji": "触",
+      "meanings": [
+        "touch",
+        "contact",
+        "feel",
+        "handle"
+      ],
+      "on_yomi": [
+        "ショク"
+      ],
+      "kun_yomi": [
+        "ふ(れる)",
+        "さわ(る)"
+      ],
+      "keyword": "touch",
+      "etymology": "Horn (角) extended by a contact shape — a feeler pressing into something.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "接触",
+          "kana": "せっしょく",
+          "meaning": "contact, touch"
+        },
+        {
+          "kanji": "触れる",
+          "kana": "ふれる",
+          "meaning": "to touch, to come in contact"
+        }
+      ]
+    },
+    {
+      "kanji": "審",
+      "meanings": [
+        "judge",
+        "examine",
+        "scrutinize"
+      ],
+      "on_yomi": [
+        "シン"
+      ],
+      "kun_yomi": [
+        "つまび(らか)"
+      ],
+      "keyword": "scrutinize",
+      "etymology": "Roof (宀) over a detailed examination (番) — carefully reviewing under one's roof.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "審判",
+          "kana": "しんぱん",
+          "meaning": "referee, judgment"
+        },
+        {
+          "kanji": "審査",
+          "kana": "しんさ",
+          "meaning": "examination, screening"
+        }
+      ]
+    },
+    {
+      "kanji": "振",
+      "meanings": [
+        "shake",
+        "wave",
+        "swing",
+        "sprinkle"
+      ],
+      "on_yomi": [
+        "シン"
+      ],
+      "kun_yomi": [
+        "ふ(る)",
+        "ふ(れる)",
+        "ふ(るう)"
+      ],
+      "keyword": "shake",
+      "etymology": "Hand (扌) and a rising figure (辰) — a hand swinging up and shaking.",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "振る",
+          "kana": "ふる",
+          "meaning": "to wave, to shake"
+        },
+        {
+          "kanji": "振動",
+          "kana": "しんどう",
+          "meaning": "vibration, oscillation"
+        }
+      ]
+    },
+    {
+      "kanji": "推",
+      "meanings": [
+        "push",
+        "infer",
+        "recommend",
+        "conjecture"
+      ],
+      "on_yomi": [
+        "スイ"
+      ],
+      "kun_yomi": [
+        "お(す)"
+      ],
+      "keyword": "infer",
+      "etymology": "Hand (扌) and a bird (隹) — pushing a bird forward, propelling thought.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "推理",
+          "kana": "すいり",
+          "meaning": "reasoning, deduction"
+        },
+        {
+          "kanji": "推薦",
+          "kana": "すいせん",
+          "meaning": "recommendation"
+        }
+      ]
+    },
+    {
+      "kanji": "薦",
+      "meanings": [
+        "recommend",
+        "offer",
+        "suggest"
+      ],
+      "on_yomi": [
+        "セン"
+      ],
+      "kun_yomi": [
+        "すす(める)"
+      ],
+      "keyword": "recommend",
+      "etymology": "Grass (艹) over a deer (鹿) — offering fresh grass to guide the deer forward.",
+      "stroke_count": 16,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "推薦",
+          "kana": "すいせん",
+          "meaning": "recommendation"
+        },
+        {
+          "kanji": "薦める",
+          "kana": "すすめる",
+          "meaning": "to recommend"
+        }
+      ]
+    },
+    {
+      "kanji": "粗",
+      "meanings": [
+        "coarse",
+        "rough",
+        "crude",
+        "sparse"
+      ],
+      "on_yomi": [
+        "ソ"
+      ],
+      "kun_yomi": [
+        "あら(い)",
+        "あら"
+      ],
+      "keyword": "coarse",
+      "etymology": "Rice (米) not yet fully polished — rough, unrefined grain.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "粗末",
+          "kana": "そまつ",
+          "meaning": "crude, wasteful"
+        },
+        {
+          "kanji": "粗雑",
+          "kana": "そざつ",
+          "meaning": "rough, careless"
+        }
+      ]
+    },
+    {
+      "kanji": "双",
+      "meanings": [
+        "pair",
+        "set",
+        "both",
+        "twin"
+      ],
+      "on_yomi": [
+        "ソウ"
+      ],
+      "kun_yomi": [
+        "ふた"
+      ],
+      "keyword": "pair",
+      "etymology": "Two hands (又×2) side by side — a matched pair.",
+      "stroke_count": 4,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "双子",
+          "kana": "ふたご",
+          "meaning": "twins"
+        },
+        {
+          "kanji": "双方",
+          "kana": "そうほう",
+          "meaning": "both sides, both parties"
+        }
+      ]
+    },
+    {
+      "kanji": "阻",
+      "meanings": [
+        "obstruct",
+        "hinder",
+        "impede",
+        "thwart"
+      ],
+      "on_yomi": [
+        "ソ"
+      ],
+      "kun_yomi": [
+        "はば(む)"
+      ],
+      "keyword": "obstruct",
+      "etymology": "Mound (阜) and a pile (且) — a hill blocking the path.",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "阻止",
+          "kana": "そし",
+          "meaning": "obstruction, prevention"
+        },
+        {
+          "kanji": "阻む",
+          "kana": "はばむ",
+          "meaning": "to hinder, to block"
+        }
+      ]
+    },
+    {
+      "kanji": "択",
+      "meanings": [
+        "choose",
+        "select",
+        "pick"
+      ],
+      "on_yomi": [
+        "タク"
+      ],
+      "kun_yomi": [
+        "えら(ぶ)"
+      ],
+      "keyword": "select",
+      "etymology": "Hand (扌) sorting and picking — reaching in to select the best.",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "選択",
+          "kana": "せんたく",
+          "meaning": "selection, choice"
+        },
+        {
+          "kanji": "二択",
+          "kana": "にたく",
+          "meaning": "binary choice"
+        }
+      ]
+    },
+    {
+      "kanji": "端",
+      "meanings": [
+        "edge",
+        "tip",
+        "end",
+        "fringe",
+        "beginning"
+      ],
+      "on_yomi": [
+        "タン"
+      ],
+      "kun_yomi": [
+        "はし",
+        "はた",
+        "は",
+        "きわ"
+      ],
+      "keyword": "edge",
+      "etymology": "Standing (立) on a cliff over water — perched at the very tip.",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "端末",
+          "kana": "たんまつ",
+          "meaning": "terminal, device"
+        },
+        {
+          "kanji": "先端",
+          "kana": "せんたん",
+          "meaning": "tip, leading edge"
+        }
+      ]
+    },
+    {
+      "kanji": "著",
+      "meanings": [
+        "remarkable",
+        "author",
+        "write",
+        "notable"
+      ],
+      "on_yomi": [
+        "チョ",
+        "チャク"
+      ],
+      "kun_yomi": [
+        "あらわ(す)",
+        "いちじる(しい)"
+      ],
+      "keyword": "notable",
+      "etymology": "Grass (艹) over a person (者) — standing out above the rest like tall grass.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 6,
+      "examples": [
+        {
+          "kanji": "著者",
+          "kana": "ちょしゃ",
+          "meaning": "author"
+        },
+        {
+          "kanji": "著名",
+          "kana": "ちょめい",
+          "meaning": "famous, well-known"
+        }
+      ]
+    },
+    {
+      "kanji": "彫",
+      "meanings": [
+        "carve",
+        "engrave",
+        "sculpt"
+      ],
+      "on_yomi": [
+        "チョウ"
+      ],
+      "kun_yomi": [
+        "ほ(る)"
+      ],
+      "keyword": "carve",
+      "etymology": "Feathers (彡) and a carving shape — scoring lines into a surface.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "彫刻",
+          "kana": "ちょうこく",
+          "meaning": "sculpture, carving"
+        },
+        {
+          "kanji": "彫る",
+          "kana": "ほる",
+          "meaning": "to carve, to engrave"
+        }
+      ]
+    },
+    {
+      "kanji": "鎮",
+      "meanings": [
+        "suppress",
+        "calm",
+        "subdue",
+        "quell"
+      ],
+      "on_yomi": [
+        "チン"
+      ],
+      "kun_yomi": [
+        "しず(める)",
+        "しず(まる)"
+      ],
+      "keyword": "suppress",
+      "etymology": "Metal (金) with a true (真) weight — pressing down firmly to hold steady.",
+      "stroke_count": 18,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "鎮静",
+          "kana": "ちんせい",
+          "meaning": "sedation, calming"
+        },
+        {
+          "kanji": "鎮圧",
+          "kana": "ちんあつ",
+          "meaning": "suppression, crackdown"
+        }
+      ]
+    },
+    {
+      "kanji": "逐",
+      "meanings": [
+        "pursue",
+        "drive away",
+        "chase",
+        "one by one"
+      ],
+      "on_yomi": [
+        "チク"
+      ],
+      "kun_yomi": [],
+      "keyword": "pursue",
+      "etymology": "Movement (辶) after a pig (豕) — chasing an animal step by step.",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "逐次",
+          "kana": "ちくじ",
+          "meaning": "successively, one by one"
+        },
+        {
+          "kanji": "放逐",
+          "kana": "ほうちく",
+          "meaning": "expulsion, banishment"
+        }
+      ]
+    },
+    {
+      "kanji": "徹",
+      "meanings": [
+        "penetrate",
+        "carry through",
+        "pierce",
+        "thorough"
+      ],
+      "on_yomi": [
+        "テツ"
+      ],
+      "kun_yomi": [],
+      "keyword": "pierce",
+      "etymology": "Going (彳) with force (攴) — pushing all the way through without stopping.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "徹底",
+          "kana": "てってい",
+          "meaning": "thoroughness, exhaustiveness"
+        },
+        {
+          "kanji": "徹夜",
+          "kana": "てつや",
+          "meaning": "all-nighter"
+        }
+      ]
+    },
+    {
+      "kanji": "添",
+      "meanings": [
+        "add",
+        "append",
+        "accompany",
+        "annex"
+      ],
+      "on_yomi": [
+        "テン"
+      ],
+      "kun_yomi": [
+        "そ(える)",
+        "そ(う)"
+      ],
+      "keyword": "append",
+      "etymology": "Water (氵) and a bent figure — flowing alongside and attaching to something.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "添付",
+          "kana": "てんぷ",
+          "meaning": "attachment, annexing"
+        },
+        {
+          "kanji": "添える",
+          "kana": "そえる",
+          "meaning": "to add, to attach"
+        }
+      ]
+    },
+    {
+      "kanji": "殿",
+      "meanings": [
+        "palace",
+        "lord",
+        "hall",
+        "suffix of respect"
+      ],
+      "on_yomi": [
+        "デン",
+        "テン"
+      ],
+      "kun_yomi": [
+        "との",
+        "とのさま"
+      ],
+      "keyword": "palace",
+      "etymology": "A building (殳) with a foundation — a grand hall worthy of a lord.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "殿堂",
+          "kana": "でんどう",
+          "meaning": "palace, hall of fame"
+        },
+        {
+          "kanji": "殿様",
+          "kana": "とのさま",
+          "meaning": "feudal lord"
+        }
+      ]
+    },
+    {
+      "kanji": "塗",
+      "meanings": [
+        "paint",
+        "coat",
+        "smear",
+        "plaster"
+      ],
+      "on_yomi": [
+        "ト"
+      ],
+      "kun_yomi": [
+        "ぬ(る)"
+      ],
+      "keyword": "coat",
+      "etymology": "Earth (土) spread by water — clay smeared across a surface.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "塗る",
+          "kana": "ぬる",
+          "meaning": "to paint, to apply"
+        },
+        {
+          "kanji": "塗装",
+          "kana": "とそう",
+          "meaning": "coating, painting"
+        }
+      ]
+    },
+    {
+      "kanji": "粘",
+      "meanings": [
+        "sticky",
+        "glutinous",
+        "persevere",
+        "tenacious"
+      ],
+      "on_yomi": [
+        "ネン"
+      ],
+      "kun_yomi": [
+        "ねば(る)"
+      ],
+      "keyword": "sticky",
+      "etymology": "Rice (米) with an occupying shape (占) — glutinous rice clinging and sticking.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "粘着",
+          "kana": "ねんちゃく",
+          "meaning": "adhesion, stickiness"
+        },
+        {
+          "kanji": "粘る",
+          "kana": "ねばる",
+          "meaning": "to be sticky, to persevere"
+        }
+      ]
+    },
+    {
+      "kanji": "把",
+      "meanings": [
+        "grasp",
+        "handle",
+        "hold",
+        "bunch"
+      ],
+      "on_yomi": [
+        "ハ"
+      ],
+      "kun_yomi": [],
+      "keyword": "grasp",
+      "etymology": "Hand (扌) coiling around (巴) — fingers wrapping and holding firm.",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "把握",
+          "kana": "はあく",
+          "meaning": "grasp, understanding"
+        },
+        {
+          "kanji": "一把",
+          "kana": "いちわ",
+          "meaning": "one bundle, one bunch"
+        }
+      ]
+    },
+    {
+      "kanji": "廃",
+      "meanings": [
+        "abandon",
+        "cease",
+        "ruin",
+        "abolish"
+      ],
+      "on_yomi": [
+        "ハイ"
+      ],
+      "kun_yomi": [
+        "すた(れる)",
+        "すた(る)"
+      ],
+      "keyword": "abolish",
+      "etymology": "Shelter (广) where things fall into disuse — a place fallen into ruin.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "廃止",
+          "kana": "はいし",
+          "meaning": "abolition, discontinuation"
+        },
+        {
+          "kanji": "廃棄",
+          "kana": "はいき",
+          "meaning": "disposal, abandonment"
+        }
+      ]
+    },
+    {
+      "kanji": "拝",
+      "meanings": [
+        "worship",
+        "bow",
+        "receive humbly",
+        "salute"
+      ],
+      "on_yomi": [
+        "ハイ"
+      ],
+      "kun_yomi": [
+        "おが(む)"
+      ],
+      "keyword": "worship",
+      "etymology": "Hand (扌) bent in reverence — hands pressed together in a bow.",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "拝む",
+          "kana": "おがむ",
+          "meaning": "to pray, to worship"
+        },
+        {
+          "kanji": "拝見",
+          "kana": "はいけん",
+          "meaning": "humble seeing (polite)"
+        }
+      ]
+    },
+    {
+      "kanji": "迫",
+      "meanings": [
+        "urge",
+        "press",
+        "approach",
+        "imminent"
+      ],
+      "on_yomi": [
+        "ハク"
+      ],
+      "kun_yomi": [
+        "せま(る)"
+      ],
+      "keyword": "press",
+      "etymology": "Movement (辶) toward a white space (白) — closing in, pressing near.",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "迫力",
+          "kana": "はくりょく",
+          "meaning": "force, impact, power"
+        },
+        {
+          "kanji": "迫る",
+          "kana": "せまる",
+          "meaning": "to press, to approach"
+        }
+      ]
+    },
+    {
+      "kanji": "罰",
+      "meanings": [
+        "penalty",
+        "punishment",
+        "fine"
+      ],
+      "on_yomi": [
+        "バツ",
+        "バチ",
+        "ハツ"
+      ],
+      "kun_yomi": [],
+      "keyword": "penalty",
+      "etymology": "Net (罒) with a knife (刂) — caught in a net and cut, punished.",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "罰則",
+          "kana": "ばっそく",
+          "meaning": "penal regulations"
+        },
+        {
+          "kanji": "罰金",
+          "kana": "ばっきん",
+          "meaning": "fine, penalty fee"
+        }
+      ]
+    },
+    {
+      "kanji": "微",
+      "meanings": [
+        "minute",
+        "delicate",
+        "slight",
+        "subtle"
+      ],
+      "on_yomi": [
+        "ビ"
+      ],
+      "kun_yomi": [
+        "かす(か)"
+      ],
+      "keyword": "subtle",
+      "etymology": "Going (彳) with tiny beating steps — moving in barely perceptible increments.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "微妙",
+          "kana": "びみょう",
+          "meaning": "subtle, delicate"
+        },
+        {
+          "kanji": "微笑",
+          "kana": "びしょう",
+          "meaning": "smile, slight grin"
+        }
+      ]
+    },
+    {
+      "kanji": "扶",
+      "meanings": [
+        "aid",
+        "help",
+        "support"
+      ],
+      "on_yomi": [
+        "フ"
+      ],
+      "kun_yomi": [
+        "たす(ける)"
+      ],
+      "keyword": "aid",
+      "etymology": "Hand (扌) and a man (夫) — one worker helping another.",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "扶養",
+          "kana": "ふよう",
+          "meaning": "support, maintenance of dependents"
+        },
+        {
+          "kanji": "扶助",
+          "kana": "ふじょ",
+          "meaning": "relief, assistance"
+        }
+      ]
+    },
+    {
+      "kanji": "舞",
+      "meanings": [
+        "dance",
+        "flit about",
+        "flutter"
+      ],
+      "on_yomi": [
+        "ブ"
+      ],
+      "kun_yomi": [
+        "ま(う)",
+        "まい"
+      ],
+      "keyword": "dance",
+      "etymology": "Two feet (舛) draped in a flowing cloth — spinning in a dance.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "舞台",
+          "kana": "ぶたい",
+          "meaning": "stage, setting"
+        },
+        {
+          "kanji": "舞う",
+          "kana": "まう",
+          "meaning": "to dance, to flutter"
+        }
+      ]
+    },
+    {
+      "kanji": "幣",
+      "meanings": [
+        "currency",
+        "money",
+        "Shinto offerings"
+      ],
+      "on_yomi": [
+        "ヘイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "currency",
+      "etymology": "Cloth (巾) hanging worn (敝) — strips of cloth used as sacred offerings or money.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "紙幣",
+          "kana": "しへい",
+          "meaning": "paper money, banknote"
+        },
+        {
+          "kanji": "貨幣",
+          "kana": "かへい",
+          "meaning": "currency, coin"
+        }
+      ]
+    },
+    {
+      "kanji": "弁",
+      "meanings": [
+        "valve",
+        "speech",
+        "dialect",
+        "petal",
+        "distinguish"
+      ],
+      "on_yomi": [
+        "ベン"
+      ],
+      "kun_yomi": [],
+      "keyword": "valve",
+      "etymology": "Two bent shapes around a center — something that opens and closes or is distinguished.",
+      "stroke_count": 5,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "弁護士",
+          "kana": "べんごし",
+          "meaning": "lawyer, attorney"
+        },
+        {
+          "kanji": "弁当",
+          "kana": "べんとう",
+          "meaning": "boxed lunch"
+        }
+      ]
+    },
+    {
+      "kanji": "翻",
+      "meanings": [
+        "flip",
+        "turn over",
+        "flutter",
+        "translate"
+      ],
+      "on_yomi": [
+        "ホン"
+      ],
+      "kun_yomi": [
+        "ひるが(える)",
+        "ひるが(えす)"
+      ],
+      "keyword": "flip",
+      "etymology": "Wings (羽) and a rice field (番) — feathers flipping over and reversing direction.",
+      "stroke_count": 18,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "翻訳",
+          "kana": "ほんやく",
+          "meaning": "translation"
+        },
+        {
+          "kanji": "翻る",
+          "kana": "ひるがえる",
+          "meaning": "to flutter, to reverse"
+        }
+      ]
+    },
+    {
+      "kanji": "没",
+      "meanings": [
+        "sink",
+        "go under",
+        "die",
+        "be absorbed in"
+      ],
+      "on_yomi": [
+        "ボツ"
+      ],
+      "kun_yomi": [],
+      "keyword": "submerge",
+      "etymology": "Water (氵) with something sinking (殳) — going under the surface.",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "没収",
+          "kana": "ぼっしゅう",
+          "meaning": "confiscation"
+        },
+        {
+          "kanji": "没頭",
+          "kana": "ぼっとう",
+          "meaning": "absorption, being engrossed"
+        }
+      ]
+    },
+    {
+      "kanji": "摩",
+      "meanings": [
+        "rub",
+        "chafe",
+        "grind",
+        "polish"
+      ],
+      "on_yomi": [
+        "マ"
+      ],
+      "kun_yomi": [],
+      "keyword": "rub",
+      "etymology": "Hemp (麻) rubbed against a hand (手) — friction applied to smooth and polish.",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "摩擦",
+          "kana": "まさつ",
+          "meaning": "friction, rubbing"
+        },
+        {
+          "kanji": "摩耗",
+          "kana": "まもう",
+          "meaning": "wear and tear, abrasion"
+        }
+      ]
+    },
+    {
+      "kanji": "慢",
+      "meanings": [
+        "boastful",
+        "arrogant",
+        "lazy",
+        "self-indulgent"
+      ],
+      "on_yomi": [
+        "マン"
+      ],
+      "kun_yomi": [],
+      "keyword": "arrogant",
+      "etymology": "Heart (心) stretched (曼) — the heart spreading beyond its proper bounds.",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "自慢",
+          "kana": "じまん",
+          "meaning": "pride, boast"
+        },
+        {
+          "kanji": "怠慢",
+          "kana": "たいまん",
+          "meaning": "laziness, negligence"
+        }
+      ]
+    },
+    {
+      "kanji": "密",
+      "meanings": [
+        "dense",
+        "close",
+        "secret",
+        "minute"
+      ],
+      "on_yomi": [
+        "ミツ"
+      ],
+      "kun_yomi": [
+        "ひそ(か)"
+      ],
+      "keyword": "dense",
+      "etymology": "Roof (宀) over mountains (山) and silk — sealed tightly inside, hidden away.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "秘密",
+          "kana": "ひみつ",
+          "meaning": "secret"
+        },
+        {
+          "kanji": "密度",
+          "kana": "みつど",
+          "meaning": "density"
+        }
+      ]
+    },
+    {
+      "kanji": "盟",
+      "meanings": [
+        "alliance",
+        "oath",
+        "pledge",
+        "pact"
+      ],
+      "on_yomi": [
+        "メイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "alliance",
+      "etymology": "Blood (皿) under the moon (明) — swearing a blood oath by moonlight.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "同盟",
+          "kana": "どうめい",
+          "meaning": "alliance, league"
+        },
+        {
+          "kanji": "連盟",
+          "kana": "れんめい",
+          "meaning": "federation, league"
+        }
+      ]
+    },
+    {
+      "kanji": "滅",
+      "meanings": [
+        "destroy",
+        "ruin",
+        "perish",
+        "extinguish"
+      ],
+      "on_yomi": [
+        "メツ"
+      ],
+      "kun_yomi": [
+        "ほろ(びる)",
+        "ほろ(ぼす)"
+      ],
+      "keyword": "perish",
+      "etymology": "Water (氵) extinguishing every weapon (戌) — a flood that wipes out everything.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "絶滅",
+          "kana": "ぜつめつ",
+          "meaning": "extinction"
+        },
+        {
+          "kanji": "滅亡",
+          "kana": "めつぼう",
+          "meaning": "ruin, downfall"
+        }
+      ]
+    },
+    {
+      "kanji": "猛",
+      "meanings": [
+        "fierce",
+        "ferocious",
+        "intense",
+        "furious"
+      ],
+      "on_yomi": [
+        "モウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "fierce",
+      "etymology": "Dog (犭) and a chief (孟) — a wild animal as fierce as a clan chief.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "猛烈",
+          "kana": "もうれつ",
+          "meaning": "fierce, intense"
+        },
+        {
+          "kanji": "猛獣",
+          "kana": "もうじゅう",
+          "meaning": "fierce beast"
+        }
+      ]
+    },
+    {
+      "kanji": "矛",
+      "meanings": [
+        "halberd",
+        "spear",
+        "pike"
+      ],
+      "on_yomi": [
+        "ム",
+        "ボウ"
+      ],
+      "kun_yomi": [
+        "ほこ"
+      ],
+      "keyword": "halberd",
+      "etymology": "The pictograph of a spear with a crossbar — an ancient bladed polearm.",
+      "stroke_count": 5,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "矛盾",
+          "kana": "むじゅん",
+          "meaning": "contradiction, inconsistency"
+        },
+        {
+          "kanji": "矛先",
+          "kana": "ほこさき",
+          "meaning": "spearhead, focus of attack"
+        }
+      ]
+    },
+    {
+      "kanji": "紋",
+      "meanings": [
+        "crest",
+        "family crest",
+        "pattern",
+        "figure"
+      ],
+      "on_yomi": [
+        "モン"
+      ],
+      "kun_yomi": [],
+      "keyword": "crest",
+      "etymology": "Thread (糸) forming a mark (文) — decorative thread woven into a pattern.",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "家紋",
+          "kana": "かもん",
+          "meaning": "family crest"
+        },
+        {
+          "kanji": "紋様",
+          "kana": "もんよう",
+          "meaning": "pattern, design"
+        }
+      ]
+    },
+    {
+      "kanji": "躍",
+      "meanings": [
+        "leap",
+        "jump",
+        "spring",
+        "skip"
+      ],
+      "on_yomi": [
+        "ヤク"
+      ],
+      "kun_yomi": [
+        "おど(る)"
+      ],
+      "keyword": "leap",
+      "etymology": "Foot (足) lifting off like a bird — springing upward with energy.",
+      "stroke_count": 21,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "飛躍",
+          "kana": "ひやく",
+          "meaning": "leap, great progress"
+        },
+        {
+          "kanji": "活躍",
+          "kana": "かつやく",
+          "meaning": "playing an active role"
+        }
+      ]
+    },
+    {
+      "kanji": "誘",
+      "meanings": [
+        "tempt",
+        "invite",
+        "lure",
+        "entice"
+      ],
+      "on_yomi": [
+        "ユウ"
+      ],
+      "kun_yomi": [
+        "さそ(う)"
+      ],
+      "keyword": "entice",
+      "etymology": "Words (言) that beckon — luring with persuasive speech.",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "誘惑",
+          "kana": "ゆうわく",
+          "meaning": "temptation, lure"
+        },
+        {
+          "kanji": "誘う",
+          "kana": "さそう",
+          "meaning": "to invite, to entice"
+        }
+      ]
+    },
+    {
+      "kanji": "裕",
+      "meanings": [
+        "abundant",
+        "ample",
+        "easy",
+        "wealthy"
+      ],
+      "on_yomi": [
+        "ユウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "abundant",
+      "etymology": "Clothing (衤) with a valley (谷) of room — robes with plenty of space, richness.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "余裕",
+          "kana": "よゆう",
+          "meaning": "surplus, composure, leeway"
+        },
+        {
+          "kanji": "富裕",
+          "kana": "ふゆう",
+          "meaning": "affluence, wealth"
+        }
+      ]
+    },
+    {
+      "kanji": "揺",
+      "meanings": [
+        "shake",
+        "sway",
+        "rock",
+        "swing"
+      ],
+      "on_yomi": [
+        "ヨウ"
+      ],
+      "kun_yomi": [
+        "ゆ(れる)",
+        "ゆ(る)",
+        "ゆ(らぐ)"
+      ],
+      "keyword": "sway",
+      "etymology": "Hand (扌) rocking something — swinging side to side.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "揺れる",
+          "kana": "ゆれる",
+          "meaning": "to shake, to sway"
+        },
+        {
+          "kanji": "動揺",
+          "kana": "どうよう",
+          "meaning": "agitation, disturbance"
+        }
+      ]
+    },
+    {
+      "kanji": "欲",
+      "meanings": [
+        "desire",
+        "greed",
+        "want",
+        "longing"
+      ],
+      "on_yomi": [
+        "ヨク"
+      ],
+      "kun_yomi": [
+        "ほ(しい)",
+        "ほっ(する)"
+      ],
+      "keyword": "desire",
+      "etymology": "A valley (谷) and a yawning mouth (欠) — an open craving, always hungry.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "欲望",
+          "kana": "よくぼう",
+          "meaning": "desire, craving"
+        },
+        {
+          "kanji": "食欲",
+          "kana": "しょくよく",
+          "meaning": "appetite"
+        }
+      ]
+    },
+    {
+      "kanji": "翼",
+      "meanings": [
+        "wing",
+        "flank",
+        "assist"
+      ],
+      "on_yomi": [
+        "ヨク"
+      ],
+      "kun_yomi": [
+        "つばさ"
+      ],
+      "keyword": "wing",
+      "etymology": "Feathers (羽) atop a figure — the broad spread of a bird's wing.",
+      "stroke_count": 17,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "翼",
+          "kana": "つばさ",
+          "meaning": "wing"
+        },
+        {
+          "kanji": "右翼",
+          "kana": "うよく",
+          "meaning": "right wing"
+        }
+      ]
+    },
+    {
+      "kanji": "了",
+      "meanings": [
+        "finish",
+        "complete",
+        "understand",
+        "realize"
+      ],
+      "on_yomi": [
+        "リョウ"
+      ],
+      "kun_yomi": [],
+      "keyword": "complete",
+      "etymology": "A bent arm — coming to the end, the arm folding done.",
+      "stroke_count": 2,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "了解",
+          "kana": "りょうかい",
+          "meaning": "understanding, roger"
+        },
+        {
+          "kanji": "完了",
+          "kana": "かんりょう",
+          "meaning": "completion, conclusion"
+        }
+      ]
+    },
+    {
+      "kanji": "倫",
+      "meanings": [
+        "ethics",
+        "morals",
+        "order",
+        "companions"
+      ],
+      "on_yomi": [
+        "リン"
+      ],
+      "kun_yomi": [],
+      "keyword": "ethics",
+      "etymology": "Person (亻) and order (侖) — the proper ordering of people in society.",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "倫理",
+          "kana": "りんり",
+          "meaning": "ethics, morals"
+        },
+        {
+          "kanji": "人倫",
+          "kana": "じんりん",
+          "meaning": "human relations, morality"
+        }
+      ]
+    },
+    {
+      "kanji": "累",
+      "meanings": [
+        "accumulate",
+        "involved in",
+        "repeated",
+        "trouble"
+      ],
+      "on_yomi": [
+        "ルイ"
+      ],
+      "kun_yomi": [],
+      "keyword": "accumulate",
+      "etymology": "Thread (糸) piled — strands winding and building up over time.",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "累積",
+          "kana": "るいせき",
+          "meaning": "accumulation, cumulative"
+        },
+        {
+          "kanji": "累計",
+          "kana": "るいけい",
+          "meaning": "cumulative total"
+        }
+      ]
+    },
+    {
+      "kanji": "励",
+      "meanings": [
+        "encourage",
+        "strive",
+        "make efforts"
+      ],
+      "on_yomi": [
+        "レイ"
+      ],
+      "kun_yomi": [
+        "はげ(む)",
+        "はげ(ます)"
+      ],
+      "keyword": "encourage",
+      "etymology": "Strength (力) coming from a sharp edge — applying sharp force to spur effort.",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "励ます",
+          "kana": "はげます",
+          "meaning": "to encourage, to cheer up"
+        },
+        {
+          "kanji": "奨励",
+          "kana": "しょうれい",
+          "meaning": "encouragement, promotion"
+        }
+      ]
+    },
+    {
+      "kanji": "裂",
+      "meanings": [
+        "tear",
+        "split",
+        "rend",
+        "crack"
+      ],
+      "on_yomi": [
+        "レツ"
+      ],
+      "kun_yomi": [
+        "さ(く)",
+        "さ(ける)"
+      ],
+      "keyword": "tear",
+      "etymology": "Clothing (衤) being cut by a cleaver (列) — fabric ripped cleanly apart.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "分裂",
+          "kana": "ぶんれつ",
+          "meaning": "division, split"
+        },
+        {
+          "kanji": "決裂",
+          "kana": "けつれつ",
+          "meaning": "breakdown, rupture"
+        }
+      ]
+    },
+    {
+      "kanji": "廉",
+      "meanings": [
+        "cheap",
+        "inexpensive",
+        "honest",
+        "frugal"
+      ],
+      "on_yomi": [
+        "レン"
+      ],
+      "kun_yomi": [
+        "かど"
+      ],
+      "keyword": "frugal",
+      "etymology": "Shelter (广) with a sharp edge (兼) — keeping under the roof, cutting costs.",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "廉価",
+          "kana": "れんか",
+          "meaning": "low price, bargain"
+        },
+        {
+          "kanji": "清廉",
+          "kana": "せいれん",
+          "meaning": "integrity, probity"
+        }
+      ]
+    },
+    {
+      "kanji": "炉",
+      "meanings": [
+        "hearth",
+        "furnace",
+        "stove"
+      ],
+      "on_yomi": [
+        "ロ"
+      ],
+      "kun_yomi": [],
+      "keyword": "furnace",
+      "etymology": "Fire (火) inside a container — a firebox for warmth or smelting.",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "原子炉",
+          "kana": "げんしろ",
+          "meaning": "nuclear reactor"
+        },
+        {
+          "kanji": "暖炉",
+          "kana": "だんろ",
+          "meaning": "fireplace"
+        }
+      ]
+    },
+    {
+      "kanji": "漏",
+      "meanings": [
+        "leak",
+        "drip",
+        "reveal",
+        "omit"
+      ],
+      "on_yomi": [
+        "ロウ"
+      ],
+      "kun_yomi": [
+        "も(る)",
+        "も(れる)",
+        "も(らす)"
+      ],
+      "keyword": "leak",
+      "etymology": "Water (氵) dripping from a vessel — liquid seeping through a gap.",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "漏れる",
+          "kana": "もれる",
+          "meaning": "to leak out"
+        },
+        {
+          "kanji": "漏洩",
+          "kana": "ろうえい",
+          "meaning": "leakage, disclosure"
+        }
+      ]
+    },
+    {
+      "kanji": "惑",
+      "meanings": [
+        "beguile",
+        "mislead",
+        "be perplexed",
+        "doubt"
+      ],
+      "on_yomi": [
+        "ワク"
+      ],
+      "kun_yomi": [
+        "まど(う)"
+      ],
+      "keyword": "perplex",
+      "etymology": "Heart (心) lost inside its own domain (或) — the heart confused in its own territory.",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "迷惑",
+          "kana": "めいわく",
+          "meaning": "trouble, annoyance"
+        },
+        {
+          "kanji": "惑星",
+          "kana": "わくせい",
+          "meaning": "planet"
+        }
+      ]
+    },
+    {
+      "kanji": "枠",
+      "meanings": [
+        "frame",
+        "limit",
+        "box",
+        "slot"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [
+        "わく"
+      ],
+      "keyword": "frame",
+      "etymology": "Wood (木) bent into a boundary — a wooden framework or limit.",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 0,
+      "examples": [
+        {
+          "kanji": "枠組み",
+          "kana": "わくぐみ",
+          "meaning": "framework, structure"
+        },
+        {
+          "kanji": "枠内",
+          "kana": "わくない",
+          "meaning": "within the frame, within limits"
+        }
       ]
     }
   ]
