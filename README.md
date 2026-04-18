@@ -2,7 +2,9 @@
 
 A minimalist kanji + vocabulary study app with spaced repetition. Lives at:
 
-**https://kanji-app-brown-three.vercel.app**
+**https://kanji-f2wqf3z2e-cacoleman16s-projects.vercel.app**
+
+(Alias: https://kanji-app-brown-three.vercel.app — use the above URL if the alias hasn't updated yet)
 
 On iPhone: open that URL in Safari → Share → **Add to Home Screen** → launches full-screen with splash screen, service worker offline cache, and no white flash.
 
