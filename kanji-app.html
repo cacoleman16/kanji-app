@@ -37,6 +37,31 @@
     --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
+  :root[data-theme="light"] {
+    --bg: #f8f8f5;
+    --surface: #ffffff;
+    --surface-2: #f0f0ec;
+    --surface-3: #e4e4df;
+    --border: #d4d4ce;
+    --text: #18181b;
+    --text-muted: #52525b;
+    --text-dim: #71717a;
+    --accent: #c08a10;
+    --accent-soft: rgba(192, 138, 16, 0.10);
+    --good: #16a34a;
+    --good-soft: rgba(22, 163, 74, 0.10);
+    --again: #dc2626;
+    --again-soft: rgba(220, 38, 38, 0.10);
+    --hard: #c08a10;
+    --easy: #2563eb;
+    --font-jp: 'Noto Sans JP', 'Hiragino Sans', 'Yu Gothic', 'Meiryo', sans-serif;
+    --font-ui: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  :root[data-theme="light"] .face {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.10), 0 1px 4px rgba(0,0,0,0.06);
+  }
+
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
 
   html, body {
@@ -3597,7 +3622,7 @@ const DEFAULT_STATE = {
   schemaVersion: SCHEMA_VERSION,
   progress: {},            // { kanji: { ease, interval, reps, due, lastReview } }
   stats:    { byDay: {} }, // { "YYYY-MM-DD": { reviewed, again, hard, good, easy } }
-  settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium" },
+  settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium", theme: "dark" },
   streak:   { current: 0, longest: 0, lastActiveDay: null },
 };
 
@@ -3738,6 +3763,11 @@ function App() {
     default:
       screen = <Home state={state} onOpenDeck={(deckId) => go({name:"deck", deckId})} onOpenGroup={(groupId) => go({name:"group", groupId})} onNav={go} />;
   }
+  const theme = state.settings.theme || "dark";
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
+
   return (
     <div className="shell">
       {showExportBanner && (
@@ -4583,6 +4613,17 @@ function Settings({ state, setState, onBack }) {
           <option value="medium">Medium</option>
           <option value="large">Large</option>
         </select>
+      </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label">Theme</div>
+          <div className="settings-sub">Switch between dark and light mode</div>
+        </div>
+        <div style={{display:"flex", gap:6}}>
+          <button onClick={() => update("theme","dark")} style={{padding:"8px 12px", borderRadius:"8px", border: (state.settings.theme||"dark")==="dark" ? "2px solid var(--accent)" : "1px solid var(--border)", background: (state.settings.theme||"dark")==="dark" ? "var(--surface-2)" : "transparent", color:"var(--text)", cursor:"pointer", fontSize:"13px", fontWeight: (state.settings.theme||"dark")==="dark" ? "600" : "400"}}>Dark</button>
+          <button onClick={() => update("theme","light")} style={{padding:"8px 12px", borderRadius:"8px", border: (state.settings.theme||"dark")==="light" ? "2px solid var(--accent)" : "1px solid var(--border)", background: (state.settings.theme||"dark")==="light" ? "var(--surface-2)" : "transparent", color:"var(--text)", cursor:"pointer", fontSize:"13px", fontWeight: (state.settings.theme||"dark")==="light" ? "600" : "400"}}>Light</button>
+        </div>
       </div>
 
       <div className="settings-row">
