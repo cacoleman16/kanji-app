@@ -27,13 +27,6 @@ jobs:
       - name: Build production files
         run: python3 pipeline/build.py
 
-      - name: Commit built files if changed
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
-          git add index.html sw.js manifest.json icons/ splash/
-          git commit -m "Auto-rebuild production files" || echo "No changes to commit"
-
       - name: Deploy to Vercel
         run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
         env:
