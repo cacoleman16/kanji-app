@@ -78,6 +78,16 @@ print(f"\nLoaded {len(vocab_decks)} vocabulary deck(s):")
 for d in vocab_decks:
     print(f"  {d['deck_name']}: {d['card_count']} cards")
 
+# ── 2c. Load curated kanji decks (agent-files/kanji_*.json) ───────────────────
+# These are extra kanji decks (e.g. frequency-ranked, themed) that live outside
+# the integrated_chXX naming. They use the standard kanji card schema directly,
+# so no normalization is needed.
+kanji_files = sorted([f for f in os.listdir(AGENTS) if f.startswith("kanji_") and f.endswith(".json")])
+extra_kanji_decks = [load(os.path.join(AGENTS, f)) for f in kanji_files]
+print(f"\nLoaded {len(extra_kanji_decks)} extra kanji deck(s):")
+for d in extra_kanji_decks:
+    print(f"  {d['deck_name']}: {d['card_count']} cards")
+
 # ── 3. Build the JS DECKS array ───────────────────────────────────────────────
 def cards_js(deck):
     """Return compact JS representation of cards array."""
@@ -112,6 +122,9 @@ decks_js += '  { id: "quartet2", name: "Quartet 2", subtitle: "coming soon", kin
 decks_js += deck_entry("n3", n3) + ",\n"
 decks_js += deck_entry("n2", n2) + ",\n"
 decks_js += deck_entry("n1", n1) + ",\n"
+# Extra curated kanji decks (frequency-ranked, themed, etc.)
+for kd in extra_kanji_decks:
+    decks_js += deck_entry(kd["deck_id"], kd) + ",\n"
 # Vocabulary decks
 for vd in vocab_decks:
     decks_js += deck_entry(vd["deck_id"], vd, kind="vocab", unit="words") + ",\n"
@@ -160,6 +173,7 @@ print(f"  Size: {len(new_html):,} bytes")
 total = n5['card_count'] + n4['card_count'] + n3['card_count'] + n2['card_count'] + n1['card_count'] + g1['card_count'] + g2['card_count']
 total += sum(d['card_count'] for d in integrated_decks)
 total += sum(d['card_count'] for d in vocab_decks)
+total += sum(d['card_count'] for d in extra_kanji_decks)
 print(f"\n  JLPT N5:   {n5['card_count']} cards")
 print(f"  JLPT N4:   {n4['card_count']} cards")
 print(f"  JLPT N3:   {n3['card_count']} cards")
@@ -168,6 +182,8 @@ print(f"  JLPT N1:   {n1['card_count']} cards")
 print(f"  Genki 1:   {g1['card_count']} cards")
 print(f"  Genki 2:   {g2['card_count']} cards")
 for d in integrated_decks:
+    print(f"  {d['deck_name']}: {d['card_count']} cards")
+for d in extra_kanji_decks:
     print(f"  {d['deck_name']}: {d['card_count']} cards")
 for d in vocab_decks:
     print(f"  {d['deck_name']}: {d['card_count']} cards")

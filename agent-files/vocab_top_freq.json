@@ -1,0 +1,1878 @@
+{
+  "deck_id": "vocab-top-freq",
+  "deck_name": "Top Frequency Vocab (filtered)",
+  "version": "1.0",
+  "source": "Hand-curated from BCCWJ-style modern Japanese frequency, filtered for English-speaker pitfalls.",
+  "learner_level": "N3",
+  "notes": "High-frequency vocab curated for an N3-level English-speaking learner. Coverage emphasizes items that English speakers commonly trip up on even at this level: transitive/intransitive verb pairs, false-friend katakana, multi-reading items, conditionals, counters with reading shifts, particle/register pitfalls. Truly trivial N5 entries (numerals, basic family words, 行く/来る etc.) are intentionally omitted. Each card carries a frequency_rank (loose; reflects suggested study order, not a strict corpus rank). The deck can be grown via the japanese-coauthor skill — ask 'add more N3 vocab in the X category' to extend incrementally.",
+  "card_count": 129,
+  "cards": [
+    {
+      "word": "入る",
+      "reading": "はいる",
+      "meanings": [
+        "to enter",
+        "to go in"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Intransitive: 'something/someone enters'. Pairs with 入れる (transitive: 'put in'). 入る (はいる) is intransitive — but the kanji 入 also reads いる/いれる in compounds.",
+      "example_sentence": "部屋に入る。",
+      "example_reading": "へや に はいる。",
+      "example_meaning": "I enter the room.",
+      "frequency_rank": 1
+    },
+    {
+      "word": "入れる",
+      "reading": "いれる",
+      "meanings": [
+        "to put in",
+        "to insert"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Transitive: 'put X in'. Pair of 入る. Note the reading shift: 入る=はいる, 入れる=いれる.",
+      "example_sentence": "コーヒーに砂糖を入れる。",
+      "example_reading": "コーヒー に さとう を いれる。",
+      "example_meaning": "I put sugar in the coffee.",
+      "frequency_rank": 2
+    },
+    {
+      "word": "出る",
+      "reading": "でる",
+      "meanings": [
+        "to leave",
+        "to come out",
+        "to attend"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Intransitive: 'something/someone exits, comes out, attends'. Pairs with 出す.",
+      "example_sentence": "家を出る。",
+      "example_reading": "いえ を でる。",
+      "example_meaning": "I leave the house. (note: を marks the place left)",
+      "frequency_rank": 3
+    },
+    {
+      "word": "出す",
+      "reading": "だす",
+      "meanings": [
+        "to take out",
+        "to submit",
+        "to send"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Transitive: 'take out, send out, submit'. Pair of 出る. Also a productive suffix: 動き出す 'start moving'.",
+      "example_sentence": "宿題を出す。",
+      "example_reading": "しゅくだい を だす。",
+      "example_meaning": "I turn in the homework.",
+      "frequency_rank": 4
+    },
+    {
+      "word": "開く",
+      "reading": "あく",
+      "meanings": [
+        "to open (intrans.)"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Intransitive: 'opens (by itself)'. Pairs with 開ける. ALSO read ひらく with overlapping meaning — confusing.",
+      "example_sentence": "ドアが開く。",
+      "example_reading": "ドア が あく。",
+      "example_meaning": "The door opens.",
+      "frequency_rank": 5
+    },
+    {
+      "word": "開ける",
+      "reading": "あける",
+      "meanings": [
+        "to open (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Transitive: 'open something'. Pair of 開く (あく).",
+      "example_sentence": "窓を開ける。",
+      "example_reading": "まど を あける。",
+      "example_meaning": "I open the window.",
+      "frequency_rank": 6
+    },
+    {
+      "word": "閉まる",
+      "reading": "しまる",
+      "meanings": [
+        "to close (intrans.)"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Intransitive: 'closes (by itself)'. Pairs with 閉める.",
+      "example_sentence": "店が閉まる。",
+      "example_reading": "みせ が しまる。",
+      "example_meaning": "The shop closes.",
+      "frequency_rank": 7
+    },
+    {
+      "word": "閉める",
+      "reading": "しめる",
+      "meanings": [
+        "to close (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Transitive: 'close something'. Pair of 閉まる.",
+      "example_sentence": "ドアを閉める。",
+      "example_reading": "ドア を しめる。",
+      "example_meaning": "I close the door.",
+      "frequency_rank": 8
+    },
+    {
+      "word": "始まる",
+      "reading": "はじまる",
+      "meanings": [
+        "to begin (intrans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'begins'. Pairs with 始める. Used for events, classes, movies.",
+      "example_sentence": "授業が始まる。",
+      "example_reading": "じゅぎょう が はじまる。",
+      "example_meaning": "Class begins.",
+      "frequency_rank": 9
+    },
+    {
+      "word": "始める",
+      "reading": "はじめる",
+      "meanings": [
+        "to begin (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'begin something'. Also a suffix: 〜始める 'start to ~'.",
+      "example_sentence": "宿題を始める。",
+      "example_reading": "しゅくだい を はじめる。",
+      "example_meaning": "I start the homework.",
+      "frequency_rank": 10
+    },
+    {
+      "word": "終わる",
+      "reading": "おわる",
+      "meanings": [
+        "to end (intrans.)"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Intransitive: 'ends'. Pairs with 終える / 終わらせる.",
+      "example_sentence": "映画が終わる。",
+      "example_reading": "えいが が おわる。",
+      "example_meaning": "The movie ends.",
+      "frequency_rank": 11
+    },
+    {
+      "word": "落ちる",
+      "reading": "おちる",
+      "meanings": [
+        "to fall",
+        "to drop",
+        "to fail"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'falls, drops, fails (a test)'. Pairs with 落とす. 試験に落ちる = fail an exam.",
+      "example_sentence": "コップが落ちた。",
+      "example_reading": "コップ が おちた。",
+      "example_meaning": "The cup fell.",
+      "frequency_rank": 12
+    },
+    {
+      "word": "落とす",
+      "reading": "おとす",
+      "meanings": [
+        "to drop",
+        "to lose"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'drop something, lose something'. 財布を落とす = lose your wallet.",
+      "example_sentence": "鍵を落とした。",
+      "example_reading": "かぎ を おとした。",
+      "example_meaning": "I dropped my keys.",
+      "frequency_rank": 13
+    },
+    {
+      "word": "上がる",
+      "reading": "あがる",
+      "meanings": [
+        "to rise",
+        "to go up"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'rises, goes up'. Pairs with 上げる. Also 'enter (a Japanese house)'.",
+      "example_sentence": "値段が上がる。",
+      "example_reading": "ねだん が あがる。",
+      "example_meaning": "Prices rise.",
+      "frequency_rank": 14
+    },
+    {
+      "word": "上げる",
+      "reading": "あげる",
+      "meanings": [
+        "to raise",
+        "to give"
+      ],
+      "jlpt": "N5",
+      "category": "verb_pair",
+      "context": "Transitive: 'raise, give (to equal/superior)'. Pair of 上がる. Also an auxiliary in giving verbs.",
+      "example_sentence": "手を上げる。",
+      "example_reading": "て を あげる。",
+      "example_meaning": "I raise my hand.",
+      "frequency_rank": 15
+    },
+    {
+      "word": "下がる",
+      "reading": "さがる",
+      "meanings": [
+        "to fall",
+        "to go down"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'goes down, hangs down'. Pairs with 下げる.",
+      "example_sentence": "気温が下がる。",
+      "example_reading": "きおん が さがる。",
+      "example_meaning": "The temperature drops.",
+      "frequency_rank": 16
+    },
+    {
+      "word": "下げる",
+      "reading": "さげる",
+      "meanings": [
+        "to lower"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'lower, take down'. Pair of 下がる.",
+      "example_sentence": "音量を下げる。",
+      "example_reading": "おんりょう を さげる。",
+      "example_meaning": "I lower the volume.",
+      "frequency_rank": 17
+    },
+    {
+      "word": "止まる",
+      "reading": "とまる",
+      "meanings": [
+        "to stop (intrans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'stops'. Pairs with 止める.",
+      "example_sentence": "電車が止まる。",
+      "example_reading": "でんしゃ が とまる。",
+      "example_meaning": "The train stops.",
+      "frequency_rank": 18
+    },
+    {
+      "word": "止める",
+      "reading": "とめる",
+      "meanings": [
+        "to stop (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'stop something'. Also written 留める, 泊める (different meanings — kanji choice matters).",
+      "example_sentence": "車を止める。",
+      "example_reading": "くるま を とめる。",
+      "example_meaning": "I stop the car.",
+      "frequency_rank": 19
+    },
+    {
+      "word": "決まる",
+      "reading": "きまる",
+      "meanings": [
+        "to be decided"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'is decided'. Pairs with 決める. もう決まった = it's already decided.",
+      "example_sentence": "予定が決まった。",
+      "example_reading": "よてい が きまった。",
+      "example_meaning": "The plan was decided.",
+      "frequency_rank": 20
+    },
+    {
+      "word": "決める",
+      "reading": "きめる",
+      "meanings": [
+        "to decide"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'decide'. Pair of 決まる.",
+      "example_sentence": "行く日を決める。",
+      "example_reading": "いく ひ を きめる。",
+      "example_meaning": "I decide the day to go.",
+      "frequency_rank": 21
+    },
+    {
+      "word": "集まる",
+      "reading": "あつまる",
+      "meanings": [
+        "to gather (intrans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'gather (by themselves)'. Pairs with 集める.",
+      "example_sentence": "人が集まる。",
+      "example_reading": "ひと が あつまる。",
+      "example_meaning": "People gather.",
+      "frequency_rank": 22
+    },
+    {
+      "word": "集める",
+      "reading": "あつめる",
+      "meanings": [
+        "to collect"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'collect, gather'. Pair of 集まる. 切手を集める = collect stamps.",
+      "example_sentence": "情報を集める。",
+      "example_reading": "じょうほう を あつめる。",
+      "example_meaning": "I collect information.",
+      "frequency_rank": 23
+    },
+    {
+      "word": "変わる",
+      "reading": "かわる",
+      "meanings": [
+        "to change (intrans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'change'. Pairs with 変える. 変な (へんな) is unrelated — 'strange'.",
+      "example_sentence": "天気が変わる。",
+      "example_reading": "てんき が かわる。",
+      "example_meaning": "The weather changes.",
+      "frequency_rank": 24
+    },
+    {
+      "word": "変える",
+      "reading": "かえる",
+      "meanings": [
+        "to change (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'change something'. Homophones to watch: 帰る (return), 買える (can buy), 替える (replace).",
+      "example_sentence": "予定を変える。",
+      "example_reading": "よてい を かえる。",
+      "example_meaning": "I change the schedule.",
+      "frequency_rank": 25
+    },
+    {
+      "word": "続く",
+      "reading": "つづく",
+      "meanings": [
+        "to continue (intrans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Intransitive: 'continues'. Pairs with 続ける. Also an auxiliary: 〜と続く 'continue ~ing'.",
+      "example_sentence": "雨が続く。",
+      "example_reading": "あめ が つづく。",
+      "example_meaning": "The rain continues.",
+      "frequency_rank": 26
+    },
+    {
+      "word": "続ける",
+      "reading": "つづける",
+      "meanings": [
+        "to continue (trans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Transitive: 'continue something'. Suffix: 〜続ける 'keep ~ing'.",
+      "example_sentence": "勉強を続ける。",
+      "example_reading": "べんきょう を つづける。",
+      "example_meaning": "I continue studying.",
+      "frequency_rank": 27
+    },
+    {
+      "word": "残る",
+      "reading": "のこる",
+      "meanings": [
+        "to remain"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Intransitive: 'remains, is left over'. Pairs with 残す.",
+      "example_sentence": "食べ物が残った。",
+      "example_reading": "たべもの が のこった。",
+      "example_meaning": "Food was left over.",
+      "frequency_rank": 28
+    },
+    {
+      "word": "残す",
+      "reading": "のこす",
+      "meanings": [
+        "to leave behind"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Transitive: 'leave behind, save'. Pair of 残る.",
+      "example_sentence": "メモを残す。",
+      "example_reading": "メモ を のこす。",
+      "example_meaning": "I leave a note.",
+      "frequency_rank": 29
+    },
+    {
+      "word": "戻る",
+      "reading": "もどる",
+      "meanings": [
+        "to go back",
+        "to return"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Intransitive: 'return, go back (to a place)'. Distinct from 帰る (go home). Pair: 戻す.",
+      "example_sentence": "席に戻る。",
+      "example_reading": "せき に もどる。",
+      "example_meaning": "I return to my seat.",
+      "frequency_rank": 30
+    },
+    {
+      "word": "戻す",
+      "reading": "もどす",
+      "meanings": [
+        "to put back",
+        "to return (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "verb_pair",
+      "context": "Transitive: 'put back, return something'. Pair of 戻る.",
+      "example_sentence": "本を棚に戻す。",
+      "example_reading": "ほん を たな に もどす。",
+      "example_meaning": "I put the book back on the shelf.",
+      "frequency_rank": 31
+    },
+    {
+      "word": "増える",
+      "reading": "ふえる",
+      "meanings": [
+        "to increase (intrans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Intransitive: 'increases'. Pairs with 増やす.",
+      "example_sentence": "人口が増える。",
+      "example_reading": "じんこう が ふえる。",
+      "example_meaning": "The population increases.",
+      "frequency_rank": 32
+    },
+    {
+      "word": "増やす",
+      "reading": "ふやす",
+      "meanings": [
+        "to increase (trans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Transitive: 'increase something'. Pair of 増える.",
+      "example_sentence": "貯金を増やす。",
+      "example_reading": "ちょきん を ふやす。",
+      "example_meaning": "I grow my savings.",
+      "frequency_rank": 33
+    },
+    {
+      "word": "減る",
+      "reading": "へる",
+      "meanings": [
+        "to decrease (intrans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Intransitive: 'decreases'. Pairs with 減らす.",
+      "example_sentence": "体重が減った。",
+      "example_reading": "たいじゅう が へった。",
+      "example_meaning": "My weight dropped.",
+      "frequency_rank": 34
+    },
+    {
+      "word": "減らす",
+      "reading": "へらす",
+      "meanings": [
+        "to decrease (trans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Transitive: 'decrease something'. Pair of 減る.",
+      "example_sentence": "支出を減らす。",
+      "example_reading": "ししゅつ を へらす。",
+      "example_meaning": "I cut expenses.",
+      "frequency_rank": 35
+    },
+    {
+      "word": "マンション",
+      "reading": "マンション",
+      "meanings": [
+        "apartment",
+        "condo (mid-rise residential)"
+      ],
+      "jlpt": "N4",
+      "category": "false_friend_katakana",
+      "context": "False friend: 'apartment / condo', NOT 'mansion'. A 'mansion' in English is 大邸宅 (だいていたく) or 豪邸 (ごうてい).",
+      "example_sentence": "新しいマンションに引っ越した。",
+      "example_reading": "あたらしい マンション に ひっこした。",
+      "example_meaning": "I moved to a new apartment.",
+      "frequency_rank": 40
+    },
+    {
+      "word": "アパート",
+      "reading": "アパート",
+      "meanings": [
+        "apartment (typically small",
+        "low-rise)"
+      ],
+      "jlpt": "N5",
+      "category": "false_friend_katakana",
+      "context": "Cheaper / smaller / older apartment than マンション. The English-Japanese mapping is reversed from intuition: アパート < マンション.",
+      "example_sentence": "古いアパートに住んでいる。",
+      "example_reading": "ふるい アパート に すんで いる。",
+      "example_meaning": "I live in an old apartment.",
+      "frequency_rank": 41
+    },
+    {
+      "word": "テンション",
+      "reading": "テンション",
+      "meanings": [
+        "mood",
+        "energy level"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "False friend: 'mood / energy level', NOT 'tension/stress'. テンションが高い = energetic/excited. For 'tension/stress', use ストレス or 緊張 (きんちょう).",
+      "example_sentence": "今日はテンションが高い。",
+      "example_reading": "きょう は テンション が たかい。",
+      "example_meaning": "I'm in high spirits today.",
+      "frequency_rank": 42
+    },
+    {
+      "word": "スマート",
+      "reading": "スマート",
+      "meanings": [
+        "slim",
+        "slender"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "False friend: 'slim, slender' (about body), NOT 'intelligent'. For 'smart', use 賢い (かしこい) or 頭がいい.",
+      "example_sentence": "彼はスマートな体型だ。",
+      "example_reading": "かれ は スマート な たいけい だ。",
+      "example_meaning": "He has a slim build.",
+      "frequency_rank": 43
+    },
+    {
+      "word": "ナイーブ",
+      "reading": "ナイーブ",
+      "meanings": [
+        "sensitive",
+        "delicate"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "False friend: 'sensitive, delicate' (often positive), NOT 'naive/gullible'. For naive (English sense), use 世間知らず (せけんしらず).",
+      "example_sentence": "彼はナイーブな人だ。",
+      "example_reading": "かれ は ナイーブ な ひと だ。",
+      "example_meaning": "He's a sensitive person.",
+      "frequency_rank": 44
+    },
+    {
+      "word": "クレーム",
+      "reading": "クレーム",
+      "meanings": [
+        "complaint"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend_katakana",
+      "context": "False friend: 'complaint', NOT 'claim'. クレームを入れる = file a complaint. For 'claim' in English sense, use 主張 (しゅちょう).",
+      "example_sentence": "お客様からクレームが来た。",
+      "example_reading": "おきゃくさま から クレーム が きた。",
+      "example_meaning": "We got a complaint from a customer.",
+      "frequency_rank": 45
+    },
+    {
+      "word": "サービス",
+      "reading": "サービス",
+      "meanings": [
+        "service; free of charge"
+      ],
+      "jlpt": "N4",
+      "category": "false_friend_katakana",
+      "context": "Often means 'free, on the house', not just 'service'. このコーヒーはサービスです = This coffee is on us.",
+      "example_sentence": "デザートはサービスです。",
+      "example_reading": "デザート は サービス です。",
+      "example_meaning": "The dessert is on the house.",
+      "frequency_rank": 46
+    },
+    {
+      "word": "ハンサム",
+      "reading": "ハンサム",
+      "meanings": [
+        "handsome (men only)"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "Used only for men. The female counterpart is 美人 (びじん) or きれい. For 'attractive person' generally, イケメン (m) / 美人 (f).",
+      "example_sentence": "彼はハンサムだ。",
+      "example_reading": "かれ は ハンサム だ。",
+      "example_meaning": "He's handsome.",
+      "frequency_rank": 47
+    },
+    {
+      "word": "ユニーク",
+      "reading": "ユニーク",
+      "meanings": [
+        "unique",
+        "quirky (sometimes slightly negative)"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "Often slightly negative — 'weird, quirky' rather than 'distinctively excellent'. Be careful complimenting someone with this.",
+      "example_sentence": "ユニークな考え方だ。",
+      "example_reading": "ユニーク な かんがえかた だ。",
+      "example_meaning": "That's a quirky way of thinking.",
+      "frequency_rank": 48
+    },
+    {
+      "word": "コンセント",
+      "reading": "コンセント",
+      "meanings": [
+        "electrical outlet",
+        "power socket"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "False friend: 'electrical outlet', NOT 'consent'. For 'consent', use 同意 (どうい).",
+      "example_sentence": "コンセントに差し込む。",
+      "example_reading": "コンセント に さしこむ。",
+      "example_meaning": "I plug it into the outlet.",
+      "frequency_rank": 49
+    },
+    {
+      "word": "バイキング",
+      "reading": "バイキング",
+      "meanings": [
+        "all-you-can-eat buffet"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend_katakana",
+      "context": "Means 'all-you-can-eat buffet', NOT 'Viking'. From the 1958 Imperial Hotel restaurant 'Viking' that introduced the concept.",
+      "example_sentence": "ホテルでバイキングを食べた。",
+      "example_reading": "ホテル で バイキング を たべた。",
+      "example_meaning": "I had buffet at the hotel.",
+      "frequency_rank": 50
+    },
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "meanings": [
+        "skilled",
+        "good at"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "じょうず = 'skilled at, good at'. Distinguish from 上手 (うわて — 'upper hand') and 上手い (うまい — colloquial 'good at, tasty'). The が-particle pattern: ピアノが上手 'good at piano'.",
+      "example_sentence": "彼女は料理が上手だ。",
+      "example_reading": "かのじょ は りょうり が じょうず だ。",
+      "example_meaning": "She's good at cooking.",
+      "frequency_rank": 60
+    },
+    {
+      "word": "下手",
+      "reading": "へた",
+      "meanings": [
+        "unskilled",
+        "bad at"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "へた = 'unskilled, bad at'. Pair of 上手. Same が-particle pattern: 歌が下手 'bad at singing'. 下手 (したて) is a different word ('lower hand').",
+      "example_sentence": "私は歌が下手だ。",
+      "example_reading": "わたし は うた が へた だ。",
+      "example_meaning": "I'm bad at singing.",
+      "frequency_rank": 61
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "meanings": [
+        "today"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "Special reading. The 'expected' reading (こんにち) exists but means 'these days, present-day' — different word.",
+      "example_sentence": "今日は寒い。",
+      "example_reading": "きょう は さむい。",
+      "example_meaning": "It's cold today.",
+      "frequency_rank": 62
+    },
+    {
+      "word": "明日",
+      "reading": "あした",
+      "meanings": [
+        "tomorrow"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "Three readings: あした (casual), あす (formal/news), みょうにち (very formal). Same kanji.",
+      "example_sentence": "明日また来ます。",
+      "example_reading": "あした また きます。",
+      "example_meaning": "I'll come again tomorrow.",
+      "frequency_rank": 63
+    },
+    {
+      "word": "一日",
+      "reading": "ついたち",
+      "meanings": [
+        "1st of the month (or 'one day' as いちにち)"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "ついたち = 'first of the month'. The 'expected' reading いちにち means 'one day' (a duration). Same kanji, different meaning.",
+      "example_sentence": "三月一日に会おう。",
+      "example_reading": "さんがつ ついたち に あおう。",
+      "example_meaning": "Let's meet on March 1st.",
+      "frequency_rank": 64
+    },
+    {
+      "word": "二十日",
+      "reading": "はつか",
+      "meanings": [
+        "20th of the month",
+        "20 days"
+      ],
+      "jlpt": "N4",
+      "category": "multi_reading",
+      "context": "Special reading: はつか = '20th of the month' or '20 days'. Other date readings: 一日 ついたち, 二日 ふつか, 三日 みっか, 四日 よっか, 五日 いつか, 六日 むいか, 七日 なのか, 八日 ようか, 九日 ここのか, 十日 とおか.",
+      "example_sentence": "二十日に出発する。",
+      "example_reading": "はつか に しゅっぱつ する。",
+      "example_meaning": "I leave on the 20th.",
+      "frequency_rank": 65
+    },
+    {
+      "word": "大人",
+      "reading": "おとな",
+      "meanings": [
+        "adult"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "おとな = 'adult'. The 'expected' reading だいじん means 'cabinet minister' — different word entirely.",
+      "example_sentence": "もう大人だから。",
+      "example_reading": "もう おとな だから。",
+      "example_meaning": "Because I'm an adult now.",
+      "frequency_rank": 66
+    },
+    {
+      "word": "今年",
+      "reading": "ことし",
+      "meanings": [
+        "this year"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "Special reading. Compare 来年 (らいねん) 'next year', 去年 (きょねん) 'last year' — those use the 'expected' on'yomi.",
+      "example_sentence": "今年は忙しい。",
+      "example_reading": "ことし は いそがしい。",
+      "example_meaning": "This year is busy.",
+      "frequency_rank": 67
+    },
+    {
+      "word": "果物",
+      "reading": "くだもの",
+      "meanings": [
+        "fruit"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "Special reading: くだもの = 'fruit'. Don't read it as かぶつ.",
+      "example_sentence": "果物が好きだ。",
+      "example_reading": "くだもの が すき だ。",
+      "example_meaning": "I like fruit.",
+      "frequency_rank": 68
+    },
+    {
+      "word": "一人",
+      "reading": "ひとり",
+      "meanings": [
+        "one person",
+        "alone"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "One person. 二人 ふたり (two people). 三人〜 use さんにん, よにん etc. The first two are irregular.",
+      "example_sentence": "一人で行く。",
+      "example_reading": "ひとり で いく。",
+      "example_meaning": "I'll go alone.",
+      "frequency_rank": 69
+    },
+    {
+      "word": "二人",
+      "reading": "ふたり",
+      "meanings": [
+        "two people"
+      ],
+      "jlpt": "N5",
+      "category": "multi_reading",
+      "context": "Two people. Pairs irregularly with 一人 ひとり. From 三人 onwards uses regular 〜にん counter.",
+      "example_sentence": "二人で映画を見た。",
+      "example_reading": "ふたり で えいが を みた。",
+      "example_meaning": "We watched a movie together (2 people).",
+      "frequency_rank": 70
+    },
+    {
+      "word": "ても",
+      "reading": "ても",
+      "meanings": [
+        "even if"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "'Even if' — the conditional that doesn't change the outcome. 雨が降っても行く = I'll go even if it rains. Distinguish from 〜たら (sequence) and 〜ば (general condition).",
+      "example_sentence": "高くても買う。",
+      "example_reading": "たかくて も かう。",
+      "example_meaning": "Even if it's expensive, I'll buy it.",
+      "frequency_rank": 80
+    },
+    {
+      "word": "のに",
+      "reading": "のに",
+      "meanings": [
+        "despite",
+        "even though"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "'Despite, even though' — with a sense of contrary expectation. Different from が/けど (neutral 'but'). 勉強したのに = even though I studied (and yet...).",
+      "example_sentence": "勉強したのに、できなかった。",
+      "example_reading": "べんきょう した のに、できなかった。",
+      "example_meaning": "Even though I studied, I couldn't do it.",
+      "frequency_rank": 81
+    },
+    {
+      "word": "なら",
+      "reading": "なら",
+      "meanings": [
+        "if (it's the case that)"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "'If (you mean) X, then'. Topic-conditional — picks up the listener's premise. 寿司なら、あの店だ = If you mean sushi, that's the shop.",
+      "example_sentence": "京都に行くなら、清水寺へ。",
+      "example_reading": "きょうと に いく なら、きよみずでら へ。",
+      "example_meaning": "If you're going to Kyoto, go to Kiyomizu-dera.",
+      "frequency_rank": 82
+    },
+    {
+      "word": "ば",
+      "reading": "ば",
+      "meanings": [
+        "if (general / hypothetical)"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "General/hypothetical condition. Forms: 食べれば, 行けば, 高ければ. Often translated 'if', but can be 'when' for predictable consequences.",
+      "example_sentence": "安ければ買う。",
+      "example_reading": "やすければ かう。",
+      "example_meaning": "If it's cheap, I'll buy it.",
+      "frequency_rank": 83
+    },
+    {
+      "word": "たら",
+      "reading": "たら",
+      "meanings": [
+        "when / if (sequence)"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "Sequence 'when/if X happens then'. The most general conditional in spoken Japanese. 駅に着いたら電話して = call me when you reach the station.",
+      "example_sentence": "家に着いたら電話する。",
+      "example_reading": "いえ に ついたら でんわ する。",
+      "example_meaning": "I'll call when I get home.",
+      "frequency_rank": 84
+    },
+    {
+      "word": "個",
+      "reading": "こ",
+      "meanings": [
+        "(counter for small objects)"
+      ],
+      "jlpt": "N4",
+      "category": "counter",
+      "context": "Generic counter for small objects. Reading shifts: 一個 いっこ, 六個 ろっこ, 十個 じゅっこ — small-tsu before こ.",
+      "example_sentence": "りんごを三個買った。",
+      "example_reading": "りんご を さんこ かった。",
+      "example_meaning": "I bought 3 apples.",
+      "frequency_rank": 90
+    },
+    {
+      "word": "本",
+      "reading": "ほん",
+      "meanings": [
+        "(counter for long thin objects)"
+      ],
+      "jlpt": "N5",
+      "category": "counter",
+      "context": "Counter for long thin objects. Reading shifts: 一本 いっぽん, 三本 さんぼん, 六本 ろっぽん, 八本 はっぽん.",
+      "example_sentence": "ペンを二本ください。",
+      "example_reading": "ペン を にほん ください。",
+      "example_meaning": "Two pens, please.",
+      "frequency_rank": 91
+    },
+    {
+      "word": "枚",
+      "reading": "まい",
+      "meanings": [
+        "(counter for flat objects)"
+      ],
+      "jlpt": "N5",
+      "category": "counter",
+      "context": "Counter for flat objects (paper, plates, tickets). Reading is regular 〜まい.",
+      "example_sentence": "切手を三枚買った。",
+      "example_reading": "きって を さんまい かった。",
+      "example_meaning": "I bought 3 stamps.",
+      "frequency_rank": 92
+    },
+    {
+      "word": "匹",
+      "reading": "ひき",
+      "meanings": [
+        "(counter for small animals)"
+      ],
+      "jlpt": "N4",
+      "category": "counter",
+      "context": "Counter for small animals. Reading shifts: 一匹 いっぴき, 三匹 さんびき, 六匹 ろっぴき.",
+      "example_sentence": "猫が二匹いる。",
+      "example_reading": "ねこ が にひき いる。",
+      "example_meaning": "I have 2 cats.",
+      "frequency_rank": 93
+    },
+    {
+      "word": "冊",
+      "reading": "さつ",
+      "meanings": [
+        "(counter for bound items)"
+      ],
+      "jlpt": "N4",
+      "category": "counter",
+      "context": "Counter for books, notebooks, magazines. Reading shifts: 一冊 いっさつ, 八冊 はっさつ, 十冊 じゅっさつ.",
+      "example_sentence": "本を三冊読んだ。",
+      "example_reading": "ほん を さんさつ よんだ。",
+      "example_meaning": "I read 3 books.",
+      "frequency_rank": 94
+    },
+    {
+      "word": "杯",
+      "reading": "はい",
+      "meanings": [
+        "(counter for cups/bowls)"
+      ],
+      "jlpt": "N4",
+      "category": "counter",
+      "context": "Counter for cupfuls / bowls. Reading shifts: 一杯 いっぱい, 三杯 さんばい, 六杯 ろっぱい. Also 一杯 (いっぱい) means 'full / a lot'.",
+      "example_sentence": "コーヒーを一杯ください。",
+      "example_reading": "コーヒー を いっぱい ください。",
+      "example_meaning": "One cup of coffee, please.",
+      "frequency_rank": 95
+    },
+    {
+      "word": "は",
+      "reading": "は",
+      "meanings": [
+        "(topic marker)"
+      ],
+      "jlpt": "N5",
+      "category": "particle",
+      "context": "Topic marker. Pronounced わ as a particle, but written は. Contrast with が (subject/new info). 私は学生です — 'as for me, I'm a student'.",
+      "example_sentence": "私は田中です。",
+      "example_reading": "わたし は たなか です。",
+      "example_meaning": "I'm Tanaka.",
+      "frequency_rank": 100
+    },
+    {
+      "word": "が",
+      "reading": "が",
+      "meanings": [
+        "(subject marker)"
+      ],
+      "jlpt": "N5",
+      "category": "particle",
+      "context": "Subject marker (or marker of new/exclusive info). Used with potentials: 食べられる — sushi が 食べられる.",
+      "example_sentence": "雨が降っている。",
+      "example_reading": "あめ が ふって いる。",
+      "example_meaning": "It's raining.",
+      "frequency_rank": 101
+    },
+    {
+      "word": "に",
+      "reading": "に",
+      "meanings": [
+        "(time / destination / indirect object)"
+      ],
+      "jlpt": "N5",
+      "category": "particle",
+      "context": "Multi-purpose particle: time (3時に), destination (東京に), indirect object (彼に渡す), passive agent (先生に叱られる). Distinguish from で (action locus).",
+      "example_sentence": "学校に行く。",
+      "example_reading": "がっこう に いく。",
+      "example_meaning": "I go to school.",
+      "frequency_rank": 102
+    },
+    {
+      "word": "で",
+      "reading": "で",
+      "meanings": [
+        "(action location / means)"
+      ],
+      "jlpt": "N5",
+      "category": "particle",
+      "context": "Action locus, means/instrument, cause. 学校で勉強する 'study at school' (action). 学校にいる 'be at school' (existence).",
+      "example_sentence": "図書館で本を読む。",
+      "example_reading": "としょかん で ほん を よむ。",
+      "example_meaning": "I read books at the library.",
+      "frequency_rank": 103
+    },
+    {
+      "word": "を",
+      "reading": "を",
+      "meanings": [
+        "(direct object marker)"
+      ],
+      "jlpt": "N5",
+      "category": "particle",
+      "context": "Direct object marker. Pronounced お. Also marks the path of motion verbs: 道を歩く 'walk along the road'.",
+      "example_sentence": "本を読む。",
+      "example_reading": "ほん を よむ。",
+      "example_meaning": "I read a book.",
+      "frequency_rank": 104
+    },
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meanings": [
+        "to think",
+        "to feel (subjective)"
+      ],
+      "jlpt": "N5",
+      "category": "thinking_verb",
+      "context": "Subjective/emotional 'think, feel'. Contrast with 考える (deliberate reasoning). Often takes と clause: 〜と思う 'I think that ~'.",
+      "example_sentence": "彼は来ると思う。",
+      "example_reading": "かれ は くる と おもう。",
+      "example_meaning": "I think he'll come.",
+      "frequency_rank": 110
+    },
+    {
+      "word": "考える",
+      "reading": "かんがえる",
+      "meanings": [
+        "to think",
+        "to consider (deliberate)"
+      ],
+      "jlpt": "N4",
+      "category": "thinking_verb",
+      "context": "Deliberate 'think, consider'. Contrast with 思う (feel). 考えてみる = let me consider/think about it.",
+      "example_sentence": "問題を考える。",
+      "example_reading": "もんだい を かんがえる。",
+      "example_meaning": "I think about the problem.",
+      "frequency_rank": 111
+    },
+    {
+      "word": "知る",
+      "reading": "しる",
+      "meanings": [
+        "to (come to) know"
+      ],
+      "jlpt": "N4",
+      "category": "knowing",
+      "context": "Inchoative 'come to know'. The state 'I know' is 知っている; 知らない = 'I don't know'. NOT 知る.",
+      "example_sentence": "彼の名前を知っている。",
+      "example_reading": "かれ の なまえ を しって いる。",
+      "example_meaning": "I know his name.",
+      "frequency_rank": 112
+    },
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meanings": [
+        "to understand",
+        "to be clear"
+      ],
+      "jlpt": "N5",
+      "category": "knowing",
+      "context": "'Understand, be clear'. Takes が, not を: 日本語が分かる 'I understand Japanese'. Distinct from 知る (know facts).",
+      "example_sentence": "日本語が分かる。",
+      "example_reading": "にほんご が わかる。",
+      "example_meaning": "I understand Japanese.",
+      "frequency_rank": 113
+    },
+    {
+      "word": "思い出す",
+      "reading": "おもいだす",
+      "meanings": [
+        "to recall",
+        "to remember (recall)"
+      ],
+      "jlpt": "N4",
+      "category": "thinking_verb",
+      "context": "'Recall, remember (suddenly)' — the act of bringing something to mind. Distinct from 覚える (memorize) and 覚えている (remember/have in mind).",
+      "example_sentence": "急に思い出した。",
+      "example_reading": "きゅう に おもいだした。",
+      "example_meaning": "I suddenly remembered.",
+      "frequency_rank": 114
+    },
+    {
+      "word": "覚える",
+      "reading": "おぼえる",
+      "meanings": [
+        "to memorize",
+        "to learn"
+      ],
+      "jlpt": "N4",
+      "category": "thinking_verb",
+      "context": "Inchoative 'memorize, learn by heart'. The state 'I remember' is 覚えている. Common bug: using 覚える where English would say 'I remember'.",
+      "example_sentence": "漢字を覚える。",
+      "example_reading": "かんじ を おぼえる。",
+      "example_meaning": "I memorize kanji.",
+      "frequency_rank": 115
+    },
+    {
+      "word": "気をつける",
+      "reading": "きをつける",
+      "meanings": [
+        "to be careful"
+      ],
+      "jlpt": "N4",
+      "category": "set_phrase",
+      "context": "'Be careful, watch out'. 〜に気をつける = be careful of ~. 体に気をつけて = take care of yourself (a common parting phrase).",
+      "example_sentence": "車に気をつけてください。",
+      "example_reading": "くるま に きを つけて ください。",
+      "example_meaning": "Please watch out for cars.",
+      "frequency_rank": 116
+    },
+    {
+      "word": "気にする",
+      "reading": "きにする",
+      "meanings": [
+        "to mind",
+        "to worry about"
+      ],
+      "jlpt": "N3",
+      "category": "set_phrase",
+      "context": "'Mind, worry about'. Often imperative 気にしないで = don't worry about it. Distinct from 気になる (be curious about / be on one's mind).",
+      "example_sentence": "そんなこと気にしないで。",
+      "example_reading": "そんな こと きに しない で。",
+      "example_meaning": "Don't worry about that.",
+      "frequency_rank": 117
+    },
+    {
+      "word": "気になる",
+      "reading": "きになる",
+      "meanings": [
+        "to be on one's mind"
+      ],
+      "jlpt": "N3",
+      "category": "set_phrase",
+      "context": "'Be on one's mind, be curious about, be bothered by'. Different from 気にする (active 'mind'). 気になる is involuntary.",
+      "example_sentence": "結果が気になる。",
+      "example_reading": "けっか が きに なる。",
+      "example_meaning": "I'm anxious about the result.",
+      "frequency_rank": 118
+    },
+    {
+      "word": "経験",
+      "reading": "けいけん",
+      "meanings": [
+        "experience"
+      ],
+      "jlpt": "N3",
+      "category": "abstract_noun",
+      "context": "Lived/personal experience. Pairs with する as 経験する 'to undergo'. For 'experience' in the sense of 'a single event', use 〜たこと.",
+      "example_sentence": "海外で働いた経験がある。",
+      "example_reading": "かいがい で はたらいた けいけん が ある。",
+      "example_meaning": "I have experience working abroad.",
+      "frequency_rank": 130
+    },
+    {
+      "word": "感じ",
+      "reading": "かんじ",
+      "meanings": [
+        "feeling",
+        "impression"
+      ],
+      "jlpt": "N3",
+      "category": "abstract_noun",
+      "context": "'Feeling, impression'. Homophone with 漢字 (kanji characters) — context distinguishes. こんな感じ = 'like this'.",
+      "example_sentence": "嫌な感じがする。",
+      "example_reading": "いや な かんじ が する。",
+      "example_meaning": "I have a bad feeling.",
+      "frequency_rank": 131
+    },
+    {
+      "word": "意味",
+      "reading": "いみ",
+      "meanings": [
+        "meaning"
+      ],
+      "jlpt": "N5",
+      "category": "abstract_noun",
+      "context": "'Meaning'. 意味がある = 'has meaning, is meaningful'. 意味がない = pointless.",
+      "example_sentence": "この単語の意味は？",
+      "example_reading": "この たんご の いみ は？",
+      "example_meaning": "What's the meaning of this word?",
+      "frequency_rank": 132
+    },
+    {
+      "word": "理由",
+      "reading": "りゆう",
+      "meanings": [
+        "reason"
+      ],
+      "jlpt": "N4",
+      "category": "abstract_noun",
+      "context": "'Reason'. 理由を聞く = ask the reason. 〜の理由で = 'for the reason of ~'. Slightly more formal than わけ.",
+      "example_sentence": "遅れた理由を教えて。",
+      "example_reading": "おくれた りゆう を おしえて。",
+      "example_meaning": "Tell me why you were late.",
+      "frequency_rank": 133
+    },
+    {
+      "word": "結果",
+      "reading": "けっか",
+      "meanings": [
+        "result",
+        "outcome"
+      ],
+      "jlpt": "N3",
+      "category": "abstract_noun",
+      "context": "'Result, outcome'. 〜の結果 = 'as a result of ~'. Test results, sports results, etc.",
+      "example_sentence": "試験の結果が出た。",
+      "example_reading": "しけん の けっか が でた。",
+      "example_meaning": "The test results came out.",
+      "frequency_rank": 134
+    },
+    {
+      "word": "場合",
+      "reading": "ばあい",
+      "meanings": [
+        "case",
+        "situation"
+      ],
+      "jlpt": "N3",
+      "category": "abstract_noun",
+      "context": "'Case, situation'. 〜の場合 = 'in the case of ~'. Common conditional substitute: もしもの場合は = 'in case of emergency'.",
+      "example_sentence": "雨の場合は中止です。",
+      "example_reading": "あめ の ばあい は ちゅうし です。",
+      "example_meaning": "In case of rain, it's cancelled.",
+      "frequency_rank": 135
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "meanings": [
+        "problem",
+        "question"
+      ],
+      "jlpt": "N5",
+      "category": "abstract_noun",
+      "context": "'Problem, question, issue'. Both school 'question' and life 'problem'. 問題ない = 'no problem'.",
+      "example_sentence": "難しい問題だ。",
+      "example_reading": "むずかしい もんだい だ。",
+      "example_meaning": "It's a difficult problem.",
+      "frequency_rank": 136
+    },
+    {
+      "word": "場所",
+      "reading": "ばしょ",
+      "meanings": [
+        "place",
+        "location"
+      ],
+      "jlpt": "N5",
+      "category": "abstract_noun",
+      "context": "'Place, location'. More formal than ところ, especially in spatial/event contexts.",
+      "example_sentence": "待ち合わせの場所を決めた。",
+      "example_reading": "まちあわせ の ばしょ を きめた。",
+      "example_meaning": "We decided the meeting place.",
+      "frequency_rank": 137
+    },
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "meanings": [
+        "time",
+        "duration",
+        "hour"
+      ],
+      "jlpt": "N5",
+      "category": "abstract_noun",
+      "context": "'Time, duration, an hour'. 一時間 'one hour'. Distinct from 時 (とき) 'time/moment' and 時刻 (じこく) 'point in time'.",
+      "example_sentence": "時間がない。",
+      "example_reading": "じかん が ない。",
+      "example_meaning": "There's no time.",
+      "frequency_rank": 138
+    },
+    {
+      "word": "様子",
+      "reading": "ようす",
+      "meanings": [
+        "state",
+        "appearance",
+        "situation"
+      ],
+      "jlpt": "N3",
+      "category": "abstract_noun",
+      "context": "'State, appearance, situation'. 〜の様子 = 'the state/look of ~'. Often translated 'how X is doing/looking'.",
+      "example_sentence": "彼の様子がおかしい。",
+      "example_reading": "かれ の ようす が おかしい。",
+      "example_meaning": "His behavior is odd.",
+      "frequency_rank": 139
+    },
+    {
+      "word": "感じる",
+      "reading": "かんじる",
+      "meanings": [
+        "to feel"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "'Feel, sense'. Internal sensation or impression. Contrast with 思う (cognitive).",
+      "example_sentence": "寒さを感じる。",
+      "example_reading": "さむさ を かんじる。",
+      "example_meaning": "I feel the cold.",
+      "frequency_rank": 150
+    },
+    {
+      "word": "進む",
+      "reading": "すすむ",
+      "meanings": [
+        "to progress",
+        "to advance"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "Intransitive 'advance, progress'. Pairs with 進める. 工事が進む = construction progresses.",
+      "example_sentence": "計画が進んでいる。",
+      "example_reading": "けいかく が すすんで いる。",
+      "example_meaning": "The plan is progressing.",
+      "frequency_rank": 151
+    },
+    {
+      "word": "進める",
+      "reading": "すすめる",
+      "meanings": [
+        "to advance (trans.)"
+      ],
+      "jlpt": "N3",
+      "category": "verb_pair",
+      "context": "Transitive 'advance something, push forward'. Distinct from 勧める (recommend) — same reading.",
+      "example_sentence": "話を進める。",
+      "example_reading": "はなし を すすめる。",
+      "example_meaning": "I push the conversation forward.",
+      "frequency_rank": 152
+    },
+    {
+      "word": "勧める",
+      "reading": "すすめる",
+      "meanings": [
+        "to recommend"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "'Recommend, suggest'. Same reading as 進める but different kanji and meaning. お勧め (おすすめ) = recommendation.",
+      "example_sentence": "この本を勧める。",
+      "example_reading": "この ほん を すすめる。",
+      "example_meaning": "I recommend this book.",
+      "frequency_rank": 153
+    },
+    {
+      "word": "守る",
+      "reading": "まもる",
+      "meanings": [
+        "to protect",
+        "to keep"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "'Protect, keep (a promise/rule)'. ルールを守る = follow the rules. 約束を守る = keep a promise.",
+      "example_sentence": "約束を守る。",
+      "example_reading": "やくそく を まもる。",
+      "example_meaning": "I keep my promises.",
+      "frequency_rank": 154
+    },
+    {
+      "word": "比べる",
+      "reading": "くらべる",
+      "meanings": [
+        "to compare"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "'Compare'. 〜と比べる = 'compare with ~'. 〜に比べて = 'compared to ~'.",
+      "example_sentence": "去年に比べて寒い。",
+      "example_reading": "きょねん に くらべて さむい。",
+      "example_meaning": "It's cold compared to last year.",
+      "frequency_rank": 155
+    },
+    {
+      "word": "選ぶ",
+      "reading": "えらぶ",
+      "meanings": [
+        "to choose",
+        "to select"
+      ],
+      "jlpt": "N4",
+      "category": "verb",
+      "context": "'Choose, select'. Direct object with を. 一つ選ぶ = pick one.",
+      "example_sentence": "好きなのを選んでください。",
+      "example_reading": "すき な の を えらんで ください。",
+      "example_meaning": "Please choose what you like.",
+      "frequency_rank": 156
+    },
+    {
+      "word": "答える",
+      "reading": "こたえる",
+      "meanings": [
+        "to answer"
+      ],
+      "jlpt": "N4",
+      "category": "verb",
+      "context": "'Answer, respond'. Indirect object with に: 質問に答える = answer the question. Noun form: 答え (こたえ).",
+      "example_sentence": "質問に答えてください。",
+      "example_reading": "しつもん に こたえて ください。",
+      "example_meaning": "Please answer the question.",
+      "frequency_rank": 157
+    },
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meanings": [
+        "to convey",
+        "to tell"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "'Convey, tell, pass on (a message)'. Slightly more formal than 言う. 〜と伝えてください = please tell them ~.",
+      "example_sentence": "彼によろしく伝えて。",
+      "example_reading": "かれ に よろしく つたえて。",
+      "example_meaning": "Tell him I said hello.",
+      "frequency_rank": 158
+    },
+    {
+      "word": "向かう",
+      "reading": "むかう",
+      "meanings": [
+        "to head toward",
+        "to face"
+      ],
+      "jlpt": "N3",
+      "category": "verb",
+      "context": "'Head toward, face'. 〜に向かう = head toward ~. The verb of motion-toward, more specific than 行く.",
+      "example_sentence": "駅に向かう。",
+      "example_reading": "えき に むかう。",
+      "example_meaning": "I head toward the station.",
+      "frequency_rank": 159
+    },
+    {
+      "word": "捨てる",
+      "reading": "すてる",
+      "meanings": [
+        "to throw away"
+      ],
+      "jlpt": "N4",
+      "category": "verb",
+      "context": "'Throw away, discard, abandon'. ゴミを捨てる = throw out the trash. Also figurative: 夢を捨てる = give up a dream.",
+      "example_sentence": "ごみを捨てる。",
+      "example_reading": "ごみ を すてる。",
+      "example_meaning": "I throw out the trash.",
+      "frequency_rank": 160
+    },
+    {
+      "word": "美しい",
+      "reading": "うつくしい",
+      "meanings": [
+        "beautiful (formal/aesthetic)"
+      ],
+      "jlpt": "N3",
+      "category": "adjective",
+      "context": "Aesthetic 'beautiful' — landscapes, art, formal contexts. Contrast with きれい (cleaner/more universal beauty word). 美しい is more literary.",
+      "example_sentence": "美しい景色だ。",
+      "example_reading": "うつくしい けしき だ。",
+      "example_meaning": "It's a beautiful view.",
+      "frequency_rank": 170
+    },
+    {
+      "word": "きれい",
+      "reading": "きれい",
+      "meanings": [
+        "pretty",
+        "clean (na-adj)"
+      ],
+      "jlpt": "N5",
+      "category": "adjective",
+      "context": "Beautiful, clean, neat — multi-purpose. Acts as a な-adjective despite ending in い. きれいな部屋 = a clean room.",
+      "example_sentence": "きれいな花だ。",
+      "example_reading": "きれい な はな だ。",
+      "example_meaning": "It's a pretty flower.",
+      "frequency_rank": 171
+    },
+    {
+      "word": "厳しい",
+      "reading": "きびしい",
+      "meanings": [
+        "strict",
+        "severe"
+      ],
+      "jlpt": "N3",
+      "category": "adjective",
+      "context": "Strict, severe, harsh. People (厳しい先生 strict teacher), conditions (厳しい寒さ harsh cold), criticism.",
+      "example_sentence": "厳しい先生だ。",
+      "example_reading": "きびしい せんせい だ。",
+      "example_meaning": "He's a strict teacher.",
+      "frequency_rank": 172
+    },
+    {
+      "word": "懐かしい",
+      "reading": "なつかしい",
+      "meanings": [
+        "nostalgic",
+        "fondly remembered"
+      ],
+      "jlpt": "N3",
+      "category": "adjective",
+      "context": "'Nostalgic, brings back memories'. No clean English equivalent — Japanese specific. Common reaction word: 懐かしい！ = 'oh, that takes me back!'",
+      "example_sentence": "懐かしい歌だ。",
+      "example_reading": "なつかしい うた だ。",
+      "example_meaning": "This song brings back memories.",
+      "frequency_rank": 173
+    },
+    {
+      "word": "もったいない",
+      "reading": "もったいない",
+      "meanings": [
+        "wasteful",
+        "too good to waste"
+      ],
+      "jlpt": "N3",
+      "category": "adjective",
+      "context": "'Wasteful, regrettable to waste'. Cultural concept — used about food, opportunities, talent. No clean English equivalent.",
+      "example_sentence": "捨てるのはもったいない。",
+      "example_reading": "すてる の は もったいない。",
+      "example_meaning": "It would be a waste to throw it away.",
+      "frequency_rank": 174
+    },
+    {
+      "word": "気持ち",
+      "reading": "きもち",
+      "meanings": [
+        "feeling",
+        "mood"
+      ],
+      "jlpt": "N5",
+      "category": "noun",
+      "context": "'Feeling, mood'. About internal emotional state. Distinct from 気分 (overall mood/condition) and 感じ (impression).",
+      "example_sentence": "彼の気持ちが分からない。",
+      "example_reading": "かれ の きもち が わからない。",
+      "example_meaning": "I don't understand his feelings.",
+      "frequency_rank": 190
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meanings": [
+        "mood",
+        "condition"
+      ],
+      "jlpt": "N4",
+      "category": "noun",
+      "context": "'Mood, how one feels (overall)'. 気分が悪い = feel sick/bad. 気分転換 (きぶんてんかん) = change of pace.",
+      "example_sentence": "今日は気分がいい。",
+      "example_reading": "きょう は きぶん が いい。",
+      "example_meaning": "I feel good today.",
+      "frequency_rank": 191
+    },
+    {
+      "word": "予定",
+      "reading": "よてい",
+      "meanings": [
+        "plan",
+        "schedule"
+      ],
+      "jlpt": "N4",
+      "category": "noun",
+      "context": "'Plan, schedule'. 予定がある = have plans. 予定通り = as planned.",
+      "example_sentence": "明日の予定はある？",
+      "example_reading": "あした の よてい は ある？",
+      "example_meaning": "Do you have plans tomorrow?",
+      "frequency_rank": 192
+    },
+    {
+      "word": "都合",
+      "reading": "つごう",
+      "meanings": [
+        "convenience",
+        "circumstances"
+      ],
+      "jlpt": "N3",
+      "category": "noun",
+      "context": "'Convenience, circumstances'. 都合がいい = convenient. 都合がつく = can make it work. Asking 都合はどう？ = is the timing OK?",
+      "example_sentence": "明日は都合が悪い。",
+      "example_reading": "あした は つごう が わるい。",
+      "example_meaning": "Tomorrow is inconvenient.",
+      "frequency_rank": 193
+    },
+    {
+      "word": "経済",
+      "reading": "けいざい",
+      "meanings": [
+        "economy"
+      ],
+      "jlpt": "N3",
+      "category": "noun",
+      "context": "'Economy'. 経済的 (けいざいてき) = economical/financial. Sino-Japanese, formal register.",
+      "example_sentence": "日本経済について話す。",
+      "example_reading": "にほん けいざい について はなす。",
+      "example_meaning": "We talk about the Japanese economy.",
+      "frequency_rank": 194
+    },
+    {
+      "word": "政治",
+      "reading": "せいじ",
+      "meanings": [
+        "politics"
+      ],
+      "jlpt": "N3",
+      "category": "noun",
+      "context": "'Politics'. 政治家 (せいじか) = politician. Sino-Japanese, formal.",
+      "example_sentence": "政治に興味がある。",
+      "example_reading": "せいじ に きょうみ が ある。",
+      "example_meaning": "I'm interested in politics.",
+      "frequency_rank": 195
+    },
+    {
+      "word": "社会",
+      "reading": "しゃかい",
+      "meanings": [
+        "society"
+      ],
+      "jlpt": "N3",
+      "category": "noun",
+      "context": "'Society'. 社会人 (しゃかいじん) = working adult / member of society — a culturally loaded term in Japan.",
+      "example_sentence": "社会の問題について。",
+      "example_reading": "しゃかい の もんだい について。",
+      "example_meaning": "About society's problems.",
+      "frequency_rank": 196
+    },
+    {
+      "word": "文化",
+      "reading": "ぶんか",
+      "meanings": [
+        "culture"
+      ],
+      "jlpt": "N4",
+      "category": "noun",
+      "context": "'Culture'. 文化的 (ぶんかてき) = cultural. 日本文化 = Japanese culture.",
+      "example_sentence": "日本の文化が好き。",
+      "example_reading": "にほん の ぶんか が すき。",
+      "example_meaning": "I like Japanese culture.",
+      "frequency_rank": 197
+    },
+    {
+      "word": "歴史",
+      "reading": "れきし",
+      "meanings": [
+        "history"
+      ],
+      "jlpt": "N4",
+      "category": "noun",
+      "context": "'History'. 歴史的 (れきしてき) = historical. Used both for 'history (the discipline)' and 'a history (of something)'.",
+      "example_sentence": "日本の歴史を勉強する。",
+      "example_reading": "にほん の れきし を べんきょう する。",
+      "example_meaning": "I study Japanese history.",
+      "frequency_rank": 198
+    },
+    {
+      "word": "情報",
+      "reading": "じょうほう",
+      "meanings": [
+        "information"
+      ],
+      "jlpt": "N3",
+      "category": "noun",
+      "context": "'Information'. 情報を集める = gather information. Common in modern register (IT, news).",
+      "example_sentence": "新しい情報が入った。",
+      "example_reading": "あたらしい じょうほう が はいった。",
+      "example_meaning": "New information came in.",
+      "frequency_rank": 199
+    },
+    {
+      "word": "やっぱり",
+      "reading": "やっぱり",
+      "meanings": [
+        "after all",
+        "as expected"
+      ],
+      "jlpt": "N3",
+      "category": "expression",
+      "context": "'After all, as expected, just as I thought'. Highly common in conversation. More formal: やはり.",
+      "example_sentence": "やっぱり来なかった。",
+      "example_reading": "やっぱり こなかった。",
+      "example_meaning": "Just as I thought, he didn't come.",
+      "frequency_rank": 210
+    },
+    {
+      "word": "とにかく",
+      "reading": "とにかく",
+      "meanings": [
+        "anyway",
+        "in any case"
+      ],
+      "jlpt": "N3",
+      "category": "expression",
+      "context": "'Anyway, in any case'. Used to set aside details and focus. Discourse marker.",
+      "example_sentence": "とにかく行こう。",
+      "example_reading": "とにかく いこう。",
+      "example_meaning": "Anyway, let's go.",
+      "frequency_rank": 211
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meanings": [
+        "actually",
+        "the truth is"
+      ],
+      "jlpt": "N3",
+      "category": "expression",
+      "context": "'Actually, the truth is'. Confession/revelation marker. More formal: 実のところ.",
+      "example_sentence": "実は知らなかった。",
+      "example_reading": "じつは しらなかった。",
+      "example_meaning": "Actually, I didn't know.",
+      "frequency_rank": 212
+    },
+    {
+      "word": "確か",
+      "reading": "たしか",
+      "meanings": [
+        "if I recall correctly; certain"
+      ],
+      "jlpt": "N3",
+      "category": "expression",
+      "context": "Adverb 'if I recall correctly'. As a な-adjective: 確かな情報 = reliable information.",
+      "example_sentence": "確か昨日だった。",
+      "example_reading": "たしか きのう だった。",
+      "example_meaning": "I think it was yesterday.",
+      "frequency_rank": 213
+    },
+    {
+      "word": "結局",
+      "reading": "けっきょく",
+      "meanings": [
+        "in the end"
+      ],
+      "jlpt": "N3",
+      "category": "expression",
+      "context": "'In the end, after all'. Wraps up a sequence with the final result. Discourse marker.",
+      "example_sentence": "結局行かなかった。",
+      "example_reading": "けっきょく いかなかった。",
+      "example_meaning": "In the end, I didn't go.",
+      "frequency_rank": 214
+    },
+    {
+      "word": "むしろ",
+      "reading": "むしろ",
+      "meanings": [
+        "rather",
+        "if anything"
+      ],
+      "jlpt": "N3",
+      "category": "expression",
+      "context": "'Rather, if anything'. Sets up a counter-expectation: 'not X, but rather Y'.",
+      "example_sentence": "嫌いではなく、むしろ好きだ。",
+      "example_reading": "きらい では なく、むしろ すき だ。",
+      "example_meaning": "Not that I dislike it — rather, I like it.",
+      "frequency_rank": 215
+    },
+    {
+      "word": "最近",
+      "reading": "さいきん",
+      "meanings": [
+        "recently",
+        "lately"
+      ],
+      "jlpt": "N4",
+      "category": "time",
+      "context": "'Recently, these days'. Wide-window 'recent past' (weeks-months). 最近忙しい = I've been busy lately.",
+      "example_sentence": "最近忙しい。",
+      "example_reading": "さいきん いそがしい。",
+      "example_meaning": "I've been busy lately.",
+      "frequency_rank": 230
+    },
+    {
+      "word": "急に",
+      "reading": "きゅうに",
+      "meanings": [
+        "suddenly"
+      ],
+      "jlpt": "N3",
+      "category": "time",
+      "context": "'Suddenly, unexpectedly'. Adverb. 急に変わった = changed suddenly.",
+      "example_sentence": "急に雨が降ってきた。",
+      "example_reading": "きゅう に あめ が ふって きた。",
+      "example_meaning": "Suddenly it started raining.",
+      "frequency_rank": 231
+    },
+    {
+      "word": "そろそろ",
+      "reading": "そろそろ",
+      "meanings": [
+        "it's about time",
+        "soon"
+      ],
+      "jlpt": "N3",
+      "category": "time",
+      "context": "'It's about time, soon'. Soft suggestive timing. そろそろ帰ろう = it's about time we head home.",
+      "example_sentence": "そろそろ寝よう。",
+      "example_reading": "そろそろ ねよう。",
+      "example_meaning": "Let's get to bed soon.",
+      "frequency_rank": 232
+    },
+    {
+      "word": "ずっと",
+      "reading": "ずっと",
+      "meanings": [
+        "all along; by far"
+      ],
+      "jlpt": "N4",
+      "category": "time",
+      "context": "'Continuously, the whole time, by far'. Two senses: duration ('the entire time') and degree ('by far': ずっといい = much better).",
+      "example_sentence": "ずっと待っていた。",
+      "example_reading": "ずっと まって いた。",
+      "example_meaning": "I was waiting the whole time.",
+      "frequency_rank": 233
+    },
+    {
+      "word": "やっと",
+      "reading": "やっと",
+      "meanings": [
+        "finally",
+        "at last"
+      ],
+      "jlpt": "N3",
+      "category": "time",
+      "context": "'Finally, at last' — with an undertone of 'after long effort/wait'. やっと終わった = it's finally over.",
+      "example_sentence": "やっと宿題が終わった。",
+      "example_reading": "やっと しゅくだい が おわった。",
+      "example_meaning": "I finally finished the homework.",
+      "frequency_rank": 234
+    }
+  ]
+}
