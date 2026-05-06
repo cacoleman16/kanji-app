@@ -116,6 +116,10 @@ export interface Settings {
   vocabDirection: "ja-en" | "en-ja";
   /** True once the user has dismissed the first-run onboarding flow. */
   onboardingComplete: boolean;
+  /** Epoch ms of the most recent successful auto-backup to iCloud (iOS Pro). */
+  lastAutoBackupAt?: number;
+  /** When false, skip auto-backup-after-session. Default true (opt-out). */
+  autoBackupEnabled?: boolean;
 }
 
 export interface Streak {

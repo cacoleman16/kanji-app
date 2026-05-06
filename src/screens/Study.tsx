@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
+import { tryAutoBackup } from "@/native/autoBackup";
 import { haptic, hapticSelection } from "@/native/bridge";
 import { previewIntervals, sm2 } from "@/srs/sm2";
 import { buildQueue, shuffleArray } from "@/srs/queue";
@@ -197,6 +198,13 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
   }
 
   if (!current) {
+    // Session complete. Fire-and-forget auto-backup if eligible. Throttled
+    // to once per 12 hours inside tryAutoBackup; cheap to call always.
+    if (sessionStats.reviewed > 0) {
+      void tryAutoBackup(state, (timestamp) =>
+        setState((s) => ({ ...s, settings: { ...s.settings, lastAutoBackupAt: timestamp } })),
+      );
+    }
     return (
       <div className="fade-in session-done">
         <div className="done-emoji">よくできました</div>

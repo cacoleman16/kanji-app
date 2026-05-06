@@ -455,6 +455,30 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
         </button>
       </div>
 
+      {isNative() && userIsPro && (
+        <div className="settings-row">
+          <div>
+            <div className="settings-label">Auto-backup after sessions</div>
+            <div className="settings-sub">
+              Snapshot your progress to iCloud Drive after each study session, throttled to once
+              per 12 hours.
+            </div>
+          </div>
+          <input
+            type="checkbox"
+            checked={state.settings.autoBackupEnabled !== false}
+            onChange={(e) =>
+              setState((s) => ({
+                ...s,
+                settings: { ...s.settings, autoBackupEnabled: e.target.checked },
+              }))
+            }
+            aria-label="Auto-backup after each session"
+            style={{ width: 22, height: 22 }}
+          />
+        </div>
+      )}
+
       <div className="settings-row">
         <div>
           <div className="settings-label" style={{ display: "flex", alignItems: "center", gap: 6 }}>
