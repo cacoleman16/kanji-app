@@ -1,0 +1,275 @@
+{
+  "deck_id": "vocab-numbers",
+  "deck_name": "Numbers (数字)",
+  "subtitle": "1, 10, 100, half · the building blocks of every counter",
+  "version": "1.0",
+  "card_count": 20,
+  "notes": "Numerical kanji from 一 to 億, plus universal building-blocks like 半 (half), 番 (ordinal), 倍 (multiplier).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "一",
+      "reading": "いち",
+      "meanings": [
+        "one"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "Standalone reading. In compounds, often shifts to いっ (e.g. 一緒 いっしょ together).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "二",
+      "reading": "に",
+      "meanings": [
+        "two"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "三",
+      "reading": "さん",
+      "meanings": [
+        "three"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "四",
+      "reading": "よん / し",
+      "meanings": [
+        "four"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "Two readings: よん (yon, native) and し (shi, Sino). し sounds like the word for death (死), so よん is preferred in casual speech.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "五",
+      "reading": "ご",
+      "meanings": [
+        "five"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "六",
+      "reading": "ろく",
+      "meanings": [
+        "six"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "七",
+      "reading": "なな / しち",
+      "meanings": [
+        "seven"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "なな is more common in everyday counting; しち appears in some compounds (七月 = July).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "八",
+      "reading": "はち",
+      "meanings": [
+        "eight"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "九",
+      "reading": "きゅう / く",
+      "meanings": [
+        "nine"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "きゅう for general counting; く in fixed compounds like 九月 (September).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "十",
+      "reading": "じゅう",
+      "meanings": [
+        "ten"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "百",
+      "reading": "ひゃく",
+      "meanings": [
+        "hundred"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "Sound-changes in compounds: 三百 さんびゃく, 六百 ろっぴゃく, 八百 はっぴゃく.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "千",
+      "reading": "せん",
+      "meanings": [
+        "thousand"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "三千 さんぜん (3000), 八千 はっせん (8000) take rendaku/sokuon.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "万",
+      "reading": "まん",
+      "meanings": [
+        "ten thousand"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "Japanese counts in units of 10,000 — 100,000 is 十万 (jūman, lit. ten ten-thousands), one million is 百万 (hyakuman).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "億",
+      "reading": "おく",
+      "meanings": [
+        "hundred million"
+      ],
+      "jlpt": "N3",
+      "category": "numerals",
+      "context": "Larger than 万. 一億 = 100,000,000.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "零",
+      "reading": "ゼロ / れい",
+      "meanings": [
+        "zero"
+      ],
+      "jlpt": "N3",
+      "category": "numerals",
+      "context": "ゼロ is far more common in everyday speech; れい appears in formal contexts (零下 れいか = below zero).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "半",
+      "reading": "はん",
+      "meanings": [
+        "half"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "Common with time: 三時半 さんじはん = 3:30.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "数",
+      "reading": "かず / すう",
+      "meanings": [
+        "number",
+        "count"
+      ],
+      "jlpt": "N3",
+      "category": "numerals",
+      "context": "Reading varies: かず = a count of things; すう appears in compounds (数学 = mathematics).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "番号",
+      "reading": "ばんごう",
+      "meanings": [
+        "number",
+        "ID number"
+      ],
+      "jlpt": "N4",
+      "category": "numerals",
+      "context": "Used for phone numbers, room numbers, ID numbers — anything sequential.",
+      "example_sentence": "電話番号を教えてください。",
+      "example_reading": "でんわ ばんごう を おしえて ください。",
+      "example_meaning": "Please tell me your phone number."
+    },
+    {
+      "word": "番",
+      "reading": "ばん",
+      "meanings": [
+        "number (in a series)",
+        "turn"
+      ],
+      "jlpt": "N5",
+      "category": "numerals",
+      "context": "Counter for ordering: 一番 いちばん (number one / the first), 二番 にばん (second), and so on.",
+      "example_sentence": "私の番です。",
+      "example_reading": "わたし の ばん です。",
+      "example_meaning": "It's my turn."
+    },
+    {
+      "word": "倍",
+      "reading": "ばい",
+      "meanings": [
+        "times (multiplier)",
+        "double"
+      ],
+      "jlpt": "N3",
+      "category": "numerals",
+      "context": "二倍 にばい = twice / double; 三倍 さんばい = triple.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

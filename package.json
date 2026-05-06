@@ -14,7 +14,7 @@
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "icons": "node scripts/generate-icons.mjs",
-    "build:decks": "node scripts/build-decks.mjs && node scripts/build-kana-decks.mjs"
+    "build:decks": "node scripts/build-decks.mjs && node scripts/build-kana-decks.mjs && node scripts/build-themed-decks.mjs"
   },
   "dependencies": {
     "@capacitor/core": "^8.3.1",

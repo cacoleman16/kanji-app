@@ -1,0 +1,368 @@
+{
+  "deck_id": "vocab-time",
+  "deck_name": "Time, Days, Months (時間)",
+  "subtitle": "Days of the week · times of day · months · today/tomorrow",
+  "version": "1.0",
+  "card_count": 27,
+  "notes": "Days of the week (named after celestial bodies, like English), parts of the day, the irregular today/yesterday/tomorrow words, and the irregular month readings (4月 しがつ, 7月 しちがつ, 9月 くがつ).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "月曜日",
+      "reading": "げつようび",
+      "meanings": [
+        "Monday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "月 = moon. Days of the week are named after celestial bodies + elements (same as English).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "火曜日",
+      "reading": "かようび",
+      "meanings": [
+        "Tuesday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "火 = fire (Mars).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "水曜日",
+      "reading": "すいようび",
+      "meanings": [
+        "Wednesday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "水 = water (Mercury).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "木曜日",
+      "reading": "もくようび",
+      "meanings": [
+        "Thursday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "木 = wood (Jupiter).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "金曜日",
+      "reading": "きんようび",
+      "meanings": [
+        "Friday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "金 = gold/metal (Venus).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "土曜日",
+      "reading": "どようび",
+      "meanings": [
+        "Saturday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "土 = earth (Saturn).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "日曜日",
+      "reading": "にちようび",
+      "meanings": [
+        "Sunday"
+      ],
+      "jlpt": "N5",
+      "category": "days",
+      "context": "日 = sun.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "朝",
+      "reading": "あさ",
+      "meanings": [
+        "morning"
+      ],
+      "jlpt": "N5",
+      "category": "time-of-day",
+      "context": "",
+      "example_sentence": "朝ご飯を食べました。",
+      "example_reading": "あさ ごはん を たべました。",
+      "example_meaning": "I ate breakfast."
+    },
+    {
+      "word": "昼",
+      "reading": "ひる",
+      "meanings": [
+        "noon",
+        "daytime"
+      ],
+      "jlpt": "N4",
+      "category": "time-of-day",
+      "context": "",
+      "example_sentence": "昼ご飯はラーメンでした。",
+      "example_reading": "ひる ごはん は らーめん でした。",
+      "example_meaning": "Lunch was ramen."
+    },
+    {
+      "word": "夕方",
+      "reading": "ゆうがた",
+      "meanings": [
+        "evening",
+        "early evening"
+      ],
+      "jlpt": "N4",
+      "category": "time-of-day",
+      "context": "Roughly the late afternoon to dusk window — softer than 夜 (night).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meanings": [
+        "night"
+      ],
+      "jlpt": "N5",
+      "category": "time-of-day",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "午前",
+      "reading": "ごぜん",
+      "meanings": [
+        "a.m.",
+        "morning"
+      ],
+      "jlpt": "N5",
+      "category": "time-of-day",
+      "context": "Used for clock times: 午前八時 = 8 a.m.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "午後",
+      "reading": "ごご",
+      "meanings": [
+        "p.m.",
+        "afternoon"
+      ],
+      "jlpt": "N5",
+      "category": "time-of-day",
+      "context": "Used for clock times: 午後三時 = 3 p.m.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "今日",
+      "reading": "きょう",
+      "meanings": [
+        "today"
+      ],
+      "jlpt": "N5",
+      "category": "relative-time",
+      "context": "Irregular reading — don't try to break it down phonetically.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "昨日",
+      "reading": "きのう",
+      "meanings": [
+        "yesterday"
+      ],
+      "jlpt": "N5",
+      "category": "relative-time",
+      "context": "Also irregular reading; the sino reading さくじつ is used in formal/written contexts.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "明日",
+      "reading": "あした / あす",
+      "meanings": [
+        "tomorrow"
+      ],
+      "jlpt": "N5",
+      "category": "relative-time",
+      "context": "Both readings are common; あした is more conversational, あす slightly more formal.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "meanings": [
+        "now"
+      ],
+      "jlpt": "N5",
+      "category": "relative-time",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meanings": [
+        "every day",
+        "daily"
+      ],
+      "jlpt": "N5",
+      "category": "relative-time",
+      "context": "",
+      "example_sentence": "毎日勉強しています。",
+      "example_reading": "まいにち べんきょう して います。",
+      "example_meaning": "I study every day."
+    },
+    {
+      "word": "週末",
+      "reading": "しゅうまつ",
+      "meanings": [
+        "weekend"
+      ],
+      "jlpt": "N4",
+      "category": "relative-time",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "一月",
+      "reading": "いちがつ",
+      "meanings": [
+        "January"
+      ],
+      "jlpt": "N5",
+      "category": "months",
+      "context": "Months are just (number) + 月 (month). 月 is read がつ here.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "四月",
+      "reading": "しがつ",
+      "meanings": [
+        "April"
+      ],
+      "jlpt": "N5",
+      "category": "months",
+      "context": "Note し instead of よん — months use the Sino reading.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "七月",
+      "reading": "しちがつ",
+      "meanings": [
+        "July"
+      ],
+      "jlpt": "N5",
+      "category": "months",
+      "context": "Note しち (not なな) — months use the Sino reading.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "九月",
+      "reading": "くがつ",
+      "meanings": [
+        "September"
+      ],
+      "jlpt": "N5",
+      "category": "months",
+      "context": "Note く (not きゅう) — months use the Sino reading.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "meanings": [
+        "time",
+        "hours"
+      ],
+      "jlpt": "N5",
+      "category": "time-words",
+      "context": "Bare 時間 means 'time' or as a counter for hours: 二時間 にじかん = two hours.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "分",
+      "reading": "ふん / ぷん",
+      "meanings": [
+        "minute"
+      ],
+      "jlpt": "N5",
+      "category": "time-words",
+      "context": "Counter for minutes. The voicing alternates: 一分 いっぷん, 二分 にふん, 三分 さんぷん.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "秒",
+      "reading": "びょう",
+      "meanings": [
+        "second (time)"
+      ],
+      "jlpt": "N3",
+      "category": "time-words",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "年",
+      "reading": "とし / ねん",
+      "meanings": [
+        "year"
+      ],
+      "jlpt": "N5",
+      "category": "time-words",
+      "context": "とし = year as a noun; ねん appears in compounds (二年生 = 2nd-grade student).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

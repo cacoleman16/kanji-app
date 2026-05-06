@@ -1,0 +1,299 @@
+{
+  "deck_id": "vocab-family",
+  "deck_name": "Family (家族)",
+  "subtitle": "Parents · siblings · grandparents · in-laws · own vs others'",
+  "version": "1.0",
+  "card_count": 22,
+  "notes": "Japanese family vocab has a humble/polite split: when referring to your own family to outsiders you use the humble form (父, 母, 兄), and you use the polite form (お父さん, お母さん, お兄さん) for someone else's family or when addressing yours directly.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "家族",
+      "reading": "かぞく",
+      "meanings": [
+        "family"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "両親",
+      "reading": "りょうしん",
+      "meanings": [
+        "parents (both)"
+      ],
+      "jlpt": "N4",
+      "category": "general",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "父",
+      "reading": "ちち",
+      "meanings": [
+        "father (humble, your own)"
+      ],
+      "jlpt": "N5",
+      "category": "parents",
+      "context": "Use 父 when talking about your own father to outsiders. Reference someone else's father with お父さん.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お父さん",
+      "reading": "おとうさん",
+      "meanings": [
+        "father (polite, others')"
+      ],
+      "jlpt": "N5",
+      "category": "parents",
+      "context": "Polite form. Used when addressing your own father or referring to someone else's.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "meanings": [
+        "mother (humble, your own)"
+      ],
+      "jlpt": "N5",
+      "category": "parents",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お母さん",
+      "reading": "おかあさん",
+      "meanings": [
+        "mother (polite, others')"
+      ],
+      "jlpt": "N5",
+      "category": "parents",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "兄",
+      "reading": "あに",
+      "meanings": [
+        "older brother (humble, your own)"
+      ],
+      "jlpt": "N5",
+      "category": "siblings",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お兄さん",
+      "reading": "おにいさん",
+      "meanings": [
+        "older brother (polite, others')"
+      ],
+      "jlpt": "N5",
+      "category": "siblings",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "姉",
+      "reading": "あね",
+      "meanings": [
+        "older sister (humble, your own)"
+      ],
+      "jlpt": "N5",
+      "category": "siblings",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お姉さん",
+      "reading": "おねえさん",
+      "meanings": [
+        "older sister (polite, others')"
+      ],
+      "jlpt": "N5",
+      "category": "siblings",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "弟",
+      "reading": "おとうと",
+      "meanings": [
+        "younger brother"
+      ],
+      "jlpt": "N5",
+      "category": "siblings",
+      "context": "Younger siblings don't have a distinct humble/polite form — same word for own and others'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "妹",
+      "reading": "いもうと",
+      "meanings": [
+        "younger sister"
+      ],
+      "jlpt": "N5",
+      "category": "siblings",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "祖父",
+      "reading": "そふ",
+      "meanings": [
+        "grandfather (humble, your own)"
+      ],
+      "jlpt": "N4",
+      "category": "grandparents",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おじいさん",
+      "reading": "おじいさん",
+      "meanings": [
+        "grandfather (polite)",
+        "elderly man"
+      ],
+      "jlpt": "N5",
+      "category": "grandparents",
+      "context": "Also used as a generic term for an elderly man.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "祖母",
+      "reading": "そぼ",
+      "meanings": [
+        "grandmother (humble, your own)"
+      ],
+      "jlpt": "N4",
+      "category": "grandparents",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おばあさん",
+      "reading": "おばあさん",
+      "meanings": [
+        "grandmother (polite)",
+        "elderly woman"
+      ],
+      "jlpt": "N5",
+      "category": "grandparents",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おじ",
+      "reading": "おじ",
+      "meanings": [
+        "uncle (your own)"
+      ],
+      "jlpt": "N3",
+      "category": "extended",
+      "context": "Written 伯父 (older than parent) or 叔父 (younger than parent) for the kanji-distinguished forms.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おば",
+      "reading": "おば",
+      "meanings": [
+        "aunt (your own)"
+      ],
+      "jlpt": "N3",
+      "category": "extended",
+      "context": "Same elder/younger kanji distinction: 伯母 / 叔母.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "夫",
+      "reading": "おっと",
+      "meanings": [
+        "husband (your own)"
+      ],
+      "jlpt": "N3",
+      "category": "spouse",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "妻",
+      "reading": "つま",
+      "meanings": [
+        "wife (your own)"
+      ],
+      "jlpt": "N3",
+      "category": "spouse",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "息子",
+      "reading": "むすこ",
+      "meanings": [
+        "son"
+      ],
+      "jlpt": "N4",
+      "category": "children",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "娘",
+      "reading": "むすめ",
+      "meanings": [
+        "daughter"
+      ],
+      "jlpt": "N4",
+      "category": "children",
+      "context": "Also used historically and in literature to mean 'young woman'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

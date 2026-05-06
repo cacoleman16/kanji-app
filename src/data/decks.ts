@@ -69,6 +69,10 @@ const ORDER: Record<string, number> = {
   "kana-hiragana": 10,
   "kana-katakana": 20,
 
+  // Themed vocab (free) — bridges kana to first kanji study
+  "vocab-numbers": 30,
+  "vocab-time": 40,
+
   // JLPT progression
   "kanji-jlpt-n5": 100,
   "kanji-jlpt-n4": 110,
@@ -89,6 +93,11 @@ const ORDER: Record<string, number> = {
   "kanji-jouyou-grade-5": 340,
   "kanji-jouyou-grade-6": 350,
   "kanji-jouyou-secondary": 360,
+
+  // Themed vocab (Pro)
+  "vocab-counters": 400,
+  "vocab-body": 410,
+  "vocab-family": 420,
 };
 
 function rank(id: string): number {

@@ -22,7 +22,13 @@ export const FREE_LIMITS = {
    * first kanji deck. Together this is enough content for a learner to
    * commit weeks of study before bumping into the paywall.
    */
-  freeDeckIds: new Set<string>(["kana-hiragana", "kana-katakana", "kanji-jlpt-n5"]),
+  freeDeckIds: new Set<string>([
+    "kana-hiragana",
+    "kana-katakana",
+    "kanji-jlpt-n5",
+    "vocab-numbers",
+    "vocab-time",
+  ]),
   /** Maximum number of user-created decks a free user can keep. */
   maxUserDecks: 1,
   /** Maximum cards per user-created deck on the free tier. */

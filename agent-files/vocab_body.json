@@ -1,0 +1,277 @@
+{
+  "deck_id": "vocab-body",
+  "deck_name": "Body parts (体)",
+  "subtitle": "Head to toe · everyday vocabulary",
+  "version": "1.0",
+  "card_count": 20,
+  "notes": "Body parts you'll need at the doctor's, in the gym, or in everyday conversation. Includes the head/face/limbs/torso plus a few internal organs.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "頭",
+      "reading": "あたま",
+      "meanings": [
+        "head"
+      ],
+      "jlpt": "N5",
+      "category": "head",
+      "context": "Different reading from the 'large-animal counter' (頭 とう).",
+      "example_sentence": "頭が痛いです。",
+      "example_reading": "あたま が いたい です。",
+      "example_meaning": "My head hurts."
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meanings": [
+        "face"
+      ],
+      "jlpt": "N5",
+      "category": "head",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meanings": [
+        "eye"
+      ],
+      "jlpt": "N5",
+      "category": "head",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "耳",
+      "reading": "みみ",
+      "meanings": [
+        "ear"
+      ],
+      "jlpt": "N5",
+      "category": "head",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "meanings": [
+        "nose"
+      ],
+      "jlpt": "N5",
+      "category": "head",
+      "context": "Same reading as 花 (flower) — context disambiguates.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "口",
+      "reading": "くち",
+      "meanings": [
+        "mouth"
+      ],
+      "jlpt": "N5",
+      "category": "head",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "歯",
+      "reading": "は",
+      "meanings": [
+        "tooth",
+        "teeth"
+      ],
+      "jlpt": "N4",
+      "category": "head",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "舌",
+      "reading": "した",
+      "meanings": [
+        "tongue"
+      ],
+      "jlpt": "N3",
+      "category": "head",
+      "context": "Same reading as 下 (below) — context disambiguates.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "首",
+      "reading": "くび",
+      "meanings": [
+        "neck"
+      ],
+      "jlpt": "N4",
+      "category": "head",
+      "context": "首になる literally means 'become a neck' but idiomatically means 'be fired'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "肩",
+      "reading": "かた",
+      "meanings": [
+        "shoulder"
+      ],
+      "jlpt": "N3",
+      "category": "torso",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "腕",
+      "reading": "うで",
+      "meanings": [
+        "arm"
+      ],
+      "jlpt": "N3",
+      "category": "limbs",
+      "context": "Also means 'skill' or 'ability' (腕がいい = skilled).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "手",
+      "reading": "て",
+      "meanings": [
+        "hand"
+      ],
+      "jlpt": "N5",
+      "category": "limbs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "指",
+      "reading": "ゆび",
+      "meanings": [
+        "finger",
+        "toe"
+      ],
+      "jlpt": "N3",
+      "category": "limbs",
+      "context": "Same word for fingers and toes; clarified by 手の指 (hand-finger) or 足の指 (foot-toe).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "胸",
+      "reading": "むね",
+      "meanings": [
+        "chest",
+        "breast"
+      ],
+      "jlpt": "N3",
+      "category": "torso",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "背中",
+      "reading": "せなか",
+      "meanings": [
+        "back"
+      ],
+      "jlpt": "N3",
+      "category": "torso",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "腹",
+      "reading": "はら / おなか",
+      "meanings": [
+        "belly",
+        "stomach"
+      ],
+      "jlpt": "N3",
+      "category": "torso",
+      "context": "おなか is more polite/everyday; はら is rougher/casual.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "足",
+      "reading": "あし",
+      "meanings": [
+        "foot",
+        "leg"
+      ],
+      "jlpt": "N5",
+      "category": "limbs",
+      "context": "Covers both foot and leg in Japanese. 脚 also reads あし but specifically means leg.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "膝",
+      "reading": "ひざ",
+      "meanings": [
+        "knee",
+        "lap"
+      ],
+      "jlpt": "N3",
+      "category": "limbs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "髪",
+      "reading": "かみ",
+      "meanings": [
+        "hair (on the head)"
+      ],
+      "jlpt": "N4",
+      "category": "head",
+      "context": "Specifically scalp hair. Body hair is 毛 (け). Same reading as 神 (god) and 紙 (paper) — pure context.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "心臓",
+      "reading": "しんぞう",
+      "meanings": [
+        "heart (organ)"
+      ],
+      "jlpt": "N3",
+      "category": "internal",
+      "context": "心 (こころ) is the metaphorical heart; 心臓 is the physical organ.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

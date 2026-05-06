@@ -1,0 +1,245 @@
+{
+  "deck_id": "vocab-counters",
+  "deck_name": "Counters (助数詞)",
+  "subtitle": "～つ ～本 ～枚 ～回 · the uniquely-Japanese counting words",
+  "version": "1.0",
+  "card_count": 18,
+  "notes": "Counter suffixes are the trickiest part of basic Japanese for English speakers. Each card covers when to use the counter, an example, and the irregular sound-changes (一本 いっぽん, 三本 さんぼん).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "つ",
+      "reading": "つ",
+      "meanings": [
+        "general counter (1-10)"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "The most universal counter. Pairs with native numbers 1-10 (一つ, 二つ, …). Use when in doubt about which counter is correct.",
+      "example_sentence": "りんごを三つください。",
+      "example_reading": "りんご を みっつ ください。",
+      "example_meaning": "Please give me three apples."
+    },
+    {
+      "word": "個",
+      "reading": "こ",
+      "meanings": [
+        "counter for small objects"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Default counter for round-ish small items: balls, eggs, pieces of fruit, candies.",
+      "example_sentence": "卵を二個買いました。",
+      "example_reading": "たまご を にこ かいました。",
+      "example_meaning": "I bought two eggs."
+    },
+    {
+      "word": "人",
+      "reading": "にん",
+      "meanings": [
+        "counter for people"
+      ],
+      "jlpt": "N5",
+      "category": "people",
+      "context": "Two irregulars: 一人 ひとり (one person), 二人 ふたり (two people). From three onwards: 三人 さんにん, 四人 よにん, etc.",
+      "example_sentence": "クラスに三十人います。",
+      "example_reading": "くらす に さんじゅうにん います。",
+      "example_meaning": "There are 30 people in the class."
+    },
+    {
+      "word": "本",
+      "reading": "ほん / ぼん / ぽん",
+      "meanings": [
+        "counter for long thin objects"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Pens, bottles, trees, umbrellas, train tracks. Sound shifts: 一本 いっぽん, 三本 さんぼん, 六本 ろっぽん, 八本 はっぽん.",
+      "example_sentence": "ペンが二本あります。",
+      "example_reading": "ぺん が にほん あります。",
+      "example_meaning": "There are two pens."
+    },
+    {
+      "word": "枚",
+      "reading": "まい",
+      "meanings": [
+        "counter for flat thin objects"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Paper, plates, shirts, stamps, photos, coins. No sound changes — clean and regular.",
+      "example_sentence": "切手を五枚ください。",
+      "example_reading": "きって を ごまい ください。",
+      "example_meaning": "Please give me five stamps."
+    },
+    {
+      "word": "冊",
+      "reading": "さつ",
+      "meanings": [
+        "counter for books / bound volumes"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Books, magazines, notebooks. Sound shifts: 一冊 いっさつ, 八冊 はっさつ.",
+      "example_sentence": "本を三冊借りました。",
+      "example_reading": "ほん を さんさつ かりました。",
+      "example_meaning": "I borrowed three books."
+    },
+    {
+      "word": "匹",
+      "reading": "ひき / びき / ぴき",
+      "meanings": [
+        "counter for small animals"
+      ],
+      "jlpt": "N5",
+      "category": "animals",
+      "context": "Cats, dogs, fish, insects. Sound shifts: 一匹 いっぴき, 三匹 さんびき, 六匹 ろっぴき.",
+      "example_sentence": "犬が二匹います。",
+      "example_reading": "いぬ が にひき います。",
+      "example_meaning": "There are two dogs."
+    },
+    {
+      "word": "頭",
+      "reading": "とう",
+      "meanings": [
+        "counter for large animals"
+      ],
+      "jlpt": "N3",
+      "category": "animals",
+      "context": "Cows, horses, elephants. Smaller animals use 匹 instead.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "羽",
+      "reading": "わ / ば / ぱ",
+      "meanings": [
+        "counter for birds and rabbits"
+      ],
+      "jlpt": "N3",
+      "category": "animals",
+      "context": "Strange Japanese fact: rabbits are counted as if they were birds (originally so monks could eat them as 'fowl' during Buddhist fasts).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "杯",
+      "reading": "はい / ばい / ぱい",
+      "meanings": [
+        "counter for cups, glasses, bowlfuls"
+      ],
+      "jlpt": "N5",
+      "category": "containers",
+      "context": "Cup of coffee, glass of water, bowl of rice. Sound shifts: 一杯 いっぱい, 三杯 さんばい, 六杯 ろっぱい.",
+      "example_sentence": "コーヒーを一杯お願いします。",
+      "example_reading": "こーひー を いっぱい おねがい します。",
+      "example_meaning": "One cup of coffee, please."
+    },
+    {
+      "word": "回",
+      "reading": "かい",
+      "meanings": [
+        "counter for occurrences / times"
+      ],
+      "jlpt": "N5",
+      "category": "events",
+      "context": "How many times something happens: 一回 (once), 二回 (twice). Sound shifts at 三回 さんかい.",
+      "example_sentence": "週に三回ジムに行きます。",
+      "example_reading": "しゅう に さんかい じむ に いきます。",
+      "example_meaning": "I go to the gym three times a week."
+    },
+    {
+      "word": "階",
+      "reading": "かい / がい",
+      "meanings": [
+        "counter for floors"
+      ],
+      "jlpt": "N5",
+      "category": "buildings",
+      "context": "Building floors. Watch the sound shift on 三階 さんがい (vs 三回 さんかい — different counter, different reading).",
+      "example_sentence": "私のオフィスは五階です。",
+      "example_reading": "わたし の おふぃす は ごかい です。",
+      "example_meaning": "My office is on the 5th floor."
+    },
+    {
+      "word": "時",
+      "reading": "じ",
+      "meanings": [
+        "counter for o'clock"
+      ],
+      "jlpt": "N5",
+      "category": "time-counters",
+      "context": "Telling time: 三時 さんじ = 3 o'clock. Irregulars: 四時 よじ, 七時 しちじ, 九時 くじ.",
+      "example_sentence": "今、何時ですか。",
+      "example_reading": "いま、 なんじ です か。",
+      "example_meaning": "What time is it now?"
+    },
+    {
+      "word": "歳",
+      "reading": "さい",
+      "meanings": [
+        "counter for age (years old)"
+      ],
+      "jlpt": "N5",
+      "category": "age",
+      "context": "Often written 才 in casual contexts. Irregular: 二十歳 はたち = 20 years old (a coming-of-age word).",
+      "example_sentence": "三十歳です。",
+      "example_reading": "さんじゅっさい です。",
+      "example_meaning": "I'm 30 years old."
+    },
+    {
+      "word": "円",
+      "reading": "えん",
+      "meanings": [
+        "yen (currency)"
+      ],
+      "jlpt": "N5",
+      "category": "money",
+      "context": "Reading is えん, not the western 'yen' — though English borrowed it from a different historical romanization.",
+      "example_sentence": "三百円です。",
+      "example_reading": "さんびゃくえん です。",
+      "example_meaning": "It's 300 yen."
+    },
+    {
+      "word": "番目",
+      "reading": "ばんめ",
+      "meanings": [
+        "ordinal counter (Nth)"
+      ],
+      "jlpt": "N4",
+      "category": "general",
+      "context": "Append to numbers to make ordinals: 二番目 にばんめ = the second one.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "週間",
+      "reading": "しゅうかん",
+      "meanings": [
+        "counter for weeks"
+      ],
+      "jlpt": "N5",
+      "category": "time-counters",
+      "context": "",
+      "example_sentence": "二週間休みを取りました。",
+      "example_reading": "にしゅうかん やすみ を とりました。",
+      "example_meaning": "I took two weeks off."
+    },
+    {
+      "word": "ヶ月",
+      "reading": "かげつ",
+      "meanings": [
+        "counter for months (duration)"
+      ],
+      "jlpt": "N5",
+      "category": "time-counters",
+      "context": "Different from 月 (month-name). Sound shifts: 一ヶ月 いっかげつ, 六ヶ月 ろっかげつ. Often written ヵ月 or か月.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}
