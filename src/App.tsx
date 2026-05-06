@@ -42,6 +42,8 @@ export function App() {
   const theme = state.settings.theme || "dark";
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
+    // Sync the iOS native status-bar text color with the theme.
+    void import("@/native/bridge").then((m) => m.setStatusBarStyle(theme));
   }, [theme]);
 
   const screen = useMemo(() => {

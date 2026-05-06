@@ -9,7 +9,13 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["icons/*.png", "splash/*.png"],
+      includeAssets: ["icons/*.png", "splash/*.png", "sql-wasm.wasm"],
+      workbox: {
+        // sql-wasm.wasm is ~660 KB; needs to be precached so Anki imports work offline
+        globPatterns: ["**/*.{js,css,html,ico,png,svg,wasm,webp}"],
+        // Precache big chunks (decks chunk is >1 MB).
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024,
+      },
       manifest: {
         name: "Kanjido — Spaced-repetition kanji study",
         short_name: "Kanjido",

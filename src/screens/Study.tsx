@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
+import { haptic, hapticSelection } from "@/native/bridge";
 import { previewIntervals, sm2 } from "@/srs/sm2";
 import { buildQueue, shuffleArray } from "@/srs/queue";
 import { todayStr, updateStreak } from "@/storage/state";
@@ -64,6 +65,8 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
   const rate = useCallback(
     (rating: Rating) => {
       if (!current) return;
+      // Soft haptic tick on iOS so the rate registers physically.
+      void haptic(rating === "again" ? "medium" : "light");
       const prev = state.progress[current.kanji];
       const next = sm2(prev, rating);
       const today = todayStr();
@@ -298,7 +301,10 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
         <div
           key={idx}
           className={`card ${flipped ? "flipped" : ""}`}
-          onClick={() => setFlipped((f) => !f)}
+          onClick={() => {
+            void hapticSelection();
+            setFlipped((f) => !f);
+          }}
         >
           <div className={`face face-front${isVocab ? " vocab-front" : ""}`}>
             {isVocab ? (

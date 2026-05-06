@@ -2,6 +2,7 @@ import { useRef, useState, type ChangeEvent } from "react";
 
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
+import { isNative, shareText } from "@/native/bridge";
 import { DEFAULT_STATE, parseImport, todayStr } from "@/storage/state";
 import type { AppState, ProPlan, Settings as SettingsT } from "@/types";
 
@@ -26,14 +27,13 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       setState(() => structuredClone(DEFAULT_STATE));
     }
   };
-  const exportProgress = () => {
-    const blob = new Blob([JSON.stringify(state, null, 2)], { type: "application/json" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `kanji-progress-${todayStr()}.json`;
-    a.click();
-    URL.revokeObjectURL(url);
+  const exportProgress = async () => {
+    const filename = `kanjido-progress-${todayStr()}.json`;
+    await shareText({
+      title: "Kanjido backup",
+      filename,
+      text: JSON.stringify(state, null, 2),
+    });
   };
   const pickImportFile = () => fileInputRef.current?.click();
   const handleImportFile = async (e: ChangeEvent<HTMLInputElement>) => {
@@ -325,19 +325,71 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       <div className="settings-row">
         <div>
           <div className="settings-label" style={{ color: "var(--again)" }}>
-            Reset all progress
+            Delete all my data
           </div>
-          <div className="settings-sub">Erase everything and start over</div>
+          <div className="settings-sub">
+            Erases progress, custom decks, and settings. Cannot be undone.
+          </div>
         </div>
         <button className="danger-btn" onClick={reset}>
-          Reset
+          Delete
         </button>
+      </div>
+
+      <div className="section-label" style={{ marginTop: 28 }}>
+        About
+      </div>
+      <div
+        className="stat-card"
+        style={{
+          padding: "14px 16px",
+          marginBottom: 16,
+        }}
+      >
+        <div style={{ fontSize: 14, lineHeight: 1.6, color: "var(--text-muted)" }}>
+          <strong style={{ color: "var(--text)" }}>Kanjido</strong> — minimalist Japanese kanji
+          study with SM-2 spaced repetition. Made with care.
+        </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          gap: 6,
+          flexWrap: "wrap",
+          marginBottom: 24,
+        }}
+      >
+        <a
+          href="/privacy"
+          target="_blank"
+          rel="noopener"
+          className="filter-chip"
+          style={{ textDecoration: "none" }}
+        >
+          Privacy Policy
+        </a>
+        <a
+          href="/terms"
+          target="_blank"
+          rel="noopener"
+          className="filter-chip"
+          style={{ textDecoration: "none" }}
+        >
+          Terms of Service
+        </a>
+        <a
+          href="mailto:hello@kanjido.app"
+          className="filter-chip"
+          style={{ textDecoration: "none" }}
+        >
+          Contact / support
+        </a>
       </div>
 
       <div
         onClick={onVersionTap}
         style={{
-          marginTop: 32,
+          marginTop: 16,
           fontSize: 11,
           color: "var(--text-dim)",
           textAlign: "center",
@@ -346,7 +398,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           userSelect: "none",
         }}
       >
-        Kanjido v0.1 · Local storage only · No data leaves your device
+        Kanjido v0.1 · {isNative() ? "iOS native" : "Web (PWA)"} · Local-only data
       </div>
     </div>
   );

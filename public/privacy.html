@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#09090b" />
+    <title>Kanjido — Privacy Policy</title>
+    <meta
+      name="description"
+      content="Kanjido privacy policy: what data we collect, how it's used, your rights."
+    />
+    <link rel="apple-touch-icon" href="/icons/icon-180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #09090b;
+        --surface: #18181b;
+        --border: #3f3f46;
+        --text: #fafafa;
+        --text-muted: #a1a1aa;
+        --text-dim: #71717a;
+        --accent: #fbbf24;
+      }
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.6;
+      }
+      .wrap {
+        max-width: 680px;
+        margin: 0 auto;
+        padding: 48px 24px 96px;
+      }
+      .topnav {
+        margin-bottom: 32px;
+        font-size: 14px;
+        color: var(--text-dim);
+      }
+      .topnav a {
+        color: var(--text-muted);
+        text-decoration: none;
+        margin-right: 16px;
+      }
+      .topnav a:hover { color: var(--text); }
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        margin-bottom: 8px;
+      }
+      .updated {
+        color: var(--text-dim);
+        font-size: 13px;
+        margin-bottom: 32px;
+        letter-spacing: 0.02em;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: 600;
+        margin: 32px 0 12px;
+        letter-spacing: -0.01em;
+      }
+      p, li {
+        color: var(--text-muted);
+        font-size: 15px;
+        margin-bottom: 12px;
+      }
+      ul { padding-left: 22px; margin-bottom: 12px; }
+      strong { color: var(--text); font-weight: 600; }
+      a.inline { color: var(--accent); text-decoration: underline; }
+      .summary {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--accent);
+        border-radius: 10px;
+        padding: 16px 20px;
+        margin-bottom: 32px;
+      }
+      .summary p { margin-bottom: 0; color: var(--text); font-size: 14px; }
+      footer {
+        margin-top: 48px;
+        padding-top: 24px;
+        border-top: 1px solid var(--border);
+        color: var(--text-dim);
+        font-size: 13px;
+      }
+      footer a { color: var(--text-muted); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="topnav">
+        <a href="/">← Kanjido</a>
+        <a href="/terms">Terms</a>
+      </div>
+
+      <h1>Privacy Policy</h1>
+      <div class="updated">Last updated: May 6, 2026</div>
+
+      <div class="summary">
+        <p>
+          <strong>Short version:</strong> Kanjido stores your study progress on
+          your device. We don't run a backend, we don't track you, we don't sell
+          ads, and your kanji review history never leaves your device — except
+          when you choose to back it up to your own iCloud or export it to a
+          file you control.
+        </p>
+      </div>
+
+      <h2>What we collect</h2>
+      <p>Kanjido is built around an <strong>on-device-only</strong> model:</p>
+      <ul>
+        <li>
+          <strong>Study progress and SRS state</strong> (which cards you've
+          reviewed, your ease/interval/due times, daily counts, streaks) is
+          stored in your device's local browser storage.
+        </li>
+        <li>
+          <strong>Custom decks you create</strong> (deck names and card content
+          you typed or imported) is stored in the same local browser storage.
+        </li>
+        <li>
+          <strong>Settings</strong> (daily goal, theme, font size) is stored
+          locally.
+        </li>
+      </ul>
+      <p>
+        Kanjido does not collect names, email addresses, contacts, photos,
+        location, advertising identifiers, or any other personal information.
+      </p>
+
+      <h2>What we don't do</h2>
+      <ul>
+        <li>No analytics SDKs. No third-party trackers.</li>
+        <li>No advertising or ad-targeting partners.</li>
+        <li>
+          No selling, sharing, or transferring of your data to anyone, for any
+          purpose.
+        </li>
+        <li>No accounts, no sign-in, no email collection.</li>
+      </ul>
+
+      <h2>Subscriptions and payments</h2>
+      <p>
+        Kanjido Pro (monthly and yearly) is sold through the App Store. Apple
+        handles payment processing — we never see your card number, Apple ID,
+        or billing address. We receive only an anonymous receipt confirming
+        active entitlement, validated through Apple's StoreKit and our
+        subscription provider, RevenueCat. RevenueCat's privacy policy is
+        available at
+        <a class="inline" href="https://www.revenuecat.com/privacy" rel="noopener">revenuecat.com/privacy</a>.
+      </p>
+      <p>
+        We do not associate purchase status with any personally identifying
+        information. The only piece of data we store on-device tied to Pro is
+        an opaque entitlement flag and an anonymous customer ID assigned by
+        RevenueCat.
+      </p>
+
+      <h2>iCloud backup (when running as the iOS app)</h2>
+      <p>
+        On the iOS native build, Kanjido offers an optional iCloud Drive
+        backup of your study progress. When you turn this on, a JSON snapshot
+        is written to the Kanjido folder in <strong>your own iCloud Drive</strong>.
+        It is encrypted in transit and at rest by Apple, and only your Apple
+        ID can read it. Kanjido cannot read the contents of iCloud users'
+        accounts. Turn this off in Settings at any time and the local copy is
+        the only one that exists.
+      </p>
+
+      <h2>Children</h2>
+      <p>
+        Kanjido is rated 4+. We don't knowingly collect personal information
+        from anyone, including children. The on-device data model means there
+        is no server-side profile to delete in any case.
+      </p>
+
+      <h2>Your rights</h2>
+      <ul>
+        <li>
+          <strong>Export</strong> all your data at any time as a JSON file:
+          Settings → Export progress.
+        </li>
+        <li>
+          <strong>Delete</strong> all your data at any time: Settings → Delete
+          all my data, or just uninstall the app. There is no separate
+          deletion request to send because there is no server-side copy.
+        </li>
+        <li>
+          <strong>Manage subscriptions</strong> in App Store → Settings →
+          Subscriptions.
+        </li>
+      </ul>
+
+      <h2>Required-reason API disclosures</h2>
+      <p>
+        For Apple's privacy manifest, Kanjido uses the following APIs for the
+        following reasons:
+      </p>
+      <ul>
+        <li>
+          <strong>UserDefaults</strong> (CA92.1) — to persist your study
+          progress and settings on-device.
+        </li>
+        <li>
+          <strong>File timestamps</strong> (C617.1) — to manage the iCloud
+          backup file when present.
+        </li>
+      </ul>
+
+      <h2>Changes to this policy</h2>
+      <p>
+        If we change anything material about how Kanjido handles data, we'll
+        update this page and bump the "Last updated" date above. Substantive
+        changes (e.g. adding analytics) will surface in-app on the next
+        launch.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions or concerns? Email
+        <a class="inline" href="mailto:hello@kanjido.app">hello@kanjido.app</a>.
+      </p>
+
+      <footer>
+        <a href="/">Back to Kanjido</a> · <a href="/terms">Terms of Service</a>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -87,9 +87,10 @@ function pickCollection(files: Map<string, Uint8Array>): { name: string; bytes: 
 async function openSqlite(bytes: Uint8Array) {
   const initSqlJs = (await import("sql.js")).default;
   const SQL = await initSqlJs({
-    // Load the WASM from the public CDN so we don't have to wire up a bundler asset.
-    // For offline / self-host, replace with `/sql-wasm.wasm` and bundle it.
-    locateFile: (file: string) => `https://sql.js.org/dist/${file}`,
+    // The WASM lives at /sql-wasm.wasm — copied from node_modules/sql.js/dist/
+    // into public/ so the PWA stays offline-capable and we don't depend on a
+    // third-party CDN. App Store reviewers are much happier without external loads.
+    locateFile: () => "/sql-wasm.wasm",
   });
   return new SQL.Database(bytes);
 }
