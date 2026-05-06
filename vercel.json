@@ -1,5 +1,5 @@
 {
-  "installCommand": "npm ci && pip3 install --user pillow",
+  "installCommand": "npm ci && pip3 install --user --break-system-packages pillow",
   "buildCommand": "python3 pipeline/build.py",
   "outputDirectory": ".",
   "rewrites": [{ "source": "/", "destination": "/index.html" }],
