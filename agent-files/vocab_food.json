@@ -1,0 +1,367 @@
+{
+  "deck_id": "vocab-food",
+  "deck_name": "Food (食べ物)",
+  "subtitle": "Staples · drinks · dishes · condiments — eating in Japanese",
+  "version": "1.0",
+  "card_count": 27,
+  "notes": "Japanese food vocabulary you'll use at restaurants, in conversations, or buying groceries.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "ご飯",
+      "reading": "ごはん",
+      "meanings": [
+        "cooked rice",
+        "meal"
+      ],
+      "jlpt": "N5",
+      "category": "staples",
+      "context": "Means both 'cooked rice' and 'meal' — 朝ご飯 = breakfast, 昼ご飯 = lunch, 晩ご飯 = dinner.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meanings": [
+        "bread"
+      ],
+      "jlpt": "N5",
+      "category": "staples",
+      "context": "Loanword from Portuguese 'pão' — predates the English 'bread' loan.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "麺",
+      "reading": "めん",
+      "meanings": [
+        "noodles"
+      ],
+      "jlpt": "N3",
+      "category": "staples",
+      "context": "Generic word; specific kinds are ラーメン, うどん, そば, パスタ.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "肉",
+      "reading": "にく",
+      "meanings": [
+        "meat"
+      ],
+      "jlpt": "N5",
+      "category": "staples",
+      "context": "Compounds: 牛肉 ぎゅうにく (beef), 豚肉 ぶたにく (pork), 鶏肉 とりにく (chicken).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meanings": [
+        "fish"
+      ],
+      "jlpt": "N5",
+      "category": "staples",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "卵",
+      "reading": "たまご",
+      "meanings": [
+        "egg"
+      ],
+      "jlpt": "N5",
+      "category": "staples",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "豆腐",
+      "reading": "とうふ",
+      "meanings": [
+        "tofu"
+      ],
+      "jlpt": "N4",
+      "category": "staples",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "野菜",
+      "reading": "やさい",
+      "meanings": [
+        "vegetables"
+      ],
+      "jlpt": "N5",
+      "category": "produce",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "果物",
+      "reading": "くだもの",
+      "meanings": [
+        "fruit"
+      ],
+      "jlpt": "N5",
+      "category": "produce",
+      "context": "Irregular reading — don't try to sound it out from the kanji.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "りんご",
+      "reading": "りんご",
+      "meanings": [
+        "apple"
+      ],
+      "jlpt": "N5",
+      "category": "produce",
+      "context": "Often written 林檎 in formal contexts but everyone uses hiragana day-to-day.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "みかん",
+      "reading": "みかん",
+      "meanings": [
+        "mandarin orange",
+        "tangerine"
+      ],
+      "jlpt": "N5",
+      "category": "produce",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いちご",
+      "reading": "いちご",
+      "meanings": [
+        "strawberry"
+      ],
+      "jlpt": "N4",
+      "category": "produce",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ねぎ",
+      "reading": "ねぎ",
+      "meanings": [
+        "green onion",
+        "leek"
+      ],
+      "jlpt": "N3",
+      "category": "produce",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "水",
+      "reading": "みず",
+      "meanings": [
+        "water"
+      ],
+      "jlpt": "N5",
+      "category": "drinks",
+      "context": "Specifically cold water — hot water is お湯 (おゆ).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お茶",
+      "reading": "おちゃ",
+      "meanings": [
+        "tea"
+      ],
+      "jlpt": "N5",
+      "category": "drinks",
+      "context": "The honorific お is conventional; you'd rarely say just 茶 for the drink.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "meanings": [
+        "coffee"
+      ],
+      "jlpt": "N5",
+      "category": "drinks",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "meanings": [
+        "milk"
+      ],
+      "jlpt": "N4",
+      "category": "drinks",
+      "context": "Lit. 'cow + milk'. Casual word: ミルク (often for the white-coffee variety).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ビール",
+      "reading": "ビール",
+      "meanings": [
+        "beer"
+      ],
+      "jlpt": "N5",
+      "category": "drinks",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "酒",
+      "reading": "さけ / お酒",
+      "meanings": [
+        "alcohol",
+        "rice wine"
+      ],
+      "jlpt": "N5",
+      "category": "drinks",
+      "context": "お酒 (おさけ) is the everyday word for alcohol generally. Bare 酒 is more poetic/classical.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "寿司",
+      "reading": "すし",
+      "meanings": [
+        "sushi"
+      ],
+      "jlpt": "N4",
+      "category": "dishes",
+      "context": "Often written お寿司 (おすし) in polite speech.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ラーメン",
+      "reading": "ラーメン",
+      "meanings": [
+        "ramen"
+      ],
+      "jlpt": "N5",
+      "category": "dishes",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "天ぷら",
+      "reading": "てんぷら",
+      "meanings": [
+        "tempura"
+      ],
+      "jlpt": "N4",
+      "category": "dishes",
+      "context": "Loanword from 16th-century Portuguese; the kanji 天婦羅 are used decoratively.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "弁当",
+      "reading": "べんとう",
+      "meanings": [
+        "bento",
+        "boxed lunch"
+      ],
+      "jlpt": "N4",
+      "category": "dishes",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "塩",
+      "reading": "しお",
+      "meanings": [
+        "salt"
+      ],
+      "jlpt": "N4",
+      "category": "condiments",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "砂糖",
+      "reading": "さとう",
+      "meanings": [
+        "sugar"
+      ],
+      "jlpt": "N4",
+      "category": "condiments",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "醤油",
+      "reading": "しょうゆ",
+      "meanings": [
+        "soy sauce"
+      ],
+      "jlpt": "N3",
+      "category": "condiments",
+      "context": "Often written しょう油 in casual signage.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "味噌",
+      "reading": "みそ",
+      "meanings": [
+        "miso (fermented soybean paste)"
+      ],
+      "jlpt": "N3",
+      "category": "condiments",
+      "context": "味噌汁 (みそしる) = miso soup.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

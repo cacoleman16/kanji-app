@@ -98,6 +98,9 @@ const ORDER: Record<string, number> = {
   "vocab-counters": 400,
   "vocab-body": 410,
   "vocab-family": 420,
+  "vocab-food": 430,
+  "vocab-verbs": 440,
+  "vocab-adjectives": 450,
 };
 
 function rank(id: string): number {

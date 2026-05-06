@@ -1,0 +1,448 @@
+{
+  "deck_id": "vocab-adjectives",
+  "deck_name": "Common adjectives (形容詞)",
+  "subtitle": "Big, small, hot, cold · describing the world",
+  "version": "1.0",
+  "card_count": 32,
+  "notes": "Both い-adjectives and な-adjectives, organized by what they describe (size, quality, temperature, emotion). Calls out the famous traps: 暑い/熱い/厚い (all あつい), 速い vs 早い, 易しい vs 優しい.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "大きい",
+      "reading": "おおきい",
+      "meanings": [
+        "big",
+        "large"
+      ],
+      "jlpt": "N5",
+      "category": "size",
+      "context": "い-adjective. Negative: 大きくない.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meanings": [
+        "small",
+        "little"
+      ],
+      "jlpt": "N5",
+      "category": "size",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meanings": [
+        "tall",
+        "high",
+        "expensive"
+      ],
+      "jlpt": "N5",
+      "category": "size",
+      "context": "Same word for 'tall', 'high', and 'expensive' — context disambiguates.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "低い",
+      "reading": "ひくい",
+      "meanings": [
+        "low",
+        "short (height)"
+      ],
+      "jlpt": "N4",
+      "category": "size",
+      "context": "For people: 背が低い (short stature). 低い is the height-only opposite of 高い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "長い",
+      "reading": "ながい",
+      "meanings": [
+        "long"
+      ],
+      "jlpt": "N5",
+      "category": "size",
+      "context": "Both for length and duration: 長い手紙 (long letter), 長い時間 (long time).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "短い",
+      "reading": "みじかい",
+      "meanings": [
+        "short (length)",
+        "brief"
+      ],
+      "jlpt": "N5",
+      "category": "size",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "多い",
+      "reading": "おおい",
+      "meanings": [
+        "many",
+        "numerous"
+      ],
+      "jlpt": "N5",
+      "category": "amount",
+      "context": "Cannot precede a noun directly — say 人が多い (there are many people), not 多い人.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "少ない",
+      "reading": "すくない",
+      "meanings": [
+        "few",
+        "scarce"
+      ],
+      "jlpt": "N5",
+      "category": "amount",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いい / 良い",
+      "reading": "いい / よい",
+      "meanings": [
+        "good"
+      ],
+      "jlpt": "N5",
+      "category": "quality",
+      "context": "Irregular conjugation — past is よかった (not いかった), te-form is よくて. Use 良い in writing, いい in speech.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "悪い",
+      "reading": "わるい",
+      "meanings": [
+        "bad"
+      ],
+      "jlpt": "N5",
+      "category": "quality",
+      "context": "Also informal apology: 悪い、悪い! (My bad, sorry).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meanings": [
+        "new"
+      ],
+      "jlpt": "N5",
+      "category": "quality",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "古い",
+      "reading": "ふるい",
+      "meanings": [
+        "old (of objects)"
+      ],
+      "jlpt": "N5",
+      "category": "quality",
+      "context": "For things, not people. For age of people: 年上 (older), 年寄り (elderly). Saying ふるい about a person is rude.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "難しい",
+      "reading": "むずかしい",
+      "meanings": [
+        "difficult"
+      ],
+      "jlpt": "N5",
+      "category": "quality",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "易しい",
+      "reading": "やさしい",
+      "meanings": [
+        "easy",
+        "simple"
+      ],
+      "jlpt": "N5",
+      "category": "quality",
+      "context": "Same reading as 優しい (kind/gentle, the other やさしい) — written form distinguishes. 易しい = easy, 優しい = kind.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "速い",
+      "reading": "はやい",
+      "meanings": [
+        "fast",
+        "quick (speed)"
+      ],
+      "jlpt": "N4",
+      "category": "pace",
+      "context": "Same reading as 早い (early in time). 速い = velocity, 早い = timing.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "遅い",
+      "reading": "おそい",
+      "meanings": [
+        "slow",
+        "late"
+      ],
+      "jlpt": "N5",
+      "category": "pace",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "暑い",
+      "reading": "あつい",
+      "meanings": [
+        "hot (weather)"
+      ],
+      "jlpt": "N5",
+      "category": "temperature",
+      "context": "Three different homophones of あつい: 暑い (weather), 熱い (object), 厚い (thick). Pick the right one.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "寒い",
+      "reading": "さむい",
+      "meanings": [
+        "cold (weather)"
+      ],
+      "jlpt": "N5",
+      "category": "temperature",
+      "context": "For weather only. Cold-to-the-touch objects use 冷たい (つめたい).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "meanings": [
+        "warm (weather)"
+      ],
+      "jlpt": "N5",
+      "category": "temperature",
+      "context": "Sometimes shortened to あったかい in casual speech. Object/food version: 温かい.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "涼しい",
+      "reading": "すずしい",
+      "meanings": [
+        "cool (pleasantly cold)"
+      ],
+      "jlpt": "N4",
+      "category": "temperature",
+      "context": "Pleasantly cool — autumn weather. Cold-cold is 寒い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "嬉しい",
+      "reading": "うれしい",
+      "meanings": [
+        "happy",
+        "glad"
+      ],
+      "jlpt": "N4",
+      "category": "emotion",
+      "context": "Use for your own happy reaction to a specific event. For a continuous 'happy person' state, use 楽しい (fun) or 幸せ (na-adj, fortunate).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "悲しい",
+      "reading": "かなしい",
+      "meanings": [
+        "sad"
+      ],
+      "jlpt": "N5",
+      "category": "emotion",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meanings": [
+        "fun",
+        "enjoyable"
+      ],
+      "jlpt": "N5",
+      "category": "emotion",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "怖い",
+      "reading": "こわい",
+      "meanings": [
+        "scary",
+        "frightening"
+      ],
+      "jlpt": "N4",
+      "category": "emotion",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "好き",
+      "reading": "すき",
+      "meanings": [
+        "liked",
+        "favorite"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "な-adjective, takes が: 寿司が好きです = I like sushi. To attribute to a noun: 好きな食べ物 = favorite food.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "嫌い",
+      "reading": "きらい",
+      "meanings": [
+        "disliked",
+        "hated"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "な-adjective even though it ends in い. Don't conjugate it like an い-adjective.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "meanings": [
+        "skilled",
+        "good at"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "な-adjective. Generally used about others' skill, not your own (humility). For your own: 得意 (とくい).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "下手",
+      "reading": "へた",
+      "meanings": [
+        "bad at",
+        "unskilled"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "便利",
+      "reading": "べんり",
+      "meanings": [
+        "convenient",
+        "useful"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "静か",
+      "reading": "しずか",
+      "meanings": [
+        "quiet"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "賑やか",
+      "reading": "にぎやか",
+      "meanings": [
+        "lively",
+        "bustling"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "The classic dictionary opposite of 静か. Used for places, parties, scenes.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "綺麗",
+      "reading": "きれい",
+      "meanings": [
+        "beautiful",
+        "clean"
+      ],
+      "jlpt": "N5",
+      "category": "na-adjectives",
+      "context": "な-adjective. Means both 'beautiful' and 'clean' — useful for both compliments and tidiness.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}
