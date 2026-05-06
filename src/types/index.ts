@@ -114,6 +114,8 @@ export interface Settings {
   cardBackFontSize: "small" | "medium" | "large";
   theme: "dark" | "light";
   vocabDirection: "ja-en" | "en-ja";
+  /** True once the user has dismissed the first-run onboarding flow. */
+  onboardingComplete: boolean;
 }
 
 export interface Streak {

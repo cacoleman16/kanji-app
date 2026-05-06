@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import { Modal } from "@/components/Modal";
 import { FREE_LIMITS, canCreateUserDeck, isPro } from "@/entitlements/entitlement";
 import type { AppState, DeckKind } from "@/types";
 import { createDeck, deleteDeck } from "@/userDecks/userDecks";
@@ -17,6 +18,7 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
   const [creating, setCreating] = useState(false);
   const [newName, setNewName] = useState("");
   const [newKind, setNewKind] = useState<DeckKind>("kanji");
+  const [pendingDelete, setPendingDelete] = useState<{ id: string; name: string } | null>(null);
 
   const userIsPro = isPro(state);
   const canCreate = canCreateUserDeck(state);
@@ -36,8 +38,10 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
     setCreating(false);
   };
 
-  const handleDelete = (id: string, name: string) => {
-    if (!confirm(`Delete deck "${name}"? Cards in it won't be reviewable anymore.`)) return;
+  const askDelete = (id: string, name: string) => setPendingDelete({ id, name });
+  const confirmDelete = () => {
+    if (!pendingDelete) return;
+    const { id } = pendingDelete;
     setState((s) => deleteDeck(s, id));
   };
 
@@ -193,7 +197,7 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
               </button>
               <button
                 className="filter-chip"
-                onClick={() => handleDelete(d.id, d.name)}
+                onClick={() => askDelete(d.id, d.name)}
                 style={{ borderColor: "rgba(248, 113, 113, 0.35)", color: "var(--again)" }}
               >
                 Delete
@@ -202,6 +206,21 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
           </div>
         ))}
       </div>
+
+      <Modal
+        open={pendingDelete !== null}
+        onClose={() => setPendingDelete(null)}
+        title={`Delete "${pendingDelete?.name ?? ""}"?`}
+        body={
+          <>
+            The deck and all its cards will be removed. Cards you've reviewed in other decks
+            keep their progress.
+          </>
+        }
+        tone="danger"
+        confirmLabel="Delete deck"
+        onConfirm={confirmDelete}
+      />
     </div>
   );
 }

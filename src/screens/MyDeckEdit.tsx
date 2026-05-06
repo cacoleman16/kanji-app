@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import { Modal } from "@/components/Modal";
 import type { AppState, UserCard } from "@/types";
 import { addCard, deleteCard, renameDeck, updateCard } from "@/userDecks/userDecks";
 
@@ -67,6 +68,7 @@ export function MyDeckEdit({ deckId, state, setState, onBack }: MyDeckEditProps)
   const [name, setName] = useState(deck?.name ?? "");
   const [draft, setDraft] = useState<CardDraft>(emptyDraft());
   const [editingIdx, setEditingIdx] = useState<number | null>(null);
+  const [pendingDelete, setPendingDelete] = useState<{ idx: number; kanji: string } | null>(null);
 
   if (!deck) {
     return (
@@ -102,8 +104,13 @@ export function MyDeckEdit({ deckId, state, setState, onBack }: MyDeckEditProps)
     setDraft(cardToDraft(deck.cards[idx]));
   };
 
-  const removeCard = (idx: number) => {
-    if (!confirm(`Delete card "${deck.cards[idx].kanji}"?`)) return;
+  const askRemoveCard = (idx: number) => {
+    if (!deck) return;
+    setPendingDelete({ idx, kanji: deck.cards[idx].kanji });
+  };
+  const confirmRemoveCard = () => {
+    if (!pendingDelete) return;
+    const { idx } = pendingDelete;
     setState((s) => deleteCard(s, deckId, idx));
     if (editingIdx === idx) {
       setEditingIdx(null);
@@ -267,7 +274,7 @@ export function MyDeckEdit({ deckId, state, setState, onBack }: MyDeckEditProps)
                 </button>
                 <button
                   className="filter-chip"
-                  onClick={() => removeCard(idx)}
+                  onClick={() => askRemoveCard(idx)}
                   style={{ borderColor: "rgba(248, 113, 113, 0.35)", color: "var(--again)" }}
                 >
                   Del
@@ -277,6 +284,16 @@ export function MyDeckEdit({ deckId, state, setState, onBack }: MyDeckEditProps)
           ))}
         </div>
       )}
+
+      <Modal
+        open={pendingDelete !== null}
+        onClose={() => setPendingDelete(null)}
+        title={`Delete "${pendingDelete?.kanji ?? ""}"?`}
+        body="The card and any review progress for it will be removed."
+        tone="danger"
+        confirmLabel="Delete card"
+        onConfirm={confirmRemoveCard}
+      />
     </div>
   );
 }

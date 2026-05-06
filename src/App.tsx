@@ -9,6 +9,7 @@ import { MixedReview } from "@/screens/MixedReview";
 import { MyDeckEdit } from "@/screens/MyDeckEdit";
 import { MyDeckImport } from "@/screens/MyDeckImport";
 import { MyDecks } from "@/screens/MyDecks";
+import { Onboarding } from "@/screens/Onboarding";
 import { Paywall } from "@/screens/Paywall";
 import { Settings } from "@/screens/Settings";
 import { Stats } from "@/screens/Stats";
@@ -169,6 +170,15 @@ export function App() {
         );
     }
   }, [route, state, go, setStateFn]);
+
+  // First-launch onboarding takes over the screen until dismissed.
+  if (!state.settings.onboardingComplete) {
+    return (
+      <div className="shell" style={{ padding: 0 }}>
+        <Onboarding setState={setStateFn} />
+      </div>
+    );
+  }
 
   return (
     <div className="shell">

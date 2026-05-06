@@ -1,12 +1,22 @@
-import { useRef, useState, type ChangeEvent } from "react";
+import { useRef, useState, type ChangeEvent, type ReactNode } from "react";
 
+import { Modal } from "@/components/Modal";
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
-import { isNative, shareText } from "@/native/bridge";
+import { isNative, shareText, writeBackupFile } from "@/native/bridge";
 import { DEFAULT_STATE, parseImport, todayStr } from "@/storage/state";
 import type { AppState, ProPlan, Settings as SettingsT } from "@/types";
 
 import type { Route } from "../routes";
+
+interface ModalConfig {
+  title: string;
+  body?: ReactNode;
+  tone?: "info" | "confirm" | "danger";
+  confirmLabel?: string;
+  cancelLabel?: string | null;
+  onConfirm?: () => void;
+}
 
 interface SettingsProps {
   state: AppState;
@@ -18,15 +28,30 @@ interface SettingsProps {
 export function Settings({ state, setState, onBack, go }: SettingsProps) {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [versionTaps, setVersionTaps] = useState(0);
+  const [modal, setModal] = useState<ModalConfig | null>(null);
+  const [iCloudBusy, setICloudBusy] = useState(false);
   const userIsPro = isPro(state);
   const provider = getSubscriptionProvider();
   const update = <K extends keyof SettingsT>(key: K, val: SettingsT[K]) =>
     setState((s) => ({ ...s, settings: { ...s.settings, [key]: val } }));
-  const reset = () => {
-    if (confirm("Erase all progress and start over? This cannot be undone.")) {
-      setState(() => structuredClone(DEFAULT_STATE));
-    }
-  };
+
+  const showInfo = (title: string, body?: ReactNode) =>
+    setModal({ title, body, tone: "info", cancelLabel: null });
+
+  const reset = () =>
+    setModal({
+      title: "Delete all your data?",
+      body: (
+        <>
+          This erases all study progress, custom decks, and settings. It cannot be undone. Your
+          Pro subscription stays active.
+        </>
+      ),
+      tone: "danger",
+      confirmLabel: "Delete everything",
+      onConfirm: () => setState(() => structuredClone(DEFAULT_STATE)),
+    });
+
   const exportProgress = async () => {
     const filename = `kanjido-progress-${todayStr()}.json`;
     await shareText({
@@ -44,16 +69,46 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       const text = await file.text();
       const next = parseImport(text);
       const count = Object.keys(next.progress).length;
-      if (
-        !confirm(
-          `Import ${count} progress entr${count === 1 ? "y" : "ies"}? This replaces your current progress.`,
-        )
-      )
-        return;
-      setState(() => next);
-      alert("Import complete.");
+      setModal({
+        title: "Replace current progress?",
+        body: (
+          <>
+            Import {count} progress entr{count === 1 ? "y" : "ies"}? This replaces your current
+            progress and settings.
+          </>
+        ),
+        tone: "confirm",
+        confirmLabel: "Replace",
+        onConfirm: () => {
+          setState(() => next);
+          showInfo("Import complete", `Loaded ${count} entr${count === 1 ? "y" : "ies"}.`);
+        },
+      });
     } catch (err) {
-      alert(`Import failed: ${(err as Error).message}`);
+      showInfo("Import failed", (err as Error).message);
+    }
+  };
+
+  /** iCloud Drive backup — only works on the iOS native build. */
+  const backupToICloud = async () => {
+    if (!isNative()) {
+      showInfo(
+        "iCloud backup ships with the iOS app",
+        "On this web preview, use Export instead. The iOS native build (M4) writes a Kanjido folder into your iCloud Drive automatically.",
+      );
+      return;
+    }
+    setICloudBusy(true);
+    try {
+      const filename = `kanjido-progress-${todayStr()}.json`;
+      const uri = await writeBackupFile(filename, JSON.stringify(state, null, 2));
+      if (uri) {
+        showInfo("Backup written", `Saved to your Files app at ${filename}.`);
+      } else {
+        showInfo("Backup failed", "Could not write to the file system.");
+      }
+    } finally {
+      setICloudBusy(false);
     }
   };
 
@@ -69,14 +124,30 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
             expiresAt: result.expiresAt,
           }),
         );
-        alert("Pro restored.");
+        showInfo("Pro restored", "Welcome back. All Pro features are unlocked.");
       } else {
-        alert("No previous purchases found for this Apple ID.");
+        showInfo(
+          "No purchases found",
+          "We couldn't find a Pro subscription for this Apple ID. If you've subscribed on a different device, sign in with that Apple ID first.",
+        );
       }
     } catch (err) {
-      alert(`Restore failed: ${(err as Error).message}`);
+      showInfo("Restore failed", (err as Error).message);
     }
   };
+
+  const replayOnboarding = () =>
+    setModal({
+      title: "Replay the welcome flow?",
+      body: "Walks through the 3-screen intro again. Doesn't change any progress.",
+      tone: "confirm",
+      confirmLabel: "Replay",
+      onConfirm: () =>
+        setState((s) => ({
+          ...s,
+          settings: { ...s.settings, onboardingComplete: false },
+        })),
+    });
 
   /** Tap the version footer 7 times to toggle Pro for testing. */
   const onVersionTap = () => {
@@ -84,11 +155,14 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
     setVersionTaps(next);
     if (next >= 7) {
       setVersionTaps(0);
-      if (userIsPro) {
-        if (confirm("Dev: revoke Pro?")) setState(revokePro);
-      } else {
-        if (confirm("Dev: grant comp Pro?")) setState((s) => grantPro(s, "comp"));
-      }
+      setModal({
+        title: userIsPro ? "Revoke comp Pro?" : "Grant comp Pro?",
+        body: "Dev override for testing the paywall gates. No payment is involved.",
+        tone: "confirm",
+        confirmLabel: userIsPro ? "Revoke" : "Grant",
+        onConfirm: () =>
+          userIsPro ? setState(revokePro) : setState((s) => grantPro(s, "comp")),
+      });
     }
   };
 
@@ -324,6 +398,55 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
 
       <div className="settings-row">
         <div>
+          <div className="settings-label" style={{ display: "flex", alignItems: "center", gap: 6 }}>
+            iCloud backup
+            {!isNative() && (
+              <span
+                style={{
+                  fontSize: 9,
+                  fontWeight: 600,
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  color: "var(--text-dim)",
+                  background: "var(--surface-2)",
+                  padding: "2px 6px",
+                  borderRadius: 4,
+                }}
+              >
+                iOS only
+              </span>
+            )}
+          </div>
+          <div className="settings-sub">
+            {isNative()
+              ? "Save a JSON snapshot to your iCloud Drive's Kanjido folder."
+              : "Available on the iOS native app — syncs your progress across devices."}
+          </div>
+        </div>
+        <button
+          className="primary-btn"
+          style={{ padding: "8px 14px", fontSize: 13, opacity: iCloudBusy ? 0.6 : 1 }}
+          onClick={backupToICloud}
+          disabled={iCloudBusy}
+        >
+          {iCloudBusy ? "Saving…" : "Back up"}
+        </button>
+      </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label">Replay welcome screen</div>
+          <div className="settings-sub">
+            Walk through the onboarding intro again
+          </div>
+        </div>
+        <button className="filter-chip" onClick={replayOnboarding}>
+          Replay
+        </button>
+      </div>
+
+      <div className="settings-row">
+        <div>
           <div className="settings-label" style={{ color: "var(--again)" }}>
             Delete all my data
           </div>
@@ -400,6 +523,17 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       >
         Kanjido v0.1 · {isNative() ? "iOS native" : "Web (PWA)"} · Local-only data
       </div>
+
+      <Modal
+        open={modal !== null}
+        onClose={() => setModal(null)}
+        title={modal?.title ?? ""}
+        body={modal?.body}
+        tone={modal?.tone}
+        confirmLabel={modal?.confirmLabel}
+        cancelLabel={modal?.cancelLabel}
+        onConfirm={modal?.onConfirm}
+      />
     </div>
   );
 }

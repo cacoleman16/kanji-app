@@ -22,6 +22,8 @@ describe("migrate", () => {
     expect(after.schemaVersion).toBe(SCHEMA_VERSION);
     expect(after.userDecks).toEqual([]);
     expect(after.pro).toEqual({ active: false });
+    // Existing user onboarded → onboarding flow does not disrupt them.
+    expect(after.settings?.onboardingComplete).toBe(true);
   });
 
   it("treats missing schemaVersion as v1 and upgrades to current", () => {
@@ -38,11 +40,12 @@ describe("migrate", () => {
     expect(after.pro).toEqual({ active: false });
   });
 
-  it("upgrades v3 → v4 by adding pro: { active: false }", () => {
+  it("upgrades v3 → current chain (adds pro then onboardingComplete)", () => {
     const v3 = { schemaVersion: 3, progress: {}, userDecks: [] };
     const after = migrate(v3);
-    expect(after.schemaVersion).toBe(4);
+    expect(after.schemaVersion).toBe(SCHEMA_VERSION);
     expect(after.pro).toEqual({ active: false });
+    expect(after.settings?.onboardingComplete).toBe(true);
   });
 
   it("returns current-version state untouched", () => {
@@ -51,9 +54,28 @@ describe("migrate", () => {
       progress: {},
       userDecks: [],
       pro: { active: false },
+      settings: {
+        dailyGoal: 30,
+        newPerDay: 10,
+        cardBackFontSize: "medium" as const,
+        theme: "dark" as const,
+        vocabDirection: "ja-en" as const,
+        onboardingComplete: true,
+      },
     };
     const after = migrate(current);
     expect(after).toEqual(current);
+  });
+
+  it("upgrades v4 → v5 by setting onboardingComplete=true on existing users", () => {
+    const v4 = { schemaVersion: 4, progress: {}, userDecks: [], pro: { active: false } };
+    const after = migrate(v4);
+    expect(after.schemaVersion).toBe(5);
+    expect(after.settings?.onboardingComplete).toBe(true);
+  });
+
+  it("fresh DEFAULT_STATE has onboardingComplete=false (so the flow shows)", () => {
+    expect(DEFAULT_STATE.settings.onboardingComplete).toBe(false);
   });
 
   it("preserves existing userDecks during v2 → v3 (defensive)", () => {
@@ -119,11 +141,13 @@ describe("loadState (regression: schema migrations)", () => {
     expect(loaded.schemaVersion).toBe(SCHEMA_VERSION);
     expect(loaded.userDecks).toEqual([]);
     expect(loaded.pro).toEqual({ active: false });
-    // Everything else preserved unchanged.
+    // v2 settings are preserved; new fields (onboardingComplete) are set to
+    // values that don't disrupt existing users.
     expect(loaded.progress).toEqual(v2Snapshot.progress);
     expect(loaded.stats).toEqual(v2Snapshot.stats);
-    expect(loaded.settings).toEqual(v2Snapshot.settings);
     expect(loaded.streak).toEqual(v2Snapshot.streak);
+    expect(loaded.settings).toMatchObject(v2Snapshot.settings);
+    expect(loaded.settings.onboardingComplete).toBe(true);
   });
 
   it("upgrades a legacy v1 snapshot under the legacy key and writes back as current", () => {

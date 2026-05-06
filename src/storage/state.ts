@@ -11,7 +11,7 @@ import { LocalStorageProvider, type StorageProvider } from "./provider";
 
 export const STORAGE_KEY = "kanji-app";
 export const LEGACY_V1_KEY = "kanji-app-v1";
-export const SCHEMA_VERSION = 4;
+export const SCHEMA_VERSION = 5;
 
 export const DEFAULT_STATE: AppState = {
   schemaVersion: SCHEMA_VERSION,
@@ -23,6 +23,7 @@ export const DEFAULT_STATE: AppState = {
     cardBackFontSize: "medium",
     theme: "dark",
     vocabDirection: "ja-en",
+    onboardingComplete: false,
   },
   streak: { current: 0, longest: 0, lastActiveDay: null },
   userDecks: [],
@@ -37,11 +38,19 @@ type RawState = Partial<AppState> & { schemaVersion?: number };
  * v1 → v2: added `schemaVersion` field (shape otherwise identical).
  * v2 → v3: added `userDecks: UserDeck[]` to support custom decks (M2 Phase 3).
  * v3 → v4: added `pro: Entitlement` for paywall gates (M3).
+ * v4 → v5: added `settings.onboardingComplete` for first-run flow.
+ *          Existing users of v1–v4 are treated as already-onboarded so the
+ *          flow doesn't disrupt them; only fresh installs see it.
  */
 const MIGRATIONS: Record<number, (s: RawState) => RawState> = {
   1: (s) => ({ ...s, schemaVersion: 2 }),
   2: (s) => ({ ...s, schemaVersion: 3, userDecks: s.userDecks ?? [] }),
   3: (s) => ({ ...s, schemaVersion: 4, pro: s.pro ?? { active: false } }),
+  4: (s) => ({
+    ...s,
+    schemaVersion: 5,
+    settings: { ...(s.settings ?? {}), onboardingComplete: true } as RawState["settings"],
+  }),
 };
 
 export function migrate(state: RawState): RawState {
