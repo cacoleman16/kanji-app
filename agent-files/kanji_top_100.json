@@ -5,7 +5,7 @@
   "version": "1.0",
   "card_count": 100,
   "notes": "The 100 most frequent kanji in Japanese newspapers (KANJIDIC2 newspaper-corpus rank). About 50% of all kanji you encounter in a newspaper are in this set.",
-  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JLPT Resources (Jonathan Waller), and WaniKani.",
+  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG) and Jonathan Waller's JLPT Resources.",
   "cards": [
     {
       "kanji": "日",
@@ -25,7 +25,7 @@
         "-か"
       ],
       "examples": [],
-      "keyword": "Sun",
+      "keyword": "Day",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -102,7 +102,7 @@
         "あつ.まる"
       ],
       "examples": [],
-      "keyword": "Meet",
+      "keyword": "Meeting",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -176,7 +176,7 @@
         "-おお.いに"
       ],
       "examples": [],
-      "keyword": "Big",
+      "keyword": "Large",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N5",
@@ -283,7 +283,7 @@
         "あた.る"
       ],
       "examples": [],
-      "keyword": "Middle",
+      "keyword": "In",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -470,7 +470,7 @@
         "つか.える"
       ],
       "examples": [],
-      "keyword": "Action",
+      "keyword": "Matter",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -495,7 +495,7 @@
         "おの.ずと"
       ],
       "examples": [],
-      "keyword": "Self",
+      "keyword": "Oneself",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -533,7 +533,7 @@
         "おこ.なう"
       ],
       "examples": [],
-      "keyword": "Go",
+      "keyword": "Going",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N5",
@@ -613,7 +613,7 @@
         "つき"
       ],
       "examples": [],
-      "keyword": "Moon",
+      "keyword": "Month",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -728,7 +728,7 @@
         "-まえ"
       ],
       "examples": [],
-      "keyword": "Front",
+      "keyword": "In Front",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N5",
@@ -752,7 +752,7 @@
         "たみ"
       ],
       "examples": [],
-      "keyword": "Peoples",
+      "keyword": "People",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -941,7 +941,7 @@
         "むか.う"
       ],
       "examples": [],
-      "keyword": "Versus",
+      "keyword": "Vis-a-vis",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -1009,7 +1009,7 @@
         "-べ"
       ],
       "examples": [],
-      "keyword": "Part",
+      "keyword": "Section",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -1079,7 +1079,7 @@
         "むら"
       ],
       "examples": [],
-      "keyword": "Group",
+      "keyword": "Party",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -1101,7 +1101,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Earth",
+      "keyword": "Ground",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -1136,7 +1136,7 @@
         "-あ.わせる"
       ],
       "examples": [],
-      "keyword": "Suit",
+      "keyword": "Fit",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -1160,7 +1160,7 @@
         "いち"
       ],
       "examples": [],
-      "keyword": "City",
+      "keyword": "Market",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -1245,7 +1245,7 @@
         "あい-"
       ],
       "examples": [],
-      "keyword": "Mutual",
+      "keyword": "Inter-",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -1382,7 +1382,7 @@
         "か.える"
       ],
       "examples": [],
-      "keyword": "Times",
+      "keyword": "-times",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -1480,7 +1480,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Member",
+      "keyword": "Employee",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -1558,7 +1558,7 @@
         "えら.ぶ"
       ],
       "examples": [],
-      "keyword": "Choose",
+      "keyword": "Elect",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -1594,7 +1594,7 @@
         "-だ.てる"
       ],
       "examples": [],
-      "keyword": "Stand",
+      "keyword": "Stand Up",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -1755,7 +1755,7 @@
         "とん"
       ],
       "examples": [],
-      "keyword": "Problem",
+      "keyword": "Question",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N4",
@@ -1886,7 +1886,7 @@
         "みち.る"
       ],
       "examples": [],
-      "keyword": "Truth",
+      "keyword": "Reality",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -1914,7 +1914,7 @@
         "まろ.やか"
       ],
       "examples": [],
-      "keyword": "Yen",
+      "keyword": "Circle",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -1944,7 +1944,7 @@
         "かんぬき"
       ],
       "examples": [],
-      "keyword": "Related",
+      "keyword": "Connection",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -2081,7 +2081,7 @@
         "すべ.て"
       ],
       "examples": [],
-      "keyword": "All",
+      "keyword": "Whole",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -2141,7 +2141,7 @@
         "あら.わす"
       ],
       "examples": [],
-      "keyword": "Express",
+      "keyword": "Surface",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -2201,7 +2201,7 @@
         "のり"
       ],
       "examples": [],
-      "keyword": "Passage of Time",
+      "keyword": "Sutra",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -2235,7 +2235,7 @@
         "かよ.う"
       ],
       "examples": [],
-      "keyword": "Pass Through",
+      "keyword": "Traffic",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -2288,7 +2288,7 @@
         "つま"
       ],
       "examples": [],
-      "keyword": "Most",
+      "keyword": "Utmost",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -2365,7 +2365,7 @@
         "うつ.つ"
       ],
       "examples": [],
-      "keyword": "Present Time",
+      "keyword": "Present",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -2391,7 +2391,7 @@
         "ことわり"
       ],
       "examples": [],
-      "keyword": "Reason",
+      "keyword": "Logic",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N4",
@@ -2425,7 +2425,7 @@
         "ととの.える"
       ],
       "examples": [],
-      "keyword": "Investigate",
+      "keyword": "Tune",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -2507,7 +2507,7 @@
         "た"
       ],
       "examples": [],
-      "keyword": "Rice Paddy",
+      "keyword": "Rice Field",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -2537,7 +2537,7 @@
         "まさ.にべし"
       ],
       "examples": [],
-      "keyword": "Correct",
+      "keyword": "Hit",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -2645,7 +2645,7 @@
         "あるじ"
       ],
       "examples": [],
-      "keyword": "Master",
+      "keyword": "Lord",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",

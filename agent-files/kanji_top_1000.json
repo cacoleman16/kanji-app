@@ -5,7 +5,7 @@
   "version": "1.0",
   "card_count": 1000,
   "notes": "Top 1,000 by frequency. Roughly 93% coverage of modern written Japanese, including most genres beyond technical literature.",
-  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JLPT Resources (Jonathan Waller), and WaniKani.",
+  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG) and Jonathan Waller's JLPT Resources.",
   "cards": [
     {
       "kanji": "日",
@@ -25,7 +25,7 @@
         "-か"
       ],
       "examples": [],
-      "keyword": "Sun",
+      "keyword": "Day",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -102,7 +102,7 @@
         "あつ.まる"
       ],
       "examples": [],
-      "keyword": "Meet",
+      "keyword": "Meeting",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -176,7 +176,7 @@
         "-おお.いに"
       ],
       "examples": [],
-      "keyword": "Big",
+      "keyword": "Large",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N5",
@@ -283,7 +283,7 @@
         "あた.る"
       ],
       "examples": [],
-      "keyword": "Middle",
+      "keyword": "In",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -470,7 +470,7 @@
         "つか.える"
       ],
       "examples": [],
-      "keyword": "Action",
+      "keyword": "Matter",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -495,7 +495,7 @@
         "おの.ずと"
       ],
       "examples": [],
-      "keyword": "Self",
+      "keyword": "Oneself",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -533,7 +533,7 @@
         "おこ.なう"
       ],
       "examples": [],
-      "keyword": "Go",
+      "keyword": "Going",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N5",
@@ -613,7 +613,7 @@
         "つき"
       ],
       "examples": [],
-      "keyword": "Moon",
+      "keyword": "Month",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -728,7 +728,7 @@
         "-まえ"
       ],
       "examples": [],
-      "keyword": "Front",
+      "keyword": "In Front",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N5",
@@ -752,7 +752,7 @@
         "たみ"
       ],
       "examples": [],
-      "keyword": "Peoples",
+      "keyword": "People",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -941,7 +941,7 @@
         "むか.う"
       ],
       "examples": [],
-      "keyword": "Versus",
+      "keyword": "Vis-a-vis",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -1009,7 +1009,7 @@
         "-べ"
       ],
       "examples": [],
-      "keyword": "Part",
+      "keyword": "Section",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -1079,7 +1079,7 @@
         "むら"
       ],
       "examples": [],
-      "keyword": "Group",
+      "keyword": "Party",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -1101,7 +1101,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Earth",
+      "keyword": "Ground",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -1136,7 +1136,7 @@
         "-あ.わせる"
       ],
       "examples": [],
-      "keyword": "Suit",
+      "keyword": "Fit",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -1160,7 +1160,7 @@
         "いち"
       ],
       "examples": [],
-      "keyword": "City",
+      "keyword": "Market",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -1245,7 +1245,7 @@
         "あい-"
       ],
       "examples": [],
-      "keyword": "Mutual",
+      "keyword": "Inter-",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -1382,7 +1382,7 @@
         "か.える"
       ],
       "examples": [],
-      "keyword": "Times",
+      "keyword": "-times",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -1480,7 +1480,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Member",
+      "keyword": "Employee",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -1558,7 +1558,7 @@
         "えら.ぶ"
       ],
       "examples": [],
-      "keyword": "Choose",
+      "keyword": "Elect",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -1594,7 +1594,7 @@
         "-だ.てる"
       ],
       "examples": [],
-      "keyword": "Stand",
+      "keyword": "Stand Up",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -1755,7 +1755,7 @@
         "とん"
       ],
       "examples": [],
-      "keyword": "Problem",
+      "keyword": "Question",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N4",
@@ -1886,7 +1886,7 @@
         "みち.る"
       ],
       "examples": [],
-      "keyword": "Truth",
+      "keyword": "Reality",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -1914,7 +1914,7 @@
         "まろ.やか"
       ],
       "examples": [],
-      "keyword": "Yen",
+      "keyword": "Circle",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -1944,7 +1944,7 @@
         "かんぬき"
       ],
       "examples": [],
-      "keyword": "Related",
+      "keyword": "Connection",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -2081,7 +2081,7 @@
         "すべ.て"
       ],
       "examples": [],
-      "keyword": "All",
+      "keyword": "Whole",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -2141,7 +2141,7 @@
         "あら.わす"
       ],
       "examples": [],
-      "keyword": "Express",
+      "keyword": "Surface",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -2201,7 +2201,7 @@
         "のり"
       ],
       "examples": [],
-      "keyword": "Passage of Time",
+      "keyword": "Sutra",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -2235,7 +2235,7 @@
         "かよ.う"
       ],
       "examples": [],
-      "keyword": "Pass Through",
+      "keyword": "Traffic",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -2288,7 +2288,7 @@
         "つま"
       ],
       "examples": [],
-      "keyword": "Most",
+      "keyword": "Utmost",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -2365,7 +2365,7 @@
         "うつ.つ"
       ],
       "examples": [],
-      "keyword": "Present Time",
+      "keyword": "Present",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -2391,7 +2391,7 @@
         "ことわり"
       ],
       "examples": [],
-      "keyword": "Reason",
+      "keyword": "Logic",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N4",
@@ -2425,7 +2425,7 @@
         "ととの.える"
       ],
       "examples": [],
-      "keyword": "Investigate",
+      "keyword": "Tune",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -2507,7 +2507,7 @@
         "た"
       ],
       "examples": [],
-      "keyword": "Rice Paddy",
+      "keyword": "Rice Field",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -2537,7 +2537,7 @@
         "まさ.にべし"
       ],
       "examples": [],
-      "keyword": "Correct",
+      "keyword": "Hit",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -2645,7 +2645,7 @@
         "あるじ"
       ],
       "examples": [],
-      "keyword": "Master",
+      "keyword": "Lord",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -2810,7 +2810,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Not",
+      "keyword": "Negative",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N4",
@@ -2896,7 +2896,7 @@
         "さが"
       ],
       "examples": [],
-      "keyword": "Gender",
+      "keyword": "Sex",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -2922,7 +2922,7 @@
         "まと"
       ],
       "examples": [],
-      "keyword": "Target",
+      "keyword": "Bull's Eye",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": null,
@@ -2974,7 +2974,7 @@
         "もち.いる"
       ],
       "examples": [],
-      "keyword": "Task",
+      "keyword": "Utilize",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -2996,7 +2996,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Control",
+      "keyword": "System",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -3031,7 +3031,7 @@
         "なお.す"
       ],
       "examples": [],
-      "keyword": "Cure",
+      "keyword": "Reign",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -3138,7 +3138,7 @@
         "いき"
       ],
       "examples": [],
-      "keyword": "Energy",
+      "keyword": "Spirit",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N5",
@@ -3164,7 +3164,7 @@
         "さ-"
       ],
       "examples": [],
-      "keyword": "Small",
+      "keyword": "Little",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N5",
@@ -3218,7 +3218,7 @@
         "-な.す"
       ],
       "examples": [],
-      "keyword": "Become",
+      "keyword": "Turn Into",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -3242,7 +3242,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Period Of Time",
+      "keyword": "Period",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -3320,7 +3320,7 @@
         "の-"
       ],
       "examples": [],
-      "keyword": "Field",
+      "keyword": "Plains",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N4",
@@ -3341,7 +3341,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Cooperation",
+      "keyword": "Co-",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -3427,7 +3427,7 @@
         "あ.える"
       ],
       "examples": [],
-      "keyword": "Peace",
+      "keyword": "Harmony",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -3453,7 +3453,7 @@
         "ほび.る"
       ],
       "examples": [],
-      "keyword": "Unite",
+      "keyword": "Overall",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -3478,7 +3478,7 @@
         "もっ.て"
       ],
       "examples": [],
-      "keyword": "From",
+      "keyword": "By Means Of",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -3507,7 +3507,7 @@
         "はた"
       ],
       "examples": [],
-      "keyword": "Machine",
+      "keyword": "Loom",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N3",
@@ -3536,7 +3536,7 @@
         "ひら-"
       ],
       "examples": [],
-      "keyword": "Flat",
+      "keyword": "Even",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -3564,7 +3564,7 @@
         "ふさ"
       ],
       "examples": [],
-      "keyword": "Whole",
+      "keyword": "General",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N2",
@@ -3693,7 +3693,7 @@
         "はなし"
       ],
       "examples": [],
-      "keyword": "Talk",
+      "keyword": "Tale",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N5",
@@ -3720,7 +3720,7 @@
         "よ"
       ],
       "examples": [],
-      "keyword": "World",
+      "keyword": "Generation",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -3773,7 +3773,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "District",
+      "keyword": "Ward",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N2",
@@ -3799,7 +3799,7 @@
         "えり"
       ],
       "examples": [],
-      "keyword": "Territory",
+      "keyword": "Jurisdiction",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N2",
@@ -3986,7 +3986,7 @@
         "もう.ける"
       ],
       "examples": [],
-      "keyword": "Establish",
+      "keyword": "Establishment",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -4014,7 +4014,7 @@
         "たも.つ"
       ],
       "examples": [],
-      "keyword": "Preserve",
+      "keyword": "Protect",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -4044,7 +4044,7 @@
         "あらた.まる"
       ],
       "examples": [],
-      "keyword": "Renew",
+      "keyword": "Reformation",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -4078,7 +4078,7 @@
         "わずらわ.しい"
       ],
       "examples": [],
-      "keyword": "Count",
+      "keyword": "Number",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -4102,7 +4102,7 @@
         "しる.す"
       ],
       "examples": [],
-      "keyword": "Write Down",
+      "keyword": "Scribe",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -4126,7 +4126,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Institution",
+      "keyword": "Inst.",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -4181,7 +4181,7 @@
         "-ぞ.め"
       ],
       "examples": [],
-      "keyword": "First",
+      "keyword": "First Time",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -4284,7 +4284,7 @@
         "はか.る"
       ],
       "examples": [],
-      "keyword": "Rights",
+      "keyword": "Authority",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -4358,7 +4358,7 @@
         "か.う"
       ],
       "examples": [],
-      "keyword": "Support",
+      "keyword": "Branch",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N3",
@@ -4380,7 +4380,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Ordinal Number Prefix",
+      "keyword": "No.",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -4411,7 +4411,7 @@
         "む.す"
       ],
       "examples": [],
-      "keyword": "Give Birth",
+      "keyword": "Products",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -4442,7 +4442,7 @@
         "ゆ.わえる"
       ],
       "examples": [],
-      "keyword": "Bind",
+      "keyword": "Tie",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -4490,7 +4490,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Sect",
+      "keyword": "Faction",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -4522,7 +4522,7 @@
         "ぼち"
       ],
       "examples": [],
-      "keyword": "Point",
+      "keyword": "Spot",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -4572,7 +4572,7 @@
         "むく.いる"
       ],
       "examples": [],
-      "keyword": "News",
+      "keyword": "Report",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -4609,7 +4609,7 @@
         "わた.る"
       ],
       "examples": [],
-      "keyword": "Come To An End",
+      "keyword": "Settle (debt, Etc.)",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -4657,7 +4657,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Government",
+      "keyword": "Borough",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -4713,7 +4713,7 @@
         "はら"
       ],
       "examples": [],
-      "keyword": "Original",
+      "keyword": "Meadow",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -4740,7 +4740,7 @@
         "ま.ず"
       ],
       "examples": [],
-      "keyword": "Previous",
+      "keyword": "Before",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N5",
@@ -4803,7 +4803,7 @@
         "う.る"
       ],
       "examples": [],
-      "keyword": "Acquire",
+      "keyword": "Gain",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -4844,7 +4844,7 @@
         "さと.る"
       ],
       "examples": [],
-      "keyword": "Untie",
+      "keyword": "Unravel",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -4905,7 +4905,7 @@
         "こもごも"
       ],
       "examples": [],
-      "keyword": "Mix",
+      "keyword": "Mingle",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -4931,7 +4931,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Resources",
+      "keyword": "Assets",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -4981,7 +4981,7 @@
         "かわ"
       ],
       "examples": [],
-      "keyword": "River",
+      "keyword": "Stream",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N5",
@@ -5070,7 +5070,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Inspect",
+      "keyword": "Investigate",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -5099,7 +5099,7 @@
         "かつ"
       ],
       "examples": [],
-      "keyword": "Win",
+      "keyword": "Victory",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -5127,7 +5127,7 @@
         "つら"
       ],
       "examples": [],
-      "keyword": "Face",
+      "keyword": "Mask",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -5178,7 +5178,7 @@
         "つ.げる"
       ],
       "examples": [],
-      "keyword": "Announce",
+      "keyword": "Revelation",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -5235,7 +5235,7 @@
         "あや"
       ],
       "examples": [],
-      "keyword": "Writing",
+      "keyword": "Sentence",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N4",
@@ -5264,7 +5264,7 @@
         "-かえ.る"
       ],
       "examples": [],
-      "keyword": "Anti",
+      "keyword": "Anti-",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N3",
@@ -5289,7 +5289,7 @@
         "もと"
       ],
       "examples": [],
-      "keyword": "Origin",
+      "keyword": "Beginning",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N4",
@@ -5397,7 +5397,7 @@
         "かんが.え"
       ],
       "examples": [],
-      "keyword": "Think",
+      "keyword": "Consider",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -5423,7 +5423,7 @@
         "わか.る"
       ],
       "examples": [],
-      "keyword": "Judge",
+      "keyword": "Judgement",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -5451,7 +5451,7 @@
         "したた.める"
       ],
       "examples": [],
-      "keyword": "Recognize",
+      "keyword": "Acknowledge",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -5481,7 +5481,7 @@
         "はか.る"
       ],
       "examples": [],
-      "keyword": "Drawing",
+      "keyword": "Brush-stroke",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -5540,7 +5540,7 @@
         "みつ"
       ],
       "examples": [],
-      "keyword": "Participate",
+      "keyword": "Nonplussed",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -5618,7 +5618,7 @@
         "-ぐみ"
       ],
       "examples": [],
-      "keyword": "Group",
+      "keyword": "Association",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -5704,7 +5704,7 @@
         "いう"
       ],
       "examples": [],
-      "keyword": "Road",
+      "keyword": "Road-way",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N4",
@@ -5727,7 +5727,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Believe",
+      "keyword": "Faith",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -5751,7 +5751,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Plan",
+      "keyword": "Scheme",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -5779,7 +5779,7 @@
         "つど.う"
       ],
       "examples": [],
-      "keyword": "Collect",
+      "keyword": "Gather",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N4",
@@ -5829,7 +5829,7 @@
         "くだん"
       ],
       "examples": [],
-      "keyword": "Matter",
+      "keyword": "Affair",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -5963,7 +5963,7 @@
         "まか.す"
       ],
       "examples": [],
-      "keyword": "Duty",
+      "keyword": "Responsibility",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -6181,7 +6181,7 @@
         "しな"
       ],
       "examples": [],
-      "keyword": "Product",
+      "keyword": "Goods",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N4",
@@ -6202,7 +6202,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Previous",
+      "keyword": "Yesterday",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -6223,7 +6223,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Theory",
+      "keyword": "Argument",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -6249,7 +6249,7 @@
         "はか.らう"
       ],
       "examples": [],
-      "keyword": "Measure",
+      "keyword": "Plot",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N4",
@@ -6295,7 +6295,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Government",
+      "keyword": "Bureaucrat",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -6352,7 +6352,7 @@
         "かか.わる"
       ],
       "examples": [],
-      "keyword": "Connection",
+      "keyword": "Person In Charge",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -6374,7 +6374,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Feeling",
+      "keyword": "Emotion",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -6422,7 +6422,7 @@
         "なさ.け"
       ],
       "examples": [],
-      "keyword": "Feeling",
+      "keyword": "Feelings",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -6480,7 +6480,7 @@
         "しめ.す"
       ],
       "examples": [],
-      "keyword": "Indicate",
+      "keyword": "Show",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -6506,7 +6506,7 @@
         "か.える"
       ],
       "examples": [],
-      "keyword": "Change",
+      "keyword": "Unusual",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -6535,7 +6535,7 @@
         "ぶ.つ"
       ],
       "examples": [],
-      "keyword": "Hit",
+      "keyword": "Strike",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -6559,7 +6559,7 @@
         "お"
       ],
       "examples": [],
-      "keyword": "Man",
+      "keyword": "Male",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N5",
@@ -6585,7 +6585,7 @@
         "もとい"
       ],
       "examples": [],
-      "keyword": "Foundation",
+      "keyword": "Fundamentals",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -6610,7 +6610,7 @@
         "わたし"
       ],
       "examples": [],
-      "keyword": "I",
+      "keyword": "Private",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N4",
@@ -6659,7 +6659,7 @@
         "はじ.まる"
       ],
       "examples": [],
-      "keyword": "Begin",
+      "keyword": "Commence",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -6714,7 +6714,7 @@
         "す.ぐ"
       ],
       "examples": [],
-      "keyword": "Fix",
+      "keyword": "Straightaway",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -6843,7 +6843,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Ritual",
+      "keyword": "Style",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -6874,7 +6874,7 @@
         "たし.かめる"
       ],
       "examples": [],
-      "keyword": "Certain",
+      "keyword": "Assurance",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -6923,7 +6923,7 @@
         "さ.げる"
       ],
       "examples": [],
-      "keyword": "Present",
+      "keyword": "Propose",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -7093,7 +7093,7 @@
         "はずみ"
       ],
       "examples": [],
-      "keyword": "Force",
+      "keyword": "Forces",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -7121,7 +7121,7 @@
         "へ.らす"
       ],
       "examples": [],
-      "keyword": "Decrease",
+      "keyword": "Dwindle",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -7148,7 +7148,7 @@
         "つかさ"
       ],
       "examples": [],
-      "keyword": "Machine",
+      "keyword": "Pedestal",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -7200,7 +7200,7 @@
         "い.れる"
       ],
       "examples": [],
-      "keyword": "Form",
+      "keyword": "Contain",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -7224,7 +7224,7 @@
         "かなら.ず"
       ],
       "examples": [],
-      "keyword": "Certain",
+      "keyword": "Invariably",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -7255,7 +7255,7 @@
         "こた.える"
       ],
       "examples": [],
-      "keyword": "Respond",
+      "keyword": "Apply",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -7279,7 +7279,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Perform",
+      "keyword": "Performance",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -7327,7 +7327,7 @@
         "よわい"
       ],
       "examples": [],
-      "keyword": "Years Old",
+      "keyword": "Year-end",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -7356,7 +7356,7 @@
         "-ず.まい"
       ],
       "examples": [],
-      "keyword": "Dwelling",
+      "keyword": "Dwell",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N4",
@@ -7381,7 +7381,7 @@
         "いか.でか"
       ],
       "examples": [],
-      "keyword": "Conflict",
+      "keyword": "Contend",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -7455,7 +7455,7 @@
         "な.い"
       ],
       "examples": [],
-      "keyword": "Nothing",
+      "keyword": "Nothingness",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": null,
@@ -7537,7 +7537,7 @@
         "-お.き"
       ],
       "examples": [],
-      "keyword": "Put",
+      "keyword": "Placement",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -7564,7 +7564,7 @@
         "たくら.む"
       ],
       "examples": [],
-      "keyword": "Plan",
+      "keyword": "Undertake",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N1",
@@ -7590,7 +7590,7 @@
         "まこと"
       ],
       "examples": [],
-      "keyword": "Reality",
+      "keyword": "True",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -7619,7 +7619,7 @@
         "-なが.す"
       ],
       "examples": [],
-      "keyword": "Stream",
+      "keyword": "Current",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -7674,7 +7674,7 @@
         "あ.る"
       ],
       "examples": [],
-      "keyword": "Have",
+      "keyword": "Possess",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -7753,7 +7753,7 @@
         "よ.ぎる"
       ],
       "examples": [],
-      "keyword": "Surpass",
+      "keyword": "Overdo",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -7839,7 +7839,7 @@
         "ほう.る"
       ],
       "examples": [],
-      "keyword": "Release",
+      "keyword": "Set Free",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -7883,7 +7883,7 @@
         "しら.べる"
       ],
       "examples": [],
-      "keyword": "Examine",
+      "keyword": "Examination",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -7961,7 +7961,7 @@
         "とこ-"
       ],
       "examples": [],
-      "keyword": "Ordinary",
+      "keyword": "Usual",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -7986,7 +7986,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "School",
+      "keyword": "Exam",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N5",
@@ -8061,7 +8061,7 @@
         "さば.く"
       ],
       "examples": [],
-      "keyword": "Judge",
+      "keyword": "Tailor",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -8085,7 +8085,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Condition",
+      "keyword": "Status Quo",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -8109,7 +8109,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Construction",
+      "keyword": "Craft",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N4",
@@ -8160,7 +8160,7 @@
         "かた.らう"
       ],
       "examples": [],
-      "keyword": "Language",
+      "keyword": "Word",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N5",
@@ -8183,7 +8183,7 @@
         "たま"
       ],
       "examples": [],
-      "keyword": "Sphere",
+      "keyword": "Ball",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -8210,7 +8210,7 @@
         "いとな.み"
       ],
       "examples": [],
-      "keyword": "Manage",
+      "keyword": "Occupation",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -8243,7 +8243,7 @@
         "むな.しい"
       ],
       "examples": [],
-      "keyword": "Sky",
+      "keyword": "Empty",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -8266,7 +8266,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Employment",
+      "keyword": "Post",
       "etymology": "",
       "stroke_count": 18,
       "jlpt": "N3",
@@ -8316,7 +8316,7 @@
         "つち"
       ],
       "examples": [],
-      "keyword": "Dirt",
+      "keyword": "Soil",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N5",
@@ -8349,7 +8349,7 @@
         "ともに"
       ],
       "examples": [],
-      "keyword": "Give",
+      "keyword": "Bestow",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N3",
@@ -8435,7 +8435,7 @@
         "おく.る"
       ],
       "examples": [],
-      "keyword": "Send",
+      "keyword": "Escort",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N4",
@@ -8457,7 +8457,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Aid",
+      "keyword": "Abet",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -8488,7 +8488,7 @@
         "-ども"
       ],
       "examples": [],
-      "keyword": "Servant",
+      "keyword": "Submit",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -8516,7 +8516,7 @@
         "-べ.し"
       ],
       "examples": [],
-      "keyword": "Possible",
+      "keyword": "Can",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": null,
@@ -8542,7 +8542,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Service",
+      "keyword": "Duty",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -8567,7 +8567,7 @@
         "かま.う"
       ],
       "examples": [],
-      "keyword": "Set Up",
+      "keyword": "Posture",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -8623,7 +8623,7 @@
         "さ.く"
       ],
       "examples": [],
-      "keyword": "Divide",
+      "keyword": "Proportion",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -8738,7 +8738,7 @@
         "-づき"
       ],
       "examples": [],
-      "keyword": "Attach",
+      "keyword": "Adhere",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -8764,7 +8764,7 @@
         "ほどこ.す"
       ],
       "examples": [],
-      "keyword": "Carry Out",
+      "keyword": "Give",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -8824,7 +8824,7 @@
         "よ.る"
       ],
       "examples": [],
-      "keyword": "Reason",
+      "keyword": "Wherefore",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -8850,7 +8850,7 @@
         "と.く"
       ],
       "examples": [],
-      "keyword": "Theory",
+      "keyword": "Opinion",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -8989,7 +8989,7 @@
         "ふせ.ぐ"
       ],
       "examples": [],
-      "keyword": "Prevent",
+      "keyword": "Ward Off",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -9069,7 +9069,7 @@
         "まさ.る"
       ],
       "examples": [],
-      "keyword": "Superior",
+      "keyword": "Tenderness",
       "etymology": "",
       "stroke_count": 17,
       "jlpt": "N3",
@@ -9119,7 +9119,7 @@
         "と.ぐ"
       ],
       "examples": [],
-      "keyword": "Sharpen",
+      "keyword": "Polish",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N4",
@@ -9147,7 +9147,7 @@
         "おさ.まる"
       ],
       "examples": [],
-      "keyword": "Obtain",
+      "keyword": "Income",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N3",
@@ -9180,7 +9180,7 @@
         "さだ.める"
       ],
       "examples": [],
-      "keyword": "Cut Off",
+      "keyword": "Severance",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -9306,7 +9306,7 @@
         "た.す"
       ],
       "examples": [],
-      "keyword": "Foot",
+      "keyword": "Leg",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N4",
@@ -9334,7 +9334,7 @@
         "たが.える"
       ],
       "examples": [],
-      "keyword": "Different",
+      "keyword": "Difference",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -9413,7 +9413,7 @@
         "こう-"
       ],
       "examples": [],
-      "keyword": "God",
+      "keyword": "Gods",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -9436,7 +9436,7 @@
         "つが.い"
       ],
       "examples": [],
-      "keyword": "Number In A Series",
+      "keyword": "Turn",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -9508,7 +9508,7 @@
         "まも.る"
       ],
       "examples": [],
-      "keyword": "Defend",
+      "keyword": "Safeguard",
       "etymology": "",
       "stroke_count": 20,
       "jlpt": "N1",
@@ -9529,7 +9529,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Expand",
+      "keyword": "Unfold",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -9555,7 +9555,7 @@
         "わざ.と"
       ],
       "examples": [],
-      "keyword": "Appearance",
+      "keyword": "Attitude",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -9580,7 +9580,7 @@
         "みちび.く"
       ],
       "examples": [],
-      "keyword": "Lead",
+      "keyword": "Guidance",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N2",
@@ -9632,7 +9632,7 @@
         "つぶさ.に"
       ],
       "examples": [],
-      "keyword": "Provide",
+      "keyword": "Equip",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -9656,7 +9656,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "House",
+      "keyword": "Home",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -9677,7 +9677,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Damage",
+      "keyword": "Harm",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -9726,7 +9726,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Vice",
+      "keyword": "Vice-",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -9777,7 +9777,7 @@
         "み.る"
       ],
       "examples": [],
-      "keyword": "Look At",
+      "keyword": "Inspection",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -9806,7 +9806,7 @@
         "すじ"
       ],
       "examples": [],
-      "keyword": "Clause",
+      "keyword": "Article",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -9857,7 +9857,7 @@
         "ひと.り"
       ],
       "examples": [],
-      "keyword": "Alone",
+      "keyword": "Single",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -9880,7 +9880,7 @@
         "いまし.める"
       ],
       "examples": [],
-      "keyword": "Warn",
+      "keyword": "Admonish",
       "etymology": "",
       "stroke_count": 19,
       "jlpt": "N3",
@@ -9960,7 +9960,7 @@
         "はぐく.む"
       ],
       "examples": [],
-      "keyword": "Nurture",
+      "keyword": "Bring Up",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -10035,7 +10035,7 @@
         "と.う"
       ],
       "examples": [],
-      "keyword": "Visit",
+      "keyword": "Call On",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -10063,7 +10063,7 @@
         "この.む"
       ],
       "examples": [],
-      "keyword": "Comfort",
+      "keyword": "Music",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N4",
@@ -10091,7 +10091,7 @@
         "た.つ"
       ],
       "examples": [],
-      "keyword": "Wake Up",
+      "keyword": "Rouse",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -10146,7 +10146,7 @@
         "つ.ける"
       ],
       "examples": [],
-      "keyword": "Wear",
+      "keyword": "Don",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N4",
@@ -10202,7 +10202,7 @@
         "たな"
       ],
       "examples": [],
-      "keyword": "Shop",
+      "keyword": "Store",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -10335,7 +10335,7 @@
         "ひき.いる"
       ],
       "examples": [],
-      "keyword": "Percent",
+      "keyword": "Ratio",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -10361,7 +10361,7 @@
         "やまい"
       ],
       "examples": [],
-      "keyword": "Sick",
+      "keyword": "Ill",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -10382,7 +10382,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Farming",
+      "keyword": "Agriculture",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -10433,7 +10433,7 @@
         "たけ.し"
       ],
       "examples": [],
-      "keyword": "Military",
+      "keyword": "Warrior",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -10487,7 +10487,7 @@
         "わりふ"
       ],
       "examples": [],
-      "keyword": "Quality",
+      "keyword": "Substance",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N4",
@@ -10513,7 +10513,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Thought",
+      "keyword": "Wish",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -10564,7 +10564,7 @@
         "ため.す"
       ],
       "examples": [],
-      "keyword": "Try",
+      "keyword": "Test",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N4",
@@ -10659,7 +10659,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Region",
+      "keyword": "Range",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -10794,7 +10794,7 @@
         "さ"
       ],
       "examples": [],
-      "keyword": "Nature",
+      "keyword": "Sort Of Thing",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -10851,7 +10851,7 @@
         "-ば.り"
       ],
       "examples": [],
-      "keyword": "Stretch",
+      "keyword": "Lengthen",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -10961,7 +10961,7 @@
         "ひたい"
       ],
       "examples": [],
-      "keyword": "Amount",
+      "keyword": "Forehead",
       "etymology": "",
       "stroke_count": 18,
       "jlpt": "N2",
@@ -11010,7 +11010,7 @@
         "わ"
       ],
       "examples": [],
-      "keyword": "Loop",
+      "keyword": "Ring",
       "etymology": "",
       "stroke_count": 17,
       "jlpt": "N1",
@@ -11038,7 +11038,7 @@
         "ためし"
       ],
       "examples": [],
-      "keyword": "Test",
+      "keyword": "Verification",
       "etymology": "",
       "stroke_count": 18,
       "jlpt": "N4",
@@ -11064,7 +11064,7 @@
         "お.う"
       ],
       "examples": [],
-      "keyword": "Follow",
+      "keyword": "Chase",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -11089,7 +11089,7 @@
         "つぶさ.に"
       ],
       "examples": [],
-      "keyword": "Judge",
+      "keyword": "Hearing",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -11114,7 +11114,7 @@
         "あきな.う"
       ],
       "examples": [],
-      "keyword": "Merchandise",
+      "keyword": "Make A Deal",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -11276,7 +11276,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Scene",
+      "keyword": "Scenery",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -11353,7 +11353,7 @@
         "にな.う"
       ],
       "examples": [],
-      "keyword": "Carry",
+      "keyword": "Shouldering",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -11380,7 +11380,7 @@
         "い.い"
       ],
       "examples": [],
-      "keyword": "Like",
+      "keyword": "Fond",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -11444,7 +11444,7 @@
         "みずもり"
       ],
       "examples": [],
-      "keyword": "Standard",
+      "keyword": "Semi-",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -11493,7 +11493,7 @@
         "うった.える"
       ],
       "examples": [],
-      "keyword": "Sue",
+      "keyword": "Accusation",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -11520,7 +11520,7 @@
         "-べ"
       ],
       "examples": [],
-      "keyword": "Area",
+      "keyword": "Environs",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -11715,7 +11715,7 @@
         "ひく.まる"
       ],
       "examples": [],
-      "keyword": "Low",
+      "keyword": "Lower",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -11763,7 +11763,7 @@
         "くすし"
       ],
       "examples": [],
-      "keyword": "Medicine",
+      "keyword": "Doctor",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N4",
@@ -11814,7 +11814,7 @@
         "つか.える"
       ],
       "examples": [],
-      "keyword": "Doing",
+      "keyword": "Attend",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -11844,7 +11844,7 @@
         "-さ.る"
       ],
       "examples": [],
-      "keyword": "Past",
+      "keyword": "Gone",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N4",
@@ -11922,7 +11922,7 @@
         "お.う"
       ],
       "examples": [],
-      "keyword": "Lose",
+      "keyword": "Defeat",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -11944,7 +11944,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "The Cabinet",
+      "keyword": "Tower",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -12024,7 +12024,7 @@
         "う.せる"
       ],
       "examples": [],
-      "keyword": "Fault",
+      "keyword": "Lose",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -12106,7 +12106,7 @@
         "おお.い"
       ],
       "examples": [],
-      "keyword": "Populace",
+      "keyword": "Masses",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -12152,7 +12152,7 @@
         "と"
       ],
       "examples": [],
-      "keyword": "Gates",
+      "keyword": "Gate",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -12227,7 +12227,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Section",
+      "keyword": "Chapter",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N2",
@@ -12284,7 +12284,7 @@
         "かみ"
       ],
       "examples": [],
-      "keyword": "Protect",
+      "keyword": "Guard",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -12381,7 +12381,7 @@
         "き.まる"
       ],
       "examples": [],
-      "keyword": "Extreme",
+      "keyword": "Poles",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -12408,7 +12408,7 @@
         "-ぐさ"
       ],
       "examples": [],
-      "keyword": "Kind",
+      "keyword": "Species",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -12456,7 +12456,7 @@
         "おか"
       ],
       "examples": [],
-      "keyword": "Hill",
+      "keyword": "Mount",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": null,
@@ -12535,7 +12535,7 @@
         "ふく.める"
       ],
       "examples": [],
-      "keyword": "Include",
+      "keyword": "Contain",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -12558,7 +12558,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Luck",
+      "keyword": "Blessing",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -12644,7 +12644,7 @@
         "もち"
       ],
       "examples": [],
-      "keyword": "Hope",
+      "keyword": "Ambition",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -12666,7 +12666,7 @@
         "まつ"
       ],
       "examples": [],
-      "keyword": "Pine",
+      "keyword": "Pine Tree",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N1",
@@ -12692,7 +12692,7 @@
         "あら.ず"
       ],
       "examples": [],
-      "keyword": "Injustice",
+      "keyword": "Un-",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -12717,7 +12717,7 @@
         "う.つ"
       ],
       "examples": [],
-      "keyword": "Attack",
+      "keyword": "Beat",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -12738,7 +12738,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Help",
+      "keyword": "Assistant",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -12787,7 +12787,7 @@
         "しめ.す"
       ],
       "examples": [],
-      "keyword": "View",
+      "keyword": "Outlook",
       "etymology": "",
       "stroke_count": 18,
       "jlpt": "N3",
@@ -12839,7 +12839,7 @@
         "ととの.う"
       ],
       "examples": [],
-      "keyword": "Arrange",
+      "keyword": "Organize",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N1",
@@ -12862,7 +12862,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Steps",
+      "keyword": "Grade",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -12890,7 +12890,7 @@
         "よこ"
       ],
       "examples": [],
-      "keyword": "Side",
+      "keyword": "Sideways",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -12939,7 +12939,7 @@
         "-がた"
       ],
       "examples": [],
-      "keyword": "Model",
+      "keyword": "Mould",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -13020,7 +13020,7 @@
         "-な"
       ],
       "examples": [],
-      "keyword": "Letter",
+      "keyword": "Character",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N4",
@@ -13044,7 +13044,7 @@
         "こた.え"
       ],
       "examples": [],
-      "keyword": "Answer",
+      "keyword": "Solution",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N4",
@@ -13089,7 +13089,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Manufacture",
+      "keyword": "Made In...",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -13190,7 +13190,7 @@
         "さる"
       ],
       "examples": [],
-      "keyword": "Say Humbly",
+      "keyword": "Have The Honor To",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -13218,7 +13218,7 @@
         "さん"
       ],
       "examples": [],
-      "keyword": "Formal Name Title",
+      "keyword": "Esq.",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -13245,7 +13245,7 @@
         "たから"
       ],
       "examples": [],
-      "keyword": "Wealth",
+      "keyword": "Property",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -13292,7 +13292,7 @@
         "しる.す"
       ],
       "examples": [],
-      "keyword": "Discerning",
+      "keyword": "Discriminating",
       "etymology": "",
       "stroke_count": 19,
       "jlpt": "N3",
@@ -13400,7 +13400,7 @@
         "-たち"
       ],
       "examples": [],
-      "keyword": "Attain",
+      "keyword": "Accomplished",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -13503,7 +13503,7 @@
         "とつ.ぐ"
       ],
       "examples": [],
-      "keyword": "Return",
+      "keyword": "Homecoming",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N4",
@@ -13580,7 +13580,7 @@
         "お.す"
       ],
       "examples": [],
-      "keyword": "Infer",
+      "keyword": "Conjecture",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -13700,7 +13700,7 @@
         "あま-"
       ],
       "examples": [],
-      "keyword": "Heaven",
+      "keyword": "Heavens",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N5",
@@ -13724,7 +13724,7 @@
         "きざはし"
       ],
       "examples": [],
-      "keyword": "Floor",
+      "keyword": "Storey",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -13857,7 +13857,7 @@
         "あたい"
       ],
       "examples": [],
-      "keyword": "Value",
+      "keyword": "Price",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -13987,7 +13987,7 @@
         "つ.ぐ"
       ],
       "examples": [],
-      "keyword": "Adjoin",
+      "keyword": "Touch",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -14014,7 +14014,7 @@
         "う.ける"
       ],
       "examples": [],
-      "keyword": "Request",
+      "keyword": "Solicit",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -14044,7 +14044,7 @@
         "うつわ"
       ],
       "examples": [],
-      "keyword": "Container",
+      "keyword": "Utensil",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -14069,7 +14069,7 @@
         "さむらい"
       ],
       "examples": [],
-      "keyword": "Samurai",
+      "keyword": "Gentleman",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N1",
@@ -14093,7 +14093,7 @@
         "ひかり"
       ],
       "examples": [],
-      "keyword": "Sunlight",
+      "keyword": "Ray",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -14146,7 +14146,7 @@
         "みち"
       ],
       "examples": [],
-      "keyword": "Road",
+      "keyword": "Path",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -14204,7 +14204,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Course",
+      "keyword": "Department",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -14255,7 +14255,7 @@
         "みさき"
       ],
       "examples": [],
-      "keyword": "Cape",
+      "keyword": "Promontory",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -14305,7 +14305,7 @@
         "さず.かる"
       ],
       "examples": [],
-      "keyword": "Instruct",
+      "keyword": "Impart",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -14361,7 +14361,7 @@
         "こま.かい"
       ],
       "examples": [],
-      "keyword": "Thin",
+      "keyword": "Dainty",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -14388,7 +14388,7 @@
         "なら.う"
       ],
       "examples": [],
-      "keyword": "Effective",
+      "keyword": "Merit",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -14416,7 +14416,7 @@
         "はか.る"
       ],
       "examples": [],
-      "keyword": "Diagram",
+      "keyword": "Map",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N4",
@@ -14468,7 +14468,7 @@
         "つ.もり"
       ],
       "examples": [],
-      "keyword": "Accumulate",
+      "keyword": "Volume",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N3",
@@ -14501,7 +14501,7 @@
         "まる.い"
       ],
       "examples": [],
-      "keyword": "Circle",
+      "keyword": "Round",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N2",
@@ -14553,7 +14553,7 @@
         "およ.ぼす"
       ],
       "examples": [],
-      "keyword": "Reach",
+      "keyword": "Reach Out",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N1",
@@ -14631,7 +14631,7 @@
         "お.る"
       ],
       "examples": [],
-      "keyword": "Deal With",
+      "keyword": "Dispose",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -14657,7 +14657,7 @@
         "はぶ.く"
       ],
       "examples": [],
-      "keyword": "Conserve",
+      "keyword": "Focus",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -14684,7 +14684,7 @@
         "もと"
       ],
       "examples": [],
-      "keyword": "Former",
+      "keyword": "Old Times",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -14757,7 +14757,7 @@
         "ふと.る"
       ],
       "examples": [],
-      "keyword": "Fat",
+      "keyword": "Plump",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N3",
@@ -14853,7 +14853,7 @@
         "きし"
       ],
       "examples": [],
-      "keyword": "Coast",
+      "keyword": "Beach",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -14953,7 +14953,7 @@
         "はげ.しい"
       ],
       "examples": [],
-      "keyword": "Fierce",
+      "keyword": "Violent",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N1",
@@ -14981,7 +14981,7 @@
         "いや"
       ],
       "examples": [],
-      "keyword": "No",
+      "keyword": "Negate",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -15033,7 +15033,7 @@
         "いくさ"
       ],
       "examples": [],
-      "keyword": "Teacher",
+      "keyword": "Expert",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -15060,7 +15060,7 @@
         "つ.む"
       ],
       "examples": [],
-      "keyword": "Pluck",
+      "keyword": "Pinch",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -15114,7 +15114,7 @@
         "あ.がる"
       ],
       "examples": [],
-      "keyword": "Climb",
+      "keyword": "Ascend",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -15180,7 +15180,7 @@
         "おとこ"
       ],
       "examples": [],
-      "keyword": "Guy",
+      "keyword": "Son",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -15354,7 +15354,7 @@
         "すみ.やか"
       ],
       "examples": [],
-      "keyword": "Fast",
+      "keyword": "Quick",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -15430,7 +15430,7 @@
         "はる"
       ],
       "examples": [],
-      "keyword": "Spring",
+      "keyword": "Springtime",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N4",
@@ -15586,7 +15586,7 @@
         "よびな"
       ],
       "examples": [],
-      "keyword": "Number",
+      "keyword": "Nickname",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -15658,7 +15658,7 @@
         "すわ.る"
       ],
       "examples": [],
-      "keyword": "Sit",
+      "keyword": "Squat",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -15714,7 +15714,7 @@
         "わ.れる"
       ],
       "examples": [],
-      "keyword": "Tear",
+      "keyword": "Rend",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -15744,7 +15744,7 @@
         "-あ.み"
       ],
       "examples": [],
-      "keyword": "Knit",
+      "keyword": "Compilation",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N2",
@@ -15899,7 +15899,7 @@
         "こ.す"
       ],
       "examples": [],
-      "keyword": "Ultra",
+      "keyword": "Transcend",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -15957,7 +15957,7 @@
         "なら.びに"
       ],
       "examples": [],
-      "keyword": "Line Up",
+      "keyword": "Row",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -16011,7 +16011,7 @@
         "より"
       ],
       "examples": [],
-      "keyword": "Obey",
+      "keyword": "Accompany",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -16113,7 +16113,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Squad",
+      "keyword": "Regiment",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -16164,7 +16164,7 @@
         "と.る"
       ],
       "examples": [],
-      "keyword": "Gather",
+      "keyword": "Pick",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -16246,7 +16246,7 @@
         "くら.べる"
       ],
       "examples": [],
-      "keyword": "Compete",
+      "keyword": "Emulate",
       "etymology": "",
       "stroke_count": 20,
       "jlpt": "N2",
@@ -16274,7 +16274,7 @@
         "ひろ.める"
       ],
       "examples": [],
-      "keyword": "Extend",
+      "keyword": "Broaden",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N1",
@@ -16306,7 +16306,7 @@
         "もと"
       ],
       "examples": [],
-      "keyword": "Circumstance",
+      "keyword": "Happenstance",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -16332,7 +16332,7 @@
         "たて"
       ],
       "examples": [],
-      "keyword": "Public Building",
+      "keyword": "Building",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N4",
@@ -16499,7 +16499,7 @@
         "あらそ.う"
       ],
       "examples": [],
-      "keyword": "Dialect",
+      "keyword": "Valve",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N1",
@@ -16630,7 +16630,7 @@
         "つ.ける"
       ],
       "examples": [],
-      "keyword": "Settle In",
+      "keyword": "Concerning",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -16698,7 +16698,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Sell",
+      "keyword": "Marketing",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -16723,7 +16723,7 @@
         "その"
       ],
       "examples": [],
-      "keyword": "Garden",
+      "keyword": "Park",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -16804,7 +16804,7 @@
         "け"
       ],
       "examples": [],
-      "keyword": "Differ",
+      "keyword": "Uncommon",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -16827,7 +16827,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Continuation",
+      "keyword": "Curriculum",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N2",
@@ -16853,7 +16853,7 @@
         "いな.む"
       ],
       "examples": [],
-      "keyword": "Quit",
+      "keyword": "Resign",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -16888,7 +16888,7 @@
         "もって"
       ],
       "examples": [],
-      "keyword": "Commander",
+      "keyword": "Leader",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -16964,7 +16964,7 @@
         "たてまつ.る"
       ],
       "examples": [],
-      "keyword": "Offer",
+      "keyword": "Offering",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -16993,7 +16993,7 @@
         "いつくし"
       ],
       "examples": [],
-      "keyword": "Strict",
+      "keyword": "Stern",
       "etymology": "",
       "stroke_count": 17,
       "jlpt": "N1",
@@ -17068,7 +17068,7 @@
         "はば"
       ],
       "examples": [],
-      "keyword": "Width",
+      "keyword": "Hanging Scroll",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -17117,7 +17117,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Maintain",
+      "keyword": "Fiber",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -17143,7 +17143,7 @@
         "とみ"
       ],
       "examples": [],
-      "keyword": "Rich",
+      "keyword": "Wealth",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -17167,7 +17167,7 @@
         "はま"
       ],
       "examples": [],
-      "keyword": "Beach",
+      "keyword": "Seacoast",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -17214,7 +17214,7 @@
         "のこ.す"
       ],
       "examples": [],
-      "keyword": "Leave Behind",
+      "keyword": "Bequeath",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -17265,7 +17265,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Generally",
+      "keyword": "Carrier",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -17297,7 +17297,7 @@
         "ひつじ"
       ],
       "examples": [],
-      "keyword": "Not Yet",
+      "keyword": "Un-",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N3",
@@ -17325,7 +17325,7 @@
         "とりで"
       ],
       "examples": [],
-      "keyword": "Base",
+      "keyword": "Bases",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -17442,7 +17442,7 @@
         "はやし"
       ],
       "examples": [],
-      "keyword": "Forest",
+      "keyword": "Grove",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -17545,7 +17545,7 @@
         "もと"
       ],
       "examples": [],
-      "keyword": "Element",
+      "keyword": "Elementary",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -17575,7 +17575,7 @@
         "ほろ.ぼす"
       ],
       "examples": [],
-      "keyword": "Death",
+      "keyword": "Deceased",
       "etymology": "",
       "stroke_count": 3,
       "jlpt": "N3",
@@ -17673,7 +17673,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Navigation",
+      "keyword": "Navigate",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -17781,7 +17781,7 @@
         "おん"
       ],
       "examples": [],
-      "keyword": "Male",
+      "keyword": "Masculine",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -17832,7 +17832,7 @@
         "よめ"
       ],
       "examples": [],
-      "keyword": "Wife",
+      "keyword": "Lady",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -17884,7 +17884,7 @@
         "よ.せる"
       ],
       "examples": [],
-      "keyword": "Approach",
+      "keyword": "Draw Near",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -18014,7 +18014,7 @@
         "たぐ.い"
       ],
       "examples": [],
-      "keyword": "Type",
+      "keyword": "Sort",
       "etymology": "",
       "stroke_count": 18,
       "jlpt": "N3",
@@ -18042,7 +18042,7 @@
         "-っこ"
       ],
       "examples": [],
-      "keyword": "Child",
+      "keyword": "Newborn Babe",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -18071,7 +18071,7 @@
         "あんま.り"
       ],
       "examples": [],
-      "keyword": "Surplus",
+      "keyword": "Too Much",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -18093,7 +18093,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Prohibit",
+      "keyword": "Prohibition",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -18126,7 +18126,7 @@
         "しる.す"
       ],
       "examples": [],
-      "keyword": "Seal",
+      "keyword": "Stamp",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N2",
@@ -18154,7 +18154,7 @@
         "さか.らう"
       ],
       "examples": [],
-      "keyword": "Reverse",
+      "keyword": "Inverted",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -18267,7 +18267,7 @@
         "か.わる"
       ],
       "examples": [],
-      "keyword": "Exchange",
+      "keyword": "Interchange",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -18394,7 +18394,7 @@
         "あば.れる"
       ],
       "examples": [],
-      "keyword": "Violence",
+      "keyword": "Outburst",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N2",
@@ -18451,7 +18451,7 @@
         "うらな.う"
       ],
       "examples": [],
-      "keyword": "Fortune",
+      "keyword": "Fortune-telling",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -18507,7 +18507,7 @@
         "そむ.ける"
       ],
       "examples": [],
-      "keyword": "Back",
+      "keyword": "Stature",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N3",
@@ -18555,7 +18555,7 @@
         "すた.る"
       ],
       "examples": [],
-      "keyword": "Obsolete",
+      "keyword": "Abolish",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -18635,7 +18635,7 @@
         "やど.す"
       ],
       "examples": [],
-      "keyword": "Lodge",
+      "keyword": "Inn",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -18707,7 +18707,7 @@
         "え"
       ],
       "examples": [],
-      "keyword": "Inlet",
+      "keyword": "Creek",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N1",
@@ -18787,7 +18787,7 @@
         "けわ.しい"
       ],
       "examples": [],
-      "keyword": "Risky",
+      "keyword": "Precipitous",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -18915,7 +18915,7 @@
         "さか.ん"
       ],
       "examples": [],
-      "keyword": "Pile",
+      "keyword": "Boom",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -18939,7 +18939,7 @@
         "ふな-"
       ],
       "examples": [],
-      "keyword": "Boat",
+      "keyword": "Ship",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -18985,7 +18985,7 @@
         "なら.す"
       ],
       "examples": [],
-      "keyword": "Equal",
+      "keyword": "Level",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -19092,7 +19092,7 @@
         "わざ"
       ],
       "examples": [],
-      "keyword": "Acting",
+      "keyword": "Technique",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -19233,7 +19233,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Government Office",
+      "keyword": "Signature",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -19268,7 +19268,7 @@
         "ぬ.かる"
       ],
       "examples": [],
-      "keyword": "Extract",
+      "keyword": "Slip Out",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -19295,7 +19295,7 @@
         "やぶ.る"
       ],
       "examples": [],
-      "keyword": "Break",
+      "keyword": "Demolition",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N1",
@@ -19317,7 +19317,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Debt",
+      "keyword": "Bond",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -19374,7 +19374,7 @@
         "の.す"
       ],
       "examples": [],
-      "keyword": "Stretch",
+      "keyword": "Expand",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -19483,7 +19483,7 @@
         "おこ.す"
       ],
       "examples": [],
-      "keyword": "Interest",
+      "keyword": "Entertain",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N1",
@@ -19508,7 +19508,7 @@
         "は.ぜる"
       ],
       "examples": [],
-      "keyword": "Explode",
+      "keyword": "Bomb",
       "etymology": "",
       "stroke_count": 19,
       "jlpt": "N2",
@@ -19557,7 +19557,7 @@
         "-だま"
       ],
       "examples": [],
-      "keyword": "Ball",
+      "keyword": "Jewel",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -19580,7 +19580,7 @@
         "みなもと"
       ],
       "examples": [],
-      "keyword": "Origin",
+      "keyword": "Source",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -19628,7 +19628,7 @@
         "なみ"
       ],
       "examples": [],
-      "keyword": "Wave",
+      "keyword": "Waves",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -19659,7 +19659,7 @@
         "けず.しける"
       ],
       "examples": [],
-      "keyword": "Create",
+      "keyword": "Genesis",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -19765,7 +19765,7 @@
         "ねら.い"
       ],
       "examples": [],
-      "keyword": "Aim",
+      "keyword": "Aim At",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": null,
@@ -19791,7 +19791,7 @@
         "おび"
       ],
       "examples": [],
-      "keyword": "Belt",
+      "keyword": "Sash",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -19842,7 +19842,7 @@
         "はね"
       ],
       "examples": [],
-      "keyword": "Feather",
+      "keyword": "Feathers",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N2",
@@ -19894,7 +19894,7 @@
         "かた.い"
       ],
       "examples": [],
-      "keyword": "Hard",
+      "keyword": "Harden",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -19918,7 +19918,7 @@
         "あらそ.う"
       ],
       "examples": [],
-      "keyword": "Struggle",
+      "keyword": "Fight",
       "etymology": "",
       "stroke_count": 18,
       "jlpt": "N1",
@@ -19950,7 +19950,7 @@
         "くわ.しい"
       ],
       "examples": [],
-      "keyword": "Spirit",
+      "keyword": "Refined",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -19999,7 +19999,7 @@
         "ほうむ.る"
       ],
       "examples": [],
-      "keyword": "Burial",
+      "keyword": "Interment",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -20058,7 +20058,7 @@
         "よ.ける"
       ],
       "examples": [],
-      "keyword": "Dodge",
+      "keyword": "Evade",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N1",
@@ -20084,7 +20084,7 @@
         "あまねし"
       ],
       "examples": [],
-      "keyword": "Normal",
+      "keyword": "Universal",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -20188,7 +20188,7 @@
         "はか.る"
       ],
       "examples": [],
-      "keyword": "Measure",
+      "keyword": "Fathom",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -20214,7 +20214,7 @@
         "とよ"
       ],
       "examples": [],
-      "keyword": "Plentiful",
+      "keyword": "Bountiful",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -20237,7 +20237,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Western Style",
+      "keyword": "Ocean",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N4",
@@ -20290,7 +20290,7 @@
         "よし.とする"
       ],
       "examples": [],
-      "keyword": "Morally Good",
+      "keyword": "Virtuous",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -20553,7 +20553,7 @@
         "う.ける"
       ],
       "examples": [],
-      "keyword": "Consent",
+      "keyword": "Acquiesce",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -20581,7 +20581,7 @@
         "う.かべる"
       ],
       "examples": [],
-      "keyword": "Float",
+      "keyword": "Floating",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -20605,7 +20605,7 @@
         "まど.う"
       ],
       "examples": [],
-      "keyword": "Misguided",
+      "keyword": "Beguile",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -20657,7 +20657,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Order",
+      "keyword": "Obey",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -20682,7 +20682,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Account",
+      "keyword": "Chronicle",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -20793,7 +20793,7 @@
         "た.つ"
       ],
       "examples": [],
-      "keyword": "Extinction",
+      "keyword": "Discontinue",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -20815,7 +20815,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Level",
+      "keyword": "Class",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -20957,7 +20957,7 @@
         "かろ.んじる"
       ],
       "examples": [],
-      "keyword": "Lightweight",
+      "keyword": "Lightly",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -21009,7 +21009,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Finish",
+      "keyword": "Complete",
       "etymology": "",
       "stroke_count": 2,
       "jlpt": "N2",
@@ -21032,7 +21032,7 @@
         "やくしょ"
       ],
       "examples": [],
-      "keyword": "Agency",
+      "keyword": "Government Office",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -21059,7 +21059,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Exhibition",
+      "keyword": "Dr.",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -21166,7 +21166,7 @@
         "-ら"
       ],
       "examples": [],
-      "keyword": "Equal",
+      "keyword": "Etc.",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -21192,7 +21192,7 @@
         "すく.う"
       ],
       "examples": [],
-      "keyword": "Rescue",
+      "keyword": "Salvation",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -21242,7 +21242,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Layer",
+      "keyword": "Stratum",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N2",
@@ -21266,7 +21266,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Edition",
+      "keyword": "Printing Block",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -21291,7 +21291,7 @@
         "ふ.ける"
       ],
       "examples": [],
-      "keyword": "Elderly",
+      "keyword": "Old Man",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -21366,7 +21366,7 @@
         "から.まる"
       ],
       "examples": [],
-      "keyword": "Entangle",
+      "keyword": "Entwine",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -21396,7 +21396,7 @@
         "-そこ.ねる"
       ],
       "examples": [],
-      "keyword": "Loss",
+      "keyword": "Damage",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -21425,7 +21425,7 @@
         "ふさ"
       ],
       "examples": [],
-      "keyword": "Cluster",
+      "keyword": "Tassel",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N1",
@@ -21485,7 +21485,7 @@
         "くま"
       ],
       "examples": [],
-      "keyword": "Music",
+      "keyword": "Bend",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -21510,7 +21510,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Withdrawal",
+      "keyword": "Remove",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -21541,7 +21541,7 @@
         "うら"
       ],
       "examples": [],
-      "keyword": "Backside",
+      "keyword": "Back",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -21599,7 +21599,7 @@
         "そ.ぐ"
       ],
       "examples": [],
-      "keyword": "Whittle Down",
+      "keyword": "Plane",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -21648,7 +21648,7 @@
         "にわ"
       ],
       "examples": [],
-      "keyword": "Garden",
+      "keyword": "Courtyard",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -21681,7 +21681,7 @@
         "あだ"
       ],
       "examples": [],
-      "keyword": "Junior",
+      "keyword": "On Foot",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N3",
@@ -21779,7 +21779,7 @@
         "きず.く"
       ],
       "examples": [],
-      "keyword": "Construct",
+      "keyword": "Fabricate",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N2",
@@ -21891,7 +21891,7 @@
         "の.る"
       ],
       "examples": [],
-      "keyword": "Publish",
+      "keyword": "Ride",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -21913,7 +21913,7 @@
         "のぼ.る"
       ],
       "examples": [],
-      "keyword": "Ascend",
+      "keyword": "Rise Up",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -21963,7 +21963,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Army Base",
+      "keyword": "Camp",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -21992,7 +21992,7 @@
         "わが-"
       ],
       "examples": [],
-      "keyword": "I",
+      "keyword": "Ego",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -22020,7 +22020,7 @@
         "いそ.しむ"
       ],
       "examples": [],
-      "keyword": "Work",
+      "keyword": "Diligence",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -22061,7 +22061,7 @@
         "なり"
       ],
       "examples": [],
-      "keyword": "Sake",
+      "keyword": "Do",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -22140,7 +22140,7 @@
         "おさ.える"
       ],
       "examples": [],
-      "keyword": "Suppress",
+      "keyword": "Repress",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -22193,7 +22193,7 @@
         "お.る"
       ],
       "examples": [],
-      "keyword": "Alive",
+      "keyword": "Reside",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -22276,7 +22276,7 @@
         "まじ.る"
       ],
       "examples": [],
-      "keyword": "Random",
+      "keyword": "Miscellaneous",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -22371,7 +22371,7 @@
         "こま.る"
       ],
       "examples": [],
-      "keyword": "Distressed",
+      "keyword": "Quandary",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -22480,7 +22480,7 @@
         "えら.ぶ"
       ],
       "examples": [],
-      "keyword": "Select",
+      "keyword": "Choose",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -22540,7 +22540,7 @@
         "いちじる.しい"
       ],
       "examples": [],
-      "keyword": "Author",
+      "keyword": "Renowned",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -22570,7 +22570,7 @@
         "しるし"
       ],
       "examples": [],
-      "keyword": "Indication",
+      "keyword": "Indications",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -22591,7 +22591,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Magazine",
+      "keyword": "Document",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N2",
@@ -22615,7 +22615,7 @@
         "くら"
       ],
       "examples": [],
-      "keyword": "Storage",
+      "keyword": "Warehouse",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -22695,7 +22695,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Edition",
+      "keyword": "Publish",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -22772,7 +22772,7 @@
         "よ.る"
       ],
       "examples": [],
-      "keyword": "Based On",
+      "keyword": "Foothold",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N1",
@@ -22799,7 +22799,7 @@
         "かお.る"
       ],
       "examples": [],
-      "keyword": "Fragrance",
+      "keyword": "Incense",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -22859,7 +22859,7 @@
         "ふ.かす"
       ],
       "examples": [],
-      "keyword": "Again",
+      "keyword": "Grow Late",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -22910,7 +22910,7 @@
         "こば.む"
       ],
       "examples": [],
-      "keyword": "Refuse",
+      "keyword": "Repel",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N1",
@@ -22986,7 +22986,7 @@
         "きざ.み"
       ],
       "examples": [],
-      "keyword": "Carve",
+      "keyword": "Engrave",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -23041,7 +23041,7 @@
         "たた.える"
       ],
       "examples": [],
-      "keyword": "Agree",
+      "keyword": "Approve",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N3",
@@ -23065,7 +23065,7 @@
         "-づか"
       ],
       "examples": [],
-      "keyword": "Mound",
+      "keyword": "Hillock",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -23094,7 +23094,7 @@
         "いた.す"
       ],
       "examples": [],
-      "keyword": "Do",
+      "keyword": "Doth",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -23120,7 +23120,7 @@
         "かか.える"
       ],
       "examples": [],
-      "keyword": "Hug",
+      "keyword": "Embrace",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N3",
@@ -23147,7 +23147,7 @@
         "く.る"
       ],
       "examples": [],
-      "keyword": "Spin",
+      "keyword": "Winding",
       "etymology": "",
       "stroke_count": 19,
       "jlpt": "N1",
@@ -23170,7 +23170,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Clothes",
+      "keyword": "Clothing",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N4",
@@ -23247,7 +23247,7 @@
         "か.く"
       ],
       "examples": [],
-      "keyword": "Draw",
+      "keyword": "Sketch",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -23272,7 +23272,7 @@
         "ぬの"
       ],
       "examples": [],
-      "keyword": "Cloth",
+      "keyword": "Linen",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -23322,7 +23322,7 @@
         "てら"
       ],
       "examples": [],
-      "keyword": "Temple",
+      "keyword": "Buddhist Temple",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N2",
@@ -23346,7 +23346,7 @@
         "すず"
       ],
       "examples": [],
-      "keyword": "Buzzer",
+      "keyword": "Small Bell",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -23419,7 +23419,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Outer Space",
+      "keyword": "Eaves",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N2",
@@ -23468,7 +23468,7 @@
         "も"
       ],
       "examples": [],
-      "keyword": "Mourning",
+      "keyword": "Miss",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -23494,7 +23494,7 @@
         "ともな.う"
       ],
       "examples": [],
-      "keyword": "Accompany",
+      "keyword": "Consort",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -23518,7 +23518,7 @@
         "とお.い"
       ],
       "examples": [],
-      "keyword": "Far",
+      "keyword": "Distant",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N3",
@@ -23574,7 +23574,7 @@
         "か.かる"
       ],
       "examples": [],
-      "keyword": "Suspend",
+      "keyword": "State Of Suspension",
       "etymology": "",
       "stroke_count": 20,
       "jlpt": "N1",
@@ -23602,7 +23602,7 @@
         "もど.る"
       ],
       "examples": [],
-      "keyword": "Return",
+      "keyword": "Re-",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -23627,7 +23627,7 @@
         "まち"
       ],
       "examples": [],
-      "keyword": "Street",
+      "keyword": "Boulevard",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -23650,7 +23650,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Giant",
+      "keyword": "Gigantic",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -23677,7 +23677,7 @@
         "ふる.える"
       ],
       "examples": [],
-      "keyword": "Earthquake",
+      "keyword": "Quake",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N2",
@@ -23704,7 +23704,7 @@
         "-ねがい"
       ],
       "examples": [],
-      "keyword": "Request",
+      "keyword": "Petition",
       "etymology": "",
       "stroke_count": 19,
       "jlpt": "N3",
@@ -23728,7 +23728,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Drawing",
+      "keyword": "Picture",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -23760,7 +23760,7 @@
         "まれ"
       ],
       "examples": [],
-      "keyword": "Wish",
+      "keyword": "Hope",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N2",
@@ -23791,7 +23791,7 @@
         "-ご.え"
       ],
       "examples": [],
-      "keyword": "Go Beyond",
+      "keyword": "Surpass",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N3",
@@ -23843,7 +23843,7 @@
         "かか.げる"
       ],
       "examples": [],
-      "keyword": "Display",
+      "keyword": "Put Up (a Notice)",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",
@@ -23922,7 +23922,7 @@
         "ほ.しい"
       ],
       "examples": [],
-      "keyword": "Want",
+      "keyword": "Longing",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -23980,7 +23980,7 @@
         "さわ"
       ],
       "examples": [],
-      "keyword": "Touch",
+      "keyword": "Contact",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -24158,7 +24158,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Flat Objects Counter",
+      "keyword": "Sheet Of...",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -24234,7 +24234,7 @@
         "かたみ.に"
       ],
       "examples": [],
-      "keyword": "Mutual",
+      "keyword": "Mutually",
       "etymology": "",
       "stroke_count": 4,
       "jlpt": "N3",
@@ -24285,7 +24285,7 @@
         "おもんぱか.る"
       ],
       "examples": [],
-      "keyword": "Consider",
+      "keyword": "Prudence",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -24360,7 +24360,7 @@
         "なか"
       ],
       "examples": [],
-      "keyword": "Relationship",
+      "keyword": "Go-between",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N2",
@@ -24391,7 +24391,7 @@
         "え"
       ],
       "examples": [],
-      "keyword": "Prosper",
+      "keyword": "Flourish",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -24417,7 +24417,7 @@
         "ふだ"
       ],
       "examples": [],
-      "keyword": "Bill",
+      "keyword": "Tag",
       "etymology": "",
       "stroke_count": 5,
       "jlpt": "N2",
@@ -24469,7 +24469,7 @@
         "ひ.る"
       ],
       "examples": [],
-      "keyword": "Resemble",
+      "keyword": "Becoming",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -24544,7 +24544,7 @@
         "いた"
       ],
       "examples": [],
-      "keyword": "Board",
+      "keyword": "Plank",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N2",
@@ -24569,7 +24569,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Row",
+      "keyword": "File",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N3",
@@ -24595,7 +24595,7 @@
         "つゆ"
       ],
       "examples": [],
-      "keyword": "Expose",
+      "keyword": "Dew",
       "etymology": "",
       "stroke_count": 21,
       "jlpt": "N1",
@@ -24647,7 +24647,7 @@
         "さが.す"
       ],
       "examples": [],
-      "keyword": "Look For",
+      "keyword": "Grope",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N3",
@@ -24729,7 +24729,7 @@
         "ゆる.める"
       ],
       "examples": [],
-      "keyword": "Loose",
+      "keyword": "Slacken",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N1",
@@ -24767,7 +24767,7 @@
         "のっと"
       ],
       "examples": [],
-      "keyword": "Season",
+      "keyword": "Node",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -24814,7 +24814,7 @@
         "ほね"
       ],
       "examples": [],
-      "keyword": "Bone",
+      "keyword": "Skeleton",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N2",
@@ -25107,7 +25107,7 @@
         "-ぎみ"
       ],
       "examples": [],
-      "keyword": "Buddy",
+      "keyword": "Mister",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N3",
@@ -25157,7 +25157,7 @@
         "み.たす"
       ],
       "examples": [],
-      "keyword": "Allocate",
+      "keyword": "Allot",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N1",
@@ -25238,7 +25238,7 @@
         "いとぐち"
       ],
       "examples": [],
-      "keyword": "Together",
+      "keyword": "Thong",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -25263,7 +25263,7 @@
         "あと"
       ],
       "examples": [],
-      "keyword": "Traces",
+      "keyword": "Tracks",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N2",
@@ -25311,7 +25311,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Resident",
+      "keyword": "Stop-over",
       "etymology": "",
       "stroke_count": 15,
       "jlpt": "N2",
@@ -25414,7 +25414,7 @@
         "しりぞ.ける"
       ],
       "examples": [],
-      "keyword": "Contrary",
+      "keyword": "Instead",
       "etymology": "",
       "stroke_count": 7,
       "jlpt": "N1",
@@ -25471,7 +25471,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Rent",
+      "keyword": "Fare",
       "etymology": "",
       "stroke_count": 13,
       "jlpt": "N1",
@@ -25710,7 +25710,7 @@
         "とうと.ぶ"
       ],
       "examples": [],
-      "keyword": "Valuable",
+      "keyword": "Precious",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N1",
@@ -25926,7 +25926,7 @@
         "く.らす"
       ],
       "examples": [],
-      "keyword": "Livelihood",
+      "keyword": "Evening",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N3",
@@ -25953,7 +25953,7 @@
         "か.わる"
       ],
       "examples": [],
-      "keyword": "Replace",
+      "keyword": "Exchange",
       "etymology": "",
       "stroke_count": 12,
       "jlpt": "N2",
@@ -25976,7 +25976,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Analysis",
+      "keyword": "Chop",
       "etymology": "",
       "stroke_count": 8,
       "jlpt": "N1",
@@ -26112,7 +26112,7 @@
         "ほめ.る"
       ],
       "examples": [],
-      "keyword": "Title",
+      "keyword": "Appellation",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -26167,7 +26167,7 @@
         "おさ.まる"
       ],
       "examples": [],
-      "keyword": "Supply",
+      "keyword": "Settlement",
       "etymology": "",
       "stroke_count": 10,
       "jlpt": "N1",
@@ -26193,7 +26193,7 @@
         "き"
       ],
       "examples": [],
-      "keyword": "Wood",
+      "keyword": "Timber",
       "etymology": "",
       "stroke_count": 16,
       "jlpt": "N1",
@@ -26241,7 +26241,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Chapter",
+      "keyword": "Badge",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N2",
@@ -26265,7 +26265,7 @@
         "はらわた"
       ],
       "examples": [],
-      "keyword": "Internal Organs",
+      "keyword": "Entrails",
       "etymology": "",
       "stroke_count": 19,
       "jlpt": "N2",
@@ -26291,7 +26291,7 @@
       ],
       "kun_yomi": [],
       "examples": [],
-      "keyword": "Law",
+      "keyword": "Rhythm",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N2",
@@ -26321,7 +26321,7 @@
         "いざな.う"
       ],
       "examples": [],
-      "keyword": "Invite",
+      "keyword": "Entice",
       "etymology": "",
       "stroke_count": 14,
       "jlpt": "N1",
@@ -26401,7 +26401,7 @@
         "いた.る"
       ],
       "examples": [],
-      "keyword": "Attain",
+      "keyword": "Climax",
       "etymology": "",
       "stroke_count": 6,
       "jlpt": "N1",
@@ -26455,7 +26455,7 @@
         "うなが.す"
       ],
       "examples": [],
-      "keyword": "Urge",
+      "keyword": "Stimulate",
       "etymology": "",
       "stroke_count": 9,
       "jlpt": "N1",
@@ -26510,7 +26510,7 @@
         "ひか.え"
       ],
       "examples": [],
-      "keyword": "Abstain",
+      "keyword": "Withdraw",
       "etymology": "",
       "stroke_count": 11,
       "jlpt": "N1",

@@ -3,9 +3,11 @@
  * Build default Kanjido decks from public-domain kanji data.
  *
  * Source: davidluzgouveia/kanji-data (kanji.json)
- *   — Aggregates KANJIDIC2 + Jonathan Waller's JLPT Resources + WaniKani.
- *   — KANJIDIC2 is licensed CC-BY-SA from EDRDG; the aggregated JSON inherits
- *     a permissive use license. Attribution preserved in deck metadata.
+ *   — Aggregates KANJIDIC2 (CC-BY-SA, EDRDG) + Jonathan Waller's JLPT lists.
+ *   — We deliberately use ONLY the KANJIDIC2-derived fields (meanings,
+ *     readings_on, readings_kun, strokes, jlpt_new, grade, freq). The
+ *     `wk_*` fields (WaniKani's curated meanings, mnemonics, radicals) are
+ *     proprietary to Tofugu and are NOT used downstream.
  *
  * Usage:
  *   1. Download once:
@@ -54,6 +56,8 @@ function jlptCode(n) {
 }
 
 function toCard(literal, entry, deckLabels) {
+  // Use only KANJIDIC2-derived fields — `wk_*` (WaniKani-curated) is excluded
+  // for IP reasons.
   const meanings = Array.isArray(entry.meanings) ? entry.meanings : [];
   return {
     kanji: literal,
@@ -61,7 +65,7 @@ function toCard(literal, entry, deckLabels) {
     on_yomi: Array.isArray(entry.readings_on) ? entry.readings_on : [],
     kun_yomi: Array.isArray(entry.readings_kun) ? entry.readings_kun : [],
     examples: [],
-    keyword: (entry.wk_meanings?.[0] ?? meanings[0] ?? "").toString(),
+    keyword: (meanings[0] ?? "").toString(),
     etymology: "",
     stroke_count: entry.strokes ?? null,
     jlpt: jlptCode(entry.jlpt_new),
@@ -87,7 +91,7 @@ function writeDeck({ deckId, deckName, subtitle, notes, cards, fileName }) {
     card_count: cleaned.length,
     notes,
     source:
-      "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JLPT Resources (Jonathan Waller), and WaniKani.",
+      "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG) and Jonathan Waller's JLPT Resources.",
     cards: cleaned,
   };
   writeFileSync(join(OUT_DIR, fileName), JSON.stringify(payload, null, 2) + "\n");
