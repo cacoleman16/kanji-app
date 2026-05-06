@@ -13,22 +13,22 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: "npm"
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
-      - name: Install Python deps
-        run: pip install pillow
-
-      - name: Install npm deps
+      - name: Install dependencies
         run: npm ci
 
-      - name: Build production files
-        run: python3 pipeline/build.py
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm test
 
       - name: Deploy to Vercel
-        run: npx vercel --prod --force --token ${{ secrets.VERCEL_TOKEN }} --yes
+        run: npx vercel --prod --token ${{ secrets.VERCEL_TOKEN }} --yes
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}

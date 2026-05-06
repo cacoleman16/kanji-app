@@ -1,0 +1,5339 @@
+{
+  "deck_id": "kanji-jouyou-grade-4",
+  "deck_name": "Jōyō Kanji — Grade 4",
+  "version": "1.0",
+  "card_count": 200,
+  "notes": "Fourth-grade Jōyō kanji (200 characters).",
+  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JLPT Resources (Jonathan Waller), and WaniKani.",
+  "cards": [
+    {
+      "kanji": "議",
+      "meanings": [
+        "Deliberation",
+        "Consultation",
+        "Debate",
+        "Consideration"
+      ],
+      "on_yomi": [
+        "ぎ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Deliberation",
+      "etymology": "",
+      "stroke_count": 20,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "民",
+      "meanings": [
+        "People",
+        "Nation",
+        "Subjects"
+      ],
+      "on_yomi": [
+        "みん"
+      ],
+      "kun_yomi": [
+        "たみ"
+      ],
+      "examples": [],
+      "keyword": "Peoples",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "連",
+      "meanings": [
+        "Take Along",
+        "Lead",
+        "Join",
+        "Connect",
+        "Party",
+        "Gang",
+        "Clique"
+      ],
+      "on_yomi": [
+        "れん"
+      ],
+      "kun_yomi": [
+        "つら.なる",
+        "つら.ねる",
+        "つ.れる",
+        "-づ.れ"
+      ],
+      "examples": [],
+      "keyword": "Take Along",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "選",
+      "meanings": [
+        "Elect",
+        "Select",
+        "Choose",
+        "Prefer"
+      ],
+      "on_yomi": [
+        "せん"
+      ],
+      "kun_yomi": [
+        "えら.ぶ"
+      ],
+      "examples": [],
+      "keyword": "Choose",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "関",
+      "meanings": [
+        "Connection",
+        "Barrier",
+        "Gateway",
+        "Involve",
+        "Concerning"
+      ],
+      "on_yomi": [
+        "かん"
+      ],
+      "kun_yomi": [
+        "せき",
+        "-ぜき",
+        "かか.わる",
+        "からくり",
+        "かんぬき"
+      ],
+      "examples": [],
+      "keyword": "Related",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "戦",
+      "meanings": [
+        "War",
+        "Battle",
+        "Match"
+      ],
+      "on_yomi": [
+        "せん"
+      ],
+      "kun_yomi": [
+        "いくさ",
+        "たたか.う",
+        "おのの.く",
+        "そよ.ぐ",
+        "わなな.く"
+      ],
+      "examples": [],
+      "keyword": "War",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "最",
+      "meanings": [
+        "Utmost",
+        "Most",
+        "Extreme"
+      ],
+      "on_yomi": [
+        "さい",
+        "しゅ"
+      ],
+      "kun_yomi": [
+        "もっと.も",
+        "つま"
+      ],
+      "examples": [],
+      "keyword": "Most",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "氏",
+      "meanings": [
+        "Family Name",
+        "Surname",
+        "Clan"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "うじ",
+        "-うじ"
+      ],
+      "examples": [],
+      "keyword": "Family Name",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "約",
+      "meanings": [
+        "Promise",
+        "Approximately",
+        "Shrink"
+      ],
+      "on_yomi": [
+        "やく"
+      ],
+      "kun_yomi": [
+        "つづ.まる",
+        "つづ.める",
+        "つづま.やか"
+      ],
+      "examples": [],
+      "keyword": "Promise",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "法",
+      "meanings": [
+        "Method",
+        "Law",
+        "Rule",
+        "Principle",
+        "Model",
+        "System"
+      ],
+      "on_yomi": [
+        "ほう",
+        "はっ",
+        "ほっ",
+        "ふらん"
+      ],
+      "kun_yomi": [
+        "のり"
+      ],
+      "examples": [],
+      "keyword": "Method",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "不",
+      "meanings": [
+        "Negative",
+        "Non-",
+        "Bad",
+        "Ugly",
+        "Clumsy"
+      ],
+      "on_yomi": [
+        "ふ",
+        "ぶ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Not",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "的",
+      "meanings": [
+        "Bull's Eye",
+        "Mark",
+        "Target",
+        "Object",
+        "Adjective Ending"
+      ],
+      "on_yomi": [
+        "てき"
+      ],
+      "kun_yomi": [
+        "まと"
+      ],
+      "examples": [],
+      "keyword": "Target",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": 4,
+      "decks": [
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "要",
+      "meanings": [
+        "Need",
+        "Main Point",
+        "Essence",
+        "Pivot",
+        "Key To"
+      ],
+      "on_yomi": [
+        "よう"
+      ],
+      "kun_yomi": [
+        "い.る",
+        "かなめ"
+      ],
+      "examples": [],
+      "keyword": "Need",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "治",
+      "meanings": [
+        "Reign",
+        "Be At Peace",
+        "Calm Down",
+        "Subdue",
+        "Quell",
+        "Govt",
+        "Cure",
+        "Heal",
+        "Rule",
+        "Conserve"
+      ],
+      "on_yomi": [
+        "じ",
+        "ち"
+      ],
+      "kun_yomi": [
+        "おさ.める",
+        "おさ.まる",
+        "なお.る",
+        "なお.す"
+      ],
+      "examples": [],
+      "keyword": "Cure",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "成",
+      "meanings": [
+        "Turn Into",
+        "Become",
+        "Get",
+        "Grow",
+        "Elapse",
+        "Reach"
+      ],
+      "on_yomi": [
+        "せい",
+        "じょう"
+      ],
+      "kun_yomi": [
+        "な.る",
+        "な.す",
+        "-な.す"
+      ],
+      "examples": [],
+      "keyword": "Become",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "協",
+      "meanings": [
+        "Co-",
+        "Cooperation"
+      ],
+      "on_yomi": [
+        "きょう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Cooperation",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "以",
+      "meanings": [
+        "By Means Of",
+        "Because",
+        "In View Of",
+        "Compared With"
+      ],
+      "on_yomi": [
+        "い"
+      ],
+      "kun_yomi": [
+        "もっ.て"
+      ],
+      "examples": [],
+      "keyword": "From",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "機",
+      "meanings": [
+        "Loom",
+        "Mechanism",
+        "Machine",
+        "Airplane",
+        "Opportunity",
+        "Potency",
+        "Efficacy",
+        "Occasion"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [
+        "はた"
+      ],
+      "examples": [],
+      "keyword": "Machine",
+      "etymology": "",
+      "stroke_count": 16,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "加",
+      "meanings": [
+        "Add",
+        "Addition",
+        "Increase",
+        "Join",
+        "Include",
+        "Canada"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [
+        "くわ.える",
+        "くわ.わる"
+      ],
+      "examples": [],
+      "keyword": "Add",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "続",
+      "meanings": [
+        "Continue",
+        "Series",
+        "Sequel"
+      ],
+      "on_yomi": [
+        "ぞく",
+        "しょく",
+        "こう",
+        "きょう"
+      ],
+      "kun_yomi": [
+        "つづ.く",
+        "つづ.ける",
+        "つぐ.ない"
+      ],
+      "examples": [],
+      "keyword": "Continue",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "改",
+      "meanings": [
+        "Reformation",
+        "Change",
+        "Modify",
+        "Mend",
+        "Renew",
+        "Examine",
+        "Inspect",
+        "Search"
+      ],
+      "on_yomi": [
+        "かい"
+      ],
+      "kun_yomi": [
+        "あらた.める",
+        "あらた.まる"
+      ],
+      "examples": [],
+      "keyword": "Renew",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "初",
+      "meanings": [
+        "First Time",
+        "Beginning"
+      ],
+      "on_yomi": [
+        "しょ"
+      ],
+      "kun_yomi": [
+        "はじ.め",
+        "はじ.めて",
+        "はつ",
+        "はつ-",
+        "うい-",
+        "-そ.める",
+        "-ぞ.め"
+      ],
+      "examples": [],
+      "keyword": "First",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "産",
+      "meanings": [
+        "Products",
+        "Bear",
+        "Give Birth",
+        "Yield",
+        "Childbirth",
+        "Native",
+        "Property"
+      ],
+      "on_yomi": [
+        "さん"
+      ],
+      "kun_yomi": [
+        "う.む",
+        "う.まれる",
+        "うぶ-",
+        "む.す"
+      ],
+      "examples": [],
+      "keyword": "Give Birth",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "結",
+      "meanings": [
+        "Tie",
+        "Bind",
+        "Contract",
+        "Join",
+        "Organize",
+        "Do Up Hair",
+        "Fasten"
+      ],
+      "on_yomi": [
+        "けつ",
+        "けち"
+      ],
+      "kun_yomi": [
+        "むす.ぶ",
+        "ゆ.う",
+        "ゆ.わえる"
+      ],
+      "examples": [],
+      "keyword": "Bind",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "府",
+      "meanings": [
+        "Borough",
+        "Urban Prefecture",
+        "Govt Office",
+        "Representative Body",
+        "Storehouse"
+      ],
+      "on_yomi": [
+        "ふ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Government",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "共",
+      "meanings": [
+        "Together",
+        "Both",
+        "Neither",
+        "All",
+        "And",
+        "Alike",
+        "With"
+      ],
+      "on_yomi": [
+        "きょう"
+      ],
+      "kun_yomi": [
+        "とも",
+        "とも.に",
+        "-ども"
+      ],
+      "examples": [],
+      "keyword": "Together",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "得",
+      "meanings": [
+        "Gain",
+        "Get",
+        "Find",
+        "Earn",
+        "Acquire",
+        "Can",
+        "May",
+        "Able To",
+        "Profit",
+        "Advantage",
+        "Benefit"
+      ],
+      "on_yomi": [
+        "とく"
+      ],
+      "kun_yomi": [
+        "え.る",
+        "う.る"
+      ],
+      "examples": [],
+      "keyword": "Acquire",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "告",
+      "meanings": [
+        "Revelation",
+        "Tell",
+        "Inform",
+        "Announce"
+      ],
+      "on_yomi": [
+        "こく"
+      ],
+      "kun_yomi": [
+        "つ.げる"
+      ],
+      "examples": [],
+      "keyword": "Announce",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "軍",
+      "meanings": [
+        "Army",
+        "Force",
+        "Troops",
+        "War",
+        "Battle"
+      ],
+      "on_yomi": [
+        "ぐん"
+      ],
+      "kun_yomi": [
+        "いくさ"
+      ],
+      "examples": [],
+      "keyword": "Army",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "参",
+      "meanings": [
+        "Nonplussed",
+        "Three (in Documents)",
+        "Going",
+        "Coming",
+        "Visiting",
+        "Visit",
+        "Be Defeated",
+        "Die",
+        "Be Madly In Love",
+        "Participate",
+        "Take Part In"
+      ],
+      "on_yomi": [
+        "さん",
+        "しん"
+      ],
+      "kun_yomi": [
+        "まい.る",
+        "まい-",
+        "まじわる",
+        "みつ"
+      ],
+      "examples": [],
+      "keyword": "Participate",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "利",
+      "meanings": [
+        "Profit",
+        "Advantage",
+        "Benefit"
+      ],
+      "on_yomi": [
+        "り"
+      ],
+      "kun_yomi": [
+        "き.く"
+      ],
+      "examples": [],
+      "keyword": "Profit",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "案",
+      "meanings": [
+        "Plan",
+        "Suggestion",
+        "Draft",
+        "Ponder",
+        "Fear",
+        "Proposition",
+        "Idea",
+        "Expectation",
+        "Worry",
+        "Table",
+        "Bench"
+      ],
+      "on_yomi": [
+        "あん"
+      ],
+      "kun_yomi": [
+        "つくえ"
+      ],
+      "examples": [],
+      "keyword": "Plan",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "信",
+      "meanings": [
+        "Faith",
+        "Truth",
+        "Fidelity",
+        "Trust"
+      ],
+      "on_yomi": [
+        "しん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Believe",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "別",
+      "meanings": [
+        "Separate",
+        "Branch Off",
+        "Diverge",
+        "Fork",
+        "Another",
+        "Extra",
+        "Specially"
+      ],
+      "on_yomi": [
+        "べつ"
+      ],
+      "kun_yomi": [
+        "わか.れる",
+        "わ.ける"
+      ],
+      "examples": [],
+      "keyword": "Separate",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "側",
+      "meanings": [
+        "Side",
+        "Lean",
+        "Oppose",
+        "Regret"
+      ],
+      "on_yomi": [
+        "そく"
+      ],
+      "kun_yomi": [
+        "かわ",
+        "がわ",
+        "そば"
+      ],
+      "examples": [],
+      "keyword": "Side",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "求",
+      "meanings": [
+        "Request",
+        "Want",
+        "Wish For",
+        "Require",
+        "Demand"
+      ],
+      "on_yomi": [
+        "きゅう",
+        "ぐ"
+      ],
+      "kun_yomi": [
+        "もと.める"
+      ],
+      "examples": [],
+      "keyword": "Request",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "昨",
+      "meanings": [
+        "Yesterday",
+        "Previous"
+      ],
+      "on_yomi": [
+        "さく"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Previous",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "官",
+      "meanings": [
+        "Bureaucrat",
+        "The Government",
+        "Organ"
+      ],
+      "on_yomi": [
+        "かん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Government",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "特",
+      "meanings": [
+        "Special"
+      ],
+      "on_yomi": [
+        "とく"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Special",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "変",
+      "meanings": [
+        "Unusual",
+        "Change",
+        "Strange"
+      ],
+      "on_yomi": [
+        "へん"
+      ],
+      "kun_yomi": [
+        "か.わる",
+        "か.わり",
+        "か.える"
+      ],
+      "examples": [],
+      "keyword": "Change",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "各",
+      "meanings": [
+        "Each",
+        "Every",
+        "Either"
+      ],
+      "on_yomi": [
+        "かく"
+      ],
+      "kun_yomi": [
+        "おのおの"
+      ],
+      "examples": [],
+      "keyword": "Each",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "挙",
+      "meanings": [
+        "Raise",
+        "Plan",
+        "Project",
+        "Behavior",
+        "Actions"
+      ],
+      "on_yomi": [
+        "きょ"
+      ],
+      "kun_yomi": [
+        "あ.げる",
+        "あ.がる",
+        "こぞ.る"
+      ],
+      "examples": [],
+      "keyword": "Raise",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "果",
+      "meanings": [
+        "Fruit",
+        "Reward",
+        "Carry Out",
+        "Achieve",
+        "Complete",
+        "End",
+        "Finish",
+        "Succeed"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [
+        "は.たす",
+        "はた.す",
+        "-は.たす",
+        "は.てる",
+        "-は.てる",
+        "は.て"
+      ],
+      "examples": [],
+      "keyword": "Fruit",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "必",
+      "meanings": [
+        "Invariably",
+        "Certain",
+        "Inevitable"
+      ],
+      "on_yomi": [
+        "ひつ"
+      ],
+      "kun_yomi": [
+        "かなら.ず"
+      ],
+      "examples": [],
+      "keyword": "Certain",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "争",
+      "meanings": [
+        "Contend",
+        "Dispute",
+        "Argue"
+      ],
+      "on_yomi": [
+        "そう"
+      ],
+      "kun_yomi": [
+        "あらそ.う",
+        "いか.でか"
+      ],
+      "examples": [],
+      "keyword": "Conflict",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "無",
+      "meanings": [
+        "Nothingness",
+        "None",
+        "Ain't",
+        "Nothing",
+        "Nil",
+        "Not"
+      ],
+      "on_yomi": [
+        "む",
+        "ぶ"
+      ],
+      "kun_yomi": [
+        "な.い"
+      ],
+      "examples": [],
+      "keyword": "Nothing",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": null,
+      "grade": 4,
+      "decks": [
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "位",
+      "meanings": [
+        "Rank",
+        "Grade",
+        "Throne",
+        "Crown",
+        "About",
+        "Some"
+      ],
+      "on_yomi": [
+        "い"
+      ],
+      "kun_yomi": [
+        "くらい",
+        "ぐらい"
+      ],
+      "examples": [],
+      "keyword": "Rank",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "置",
+      "meanings": [
+        "Placement",
+        "Put",
+        "Set",
+        "Deposit",
+        "Leave Behind",
+        "Keep",
+        "Employ",
+        "Pawn"
+      ],
+      "on_yomi": [
+        "ち"
+      ],
+      "kun_yomi": [
+        "お.く",
+        "-お.き"
+      ],
+      "examples": [],
+      "keyword": "Put",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "料",
+      "meanings": [
+        "Fee",
+        "Materials"
+      ],
+      "on_yomi": [
+        "りょう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Fee",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "建",
+      "meanings": [
+        "Build"
+      ],
+      "on_yomi": [
+        "けん",
+        "こん"
+      ],
+      "kun_yomi": [
+        "た.てる",
+        "た.て",
+        "-だ.て",
+        "た.つ"
+      ],
+      "examples": [],
+      "keyword": "Build",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "費",
+      "meanings": [
+        "Expense",
+        "Cost",
+        "Spend",
+        "Consume",
+        "Waste"
+      ],
+      "on_yomi": [
+        "ひ"
+      ],
+      "kun_yomi": [
+        "つい.やす",
+        "つい.える"
+      ],
+      "examples": [],
+      "keyword": "Expense",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "付",
+      "meanings": [
+        "Adhere",
+        "Attach",
+        "Refer To",
+        "Append"
+      ],
+      "on_yomi": [
+        "ふ"
+      ],
+      "kun_yomi": [
+        "つ.ける",
+        "-つ.ける",
+        "-づ.ける",
+        "つ.け",
+        "つ.け-",
+        "-つ.け",
+        "-づ.け",
+        "-づけ",
+        "つ.く",
+        "-づ.く",
+        "つ.き",
+        "-つ.き",
+        "-つき",
+        "-づ.き",
+        "-づき"
+      ],
+      "examples": [],
+      "keyword": "Attach",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "説",
+      "meanings": [
+        "Opinion",
+        "Theory",
+        "Explanation",
+        "Rumor"
+      ],
+      "on_yomi": [
+        "せつ",
+        "ぜい"
+      ],
+      "kun_yomi": [
+        "と.く"
+      ],
+      "examples": [],
+      "keyword": "Theory",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "夫",
+      "meanings": [
+        "Husband",
+        "Man"
+      ],
+      "on_yomi": [
+        "ふ",
+        "ふう",
+        "ぶ"
+      ],
+      "kun_yomi": [
+        "おっと",
+        "それ"
+      ],
+      "examples": [],
+      "keyword": "Husband",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "害",
+      "meanings": [
+        "Harm",
+        "Injury"
+      ],
+      "on_yomi": [
+        "がい"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Damage",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "副",
+      "meanings": [
+        "Vice-",
+        "Assistant",
+        "Aide",
+        "Duplicate",
+        "Copy"
+      ],
+      "on_yomi": [
+        "ふく"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Vice",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "席",
+      "meanings": [
+        "Seat",
+        "Mat",
+        "Occasion",
+        "Place"
+      ],
+      "on_yomi": [
+        "せき"
+      ],
+      "kun_yomi": [
+        "むしろ"
+      ],
+      "examples": [],
+      "keyword": "Seat",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "残",
+      "meanings": [
+        "Remainder",
+        "Leftover",
+        "Balance"
+      ],
+      "on_yomi": [
+        "ざん",
+        "さん"
+      ],
+      "kun_yomi": [
+        "のこ.る",
+        "のこ.す",
+        "そこな.う",
+        "のこ.り"
+      ],
+      "examples": [],
+      "keyword": "Remainder",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "念",
+      "meanings": [
+        "Wish",
+        "Sense",
+        "Idea",
+        "Thought",
+        "Feeling",
+        "Desire",
+        "Attention"
+      ],
+      "on_yomi": [
+        "ねん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Thought",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "試",
+      "meanings": [
+        "Test",
+        "Try",
+        "Attempt",
+        "Experiment",
+        "Ordeal"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "こころ.みる",
+        "ため.す"
+      ],
+      "examples": [],
+      "keyword": "Try",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "象",
+      "meanings": [
+        "Elephant",
+        "Pattern After",
+        "Imitate",
+        "Image",
+        "Shape",
+        "Sign (of The Times)"
+      ],
+      "on_yomi": [
+        "しょう",
+        "ぞう"
+      ],
+      "kun_yomi": [
+        "かたど.る"
+      ],
+      "examples": [],
+      "keyword": "Elephant",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "労",
+      "meanings": [
+        "Labor",
+        "Thank For",
+        "Reward For",
+        "Toil",
+        "Trouble"
+      ],
+      "on_yomi": [
+        "ろう"
+      ],
+      "kun_yomi": [
+        "ろう.する",
+        "いたわ.る",
+        "いた.ずき",
+        "ねぎら",
+        "つか.れる",
+        "ねぎら.う"
+      ],
+      "examples": [],
+      "keyword": "Labor",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "例",
+      "meanings": [
+        "Example",
+        "Custom",
+        "Usage",
+        "Precedent"
+      ],
+      "on_yomi": [
+        "れい"
+      ],
+      "kun_yomi": [
+        "たと.える"
+      ],
+      "examples": [],
+      "keyword": "Example",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "然",
+      "meanings": [
+        "Sort Of Thing",
+        "So",
+        "If So",
+        "In That Case",
+        "Well"
+      ],
+      "on_yomi": [
+        "ぜん",
+        "ねん"
+      ],
+      "kun_yomi": [
+        "しか",
+        "しか.り",
+        "しか.し",
+        "さ"
+      ],
+      "examples": [],
+      "keyword": "Nature",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "験",
+      "meanings": [
+        "Verification",
+        "Effect",
+        "Testing"
+      ],
+      "on_yomi": [
+        "けん",
+        "げん"
+      ],
+      "kun_yomi": [
+        "あかし",
+        "しるし",
+        "ため.す",
+        "ためし"
+      ],
+      "examples": [],
+      "keyword": "Test",
+      "etymology": "",
+      "stroke_count": 18,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "伝",
+      "meanings": [
+        "Transmit",
+        "Go Along",
+        "Walk Along",
+        "Follow",
+        "Report",
+        "Communicate",
+        "Legend",
+        "Tradition"
+      ],
+      "on_yomi": [
+        "でん",
+        "てん"
+      ],
+      "kun_yomi": [
+        "つた.わる",
+        "つた.える",
+        "つた.う",
+        "つだ.う",
+        "-づた.い",
+        "つて"
+      ],
+      "examples": [],
+      "keyword": "Transmit",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "働",
+      "meanings": [
+        "Work",
+        "(kokuji)"
+      ],
+      "on_yomi": [
+        "どう"
+      ],
+      "kun_yomi": [
+        "はたら.く"
+      ],
+      "examples": [],
+      "keyword": "Work",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "景",
+      "meanings": [
+        "Scenery",
+        "View"
+      ],
+      "on_yomi": [
+        "けい"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Scene",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "好",
+      "meanings": [
+        "Fond",
+        "Pleasing",
+        "Like Something"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "この.む",
+        "す.く",
+        "よ.い",
+        "い.い"
+      ],
+      "examples": [],
+      "keyword": "Like",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "賞",
+      "meanings": [
+        "Prize",
+        "Reward",
+        "Praise"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "ほ.める"
+      ],
+      "examples": [],
+      "keyword": "Prize",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "辺",
+      "meanings": [
+        "Environs",
+        "Boundary",
+        "Border",
+        "Vicinity"
+      ],
+      "on_yomi": [
+        "へん"
+      ],
+      "kun_yomi": [
+        "あた.り",
+        "ほと.り",
+        "-べ"
+      ],
+      "examples": [],
+      "keyword": "Area",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "英",
+      "meanings": [
+        "England",
+        "English",
+        "Hero",
+        "Outstanding",
+        "Calyx"
+      ],
+      "on_yomi": [
+        "えい"
+      ],
+      "kun_yomi": [
+        "はなぶさ"
+      ],
+      "examples": [],
+      "keyword": "England",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "低",
+      "meanings": [
+        "Lower",
+        "Short",
+        "Humble"
+      ],
+      "on_yomi": [
+        "てい"
+      ],
+      "kun_yomi": [
+        "ひく.い",
+        "ひく.める",
+        "ひく.まる"
+      ],
+      "examples": [],
+      "keyword": "Low",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "失",
+      "meanings": [
+        "Lose",
+        "Error",
+        "Fault",
+        "Disadvantage",
+        "Loss"
+      ],
+      "on_yomi": [
+        "しつ"
+      ],
+      "kun_yomi": [
+        "うしな.う",
+        "う.せる"
+      ],
+      "examples": [],
+      "keyword": "Fault",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "差",
+      "meanings": [
+        "Distinction",
+        "Difference",
+        "Variation",
+        "Discrepancy",
+        "Margin",
+        "Balance"
+      ],
+      "on_yomi": [
+        "さ"
+      ],
+      "kun_yomi": [
+        "さ.す",
+        "さ.し"
+      ],
+      "examples": [],
+      "keyword": "Distinction",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "課",
+      "meanings": [
+        "Chapter",
+        "Lesson",
+        "Section",
+        "Department",
+        "Division",
+        "Counter For Chapters (of A Book)"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Section",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "末",
+      "meanings": [
+        "End",
+        "Close",
+        "Tip",
+        "Powder",
+        "Posterity"
+      ],
+      "on_yomi": [
+        "まつ",
+        "ばつ"
+      ],
+      "kun_yomi": [
+        "すえ"
+      ],
+      "examples": [],
+      "keyword": "End",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "極",
+      "meanings": [
+        "Poles",
+        "Settlement",
+        "Conclusion",
+        "End",
+        "Highest Rank",
+        "Electric Poles",
+        "Very",
+        "Extremely",
+        "Most",
+        "Highly",
+        "10**48"
+      ],
+      "on_yomi": [
+        "きょく",
+        "ごく"
+      ],
+      "kun_yomi": [
+        "きわ.める",
+        "きわ.まる",
+        "きわ.まり",
+        "きわ.み",
+        "き.める",
+        "-ぎ.め",
+        "き.まる"
+      ],
+      "examples": [],
+      "keyword": "Extreme",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "種",
+      "meanings": [
+        "Species",
+        "Kind",
+        "Class",
+        "Variety",
+        "Seed"
+      ],
+      "on_yomi": [
+        "しゅ"
+      ],
+      "kun_yomi": [
+        "たね",
+        "-ぐさ"
+      ],
+      "examples": [],
+      "keyword": "Kind",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "量",
+      "meanings": [
+        "Quantity",
+        "Measure",
+        "Weight",
+        "Amount",
+        "Consider",
+        "Estimate",
+        "Surmise"
+      ],
+      "on_yomi": [
+        "りょう"
+      ],
+      "kun_yomi": [
+        "はか.る"
+      ],
+      "examples": [],
+      "keyword": "Quantity",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "望",
+      "meanings": [
+        "Ambition",
+        "Full Moon",
+        "Hope",
+        "Desire",
+        "Aspire To",
+        "Expect"
+      ],
+      "on_yomi": [
+        "ぼう",
+        "もう"
+      ],
+      "kun_yomi": [
+        "のぞ.む",
+        "もち"
+      ],
+      "examples": [],
+      "keyword": "Hope",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "松",
+      "meanings": [
+        "Pine Tree"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "まつ"
+      ],
+      "examples": [],
+      "keyword": "Pine",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "観",
+      "meanings": [
+        "Outlook",
+        "Look",
+        "Appearance",
+        "Condition",
+        "View"
+      ],
+      "on_yomi": [
+        "かん"
+      ],
+      "kun_yomi": [
+        "み.る",
+        "しめ.す"
+      ],
+      "examples": [],
+      "keyword": "View",
+      "etymology": "",
+      "stroke_count": 18,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "察",
+      "meanings": [
+        "Guess",
+        "Presume",
+        "Surmise",
+        "Judge",
+        "Understand"
+      ],
+      "on_yomi": [
+        "さつ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Guess",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "型",
+      "meanings": [
+        "Mould",
+        "Type",
+        "Model"
+      ],
+      "on_yomi": [
+        "けい"
+      ],
+      "kun_yomi": [
+        "かた",
+        "-がた"
+      ],
+      "examples": [],
+      "keyword": "Model",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "票",
+      "meanings": [
+        "Ballot",
+        "Label",
+        "Ticket",
+        "Sign"
+      ],
+      "on_yomi": [
+        "ひょう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Ballot",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "達",
+      "meanings": [
+        "Accomplished",
+        "Reach",
+        "Arrive",
+        "Attain"
+      ],
+      "on_yomi": [
+        "たつ",
+        "だ"
+      ],
+      "kun_yomi": [
+        "-たち"
+      ],
+      "examples": [],
+      "keyword": "Attain",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "良",
+      "meanings": [
+        "Good",
+        "Pleasing",
+        "Skilled"
+      ],
+      "on_yomi": [
+        "りょう"
+      ],
+      "kun_yomi": [
+        "よ.い",
+        "-よ.い",
+        "い.い",
+        "-い.い"
+      ],
+      "examples": [],
+      "keyword": "Good",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "候",
+      "meanings": [
+        "Climate",
+        "Season",
+        "Weather",
+        "Wait For",
+        "Expect"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "そうろう"
+      ],
+      "examples": [],
+      "keyword": "Climate",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "史",
+      "meanings": [
+        "History",
+        "Chronicle"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "History",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "満",
+      "meanings": [
+        "Full",
+        "Fullness",
+        "Enough",
+        "Satisfy"
+      ],
+      "on_yomi": [
+        "まん",
+        "ばん"
+      ],
+      "kun_yomi": [
+        "み.ちる",
+        "み.つ",
+        "み.たす"
+      ],
+      "examples": [],
+      "keyword": "Full",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "敗",
+      "meanings": [
+        "Failure",
+        "Defeat",
+        "Reversal"
+      ],
+      "on_yomi": [
+        "はい"
+      ],
+      "kun_yomi": [
+        "やぶ.れる"
+      ],
+      "examples": [],
+      "keyword": "Failure",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "管",
+      "meanings": [
+        "Pipe",
+        "Tube",
+        "Wind Instrument",
+        "Drunken Talk",
+        "Control",
+        "Jurisdiction"
+      ],
+      "on_yomi": [
+        "かん"
+      ],
+      "kun_yomi": [
+        "くだ"
+      ],
+      "examples": [],
+      "keyword": "Pipe",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "兵",
+      "meanings": [
+        "Soldier",
+        "Private",
+        "Troops",
+        "Army",
+        "Warfare",
+        "Strategy",
+        "Tactics"
+      ],
+      "on_yomi": [
+        "へい",
+        "ひょう"
+      ],
+      "kun_yomi": [
+        "つわもの"
+      ],
+      "examples": [],
+      "keyword": "Soldier",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "器",
+      "meanings": [
+        "Utensil",
+        "Vessel",
+        "Receptacle",
+        "Implement",
+        "Instrument",
+        "Ability",
+        "Container",
+        "Tool",
+        "Set"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [
+        "うつわ"
+      ],
+      "examples": [],
+      "keyword": "Container",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "士",
+      "meanings": [
+        "Gentleman",
+        "Scholar",
+        "Samurai",
+        "Samurai Radical (no. 33)"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "さむらい"
+      ],
+      "examples": [],
+      "keyword": "Samurai",
+      "etymology": "",
+      "stroke_count": 3,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "積",
+      "meanings": [
+        "Volume",
+        "Product (x*y)",
+        "Acreage",
+        "Contents",
+        "Pile Up",
+        "Stack",
+        "Load",
+        "Amass"
+      ],
+      "on_yomi": [
+        "せき"
+      ],
+      "kun_yomi": [
+        "つ.む",
+        "-づ.み",
+        "つ.もる",
+        "つ.もり"
+      ],
+      "examples": [],
+      "keyword": "Accumulate",
+      "etymology": "",
+      "stroke_count": 16,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "録",
+      "meanings": [
+        "Record"
+      ],
+      "on_yomi": [
+        "ろく"
+      ],
+      "kun_yomi": [
+        "しる.す",
+        "と.る"
+      ],
+      "examples": [],
+      "keyword": "Record",
+      "etymology": "",
+      "stroke_count": 16,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "省",
+      "meanings": [
+        "Focus",
+        "Government Ministry",
+        "Conserve"
+      ],
+      "on_yomi": [
+        "せい",
+        "しょう"
+      ],
+      "kun_yomi": [
+        "かえり.みる",
+        "はぶ.く"
+      ],
+      "examples": [],
+      "keyword": "Conserve",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "周",
+      "meanings": [
+        "Circumference",
+        "Circuit",
+        "Lap"
+      ],
+      "on_yomi": [
+        "しゅう"
+      ],
+      "kun_yomi": [
+        "まわ.り"
+      ],
+      "examples": [],
+      "keyword": "Circumference",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "材",
+      "meanings": [
+        "Lumber",
+        "Log",
+        "Timber",
+        "Wood",
+        "Materials",
+        "Ingredients",
+        "Talent"
+      ],
+      "on_yomi": [
+        "ざい"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Lumber",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "健",
+      "meanings": [
+        "Healthy",
+        "Health",
+        "Strength",
+        "Persistence"
+      ],
+      "on_yomi": [
+        "けん"
+      ],
+      "kun_yomi": [
+        "すこ.やか"
+      ],
+      "examples": [],
+      "keyword": "Healthy",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "飛",
+      "meanings": [
+        "Fly",
+        "Skip (pages)",
+        "Scatter"
+      ],
+      "on_yomi": [
+        "ひ"
+      ],
+      "kun_yomi": [
+        "と.ぶ",
+        "と.ばす",
+        "-と.ばす"
+      ],
+      "examples": [],
+      "keyword": "Fly",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "殺",
+      "meanings": [
+        "Kill",
+        "Murder",
+        "Butcher",
+        "Slice Off",
+        "Split",
+        "Diminish",
+        "Reduce",
+        "Spoil"
+      ],
+      "on_yomi": [
+        "さつ",
+        "さい",
+        "せつ"
+      ],
+      "kun_yomi": [
+        "ころ.す",
+        "-ごろ.し",
+        "そ.ぐ"
+      ],
+      "examples": [],
+      "keyword": "Kill",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "単",
+      "meanings": [
+        "Simple",
+        "One",
+        "Single",
+        "Merely"
+      ],
+      "on_yomi": [
+        "たん"
+      ],
+      "kun_yomi": [
+        "ひとえ"
+      ],
+      "examples": [],
+      "keyword": "Simple",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "完",
+      "meanings": [
+        "Perfect",
+        "Completion",
+        "End"
+      ],
+      "on_yomi": [
+        "かん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Perfect",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "隊",
+      "meanings": [
+        "Regiment",
+        "Party",
+        "Company",
+        "Squad"
+      ],
+      "on_yomi": [
+        "たい"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Squad",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "競",
+      "meanings": [
+        "Emulate",
+        "Compete With",
+        "Bid",
+        "Sell At Auction",
+        "Bout",
+        "Contest",
+        "Race"
+      ],
+      "on_yomi": [
+        "きょう",
+        "けい"
+      ],
+      "kun_yomi": [
+        "きそ.う",
+        "せ.る",
+        "くら.べる"
+      ],
+      "examples": [],
+      "keyword": "Compete",
+      "etymology": "",
+      "stroke_count": 20,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "給",
+      "meanings": [
+        "Salary",
+        "Wage",
+        "Gift",
+        "Allow",
+        "Grant",
+        "Bestow On"
+      ],
+      "on_yomi": [
+        "きゅう"
+      ],
+      "kun_yomi": [
+        "たま.う",
+        "たも.う",
+        "-たま.え"
+      ],
+      "examples": [],
+      "keyword": "Salary",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "歴",
+      "meanings": [
+        "Curriculum",
+        "Continuation",
+        "Passage Of Time"
+      ],
+      "on_yomi": [
+        "れき",
+        "れっき"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Continuation",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "辞",
+      "meanings": [
+        "Resign",
+        "Word",
+        "Term",
+        "Expression"
+      ],
+      "on_yomi": [
+        "じ"
+      ],
+      "kun_yomi": [
+        "や.める",
+        "いな.む"
+      ],
+      "examples": [],
+      "keyword": "Quit",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "愛",
+      "meanings": [
+        "Love",
+        "Affection",
+        "Favourite"
+      ],
+      "on_yomi": [
+        "あい"
+      ],
+      "kun_yomi": [
+        "いと.しい",
+        "かな.しい",
+        "め.でる",
+        "お.しむ",
+        "まな"
+      ],
+      "examples": [],
+      "keyword": "Love",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "未",
+      "meanings": [
+        "Un-",
+        "Not Yet",
+        "Hitherto",
+        "Still",
+        "Even Now",
+        "Sign Of The Ram",
+        "1-3pm",
+        "Eighth Sign Of Chinese Zodiac"
+      ],
+      "on_yomi": [
+        "み",
+        "び"
+      ],
+      "kun_yomi": [
+        "いま.だ",
+        "ま.だ",
+        "ひつじ"
+      ],
+      "examples": [],
+      "keyword": "Not Yet",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "航",
+      "meanings": [
+        "Navigate",
+        "Sail",
+        "Cruise",
+        "Fly"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Navigation",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "冷",
+      "meanings": [
+        "Cool",
+        "Cold (beer, Person)",
+        "Chill"
+      ],
+      "on_yomi": [
+        "れい"
+      ],
+      "kun_yomi": [
+        "つめ.たい",
+        "ひ.える",
+        "ひ.や",
+        "ひ.ややか",
+        "ひ.やす",
+        "ひ.やかす",
+        "さ.める",
+        "さ.ます"
+      ],
+      "examples": [],
+      "keyword": "Cool",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "類",
+      "meanings": [
+        "Sort",
+        "Kind",
+        "Variety",
+        "Class",
+        "Genus"
+      ],
+      "on_yomi": [
+        "るい"
+      ],
+      "kun_yomi": [
+        "たぐ.い"
+      ],
+      "examples": [],
+      "keyword": "Type",
+      "etymology": "",
+      "stroke_count": 18,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "児",
+      "meanings": [
+        "Newborn Babe",
+        "Child",
+        "Young Of Animals"
+      ],
+      "on_yomi": [
+        "じ",
+        "に",
+        "げい"
+      ],
+      "kun_yomi": [
+        "こ",
+        "-こ",
+        "-っこ"
+      ],
+      "examples": [],
+      "keyword": "Child",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "印",
+      "meanings": [
+        "Stamp",
+        "Seal",
+        "Mark",
+        "Imprint",
+        "Symbol",
+        "Emblem",
+        "Trademark",
+        "Evidence",
+        "Souvenir",
+        "India"
+      ],
+      "on_yomi": [
+        "いん"
+      ],
+      "kun_yomi": [
+        "しるし",
+        "-じるし",
+        "しる.す"
+      ],
+      "examples": [],
+      "keyword": "Seal",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "標",
+      "meanings": [
+        "Signpost",
+        "Seal",
+        "Mark",
+        "Stamp",
+        "Imprint",
+        "Symbol",
+        "Emblem",
+        "Trademark",
+        "Evidence",
+        "Souvenir",
+        "Target"
+      ],
+      "on_yomi": [
+        "ひょう"
+      ],
+      "kun_yomi": [
+        "しるべ",
+        "しるし"
+      ],
+      "examples": [],
+      "keyword": "Signpost",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "輪",
+      "meanings": [
+        "Wheel",
+        "Ring",
+        "Circle",
+        "Link",
+        "Loop",
+        "Counter For Wheels And Flowers"
+      ],
+      "on_yomi": [
+        "りん"
+      ],
+      "kun_yomi": [
+        "わ"
+      ],
+      "examples": [],
+      "keyword": "Wheel",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "熱",
+      "meanings": [
+        "Heat",
+        "Temperature",
+        "Fever",
+        "Mania",
+        "Passion"
+      ],
+      "on_yomi": [
+        "ねつ"
+      ],
+      "kun_yomi": [
+        "あつ.い"
+      ],
+      "examples": [],
+      "keyword": "Heat",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "清",
+      "meanings": [
+        "Pure",
+        "Purify",
+        "Cleanse",
+        "Exorcise",
+        "Manchu Dynasty"
+      ],
+      "on_yomi": [
+        "せい",
+        "しょう",
+        "しん"
+      ],
+      "kun_yomi": [
+        "きよ.い",
+        "きよ.まる",
+        "きよ.める"
+      ],
+      "examples": [],
+      "keyword": "Pure",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "覚",
+      "meanings": [
+        "Memorize",
+        "Learn",
+        "Remember",
+        "Awake",
+        "Sober Up"
+      ],
+      "on_yomi": [
+        "かく"
+      ],
+      "kun_yomi": [
+        "おぼ.える",
+        "さ.ます",
+        "さ.める",
+        "さと.る"
+      ],
+      "examples": [],
+      "keyword": "Memorize",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "億",
+      "meanings": [
+        "Hundred Million",
+        "10**8"
+      ],
+      "on_yomi": [
+        "おく"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Hundred Million",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "芸",
+      "meanings": [
+        "Technique",
+        "Art",
+        "Craft",
+        "Performance",
+        "Acting",
+        "Trick",
+        "Stunt"
+      ],
+      "on_yomi": [
+        "げい",
+        "うん"
+      ],
+      "kun_yomi": [
+        "う.える",
+        "のり",
+        "わざ"
+      ],
+      "examples": [],
+      "keyword": "Acting",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "便",
+      "meanings": [
+        "Convenience",
+        "Facility",
+        "Excrement",
+        "Feces",
+        "Letter",
+        "Chance"
+      ],
+      "on_yomi": [
+        "べん",
+        "びん"
+      ],
+      "kun_yomi": [
+        "たよ.り"
+      ],
+      "examples": [],
+      "keyword": "Convenience",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "停",
+      "meanings": [
+        "Halt",
+        "Stopping"
+      ],
+      "on_yomi": [
+        "てい"
+      ],
+      "kun_yomi": [
+        "と.める",
+        "と.まる"
+      ],
+      "examples": [],
+      "keyword": "Halt",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "陸",
+      "meanings": [
+        "Land",
+        "Six"
+      ],
+      "on_yomi": [
+        "りく",
+        "ろく"
+      ],
+      "kun_yomi": [
+        "おか"
+      ],
+      "examples": [],
+      "keyword": "Land",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "帯",
+      "meanings": [
+        "Sash",
+        "Belt",
+        "Obi",
+        "Zone",
+        "Region"
+      ],
+      "on_yomi": [
+        "たい"
+      ],
+      "kun_yomi": [
+        "お.びる",
+        "おび"
+      ],
+      "examples": [],
+      "keyword": "Belt",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "努",
+      "meanings": [
+        "Toil",
+        "Diligent",
+        "As Much As Possible"
+      ],
+      "on_yomi": [
+        "ど"
+      ],
+      "kun_yomi": [
+        "つと.める"
+      ],
+      "examples": [],
+      "keyword": "Toil",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "固",
+      "meanings": [
+        "Harden",
+        "Set",
+        "Clot",
+        "Curdle"
+      ],
+      "on_yomi": [
+        "こ"
+      ],
+      "kun_yomi": [
+        "かた.める",
+        "かた.まる",
+        "かた.まり",
+        "かた.い"
+      ],
+      "examples": [],
+      "keyword": "Hard",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "散",
+      "meanings": [
+        "Scatter",
+        "Disperse",
+        "Spend",
+        "Squander"
+      ],
+      "on_yomi": [
+        "さん"
+      ],
+      "kun_yomi": [
+        "ち.る",
+        "ち.らす",
+        "-ち.らす",
+        "ち.らかす",
+        "ち.らかる",
+        "ち.らばる",
+        "ばら",
+        "ばら.ける"
+      ],
+      "examples": [],
+      "keyword": "Scatter",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "司",
+      "meanings": [
+        "Director",
+        "Official",
+        "Govt Office",
+        "Rule",
+        "Administer"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "つかさど.る"
+      ],
+      "examples": [],
+      "keyword": "Director",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "康",
+      "meanings": [
+        "Ease",
+        "Peace"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Ease",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "静",
+      "meanings": [
+        "Quiet"
+      ],
+      "on_yomi": [
+        "せい",
+        "じょう"
+      ],
+      "kun_yomi": [
+        "しず-",
+        "しず.か",
+        "しず.まる",
+        "しず.める"
+      ],
+      "examples": [],
+      "keyword": "Quiet",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "喜",
+      "meanings": [
+        "Rejoice",
+        "Take Pleasure In"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [
+        "よろこ.ぶ",
+        "よろこ.ばす"
+      ],
+      "examples": [],
+      "keyword": "Rejoice",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "囲",
+      "meanings": [
+        "Surround",
+        "Besiege",
+        "Store",
+        "Paling",
+        "Enclosure",
+        "Encircle",
+        "Preserve",
+        "Keep"
+      ],
+      "on_yomi": [
+        "い"
+      ],
+      "kun_yomi": [
+        "かこ.む",
+        "かこ.う",
+        "かこ.い"
+      ],
+      "examples": [],
+      "keyword": "Surround",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "卒",
+      "meanings": [
+        "Graduate",
+        "Soldier",
+        "Private",
+        "Die"
+      ],
+      "on_yomi": [
+        "そつ",
+        "しゅつ"
+      ],
+      "kun_yomi": [
+        "そっ.する",
+        "お.える",
+        "お.わる",
+        "ついに",
+        "にわか"
+      ],
+      "examples": [],
+      "keyword": "Graduate",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "順",
+      "meanings": [
+        "Obey",
+        "Order",
+        "Turn",
+        "Right",
+        "Docility",
+        "Occasion"
+      ],
+      "on_yomi": [
+        "じゅん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Order",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "紀",
+      "meanings": [
+        "Chronicle",
+        "Account",
+        "Narrative",
+        "History",
+        "Annals",
+        "Geologic Period"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Account",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "博",
+      "meanings": [
+        "Dr.",
+        "Command",
+        "Esteem",
+        "Win Acclaim",
+        "Ph.d.",
+        "Exposition",
+        "Fair"
+      ],
+      "on_yomi": [
+        "はく",
+        "ばく"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Exhibition",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "救",
+      "meanings": [
+        "Salvation",
+        "Save",
+        "Help",
+        "Rescue",
+        "Reclaim"
+      ],
+      "on_yomi": [
+        "きゅう"
+      ],
+      "kun_yomi": [
+        "すく.う"
+      ],
+      "examples": [],
+      "keyword": "Rescue",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "老",
+      "meanings": [
+        "Old Man",
+        "Old Age",
+        "Grow Old"
+      ],
+      "on_yomi": [
+        "ろう"
+      ],
+      "kun_yomi": [
+        "お.いる",
+        "ふ.ける"
+      ],
+      "examples": [],
+      "keyword": "Elderly",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "令",
+      "meanings": [
+        "Orders",
+        "Ancient Laws",
+        "Command",
+        "Decree"
+      ],
+      "on_yomi": [
+        "れい"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Orders",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "徒",
+      "meanings": [
+        "On Foot",
+        "Junior",
+        "Emptiness",
+        "Vanity",
+        "Futility",
+        "Uselessness",
+        "Ephemeral Thing",
+        "Gang",
+        "Set",
+        "Party",
+        "People"
+      ],
+      "on_yomi": [
+        "と"
+      ],
+      "kun_yomi": [
+        "いたずら",
+        "あだ"
+      ],
+      "examples": [],
+      "keyword": "Junior",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "貨",
+      "meanings": [
+        "Freight",
+        "Goods",
+        "Property"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [
+        "たから"
+      ],
+      "examples": [],
+      "keyword": "Freight",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "季",
+      "meanings": [
+        "Seasons"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Seasons",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "功",
+      "meanings": [
+        "Achievement",
+        "Merits",
+        "Success",
+        "Honor",
+        "Credit"
+      ],
+      "on_yomi": [
+        "こう",
+        "く"
+      ],
+      "kun_yomi": [
+        "いさお"
+      ],
+      "examples": [],
+      "keyword": "Achievement",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "欠",
+      "meanings": [
+        "Lack",
+        "Gap",
+        "Fail",
+        "Yawning Radical (no. 76)"
+      ],
+      "on_yomi": [
+        "けつ",
+        "けん"
+      ],
+      "kun_yomi": [
+        "か.ける",
+        "か.く"
+      ],
+      "examples": [],
+      "keyword": "Lack",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "底",
+      "meanings": [
+        "Bottom",
+        "Sole",
+        "Depth",
+        "Bottom Price",
+        "Base",
+        "Kind",
+        "Sort"
+      ],
+      "on_yomi": [
+        "てい"
+      ],
+      "kun_yomi": [
+        "そこ"
+      ],
+      "examples": [],
+      "keyword": "Bottom",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "養",
+      "meanings": [
+        "Foster",
+        "Bring Up",
+        "Rear",
+        "Develop",
+        "Nurture"
+      ],
+      "on_yomi": [
+        "よう",
+        "りょう"
+      ],
+      "kun_yomi": [
+        "やしな.う"
+      ],
+      "examples": [],
+      "keyword": "Foster",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "街",
+      "meanings": [
+        "Boulevard",
+        "Street",
+        "Town"
+      ],
+      "on_yomi": [
+        "がい",
+        "かい"
+      ],
+      "kun_yomi": [
+        "まち"
+      ],
+      "examples": [],
+      "keyword": "Street",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "願",
+      "meanings": [
+        "Petition",
+        "Request",
+        "Vow",
+        "Wish",
+        "Hope"
+      ],
+      "on_yomi": [
+        "がん"
+      ],
+      "kun_yomi": [
+        "ねが.う",
+        "-ねがい"
+      ],
+      "examples": [],
+      "keyword": "Request",
+      "etymology": "",
+      "stroke_count": 19,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "希",
+      "meanings": [
+        "Hope",
+        "Beg",
+        "Request",
+        "Pray",
+        "Beseech",
+        "Greece",
+        "Dilute (acid)",
+        "Rare",
+        "Few",
+        "Phenomenal"
+      ],
+      "on_yomi": [
+        "き",
+        "け"
+      ],
+      "kun_yomi": [
+        "まれ"
+      ],
+      "examples": [],
+      "keyword": "Wish",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "笑",
+      "meanings": [
+        "Laugh"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "わら.う",
+        "え.む"
+      ],
+      "examples": [],
+      "keyword": "Laugh",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "束",
+      "meanings": [
+        "Bundle",
+        "Sheaf",
+        "Ream",
+        "Tie In Bundles",
+        "Govern",
+        "Manage",
+        "Control"
+      ],
+      "on_yomi": [
+        "そく"
+      ],
+      "kun_yomi": [
+        "たば",
+        "たば.ねる",
+        "つか",
+        "つか.ねる"
+      ],
+      "examples": [],
+      "keyword": "Bundle",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "仲",
+      "meanings": [
+        "Go-between",
+        "Relationship"
+      ],
+      "on_yomi": [
+        "ちゅう"
+      ],
+      "kun_yomi": [
+        "なか"
+      ],
+      "examples": [],
+      "keyword": "Relationship",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "栄",
+      "meanings": [
+        "Flourish",
+        "Prosperity",
+        "Honor",
+        "Glory",
+        "Splendor"
+      ],
+      "on_yomi": [
+        "えい",
+        "よう"
+      ],
+      "kun_yomi": [
+        "さか.える",
+        "は.え",
+        "-ば.え",
+        "は.える",
+        "え"
+      ],
+      "examples": [],
+      "keyword": "Prosper",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "札",
+      "meanings": [
+        "Tag",
+        "Paper Money",
+        "Counter For Bonds",
+        "Placard",
+        "Bid"
+      ],
+      "on_yomi": [
+        "さつ"
+      ],
+      "kun_yomi": [
+        "ふだ"
+      ],
+      "examples": [],
+      "keyword": "Bill",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "借",
+      "meanings": [
+        "Borrow",
+        "Rent"
+      ],
+      "on_yomi": [
+        "しゃく"
+      ],
+      "kun_yomi": [
+        "か.りる"
+      ],
+      "examples": [],
+      "keyword": "Borrow",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "節",
+      "meanings": [
+        "Node",
+        "Season",
+        "Period",
+        "Occasion",
+        "Verse",
+        "Clause",
+        "Stanza",
+        "Honor",
+        "Joint",
+        "Knuckle",
+        "Knob",
+        "Knot",
+        "Tune",
+        "Melody"
+      ],
+      "on_yomi": [
+        "せつ",
+        "せち"
+      ],
+      "kun_yomi": [
+        "ふし",
+        "-ぶし",
+        "のっと"
+      ],
+      "examples": [],
+      "keyword": "Season",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "包",
+      "meanings": [
+        "Wrap",
+        "Pack Up",
+        "Cover",
+        "Conceal"
+      ],
+      "on_yomi": [
+        "ほう"
+      ],
+      "kun_yomi": [
+        "つつ.む",
+        "くる.む"
+      ],
+      "examples": [],
+      "keyword": "Wrap",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "折",
+      "meanings": [
+        "Fold",
+        "Break",
+        "Fracture",
+        "Bend",
+        "Yield",
+        "Submit"
+      ],
+      "on_yomi": [
+        "せつ",
+        "しゃく"
+      ],
+      "kun_yomi": [
+        "お.る",
+        "おり",
+        "お.り",
+        "-お.り",
+        "お.れる"
+      ],
+      "examples": [],
+      "keyword": "Fold",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 4,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "郡",
+      "meanings": [
+        "County",
+        "District"
+      ],
+      "on_yomi": [
+        "ぐん"
+      ],
+      "kun_yomi": [
+        "こおり"
+      ],
+      "examples": [],
+      "keyword": "County",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "焼",
+      "meanings": [
+        "Bake",
+        "Burning"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "や.く",
+        "や.き",
+        "や.き-",
+        "-や.き",
+        "や.ける"
+      ],
+      "examples": [],
+      "keyword": "Bake",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "照",
+      "meanings": [
+        "Illuminate",
+        "Shine",
+        "Compare",
+        "Bashful"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "て.る",
+        "て.らす",
+        "て.れる"
+      ],
+      "examples": [],
+      "keyword": "Illuminate",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "堂",
+      "meanings": [
+        "Public Chamber",
+        "Hall"
+      ],
+      "on_yomi": [
+        "どう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Hall",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "飯",
+      "meanings": [
+        "Meal",
+        "Boiled Rice"
+      ],
+      "on_yomi": [
+        "はん"
+      ],
+      "kun_yomi": [
+        "めし"
+      ],
+      "examples": [],
+      "keyword": "Meal",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 4,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "典",
+      "meanings": [
+        "Code",
+        "Ceremony",
+        "Law",
+        "Rule"
+      ],
+      "on_yomi": [
+        "てん",
+        "でん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Rule",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "漁",
+      "meanings": [
+        "Fishing",
+        "Fishery"
+      ],
+      "on_yomi": [
+        "ぎょ",
+        "りょう"
+      ],
+      "kun_yomi": [
+        "あさ.る"
+      ],
+      "examples": [],
+      "keyword": "Fishing",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "貯",
+      "meanings": [
+        "Savings",
+        "Store",
+        "Lay In",
+        "Keep",
+        "Wear Mustache"
+      ],
+      "on_yomi": [
+        "ちょ"
+      ],
+      "kun_yomi": [
+        "た.める",
+        "たくわ.える"
+      ],
+      "examples": [],
+      "keyword": "Savings",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "倉",
+      "meanings": [
+        "Godown",
+        "Warehouse",
+        "Storehouse",
+        "Cellar",
+        "Treasury"
+      ],
+      "on_yomi": [
+        "そう"
+      ],
+      "kun_yomi": [
+        "くら"
+      ],
+      "examples": [],
+      "keyword": "Warehouse",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "唱",
+      "meanings": [
+        "Chant",
+        "Recite",
+        "Call Upon",
+        "Yell"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "とな.える"
+      ],
+      "examples": [],
+      "keyword": "Chant",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "訓",
+      "meanings": [
+        "Instruction",
+        "Japanese Character Reading",
+        "Explanation",
+        "Read"
+      ],
+      "on_yomi": [
+        "くん",
+        "きん"
+      ],
+      "kun_yomi": [
+        "おし.える",
+        "よ.む",
+        "くん.ずる"
+      ],
+      "examples": [],
+      "keyword": "Instruction",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "浴",
+      "meanings": [
+        "Bathe",
+        "Be Favored With",
+        "Bask In"
+      ],
+      "on_yomi": [
+        "よく"
+      ],
+      "kun_yomi": [
+        "あ.びる",
+        "あ.びせる"
+      ],
+      "examples": [],
+      "keyword": "Bathe",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "塩",
+      "meanings": [
+        "Salt"
+      ],
+      "on_yomi": [
+        "えん"
+      ],
+      "kun_yomi": [
+        "しお"
+      ],
+      "examples": [],
+      "keyword": "Salt",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "兆",
+      "meanings": [
+        "Portent",
+        "10**12",
+        "Trillion",
+        "Sign",
+        "Omen",
+        "Symptoms"
+      ],
+      "on_yomi": [
+        "ちょう"
+      ],
+      "kun_yomi": [
+        "きざ.す",
+        "きざ.し"
+      ],
+      "examples": [],
+      "keyword": "Omen",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "祝",
+      "meanings": [
+        "Celebrate",
+        "Congratulate"
+      ],
+      "on_yomi": [
+        "しゅく",
+        "しゅう"
+      ],
+      "kun_yomi": [
+        "いわ.う"
+      ],
+      "examples": [],
+      "keyword": "Celebrate",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "旗",
+      "meanings": [
+        "National Flag",
+        "Banner",
+        "Standard"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [
+        "はた"
+      ],
+      "examples": [],
+      "keyword": "Flag",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "衣",
+      "meanings": [
+        "Garment",
+        "Clothes",
+        "Dressing"
+      ],
+      "on_yomi": [
+        "い",
+        "え"
+      ],
+      "kun_yomi": [
+        "ころも",
+        "きぬ",
+        "-ぎ"
+      ],
+      "examples": [],
+      "keyword": "Clothes",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "梅",
+      "meanings": [
+        "Plum"
+      ],
+      "on_yomi": [
+        "ばい"
+      ],
+      "kun_yomi": [
+        "うめ"
+      ],
+      "examples": [],
+      "keyword": "Ume",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "臣",
+      "meanings": [
+        "Retainer",
+        "Subject"
+      ],
+      "on_yomi": [
+        "しん",
+        "じん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Servant",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "浅",
+      "meanings": [
+        "Shallow",
+        "Superficial",
+        "Frivolous",
+        "Wretched",
+        "Shameful"
+      ],
+      "on_yomi": [
+        "せん"
+      ],
+      "kun_yomi": [
+        "あさ.い"
+      ],
+      "examples": [],
+      "keyword": "Shallow",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "勇",
+      "meanings": [
+        "Courage",
+        "Cheer Up",
+        "Be In High Spirits",
+        "Bravery",
+        "Heroism"
+      ],
+      "on_yomi": [
+        "ゆう"
+      ],
+      "kun_yomi": [
+        "いさ.む"
+      ],
+      "examples": [],
+      "keyword": "Courage",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "械",
+      "meanings": [
+        "Contraption",
+        "Fetter",
+        "Machine",
+        "Instrument"
+      ],
+      "on_yomi": [
+        "かい"
+      ],
+      "kun_yomi": [
+        "かせ"
+      ],
+      "examples": [],
+      "keyword": "Contraption",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "菜",
+      "meanings": [
+        "Vegetable",
+        "Side Dish",
+        "Greens"
+      ],
+      "on_yomi": [
+        "さい"
+      ],
+      "kun_yomi": [
+        "な"
+      ],
+      "examples": [],
+      "keyword": "Vegetable",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "刷",
+      "meanings": [
+        "Printing",
+        "Print",
+        "Brush"
+      ],
+      "on_yomi": [
+        "さつ"
+      ],
+      "kun_yomi": [
+        "す.る",
+        "-ず.り",
+        "-ずり",
+        "は.く"
+      ],
+      "examples": [],
+      "keyword": "Printing",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "牧",
+      "meanings": [
+        "Breed",
+        "Care For",
+        "Shepherd",
+        "Feed",
+        "Pasture"
+      ],
+      "on_yomi": [
+        "ぼく"
+      ],
+      "kun_yomi": [
+        "まき"
+      ],
+      "examples": [],
+      "keyword": "Pasture",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "泣",
+      "meanings": [
+        "Cry",
+        "Weep",
+        "Moan"
+      ],
+      "on_yomi": [
+        "きゅう"
+      ],
+      "kun_yomi": [
+        "な.く"
+      ],
+      "examples": [],
+      "keyword": "Cry",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "孫",
+      "meanings": [
+        "Grandchild",
+        "Descendants"
+      ],
+      "on_yomi": [
+        "そん"
+      ],
+      "kun_yomi": [
+        "まご"
+      ],
+      "examples": [],
+      "keyword": "Grandchild",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "毒",
+      "meanings": [
+        "Poison",
+        "Virus",
+        "Venom",
+        "Germ",
+        "Harm",
+        "Injury",
+        "Spite"
+      ],
+      "on_yomi": [
+        "どく"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Poison",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "径",
+      "meanings": [
+        "Diameter",
+        "Path",
+        "Method"
+      ],
+      "on_yomi": [
+        "けい"
+      ],
+      "kun_yomi": [
+        "みち",
+        "こみち",
+        "さしわたし",
+        "ただちに"
+      ],
+      "examples": [],
+      "keyword": "Diameter",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "脈",
+      "meanings": [
+        "Vein",
+        "Pulse",
+        "Hope"
+      ],
+      "on_yomi": [
+        "みゃく"
+      ],
+      "kun_yomi": [
+        "すじ"
+      ],
+      "examples": [],
+      "keyword": "Vein",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "粉",
+      "meanings": [
+        "Flour",
+        "Powder",
+        "Dust"
+      ],
+      "on_yomi": [
+        "ふん"
+      ],
+      "kun_yomi": [
+        "デシメートル",
+        "こ",
+        "こな"
+      ],
+      "examples": [],
+      "keyword": "Powder",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "鏡",
+      "meanings": [
+        "Mirror",
+        "Speculum",
+        "Barrel-head",
+        "Round Rice-cake Offering"
+      ],
+      "on_yomi": [
+        "きょう",
+        "けい"
+      ],
+      "kun_yomi": [
+        "かがみ"
+      ],
+      "examples": [],
+      "keyword": "Mirror",
+      "etymology": "",
+      "stroke_count": 19,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "巣",
+      "meanings": [
+        "Nest",
+        "Rookery",
+        "Hive",
+        "Cobweb",
+        "Den"
+      ],
+      "on_yomi": [
+        "そう"
+      ],
+      "kun_yomi": [
+        "す",
+        "す.くう"
+      ],
+      "examples": [],
+      "keyword": "Nest",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "灯",
+      "meanings": [
+        "Lamp",
+        "A Light",
+        "Light",
+        "Counter For Lights"
+      ],
+      "on_yomi": [
+        "とう"
+      ],
+      "kun_yomi": [
+        "ひ",
+        "ほ-",
+        "ともしび",
+        "とも.す",
+        "あかり"
+      ],
+      "examples": [],
+      "keyword": "Lamp",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "胃",
+      "meanings": [
+        "Stomach",
+        "Paunch",
+        "Crop",
+        "Craw"
+      ],
+      "on_yomi": [
+        "い"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Stomach",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 4,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "芽",
+      "meanings": [
+        "Bud",
+        "Sprout",
+        "Spear",
+        "Germ"
+      ],
+      "on_yomi": [
+        "が"
+      ],
+      "kun_yomi": [
+        "め"
+      ],
+      "examples": [],
+      "keyword": "Sprout",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    },
+    {
+      "kanji": "腸",
+      "meanings": [
+        "Intestines",
+        "Guts",
+        "Bowels",
+        "Viscera"
+      ],
+      "on_yomi": [
+        "ちょう"
+      ],
+      "kun_yomi": [
+        "はらわた",
+        "わた"
+      ],
+      "examples": [],
+      "keyword": "Intestines",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N1",
+      "grade": 4,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4127 @@
+{
+  "deck_id": "kanji-jouyou-grade-2",
+  "deck_name": "Jōyō Kanji — Grade 2",
+  "version": "1.0",
+  "card_count": 160,
+  "notes": "Second-grade Jōyō kanji (160 characters).",
+  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JLPT Resources (Jonathan Waller), and WaniKani.",
+  "cards": [
+    {
+      "kanji": "国",
+      "meanings": [
+        "Country"
+      ],
+      "on_yomi": [
+        "こく"
+      ],
+      "kun_yomi": [
+        "くに"
+      ],
+      "examples": [],
+      "keyword": "Country",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "会",
+      "meanings": [
+        "Meeting",
+        "Meet",
+        "Party",
+        "Association",
+        "Interview",
+        "Join"
+      ],
+      "on_yomi": [
+        "かい",
+        "え"
+      ],
+      "kun_yomi": [
+        "あ.う",
+        "あ.わせる",
+        "あつ.まる"
+      ],
+      "examples": [],
+      "keyword": "Meet",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "長",
+      "meanings": [
+        "Long",
+        "Leader",
+        "Superior",
+        "Senior"
+      ],
+      "on_yomi": [
+        "ちょう"
+      ],
+      "kun_yomi": [
+        "なが.い",
+        "おさ"
+      ],
+      "examples": [],
+      "keyword": "Long",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "同",
+      "meanings": [
+        "Same",
+        "Agree",
+        "Equal"
+      ],
+      "on_yomi": [
+        "どう"
+      ],
+      "kun_yomi": [
+        "おな.じ"
+      ],
+      "examples": [],
+      "keyword": "Same",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "時",
+      "meanings": [
+        "Time",
+        "Hour"
+      ],
+      "on_yomi": [
+        "じ"
+      ],
+      "kun_yomi": [
+        "とき",
+        "-どき"
+      ],
+      "examples": [],
+      "keyword": "Time",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "自",
+      "meanings": [
+        "Oneself"
+      ],
+      "on_yomi": [
+        "じ",
+        "し"
+      ],
+      "kun_yomi": [
+        "みずか.ら",
+        "おの.ずから",
+        "おの.ずと"
+      ],
+      "examples": [],
+      "keyword": "Self",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "行",
+      "meanings": [
+        "Going",
+        "Journey",
+        "Carry Out",
+        "Conduct",
+        "Act",
+        "Line",
+        "Row",
+        "Bank"
+      ],
+      "on_yomi": [
+        "こう",
+        "ぎょう",
+        "あん"
+      ],
+      "kun_yomi": [
+        "い.く",
+        "ゆ.く",
+        "-ゆ.き",
+        "-ゆき",
+        "-い.き",
+        "-いき",
+        "おこな.う",
+        "おこ.なう"
+      ],
+      "examples": [],
+      "keyword": "Go",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "社",
+      "meanings": [
+        "Company",
+        "Firm",
+        "Office",
+        "Association",
+        "Shrine"
+      ],
+      "on_yomi": [
+        "しゃ"
+      ],
+      "kun_yomi": [
+        "やしろ"
+      ],
+      "examples": [],
+      "keyword": "Company",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "分",
+      "meanings": [
+        "Part",
+        "Minute Of Time",
+        "Segment",
+        "Share",
+        "Degree",
+        "One's Lot",
+        "Duty",
+        "Understand",
+        "Know",
+        "Rate",
+        "1%",
+        "Chances",
+        "Shaku/100"
+      ],
+      "on_yomi": [
+        "ぶん",
+        "ふん",
+        "ぶ"
+      ],
+      "kun_yomi": [
+        "わ.ける",
+        "わ.け",
+        "わ.かれる",
+        "わ.かる",
+        "わ.かつ"
+      ],
+      "examples": [],
+      "keyword": "Part",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": 2,
+      "decks": [
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "後",
+      "meanings": [
+        "Behind",
+        "Back",
+        "Later"
+      ],
+      "on_yomi": [
+        "ご",
+        "こう"
+      ],
+      "kun_yomi": [
+        "のち",
+        "うし.ろ",
+        "うしろ",
+        "あと",
+        "おく.れる"
+      ],
+      "examples": [],
+      "keyword": "Behind",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "前",
+      "meanings": [
+        "In Front",
+        "Before"
+      ],
+      "on_yomi": [
+        "ぜん"
+      ],
+      "kun_yomi": [
+        "まえ",
+        "-まえ"
+      ],
+      "examples": [],
+      "keyword": "Front",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "間",
+      "meanings": [
+        "Interval",
+        "Space"
+      ],
+      "on_yomi": [
+        "かん",
+        "けん"
+      ],
+      "kun_yomi": [
+        "あいだ",
+        "ま",
+        "あい"
+      ],
+      "examples": [],
+      "keyword": "Interval",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "東",
+      "meanings": [
+        "East"
+      ],
+      "on_yomi": [
+        "とう"
+      ],
+      "kun_yomi": [
+        "ひがし"
+      ],
+      "examples": [],
+      "keyword": "East",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "地",
+      "meanings": [
+        "Ground",
+        "Earth"
+      ],
+      "on_yomi": [
+        "ち",
+        "じ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Earth",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "合",
+      "meanings": [
+        "Fit",
+        "Suit",
+        "Join",
+        "0.1"
+      ],
+      "on_yomi": [
+        "ごう",
+        "がっ",
+        "かっ"
+      ],
+      "kun_yomi": [
+        "あ.う",
+        "-あ.う",
+        "あ.い",
+        "あい-",
+        "-あ.い",
+        "-あい",
+        "あ.わす",
+        "あ.わせる",
+        "-あ.わせる"
+      ],
+      "examples": [],
+      "keyword": "Suit",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "市",
+      "meanings": [
+        "Market",
+        "City",
+        "Town"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "いち"
+      ],
+      "examples": [],
+      "keyword": "City",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "内",
+      "meanings": [
+        "Inside",
+        "Within",
+        "Between",
+        "Among",
+        "House",
+        "Home"
+      ],
+      "on_yomi": [
+        "ない",
+        "だい"
+      ],
+      "kun_yomi": [
+        "うち"
+      ],
+      "examples": [],
+      "keyword": "Inside",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "方",
+      "meanings": [
+        "Direction",
+        "Person",
+        "Alternative"
+      ],
+      "on_yomi": [
+        "ほう"
+      ],
+      "kun_yomi": [
+        "かた",
+        "-かた",
+        "-がた"
+      ],
+      "examples": [],
+      "keyword": "Direction",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "今",
+      "meanings": [
+        "Now"
+      ],
+      "on_yomi": [
+        "こん",
+        "きん"
+      ],
+      "kun_yomi": [
+        "いま"
+      ],
+      "examples": [],
+      "keyword": "Now",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "回",
+      "meanings": [
+        "-times",
+        "Round",
+        "Game",
+        "Revolve",
+        "Counter For Occurrences"
+      ],
+      "on_yomi": [
+        "かい",
+        "え"
+      ],
+      "kun_yomi": [
+        "まわ.る",
+        "-まわ.る",
+        "-まわ.り",
+        "まわ.す",
+        "-まわ.す",
+        "まわ.し-",
+        "-まわ.し",
+        "もとお.る",
+        "か.える"
+      ],
+      "examples": [],
+      "keyword": "Times",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "新",
+      "meanings": [
+        "New"
+      ],
+      "on_yomi": [
+        "しん"
+      ],
+      "kun_yomi": [
+        "あたら.しい",
+        "あら.た",
+        "あら-",
+        "にい-"
+      ],
+      "examples": [],
+      "keyword": "New",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "場",
+      "meanings": [
+        "Location",
+        "Place"
+      ],
+      "on_yomi": [
+        "じょう",
+        "ちょう"
+      ],
+      "kun_yomi": [
+        "ば"
+      ],
+      "examples": [],
+      "keyword": "Location",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "米",
+      "meanings": [
+        "Rice",
+        "Usa",
+        "Metre"
+      ],
+      "on_yomi": [
+        "べい",
+        "まい",
+        "めえとる"
+      ],
+      "kun_yomi": [
+        "こめ",
+        "よね"
+      ],
+      "examples": [],
+      "keyword": "Rice",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "高",
+      "meanings": [
+        "Tall",
+        "High",
+        "Expensive"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "たか.い",
+        "たか",
+        "-だか",
+        "たか.まる",
+        "たか.める"
+      ],
+      "examples": [],
+      "keyword": "Tall",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "明",
+      "meanings": [
+        "Bright",
+        "Light"
+      ],
+      "on_yomi": [
+        "めい",
+        "みょう",
+        "みん"
+      ],
+      "kun_yomi": [
+        "あ.かり",
+        "あか.るい",
+        "あか.るむ",
+        "あか.らむ",
+        "あき.らか",
+        "あ.ける",
+        "-あ.け",
+        "あ.く",
+        "あ.くる",
+        "あ.かす"
+      ],
+      "examples": [],
+      "keyword": "Bright",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "京",
+      "meanings": [
+        "Capital",
+        "10**16"
+      ],
+      "on_yomi": [
+        "きょう",
+        "けい",
+        "きん"
+      ],
+      "kun_yomi": [
+        "みやこ"
+      ],
+      "examples": [],
+      "keyword": "Capital",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "通",
+      "meanings": [
+        "Traffic",
+        "Pass Through",
+        "Avenue",
+        "Commute",
+        "Counter For Letters, Notes, Documents, Etc."
+      ],
+      "on_yomi": [
+        "つう",
+        "つ"
+      ],
+      "kun_yomi": [
+        "とお.る",
+        "とお.り",
+        "-とお.り",
+        "-どお.り",
+        "とお.す",
+        "とお.し",
+        "-どお.し",
+        "かよ.う"
+      ],
+      "examples": [],
+      "keyword": "Pass Through",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "外",
+      "meanings": [
+        "Outside"
+      ],
+      "on_yomi": [
+        "がい",
+        "げ"
+      ],
+      "kun_yomi": [
+        "そと",
+        "ほか",
+        "はず.す",
+        "はず.れる",
+        "と-"
+      ],
+      "examples": [],
+      "keyword": "Outside",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "言",
+      "meanings": [
+        "Say",
+        "Word"
+      ],
+      "on_yomi": [
+        "げん",
+        "ごん"
+      ],
+      "kun_yomi": [
+        "い.う",
+        "こと"
+      ],
+      "examples": [],
+      "keyword": "Say",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "理",
+      "meanings": [
+        "Logic",
+        "Arrangement",
+        "Reason",
+        "Justice",
+        "Truth"
+      ],
+      "on_yomi": [
+        "り"
+      ],
+      "kun_yomi": [
+        "ことわり"
+      ],
+      "examples": [],
+      "keyword": "Reason",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "体",
+      "meanings": [
+        "Body",
+        "Substance",
+        "Object",
+        "Reality",
+        "Counter For Images"
+      ],
+      "on_yomi": [
+        "たい",
+        "てい"
+      ],
+      "kun_yomi": [
+        "からだ",
+        "かたち"
+      ],
+      "examples": [],
+      "keyword": "Body",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "当",
+      "meanings": [
+        "Hit",
+        "Right",
+        "Appropriate",
+        "Himself"
+      ],
+      "on_yomi": [
+        "とう"
+      ],
+      "kun_yomi": [
+        "あ.たる",
+        "あ.たり",
+        "あ.てる",
+        "あ.て",
+        "まさ.に",
+        "まさ.にべし"
+      ],
+      "examples": [],
+      "keyword": "Correct",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "首",
+      "meanings": [
+        "Neck",
+        "Counter For Songs And Poems"
+      ],
+      "on_yomi": [
+        "しゅ"
+      ],
+      "kun_yomi": [
+        "くび"
+      ],
+      "examples": [],
+      "keyword": "Neck",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "来",
+      "meanings": [
+        "Come",
+        "Due",
+        "Next",
+        "Cause",
+        "Become"
+      ],
+      "on_yomi": [
+        "らい",
+        "たい"
+      ],
+      "kun_yomi": [
+        "く.る",
+        "きた.る",
+        "きた.す",
+        "き.たす",
+        "き.たる",
+        "き",
+        "こ"
+      ],
+      "examples": [],
+      "keyword": "Come",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "作",
+      "meanings": [
+        "Make",
+        "Production",
+        "Prepare",
+        "Build"
+      ],
+      "on_yomi": [
+        "さく",
+        "さ"
+      ],
+      "kun_yomi": [
+        "つく.る",
+        "つく.り",
+        "-づく.り"
+      ],
+      "examples": [],
+      "keyword": "Make",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "用",
+      "meanings": [
+        "Utilize",
+        "Business",
+        "Service",
+        "Use",
+        "Employ"
+      ],
+      "on_yomi": [
+        "よう"
+      ],
+      "kun_yomi": [
+        "もち.いる"
+      ],
+      "examples": [],
+      "keyword": "Task",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "強",
+      "meanings": [
+        "Strong"
+      ],
+      "on_yomi": [
+        "きょう",
+        "ごう"
+      ],
+      "kun_yomi": [
+        "つよ.い",
+        "つよ.まる",
+        "つよ.める",
+        "し.いる",
+        "こわ.い"
+      ],
+      "examples": [],
+      "keyword": "Strong",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "公",
+      "meanings": [
+        "Public",
+        "Prince",
+        "Official",
+        "Governmental"
+      ],
+      "on_yomi": [
+        "こう",
+        "く"
+      ],
+      "kun_yomi": [
+        "おおやけ"
+      ],
+      "examples": [],
+      "keyword": "Public",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "野",
+      "meanings": [
+        "Plains",
+        "Field",
+        "Rustic",
+        "Civilian Life"
+      ],
+      "on_yomi": [
+        "や",
+        "しょ"
+      ],
+      "kun_yomi": [
+        "の",
+        "の-"
+      ],
+      "examples": [],
+      "keyword": "Field",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "思",
+      "meanings": [
+        "Think"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "おも.う",
+        "おもえら.く",
+        "おぼ.す"
+      ],
+      "examples": [],
+      "keyword": "Think",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "家",
+      "meanings": [
+        "House",
+        "Home",
+        "Family",
+        "Professional",
+        "Expert",
+        "Performer"
+      ],
+      "on_yomi": [
+        "か",
+        "け"
+      ],
+      "kun_yomi": [
+        "いえ",
+        "や",
+        "うち"
+      ],
+      "examples": [],
+      "keyword": "House",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "話",
+      "meanings": [
+        "Tale",
+        "Talk"
+      ],
+      "on_yomi": [
+        "わ"
+      ],
+      "kun_yomi": [
+        "はな.す",
+        "はなし"
+      ],
+      "examples": [],
+      "keyword": "Talk",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "多",
+      "meanings": [
+        "Many",
+        "Frequent",
+        "Much"
+      ],
+      "on_yomi": [
+        "た"
+      ],
+      "kun_yomi": [
+        "おお.い",
+        "まさ.に",
+        "まさ.る"
+      ],
+      "examples": [],
+      "keyword": "Many",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "数",
+      "meanings": [
+        "Number",
+        "Strength",
+        "Fate",
+        "Law",
+        "Figures"
+      ],
+      "on_yomi": [
+        "すう",
+        "す",
+        "さく",
+        "そく",
+        "しゅ"
+      ],
+      "kun_yomi": [
+        "かず",
+        "かぞ.える",
+        "しばしば",
+        "せ.める",
+        "わずらわ.しい"
+      ],
+      "examples": [],
+      "keyword": "Count",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "記",
+      "meanings": [
+        "Scribe",
+        "Account",
+        "Narrative"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [
+        "しる.す"
+      ],
+      "examples": [],
+      "keyword": "Write Down",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "北",
+      "meanings": [
+        "North"
+      ],
+      "on_yomi": [
+        "ほく"
+      ],
+      "kun_yomi": [
+        "きた"
+      ],
+      "examples": [],
+      "keyword": "North",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "午",
+      "meanings": [
+        "Noon",
+        "Sign Of The Horse",
+        "11am-1pm",
+        "Seventh Sign Of Chinese Zodiac"
+      ],
+      "on_yomi": [
+        "ご"
+      ],
+      "kun_yomi": [
+        "うま"
+      ],
+      "examples": [],
+      "keyword": "Noon",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "心",
+      "meanings": [
+        "Heart",
+        "Mind",
+        "Spirit",
+        "Heart Radical (no. 61)"
+      ],
+      "on_yomi": [
+        "しん"
+      ],
+      "kun_yomi": [
+        "こころ",
+        "-ごころ"
+      ],
+      "examples": [],
+      "keyword": "Heart",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "点",
+      "meanings": [
+        "Spot",
+        "Point",
+        "Mark",
+        "Speck",
+        "Decimal Point"
+      ],
+      "on_yomi": [
+        "てん"
+      ],
+      "kun_yomi": [
+        "つ.ける",
+        "つ.く",
+        "た.てる",
+        "さ.す",
+        "とぼ.す",
+        "とも.す",
+        "ぼち"
+      ],
+      "examples": [],
+      "keyword": "Point",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "教",
+      "meanings": [
+        "Teach",
+        "Faith",
+        "Doctrine"
+      ],
+      "on_yomi": [
+        "きょう"
+      ],
+      "kun_yomi": [
+        "おし.える",
+        "おそ.わる"
+      ],
+      "examples": [],
+      "keyword": "Teach",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "書",
+      "meanings": [
+        "Write"
+      ],
+      "on_yomi": [
+        "しょ"
+      ],
+      "kun_yomi": [
+        "か.く",
+        "-が.き",
+        "-がき"
+      ],
+      "examples": [],
+      "keyword": "Write",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "活",
+      "meanings": [
+        "Lively",
+        "Resuscitation",
+        "Being Helped",
+        "Living"
+      ],
+      "on_yomi": [
+        "かつ"
+      ],
+      "kun_yomi": [
+        "い.きる",
+        "い.かす",
+        "い.ける"
+      ],
+      "examples": [],
+      "keyword": "Lively",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "原",
+      "meanings": [
+        "Meadow",
+        "Original",
+        "Primitive",
+        "Field",
+        "Plain",
+        "Prairie",
+        "Tundra",
+        "Wilderness"
+      ],
+      "on_yomi": [
+        "げん"
+      ],
+      "kun_yomi": [
+        "はら"
+      ],
+      "examples": [],
+      "keyword": "Original",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "交",
+      "meanings": [
+        "Mingle",
+        "Mixing",
+        "Association",
+        "Coming & Going"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "まじ.わる",
+        "まじ.える",
+        "ま.じる",
+        "まじ.る",
+        "ま.ざる",
+        "ま.ぜる",
+        "-か.う",
+        "か.わす",
+        "かわ.す",
+        "こもごも"
+      ],
+      "examples": [],
+      "keyword": "Mix",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "元",
+      "meanings": [
+        "Beginning",
+        "Former Time",
+        "Origin"
+      ],
+      "on_yomi": [
+        "げん",
+        "がん"
+      ],
+      "kun_yomi": [
+        "もと"
+      ],
+      "examples": [],
+      "keyword": "Origin",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "近",
+      "meanings": [
+        "Near",
+        "Early",
+        "Akin",
+        "Tantamount"
+      ],
+      "on_yomi": [
+        "きん",
+        "こん"
+      ],
+      "kun_yomi": [
+        "ちか.い"
+      ],
+      "examples": [],
+      "keyword": "Near",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "考",
+      "meanings": [
+        "Consider",
+        "Think Over"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "かんが.える",
+        "かんが.え"
+      ],
+      "examples": [],
+      "keyword": "Think",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "画",
+      "meanings": [
+        "Brush-stroke",
+        "Picture"
+      ],
+      "on_yomi": [
+        "が",
+        "かく",
+        "え",
+        "かい"
+      ],
+      "kun_yomi": [
+        "えが.く",
+        "かく.する",
+        "かぎ.る",
+        "はかりごと",
+        "はか.る"
+      ],
+      "examples": [],
+      "keyword": "Drawing",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "海",
+      "meanings": [
+        "Sea",
+        "Ocean"
+      ],
+      "on_yomi": [
+        "かい"
+      ],
+      "kun_yomi": [
+        "うみ"
+      ],
+      "examples": [],
+      "keyword": "Sea",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "売",
+      "meanings": [
+        "Sell"
+      ],
+      "on_yomi": [
+        "ばい"
+      ],
+      "kun_yomi": [
+        "う.る",
+        "う.れる"
+      ],
+      "examples": [],
+      "keyword": "Sell",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "組",
+      "meanings": [
+        "Association",
+        "Braid",
+        "Plait",
+        "Construct",
+        "Assemble",
+        "Unite",
+        "Cooperate",
+        "Grapple"
+      ],
+      "on_yomi": [
+        "そ"
+      ],
+      "kun_yomi": [
+        "く.む",
+        "くみ",
+        "-ぐみ"
+      ],
+      "examples": [],
+      "keyword": "Group",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "知",
+      "meanings": [
+        "Know",
+        "Wisdom"
+      ],
+      "on_yomi": [
+        "ち"
+      ],
+      "kun_yomi": [
+        "し.る",
+        "し.らせる"
+      ],
+      "examples": [],
+      "keyword": "Know",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "道",
+      "meanings": [
+        "Road-way",
+        "Street",
+        "District",
+        "Journey",
+        "Course",
+        "Moral",
+        "Teachings"
+      ],
+      "on_yomi": [
+        "どう",
+        "とう"
+      ],
+      "kun_yomi": [
+        "みち",
+        "いう"
+      ],
+      "examples": [],
+      "keyword": "Road",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "引",
+      "meanings": [
+        "Pull",
+        "Tug",
+        "Jerk",
+        "Admit",
+        "Install",
+        "Quote",
+        "Refer To"
+      ],
+      "on_yomi": [
+        "いん"
+      ],
+      "kun_yomi": [
+        "ひ.く",
+        "ひ.き",
+        "ひ.き-",
+        "-び.き",
+        "ひ.ける"
+      ],
+      "examples": [],
+      "keyword": "Pull",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "半",
+      "meanings": [
+        "Half",
+        "Middle",
+        "Odd Number",
+        "Semi-",
+        "Part-"
+      ],
+      "on_yomi": [
+        "はん"
+      ],
+      "kun_yomi": [
+        "なか.ば"
+      ],
+      "examples": [],
+      "keyword": "Half",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "計",
+      "meanings": [
+        "Plot",
+        "Plan",
+        "Scheme",
+        "Measure"
+      ],
+      "on_yomi": [
+        "けい"
+      ],
+      "kun_yomi": [
+        "はか.る",
+        "はか.らう"
+      ],
+      "examples": [],
+      "keyword": "Measure",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "直",
+      "meanings": [
+        "Straightaway",
+        "Honesty",
+        "Frankness",
+        "Fix",
+        "Repair"
+      ],
+      "on_yomi": [
+        "ちょく",
+        "じき",
+        "じか"
+      ],
+      "kun_yomi": [
+        "ただ.ちに",
+        "なお.す",
+        "-なお.す",
+        "なお.る",
+        "なお.き",
+        "す.ぐ"
+      ],
+      "examples": [],
+      "keyword": "Fix",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "朝",
+      "meanings": [
+        "Morning",
+        "Dynasty",
+        "Regime",
+        "Epoch",
+        "Period",
+        "(north) Korea"
+      ],
+      "on_yomi": [
+        "ちょう"
+      ],
+      "kun_yomi": [
+        "あさ"
+      ],
+      "examples": [],
+      "keyword": "Morning",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "西",
+      "meanings": [
+        "West",
+        "Spain"
+      ],
+      "on_yomi": [
+        "せい",
+        "さい",
+        "す"
+      ],
+      "kun_yomi": [
+        "にし"
+      ],
+      "examples": [],
+      "keyword": "West",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "台",
+      "meanings": [
+        "Pedestal",
+        "A Stand",
+        "Counter For Machines And Vehicles"
+      ],
+      "on_yomi": [
+        "だい",
+        "たい"
+      ],
+      "kun_yomi": [
+        "うてな",
+        "われ",
+        "つかさ"
+      ],
+      "examples": [],
+      "keyword": "Machine",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "広",
+      "meanings": [
+        "Wide",
+        "Broad",
+        "Spacious"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "ひろ.い",
+        "ひろ.まる",
+        "ひろ.める",
+        "ひろ.がる",
+        "ひろ.げる"
+      ],
+      "examples": [],
+      "keyword": "Wide",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "電",
+      "meanings": [
+        "Electricity"
+      ],
+      "on_yomi": [
+        "でん"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Electricity",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "少",
+      "meanings": [
+        "Few",
+        "Little"
+      ],
+      "on_yomi": [
+        "しょう"
+      ],
+      "kun_yomi": [
+        "すく.ない",
+        "すこ.し"
+      ],
+      "examples": [],
+      "keyword": "Few",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "工",
+      "meanings": [
+        "Craft",
+        "Construction",
+        "Katakana E Radical (no. 48)"
+      ],
+      "on_yomi": [
+        "こう",
+        "く",
+        "ぐ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Construction",
+      "etymology": "",
+      "stroke_count": 3,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "語",
+      "meanings": [
+        "Word",
+        "Speech",
+        "Language"
+      ],
+      "on_yomi": [
+        "ご"
+      ],
+      "kun_yomi": [
+        "かた.る",
+        "かた.らう"
+      ],
+      "examples": [],
+      "keyword": "Language",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "止",
+      "meanings": [
+        "Stop",
+        "Halt"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "と.まる",
+        "-ど.まり",
+        "と.める",
+        "-と.める",
+        "-ど.め",
+        "とど.める",
+        "とど.め",
+        "とど.まる",
+        "や.める",
+        "や.む",
+        "-や.む",
+        "よ.す",
+        "-さ.す",
+        "-さ.し"
+      ],
+      "examples": [],
+      "keyword": "Stop",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "聞",
+      "meanings": [
+        "Hear",
+        "Ask",
+        "Listen"
+      ],
+      "on_yomi": [
+        "ぶん",
+        "もん"
+      ],
+      "kun_yomi": [
+        "き.く",
+        "き.こえる"
+      ],
+      "examples": [],
+      "keyword": "Hear",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "切",
+      "meanings": [
+        "Cut",
+        "Cutoff",
+        "Be Sharp"
+      ],
+      "on_yomi": [
+        "せつ",
+        "さい"
+      ],
+      "kun_yomi": [
+        "き.る",
+        "-き.る",
+        "き.り",
+        "-き.り",
+        "-ぎ.り",
+        "き.れる",
+        "-き.れる",
+        "き.れ",
+        "-き.れ",
+        "-ぎ.れ"
+      ],
+      "examples": [],
+      "keyword": "Cut",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "食",
+      "meanings": [
+        "Eat",
+        "Food"
+      ],
+      "on_yomi": [
+        "しょく",
+        "じき"
+      ],
+      "kun_yomi": [
+        "く.う",
+        "く.らう",
+        "た.べる",
+        "は.む"
+      ],
+      "examples": [],
+      "keyword": "Eat",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "何",
+      "meanings": [
+        "What"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [
+        "なに",
+        "なん",
+        "なに-",
+        "なん-"
+      ],
+      "examples": [],
+      "keyword": "What",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "南",
+      "meanings": [
+        "South"
+      ],
+      "on_yomi": [
+        "なん",
+        "な"
+      ],
+      "kun_yomi": [
+        "みなみ"
+      ],
+      "examples": [],
+      "keyword": "South",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "番",
+      "meanings": [
+        "Turn",
+        "Number In A Series"
+      ],
+      "on_yomi": [
+        "ばん"
+      ],
+      "kun_yomi": [
+        "つが.い"
+      ],
+      "examples": [],
+      "keyword": "Number In A Series",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "算",
+      "meanings": [
+        "Calculate",
+        "Divining",
+        "Number",
+        "Abacus",
+        "Probability"
+      ],
+      "on_yomi": [
+        "さん"
+      ],
+      "kun_yomi": [
+        "そろ"
+      ],
+      "examples": [],
+      "keyword": "Calculate",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "楽",
+      "meanings": [
+        "Music",
+        "Comfort",
+        "Ease"
+      ],
+      "on_yomi": [
+        "がく",
+        "らく",
+        "ごう"
+      ],
+      "kun_yomi": [
+        "たの.しい",
+        "たの.しむ",
+        "この.む"
+      ],
+      "examples": [],
+      "keyword": "Comfort",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "万",
+      "meanings": [
+        "Ten Thousand",
+        "10,000"
+      ],
+      "on_yomi": [
+        "まん",
+        "ばん"
+      ],
+      "kun_yomi": [
+        "よろず"
+      ],
+      "examples": [],
+      "keyword": "Ten Thousand",
+      "etymology": "",
+      "stroke_count": 3,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "店",
+      "meanings": [
+        "Store",
+        "Shop"
+      ],
+      "on_yomi": [
+        "てん"
+      ],
+      "kun_yomi": [
+        "みせ",
+        "たな"
+      ],
+      "examples": [],
+      "keyword": "Shop",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "線",
+      "meanings": [
+        "Line",
+        "Track"
+      ],
+      "on_yomi": [
+        "せん"
+      ],
+      "kun_yomi": [
+        "すじ"
+      ],
+      "examples": [],
+      "keyword": "Line",
+      "etymology": "",
+      "stroke_count": 15,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "声",
+      "meanings": [
+        "Voice"
+      ],
+      "on_yomi": [
+        "せい",
+        "しょう"
+      ],
+      "kun_yomi": [
+        "こえ",
+        "こわ-"
+      ],
+      "examples": [],
+      "keyword": "Voice",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "親",
+      "meanings": [
+        "Parent",
+        "Intimacy",
+        "Relative",
+        "Familiarity",
+        "Dealer (cards)"
+      ],
+      "on_yomi": [
+        "しん"
+      ],
+      "kun_yomi": [
+        "おや",
+        "おや-",
+        "した.しい",
+        "した.しむ"
+      ],
+      "examples": [],
+      "keyword": "Parent",
+      "etymology": "",
+      "stroke_count": 16,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "形",
+      "meanings": [
+        "Shape",
+        "Form",
+        "Style"
+      ],
+      "on_yomi": [
+        "けい",
+        "ぎょう"
+      ],
+      "kun_yomi": [
+        "かた",
+        "-がた",
+        "かたち",
+        "なり"
+      ],
+      "examples": [],
+      "keyword": "Shape",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "頭",
+      "meanings": [
+        "Head",
+        "Counter For Large Animals"
+      ],
+      "on_yomi": [
+        "とう",
+        "ず",
+        "と"
+      ],
+      "kun_yomi": [
+        "あたま",
+        "かしら",
+        "-がしら",
+        "かぶり"
+      ],
+      "examples": [],
+      "keyword": "Head",
+      "etymology": "",
+      "stroke_count": 16,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "毎",
+      "meanings": [
+        "Every"
+      ],
+      "on_yomi": [
+        "まい"
+      ],
+      "kun_yomi": [
+        "ごと",
+        "-ごと.に"
+      ],
+      "examples": [],
+      "keyword": "Every",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "門",
+      "meanings": [
+        "Gate",
+        "Counter For Cannons"
+      ],
+      "on_yomi": [
+        "もん"
+      ],
+      "kun_yomi": [
+        "かど",
+        "と"
+      ],
+      "examples": [],
+      "keyword": "Gates",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "答",
+      "meanings": [
+        "Solution",
+        "Answer"
+      ],
+      "on_yomi": [
+        "とう"
+      ],
+      "kun_yomi": [
+        "こた.える",
+        "こた.え"
+      ],
+      "examples": [],
+      "keyword": "Answer",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "夜",
+      "meanings": [
+        "Night",
+        "Evening"
+      ],
+      "on_yomi": [
+        "や"
+      ],
+      "kun_yomi": [
+        "よ",
+        "よる"
+      ],
+      "examples": [],
+      "keyword": "Night",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "帰",
+      "meanings": [
+        "Homecoming",
+        "Arrive At",
+        "Lead To",
+        "Result In"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [
+        "かえ.る",
+        "かえ.す",
+        "おく.る",
+        "とつ.ぐ"
+      ],
+      "examples": [],
+      "keyword": "Return",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "谷",
+      "meanings": [
+        "Valley"
+      ],
+      "on_yomi": [
+        "こく"
+      ],
+      "kun_yomi": [
+        "たに",
+        "きわ.まる"
+      ],
+      "examples": [],
+      "keyword": "Valley",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "古",
+      "meanings": [
+        "Old"
+      ],
+      "on_yomi": [
+        "こ"
+      ],
+      "kun_yomi": [
+        "ふる.い",
+        "ふる-",
+        "-ふる.す"
+      ],
+      "examples": [],
+      "keyword": "Old",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "歌",
+      "meanings": [
+        "Song",
+        "Sing"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [
+        "うた",
+        "うた.う"
+      ],
+      "examples": [],
+      "keyword": "Song",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "買",
+      "meanings": [
+        "Buy"
+      ],
+      "on_yomi": [
+        "ばい"
+      ],
+      "kun_yomi": [
+        "か.う"
+      ],
+      "examples": [],
+      "keyword": "Buy",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "光",
+      "meanings": [
+        "Ray",
+        "Light"
+      ],
+      "on_yomi": [
+        "こう"
+      ],
+      "kun_yomi": [
+        "ひか.る",
+        "ひかり"
+      ],
+      "examples": [],
+      "keyword": "Sunlight",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "科",
+      "meanings": [
+        "Department",
+        "Course",
+        "Section"
+      ],
+      "on_yomi": [
+        "か"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Course",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "細",
+      "meanings": [
+        "Dainty",
+        "Get Thin",
+        "Taper",
+        "Slender",
+        "Narrow",
+        "Detailed",
+        "Precise"
+      ],
+      "on_yomi": [
+        "さい"
+      ],
+      "kun_yomi": [
+        "ほそ.い",
+        "ほそ.る",
+        "こま.か",
+        "こま.かい"
+      ],
+      "examples": [],
+      "keyword": "Thin",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "図",
+      "meanings": [
+        "Map",
+        "Drawing",
+        "Plan",
+        "Extraordinary",
+        "Audacious"
+      ],
+      "on_yomi": [
+        "ず",
+        "と"
+      ],
+      "kun_yomi": [
+        "え",
+        "はか.る"
+      ],
+      "examples": [],
+      "keyword": "Diagram",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "週",
+      "meanings": [
+        "Week"
+      ],
+      "on_yomi": [
+        "しゅう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Week",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "丸",
+      "meanings": [
+        "Round",
+        "Full (month)",
+        "Perfection",
+        "-ship",
+        "Pills",
+        "Make Round",
+        "Roll Up",
+        "Curl Up",
+        "Seduce",
+        "Explain Away"
+      ],
+      "on_yomi": [
+        "がん"
+      ],
+      "kun_yomi": [
+        "まる",
+        "まる.める",
+        "まる.い"
+      ],
+      "examples": [],
+      "keyword": "Circle",
+      "etymology": "",
+      "stroke_count": 3,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "室",
+      "meanings": [
+        "Room",
+        "Apartment",
+        "Chamber",
+        "Greenhouse",
+        "Cellar"
+      ],
+      "on_yomi": [
+        "しつ"
+      ],
+      "kun_yomi": [
+        "むろ"
+      ],
+      "examples": [],
+      "keyword": "Room",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "太",
+      "meanings": [
+        "Plump",
+        "Thick",
+        "Big Around"
+      ],
+      "on_yomi": [
+        "たい",
+        "た"
+      ],
+      "kun_yomi": [
+        "ふと.い",
+        "ふと.る"
+      ],
+      "examples": [],
+      "keyword": "Fat",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "歩",
+      "meanings": [
+        "Walk",
+        "Counter For Steps"
+      ],
+      "on_yomi": [
+        "ほ",
+        "ぶ",
+        "ふ"
+      ],
+      "kun_yomi": [
+        "ある.く",
+        "あゆ.む"
+      ],
+      "examples": [],
+      "keyword": "Walk",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "風",
+      "meanings": [
+        "Wind",
+        "Air",
+        "Style",
+        "Manner"
+      ],
+      "on_yomi": [
+        "ふう",
+        "ふ"
+      ],
+      "kun_yomi": [
+        "かぜ",
+        "かざ-",
+        "-かぜ"
+      ],
+      "examples": [],
+      "keyword": "Wind",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "紙",
+      "meanings": [
+        "Paper"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "かみ"
+      ],
+      "examples": [],
+      "keyword": "Paper",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "母",
+      "meanings": [
+        "Mother"
+      ],
+      "on_yomi": [
+        "ぼ"
+      ],
+      "kun_yomi": [
+        "はは",
+        "も"
+      ],
+      "examples": [],
+      "keyword": "Mother",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "黒",
+      "meanings": [
+        "Black"
+      ],
+      "on_yomi": [
+        "こく"
+      ],
+      "kun_yomi": [
+        "くろ",
+        "くろ.ずむ",
+        "くろ.い"
+      ],
+      "examples": [],
+      "keyword": "Black",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "戸",
+      "meanings": [
+        "Door",
+        "Counter For Houses",
+        "Door Radical (no. 63)"
+      ],
+      "on_yomi": [
+        "こ"
+      ],
+      "kun_yomi": [
+        "と"
+      ],
+      "examples": [],
+      "keyword": "Door",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "春",
+      "meanings": [
+        "Springtime",
+        "Spring (season)"
+      ],
+      "on_yomi": [
+        "しゅん"
+      ],
+      "kun_yomi": [
+        "はる"
+      ],
+      "examples": [],
+      "keyword": "Spring",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "読",
+      "meanings": [
+        "Read"
+      ],
+      "on_yomi": [
+        "どく",
+        "とく",
+        "とう"
+      ],
+      "kun_yomi": [
+        "よ.む",
+        "-よ.み"
+      ],
+      "examples": [],
+      "keyword": "Read",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "色",
+      "meanings": [
+        "Color"
+      ],
+      "on_yomi": [
+        "しょく",
+        "しき"
+      ],
+      "kun_yomi": [
+        "いろ"
+      ],
+      "examples": [],
+      "keyword": "Color",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "友",
+      "meanings": [
+        "Friend"
+      ],
+      "on_yomi": [
+        "ゆう"
+      ],
+      "kun_yomi": [
+        "とも"
+      ],
+      "examples": [],
+      "keyword": "Friend",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "走",
+      "meanings": [
+        "Run"
+      ],
+      "on_yomi": [
+        "そう"
+      ],
+      "kun_yomi": [
+        "はし.る"
+      ],
+      "examples": [],
+      "keyword": "Run",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "園",
+      "meanings": [
+        "Park",
+        "Garden",
+        "Yard",
+        "Farm"
+      ],
+      "on_yomi": [
+        "えん"
+      ],
+      "kun_yomi": [
+        "その"
+      ],
+      "examples": [],
+      "keyword": "Garden",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "秋",
+      "meanings": [
+        "Autumn"
+      ],
+      "on_yomi": [
+        "しゅう"
+      ],
+      "kun_yomi": [
+        "あき",
+        "とき"
+      ],
+      "examples": [],
+      "keyword": "Autumn",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "馬",
+      "meanings": [
+        "Horse"
+      ],
+      "on_yomi": [
+        "ば"
+      ],
+      "kun_yomi": [
+        "うま",
+        "うま-",
+        "ま"
+      ],
+      "examples": [],
+      "keyword": "Horse",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "父",
+      "meanings": [
+        "Father"
+      ],
+      "on_yomi": [
+        "ふ"
+      ],
+      "kun_yomi": [
+        "ちち"
+      ],
+      "examples": [],
+      "keyword": "Father",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N5",
+      "grade": 2,
+      "decks": [
+        "JLPT N5",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "夏",
+      "meanings": [
+        "Summer"
+      ],
+      "on_yomi": [
+        "か",
+        "が",
+        "げ"
+      ],
+      "kun_yomi": [
+        "なつ"
+      ],
+      "examples": [],
+      "keyword": "Summer",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "顔",
+      "meanings": [
+        "Face",
+        "Expression"
+      ],
+      "on_yomi": [
+        "がん"
+      ],
+      "kun_yomi": [
+        "かお"
+      ],
+      "examples": [],
+      "keyword": "Face",
+      "etymology": "",
+      "stroke_count": 18,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "船",
+      "meanings": [
+        "Ship",
+        "Boat"
+      ],
+      "on_yomi": [
+        "せん"
+      ],
+      "kun_yomi": [
+        "ふね",
+        "ふな-"
+      ],
+      "examples": [],
+      "keyword": "Boat",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "羽",
+      "meanings": [
+        "Feathers",
+        "Counter For Birds, Rabbits"
+      ],
+      "on_yomi": [
+        "う"
+      ],
+      "kun_yomi": [
+        "は",
+        "わ",
+        "はね"
+      ],
+      "examples": [],
+      "keyword": "Feather",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "岩",
+      "meanings": [
+        "Boulder",
+        "Rock",
+        "Cliff"
+      ],
+      "on_yomi": [
+        "がん"
+      ],
+      "kun_yomi": [
+        "いわ"
+      ],
+      "examples": [],
+      "keyword": "Boulder",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "角",
+      "meanings": [
+        "Angle",
+        "Corner",
+        "Square",
+        "Horn",
+        "Antlers"
+      ],
+      "on_yomi": [
+        "かく"
+      ],
+      "kun_yomi": [
+        "かど",
+        "つの"
+      ],
+      "examples": [],
+      "keyword": "Angle",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "池",
+      "meanings": [
+        "Pond",
+        "Cistern",
+        "Pool",
+        "Reservoir"
+      ],
+      "on_yomi": [
+        "ち"
+      ],
+      "kun_yomi": [
+        "いけ"
+      ],
+      "examples": [],
+      "keyword": "Pond",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "星",
+      "meanings": [
+        "Star",
+        "Spot",
+        "Dot",
+        "Mark"
+      ],
+      "on_yomi": [
+        "せい",
+        "しょう"
+      ],
+      "kun_yomi": [
+        "ほし",
+        "-ぼし"
+      ],
+      "examples": [],
+      "keyword": "Star",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "寺",
+      "meanings": [
+        "Buddhist Temple"
+      ],
+      "on_yomi": [
+        "じ"
+      ],
+      "kun_yomi": [
+        "てら"
+      ],
+      "examples": [],
+      "keyword": "Temple",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "遠",
+      "meanings": [
+        "Distant",
+        "Far"
+      ],
+      "on_yomi": [
+        "えん",
+        "おん"
+      ],
+      "kun_yomi": [
+        "とお.い"
+      ],
+      "examples": [],
+      "keyword": "Far",
+      "etymology": "",
+      "stroke_count": 13,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "絵",
+      "meanings": [
+        "Picture",
+        "Drawing",
+        "Painting",
+        "Sketch"
+      ],
+      "on_yomi": [
+        "かい",
+        "え"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Drawing",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "曜",
+      "meanings": [
+        "Weekday"
+      ],
+      "on_yomi": [
+        "よう"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Weekday",
+      "etymology": "",
+      "stroke_count": 18,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "弱",
+      "meanings": [
+        "Weak",
+        "Frail"
+      ],
+      "on_yomi": [
+        "じゃく"
+      ],
+      "kun_yomi": [
+        "よわ.い",
+        "よわ.る",
+        "よわ.まる",
+        "よわ.める"
+      ],
+      "examples": [],
+      "keyword": "Weak",
+      "etymology": "",
+      "stroke_count": 10,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "肉",
+      "meanings": [
+        "Meat"
+      ],
+      "on_yomi": [
+        "にく"
+      ],
+      "kun_yomi": [
+        "しし"
+      ],
+      "examples": [],
+      "keyword": "Meat",
+      "etymology": "",
+      "stroke_count": 6,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "晴",
+      "meanings": [
+        "Clear Up"
+      ],
+      "on_yomi": [
+        "せい"
+      ],
+      "kun_yomi": [
+        "は.れる",
+        "は.れ",
+        "は.れ-",
+        "-ば.れ",
+        "は.らす"
+      ],
+      "examples": [],
+      "keyword": "Clear Up",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "鳥",
+      "meanings": [
+        "Bird",
+        "Chicken"
+      ],
+      "on_yomi": [
+        "ちょう"
+      ],
+      "kun_yomi": [
+        "とり"
+      ],
+      "examples": [],
+      "keyword": "Bird",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "冬",
+      "meanings": [
+        "Winter"
+      ],
+      "on_yomi": [
+        "とう"
+      ],
+      "kun_yomi": [
+        "ふゆ"
+      ],
+      "examples": [],
+      "keyword": "Winter",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "里",
+      "meanings": [
+        "Ri",
+        "Village",
+        "Parent's Home",
+        "League"
+      ],
+      "on_yomi": [
+        "り"
+      ],
+      "kun_yomi": [
+        "さと"
+      ],
+      "examples": [],
+      "keyword": "Home Village",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": null,
+      "grade": 2,
+      "decks": [
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "昼",
+      "meanings": [
+        "Daytime",
+        "Noon"
+      ],
+      "on_yomi": [
+        "ちゅう"
+      ],
+      "kun_yomi": [
+        "ひる"
+      ],
+      "examples": [],
+      "keyword": "Noon",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "茶",
+      "meanings": [
+        "Tea"
+      ],
+      "on_yomi": [
+        "ちゃ",
+        "さ"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Tea",
+      "etymology": "",
+      "stroke_count": 9,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "雪",
+      "meanings": [
+        "Snow"
+      ],
+      "on_yomi": [
+        "せつ"
+      ],
+      "kun_yomi": [
+        "ゆき"
+      ],
+      "examples": [],
+      "keyword": "Snow",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "弟",
+      "meanings": [
+        "Younger Brother",
+        "Faithful Service To Elders"
+      ],
+      "on_yomi": [
+        "てい",
+        "だい",
+        "で"
+      ],
+      "kun_yomi": [
+        "おとうと"
+      ],
+      "examples": [],
+      "keyword": "Younger Brother",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "毛",
+      "meanings": [
+        "Fur",
+        "Hair",
+        "Feather",
+        "Down"
+      ],
+      "on_yomi": [
+        "もう"
+      ],
+      "kun_yomi": [
+        "け"
+      ],
+      "examples": [],
+      "keyword": "Fur",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "牛",
+      "meanings": [
+        "Cow"
+      ],
+      "on_yomi": [
+        "ぎゅう"
+      ],
+      "kun_yomi": [
+        "うし"
+      ],
+      "examples": [],
+      "keyword": "Cow",
+      "etymology": "",
+      "stroke_count": 4,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "魚",
+      "meanings": [
+        "Fish"
+      ],
+      "on_yomi": [
+        "ぎょ"
+      ],
+      "kun_yomi": [
+        "うお",
+        "さかな",
+        "-ざかな"
+      ],
+      "examples": [],
+      "keyword": "Fish",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "兄",
+      "meanings": [
+        "Elder Brother",
+        "Big Brother"
+      ],
+      "on_yomi": [
+        "けい",
+        "きょう"
+      ],
+      "kun_yomi": [
+        "あに"
+      ],
+      "examples": [],
+      "keyword": "Older Brother",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "黄",
+      "meanings": [
+        "Yellow"
+      ],
+      "on_yomi": [
+        "こう",
+        "おう"
+      ],
+      "kun_yomi": [
+        "き",
+        "こ-"
+      ],
+      "examples": [],
+      "keyword": "Yellow",
+      "etymology": "",
+      "stroke_count": 11,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "雲",
+      "meanings": [
+        "Cloud"
+      ],
+      "on_yomi": [
+        "うん"
+      ],
+      "kun_yomi": [
+        "くも",
+        "-ぐも"
+      ],
+      "examples": [],
+      "keyword": "Cloud",
+      "etymology": "",
+      "stroke_count": 12,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "鳴",
+      "meanings": [
+        "Chirp",
+        "Cry",
+        "Bark",
+        "Sound",
+        "Ring",
+        "Echo",
+        "Honk"
+      ],
+      "on_yomi": [
+        "めい"
+      ],
+      "kun_yomi": [
+        "な.く",
+        "な.る",
+        "な.らす"
+      ],
+      "examples": [],
+      "keyword": "Chirp",
+      "etymology": "",
+      "stroke_count": 14,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "矢",
+      "meanings": [
+        "Dart",
+        "Arrow"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "や"
+      ],
+      "examples": [],
+      "keyword": "Arrow",
+      "etymology": "",
+      "stroke_count": 5,
+      "jlpt": "N1",
+      "grade": 2,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "妹",
+      "meanings": [
+        "Younger Sister"
+      ],
+      "on_yomi": [
+        "まい"
+      ],
+      "kun_yomi": [
+        "いもうと"
+      ],
+      "examples": [],
+      "keyword": "Younger Sister",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "姉",
+      "meanings": [
+        "Elder Sister"
+      ],
+      "on_yomi": [
+        "し"
+      ],
+      "kun_yomi": [
+        "あね",
+        "はは"
+      ],
+      "examples": [],
+      "keyword": "Older Sister",
+      "etymology": "",
+      "stroke_count": 8,
+      "jlpt": "N4",
+      "grade": 2,
+      "decks": [
+        "JLPT N4",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "才",
+      "meanings": [
+        "Genius",
+        "Years Old",
+        "Cubic Shaku"
+      ],
+      "on_yomi": [
+        "さい"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Genius",
+      "etymology": "",
+      "stroke_count": 3,
+      "jlpt": "N3",
+      "grade": 2,
+      "decks": [
+        "JLPT N3",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "麦",
+      "meanings": [
+        "Barley",
+        "Wheat"
+      ],
+      "on_yomi": [
+        "ばく"
+      ],
+      "kun_yomi": [
+        "むぎ"
+      ],
+      "examples": [],
+      "keyword": "Wheat",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N2",
+      "grade": 2,
+      "decks": [
+        "JLPT N2",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "刀",
+      "meanings": [
+        "Sword",
+        "Saber",
+        "Knife"
+      ],
+      "on_yomi": [
+        "とう"
+      ],
+      "kun_yomi": [
+        "かたな",
+        "そり"
+      ],
+      "examples": [],
+      "keyword": "Sword",
+      "etymology": "",
+      "stroke_count": 2,
+      "jlpt": "N1",
+      "grade": 2,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "弓",
+      "meanings": [
+        "Bow",
+        "Bow (archery, Violin)"
+      ],
+      "on_yomi": [
+        "きゅう"
+      ],
+      "kun_yomi": [
+        "ゆみ"
+      ],
+      "examples": [],
+      "keyword": "Bow",
+      "etymology": "",
+      "stroke_count": 3,
+      "jlpt": "N1",
+      "grade": 2,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 2"
+      ]
+    },
+    {
+      "kanji": "汽",
+      "meanings": [
+        "Vapor",
+        "Steam"
+      ],
+      "on_yomi": [
+        "き"
+      ],
+      "kun_yomi": [],
+      "examples": [],
+      "keyword": "Steam",
+      "etymology": "",
+      "stroke_count": 7,
+      "jlpt": "N1",
+      "grade": 2,
+      "decks": [
+        "JLPT N1",
+        "Jōyō Grade 2"
+      ]
+    }
+  ]
+}

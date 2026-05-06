@@ -4,21 +4,24 @@
 # npm
 node_modules/
 
-# Python
-__pycache__/
-*.pyc
-.babelrc.json
+# Vite build output
+dist/
+*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Raw deck-source data (KANJIDIC2 / JMdict, fetched by scripts/build-decks.mjs)
+data/raw/
 
 # macOS
 .DS_Store
 .Rhistory
 
-# Build backups
+# Editors
+.idea/
+.vscode/
+
+# Backups & internal tooling
 *.bak
 .claude/
-
-# Generated build artifacts (built fresh in CI by pipeline/build.py)
-index.html
-sw.js
-icons/
-splash/
