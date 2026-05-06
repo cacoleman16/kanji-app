@@ -3607,6 +3607,47 @@ function buildQueue(deckCards, progress, { newPerDay, now, includeAll = false })
   return [...review, ...fresh.slice(0, newPerDay)];
 }
 
+// Pool due cards across every kanji deck, optionally filtered by JLPT level.
+// De-dupes by `kanji` because the same kanji can appear in multiple decks but
+// shares one progress entry, so it should only be reviewed once per session.
+// Returns a synthetic deck object that Study can consume like any other deck.
+function buildMixedDeck(progress, jlptFilter, { now = Date.now() } = {}) {
+  const seen = new Set();
+  const cards = [];
+  for (const d of DECKS) {
+    if (!d.available || d.kind !== "kanji") continue;
+    for (const c of d.cards) {
+      if (seen.has(c.kanji)) continue;
+      const p = progress[c.kanji];
+      if (!p || p.due > now) continue;
+      if (jlptFilter && jlptFilter !== "all" && c.jlpt !== jlptFilter) continue;
+      seen.add(c.kanji);
+      cards.push(c);
+    }
+  }
+  return { id: "__mixed__", name: "Mixed Review", subtitle: `${cards.length} due`, kind: "kanji", available: true, cards };
+}
+
+// Per-level breakdown of due kanji across all kanji decks. Used by Home and
+// MixedReview to show "N5 12 · N4 8 · N3 5 · …" without rebuilding the queue.
+function dueCountsByJlpt(progress, { now = Date.now() } = {}) {
+  const seen = new Set();
+  const counts = { all: 0, N5: 0, N4: 0, N3: 0, N2: 0, N1: 0, none: 0 };
+  for (const d of DECKS) {
+    if (!d.available || d.kind !== "kanji") continue;
+    for (const c of d.cards) {
+      if (seen.has(c.kanji)) continue;
+      const p = progress[c.kanji];
+      if (!p || p.due > now) continue;
+      seen.add(c.kanji);
+      counts.all++;
+      const lvl = c.jlpt && counts[c.jlpt] !== undefined ? c.jlpt : "none";
+      counts[lvl]++;
+    }
+  }
+  return counts;
+}
+
 // ============================================================
 // Local storage (versioned + migrations)
 // ============================================================
@@ -3622,7 +3663,7 @@ const DEFAULT_STATE = {
   schemaVersion: SCHEMA_VERSION,
   progress: {},            // { kanji: { ease, interval, reps, due, lastReview } }
   stats:    { byDay: {} }, // { "YYYY-MM-DD": { reviewed, again, hard, good, easy } }
-  settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium", theme: "dark" },
+  settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium", theme: "dark", vocabDirection: "ja-en" },
   streak:   { current: 0, longest: 0, lastActiveDay: null },
 };
 
@@ -3754,6 +3795,18 @@ function App() {
       screen = <Study deck={deck} includeAll={!!route.includeAll} state={state} setState={setState} onDone={() => go({name:"deck", deckId: route.deckId})} />;
       break;
     }
+    case "mixedReview":
+      screen = <MixedReview
+        state={state}
+        onBack={() => go({name:"home"})}
+        onStart={(jlpt) => go({name:"mixedStudy", jlpt})}
+      />;
+      break;
+    case "mixedStudy": {
+      const mixed = buildMixedDeck(state.progress, route.jlpt);
+      screen = <Study deck={mixed} state={state} setState={setState} onDone={() => go({name:"home"})} />;
+      break;
+    }
     case "stats":
       screen = <Stats state={state} onBack={() => go({name:"home"})} />;
       break;
@@ -3790,6 +3843,8 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
   const goal = state.settings.dailyGoal;
   const pct = Math.min(100, Math.round((todayStats.reviewed / goal) * 100));
   const [activeTab, setActiveTab] = React.useState("kanji");
+
+  const mixedDueCounts = useMemo(() => dueCountsByJlpt(state.progress), [state.progress]);
 
   const dueByDeck = useMemo(() => {
     const now = Date.now();
@@ -3919,6 +3974,24 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
 
       {activeTab === "kanji" && (
         <>
+          {mixedDueCounts.all > 0 && (
+            <button className="deck-card" onClick={() => onNav({name:"mixedReview"})} style={{borderColor:"var(--accent)"}}>
+              <div>
+                <div className="deck-name">Review Due — All Kanji Decks</div>
+                <div className="deck-sub">
+                  {["N5","N4","N3","N2","N1"]
+                    .filter(l => mixedDueCounts[l] > 0)
+                    .map(l => `${l} ${mixedDueCounts[l]}`)
+                    .join(" · ") || "Mixed"}
+                </div>
+              </div>
+              <div className="deck-meta-right">
+                <div className="deck-due">
+                  <span>{mixedDueCounts.all} due</span>
+                </div>
+              </div>
+            </button>
+          )}
           <div className="section-label">Kanji decks</div>
           <div className="deck-list">
             {kanjiTiles.map(renderTile)}
@@ -4045,6 +4118,71 @@ function GroupDetail({ group, state, onBack, onOpenDeck }) {
           </div>
         </div>
       ))}
+    </div>
+  );
+}
+
+// Cross-deck "Review Due" entry screen — picks a JLPT slice across all kanji
+// decks and starts a single Study session over those due cards.
+function MixedReview({ state, onBack, onStart }) {
+  const [jlpt, setJlpt] = useState("all");
+  const counts = useMemo(() => dueCountsByJlpt(state.progress), [state.progress]);
+  const selectedCount = jlpt === "all" ? counts.all : (counts[jlpt] || 0);
+  const levels = ["all", "N5", "N4", "N3", "N2", "N1"];
+
+  return (
+    <div className="fade-in">
+      <div className="topbar">
+        <button className="icon-btn" onClick={onBack} aria-label="Back">←</button>
+        <div className="topbar-title">Review Due</div>
+        <div style={{width: 40}}/>
+      </div>
+
+      <div className="deck-detail-header">
+        <div className="deck-detail-title">Mixed review</div>
+        <div className="deck-detail-sub">Due cards across all kanji decks</div>
+      </div>
+
+      <div className="deck-stats-grid">
+        <div className="mini-stat">
+          <div className="mini-stat-lbl">Total due</div>
+          <div className="mini-stat-val" style={{color: counts.all > 0 ? "var(--again)" : "var(--text)"}}>{counts.all}</div>
+        </div>
+        <div className="mini-stat">
+          <div className="mini-stat-lbl">In selection</div>
+          <div className="mini-stat-val">{selectedCount}</div>
+        </div>
+      </div>
+
+      <div className="section-label">Filter by JLPT level</div>
+      <div className="filter-row">
+        {levels.map(lvl => {
+          const c = lvl === "all" ? counts.all : (counts[lvl] || 0);
+          const disabled = c === 0 && lvl !== "all";
+          return (
+            <button
+              key={lvl}
+              className={`filter-chip ${jlpt === lvl ? "active" : ""}`}
+              onClick={() => !disabled && setJlpt(lvl)}
+              disabled={disabled}
+              style={disabled ? {opacity:0.4, cursor:"not-allowed"} : undefined}
+            >
+              {lvl === "all" ? "All" : lvl} <span style={{opacity:0.7}}>· {c}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      <button
+        className="study-cta"
+        onClick={() => onStart(jlpt)}
+        disabled={selectedCount === 0}
+        style={selectedCount === 0 ? {opacity:0.5, cursor:"not-allowed"} : undefined}
+      >
+        {selectedCount > 0
+          ? `Start review (${selectedCount} card${selectedCount === 1 ? "" : "s"})`
+          : "Nothing due"}
+      </button>
     </div>
   );
 }
@@ -4206,6 +4344,16 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
         <button className="icon-btn" onClick={onDone} aria-label="Back">←</button>
         <div className="study-progress-text">{idx + 1} / {total}</div>
         <div className="topbar-actions">
+          {deck.kind === "vocab" && (
+            <button
+              className="undo-btn"
+              onClick={() => setState(s => ({ ...s, settings: { ...s.settings, vocabDirection: (s.settings.vocabDirection === "en-ja" ? "ja-en" : "en-ja") } }))}
+              aria-label="Toggle vocab direction"
+              title="Swap front/back: Japanese ↔ English"
+            >
+              {(state.settings.vocabDirection || "ja-en") === "en-ja" ? "EN → JP" : "JP → EN"}
+            </button>
+          )}
           <button
             className="undo-btn"
             onClick={shuffleRemaining}
@@ -4233,36 +4381,66 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
         <div key={idx} className={`card ${flipped ? "flipped" : ""}`} onClick={() => setFlipped(f => !f)}>
           <div className={`face face-front${deck.kind === "vocab" ? " vocab-front" : ""}`}>
             {deck.kind === "vocab" ? (
-              <>
-                <span className="vocab-word" style={vocabWordSize(current.kanji)}>{current.kanji}</span>
-                {current.reading && <span className="vocab-reading">{current.reading}</span>}
-              </>
+              (state.settings.vocabDirection || "ja-en") === "en-ja" ? (
+                <span className="meaning" style={{padding:0}}>
+                  {current.meanings[0]}
+                  {current.meanings.length > 1 && <div className="secondary">{current.meanings.slice(1).join(" · ")}</div>}
+                </span>
+              ) : (
+                <>
+                  <span className="vocab-word" style={vocabWordSize(current.kanji)}>{current.kanji}</span>
+                  {current.reading && <span className="vocab-reading">{current.reading}</span>}
+                </>
+              )
             ) : (
               <span className="kanji-huge">{current.kanji}</span>
             )}
             <span className="tap-hint">Tap to flip</span>
           </div>
           <div className="face face-back" style={{"--back-font-scale": {small:0.8, medium:1, large:1.3}[state.settings.cardBackFontSize || "medium"]}}>
-            <div className="meaning">
-              {current.meanings[0]}
-              {current.meanings.length > 1 && <div className="secondary">{current.meanings.slice(1).join(" · ")}</div>}
-            </div>
             {deck.kind === "vocab" ? (
-              <>
-                {current.reading && <div className="readings"><div className="reading-row"><span className="reading-label">Reading</span><span className="reading-value" style={{fontFamily:"var(--font-jp)"}}>{current.reading}</span></div></div>}
-                {current.example_sentence && (
-                  <div className="vocab-example">
-                    <div className="vocab-example-label">Example</div>
-                    <div className="vocab-example-jp">{current.example_sentence}</div>
-                    {current.example_reading && <div className="vocab-example-reading">{current.example_reading}</div>}
-                    {current.example_meaning && <div className="vocab-example-en">{current.example_meaning}</div>}
+              (state.settings.vocabDirection || "ja-en") === "en-ja" ? (
+                <>
+                  <div className="meaning" style={{fontFamily:"var(--font-jp)"}}>
+                    <span style={vocabWordSize(current.kanji)}>{current.kanji}</span>
                   </div>
-                )}
-                {current.category && <div className="readings"><div className="reading-row"><span className="reading-label">Category</span><span className="reading-value">{current.category}</span></div></div>}
-                {current.context && <div className="keyword-block"><div className="keyword-label">Context</div><div className="etymology">{current.context}</div></div>}
-              </>
+                  {current.reading && <div className="readings"><div className="reading-row"><span className="reading-label">Reading</span><span className="reading-value" style={{fontFamily:"var(--font-jp)"}}>{current.reading}</span></div></div>}
+                  {current.example_sentence && (
+                    <div className="vocab-example">
+                      <div className="vocab-example-label">Example</div>
+                      <div className="vocab-example-jp">{current.example_sentence}</div>
+                      {current.example_reading && <div className="vocab-example-reading">{current.example_reading}</div>}
+                      {current.example_meaning && <div className="vocab-example-en">{current.example_meaning}</div>}
+                    </div>
+                  )}
+                  {current.category && <div className="readings"><div className="reading-row"><span className="reading-label">Category</span><span className="reading-value">{current.category}</span></div></div>}
+                  {current.context && <div className="keyword-block"><div className="keyword-label">Context</div><div className="etymology">{current.context}</div></div>}
+                </>
+              ) : (
+                <>
+                  <div className="meaning">
+                    {current.meanings[0]}
+                    {current.meanings.length > 1 && <div className="secondary">{current.meanings.slice(1).join(" · ")}</div>}
+                  </div>
+                  {current.reading && <div className="readings"><div className="reading-row"><span className="reading-label">Reading</span><span className="reading-value" style={{fontFamily:"var(--font-jp)"}}>{current.reading}</span></div></div>}
+                  {current.example_sentence && (
+                    <div className="vocab-example">
+                      <div className="vocab-example-label">Example</div>
+                      <div className="vocab-example-jp">{current.example_sentence}</div>
+                      {current.example_reading && <div className="vocab-example-reading">{current.example_reading}</div>}
+                      {current.example_meaning && <div className="vocab-example-en">{current.example_meaning}</div>}
+                    </div>
+                  )}
+                  {current.category && <div className="readings"><div className="reading-row"><span className="reading-label">Category</span><span className="reading-value">{current.category}</span></div></div>}
+                  {current.context && <div className="keyword-block"><div className="keyword-label">Context</div><div className="etymology">{current.context}</div></div>}
+                </>
+              )
             ) : (
               <>
+                <div className="meaning">
+                  {current.meanings[0]}
+                  {current.meanings.length > 1 && <div className="secondary">{current.meanings.slice(1).join(" · ")}</div>}
+                </div>
                 <div className="examples">
                   {current.examples.map((ex,i) => (
                     <div className="example" key={i}>
@@ -4612,6 +4790,19 @@ function Settings({ state, setState, onBack }) {
           <option value="small">Small</option>
           <option value="medium">Medium</option>
           <option value="large">Large</option>
+        </select>
+      </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label">Vocab card direction</div>
+          <div className="settings-sub">Which side shows first on vocab cards</div>
+        </div>
+        <select className="settings-value" value={state.settings.vocabDirection || "ja-en"}
+          onChange={e => update("vocabDirection", e.target.value)}
+          style={{background:"var(--surface-2)", color:"var(--text)", border:"1px solid var(--border)", borderRadius:6, padding:"4px 8px", fontSize:14}}>
+          <option value="ja-en">Japanese → English</option>
+          <option value="en-ja">English → Japanese</option>
         </select>
       </div>
 
