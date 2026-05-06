@@ -3,7 +3,7 @@ import { useRef, useState, type ChangeEvent, type ReactNode } from "react";
 import { Modal } from "@/components/Modal";
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
-import { isNative, shareText, writeBackupFile } from "@/native/bridge";
+import { isNative, listBackupFiles, readBackupFile, shareText, writeBackupFile } from "@/native/bridge";
 import { DEFAULT_STATE, parseImport, todayStr } from "@/storage/state";
 import type { AppState, ProPlan, Settings as SettingsT } from "@/types";
 
@@ -94,7 +94,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
     if (!isNative()) {
       showInfo(
         "iCloud backup ships with the iOS app",
-        "On this web preview, use Export instead. The iOS native build (M4) writes a Kanjido folder into your iCloud Drive automatically.",
+        "On this web preview, use Export instead. The iOS native build writes Kanjido backups to iCloud Drive automatically.",
       );
       return;
     }
@@ -103,10 +103,69 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       const filename = `kanjido-progress-${todayStr()}.json`;
       const uri = await writeBackupFile(filename, JSON.stringify(state, null, 2));
       if (uri) {
-        showInfo("Backup written", `Saved to your Files app at ${filename}.`);
+        showInfo("Backup written", `Saved as ${filename} in your iCloud Drive's Kanjido folder.`);
       } else {
         showInfo("Backup failed", "Could not write to the file system.");
       }
+    } finally {
+      setICloudBusy(false);
+    }
+  };
+
+  /** Find the latest iCloud backup file and ask to restore it. */
+  const restoreFromICloud = async () => {
+    if (!isNative()) {
+      showInfo(
+        "iCloud restore ships with the iOS app",
+        "On this web preview, use Import instead. The iOS native build reads back from iCloud Drive automatically.",
+      );
+      return;
+    }
+    setICloudBusy(true);
+    try {
+      const files = await listBackupFiles();
+      if (files.length === 0) {
+        showInfo(
+          "No backups found",
+          "There aren't any kanjido-progress-*.json files in your iCloud Drive's Kanjido folder yet. Tap 'Back up' first.",
+        );
+        return;
+      }
+      const latest = files[0];
+      const text = await readBackupFile(latest.name);
+      if (!text) {
+        showInfo("Couldn't read backup", `Failed to open ${latest.name}.`);
+        return;
+      }
+      const next = parseImport(text);
+      const count = Object.keys(next.progress).length;
+      const ageMs = latest.mtime ? Date.now() - latest.mtime : 0;
+      const ageDays = Math.floor(ageMs / 86_400_000);
+      const ageLabel =
+        ageDays === 0
+          ? "today"
+          : ageDays === 1
+            ? "1 day ago"
+            : `${ageDays} days ago`;
+      setModal({
+        title: "Restore from iCloud?",
+        body: (
+          <>
+            Latest backup: <strong>{latest.name}</strong>, written {ageLabel}.
+            <br />
+            Restoring replaces your current progress with {count} entr
+            {count === 1 ? "y" : "ies"}.
+          </>
+        ),
+        tone: "confirm",
+        confirmLabel: "Restore",
+        onConfirm: () => {
+          setState(() => next);
+          showInfo("Restored", `Loaded ${count} entr${count === 1 ? "y" : "ies"} from iCloud.`);
+        },
+      });
+    } catch (err) {
+      showInfo("Restore failed", (err as Error).message);
     } finally {
       setICloudBusy(false);
     }
@@ -419,18 +478,30 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           </div>
           <div className="settings-sub">
             {isNative()
-              ? "Save a JSON snapshot to your iCloud Drive's Kanjido folder."
-              : "Available on the iOS native app — syncs your progress across devices."}
+              ? "Save and restore JSON snapshots in your iCloud Drive's Kanjido folder."
+              : "Available on the iOS native app — your progress lives in your iCloud."}
           </div>
         </div>
-        <button
-          className="primary-btn"
-          style={{ padding: "8px 14px", fontSize: 13, opacity: iCloudBusy ? 0.6 : 1 }}
-          onClick={backupToICloud}
-          disabled={iCloudBusy}
-        >
-          {iCloudBusy ? "Saving…" : "Back up"}
-        </button>
+        <div style={{ display: "flex", gap: 6 }}>
+          <button
+            className="filter-chip"
+            onClick={restoreFromICloud}
+            disabled={iCloudBusy}
+            style={iCloudBusy ? { opacity: 0.6 } : undefined}
+            aria-label="Restore the latest backup from iCloud"
+          >
+            Restore
+          </button>
+          <button
+            className="primary-btn"
+            style={{ padding: "8px 14px", fontSize: 13, opacity: iCloudBusy ? 0.6 : 1 }}
+            onClick={backupToICloud}
+            disabled={iCloudBusy}
+            aria-label="Save a backup to iCloud now"
+          >
+            {iCloudBusy ? "…" : "Back up"}
+          </button>
+        </div>
       </div>
 
       <div className="settings-row">

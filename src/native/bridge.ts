@@ -123,6 +123,44 @@ export async function readBackupFile(filename: string): Promise<string | undefin
   }
 }
 
+export interface BackupFileInfo {
+  /** Filename relative to the Documents directory (e.g. "kanjido-progress-2026-05-06.json"). */
+  name: string;
+  /** mtime epoch ms — newest first preferred for "restore latest". */
+  mtime: number;
+  /** Approximate file size in bytes (for UI display). */
+  size: number;
+}
+
+/**
+ * List the Kanjido backup files present in iOS Documents (which iCloud
+ * Drive syncs when the iCloud capability is configured). Returns newest
+ * first. Empty array on web or when no backups exist.
+ */
+export async function listBackupFiles(): Promise<BackupFileInfo[]> {
+  if (!isNative()) return [];
+  try {
+    const { Filesystem, Directory } = await import("@capacitor/filesystem");
+    const dir = await Filesystem.readdir({ path: "", directory: Directory.Documents });
+    const files = (dir.files ?? [])
+      .filter(
+        (f) =>
+          f.type === "file" &&
+          f.name.startsWith("kanjido-progress-") &&
+          f.name.endsWith(".json"),
+      )
+      .map((f) => ({
+        name: f.name,
+        mtime: typeof f.mtime === "number" ? f.mtime : 0,
+        size: typeof f.size === "number" ? f.size : 0,
+      }))
+      .sort((a, b) => b.mtime - a.mtime);
+    return files;
+  } catch {
+    return [];
+  }
+}
+
 // ============================================================
 // Status bar (theme-aware on iOS)
 // ============================================================
