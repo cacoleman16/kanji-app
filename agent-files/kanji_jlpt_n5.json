@@ -5,7 +5,7 @@
   "version": "1.0",
   "card_count": 79,
   "notes": "The starter set for JLPT N5. Numbers, days of the week, basic action verbs, and the most common content kanji.",
-  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG) and Jonathan Waller's JLPT Resources.",
+  "source": "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JMdict (CC-BY-SA, EDRDG), and Jonathan Waller's JLPT Resources.",
   "cards": [
     {
       "kanji": "日",
@@ -24,7 +24,23 @@
         "-び",
         "-か"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "何日",
+          "kana": "なんにち",
+          "meaning": "what day"
+        },
+        {
+          "kanji": "幾日",
+          "kana": "いくにち",
+          "meaning": "(for) how many days"
+        },
+        {
+          "kanji": "期日",
+          "kana": "きじつ",
+          "meaning": "fixed date"
+        }
+      ],
       "keyword": "Day",
       "etymology": "",
       "stroke_count": 4,
@@ -49,7 +65,23 @@
         "ひと-",
         "ひと.つ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "一つ",
+          "kana": "ひとつ",
+          "meaning": "one"
+        },
+        {
+          "kanji": "一位",
+          "kana": "いちい",
+          "meaning": "first place"
+        },
+        {
+          "kanji": "一員",
+          "kana": "いちいん",
+          "meaning": "one person"
+        }
+      ],
       "keyword": "One",
       "etymology": "",
       "stroke_count": 1,
@@ -71,7 +103,23 @@
       "kun_yomi": [
         "くに"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "愛国",
+          "kana": "あいこく",
+          "meaning": "love of one's country"
+        },
+        {
+          "kanji": "異国",
+          "kana": "いこく",
+          "meaning": "foreign country"
+        },
+        {
+          "kanji": "一国",
+          "kana": "いっこく",
+          "meaning": "one country"
+        }
+      ],
       "keyword": "Country",
       "etymology": "",
       "stroke_count": 8,
@@ -96,7 +144,23 @@
         "-り",
         "-と"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "愛人",
+          "kana": "あいじん",
+          "meaning": "lover"
+        },
+        {
+          "kanji": "悪人",
+          "kana": "あくにん",
+          "meaning": "bad person"
+        },
+        {
+          "kanji": "偉人",
+          "kana": "いじん",
+          "meaning": "great person"
+        }
+      ],
       "keyword": "Person",
       "etymology": "",
       "stroke_count": 2,
@@ -119,7 +183,23 @@
       "kun_yomi": [
         "とし"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "越年",
+          "kana": "えつねん",
+          "meaning": "seeing the old year out"
+        },
+        {
+          "kanji": "往年",
+          "kana": "おうねん",
+          "meaning": "years gone by"
+        },
+        {
+          "kanji": "何年",
+          "kana": "なんねん",
+          "meaning": "how many years"
+        }
+      ],
       "keyword": "Year",
       "etymology": "",
       "stroke_count": 6,
@@ -145,7 +225,23 @@
         "おお.きい",
         "-おお.いに"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "偉大",
+          "kana": "いだい",
+          "meaning": "great"
+        },
+        {
+          "kanji": "医大",
+          "kana": "いだい",
+          "meaning": "medical university"
+        },
+        {
+          "kanji": "一大",
+          "kana": "いちだい",
+          "meaning": "one large ..."
+        }
+      ],
       "keyword": "Large",
       "etymology": "",
       "stroke_count": 3,
@@ -170,7 +266,23 @@
         "とお",
         "と"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "十一",
+          "kana": "じゅういち",
+          "meaning": "eleven"
+        },
+        {
+          "kanji": "十億",
+          "kana": "じゅうおく",
+          "meaning": "1,000,000,000"
+        },
+        {
+          "kanji": "十九",
+          "kana": "じゅうきゅう",
+          "meaning": "nineteen"
+        }
+      ],
       "keyword": "Ten",
       "etymology": "",
       "stroke_count": 2,
@@ -196,7 +308,23 @@
         "ふた.つ",
         "ふたたび"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "十二",
+          "kana": "じゅうに",
+          "meaning": "twelve"
+        },
+        {
+          "kanji": "第二",
+          "kana": "だいに",
+          "meaning": "second"
+        },
+        {
+          "kanji": "二つ",
+          "kana": "ふたつ",
+          "meaning": "two"
+        }
+      ],
       "keyword": "Two",
       "etymology": "",
       "stroke_count": 2,
@@ -224,7 +352,23 @@
       "kun_yomi": [
         "もと"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "本の",
+          "kana": "ほんの",
+          "meaning": "mere"
+        },
+        {
+          "kanji": "一本",
+          "kana": "いっぽん",
+          "meaning": "one long cylindrical thing"
+        },
+        {
+          "kanji": "絵本",
+          "kana": "えほん",
+          "meaning": "picture book"
+        }
+      ],
       "keyword": "Book",
       "etymology": "",
       "stroke_count": 5,
@@ -252,7 +396,23 @@
         "うち",
         "あた.る"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "渦中",
+          "kana": "かちゅう",
+          "meaning": "vortex"
+        },
+        {
+          "kanji": "海中",
+          "kana": "かいちゅう",
+          "meaning": "in the sea"
+        },
+        {
+          "kanji": "寒中",
+          "kana": "かんちゅう",
+          "meaning": "mid-winter"
+        }
+      ],
       "keyword": "In",
       "etymology": "",
       "stroke_count": 4,
@@ -278,7 +438,23 @@
         "なが.い",
         "おさ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "医長",
+          "kana": "いちょう",
+          "meaning": "medical director"
+        },
+        {
+          "kanji": "院長",
+          "kana": "いんちょう",
+          "meaning": "director (of a hospital, institution, academy, etc.)"
+        },
+        {
+          "kanji": "駅長",
+          "kana": "えきちょう",
+          "meaning": "station master"
+        }
+      ],
       "keyword": "Long",
       "etymology": "",
       "stroke_count": 8,
@@ -311,7 +487,23 @@
         "い.でる",
         "い.だす"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "演出",
+          "kana": "えんしゅつ",
+          "meaning": "direction (of a play, film, etc.)"
+        },
+        {
+          "kanji": "家出",
+          "kana": "いえで",
+          "meaning": "running away from home"
+        },
+        {
+          "kanji": "外出",
+          "kana": "がいしゅつ",
+          "meaning": "going out"
+        }
+      ],
       "keyword": "Exit",
       "etymology": "",
       "stroke_count": 5,
@@ -336,7 +528,23 @@
         "み.つ",
         "みっ.つ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "再三",
+          "kana": "さいさん",
+          "meaning": "again and again"
+        },
+        {
+          "kanji": "三つ",
+          "kana": "みっつ",
+          "meaning": "three"
+        },
+        {
+          "kanji": "三回",
+          "kana": "さんかい",
+          "meaning": "three times"
+        }
+      ],
       "keyword": "Three",
       "etymology": "",
       "stroke_count": 3,
@@ -360,7 +568,23 @@
         "とき",
         "-どき"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "何時",
+          "kana": "いつ",
+          "meaning": "when"
+        },
+        {
+          "kanji": "今時",
+          "kana": "いまどき",
+          "meaning": "these days"
+        },
+        {
+          "kanji": "三時",
+          "kana": "さんじ",
+          "meaning": "3 o'clock"
+        }
+      ],
       "keyword": "Time",
       "etymology": "",
       "stroke_count": 10,
@@ -398,7 +622,23 @@
         "おこな.う",
         "おこ.なう"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "移行",
+          "kana": "いこう",
+          "meaning": "transition"
+        },
+        {
+          "kanji": "運行",
+          "kana": "うんこう",
+          "meaning": "operation (of a bus or train service)"
+        },
+        {
+          "kanji": "横行",
+          "kana": "おうこう",
+          "meaning": "being rampant"
+        }
+      ],
       "keyword": "Going",
       "etymology": "",
       "stroke_count": 6,
@@ -428,7 +668,23 @@
         "み.える",
         "み.せる"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "意見",
+          "kana": "いけん",
+          "meaning": "opinion"
+        },
+        {
+          "kanji": "一見",
+          "kana": "いっけん",
+          "meaning": "look"
+        },
+        {
+          "kanji": "下見",
+          "kana": "したみ",
+          "meaning": "preliminary inspection"
+        }
+      ],
       "keyword": "See",
       "etymology": "",
       "stroke_count": 7,
@@ -452,7 +708,23 @@
       "kun_yomi": [
         "つき"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "１月",
+          "kana": "いちがつ",
+          "meaning": "January"
+        },
+        {
+          "kanji": "一月",
+          "kana": "ひとつき",
+          "meaning": "one month"
+        },
+        {
+          "kanji": "ヶ月",
+          "kana": "かげつ",
+          "meaning": "counter for months"
+        }
+      ],
       "keyword": "Month",
       "etymology": "",
       "stroke_count": 4,
@@ -481,7 +753,23 @@
         "あと",
         "おく.れる"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "以後",
+          "kana": "いご",
+          "meaning": "after this"
+        },
+        {
+          "kanji": "午後",
+          "kana": "ごご",
+          "meaning": "afternoon"
+        },
+        {
+          "kanji": "後ろ",
+          "kana": "うしろ",
+          "meaning": "back"
+        }
+      ],
       "keyword": "Behind",
       "etymology": "",
       "stroke_count": 9,
@@ -505,7 +793,23 @@
         "まえ",
         "-まえ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "お前",
+          "kana": "おまえ",
+          "meaning": "you"
+        },
+        {
+          "kanji": "以前",
+          "kana": "いぜん",
+          "meaning": "before"
+        },
+        {
+          "kanji": "駅前",
+          "kana": "えきまえ",
+          "meaning": "in front of a station"
+        }
+      ],
       "keyword": "In Front",
       "etymology": "",
       "stroke_count": 9,
@@ -547,7 +851,23 @@
         "む.す",
         "-う"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "衛生",
+          "kana": "えいせい",
+          "meaning": "hygiene"
+        },
+        {
+          "kanji": "往生",
+          "kana": "おうじょう",
+          "meaning": "passing on to the next life"
+        },
+        {
+          "kanji": "回生",
+          "kana": "かいせい",
+          "meaning": "resurrection"
+        }
+      ],
       "keyword": "Life",
       "etymology": "",
       "stroke_count": 5,
@@ -570,7 +890,23 @@
         "いつ",
         "いつ.つ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "五つ",
+          "kana": "いつつ",
+          "meaning": "five"
+        },
+        {
+          "kanji": "五感",
+          "kana": "ごかん",
+          "meaning": "the five senses"
+        },
+        {
+          "kanji": "五体",
+          "kana": "ごたい",
+          "meaning": "the whole body"
+        }
+      ],
       "keyword": "Five",
       "etymology": "",
       "stroke_count": 4,
@@ -596,7 +932,23 @@
         "ま",
         "あい"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "間隔",
+          "kana": "かんかく",
+          "meaning": "space"
+        },
+        {
+          "kanji": "間近",
+          "kana": "まぢか",
+          "meaning": "near"
+        },
+        {
+          "kanji": "間口",
+          "kana": "まぐち",
+          "meaning": "frontage"
+        }
+      ],
       "keyword": "Interval",
       "etymology": "",
       "stroke_count": 12,
@@ -635,7 +987,23 @@
         "のぼ.す",
         "たてまつ.る"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "以上",
+          "kana": "いじょう",
+          "meaning": "not less than ..."
+        },
+        {
+          "kanji": "右上",
+          "kana": "みぎうえ",
+          "meaning": "upper right"
+        },
+        {
+          "kanji": "炎上",
+          "kana": "えんじょう",
+          "meaning": "going up in flames"
+        }
+      ],
       "keyword": "Above",
       "etymology": "",
       "stroke_count": 3,
@@ -657,7 +1025,23 @@
       "kun_yomi": [
         "ひがし"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "関東",
+          "kana": "かんとう",
+          "meaning": "Kantō (region comprising Tokyo and surrounding prefectures)"
+        },
+        {
+          "kanji": "極東",
+          "kana": "きょくとう",
+          "meaning": "Far East"
+        },
+        {
+          "kanji": "広東",
+          "kana": "カントン",
+          "meaning": "Guangdong (China)"
+        }
+      ],
       "keyword": "East",
       "etymology": "",
       "stroke_count": 8,
@@ -682,7 +1066,23 @@
         "よっ.つ",
         "よん"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "四つ",
+          "kana": "よっつ",
+          "meaning": "four"
+        },
+        {
+          "kanji": "四角",
+          "kana": "しかく",
+          "meaning": "quadrilateral"
+        },
+        {
+          "kanji": "四季",
+          "kana": "しき",
+          "meaning": "the four seasons"
+        }
+      ],
       "keyword": "Four",
       "etymology": "",
       "stroke_count": 5,
@@ -705,7 +1105,23 @@
       "kun_yomi": [
         "いま"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "古今",
+          "kana": "ここん",
+          "meaning": "ancient and modern times"
+        },
+        {
+          "kanji": "今に",
+          "kana": "いまに",
+          "meaning": "before long"
+        },
+        {
+          "kanji": "今や",
+          "kana": "いまや",
+          "meaning": "now (esp. in contrast to the past)"
+        }
+      ],
       "keyword": "Now",
       "etymology": "",
       "stroke_count": 4,
@@ -731,7 +1147,23 @@
         "かな-",
         "-がね"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "お金",
+          "kana": "おかね",
+          "meaning": "money"
+        },
+        {
+          "kanji": "黄金",
+          "kana": "おうごん",
+          "meaning": "gold (Au)"
+        },
+        {
+          "kanji": "換金",
+          "kana": "かんきん",
+          "meaning": "realization (of goods into money)"
+        }
+      ],
       "keyword": "Gold",
       "etymology": "",
       "stroke_count": 8,
@@ -755,7 +1187,23 @@
         "ここの",
         "ここの.つ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "九つ",
+          "kana": "ここのつ",
+          "meaning": "nine"
+        },
+        {
+          "kanji": "九九",
+          "kana": "くく",
+          "meaning": "multiplication table"
+        },
+        {
+          "kanji": "九州",
+          "kana": "きゅうしゅう",
+          "meaning": "Kyūshū (southernmost of the four main islands of Japan)"
+        }
+      ],
       "keyword": "Nine",
       "etymology": "",
       "stroke_count": 2,
@@ -784,7 +1232,23 @@
         "-い.れ",
         "はい.る"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "加入",
+          "kana": "かにゅう",
+          "meaning": "joining (a club, organization, etc.)"
+        },
+        {
+          "kanji": "介入",
+          "kana": "かいにゅう",
+          "meaning": "intervention"
+        },
+        {
+          "kanji": "記入",
+          "kana": "きにゅう",
+          "meaning": "entry (in a form, register, diary, etc.)"
+        }
+      ],
       "keyword": "Enter",
       "etymology": "",
       "stroke_count": 2,
@@ -808,7 +1272,23 @@
       "kun_yomi": [
         "まな.ぶ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "医学",
+          "kana": "いがく",
+          "meaning": "medicine"
+        },
+        {
+          "kanji": "化学",
+          "kana": "かがく",
+          "meaning": "chemistry"
+        },
+        {
+          "kanji": "科学",
+          "kana": "かがく",
+          "meaning": "science"
+        }
+      ],
       "keyword": "Study",
       "etymology": "",
       "stroke_count": 8,
@@ -836,7 +1316,23 @@
         "たか.まる",
         "たか.める"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "円高",
+          "kana": "えんだか",
+          "meaning": "appreciation of the yen"
+        },
+        {
+          "kanji": "高い",
+          "kana": "たかい",
+          "meaning": "high"
+        },
+        {
+          "kanji": "高さ",
+          "kana": "たかさ",
+          "meaning": "height"
+        }
+      ],
       "keyword": "Tall",
       "etymology": "",
       "stroke_count": 10,
@@ -864,7 +1360,23 @@
         "まど.か",
         "まろ.やか"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "一円",
+          "kana": "いちえん",
+          "meaning": "one yen"
+        },
+        {
+          "kanji": "円安",
+          "kana": "えんやす",
+          "meaning": "depreciation of the yen"
+        },
+        {
+          "kanji": "円弧",
+          "kana": "えんこ",
+          "meaning": "arc"
+        }
+      ],
       "keyword": "Circle",
       "etymology": "",
       "stroke_count": 4,
@@ -893,7 +1405,23 @@
         "-こ",
         "ね"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "硝子",
+          "kana": "ガラス",
+          "meaning": "glass"
+        },
+        {
+          "kanji": "椅子",
+          "kana": "いす",
+          "meaning": "chair"
+        },
+        {
+          "kanji": "因子",
+          "kana": "いんし",
+          "meaning": "factor"
+        }
+      ],
       "keyword": "Child",
       "etymology": "",
       "stroke_count": 3,
@@ -920,7 +1448,23 @@
         "はず.れる",
         "と-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "案外",
+          "kana": "あんがい",
+          "meaning": "unexpectedly"
+        },
+        {
+          "kanji": "以外",
+          "kana": "いがい",
+          "meaning": "excluding"
+        },
+        {
+          "kanji": "意外",
+          "kana": "いがい",
+          "meaning": "unexpected"
+        }
+      ],
       "keyword": "Outside",
       "etymology": "",
       "stroke_count": 5,
@@ -946,7 +1490,23 @@
         "やっ.つ",
         "よう"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "尺八",
+          "kana": "しゃくはち",
+          "meaning": "shakuhachi"
+        },
+        {
+          "kanji": "十八",
+          "kana": "じゅうはち",
+          "meaning": "eighteen"
+        },
+        {
+          "kanji": "八方",
+          "kana": "はっぽう",
+          "meaning": "all sides"
+        }
+      ],
       "keyword": "Eight",
       "etymology": "",
       "stroke_count": 2,
@@ -972,7 +1532,23 @@
         "むっ.つ",
         "むい"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "十六",
+          "kana": "じゅうろく",
+          "meaning": "sixteen"
+        },
+        {
+          "kanji": "六つ",
+          "kana": "むっつ",
+          "meaning": "six"
+        },
+        {
+          "kanji": "六十",
+          "kana": "ろくじゅう",
+          "meaning": "sixty"
+        }
+      ],
       "keyword": "Six",
       "etymology": "",
       "stroke_count": 4,
@@ -1011,7 +1587,23 @@
         "お.ろす",
         "お.りる"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "以下",
+          "kana": "いか",
+          "meaning": "not exceeding ..."
+        },
+        {
+          "kanji": "右下",
+          "kana": "みぎした",
+          "meaning": "lower right"
+        },
+        {
+          "kanji": "下す",
+          "kana": "くだす",
+          "meaning": "to make a decision"
+        }
+      ],
       "keyword": "Below",
       "etymology": "",
       "stroke_count": 3,
@@ -1044,7 +1636,23 @@
         "き",
         "こ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "以来",
+          "kana": "いらい",
+          "meaning": "since"
+        },
+        {
+          "kanji": "往来",
+          "kana": "おうらい",
+          "meaning": "coming and going"
+        },
+        {
+          "kanji": "家来",
+          "kana": "けらい",
+          "meaning": "retainer"
+        }
+      ],
       "keyword": "Come",
       "etymology": "",
       "stroke_count": 7,
@@ -1071,7 +1679,23 @@
       "kun_yomi": [
         "いき"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "悪気",
+          "kana": "わるぎ",
+          "meaning": "ill will"
+        },
+        {
+          "kanji": "意気",
+          "kana": "いき",
+          "meaning": "spirit"
+        },
+        {
+          "kanji": "一気",
+          "kana": "いっき",
+          "meaning": "one breath"
+        }
+      ],
       "keyword": "Spirit",
       "etymology": "",
       "stroke_count": 6,
@@ -1097,7 +1721,23 @@
         "お-",
         "さ-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "最小",
+          "kana": "さいしょう",
+          "meaning": "smallest (in size, degree, etc.)"
+        },
+        {
+          "kanji": "縮小",
+          "kana": "しゅくしょう",
+          "meaning": "reduction"
+        },
+        {
+          "kanji": "小雨",
+          "kana": "こさめ",
+          "meaning": "light rain"
+        }
+      ],
       "keyword": "Little",
       "etymology": "",
       "stroke_count": 3,
@@ -1121,7 +1761,23 @@
         "なな.つ",
         "なの"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "七つ",
+          "kana": "ななつ",
+          "meaning": "seven"
+        },
+        {
+          "kanji": "七十",
+          "kana": "しちじゅう",
+          "meaning": "seventy"
+        },
+        {
+          "kanji": "七夕",
+          "kana": "たなばた",
+          "meaning": "Star Festival (held in July or August)"
+        }
+      ],
       "keyword": "Seven",
       "etymology": "",
       "stroke_count": 2,
@@ -1144,7 +1800,23 @@
       "kun_yomi": [
         "やま"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "奥山",
+          "kana": "おくやま",
+          "meaning": "remote mountain"
+        },
+        {
+          "kanji": "下山",
+          "kana": "げざん",
+          "meaning": "descending a mountain"
+        },
+        {
+          "kanji": "火山",
+          "kana": "かざん",
+          "meaning": "volcano"
+        }
+      ],
       "keyword": "Mountain",
       "etymology": "",
       "stroke_count": 3,
@@ -1168,7 +1840,23 @@
         "はな.す",
         "はなし"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "逸話",
+          "kana": "いつわ",
+          "meaning": "anecdote"
+        },
+        {
+          "kanji": "会話",
+          "kana": "かいわ",
+          "meaning": "conversation"
+        },
+        {
+          "kanji": "懇話",
+          "kana": "こんわ",
+          "meaning": "friendly talk"
+        }
+      ],
       "keyword": "Tale",
       "etymology": "",
       "stroke_count": 13,
@@ -1194,7 +1882,23 @@
         "おんな",
         "め"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "悪女",
+          "kana": "あくじょ",
+          "meaning": "wicked woman"
+        },
+        {
+          "kanji": "王女",
+          "kana": "おうじょ",
+          "meaning": "princess"
+        },
+        {
+          "kanji": "皇女",
+          "kana": "こうじょ",
+          "meaning": "imperial princess"
+        }
+      ],
       "keyword": "Woman",
       "etymology": "",
       "stroke_count": 3,
@@ -1216,7 +1920,23 @@
       "kun_yomi": [
         "きた"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "東北",
+          "kana": "とうほく",
+          "meaning": "north-east"
+        },
+        {
+          "kanji": "南北",
+          "kana": "なんぼく",
+          "meaning": "north and south"
+        },
+        {
+          "kanji": "敗北",
+          "kana": "はいぼく",
+          "meaning": "defeat"
+        }
+      ],
       "keyword": "North",
       "etymology": "",
       "stroke_count": 5,
@@ -1241,7 +1961,23 @@
       "kun_yomi": [
         "うま"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "午後",
+          "kana": "ごご",
+          "meaning": "afternoon"
+        },
+        {
+          "kanji": "午前",
+          "kana": "ごぜん",
+          "meaning": "morning"
+        },
+        {
+          "kanji": "正午",
+          "kana": "しょうご",
+          "meaning": "noon"
+        }
+      ],
       "keyword": "Noon",
       "etymology": "",
       "stroke_count": 4,
@@ -1264,7 +2000,23 @@
       "kun_yomi": [
         "もも"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "何百",
+          "kana": "なんびゃく",
+          "meaning": "hundreds"
+        },
+        {
+          "kanji": "三百",
+          "kana": "さんびゃく",
+          "meaning": "300"
+        },
+        {
+          "kanji": "数百",
+          "kana": "すうひゃく",
+          "meaning": "several hundred"
+        }
+      ],
       "keyword": "Hundred",
       "etymology": "",
       "stroke_count": 6,
@@ -1288,7 +2040,23 @@
         "-が.き",
         "-がき"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "遺書",
+          "kana": "いしょ",
+          "meaning": "note left by a dead person"
+        },
+        {
+          "kanji": "願書",
+          "kana": "がんしょ",
+          "meaning": "(written) application"
+        },
+        {
+          "kanji": "教書",
+          "kana": "きょうしょ",
+          "meaning": "message (delivered by the US president or a state governor)"
+        }
+      ],
       "keyword": "Write",
       "etymology": "",
       "stroke_count": 10,
@@ -1315,7 +2083,23 @@
         "さき",
         "ま.ず"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "軒先",
+          "kana": "のきさき",
+          "meaning": "edge of the eaves"
+        },
+        {
+          "kanji": "口先",
+          "kana": "くちさき",
+          "meaning": "lip service"
+        },
+        {
+          "kanji": "指先",
+          "kana": "ゆびさき",
+          "meaning": "fingertip"
+        }
+      ],
       "keyword": "Before",
       "etymology": "",
       "stroke_count": 6,
@@ -1342,7 +2126,23 @@
         "な",
         "-な"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "異名",
+          "kana": "いみょう",
+          "meaning": "another name"
+        },
+        {
+          "kanji": "汚名",
+          "kana": "おめい",
+          "meaning": "bad name"
+        },
+        {
+          "kanji": "改名",
+          "kana": "かいめい",
+          "meaning": "name change"
+        }
+      ],
       "keyword": "Name",
       "etymology": "",
       "stroke_count": 6,
@@ -1366,7 +2166,23 @@
       "kun_yomi": [
         "かわ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "河川",
+          "kana": "かせん",
+          "meaning": "rivers"
+        },
+        {
+          "kanji": "山川",
+          "kana": "さんせん",
+          "meaning": "mountains and rivers"
+        },
+        {
+          "kanji": "小川",
+          "kana": "おがわ",
+          "meaning": "stream"
+        }
+      ],
       "keyword": "Stream",
       "etymology": "",
       "stroke_count": 3,
@@ -1388,7 +2204,23 @@
       "kun_yomi": [
         "ち"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "一千",
+          "kana": "いっせん",
+          "meaning": "1,000"
+        },
+        {
+          "kanji": "何千",
+          "kana": "なんぜん",
+          "meaning": "many thousands"
+        },
+        {
+          "kanji": "三千",
+          "kana": "さんぜん",
+          "meaning": "3000"
+        }
+      ],
       "keyword": "Thousand",
       "etymology": "",
       "stroke_count": 3,
@@ -1411,7 +2243,23 @@
         "みず",
         "みず-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "汚水",
+          "kana": "おすい",
+          "meaning": "filthy water"
+        },
+        {
+          "kanji": "下水",
+          "kana": "げすい",
+          "meaning": "drainage"
+        },
+        {
+          "kanji": "海水",
+          "kana": "かいすい",
+          "meaning": "seawater"
+        }
+      ],
       "keyword": "Water",
       "etymology": "",
       "stroke_count": 4,
@@ -1437,7 +2285,23 @@
       "kun_yomi": [
         "なか.ば"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "後半",
+          "kana": "こうはん",
+          "meaning": "second half"
+        },
+        {
+          "kanji": "折半",
+          "kana": "せっぱん",
+          "meaning": "halving"
+        },
+        {
+          "kanji": "大半",
+          "kana": "たいはん",
+          "meaning": "majority"
+        }
+      ],
       "keyword": "Half",
       "etymology": "",
       "stroke_count": 5,
@@ -1461,7 +2325,23 @@
         "おとこ",
         "お"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "一男",
+          "kana": "いちなん",
+          "meaning": "boy"
+        },
+        {
+          "kanji": "三男",
+          "kana": "さんなん",
+          "meaning": "three sons"
+        },
+        {
+          "kanji": "次男",
+          "kana": "じなん",
+          "meaning": "second son"
+        }
+      ],
       "keyword": "Male",
       "etymology": "",
       "stroke_count": 7,
@@ -1486,7 +2366,23 @@
       "kun_yomi": [
         "にし"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "瑞西",
+          "kana": "スイス",
+          "meaning": "Switzerland"
+        },
+        {
+          "kanji": "西蔵",
+          "kana": "チベット",
+          "meaning": "Tibet"
+        },
+        {
+          "kanji": "関西",
+          "kana": "かんさい",
+          "meaning": "Kansai (region comprising Kyoto, Osaka, Kobe and surrounding prefectures)"
+        }
+      ],
       "keyword": "West",
       "etymology": "",
       "stroke_count": 6,
@@ -1506,7 +2402,23 @@
         "でん"
       ],
       "kun_yomi": [],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "家電",
+          "kana": "かでん",
+          "meaning": "household (electrical) appliances"
+        },
+        {
+          "kanji": "外電",
+          "kana": "がいでん",
+          "meaning": "foreign telegram"
+        },
+        {
+          "kanji": "終電",
+          "kana": "しゅうでん",
+          "meaning": "last train (of the day)"
+        }
+      ],
       "keyword": "Electricity",
       "etymology": "",
       "stroke_count": 13,
@@ -1531,7 +2443,23 @@
         "きょう"
       ],
       "kun_yomi": [],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "開校",
+          "kana": "かいこう",
+          "meaning": "opening a school"
+        },
+        {
+          "kanji": "学校",
+          "kana": "がっこう",
+          "meaning": "school"
+        },
+        {
+          "kanji": "休校",
+          "kana": "きゅうこう",
+          "meaning": "(temporary) closure of school"
+        }
+      ],
       "keyword": "Exam",
       "etymology": "",
       "stroke_count": 10,
@@ -1556,7 +2484,23 @@
         "かた.る",
         "かた.らう"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "隠語",
+          "kana": "いんご",
+          "meaning": "secret language"
+        },
+        {
+          "kanji": "英語",
+          "kana": "えいご",
+          "meaning": "English (language)"
+        },
+        {
+          "kanji": "漢語",
+          "kana": "かんご",
+          "meaning": "Japanese word of Chinese origin"
+        }
+      ],
       "keyword": "Word",
       "etymology": "",
       "stroke_count": 14,
@@ -1582,7 +2526,23 @@
       "kun_yomi": [
         "つち"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "郷土",
+          "kana": "きょうど",
+          "meaning": "native place"
+        },
+        {
+          "kanji": "国土",
+          "kana": "こくど",
+          "meaning": "country"
+        },
+        {
+          "kanji": "出土",
+          "kana": "しゅつど",
+          "meaning": "archeological excavation (archaeological)"
+        }
+      ],
       "keyword": "Soil",
       "etymology": "",
       "stroke_count": 3,
@@ -1607,7 +2567,23 @@
         "き",
         "こ-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "荒木",
+          "kana": "あらき",
+          "meaning": "logs in bark"
+        },
+        {
+          "kanji": "黒木",
+          "kana": "くろき",
+          "meaning": "unbarked lumber"
+        },
+        {
+          "kanji": "材木",
+          "kana": "ざいもく",
+          "meaning": "wood (for building)"
+        }
+      ],
       "keyword": "Tree",
       "etymology": "",
       "stroke_count": 4,
@@ -1633,7 +2609,23 @@
         "き.く",
         "き.こえる"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "見聞",
+          "kana": "けんぶん",
+          "meaning": "information"
+        },
+        {
+          "kanji": "醜聞",
+          "kana": "しゅうぶん",
+          "meaning": "scandal"
+        },
+        {
+          "kanji": "新聞",
+          "kana": "しんぶん",
+          "meaning": "newspaper"
+        }
+      ],
       "keyword": "Hear",
       "etymology": "",
       "stroke_count": 14,
@@ -1660,7 +2652,23 @@
         "た.べる",
         "は.む"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "飲食",
+          "kana": "いんしょく",
+          "meaning": "food and drink"
+        },
+        {
+          "kanji": "会食",
+          "kana": "かいしょく",
+          "meaning": "eating together"
+        },
+        {
+          "kanji": "外食",
+          "kana": "がいしょく",
+          "meaning": "eating out"
+        }
+      ],
       "keyword": "Eat",
       "etymology": "",
       "stroke_count": 9,
@@ -1682,7 +2690,23 @@
       "kun_yomi": [
         "くるま"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "下車",
+          "kana": "げしゃ",
+          "meaning": "alighting (from a train, bus, etc.)"
+        },
+        {
+          "kanji": "貨車",
+          "kana": "かしゃ",
+          "meaning": "freight car"
+        },
+        {
+          "kanji": "外車",
+          "kana": "がいしゃ",
+          "meaning": "foreign-made car"
+        }
+      ],
       "keyword": "Car",
       "etymology": "",
       "stroke_count": 7,
@@ -1707,7 +2731,23 @@
         "なに-",
         "なん-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "如何",
+          "kana": "どう",
+          "meaning": "how"
+        },
+        {
+          "kanji": "何れ",
+          "kana": "どれ",
+          "meaning": "which (of three or more)"
+        },
+        {
+          "kanji": "何か",
+          "kana": "なにか",
+          "meaning": "something"
+        }
+      ],
       "keyword": "What",
       "etymology": "",
       "stroke_count": 7,
@@ -1730,7 +2770,23 @@
       "kun_yomi": [
         "みなみ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "西南",
+          "kana": "せいなん",
+          "meaning": "south-west"
+        },
+        {
+          "kanji": "東南",
+          "kana": "とうなん",
+          "meaning": "south-east"
+        },
+        {
+          "kanji": "南緯",
+          "kana": "なんい",
+          "meaning": "southern latitude"
+        }
+      ],
       "keyword": "South",
       "etymology": "",
       "stroke_count": 9,
@@ -1754,7 +2810,23 @@
       "kun_yomi": [
         "よろず"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "万一",
+          "kana": "まんいち",
+          "meaning": "(unlikely event of) emergency"
+        },
+        {
+          "kanji": "万国",
+          "kana": "ばんこく",
+          "meaning": "all countries"
+        },
+        {
+          "kanji": "万事",
+          "kana": "ばんじ",
+          "meaning": "all"
+        }
+      ],
       "keyword": "Ten Thousand",
       "etymology": "",
       "stroke_count": 3,
@@ -1777,7 +2849,23 @@
         "ごと",
         "-ごと.に"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "毎に",
+          "kana": "ごとに",
+          "meaning": "one by one"
+        },
+        {
+          "kanji": "毎回",
+          "kana": "まいかい",
+          "meaning": "every time"
+        },
+        {
+          "kanji": "毎時",
+          "kana": "まいじ",
+          "meaning": "every hour"
+        }
+      ],
       "keyword": "Every",
       "etymology": "",
       "stroke_count": 6,
@@ -1802,7 +2890,23 @@
         "しら-",
         "しろ.い"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "明白",
+          "kana": "めいはく",
+          "meaning": "obvious"
+        },
+        {
+          "kanji": "空白",
+          "kana": "くうはく",
+          "meaning": "blank space (in a document)"
+        },
+        {
+          "kanji": "潔白",
+          "kana": "けっぱく",
+          "meaning": "innocence"
+        }
+      ],
       "keyword": "White",
       "etymology": "",
       "stroke_count": 5,
@@ -1828,7 +2932,23 @@
         "あめ",
         "あま-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "雨天",
+          "kana": "うてん",
+          "meaning": "rainy weather"
+        },
+        {
+          "kanji": "炎天",
+          "kana": "えんてん",
+          "meaning": "blazing heat"
+        },
+        {
+          "kanji": "仰天",
+          "kana": "ぎょうてん",
+          "meaning": "being amazed"
+        }
+      ],
       "keyword": "Heavens",
       "etymology": "",
       "stroke_count": 4,
@@ -1851,7 +2971,23 @@
         "はは",
         "も"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "義母",
+          "kana": "ぎぼ",
+          "meaning": "mother-in-law"
+        },
+        {
+          "kanji": "空母",
+          "kana": "くうぼ",
+          "meaning": "aircraft carrier"
+        },
+        {
+          "kanji": "賢母",
+          "kana": "けんぼ",
+          "meaning": "wise mother"
+        }
+      ],
       "keyword": "Mother",
       "etymology": "",
       "stroke_count": 5,
@@ -1875,7 +3011,23 @@
         "-び",
         "ほ-"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "下火",
+          "kana": "したび",
+          "meaning": "burning low"
+        },
+        {
+          "kanji": "火花",
+          "kana": "ひばな",
+          "meaning": "spark"
+        },
+        {
+          "kanji": "火器",
+          "kana": "かき",
+          "meaning": "firearms"
+        }
+      ],
       "keyword": "Fire",
       "etymology": "",
       "stroke_count": 4,
@@ -1898,7 +3050,23 @@
       "kun_yomi": [
         "みぎ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "右下",
+          "kana": "みぎした",
+          "meaning": "lower right"
+        },
+        {
+          "kanji": "右手",
+          "kana": "みぎて",
+          "meaning": "right hand"
+        },
+        {
+          "kanji": "右上",
+          "kana": "みぎうえ",
+          "meaning": "upper right"
+        }
+      ],
       "keyword": "Right",
       "etymology": "",
       "stroke_count": 5,
@@ -1923,7 +3091,23 @@
         "よ.む",
         "-よ.み"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "愛読",
+          "kana": "あいどく",
+          "meaning": "reading with pleasure"
+        },
+        {
+          "kanji": "音読",
+          "kana": "おんどく",
+          "meaning": "reading aloud"
+        },
+        {
+          "kanji": "解読",
+          "kana": "かいどく",
+          "meaning": "deciphering"
+        }
+      ],
       "keyword": "Read",
       "etymology": "",
       "stroke_count": 14,
@@ -1945,7 +3129,23 @@
       "kun_yomi": [
         "とも"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "学友",
+          "kana": "がくゆう",
+          "meaning": "school friend"
+        },
+        {
+          "kanji": "交友",
+          "kana": "こうゆう",
+          "meaning": "friend"
+        },
+        {
+          "kanji": "親友",
+          "kana": "しんゆう",
+          "meaning": "close friend"
+        }
+      ],
       "keyword": "Friend",
       "etymology": "",
       "stroke_count": 4,
@@ -1968,7 +3168,23 @@
       "kun_yomi": [
         "ひだり"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "左右",
+          "kana": "さゆう",
+          "meaning": "left and right"
+        },
+        {
+          "kanji": "左記",
+          "kana": "さき",
+          "meaning": "undermentioned (statement)"
+        },
+        {
+          "kanji": "左手",
+          "kana": "ひだりて",
+          "meaning": "left hand"
+        }
+      ],
       "keyword": "Left",
       "etymology": "",
       "stroke_count": 5,
@@ -1995,7 +3211,23 @@
         "やす.まる",
         "やす.める"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "運休",
+          "kana": "うんきゅう",
+          "meaning": "suspension (of a transportation service)"
+        },
+        {
+          "kanji": "休み",
+          "kana": "やすみ",
+          "meaning": "rest"
+        },
+        {
+          "kanji": "休む",
+          "kana": "やすむ",
+          "meaning": "to be absent"
+        }
+      ],
       "keyword": "Rest",
       "etymology": "",
       "stroke_count": 6,
@@ -2017,7 +3249,23 @@
       "kun_yomi": [
         "ちち"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "義父",
+          "kana": "ぎふ",
+          "meaning": "father-in-law"
+        },
+        {
+          "kanji": "神父",
+          "kana": "しんぷ",
+          "meaning": "Catholic priest"
+        },
+        {
+          "kanji": "親父",
+          "kana": "おやじ",
+          "meaning": "one's father"
+        }
+      ],
       "keyword": "Father",
       "etymology": "",
       "stroke_count": 4,
@@ -2041,7 +3289,23 @@
         "あま-",
         "-さめ"
       ],
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "雨雲",
+          "kana": "あまぐも",
+          "meaning": "rain cloud"
+        },
+        {
+          "kanji": "雨具",
+          "kana": "あまぐ",
+          "meaning": "rain gear"
+        },
+        {
+          "kanji": "雨戸",
+          "kana": "あまど",
+          "meaning": "sliding storm shutter"
+        }
+      ],
       "keyword": "Rain",
       "etymology": "",
       "stroke_count": 8,
