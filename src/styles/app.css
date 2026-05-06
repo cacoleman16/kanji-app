@@ -46,6 +46,60 @@
 
   * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
 
+  /* Visible focus outlines for keyboard / VoiceOver users.
+     Removed for mouse users (UA default). */
+  :focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  /* Skip-link target for VoiceOver / keyboard nav. */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .sr-only:focus,
+  .sr-only.focusable:focus {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    width: auto;
+    height: auto;
+    clip: auto;
+    background: var(--surface);
+    color: var(--text);
+    padding: 8px 14px;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    z-index: 1000;
+  }
+
+  /* Honor the user's "Reduce Motion" system preference. */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+    .card { transition: none !important; }
+  }
+
+  /* iOS Dynamic Type: scale all UI text relative to the user's preferred
+     font size (system Larger/Smaller text). 1rem = 16px is the default. */
+  @media (max-width: 380px) and (min-resolution: 2dppx) {
+    html { font-size: 100%; }
+  }
+
   html, body {
     height: 100%;
     background: var(--bg);

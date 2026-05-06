@@ -167,7 +167,9 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
           return (
             <button key={c.kanji} className="card-tile" onClick={() => setPeekIdx(i)}>
               <span className={`status-dot ${statusFor(c)}`} />
-              <span className="card-tile-kanji">{c.kanji}</span>
+              <span className="card-tile-kanji" lang="ja">
+                {c.kanji}
+              </span>
               <span className="card-tile-keyword">{c.keyword || c.meanings[0]}</span>
             </button>
           );
@@ -184,7 +186,7 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
             >
               ✕
             </button>
-            <div className="peek-kanji" style={vocabWordSize(peek.kanji, "peek")}>
+            <div className="peek-kanji" lang="ja" style={vocabWordSize(peek.kanji, "peek")}>
               {peek.kanji}
             </div>
             <div className="meaning">

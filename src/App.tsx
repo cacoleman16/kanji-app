@@ -181,7 +181,10 @@ export function App() {
   }
 
   return (
-    <div className="shell">
+    <div className="shell" id="kanjido-shell">
+      <a href="#kanjido-main" className="sr-only focusable">
+        Skip to main content
+      </a>
       {showExportBanner && (
         <div className="export-banner">
           <span>Back after a while — export your progress so Safari doesn't clear it.</span>
@@ -198,13 +201,14 @@ export function App() {
             <button
               className="export-banner-dismiss"
               onClick={() => setShowExportBanner(false)}
+              aria-label="Dismiss export reminder"
             >
               ✕
             </button>
           </div>
         </div>
       )}
-      {screen}
+      <main id="kanjido-main">{screen}</main>
     </div>
   );
 }

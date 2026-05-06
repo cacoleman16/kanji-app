@@ -293,7 +293,14 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
           </button>
         </div>
       </div>
-      <div className="study-progress-bar">
+      <div
+        className="study-progress-bar"
+        role="progressbar"
+        aria-valuenow={progressPct}
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-label={`Session progress: card ${idx + 1} of ${total}`}
+      >
         <div className="study-progress-fill" style={{ width: progressPct + "%" }} />
       </div>
 
@@ -304,6 +311,21 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
           onClick={() => {
             void hapticSelection();
             setFlipped((f) => !f);
+          }}
+          role="button"
+          tabIndex={0}
+          aria-label={
+            flipped
+              ? `Showing answer for ${current.kanji}. Activate to flip back to question.`
+              : `Question card: ${current.kanji}. Activate to reveal the answer.`
+          }
+          aria-pressed={flipped}
+          onKeyDown={(e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              e.preventDefault();
+              void hapticSelection();
+              setFlipped((f) => !f);
+            }
           }}
         >
           <div className={`face face-front${isVocab ? " vocab-front" : ""}`}>
@@ -317,14 +339,20 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
                 </span>
               ) : (
                 <>
-                  <span className="vocab-word" style={vocabWordSize(current.kanji)}>
+                  <span className="vocab-word" lang="ja" style={vocabWordSize(current.kanji)}>
                     {current.kanji}
                   </span>
-                  {v.reading && <span className="vocab-reading">{v.reading}</span>}
+                  {v.reading && (
+                    <span className="vocab-reading" lang="ja">
+                      {v.reading}
+                    </span>
+                  )}
                 </>
               )
             ) : (
-              <span className="kanji-huge">{current.kanji}</span>
+              <span className="kanji-huge" lang="ja">
+                {current.kanji}
+              </span>
             )}
             <span className="tap-hint">Tap to flip</span>
           </div>
@@ -466,25 +494,45 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
       <div className="rating-area">
         {!flipped ? (
           <div className="flip-prompt">
-            <button className="flip-btn" onClick={() => setFlipped(true)}>
+            <button
+              className="flip-btn"
+              onClick={() => setFlipped(true)}
+              aria-label="Show the answer for this card. Press space or enter."
+            >
               Show answer
             </button>
           </div>
         ) : (
-          <div className="rating-grid">
-            <button className="rating-btn again" onClick={() => rate("again")}>
+          <div className="rating-grid" role="group" aria-label="Rate how well you knew this card">
+            <button
+              className="rating-btn again"
+              onClick={() => rate("again")}
+              aria-label={`Again, didn't remember. Card returns in ${intervals.again}. Press 1.`}
+            >
               Again
               <span className="rating-interval">{intervals.again}</span>
             </button>
-            <button className="rating-btn hard" onClick={() => rate("hard")}>
+            <button
+              className="rating-btn hard"
+              onClick={() => rate("hard")}
+              aria-label={`Hard, barely got it. Next review in ${intervals.hard}. Press 2.`}
+            >
               Hard
               <span className="rating-interval">{intervals.hard}</span>
             </button>
-            <button className="rating-btn good" onClick={() => rate("good")}>
+            <button
+              className="rating-btn good"
+              onClick={() => rate("good")}
+              aria-label={`Good, got it. Next review in ${intervals.good}. Press 3.`}
+            >
               Good
               <span className="rating-interval">{intervals.good}</span>
             </button>
-            <button className="rating-btn easy" onClick={() => rate("easy")}>
+            <button
+              className="rating-btn easy"
+              onClick={() => rate("easy")}
+              aria-label={`Easy, instant recall. Next review in ${intervals.easy}. Press 4.`}
+            >
               Easy
               <span className="rating-interval">{intervals.easy}</span>
             </button>
