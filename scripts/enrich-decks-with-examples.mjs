@@ -33,19 +33,31 @@ const OUT_DIR = join(ROOT, "agent-files");
 // 1. Locate the JMdict source
 // ============================================================
 
-function findJmdictSource() {
-  if (!existsSync(RAW_DIR)) return null;
-  const candidates = readdirSync(RAW_DIR).filter(
-    (f) => f.startsWith("jmdict-eng-common") && f.endsWith(".json"),
+/**
+ * Returns JMdict source files in priority order:
+ *  1. jmdict-eng-common-*.json — small (~16 MB unzipped), only "common"
+ *     words. Preferred because the example compounds are everyday vocab.
+ *  2. jmdict-eng-*.json (full) — larger (~110 MB), includes long-tail.
+ *     Used as a fallback for rare kanji not in the common-words subset.
+ *
+ * If both are present, the script runs two passes: common first, full
+ * second, each filling in cards that still have empty examples[].
+ */
+function findJmdictSources() {
+  if (!existsSync(RAW_DIR)) return [];
+  const all = readdirSync(RAW_DIR).filter(
+    (f) => f.startsWith("jmdict-eng") && f.endsWith(".json") && !f.includes("examples"),
   );
-  if (candidates.length === 0) return null;
-  // Latest version (lexicographic — matches version-sort for these names).
-  candidates.sort();
-  return join(RAW_DIR, candidates[candidates.length - 1]);
+  const commons = all.filter((f) => f.startsWith("jmdict-eng-common")).sort();
+  const fulls = all.filter((f) => !f.startsWith("jmdict-eng-common")).sort();
+  const out = [];
+  if (commons.length) out.push({ kind: "common", path: join(RAW_DIR, commons.at(-1)) });
+  if (fulls.length) out.push({ kind: "full", path: join(RAW_DIR, fulls.at(-1)) });
+  return out;
 }
 
-const SRC = findJmdictSource();
-if (!SRC) {
+const SOURCES = findJmdictSources();
+if (SOURCES.length === 0) {
   console.log("Kanjido example enricher — no JMdict source found.\n");
   console.log("Download once (replace <TAG> with the latest tag):");
   console.log(
@@ -62,11 +74,6 @@ if (!SRC) {
   console.log("\nThen re-run: npm run enrich:examples");
   process.exit(0);
 }
-
-console.log(`Reading JMdict from ${SRC}...`);
-const jmdict = JSON.parse(readFileSync(SRC, "utf8"));
-const words = Array.isArray(jmdict.words) ? jmdict.words : [];
-console.log(`  ${words.length.toLocaleString()} words loaded.\n`);
 
 // ============================================================
 // 2. Build kanji → [word, …] index, biased toward common short words
@@ -114,47 +121,48 @@ function meaningFor(word) {
   return "";
 }
 
-const index = new Map(); // kanji char → array of { text, kana, meaning, length, score }
-
-for (const word of words) {
-  const k = primaryKanjiForm(word);
-  if (!k || !k.text) continue;
-  const text = k.text;
-  const len = [...text].length;
-  // Shorter compounds make better example learners' material.
-  // Single-char "compounds" (just the kanji itself) are deprioritized.
-  const score = len === 1 ? 100 : len * 10;
-  const kana = readingFor(word, k);
-  const meaning = meaningFor(word);
-  if (!meaning) continue;
-  const entry = { text, kana, meaning, length: len, score };
-  // For each unique kanji char in the form, register this word as an example.
-  const seen = new Set();
-  for (const ch of text) {
-    if (!isKanjiChar(ch)) continue;
-    if (seen.has(ch)) continue;
-    seen.add(ch);
-    const list = index.get(ch);
-    if (list) list.push(entry);
-    else index.set(ch, [entry]);
+/**
+ * Build a kanji-char → array-of-example-words index from a JMdict words list.
+ * `commonOnly` filters to only word entries whose primary kanji form is
+ * tagged common — used for the "common" pass to prioritize everyday vocab.
+ */
+function buildIndex(words, commonOnly) {
+  const idx = new Map();
+  for (const word of words) {
+    const k = primaryKanjiForm(word);
+    if (!k || !k.text) continue;
+    if (commonOnly && !k.common) continue;
+    const text = k.text;
+    const len = [...text].length;
+    const score = len === 1 ? 100 : len * 10;
+    const kana = readingFor(word, k);
+    const meaning = meaningFor(word);
+    if (!meaning) continue;
+    const entry = { text, kana, meaning, length: len, score };
+    const seen = new Set();
+    for (const ch of text) {
+      if (!isKanjiChar(ch)) continue;
+      if (seen.has(ch)) continue;
+      seen.add(ch);
+      const list = idx.get(ch);
+      if (list) list.push(entry);
+      else idx.set(ch, [entry]);
+    }
   }
+  return idx;
 }
-
-console.log(`  ${index.size.toLocaleString()} unique kanji characters indexed.\n`);
 
 // ============================================================
 // 3. Enrich each deck card with up to 3 example compounds
 // ============================================================
 
 /** Pick top N example compounds for a kanji literal, prioritizing 2-character compounds. */
-function pickExamples(literal, n = 3) {
+function pickExamples(index, literal, n = 3) {
   const all = index.get(literal);
   if (!all) return [];
-  // Sort: shorter first, but skip single-char "compounds" if 2+-char options exist.
   const sorted = [...all].sort((a, b) => a.score - b.score || a.length - b.length);
   const multiChar = sorted.filter((e) => e.length >= 2);
   const pool = multiChar.length >= n ? multiChar : sorted;
-  // Dedupe by text and cap at n.
   const seen = new Set();
   const out = [];
   for (const e of pool) {
@@ -166,44 +174,80 @@ function pickExamples(literal, n = 3) {
   return out;
 }
 
-// Find every kanji_*.json deck under agent-files/ that's KANJIDIC-derived
-// (skip kana_*.json + vocab_*.json). Cards are enriched in-place.
 const deckFiles = readdirSync(OUT_DIR).filter(
   (f) => f.startsWith("kanji_") && f.endsWith(".json"),
 );
 
-let totalCards = 0;
-let cardsEnriched = 0;
-let totalExamples = 0;
+// Load all decks into memory once, run multiple enrichment passes against them.
+const decks = deckFiles.map((fileName) => ({
+  fileName,
+  path: join(OUT_DIR, fileName),
+  json: JSON.parse(readFileSync(join(OUT_DIR, fileName), "utf8")),
+}));
 
-for (const fileName of deckFiles) {
-  const path = join(OUT_DIR, fileName);
-  const deck = JSON.parse(readFileSync(path, "utf8"));
-  if (!Array.isArray(deck.cards)) continue;
-  let enrichedHere = 0;
-  for (const card of deck.cards) {
-    totalCards++;
-    if (typeof card.kanji !== "string" || card.kanji.length === 0) continue;
-    // Only enrich cards that don't already have hand-curated examples.
-    if (Array.isArray(card.examples) && card.examples.length > 0) continue;
-    const examples = pickExamples(card.kanji, 3);
-    if (examples.length === 0) continue;
-    card.examples = examples;
-    enrichedHere++;
-    cardsEnriched++;
-    totalExamples += examples.length;
-  }
-  // Update source attribution to credit JMdict if any examples landed.
-  if (enrichedHere > 0) {
-    deck.source =
-      "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JMdict (CC-BY-SA, EDRDG), and Jonathan Waller's JLPT Resources.";
-  }
-  writeFileSync(path, JSON.stringify(deck, null, 2) + "\n");
+let totalCards = 0;
+for (const d of decks) totalCards += Array.isArray(d.json.cards) ? d.json.cards.length : 0;
+
+let cumulativeEnriched = 0;
+let cumulativeExamples = 0;
+let anyJmdictHit = false;
+
+for (const source of SOURCES) {
+  console.log(`\n[Pass: ${source.kind}] reading ${source.path}...`);
+  const data = JSON.parse(readFileSync(source.path, "utf8"));
+  const words = Array.isArray(data.words) ? data.words : [];
+  const idx = buildIndex(words, source.kind === "common");
   console.log(
-    `  ${fileName.padEnd(36)} ${enrichedHere}/${deck.cards.length} cards enriched`,
+    `  ${words.length.toLocaleString()} words → ${idx.size.toLocaleString()} kanji indexed.\n`,
   );
+
+  let passEnriched = 0;
+  let passExamples = 0;
+  for (const d of decks) {
+    if (!Array.isArray(d.json.cards)) continue;
+    let here = 0;
+    for (const card of d.json.cards) {
+      if (typeof card.kanji !== "string" || card.kanji.length === 0) continue;
+      // Skip cards that already have examples (from a previous pass or
+      // hand-curation).
+      if (Array.isArray(card.examples) && card.examples.length > 0) continue;
+      const examples = pickExamples(idx, card.kanji, 3);
+      if (examples.length === 0) continue;
+      card.examples = examples;
+      here++;
+      passEnriched++;
+      passExamples += examples.length;
+    }
+    if (here > 0) console.log(`    ${d.fileName.padEnd(36)} +${here} (this pass)`);
+  }
+  cumulativeEnriched += passEnriched;
+  cumulativeExamples += passExamples;
+  if (passEnriched > 0) anyJmdictHit = true;
+  console.log(`  ✓ ${source.kind}: enriched ${passEnriched.toLocaleString()} new cards`);
 }
 
+// Final write — update source attribution + persist.
+for (const d of decks) {
+  if (anyJmdictHit) {
+    d.json.source =
+      "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JMdict (CC-BY-SA, EDRDG), and Jonathan Waller's JLPT Resources.";
+  }
+  writeFileSync(d.path, JSON.stringify(d.json, null, 2) + "\n");
+}
+
+// Count cards that *still* have no examples after every pass — rare kanji
+// completely absent from JMdict.
+let stillEmpty = 0;
+let withExamples = 0;
+for (const d of decks) {
+  for (const card of d.json.cards ?? []) {
+    if (Array.isArray(card.examples) && card.examples.length > 0) withExamples++;
+    else stillEmpty++;
+  }
+}
 console.log(
-  `\n✓ Done. Enriched ${cardsEnriched.toLocaleString()} of ${totalCards.toLocaleString()} cards with ${totalExamples.toLocaleString()} example compounds.`,
+  `\n✓ Done. ${withExamples.toLocaleString()} of ${totalCards.toLocaleString()} cards have examples (${Math.round((withExamples / totalCards) * 100)}%). ${stillEmpty.toLocaleString()} rare kanji absent from JMdict entirely.`,
+);
+console.log(
+  `  This run: +${cumulativeEnriched.toLocaleString()} cards enriched, +${cumulativeExamples.toLocaleString()} examples added.`,
 );
