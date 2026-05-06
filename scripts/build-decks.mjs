@@ -16,8 +16,8 @@
  *
  * Output (overwritten on each run, into agent-files/):
  *   - kanji_jlpt_n5.json … kanji_jlpt_n1.json     (5 decks)
- *   - kanji_jouyou_grade_1.json … kanji_jouyou_grade_6.json
- *   - kanji_jouyou_secondary.json
+ *   - kanji_jouyou_grade_1.json … grade_6.json + secondary  (7 decks)
+ *   - kanji_top_100.json, top_500.json, top_1000.json       (3 decks)
  */
 import { existsSync, writeFileSync, readFileSync, mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
@@ -53,11 +53,6 @@ function jlptCode(n) {
   return `N${n}`;
 }
 
-/**
- * Convert one entry from kanji-data into our runtime KanjiCard shape.
- * Examples are intentionally empty — we don't have JMdict joined here yet.
- * Keyword is the first (most-prototypical) meaning.
- */
 function toCard(literal, entry, deckLabels) {
   const meanings = Array.isArray(entry.meanings) ? entry.meanings : [];
   return {
@@ -75,22 +70,19 @@ function toCard(literal, entry, deckLabels) {
   };
 }
 
-/** Sort cards by frequency rank (most common first), with unranked at the end. */
 function freqSort(a, b) {
   const fa = a._freq ?? Number.POSITIVE_INFINITY;
   const fb = b._freq ?? Number.POSITIVE_INFINITY;
   if (fa !== fb) return fa - fb;
-  // Stable secondary: stroke count, then literal codepoint
   return (a.stroke_count ?? 99) - (b.stroke_count ?? 99) || a.kanji.localeCompare(b.kanji);
 }
 
-/** Write one deck JSON in the existing agent-files schema. */
-function writeDeck({ deckId, deckName, notes, cards, fileName }) {
-  // Strip the internal _freq sort key before serializing.
+function writeDeck({ deckId, deckName, subtitle, notes, cards, fileName }) {
   const cleaned = cards.map(({ _freq: _f, ...rest }) => rest);
   const payload = {
     deck_id: deckId,
     deck_name: deckName,
+    subtitle,
     version: "1.0",
     card_count: cleaned.length,
     notes,
@@ -98,31 +90,25 @@ function writeDeck({ deckId, deckName, notes, cards, fileName }) {
       "Aggregated from KANJIDIC2 (CC-BY-SA, EDRDG), JLPT Resources (Jonathan Waller), and WaniKani.",
     cards: cleaned,
   };
-  const path = join(OUT_DIR, fileName);
-  writeFileSync(path, JSON.stringify(payload, null, 2) + "\n");
-  console.log(`  ${fileName.padEnd(36)} ${cleaned.length} cards`);
+  writeFileSync(join(OUT_DIR, fileName), JSON.stringify(payload, null, 2) + "\n");
+  console.log(`  ${fileName.padEnd(36)} ${cleaned.length.toString().padStart(5)} cards  · ${subtitle}`);
 }
 
 // ============================================================
-// Build JLPT N5–N1 decks
+// Bucketize the source data
 // ============================================================
 
 const jlptBuckets = { N5: [], N4: [], N3: [], N2: [], N1: [] };
-const jouyouBuckets = {
-  1: [],
-  2: [],
-  3: [],
-  4: [],
-  5: [],
-  6: [],
-  secondary: [], // grade 8 in the dataset
-};
+const jouyouBuckets = { 1: [], 2: [], 3: [], 4: [], 5: [], 6: [], secondary: [] };
+/** Every kanji that has a frequency rank, sorted by it (1 = most common). */
+const allRanked = [];
 
 for (const [literal, entry] of Object.entries(raw)) {
   const jlpt = jlptCode(entry.jlpt_new);
   const grade = entry.grade;
 
-  // Build the per-card "decks" attribution list.
+  // Per-card "decks" attribution list (visible in the data, used by future
+  // cross-deck features like "this kanji is also in JLPT N4").
   const labels = [];
   if (jlpt) labels.push(`JLPT ${jlpt}`);
   if (grade && grade <= 6) labels.push(`Jōyō Grade ${grade}`);
@@ -139,65 +125,175 @@ for (const [literal, entry] of Object.entries(raw)) {
     if (grade <= 6) jouyouBuckets[grade].push(card);
     else if (grade === 8) jouyouBuckets.secondary.push(card);
   }
+  if (entry.freq) {
+    const card = toCard(literal, entry, labels);
+    card._freq = entry.freq;
+    allRanked.push(card);
+  }
 }
+allRanked.sort(freqSort);
+
+// ============================================================
+// JLPT decks — polished labels + descriptive subtitles
+// ============================================================
 
 console.log("Writing JLPT decks → agent-files/\n");
-const JLPT_NOTES = {
-  N5: "Beginner kanji (~80 characters). The starter set learners encounter first.",
-  N4: "Elementary kanji. Builds on N5; covers basic everyday vocabulary.",
-  N3: "Intermediate kanji. Newspaper headlines and practical reading start here.",
-  N2: "Upper-intermediate kanji. Required for most professional work in Japan.",
-  N1: "Advanced kanji. Literary, technical, and rarely-used characters.",
+
+const JLPT_DECKS = {
+  N5: {
+    name: "JLPT N5 — Beginner",
+    subtitle: "Beginner · the first 80 kanji you'll meet",
+    notes:
+      "The starter set for JLPT N5. Numbers, days of the week, basic action verbs, and the most common content kanji.",
+  },
+  N4: {
+    name: "JLPT N4 — Elementary",
+    subtitle: "Elementary · everyday vocabulary kanji",
+    notes:
+      "Builds on N5; covers most of the kanji used in basic conversation and everyday written Japanese.",
+  },
+  N3: {
+    name: "JLPT N3 — Intermediate",
+    subtitle: "Intermediate · newspapers + practical reading",
+    notes:
+      "The biggest jump in the JLPT ladder. With N3 you can start reading manga, signage, and simplified news.",
+  },
+  N2: {
+    name: "JLPT N2 — Upper-intermediate",
+    subtitle: "Upper-intermediate · 95% of professional texts",
+    notes:
+      "Required for most professional work in Japan and for university-level reading. Rich kanji density.",
+  },
+  N1: {
+    name: "JLPT N1 — Advanced",
+    subtitle: "Advanced · literature, technical, archaic",
+    notes:
+      "The longest tier — over 1,000 advanced kanji including literary, technical, and rarely-used characters.",
+  },
 };
 
 for (const level of /** @type {const} */ (["N5", "N4", "N3", "N2", "N1"])) {
+  const cfg = JLPT_DECKS[level];
   const cards = jlptBuckets[level].sort(freqSort);
   writeDeck({
     deckId: `kanji-jlpt-${level.toLowerCase()}`,
-    deckName: `JLPT ${level} Kanji`,
-    notes: JLPT_NOTES[level],
+    deckName: cfg.name,
+    subtitle: cfg.subtitle,
+    notes: cfg.notes,
     cards,
     fileName: `kanji_jlpt_${level.toLowerCase()}.json`,
   });
 }
 
+// ============================================================
+// Jōyō by grade — with Japanese grade markers in the name
+// ============================================================
+
 console.log("\nWriting Jōyō-by-grade decks → agent-files/\n");
-const GRADE_NOTES = {
-  1: "First-grade Jōyō kanji (80 characters). What Japanese first-graders learn.",
-  2: "Second-grade Jōyō kanji (160 characters).",
-  3: "Third-grade Jōyō kanji (200 characters).",
-  4: "Fourth-grade Jōyō kanji (200 characters).",
-  5: "Fifth-grade Jōyō kanji (185 characters).",
-  6: "Sixth-grade Jōyō kanji (181 characters).",
-  secondary:
-    "Secondary-school Jōyō kanji (~1,110 characters not covered in elementary grades).",
+
+const GRADE_DECKS = {
+  1: {
+    name: "Jōyō · 1st grade (1年生)",
+    subtitle: "First-grade kanji · Japanese 6-year-olds learn these",
+    notes: "First grade Jōyō kanji — the foundational 80 every Japanese child learns first.",
+  },
+  2: {
+    name: "Jōyō · 2nd grade (2年生)",
+    subtitle: "Second-grade kanji · simple verbs + nature",
+    notes: "Second grade Jōyō kanji — 160 characters covering basic verbs, nature, and time.",
+  },
+  3: {
+    name: "Jōyō · 3rd grade (3年生)",
+    subtitle: "Third-grade kanji · everyday objects + actions",
+    notes: "Third grade Jōyō kanji — 200 more characters for everyday objects and actions.",
+  },
+  4: {
+    name: "Jōyō · 4th grade (4年生)",
+    subtitle: "Fourth-grade kanji · social + abstract concepts",
+    notes: "Fourth grade Jōyō kanji — 200 characters covering more abstract concepts.",
+  },
+  5: {
+    name: "Jōyō · 5th grade (5年生)",
+    subtitle: "Fifth-grade kanji · complex compounds",
+    notes: "Fifth grade Jōyō kanji — 185 characters used in formal writing.",
+  },
+  6: {
+    name: "Jōyō · 6th grade (6年生)",
+    subtitle: "Sixth-grade kanji · final elementary set",
+    notes: "Sixth grade Jōyō kanji — the last 181 of the elementary curriculum.",
+  },
+  secondary: {
+    name: "Jōyō · Secondary school (中学・高校)",
+    subtitle: "Secondary kanji · everything past 6th grade",
+    notes:
+      "The remaining ~1,100 Jōyō kanji learners encounter in middle and high school. Covers most adult writing.",
+  },
 };
 
 for (const grade of [1, 2, 3, 4, 5, 6]) {
+  const cfg = GRADE_DECKS[grade];
   const cards = jouyouBuckets[grade].sort(freqSort);
   writeDeck({
     deckId: `kanji-jouyou-grade-${grade}`,
-    deckName: `Jōyō Kanji — Grade ${grade}`,
-    notes: GRADE_NOTES[grade],
+    deckName: cfg.name,
+    subtitle: cfg.subtitle,
+    notes: cfg.notes,
     cards,
     fileName: `kanji_jouyou_grade_${grade}.json`,
   });
 }
 {
+  const cfg = GRADE_DECKS.secondary;
   const cards = jouyouBuckets.secondary.sort(freqSort);
   writeDeck({
     deckId: "kanji-jouyou-secondary",
-    deckName: "Jōyō Kanji — Secondary School",
-    notes: GRADE_NOTES.secondary,
+    deckName: cfg.name,
+    subtitle: cfg.subtitle,
+    notes: cfg.notes,
     cards,
     fileName: "kanji_jouyou_secondary.json",
   });
 }
 
+// ============================================================
+// Frequency tiers — Top 100 / 500 / 1000
+// ============================================================
+
+console.log("\nWriting frequency-tier decks → agent-files/\n");
+
+const FREQ_TIERS = [
+  {
+    n: 100,
+    deckId: "kanji-top-100",
+    deckName: "Top 100 Kanji",
+    subtitle: "Most-used kanji · covers ~50% of all written Japanese",
+    notes:
+      "The 100 most frequent kanji in Japanese newspapers (KANJIDIC2 newspaper-corpus rank). About 50% of all kanji you encounter in a newspaper are in this set.",
+    fileName: "kanji_top_100.json",
+  },
+  {
+    n: 500,
+    deckId: "kanji-top-500",
+    deckName: "Top 500 Kanji",
+    subtitle: "High-frequency kanji · covers ~80% of newspapers",
+    notes:
+      "Top 500 by newspaper-corpus frequency. Knowing this set unlocks ~80% of news and contemporary reading material.",
+    fileName: "kanji_top_500.json",
+  },
+  {
+    n: 1000,
+    deckId: "kanji-top-1000",
+    deckName: "Top 1,000 Kanji",
+    subtitle: "Common kanji · covers ~93% of contemporary text",
+    notes:
+      "Top 1,000 by frequency. Roughly 93% coverage of modern written Japanese, including most genres beyond technical literature.",
+    fileName: "kanji_top_1000.json",
+  },
+];
+
+for (const tier of FREQ_TIERS) {
+  const cards = allRanked.slice(0, tier.n);
+  writeDeck({ ...tier, cards });
+}
+
 console.log("\n✓ Default decks rebuilt.");
-console.log(
-  "  Note: examples[] are empty (KANJIDIC2 doesn't ship example sentences).",
-);
-console.log(
-  "  Wire JMdict in a follow-up if you want example words populated automatically.",
-);

@@ -1,10 +1,10 @@
 /**
  * Deck registry for the migrated app.
  *
- * For Phase 1 we glob-import every JSON file in /agent-files at build time and
- * normalize them into the runtime {@link Deck} shape. Phase 2 replaces this
- * with a curated set of public-domain decks (JLPT N5–N1, Top Frequency, Jōyō
- * by grade) hosted under /src/data/decks/.
+ * Glob-imports every JSON file in /agent-files at build time and normalizes
+ * them into the runtime {@link Deck} shape. Default decks are emitted by
+ * scripts/build-decks.mjs (KANJIDIC2-derived kanji decks) and a small set of
+ * hand-authored kana decks under /agent-files/kana_*.json.
  */
 
 import type { AnyCard, Deck, KanjiCard, VocabCard } from "@/types";
@@ -12,12 +12,18 @@ import type { AnyCard, Deck, KanjiCard, VocabCard } from "@/types";
 interface RawDeckFile {
   deck_id: string;
   deck_name: string;
+  /** Optional descriptive subtitle. Falls back to a card-count line when absent. */
+  subtitle?: string;
   card_count?: number;
   cards: Array<Record<string, unknown>>;
 }
 
 /** Eagerly inline every agent-files JSON at build time. */
-const filesKanjiTopFreq = import.meta.glob<RawDeckFile>("/agent-files/kanji_*.json", {
+const filesKana = import.meta.glob<RawDeckFile>("/agent-files/kana_*.json", {
+  eager: true,
+  import: "default",
+});
+const filesKanji = import.meta.glob<RawDeckFile>("/agent-files/kanji_*.json", {
   eager: true,
   import: "default",
 });
@@ -31,7 +37,6 @@ const filesVocab = import.meta.glob<RawDeckFile>("/agent-files/vocab_*.json", {
 });
 
 function normalizeVocabCard(c: Record<string, unknown>): VocabCard {
-  // Vocab JSONs use `word` for the headword; runtime keys progress by `kanji`.
   const meanings = (c.meanings as string[] | undefined) ?? [];
   return {
     kanji: (c.word as string) ?? (c.kanji as string) ?? "",
@@ -55,48 +60,99 @@ function asKanjiCard(c: Record<string, unknown>): KanjiCard {
   return c as unknown as KanjiCard;
 }
 
+/**
+ * Default-deck Home order. Lower numbers float to the top. Anything not in
+ * the map sorts after these by deck_id.
+ */
+const ORDER: Record<string, number> = {
+  // Kana — beginner gateway
+  "kana-hiragana": 10,
+  "kana-katakana": 20,
+
+  // JLPT progression
+  "kanji-jlpt-n5": 100,
+  "kanji-jlpt-n4": 110,
+  "kanji-jlpt-n3": 120,
+  "kanji-jlpt-n2": 130,
+  "kanji-jlpt-n1": 140,
+
+  // Frequency tiers
+  "kanji-top-100": 200,
+  "kanji-top-500": 210,
+  "kanji-top-1000": 220,
+
+  // Jōyō by grade (Japanese school curriculum)
+  "kanji-jouyou-grade-1": 300,
+  "kanji-jouyou-grade-2": 310,
+  "kanji-jouyou-grade-3": 320,
+  "kanji-jouyou-grade-4": 330,
+  "kanji-jouyou-grade-5": 340,
+  "kanji-jouyou-grade-6": 350,
+  "kanji-jouyou-secondary": 360,
+};
+
+function rank(id: string): number {
+  return ORDER[id] ?? 9999;
+}
+
+function unitFor(kind: "kanji" | "vocab" | "kana"): string {
+  if (kind === "vocab") return "words";
+  if (kind === "kana") return "characters";
+  return "kanji";
+}
+
 function buildDecks(): Deck[] {
   const out: Deck[] = [];
 
-  // Curated kanji decks (frequency-ranked, themed). Already in KanjiCard shape.
-  for (const raw of Object.values(filesKanjiTopFreq)) {
+  // Hand-authored kana decks (id pattern: kana-*).
+  for (const raw of Object.values(filesKana)) {
     out.push({
       id: raw.deck_id,
       name: raw.deck_name,
-      subtitle: `${raw.cards.length} kanji`,
+      subtitle: raw.subtitle ?? `${raw.cards.length} characters`,
+      kind: "kanji", // shape-compatible with KanjiCard; "kanji" runtime route works
+      available: true,
+      cards: raw.cards.map(asKanjiCard) as AnyCard[],
+    });
+  }
+
+  // KANJIDIC-derived default kanji decks.
+  for (const raw of Object.values(filesKanji)) {
+    out.push({
+      id: raw.deck_id,
+      name: raw.deck_name,
+      subtitle: raw.subtitle ?? `${raw.cards.length} kanji`,
       kind: "kanji",
       available: true,
       cards: raw.cards.map(asKanjiCard) as AnyCard[],
     });
   }
 
-  // Integrated Approach chapter decks. Sorted by chapter for stable order.
-  const integratedSorted = Object.entries(filesIntegrated).sort(([a], [b]) => a.localeCompare(b));
-  for (const [, raw] of integratedSorted) {
+  // (Legacy) Integrated Approach chapter decks — currently empty after M2.
+  for (const raw of Object.values(filesIntegrated)) {
     out.push({
       id: raw.deck_id,
       name: raw.deck_name,
-      subtitle: `${raw.cards.length} kanji`,
+      subtitle: raw.subtitle ?? `${raw.cards.length} kanji`,
       kind: "kanji",
       available: true,
       cards: raw.cards.map(asKanjiCard) as AnyCard[],
     });
   }
 
-  // Vocab decks need normalization (word → kanji).
-  const vocabSorted = Object.entries(filesVocab).sort(([a], [b]) => a.localeCompare(b));
-  for (const [, raw] of vocabSorted) {
+  // Vocab decks (currently just the curated top-frequency vocab).
+  for (const raw of Object.values(filesVocab)) {
     out.push({
       id: raw.deck_id,
       name: raw.deck_name,
-      subtitle: `${raw.cards.length} words`,
+      subtitle: raw.subtitle ?? `${raw.cards.length} ${unitFor("vocab")}`,
       kind: "vocab",
       available: true,
       cards: raw.cards.map(normalizeVocabCard) as AnyCard[],
     });
   }
 
-  return out;
+  return out.sort((a, b) => rank(a.id) - rank(b.id) || a.name.localeCompare(b.name));
 }
 
 export const DECKS: Deck[] = buildDecks();

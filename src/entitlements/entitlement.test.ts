@@ -54,10 +54,17 @@ describe("isDeckUnlocked", () => {
     expect(isDeckUnlocked(fakeDeck("user-1", { userCreated: true }), free())).toBe(true);
   });
 
-  it("free users only get the free-tier default deck (JLPT N5)", () => {
+  it("free users get the kana decks + JLPT N5 (the beginner gateway)", () => {
+    expect(isDeckUnlocked(fakeDeck("kana-hiragana"), free())).toBe(true);
+    expect(isDeckUnlocked(fakeDeck("kana-katakana"), free())).toBe(true);
     expect(isDeckUnlocked(fakeDeck("kanji-jlpt-n5"), free())).toBe(true);
+  });
+
+  it("free users do not get later JLPT levels or Jouyou or Top 100/500/1000", () => {
     expect(isDeckUnlocked(fakeDeck("kanji-jlpt-n4"), free())).toBe(false);
+    expect(isDeckUnlocked(fakeDeck("kanji-jlpt-n3"), free())).toBe(false);
     expect(isDeckUnlocked(fakeDeck("kanji-jouyou-grade-1"), free())).toBe(false);
+    expect(isDeckUnlocked(fakeDeck("kanji-top-100"), free())).toBe(false);
   });
 
   it("pro users get every default deck", () => {

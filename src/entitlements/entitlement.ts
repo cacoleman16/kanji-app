@@ -16,8 +16,13 @@
 import type { AppState, Deck } from "@/types";
 
 export const FREE_LIMITS = {
-  /** Default decks (`available !== false`) that free users can study fully. */
-  freeDeckIds: new Set<string>(["kanji-jlpt-n5"]),
+  /**
+   * Default decks (`available !== false`) that free users can study fully.
+   * Hiragana + Katakana are the absolute-beginner gateway; JLPT N5 is the
+   * first kanji deck. Together this is enough content for a learner to
+   * commit weeks of study before bumping into the paywall.
+   */
+  freeDeckIds: new Set<string>(["kana-hiragana", "kana-katakana", "kanji-jlpt-n5"]),
   /** Maximum number of user-created decks a free user can keep. */
   maxUserDecks: 1,
   /** Maximum cards per user-created deck on the free tier. */
