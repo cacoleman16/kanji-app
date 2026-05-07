@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
+import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { WhatsNew } from "@/components/WhatsNew";
 import { allDecks } from "@/data/allDecks";
 import { DECK_GROUPS, groupFor } from "@/data/groups";
@@ -202,6 +203,28 @@ export function App() {
     }
   }, [route, state, go, setStateFn]);
 
+  // Stable string key for the current route — used to auto-clear the per-
+  // screen ErrorBoundary when the user navigates away from a broken screen.
+  const routeKey = useMemo(() => {
+    switch (route.name) {
+      case "deck":
+      case "study":
+      case "myDeckEdit":
+      case "myDeckImport":
+        return `${route.name}:${route.deckId}`;
+      case "group":
+        return `group:${route.groupId}`;
+      case "mixedStudy":
+        return `mixedStudy:${route.jlpt}`;
+      case "legal":
+        return `legal:${route.doc}`;
+      case "paywall":
+        return `paywall:${route.reason ?? ""}`;
+      default:
+        return route.name;
+    }
+  }, [route]);
+
   // First-launch onboarding takes over the screen until dismissed.
   if (!state.settings.onboardingComplete) {
     return (
@@ -239,7 +262,15 @@ export function App() {
           </div>
         </div>
       )}
-      <main id="kanjido-main">{screen}</main>
+      <main id="kanjido-main">
+        <ErrorBoundary
+          scope="screen"
+          resetKey={routeKey}
+          onGoHome={() => go({ name: "home" })}
+        >
+          {screen}
+        </ErrorBoundary>
+      </main>
       <WhatsNew state={state} setState={setStateFn} />
     </div>
   );

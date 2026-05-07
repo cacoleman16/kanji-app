@@ -4,30 +4,46 @@ import { STORAGE_KEY } from "@/storage/state";
 
 interface Props {
   children: ReactNode;
+  /**
+   * "root" (default) — full-page takeover with reload/export/reset escape
+   * hatches. Use for the topmost boundary in main.tsx.
+   *
+   * "screen" — compact in-place error card with a single "Go home" button.
+   * One of these wraps each screen in App.tsx so that a crash in (say) Stats
+   * doesn't kill the whole app — the user can still navigate to Home/Study.
+   */
+  scope?: "root" | "screen";
+  /**
+   * When this value changes, the boundary forgets any prior error and re-
+   * renders its children. Pass the current route key here so navigating
+   * away from a broken screen automatically clears the boundary.
+   */
+  resetKey?: unknown;
+  /** Screen-scope only: handler for the "Go home" button. */
+  onGoHome?: () => void;
 }
 
 interface State {
   error: Error | null;
   info: ErrorInfo | null;
+  /** Snapshot of the resetKey at the time the error was captured. */
+  errorKey: unknown;
 }
 
 /**
- * Top-level error boundary.
+ * Error boundary supporting two modes (see Props.scope).
  *
  * Without this, any thrown render error blanks the screen — Apple's reviewers
- * have rejected apps for white-screening on edge cases. The boundary shows a
- * recovery UI with three escape hatches:
- *
- *   1. Reload  — a fresh React tree often clears transient runtime issues
- *   2. Export   — copy the localStorage payload to the clipboard so the user
- *                 can save it before doing anything destructive
- *   3. Reset    — last resort: clear the app's localStorage entry and reload
+ * have rejected apps for white-screening on edge cases. The root boundary
+ * shows a recovery UI with three escape hatches (reload, export, reset).
+ * Per-screen boundaries show a compact card so the user can navigate away
+ * from a broken screen without losing the rest of the app.
  *
  * In dev (Vite's import.meta.env.DEV), the actual error stack is shown.
  * In production we keep the user-facing UI clean and friendly.
  */
 export class ErrorBoundary extends Component<Props, State> {
-  state: State = { error: null, info: null };
+  state: State = { error: null, info: null, errorKey: undefined };
 
   static getDerivedStateFromError(error: Error): Partial<State> {
     return { error };
@@ -36,7 +52,22 @@ export class ErrorBoundary extends Component<Props, State> {
   componentDidCatch(error: Error, info: ErrorInfo) {
     // Log to console in case the user is sharing logs with support.
     console.error("Kanjido error boundary caught:", error, info);
-    this.setState({ error, info });
+    this.setState({ error, info, errorKey: this.props.resetKey });
+  }
+
+  componentDidUpdate(prevProps: Props) {
+    // Auto-clear when the resetKey changes after an error was captured
+    // (e.g. user navigated to a different screen). Without this a screen-
+    // scope boundary would stay error'd forever and the user couldn't get
+    // back even via navigation. We compare against the key that was active
+    // when the error was *captured* (stashed in `errorKey`), not the
+    // previous prop, so this works regardless of the order of state +
+    // props updates within a render.
+    if (this.state.error && this.props.resetKey !== this.state.errorKey) {
+      this.setState({ error: null, info: null });
+    }
+    // Touch prevProps so the unused-arg check doesn't fire.
+    void prevProps;
   }
 
   private reload = () => {
@@ -79,6 +110,41 @@ export class ErrorBoundary extends Component<Props, State> {
 
   override render() {
     if (!this.state.error) return this.props.children;
+
+    if (this.props.scope === "screen") {
+      return (
+        <div role="alert" className="screen-error-card">
+          <div className="screen-error-icon" aria-hidden>
+            !
+          </div>
+          <div className="screen-error-title">This screen ran into an error</div>
+          <div className="screen-error-body">
+            Your data is fine — head back to Home and try again. If it keeps happening, the
+            root reload below clears any transient state.
+          </div>
+          <div className="screen-error-actions">
+            {this.props.onGoHome && (
+              <button className="modal-btn primary" onClick={this.props.onGoHome}>
+                Go home
+              </button>
+            )}
+            <button className="modal-btn" onClick={this.reload}>
+              Reload app
+            </button>
+          </div>
+          {import.meta.env.DEV && (
+            <details className="screen-error-detail">
+              <summary>Stack (dev only)</summary>
+              <code>
+                {String(this.state.error?.stack ?? this.state.error)}
+                {"\n\n"}
+                {String(this.state.info?.componentStack ?? "")}
+              </code>
+            </details>
+          )}
+        </div>
+      );
+    }
 
     return (
       <div
