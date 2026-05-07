@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 
 import { allDecks } from "@/data/allDecks";
 import { isDeckUnlocked } from "@/entitlements/entitlement";
@@ -41,9 +41,9 @@ function isoDaysBack(n: number): string[] {
 
 const DAY_LABELS = ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"];
 
-function buildLast7(byDay: Record<string, DailyStats>): DayBucket[] {
+function buildLastN(byDay: Record<string, DailyStats>, n: number): DayBucket[] {
   const today = todayStr();
-  return isoDaysBack(7).map((iso) => {
+  return isoDaysBack(n).map((iso) => {
     const d = byDay[iso] || { reviewed: 0, again: 0, hard: 0, good: 0, easy: 0 };
     const date = new Date(iso);
     return {
@@ -57,6 +57,43 @@ function buildLast7(byDay: Record<string, DailyStats>): DayBucket[] {
       shortLabel: DAY_LABELS[date.getDay()],
     };
   });
+}
+
+interface CardStatusDistribution {
+  newCount: number;
+  learning: number;
+  due: number;
+  mastered: number;
+  total: number;
+}
+
+/**
+ * Cross-deck card-status counts. De-duped by kanji literal so a kanji
+ * shared between JLPT N5 and Jōyō Grade 1 is only counted once.
+ */
+function buildDistribution(state: AppState): CardStatusDistribution {
+  const decks = allDecks(state).filter((d) => isDeckUnlocked(d, state));
+  const seen = new Set<string>();
+  const now = Date.now();
+  let newCount = 0;
+  let learning = 0;
+  let due = 0;
+  let mastered = 0;
+  for (const deck of decks) {
+    for (const c of deck.cards) {
+      if (seen.has(c.kanji)) continue;
+      seen.add(c.kanji);
+      const p = state.progress[c.kanji];
+      if (!p) {
+        newCount++;
+        continue;
+      }
+      if (p.interval >= 21 && p.reps >= 3) mastered++;
+      else if (p.due <= now) due++;
+      else learning++;
+    }
+  }
+  return { newCount, learning, due, mastered, total: seen.size };
 }
 
 interface DeckBreakdown {
@@ -120,11 +157,19 @@ export function Stats({ state, onBack }: StatsProps) {
   const correct = allRatings.hard + allRatings.good + allRatings.easy;
   const accuracy = totalReviews === 0 ? 0 : Math.round((correct / totalReviews) * 100);
 
-  const last7 = useMemo(() => buildLast7(state.stats.byDay || {}), [state.stats.byDay]);
-  const last7Total = last7.reduce((a, b) => a + b.reviewed, 0);
-  const last7Max = Math.max(1, ...last7.map((b) => b.reviewed));
+  const [range, setRange] = useState<7 | 30>(7);
+  const buckets = useMemo(
+    () => buildLastN(state.stats.byDay || {}, range),
+    [state.stats.byDay, range],
+  );
+  const bucketsTotal = buckets.reduce((a, b) => a + b.reviewed, 0);
+  const bucketsMax = Math.max(1, ...buckets.map((b) => b.reviewed));
+  const distribution = useMemo(() => buildDistribution(state), [state]);
 
   const deckBreakdown = useMemo(() => buildDeckBreakdown(state), [state]);
+
+  const distPct = (n: number) =>
+    distribution.total > 0 ? (n / distribution.total) * 100 : 0;
 
   return (
     <div className="fade-in">
@@ -164,17 +209,39 @@ export function Stats({ state, onBack }: StatsProps) {
         </div>
       </div>
 
-      {/* ---------- 7-day bar chart ---------- */}
+      {/* ---------- Activity chart (7-day or 30-day) ---------- */}
       <div className="stats-chart" style={{ marginTop: 24 }}>
         <div className="stats-chart-header">
-          <div className="stats-chart-title">Last 7 days</div>
-          <div className="stats-chart-meta">
-            {last7Total} review{last7Total === 1 ? "" : "s"}
+          <div className="stats-chart-title">
+            Last {range} days · {bucketsTotal.toLocaleString()} review
+            {bucketsTotal === 1 ? "" : "s"}
+          </div>
+          <div className="stats-range-toggle" role="tablist" aria-label="Time range">
+            <button
+              role="tab"
+              aria-selected={range === 7}
+              className={`stats-range-btn ${range === 7 ? "active" : ""}`}
+              onClick={() => setRange(7)}
+            >
+              7d
+            </button>
+            <button
+              role="tab"
+              aria-selected={range === 30}
+              className={`stats-range-btn ${range === 30 ? "active" : ""}`}
+              onClick={() => setRange(30)}
+            >
+              30d
+            </button>
           </div>
         </div>
-        <div className="stats-bars" role="img" aria-label={`Reviews per day, last 7 days, total ${last7Total}`}>
-          {last7.map((day) => {
-            const heightPct = day.reviewed === 0 ? 0 : Math.max(8, (day.reviewed / last7Max) * 100);
+        <div
+          className={range === 7 ? "stats-bars" : "stats-bars-30"}
+          role="img"
+          aria-label={`Reviews per day, last ${range} days, total ${bucketsTotal}`}
+        >
+          {buckets.map((day) => {
+            const heightPct = day.reviewed === 0 ? 0 : Math.max(8, (day.reviewed / bucketsMax) * 100);
             return (
               <div
                 key={day.iso}
@@ -185,16 +252,105 @@ export function Stats({ state, onBack }: StatsProps) {
                   className={`stats-bar ${day.reviewed === 0 ? "zero" : ""}`}
                   style={{ height: `${heightPct}%` }}
                 >
-                  {day.reviewed > 0 && <span className="stats-bar-value">{day.reviewed}</span>}
+                  {range === 7 && day.reviewed > 0 && (
+                    <span className="stats-bar-value">{day.reviewed}</span>
+                  )}
                 </div>
-                <div className={`stats-bar-label ${day.isToday ? "today" : ""}`}>
-                  {day.shortLabel}
-                </div>
+                {range === 7 && (
+                  <div className={`stats-bar-label ${day.isToday ? "today" : ""}`}>
+                    {day.shortLabel}
+                  </div>
+                )}
               </div>
             );
           })}
         </div>
+        {range === 30 && (
+          <div className="stats-axis">
+            <span>{buckets[0]?.iso ?? ""}</span>
+            <span>today</span>
+          </div>
+        )}
       </div>
+
+      {/* ---------- Card-status distribution ---------- */}
+      {distribution.total > 0 && (
+        <div className="stats-chart">
+          <div className="stats-chart-header">
+            <div className="stats-chart-title">
+              Card status · {distribution.total.toLocaleString()} unlocked
+            </div>
+          </div>
+          <div className="stats-distribution" aria-hidden>
+            {distribution.newCount > 0 && (
+              <div
+                className="stats-distribution-seg new"
+                style={{ width: `${distPct(distribution.newCount)}%` }}
+              />
+            )}
+            {distribution.learning > 0 && (
+              <div
+                className="stats-distribution-seg learning"
+                style={{ width: `${distPct(distribution.learning)}%` }}
+              />
+            )}
+            {distribution.due > 0 && (
+              <div
+                className="stats-distribution-seg due"
+                style={{ width: `${distPct(distribution.due)}%` }}
+              />
+            )}
+            {distribution.mastered > 0 && (
+              <div
+                className="stats-distribution-seg mastered"
+                style={{ width: `${distPct(distribution.mastered)}%` }}
+              />
+            )}
+          </div>
+          <div className="stats-distribution-legend">
+            <div className="stats-distribution-legend-item">
+              <div className="stats-distribution-legend-row">
+                <span
+                  className="stats-distribution-legend-dot"
+                  style={{ background: "var(--text-dim)", opacity: 0.45 }}
+                />
+                New
+              </div>
+              <div className="stats-distribution-legend-num">{distribution.newCount}</div>
+            </div>
+            <div className="stats-distribution-legend-item">
+              <div className="stats-distribution-legend-row">
+                <span
+                  className="stats-distribution-legend-dot"
+                  style={{ background: "var(--accent)" }}
+                />
+                Learning
+              </div>
+              <div className="stats-distribution-legend-num">{distribution.learning}</div>
+            </div>
+            <div className="stats-distribution-legend-item">
+              <div className="stats-distribution-legend-row">
+                <span
+                  className="stats-distribution-legend-dot"
+                  style={{ background: "var(--again)" }}
+                />
+                Due
+              </div>
+              <div className="stats-distribution-legend-num">{distribution.due}</div>
+            </div>
+            <div className="stats-distribution-legend-item">
+              <div className="stats-distribution-legend-row">
+                <span
+                  className="stats-distribution-legend-dot"
+                  style={{ background: "var(--good)" }}
+                />
+                Mastered
+              </div>
+              <div className="stats-distribution-legend-num">{distribution.mastered}</div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* ---------- Per-deck retention / mastery ---------- */}
       <div className="section-label" style={{ marginTop: 24 }}>

@@ -1053,6 +1053,118 @@
     font-weight: 600;
   }
 
+  /* 30-day variant: tighter columns, no day labels per bar (just first/last). */
+  .stats-bars-30 {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    gap: 2px;
+    align-items: end;
+    height: 100px;
+    padding: 14px 4px 8px;
+  }
+  .stats-bars-30 .stats-bar-col {
+    align-items: stretch;
+  }
+  .stats-bars-30 .stats-bar {
+    max-width: none;
+    border-radius: 2px;
+  }
+  .stats-bars-30 .stats-bar-value {
+    display: none;
+  }
+  .stats-bars-30 .stats-bar-label {
+    display: none;
+  }
+
+  .stats-axis {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 0.05em;
+    padding: 0 4px;
+    margin-top: 2px;
+  }
+
+  /* Range toggle (7d / 30d) */
+  .stats-range-toggle {
+    display: inline-flex;
+    background: var(--surface-2);
+    border-radius: 8px;
+    padding: 2px;
+    gap: 2px;
+  }
+  .stats-range-btn {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: var(--font-ui);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+  }
+  .stats-range-btn.active {
+    background: var(--surface);
+    color: var(--text);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Card-status distribution bar (4-segment stacked bar). */
+  .stats-distribution {
+    display: flex;
+    height: 14px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 6px;
+    background: var(--surface-2);
+  }
+  .stats-distribution-seg {
+    height: 100%;
+    transition: width 320ms ease;
+  }
+  .stats-distribution-seg.new { background: var(--text-dim); opacity: 0.45; }
+  .stats-distribution-seg.learning { background: var(--accent); }
+  .stats-distribution-seg.due { background: var(--again); }
+  .stats-distribution-seg.mastered { background: var(--good); }
+
+  .stats-distribution-legend {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 12px;
+    font-size: 11px;
+  }
+  .stats-distribution-legend-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .stats-distribution-legend-row {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--text-dim);
+    font-size: 10px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .stats-distribution-legend-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .stats-distribution-legend-num {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+  }
+
   .stats-deck-row {
     display: grid;
     grid-template-columns: 1fr auto;
