@@ -14,9 +14,9 @@
  */
 
 import { isPro } from "@/entitlements/entitlement";
-import { todayStr } from "@/storage/state";
 import type { AppState } from "@/types";
 
+import { buildBackupFilename } from "./backupFilename";
 import { isNative, writeBackupFile } from "./bridge";
 
 /** Min time between auto-backups, in ms. 12 hours. */
@@ -44,7 +44,7 @@ export async function tryAutoBackup(
 ): Promise<boolean> {
   if (!shouldAutoBackup(state, now)) return false;
   try {
-    const filename = `kanjido-progress-${todayStr()}.json`;
+    const filename = buildBackupFilename(state);
     const uri = await writeBackupFile(filename, JSON.stringify(state, null, 2));
     if (uri) {
       markComplete(now);

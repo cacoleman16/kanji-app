@@ -1245,6 +1245,38 @@
     margin: 0 4px;
   }
 
+  /* ---------- Restore-from-iCloud metadata block (Settings modal) ---------- */
+  .restore-meta {
+    background: var(--surface-2);
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .restore-meta-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    align-items: baseline;
+  }
+  .restore-meta-label {
+    color: var(--text-dim);
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+  }
+  .restore-meta-value {
+    color: var(--text);
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 60%;
+  }
+
   /* ---------- Conjugation table (grammar back-face) ---------- */
   .conj-table {
     background: var(--surface-2);

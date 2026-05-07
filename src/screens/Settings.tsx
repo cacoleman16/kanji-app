@@ -5,13 +5,14 @@ import { Modal } from "@/components/Modal";
 import { APP_VERSION } from "@/data/version";
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
+import { buildBackupFilename, parseBackupName } from "@/native/backupFilename";
 import { isNative, listBackupFiles, readBackupFile, shareText, writeBackupFile } from "@/native/bridge";
 import {
   cancelDailyReminder,
   requestNotificationPermission,
   scheduleDailyReminder,
 } from "@/native/notifications";
-import { DEFAULT_STATE, parseImport, todayStr } from "@/storage/state";
+import { DEFAULT_STATE, parseImport } from "@/storage/state";
 import type { AppState, ProPlan, Settings as SettingsT } from "@/types";
 
 import type { Route } from "../routes";
@@ -60,7 +61,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
     });
 
   const exportProgress = async () => {
-    const filename = `kanjido-progress-${todayStr()}.json`;
+    const filename = buildBackupFilename(state);
     await shareText({
       title: "Kanjido backup",
       filename,
@@ -107,7 +108,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
     }
     setICloudBusy(true);
     try {
-      const filename = `kanjido-progress-${todayStr()}.json`;
+      const filename = buildBackupFilename(state);
       const uri = await writeBackupFile(filename, JSON.stringify(state, null, 2));
       if (uri) {
         showInfo("Backup written", `Saved as ${filename} in your iCloud Drive's Kanjido folder.`);
@@ -154,14 +155,39 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           : ageDays === 1
             ? "1 day ago"
             : `${ageDays} days ago`;
+      const meta = parseBackupName(latest.name);
       setModal({
         title: "Restore from iCloud?",
         body: (
           <>
-            Latest backup: <strong>{latest.name}</strong>, written {ageLabel}.
-            <br />
-            Restoring replaces your current progress with {count} entr
-            {count === 1 ? "y" : "ies"}.
+            <div style={{ marginBottom: 10 }}>
+              Restoring replaces your current progress with {count.toLocaleString()} entr
+              {count === 1 ? "y" : "ies"}.
+            </div>
+            <div className="restore-meta">
+              <div className="restore-meta-row">
+                <span className="restore-meta-label">File</span>
+                <span className="restore-meta-value" title={latest.name}>
+                  {latest.name}
+                </span>
+              </div>
+              <div className="restore-meta-row">
+                <span className="restore-meta-label">Written</span>
+                <span className="restore-meta-value">{ageLabel}</span>
+              </div>
+              {meta?.version && (
+                <div className="restore-meta-row">
+                  <span className="restore-meta-label">From version</span>
+                  <span className="restore-meta-value">v{meta.version}</span>
+                </div>
+              )}
+              {meta?.entryCount != null && meta.entryCount !== count && (
+                <div className="restore-meta-row">
+                  <span className="restore-meta-label">Cards in name</span>
+                  <span className="restore-meta-value">{meta.entryCount}</span>
+                </div>
+              )}
+            </div>
           </>
         ),
         tone: "confirm",
