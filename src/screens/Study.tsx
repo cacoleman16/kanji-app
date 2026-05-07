@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
 import { ConjugationTableView } from "@/components/ConjugationTable";
+import { allDecks } from "@/data/allDecks";
+import { recommendNextDeck } from "@/data/recommendDeck";
 import { tryAutoBackup } from "@/native/autoBackup";
 import { haptic, hapticSelection } from "@/native/bridge";
 import { previewIntervals, sm2 } from "@/srs/sm2";
@@ -23,6 +25,9 @@ interface StudyProps {
   state: AppState;
   setState: (updater: (s: AppState) => AppState) => void;
   onDone: () => void;
+  /** Optional — when provided, the post-session screen shows a "what's next?"
+      card that can navigate the user directly into the recommended deck. */
+  onPickNext?: (deckId: string) => void;
   includeAll?: boolean;
 }
 
@@ -48,7 +53,14 @@ interface SessionStats {
 
 const EMPTY_DAILY: DailyStats = { reviewed: 0, again: 0, hard: 0, good: 0, easy: 0 };
 
-export function Study({ deck, state, setState, onDone, includeAll = false }: StudyProps) {
+export function Study({
+  deck,
+  state,
+  setState,
+  onDone,
+  onPickNext,
+  includeAll = false,
+}: StudyProps) {
   const [queue, setQueue] = useState<AnyCard[]>(() => {
     if (!deck) return [];
     return buildQueue(deck.cards, state.progress, {
@@ -215,6 +227,13 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
         setState((s) => ({ ...s, settings: { ...s.settings, lastAutoBackupAt: timestamp } })),
       );
     }
+    // Compute "what's next?" recommendation. Skipped when no navigation
+    // handler was wired (paranoia for callers that don't care) or when the
+    // user did 0 reviews (this is just an empty post-session screen).
+    const recommendation =
+      onPickNext && sessionStats.reviewed > 0 && deck
+        ? recommendNextDeck(deck, allDecks(state), state)
+        : null;
     return (
       <div className="fade-in session-done">
         <div className="done-emoji">よくできました</div>
@@ -243,6 +262,17 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
               <div className="done-stat-lbl">Total</div>
             </div>
           </div>
+        )}
+        {recommendation && onPickNext && (
+          <button
+            className="next-deck-card"
+            onClick={() => onPickNext(recommendation.deck.id)}
+            aria-label={`What's next: ${recommendation.deck.name}, ${recommendation.reason}`}
+          >
+            <div className="next-deck-card-eyebrow">What's next</div>
+            <div className="next-deck-card-name">{recommendation.deck.name}</div>
+            <div className="next-deck-card-reason">{recommendation.reason}</div>
+          </button>
         )}
         <button className="primary-btn" onClick={onDone}>
           Done

@@ -120,6 +120,11 @@ export function App() {
             state={state}
             setState={setStateFn}
             onDone={() => go({ name: "deck", deckId: route.deckId })}
+            onPickNext={(deckId) =>
+              deckId === route.deckId
+                ? go({ name: "study", deckId })
+                : go({ name: "deck", deckId })
+            }
           />
         );
       }
@@ -139,6 +144,7 @@ export function App() {
             state={state}
             setState={setStateFn}
             onDone={() => go({ name: "home" })}
+            onPickNext={(deckId) => go({ name: "deck", deckId })}
           />
         );
       }

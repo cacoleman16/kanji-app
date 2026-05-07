@@ -1277,6 +1277,46 @@
     max-width: 60%;
   }
 
+  /* ---------- Post-session "what's next?" card ---------- */
+  .next-deck-card {
+    appearance: none;
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    margin: 8px auto 16px;
+    padding: 14px 18px;
+    text-align: left;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    color: var(--text);
+    cursor: pointer;
+    transition: background 120ms, border-color 120ms, transform 80ms;
+  }
+  .next-deck-card:hover {
+    background: var(--surface-2);
+    border-color: var(--accent);
+  }
+  .next-deck-card:active {
+    transform: scale(0.99);
+  }
+  .next-deck-card-eyebrow {
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 4px;
+  }
+  .next-deck-card-name {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  .next-deck-card-reason {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+
   /* ---------- Conjugation table (grammar back-face) ---------- */
   .conj-table {
     background: var(--surface-2);
