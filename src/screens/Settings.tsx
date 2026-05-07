@@ -353,6 +353,10 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
         )}
       </div>
 
+      <div className="section-label" style={{ marginTop: 24 }}>
+        Study
+      </div>
+
       <div className="settings-row">
         <div>
           <div className="settings-label">Daily goal</div>
@@ -434,6 +438,10 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
         </select>
       </div>
 
+      <div className="section-label" style={{ marginTop: 24 }}>
+        Appearance
+      </div>
+
       <div className="settings-row">
         <div>
           <div className="settings-label">Theme</div>
@@ -473,41 +481,8 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
         </div>
       </div>
 
-      <div className="settings-row">
-        <div>
-          <div className="settings-label">Export progress</div>
-          <div className="settings-sub">Download your progress as JSON backup</div>
-        </div>
-        <button
-          className="primary-btn"
-          style={{ padding: "8px 14px", fontSize: 13 }}
-          onClick={exportProgress}
-        >
-          Export
-        </button>
-      </div>
-
-      <div className="settings-row">
-        <div>
-          <div className="settings-label">Import progress</div>
-          <div className="settings-sub">
-            Restore from a previous JSON backup (replaces current progress)
-          </div>
-        </div>
-        <input
-          ref={fileInputRef}
-          type="file"
-          accept="application/json,.json"
-          style={{ display: "none" }}
-          onChange={handleImportFile}
-        />
-        <button
-          className="primary-btn"
-          style={{ padding: "8px 14px", fontSize: 13 }}
-          onClick={pickImportFile}
-        >
-          Import
-        </button>
+      <div className="section-label" style={{ marginTop: 24 }}>
+        Notifications
       </div>
 
       <div className="settings-row">
@@ -561,6 +536,10 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           />
         </div>
       )}
+
+      <div className="section-label" style={{ marginTop: 24 }}>
+        Backup & Sync
+      </div>
 
       {isNative() && userIsPro && (
         <div className="settings-row">
@@ -637,10 +616,51 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
 
       <div className="settings-row">
         <div>
-          <div className="settings-label">Replay welcome screen</div>
+          <div className="settings-label">Export progress</div>
           <div className="settings-sub">
-            Walk through the onboarding intro again
+            Save a JSON snapshot of all your progress + settings to a file you control.
           </div>
+        </div>
+        <button
+          className="primary-btn"
+          style={{ padding: "8px 14px", fontSize: 13 }}
+          onClick={exportProgress}
+        >
+          Export
+        </button>
+      </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label">Import progress</div>
+          <div className="settings-sub">
+            Load a previously-exported JSON file. Replaces your current progress.
+          </div>
+        </div>
+        <input
+          ref={fileInputRef}
+          type="file"
+          accept="application/json,.json"
+          style={{ display: "none" }}
+          onChange={handleImportFile}
+        />
+        <button
+          className="primary-btn"
+          style={{ padding: "8px 14px", fontSize: 13 }}
+          onClick={pickImportFile}
+        >
+          Import
+        </button>
+      </div>
+
+      <div className="section-label" style={{ marginTop: 24 }}>
+        Data
+      </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label">Replay welcome screen</div>
+          <div className="settings-sub">Walk through the 3-step onboarding intro again.</div>
         </div>
         <button className="filter-chip" onClick={replayOnboarding}>
           Replay
@@ -653,7 +673,8 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
             Delete all my data
           </div>
           <div className="settings-sub">
-            Erases progress, custom decks, and settings. Cannot be undone.
+            Erase progress, custom decks, and settings. Cannot be undone — your iCloud backups
+            (if any) survive.
           </div>
         </div>
         <button className="danger-btn" onClick={reset}>
