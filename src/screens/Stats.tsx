@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 
+import { ActivityHeatmap } from "@/components/ActivityHeatmap";
 import { allDecks } from "@/data/allDecks";
 import { isDeckUnlocked } from "@/entitlements/entitlement";
 import { todayStr } from "@/storage/state";
@@ -287,6 +288,16 @@ export function Stats({ state, onBack }: StatsProps) {
           </div>
         )}
       </div>
+      )}
+
+      {/* ---------- 12-week activity heatmap ---------- */}
+      {totalReviews > 0 && (
+        <div className="stats-chart" style={{ marginTop: 24 }}>
+          <div className="stats-chart-header">
+            <div className="stats-chart-title">Activity, last 12 weeks</div>
+          </div>
+          <ActivityHeatmap byDay={state.stats.byDay} weeks={12} />
+        </div>
       )}
 
       {/* ---------- Card-status distribution ---------- */}

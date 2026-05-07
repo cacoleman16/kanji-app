@@ -1141,6 +1141,110 @@
     overflow: auto;
   }
 
+  /* ---------- Activity heatmap (Stats screen) ---------- */
+  .activity-heatmap {
+    --hm-cell-size: 12px;
+    --hm-gap: 3px;
+    --hm-day-label-w: 16px;
+    padding: 14px 12px 10px 12px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-top: 14px;
+    overflow: hidden;
+  }
+  .activity-heatmap-months {
+    position: relative;
+    height: 14px;
+    margin-bottom: 4px;
+    font-size: 10px;
+    color: var(--text-dim);
+    letter-spacing: 0.04em;
+  }
+  .activity-heatmap-month {
+    position: absolute;
+    top: 0;
+  }
+  .activity-heatmap-body {
+    display: flex;
+    gap: 4px;
+  }
+  .activity-heatmap-day-labels {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: var(--hm-day-label-w);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 9px;
+    color: var(--text-dim);
+    letter-spacing: 0.02em;
+  }
+  .activity-heatmap-day-label {
+    height: var(--hm-cell-size);
+    line-height: var(--hm-cell-size);
+  }
+  .activity-heatmap-grid {
+    display: flex;
+    flex-direction: column;
+    gap: var(--hm-gap);
+    flex: 1;
+  }
+  .activity-heatmap-row {
+    display: flex;
+    gap: var(--hm-gap);
+  }
+  .activity-heatmap-cell {
+    flex: 0 0 var(--hm-cell-size);
+    width: var(--hm-cell-size);
+    height: var(--hm-cell-size);
+    border-radius: 2px;
+    background: var(--surface-2);
+    transition: transform 80ms;
+  }
+  .activity-heatmap-cell:hover {
+    transform: scale(1.2);
+  }
+  .activity-heatmap-cell.future {
+    visibility: hidden;
+  }
+  .activity-heatmap-cell.today {
+    box-shadow: inset 0 0 0 1px var(--accent);
+  }
+  /* Intensity ramp — semi-transparent accent layered onto surface-2.
+     Tweaked so even level-1 is clearly distinguishable from "no activity". */
+  .activity-heatmap-cell.level-0 {
+    background: var(--surface-2);
+  }
+  .activity-heatmap-cell.level-1 {
+    background: rgba(251, 191, 36, 0.25);
+  }
+  .activity-heatmap-cell.level-2 {
+    background: rgba(251, 191, 36, 0.5);
+  }
+  .activity-heatmap-cell.level-3 {
+    background: rgba(251, 191, 36, 0.75);
+  }
+  .activity-heatmap-cell.level-4 {
+    background: rgba(251, 191, 36, 1);
+  }
+  /* Light mode: invert the saturation logic so empty cells aren't pure white. */
+  :root[data-theme="light"] .activity-heatmap-cell.level-0 {
+    background: #f4f4f5;
+  }
+  .activity-heatmap-legend {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 12px;
+    font-size: 10px;
+    color: var(--text-dim);
+    justify-content: flex-end;
+  }
+  .activity-heatmap-legend-label {
+    margin: 0 4px;
+  }
+
   /* ---------- Conjugation table (grammar back-face) ---------- */
   .conj-table {
     background: var(--surface-2);
