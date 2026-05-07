@@ -1,0 +1,249 @@
+{
+  "deck_id": "vocab-colors",
+  "deck_name": "Colors (色)",
+  "subtitle": "Primary, neutrals, modifiers — and the 青/緑 history",
+  "version": "1.0",
+  "card_count": 18,
+  "notes": "Color vocabulary. Notes the famous 青/緑 history (青信号 = 'blue' light that's actually green) and the い-adjective forms (赤い vs 黄色い vs 茶色い). Modifiers (明るい/暗い/濃い/薄い) close out the deck.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "色",
+      "reading": "いろ",
+      "meanings": [
+        "color"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "赤",
+      "reading": "あか",
+      "meanings": [
+        "red"
+      ],
+      "jlpt": "N5",
+      "category": "primary",
+      "context": "Adjective form: 赤い (い-adjective).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "青",
+      "reading": "あお",
+      "meanings": [
+        "blue",
+        "green (older usage)"
+      ],
+      "jlpt": "N5",
+      "category": "primary",
+      "context": "In older Japanese, 青 covered both blue and green. Traffic lights are still called 青信号 even though they're green. Adjective: 青い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "黄色",
+      "reading": "きいろ",
+      "meanings": [
+        "yellow"
+      ],
+      "jlpt": "N5",
+      "category": "primary",
+      "context": "Adjective: 黄色い (note the い goes on 黄色, not just 黄).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "緑",
+      "reading": "みどり",
+      "meanings": [
+        "green"
+      ],
+      "jlpt": "N4",
+      "category": "primary",
+      "context": "Modern green. Traffic lights say 青 historically, but real green plants/leaves are 緑. No native -i adjective form.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "白",
+      "reading": "しろ",
+      "meanings": [
+        "white"
+      ],
+      "jlpt": "N5",
+      "category": "neutrals",
+      "context": "Adjective: 白い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "黒",
+      "reading": "くろ",
+      "meanings": [
+        "black"
+      ],
+      "jlpt": "N5",
+      "category": "neutrals",
+      "context": "Adjective: 黒い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "灰色",
+      "reading": "はいいろ",
+      "meanings": [
+        "gray"
+      ],
+      "jlpt": "N3",
+      "category": "neutrals",
+      "context": "Lit. 'ash-color'. The loanword グレー is also common.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "茶色",
+      "reading": "ちゃいろ",
+      "meanings": [
+        "brown"
+      ],
+      "jlpt": "N4",
+      "category": "earthy",
+      "context": "Lit. 'tea-color'. Adjective: 茶色い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "紫",
+      "reading": "むらさき",
+      "meanings": [
+        "purple"
+      ],
+      "jlpt": "N3",
+      "category": "earthy",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ピンク",
+      "reading": "ピンク",
+      "meanings": [
+        "pink"
+      ],
+      "jlpt": "N4",
+      "category": "earthy",
+      "context": "Loanword. Native桃色 (ももいろ) = peach-color exists but ピンク is far more common.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "オレンジ",
+      "reading": "オレンジ",
+      "meanings": [
+        "orange (color)"
+      ],
+      "jlpt": "N4",
+      "category": "earthy",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "金色",
+      "reading": "きんいろ",
+      "meanings": [
+        "gold (color)"
+      ],
+      "jlpt": "N3",
+      "category": "metallic",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "銀色",
+      "reading": "ぎんいろ",
+      "meanings": [
+        "silver (color)"
+      ],
+      "jlpt": "N3",
+      "category": "metallic",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "明るい",
+      "reading": "あかるい",
+      "meanings": [
+        "bright"
+      ],
+      "jlpt": "N4",
+      "category": "modifiers",
+      "context": "明るい色 = bright color. Also: 明るい性格 = cheerful personality.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "暗い",
+      "reading": "くらい",
+      "meanings": [
+        "dark"
+      ],
+      "jlpt": "N4",
+      "category": "modifiers",
+      "context": "Same として 暗い性格 = gloomy personality.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "濃い",
+      "reading": "こい",
+      "meanings": [
+        "dark (saturated)",
+        "strong (taste)"
+      ],
+      "jlpt": "N3",
+      "category": "modifiers",
+      "context": "濃い赤 = deep red. Also for strong flavors: 濃いコーヒー.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "薄い",
+      "reading": "うすい",
+      "meanings": [
+        "light (color)",
+        "weak (taste)",
+        "thin"
+      ],
+      "jlpt": "N4",
+      "category": "modifiers",
+      "context": "Pairs with 濃い. 薄い青 = light blue.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

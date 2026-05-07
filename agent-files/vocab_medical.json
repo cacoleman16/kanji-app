@@ -1,0 +1,251 @@
+{
+  "deck_id": "vocab-medical",
+  "deck_name": "Medical & Health (医療)",
+  "subtitle": "Doctor, pharmacy, symptoms, emergencies",
+  "version": "1.0",
+  "card_count": 18,
+  "notes": "Health vocabulary you'll need at a 病院, pharmacy, or in an emergency. Includes critical phrases like 風邪を引きました and ◯◯アレルギーがあります. Notes the 病院 vs 美容院 trap.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "病院",
+      "reading": "びょういん",
+      "meanings": [
+        "hospital"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "美容院 (びよういん) = beauty salon — same kana, only the long-vowel mark differs.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "医者",
+      "reading": "いしゃ",
+      "meanings": [
+        "doctor"
+      ],
+      "jlpt": "N5",
+      "category": "people",
+      "context": "Polite: お医者さん.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "看護師",
+      "reading": "かんごし",
+      "meanings": [
+        "nurse"
+      ],
+      "jlpt": "N3",
+      "category": "people",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "薬",
+      "reading": "くすり",
+      "meanings": [
+        "medicine"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "薬を飲む = take medicine (lit. 'drink medicine' even for pills).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "薬局",
+      "reading": "やっきょく",
+      "meanings": [
+        "pharmacy"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "病気",
+      "reading": "びょうき",
+      "meanings": [
+        "sickness",
+        "illness"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "病気になる = to get sick.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "風邪",
+      "reading": "かぜ",
+      "meanings": [
+        "cold (illness)"
+      ],
+      "jlpt": "N4",
+      "category": "illness",
+      "context": "Same reading as 風 (wind) — context disambiguates. Pre-modern theory blamed colds on 'bad winds'.",
+      "example_sentence": "風邪を引きました。",
+      "example_reading": "かぜ を ひきました。",
+      "example_meaning": "I caught a cold."
+    },
+    {
+      "word": "熱",
+      "reading": "ねつ",
+      "meanings": [
+        "fever",
+        "heat"
+      ],
+      "jlpt": "N4",
+      "category": "illness",
+      "context": "熱がある = have a fever. 熱を計る = take temperature.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "怪我",
+      "reading": "けが",
+      "meanings": [
+        "injury",
+        "wound"
+      ],
+      "jlpt": "N4",
+      "category": "illness",
+      "context": "怪我をする = get hurt.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "痛い",
+      "reading": "いたい",
+      "meanings": [
+        "painful",
+        "it hurts"
+      ],
+      "jlpt": "N5",
+      "category": "symptoms",
+      "context": "An い-adjective. By itself: 痛い! = ow! / ouch!",
+      "example_sentence": "頭が痛いです。",
+      "example_reading": "あたま が いたい です。",
+      "example_meaning": "I have a headache."
+    },
+    {
+      "word": "頭痛",
+      "reading": "ずつう",
+      "meanings": [
+        "headache"
+      ],
+      "jlpt": "N3",
+      "category": "symptoms",
+      "context": "Compound noun. Same as saying 頭が痛い but stronger / more medical.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お腹が空いた",
+      "reading": "おなか が すいた",
+      "meanings": [
+        "I'm hungry"
+      ],
+      "jlpt": "N5",
+      "category": "states",
+      "context": "Lit. 'stomach is empty'. お腹がすく = to get hungry.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "疲れた",
+      "reading": "つかれた",
+      "meanings": [
+        "I'm tired"
+      ],
+      "jlpt": "N5",
+      "category": "states",
+      "context": "Past tense of 疲れる. Stating it naturally as an exclamation. Note that お疲れ様 (workplace 'good job') uses the same root.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "眠い",
+      "reading": "ねむい",
+      "meanings": [
+        "sleepy"
+      ],
+      "jlpt": "N4",
+      "category": "states",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meanings": [
+        "mood",
+        "feeling"
+      ],
+      "jlpt": "N4",
+      "category": "states",
+      "context": "気分がいい = feel good. 気分が悪い = feel sick / bad.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "アレルギー",
+      "reading": "アレルギー",
+      "meanings": [
+        "allergy"
+      ],
+      "jlpt": "N3",
+      "category": "general",
+      "context": "Critical in restaurants: ◯◯アレルギーがあります = I'm allergic to ◯◯.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "緊急",
+      "reading": "きんきゅう",
+      "meanings": [
+        "emergency",
+        "urgent"
+      ],
+      "jlpt": "N3",
+      "category": "general",
+      "context": "Japan's emergency number is 119 (ambulance/fire) and 110 (police).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "救急車",
+      "reading": "きゅうきゅうしゃ",
+      "meanings": [
+        "ambulance"
+      ],
+      "jlpt": "N3",
+      "category": "general",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

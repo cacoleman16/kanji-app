@@ -106,6 +106,12 @@ const ORDER: Record<string, number> = {
   "vocab-travel": 470,
   "vocab-weather": 480,
   "vocab-office": 490,
+  "vocab-restaurant": 491,
+  "vocab-medical": 492,
+  "vocab-colors": 493,
+  "vocab-animals": 494,
+  "vocab-emotions": 495,
+  "vocab-proverbs": 496,
 
   // Grammar (Pro)
   "grammar-particles": 500,

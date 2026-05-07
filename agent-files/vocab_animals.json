@@ -1,0 +1,248 @@
+{
+  "deck_id": "vocab-animals",
+  "deck_name": "Animals (動物)",
+  "subtitle": "Pets, farm, wild — plus the meat-name shifts",
+  "version": "1.0",
+  "card_count": 18,
+  "notes": "Animal names with the reading-shifts in compound forms (牛 うし → 牛肉 ぎゅうにく). Note that 鳥 means both 'bird' and 'chicken' depending on context.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "動物",
+      "reading": "どうぶつ",
+      "meanings": [
+        "animal"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "動物園 (どうぶつえん) = zoo.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "犬",
+      "reading": "いぬ",
+      "meanings": [
+        "dog"
+      ],
+      "jlpt": "N5",
+      "category": "domestic",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "猫",
+      "reading": "ねこ",
+      "meanings": [
+        "cat"
+      ],
+      "jlpt": "N5",
+      "category": "domestic",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "鳥",
+      "reading": "とり",
+      "meanings": [
+        "bird"
+      ],
+      "jlpt": "N5",
+      "category": "wild",
+      "context": "Also means 'chicken' in cooking context (鳥肉 = chicken meat). The kanji for bird, broadly.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meanings": [
+        "fish"
+      ],
+      "jlpt": "N5",
+      "category": "wild",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "馬",
+      "reading": "うま",
+      "meanings": [
+        "horse"
+      ],
+      "jlpt": "N4",
+      "category": "farm",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "牛",
+      "reading": "うし",
+      "meanings": [
+        "cow"
+      ],
+      "jlpt": "N4",
+      "category": "farm",
+      "context": "牛肉 (ぎゅうにく) = beef. The reading shifts in compounds.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "豚",
+      "reading": "ぶた",
+      "meanings": [
+        "pig"
+      ],
+      "jlpt": "N4",
+      "category": "farm",
+      "context": "豚肉 (ぶたにく) = pork.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "羊",
+      "reading": "ひつじ",
+      "meanings": [
+        "sheep"
+      ],
+      "jlpt": "N3",
+      "category": "farm",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "鶏",
+      "reading": "にわとり",
+      "meanings": [
+        "chicken (bird)"
+      ],
+      "jlpt": "N3",
+      "category": "farm",
+      "context": "Specifically a chicken (the bird). Cooked chicken = 鶏肉 (とりにく) or just 鳥.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "鼠",
+      "reading": "ねずみ",
+      "meanings": [
+        "mouse",
+        "rat"
+      ],
+      "jlpt": "N2",
+      "category": "small",
+      "context": "Often written ねずみ in hiragana — kanji is rare.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "蛇",
+      "reading": "へび",
+      "meanings": [
+        "snake"
+      ],
+      "jlpt": "N3",
+      "category": "wild",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "象",
+      "reading": "ぞう",
+      "meanings": [
+        "elephant"
+      ],
+      "jlpt": "N4",
+      "category": "wild",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "猿",
+      "reading": "さる",
+      "meanings": [
+        "monkey",
+        "ape"
+      ],
+      "jlpt": "N3",
+      "category": "wild",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "鯨",
+      "reading": "くじら",
+      "meanings": [
+        "whale"
+      ],
+      "jlpt": "N3",
+      "category": "wild",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "蟹",
+      "reading": "かに",
+      "meanings": [
+        "crab"
+      ],
+      "jlpt": "N3",
+      "category": "wild",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "虫",
+      "reading": "むし",
+      "meanings": [
+        "insect",
+        "bug"
+      ],
+      "jlpt": "N4",
+      "category": "small",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "蝶",
+      "reading": "ちょう",
+      "meanings": [
+        "butterfly"
+      ],
+      "jlpt": "N3",
+      "category": "small",
+      "context": "Often written 蝶々 (ちょうちょう) in everyday use.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "deck_id": "vocab-emotions",
+  "deck_name": "Emotions (感情)",
+  "subtitle": "Joy, sadness, anger, worry · the inner world",
+  "version": "1.0",
+  "card_count": 16,
+  "notes": "Emotion vocabulary with usage contrasts: 嬉しい (one-time joy) vs 楽しい (fun) vs 幸せ (continuous well-being); 心配 vs 安心. Includes 好き/嫌い (the famous な-adjectives that take が, not を).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "嬉しい",
+      "reading": "うれしい",
+      "meanings": [
+        "happy",
+        "glad"
+      ],
+      "jlpt": "N4",
+      "category": "positive",
+      "context": "For your own happy reaction to a specific event. For continuous 'happy person' state, use 楽しい (fun) or 幸せ (fortunate).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "幸せ",
+      "reading": "しあわせ",
+      "meanings": [
+        "happy",
+        "fortunate"
+      ],
+      "jlpt": "N4",
+      "category": "positive",
+      "context": "な-adjective. More about a continuous state of well-being than a momentary feeling.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meanings": [
+        "fun",
+        "enjoyable"
+      ],
+      "jlpt": "N5",
+      "category": "positive",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "悲しい",
+      "reading": "かなしい",
+      "meanings": [
+        "sad"
+      ],
+      "jlpt": "N5",
+      "category": "negative",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "寂しい",
+      "reading": "さびしい",
+      "meanings": [
+        "lonely",
+        "missing someone"
+      ],
+      "jlpt": "N4",
+      "category": "negative",
+      "context": "Sometimes pronounced さみしい. The 'I miss you' meaning is heavily implied in many contexts.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "怒る",
+      "reading": "おこる",
+      "meanings": [
+        "to get angry"
+      ],
+      "jlpt": "N4",
+      "category": "negative",
+      "context": "Verb (godan). 怒っている = is angry. 怒らせる = make someone angry.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "怖い",
+      "reading": "こわい",
+      "meanings": [
+        "scary",
+        "frightening"
+      ],
+      "jlpt": "N4",
+      "category": "negative",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "恥ずかしい",
+      "reading": "はずかしい",
+      "meanings": [
+        "embarrassed",
+        "ashamed"
+      ],
+      "jlpt": "N4",
+      "category": "negative",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "驚く",
+      "reading": "おどろく",
+      "meanings": [
+        "to be surprised"
+      ],
+      "jlpt": "N3",
+      "category": "neutral",
+      "context": "Verb form. The onomatopoeia びっくり is the more common everyday word.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "心配",
+      "reading": "しんぱい",
+      "meanings": [
+        "worry",
+        "concern"
+      ],
+      "jlpt": "N4",
+      "category": "negative",
+      "context": "心配する = to worry. 心配しないで = don't worry. The な-adjective form is also valid: 心配な気持ち.",
+      "example_sentence": "あなたが心配です。",
+      "example_reading": "あなた が しんぱい です。",
+      "example_meaning": "I'm worried about you."
+    },
+    {
+      "word": "安心",
+      "reading": "あんしん",
+      "meanings": [
+        "relief",
+        "peace of mind"
+      ],
+      "jlpt": "N4",
+      "category": "positive",
+      "context": "な-adjective. The opposite of 心配. 安心する = to feel relieved.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "退屈",
+      "reading": "たいくつ",
+      "meanings": [
+        "bored",
+        "boring"
+      ],
+      "jlpt": "N3",
+      "category": "negative",
+      "context": "な-adjective.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "好き",
+      "reading": "すき",
+      "meanings": [
+        "liked",
+        "favorite"
+      ],
+      "jlpt": "N5",
+      "category": "preference",
+      "context": "な-adjective. Takes が, not を: 寿司が好き = I like sushi.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "嫌い",
+      "reading": "きらい",
+      "meanings": [
+        "disliked",
+        "hated"
+      ],
+      "jlpt": "N5",
+      "category": "preference",
+      "context": "な-adjective despite ending in い. Takes が.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "愛",
+      "reading": "あい",
+      "meanings": [
+        "love"
+      ],
+      "jlpt": "N3",
+      "category": "preference",
+      "context": "Noun. Verb form: 愛する (irregular する verb). Less commonly used in everyday speech than English 'love'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "感動",
+      "reading": "かんどう",
+      "meanings": [
+        "deep emotion",
+        "moved"
+      ],
+      "jlpt": "N3",
+      "category": "intense",
+      "context": "感動した = was moved (by something). 感動的 = moving / touching.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

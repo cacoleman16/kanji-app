@@ -1,0 +1,214 @@
+{
+  "deck_id": "vocab-proverbs",
+  "deck_name": "Proverbs (ことわざ)",
+  "subtitle": "猿も木から落ちる · 七転び八起き · 一期一会",
+  "version": "1.0",
+  "card_count": 15,
+  "notes": "Famous Japanese proverbs and idiomatic encouragements. Most are pre-modern wisdom literature — knowing them gets you instant cultural credit, and they pop up in news/business writing more than English proverbs do. Includes the everyday 頑張って and お互い様 closers.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "猿も木から落ちる",
+      "reading": "さる も き から おちる",
+      "meanings": [
+        "even monkeys fall from trees",
+        "even experts make mistakes"
+      ],
+      "jlpt": "N3",
+      "category": "wisdom",
+      "context": "Lit. 'even monkeys fall from trees'. Used to comfort someone after a mistake — even an expert at climbing slips occasionally.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "七転び八起き",
+      "reading": "ななころび やおき",
+      "meanings": [
+        "fall down 7 times, get up 8",
+        "perseverance"
+      ],
+      "jlpt": "N3",
+      "category": "perseverance",
+      "context": "The Japanese 'never give up' proverb. The math (7 falls but 8 standings) implies you started standing.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "石の上にも三年",
+      "reading": "いし の うえ に も さんねん",
+      "meanings": [
+        "3 years on a stone (warms even stone)",
+        "patience pays off"
+      ],
+      "jlpt": "N3",
+      "category": "perseverance",
+      "context": "Lit. 'three years even on a stone'. Even sitting on a cold stone, you'll warm it eventually with patience.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "塵も積もれば山となる",
+      "reading": "ちり も つもれば やま と なる",
+      "meanings": [
+        "dust piled high becomes a mountain"
+      ],
+      "jlpt": "N2",
+      "category": "wisdom",
+      "context": "Small actions accumulate into big results. The Japanese 'compound interest' proverb.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "出る杭は打たれる",
+      "reading": "でる くい は うたれる",
+      "meanings": [
+        "the nail that sticks out gets hammered down"
+      ],
+      "jlpt": "N2",
+      "category": "society",
+      "context": "Famous proverb about Japanese conformity culture. Standing out attracts criticism.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "二兎を追う者は一兎をも得ず",
+      "reading": "にと を おう もの は いっと を も えず",
+      "meanings": [
+        "chase two rabbits, catch neither"
+      ],
+      "jlpt": "N1",
+      "category": "wisdom",
+      "context": "Trying to do too many things at once → accomplish none.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "百聞は一見に如かず",
+      "reading": "ひゃくぶん は いっけん に しかず",
+      "meanings": [
+        "seeing once is better than hearing 100 times"
+      ],
+      "jlpt": "N1",
+      "category": "wisdom",
+      "context": "Direct equivalent of 'a picture is worth a thousand words'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "急がば回れ",
+      "reading": "いそがば まわれ",
+      "meanings": [
+        "if in a hurry, take the long way"
+      ],
+      "jlpt": "N2",
+      "category": "wisdom",
+      "context": "Slow and steady wins. The shortcut often costs more.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "蛙の子は蛙",
+      "reading": "かえる の こ は かえる",
+      "meanings": [
+        "the child of a frog is a frog",
+        "like father, like son"
+      ],
+      "jlpt": "N2",
+      "category": "society",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "知らぬが仏",
+      "reading": "しらぬ が ほとけ",
+      "meanings": [
+        "ignorance is bliss",
+        "lit. not knowing is Buddha"
+      ],
+      "jlpt": "N1",
+      "category": "wisdom",
+      "context": "The peace of mind that comes from not knowing something troubling.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "一期一会",
+      "reading": "いちご いちえ",
+      "meanings": [
+        "one time, one meeting",
+        "treasure every encounter"
+      ],
+      "jlpt": "N1",
+      "category": "philosophy",
+      "context": "Tea-ceremony origin. Every encounter is unique, never to be repeated — treat it accordingly. Often used to invoke mindfulness.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "井の中の蛙大海を知らず",
+      "reading": "いのなかの かわず たいかい を しらず",
+      "meanings": [
+        "a frog in a well doesn't know the ocean"
+      ],
+      "jlpt": "N1",
+      "category": "wisdom",
+      "context": "Often shortened to 井の中の蛙. About narrow worldviews.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "覆水盆に返らず",
+      "reading": "ふくすい ぼん に かえらず",
+      "meanings": [
+        "spilt water won't return to the tray",
+        "no use crying over spilt milk"
+      ],
+      "jlpt": "N1",
+      "category": "wisdom",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "頑張って",
+      "reading": "がんばって",
+      "meanings": [
+        "do your best",
+        "good luck"
+      ],
+      "jlpt": "N5",
+      "category": "encouragement",
+      "context": "Not technically a proverb but the most-used Japanese phrase of encouragement. Said before exams, sports, work, anything difficult. From 頑張る = to persist.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お互い様",
+      "reading": "おたがいさま",
+      "meanings": [
+        "we're both in the same boat"
+      ],
+      "jlpt": "N3",
+      "category": "society",
+      "context": "Said when accepting thanks or apology — 'don't mention it, we both do this for each other'. Uniquely Japanese reciprocity concept.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

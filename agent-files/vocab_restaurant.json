@@ -1,0 +1,292 @@
+{
+  "deck_id": "vocab-restaurant",
+  "deck_name": "Restaurant & Shopping (お店)",
+  "subtitle": "Menus, ordering, paying, taste · everyday Japan",
+  "version": "1.0",
+  "card_count": 21,
+  "notes": "Ordering food, asking for the bill, describing taste (おいしい/まずい/甘い/辛い), and the place categories you'll meet (レストラン, 居酒屋, コンビニ, デパート). Includes the お会計 / 持ち帰り phrases and shopping basics.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "メニュー",
+      "reading": "メニュー",
+      "meanings": [
+        "menu"
+      ],
+      "jlpt": "N5",
+      "category": "ordering",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meanings": [
+        "order"
+      ],
+      "jlpt": "N4",
+      "category": "ordering",
+      "context": "注文する = to order. 注文をお願いします = I'd like to order.",
+      "example_sentence": "ご注文はお決まりですか。",
+      "example_reading": "ごちゅうもん は おきまり です か。",
+      "example_meaning": "Have you decided on your order?"
+    },
+    {
+      "word": "お会計",
+      "reading": "おかいけい",
+      "meanings": [
+        "the bill",
+        "check"
+      ],
+      "jlpt": "N3",
+      "category": "paying",
+      "context": "Polite. Casual: 勘定 (かんじょう). At the end: お会計お願いします = check, please.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おすすめ",
+      "reading": "おすすめ",
+      "meanings": [
+        "recommendation"
+      ],
+      "jlpt": "N3",
+      "category": "ordering",
+      "context": "Often written お勧め in writing. 何がおすすめですか = What do you recommend?",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "セット",
+      "reading": "セット",
+      "meanings": [
+        "set meal",
+        "combo"
+      ],
+      "jlpt": "N4",
+      "category": "ordering",
+      "context": "Used a lot for combo meals: ラーメンセット = ramen + sides combo.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "定食",
+      "reading": "ていしょく",
+      "meanings": [
+        "set meal (Japanese)"
+      ],
+      "jlpt": "N3",
+      "category": "ordering",
+      "context": "A traditional set: main + rice + miso soup + small sides. The Japanese-restaurant equivalent of a 'plate lunch'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "持ち帰り",
+      "reading": "もちかえり",
+      "meanings": [
+        "takeout",
+        "to go"
+      ],
+      "jlpt": "N3",
+      "category": "ordering",
+      "context": "テイクアウト also works. 持ち帰りでお願いします = to go, please.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "店",
+      "reading": "みせ",
+      "meanings": [
+        "shop",
+        "store"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "レストラン",
+      "reading": "レストラン",
+      "meanings": [
+        "restaurant"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "Loanword. Casual Japanese eateries are usually 食堂 (しょくどう) or specific names (ラーメン屋, 寿司屋).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "居酒屋",
+      "reading": "いざかや",
+      "meanings": [
+        "izakaya",
+        "Japanese pub"
+      ],
+      "jlpt": "N3",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コンビニ",
+      "reading": "コンビニ",
+      "meanings": [
+        "convenience store"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "Shortened from コンビニエンスストア. The Japanese 24/7 convenience-store culture is unique.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "スーパー",
+      "reading": "スーパー",
+      "meanings": [
+        "supermarket"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "デパート",
+      "reading": "デパート",
+      "meanings": [
+        "department store"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "値段",
+      "reading": "ねだん",
+      "meanings": [
+        "price"
+      ],
+      "jlpt": "N4",
+      "category": "shopping",
+      "context": "",
+      "example_sentence": "値段はいくらですか。",
+      "example_reading": "ねだん は いくら です か。",
+      "example_meaning": "How much is it?"
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meanings": [
+        "expensive",
+        "high"
+      ],
+      "jlpt": "N5",
+      "category": "shopping",
+      "context": "Same word as 'tall' / 'high'. Context (or 値段が高い) clarifies.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meanings": [
+        "cheap",
+        "inexpensive"
+      ],
+      "jlpt": "N5",
+      "category": "shopping",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おいしい",
+      "reading": "おいしい",
+      "meanings": [
+        "delicious"
+      ],
+      "jlpt": "N5",
+      "category": "tasting",
+      "context": "Often written 美味しい. The all-purpose food-compliment word — say it about anything good.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "まずい",
+      "reading": "まずい",
+      "meanings": [
+        "bad-tasting"
+      ],
+      "jlpt": "N4",
+      "category": "tasting",
+      "context": "Use carefully — direct opposite of おいしい. Casual: ぎょうさん used as 'oh no' (it's bad).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "甘い",
+      "reading": "あまい",
+      "meanings": [
+        "sweet"
+      ],
+      "jlpt": "N4",
+      "category": "tasting",
+      "context": "Also figurative: 甘い考え = naive idea, 親に甘える = act spoiled toward your parents.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "辛い",
+      "reading": "からい",
+      "meanings": [
+        "spicy",
+        "salty (regional)"
+      ],
+      "jlpt": "N4",
+      "category": "tasting",
+      "context": "Means 'spicy' (chili-heat) in standard Japanese. In Tohoku/Hokkaido it can mean 'salty'. Same kanji also reads つらい = 'painful'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "酸っぱい",
+      "reading": "すっぱい",
+      "meanings": [
+        "sour"
+      ],
+      "jlpt": "N3",
+      "category": "tasting",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}
