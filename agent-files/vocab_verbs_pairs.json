@@ -1,0 +1,245 @@
+{
+  "deck_id": "vocab-verbs-pairs",
+  "deck_name": "Intransitive ↔ Transitive verbs",
+  "subtitle": "開く/開ける · 閉まる/閉める — the famous verb pairs",
+  "version": "1.0",
+  "card_count": 18,
+  "notes": "Japanese verb pairs that English collapses into a single word. The pair pattern is one of the biggest stumbling blocks for learners — 'the door opens' (intrans) vs 'I open the door' (trans). Each card pairs the two and shows both in context.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "開く ↔ 開ける",
+      "reading": "あく ↔ あける",
+      "meanings": [
+        "open (intrans.) ↔ open (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "ドアが開く = the door opens (it just does). ドアを開ける = (someone) opens the door. The intrans/trans split is a major learner stumbling block.",
+      "example_sentence": "ドアが開きました。 / ドアを開けました。",
+      "example_reading": "どあ が あきました。 / どあ を あけました。",
+      "example_meaning": "The door opened. / I opened the door."
+    },
+    {
+      "word": "閉まる ↔ 閉める",
+      "reading": "しまる ↔ しめる",
+      "meanings": [
+        "close (intrans.) ↔ close (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "始まる ↔ 始める",
+      "reading": "はじまる ↔ はじめる",
+      "meanings": [
+        "begin (intrans.) ↔ begin (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "授業が始まる = class begins. 授業を始める = begin class.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "終わる ↔ 終える",
+      "reading": "おわる ↔ おえる",
+      "meanings": [
+        "end (intrans.) ↔ end (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "終わる is far more common in everyday speech, even for active 'finishing' (宿題が終わった = I finished my homework). 終える is more formal/literary.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "上がる ↔ 上げる",
+      "reading": "あがる ↔ あげる",
+      "meanings": [
+        "go up (intrans.) ↔ raise (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "値段が上がる = the price goes up. 手を上げる = raise your hand.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "下がる ↔ 下げる",
+      "reading": "さがる ↔ さげる",
+      "meanings": [
+        "go down (intrans.) ↔ lower (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "出る ↔ 出す",
+      "reading": "でる ↔ だす",
+      "meanings": [
+        "go out (intrans.) ↔ take out (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "家を出る = leave home. ゴミを出す = take out the trash.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "入る ↔ 入れる",
+      "reading": "はいる ↔ いれる",
+      "meanings": [
+        "enter (intrans.) ↔ insert (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "回る ↔ 回す",
+      "reading": "まわる ↔ まわす",
+      "meanings": [
+        "spin (intrans.) ↔ spin (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "壊れる ↔ 壊す",
+      "reading": "こわれる ↔ こわす",
+      "meanings": [
+        "break (intrans.) ↔ break (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "携帯が壊れた = my phone broke. 携帯を壊した = I broke (someone's) phone.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "起きる ↔ 起こす",
+      "reading": "おきる ↔ おこす",
+      "meanings": [
+        "wake up (intrans.) ↔ wake (someone) up (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "落ちる ↔ 落とす",
+      "reading": "おちる ↔ おとす",
+      "meanings": [
+        "fall (intrans.) ↔ drop (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "Also used metaphorically: 試験に落ちる = fail an exam, 財布を落とす = lose a wallet.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "決まる ↔ 決める",
+      "reading": "きまる ↔ きめる",
+      "meanings": [
+        "be decided ↔ decide"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "決まりました = it's been decided / settled. 決めました = I decided.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "見える ↔ 見せる",
+      "reading": "みえる ↔ みせる",
+      "meanings": [
+        "be visible ↔ show"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "見える is special: it's the spontaneous-perception form of 見る ('something is visible'). 見せる is causative-of-見る (cause-to-see = show).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "聞こえる ↔ 聞く",
+      "reading": "きこえる ↔ きく",
+      "meanings": [
+        "be audible ↔ listen / hear / ask"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "Counterpart of the 見える/見せる pattern — 聞こえる = something is audible, vs 聞く = actively listen/ask.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "止まる ↔ 止める",
+      "reading": "とまる ↔ とめる",
+      "meanings": [
+        "stop (intrans.) ↔ stop (trans.)"
+      ],
+      "jlpt": "N5",
+      "category": "pairs",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "集まる ↔ 集める",
+      "reading": "あつまる ↔ あつめる",
+      "meanings": [
+        "gather (intrans.) ↔ collect (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "切手を集める = collect stamps. 集まる is everyone gathering on their own.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "返る ↔ 返す",
+      "reading": "かえる ↔ かえす",
+      "meanings": [
+        "return (intrans.) ↔ give back (trans.)"
+      ],
+      "jlpt": "N4",
+      "category": "pairs",
+      "context": "Note: 帰る (go home) is yet a different かえる. 返る = (something) returns. 返す = give (something) back.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

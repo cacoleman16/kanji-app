@@ -1,0 +1,304 @@
+{
+  "deck_id": "vocab-travel",
+  "deck_name": "Travel (旅行)",
+  "subtitle": "Trains, hotels, sightseeing — everything for a Japan trip",
+  "version": "1.0",
+  "card_count": 22,
+  "notes": "Travel vocabulary you'll meet at the airport, in train stations, at ryokan check-in counters, and on sightseeing days.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "旅行",
+      "reading": "りょこう",
+      "meanings": [
+        "trip",
+        "travel"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "海外旅行 (overseas trip), 国内旅行 (domestic trip).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "観光",
+      "reading": "かんこう",
+      "meanings": [
+        "sightseeing",
+        "tourism"
+      ],
+      "jlpt": "N3",
+      "category": "general",
+      "context": "観光地 = tourist spot. 観光客 = tourist.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ホテル",
+      "reading": "ホテル",
+      "meanings": [
+        "hotel"
+      ],
+      "jlpt": "N5",
+      "category": "lodging",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "旅館",
+      "reading": "りょかん",
+      "meanings": [
+        "traditional Japanese inn"
+      ],
+      "jlpt": "N4",
+      "category": "lodging",
+      "context": "Tatami floors, futons, often comes with kaiseki dinner + onsen.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "民宿",
+      "reading": "みんしゅく",
+      "meanings": [
+        "family-run guesthouse"
+      ],
+      "jlpt": "N3",
+      "category": "lodging",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meanings": [
+        "reservation"
+      ],
+      "jlpt": "N4",
+      "category": "general",
+      "context": "予約する = to reserve. 予約しています = I have a reservation.",
+      "example_sentence": "ホテルを予約しました。",
+      "example_reading": "ほてる を よやく しました。",
+      "example_meaning": "I made a hotel reservation."
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meanings": [
+        "electric train"
+      ],
+      "jlpt": "N5",
+      "category": "transport",
+      "context": "Most urban trains are electric. 列車 (れっしゃ) is more general.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meanings": [
+        "bullet train"
+      ],
+      "jlpt": "N5",
+      "category": "transport",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "meanings": [
+        "subway"
+      ],
+      "jlpt": "N5",
+      "category": "transport",
+      "context": "Lit. 'underground iron'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meanings": [
+        "bus"
+      ],
+      "jlpt": "N5",
+      "category": "transport",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "タクシー",
+      "reading": "タクシー",
+      "meanings": [
+        "taxi"
+      ],
+      "jlpt": "N5",
+      "category": "transport",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "meanings": [
+        "airplane"
+      ],
+      "jlpt": "N5",
+      "category": "transport",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "船",
+      "reading": "ふね",
+      "meanings": [
+        "boat",
+        "ship"
+      ],
+      "jlpt": "N4",
+      "category": "transport",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "meanings": [
+        "station"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "空港",
+      "reading": "くうこう",
+      "meanings": [
+        "airport"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "切符",
+      "reading": "きっぷ",
+      "meanings": [
+        "ticket"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Often used for transport tickets. Movie/event tickets are usually チケット.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "荷物",
+      "reading": "にもつ",
+      "meanings": [
+        "luggage",
+        "baggage"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Lit. 'load + thing'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "地図",
+      "reading": "ちず",
+      "meanings": [
+        "map"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "道",
+      "reading": "みち",
+      "meanings": [
+        "road",
+        "way",
+        "path"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "Same character as the -do in judo, kendo, kanjido — 'the way'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "温泉",
+      "reading": "おんせん",
+      "meanings": [
+        "hot spring"
+      ],
+      "jlpt": "N4",
+      "category": "experiences",
+      "context": "Lit. 'warm spring'. The cultural tourist staple.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お土産",
+      "reading": "おみやげ",
+      "meanings": [
+        "souvenir"
+      ],
+      "jlpt": "N5",
+      "category": "experiences",
+      "context": "Customary to bring back food souvenirs (especially regional 名物 specialties) for coworkers/family.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "迷う",
+      "reading": "まよう",
+      "meanings": [
+        "to get lost",
+        "to hesitate"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "道に迷う = to get lost (lit. 'be lost in the road').",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

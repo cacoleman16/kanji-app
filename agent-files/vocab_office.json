@@ -1,0 +1,282 @@
+{
+  "deck_id": "vocab-office",
+  "deck_name": "Office & Business (仕事)",
+  "subtitle": "会議 · 上司 · お疲れ様 — workplace vocabulary",
+  "version": "1.0",
+  "card_count": 20,
+  "notes": "Office vocabulary plus the irreplaceable phrases お疲れ様 and よろしくお願いします that hold Japanese workplace communication together.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "会社",
+      "reading": "かいしゃ",
+      "meanings": [
+        "company"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "会社員 = company employee, 会社に行く = go to work.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "仕事",
+      "reading": "しごと",
+      "meanings": [
+        "work",
+        "job"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "事務所",
+      "reading": "じむしょ",
+      "meanings": [
+        "office"
+      ],
+      "jlpt": "N4",
+      "category": "general",
+      "context": "オフィス is the loanword and equally common.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meanings": [
+        "meeting"
+      ],
+      "jlpt": "N4",
+      "category": "events",
+      "context": "会議室 = meeting room.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "プレゼン",
+      "reading": "プレゼン",
+      "meanings": [
+        "presentation"
+      ],
+      "jlpt": "N3",
+      "category": "events",
+      "context": "Shortened from プレゼンテーション.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meanings": [
+        "documents",
+        "materials"
+      ],
+      "jlpt": "N3",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "書類",
+      "reading": "しょるい",
+      "meanings": [
+        "paperwork",
+        "documents"
+      ],
+      "jlpt": "N3",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "メール",
+      "reading": "メール",
+      "meanings": [
+        "email"
+      ],
+      "jlpt": "N5",
+      "category": "comms",
+      "context": "メールを送る = send an email.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "電話",
+      "reading": "でんわ",
+      "meanings": [
+        "telephone",
+        "phone call"
+      ],
+      "jlpt": "N5",
+      "category": "comms",
+      "context": "電話する / 電話をかける = make a phone call.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "返事",
+      "reading": "へんじ",
+      "meanings": [
+        "reply",
+        "response"
+      ],
+      "jlpt": "N4",
+      "category": "comms",
+      "context": "返事する = to reply.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "上司",
+      "reading": "じょうし",
+      "meanings": [
+        "boss",
+        "supervisor"
+      ],
+      "jlpt": "N3",
+      "category": "people",
+      "context": "Direct counterpart: 部下 (ぶか) = subordinate.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "同僚",
+      "reading": "どうりょう",
+      "meanings": [
+        "colleague",
+        "coworker"
+      ],
+      "jlpt": "N3",
+      "category": "people",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "顧客",
+      "reading": "こきゃく",
+      "meanings": [
+        "customer",
+        "client"
+      ],
+      "jlpt": "N2",
+      "category": "people",
+      "context": "More formal than お客さん; common in business writing.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meanings": [
+        "business trip"
+      ],
+      "jlpt": "N3",
+      "category": "events",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "残業",
+      "reading": "ざんぎょう",
+      "meanings": [
+        "overtime work"
+      ],
+      "jlpt": "N3",
+      "category": "events",
+      "context": "Lit. 'remaining + work'. 残業する = work overtime.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "休み",
+      "reading": "やすみ",
+      "meanings": [
+        "holiday",
+        "day off"
+      ],
+      "jlpt": "N5",
+      "category": "events",
+      "context": "夏休み = summer break, 冬休み = winter break, 連休 = string of holidays.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "給料",
+      "reading": "きゅうりょう",
+      "meanings": [
+        "salary",
+        "wages"
+      ],
+      "jlpt": "N3",
+      "category": "money",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "仕事を頑張る",
+      "reading": "しごと を がんばる",
+      "meanings": [
+        "work hard"
+      ],
+      "jlpt": "N5",
+      "category": "phrases",
+      "context": "頑張る is one of the most-used Japanese verbs — try hard / do one's best.",
+      "example_sentence": "今日も仕事を頑張ります。",
+      "example_reading": "きょう も しごと を がんばります。",
+      "example_meaning": "I'll work hard at my job today too."
+    },
+    {
+      "word": "お疲れ様",
+      "reading": "おつかれさま",
+      "meanings": [
+        "thanks for your hard work",
+        "good job"
+      ],
+      "jlpt": "N5",
+      "category": "phrases",
+      "context": "The most-used office phrase. Greet coworkers with お疲れ様です in passing; お疲れ様でした when leaving for the day.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "よろしくお願いします",
+      "reading": "よろしく おねがい します",
+      "meanings": [
+        "please / I look forward to working with you"
+      ],
+      "jlpt": "N5",
+      "category": "phrases",
+      "context": "Untranslatable opener/closer. Used to ask favors, end emails, after introductions, before any task. Casual: よろしく.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "deck_id": "vocab-weather",
+  "deck_name": "Weather & Nature (天気・自然)",
+  "subtitle": "Seasons · weather · mountains · sea · cherry blossoms",
+  "version": "1.0",
+  "card_count": 26,
+  "notes": "The weather small-talk vocabulary plus seasons and core nature words. Notes the homophones 雨 vs 飴 and 鼻 vs 花.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "meanings": [
+        "weather"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "Polite weather inquiry: いい天気ですね = Nice weather, isn't it?",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "晴れ",
+      "reading": "はれ",
+      "meanings": [
+        "sunny",
+        "clear weather"
+      ],
+      "jlpt": "N5",
+      "category": "weather",
+      "context": "Verb form: 晴れる = to clear up.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "曇り",
+      "reading": "くもり",
+      "meanings": [
+        "cloudy"
+      ],
+      "jlpt": "N5",
+      "category": "weather",
+      "context": "Verb: 曇る = to become cloudy.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meanings": [
+        "rain"
+      ],
+      "jlpt": "N5",
+      "category": "weather",
+      "context": "Same reading as 飴 (candy) — pitch accent distinguishes them in speech (rain = head-accent, candy = flat).",
+      "example_sentence": "明日は雨が降ります。",
+      "example_reading": "あした は あめ が ふります。",
+      "example_meaning": "It will rain tomorrow."
+    },
+    {
+      "word": "雪",
+      "reading": "ゆき",
+      "meanings": [
+        "snow"
+      ],
+      "jlpt": "N5",
+      "category": "weather",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "風",
+      "reading": "かぜ",
+      "meanings": [
+        "wind"
+      ],
+      "jlpt": "N5",
+      "category": "weather",
+      "context": "Same word/spelling as 風邪 (cold/illness) — context disambiguates.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "台風",
+      "reading": "たいふう",
+      "meanings": [
+        "typhoon"
+      ],
+      "jlpt": "N3",
+      "category": "weather",
+      "context": "The English 'typhoon' is borrowed from Japanese (or possibly Chinese 颱風 → JP).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "嵐",
+      "reading": "あらし",
+      "meanings": [
+        "storm"
+      ],
+      "jlpt": "N3",
+      "category": "weather",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "雷",
+      "reading": "かみなり",
+      "meanings": [
+        "thunder",
+        "lightning"
+      ],
+      "jlpt": "N3",
+      "category": "weather",
+      "context": "Lit. '神の音 god + sound' historically.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "霧",
+      "reading": "きり",
+      "meanings": [
+        "fog",
+        "mist"
+      ],
+      "jlpt": "N3",
+      "category": "weather",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "春",
+      "reading": "はる",
+      "meanings": [
+        "spring (season)"
+      ],
+      "jlpt": "N5",
+      "category": "seasons",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "夏",
+      "reading": "なつ",
+      "meanings": [
+        "summer"
+      ],
+      "jlpt": "N5",
+      "category": "seasons",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "秋",
+      "reading": "あき",
+      "meanings": [
+        "autumn",
+        "fall"
+      ],
+      "jlpt": "N5",
+      "category": "seasons",
+      "context": "Same reading as 飽き (boredom) — context disambiguates.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "冬",
+      "reading": "ふゆ",
+      "meanings": [
+        "winter"
+      ],
+      "jlpt": "N5",
+      "category": "seasons",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "梅雨",
+      "reading": "つゆ",
+      "meanings": [
+        "rainy season"
+      ],
+      "jlpt": "N3",
+      "category": "seasons",
+      "context": "Lit. 'plum rain' — the early-summer monsoon, roughly mid-June to mid-July.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "山",
+      "reading": "やま",
+      "meanings": [
+        "mountain"
+      ],
+      "jlpt": "N5",
+      "category": "geography",
+      "context": "Compounds use サン: 富士山 ふじさん = Mt. Fuji.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "川",
+      "reading": "かわ",
+      "meanings": [
+        "river"
+      ],
+      "jlpt": "N5",
+      "category": "geography",
+      "context": "河 is also かわ but used for larger rivers; 川 covers most everyday cases.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "海",
+      "reading": "うみ",
+      "meanings": [
+        "sea",
+        "ocean"
+      ],
+      "jlpt": "N5",
+      "category": "geography",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "湖",
+      "reading": "みずうみ",
+      "meanings": [
+        "lake"
+      ],
+      "jlpt": "N4",
+      "category": "geography",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "森",
+      "reading": "もり",
+      "meanings": [
+        "forest"
+      ],
+      "jlpt": "N4",
+      "category": "geography",
+      "context": "森林 (しんりん) is the formal compound 'forest/woodland'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "空",
+      "reading": "そら",
+      "meanings": [
+        "sky"
+      ],
+      "jlpt": "N5",
+      "category": "geography",
+      "context": "Also 'empty' as くう in compounds (空気 = air).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "星",
+      "reading": "ほし",
+      "meanings": [
+        "star"
+      ],
+      "jlpt": "N4",
+      "category": "geography",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "月",
+      "reading": "つき",
+      "meanings": [
+        "moon"
+      ],
+      "jlpt": "N5",
+      "category": "geography",
+      "context": "Same kanji as 月 (month) — つき = moon (kun), がつ/げつ = month (on).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "太陽",
+      "reading": "たいよう",
+      "meanings": [
+        "sun"
+      ],
+      "jlpt": "N3",
+      "category": "geography",
+      "context": "日 (sun) is the kanji-element word; 太陽 is the formal celestial-body word.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meanings": [
+        "flower"
+      ],
+      "jlpt": "N5",
+      "category": "nature",
+      "context": "Same reading as 鼻 (nose).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "桜",
+      "reading": "さくら",
+      "meanings": [
+        "cherry blossom"
+      ],
+      "jlpt": "N3",
+      "category": "nature",
+      "context": "The national flower; 花見 = cherry-blossom viewing.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}
