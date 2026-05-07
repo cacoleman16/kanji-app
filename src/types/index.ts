@@ -160,6 +160,13 @@ export interface Settings {
    * shown on the back (which is the answer side). Default true (visible).
    */
   showFurigana?: boolean;
+  /**
+   * Last app version the user dismissed the "What's New" modal for. When the
+   * shipped APP_VERSION is newer than this and a release-notes entry exists,
+   * the modal is shown on launch. Set on first install to APP_VERSION so
+   * fresh users don't see a "what's new" for a release they never used.
+   */
+  lastSeenVersion?: string;
 }
 
 export interface Streak {

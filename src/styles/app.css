@@ -1767,6 +1767,47 @@
   }
   .modal-btn.danger:hover { filter: brightness(1.05); }
 
+  /* ---------- What's New modal ---------- */
+  .whats-new-card {
+    max-width: 420px;
+  }
+  .whats-new-version {
+    display: inline-block;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+    font-variant-numeric: tabular-nums;
+  }
+  .whats-new-list {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .whats-new-list li {
+    position: relative;
+    padding-left: 22px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text);
+  }
+  .whats-new-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: var(--good);
+    font-weight: 700;
+  }
+
   /* ---------- Paywall ---------- */
   .paywall-hero {
     padding: 12px 0 24px;

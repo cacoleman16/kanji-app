@@ -6,6 +6,7 @@
  * continue to load unchanged.
  */
 
+import { APP_VERSION } from "@/data/version";
 import type { AppState } from "@/types";
 import { LocalStorageProvider, type StorageProvider } from "./provider";
 
@@ -24,6 +25,9 @@ export const DEFAULT_STATE: AppState = {
     theme: "dark",
     vocabDirection: "ja-en",
     onboardingComplete: false,
+    // Fresh installs start "caught up" with the running version so they
+    // don't see a What's-New modal for a release they never lived through.
+    lastSeenVersion: APP_VERSION,
   },
   streak: { current: 0, longest: 0, lastActiveDay: null },
   userDecks: [],

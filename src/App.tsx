@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 
+import { WhatsNew } from "@/components/WhatsNew";
 import { allDecks } from "@/data/allDecks";
 import { DECK_GROUPS, groupFor } from "@/data/groups";
 import { DeckDetail } from "@/screens/DeckDetail";
@@ -212,6 +213,7 @@ export function App() {
         </div>
       )}
       <main id="kanjido-main">{screen}</main>
+      <WhatsNew state={state} setState={setStateFn} />
     </div>
   );
 }
