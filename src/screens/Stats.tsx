@@ -209,7 +209,22 @@ export function Stats({ state, onBack }: StatsProps) {
         </div>
       </div>
 
+      {/* ---------- Empty state: no reviews ever ---------- */}
+      {totalReviews === 0 && (
+        <div className="empty-state" style={{ marginTop: 24 }}>
+          <div className="empty-state-mark" lang="ja">
+            始
+          </div>
+          <div className="empty-state-title">No reviews yet</div>
+          <div className="empty-state-body">
+            Once you finish a study session, your daily activity, accuracy, streak, and per-deck
+            progress will live here.
+          </div>
+        </div>
+      )}
+
       {/* ---------- Activity chart (7-day or 30-day) ---------- */}
+      {totalReviews > 0 && (
       <div className="stats-chart" style={{ marginTop: 24 }}>
         <div className="stats-chart-header">
           <div className="stats-chart-title">
@@ -272,6 +287,7 @@ export function Stats({ state, onBack }: StatsProps) {
           </div>
         )}
       </div>
+      )}
 
       {/* ---------- Card-status distribution ---------- */}
       {distribution.total > 0 && (

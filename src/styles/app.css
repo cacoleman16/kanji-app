@@ -974,6 +974,37 @@
     line-height: 1;
   }
 
+  /* ---------- Empty-state callouts ---------- */
+  .empty-state {
+    text-align: center;
+    padding: 36px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    color: var(--text-muted);
+  }
+  .empty-state-mark {
+    font-family: var(--font-jp);
+    font-size: 56px;
+    line-height: 1;
+    color: var(--accent);
+    margin-bottom: 12px;
+    opacity: 0.6;
+  }
+  .empty-state-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .empty-state-body {
+    font-size: 13px;
+    line-height: 1.55;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
   /* ---------- Stats: bar chart + breakdown ---------- */
   .stats-chart {
     background: var(--surface);

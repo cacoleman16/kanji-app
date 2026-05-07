@@ -154,6 +154,19 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
         </div>
       )}
 
+      {state.userDecks.length === 0 ? (
+        <div className="empty-state">
+          <div className="empty-state-mark" lang="ja">
+            自
+          </div>
+          <div className="empty-state-title">Your decks live here</div>
+          <div className="empty-state-body">
+            Create a deck for your textbook, your reading list, or anything you want to memorize.
+            Paste vocab from CSV / TSV / JSON, or upload an Anki <code>.apkg</code> in seconds.
+          </div>
+        </div>
+      ) : null}
+
       <div className="deck-list">
         {state.userDecks.map((d) => (
           <div
