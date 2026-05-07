@@ -18,11 +18,40 @@ import type { ImportError } from "./importParser";
 import { parseDeckImport } from "./importParser";
 import type { UserCard } from "@/types";
 
+/**
+ * Categorized failure code for the .apkg pipeline. Lets the UI render a
+ * specific, actionable hint instead of forwarding a raw exception string.
+ *
+ *  - `unzip`           — file isn't a zip (truncated, wrong extension, etc.)
+ *  - `no-collection`   — zip is intact but contains no Anki SQLite db
+ *  - `format-newer`    — db is .anki21b (zstd) — Anki ≥ 23.10 default
+ *  - `sqlite`          — db file is corrupt or sql.js failed to open it
+ *  - `empty`           — parsed OK but produced zero importable cards
+ */
+export type AnkiFailureCode =
+  | "unzip"
+  | "no-collection"
+  | "format-newer"
+  | "sqlite"
+  | "empty";
+
+export interface AnkiFailure {
+  code: AnkiFailureCode;
+  /** One-line headline for the error UI. */
+  title: string;
+  /** What the user can do to fix it, plain language. */
+  hint: string;
+  /** Original error text from the underlying library, when present. */
+  detail?: string;
+}
+
 export interface AnkiImportResult {
   cards: UserCard[];
   /** Note-type names found in the file, with their field labels. Useful for the field-mapping UI. */
   models: Array<{ id: string; name: string; fields: string[] }>;
   errors: ImportError[];
+  /** Top-level failure that prevented parsing. Null on success. */
+  failure: AnkiFailure | null;
 }
 
 /** Anki note field separator. */
@@ -164,10 +193,17 @@ export async function parseAnkiPackage(buffer: ArrayBuffer): Promise<AnkiImportR
   try {
     files = await unzipApkg(buffer);
   } catch (err) {
+    const detail = (err as Error).message;
     return {
       cards: [],
       models: [],
-      errors: [{ row: 0, message: `Could not unzip .apkg: ${(err as Error).message}` }],
+      errors: [],
+      failure: {
+        code: "unzip",
+        title: "This file isn't a valid .apkg",
+        hint: "An Anki .apkg is a zip archive. The file may have downloaded incompletely, been renamed from another format, or be corrupted. Re-download it from Anki and try again.",
+        detail,
+      },
     };
   }
   const col = pickCollection(files);
@@ -175,30 +211,41 @@ export async function parseAnkiPackage(buffer: ArrayBuffer): Promise<AnkiImportR
     return {
       cards: [],
       models: [],
-      errors: [{ row: 0, message: "No collection.anki2/anki21 inside .apkg" }],
+      errors: [],
+      failure: {
+        code: "no-collection",
+        title: "No Anki collection inside this .apkg",
+        hint: "The zip is valid but doesn't contain a collection.anki2 or collection.anki21 database. Re-export the deck from Anki: File → Export → 'Anki Deck Package (.apkg)'.",
+      },
     };
   }
   if (col.name === "collection.anki21b") {
     return {
       cards: [],
       models: [],
-      errors: [
-        {
-          row: 0,
-          message:
-            "This .apkg uses Anki's newer .anki21b (zstd-compressed) format. Re-export from Anki with 'Support older Anki versions' enabled, or export the deck as plain-text .txt.",
-        },
-      ],
+      errors: [],
+      failure: {
+        code: "format-newer",
+        title: "Newer Anki format not yet supported",
+        hint: "This .apkg uses Anki's .anki21b (zstd-compressed) format. In Anki: File → Export → enable 'Support older Anki versions' and re-export. Or export the deck as Notes in Plain Text (.txt) and paste it into the box below.",
+      },
     };
   }
   let db: SqlJsDatabase;
   try {
     db = (await openSqlite(col.bytes)) as unknown as SqlJsDatabase;
   } catch (err) {
+    const detail = (err as Error).message;
     return {
       cards: [],
       models: [],
-      errors: [{ row: 0, message: `Could not open SQLite: ${(err as Error).message}` }],
+      errors: [],
+      failure: {
+        code: "sqlite",
+        title: "Couldn't read the Anki database",
+        hint: "The collection inside this .apkg appears corrupt. Try re-exporting the deck in Anki, or export it as Notes in Plain Text (.txt) and paste it into the box below.",
+        detail,
+      },
     };
   }
   const models = readModels(db);
@@ -221,9 +268,30 @@ export async function parseAnkiPackage(buffer: ArrayBuffer): Promise<AnkiImportR
   });
 
   const parsed = parseDeckImport(JSON.stringify(records), "json");
+  // No cards came out the other side — give the user something to act on
+  // rather than a silent "0 cards" preview.
+  if (parsed.cards.length === 0) {
+    const hint =
+      notes.length === 0
+        ? "The collection opened, but it contains no notes. Make sure you exported a deck with cards in it."
+        : models.length === 0
+          ? "Notes were found, but no note-type definitions came through. Try re-exporting from Anki with 'Include scheduling information' off."
+          : "Notes were found, but none had a usable kanji/word + meaning pair. Tip: name your Anki fields 'Front' / 'Back', or 'Kanji' / 'Meaning', so the importer can auto-map them.";
+    return {
+      cards: [],
+      models,
+      errors,
+      failure: {
+        code: "empty",
+        title: "No cards could be imported",
+        hint,
+      },
+    };
+  }
   return {
     cards: parsed.cards,
     models,
     errors: [...errors, ...parsed.errors],
+    failure: null,
   };
 }

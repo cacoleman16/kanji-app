@@ -861,6 +861,68 @@
     color: var(--again);
   }
 
+  /* ---------- .apkg import error card ---------- */
+  .apkg-error-card {
+    display: flex;
+    gap: 12px;
+    padding: 14px;
+    margin: 14px 0 4px 0;
+    background: rgba(248, 113, 113, 0.08);
+    border: 1px solid rgba(248, 113, 113, 0.3);
+    border-radius: 12px;
+    align-items: flex-start;
+  }
+  .apkg-error-icon {
+    flex: 0 0 26px;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background: var(--again);
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  .apkg-error-body {
+    flex: 1;
+    min-width: 0;
+  }
+  .apkg-error-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .apkg-error-hint {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+  .apkg-error-detail {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+  .apkg-error-detail summary {
+    color: var(--text-dim);
+    cursor: pointer;
+    padding: 2px 0;
+  }
+  .apkg-error-detail code {
+    display: block;
+    margin-top: 6px;
+    padding: 8px 10px;
+    background: var(--surface-2);
+    border-radius: 6px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px;
+    color: var(--text-dim);
+    word-break: break-all;
+    white-space: pre-wrap;
+  }
+
   /* ---------- Conjugation table (grammar back-face) ---------- */
   .conj-table {
     background: var(--surface-2);

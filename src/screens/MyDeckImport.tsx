@@ -3,6 +3,7 @@ import { useMemo, useRef, useState, type ChangeEvent } from "react";
 import { Badge } from "@/components/Badge";
 import { canImportApkg, isPro, userDeckCardLimit } from "@/entitlements/entitlement";
 import type { AppState, UserCard } from "@/types";
+import type { AnkiFailure } from "@/userDecks/ankiImport";
 import { parseDeckImport, type ImportError, type ImportFormat } from "@/userDecks/importParser";
 import { setDeckCards } from "@/userDecks/userDecks";
 
@@ -34,6 +35,7 @@ interface ApkgResult {
   cards: UserCard[];
   errors: ImportError[];
   source: string;
+  failure: AnkiFailure | null;
 }
 
 export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImportProps) {
@@ -54,6 +56,8 @@ export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImpo
 
   /** The active source — Anki .apkg if loaded, else the textarea. */
   const parsed = apkg ? { cards: apkg.cards, errors: apkg.errors } : textParsed;
+  /** Top-level Anki failure (file-level error). Hide the preview section when set. */
+  const apkgFailure = apkg?.failure ?? null;
 
   const handleApkgFile = async (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -70,14 +74,41 @@ export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImpo
     setApkg(null);
     try {
       const buffer = await file.arrayBuffer();
+      if (buffer.byteLength === 0) {
+        setApkg({
+          cards: [],
+          errors: [],
+          source: file.name,
+          failure: {
+            code: "unzip",
+            title: "This file is empty",
+            hint: "The selected file has zero bytes. Make sure the export from Anki finished successfully and try again.",
+          },
+        });
+        return;
+      }
       const { parseAnkiPackage } = await import("@/userDecks/ankiImport");
       const result = await parseAnkiPackage(buffer);
-      setApkg({ cards: result.cards, errors: result.errors, source: file.name });
+      setApkg({
+        cards: result.cards,
+        errors: result.errors,
+        source: file.name,
+        failure: result.failure,
+      });
     } catch (err) {
+      // Catches anything thrown out of the dynamic import (network glitch loading
+      // sql.js / fflate, broken WASM fetch, etc.) — these aren't actually about
+      // the user's file, so frame the message around app-level recovery.
       setApkg({
         cards: [],
-        errors: [{ row: 0, message: `Failed to read .apkg: ${(err as Error).message}` }],
+        errors: [],
         source: file.name,
+        failure: {
+          code: "sqlite",
+          title: "Couldn't load the Anki importer",
+          hint: "Something went wrong loading the .apkg parser. Check your network connection and try again — or use the paste box below to import as CSV/TSV/JSON.",
+          detail: (err as Error).message,
+        },
       });
     } finally {
       setApkgLoading(false);
@@ -143,7 +174,9 @@ export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImpo
           </div>
           <div className="settings-sub">
             {apkg
-              ? `Loaded: ${apkg.source} (${apkg.cards.length} card${apkg.cards.length === 1 ? "" : "s"})`
+              ? apkg.failure
+                ? `${apkg.source} — couldn't import`
+                : `Loaded: ${apkg.source} (${apkg.cards.length} card${apkg.cards.length === 1 ? "" : "s"})`
               : "From Anki: File → Export → 'Anki Deck Package (.apkg)'"}
           </div>
         </div>
@@ -178,6 +211,27 @@ export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImpo
           </button>
         )}
       </div>
+
+      {apkgFailure && (
+        <div className="apkg-error-card" role="alert">
+          <div className="apkg-error-icon" aria-hidden>
+            !
+          </div>
+          <div className="apkg-error-body">
+            <div className="apkg-error-title">{apkgFailure.title}</div>
+            <div className="apkg-error-hint">{apkgFailure.hint}</div>
+            {apkgFailure.detail && (
+              <details className="apkg-error-detail">
+                <summary>Technical details</summary>
+                <code>{apkgFailure.detail}</code>
+              </details>
+            )}
+            <button className="link-btn" onClick={clearApkg} style={{ marginTop: 6 }}>
+              Try a different file
+            </button>
+          </div>
+        </div>
+      )}
 
       <div className="section-label" style={{ marginTop: 24 }}>
         Or paste cards directly
@@ -241,7 +295,7 @@ export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImpo
         </button>
       </div>
 
-      {parsed && (
+      {parsed && !apkgFailure && (
         <>
           <div className="section-label" style={{ marginTop: 16 }}>
             Preview ({parsed.cards.length} card{parsed.cards.length === 1 ? "" : "s"} parsed
