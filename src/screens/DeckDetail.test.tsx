@@ -150,4 +150,40 @@ describe("<DeckDetail />", () => {
     );
     expect(screen.getByText("Deck not found")).toBeTruthy();
   });
+
+  it("hides the search input on small decks (< 30 cards)", () => {
+    render(
+      <DeckDetail
+        deck={TEST_DECK}
+        state={makeState()}
+        setState={vi.fn()}
+        onBack={vi.fn()}
+        onStudy={vi.fn()}
+      />,
+    );
+    expect(screen.queryByLabelText("Search cards")).toBeNull();
+  });
+
+  it("shows the search input and filters on large decks", () => {
+    // Build a 30-card deck — one with a unique keyword we'll search for.
+    const cards = Array.from({ length: 30 }, (_, i) => makeKanjiCard(`字${i}`, `gloss${i}`));
+    cards[7] = makeKanjiCard("特別", "uniqueneedle");
+    const bigDeck: Deck = { ...TEST_DECK, cards };
+    render(
+      <DeckDetail
+        deck={bigDeck}
+        state={makeState()}
+        setState={vi.fn()}
+        onBack={vi.fn()}
+        onStudy={vi.fn()}
+      />,
+    );
+    const input = screen.getByLabelText("Search cards") as HTMLInputElement;
+    expect(input).toBeTruthy();
+    fireEvent.change(input, { target: { value: "uniqueneedle" } });
+    // Match-count chip appears.
+    expect(screen.getByText(/1 match/i)).toBeTruthy();
+    // The needle's kanji is in the grid.
+    expect(screen.getAllByText("特別").length).toBeGreaterThanOrEqual(1);
+  });
 });

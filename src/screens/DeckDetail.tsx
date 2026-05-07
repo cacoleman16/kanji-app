@@ -20,6 +20,7 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
   const [peekIdx, setPeekIdx] = useState<number | null>(null);
   const [jlptFilter, setJlptFilter] = useState<Level>("all");
   const [confirmReset, setConfirmReset] = useState(false);
+  const [search, setSearch] = useState("");
 
   const jlptLevels = useMemo<Level[]>(() => {
     if (!deck || (deck.kind !== "vocab" && deck.kind !== "grammar")) return [];
@@ -33,10 +34,25 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
 
   const displayCards = useMemo<AnyCard[]>(() => {
     if (!deck) return [];
-    if (jlptFilter === "all") return deck.cards;
-    if (deck.kind !== "vocab" && deck.kind !== "grammar") return deck.cards;
-    return deck.cards.filter((c) => (c as VocabCard).jlpt === jlptFilter);
-  }, [deck, jlptFilter]);
+    let pool: AnyCard[] = deck.cards;
+    if (jlptFilter !== "all" && (deck.kind === "vocab" || deck.kind === "grammar")) {
+      pool = pool.filter((c) => (c as VocabCard).jlpt === jlptFilter);
+    }
+    const q = search.trim().toLowerCase();
+    if (q) {
+      pool = pool.filter((c) => {
+        // Match against the front (kanji or word), keyword, and any meaning.
+        if (c.kanji.toLowerCase().includes(q)) return true;
+        if (c.keyword?.toLowerCase().includes(q)) return true;
+        if (c.meanings.some((m) => m.toLowerCase().includes(q))) return true;
+        // Vocab also has a reading worth searching.
+        const v = c as VocabCard;
+        if (v.reading?.toLowerCase().includes(q)) return true;
+        return false;
+      });
+    }
+    return pool;
+  }, [deck, jlptFilter, search]);
 
   if (!deck) {
     return (
@@ -158,6 +174,36 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
       )}
 
       <div className="section-label">All cards</div>
+      {deck.cards.length >= 30 && (
+        <div className="deck-search-row">
+          <input
+            type="search"
+            className="deck-search-input"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder={`Search ${deck.cards.length} cards…`}
+            aria-label="Search cards"
+            spellCheck={false}
+            autoCapitalize="none"
+            autoCorrect="off"
+          />
+          {search && (
+            <button
+              type="button"
+              className="deck-search-clear"
+              onClick={() => setSearch("")}
+              aria-label="Clear search"
+            >
+              ✕
+            </button>
+          )}
+          {search && (
+            <span className="deck-search-count">
+              {displayCards.length} match{displayCards.length === 1 ? "" : "es"}
+            </span>
+          )}
+        </div>
+      )}
       {(deck.kind === "vocab" || deck.kind === "grammar") && jlptLevels.length > 1 && (
         <div className="filter-row">
           {jlptLevels.map((lvl) => (
