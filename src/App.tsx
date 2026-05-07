@@ -156,7 +156,6 @@ export function App() {
       case "paywall":
         return (
           <Paywall
-            state={state}
             setState={setStateFn}
             onBack={() => go({ name: "home" })}
             reason={route.reason}

@@ -5,7 +5,6 @@ import { getSubscriptionProvider } from "@/entitlements/provider";
 import type { AppState, ProPlan } from "@/types";
 
 interface PaywallProps {
-  state: AppState;
   setState: (updater: (s: AppState) => AppState) => void;
   onBack: () => void;
   /** Optional context string explaining what triggered the paywall. */
