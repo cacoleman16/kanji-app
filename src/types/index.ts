@@ -140,7 +140,14 @@ export interface Settings {
   dailyGoal: number;
   newPerDay: number;
   cardBackFontSize: "small" | "medium" | "large";
-  theme: "dark" | "light";
+  /**
+   * "dark" / "light" pin the app to that mode regardless of OS settings.
+   * "system" follows `prefers-color-scheme` and updates live as the OS
+   * appearance changes (iOS Settings → Display & Brightness, or auto-
+   * switching at sunset). New users default to "system" — Apple HIG
+   * convention.
+   */
+  theme: "dark" | "light" | "system";
   vocabDirection: "ja-en" | "en-ja";
   /** True once the user has dismissed the first-run onboarding flow. */
   onboardingComplete: boolean;

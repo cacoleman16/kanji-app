@@ -45,12 +45,36 @@ export function App() {
 
   const go = useCallback((r: Route) => setRoute(r), []);
 
-  const theme = state.settings.theme || "dark";
+  const themePref = state.settings.theme || "dark";
+  // For "system" mode we resolve the effective theme by listening to
+  // `prefers-color-scheme` and re-render whenever it flips. For the explicit
+  // dark/light values it just collapses to the preference.
+  const [systemPrefersDark, setSystemPrefersDark] = useState(() => {
+    if (typeof window === "undefined" || !window.matchMedia) return true;
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  });
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
+    if (themePref !== "system") return;
+    if (typeof window === "undefined" || !window.matchMedia) return;
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    const onChange = (e: MediaQueryListEvent) => setSystemPrefersDark(e.matches);
+    // Safari < 14 only supports the older addListener API.
+    if (mq.addEventListener) mq.addEventListener("change", onChange);
+    else mq.addListener(onChange);
+    // Sync once on mount (in case OS flipped while the app was unmounted).
+    setSystemPrefersDark(mq.matches);
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener("change", onChange);
+      else mq.removeListener(onChange);
+    };
+  }, [themePref]);
+  const effectiveTheme: "dark" | "light" =
+    themePref === "system" ? (systemPrefersDark ? "dark" : "light") : themePref;
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", effectiveTheme);
     // Sync the iOS native status-bar text color with the theme.
-    void import("@/native/bridge").then((m) => m.setStatusBarStyle(theme));
-  }, [theme]);
+    void import("@/native/bridge").then((m) => m.setStatusBarStyle(effectiveTheme));
+  }, [effectiveTheme]);
 
   const screen = useMemo(() => {
     const decks = allDecks(state);

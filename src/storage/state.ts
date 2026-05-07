@@ -22,7 +22,9 @@ export const DEFAULT_STATE: AppState = {
     dailyGoal: 30,
     newPerDay: 10,
     cardBackFontSize: "medium",
-    theme: "dark",
+    // "system" follows OS appearance and updates live; users who set an
+    // explicit dark/light value keep it (settings merge favors stored values).
+    theme: "system",
     vocabDirection: "ja-en",
     onboardingComplete: false,
     // Fresh installs start "caught up" with the running version so they

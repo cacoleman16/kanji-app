@@ -447,39 +447,23 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       <div className="settings-row">
         <div>
           <div className="settings-label">Theme</div>
-          <div className="settings-sub">Switch between dark and light mode</div>
+          <div className="settings-sub">
+            {theme === "system"
+              ? "Follows your device's appearance setting"
+              : "Pinned regardless of device settings"}
+          </div>
         </div>
-        <div style={{ display: "flex", gap: 6 }}>
-          <button
-            onClick={() => update("theme", "dark")}
-            style={{
-              padding: "8px 12px",
-              borderRadius: "8px",
-              border: theme === "dark" ? "2px solid var(--accent)" : "1px solid var(--border)",
-              background: theme === "dark" ? "var(--surface-2)" : "transparent",
-              color: "var(--text)",
-              cursor: "pointer",
-              fontSize: "13px",
-              fontWeight: theme === "dark" ? 600 : 400,
-            }}
-          >
-            Dark
-          </button>
-          <button
-            onClick={() => update("theme", "light")}
-            style={{
-              padding: "8px 12px",
-              borderRadius: "8px",
-              border: theme === "light" ? "2px solid var(--accent)" : "1px solid var(--border)",
-              background: theme === "light" ? "var(--surface-2)" : "transparent",
-              color: "var(--text)",
-              cursor: "pointer",
-              fontSize: "13px",
-              fontWeight: theme === "light" ? 600 : 400,
-            }}
-          >
-            Light
-          </button>
+        <div className="theme-toggle-group" role="group" aria-label="Theme">
+          {(["system", "dark", "light"] as const).map((opt) => (
+            <button
+              key={opt}
+              onClick={() => update("theme", opt)}
+              className={`theme-toggle-btn ${theme === opt ? "active" : ""}`}
+              aria-pressed={theme === opt}
+            >
+              {opt === "system" ? "Auto" : opt === "dark" ? "Dark" : "Light"}
+            </button>
+          ))}
         </div>
       </div>
 

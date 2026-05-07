@@ -65,6 +65,21 @@ describe("<Settings />", () => {
     expect(updater(makeState()).settings.theme).toBe("light");
   });
 
+  it("offers a system 'Auto' theme option that follows OS appearance", () => {
+    const setState = vi.fn();
+    render(
+      <Settings
+        state={makeState({ settings: { ...DEFAULT_STATE.settings, theme: "dark" } })}
+        setState={setState}
+        onBack={vi.fn()}
+        go={vi.fn()}
+      />,
+    );
+    fireEvent.click(screen.getByText("Auto"));
+    const updater = setState.mock.calls[0][0] as (s: AppState) => AppState;
+    expect(updater(makeState()).settings.theme).toBe("system");
+  });
+
   it("opens a confirmation modal when the danger Delete button is clicked", () => {
     render(
       <Settings
