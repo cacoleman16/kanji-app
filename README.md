@@ -94,8 +94,32 @@ and is covered by 17 unit tests for CSV / TSV / JSON edge cases.
 ## Testing
 
 ```bash
-npm test           # 43 unit tests across SM-2, queue, and storage migrations
+npm test           # 120 unit tests across SM-2, queue, storage migrations,
+                   # entitlement gates, import parser, Modal, ErrorBoundary,
+                   # and the auto-backup orchestration.
 ```
+
+## Performance / bundle layout
+
+The web build is split into independent chunks so the browser can fetch
+them in parallel (HTTP/2 multiplexing) and cache them separately. Sizes
+on the latest build:
+
+| Chunk | Raw | Gzipped | What's in it |
+|---|---|---|---|
+| `vendor-react` | 142 KB | 45 KB | React + ReactDOM (caches across deploys; rarely changes) |
+| `index` | 113 KB | 31 KB | App shell — all UI, screens, hooks, types |
+| CSS | 30 KB | 6 KB | Stylesheet |
+| `decks-kana` | 21 KB | 3 KB | Hiragana + Katakana decks |
+| `decks-grammar` | 21 KB | 9 KB | Particles + patterns + verb conjugations |
+| `decks-vocab` | 66 KB | 18 KB | All 11 themed vocab decks |
+| `decks-kanji` | 2.1 MB | 586 KB | JLPT N5–N1, Jōyō by grade, Top 100/500/1000 |
+| **`ankiImport` + sql.js** | 75 KB | 28 KB | Lazy-loaded only when `.apkg` upload opens |
+| `sql-wasm.wasm` | 660 KB | — | sql.js binary, lazy + service-worker-precached |
+
+First-paint critical path: `vendor-react + index + CSS = ~82 KB gzipped`.
+The kanji-decks chunk is heavy but loads in parallel and is precached by
+the PWA service worker after first load — subsequent visits are instant.
 
 The schema-v2 regression test in `src/storage/state.test.ts` ensures existing
 users' localStorage progress (`kanji-app` key) loads identically into the new

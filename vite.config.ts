@@ -50,16 +50,33 @@ export default defineConfig({
     sourcemap: false,
     rollupOptions: {
       output: {
-        // Split deck JSONs into their own chunk so first-paint of the React shell
-        // doesn't have to wait on ~1.5 MB of card data.
+        /**
+         * Split deck JSONs into per-category chunks so:
+         *  - first-paint of the React shell isn't blocked on ~2 MB of card data
+         *  - parallel HTTP/2 fetching loads the smaller chunks (vocab, grammar,
+         *    kana) faster than waiting on one giant chunk
+         *  - users on slow connections can interact with Home (kana + JLPT N5
+         *    are free) before the heavier kanji-default chunk lands
+         */
         manualChunks(id) {
-          if (id.includes("/agent-files/")) return "decks";
+          if (id.includes("/agent-files/")) {
+            if (id.includes("/kana_")) return "decks-kana";
+            if (id.includes("/vocab_grammar_")) return "decks-grammar";
+            if (id.includes("/vocab_")) return "decks-vocab";
+            // Default: the heavy kanji decks (JLPT, Jōyō, Top frequency).
+            return "decks-kanji";
+          }
+          // Pull react / react-dom into a separate vendor chunk so it caches
+          // independently of app code (changes far less frequently).
+          if (id.includes("node_modules/react/") || id.includes("node_modules/react-dom/")) {
+            return "vendor-react";
+          }
           return undefined;
         },
       },
     },
-    // Decks chunk is intentionally large (~1 MB precompressed). Silence the
-    // bundle-size warning so it doesn't drown signal in the build output.
-    chunkSizeWarningLimit: 1500,
+    // Decks chunks are intentionally large (~2 MB combined precompressed).
+    // Suppress the bundle-size warning so it doesn't drown out actual signal.
+    chunkSizeWarningLimit: 2400,
   },
 });
