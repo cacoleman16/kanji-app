@@ -34,11 +34,6 @@
           "kanji": "幾日",
           "kana": "いくにち",
           "meaning": "(for) how many days"
-        },
-        {
-          "kanji": "期日",
-          "kana": "きじつ",
-          "meaning": "fixed date"
         }
       ],
       "keyword": "Day",
@@ -75,11 +70,6 @@
           "kanji": "一位",
           "kana": "いちい",
           "meaning": "first place"
-        },
-        {
-          "kanji": "一員",
-          "kana": "いちいん",
-          "meaning": "one person"
         }
       ],
       "keyword": "One",
@@ -113,11 +103,6 @@
           "kanji": "異国",
           "kana": "いこく",
           "meaning": "foreign country"
-        },
-        {
-          "kanji": "一国",
-          "kana": "いっこく",
-          "meaning": "one country"
         }
       ],
       "keyword": "Country",
@@ -159,11 +144,6 @@
           "kanji": "会う",
           "kana": "あう",
           "meaning": "to meet"
-        },
-        {
-          "kanji": "会員",
-          "kana": "かいいん",
-          "meaning": "member"
         }
       ],
       "keyword": "Meeting",
@@ -200,11 +180,6 @@
           "kanji": "悪人",
           "kana": "あくにん",
           "meaning": "bad person"
-        },
-        {
-          "kanji": "偉人",
-          "kana": "いじん",
-          "meaning": "great person"
         }
       ],
       "keyword": "Person",
@@ -239,11 +214,6 @@
           "kanji": "往年",
           "kana": "おうねん",
           "meaning": "years gone by"
-        },
-        {
-          "kanji": "何年",
-          "kana": "なんねん",
-          "meaning": "how many years"
         }
       ],
       "keyword": "Year",
@@ -281,11 +251,6 @@
           "kanji": "医大",
           "kana": "いだい",
           "meaning": "medical university"
-        },
-        {
-          "kanji": "一大",
-          "kana": "いちだい",
-          "meaning": "one large ..."
         }
       ],
       "keyword": "Large",
@@ -322,11 +287,6 @@
           "kanji": "十億",
           "kana": "じゅうおく",
           "meaning": "1,000,000,000"
-        },
-        {
-          "kanji": "十九",
-          "kana": "じゅうきゅう",
-          "meaning": "nineteen"
         }
       ],
       "keyword": "Ten",
@@ -364,11 +324,6 @@
           "kanji": "第二",
           "kana": "だいに",
           "meaning": "second"
-        },
-        {
-          "kanji": "二つ",
-          "kana": "ふたつ",
-          "meaning": "two"
         }
       ],
       "keyword": "Two",
@@ -399,11 +354,6 @@
         "もと"
       ],
       "examples": [
-        {
-          "kanji": "本の",
-          "kana": "ほんの",
-          "meaning": "mere"
-        },
         {
           "kanji": "一本",
           "kana": "いっぽん",
@@ -452,11 +402,6 @@
           "kanji": "海中",
           "kana": "かいちゅう",
           "meaning": "in the sea"
-        },
-        {
-          "kanji": "寒中",
-          "kana": "かんちゅう",
-          "meaning": "mid-winter"
         }
       ],
       "keyword": "In",
@@ -494,11 +439,6 @@
           "kanji": "院長",
           "kana": "いんちょう",
           "meaning": "director (of a hospital, institution, academy, etc.)"
-        },
-        {
-          "kanji": "駅長",
-          "kana": "えきちょう",
-          "meaning": "station master"
         }
       ],
       "keyword": "Long",
@@ -543,11 +483,6 @@
           "kanji": "家出",
           "kana": "いえで",
           "meaning": "running away from home"
-        },
-        {
-          "kanji": "外出",
-          "kana": "がいしゅつ",
-          "meaning": "going out"
         }
       ],
       "keyword": "Exit",
@@ -584,11 +519,6 @@
           "kanji": "三つ",
           "kana": "みっつ",
           "meaning": "three"
-        },
-        {
-          "kanji": "三回",
-          "kana": "さんかい",
-          "meaning": "three times"
         }
       ],
       "keyword": "Three",
@@ -624,11 +554,6 @@
           "kanji": "合同",
           "kana": "ごうどう",
           "meaning": "combination"
-        },
-        {
-          "kanji": "混同",
-          "kana": "こんどう",
-          "meaning": "confusion"
         }
       ],
       "keyword": "Same",
@@ -657,18 +582,13 @@
       "examples": [
         {
           "kanji": "何時",
-          "kana": "いつ",
-          "meaning": "when"
+          "kana": "なんじ",
+          "meaning": "what time"
         },
         {
           "kanji": "今時",
           "kana": "いまどき",
           "meaning": "these days"
-        },
-        {
-          "kanji": "三時",
-          "kana": "さんじ",
-          "meaning": "3 o'clock"
         }
       ],
       "keyword": "Time",
@@ -705,11 +625,6 @@
           "kanji": "軍政",
           "kana": "ぐんせい",
           "meaning": "military administration"
-        },
-        {
-          "kanji": "憲政",
-          "kana": "けんせい",
-          "meaning": "constitutional government"
         }
       ],
       "keyword": "Politics",
@@ -751,11 +666,6 @@
           "kanji": "何事",
           "kana": "なにごと",
           "meaning": "what"
-        },
-        {
-          "kanji": "家事",
-          "kana": "かじ",
-          "meaning": "housework"
         }
       ],
       "keyword": "Matter",
@@ -792,11 +702,6 @@
           "kanji": "自ら",
           "kana": "みずから",
           "meaning": "oneself"
-        },
-        {
-          "kanji": "自営",
-          "kana": "じえい",
-          "meaning": "running one's own business"
         }
       ],
       "keyword": "Oneself",
@@ -846,11 +751,6 @@
           "kanji": "運行",
           "kana": "うんこう",
           "meaning": "operation (of a bus or train service)"
-        },
-        {
-          "kanji": "横行",
-          "kana": "おうこう",
-          "meaning": "being rampant"
         }
       ],
       "keyword": "Going",
@@ -888,11 +788,6 @@
           "kanji": "貴社",
           "kana": "きしゃ",
           "meaning": "your company"
-        },
-        {
-          "kanji": "結社",
-          "kana": "けっしゃ",
-          "meaning": "association"
         }
       ],
       "keyword": "Company",
@@ -934,11 +829,6 @@
           "kanji": "一見",
           "kana": "いっけん",
           "meaning": "look"
-        },
-        {
-          "kanji": "下見",
-          "kana": "したみ",
-          "meaning": "preliminary inspection"
         }
       ],
       "keyword": "See",
@@ -974,11 +864,6 @@
           "kanji": "一月",
           "kana": "ひとつき",
           "meaning": "one month"
-        },
-        {
-          "kanji": "ヶ月",
-          "kana": "かげつ",
-          "meaning": "counter for months"
         }
       ],
       "keyword": "Month",
@@ -1030,11 +915,6 @@
           "kanji": "塩分",
           "kana": "えんぶん",
           "meaning": "salt"
-        },
-        {
-          "kanji": "応分",
-          "kana": "おうぶん",
-          "meaning": "according to one's abilities"
         }
       ],
       "keyword": "Part",
@@ -1068,11 +948,6 @@
           "kanji": "会議",
           "kana": "かいぎ",
           "meaning": "meeting"
-        },
-        {
-          "kanji": "閣議",
-          "kana": "かくぎ",
-          "meaning": "cabinet meeting"
         }
       ],
       "keyword": "Deliberation",
@@ -1113,11 +988,6 @@
           "kanji": "午後",
           "kana": "ごご",
           "meaning": "afternoon"
-        },
-        {
-          "kanji": "後ろ",
-          "kana": "うしろ",
-          "meaning": "back"
         }
       ],
       "keyword": "Behind",
@@ -1153,11 +1023,6 @@
           "kanji": "以前",
           "kana": "いぜん",
           "meaning": "before"
-        },
-        {
-          "kanji": "駅前",
-          "kana": "えきまえ",
-          "meaning": "in front of a station"
         }
       ],
       "keyword": "In Front",
@@ -1193,11 +1058,6 @@
           "kanji": "区民",
           "kana": "くみん",
           "meaning": "ward residents"
-        },
-        {
-          "kanji": "県民",
-          "kana": "けんみん",
-          "meaning": "resident of a prefecture"
         }
       ],
       "keyword": "People",
@@ -1251,11 +1111,6 @@
           "kanji": "往生",
           "kana": "おうじょう",
           "meaning": "passing on to the next life"
-        },
-        {
-          "kanji": "回生",
-          "kana": "かいせい",
-          "meaning": "resurrection"
         }
       ],
       "keyword": "Life",
@@ -1298,11 +1153,6 @@
           "kanji": "一連",
           "kana": "いちれん",
           "meaning": "series"
-        },
-        {
-          "kanji": "関連",
-          "kana": "かんれん",
-          "meaning": "relation"
         }
       ],
       "keyword": "Take Along",
@@ -1337,11 +1187,6 @@
           "kanji": "五感",
           "kana": "ごかん",
           "meaning": "the five senses"
-        },
-        {
-          "kanji": "五体",
-          "kana": "ごたい",
-          "meaning": "the whole body"
         }
       ],
       "keyword": "Five",
@@ -1377,11 +1222,6 @@
         "はな.つ"
       ],
       "examples": [
-        {
-          "kanji": "発条",
-          "kana": "ばね",
-          "meaning": "spring (device)"
-        },
         {
           "kanji": "一発",
           "kana": "いっぱつ",
@@ -1428,11 +1268,6 @@
           "kanji": "間近",
           "kana": "まぢか",
           "meaning": "near"
-        },
-        {
-          "kanji": "間口",
-          "kana": "まぐち",
-          "meaning": "frontage"
         }
       ],
       "keyword": "Interval",
@@ -1478,11 +1313,6 @@
           "kanji": "絶対",
           "kana": "ぜったい",
           "meaning": "absolutely"
-        },
-        {
-          "kanji": "相対",
-          "kana": "あいたい",
-          "meaning": "involving only the parties concerned"
         }
       ],
       "keyword": "Vis-a-vis",
@@ -1533,11 +1363,6 @@
           "kanji": "右上",
           "kana": "みぎうえ",
           "meaning": "upper right"
-        },
-        {
-          "kanji": "炎上",
-          "kana": "えんじょう",
-          "meaning": "going up in flames"
         }
       ],
       "keyword": "Above",
@@ -1578,11 +1403,6 @@
           "kanji": "下部",
           "kana": "かぶ",
           "meaning": "lower part"
-        },
-        {
-          "kanji": "外部",
-          "kana": "がいぶ",
-          "meaning": "outside (e.g. of a building)"
         }
       ],
       "keyword": "Section",
@@ -1616,11 +1436,6 @@
           "kanji": "極東",
           "kana": "きょくとう",
           "meaning": "Far East"
-        },
-        {
-          "kanji": "広東",
-          "kana": "カントン",
-          "meaning": "Guangdong (China)"
         }
       ],
       "keyword": "East",
@@ -1655,11 +1470,6 @@
           "kanji": "医者",
           "kana": "いしゃ",
           "meaning": "doctor"
-        },
-        {
-          "kanji": "王者",
-          "kana": "おうじゃ",
-          "meaning": "king"
         }
       ],
       "keyword": "Someone",
@@ -1696,11 +1506,6 @@
           "kanji": "挙党",
           "kana": "きょとう",
           "meaning": "whole party"
-        },
-        {
-          "kanji": "結党",
-          "kana": "けっとう",
-          "meaning": "formation of a (political) party"
         }
       ],
       "keyword": "Party",
@@ -1734,11 +1539,6 @@
           "kanji": "下地",
           "kana": "したじ",
           "meaning": "groundwork"
-        },
-        {
-          "kanji": "各地",
-          "kana": "かくち",
-          "meaning": "each place"
         }
       ],
       "keyword": "Ground",
@@ -1785,11 +1585,6 @@
           "kanji": "会合",
           "kana": "かいごう",
           "meaning": "meeting"
-        },
-        {
-          "kanji": "糾合",
-          "kana": "きゅうごう",
-          "meaning": "rally"
         }
       ],
       "keyword": "Fit",
@@ -1825,11 +1620,6 @@
           "kanji": "市会",
           "kana": "しかい",
           "meaning": "city council"
-        },
-        {
-          "kanji": "市外",
-          "kana": "しがい",
-          "meaning": "outside the city"
         }
       ],
       "keyword": "Market",
@@ -1867,11 +1657,6 @@
           "kanji": "営業",
           "kana": "えいぎょう",
           "meaning": "business"
-        },
-        {
-          "kanji": "家業",
-          "kana": "かぎょう",
-          "meaning": "family business"
         }
       ],
       "keyword": "Business",
@@ -1911,11 +1696,6 @@
           "kanji": "以内",
           "kana": "いない",
           "meaning": "within"
-        },
-        {
-          "kanji": "域内",
-          "kana": "いきない",
-          "meaning": "inside the area"
         }
       ],
       "keyword": "Inside",
@@ -1958,11 +1738,6 @@
           "kanji": "厚相",
           "kana": "こうしょう",
           "meaning": "Welfare Minister"
-        },
-        {
-          "kanji": "宰相",
-          "kana": "さいしょう",
-          "meaning": "prime minister"
         }
       ],
       "keyword": "Inter-",
@@ -1992,19 +1767,14 @@
       ],
       "examples": [
         {
-          "kanji": "此方",
-          "kana": "こちら",
-          "meaning": "this way"
-        },
-        {
-          "kanji": "其方",
-          "kana": "そちら",
-          "meaning": "that way"
-        },
-        {
           "kanji": "一方",
           "kana": "いっぽう",
           "meaning": "one (esp. of two)"
+        },
+        {
+          "kanji": "右方",
+          "kana": "うほう",
+          "meaning": "right side"
         }
       ],
       "keyword": "Direction",
@@ -2041,11 +1811,6 @@
           "kanji": "四角",
           "kana": "しかく",
           "meaning": "quadrilateral"
-        },
-        {
-          "kanji": "四季",
-          "kana": "しき",
-          "meaning": "the four seasons"
         }
       ],
       "keyword": "Four",
@@ -2085,11 +1850,6 @@
           "kanji": "一定",
           "kana": "いってい",
           "meaning": "to fix"
-        },
-        {
-          "kanji": "仮定",
-          "kana": "かてい",
-          "meaning": "assumption"
         }
       ],
       "keyword": "Determine",
@@ -2124,11 +1884,6 @@
           "kanji": "今に",
           "kana": "いまに",
           "meaning": "before long"
-        },
-        {
-          "kanji": "今や",
-          "kana": "いまや",
-          "meaning": "now (esp. in contrast to the past)"
         }
       ],
       "keyword": "Now",
@@ -2175,11 +1930,6 @@
           "kanji": "何回",
           "kana": "なんかい",
           "meaning": "how many times"
-        },
-        {
-          "kanji": "回し",
-          "kana": "まわし",
-          "meaning": "mawashi"
         }
       ],
       "keyword": "-times",
@@ -2216,11 +1966,6 @@
           "kanji": "一新",
           "kana": "いっしん",
           "meaning": "complete change"
-        },
-        {
-          "kanji": "改新",
-          "kana": "かいしん",
-          "meaning": "reformation"
         }
       ],
       "keyword": "New",
@@ -2256,11 +2001,6 @@
           "kanji": "会場",
           "kana": "かいじょう",
           "meaning": "assembly hall"
-        },
-        {
-          "kanji": "開場",
-          "kana": "かいじょう",
-          "meaning": "opening (the doors of a venue)"
         }
       ],
       "keyword": "Location",
@@ -2298,11 +2038,6 @@
           "kanji": "黄金",
           "kana": "おうごん",
           "meaning": "gold (Au)"
-        },
-        {
-          "kanji": "換金",
-          "kana": "かんきん",
-          "meaning": "realization (of goods into money)"
         }
       ],
       "keyword": "Gold",
@@ -2337,11 +2072,6 @@
           "kanji": "一員",
           "kana": "いちいん",
           "meaning": "one person"
-        },
-        {
-          "kanji": "員数",
-          "kana": "いんずう",
-          "meaning": "(total) number (of people or things)"
         }
       ],
       "keyword": "Employee",
@@ -2377,11 +2107,6 @@
           "kanji": "九九",
           "kana": "くく",
           "meaning": "multiplication table"
-        },
-        {
-          "kanji": "九州",
-          "kana": "きゅうしゅう",
-          "meaning": "Kyūshū (southernmost of the four main islands of Japan)"
         }
       ],
       "keyword": "Nine",
@@ -2422,11 +2147,6 @@
           "kanji": "介入",
           "kana": "かいにゅう",
           "meaning": "intervention"
-        },
-        {
-          "kanji": "記入",
-          "kana": "きにゅう",
-          "meaning": "entry (in a form, register, diary, etc.)"
         }
       ],
       "keyword": "Enter",
@@ -2463,11 +2183,6 @@
           "kanji": "互選",
           "kana": "ごせん",
           "meaning": "election by mutual vote"
-        },
-        {
-          "kanji": "公選",
-          "kana": "こうせん",
-          "meaning": "public election"
         }
       ],
       "keyword": "Elect",
@@ -2515,11 +2230,6 @@
           "kanji": "確立",
           "kana": "かくりつ",
           "meaning": "establishment"
-        },
-        {
-          "kanji": "起立",
-          "kana": "きりつ",
-          "meaning": "standing up"
         }
       ],
       "keyword": "Stand Up",
@@ -2560,11 +2270,6 @@
           "kanji": "開演",
           "kana": "かいえん",
           "meaning": "curtain raising"
-        },
-        {
-          "kanji": "開花",
-          "kana": "かいか",
-          "meaning": "flowering"
         }
       ],
       "keyword": "Open",
@@ -2602,11 +2307,6 @@
           "kanji": "一手",
           "kana": "いって",
           "meaning": "one move (in go, shogi, etc.)"
-        },
-        {
-          "kanji": "右手",
-          "kana": "みぎて",
-          "meaning": "right hand"
         }
       ],
       "keyword": "Hand",
@@ -2645,11 +2345,6 @@
           "kanji": "玄米",
           "kana": "げんまい",
           "meaning": "unpolished rice"
-        },
-        {
-          "kanji": "新米",
-          "kana": "しんまい",
-          "meaning": "new rice"
         }
       ],
       "keyword": "Rice",
@@ -2690,11 +2385,6 @@
           "kanji": "圧力",
           "kana": "あつりょく",
           "meaning": "pressure"
-        },
-        {
-          "kanji": "引力",
-          "kana": "いんりょく",
-          "meaning": "attraction (e.g. magnetic, gravitation)"
         }
       ],
       "keyword": "Power",
@@ -2730,11 +2420,6 @@
           "kanji": "化学",
           "kana": "かがく",
           "meaning": "chemistry"
-        },
-        {
-          "kanji": "科学",
-          "kana": "かがく",
-          "meaning": "science"
         }
       ],
       "keyword": "Study",
@@ -2772,11 +2457,6 @@
           "kanji": "学問",
           "kana": "がくもん",
           "meaning": "study"
-        },
-        {
-          "kanji": "喚問",
-          "kana": "かんもん",
-          "meaning": "summons"
         }
       ],
       "keyword": "Question",
@@ -2816,11 +2496,6 @@
           "kanji": "高い",
           "kana": "たかい",
           "meaning": "high"
-        },
-        {
-          "kanji": "高さ",
-          "kana": "たかさ",
-          "meaning": "height"
         }
       ],
       "keyword": "Tall",
@@ -2873,11 +2548,6 @@
           "kanji": "永代",
           "kana": "えいたい",
           "meaning": "permanence"
-        },
-        {
-          "kanji": "近代",
-          "kana": "きんだい",
-          "meaning": "present day"
         }
       ],
       "keyword": "Substitute",
@@ -2923,11 +2593,6 @@
           "kanji": "解明",
           "kana": "かいめい",
           "meaning": "elucidation"
-        },
-        {
-          "kanji": "究明",
-          "kana": "きゅうめい",
-          "meaning": "investigation (esp. in academic and scientific contexts)"
         }
       ],
       "keyword": "Bright",
@@ -2967,11 +2632,6 @@
           "kanji": "果実",
           "kana": "かじつ",
           "meaning": "fruit"
-        },
-        {
-          "kanji": "確実",
-          "kana": "かくじつ",
-          "meaning": "certain"
         }
       ],
       "keyword": "Reality",
@@ -3011,11 +2671,6 @@
           "kanji": "円安",
           "kana": "えんやす",
           "meaning": "depreciation of the yen"
-        },
-        {
-          "kanji": "円弧",
-          "kana": "えんこ",
-          "meaning": "arc"
         }
       ],
       "keyword": "Circle",
@@ -3057,11 +2712,6 @@
           "kanji": "関心",
           "kana": "かんしん",
           "meaning": "concern"
-        },
-        {
-          "kanji": "関西",
-          "kana": "かんさい",
-          "meaning": "Kansai (region comprising Kyoto, Osaka, Kobe and surrounding prefectures)"
         }
       ],
       "keyword": "Connection",
@@ -3101,11 +2751,6 @@
           "kanji": "解決",
           "kana": "かいけつ",
           "meaning": "settlement"
-        },
-        {
-          "kanji": "議決",
-          "kana": "ぎけつ",
-          "meaning": "resolution"
         }
       ],
       "keyword": "Decide",
@@ -3137,11 +2782,6 @@
         "ね"
       ],
       "examples": [
-        {
-          "kanji": "硝子",
-          "kana": "ガラス",
-          "meaning": "glass"
-        },
         {
           "kanji": "椅子",
           "kana": "いす",
@@ -3190,11 +2830,6 @@
           "kanji": "移動",
           "kana": "いどう",
           "meaning": "movement"
-        },
-        {
-          "kanji": "運動",
-          "kana": "うんどう",
-          "meaning": "exercise"
         }
       ],
       "keyword": "Move",
@@ -3231,11 +2866,6 @@
           "kanji": "京阪",
           "kana": "けいはん",
           "meaning": "Kyoto and Osaka"
-        },
-        {
-          "kanji": "上京",
-          "kana": "じょうきょう",
-          "meaning": "going (up) to the capital"
         }
       ],
       "keyword": "Capital",
@@ -3274,11 +2904,6 @@
           "kanji": "完全",
           "kana": "かんぜん",
           "meaning": "perfect"
-        },
-        {
-          "kanji": "健全",
-          "kana": "けんぜん",
-          "meaning": "healthy"
         }
       ],
       "keyword": "Whole",
@@ -3321,11 +2946,6 @@
           "kanji": "羽目",
           "kana": "はめ",
           "meaning": "panel"
-        },
-        {
-          "kanji": "演目",
-          "kana": "えんもく",
-          "meaning": "program (musical, concert, theatrical, etc.)"
         }
       ],
       "keyword": "Eye",
@@ -3366,11 +2986,6 @@
           "kanji": "表す",
           "kana": "あらわす",
           "meaning": "to represent"
-        },
-        {
-          "kanji": "公表",
-          "kana": "こうひょう",
-          "meaning": "official announcement"
         }
       ],
       "keyword": "Surface",
@@ -3410,11 +3025,6 @@
           "kanji": "開戦",
           "kana": "かいせん",
           "meaning": "outbreak of war"
-        },
-        {
-          "kanji": "観戦",
-          "kana": "かんせん",
-          "meaning": "watching a (sports) game"
         }
       ],
       "keyword": "War",
@@ -3458,11 +3068,6 @@
           "kanji": "経る",
           "kana": "へる",
           "meaning": "to pass"
-        },
-        {
-          "kanji": "経緯",
-          "kana": "けいい",
-          "meaning": "details"
         }
       ],
       "keyword": "Sutra",
@@ -3508,11 +3113,6 @@
           "kanji": "開通",
           "kana": "かいつう",
           "meaning": "opening (of a new road, railway, etc.)"
-        },
-        {
-          "kanji": "貫通",
-          "kana": "かんつう",
-          "meaning": "passing through (of a tunnel, bullet, etc.)"
         }
       ],
       "keyword": "Traffic",
@@ -3551,11 +3151,6 @@
           "kanji": "以外",
           "kana": "いがい",
           "meaning": "excluding"
-        },
-        {
-          "kanji": "意外",
-          "kana": "いがい",
-          "meaning": "unexpected"
         }
       ],
       "keyword": "Outside",
@@ -3593,11 +3188,6 @@
           "kanji": "最愛",
           "kana": "さいあい",
           "meaning": "beloved"
-        },
-        {
-          "kanji": "最悪",
-          "kana": "さいあく",
-          "meaning": "worst"
         }
       ],
       "keyword": "Utmost",
@@ -3634,11 +3224,6 @@
           "kanji": "過言",
           "kana": "かごん",
           "meaning": "exaggeration"
-        },
-        {
-          "kanji": "甘言",
-          "kana": "かんげん",
-          "meaning": "sweet words"
         }
       ],
       "keyword": "Say",
@@ -3675,11 +3260,6 @@
           "kanji": "氏名",
           "kana": "しめい",
           "meaning": "(full) name"
-        },
-        {
-          "kanji": "摂氏",
-          "kana": "せっし",
-          "meaning": "Celsius"
         }
       ],
       "keyword": "Family Name",
@@ -3718,11 +3298,6 @@
           "kanji": "現況",
           "kana": "げんきょう",
           "meaning": "present condition"
-        },
-        {
-          "kanji": "現金",
-          "kana": "げんきん",
-          "meaning": "cash"
         }
       ],
       "keyword": "Present",
@@ -3760,11 +3335,6 @@
           "kanji": "管理",
           "kana": "かんり",
           "meaning": "control"
-        },
-        {
-          "kanji": "義理",
-          "kana": "ぎり",
-          "meaning": "duty"
         }
       ],
       "keyword": "Logic",
@@ -3810,11 +3380,6 @@
           "kanji": "基調",
           "kana": "きちょう",
           "meaning": "basic tone"
-        },
-        {
-          "kanji": "協調",
-          "kana": "きょうちょう",
-          "meaning": "cooperation"
         }
       ],
       "keyword": "Tune",
@@ -3854,11 +3419,6 @@
           "kanji": "一体",
           "kana": "いったい",
           "meaning": "(what) the heck"
-        },
-        {
-          "kanji": "液体",
-          "kana": "えきたい",
-          "meaning": "liquid"
         }
       ],
       "keyword": "Body",
@@ -3901,11 +3461,6 @@
           "kanji": "液化",
           "kana": "えきか",
           "meaning": "liquefaction"
-        },
-        {
-          "kanji": "塩化",
-          "kana": "えんか",
-          "meaning": "chloridation"
         }
       ],
       "keyword": "Change",
@@ -3931,11 +3486,6 @@
         "た"
       ],
       "examples": [
-        {
-          "kanji": "御田",
-          "kana": "おでん",
-          "meaning": "oden"
-        },
         {
           "kanji": "塩田",
           "kana": "えんでん",
@@ -3986,11 +3536,6 @@
           "kanji": "過当",
           "kana": "かとう",
           "meaning": "excessive"
-        },
-        {
-          "kanji": "該当",
-          "kana": "がいとう",
-          "meaning": "corresponding to"
         }
       ],
       "keyword": "Hit",
@@ -4028,11 +3573,6 @@
           "kanji": "十八",
           "kana": "じゅうはち",
           "meaning": "eighteen"
-        },
-        {
-          "kanji": "八方",
-          "kana": "はっぽう",
-          "meaning": "all sides"
         }
       ],
       "keyword": "Eight",
@@ -4070,11 +3610,6 @@
           "kanji": "六つ",
           "kana": "むっつ",
           "meaning": "six"
-        },
-        {
-          "kanji": "六十",
-          "kana": "ろくじゅう",
-          "meaning": "sixty"
         }
       ],
       "keyword": "Six",
@@ -4112,11 +3647,6 @@
           "kanji": "確約",
           "kana": "かくやく",
           "meaning": "firm promise"
-        },
-        {
-          "kanji": "規約",
-          "kana": "きやく",
-          "meaning": "agreement"
         }
       ],
       "keyword": "Promise",
@@ -4158,11 +3688,6 @@
           "kanji": "株主",
           "kana": "かぶぬし",
           "meaning": "shareholder"
-        },
-        {
-          "kanji": "君主",
-          "kana": "くんしゅ",
-          "meaning": "monarch"
         }
       ],
       "keyword": "Lord",
@@ -4195,11 +3720,6 @@
           "kanji": "議題",
           "kana": "ぎだい",
           "meaning": "topic of discussion"
-        },
-        {
-          "kanji": "主題",
-          "kana": "しゅだい",
-          "meaning": "subject"
         }
       ],
       "keyword": "Topic",
@@ -4250,11 +3770,6 @@
           "kanji": "右下",
           "kana": "みぎした",
           "meaning": "lower right"
-        },
-        {
-          "kanji": "下す",
-          "kana": "くだす",
-          "meaning": "to make a decision"
         }
       ],
       "keyword": "Below",
@@ -4289,11 +3804,6 @@
           "kanji": "機首",
           "kana": "きしゅ",
           "meaning": "nose (of plane)"
-        },
-        {
-          "kanji": "元首",
-          "kana": "げんしゅ",
-          "meaning": "sovereign"
         }
       ],
       "keyword": "Neck",
@@ -4332,11 +3842,6 @@
           "kanji": "意外",
           "kana": "いがい",
           "meaning": "unexpected"
-        },
-        {
-          "kanji": "意気",
-          "kana": "いき",
-          "meaning": "spirit"
         }
       ],
       "keyword": "Idea",
@@ -4378,11 +3883,6 @@
           "kanji": "技法",
           "kana": "ぎほう",
           "meaning": "technique"
-        },
-        {
-          "kanji": "刑法",
-          "kana": "けいほう",
-          "meaning": "criminal law"
         }
       ],
       "keyword": "Method",

@@ -47,5 +47,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
+	<!--
+	  Encryption export compliance. Kanjido uses only Apple-provided crypto
+	  (HTTPS, iCloud Drive's at-rest encryption) — no custom cryptographic
+	  algorithms. Setting this to false lets TestFlight builds skip the
+	  per-upload encryption-compliance questionnaire.
+	-->
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<!--
+	  Allowed URL schemes the app may open. itms-apps deep-links to the
+	  App Store (used by Settings → Manage subscription).
+	-->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>itms-apps</string>
+	</array>
 </dict>
 </plist>

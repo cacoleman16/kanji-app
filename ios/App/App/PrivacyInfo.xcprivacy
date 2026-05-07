@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Kanjido — Apple Privacy Manifest
+
+  Apple requires this file for any app submitted after May 1, 2024.
+  Documentation: https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
+
+  Kanjido does not collect, transmit, track, or sell any user data. No
+  analytics, no advertising IDs, no third-party tracking SDKs. The only
+  off-device communication is:
+    - Apple StoreKit / RevenueCat for subscription receipt validation
+      (Apple-mediated; no PII transmitted by us)
+    - User-initiated iCloud Drive backup of their own progress JSON
+      (stored in the user's own iCloud, encrypted by Apple, never
+      transmitted to a server we control)
+
+  See public/privacy.html for the user-facing version of these statements.
+-->
+<plist version="1.0">
+<dict>
+  <!-- Tracking & data collection -->
+  <key>NSPrivacyTracking</key>
+  <false/>
+
+  <key>NSPrivacyTrackingDomains</key>
+  <array/>
+
+  <!--
+    Data types collected per Apple's data-types catalog. Empty: Kanjido
+    does not collect any of the listed types (name, email, location,
+    user content, identifiers, etc.) from the user.
+    See https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_data_use_in_privacy_manifests
+  -->
+  <key>NSPrivacyCollectedDataTypes</key>
+  <array/>
+
+  <!--
+    Required-reason API disclosures.
+    Each "required reason API" used by Kanjido (or its dependencies)
+    needs an entry here. The reason codes come from Apple's catalog:
+    https://developer.apple.com/documentation/bundleresources/privacy_manifest_files/describing_use_of_required_reason_api
+  -->
+  <key>NSPrivacyAccessedAPITypes</key>
+  <array>
+    <!--
+      UserDefaults — used by Capacitor Preferences plugin (and by
+      WKWebView for web-side localStorage persistence) to store the
+      user's study progress + settings on-device.
+    -->
+    <dict>
+      <key>NSPrivacyAccessedAPIType</key>
+      <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+      <key>NSPrivacyAccessedAPITypeReasons</key>
+      <array>
+        <string>CA92.1</string>
+      </array>
+    </dict>
+
+    <!--
+      File timestamps — read by the iCloud-backup feature when listing
+      the user's prior backup files in their Documents directory so the
+      "Restore" button knows which is the most recent.
+    -->
+    <dict>
+      <key>NSPrivacyAccessedAPIType</key>
+      <string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
+      <key>NSPrivacyAccessedAPITypeReasons</key>
+      <array>
+        <string>C617.1</string>
+      </array>
+    </dict>
+
+    <!--
+      Disk space — checked when writing a backup so we can warn the user
+      if iCloud Drive is full before attempting the write.
+    -->
+    <dict>
+      <key>NSPrivacyAccessedAPIType</key>
+      <string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+      <key>NSPrivacyAccessedAPITypeReasons</key>
+      <array>
+        <string>E174.1</string>
+      </array>
+    </dict>
+
+    <!--
+      System boot time — read by the WKWebView runtime for cache
+      validation. Required-reason API per Apple's catalog.
+    -->
+    <dict>
+      <key>NSPrivacyAccessedAPIType</key>
+      <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+      <key>NSPrivacyAccessedAPITypeReasons</key>
+      <array>
+        <string>35F9.1</string>
+      </array>
+    </dict>
+  </array>
+</dict>
+</plist>

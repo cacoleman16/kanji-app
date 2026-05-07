@@ -11,9 +11,12 @@
  * RevenueCat-shaped so the swap is a single-file change.
  */
 
+import { Capacitor } from "@capacitor/core";
+
 import type { AppState, ProPlan } from "@/types";
 
 import { OFFERS, type ProductOffer } from "./entitlement";
+import { isRevenueCatConfigured, revenueCatProvider } from "./revenueCatProvider";
 
 export interface PurchaseResult {
   success: boolean;
@@ -83,11 +86,21 @@ export const stubProvider: SubscriptionProvider = {
 };
 
 /**
- * Resolve a {@link SubscriptionProvider} for the current runtime. M3 always
- * returns the stub; M4 will pick RevenueCat when running inside Capacitor.
+ * Resolve a {@link SubscriptionProvider} for the current runtime.
+ *
+ * Resolution order:
+ *   1. iOS Capacitor + RevenueCat API key set → real RevenueCat provider
+ *   2. Otherwise (web, dev, missing key) → stub provider that simulates
+ *      instant purchases. Lets the paywall UI work end-to-end without
+ *      StoreKit available.
+ *
+ * Both implementations conform to {@link SubscriptionProvider} so call
+ * sites don't change.
  */
 export function getSubscriptionProvider(): SubscriptionProvider {
-  // TODO(M4): if (Capacitor.isNativePlatform()) return revenueCatProvider;
+  if (Capacitor.isNativePlatform() && isRevenueCatConfigured()) {
+    return revenueCatProvider;
+  }
   return stubProvider;
 }
 
