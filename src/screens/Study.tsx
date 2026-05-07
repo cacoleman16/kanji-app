@@ -259,6 +259,8 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
   /** Decks that support the EN ↔ JP direction toggle. */
   const supportsDirection = isVocab || isKana;
   const direction = state.settings.vocabDirection || "ja-en";
+  /** Show the kana reading on vocab card fronts (default true). Toggleable. */
+  const showFurigana = state.settings.showFurigana !== false;
   const cardBackScale = { small: 0.8, medium: 1, large: 1.3 }[
     state.settings.cardBackFontSize || "medium"
   ];
@@ -292,6 +294,29 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
               title="Swap front/back: Japanese ↔ English"
             >
               {direction === "en-ja" ? "EN → JP" : "JP → EN"}
+            </button>
+          )}
+          {isVocab && (
+            <button
+              className="undo-btn"
+              onClick={() =>
+                setState((s) => ({
+                  ...s,
+                  settings: { ...s.settings, showFurigana: !showFurigana },
+                }))
+              }
+              aria-label={showFurigana ? "Hide furigana on card fronts" : "Show furigana on card fronts"}
+              title={
+                showFurigana
+                  ? "Hide reading on card front (recall test)"
+                  : "Show reading on card front"
+              }
+              style={{
+                opacity: showFurigana ? 1 : 0.55,
+                fontFamily: "var(--font-jp)",
+              }}
+            >
+              ふ {showFurigana ? "on" : "off"}
             </button>
           )}
           <button
@@ -396,7 +421,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
                   <span className="vocab-word" lang="ja" style={vocabWordSize(current.kanji)}>
                     {current.kanji}
                   </span>
-                  {v.reading && (
+                  {v.reading && showFurigana && (
                     <span className="vocab-reading" lang="ja">
                       {v.reading}
                     </span>

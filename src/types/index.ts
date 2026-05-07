@@ -154,6 +154,12 @@ export interface Settings {
   notificationsHour?: number;
   /** Minute of the daily reminder, 0-59. Default 0. */
   notificationsMinute?: number;
+  /**
+   * When false, hide the kana reading (furigana) on the FRONT of vocab cards
+   * so recall is tested against the kanji form alone. The reading is still
+   * shown on the back (which is the answer side). Default true (visible).
+   */
+  showFurigana?: boolean;
 }
 
 export interface Streak {
