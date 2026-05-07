@@ -62,7 +62,7 @@ export type AnyCard = KanjiCard | VocabCard;
 // Decks
 // ============================================================
 
-export type DeckKind = "kanji" | "vocab";
+export type DeckKind = "kanji" | "vocab" | "grammar";
 
 export interface Deck<C extends AnyCard = AnyCard> {
   id: string;

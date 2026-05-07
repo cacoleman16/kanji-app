@@ -244,6 +244,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
   const progressPct = total === 0 ? 0 : Math.round((idx / total) * 100);
   const intervals = previewIntervals(state.progress[current.kanji]);
   const isVocab = deck.kind === "vocab";
+  const isGrammar = deck.kind === "grammar";
   const direction = state.settings.vocabDirection || "ja-en";
   const cardBackScale = { small: 0.8, medium: 1, large: 1.3 }[
     state.settings.cardBackFontSize || "medium"
@@ -336,8 +337,20 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
             }
           }}
         >
-          <div className={`face face-front${isVocab ? " vocab-front" : ""}`}>
-            {isVocab ? (
+          <div
+            className={`face face-front${isVocab ? " vocab-front" : ""}${isGrammar ? " grammar-front" : ""}`}
+          >
+            {isGrammar ? (
+              <>
+                <span className="grammar-pattern-large" lang="ja">
+                  {current.kanji}
+                </span>
+                {v.reading && v.reading !== current.kanji && (
+                  <span className="grammar-reading">{v.reading}</span>
+                )}
+                {v.category && <span className="grammar-category">{v.category}</span>}
+              </>
+            ) : isVocab ? (
               direction === "en-ja" ? (
                 <span className="meaning" style={{ padding: 0 }}>
                   {current.meanings[0]}
@@ -368,7 +381,58 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
             className="face face-back"
             style={{ ["--back-font-scale" as string]: cardBackScale } as React.CSSProperties}
           >
-            {isVocab ? (
+            {isGrammar ? (
+              <>
+                {/* Pattern repeated at the top of the back so the user can re-verify */}
+                <div
+                  className="meaning"
+                  style={{ fontFamily: "var(--font-jp)", fontSize: "calc(18px * var(--back-font-scale, 1))" }}
+                >
+                  <span lang="ja">{current.kanji}</span>
+                  {current.meanings.length > 0 && (
+                    <div className="secondary">{current.meanings.join(" · ")}</div>
+                  )}
+                </div>
+                {v.context && (
+                  <div className="keyword-block">
+                    <div className="keyword-label">How to use</div>
+                    <div className="etymology">{v.context}</div>
+                  </div>
+                )}
+                {v.example_sentence && (
+                  <div className="vocab-example">
+                    <div className="vocab-example-label">Example</div>
+                    <div className="vocab-example-jp" lang="ja">
+                      {v.example_sentence}
+                    </div>
+                    {v.example_reading && (
+                      <div className="vocab-example-reading" lang="ja">
+                        {v.example_reading}
+                      </div>
+                    )}
+                    {v.example_meaning && (
+                      <div className="vocab-example-en">{v.example_meaning}</div>
+                    )}
+                  </div>
+                )}
+                {v.category && (
+                  <div className="readings">
+                    <div className="reading-row">
+                      <span className="reading-label">Category</span>
+                      <span className="reading-value">{v.category}</span>
+                    </div>
+                  </div>
+                )}
+                {v.jlpt && (
+                  <div className="readings">
+                    <div className="reading-row">
+                      <span className="reading-label">JLPT</span>
+                      <span className="reading-value">{v.jlpt}</span>
+                    </div>
+                  </div>
+                )}
+              </>
+            ) : isVocab ? (
               direction === "en-ja" ? (
                 <>
                   <div className="meaning" style={{ fontFamily: "var(--font-jp)" }}>

@@ -17,7 +17,7 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
   const [jlptFilter, setJlptFilter] = useState<Level>("all");
 
   const jlptLevels = useMemo<Level[]>(() => {
-    if (!deck || deck.kind !== "vocab") return [];
+    if (!deck || (deck.kind !== "vocab" && deck.kind !== "grammar")) return [];
     const levels = new Set<Jlpt>();
     for (const c of deck.cards) {
       const j = (c as VocabCard).jlpt;
@@ -28,7 +28,8 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
 
   const displayCards = useMemo<AnyCard[]>(() => {
     if (!deck) return [];
-    if (deck.kind !== "vocab" || jlptFilter === "all") return deck.cards;
+    if (jlptFilter === "all") return deck.cards;
+    if (deck.kind !== "vocab" && deck.kind !== "grammar") return deck.cards;
     return deck.cards.filter((c) => (c as VocabCard).jlpt === jlptFilter);
   }, [deck, jlptFilter]);
 
@@ -130,7 +131,7 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
       </button>
 
       <div className="section-label">All cards</div>
-      {deck.kind === "vocab" && jlptLevels.length > 1 && (
+      {(deck.kind === "vocab" || deck.kind === "grammar") && jlptLevels.length > 1 && (
         <div className="filter-row">
           {jlptLevels.map((lvl) => (
             <button
@@ -161,20 +162,48 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
           Mastered
         </span>
       </div>
-      <div className="card-grid">
-        {displayCards.map((c) => {
-          const i = deck.cards.indexOf(c);
-          return (
-            <button key={c.kanji} className="card-tile" onClick={() => setPeekIdx(i)}>
-              <span className={`status-dot ${statusFor(c)}`} />
-              <span className="card-tile-kanji" lang="ja">
-                {c.kanji}
-              </span>
-              <span className="card-tile-keyword">{c.keyword || c.meanings[0]}</span>
-            </button>
-          );
-        })}
-      </div>
+      {deck.kind === "grammar" ? (
+        <div className="grammar-list">
+          {displayCards.map((c) => {
+            const i = deck.cards.indexOf(c);
+            const v = c as VocabCard;
+            return (
+              <button
+                key={c.kanji}
+                className="grammar-row"
+                onClick={() => setPeekIdx(i)}
+                aria-label={`${c.kanji} — ${c.meanings[0] ?? ""}`}
+              >
+                <span className={`status-dot ${statusFor(c)}`} />
+                <div style={{ minWidth: 0 }}>
+                  <div className="grammar-row-pattern" lang="ja">
+                    {c.kanji}
+                  </div>
+                  <div className="grammar-row-meaning">
+                    {(c.meanings || []).slice(0, 2).join(" · ")}
+                  </div>
+                </div>
+                {v.jlpt && <span className="grammar-row-jlpt">{v.jlpt}</span>}
+              </button>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="card-grid">
+          {displayCards.map((c) => {
+            const i = deck.cards.indexOf(c);
+            return (
+              <button key={c.kanji} className="card-tile" onClick={() => setPeekIdx(i)}>
+                <span className={`status-dot ${statusFor(c)}`} />
+                <span className="card-tile-kanji" lang="ja">
+                  {c.kanji}
+                </span>
+                <span className="card-tile-keyword">{c.keyword || c.meanings[0]}</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       {peek && peekIdx !== null && (
         <div className="peek-backdrop" onClick={() => setPeekIdx(null)}>
@@ -186,16 +215,51 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
             >
               ✕
             </button>
-            <div className="peek-kanji" lang="ja" style={vocabWordSize(peek.kanji, "peek")}>
-              {peek.kanji}
-            </div>
+            {deck.kind === "grammar" ? (
+              <div
+                className="grammar-pattern-large"
+                lang="ja"
+                style={{ marginBottom: 4, marginTop: 4 }}
+              >
+                {peek.kanji}
+              </div>
+            ) : (
+              <div className="peek-kanji" lang="ja" style={vocabWordSize(peek.kanji, "peek")}>
+                {peek.kanji}
+              </div>
+            )}
             <div className="meaning">
               {peek.meanings[0]}
               {peek.meanings.length > 1 && (
                 <div className="secondary">{peek.meanings.slice(1).join(" · ")}</div>
               )}
             </div>
-            {deck.kind === "vocab" ? (
+            {deck.kind === "grammar" ? (
+              <>
+                {peekVocab?.context && (
+                  <div className="keyword-block">
+                    <div className="keyword-label">How to use</div>
+                    <div className="etymology">{peekVocab.context}</div>
+                  </div>
+                )}
+                {peekVocab?.example_sentence && (
+                  <div className="vocab-example">
+                    <div className="vocab-example-label">Example</div>
+                    <div className="vocab-example-jp" lang="ja">
+                      {peekVocab.example_sentence}
+                    </div>
+                    {peekVocab.example_reading && (
+                      <div className="vocab-example-reading" lang="ja">
+                        {peekVocab.example_reading}
+                      </div>
+                    )}
+                    {peekVocab.example_meaning && (
+                      <div className="vocab-example-en">{peekVocab.example_meaning}</div>
+                    )}
+                  </div>
+                )}
+              </>
+            ) : deck.kind === "vocab" ? (
               <>
                 {peekVocab?.reading && (
                   <div className="readings">

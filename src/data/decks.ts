@@ -123,9 +123,10 @@ function rank(id: string): number {
   return ORDER[id] ?? 9999;
 }
 
-function unitFor(kind: "kanji" | "vocab" | "kana"): string {
+function unitFor(kind: "kanji" | "vocab" | "kana" | "grammar"): string {
   if (kind === "vocab") return "words";
   if (kind === "kana") return "characters";
+  if (kind === "grammar") return "patterns";
   return "kanji";
 }
 
@@ -168,13 +169,19 @@ function buildDecks(): Deck[] {
     });
   }
 
-  // Vocab decks (currently just the curated top-frequency vocab).
-  for (const raw of Object.values(filesVocab)) {
+  // Vocab + grammar decks.
+  // Grammar decks live under vocab_grammar_*.json and use the vocab card
+  // shape, but render with a different layout in DeckDetail/Study because
+  // their "front" is a pattern string (e.g. "～ばかり" or "Passive (受け身)")
+  // rather than a single character.
+  for (const [path, raw] of Object.entries(filesVocab)) {
+    const isGrammar = path.includes("/vocab_grammar_") || raw.deck_id.startsWith("grammar-");
     out.push({
       id: raw.deck_id,
       name: raw.deck_name,
-      subtitle: raw.subtitle ?? `${raw.cards.length} ${unitFor("vocab")}`,
-      kind: "vocab",
+      subtitle:
+        raw.subtitle ?? `${raw.cards.length} ${isGrammar ? "patterns" : unitFor("vocab")}`,
+      kind: isGrammar ? "grammar" : "vocab",
       available: true,
       cards: raw.cards.map(normalizeVocabCard) as AnyCard[],
     });

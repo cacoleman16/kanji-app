@@ -45,7 +45,7 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
   };
   const goal = state.settings.dailyGoal;
   const pct = Math.min(100, Math.round((todayStats.reviewed / goal) * 100));
-  const [activeTab, setActiveTab] = useState<"kanji" | "vocab">("kanji");
+  const [activeTab, setActiveTab] = useState<"kanji" | "vocab" | "grammar">("kanji");
 
   const decks = useMemo(() => allDecks(state), [state]);
 
@@ -74,13 +74,14 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
     return result;
   }, [decks, state.progress]);
 
-  const { kanjiTiles, vocabTiles } = useMemo(() => {
+  const { kanjiTiles, vocabTiles, grammarTiles } = useMemo(() => {
     const seenGroups = new Set<string>();
     const kanjiTiles: Tile[] = [];
     const vocabTiles: Tile[] = [];
+    const grammarTiles: Tile[] = [];
     for (const d of decks) {
-      const isVocab = d.kind === "vocab";
-      const bucket = isVocab ? vocabTiles : kanjiTiles;
+      const bucket =
+        d.kind === "grammar" ? grammarTiles : d.kind === "vocab" ? vocabTiles : kanjiTiles;
       const g = groupFor(d);
       if (g) {
         if (seenGroups.has(g.id)) continue;
@@ -101,7 +102,7 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
         bucket.push({ kind: "deck", deck: d, info: dueByDeck[d.id] });
       }
     }
-    return { kanjiTiles, vocabTiles };
+    return { kanjiTiles, vocabTiles, grammarTiles };
   }, [decks, dueByDeck]);
 
   const renderTile = (t: Tile) => {
@@ -249,18 +250,30 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
         </button>
       )}
 
-      <div className="home-tabs">
+      <div className="home-tabs" role="tablist">
         <button
+          role="tab"
+          aria-selected={activeTab === "kanji"}
           className={`home-tab ${activeTab === "kanji" ? "active" : ""}`}
           onClick={() => setActiveTab("kanji")}
         >
           Kanji
         </button>
         <button
+          role="tab"
+          aria-selected={activeTab === "vocab"}
           className={`home-tab ${activeTab === "vocab" ? "active" : ""}`}
           onClick={() => setActiveTab("vocab")}
         >
           Vocab
+        </button>
+        <button
+          role="tab"
+          aria-selected={activeTab === "grammar"}
+          className={`home-tab ${activeTab === "grammar" ? "active" : ""}`}
+          onClick={() => setActiveTab("grammar")}
+        >
+          Grammar
         </button>
       </div>
 
@@ -310,6 +323,26 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
           }}
         >
           No vocabulary decks yet.
+        </div>
+      )}
+
+      {activeTab === "grammar" && grammarTiles.length > 0 && (
+        <>
+          <div className="section-label">Grammar</div>
+          <div className="deck-list">{grammarTiles.map(renderTile)}</div>
+        </>
+      )}
+
+      {activeTab === "grammar" && grammarTiles.length === 0 && (
+        <div
+          style={{
+            color: "var(--text-dim)",
+            fontSize: "14px",
+            textAlign: "center",
+            padding: "40px 0",
+          }}
+        >
+          No grammar decks yet.
         </div>
       )}
     </div>
