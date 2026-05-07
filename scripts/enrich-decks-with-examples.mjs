@@ -211,7 +211,7 @@ for (const source of SOURCES) {
       // Skip cards that already have examples (from a previous pass or
       // hand-curation).
       if (Array.isArray(card.examples) && card.examples.length > 0) continue;
-      const examples = pickExamples(idx, card.kanji, 2);
+      const examples = pickExamples(idx, card.kanji, 3);
       if (examples.length === 0) continue;
       card.examples = examples;
       here++;
