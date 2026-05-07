@@ -1,0 +1,194 @@
+{
+  "deck_id": "grammar-conjugations",
+  "deck_name": "Grammar: Verb conjugations (活用)",
+  "subtitle": "Passive · causative · potential · te-form · keigo",
+  "version": "1.0",
+  "card_count": 14,
+  "notes": "The major verb conjugation forms: passive (受け身), causative (使役), causative-passive, potential (可能形), volitional (意向形), imperative (命令形), te-form (て形), and the aspect compounds (～ている, ～てある, ～ておく, ～てしまう, ～ていく/くる). Plus a starter for keigo (尊敬語 / 謙譲語).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese grammar).",
+  "cards": [
+    {
+      "word": "Passive (受け身)",
+      "reading": "ukemi",
+      "meanings": [
+        "passive form"
+      ],
+      "jlpt": "N4",
+      "category": "form",
+      "context": "Group 1 (u-verbs): replace -u with -areru (書く → 書かれる). Group 2 (ru-verbs): replace -ru with -rareru (食べる → 食べられる). Irregular: する → される, 来る → 来られる. Also used for the 'suffering passive' (something happened to me, often negatively).",
+      "example_sentence": "先生に褒められました。",
+      "example_reading": "せんせい に ほめられました。",
+      "example_meaning": "I was praised by the teacher."
+    },
+    {
+      "word": "Causative (使役)",
+      "reading": "shieki",
+      "meanings": [
+        "causative form (make/let do)"
+      ],
+      "jlpt": "N4",
+      "category": "form",
+      "context": "Group 1: -u → -aseru (書く → 書かせる). Group 2: -ru → -saseru (食べる → 食べさせる). Irregular: する → させる, 来る → 来させる. Means 'make/let X do Y' — the agent is marked with に (allow) or を (force).",
+      "example_sentence": "母は弟に野菜を食べさせました。",
+      "example_reading": "はは は おとうと に やさい を たべさせました。",
+      "example_meaning": "Mother made my younger brother eat vegetables."
+    },
+    {
+      "word": "Causative-passive",
+      "reading": "shieki ukemi",
+      "meanings": [
+        "was made to ~"
+      ],
+      "jlpt": "N3",
+      "category": "form",
+      "context": "Stack causative + passive: causative form + -rareru. 食べさせられる = was made to eat. Casual contraction for group 1: -aserareru → -asareru (飲ませられる → 飲まされる).",
+      "example_sentence": "宿題をさせられました。",
+      "example_reading": "しゅくだい を させられました。",
+      "example_meaning": "I was made to do homework."
+    },
+    {
+      "word": "Potential (可能形)",
+      "reading": "kanou-kei",
+      "meanings": [
+        "can ~"
+      ],
+      "jlpt": "N4",
+      "category": "form",
+      "context": "Group 1: -u → -eru (書く → 書ける). Group 2: -ru → -rareru (食べる → 食べられる, often shortened to 食べれる in casual speech, sometimes called 'ら抜き' = 'ra-drop'). Particle: が, not を (寿司が食べられる).",
+      "example_sentence": "日本語が話せます。",
+      "example_reading": "にほんご が はなせます。",
+      "example_meaning": "I can speak Japanese."
+    },
+    {
+      "word": "Volitional (意向形)",
+      "reading": "ikou-kei",
+      "meanings": [
+        "let's ~",
+        "I think I'll ~"
+      ],
+      "jlpt": "N4",
+      "category": "form",
+      "context": "Group 1: -u → -ou (書く → 書こう). Group 2: -ru → -you (食べる → 食べよう). Polite form: ～ましょう. Used for 'let's', for one's own intention (～と思う), and for invitations.",
+      "example_sentence": "映画を見に行こう。",
+      "example_reading": "えいが を み に いこう。",
+      "example_meaning": "Let's go see a movie."
+    },
+    {
+      "word": "Imperative (命令形)",
+      "reading": "meirei-kei",
+      "meanings": [
+        "command form"
+      ],
+      "jlpt": "N4",
+      "category": "form",
+      "context": "Direct command — sounds rude in most settings. Group 1: -u → -e (書け). Group 2: -ろ (食べろ). Mostly seen in fiction, traffic signs, anger, or by drill sergeants. For polite requests use ～てください.",
+      "example_sentence": "立て！",
+      "example_reading": "たて！",
+      "example_meaning": "Stand up!"
+    },
+    {
+      "word": "Te-form (て形)",
+      "reading": "te-kei",
+      "meanings": [
+        "te-form (connector)"
+      ],
+      "jlpt": "N5",
+      "category": "form",
+      "context": "The connector form. Joins clauses ('and then'), forms requests (～てください), forms continuous (～ている), and many compound expressions. Group 1 has consonant-specific transformations (く→いて, す→して, etc.). Group 2: drop る + て (食べて). Irregulars: する→して, 来る→きて.",
+      "example_sentence": "朝ご飯を食べて、出かけました。",
+      "example_reading": "あさごはん を たべて、 でかけました。",
+      "example_meaning": "I ate breakfast and then went out."
+    },
+    {
+      "word": "～ている",
+      "reading": "te iru",
+      "meanings": [
+        "progressive / resultant state"
+      ],
+      "jlpt": "N5",
+      "category": "aspect",
+      "context": "Te-form + いる. Two main meanings depending on the verb: (1) progressive — 食べている = is eating; (2) resultant state — 結婚している = is married (the resulting state of having gotten married). Casual: ～てる.",
+      "example_sentence": "今、食べています。",
+      "example_reading": "いま、 たべて います。",
+      "example_meaning": "I'm eating now."
+    },
+    {
+      "word": "～てある",
+      "reading": "te aru",
+      "meanings": [
+        "resultant state (intentional)"
+      ],
+      "jlpt": "N4",
+      "category": "aspect",
+      "context": "Transitive te-form + ある = something has been done and the result remains. ドアが開けてある = the door has been opened (by someone, on purpose). Compare with ～ている (which can also describe state but implies the action just happened).",
+      "example_sentence": "窓が開けてあります。",
+      "example_reading": "まど が あけて あります。",
+      "example_meaning": "The window has been opened (and is open now)."
+    },
+    {
+      "word": "～ておく",
+      "reading": "te oku",
+      "meanings": [
+        "do in advance / leave (in a state)"
+      ],
+      "jlpt": "N4",
+      "category": "aspect",
+      "context": "Te-form + おく = preparation. 買っておく = buy in advance. Also 'leave (something) in a state'. Casual contraction: ～とく (買っとく).",
+      "example_sentence": "ビールを冷やしておきます。",
+      "example_reading": "びーる を ひやして おきます。",
+      "example_meaning": "I'll chill the beer in advance."
+    },
+    {
+      "word": "～てしまう",
+      "reading": "te shimau",
+      "meanings": [
+        "finish completely / regret doing"
+      ],
+      "jlpt": "N4",
+      "category": "aspect",
+      "context": "Two senses: (1) 'finish/complete' — 食べてしまう = eat it all up; (2) 'unfortunately/oh no I did it' — 忘れてしまった = I (regrettably) forgot. Casual: ～ちゃう (forgetちゃった = I went and forgot).",
+      "example_sentence": "ケーキを食べてしまいました。",
+      "example_reading": "けーき を たべて しまいました。",
+      "example_meaning": "I ended up eating the whole cake."
+    },
+    {
+      "word": "～ていく / ～てくる",
+      "reading": "te iku / te kuru",
+      "meanings": [
+        "go on ~ing / come to ~ (continuous)"
+      ],
+      "jlpt": "N4",
+      "category": "aspect",
+      "context": "Direction of change. ～ていく = becoming-going-forward (寒くなっていく = getting colder over time). ～てくる = becoming-up-to-now (寒くなってきた = it's gotten colder).",
+      "example_sentence": "だんだん寒くなってきました。",
+      "example_reading": "だんだん さむく なって きました。",
+      "example_meaning": "It's gradually getting colder."
+    },
+    {
+      "word": "Honorific (尊敬語)",
+      "reading": "sonkeigo",
+      "meanings": [
+        "respectful form"
+      ],
+      "jlpt": "N3",
+      "category": "keigo",
+      "context": "Elevates the listener/subject. Patterns: お+verb-stem+になる (お読みになる = read [respectful]), or special verbs (食べる→召し上がる, する→なさる, 行く/来る/いる→いらっしゃる). Used about people you respect, never about yourself.",
+      "example_sentence": "先生は何時にいらっしゃいますか。",
+      "example_reading": "せんせい は なんじ に いらっしゃいます か。",
+      "example_meaning": "What time is the teacher coming?"
+    },
+    {
+      "word": "Humble (謙譲語)",
+      "reading": "kenjougo",
+      "meanings": [
+        "humble form (about oneself)"
+      ],
+      "jlpt": "N3",
+      "category": "keigo",
+      "context": "Lowers the speaker. Patterns: お+verb-stem+する (お持ちする = (humbly) carry), or special verbs (食べる→いただく, する→いたす, 行く/来る→参る, いる→おる). Use about your own actions when addressing someone of higher status.",
+      "example_sentence": "明日、お電話いたします。",
+      "example_reading": "あした、 おでんわ いたします。",
+      "example_meaning": "I will (humbly) call you tomorrow."
+    }
+  ]
+}

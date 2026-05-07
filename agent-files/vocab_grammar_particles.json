@@ -1,0 +1,245 @@
+{
+  "deck_id": "grammar-particles",
+  "deck_name": "Grammar: Particles (助詞)",
+  "subtitle": "は が を に で へ · the connective tissue of Japanese",
+  "version": "1.0",
+  "card_count": 17,
+  "notes": "The core particles every Japanese sentence is built from. Each card explains the role, contrasts with similar particles, and gives a real-use example. Includes the trickier intensifiers (ばかり, だけ, しか) and sentence-final mood markers (よ, ね).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese grammar).",
+  "cards": [
+    {
+      "word": "は",
+      "reading": "wa",
+      "meanings": [
+        "topic marker"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Marks the topic — what the sentence is about. Pronounced 'wa' even though written with the kana for 'ha'. Compare with が (subject marker): は frames the topic; が answers 'who/what'.",
+      "example_sentence": "私は学生です。",
+      "example_reading": "わたし は がくせい です。",
+      "example_meaning": "I am a student. (As for me, [I'm] a student.)"
+    },
+    {
+      "word": "が",
+      "reading": "ga",
+      "meanings": [
+        "subject marker"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Marks the grammatical subject. Used to introduce new info or to answer questions like 'who/what?'. With existence verbs ある/いる, it's the default. With 好き/嫌い it's mandatory.",
+      "example_sentence": "犬がいます。",
+      "example_reading": "いぬ が います。",
+      "example_meaning": "There is a dog."
+    },
+    {
+      "word": "を",
+      "reading": "o",
+      "meanings": [
+        "direct-object marker"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Marks the direct object of a transitive verb. Pronounced 'o' (the obsolete 'wo' is hyper-archaic).",
+      "example_sentence": "本を読みます。",
+      "example_reading": "ほん を よみます。",
+      "example_meaning": "I read a book."
+    },
+    {
+      "word": "に",
+      "reading": "ni",
+      "meanings": [
+        "destination",
+        "indirect object",
+        "time"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Several uses sharing a 'precise location/target' feel: destination (学校に行く), indirect object (友達に話す), specific time (3時に), state existence (机にある).",
+      "example_sentence": "学校に行きます。",
+      "example_reading": "がっこう に いきます。",
+      "example_meaning": "I go to school."
+    },
+    {
+      "word": "で",
+      "reading": "de",
+      "meanings": [
+        "location of action",
+        "means"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Where an ACTION happens (vs に for static existence): 図書館で勉強する = study AT the library. Also 'by means of': バスで来た = came by bus.",
+      "example_sentence": "図書館で勉強します。",
+      "example_reading": "としょかん で べんきょう します。",
+      "example_meaning": "I study at the library."
+    },
+    {
+      "word": "へ",
+      "reading": "e",
+      "meanings": [
+        "direction",
+        "toward"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Direction/destination, like に but emphasizes the direction of movement rather than the precise endpoint. Pronounced 'e'. Often interchangeable with に for movement verbs.",
+      "example_sentence": "東京へ行きます。",
+      "example_reading": "とうきょう へ いきます。",
+      "example_meaning": "I'm going toward Tokyo."
+    },
+    {
+      "word": "と",
+      "reading": "to",
+      "meanings": [
+        "with",
+        "and (exhaustive)",
+        "quotation"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Three meanings: 'with someone' (友達と行く = go with a friend), exhaustive 'and' connecting nouns (本とペン = a book and pen), and quotation marker (〜と思う = think that ~).",
+      "example_sentence": "友達と映画を見ました。",
+      "example_reading": "ともだち と えいが を みました。",
+      "example_meaning": "I watched a movie with a friend."
+    },
+    {
+      "word": "や",
+      "reading": "ya",
+      "meanings": [
+        "and (non-exhaustive)"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Lists examples without claiming to cover everything. Compare to と: 本とペン = exactly a book and pen; 本やペン = things like a book and pen (and other stuff). Often paired with など (etc.).",
+      "example_sentence": "りんごやみかんを買いました。",
+      "example_reading": "りんご や みかん を かいました。",
+      "example_meaning": "I bought apples, mandarin oranges, etc."
+    },
+    {
+      "word": "から",
+      "reading": "kara",
+      "meanings": [
+        "from",
+        "because"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Starting point in space, time, or causation. 9時から = from 9 o'clock. As a sentence-final connector: 寒いから家にいる = I'm at home because it's cold.",
+      "example_sentence": "9時から働きます。",
+      "example_reading": "くじ から はたらきます。",
+      "example_meaning": "I work from 9 o'clock."
+    },
+    {
+      "word": "まで",
+      "reading": "made",
+      "meanings": [
+        "until",
+        "as far as"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "End-point complement to から. 9時から5時まで = from 9 to 5. 駅まで歩く = walk as far as the station.",
+      "example_sentence": "5時まで働きます。",
+      "example_reading": "ごじ まで はたらきます。",
+      "example_meaning": "I work until 5 o'clock."
+    },
+    {
+      "word": "も",
+      "reading": "mo",
+      "meanings": [
+        "also",
+        "even"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Replaces は or を: 私も学生です = I'm also a student. With numbers, means 'as much as' (10人も来た = as many as 10 people came). With negative + interrogative: 何も = nothing at all.",
+      "example_sentence": "私も行きます。",
+      "example_reading": "わたし も いきます。",
+      "example_meaning": "I'll go too."
+    },
+    {
+      "word": "の",
+      "reading": "no",
+      "meanings": [
+        "possessive",
+        "of",
+        "explanation marker"
+      ],
+      "jlpt": "N5",
+      "category": "core",
+      "context": "Connects nouns: 私の本 = my book, 日本の文化 = Japanese culture. Sentence-final の/んです softens explanations. Also nominalizes verbs: 本を読むのが好き = I like reading books.",
+      "example_sentence": "これは私の本です。",
+      "example_reading": "これ は わたし の ほん です。",
+      "example_meaning": "This is my book."
+    },
+    {
+      "word": "よ",
+      "reading": "yo",
+      "meanings": [
+        "sentence-final emphasis"
+      ],
+      "jlpt": "N5",
+      "category": "sentence-final",
+      "context": "Asserts new information to the listener — 'I'm telling you'. Compare ね (I'm checking with you). Mostly speech, rarely formal writing.",
+      "example_sentence": "明日は雨ですよ。",
+      "example_reading": "あした は あめ です よ。",
+      "example_meaning": "It's going to rain tomorrow, you know."
+    },
+    {
+      "word": "ね",
+      "reading": "ne",
+      "meanings": [
+        "sentence-final agreement seeker"
+      ],
+      "jlpt": "N5",
+      "category": "sentence-final",
+      "context": "Seeks agreement from the listener — 'right?' / 'isn't it?'. Softens statements. Heavy use is conversational.",
+      "example_sentence": "今日は寒いですね。",
+      "example_reading": "きょう は さむい です ね。",
+      "example_meaning": "It's cold today, isn't it?"
+    },
+    {
+      "word": "ばかり",
+      "reading": "bakari",
+      "meanings": [
+        "only",
+        "just (did)"
+      ],
+      "jlpt": "N3",
+      "category": "intensifier",
+      "context": "Two distinct uses: (1) attached to nouns/verbs = 'only / nothing but' (テレビばかり見る = does nothing but watch TV); (2) past + ばかり = 'just (did)' (食べたばかり = just ate).",
+      "example_sentence": "起きたばかりです。",
+      "example_reading": "おきた ばかり です。",
+      "example_meaning": "I just woke up."
+    },
+    {
+      "word": "だけ",
+      "reading": "dake",
+      "meanings": [
+        "only",
+        "just"
+      ],
+      "jlpt": "N4",
+      "category": "intensifier",
+      "context": "'Only' / 'just' — limits to exactly the amount stated. Compare to しか (which requires negative): 一つだけ買った = I bought just one (positive). 一つしか買わなかった = I bought only one (with neg, more emphatic).",
+      "example_sentence": "水だけください。",
+      "example_reading": "みず だけ ください。",
+      "example_meaning": "Just water, please."
+    },
+    {
+      "word": "しか",
+      "reading": "shika",
+      "meanings": [
+        "only (with negative)"
+      ],
+      "jlpt": "N4",
+      "category": "intensifier",
+      "context": "Always pairs with a negative verb. Stronger than だけ — emphasizes scarcity / not-much-ness. 千円しかない = I only have 1,000 yen (and that's not much).",
+      "example_sentence": "一つしかありません。",
+      "example_reading": "ひとつ しか ありません。",
+      "example_meaning": "There's only one."
+    }
+  ]
+}

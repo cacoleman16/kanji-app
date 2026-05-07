@@ -101,6 +101,11 @@ const ORDER: Record<string, number> = {
   "vocab-food": 430,
   "vocab-verbs": 440,
   "vocab-adjectives": 450,
+
+  // Grammar (Pro)
+  "grammar-particles": 500,
+  "grammar-patterns": 510,
+  "grammar-conjugations": 520,
 };
 
 function rank(id: string): number {

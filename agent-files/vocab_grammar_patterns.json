@@ -1,0 +1,295 @@
+{
+  "deck_id": "grammar-patterns",
+  "deck_name": "Grammar: Patterns & phrases",
+  "subtitle": "～と思う · ～ばかり · ～ところ · ～はず — sentence patterns",
+  "version": "1.0",
+  "card_count": 21,
+  "notes": "Common sentence patterns and grammatical phrases — the kind of multi-word constructions that turn isolated verbs into fluent expressions. Calls out the distinctions native speakers make: ～かもしれない vs ～でしょう vs ～はず, ～ようだ vs ～らしい, ～たら vs ～ば, etc.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese grammar).",
+  "cards": [
+    {
+      "word": "～と思う",
+      "reading": "to omou",
+      "meanings": [
+        "I think (that)…"
+      ],
+      "jlpt": "N5",
+      "category": "opinion",
+      "context": "Quote+omou. Plain form before と思う: 行くと思う = I think (someone) will go. For polite speech the と思う itself stays plain — politeness is in the surrounding context.",
+      "example_sentence": "彼は来ると思います。",
+      "example_reading": "かれ は くる と おもいます。",
+      "example_meaning": "I think he'll come."
+    },
+    {
+      "word": "～たい",
+      "reading": "tai",
+      "meanings": [
+        "want to ~"
+      ],
+      "jlpt": "N5",
+      "category": "desire",
+      "context": "Replaces ます on the verb stem to express the speaker's desire. Conjugates like an い-adjective (たくない, たかった). For others' desires use ～たがる instead.",
+      "example_sentence": "寿司を食べたいです。",
+      "example_reading": "すし を たべたい です。",
+      "example_meaning": "I want to eat sushi."
+    },
+    {
+      "word": "～ことがある",
+      "reading": "koto ga aru",
+      "meanings": [
+        "have done",
+        "experience"
+      ],
+      "jlpt": "N4",
+      "category": "experience",
+      "context": "Past form + ことがある = 'I have (the experience of) doing'. 日本に行ったことがある = I have been to Japan. Negative: ～ことがない = have never.",
+      "example_sentence": "日本に行ったことがあります。",
+      "example_reading": "にほん に いった こと が あります。",
+      "example_meaning": "I have been to Japan."
+    },
+    {
+      "word": "～ことができる",
+      "reading": "koto ga dekiru",
+      "meanings": [
+        "can ~",
+        "be able to ~"
+      ],
+      "jlpt": "N5",
+      "category": "ability",
+      "context": "Plain form + ことができる = ability. More formal than the potential form (食べられる). Both work, ことができる is common in writing.",
+      "example_sentence": "日本語を話すことができます。",
+      "example_reading": "にほんご を はなす こと が できます。",
+      "example_meaning": "I can speak Japanese."
+    },
+    {
+      "word": "～つもり",
+      "reading": "tsumori",
+      "meanings": [
+        "intend to ~"
+      ],
+      "jlpt": "N4",
+      "category": "intention",
+      "context": "Plain form + つもり = an intention you've already formed. Stronger commitment than ～たい (want). Negative: ～ないつもり = intend not to.",
+      "example_sentence": "明日勉強するつもりです。",
+      "example_reading": "あした べんきょう する つもり です。",
+      "example_meaning": "I plan to study tomorrow."
+    },
+    {
+      "word": "～はず",
+      "reading": "hazu",
+      "meanings": [
+        "should",
+        "ought to (logical inference)"
+      ],
+      "jlpt": "N4",
+      "category": "inference",
+      "context": "Logical expectation based on evidence — not 'should' as in advice (that's べき). 彼は来るはず = I expect he'll come (because he said so).",
+      "example_sentence": "彼はもう着いたはずです。",
+      "example_reading": "かれ は もう ついた はず です。",
+      "example_meaning": "He should have arrived by now."
+    },
+    {
+      "word": "～べき",
+      "reading": "beki",
+      "meanings": [
+        "should (moral / advice)"
+      ],
+      "jlpt": "N3",
+      "category": "obligation",
+      "context": "Moral or advisory 'should' — what someone OUGHT to do. Stronger than ～たほうがいい. With する: するべき or すべき (both fine).",
+      "example_sentence": "毎日運動するべきです。",
+      "example_reading": "まいにち うんどう する べき です。",
+      "example_meaning": "You should exercise every day."
+    },
+    {
+      "word": "～なければならない",
+      "reading": "nakereba naranai",
+      "meanings": [
+        "must ~",
+        "have to ~"
+      ],
+      "jlpt": "N4",
+      "category": "obligation",
+      "context": "External obligation/necessity. Casual contractions: ～なきゃ, ～ないと. Don't confuse with べき (moral 'should'). 行かなければならない = I have to go.",
+      "example_sentence": "薬を飲まなければなりません。",
+      "example_reading": "くすり を のま なければ なりません。",
+      "example_meaning": "I have to take the medicine."
+    },
+    {
+      "word": "～てもいい",
+      "reading": "te mo ii",
+      "meanings": [
+        "may ~",
+        "is it ok if ~"
+      ],
+      "jlpt": "N5",
+      "category": "permission",
+      "context": "Te-form + もいい/もよい = permission. Question form is the standard 'may I?' construction.",
+      "example_sentence": "ここで食べてもいいですか。",
+      "example_reading": "ここ で たべて も いい です か。",
+      "example_meaning": "May I eat here?"
+    },
+    {
+      "word": "～てはいけない",
+      "reading": "te wa ikenai",
+      "meanings": [
+        "must not ~",
+        "can't ~"
+      ],
+      "jlpt": "N5",
+      "category": "prohibition",
+      "context": "Te-form + はいけない = prohibition. Casual: ～ちゃいけない / ～ちゃだめ. Stronger ban than ない方がいい (you'd better not).",
+      "example_sentence": "ここで吸ってはいけません。",
+      "example_reading": "ここ で すって は いけません。",
+      "example_meaning": "You must not smoke here."
+    },
+    {
+      "word": "～ながら",
+      "reading": "nagara",
+      "meanings": [
+        "while ~ing",
+        "at the same time"
+      ],
+      "jlpt": "N4",
+      "category": "simultaneous",
+      "context": "Verb stem + ながら = doing two things at once. The main verb is the primary action; ながら-clause is the backdrop. 音楽を聞きながら勉強する = study while listening to music.",
+      "example_sentence": "音楽を聞きながら勉強します。",
+      "example_reading": "おんがく を ききながら べんきょう します。",
+      "example_meaning": "I study while listening to music."
+    },
+    {
+      "word": "～たら",
+      "reading": "tara",
+      "meanings": [
+        "if ~",
+        "when ~"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "Past form + ら = the most flexible conditional. Works for hypothetical (if), temporal (when ~ happens), and even past sequences (when ~ happened). Less formal than ～と or ～ば.",
+      "example_sentence": "雨が降ったら、行きません。",
+      "example_reading": "あめ が ふったら、 いきません。",
+      "example_meaning": "If it rains, I won't go."
+    },
+    {
+      "word": "～ば",
+      "reading": "ba",
+      "meanings": [
+        "if ~ (conditional)"
+      ],
+      "jlpt": "N4",
+      "category": "conditional",
+      "context": "More general/abstract conditional than ～たら. Verb stem + え-row + ば. い-adj: drop い + ければ. な-adj/noun + なら(ば).",
+      "example_sentence": "時間があれば来てください。",
+      "example_reading": "じかん が あれば きて ください。",
+      "example_meaning": "Please come if you have time."
+    },
+    {
+      "word": "～ようになる",
+      "reading": "you ni naru",
+      "meanings": [
+        "become able to ~",
+        "come to (do)"
+      ],
+      "jlpt": "N4",
+      "category": "change",
+      "context": "Plain form + ようになる = a gradual change of state. 食べられるようになった = (I) became able to eat (it). Compare with ～ようにする (consciously start doing).",
+      "example_sentence": "日本語が話せるようになりました。",
+      "example_reading": "にほんご が はなせる ように なりました。",
+      "example_meaning": "I've become able to speak Japanese."
+    },
+    {
+      "word": "～かもしれない",
+      "reading": "kamo shirenai",
+      "meanings": [
+        "might ~",
+        "maybe ~"
+      ],
+      "jlpt": "N4",
+      "category": "uncertainty",
+      "context": "Plain form + かもしれない = possibility ('might'). Casual: ～かも. Less certain than ～でしょう (probably) and far less certain than ～はず (should).",
+      "example_sentence": "雨が降るかもしれません。",
+      "example_reading": "あめ が ふる かも しれません。",
+      "example_meaning": "It might rain."
+    },
+    {
+      "word": "～でしょう",
+      "reading": "deshou",
+      "meanings": [
+        "probably",
+        "right?"
+      ],
+      "jlpt": "N5",
+      "category": "uncertainty",
+      "context": "Speaker's guess based on some evidence. Rising intonation = 'right?' (seeking agreement). Casual form: ～だろう. Stronger than かもしれない, weaker than はず.",
+      "example_sentence": "明日は晴れでしょう。",
+      "example_reading": "あした は はれ でしょう。",
+      "example_meaning": "Tomorrow will probably be sunny."
+    },
+    {
+      "word": "～ところ",
+      "reading": "tokoro",
+      "meanings": [
+        "just about to / just (did) / in the middle of"
+      ],
+      "jlpt": "N4",
+      "category": "aspect",
+      "context": "Tense before ところ pinpoints the moment: 食べるところ = about to eat; 食べているところ = in the middle of eating; 食べたところ = just ate. Same trio as English progressive aspect.",
+      "example_sentence": "今、食べているところです。",
+      "example_reading": "いま、 たべて いる ところ です。",
+      "example_meaning": "I'm in the middle of eating right now."
+    },
+    {
+      "word": "～ようだ / ～みたい",
+      "reading": "you da / mitai",
+      "meanings": [
+        "seems like ~"
+      ],
+      "jlpt": "N4",
+      "category": "appearance",
+      "context": "Subjective impression based on observation. ～ようだ is more formal/literary; ～みたい is casual and very common in speech. Both follow plain form.",
+      "example_sentence": "雨が降っているようです。",
+      "example_reading": "あめ が ふって いる よう です。",
+      "example_meaning": "It seems to be raining."
+    },
+    {
+      "word": "～らしい",
+      "reading": "rashii",
+      "meanings": [
+        "seems / I hear (hearsay)"
+      ],
+      "jlpt": "N4",
+      "category": "appearance",
+      "context": "Hearsay or inference based on external information (vs ～ようだ which is your own observation). 雨らしい = I hear it's raining (someone told me).",
+      "example_sentence": "彼は来ないらしいです。",
+      "example_reading": "かれ は こない らしい です。",
+      "example_meaning": "Apparently he's not coming."
+    },
+    {
+      "word": "～そうだ (hearsay)",
+      "reading": "sou da",
+      "meanings": [
+        "I hear that ~"
+      ],
+      "jlpt": "N4",
+      "category": "hearsay",
+      "context": "Plain form + そうだ = direct quote-like hearsay ('I heard that ~'). Distinct from the appearance ～そう (verb-stem そう = 'looks like ~').",
+      "example_sentence": "彼は結婚するそうです。",
+      "example_reading": "かれ は けっこん する そう です。",
+      "example_meaning": "I hear he's getting married."
+    },
+    {
+      "word": "～ても",
+      "reading": "te mo",
+      "meanings": [
+        "even if / even though"
+      ],
+      "jlpt": "N4",
+      "category": "concessive",
+      "context": "Te-form + も = concession. 雨が降っても行く = I'll go even if it rains.",
+      "example_sentence": "高くても買います。",
+      "example_reading": "たかくて も かいます。",
+      "example_meaning": "I'll buy it even if it's expensive."
+    }
+  ]
+}
