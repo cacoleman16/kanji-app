@@ -61,6 +61,7 @@ export function App() {
           <DeckDetail
             deck={deck}
             state={state}
+            setState={setStateFn}
             onBack={() =>
               go(
                 isUserDeck

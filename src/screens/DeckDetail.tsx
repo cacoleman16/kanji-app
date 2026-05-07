@@ -1,6 +1,8 @@
 import { useMemo, useState } from "react";
 
 import { ConjugationTableView } from "@/components/ConjugationTable";
+import { Modal } from "@/components/Modal";
+import { ReviewHistory } from "@/components/ReviewHistory";
 import type { AnyCard, AppState, Deck, Jlpt, KanjiCard, VocabCard } from "@/types";
 import { vocabWordSize } from "@/utils/format";
 
@@ -9,13 +11,15 @@ type Level = Jlpt | "all";
 interface DeckDetailProps {
   deck: Deck | undefined;
   state: AppState;
+  setState: (updater: (s: AppState) => AppState) => void;
   onBack: () => void;
   onStudy: (opts: { includeAll?: boolean }) => void;
 }
 
-export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
+export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetailProps) {
   const [peekIdx, setPeekIdx] = useState<number | null>(null);
   const [jlptFilter, setJlptFilter] = useState<Level>("all");
+  const [confirmReset, setConfirmReset] = useState(false);
 
   const jlptLevels = useMemo<Level[]>(() => {
     if (!deck || (deck.kind !== "vocab" && deck.kind !== "grammar")) return [];
@@ -75,6 +79,17 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
     return "learning";
   };
 
+  const handleResetDeck = () => {
+    setState((s) => {
+      const next = { ...s.progress };
+      for (const c of deck.cards) {
+        delete next[c.kanji];
+      }
+      return { ...s, progress: next };
+    });
+    setConfirmReset(false);
+  };
+
   return (
     <div className="fade-in">
       <div className="topbar">
@@ -131,6 +146,16 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
               ? `Start ${Math.min(newCount, state.settings.newPerDay)} new card${newCount === 1 ? "" : "s"}`
               : `Review all ${total} cards`}
       </button>
+
+      {learned > 0 && (
+        <button
+          className="link-btn deck-reset-btn"
+          onClick={() => setConfirmReset(true)}
+          aria-label="Reset progress for this deck"
+        >
+          Reset progress for this deck
+        </button>
+      )}
 
       <div className="section-label">All cards</div>
       {(deck.kind === "vocab" || deck.kind === "grammar") && jlptLevels.length > 1 && (
@@ -236,6 +261,7 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
                 <div className="secondary">{peek.meanings.slice(1).join(" · ")}</div>
               )}
             </div>
+            <ReviewHistory progress={state.progress[peek.kanji]} now={now} />
             {deck.kind === "grammar" ? (
               <>
                 {peekVocab?.conjugation_table && (
@@ -430,6 +456,28 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
           </div>
         </div>
       )}
+
+      <Modal
+        open={confirmReset}
+        tone="danger"
+        title="Reset deck progress?"
+        confirmLabel="Reset progress"
+        onConfirm={handleResetDeck}
+        onClose={() => setConfirmReset(false)}
+        body={
+          <>
+            <p style={{ margin: 0 }}>
+              This clears SM-2 progress for the {learned} learned card
+              {learned === 1 ? "" : "s"} in <strong>{deck.name}</strong>. They will be
+              treated as new on your next study session.
+            </p>
+            <p style={{ marginTop: 8, marginBottom: 0, fontSize: 13, opacity: 0.75 }}>
+              Note: cards shared with other decks will also lose progress (kanji are tracked
+              by character, not by deck). Streaks and stats are not affected.
+            </p>
+          </>
+        }
+      />
     </div>
   );
 }
