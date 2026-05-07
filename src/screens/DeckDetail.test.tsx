@@ -209,4 +209,25 @@ describe("<DeckDetail />", () => {
     // The needle's kanji is in the grid.
     expect(screen.getAllByText("特別").length).toBeGreaterThanOrEqual(1);
   });
+
+  it("renders an empty-state when the search returns no results", () => {
+    const cards = Array.from({ length: 30 }, (_, i) => makeKanjiCard(`字${i}`, `gloss${i}`));
+    const bigDeck: Deck = { ...TEST_DECK, cardCount: cards.length, cards };
+    render(
+      <DeckDetail
+        deck={bigDeck}
+        state={makeState()}
+        setState={vi.fn()}
+        onBack={vi.fn()}
+        onStudy={vi.fn()}
+      />,
+    );
+    fireEvent.change(screen.getByLabelText("Search cards"), {
+      target: { value: "nothingmatchesthis" },
+    });
+    expect(screen.getByText("No matches")).toBeTruthy();
+    // Clear-search shortcut appears in the empty-state secondary slot.
+    fireEvent.click(screen.getByText("Clear search"));
+    expect(screen.queryByText("No matches")).toBeNull();
+  });
 });

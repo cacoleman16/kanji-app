@@ -1748,6 +1748,16 @@
     margin-bottom: 6px;
     letter-spacing: -0.01em;
   }
+  .empty-state-cta {
+    margin-top: 16px;
+  }
+  .empty-state-secondary {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  .empty-state-secondary .link-btn {
+    color: var(--text-dim);
+  }
   .empty-state-body {
     font-size: 13px;
     line-height: 1.55;

@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 
 import { ConjugationTableView } from "@/components/ConjugationTable";
+import { EmptyState } from "@/components/EmptyState";
 import { Modal } from "@/components/Modal";
 import { ReviewHistory } from "@/components/ReviewHistory";
 import { useDeckCards } from "@/hooks/useDeckCards";
@@ -282,7 +283,29 @@ function DeckDetailInner({ deck, state, setState, onBack, onStudy }: DeckDetailP
           Mastered
         </span>
       </div>
-      {deck.kind === "grammar" ? (
+      {displayCards.length === 0 ? (
+        <EmptyState
+          mark="無"
+          title={search ? "No matches" : jlptFilter !== "all" ? `No ${jlptFilter} cards` : "No cards"}
+          body={
+            search
+              ? `Nothing in "${deck.name}" matches "${search}". Try a different keyword or clear the search.`
+              : "This filter has no cards. Try a different one."
+          }
+          secondary={
+            search ? (
+              <button className="link-btn" onClick={() => setSearch("")}>
+                Clear search
+              </button>
+            ) : jlptFilter !== "all" ? (
+              <button className="link-btn" onClick={() => setJlptFilter("all")}>
+                Show all levels
+              </button>
+            ) : null
+          }
+          style={{ marginTop: 16 }}
+        />
+      ) : deck.kind === "grammar" ? (
         <div className="grammar-list">
           {displayCards.map((c) => {
             const i = deck.cards.indexOf(c);

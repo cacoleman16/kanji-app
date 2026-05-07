@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 
 import { Badge } from "@/components/Badge";
+import { EmptyState } from "@/components/EmptyState";
 import { allDecks } from "@/data/allDecks";
 import { decksInGroup, groupFor, type DeckGroup } from "@/data/groups";
 import { isDeckUnlocked, isPro } from "@/entitlements/entitlement";
@@ -352,16 +353,17 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
       )}
 
       {activeTab === "vocab" && vocabTiles.length === 0 && (
-        <div
-          style={{
-            color: "var(--text-dim)",
-            fontSize: "14px",
-            textAlign: "center",
-            padding: "40px 0",
-          }}
-        >
-          No vocabulary decks yet.
-        </div>
+        <EmptyState
+          mark="言"
+          title="No vocab decks yet"
+          body="More themed vocab decks ship in the next release. In the meantime, build your own from CSV / TSV / Anki."
+          secondary={
+            <button className="link-btn" onClick={() => onNav({ name: "myDecks" })}>
+              Open My Decks
+            </button>
+          }
+          style={{ marginTop: 8 }}
+        />
       )}
 
       {activeTab === "grammar" && grammarTiles.length > 0 && (
@@ -372,16 +374,12 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
       )}
 
       {activeTab === "grammar" && grammarTiles.length === 0 && (
-        <div
-          style={{
-            color: "var(--text-dim)",
-            fontSize: "14px",
-            textAlign: "center",
-            padding: "40px 0",
-          }}
-        >
-          No grammar decks yet.
-        </div>
+        <EmptyState
+          mark="文"
+          title="No grammar decks yet"
+          body="Grammar pattern + verb-conjugation decks ship with Pro."
+          style={{ marginTop: 8 }}
+        />
       )}
     </div>
   );

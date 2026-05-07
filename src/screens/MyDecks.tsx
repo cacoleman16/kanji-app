@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import { EmptyState } from "@/components/EmptyState";
 import { Modal } from "@/components/Modal";
 import { FREE_LIMITS, canCreateUserDeck, isPro } from "@/entitlements/entitlement";
 import type { AppState, DeckKind } from "@/types";
@@ -155,16 +156,22 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
       )}
 
       {state.userDecks.length === 0 ? (
-        <div className="empty-state">
-          <div className="empty-state-mark" lang="ja">
-            自
-          </div>
-          <div className="empty-state-title">Your decks live here</div>
-          <div className="empty-state-body">
-            Create a deck for your textbook, your reading list, or anything you want to memorize.
-            Paste vocab from CSV / TSV / JSON, or upload an Anki <code>.apkg</code> in seconds.
-          </div>
-        </div>
+        <EmptyState
+          mark="自"
+          title="Your decks live here"
+          body={
+            <>
+              Create a deck for your textbook, your reading list, or anything you want to
+              memorize. Paste vocab from CSV / TSV / JSON, or upload an Anki <code>.apkg</code>
+              in seconds.
+            </>
+          }
+          cta={
+            <button className="primary-btn" onClick={() => setCreating(true)}>
+              Create your first deck
+            </button>
+          }
+        />
       ) : null}
 
       <div className="deck-list">

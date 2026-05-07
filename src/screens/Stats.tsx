@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 
 import { ActivityHeatmap } from "@/components/ActivityHeatmap";
+import { EmptyState } from "@/components/EmptyState";
 import { allDecks } from "@/data/allDecks";
 import { isDeckUnlocked } from "@/entitlements/entitlement";
 import { todayStr } from "@/storage/state";
@@ -214,16 +215,17 @@ export function Stats({ state, onBack }: StatsProps) {
 
       {/* ---------- Empty state: no reviews ever ---------- */}
       {totalReviews === 0 && (
-        <div className="empty-state" style={{ marginTop: 24 }}>
-          <div className="empty-state-mark" lang="ja">
-            始
-          </div>
-          <div className="empty-state-title">No reviews yet</div>
-          <div className="empty-state-body">
-            Once you finish a study session, your daily activity, accuracy, streak, and per-deck
-            progress will live here.
-          </div>
-        </div>
+        <EmptyState
+          mark="始"
+          title="No reviews yet"
+          body={
+            <>
+              Once you finish a study session, your daily activity, accuracy, streak, and
+              per-deck progress will live here.
+            </>
+          }
+          style={{ marginTop: 24 }}
+        />
       )}
 
       {/* ---------- Activity chart (7-day or 30-day) ---------- */}

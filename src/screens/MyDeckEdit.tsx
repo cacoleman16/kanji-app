@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import { EmptyState } from "@/components/EmptyState";
 import { Modal } from "@/components/Modal";
 import type { AppState, UserCard } from "@/types";
 import { addCard, deleteCard, renameDeck, updateCard } from "@/userDecks/userDecks";
@@ -221,16 +222,12 @@ export function MyDeckEdit({ deckId, state, setState, onBack }: MyDeckEditProps)
 
       <div className="section-label">Cards</div>
       {deck.cards.length === 0 ? (
-        <div
-          style={{
-            color: "var(--text-dim)",
-            fontSize: 14,
-            textAlign: "center",
-            padding: "24px 0",
-          }}
-        >
-          No cards yet. Add one above or import from CSV/JSON.
-        </div>
+        <EmptyState
+          mark="札"
+          title="No cards yet"
+          body="Add a card with the form above, or bulk-import a stack from CSV / TSV / JSON / Anki."
+          style={{ marginTop: 8 }}
+        />
       ) : (
         <div className="deck-list">
           {deck.cards.map((c, idx) => (
