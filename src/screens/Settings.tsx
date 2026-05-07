@@ -4,6 +4,11 @@ import { Modal } from "@/components/Modal";
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
 import { isNative, listBackupFiles, readBackupFile, shareText, writeBackupFile } from "@/native/bridge";
+import {
+  cancelDailyReminder,
+  requestNotificationPermission,
+  scheduleDailyReminder,
+} from "@/native/notifications";
 import { DEFAULT_STATE, parseImport, todayStr } from "@/storage/state";
 import type { AppState, ProPlan, Settings as SettingsT } from "@/types";
 
@@ -192,6 +197,56 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
       }
     } catch (err) {
       showInfo("Restore failed", (err as Error).message);
+    }
+  };
+
+  const reminderHour = state.settings.notificationsHour ?? 20;
+  const reminderMinute = state.settings.notificationsMinute ?? 0;
+  const remindersOn = state.settings.notificationsEnabled === true;
+
+  const reminderTimeStr = `${String(reminderHour).padStart(2, "0")}:${String(reminderMinute).padStart(2, "0")}`;
+
+  const handleToggleReminders = async (next: boolean) => {
+    if (next) {
+      // Asking permission can prompt iOS's system dialog.
+      const status = await requestNotificationPermission();
+      if (!status.supported) {
+        showInfo(
+          "Notifications ship with the iOS app",
+          "Daily review reminders run on the iOS native build (M4). On the web, set a phone alarm or add Kanjido to your Home Screen.",
+        );
+        return;
+      }
+      if (!status.granted) {
+        showInfo(
+          "Notification permission denied",
+          "Open iOS Settings → Notifications → Kanjido and turn 'Allow Notifications' on.",
+        );
+        return;
+      }
+      await scheduleDailyReminder({ hour: reminderHour, minute: reminderMinute });
+      setState((s) => ({
+        ...s,
+        settings: { ...s.settings, notificationsEnabled: true },
+      }));
+    } else {
+      await cancelDailyReminder();
+      setState((s) => ({
+        ...s,
+        settings: { ...s.settings, notificationsEnabled: false },
+      }));
+    }
+  };
+
+  const handleReminderTimeChange = async (value: string) => {
+    const [h, m] = value.split(":").map((s) => parseInt(s, 10));
+    if (isNaN(h) || isNaN(m)) return;
+    setState((s) => ({
+      ...s,
+      settings: { ...s.settings, notificationsHour: h, notificationsMinute: m },
+    }));
+    if (remindersOn) {
+      await scheduleDailyReminder({ hour: h, minute: m });
     }
   };
 
@@ -454,6 +509,58 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           Import
         </button>
       </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label" style={{ display: "flex", alignItems: "center", gap: 6 }}>
+            Daily reminder
+            {!isNative() && (
+              <span
+                style={{
+                  fontSize: 9,
+                  fontWeight: 600,
+                  letterSpacing: "0.06em",
+                  textTransform: "uppercase",
+                  color: "var(--text-dim)",
+                  background: "var(--surface-2)",
+                  padding: "2px 6px",
+                  borderRadius: 4,
+                }}
+              >
+                iOS only
+              </span>
+            )}
+          </div>
+          <div className="settings-sub">
+            {isNative()
+              ? `Push a daily "review your cards" reminder at ${reminderTimeStr}.`
+              : "Available on the iOS native app — daily push to keep your streak alive."}
+          </div>
+        </div>
+        <input
+          type="checkbox"
+          checked={remindersOn}
+          onChange={(e) => void handleToggleReminders(e.target.checked)}
+          aria-label="Daily review reminder"
+          style={{ width: 22, height: 22 }}
+        />
+      </div>
+
+      {isNative() && remindersOn && (
+        <div className="settings-row">
+          <div>
+            <div className="settings-label">Reminder time</div>
+            <div className="settings-sub">When to fire the daily reminder</div>
+          </div>
+          <input
+            type="time"
+            className="settings-value"
+            value={reminderTimeStr}
+            onChange={(e) => void handleReminderTimeChange(e.target.value)}
+            style={{ width: 110, fontFamily: "var(--font-ui)" }}
+          />
+        </div>
+      )}
 
       {isNative() && userIsPro && (
         <div className="settings-row">

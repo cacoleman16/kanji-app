@@ -120,6 +120,12 @@ export interface Settings {
   lastAutoBackupAt?: number;
   /** When false, skip auto-backup-after-session. Default true (opt-out). */
   autoBackupEnabled?: boolean;
+  /** When true, schedule a daily local notification at notificationsHour:Minute. */
+  notificationsEnabled?: boolean;
+  /** Hour of the daily reminder, 0-23. Default 20 (8 PM). */
+  notificationsHour?: number;
+  /** Minute of the daily reminder, 0-59. Default 0. */
+  notificationsMinute?: number;
 }
 
 export interface Streak {
