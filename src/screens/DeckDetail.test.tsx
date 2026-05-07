@@ -164,6 +164,23 @@ describe("<DeckDetail />", () => {
     expect(screen.queryByLabelText("Search cards")).toBeNull();
   });
 
+  it("emits a screen-reader-friendly aria-label combining kanji, gloss, and status", () => {
+    render(
+      <DeckDetail
+        deck={TEST_DECK}
+        state={makeState({ 一: makeProgress(10, 60) })}
+        setState={vi.fn()}
+        onBack={vi.fn()}
+        onStudy={vi.fn()}
+      />,
+    );
+    // Mastered: interval 60 + reps 10 → mastered status. Card 一 → "one".
+    const tile = screen.getByLabelText(/^一,\s*one,\s*mastered$/);
+    expect(tile).toBeTruthy();
+    // A "new" (unstudied) card carries "new card" in its label.
+    expect(screen.getByLabelText(/^二,\s*two,\s*new card$/)).toBeTruthy();
+  });
+
   it("shows the search input and filters on large decks", () => {
     // Build a 30-card deck — one with a unique keyword we'll search for.
     const cards = Array.from({ length: 30 }, (_, i) => makeKanjiCard(`字${i}`, `gloss${i}`));

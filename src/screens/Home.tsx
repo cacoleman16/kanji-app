@@ -105,12 +105,41 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
     return { kanjiTiles, vocabTiles, grammarTiles };
   }, [decks, dueByDeck]);
 
+  /** Build a screen-reader-friendly label like "JLPT N5: 12 due, 3 new" or "Mastered, all done". */
+  const tileAriaLabel = (
+    name: string,
+    due: number,
+    newCount: number,
+    extra?: string,
+    locked?: boolean,
+  ): string => {
+    const parts = [name];
+    if (extra) parts.push(extra);
+    if (locked) parts.push("Pro, locked");
+    if (due === 0 && newCount === 0) parts.push("all done");
+    else {
+      if (due > 0) parts.push(`${due} due`);
+      if (newCount > 0) parts.push(`${newCount} new`);
+    }
+    return parts.join(", ");
+  };
+
   const renderTile = (t: Tile) => {
     if (t.kind === "group") {
       const g = t.group;
       const allDone = t.due + t.newCount === 0;
       return (
-        <button key={"grp:" + g.id} className="deck-card" onClick={() => onOpenGroup(g.id)}>
+        <button
+          key={"grp:" + g.id}
+          className="deck-card"
+          onClick={() => onOpenGroup(g.id)}
+          aria-label={tileAriaLabel(
+            g.name,
+            t.due,
+            t.newCount,
+            `${t.memberCount} chapters, ${t.total} kanji`,
+          )}
+        >
           <div>
             <div className="deck-name">{g.name}</div>
             <div className="deck-sub">
@@ -145,6 +174,11 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
           onOpenDeck(d.id);
         }}
         disabled={!available}
+        aria-label={
+          !available
+            ? `${d.name}, coming soon`
+            : tileAriaLabel(d.name, info.due, info.newCount, d.subtitle, !unlocked)
+        }
       >
         <div>
           <div

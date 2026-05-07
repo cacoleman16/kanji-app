@@ -647,7 +647,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
               aria-label={`Again, didn't remember. Card returns in ${intervals.again}. Press 1.`}
             >
               Again
-              <span className="rating-interval">{intervals.again}</span>
+              <span className="rating-interval" aria-hidden>{intervals.again}</span>
             </button>
             <button
               className="rating-btn hard"
@@ -655,7 +655,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
               aria-label={`Hard, barely got it. Next review in ${intervals.hard}. Press 2.`}
             >
               Hard
-              <span className="rating-interval">{intervals.hard}</span>
+              <span className="rating-interval" aria-hidden>{intervals.hard}</span>
             </button>
             <button
               className="rating-btn good"
@@ -663,7 +663,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
               aria-label={`Good, got it. Next review in ${intervals.good}. Press 3.`}
             >
               Good
-              <span className="rating-interval">{intervals.good}</span>
+              <span className="rating-interval" aria-hidden>{intervals.good}</span>
             </button>
             <button
               className="rating-btn easy"
@@ -671,7 +671,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
               aria-label={`Easy, instant recall. Next review in ${intervals.easy}. Press 4.`}
             >
               Easy
-              <span className="rating-interval">{intervals.easy}</span>
+              <span className="rating-interval" aria-hidden>{intervals.easy}</span>
             </button>
           </div>
         )}

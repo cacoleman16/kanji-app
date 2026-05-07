@@ -95,6 +95,21 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
     return "learning";
   };
 
+  /** Compose a screen-reader-friendly label combining card front, gloss, and status. */
+  const cardTileAriaLabel = (c: AnyCard): string => {
+    const status = statusFor(c);
+    const gloss = c.keyword || c.meanings[0] || "";
+    const statusWord =
+      status === "new"
+        ? "new card"
+        : status === "due"
+          ? "due for review"
+          : status === "mastered"
+            ? "mastered"
+            : "learning";
+    return `${c.kanji}, ${gloss}, ${statusWord}`;
+  };
+
   const handleResetDeck = () => {
     setState((s) => {
       const next = { ...s.progress };
@@ -121,7 +136,11 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
         <div className="deck-detail-sub">{deck.subtitle}</div>
       </div>
 
-      <div className="deck-stats-grid">
+      <div
+        className="deck-stats-grid"
+        role="group"
+        aria-label={`Deck progress: ${learned} of ${total} learned, ${mastered} mastered, ${due} due now, ${newCount} new`}
+      >
         <div className="mini-stat">
           <div className="mini-stat-lbl">Learned</div>
           <div className="mini-stat-val">
@@ -217,7 +236,7 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
           ))}
         </div>
       )}
-      <div className="legend">
+      <div className="legend" aria-hidden>
         <span className="legend-item">
           <span className="legend-dot" style={{ background: "var(--text-dim)", opacity: 0.35 }} />
           New
@@ -245,9 +264,9 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
                 key={c.kanji}
                 className="grammar-row"
                 onClick={() => setPeekIdx(i)}
-                aria-label={`${c.kanji} — ${c.meanings[0] ?? ""}`}
+                aria-label={cardTileAriaLabel(c)}
               >
-                <span className={`status-dot ${statusFor(c)}`} />
+                <span className={`status-dot ${statusFor(c)}`} aria-hidden />
                 <div style={{ minWidth: 0 }}>
                   <div className="grammar-row-pattern" lang="ja">
                     {c.kanji}
@@ -266,12 +285,19 @@ export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetai
           {displayCards.map((c) => {
             const i = deck.cards.indexOf(c);
             return (
-              <button key={c.kanji} className="card-tile" onClick={() => setPeekIdx(i)}>
-                <span className={`status-dot ${statusFor(c)}`} />
-                <span className="card-tile-kanji" lang="ja">
+              <button
+                key={c.kanji}
+                className="card-tile"
+                onClick={() => setPeekIdx(i)}
+                aria-label={cardTileAriaLabel(c)}
+              >
+                <span className={`status-dot ${statusFor(c)}`} aria-hidden />
+                <span className="card-tile-kanji" lang="ja" aria-hidden>
                   {c.kanji}
                 </span>
-                <span className="card-tile-keyword">{c.keyword || c.meanings[0]}</span>
+                <span className="card-tile-keyword" aria-hidden>
+                  {c.keyword || c.meanings[0]}
+                </span>
               </button>
             );
           })}

@@ -189,22 +189,29 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
                 </div>
               </div>
             </div>
-            <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
+            <div
+              style={{ display: "flex", gap: 6, flexWrap: "wrap" }}
+              role="group"
+              aria-label={`Actions for ${d.name}`}
+            >
               <button
                 className="filter-chip"
                 onClick={() => go({ name: "deck", deckId: d.id })}
+                aria-label={`Open ${d.name}`}
               >
                 Open
               </button>
               <button
                 className="filter-chip"
                 onClick={() => go({ name: "myDeckImport", deckId: d.id })}
+                aria-label={`Import cards into ${d.name}`}
               >
                 Import cards
               </button>
               <button
                 className="filter-chip"
                 onClick={() => go({ name: "myDeckEdit", deckId: d.id })}
+                aria-label={`Edit ${d.name}`}
               >
                 Edit
               </button>
@@ -212,6 +219,7 @@ export function MyDecks({ state, setState, onBack, go }: MyDecksProps) {
                 className="filter-chip"
                 onClick={() => askDelete(d.id, d.name)}
                 style={{ borderColor: "rgba(248, 113, 113, 0.35)", color: "var(--again)" }}
+                aria-label={`Delete ${d.name}`}
               >
                 Delete
               </button>
