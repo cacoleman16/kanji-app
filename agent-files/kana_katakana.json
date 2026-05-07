@@ -2,9 +2,9 @@
   "deck_id": "kana-katakana",
   "deck_name": "Katakana (カタカナ)",
   "subtitle": "Foreign words + emphasis · the angular kana",
-  "version": "1.0",
+  "version": "2.0",
   "card_count": 46,
-  "notes": "Katakana is used for loanwords, foreign names, and emphasis. Same 46-sound table as hiragana but with sharper, angular forms.",
+  "notes": "Katakana is used for loanwords, foreign names, and emphasis. Same 46-sound table as hiragana but with sharper, angular forms. Each card pairs the katakana with its hiragana counterpart, the dakuten/handakuten variants, and 2 real loanword examples (the typical katakana use case).",
   "source": "Hand-authored for Kanjido v1.",
   "cards": [
     {
@@ -15,15 +15,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ア",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "アイス",
+          "kana": "aisu",
+          "meaning": "ice cream"
+        },
+        {
+          "kanji": "アジア",
+          "kana": "ajia",
+          "meaning": "Asia"
+        }
+      ],
       "keyword": "a",
-      "etymology": "あ has the 'a' shape of an apple core; ア is the 'A' on its side.",
+      "etymology": "あ has the curl of an apple core; ア is an angular 'A' on its side.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "あ"
     },
     {
       "kanji": "イ",
@@ -33,15 +45,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "イ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "イタリア",
+          "kana": "itaria",
+          "meaning": "Italy"
+        },
+        {
+          "kanji": "インド",
+          "kana": "indo",
+          "meaning": "India"
+        }
+      ],
       "keyword": "i",
-      "etymology": "い is two 'eels' wiggling; イ is a stripped-down 'i'.",
+      "etymology": "い is two eels wiggling side by side; イ is the bare bones of an 'i'.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "い"
     },
     {
       "kanji": "ウ",
@@ -51,15 +75,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ウ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ウール",
+          "kana": "ūru",
+          "meaning": "wool"
+        },
+        {
+          "kanji": "ウィルス",
+          "kana": "wirusu",
+          "meaning": "virus"
+        }
+      ],
       "keyword": "u",
-      "etymology": "う is mouth saying 'oo'; ウ is the 'U' with a hat.",
+      "etymology": "う is a mouth saying 'oo'; ウ wears a hat over a cup.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "う"
     },
     {
       "kanji": "エ",
@@ -69,15 +105,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "エ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "エビ",
+          "kana": "ebi",
+          "meaning": "shrimp (often in katakana on menus)"
+        },
+        {
+          "kanji": "エネルギー",
+          "kana": "enerugī",
+          "meaning": "energy"
+        }
+      ],
       "keyword": "e",
-      "etymology": "え looks like an exotic bird (think 'eyy'); エ is an 'E' tipped.",
+      "etymology": "え looks like a wading crane crying 'eyy'; エ is an 'E' tipped over.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "え"
     },
     {
       "kanji": "オ",
@@ -87,7 +135,18 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "オ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "オレンジ",
+          "kana": "orenji",
+          "meaning": "orange"
+        },
+        {
+          "kanji": "オーストラリア",
+          "kana": "ōsutoraria",
+          "meaning": "Australia"
+        }
+      ],
       "keyword": "o",
       "etymology": "お is a person doing the 'oh!' pose; オ is an 'O' with an arrow.",
       "stroke_count": null,
@@ -95,7 +154,8 @@
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "お"
     },
     {
       "kanji": "カ",
@@ -105,15 +165,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "カ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "カメラ",
+          "kana": "kamera",
+          "meaning": "camera"
+        },
+        {
+          "kanji": "カナダ",
+          "kana": "kanada",
+          "meaning": "Canada"
+        }
+      ],
       "keyword": "ka",
-      "etymology": "か is a 'ka'rate kick; カ is the same kick, sharper.",
+      "etymology": "か is mid-karate-kick; カ is the same kick, sharper.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "か",
+      "dakuten": {
+        "kana": "ガ",
+        "romaji": "ga"
+      }
     },
     {
       "kanji": "キ",
@@ -123,15 +199,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "キ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "キス",
+          "kana": "kisu",
+          "meaning": "kiss"
+        },
+        {
+          "kanji": "キーボード",
+          "kana": "kībōdo",
+          "meaning": "keyboard"
+        }
+      ],
       "keyword": "ki",
-      "etymology": "き has two 'keys' on a chain; キ is one 'key' shape.",
+      "etymology": "き has two keys on a chain; キ is the simplified key shape.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "き",
+      "dakuten": {
+        "kana": "ギ",
+        "romaji": "gi"
+      }
     },
     {
       "kanji": "ク",
@@ -141,15 +233,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ク",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "クッキー",
+          "kana": "kukkī",
+          "meaning": "cookie"
+        },
+        {
+          "kanji": "クラス",
+          "kana": "kurasu",
+          "meaning": "class"
+        }
+      ],
       "keyword": "ku",
-      "etymology": "く is a 'cu'-cu's beak; ク is a 'cu'rved hook.",
+      "etymology": "く is a cuckoo's beak; ク is a curved hook.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "く",
+      "dakuten": {
+        "kana": "グ",
+        "romaji": "gu"
+      }
     },
     {
       "kanji": "ケ",
@@ -159,15 +267,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ケ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ケーキ",
+          "kana": "kēki",
+          "meaning": "cake"
+        },
+        {
+          "kanji": "ケース",
+          "kana": "kēsu",
+          "meaning": "case"
+        }
+      ],
       "keyword": "ke",
-      "etymology": "け is a 'ke'g with a tap; ケ is a 'ke'tchup squiggle.",
+      "etymology": "け is a keg with a tap; ケ is a ketchup squiggle.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "け",
+      "dakuten": {
+        "kana": "ゲ",
+        "romaji": "ge"
+      }
     },
     {
       "kanji": "コ",
@@ -177,15 +301,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "コ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "コーヒー",
+          "kana": "kōhī",
+          "meaning": "coffee"
+        },
+        {
+          "kanji": "コップ",
+          "kana": "koppu",
+          "meaning": "cup"
+        }
+      ],
       "keyword": "ko",
-      "etymology": "こ is two 'co'ins stacked; コ is a 'co'rner bracket.",
+      "etymology": "こ is two coins stacked; コ is a corner bracket.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "こ",
+      "dakuten": {
+        "kana": "ゴ",
+        "romaji": "go"
+      }
     },
     {
       "kanji": "サ",
@@ -195,15 +335,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "サ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "サラダ",
+          "kana": "sarada",
+          "meaning": "salad"
+        },
+        {
+          "kanji": "サイズ",
+          "kana": "saizu",
+          "meaning": "size"
+        }
+      ],
       "keyword": "sa",
-      "etymology": "さ has a 'sa'mba dancer's hip-swing; サ has three 'sa'sa swords.",
+      "etymology": "さ has a samba dancer's hip-swing; サ has three sasa-sword strokes.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "さ",
+      "dakuten": {
+        "kana": "ザ",
+        "romaji": "za"
+      }
     },
     {
       "kanji": "シ",
@@ -213,15 +369,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "シ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "シャツ",
+          "kana": "shatsu",
+          "meaning": "shirt"
+        },
+        {
+          "kanji": "シェフ",
+          "kana": "shefu",
+          "meaning": "chef"
+        }
+      ],
       "keyword": "shi",
-      "etymology": "し is a 'shi'p hook; シ has three 'shi'mmer marks.",
+      "etymology": "し is a ship's hook; シ has three shimmer marks (looks like 'tsu' below).",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "し",
+      "dakuten": {
+        "kana": "ジ",
+        "romaji": "ji"
+      }
     },
     {
       "kanji": "ス",
@@ -231,15 +403,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ス",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "スープ",
+          "kana": "sūpu",
+          "meaning": "soup"
+        },
+        {
+          "kanji": "スマホ",
+          "kana": "sumaho",
+          "meaning": "smartphone"
+        }
+      ],
       "keyword": "su",
-      "etymology": "す is a 'su'shi roll on a stick; ス is a 'su'iss-army knife.",
+      "etymology": "す is a sushi roll on a stick; ス is a Swiss-army knife shape.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "す",
+      "dakuten": {
+        "kana": "ズ",
+        "romaji": "zu"
+      }
     },
     {
       "kanji": "セ",
@@ -249,15 +437,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "セ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "セット",
+          "kana": "setto",
+          "meaning": "set"
+        },
+        {
+          "kanji": "セーター",
+          "kana": "sētā",
+          "meaning": "sweater"
+        }
+      ],
       "keyword": "se",
-      "etymology": "せ is the number 'se'ven (7) with a stroke; セ is also '7'-like.",
+      "etymology": "せ has the silhouette of a 7 with a stroke; セ is also '7'-like.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "せ",
+      "dakuten": {
+        "kana": "ゼ",
+        "romaji": "ze"
+      }
     },
     {
       "kanji": "ソ",
@@ -267,15 +471,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ソ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ソース",
+          "kana": "sōsu",
+          "meaning": "sauce"
+        },
+        {
+          "kanji": "ソファ",
+          "kana": "sofa",
+          "meaning": "sofa"
+        }
+      ],
       "keyword": "so",
-      "etymology": "そ is 'so' written quickly; ソ has two 'so'rry tear-drops.",
+      "etymology": "そ is 'so' written quickly; ソ has two sorry-tear-drops.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "そ",
+      "dakuten": {
+        "kana": "ゾ",
+        "romaji": "zo"
+      }
     },
     {
       "kanji": "タ",
@@ -285,15 +505,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "タ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "タクシー",
+          "kana": "takushī",
+          "meaning": "taxi"
+        },
+        {
+          "kanji": "タオル",
+          "kana": "taoru",
+          "meaning": "towel"
+        }
+      ],
       "keyword": "ta",
-      "etymology": "た is 'ta' for tower (looks like a flag); タ is a 'ta'lon shape.",
+      "etymology": "た is 'ta' for a tower with a flag; タ is a talon shape.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "た",
+      "dakuten": {
+        "kana": "ダ",
+        "romaji": "da"
+      }
     },
     {
       "kanji": "チ",
@@ -303,15 +539,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "チ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "チーズ",
+          "kana": "chīzu",
+          "meaning": "cheese"
+        },
+        {
+          "kanji": "チケット",
+          "kana": "chiketto",
+          "meaning": "ticket"
+        }
+      ],
       "keyword": "chi",
-      "etymology": "ち is a 'chee'rio shape; チ is a 'chi'-square mark.",
+      "etymology": "ち is a Cheerio shape; チ is a chi-square mark.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ち",
+      "dakuten": {
+        "kana": "ヂ",
+        "romaji": "ji (rare)"
+      }
     },
     {
       "kanji": "ツ",
@@ -321,15 +573,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ツ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ツアー",
+          "kana": "tsuā",
+          "meaning": "tour"
+        },
+        {
+          "kanji": "ツナ",
+          "kana": "tsuna",
+          "meaning": "tuna"
+        }
+      ],
       "keyword": "tsu",
-      "etymology": "つ is a 'tsu'nami curl; ツ is the 'tsu'rprised face (smile).",
+      "etymology": "つ is a tsunami curl; ツ is the sideways 'tsu'-rprised face (smile).",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "つ",
+      "dakuten": {
+        "kana": "ヅ",
+        "romaji": "zu (rare)"
+      }
     },
     {
       "kanji": "テ",
@@ -339,15 +607,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "テ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "テスト",
+          "kana": "tesuto",
+          "meaning": "test"
+        },
+        {
+          "kanji": "テーブル",
+          "kana": "tēburu",
+          "meaning": "table"
+        }
+      ],
       "keyword": "te",
-      "etymology": "て has a 'te'lephone receiver shape; テ is a 'te' antenna.",
+      "etymology": "て has a telephone-receiver shape; テ is a 'te' antenna.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "て",
+      "dakuten": {
+        "kana": "デ",
+        "romaji": "de"
+      }
     },
     {
       "kanji": "ト",
@@ -357,15 +641,31 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ト",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "トイレ",
+          "kana": "toire",
+          "meaning": "toilet"
+        },
+        {
+          "kanji": "トマト",
+          "kana": "tomato",
+          "meaning": "tomato"
+        }
+      ],
       "keyword": "to",
-      "etymology": "と is a 'to'ed shoe and pin; ト is a 'to'rch.",
+      "etymology": "と is a toed shoe with a pin; ト is a torch.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "と",
+      "dakuten": {
+        "kana": "ド",
+        "romaji": "do"
+      }
     },
     {
       "kanji": "ナ",
@@ -375,15 +675,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ナ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ナイフ",
+          "kana": "naifu",
+          "meaning": "knife"
+        },
+        {
+          "kanji": "ナチュラル",
+          "kana": "nachuraru",
+          "meaning": "natural"
+        }
+      ],
       "keyword": "na",
-      "etymology": "な is 'na'noma, looks like a kitten; ナ is a 'na'il cross.",
+      "etymology": "な resembles a kitten ('na-noma'); ナ is a nail cross.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "な"
     },
     {
       "kanji": "ニ",
@@ -393,15 +705,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ニ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ニュース",
+          "kana": "nyūsu",
+          "meaning": "news"
+        },
+        {
+          "kanji": "ニンジン",
+          "kana": "ninjin",
+          "meaning": "carrot"
+        }
+      ],
       "keyword": "ni",
-      "etymology": "に is two 'ni'kel coins side by side; ニ is just two lines (2 = ni).",
+      "etymology": "に is two nickel coins; ニ is just two lines (2 = ni).",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "に"
     },
     {
       "kanji": "ヌ",
@@ -411,15 +735,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ヌ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ヌードル",
+          "kana": "nūdoru",
+          "meaning": "noodle"
+        },
+        {
+          "kanji": "ヌガー",
+          "kana": "nugā",
+          "meaning": "nougat"
+        }
+      ],
       "keyword": "nu",
-      "etymology": "ぬ is a 'nu'dle bowl with chopsticks; ヌ is a 'nu'-deer sketch.",
+      "etymology": "ぬ is a noodle bowl with chopsticks; ヌ is a no-deer sketch.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ぬ"
     },
     {
       "kanji": "ネ",
@@ -429,15 +765,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ネ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ネコ",
+          "kana": "neko",
+          "meaning": "cat (often katakana for emphasis)"
+        },
+        {
+          "kanji": "ネット",
+          "kana": "netto",
+          "meaning": "net / online"
+        }
+      ],
       "keyword": "ne",
-      "etymology": "ね has a cat's tail ('ne'ko = cat); ネ has a small cat shape.",
+      "etymology": "ね has a cat's tail (ねこ = neko/cat); ネ has a small cat-like top.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ね"
     },
     {
       "kanji": "ノ",
@@ -447,15 +795,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ノ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ノート",
+          "kana": "nōto",
+          "meaning": "notebook"
+        },
+        {
+          "kanji": "ノー",
+          "kana": "nō",
+          "meaning": "no"
+        }
+      ],
       "keyword": "no",
-      "etymology": "の is a 'no' entry sign; ノ is a single 'no' slash.",
+      "etymology": "の is a no-entry sign; ノ is a single no-slash.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "の"
     },
     {
       "kanji": "ハ",
@@ -465,15 +825,35 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ハ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ハム",
+          "kana": "hamu",
+          "meaning": "ham"
+        },
+        {
+          "kanji": "ハワイ",
+          "kana": "hawai",
+          "meaning": "Hawaii"
+        }
+      ],
       "keyword": "ha",
-      "etymology": "は is a 'ha'-haha laugh shape; ハ is two 'ha'ha lines.",
+      "etymology": "は is the hahaha-laugh shape; ハ is two hahaha lines.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "は",
+      "dakuten": {
+        "kana": "バ",
+        "romaji": "ba"
+      },
+      "handakuten": {
+        "kana": "パ",
+        "romaji": "pa"
+      }
     },
     {
       "kanji": "ヒ",
@@ -483,7 +863,18 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ヒ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ヒーロー",
+          "kana": "hīrō",
+          "meaning": "hero"
+        },
+        {
+          "kanji": "ヒント",
+          "kana": "hinto",
+          "meaning": "hint"
+        }
+      ],
       "keyword": "hi",
       "etymology": "ひ is a smile saying 'hee'; ヒ is a 'hi' chair.",
       "stroke_count": null,
@@ -491,7 +882,16 @@
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ひ",
+      "dakuten": {
+        "kana": "ビ",
+        "romaji": "bi"
+      },
+      "handakuten": {
+        "kana": "ピ",
+        "romaji": "pi"
+      }
     },
     {
       "kanji": "フ",
@@ -501,15 +901,35 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "フ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "フォーク",
+          "kana": "fōku",
+          "meaning": "fork"
+        },
+        {
+          "kanji": "フランス",
+          "kana": "furansu",
+          "meaning": "France"
+        }
+      ],
       "keyword": "fu",
-      "etymology": "ふ is Mt 'Fu'ji's silhouette; フ is the same hill simplified.",
+      "etymology": "ふ is Mt Fuji's silhouette; フ is the same hill simplified.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ふ",
+      "dakuten": {
+        "kana": "ブ",
+        "romaji": "bu"
+      },
+      "handakuten": {
+        "kana": "プ",
+        "romaji": "pu"
+      }
     },
     {
       "kanji": "ヘ",
@@ -519,15 +939,35 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ヘ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ヘッド",
+          "kana": "heddo",
+          "meaning": "head"
+        },
+        {
+          "kanji": "ヘリ",
+          "kana": "heri",
+          "meaning": "helicopter (short)"
+        }
+      ],
       "keyword": "he",
-      "etymology": "へ is a small 'he'lmet curve; ヘ is the same curve.",
+      "etymology": "へ is a small helmet curve; ヘ is the same curve.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "へ",
+      "dakuten": {
+        "kana": "ベ",
+        "romaji": "be"
+      },
+      "handakuten": {
+        "kana": "ペ",
+        "romaji": "pe"
+      }
     },
     {
       "kanji": "ホ",
@@ -537,15 +977,35 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ホ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ホテル",
+          "kana": "hoteru",
+          "meaning": "hotel"
+        },
+        {
+          "kanji": "ホット",
+          "kana": "hotto",
+          "meaning": "hot"
+        }
+      ],
       "keyword": "ho",
-      "etymology": "ほ is a 'ho'me with a cross; ホ is a 'ho'spital cross.",
+      "etymology": "ほ is a home with a cross; ホ is a hospital cross.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ほ",
+      "dakuten": {
+        "kana": "ボ",
+        "romaji": "bo"
+      },
+      "handakuten": {
+        "kana": "ポ",
+        "romaji": "po"
+      }
     },
     {
       "kanji": "マ",
@@ -555,15 +1015,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "マ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "マスク",
+          "kana": "masuku",
+          "meaning": "mask"
+        },
+        {
+          "kanji": "マンション",
+          "kana": "manshon",
+          "meaning": "apartment"
+        }
+      ],
       "keyword": "ma",
-      "etymology": "ま is 'ma'mba snake coiled; マ is a 'ma'rk.",
+      "etymology": "ま is a mamba snake coiled; マ is a marker tick.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ま"
     },
     {
       "kanji": "ミ",
@@ -573,15 +1045,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ミ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ミルク",
+          "kana": "miruku",
+          "meaning": "milk"
+        },
+        {
+          "kanji": "ミニ",
+          "kana": "mini",
+          "meaning": "mini"
+        }
+      ],
       "keyword": "mi",
-      "etymology": "み is a 'mi'-mi (21) snake; ミ is three 'mi'mes' lines.",
+      "etymology": "み is a mi-mi (number 21) snake; ミ is three mimes' lines.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "み"
     },
     {
       "kanji": "ム",
@@ -591,15 +1075,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ム",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ムード",
+          "kana": "mūdo",
+          "meaning": "mood"
+        },
+        {
+          "kanji": "ムービー",
+          "kana": "mūbī",
+          "meaning": "movie"
+        }
+      ],
       "keyword": "mu",
-      "etymology": "む is a 'mu'cow with horns; ム is a 'mu'le's ear.",
+      "etymology": "む is a mu-cow with horns; ム is a mule's ear.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "む"
     },
     {
       "kanji": "メ",
@@ -609,15 +1105,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "メ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "メール",
+          "kana": "mēru",
+          "meaning": "email"
+        },
+        {
+          "kanji": "メモ",
+          "kana": "memo",
+          "meaning": "memo"
+        }
+      ],
       "keyword": "me",
-      "etymology": "め is an 'me'-eye (an eye); メ is a 'me' X mark.",
+      "etymology": "め is a 'me'-eye shape; メ is a 'me' X mark.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "め"
     },
     {
       "kanji": "モ",
@@ -627,15 +1135,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "モ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "モデル",
+          "kana": "moderu",
+          "meaning": "model"
+        },
+        {
+          "kanji": "モバイル",
+          "kana": "mobairu",
+          "meaning": "mobile"
+        }
+      ],
       "keyword": "mo",
-      "etymology": "も is a 'mo'ther fish hook; モ is a 'mo'p stand.",
+      "etymology": "も is a mother fish hook; モ is a mop stand.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "も"
     },
     {
       "kanji": "ヤ",
@@ -645,15 +1165,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ヤ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ヤシ",
+          "kana": "yashi",
+          "meaning": "palm tree"
+        },
+        {
+          "kanji": "ヤング",
+          "kana": "yangu",
+          "meaning": "young"
+        }
+      ],
       "keyword": "ya",
-      "etymology": "や is a 'ya'cht with anchor; ヤ is a 'ya'rd-stick.",
+      "etymology": "や is a yacht with anchor; ヤ is a yard-stick.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "や"
     },
     {
       "kanji": "ユ",
@@ -663,15 +1195,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ユ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ユーロ",
+          "kana": "yūro",
+          "meaning": "euro"
+        },
+        {
+          "kanji": "ユニフォーム",
+          "kana": "yunifōmu",
+          "meaning": "uniform"
+        }
+      ],
       "keyword": "yu",
-      "etymology": "ゆ is a 'yu'-shaped fish; ユ is a 'yu' bracket.",
+      "etymology": "ゆ is a yu-shaped fish; ユ is a yu-bracket.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ゆ"
     },
     {
       "kanji": "ヨ",
@@ -681,15 +1225,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ヨ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ヨガ",
+          "kana": "yoga",
+          "meaning": "yoga"
+        },
+        {
+          "kanji": "ヨーロッパ",
+          "kana": "yōroppa",
+          "meaning": "Europe"
+        }
+      ],
       "keyword": "yo",
-      "etymology": "よ is a 'yo'-yo on a string; ヨ is a 'yo' with three teeth.",
+      "etymology": "よ is a yo-yo on a string; ヨ is a yo with three teeth.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "よ"
     },
     {
       "kanji": "ラ",
@@ -699,15 +1255,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ラ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ラジオ",
+          "kana": "rajio",
+          "meaning": "radio"
+        },
+        {
+          "kanji": "ランチ",
+          "kana": "ranchi",
+          "meaning": "lunch"
+        }
+      ],
       "keyword": "ra",
-      "etymology": "ら is a 'ra'bbit ear; ラ is a 'ra'cing helmet.",
+      "etymology": "ら is a rabbit ear; ラ is a racing helmet.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ら"
     },
     {
       "kanji": "リ",
@@ -717,15 +1285,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "リ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "リスト",
+          "kana": "risuto",
+          "meaning": "list"
+        },
+        {
+          "kanji": "リモコン",
+          "kana": "rimokon",
+          "meaning": "remote control"
+        }
+      ],
       "keyword": "ri",
-      "etymology": "り is two 'ri'ng-pull tabs; リ is two 'ri'ver lines.",
+      "etymology": "り is two ring-pull tabs; リ is two river lines.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "り"
     },
     {
       "kanji": "ル",
@@ -735,15 +1315,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ル",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ルール",
+          "kana": "rūru",
+          "meaning": "rule"
+        },
+        {
+          "kanji": "ルーム",
+          "kana": "rūmu",
+          "meaning": "room"
+        }
+      ],
       "keyword": "ru",
-      "etymology": "る is a 'ru'-rural curl with a knot; ル is two 'ru'nning legs.",
+      "etymology": "る is a rural curl with a knot; ル is two running legs.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "る"
     },
     {
       "kanji": "レ",
@@ -753,15 +1345,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "レ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "レストラン",
+          "kana": "resutoran",
+          "meaning": "restaurant"
+        },
+        {
+          "kanji": "レモン",
+          "kana": "remon",
+          "meaning": "lemon"
+        }
+      ],
       "keyword": "re",
-      "etymology": "れ has a 'le'aning-back person; レ is an 'L'-shaped checkmark.",
+      "etymology": "れ has a leaning-back person; レ is an L-shaped checkmark.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "れ"
     },
     {
       "kanji": "ロ",
@@ -771,15 +1375,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ロ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ロボット",
+          "kana": "robotto",
+          "meaning": "robot"
+        },
+        {
+          "kanji": "ロンドン",
+          "kana": "rondon",
+          "meaning": "London"
+        }
+      ],
       "keyword": "ro",
-      "etymology": "ろ is a 'ro'ad bend; ロ is a 'ro'om square.",
+      "etymology": "ろ is a road bend; ロ is a room square.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ろ"
     },
     {
       "kanji": "ワ",
@@ -789,33 +1405,52 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ワ",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "ワイン",
+          "kana": "wain",
+          "meaning": "wine"
+        },
+        {
+          "kanji": "ワッフル",
+          "kana": "waffuru",
+          "meaning": "waffle"
+        }
+      ],
       "keyword": "wa",
-      "etymology": "わ is a 'wa've crashing; ワ is a 'wa'lk-sign hat.",
+      "etymology": "わ is a wave crashing; ワ is a walk-sign hat.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "わ"
     },
     {
       "kanji": "ヲ",
       "meanings": [
-        "'wo/o' sound"
+        "'wo' sound"
       ],
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ヲ",
-      "examples": [],
-      "keyword": "wo/o",
-      "etymology": "を is the object-marker particle (rare otherwise); ヲ is rarer still.",
+      "examples": [
+        {
+          "kanji": "カタカナのヲ",
+          "kana": "katakana no wo",
+          "meaning": "katakana ヲ — almost archaic"
+        }
+      ],
+      "keyword": "wo",
+      "etymology": "を is the object-marker particle (heard 'o' in modern speech); ヲ is rarer still.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "を"
     },
     {
       "kanji": "ン",
@@ -825,15 +1460,27 @@
       "on_yomi": [],
       "kun_yomi": [],
       "reading": "ン",
-      "examples": [],
+      "examples": [
+        {
+          "kanji": "パン",
+          "kana": "pan",
+          "meaning": "bread"
+        },
+        {
+          "kanji": "レモン",
+          "kana": "remon",
+          "meaning": "lemon"
+        }
+      ],
       "keyword": "n",
-      "etymology": "ん is the trailing-'n' of 'sayonara'; ン looks like a tilted 'n'.",
+      "etymology": "ん is the trailing 'n' of 'sayonara'; ン looks like a tilted 'n'.",
       "stroke_count": null,
       "jlpt": null,
       "grade": null,
       "decks": [
         "Katakana"
-      ]
+      ],
+      "paired_kana": "ん"
     }
   ]
 }

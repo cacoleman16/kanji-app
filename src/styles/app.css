@@ -771,6 +771,71 @@
     display: inline-block;
   }
 
+  /* ---------- Kana back-of-card variants (pair + voiced + examples) ---------- */
+  .kana-pair-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 12px;
+    background: var(--surface-2);
+    border-radius: 10px;
+  }
+  .kana-pair-cell {
+    text-align: center;
+    padding: 8px 4px;
+  }
+  .kana-pair-label {
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin-bottom: 4px;
+  }
+  .kana-pair-char {
+    font-family: var(--font-jp);
+    font-size: 36px;
+    line-height: 1;
+    color: var(--text);
+    font-weight: 500;
+  }
+  .kana-pair-romaji {
+    font-size: 11px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    letter-spacing: 0.04em;
+  }
+
+  .kana-variant-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 12px;
+    background: var(--surface-2);
+    border-radius: 10px;
+  }
+  .kana-variant-row + .kana-variant-row {
+    margin-top: 6px;
+  }
+  .kana-variant-label {
+    font-size: 9px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    min-width: 80px;
+  }
+  .kana-variant-char {
+    font-family: var(--font-jp);
+    font-size: 22px;
+    color: var(--text);
+    line-height: 1;
+  }
+  .kana-variant-romaji {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-left: auto;
+    letter-spacing: 0.04em;
+  }
+
   /* ---------- Grammar list (DeckDetail layout for grammar decks) ---------- */
   .grammar-list {
     display: flex;

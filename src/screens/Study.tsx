@@ -5,7 +5,16 @@ import { haptic, hapticSelection } from "@/native/bridge";
 import { previewIntervals, sm2 } from "@/srs/sm2";
 import { buildQueue, shuffleArray } from "@/srs/queue";
 import { todayStr, updateStreak } from "@/storage/state";
-import type { AnyCard, AppState, CardProgress, Deck, DailyStats, Rating, VocabCard } from "@/types";
+import type {
+  AnyCard,
+  AppState,
+  CardProgress,
+  DailyStats,
+  Deck,
+  KanjiCard,
+  Rating,
+  VocabCard,
+} from "@/types";
 import { vocabWordSize } from "@/utils/format";
 
 interface StudyProps {
@@ -245,6 +254,9 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
   const intervals = previewIntervals(state.progress[current.kanji]);
   const isVocab = deck.kind === "vocab";
   const isGrammar = deck.kind === "grammar";
+  const isKana = deck.id.startsWith("kana-");
+  /** Decks that support the EN ↔ JP direction toggle. */
+  const supportsDirection = isVocab || isKana;
   const direction = state.settings.vocabDirection || "ja-en";
   const cardBackScale = { small: 0.8, medium: 1, large: 1.3 }[
     state.settings.cardBackFontSize || "medium"
@@ -262,7 +274,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
           {idx + 1} / {total}
         </div>
         <div className="topbar-actions">
-          {isVocab && (
+          {supportsDirection && (
             <button
               className="undo-btn"
               onClick={() =>
@@ -275,7 +287,7 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
                   },
                 }))
               }
-              aria-label="Toggle vocab direction"
+              aria-label="Toggle direction"
               title="Swap front/back: Japanese ↔ English"
             >
               {direction === "en-ja" ? "EN → JP" : "JP → EN"}
@@ -340,7 +352,27 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
           <div
             className={`face face-front${isVocab ? " vocab-front" : ""}${isGrammar ? " grammar-front" : ""}`}
           >
-            {isGrammar ? (
+            {isKana ? (
+              direction === "en-ja" ? (
+                // Romaji on the front; user has to recall the kana
+                <span
+                  className="meaning"
+                  style={{
+                    padding: 0,
+                    fontSize: "clamp(72px, 18vw, 120px)",
+                    fontWeight: 600,
+                    fontFamily: "var(--font-ui)",
+                    letterSpacing: "-0.02em",
+                  }}
+                >
+                  {(current as KanjiCard).keyword || current.meanings[0]}
+                </span>
+              ) : (
+                <span className="kanji-huge" lang="ja">
+                  {current.kanji}
+                </span>
+              )
+            ) : isGrammar ? (
               <>
                 <span className="grammar-pattern-large" lang="ja">
                   {current.kanji}
@@ -381,7 +413,13 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
             className="face face-back"
             style={{ ["--back-font-scale" as string]: cardBackScale } as React.CSSProperties}
           >
-            {isGrammar ? (
+            {isKana ? (
+              <KanaBack
+                card={current as KanjiCard}
+                deckLabel={deck.id === "kana-hiragana" ? "Hiragana" : "Katakana"}
+                direction={direction}
+              />
+            ) : isGrammar ? (
               <>
                 {/* Pattern repeated at the top of the back so the user can re-verify */}
                 <div
@@ -617,5 +655,144 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
         </div>
       </div>
     </div>
+  );
+}
+
+/**
+ * Dedicated back-of-card layout for kana decks. The kanji-card schema would
+ * render OK for kana (since on_yomi/kun_yomi are empty), but kana have unique
+ * structure (paired character from the other syllabary, voiced variants) that
+ * deserve dedicated visual treatment.
+ *
+ * Direction handling:
+ *   - ja-en: front shows the kana, back leads with the romaji answer + the
+ *     paired kana / examples / mnemonic
+ *   - en-ja: front shows the romaji, back leads with the kana answer
+ */
+function KanaBack({
+  card,
+  deckLabel,
+  direction,
+}: {
+  card: KanjiCard;
+  deckLabel: "Hiragana" | "Katakana";
+  direction: "ja-en" | "en-ja";
+}) {
+  const isAnswer = direction === "en-ja";
+  const otherLabel = deckLabel === "Hiragana" ? "Katakana" : "Hiragana";
+
+  return (
+    <>
+      {/* The "answer" line: in en-ja the user just guessed at the kana, so show
+          it big; in ja-en they guessed at the romaji, so the answer is the sound. */}
+      {isAnswer ? (
+        <div
+          className="meaning"
+          style={{
+            fontFamily: "var(--font-jp)",
+            fontSize: "calc(72px * var(--back-font-scale, 1))",
+            textAlign: "center",
+            padding: "8px 0 16px",
+            border: "none",
+          }}
+          lang="ja"
+        >
+          {card.kanji}
+          <div
+            className="secondary"
+            style={{ fontSize: "calc(13px * var(--back-font-scale, 1))", marginTop: 8 }}
+          >
+            "{card.keyword}" sound
+          </div>
+        </div>
+      ) : (
+        <div
+          className="meaning"
+          style={{
+            fontSize: "calc(36px * var(--back-font-scale, 1))",
+            textAlign: "center",
+            padding: "8px 0 16px",
+            border: "none",
+            fontWeight: 600,
+            letterSpacing: "-0.02em",
+          }}
+        >
+          {card.keyword}
+          <div
+            className="secondary"
+            style={{ fontSize: "calc(13px * var(--back-font-scale, 1))", marginTop: 8 }}
+          >
+            ({deckLabel.toLowerCase()})
+          </div>
+        </div>
+      )}
+
+      {/* Paired kana from the other syllabary — learn both at once */}
+      {card.paired_kana && (
+        <div className="kana-pair-block">
+          <div className="kana-pair-cell">
+            <div className="kana-pair-label">{deckLabel}</div>
+            <div className="kana-pair-char" lang="ja">
+              {card.kanji}
+            </div>
+            <div className="kana-pair-romaji">{card.keyword}</div>
+          </div>
+          <div className="kana-pair-cell">
+            <div className="kana-pair-label">{otherLabel}</div>
+            <div className="kana-pair-char" lang="ja">
+              {card.paired_kana}
+            </div>
+            <div className="kana-pair-romaji">{card.keyword}</div>
+          </div>
+        </div>
+      )}
+
+      {/* Voiced variants */}
+      {(card.dakuten || card.handakuten) && (
+        <div>
+          {card.dakuten && (
+            <div className="kana-variant-row">
+              <span className="kana-variant-label">+ ダクテン (゛)</span>
+              <span className="kana-variant-char" lang="ja">
+                {card.dakuten.kana}
+              </span>
+              <span className="kana-variant-romaji">{card.dakuten.romaji}</span>
+            </div>
+          )}
+          {card.handakuten && (
+            <div className="kana-variant-row">
+              <span className="kana-variant-label">+ ハンダクテン (゜)</span>
+              <span className="kana-variant-char" lang="ja">
+                {card.handakuten.kana}
+              </span>
+              <span className="kana-variant-romaji">{card.handakuten.romaji}</span>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Real example words */}
+      {card.examples.length > 0 && (
+        <div className="examples">
+          {card.examples.map((ex, i) => (
+            <div className="example" key={i}>
+              <span className="ex-kanji" lang="ja">
+                {ex.kanji}
+              </span>
+              <span className="ex-kana">{ex.kana}</span>
+              <span className="ex-meaning">{ex.meaning}</span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Mnemonic */}
+      {card.etymology && (
+        <div className="keyword-block">
+          <div className="keyword-label">Mnemonic</div>
+          <div className="etymology">{card.etymology}</div>
+        </div>
+      )}
+    </>
   );
 }

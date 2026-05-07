@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-import type { AnyCard, AppState, Deck, Jlpt, VocabCard } from "@/types";
+import type { AnyCard, AppState, Deck, Jlpt, KanjiCard, VocabCard } from "@/types";
 import { vocabWordSize } from "@/utils/format";
 
 type Level = Jlpt | "all";
@@ -46,6 +46,7 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
 
   const peek = peekIdx !== null ? deck.cards[peekIdx] : null;
   const peekVocab = peek as VocabCard | null;
+  const peekKanji = peek as KanjiCard | null;
 
   const now = Date.now();
   let learned = 0;
@@ -256,6 +257,73 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
                     {peekVocab.example_meaning && (
                       <div className="vocab-example-en">{peekVocab.example_meaning}</div>
                     )}
+                  </div>
+                )}
+              </>
+            ) : deck.id.startsWith("kana-") && peekKanji ? (
+              // Kana peek: paired kana + voiced variants + example words + mnemonic.
+              <>
+                {peekKanji.paired_kana && (
+                  <div className="kana-pair-block">
+                    <div className="kana-pair-cell">
+                      <div className="kana-pair-label">
+                        {deck.id === "kana-hiragana" ? "Hiragana" : "Katakana"}
+                      </div>
+                      <div className="kana-pair-char" lang="ja">
+                        {peek.kanji}
+                      </div>
+                      <div className="kana-pair-romaji">{peekKanji.keyword}</div>
+                    </div>
+                    <div className="kana-pair-cell">
+                      <div className="kana-pair-label">
+                        {deck.id === "kana-hiragana" ? "Katakana" : "Hiragana"}
+                      </div>
+                      <div className="kana-pair-char" lang="ja">
+                        {peekKanji.paired_kana}
+                      </div>
+                      <div className="kana-pair-romaji">{peekKanji.keyword}</div>
+                    </div>
+                  </div>
+                )}
+                {(peekKanji.dakuten || peekKanji.handakuten) && (
+                  <div>
+                    {peekKanji.dakuten && (
+                      <div className="kana-variant-row">
+                        <span className="kana-variant-label">+ Dakuten ゛</span>
+                        <span className="kana-variant-char" lang="ja">
+                          {peekKanji.dakuten.kana}
+                        </span>
+                        <span className="kana-variant-romaji">{peekKanji.dakuten.romaji}</span>
+                      </div>
+                    )}
+                    {peekKanji.handakuten && (
+                      <div className="kana-variant-row">
+                        <span className="kana-variant-label">+ Handakuten ゜</span>
+                        <span className="kana-variant-char" lang="ja">
+                          {peekKanji.handakuten.kana}
+                        </span>
+                        <span className="kana-variant-romaji">{peekKanji.handakuten.romaji}</span>
+                      </div>
+                    )}
+                  </div>
+                )}
+                {(peekKanji.examples || []).length > 0 && (
+                  <div className="examples">
+                    {(peekKanji.examples || []).map((ex, i) => (
+                      <div className="example" key={i}>
+                        <span className="ex-kanji" lang="ja">
+                          {ex.kanji}
+                        </span>
+                        <span className="ex-kana">{ex.kana}</span>
+                        <span className="ex-meaning">{ex.meaning}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {peekKanji.etymology && (
+                  <div className="keyword-block">
+                    <div className="keyword-label">Mnemonic</div>
+                    <div className="etymology">{peekKanji.etymology}</div>
                   </div>
                 )}
               </>

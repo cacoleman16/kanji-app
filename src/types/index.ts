@@ -27,11 +27,23 @@ export interface KanjiCard {
   examples: KanjiExample[];
   keyword: string;
   etymology?: string;
-  stroke_count?: number;
-  jlpt?: Jlpt;
-  grade?: number;
+  stroke_count?: number | null;
+  jlpt?: Jlpt | null;
+  grade?: number | null;
   /** Names of decks this kanji appears in (for cross-deck attribution). */
   decks?: string[];
+  /** Kana-only: paired character from the other syllabary (e.g. ア for あ). */
+  paired_kana?: string;
+  /** Kana-only: voiced variant (e.g. が for か). */
+  dakuten?: VoicedVariant;
+  /** Kana-only: half-voiced variant (h-row only — ぱ ぴ ぷ ぺ ぽ). */
+  handakuten?: VoicedVariant;
+}
+
+/** A voiced/half-voiced kana variant (dakuten / handakuten). */
+export interface VoicedVariant {
+  kana: string;
+  romaji: string;
 }
 
 /** A vocabulary card (word/phrase, not a single kanji). */
