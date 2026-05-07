@@ -1,18 +1,19 @@
 # Kanjido
 
 **Kanjido** — minimalist Japanese kanji study app with SM-2 spaced repetition.
-Built as a React PWA; the long-term plan is to wrap with Capacitor and ship to
-the App Store.
+React PWA + Capacitor iOS wrap, ready for App Store submission once the
+Apple Developer Program enrollment is in place.
 
 Name etymology: **kanji** (漢字) + **-do** (道, "the way of") — judo, kendo,
 shodo, kanjido.
 
-> **Migration in progress.** M1 (Vite + React + TypeScript scaffold) and M2
-> (strip personal/textbook content + custom-deck creation) are landed. M3
-> (freemium subscriptions) and M4 (Capacitor + App Store submission) are next.
-> The original 1.2 MB `kanji-app.html` is preserved at
-> [`legacy/kanji-app.html`](./legacy/kanji-app.html) for reference. The full
-> roadmap lives at `~/.claude/plans/audit-the-kanji-app-resilient-ullman.md`.
+> **Status as of latest commit.** M1–M3 are landed: Vite + React + TypeScript
+> migration, custom-deck creation, freemium paywall (stub-RevenueCat), 39
+> default decks, JMdict-derived examples on 99.8% of cards, iCloud backup
+> + auto-backup, push notifications, onboarding, error boundary. M4 (Apple
+> Developer enrollment + RevenueCat live keys + TestFlight) is the only
+> remaining milestone. The original 1.2 MB `kanji-app.html` is preserved
+> at [`legacy/kanji-app.html`](./legacy/kanji-app.html) for reference.
 
 ---
 
@@ -21,107 +22,175 @@ shodo, kanjido.
 ```bash
 npm install        # install dependencies
 npm run dev        # local dev server with hot reload
-npm test           # vitest (SM-2 algorithm + storage migrations + queue)
+npm test           # 139 vitest tests across 11 files
 npm run typecheck  # tsc --noEmit
-npm run lint       # eslint
+npm run lint       # eslint --max-warnings=0
 npm run build      # vite production build → dist/
+
+# Content tooling
+npm run icons         # regenerate app icons from branding/kanjido-icon.svg
+npm run build:decks   # rebuild all default decks (KANJIDIC2 + hand-authored)
+npm run enrich:examples  # join JMdict examples into kanji decks (run once after build:decks)
 ```
 
 ## Project layout
 
 | Path | Role |
 |---|---|
-| [`src/`](./src) | Application source. Vite + React + TypeScript. |
-| `src/srs/sm2.ts` | Pure SM-2 algorithm. Tested. |
-| `src/srs/queue.ts` | Session queue + cross-deck mixed review. Tested. |
-| `src/storage/` | Versioned localStorage layer with migrations. Tested. Provider-based so iCloud / file-based backup can swap in later (Phase 4 of the plan). |
-| `src/screens/` | One file per screen: `Home`, `GroupDetail`, `DeckDetail`, `Study`, `MixedReview`, `Stats`, `Settings`. |
-| `src/data/decks.ts` | Glob-imports deck JSONs from `agent-files/` at build time. |
-| `src/data/groups.ts` | Deck groupings (e.g. Integrated Approach chapter list). |
-| `src/types/` | Domain types (`Card`, `Deck`, `AppState`, `Rating`, …). |
-| `src/styles/app.css` | All UI styles (CSS custom properties, dark/light themes). |
-| `agent-files/*.json` | Deck data. **For now** still includes the original (textbook + personal) decks. M2 strips these and replaces with public-domain default content (JLPT N5–N1, Top Frequency, Jōyō by grade). |
-| `legacy/` | Pre-migration code preserved for reference: original `kanji-app.html`, the Python build pipeline, and the inlined React UMD copies. Not part of the build. |
-| [`vite.config.ts`](./vite.config.ts) | Vite config with `vite-plugin-pwa` (manifest, service worker). |
-| [`vercel.json`](./vercel.json) | Vercel: framework Vite, `outputDirectory: dist`, cache headers for `sw.js` / `index.html` / `assets/`. |
-| [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml) | GitHub Actions: install → lint → typecheck → test → build → `vercel --prod`. |
+| [`src/srs/`](./src/srs) | Pure SM-2 algorithm + session-queue builder + cross-deck mixed review. Heavily tested. |
+| [`src/storage/`](./src/storage) | Versioned localStorage layer with v1 → v5 migrations. Provider port so iCloud / file-based backup can swap in. |
+| [`src/screens/`](./src/screens) | One file per route: Home, GroupDetail, DeckDetail, Study, MixedReview, Stats, Settings, MyDecks, MyDeckEdit, MyDeckImport, Onboarding, Paywall. |
+| [`src/components/`](./src/components) | Shared UI: Modal, Badge, ErrorBoundary. |
+| [`src/data/`](./src/data) | Deck registry. Glob-imports JSON from `agent-files/` at build time, applies a stable Home-order map, and merges in user-created decks. |
+| [`src/entitlements/`](./src/entitlements) | Pro / Free gates (`isPro`, `isDeckUnlocked`, `canImportApkg`, etc.) + RevenueCat-shaped subscription provider port. |
+| [`src/userDecks/`](./src/userDecks) | Custom-deck CRUD, CSV/TSV/JSON paste-import parser, and Anki `.apkg` parser (lazy-loads `sql.js` WASM). |
+| [`src/native/`](./src/native) | Capacitor bridge (haptics, share, filesystem, status bar) + push notifications + auto-backup orchestration. |
+| [`agent-files/*.json`](./agent-files) | Default deck data, all under permissive licenses. KANJIDIC-derived for the kanji decks; hand-authored for vocab/kana/grammar. |
+| [`scripts/`](./scripts) | Node build scripts: deck builders (kana, themed batches, grammar), JMdict enricher, icon generator. |
+| [`legacy/`](./legacy) | Pre-migration code preserved for reference. Not part of the build. |
+| [`docs/`](./docs) | App Store listing copy, iOS-setup walkthrough. |
+| [`ios/`](./ios) | Capacitor iOS native project (generated by `npx cap add ios`). |
+| [`public/privacy.html`](./public/privacy.html), [`public/terms.html`](./public/terms.html) | Static legal pages, served at `/privacy` and `/terms`. |
+| [`vite.config.ts`](./vite.config.ts) | Vite + `vite-plugin-pwa`. Splits decks into kana / vocab / grammar / kanji chunks. |
+| [`capacitor.config.ts`](./capacitor.config.ts) | App ID `com.kanjido.app`, splash, plugins. |
 
-## Architecture (M1 state)
+## Architecture
 
 ```
-index.html → src/main.tsx → src/App.tsx (route switch)
-                                ↓
-              ┌──────┬──────┬───┴────┬────────┬────────┬──────────┐
-              Home  Group  Deck    Study   Stats   Settings  MixedReview
-                            │
-                            └─ uses src/srs/queue.ts → src/srs/sm2.ts
+index.html → src/main.tsx → <ErrorBoundary> → <App> (route switch)
+                                                  ↓
+   ┌────────────┬───────────┬──────────┬───────────┬──────────┬──────────┬───────────┐
+  Home   GroupDetail  DeckDetail  Study  MixedReview  Stats  Settings  Paywall  …
+                                    │
+                              src/srs/queue.ts → src/srs/sm2.ts
                                             ↑
-                              src/storage/state.ts (versioned, provider-based)
+                          src/storage/state.ts (versioned, provider-based)
                                             ↑
-                                        localStorage
+                              localStorage  (iCloud sync via src/native/bridge.ts)
 ```
 
-Local-only persistence. No accounts, no backend. Apple-style "Add to Home Screen"
-on iPhone works via the PWA manifest + service worker.
+Local-only persistence by default. No accounts, no backend. Pro entitlement
+gates content via `src/entitlements/entitlement.ts` — single source of truth.
+Native iOS features (haptics, push, file system) gracefully no-op on web.
+
+## Default deck library
+
+39 decks ship with the app:
+
+| Group | Decks | Tier |
+|---|---|---|
+| **Kana** | Hiragana, Katakana | Free |
+| **Beginner vocab** | Numbers, Time/Days | Free |
+| **JLPT** | N5 (free), N4 / N3 / N2 / N1 | Free / Pro |
+| **Frequency tiers** | Top 100, Top 500, Top 1,000 | Pro |
+| **Jōyō by grade** | Grade 1–6 + Secondary School | Pro |
+| **Themed vocab** | Counters, Body, Family, Food, Verbs, Adjectives, Verb pairs (transitive/intransitive), Onomatopoeia, Travel, Weather, Office, Restaurant, Medical, Colors, Animals, Emotions, Proverbs | Pro |
+| **Grammar** | Particles, Patterns & Phrases, Verb Conjugations | Pro |
+
+5,936 of 5,947 cards (~99.8%) ship with 2-3 example compounds joined from
+JMdict. Free tier covers the absolute beginner's journey: kana, numbers,
+time, JLPT N5 — enough content for several weeks of study before the
+paywall is meaningful.
 
 ## Custom decks
 
-Tap **My Decks** (✎ icon in the home screen top bar) to create your own decks.
-You can:
+Tap **My Decks** (✎ in the Home top bar) to create your own:
 
-- **Create / rename / delete** decks (kanji or vocab kind).
-- **Add / edit / delete** individual cards.
-- **Bulk import** by pasting CSV, TSV, or JSON. Format is auto-detected;
-  field-mapping is inferred from headers (`Kanji`, `Word`, `Meaning`, `Reading`,
-  `JLPT`, etc.). Anki plain-text exports (`Front<TAB>Back`) work as-is.
+- **Create / rename / delete** decks (kanji or vocab kind)
+- **Add / edit / delete** individual cards
+- **Bulk import** by pasting CSV / TSV / JSON. Format is auto-detected;
+  field-mapping is inferred from headers (`Kanji`, `Word`, `Meaning`,
+  `Reading`, `On_yomi`, `Kun_yomi`, `JLPT`, `Notes`, etc.).
+- **Anki .apkg import** (Pro). Drop your existing collection straight in.
+  `sql.js` and `fflate` are dynamically loaded so the web bundle stays
+  slim — only the import screen pays the WASM-loading cost.
 
-The import parser lives at [`src/userDecks/importParser.ts`](./src/userDecks/importParser.ts)
-and is covered by 17 unit tests for CSV / TSV / JSON edge cases.
+Free tier: 1 user deck capped at 50 cards. Pro: unlimited.
 
-## Outstanding (M3 / M4)
+## Pro / freemium
 
-1. **Anki `.apkg` import** — bundle `sql.js`, parse the zipped SQLite, support
-   field-mapping for user-defined Anki note types. (M2 ships CSV/TSV/JSON
-   paste; `.apkg` is deferred to a follow-up.)
-2. **Default deck rebuild** — the migration kept `kanji_top_freq.json` and
-   `vocab_top_freq.json` (public-domain frequency data) and stripped textbook
-   decks. Phase 2 of the plan calls for new JLPT N5–N1 + Jōyō-by-grade decks
-   sourced from KANJIDIC2.
-3. **Freemium subscription gate** (M3) — RevenueCat + paywall + restore-purchases.
-4. **Capacitor wrap + App Store** (M4) — privacy manifest, Apple Developer enrollment, TestFlight.
-5. **Replace PWA app icons** — the legacy generator was a Python/Pillow pipeline; new icons go under `public/icons/`.
+| Feature | Free | Pro |
+|---|---|---|
+| Default decks | Kana + Numbers + Time/Days + JLPT N5 (5 decks) | All 39 decks |
+| Custom decks | 1, capped at 50 cards | Unlimited |
+| Anki `.apkg` import | — | ✓ |
+| iCloud Drive auto-backup | — | ✓ (iOS) |
+| Stats + bar charts | ✓ | ✓ |
+| Daily push reminders | ✓ | ✓ |
+
+Pricing: **$3.99 / month** or **$34.99 / year (7-day free trial)**.
+StoreKit / RevenueCat product IDs are wired in code as
+`com.kanjido.pro.monthly` and `com.kanjido.pro.yearly`. The current build
+uses a stub provider that simulates instant purchases for testing — the
+M4 swap to real RevenueCat is a single-file change in
+`src/entitlements/provider.ts`.
+
+## Performance / bundle layout
+
+```
+First-paint critical path = 82 KB gzipped (vendor-react + index + CSS)
+
+Cache-friendly chunks (parallel-loaded, service-worker-precached):
+  vendor-react    45 KB gzipped   (changes only when React major-bumps)
+  index           31 KB gzipped   (app code)
+  CSS              6 KB gzipped
+  decks-kana       3 KB gzipped
+  decks-grammar    9 KB gzipped
+  decks-vocab     18 KB gzipped
+  decks-kanji    586 KB gzipped   (JLPT + Jōyō + Top frequency)
+
+Lazy-loaded only when needed:
+  ankiImport     ~28 KB gzipped   (.apkg import screen)
+  sql-wasm.wasm  660 KB raw       (precached on first load)
+```
 
 ## Testing
 
 ```bash
-npm test           # 120 unit tests across SM-2, queue, storage migrations,
-                   # entitlement gates, import parser, Modal, ErrorBoundary,
-                   # and the auto-backup orchestration.
+npm test           # 139 unit tests across 11 files
 ```
 
-## Performance / bundle layout
+Coverage:
 
-The web build is split into independent chunks so the browser can fetch
-them in parallel (HTTP/2 multiplexing) and cache them separately. Sizes
-on the latest build:
+- `srs/sm2.test.ts` — 18 tests, every SM-2 transition + ease floor + interval preview
+- `srs/queue.test.ts` — 6 tests, session queue + dedupe + JLPT filtering
+- `storage/state.test.ts` — 24 tests including v1 → v5 migrations, hydrate, parseImport, streak math
+- `userDecks/userDecks.test.ts` — 13 tests, CRUD operations
+- `userDecks/importParser.test.ts` — 17 tests, CSV/TSV/JSON edge cases
+- `userDecks/ankiImport.test.ts` — 7 tests, HTML / cloze / entity stripping
+- `entitlements/entitlement.test.ts` — 13 tests, Pro/Free gate matrix
+- `native/autoBackup.test.ts` — 11 tests, throttle + permission + failure modes
+- `components/Modal.test.tsx` — 11 tests, all dialog flavors
+- `screens/Onboarding.test.tsx` — 9 tests, full first-launch flow
+- `screens/Paywall.test.tsx` — 10 tests, both offers + purchase flow + restore
 
-| Chunk | Raw | Gzipped | What's in it |
-|---|---|---|---|
-| `vendor-react` | 142 KB | 45 KB | React + ReactDOM (caches across deploys; rarely changes) |
-| `index` | 113 KB | 31 KB | App shell — all UI, screens, hooks, types |
-| CSS | 30 KB | 6 KB | Stylesheet |
-| `decks-kana` | 21 KB | 3 KB | Hiragana + Katakana decks |
-| `decks-grammar` | 21 KB | 9 KB | Particles + patterns + verb conjugations |
-| `decks-vocab` | 66 KB | 18 KB | All 11 themed vocab decks |
-| `decks-kanji` | 2.1 MB | 586 KB | JLPT N5–N1, Jōyō by grade, Top 100/500/1000 |
-| **`ankiImport` + sql.js** | 75 KB | 28 KB | Lazy-loaded only when `.apkg` upload opens |
-| `sql-wasm.wasm` | 660 KB | — | sql.js binary, lazy + service-worker-precached |
+The schema-migration tests in `src/storage/state.test.ts` ensure existing
+users' localStorage progress (`kanji-app` key) loads identically into the
+current codebase. Don't break them without bumping `SCHEMA_VERSION` and
+adding a migration.
 
-First-paint critical path: `vendor-react + index + CSS = ~82 KB gzipped`.
-The kanji-decks chunk is heavy but loads in parallel and is precached by
-the PWA service worker after first load — subsequent visits are instant.
+## Outstanding (M4)
 
-The schema-v2 regression test in `src/storage/state.test.ts` ensures existing
-users' localStorage progress (`kanji-app` key) loads identically into the new
-codebase. Don't break it without bumping `SCHEMA_VERSION` and adding a
-migration.
+What's left for the App Store launch — most of these only the user can do:
+
+1. **Apple Developer Program** — enroll at developer.apple.com/programs ($99/yr)
+2. **App Store Connect** — create the IAP products with the exact IDs the
+   code references (`com.kanjido.pro.monthly`, `com.kanjido.pro.yearly`)
+3. **RevenueCat free-tier signup** — get the iOS public API key
+4. **Wire RevenueCat for real** — drop the API key in code; one-file swap
+   of the stub provider in `src/entitlements/provider.ts`
+5. **`PrivacyInfo.xcprivacy`** privacy manifest (template in `docs/ios-setup.md`)
+6. **TestFlight beta** — `npx cap open ios` → archive → upload
+7. **App Store listing** — copy is in `docs/app-store-listing.md` ready to paste
+
+## License + attribution
+
+Default deck data:
+
+- **KANJIDIC2** (CC-BY-SA, EDRDG) — kanji metadata
+- **JMdict** (CC-BY-SA, EDRDG) — example compound words
+- **Jonathan Waller's JLPT lists** (CC-BY) — JLPT level mappings
+- Hand-authored content for kana, themed vocab, and grammar decks
+
+Subscription via Apple StoreKit + RevenueCat for cross-platform receipt
+validation.
