@@ -25,8 +25,8 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = join(dirname(HERE), "agent-files");
 mkdirSync(OUT_DIR, { recursive: true });
 
-function gc({ word, reading, meanings, jlpt, category, context, ex }) {
-  return {
+function gc({ word, reading, meanings, jlpt, category, context, ex, table }) {
+  const card = {
     word,
     reading,
     meanings,
@@ -37,6 +37,8 @@ function gc({ word, reading, meanings, jlpt, category, context, ex }) {
     example_reading: ex?.kana ?? "",
     example_meaning: ex?.en ?? "",
   };
+  if (table) card.conjugation_table = table;
+  return card;
 }
 
 // ============================================================
@@ -590,11 +592,24 @@ const conjugations = [
   gc({
     word: "Passive (受け身)",
     reading: "ukemi",
-    meanings: ["passive form"],
+    meanings: ["passive form", "got -ed by"],
     jlpt: "N4",
     category: "form",
     context:
-      "Group 1 (u-verbs): replace -u with -areru (書く → 書かれる). Group 2 (ru-verbs): replace -ru with -rareru (食べる → 食べられる). Irregular: する → される, 来る → 来られる. Also used for the 'suffering passive' (something happened to me, often negatively).",
+      "Also used for the 'suffering passive' (something happened to me, often negatively). The agent is marked with に: 雨に降られた = lit. 'I was rained on'.",
+    table: {
+      caption: "How to form the passive",
+      headers: ["Group", "Rule", "Example"],
+      rows: [
+        ["Group 1 (u-verb)", "-u → -areru", "書く → 書かれる"],
+        ["", "", "飲む → 飲まれる"],
+        ["", "", "話す → 話される"],
+        ["Group 2 (ru-verb)", "-ru → -rareru", "食べる → 食べられる"],
+        ["", "", "見る → 見られる"],
+        ["Irregular", "—", "する → される"],
+        ["", "", "来る → 来られる (こられる)"],
+      ],
+    },
     ex: {
       jp: "先生に褒められました。",
       kana: "せんせい に ほめられました。",
@@ -604,11 +619,24 @@ const conjugations = [
   gc({
     word: "Causative (使役)",
     reading: "shieki",
-    meanings: ["causative form (make/let do)"],
+    meanings: ["causative form", "make/let X do Y"],
     jlpt: "N4",
     category: "form",
     context:
-      "Group 1: -u → -aseru (書く → 書かせる). Group 2: -ru → -saseru (食べる → 食べさせる). Irregular: する → させる, 来る → 来させる. Means 'make/let X do Y' — the agent is marked with に (allow) or を (force).",
+      "The agent (the one being made/let to do) is marked with に for 'let' (permission) or を for 'make' (force).",
+    table: {
+      caption: "How to form the causative",
+      headers: ["Group", "Rule", "Example"],
+      rows: [
+        ["Group 1 (u-verb)", "-u → -aseru", "書く → 書かせる"],
+        ["", "", "飲む → 飲ませる"],
+        ["", "", "話す → 話させる"],
+        ["Group 2 (ru-verb)", "-ru → -saseru", "食べる → 食べさせる"],
+        ["", "", "見る → 見させる"],
+        ["Irregular", "—", "する → させる"],
+        ["", "", "来る → 来させる (こさせる)"],
+      ],
+    },
     ex: {
       jp: "母は弟に野菜を食べさせました。",
       kana: "はは は おとうと に やさい を たべさせました。",
@@ -622,7 +650,18 @@ const conjugations = [
     jlpt: "N3",
     category: "form",
     context:
-      "Stack causative + passive: causative form + -rareru. 食べさせられる = was made to eat. Casual contraction for group 1: -aserareru → -asareru (飲ませられる → 飲まされる).",
+      "Stack causative + passive. Conveys 'I was made to do X (and it was unpleasant)'. Group 1 has a casual contraction: -aserareru → -asareru (飲まされる).",
+    table: {
+      caption: "Stacking causative + passive",
+      headers: ["Group", "Stack", "Example"],
+      rows: [
+        ["Group 1", "-aseru + -rareru → -aserareru", "飲む → 飲ませられる"],
+        ["", "(or contracted -asareru)", "→ 飲まされる"],
+        ["Group 2", "-saseru + -rareru → -saserareru", "食べる → 食べさせられる"],
+        ["Irregular", "—", "する → させられる"],
+        ["", "", "来る → 来させられる"],
+      ],
+    },
     ex: {
       jp: "宿題をさせられました。",
       kana: "しゅくだい を させられました。",
@@ -632,11 +671,24 @@ const conjugations = [
   gc({
     word: "Potential (可能形)",
     reading: "kanou-kei",
-    meanings: ["can ~"],
+    meanings: ["can ~", "be able to"],
     jlpt: "N4",
     category: "form",
     context:
-      "Group 1: -u → -eru (書く → 書ける). Group 2: -ru → -rareru (食べる → 食べられる, often shortened to 食べれる in casual speech, sometimes called 'ら抜き' = 'ra-drop'). Particle: が, not を (寿司が食べられる).",
+      "Particle shifts to が (not を): 寿司が食べられる = I can eat sushi. The Group 2 short form 食べれる (called ら抜き 'ra-drop') is colloquial — fine in speech, avoid in writing.",
+    table: {
+      caption: "How to form the potential",
+      headers: ["Group", "Rule", "Example"],
+      rows: [
+        ["Group 1 (u-verb)", "-u → -eru", "書く → 書ける"],
+        ["", "", "話す → 話せる"],
+        ["", "", "飲む → 飲める"],
+        ["Group 2 (ru-verb)", "-ru → -rareru", "食べる → 食べられる"],
+        ["", "(casual: -reru)", "→ 食べれる (ら抜き)"],
+        ["Irregular", "—", "する → できる"],
+        ["", "", "来る → 来られる (こられる)"],
+      ],
+    },
     ex: {
       jp: "日本語が話せます。",
       kana: "にほんご が はなせます。",
@@ -650,7 +702,20 @@ const conjugations = [
     jlpt: "N4",
     category: "form",
     context:
-      "Group 1: -u → -ou (書く → 書こう). Group 2: -ru → -you (食べる → 食べよう). Polite form: ～ましょう. Used for 'let's', for one's own intention (～と思う), and for invitations.",
+      "Polite form: ～ましょう. Used for 'let's', invitations (行こう = let's go), and one's own intention with ～と思う (行こうと思う = I'm thinking of going).",
+    table: {
+      caption: "How to form the volitional",
+      headers: ["Group", "Rule", "Example"],
+      rows: [
+        ["Group 1 (u-verb)", "-u → -ou", "書く → 書こう"],
+        ["", "", "飲む → 飲もう"],
+        ["", "", "話す → 話そう"],
+        ["Group 2 (ru-verb)", "-ru → -you", "食べる → 食べよう"],
+        ["", "", "見る → 見よう"],
+        ["Irregular", "—", "する → しよう"],
+        ["", "", "来る → 来よう (こよう)"],
+      ],
+    },
     ex: {
       jp: "映画を見に行こう。",
       kana: "えいが を み に いこう。",
@@ -664,7 +729,20 @@ const conjugations = [
     jlpt: "N4",
     category: "form",
     context:
-      "Direct command — sounds rude in most settings. Group 1: -u → -e (書け). Group 2: -ろ (食べろ). Mostly seen in fiction, traffic signs, anger, or by drill sergeants. For polite requests use ～てください.",
+      "Direct, blunt command. Sounds rude in everyday settings — use ～てください for polite requests. You'll see imperative on traffic signs, in anime/manga, and in martial-arts shouts.",
+    table: {
+      caption: "How to form the imperative",
+      headers: ["Group", "Rule", "Example"],
+      rows: [
+        ["Group 1 (u-verb)", "-u → -e", "書く → 書け"],
+        ["", "", "飲む → 飲め"],
+        ["", "", "立つ → 立て"],
+        ["Group 2 (ru-verb)", "-ru → -ro", "食べる → 食べろ"],
+        ["", "(or formal -yo)", "→ 食べよ"],
+        ["Irregular", "—", "する → しろ / せよ"],
+        ["", "", "来る → 来い (こい)"],
+      ],
+    },
     ex: {
       jp: "立て！",
       kana: "たて！",
@@ -678,7 +756,21 @@ const conjugations = [
     jlpt: "N5",
     category: "form",
     context:
-      "The connector form. Joins clauses ('and then'), forms requests (～てください), forms continuous (～ている), and many compound expressions. Group 1 has consonant-specific transformations (く→いて, す→して, etc.). Group 2: drop る + て (食べて). Irregulars: する→して, 来る→きて.",
+      "The connector form. Joins clauses ('and then'), forms requests (～てください), forms continuous (～ている), and many compound expressions. Group 1 transformations depend on the final consonant — the table is essential.",
+    table: {
+      caption: "Te-form by ending",
+      headers: ["Ending", "Te-form", "Example"],
+      rows: [
+        ["う / つ / る (G1)", "→ って", "言う → 言って, 待つ → 待って, 取る → 取って"],
+        ["ぬ / ぶ / む", "→ んで", "死ぬ → 死んで, 遊ぶ → 遊んで, 飲む → 飲んで"],
+        ["く", "→ いて", "書く → 書いて"],
+        ["", "(except 行く)", "行く → 行って ⚠"],
+        ["ぐ", "→ いで", "泳ぐ → 泳いで"],
+        ["す", "→ して", "話す → 話して"],
+        ["-る (Group 2)", "→ て", "食べる → 食べて, 見る → 見て"],
+        ["Irregular", "—", "する → して, 来る → 来て (きて)"],
+      ],
+    },
     ex: {
       jp: "朝ご飯を食べて、出かけました。",
       kana: "あさごはん を たべて、 でかけました。",
@@ -688,11 +780,21 @@ const conjugations = [
   gc({
     word: "～ている",
     reading: "te iru",
-    meanings: ["progressive / resultant state"],
+    meanings: ["progressive", "resultant state"],
     jlpt: "N5",
     category: "aspect",
-    context:
-      "Te-form + いる. Two main meanings depending on the verb: (1) progressive — 食べている = is eating; (2) resultant state — 結婚している = is married (the resulting state of having gotten married). Casual: ～てる.",
+    context: "Casual contraction: ～てる. Whether it means 'is X-ing' or 'is in the X-ed state' depends on whether the verb is durative (continuous action) or punctual (instant change).",
+    table: {
+      caption: "Two senses depending on verb type",
+      headers: ["Sense", "Verb type", "Example"],
+      rows: [
+        ["Progressive ('-ing')", "Durative", "食べている = is eating"],
+        ["", "(continuous action)", "走っている = is running"],
+        ["Resultant state", "Punctual", "結婚している = is married"],
+        ["", "(instant change)", "知っている = knows"],
+        ["", "", "死んでいる = is dead"],
+      ],
+    },
     ex: {
       jp: "今、食べています。",
       kana: "いま、 たべて います。",
@@ -706,7 +808,16 @@ const conjugations = [
     jlpt: "N4",
     category: "aspect",
     context:
-      "Transitive te-form + ある = something has been done and the result remains. ドアが開けてある = the door has been opened (by someone, on purpose). Compare with ～ている (which can also describe state but implies the action just happened).",
+      "Implies someone deliberately did the action and the result remains. Compare with ～ている (state), ～ておく (preparation).",
+    table: {
+      caption: "～てある vs siblings",
+      headers: ["Pattern", "Implies", "Example"],
+      rows: [
+        ["～てある", "Done on purpose, result remains", "ドアが開けてある = door has been opened"],
+        ["～ている", "State (no implied agent)", "ドアが開いている = door is open"],
+        ["～ておく", "Doing in advance for later", "ドアを開けておく = open the door (in advance)"],
+      ],
+    },
     ex: {
       jp: "窓が開けてあります。",
       kana: "まど が あけて あります。",
@@ -716,11 +827,21 @@ const conjugations = [
   gc({
     word: "～ておく",
     reading: "te oku",
-    meanings: ["do in advance / leave (in a state)"],
+    meanings: ["do in advance", "leave in a state"],
     jlpt: "N4",
     category: "aspect",
     context:
-      "Te-form + おく = preparation. 買っておく = buy in advance. Also 'leave (something) in a state'. Casual contraction: ～とく (買っとく).",
+      "Te-form + おく = preparation, foresight. Casual contraction is ～とく (買っとく for 買っておく). Past: ～ておいた / ～といた.",
+    table: {
+      caption: "Common uses",
+      headers: ["Use", "Example", "Translation"],
+      rows: [
+        ["Prepare ahead", "ビールを冷やしておく", "chill the beer (in advance)"],
+        ["", "宿題をしておく", "do the homework (ahead of time)"],
+        ["Leave as-is", "そのままにしておいて", "leave it as it is"],
+        ["Casual (とく)", "買っとく", "I'll buy it (ahead of time)"],
+      ],
+    },
     ex: {
       jp: "ビールを冷やしておきます。",
       kana: "びーる を ひやして おきます。",
@@ -730,11 +851,21 @@ const conjugations = [
   gc({
     word: "～てしまう",
     reading: "te shimau",
-    meanings: ["finish completely / regret doing"],
+    meanings: ["finish completely", "do unfortunately"],
     jlpt: "N4",
     category: "aspect",
     context:
-      "Two senses: (1) 'finish/complete' — 食べてしまう = eat it all up; (2) 'unfortunately/oh no I did it' — 忘れてしまった = I (regrettably) forgot. Casual: ～ちゃう (forgetちゃった = I went and forgot).",
+      "Two senses depending on tone: completion ('finish up') or regret ('oh no, I did it'). Casual contractions: ～ちゃう (for て) and ～じゃう (for で).",
+    table: {
+      caption: "Two senses",
+      headers: ["Sense", "Example", "Translation"],
+      rows: [
+        ["Completion", "ケーキを食べてしまう", "eat the whole cake"],
+        ["", "本を読んでしまった", "finished reading the book"],
+        ["Regret / 'oh no'", "忘れてしまった", "I (regrettably) forgot"],
+        ["Casual (ちゃう)", "やっちゃった", "oh, I went and did it"],
+      ],
+    },
     ex: {
       jp: "ケーキを食べてしまいました。",
       kana: "けーき を たべて しまいました。",
@@ -744,11 +875,21 @@ const conjugations = [
   gc({
     word: "～ていく / ～てくる",
     reading: "te iku / te kuru",
-    meanings: ["go on ~ing / come to ~ (continuous)"],
+    meanings: ["go on ~ing", "come to ~ (continuous)"],
     jlpt: "N4",
     category: "aspect",
     context:
-      "Direction of change. ～ていく = becoming-going-forward (寒くなっていく = getting colder over time). ～てくる = becoming-up-to-now (寒くなってきた = it's gotten colder).",
+      "About direction of change in time/space. ～ていく moves AWAY (future, departing); ～てくる moves TOWARD (past-to-present, approaching).",
+    table: {
+      caption: "Direction of change",
+      headers: ["Pattern", "Direction", "Example"],
+      rows: [
+        ["～ていく", "Away / forward", "寒くなっていく = it's getting colder (going forward)"],
+        ["", "", "出ていく = leave / depart"],
+        ["～てくる", "Up to now", "寒くなってきた = it's gotten colder"],
+        ["", "", "走ってくる = come running"],
+      ],
+    },
     ex: {
       jp: "だんだん寒くなってきました。",
       kana: "だんだん さむく なって きました。",
@@ -758,11 +899,24 @@ const conjugations = [
   gc({
     word: "Honorific (尊敬語)",
     reading: "sonkeigo",
-    meanings: ["respectful form"],
+    meanings: ["respectful form (about others)"],
     jlpt: "N3",
     category: "keigo",
     context:
-      "Elevates the listener/subject. Patterns: お+verb-stem+になる (お読みになる = read [respectful]), or special verbs (食べる→召し上がる, する→なさる, 行く/来る/いる→いらっしゃる). Used about people you respect, never about yourself.",
+      "Elevates the listener or subject — never used about yourself. Patterns: special verbs (table) OR お+verb-stem+になる (お読みになる) OR the passive form ～られる (mild honorific).",
+    table: {
+      caption: "Common verbs in honorific form",
+      headers: ["Plain", "Honorific", "Meaning"],
+      rows: [
+        ["行く / 来る / いる", "いらっしゃる", "go / come / be"],
+        ["食べる / 飲む", "召し上がる", "eat / drink"],
+        ["する", "なさる", "do"],
+        ["言う", "おっしゃる", "say"],
+        ["見る", "ご覧になる", "look / watch"],
+        ["くれる", "くださる", "give (to me)"],
+        ["知る", "ご存じだ", "know"],
+      ],
+    },
     ex: {
       jp: "先生は何時にいらっしゃいますか。",
       kana: "せんせい は なんじ に いらっしゃいます か。",
@@ -776,7 +930,21 @@ const conjugations = [
     jlpt: "N3",
     category: "keigo",
     context:
-      "Lowers the speaker. Patterns: お+verb-stem+する (お持ちする = (humbly) carry), or special verbs (食べる→いただく, する→いたす, 行く/来る→参る, いる→おる). Use about your own actions when addressing someone of higher status.",
+      "Lowers the speaker — used for your own actions when addressing someone of higher status. Patterns: special verbs (table) OR お+verb-stem+する (お持ちする = humbly carry).",
+    table: {
+      caption: "Common verbs in humble form",
+      headers: ["Plain", "Humble", "Meaning"],
+      rows: [
+        ["行く / 来る", "参る (まいる)", "go / come"],
+        ["いる", "おる", "be"],
+        ["食べる / 飲む", "いただく", "eat / drink"],
+        ["もらう", "いただく", "receive"],
+        ["する", "いたす", "do"],
+        ["言う", "申す (もうす)", "say"],
+        ["見る", "拝見する", "look / view"],
+        ["あげる", "差し上げる", "give"],
+      ],
+    },
     ex: {
       jp: "明日、お電話いたします。",
       kana: "あした、 おでんわ いたします。",

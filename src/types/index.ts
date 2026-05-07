@@ -46,6 +46,20 @@ export interface VoicedVariant {
   romaji: string;
 }
 
+/**
+ * A small reference table used on grammar conjugation cards.
+ *
+ * The conjugation rules ("Group 1: -u → -areru; Group 2: -ru → -rareru")
+ * are unreadable as paragraph text but instantly scannable as a table.
+ * Each row is a list of cell strings of the same length as `headers`.
+ */
+export interface ConjugationTable {
+  headers: string[];
+  rows: string[][];
+  /** Optional caption shown above the table. */
+  caption?: string;
+}
+
 /** A vocabulary card (word/phrase, not a single kanji). */
 export interface VocabCard {
   /**
@@ -66,6 +80,8 @@ export interface VocabCard {
   examples?: KanjiExample[];
   keyword?: string;
   etymology?: string;
+  /** Grammar-only: structured conjugation/usage table. */
+  conjugation_table?: ConjugationTable;
 }
 
 export type AnyCard = KanjiCard | VocabCard;

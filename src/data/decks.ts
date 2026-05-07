@@ -53,6 +53,8 @@ function normalizeVocabCard(c: Record<string, unknown>): VocabCard {
     examples: [],
     keyword: meanings[0] ?? "",
     etymology: (c.context as string) ?? "",
+    // Grammar-only: forward the structured conjugation table when present.
+    conjugation_table: (c.conjugation_table as VocabCard["conjugation_table"]) ?? undefined,
   };
 }
 

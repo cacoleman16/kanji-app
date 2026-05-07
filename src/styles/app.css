@@ -351,6 +351,35 @@
     align-items: center;
     justify-content: center;
   }
+
+  /* Opacity is the belt-and-suspenders defense against the back face
+     "leaking" between cards on browsers where backface-visibility doesn't
+     cleanly hide the rotated face during fast transitions / GPU compositing.
+     - Front: visible by default; fades out as the card rotates past 90°.
+     - Back: invisible by default (when card is at rotation 0); fades in
+       at 250 ms in (after the card has rotated past 90°). On flip-back,
+       the back fades out before the card finishes rotating — so when the
+       card is unmounted (advance to next card) or sits unflipped, the
+       back-face content is fully transparent.
+     The `transform-style: preserve-3d` on .card combined with backface-
+     visibility on each face still does the heavy lifting; opacity is the
+     fallback for the perception bug. */
+  .face-front {
+    opacity: 1;
+    transition: opacity 200ms 250ms; /* fade out late on flip-forward */
+  }
+  .face-back {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+  .card.flipped .face-front {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+  .card.flipped .face-back {
+    opacity: 1;
+    transition: opacity 200ms 250ms; /* fade in late on flip-forward */
+  }
   .kanji-huge {
     font-family: var(--font-jp);
     font-weight: 400;
@@ -769,6 +798,53 @@
     height: 7px;
     border-radius: 50%;
     display: inline-block;
+  }
+
+  /* ---------- Conjugation table (grammar back-face) ---------- */
+  .conj-table {
+    background: var(--surface-2);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .conj-table-caption {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--text-muted);
+    padding: 8px 12px 6px;
+    letter-spacing: 0.02em;
+  }
+  .conj-table-grid {
+    display: grid;
+    /* Columns auto-fit content; min size for legibility */
+    width: 100%;
+    font-size: 12px;
+  }
+  .conj-table-row {
+    display: contents;
+  }
+  .conj-table-cell {
+    padding: 7px 10px;
+    border-top: 1px solid var(--border);
+    line-height: 1.35;
+    color: var(--text);
+  }
+  .conj-table-row.header .conj-table-cell {
+    background: var(--surface);
+    color: var(--text-dim);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border-top: none;
+  }
+  .conj-table-cell.jp {
+    font-family: var(--font-jp);
+    font-size: 13px;
+    color: var(--text);
+  }
+  .conj-table-cell.muted {
+    color: var(--text-muted);
   }
 
   /* ---------- Kana back-of-card variants (pair + voiced + examples) ---------- */

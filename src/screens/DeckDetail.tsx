@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 
+import { ConjugationTableView } from "@/components/ConjugationTable";
 import type { AnyCard, AppState, Deck, Jlpt, KanjiCard, VocabCard } from "@/types";
 import { vocabWordSize } from "@/utils/format";
 
@@ -237,9 +238,14 @@ export function DeckDetail({ deck, state, onBack, onStudy }: DeckDetailProps) {
             </div>
             {deck.kind === "grammar" ? (
               <>
+                {peekVocab?.conjugation_table && (
+                  <ConjugationTableView table={peekVocab.conjugation_table} />
+                )}
                 {peekVocab?.context && (
                   <div className="keyword-block">
-                    <div className="keyword-label">How to use</div>
+                    <div className="keyword-label">
+                      {peekVocab.conjugation_table ? "Note" : "How to use"}
+                    </div>
                     <div className="etymology">{peekVocab.context}</div>
                   </div>
                 )}

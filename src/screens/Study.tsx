@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 
+import { ConjugationTableView } from "@/components/ConjugationTable";
 import { tryAutoBackup } from "@/native/autoBackup";
 import { haptic, hapticSelection } from "@/native/bridge";
 import { previewIntervals, sm2 } from "@/srs/sm2";
@@ -431,9 +432,10 @@ export function Study({ deck, state, setState, onDone, includeAll = false }: Stu
                     <div className="secondary">{current.meanings.join(" · ")}</div>
                   )}
                 </div>
+                {v.conjugation_table && <ConjugationTableView table={v.conjugation_table} />}
                 {v.context && (
                   <div className="keyword-block">
-                    <div className="keyword-label">How to use</div>
+                    <div className="keyword-label">{v.conjugation_table ? "Note" : "How to use"}</div>
                     <div className="etymology">{v.context}</div>
                   </div>
                 )}
