@@ -15,8 +15,12 @@ function deckStats(deck: Deck, progress: Record<string, CardProgress>, now: numb
   let mastered = 0;
   let due = 0;
   let newCount = 0;
-  for (const c of deck.cards) {
-    const p = progress[c.kanji];
+  // Default decks expose cardKeys synchronously even before the JSON has been
+  // dynamically imported, so this stays cheap. User decks fall through to
+  // `cards`, which they always have populated.
+  const keys = deck.cardKeys ?? deck.cards.map((c) => c.kanji);
+  for (const k of keys) {
+    const p = progress[k];
     if (!p) {
       newCount++;
       continue;
@@ -25,7 +29,7 @@ function deckStats(deck: Deck, progress: Record<string, CardProgress>, now: numb
     if (p.due <= now) due++;
     if (p.interval >= 21 && p.reps >= 3) mastered++;
   }
-  return { total: deck.cards.length, learned, mastered, due, newCount };
+  return { total: deck.cardCount, learned, mastered, due, newCount };
 }
 
 /**

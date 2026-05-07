@@ -5,8 +5,9 @@
   "type": "module",
   "description": "Kanjido — minimalist Japanese kanji study app with SM-2 spaced repetition. Vite + React + TypeScript; Capacitor wrap targets iOS.",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
+    "dev": "npm run build:deck-index && vite",
+    "build": "npm run build:deck-index && tsc -b && vite build",
+    "build:deck-index": "node scripts/build-deck-index.mjs",
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",

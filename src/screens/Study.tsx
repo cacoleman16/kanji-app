@@ -3,6 +3,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { ConjugationTableView } from "@/components/ConjugationTable";
 import { allDecks } from "@/data/allDecks";
 import { recommendNextDeck } from "@/data/recommendDeck";
+import { useDeckCards } from "@/hooks/useDeckCards";
 import { tryAutoBackup } from "@/native/autoBackup";
 import { haptic, hapticSelection } from "@/native/bridge";
 import { previewIntervals, sm2 } from "@/srs/sm2";
@@ -53,7 +54,34 @@ interface SessionStats {
 
 const EMPTY_DAILY: DailyStats = { reviewed: 0, again: 0, hard: 0, good: 0, easy: 0 };
 
-export function Study({
+/**
+ * Outer Study component — handles lazy deck-card loading. Default decks
+ * arrive with `cards: []` from the synchronous registry; this wrapper waits
+ * for the dynamic JSON import to resolve before mounting the actual session
+ * UI, so `buildQueue()` always sees real cards.
+ *
+ * User decks (`userCreated: true`) and the synthetic Mixed-Review deck are
+ * already populated and pass straight through.
+ */
+export function Study(props: StudyProps) {
+  const { hydratedDeck, loading } = useDeckCards(props.deck ?? null);
+  if (!props.deck || loading) {
+    return (
+      <div className="fade-in session-done">
+        <div className="done-emoji">…</div>
+        <div className="done-title">{props.deck ? "Loading deck" : "Deck not found"}</div>
+        {!props.deck && (
+          <button className="primary-btn" onClick={props.onDone}>
+            Back
+          </button>
+        )}
+      </div>
+    );
+  }
+  return <StudySession {...props} deck={hydratedDeck ?? props.deck} />;
+}
+
+function StudySession({
   deck,
   state,
   setState,

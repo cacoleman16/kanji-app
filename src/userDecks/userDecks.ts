@@ -97,6 +97,7 @@ export function userDeckToRuntime(ud: UserDeck): Deck {
     kind: ud.kind,
     available: true,
     userCreated: true,
+    cardCount: ud.cards.length,
     cards: ud.cards as AnyCard[],
   };
 }

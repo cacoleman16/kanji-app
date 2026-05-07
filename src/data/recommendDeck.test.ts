@@ -21,6 +21,7 @@ function deck(id: string, kanjis: string[], opts?: { name?: string }): Deck {
     id,
     name: opts?.name ?? id,
     kind: "kanji",
+    cardCount: kanjis.length,
     cards: kanjis.map(card),
   };
 }

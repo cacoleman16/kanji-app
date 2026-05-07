@@ -3,6 +3,7 @@ import { useMemo, useState } from "react";
 import { ConjugationTableView } from "@/components/ConjugationTable";
 import { Modal } from "@/components/Modal";
 import { ReviewHistory } from "@/components/ReviewHistory";
+import { useDeckCards } from "@/hooks/useDeckCards";
 import type { AnyCard, AppState, Deck, Jlpt, KanjiCard, VocabCard } from "@/types";
 import { vocabWordSize } from "@/utils/format";
 
@@ -16,7 +17,34 @@ interface DeckDetailProps {
   onStudy: (opts: { includeAll?: boolean }) => void;
 }
 
-export function DeckDetail({ deck, state, setState, onBack, onStudy }: DeckDetailProps) {
+/**
+ * Outer DeckDetail — gates the screen on `useDeckCards()` so default decks
+ * (which start with `cards: []`) display a brief loader while the dynamic
+ * JSON import resolves. User decks pass straight through.
+ */
+export function DeckDetail(props: DeckDetailProps) {
+  const { hydratedDeck, loading } = useDeckCards(props.deck ?? null);
+  if (props.deck && loading) {
+    return (
+      <div className="fade-in">
+        <div className="topbar">
+          <button className="icon-btn" onClick={props.onBack} aria-label="Back">
+            ←
+          </button>
+          <div className="topbar-title">{props.deck.name}</div>
+          <div style={{ width: 40 }} />
+        </div>
+        <div className="session-done" style={{ paddingTop: 48 }}>
+          <div className="done-emoji">…</div>
+          <div className="done-title">Loading deck</div>
+        </div>
+      </div>
+    );
+  }
+  return <DeckDetailInner {...props} deck={hydratedDeck ?? props.deck} />;
+}
+
+function DeckDetailInner({ deck, state, setState, onBack, onStudy }: DeckDetailProps) {
   const [peekIdx, setPeekIdx] = useState<number | null>(null);
   const [jlptFilter, setJlptFilter] = useState<Level>("all");
   const [confirmReset, setConfirmReset] = useState(false);

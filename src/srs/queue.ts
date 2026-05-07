@@ -70,6 +70,7 @@ export function buildMixedDeck(
     subtitle: `${cards.length} due`,
     kind: "kanji",
     available: true,
+    cardCount: cards.length,
     cards,
   };
 }

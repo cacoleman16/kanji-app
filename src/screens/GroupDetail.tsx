@@ -24,15 +24,16 @@ export function GroupDetail({ group, state, onBack, onOpenDeck }: GroupDetailPro
       let due = 0;
       let newCount = 0;
       let learned = 0;
-      for (const c of d.cards) {
-        const p = state.progress[c.kanji];
+      const keys = d.cardKeys ?? d.cards.map((c) => c.kanji);
+      for (const k of keys) {
+        const p = state.progress[k];
         if (!p) newCount++;
         else {
           learned++;
           if (p.due <= now) due++;
         }
       }
-      result[d.id] = { due, newCount, learned, total: d.cards.length };
+      result[d.id] = { due, newCount, learned, total: d.cardCount };
     }
     return result;
   }, [members, state.progress, group]);

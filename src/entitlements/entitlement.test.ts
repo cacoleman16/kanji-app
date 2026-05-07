@@ -20,6 +20,7 @@ const fakeDeck = (id: string, overrides: Partial<Deck> = {}): Deck => ({
   id,
   name: id,
   kind: "kanji",
+  cardCount: 0,
   cards: [],
   available: true,
   ...overrides,

@@ -51,23 +51,17 @@ export default defineConfig({
     rollupOptions: {
       output: {
         /**
-         * Split deck JSONs into per-category chunks so:
-         *  - first-paint of the React shell isn't blocked on ~2 MB of card data
-         *  - parallel HTTP/2 fetching loads the smaller chunks (vocab, grammar,
-         *    kana) faster than waiting on one giant chunk
-         *  - users on slow connections can interact with Home (kana + JLPT N5
-         *    are free) before the heavier kanji-default chunk lands
+         * Deck JSONs are now lazy-loaded (see src/data/decks.ts). Vite/Rollup
+         * naturally emits one chunk per dynamic import, so we don't manually
+         * split them anymore — that would force decks back into shared
+         * chunks and undo the per-deck laziness. Each `deck-<name>-<hash>.js`
+         * lands ~5-50 KB gzipped and only loads when the user opens that
+         * deck.
+         *
+         * We still pin react / react-dom into their own vendor chunk so they
+         * cache independently of app code (changes far less frequently).
          */
         manualChunks(id) {
-          if (id.includes("/agent-files/")) {
-            if (id.includes("/kana_")) return "decks-kana";
-            if (id.includes("/vocab_grammar_")) return "decks-grammar";
-            if (id.includes("/vocab_")) return "decks-vocab";
-            // Default: the heavy kanji decks (JLPT, Jōyō, Top frequency).
-            return "decks-kanji";
-          }
-          // Pull react / react-dom into a separate vendor chunk so it caches
-          // independently of app code (changes far less frequently).
           if (id.includes("node_modules/react/") || id.includes("node_modules/react-dom/")) {
             return "vendor-react";
           }

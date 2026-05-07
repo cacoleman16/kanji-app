@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 
+import { useAllDeckCards } from "@/hooks/useAllDeckCards";
 import { allDecks } from "@/data/allDecks";
 import { dueCountsByJlpt } from "@/srs/queue";
 import type { AppState, Jlpt } from "@/types";
@@ -14,9 +15,15 @@ interface MixedReviewProps {
 
 export function MixedReview({ state, onBack, onStart }: MixedReviewProps) {
   const [jlpt, setJlpt] = useState<Level>("all");
+  // dueCountsByJlpt reads `c.jlpt` per card; the JLPT level isn't in the
+  // build-time cardKeys index. Preload every default deck on mount so the
+  // counts come out accurate. First visit pays a brief loader; subsequent
+  // visits resolve from cache instantly.
+  const decks = useMemo(() => allDecks(state), [state]);
+  const { hydratedDecks, loading } = useAllDeckCards(decks);
   const counts = useMemo(
-    () => dueCountsByJlpt(allDecks(state), state.progress, Date.now()),
-    [state],
+    () => dueCountsByJlpt(hydratedDecks, state.progress, Date.now()),
+    [hydratedDecks, state.progress],
   );
   const selectedCount = jlpt === "all" ? counts.all : counts[jlpt] || 0;
   const levels: Level[] = ["all", "N5", "N4", "N3", "N2", "N1"];
@@ -43,12 +50,12 @@ export function MixedReview({ state, onBack, onStart }: MixedReviewProps) {
             className="mini-stat-val"
             style={{ color: counts.all > 0 ? "var(--again)" : "var(--text)" }}
           >
-            {counts.all}
+            {loading ? "…" : counts.all}
           </div>
         </div>
         <div className="mini-stat">
           <div className="mini-stat-lbl">In selection</div>
-          <div className="mini-stat-val">{selectedCount}</div>
+          <div className="mini-stat-val">{loading ? "…" : selectedCount}</div>
         </div>
       </div>
 

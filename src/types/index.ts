@@ -99,7 +99,26 @@ export interface Deck<C extends AnyCard = AnyCard> {
   kind: DeckKind;
   /** Default-shipped decks may be hidden until ready; user decks are always available. */
   available?: boolean;
+  /**
+   * Card data. For default decks this is empty until the JSON is lazy-loaded
+   * via `loadDeckCards(id)`; consumers that just need a count should read
+   * `cardCount` instead. For user-created decks it's the full set up front.
+   */
   cards: C[];
+  /**
+   * Total number of cards in the deck — known synchronously from the deck
+   * index even before `cards` has been hydrated. Use this everywhere a
+   * count is needed (Home tiles, stats, search placeholder text).
+   */
+  cardCount: number;
+  /**
+   * Front-of-card text for every card. Available synchronously for default
+   * decks (from the build-time index) so progress lookups can run without
+   * triggering a dynamic import of the full card payload. Empty for the
+   * synthetic Mixed-Review deck and for user-created decks (use `.cards`
+   * directly there).
+   */
+  cardKeys?: readonly string[];
   /** True for decks the user created (vs. default content). */
   userCreated?: boolean;
 }

@@ -81,10 +81,11 @@ function buildDistribution(state: AppState): CardStatusDistribution {
   let due = 0;
   let mastered = 0;
   for (const deck of decks) {
-    for (const c of deck.cards) {
-      if (seen.has(c.kanji)) continue;
-      seen.add(c.kanji);
-      const p = state.progress[c.kanji];
+    const keys = deck.cardKeys ?? deck.cards.map((c) => c.kanji);
+    for (const k of keys) {
+      if (seen.has(k)) continue;
+      seen.add(k);
+      const p = state.progress[k];
       if (!p) {
         newCount++;
         continue;
@@ -114,12 +115,13 @@ function buildDeckBreakdown(state: AppState): DeckBreakdown[] {
   const decks = allDecks(state).filter((d) => isDeckUnlocked(d, state));
   const out: DeckBreakdown[] = [];
   for (const deck of decks) {
-    const total = deck.cards.length;
+    const total = deck.cardCount;
     if (total === 0) continue;
     let learned = 0;
     let mastered = 0;
-    for (const c of deck.cards) {
-      const p = state.progress[c.kanji];
+    const keys = deck.cardKeys ?? deck.cards.map((c) => c.kanji);
+    for (const k of keys) {
+      const p = state.progress[k];
       if (!p) continue;
       learned++;
       if (p.interval >= 21 && p.reps >= 3) mastered++;

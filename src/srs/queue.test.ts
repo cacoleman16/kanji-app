@@ -23,6 +23,7 @@ const deckA: Deck = {
   name: "A",
   kind: "kanji",
   available: true,
+  cardCount: cardsA.length,
   cards: cardsA,
 };
 const deckB: Deck = {
@@ -30,6 +31,7 @@ const deckB: Deck = {
   name: "B",
   kind: "kanji",
   available: true,
+  cardCount: cardsB.length,
   cards: cardsB,
 };
 

@@ -59,17 +59,21 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
     const result: Record<string, DeckInfo> = {};
     for (const d of decks) {
       if (d.available === false) {
-        result[d.id] = { due: 0, newCount: 0, total: d.cards.length };
+        result[d.id] = { due: 0, newCount: 0, total: d.cardCount };
         continue;
       }
       let due = 0;
       let newCount = 0;
-      for (const c of d.cards) {
-        const p = state.progress[c.kanji];
+      // Default decks expose `cardKeys` from the build-time index so this
+      // loop runs without forcing a dynamic JSON import. User-created decks
+      // (live in localStorage) iterate their populated `.cards` instead.
+      const keys = d.cardKeys ?? d.cards.map((c) => c.kanji);
+      for (const k of keys) {
+        const p = state.progress[k];
         if (!p) newCount++;
         else if (p.due <= now) due++;
       }
-      result[d.id] = { due, newCount, total: d.cards.length };
+      result[d.id] = { due, newCount, total: d.cardCount };
     }
     return result;
   }, [decks, state.progress]);

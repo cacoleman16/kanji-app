@@ -22,12 +22,18 @@ function makeKanjiCard(kanji: string, keyword: string): KanjiCard {
   };
 }
 
+const TEST_DECK_CARDS = [
+  makeKanjiCard("一", "one"),
+  makeKanjiCard("二", "two"),
+  makeKanjiCard("三", "three"),
+];
 const TEST_DECK: Deck = {
   id: "test-deck",
   name: "Test Deck",
   subtitle: "Three cards",
   kind: "kanji",
-  cards: [makeKanjiCard("一", "one"), makeKanjiCard("二", "two"), makeKanjiCard("三", "three")],
+  cardCount: TEST_DECK_CARDS.length,
+  cards: TEST_DECK_CARDS,
 };
 
 function makeProgress(reps = 5, intervalDays = 30): CardProgress {
@@ -185,7 +191,7 @@ describe("<DeckDetail />", () => {
     // Build a 30-card deck — one with a unique keyword we'll search for.
     const cards = Array.from({ length: 30 }, (_, i) => makeKanjiCard(`字${i}`, `gloss${i}`));
     cards[7] = makeKanjiCard("特別", "uniqueneedle");
-    const bigDeck: Deck = { ...TEST_DECK, cards };
+    const bigDeck: Deck = { ...TEST_DECK, cardCount: cards.length, cards };
     render(
       <DeckDetail
         deck={bigDeck}
