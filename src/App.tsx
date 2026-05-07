@@ -23,8 +23,11 @@ import type { Route } from "./routes";
 export function App() {
   const [state, setState] = useState<AppState>(() => loadState());
   const [route, setRoute] = useState<Route>({ name: "home" });
+  // Compute the export-banner visibility once at mount from the same load —
+  // previously we called loadState() a second time, which is wasteful since
+  // localStorage parsing isn't cheap with our schema-v5 + migrations.
   const [showExportBanner, setShowExportBanner] = useState<boolean>(() => {
-    const initial = loadState();
+    const initial = state;
     const last = initial.streak?.lastActiveDay;
     if (!last || !Object.keys(initial.progress).length) return false;
     return Math.floor((Date.now() - new Date(last).getTime()) / 86_400_000) >= 30;

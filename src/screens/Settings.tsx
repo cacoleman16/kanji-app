@@ -1,5 +1,6 @@
 import { useRef, useState, type ChangeEvent, type ReactNode } from "react";
 
+import { Badge } from "@/components/Badge";
 import { Modal } from "@/components/Modal";
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
@@ -283,7 +284,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
   return (
     <div className="fade-in">
       <div className="topbar">
-        <button className="icon-btn" onClick={onBack}>
+        <button className="icon-btn" onClick={onBack} aria-label="Back to home">
           ←
         </button>
         <div className="topbar-title">Settings</div>
@@ -489,22 +490,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
         <div>
           <div className="settings-label" style={{ display: "flex", alignItems: "center", gap: 6 }}>
             Daily reminder
-            {!isNative() && (
-              <span
-                style={{
-                  fontSize: 9,
-                  fontWeight: 600,
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase",
-                  color: "var(--text-dim)",
-                  background: "var(--surface-2)",
-                  padding: "2px 6px",
-                  borderRadius: 4,
-                }}
-              >
-                iOS only
-              </span>
-            )}
+            {!isNative() && <Badge>iOS only</Badge>}
           </div>
           <div className="settings-sub">
             {isNative()
@@ -569,22 +555,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
         <div>
           <div className="settings-label" style={{ display: "flex", alignItems: "center", gap: 6 }}>
             iCloud backup
-            {!isNative() && (
-              <span
-                style={{
-                  fontSize: 9,
-                  fontWeight: 600,
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase",
-                  color: "var(--text-dim)",
-                  background: "var(--surface-2)",
-                  padding: "2px 6px",
-                  borderRadius: 4,
-                }}
-              >
-                iOS only
-              </span>
-            )}
+            {!isNative() && <Badge>iOS only</Badge>}
           </div>
           <div className="settings-sub">
             {isNative()

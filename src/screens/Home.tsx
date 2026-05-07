@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 
+import { Badge } from "@/components/Badge";
 import { allDecks } from "@/data/allDecks";
 import { decksInGroup, groupFor, type DeckGroup } from "@/data/groups";
 import { isDeckUnlocked, isPro } from "@/entitlements/entitlement";
@@ -150,22 +151,7 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
             style={{ display: "flex", alignItems: "center", gap: 6 }}
           >
             {d.name}
-            {!unlocked && available && (
-              <span
-                style={{
-                  fontSize: 10,
-                  fontWeight: 600,
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase",
-                  color: "var(--accent)",
-                  background: "var(--accent-soft)",
-                  padding: "2px 6px",
-                  borderRadius: 4,
-                }}
-              >
-                Pro
-              </span>
-            )}
+            {!unlocked && available && <Badge variant="pro">Pro</Badge>}
           </div>
           <div className="deck-sub">{available ? d.subtitle : "Coming soon"}</div>
         </div>

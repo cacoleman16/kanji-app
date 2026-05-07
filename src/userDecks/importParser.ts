@@ -309,8 +309,34 @@ function assignField(card: UserCard, field: keyof UserCard, raw: unknown): void 
     if (VALID_JLPT.has(norm)) card.jlpt = norm as UserCard["jlpt"];
     return;
   }
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  (card as any)[field] = str;
+  assignStringField(card, field, str);
+}
+
+/**
+ * Type-safe string-field assignment for the simple string fields on UserCard
+ * (everything that isn't `meanings` / `on_yomi` / `kun_yomi` / `examples` /
+ * `jlpt`). Narrowing here avoids the `as any` we previously had.
+ */
+type StringField = Exclude<
+  keyof UserCard,
+  "meanings" | "on_yomi" | "kun_yomi" | "examples" | "jlpt"
+>;
+
+const STRING_FIELDS: ReadonlySet<StringField> = new Set<StringField>([
+  "kanji",
+  "reading",
+  "keyword",
+  "etymology",
+  "context",
+  "example_sentence",
+  "example_reading",
+  "example_meaning",
+]);
+
+function assignStringField(card: UserCard, field: keyof UserCard, value: string): void {
+  if (STRING_FIELDS.has(field as StringField)) {
+    card[field as StringField] = value;
+  }
 }
 
 function parseDelimited(text: string, format: "csv" | "tsv"): ParsedImport {

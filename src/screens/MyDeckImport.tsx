@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState, type ChangeEvent } from "react";
 
+import { Badge } from "@/components/Badge";
 import { canImportApkg, isPro, userDeckCardLimit } from "@/entitlements/entitlement";
 import type { AppState, UserCard } from "@/types";
 import { parseDeckImport, type ImportError, type ImportFormat } from "@/userDecks/importParser";
@@ -138,22 +139,7 @@ export function MyDeckImport({ deckId, state, setState, onBack, go }: MyDeckImpo
         <div>
           <div className="settings-label" style={{ display: "flex", alignItems: "center", gap: 6 }}>
             Anki .apkg file
-            {!userIsPro && (
-              <span
-                style={{
-                  fontSize: 9,
-                  fontWeight: 600,
-                  letterSpacing: "0.06em",
-                  textTransform: "uppercase",
-                  color: "var(--accent)",
-                  background: "var(--accent-soft)",
-                  padding: "2px 6px",
-                  borderRadius: 4,
-                }}
-              >
-                Pro
-              </span>
-            )}
+            {!userIsPro && <Badge variant="pro">Pro</Badge>}
           </div>
           <div className="settings-sub">
             {apkg
