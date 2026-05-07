@@ -6,6 +6,7 @@ import { DECK_GROUPS, groupFor } from "@/data/groups";
 import { DeckDetail } from "@/screens/DeckDetail";
 import { GroupDetail } from "@/screens/GroupDetail";
 import { Home } from "@/screens/Home";
+import { Legal } from "@/screens/Legal";
 import { MixedReview } from "@/screens/MixedReview";
 import { MyDeckEdit } from "@/screens/MyDeckEdit";
 import { MyDeckImport } from "@/screens/MyDeckImport";
@@ -163,6 +164,8 @@ export function App() {
             reason={route.reason}
           />
         );
+      case "legal":
+        return <Legal doc={route.doc} onBack={() => go({ name: "settings" })} />;
       default:
         return (
           <Home

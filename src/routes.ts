@@ -13,4 +13,5 @@ export type Route =
   | { name: "myDecks" }
   | { name: "myDeckEdit"; deckId: string }
   | { name: "myDeckImport"; deckId: string }
-  | { name: "paywall"; reason?: string };
+  | { name: "paywall"; reason?: string }
+  | { name: "legal"; doc: "privacy" | "terms" | "support" };

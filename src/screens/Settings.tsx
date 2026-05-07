@@ -2,6 +2,7 @@ import { useRef, useState, type ChangeEvent, type ReactNode } from "react";
 
 import { Badge } from "@/components/Badge";
 import { Modal } from "@/components/Modal";
+import { APP_VERSION } from "@/data/version";
 import { grantPro, isPro, revokePro } from "@/entitlements/entitlement";
 import { getSubscriptionProvider } from "@/entitlements/provider";
 import { isNative, listBackupFiles, readBackupFile, shareText, writeBackupFile } from "@/native/bridge";
@@ -676,31 +677,24 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           marginBottom: 24,
         }}
       >
-        <a
-          href="/privacy"
-          target="_blank"
-          rel="noopener"
+        <button
           className="filter-chip"
-          style={{ textDecoration: "none" }}
+          onClick={() => go({ name: "legal", doc: "privacy" })}
         >
           Privacy Policy
-        </a>
-        <a
-          href="/terms"
-          target="_blank"
-          rel="noopener"
+        </button>
+        <button
           className="filter-chip"
-          style={{ textDecoration: "none" }}
+          onClick={() => go({ name: "legal", doc: "terms" })}
         >
           Terms of Service
-        </a>
-        <a
-          href="mailto:hello@kanjido.app"
+        </button>
+        <button
           className="filter-chip"
-          style={{ textDecoration: "none" }}
+          onClick={() => go({ name: "legal", doc: "support" })}
         >
-          Contact / support
-        </a>
+          Support
+        </button>
       </div>
 
       <div
@@ -715,7 +709,7 @@ export function Settings({ state, setState, onBack, go }: SettingsProps) {
           userSelect: "none",
         }}
       >
-        Kanjido v0.1 · {isNative() ? "iOS native" : "Web (PWA)"} · Local-only data
+        Kanjido v{APP_VERSION} · {isNative() ? "iOS native" : "Web (PWA)"} · Local-only data
       </div>
 
       <Modal
