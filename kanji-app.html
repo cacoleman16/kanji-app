@@ -601,6 +601,13 @@
   .undo-btn:hover:not(:disabled) { color: var(--text); background: var(--surface); }
   .undo-btn:disabled { opacity: 0.25; cursor: default; }
   .undo-btn .undo-glyph { font-size: 16px; line-height: 1; }
+  .undo-btn.active {
+    color: var(--accent);
+    background: var(--accent-soft);
+    border: 1px solid var(--accent);
+    padding: 5px 9px;
+  }
+  .undo-btn.active:hover:not(:disabled) { color: var(--accent); background: var(--accent-soft); }
 
   /* ---------- Deck Detail ---------- */
   .deck-detail-header {
@@ -5197,7 +5204,7 @@ const DEFAULT_STATE = {
   schemaVersion: SCHEMA_VERSION,
   progress: {},            // { kanji: { ease, interval, reps, due, lastReview } }
   stats:    { byDay: {} }, // { "YYYY-MM-DD": { reviewed, again, hard, good, easy } }
-  settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium", theme: "dark", vocabDirection: "ja-en" },
+  settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium", theme: "dark", vocabDirection: "ja-en", vocabFurigana: "show" },
   streak:   { current: 0, longest: 0, lastActiveDay: null },
 };
 
@@ -5727,6 +5734,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
   const [flipped, setFlipped] = useState(false);
   const [sessionStats, setSessionStats] = useState({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0, skipped: 0 });
   const [undoStack, setUndoStack] = useState([]);  // Snapshots for "undo last rating"
+  const [shuffled, setShuffled] = useState(false);  // Tracks whether this session's queue has been shuffled
   const skippedCards = useRef(new Set());           // Tracks cards skipped once (to avoid infinite re-queue)
 
   const total = queue.length;
@@ -5819,6 +5827,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
       shuffleArray(remaining);
       return [...seen, ...remaining];
     });
+    setShuffled(true);
   }, [idx]);
 
   // Keyboard shortcuts (defined after rate + undo so closure is fresh)
@@ -5888,14 +5897,24 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
               {(state.settings.vocabDirection || "ja-en") === "en-ja" ? "EN → JP" : "JP → EN"}
             </button>
           )}
+          {deck.kind === "vocab" && (
+            <button
+              className={`undo-btn${(state.settings.vocabFurigana || "show") === "show" ? " active" : ""}`}
+              onClick={() => setState(s => ({ ...s, settings: { ...s.settings, vocabFurigana: ((s.settings.vocabFurigana || "show") === "show" ? "hide" : "show") } }))}
+              aria-label="Toggle furigana"
+              title="Show or hide readings on vocab cards"
+            >
+              {(state.settings.vocabFurigana || "show") === "show" ? "ふりがな ON" : "ふりがな OFF"}
+            </button>
+          )}
           <button
-            className="undo-btn"
+            className={`undo-btn${shuffled ? " active" : ""}`}
             onClick={shuffleRemaining}
             disabled={total - idx - 1 < 2}
             aria-label="Shuffle remaining cards"
-            title="Shuffle remaining cards"
+            title={shuffled ? "Cards shuffled — click to reshuffle remaining" : "Shuffle remaining cards"}
           >
-            ⇌ Shuffle
+            ⇌ Shuffle{shuffled ? "d" : ""}
           </button>
           <button
             className="undo-btn"
@@ -5923,7 +5942,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
               ) : (
                 <>
                   <span className="vocab-word" style={vocabWordSize(current.kanji)}>{current.kanji}</span>
-                  {current.reading && <span className="vocab-reading">{current.reading}</span>}
+                  {current.reading && (state.settings.vocabFurigana || "show") === "show" && <span className="vocab-reading">{current.reading}</span>}
                 </>
               )
             ) : (
@@ -5943,7 +5962,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
                     <div className="vocab-example">
                       <div className="vocab-example-label">Example</div>
                       <div className="vocab-example-jp">{current.example_sentence}</div>
-                      {current.example_reading && <div className="vocab-example-reading">{current.example_reading}</div>}
+                      {current.example_reading && (state.settings.vocabFurigana || "show") === "show" && <div className="vocab-example-reading">{current.example_reading}</div>}
                       {current.example_meaning && <div className="vocab-example-en">{current.example_meaning}</div>}
                     </div>
                   )}
@@ -5961,7 +5980,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
                     <div className="vocab-example">
                       <div className="vocab-example-label">Example</div>
                       <div className="vocab-example-jp">{current.example_sentence}</div>
-                      {current.example_reading && <div className="vocab-example-reading">{current.example_reading}</div>}
+                      {current.example_reading && (state.settings.vocabFurigana || "show") === "show" && <div className="vocab-example-reading">{current.example_reading}</div>}
                       {current.example_meaning && <div className="vocab-example-en">{current.example_meaning}</div>}
                     </div>
                   )}
@@ -6338,6 +6357,17 @@ function Settings({ state, setState, onBack }) {
           <option value="ja-en">Japanese → English</option>
           <option value="en-ja">English → Japanese</option>
         </select>
+      </div>
+
+      <div className="settings-row">
+        <div>
+          <div className="settings-label">Vocab furigana</div>
+          <div className="settings-sub">Show or hide kana readings on vocab cards</div>
+        </div>
+        <div style={{display:"flex", gap:6}}>
+          <button onClick={() => update("vocabFurigana","show")} style={{padding:"8px 12px", borderRadius:"8px", border: (state.settings.vocabFurigana||"show")==="show" ? "2px solid var(--accent)" : "1px solid var(--border)", background: (state.settings.vocabFurigana||"show")==="show" ? "var(--surface-2)" : "transparent", color:"var(--text)", cursor:"pointer", fontSize:"13px", fontWeight: (state.settings.vocabFurigana||"show")==="show" ? "600" : "400"}}>Show</button>
+          <button onClick={() => update("vocabFurigana","hide")} style={{padding:"8px 12px", borderRadius:"8px", border: (state.settings.vocabFurigana||"show")==="hide" ? "2px solid var(--accent)" : "1px solid var(--border)", background: (state.settings.vocabFurigana||"show")==="hide" ? "var(--surface-2)" : "transparent", color:"var(--text)", cursor:"pointer", fontSize:"13px", fontWeight: (state.settings.vocabFurigana||"show")==="hide" ? "600" : "400"}}>Hide</button>
+        </div>
       </div>
 
       <div className="settings-row">
