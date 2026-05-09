@@ -5,7 +5,7 @@
   "source": "General everyday Japanese; JLPT N3–N4 syllabus and common usage corpora",
   "learner_level": "N3",
   "notes": "A broad-topic deck for N3/N4 learners not tied to any single text. Covers the everyday vocabulary gaps that trip up learners at this level: words known passively but not yet active, kanji whose readings still feel uncertain, colloquial expressions not taught in textbooks, and subtle nuance pairs (e.g. 変える vs 変わる, 決める vs 決まる). Categories span daily life, work, emotion, time, weather, health, travel, and abstract thinking. Cards marked 'high' priority are the ones learners at this stage most often say they 'know but can't use'.",
-  "card_count": 65,
+  "card_count": 103,
   "priority_guide": {
     "high": "Learn first — core building-block word; blocks production and comprehension if missing.",
     "medium": "Learn after high priority — enriches range; context usually helps.",
@@ -38,7 +38,10 @@
     {
       "word": "経験",
       "reading": "けいけん",
-      "meanings": ["experience", "personal experience"],
+      "meanings": [
+        "experience",
+        "personal experience"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -53,7 +56,11 @@
     {
       "word": "体験",
       "reading": "たいけん",
-      "meanings": ["personal experience", "hands-on experience", "trial experience"],
+      "meanings": [
+        "personal experience",
+        "hands-on experience",
+        "trial experience"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -68,7 +75,11 @@
     {
       "word": "変える",
       "reading": "かえる",
-      "meanings": ["to change (something)", "to alter", "to switch (transitive)"],
+      "meanings": [
+        "to change (something)",
+        "to alter",
+        "to switch (transitive)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -83,7 +94,11 @@
     {
       "word": "変わる",
       "reading": "かわる",
-      "meanings": ["to change", "to vary", "to be different (intransitive)"],
+      "meanings": [
+        "to change",
+        "to vary",
+        "to be different (intransitive)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -98,7 +113,11 @@
     {
       "word": "決める",
       "reading": "きめる",
-      "meanings": ["to decide", "to determine", "to fix (transitive)"],
+      "meanings": [
+        "to decide",
+        "to determine",
+        "to fix (transitive)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -113,7 +132,11 @@
     {
       "word": "決まる",
       "reading": "きまる",
-      "meanings": ["to be decided", "to be settled", "to be fixed (intransitive)"],
+      "meanings": [
+        "to be decided",
+        "to be settled",
+        "to be fixed (intransitive)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -128,7 +151,11 @@
     {
       "word": "集める",
       "reading": "あつめる",
-      "meanings": ["to collect", "to gather (things/people)", "to accumulate (transitive)"],
+      "meanings": [
+        "to collect",
+        "to gather (things/people)",
+        "to accumulate (transitive)"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -143,7 +170,11 @@
     {
       "word": "集まる",
       "reading": "あつまる",
-      "meanings": ["to gather", "to assemble", "to come together (intransitive)"],
+      "meanings": [
+        "to gather",
+        "to assemble",
+        "to come together (intransitive)"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -158,7 +189,10 @@
     {
       "word": "続ける",
       "reading": "つづける",
-      "meanings": ["to continue (something)", "to keep doing (transitive)"],
+      "meanings": [
+        "to continue (something)",
+        "to keep doing (transitive)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -173,7 +207,11 @@
     {
       "word": "続く",
       "reading": "つづく",
-      "meanings": ["to continue", "to last", "to go on (intransitive)"],
+      "meanings": [
+        "to continue",
+        "to last",
+        "to go on (intransitive)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -188,7 +226,12 @@
     {
       "word": "予定",
       "reading": "よてい",
-      "meanings": ["schedule", "plan", "appointment", "what is scheduled"],
+      "meanings": [
+        "schedule",
+        "plan",
+        "appointment",
+        "what is scheduled"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -203,7 +246,11 @@
     {
       "word": "予約",
       "reading": "よやく",
-      "meanings": ["reservation", "booking", "appointment (at a restaurant, hotel, etc.)"],
+      "meanings": [
+        "reservation",
+        "booking",
+        "appointment (at a restaurant, hotel, etc.)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -218,7 +265,12 @@
     {
       "word": "連絡",
       "reading": "れんらく",
-      "meanings": ["contact", "communication", "notification", "getting in touch"],
+      "meanings": [
+        "contact",
+        "communication",
+        "notification",
+        "getting in touch"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -233,7 +285,11 @@
     {
       "word": "確認",
       "reading": "かくにん",
-      "meanings": ["confirmation", "verification", "checking"],
+      "meanings": [
+        "confirmation",
+        "verification",
+        "checking"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -248,7 +304,11 @@
     {
       "word": "相談",
       "reading": "そうだん",
-      "meanings": ["consultation", "discussion", "seeking advice"],
+      "meanings": [
+        "consultation",
+        "discussion",
+        "seeking advice"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -263,7 +323,11 @@
     {
       "word": "失礼",
       "reading": "しつれい",
-      "meanings": ["rudeness", "impoliteness", "excuse me (when leaving/interrupting)"],
+      "meanings": [
+        "rudeness",
+        "impoliteness",
+        "excuse me (when leaving/interrupting)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -278,7 +342,12 @@
     {
       "word": "遠慮",
       "reading": "えんりょ",
-      "meanings": ["reserve", "restraint", "holding back out of politeness", "declining politely"],
+      "meanings": [
+        "reserve",
+        "restraint",
+        "holding back out of politeness",
+        "declining politely"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -293,7 +362,12 @@
     {
       "word": "丁寧",
       "reading": "ていねい",
-      "meanings": ["polite", "careful", "thorough", "attentive (to manners and detail)"],
+      "meanings": [
+        "polite",
+        "careful",
+        "thorough",
+        "attentive (to manners and detail)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -308,7 +382,11 @@
     {
       "word": "親切",
       "reading": "しんせつ",
-      "meanings": ["kindness", "kind", "helpful"],
+      "meanings": [
+        "kindness",
+        "kind",
+        "helpful"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -323,7 +401,12 @@
     {
       "word": "我慢",
       "reading": "がまん",
-      "meanings": ["endurance", "patience", "putting up with something", "holding back"],
+      "meanings": [
+        "endurance",
+        "patience",
+        "putting up with something",
+        "holding back"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -338,7 +421,11 @@
     {
       "word": "緊張",
       "reading": "きんちょう",
-      "meanings": ["tension", "nervousness", "being tense/anxious"],
+      "meanings": [
+        "tension",
+        "nervousness",
+        "being tense/anxious"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -353,7 +440,11 @@
     {
       "word": "安心",
       "reading": "あんしん",
-      "meanings": ["relief", "peace of mind", "reassurance"],
+      "meanings": [
+        "relief",
+        "peace of mind",
+        "reassurance"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -368,7 +459,11 @@
     {
       "word": "心配",
       "reading": "しんぱい",
-      "meanings": ["worry", "anxiety", "concern"],
+      "meanings": [
+        "worry",
+        "anxiety",
+        "concern"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -383,7 +478,12 @@
     {
       "word": "不安",
       "reading": "ふあん",
-      "meanings": ["unease", "anxiety", "insecurity", "worry about the future"],
+      "meanings": [
+        "unease",
+        "anxiety",
+        "insecurity",
+        "worry about the future"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -398,7 +498,11 @@
     {
       "word": "感動",
       "reading": "かんどう",
-      "meanings": ["being moved (emotionally)", "deep impression", "touching feeling"],
+      "meanings": [
+        "being moved (emotionally)",
+        "deep impression",
+        "touching feeling"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -413,7 +517,12 @@
     {
       "word": "残念",
       "reading": "ざんねん",
-      "meanings": ["regrettable", "unfortunate", "what a shame", "disappointing"],
+      "meanings": [
+        "regrettable",
+        "unfortunate",
+        "what a shame",
+        "disappointing"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -428,7 +537,11 @@
     {
       "word": "久しぶり",
       "reading": "ひさしぶり",
-      "meanings": ["it's been a while", "long time no see", "after a long absence"],
+      "meanings": [
+        "it's been a while",
+        "long time no see",
+        "after a long absence"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -443,7 +556,11 @@
     {
       "word": "お世話になる",
       "reading": "おせわになる",
-      "meanings": ["to be in someone's care", "to receive help/support from someone", "to be indebted to someone"],
+      "meanings": [
+        "to be in someone's care",
+        "to receive help/support from someone",
+        "to be indebted to someone"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -458,7 +575,12 @@
     {
       "word": "迷惑",
       "reading": "めいわく",
-      "meanings": ["nuisance", "trouble", "annoyance", "causing inconvenience"],
+      "meanings": [
+        "nuisance",
+        "trouble",
+        "annoyance",
+        "causing inconvenience"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -473,7 +595,11 @@
     {
       "word": "機会",
       "reading": "きかい",
-      "meanings": ["opportunity", "chance", "occasion"],
+      "meanings": [
+        "opportunity",
+        "chance",
+        "occasion"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -488,7 +614,11 @@
     {
       "word": "理由",
       "reading": "りゆう",
-      "meanings": ["reason", "cause", "grounds"],
+      "meanings": [
+        "reason",
+        "cause",
+        "grounds"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -503,7 +633,12 @@
     {
       "word": "訳",
       "reading": "わけ",
-      "meanings": ["reason", "meaning", "circumstances", "that's why"],
+      "meanings": [
+        "reason",
+        "meaning",
+        "circumstances",
+        "that's why"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -518,7 +653,12 @@
     {
       "word": "場合",
       "reading": "ばあい",
-      "meanings": ["case", "situation", "occasion", "in the event of"],
+      "meanings": [
+        "case",
+        "situation",
+        "occasion",
+        "in the event of"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -533,7 +673,12 @@
     {
       "word": "方法",
       "reading": "ほうほう",
-      "meanings": ["method", "way", "means", "approach"],
+      "meanings": [
+        "method",
+        "way",
+        "means",
+        "approach"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -548,7 +693,12 @@
     {
       "word": "目的",
       "reading": "もくてき",
-      "meanings": ["purpose", "aim", "objective", "goal"],
+      "meanings": [
+        "purpose",
+        "aim",
+        "objective",
+        "goal"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -563,7 +713,11 @@
     {
       "word": "目標",
       "reading": "もくひょう",
-      "meanings": ["target", "goal", "objective (concrete/measurable)"],
+      "meanings": [
+        "target",
+        "goal",
+        "objective (concrete/measurable)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -578,7 +732,11 @@
     {
       "word": "結果",
       "reading": "けっか",
-      "meanings": ["result", "outcome", "consequence"],
+      "meanings": [
+        "result",
+        "outcome",
+        "consequence"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -593,7 +751,11 @@
     {
       "word": "原因",
       "reading": "げんいん",
-      "meanings": ["cause", "origin", "root cause"],
+      "meanings": [
+        "cause",
+        "origin",
+        "root cause"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -608,7 +770,11 @@
     {
       "word": "影響",
       "reading": "えいきょう",
-      "meanings": ["influence", "effect", "impact"],
+      "meanings": [
+        "influence",
+        "effect",
+        "impact"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -623,7 +789,10 @@
     {
       "word": "比べる",
       "reading": "くらべる",
-      "meanings": ["to compare", "to contrast"],
+      "meanings": [
+        "to compare",
+        "to contrast"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -638,7 +807,10 @@
     {
       "word": "増える",
       "reading": "ふえる",
-      "meanings": ["to increase", "to grow in number (intransitive)"],
+      "meanings": [
+        "to increase",
+        "to grow in number (intransitive)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -653,7 +825,10 @@
     {
       "word": "減る",
       "reading": "へる",
-      "meanings": ["to decrease", "to reduce in number (intransitive)"],
+      "meanings": [
+        "to decrease",
+        "to reduce in number (intransitive)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -668,7 +843,11 @@
     {
       "word": "気づく",
       "reading": "きづく",
-      "meanings": ["to notice", "to become aware of", "to realise"],
+      "meanings": [
+        "to notice",
+        "to become aware of",
+        "to realise"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -683,7 +862,11 @@
     {
       "word": "思い出す",
       "reading": "おもいだす",
-      "meanings": ["to recall", "to remember", "to call to mind"],
+      "meanings": [
+        "to recall",
+        "to remember",
+        "to call to mind"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -698,7 +881,10 @@
     {
       "word": "忘れる",
       "reading": "わすれる",
-      "meanings": ["to forget", "to leave behind"],
+      "meanings": [
+        "to forget",
+        "to leave behind"
+      ],
       "jlpt": "N5",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -713,7 +899,11 @@
     {
       "word": "特に",
       "reading": "とくに",
-      "meanings": ["especially", "particularly", "in particular"],
+      "meanings": [
+        "especially",
+        "particularly",
+        "in particular"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -728,7 +918,10 @@
     {
       "word": "全然",
       "reading": "ぜんぜん",
-      "meanings": ["not at all (with negative)", "totally / completely (with positive, colloquial)"],
+      "meanings": [
+        "not at all (with negative)",
+        "totally / completely (with positive, colloquial)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -743,7 +936,11 @@
     {
       "word": "なかなか",
       "reading": "なかなか",
-      "meanings": ["(not) easily / readily (with negative)", "quite / fairly (with positive)", "harder than expected"],
+      "meanings": [
+        "(not) easily / readily (with negative)",
+        "quite / fairly (with positive)",
+        "harder than expected"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -758,7 +955,11 @@
     {
       "word": "もうすぐ",
       "reading": "もうすぐ",
-      "meanings": ["soon", "before long", "almost time"],
+      "meanings": [
+        "soon",
+        "before long",
+        "almost time"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -773,7 +974,12 @@
     {
       "word": "そろそろ",
       "reading": "そろそろ",
-      "meanings": ["soon", "about time to", "gradually", "it's getting to be time"],
+      "meanings": [
+        "soon",
+        "about time to",
+        "gradually",
+        "it's getting to be time"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -788,7 +994,11 @@
     {
       "word": "急に",
       "reading": "きゅうに",
-      "meanings": ["suddenly", "all of a sudden", "abruptly"],
+      "meanings": [
+        "suddenly",
+        "all of a sudden",
+        "abruptly"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -803,7 +1013,11 @@
     {
       "word": "最近",
       "reading": "さいきん",
-      "meanings": ["recently", "lately", "these days"],
+      "meanings": [
+        "recently",
+        "lately",
+        "these days"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -818,7 +1032,9 @@
     {
       "word": "天気予報",
       "reading": "てんきよほう",
-      "meanings": ["weather forecast"],
+      "meanings": [
+        "weather forecast"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -833,7 +1049,9 @@
     {
       "word": "台風",
       "reading": "たいふう",
-      "meanings": ["typhoon"],
+      "meanings": [
+        "typhoon"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -848,7 +1066,11 @@
     {
       "word": "蒸し暑い",
       "reading": "むしあつい",
-      "meanings": ["hot and humid", "sultry", "muggy"],
+      "meanings": [
+        "hot and humid",
+        "sultry",
+        "muggy"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -863,7 +1085,10 @@
     {
       "word": "気温",
       "reading": "きおん",
-      "meanings": ["air temperature", "atmospheric temperature"],
+      "meanings": [
+        "air temperature",
+        "atmospheric temperature"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -878,7 +1103,11 @@
     {
       "word": "体調",
       "reading": "たいちょう",
-      "meanings": ["physical condition", "how one's body feels", "one's health"],
+      "meanings": [
+        "physical condition",
+        "how one's body feels",
+        "one's health"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -893,7 +1122,10 @@
     {
       "word": "風邪",
       "reading": "かぜ",
-      "meanings": ["cold (illness)", "common cold"],
+      "meanings": [
+        "cold (illness)",
+        "common cold"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -908,7 +1140,11 @@
     {
       "word": "薬",
       "reading": "くすり",
-      "meanings": ["medicine", "drug", "remedy"],
+      "meanings": [
+        "medicine",
+        "drug",
+        "remedy"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -923,7 +1159,11 @@
     {
       "word": "混む",
       "reading": "こむ",
-      "meanings": ["to be crowded", "to be congested", "to be busy (of a place)"],
+      "meanings": [
+        "to be crowded",
+        "to be congested",
+        "to be busy (of a place)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -938,7 +1178,10 @@
     {
       "word": "乗り換え",
       "reading": "のりかえ",
-      "meanings": ["transfer (trains/buses)", "changing lines/vehicles"],
+      "meanings": [
+        "transfer (trains/buses)",
+        "changing lines/vehicles"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -953,7 +1196,10 @@
     {
       "word": "渋滞",
       "reading": "じゅうたい",
-      "meanings": ["traffic jam", "traffic congestion"],
+      "meanings": [
+        "traffic jam",
+        "traffic congestion"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -968,7 +1214,9 @@
     {
       "word": "到着",
       "reading": "とうちゃく",
-      "meanings": ["arrival"],
+      "meanings": [
+        "arrival"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -983,7 +1231,10 @@
     {
       "word": "出発",
       "reading": "しゅっぱつ",
-      "meanings": ["departure", "setting off"],
+      "meanings": [
+        "departure",
+        "setting off"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -998,7 +1249,11 @@
     {
       "word": "給料",
       "reading": "きゅうりょう",
-      "meanings": ["salary", "wages", "pay"],
+      "meanings": [
+        "salary",
+        "wages",
+        "pay"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -1013,7 +1268,11 @@
     {
       "word": "締め切り",
       "reading": "しめきり",
-      "meanings": ["deadline", "closing date", "cut-off"],
+      "meanings": [
+        "deadline",
+        "closing date",
+        "cut-off"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -1028,7 +1287,12 @@
     {
       "word": "資料",
       "reading": "しりょう",
-      "meanings": ["materials", "documents", "data", "reference materials"],
+      "meanings": [
+        "materials",
+        "documents",
+        "data",
+        "reference materials"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -1043,7 +1307,11 @@
     {
       "word": "提出",
       "reading": "ていしゅつ",
-      "meanings": ["submission", "handing in", "presenting (documents)"],
+      "meanings": [
+        "submission",
+        "handing in",
+        "presenting (documents)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -1058,7 +1326,11 @@
     {
       "word": "試合",
       "reading": "しあい",
-      "meanings": ["game", "match", "competition"],
+      "meanings": [
+        "game",
+        "match",
+        "competition"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -1073,7 +1345,11 @@
     {
       "word": "練習",
       "reading": "れんしゅう",
-      "meanings": ["practice", "drill", "training"],
+      "meanings": [
+        "practice",
+        "drill",
+        "training"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -1084,6 +1360,607 @@
       "example_sentence": "毎日30分ピアノを練習している。",
       "example_reading": "まいにち さんじゅっぷん ぴあの を れんしゅう している。",
       "example_meaning": "I practice piano for 30 minutes every day."
+    },
+    {
+      "word": "残業",
+      "reading": "ざんぎょう",
+      "meanings": [
+        "overtime work"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "夜遅くまで仕事",
+      "category": "work_study",
+      "context": "残業する — to work overtime. 残業代 — overtime pay. The shadow concept behind Japan's work culture — bring it up at any office and people will sigh.",
+      "example_sentence": "今週は残業ばかりで疲れた。",
+      "example_reading": "こんしゅう は ざんぎょう ばかり で つかれた。",
+      "example_meaning": "I'm exhausted from nothing but overtime this week."
+    },
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meanings": [
+        "business trip"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "仕事の旅行",
+      "category": "work_study",
+      "context": "出張する — to go on a business trip. 出張先 — destination of a business trip. Workplace standard.",
+      "example_sentence": "来週、大阪へ出張します。",
+      "example_reading": "らいしゅう、 おおさか へ しゅっちょう します。",
+      "example_meaning": "Next week I'm going on a business trip to Osaka."
+    },
+    {
+      "word": "打ち合わせ",
+      "reading": "うちあわせ",
+      "meanings": [
+        "preliminary meeting",
+        "arrangement"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "小さい会議",
+      "category": "work_study",
+      "context": "More casual/preparatory than 会議. 打ち合わせをする — have a quick meeting. Common in office Japanese.",
+      "example_sentence": "明日、午後から打ち合わせがあります。",
+      "example_reading": "あした、 ごご から うちあわせ が あります。",
+      "example_meaning": "There's a meeting tomorrow afternoon."
+    },
+    {
+      "word": "いただく",
+      "reading": "いただく",
+      "meanings": [
+        "to receive (humble)",
+        "to eat/drink (humble)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "もらう（謙譲語）",
+      "category": "work_study",
+      "context": "Humble form of もらう and 食べる/飲む. メールをいただく — receive an email (humbly). Essential for business communication.",
+      "example_sentence": "ご連絡いただきましてありがとうございます。",
+      "example_reading": "ご れんらく いただきまして ありがとう ございます。",
+      "example_meaning": "Thank you for contacting me."
+    },
+    {
+      "word": "おっしゃる",
+      "reading": "おっしゃる",
+      "meanings": [
+        "to say (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "言う（尊敬語）",
+      "category": "work_study",
+      "context": "Honorific of 言う. Conjugates irregularly: おっしゃいます (not おっしゃります). Customer-service Japanese.",
+      "example_sentence": "おっしゃる通りです。",
+      "example_reading": "おっしゃる とおり です。",
+      "example_meaning": "It's exactly as you say."
+    },
+    {
+      "word": "伺う",
+      "reading": "うかがう",
+      "meanings": [
+        "to ask (humble)",
+        "to visit (humble)",
+        "to hear (humble)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "行く・聞く（謙譲語）",
+      "category": "work_study",
+      "context": "Triple-duty humble verb. お伺いします — I'll come/ask/hear. Phone Japanese essential.",
+      "example_sentence": "明日、御社へ伺います。",
+      "example_reading": "あした、 おんしゃ へ うかがいます。",
+      "example_meaning": "I'll visit your company tomorrow."
+    },
+    {
+      "word": "申し訳ない",
+      "reading": "もうしわけない",
+      "meanings": [
+        "very sorry",
+        "inexcusable"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "とてもすみません",
+      "category": "emotions",
+      "context": "Stronger and more formal than すみません. 申し訳ありません is the polite form used heavily in business apologies.",
+      "example_sentence": "ご迷惑をおかけして申し訳ありません。",
+      "example_reading": "ご めいわく を おかけ して もうしわけ ありません。",
+      "example_meaning": "I'm very sorry for the trouble."
+    },
+    {
+      "word": "よろしい",
+      "reading": "よろしい",
+      "meanings": [
+        "fine",
+        "good",
+        "alright (formal)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いい（丁寧）",
+      "category": "work_study",
+      "context": "More formal than いい. よろしいですか — Is it alright? よろしくお願いします — please treat me well.",
+      "example_sentence": "こちらでよろしいでしょうか。",
+      "example_reading": "こちら で よろしい でしょうか。",
+      "example_meaning": "Is this alright?"
+    },
+    {
+      "word": "〜ばかり",
+      "reading": "ばかり",
+      "meanings": [
+        "only",
+        "just",
+        "just done"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜だけ",
+      "category": "daily_life",
+      "context": "Two main uses: amount limit (お酒ばかり飲む — drink only sake) and just-completed (来たばかり — just arrived). Both very common.",
+      "example_sentence": "日本に来たばかりです。",
+      "example_reading": "にほん に きた ばかり です。",
+      "example_meaning": "I just arrived in Japan."
+    },
+    {
+      "word": "〜たて",
+      "reading": "たて",
+      "meanings": [
+        "just done (something)",
+        "fresh"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜したばかり",
+      "category": "daily_life",
+      "context": "Suffix attached to verb stem: 焼きたて (just baked), 出来たて (just made), 揚げたて (just fried). Food-marketing essential.",
+      "example_sentence": "焼きたてのパンが一番おいしい。",
+      "example_reading": "やきたて の ぱん が いちばん おいしい。",
+      "example_meaning": "Freshly baked bread is the most delicious."
+    },
+    {
+      "word": "〜ながら",
+      "reading": "ながら",
+      "meanings": [
+        "while doing",
+        "at the same time"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜の間に",
+      "category": "daily_life",
+      "context": "Verb stem + ながら. 歩きながら話す — talk while walking. Also concessive: 知っていながら — even though knowing.",
+      "example_sentence": "音楽を聴きながら勉強する。",
+      "example_reading": "おんがく を ききながら べんきょう する。",
+      "example_meaning": "I study while listening to music."
+    },
+    {
+      "word": "〜ようになる",
+      "reading": "ようになる",
+      "meanings": [
+        "to come to (do)",
+        "reach a state of being able to"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜できるようになる",
+      "category": "abstract_thinking",
+      "context": "Verb dictionary form + ようになる. 漢字が読めるようになった — I've come to be able to read kanji. Tracks gradual change.",
+      "example_sentence": "日本食が好きになるようになった。",
+      "example_reading": "にほんしょく が すき に なる ように なった。",
+      "example_meaning": "I've come to like Japanese food."
+    },
+    {
+      "word": "〜ようにする",
+      "reading": "ようにする",
+      "meanings": [
+        "to try to",
+        "to make sure to"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜よう気をつける",
+      "category": "abstract_thinking",
+      "context": "Verb + ようにする — to make a habit/effort of. 毎日運動するようにしている — I make sure to exercise daily.",
+      "example_sentence": "早く寝るようにしてください。",
+      "example_reading": "はやく ねる ように して ください。",
+      "example_meaning": "Please make sure to go to bed early."
+    },
+    {
+      "word": "〜らしい",
+      "reading": "らしい",
+      "meanings": [
+        "seems like",
+        "apparently",
+        "typical of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜そう（伝聞）",
+      "category": "abstract_thinking",
+      "context": "Two senses: hearsay (雨が降るらしい — apparently it'll rain) and 'characteristic of' (彼らしい — that's just like him).",
+      "example_sentence": "明日は雪が降るらしい。",
+      "example_reading": "あした は ゆき が ふる らしい。",
+      "example_meaning": "Apparently it'll snow tomorrow."
+    },
+    {
+      "word": "〜っぽい",
+      "reading": "っぽい",
+      "meanings": [
+        "-ish",
+        "-like",
+        "tend to"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のような",
+      "category": "colloquial",
+      "context": "Casual suffix: 子供っぽい (childish), 忘れっぽい (forgetful), 黒っぽい (blackish). Very common in spoken Japanese.",
+      "example_sentence": "彼は最近忘れっぽい。",
+      "example_reading": "かれ は さいきん わすれっぽい。",
+      "example_meaning": "He's been forgetful lately."
+    },
+    {
+      "word": "〜がち",
+      "reading": "がち",
+      "meanings": [
+        "tend to",
+        "prone to (often negative)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よく〜する",
+      "category": "abstract_thinking",
+      "context": "風邪をひきがち — prone to colds. 遅れがち — tends to be late. Always negative tendency.",
+      "example_sentence": "忙しくて朝ご飯を抜きがちです。",
+      "example_reading": "いそがしくて あさごはん を ぬきがち です。",
+      "example_meaning": "I'm so busy I tend to skip breakfast."
+    },
+    {
+      "word": "〜気味",
+      "reading": "ぎみ",
+      "meanings": [
+        "a bit (negative)",
+        "tinge of"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "少し〜",
+      "category": "emotions",
+      "context": "風邪気味 — feeling a cold coming on. 疲れ気味 — a bit tired. Suggests onset of a (usually negative) state.",
+      "example_sentence": "今日は風邪気味で早く帰る。",
+      "example_reading": "きょう は かぜ ぎみ で はやく かえる。",
+      "example_meaning": "I'm coming down with a cold so I'll head home early."
+    },
+    {
+      "word": "〜ところ",
+      "reading": "ところ",
+      "meanings": [
+        "place",
+        "point",
+        "just about to/just did"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "場所・タイミング",
+      "category": "abstract_thinking",
+      "context": "Aspect marker. 食べるところ (about to eat), 食べているところ (in the middle of eating), 食べたところ (just ate). Time-precise.",
+      "example_sentence": "今、出かけるところです。",
+      "example_reading": "いま、 でかける ところ です。",
+      "example_meaning": "I'm just about to leave."
+    },
+    {
+      "word": "おかげで",
+      "reading": "おかげで",
+      "meanings": [
+        "thanks to",
+        "because of (positive)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のために（いい意味）",
+      "category": "relationships",
+      "context": "Pairs with せい for negative. あなたのおかげで — thanks to you. 雨のおかげで is sarcastic.",
+      "example_sentence": "先生のおかげで合格できました。",
+      "example_reading": "せんせい の おかげ で ごうかく できました。",
+      "example_meaning": "Thanks to my teacher I was able to pass."
+    },
+    {
+      "word": "〜せい",
+      "reading": "せい",
+      "meanings": [
+        "fault",
+        "because of (negative)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のため（悪い意味）",
+      "category": "relationships",
+      "context": "Opposite nuance to おかげで. 雨のせいで — because of the rain (negative). 人のせいにする — blame others.",
+      "example_sentence": "渋滞のせいで遅れた。",
+      "example_reading": "じゅうたい の せい で おくれた。",
+      "example_meaning": "I was late because of the traffic jam."
+    },
+    {
+      "word": "〜について",
+      "reading": "について",
+      "meanings": [
+        "about",
+        "regarding",
+        "concerning"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜の事",
+      "category": "abstract_thinking",
+      "context": "日本について — about Japan. 〜に関して is more formal. Essential for essay/discussion topics.",
+      "example_sentence": "日本の文化について話しましょう。",
+      "example_reading": "にほん の ぶんか に ついて はなしましょう。",
+      "example_meaning": "Let's talk about Japanese culture."
+    },
+    {
+      "word": "〜によって",
+      "reading": "によって",
+      "meanings": [
+        "depending on",
+        "by means of",
+        "by (agent)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜で",
+      "category": "abstract_thinking",
+      "context": "Three uses: depending on (人によって違う), by means (努力によって), agent in passive (〜によって作られた).",
+      "example_sentence": "地域によって食べ物が違う。",
+      "example_reading": "ちいき に よって たべもの が ちがう。",
+      "example_meaning": "Food differs by region."
+    },
+    {
+      "word": "〜たら",
+      "reading": "たら",
+      "meanings": [
+        "if",
+        "when"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜と",
+      "category": "abstract_thinking",
+      "context": "Most flexible conditional. 雨が降ったら帰る — if/when it rains, I'll go home. Already at N4 level but the nuance work is N3.",
+      "example_sentence": "駅に着いたら電話してください。",
+      "example_reading": "えき に ついたら でんわ して ください。",
+      "example_meaning": "Call me when you reach the station."
+    },
+    {
+      "word": "〜ば",
+      "reading": "ば",
+      "meanings": [
+        "if (conditional)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜たら",
+      "category": "abstract_thinking",
+      "context": "More general conditional. 行けばいい — if you go it's fine. ば...ほど — the more... the more...",
+      "example_sentence": "勉強すれば合格できる。",
+      "example_reading": "べんきょう すれば ごうかく できる。",
+      "example_meaning": "If you study, you can pass."
+    },
+    {
+      "word": "〜なら",
+      "reading": "なら",
+      "meanings": [
+        "if (topic-based)",
+        "if you mean"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜の場合",
+      "category": "abstract_thinking",
+      "context": "Sets up topic-based conditional. 日本に行くなら — if you're going to Japan… Different from たら/ば — implies the situation as a given.",
+      "example_sentence": "安いのなら買います。",
+      "example_reading": "やすい の なら かいます。",
+      "example_meaning": "If it's cheap, I'll buy it."
+    },
+    {
+      "word": "〜のに",
+      "reading": "のに",
+      "meanings": [
+        "even though",
+        "despite"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜けど",
+      "category": "emotions",
+      "context": "Implies frustration/disappointment. 雨が降っているのに出かけた — went out despite the rain.",
+      "example_sentence": "勉強したのに、試験に落ちた。",
+      "example_reading": "べんきょう した のに、 しけん に おちた。",
+      "example_meaning": "I studied, but I failed the test."
+    },
+    {
+      "word": "〜ても",
+      "reading": "ても",
+      "meanings": [
+        "even if",
+        "even though"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "たとえ〜",
+      "category": "abstract_thinking",
+      "context": "いくら〜ても is intensive. 何度言っても聞かない — won't listen no matter how often I say it.",
+      "example_sentence": "雨が降っても行きます。",
+      "example_reading": "あめ が ふっても いきます。",
+      "example_meaning": "I'll go even if it rains."
+    },
+    {
+      "word": "〜ように",
+      "reading": "ように",
+      "meanings": [
+        "so that",
+        "like",
+        "such that"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜するために",
+      "context": "忘れないように — so I don't forget. 鳥のように — like a bird. Wide-ranging marker.",
+      "category": "abstract_thinking",
+      "example_sentence": "風邪をひかないように気をつけてね。",
+      "example_reading": "かぜ を ひかない ように き を つけて ね。",
+      "example_meaning": "Take care so you don't catch a cold."
+    },
+    {
+      "word": "〜ために",
+      "reading": "ために",
+      "meanings": [
+        "for the sake of",
+        "in order to",
+        "because of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のため",
+      "category": "abstract_thinking",
+      "context": "Purpose: 健康のために運動する. Cause: 大雨のために中止 — canceled because of heavy rain.",
+      "example_sentence": "将来のために貯金している。",
+      "example_reading": "しょうらい の ため に ちょきん して いる。",
+      "example_meaning": "I'm saving up for the future."
+    },
+    {
+      "word": "〜はず",
+      "reading": "はず",
+      "meanings": [
+        "should be",
+        "supposed to"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "きっと〜",
+      "category": "abstract_thinking",
+      "context": "Speaker's reasoned expectation. 来るはずだ — he should be coming. はずがない — there's no way…",
+      "example_sentence": "彼はもうすぐ来るはずだ。",
+      "example_reading": "かれ は もうすぐ くる はず だ。",
+      "example_meaning": "He should be here soon."
+    },
+    {
+      "word": "〜わけ",
+      "reading": "わけ",
+      "meanings": [
+        "reason",
+        "sense",
+        "meaning"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "理由・意味",
+      "category": "abstract_thinking",
+      "context": "Multifaceted: わけがない (no way), わけにはいかない (can't…), わけだ (so that's why). One of N3's hardest grammar items.",
+      "example_sentence": "そういうわけで、行けません。",
+      "example_reading": "そう いう わけ で、 いけません。",
+      "example_meaning": "For that reason, I can't go."
+    },
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meanings": [
+        "to do one's best",
+        "to persevere"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "努力する",
+      "category": "emotions",
+      "context": "頑張って — Hang in there/Good luck. The all-purpose Japanese encouragement and self-motivator.",
+      "example_sentence": "試験に向けて頑張っています。",
+      "example_reading": "しけん に むけて がんばって います。",
+      "example_meaning": "I'm working hard for the exam."
+    },
+    {
+      "word": "似合う",
+      "reading": "にあう",
+      "meanings": [
+        "to suit",
+        "to look good on"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よく見える",
+      "category": "daily_life",
+      "context": "その色が似合う — that color suits you. Common compliment vocabulary in fashion contexts.",
+      "example_sentence": "その服、よく似合っているよ。",
+      "example_reading": "その ふく、 よく にあって いる よ。",
+      "example_meaning": "Those clothes really suit you."
     }
   ]
 }
