@@ -5,7 +5,7 @@
   "source": "Hand-curated from common vocabulary across 名探偵コナン, 相棒, 科捜研の女, 古畑任三郎, and similar Japanese detective and police-drama media.",
   "learner_level": "N3",
   "notes": "Watching Japanese detective fiction (アニメ + 実写) requires a specific vocabulary cluster you don't get from textbooks: investigation procedure, forensic terminology, plot tropes (locked rooms, alibis, decoys), suspenseful dialogue (動くな！), and characters' role labels (刑事, 警部, 助手). This deck targets the words that recur in Conan, 相棒, 古畑, 科捜研の女, and similar shows. Most sit at N3-N1 with a strong genre tilt. Some words overlap with the News & Newspaper deck (criminal-procedure terms) but the example sentences and context here are framed for fiction rather than reportage.",
-  "card_count": 144,
+  "card_count": 191,
   "priority_guide": {
     "high": "Appears in nearly every episode — learn first.",
     "medium": "Common in specific story types (locked-room, kidnapping, etc.).",
@@ -30,7 +30,8 @@
     "drama_dialogue",
     "reactions_suspense",
     "death_injury",
-    "characters_roles"
+    "characters_roles",
+    "courtroom_trial"
   ],
   "cards": [
     {
@@ -2610,6 +2611,838 @@
       "example_sentence": "武器の密売が発覚した。",
       "example_reading": "ぶき の みつばい が はっかく した。",
       "example_meaning": "An arms-trafficking operation was uncovered."
+    },
+    {
+      "word": "裁判",
+      "reading": "さいばん",
+      "meanings": [
+        "trial",
+        "court case",
+        "judgment"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "法廷で行うこと",
+      "category": "courtroom_trial",
+      "context": "裁判を起こす — bring a lawsuit. 裁判にかける — to put on trial. The umbrella word for the whole judicial process.",
+      "example_sentence": "事件は裁判で争われることになった。",
+      "example_reading": "じけん は さいばん で あらそわれる こと に なった。",
+      "example_meaning": "The case will be contested in court."
+    },
+    {
+      "word": "裁判所",
+      "reading": "さいばんしょ",
+      "meanings": [
+        "court",
+        "courthouse"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判をする建物",
+      "category": "courtroom_trial",
+      "context": "地方裁判所 (district court), 高等裁判所 (high court), 最高裁判所 (supreme court) — the three tiers.",
+      "example_sentence": "被告は裁判所に出廷した。",
+      "example_reading": "ひこく は さいばんしょ に しゅってい した。",
+      "example_meaning": "The defendant appeared in court."
+    },
+    {
+      "word": "法廷",
+      "reading": "ほうてい",
+      "meanings": [
+        "courtroom",
+        "court of law"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判の部屋",
+      "category": "courtroom_trial",
+      "context": "The room itself, vs 裁判所 (the building). 法廷ドラマ — courtroom drama. 法廷で証言する — testify in court.",
+      "example_sentence": "法廷は緊張した空気に包まれた。",
+      "example_reading": "ほうてい は きんちょう した くうき に つつまれた。",
+      "example_meaning": "The courtroom was filled with tension."
+    },
+    {
+      "word": "裁判官",
+      "reading": "さいばんかん",
+      "meanings": [
+        "judge"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "判決を出す人",
+      "category": "courtroom_trial",
+      "context": "The general term. 裁判長 is the presiding judge in a panel.",
+      "example_sentence": "裁判官は判決を言い渡した。",
+      "example_reading": "さいばんかん は はんけつ を いいわたした。",
+      "example_meaning": "The judge handed down the verdict."
+    },
+    {
+      "word": "裁判長",
+      "reading": "さいばんちょう",
+      "meanings": [
+        "presiding judge",
+        "chief judge"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判官のリーダー",
+      "category": "courtroom_trial",
+      "context": "In Japan most criminal trials use a 3-judge panel; the 裁判長 leads. Common dialogue: 裁判長！ (addressing the bench).",
+      "example_sentence": "裁判長は静粛にするよう促した。",
+      "example_reading": "さいばんちょう は せいしゅく に する よう うながした。",
+      "example_meaning": "The presiding judge called for quiet."
+    },
+    {
+      "word": "検察官",
+      "reading": "けんさつかん",
+      "meanings": [
+        "prosecutor",
+        "public prosecutor"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "検事",
+      "category": "courtroom_trial",
+      "context": "Often shortened to 検事. The other side from 弁護士. Hits hard in courtroom drama with lines like 求刑15年.",
+      "example_sentence": "検察官は厳しい求刑を行った。",
+      "example_reading": "けんさつかん は きびしい きゅうけい を おこなった。",
+      "example_meaning": "The prosecutor sought a harsh sentence."
+    },
+    {
+      "word": "検事",
+      "reading": "けんじ",
+      "meanings": [
+        "prosecutor (common term)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "検察官",
+      "category": "courtroom_trial",
+      "context": "Same role as 検察官; 検事 is the everyday word. Same kanji 事 reading as 刑事 — easy to confuse, different roles.",
+      "example_sentence": "担当検事は若手のエースだ。",
+      "example_reading": "たんとう けんじ は わかて の エース だ。",
+      "example_meaning": "The prosecutor in charge is a young rising star."
+    },
+    {
+      "word": "弁護士",
+      "reading": "べんごし",
+      "meanings": [
+        "lawyer",
+        "attorney"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判で味方をする人",
+      "category": "courtroom_trial",
+      "context": "Note: also appears in the N3 Essentials. 弁護士に相談する — consult a lawyer. リーガルハイ-style courtroom drama hero.",
+      "example_sentence": "被告は弁護士を雇った。",
+      "example_reading": "ひこく は べんごし を やとった。",
+      "example_meaning": "The defendant hired a lawyer."
+    },
+    {
+      "word": "弁護人",
+      "reading": "べんごにん",
+      "meanings": [
+        "defense counsel"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "弁護をする人",
+      "category": "courtroom_trial",
+      "context": "Legal-procedural term — the lawyer in a specific case. 主任弁護人 — lead defense counsel.",
+      "example_sentence": "弁護人は無罪を主張した。",
+      "example_reading": "べんごにん は むざい を しゅちょう した。",
+      "example_meaning": "Defense counsel argued for acquittal."
+    },
+    {
+      "word": "被告人",
+      "reading": "ひこくにん",
+      "meanings": [
+        "the accused",
+        "defendant (criminal)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判で訴えられた人",
+      "category": "courtroom_trial",
+      "context": "Formal version of 被告; common in courtroom dialogue: 被告人は前へ — 'the accused, step forward.' Reserved for criminal cases.",
+      "example_sentence": "被告人は最後の意見を述べた。",
+      "example_reading": "ひこくにん は さいご の いけん を のべた。",
+      "example_meaning": "The defendant gave their final statement."
+    },
+    {
+      "word": "原告",
+      "reading": "げんこく",
+      "meanings": [
+        "plaintiff (civil case)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "訴えた人",
+      "category": "courtroom_trial",
+      "context": "Civil case (民事) opposite of 被告. リーガルハイ etc. 原告側 — plaintiff's side.",
+      "example_sentence": "原告は損害賠償を求めた。",
+      "example_reading": "げんこく は そんがい ばいしょう を もとめた。",
+      "example_meaning": "The plaintiff sought damages."
+    },
+    {
+      "word": "証人",
+      "reading": "しょうにん",
+      "meanings": [
+        "witness (in court)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "証言する人",
+      "category": "courtroom_trial",
+      "context": "証人尋問 — witness examination. 証人として呼ばれる — to be summoned as a witness. Distinct from 目撃者 (eyewitness on the ground).",
+      "example_sentence": "次の証人を呼んでください。",
+      "example_reading": "つぎ の しょうにん を よんで ください。",
+      "example_meaning": "Please call the next witness."
+    },
+    {
+      "word": "裁判員",
+      "reading": "さいばんいん",
+      "meanings": [
+        "lay judge (Japanese system)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "市民の裁判官",
+      "category": "courtroom_trial",
+      "context": "裁判員制度 — the lay judge system (since 2009). Six citizens + three judges decide serious criminal cases. Modern courtroom-drama backdrop.",
+      "example_sentence": "今回の事件は裁判員裁判となる。",
+      "example_reading": "こんかい の じけん は さいばんいん さいばん と なる。",
+      "example_meaning": "This case will be tried under the lay-judge system."
+    },
+    {
+      "word": "有罪",
+      "reading": "ゆうざい",
+      "meanings": [
+        "guilty"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "罪がある",
+      "category": "courtroom_trial",
+      "context": "Note: also in News deck. The verdict word. 有罪を認める — to plead guilty. Pairs with 無罪.",
+      "example_sentence": "被告は有罪となった。",
+      "example_reading": "ひこく は ゆうざい と なった。",
+      "example_meaning": "The defendant was found guilty."
+    },
+    {
+      "word": "無罪",
+      "reading": "むざい",
+      "meanings": [
+        "not guilty",
+        "innocent (legal)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "罪がない",
+      "category": "courtroom_trial",
+      "context": "Note: also in News deck. 無罪を主張 — claim innocence. 推定無罪 — presumption of innocence.",
+      "example_sentence": "逆転無罪となった。",
+      "example_reading": "ぎゃくてん むざい と なった。",
+      "example_meaning": "The verdict was overturned to not guilty."
+    },
+    {
+      "word": "有罪判決",
+      "reading": "ゆうざいはんけつ",
+      "meanings": [
+        "guilty verdict",
+        "conviction"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "有罪の決定",
+      "category": "courtroom_trial",
+      "context": "The composed phrase. 有罪判決を受ける — be convicted.",
+      "example_sentence": "裁判所は有罪判決を下した。",
+      "example_reading": "さいばんしょ は ゆうざいはんけつ を くだした。",
+      "example_meaning": "The court handed down a guilty verdict."
+    },
+    {
+      "word": "無罪判決",
+      "reading": "むざいはんけつ",
+      "meanings": [
+        "not-guilty verdict",
+        "acquittal"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "無罪の決定",
+      "category": "courtroom_trial",
+      "context": "Counterpart to 有罪判決. 無罪判決を勝ち取る — win an acquittal.",
+      "example_sentence": "弁護団は無罪判決を勝ち取った。",
+      "example_reading": "べんごだん は むざいはんけつ を かちとった。",
+      "example_meaning": "The defense team won an acquittal."
+    },
+    {
+      "word": "判決を下す",
+      "reading": "はんけつをくだす",
+      "meanings": [
+        "to hand down a verdict",
+        "to deliver a judgment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "判決を出す",
+      "category": "courtroom_trial",
+      "context": "Set phrase used in news and dramas. 判決を言い渡す is a near-synonym.",
+      "example_sentence": "裁判長は判決を下した。",
+      "example_reading": "さいばんちょう は はんけつ を くだした。",
+      "example_meaning": "The presiding judge handed down the verdict."
+    },
+    {
+      "word": "求刑",
+      "reading": "きゅうけい",
+      "meanings": [
+        "prosecutor's sentencing demand"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "検察が求める刑",
+      "category": "courtroom_trial",
+      "context": "求刑15年 — prosecutors seek 15 years. The dramatic moment before the judge's actual sentence.",
+      "example_sentence": "検察は懲役10年を求刑した。",
+      "example_reading": "けんさつ は ちょうえき じゅうねん を きゅうけい した。",
+      "example_meaning": "Prosecutors sought a 10-year prison term."
+    },
+    {
+      "word": "量刑",
+      "reading": "りょうけい",
+      "meanings": [
+        "sentencing",
+        "measure of punishment"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "刑の重さ",
+      "category": "courtroom_trial",
+      "context": "量刑判断 — sentencing determination. 量刑が軽い — light sentence. The deliberation between 求刑 and 判決.",
+      "example_sentence": "裁判官は慎重に量刑を判断した。",
+      "example_reading": "さいばんかん は しんちょう に りょうけい を はんだん した。",
+      "example_meaning": "The judge carefully decided the sentence."
+    },
+    {
+      "word": "執行猶予",
+      "reading": "しっこうゆうよ",
+      "meanings": [
+        "suspended sentence",
+        "probation"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "刑が一時止まる",
+      "category": "courtroom_trial",
+      "context": "懲役3年、執行猶予5年 — three years' imprisonment, suspended for five — the classic Japanese light-sentence outcome. Stay clean during 猶予 and you avoid prison.",
+      "example_sentence": "懲役2年、執行猶予4年の判決だった。",
+      "example_reading": "ちょうえき にねん、 しっこうゆうよ よねん の はんけつ だった。",
+      "example_meaning": "The verdict was two years' imprisonment, suspended for four."
+    },
+    {
+      "word": "死刑",
+      "reading": "しけい",
+      "meanings": [
+        "death penalty",
+        "capital punishment"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "命をうばう刑",
+      "category": "courtroom_trial",
+      "context": "死刑判決 — death sentence. 死刑制度 — capital-punishment system. Heavy thematic territory in Japanese legal dramas.",
+      "example_sentence": "凶悪犯罪に死刑判決が出た。",
+      "example_reading": "きょうあく はんざい に しけい はんけつ が でた。",
+      "example_meaning": "A death sentence was handed down for the violent crime."
+    },
+    {
+      "word": "無期懲役",
+      "reading": "むきちょうえき",
+      "meanings": [
+        "life imprisonment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "終身刑",
+      "category": "courtroom_trial",
+      "context": "Below 死刑, above 有期懲役 (fixed-term imprisonment). 無期 = indefinite term. Drama-heavy sentence outcome.",
+      "example_sentence": "裁判所は無期懲役を言い渡した。",
+      "example_reading": "さいばんしょ は むきちょうえき を いいわたした。",
+      "example_meaning": "The court handed down a life sentence."
+    },
+    {
+      "word": "控訴",
+      "reading": "こうそ",
+      "meanings": [
+        "appeal (to higher court)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "上の裁判所に申し立てる",
+      "category": "courtroom_trial",
+      "context": "控訴する — to appeal. 控訴審 — appeal trial. From district to high court.",
+      "example_sentence": "被告側は判決を不服として控訴した。",
+      "example_reading": "ひこく がわ は はんけつ を ふふく と して こうそ した。",
+      "example_meaning": "The defense appealed, dissatisfied with the verdict."
+    },
+    {
+      "word": "上告",
+      "reading": "じょうこく",
+      "meanings": [
+        "final appeal (to Supreme Court)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "最高裁判所への申し立て",
+      "category": "courtroom_trial",
+      "context": "Above 控訴 — the next and final tier. 上告審 — Supreme Court appeal.",
+      "example_sentence": "検察側が最高裁に上告した。",
+      "example_reading": "けんさつ がわ が さいこうさい に じょうこく した。",
+      "example_meaning": "The prosecution filed a final appeal to the Supreme Court."
+    },
+    {
+      "word": "異議あり",
+      "reading": "いぎあり",
+      "meanings": [
+        "Objection!"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "反対です",
+      "category": "courtroom_trial",
+      "context": "The catchphrase. 逆転裁判 (Phoenix Wright) made it iconic. 裁判長、異議あり！ — Your Honor, objection!",
+      "example_sentence": "異議あり！その質問は誘導的です。",
+      "example_reading": "いぎ あり！ その しつもん は ゆうどうてき です。",
+      "example_meaning": "Objection! That question is leading."
+    },
+    {
+      "word": "異議",
+      "reading": "いぎ",
+      "meanings": [
+        "objection",
+        "dissenting opinion"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "反対意見",
+      "category": "courtroom_trial",
+      "context": "異議を申し立てる — file an objection. 異議なし — no objection.",
+      "example_sentence": "弁護人は証拠採用に異議を唱えた。",
+      "example_reading": "べんごにん は しょうこ さいよう に いぎ を となえた。",
+      "example_meaning": "Defense counsel objected to the evidence being admitted."
+    },
+    {
+      "word": "冤罪",
+      "reading": "えんざい",
+      "meanings": [
+        "false accusation",
+        "wrongful conviction",
+        "miscarriage of justice"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "無実の罪",
+      "category": "courtroom_trial",
+      "context": "Major real-world and dramatic theme in Japan: 冤罪事件 — wrongful-conviction case. The detective's purpose: prove 冤罪.",
+      "example_sentence": "再審で冤罪が認められた。",
+      "example_reading": "さいしん で えんざい が みとめられた。",
+      "example_meaning": "Through retrial, the wrongful conviction was acknowledged."
+    },
+    {
+      "word": "再審",
+      "reading": "さいしん",
+      "meanings": [
+        "retrial",
+        "reopening of a case"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "もう一度裁判する",
+      "category": "courtroom_trial",
+      "context": "再審請求 — petition for retrial. The 冤罪-fighter's tool. Often blocked for decades in real Japan.",
+      "example_sentence": "弁護団は再審を請求した。",
+      "example_reading": "べんごだん は さいしん を せいきゅう した。",
+      "example_meaning": "The defense team petitioned for a retrial."
+    },
+    {
+      "word": "立証",
+      "reading": "りっしょう",
+      "meanings": [
+        "to prove (legally)",
+        "substantiation"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "証明する",
+      "category": "courtroom_trial",
+      "context": "立証責任 — burden of proof. 立証する — to establish (a fact in court). Legal-precision verb.",
+      "example_sentence": "検察は立証に失敗した。",
+      "example_reading": "けんさつ は りっしょう に しっぱい した。",
+      "example_meaning": "The prosecution failed to make their case."
+    },
+    {
+      "word": "主張",
+      "reading": "しゅちょう",
+      "meanings": [
+        "assertion",
+        "claim",
+        "argument"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "強く言うこと",
+      "category": "courtroom_trial",
+      "context": "Note: also in N3 Essentials. In court: 弁護側の主張 — the defense's argument. 主張する — to assert.",
+      "example_sentence": "被告は無罪を主張している。",
+      "example_reading": "ひこく は むざい を しゅちょう して いる。",
+      "example_meaning": "The defendant maintains his innocence."
+    },
+    {
+      "word": "反論",
+      "reading": "はんろん",
+      "meanings": [
+        "counter-argument",
+        "rebuttal"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "反対の意見",
+      "category": "courtroom_trial",
+      "context": "反論する — to refute. The cross-examination move.",
+      "example_sentence": "検察は弁護側の主張に反論した。",
+      "example_reading": "けんさつ は べんご がわ の しゅちょう に はんろん した。",
+      "example_meaning": "The prosecution rebutted the defense's argument."
+    },
+    {
+      "word": "証拠不十分",
+      "reading": "しょうこふじゅうぶん",
+      "meanings": [
+        "insufficient evidence"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "証拠が足りない",
+      "category": "courtroom_trial",
+      "context": "証拠不十分で不起訴 — not indicted due to insufficient evidence. The classic let-off.",
+      "example_sentence": "証拠不十分で釈放された。",
+      "example_reading": "しょうこ ふじゅうぶん で しゃくほう された。",
+      "example_meaning": "He was released due to insufficient evidence."
+    },
+    {
+      "word": "不起訴",
+      "reading": "ふきそ",
+      "meanings": [
+        "non-indictment",
+        "decision not to prosecute"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "起訴しないこと",
+      "category": "courtroom_trial",
+      "context": "不起訴処分 — non-prosecution disposition. Outcome short of trial.",
+      "example_sentence": "検察は不起訴処分とした。",
+      "example_reading": "けんさつ は ふきそ しょぶん と した。",
+      "example_meaning": "Prosecutors decided not to indict."
+    },
+    {
+      "word": "釈放",
+      "reading": "しゃくほう",
+      "meanings": [
+        "release (from custody)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "解放する",
+      "category": "courtroom_trial",
+      "context": "釈放される — to be released. Distinct from 保釈 (bail) — 釈放 is unconditional.",
+      "example_sentence": "容疑が晴れて釈放された。",
+      "example_reading": "ようぎ が はれて しゃくほう された。",
+      "example_meaning": "With suspicion cleared, he was released."
+    },
+    {
+      "word": "保釈",
+      "reading": "ほしゃく",
+      "meanings": [
+        "bail",
+        "release on bail"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金を払って一時的に出ること",
+      "category": "courtroom_trial",
+      "context": "保釈金 — bail money. 保釈申請 — bail request. Often denied in serious cases — Carlos Ghosn made it international news.",
+      "example_sentence": "被告は保釈を認められた。",
+      "example_reading": "ひこく は ほしゃく を みとめられた。",
+      "example_meaning": "The defendant was granted bail."
+    },
+    {
+      "word": "訴訟",
+      "reading": "そしょう",
+      "meanings": [
+        "lawsuit",
+        "legal action"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判の手続き",
+      "category": "courtroom_trial",
+      "context": "訴訟を起こす — file a lawsuit. 民事訴訟 / 刑事訴訟 — civil / criminal proceedings.",
+      "example_sentence": "会社は名誉毀損で訴訟を起こした。",
+      "example_reading": "かいしゃ は めいよ きそん で そしょう を おこした。",
+      "example_meaning": "The company filed a defamation lawsuit."
+    },
+    {
+      "word": "罪",
+      "reading": "つみ",
+      "meanings": [
+        "crime",
+        "sin",
+        "guilt"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "悪いこと",
+      "category": "courtroom_trial",
+      "context": "罪を犯す — commit a crime. 罪を償う — atone for a crime. 罪と罰 — Crime and Punishment. Both legal and moral senses.",
+      "example_sentence": "彼は自分の罪を認めた。",
+      "example_reading": "かれ は じぶん の つみ を みとめた。",
+      "example_meaning": "He acknowledged his crime."
+    },
+    {
+      "word": "罰",
+      "reading": "ばつ",
+      "meanings": [
+        "punishment",
+        "penalty"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "罰すること",
+      "category": "courtroom_trial",
+      "context": "罰を受ける — receive punishment. 罰金 — fine (literally 'punishment money').",
+      "example_sentence": "罪には罰がつきものだ。",
+      "example_reading": "つみ に は ばつ が つきもの だ。",
+      "example_meaning": "Crime is inseparable from punishment."
+    },
+    {
+      "word": "刑罰",
+      "reading": "けいばつ",
+      "meanings": [
+        "criminal penalty",
+        "sentence"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "罰",
+      "category": "courtroom_trial",
+      "context": "More formal/legal than 罰. 刑罰を科す — impose a penalty.",
+      "example_sentence": "重い刑罰が科された。",
+      "example_reading": "おもい けいばつ が かされた。",
+      "example_meaning": "A heavy penalty was imposed."
+    },
+    {
+      "word": "罰金",
+      "reading": "ばっきん",
+      "meanings": [
+        "fine (monetary penalty)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金で払う罰",
+      "category": "courtroom_trial",
+      "context": "罰金刑 — fine sentence. 罰金10万円 — 100,000 yen fine. Note: also in News deck.",
+      "example_sentence": "被告に罰金50万円が言い渡された。",
+      "example_reading": "ひこく に ばっきん ごじゅうまんえん が いいわたされた。",
+      "example_meaning": "The defendant was fined 500,000 yen."
+    },
+    {
+      "word": "前科",
+      "reading": "ぜんか",
+      "meanings": [
+        "criminal record",
+        "prior conviction"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前にした犯罪の記録",
+      "category": "courtroom_trial",
+      "context": "前科がある — to have a record. 前科者 — ex-convict. Often used in suspect-profiling scenes.",
+      "example_sentence": "容疑者には前科があった。",
+      "example_reading": "ようぎしゃ に は ぜんか が あった。",
+      "example_meaning": "The suspect had a prior conviction."
+    },
+    {
+      "word": "情状酌量",
+      "reading": "じょうじょうしゃくりょう",
+      "meanings": [
+        "extenuating circumstances",
+        "leniency due to circumstances"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "事情を考えて軽くする",
+      "category": "courtroom_trial",
+      "context": "情状酌量の余地 — room for leniency. The defense's plea for a softer sentence.",
+      "example_sentence": "裁判所は情状酌量の余地を認めた。",
+      "example_reading": "さいばんしょ は じょうじょう しゃくりょう の よち を みとめた。",
+      "example_meaning": "The court found room for leniency."
+    },
+    {
+      "word": "民事",
+      "reading": "みんじ",
+      "meanings": [
+        "civil (legal matter)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金や契約の裁判",
+      "category": "courtroom_trial",
+      "context": "民事裁判 — civil trial. 民事事件 — civil case. Pairs with 刑事 (criminal).",
+      "example_sentence": "これは民事の問題で警察は介入できない。",
+      "example_reading": "これ は みんじ の もんだい で けいさつ は かいにゅう できない。",
+      "example_meaning": "This is a civil matter; police can't intervene."
+    },
+    {
+      "word": "刑事事件",
+      "reading": "けいじじけん",
+      "meanings": [
+        "criminal case"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "犯罪の事件",
+      "category": "courtroom_trial",
+      "context": "Pairs with 民事事件. The terms can be confusing because 刑事 also means 'detective.' Here 刑事 = 'criminal (legal matter).'",
+      "example_sentence": "刑事事件として捜査が始まった。",
+      "example_reading": "けいじ じけん として そうさ が はじまった。",
+      "example_meaning": "Investigation began as a criminal case."
+    },
+    {
+      "word": "損害賠償",
+      "reading": "そんがいばいしょう",
+      "meanings": [
+        "damages",
+        "compensation for losses"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "お金で弁償",
+      "category": "courtroom_trial",
+      "context": "損害賠償を請求 — claim damages. 損害賠償金 — damages awarded. Civil suit centerpiece.",
+      "example_sentence": "被害者は損害賠償を求めて提訴した。",
+      "example_reading": "ひがいしゃ は そんがい ばいしょう を もとめて ていそ した。",
+      "example_meaning": "The victim filed suit seeking damages."
+    },
+    {
+      "word": "判事",
+      "reading": "はんじ",
+      "meanings": [
+        "judge (alternative term)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "裁判官",
+      "category": "courtroom_trial",
+      "context": "Older/literary alternative to 裁判官. Common in titles: 判事補 (assistant judge), 大法廷判事 (grand bench judge).",
+      "example_sentence": "高名な判事が定年退官した。",
+      "example_reading": "こうめい な はんじ が ていねん たいかん した。",
+      "example_meaning": "The renowned judge retired upon reaching the mandatory age."
     }
   ]
 }
