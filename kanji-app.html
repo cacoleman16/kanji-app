@@ -6478,6 +6478,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
   const [sessionStats, setSessionStats] = useState({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0, skipped: 0 });
   const [undoStack, setUndoStack] = useState([]);  // Snapshots for "undo last rating"
   const [shuffled, setShuffled] = useState(false);  // Tracks whether this session's queue has been shuffled
+  const [originalOrder, setOriginalOrder] = useState(null);  // Snapshot of original card sequence (by kanji) for unshuffling
   const skippedCards = useRef(new Set());           // Tracks cards skipped once (to avoid infinite re-queue)
 
   const total = queue.length;
@@ -6563,15 +6564,31 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
     }
   }, [current, idx, queue]);
 
-  const shuffleRemaining = useCallback(() => {
-    setQueue(q => {
-      const seen = q.slice(0, idx + 1);
-      const remaining = q.slice(idx + 1);
-      shuffleArray(remaining);
-      return [...seen, ...remaining];
-    });
-    setShuffled(true);
-  }, [idx]);
+  const toggleShuffle = useCallback(() => {
+    if (shuffled) {
+      // Unshuffle: restore remaining cards to their position in the original order.
+      // Already-seen cards stay where they are.
+      setQueue(q => {
+        if (!originalOrder) return q;
+        const seen = q.slice(0, idx + 1);
+        const remaining = q.slice(idx + 1);
+        const pos = (card) => originalOrder.indexOf(card.kanji);
+        const restored = [...remaining].sort((a, b) => pos(a) - pos(b));
+        return [...seen, ...restored];
+      });
+      setShuffled(false);
+    } else {
+      // Shuffle: snapshot original order so we can restore later.
+      setOriginalOrder(queue.map(c => c.kanji));
+      setQueue(q => {
+        const seen = q.slice(0, idx + 1);
+        const remaining = q.slice(idx + 1);
+        shuffleArray(remaining);
+        return [...seen, ...remaining];
+      });
+      setShuffled(true);
+    }
+  }, [idx, queue, shuffled, originalOrder]);
 
   // Keyboard shortcuts (defined after rate + undo so closure is fresh)
   useEffect(() => {
@@ -6652,10 +6669,10 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
           )}
           <button
             className={`undo-btn${shuffled ? " active" : ""}`}
-            onClick={shuffleRemaining}
-            disabled={total - idx - 1 < 2}
-            aria-label="Shuffle remaining cards"
-            title={shuffled ? "Cards shuffled — click to reshuffle remaining" : "Shuffle remaining cards"}
+            onClick={toggleShuffle}
+            disabled={!shuffled && total - idx - 1 < 2}
+            aria-label={shuffled ? "Restore original order" : "Shuffle remaining cards"}
+            title={shuffled ? "Cards shuffled — click to restore original order" : "Shuffle remaining cards"}
           >
             ⇌ Shuffle{shuffled ? "d" : ""}
           </button>
