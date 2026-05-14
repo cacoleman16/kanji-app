@@ -1,0 +1,2779 @@
+{
+  "deck_id": "daily-life-up-to-n1",
+  "deck_name": "Daily Life — Up to N1",
+  "version": "1.0",
+  "source": "Hand-curated daily-life vocabulary spanning N3 through N1 — the practical words you encounter living in Japan.",
+  "learner_level": "N2",
+  "notes": "Daily life in Japan is full of vocabulary that doesn't fit neatly into JLPT levels: the trash-sorting categories (燃えるゴミ vs 資源ゴミ), apartment-rental jargon (敷金, 礼金, 仲介手数料), household-cleaning terms (雑巾, アイロン), bank phrases (振込, 口座), 役所 forms (住民票, 印鑑, マイナンバー), and a thousand small things that you suddenly need to read on a sign or hear on the phone. This deck covers housekeeping, kitchen, shopping, money, mail, bureaucracy, phone/internet, health/personal care, housing, and routine — leaning toward N2/N1 territory where most learner decks thin out. Words covered in N3 Essentials are intentionally excluded except where useful overlap.",
+  "card_count": 157,
+  "categories": [
+    "housekeeping_cleaning",
+    "trash_recycling",
+    "kitchen_cooking",
+    "shopping",
+    "money_banking",
+    "mail_delivery",
+    "bureaucracy_forms",
+    "phone_internet",
+    "personal_care",
+    "housing_rental",
+    "utilities_bills",
+    "daily_routine",
+    "household_objects",
+    "neighborhood_local"
+  ],
+  "cards": [
+    {
+      "word": "家事",
+      "reading": "かじ",
+      "meanings": [
+        "housework",
+        "household chores"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "家の仕事",
+      "category": "housekeeping_cleaning",
+      "context": "家事を分担する — share housework. 家事代行 — housekeeping service. Common topic in 家計 discussions.",
+      "example_sentence": "家事は夫婦で分担している。",
+      "example_reading": "かじ は ふうふ で ぶんたん して いる。",
+      "example_meaning": "My spouse and I split the housework."
+    },
+    {
+      "word": "掃除",
+      "reading": "そうじ",
+      "meanings": [
+        "cleaning"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "きれいにする",
+      "category": "housekeeping_cleaning",
+      "context": "掃除する — to clean. 大掃除 — major cleaning (year-end). Cultural staple.",
+      "example_sentence": "週末に部屋の掃除をした。",
+      "example_reading": "しゅうまつ に へや の そうじ を した。",
+      "example_meaning": "I cleaned my room over the weekend."
+    },
+    {
+      "word": "大掃除",
+      "reading": "おおそうじ",
+      "meanings": [
+        "big cleaning",
+        "spring cleaning",
+        "year-end clean"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "念入りな掃除",
+      "category": "housekeeping_cleaning",
+      "context": "Annual year-end ritual in Japan. 12月の大掃除 — December big clean before New Year.",
+      "example_sentence": "年末に家族で大掃除をした。",
+      "example_reading": "ねんまつ に かぞく で おおそうじ を した。",
+      "example_meaning": "At year's end my family did a big clean."
+    },
+    {
+      "word": "洗濯",
+      "reading": "せんたく",
+      "meanings": [
+        "laundry",
+        "washing clothes"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "洗うこと",
+      "category": "housekeeping_cleaning",
+      "context": "Already in Yotsubato. 洗濯物 — laundry (the clothes). 洗濯機 — washing machine.",
+      "example_sentence": "晴れの日に洗濯をする。",
+      "example_reading": "はれ の ひ に せんたく を する。",
+      "example_meaning": "I do laundry on sunny days."
+    },
+    {
+      "word": "干す",
+      "reading": "ほす",
+      "meanings": [
+        "to hang out to dry",
+        "to air out"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "乾かす",
+      "category": "housekeeping_cleaning",
+      "context": "洗濯物を干す — hang the laundry. 布団を干す — air the futon. Japanese homes still dominate this over dryers.",
+      "example_sentence": "洗濯物をベランダに干した。",
+      "example_reading": "せんたくもの を ベランダ に ほした。",
+      "example_meaning": "I hung the laundry on the balcony."
+    },
+    {
+      "word": "畳む",
+      "reading": "たたむ",
+      "meanings": [
+        "to fold (clothes, paper)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "折りたたむ",
+      "category": "housekeeping_cleaning",
+      "context": "洗濯物を畳む — fold laundry. 布団を畳む — fold futons. Daily-life essential.",
+      "example_sentence": "乾いた洗濯物を畳んだ。",
+      "example_reading": "かわいた せんたくもの を たたんだ。",
+      "example_meaning": "I folded the dry laundry."
+    },
+    {
+      "word": "アイロン",
+      "reading": "アイロン",
+      "meanings": [
+        "iron (clothes)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "しわをのばす道具",
+      "category": "housekeeping_cleaning",
+      "context": "アイロンをかける — to iron. アイロン台 — ironing board.",
+      "example_sentence": "ワイシャツにアイロンをかけた。",
+      "example_reading": "ワイシャツ に アイロン を かけた。",
+      "example_meaning": "I ironed my dress shirt."
+    },
+    {
+      "word": "雑巾",
+      "reading": "ぞうきん",
+      "meanings": [
+        "cleaning rag",
+        "floor cloth"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "掃除の布",
+      "category": "housekeeping_cleaning",
+      "context": "雑巾がけ — wiping the floor on hands and knees. Japanese schools have kids do this.",
+      "example_sentence": "雑巾で床を拭いた。",
+      "example_reading": "ぞうきん で ゆか を ふいた。",
+      "example_meaning": "I wiped the floor with a rag."
+    },
+    {
+      "word": "拭く",
+      "reading": "ふく",
+      "meanings": [
+        "to wipe",
+        "to dry off"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "きれいにする",
+      "category": "housekeeping_cleaning",
+      "context": "テーブルを拭く — wipe the table. 涙を拭く — wipe away tears.",
+      "example_sentence": "こぼれた水を拭いた。",
+      "example_reading": "こぼれた みず を ふいた。",
+      "example_meaning": "I wiped up the spilled water."
+    },
+    {
+      "word": "掃く",
+      "reading": "はく",
+      "meanings": [
+        "to sweep"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ほうきで掃除",
+      "category": "housekeeping_cleaning",
+      "context": "庭を掃く — sweep the garden. 落ち葉を掃く — sweep fallen leaves.",
+      "example_sentence": "玄関を掃いた。",
+      "example_reading": "げんかん を はいた。",
+      "example_meaning": "I swept the entrance."
+    },
+    {
+      "word": "ホコリ",
+      "reading": "ホコリ",
+      "meanings": [
+        "dust"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "埃",
+      "category": "housekeeping_cleaning",
+      "context": "Kanji 埃 rarely used. ホコリを取る — remove dust.",
+      "example_sentence": "棚の上にホコリが溜まっている。",
+      "example_reading": "たな の うえ に ホコリ が たまって いる。",
+      "example_meaning": "Dust is piling up on the shelf."
+    },
+    {
+      "word": "ゴミ箱",
+      "reading": "ゴミばこ",
+      "meanings": [
+        "trash can",
+        "wastebasket"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ごみ入れ",
+      "category": "trash_recycling",
+      "context": "Often 'ごみ箱' (kana). 公共のゴミ箱 are rare in Japan — you carry it home.",
+      "example_sentence": "駅にはゴミ箱がほとんどない。",
+      "example_reading": "えき に は ゴミばこ が ほとんど ない。",
+      "example_meaning": "There are hardly any trash cans at stations."
+    },
+    {
+      "word": "ゴミ出し",
+      "reading": "ゴミだし",
+      "meanings": [
+        "taking out the trash"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ごみを捨てる",
+      "category": "trash_recycling",
+      "context": "Strict schedules in Japan: 月水金 —燃えるゴミ, 火 — プラ, 木 — 缶ビン. Mess it up and the bag stays.",
+      "example_sentence": "今日は燃えるゴミの日だ。",
+      "example_reading": "きょう は もえる ゴミ の ひ だ。",
+      "example_meaning": "Today is burnable-trash day."
+    },
+    {
+      "word": "燃えるゴミ",
+      "reading": "もえるゴミ",
+      "meanings": [
+        "burnable trash"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "普通のごみ",
+      "category": "trash_recycling",
+      "context": "Food waste, paper, soft plastics in some cities. Each city has its own rules.",
+      "example_sentence": "生ゴミは燃えるゴミの袋に入れる。",
+      "example_reading": "なまゴミ は もえる ゴミ の ふくろ に いれる。",
+      "example_meaning": "Put food waste in the burnable-trash bag."
+    },
+    {
+      "word": "燃えないゴミ",
+      "reading": "もえないゴミ",
+      "meanings": [
+        "non-burnable trash"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "燃やせないごみ",
+      "category": "trash_recycling",
+      "context": "Glass, ceramic, small metals. Collected monthly in many cities.",
+      "example_sentence": "割れた皿は燃えないゴミだ。",
+      "example_reading": "われた さら は もえない ゴミ だ。",
+      "example_meaning": "Broken plates are non-burnable trash."
+    },
+    {
+      "word": "資源ゴミ",
+      "reading": "しげんゴミ",
+      "meanings": [
+        "recyclables",
+        "resource trash"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "リサイクルできるごみ",
+      "category": "trash_recycling",
+      "context": "Plastic bottles, cans, glass bottles, newspapers. Most strictly separated category.",
+      "example_sentence": "ペットボトルは資源ゴミとして出す。",
+      "example_reading": "ペットボトル は しげんゴミ として だす。",
+      "example_meaning": "Put PET bottles out as recyclables."
+    },
+    {
+      "word": "粗大ゴミ",
+      "reading": "そだいゴミ",
+      "meanings": [
+        "large garbage",
+        "oversized waste"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "大きなごみ",
+      "category": "trash_recycling",
+      "context": "Furniture, appliances over 30cm. Requires advance phone application + paid sticker. A small Japanese ordeal.",
+      "example_sentence": "古いソファを粗大ゴミに出した。",
+      "example_reading": "ふるい ソファ を そだいゴミ に だした。",
+      "example_meaning": "I put out my old sofa as large garbage."
+    },
+    {
+      "word": "分別",
+      "reading": "ぶんべつ",
+      "meanings": [
+        "sorting (waste)",
+        "separation"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ごみを分けること",
+      "category": "trash_recycling",
+      "context": "ゴミの分別 — trash sorting. Different from ふんべつ (same kanji = good judgment).",
+      "example_sentence": "ゴミの分別ルールを覚えた。",
+      "example_reading": "ゴミ の ぶんべつ ルール を おぼえた。",
+      "example_meaning": "I learned the trash-sorting rules."
+    },
+    {
+      "word": "指定袋",
+      "reading": "していぶくろ",
+      "meanings": [
+        "designated trash bag (city-required)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "市指定の袋",
+      "category": "trash_recycling",
+      "context": "Many Japanese cities require their own paid bags. Sold at スーパー / コンビニ.",
+      "example_sentence": "市の指定袋でないと回収してくれない。",
+      "example_reading": "し の してい ぶくろ で ない と かいしゅう して くれない。",
+      "example_meaning": "If it's not the city's designated bag, they won't collect it."
+    },
+    {
+      "word": "まな板",
+      "reading": "まないた",
+      "meanings": [
+        "cutting board"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "切る台",
+      "category": "kitchen_cooking",
+      "context": "Often kana for the まな part. 木のまな板 — wooden cutting board.",
+      "example_sentence": "まな板で野菜を切った。",
+      "example_reading": "まないた で やさい を きった。",
+      "example_meaning": "I cut vegetables on the cutting board."
+    },
+    {
+      "word": "フライパン",
+      "reading": "フライパン",
+      "meanings": [
+        "frying pan"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "鍋",
+      "category": "kitchen_cooking",
+      "context": "Loanword. 鉄のフライパン — iron frying pan. Common kitchen essential.",
+      "example_sentence": "フライパンで卵を焼いた。",
+      "example_reading": "フライパン で たまご を やいた。",
+      "example_meaning": "I fried eggs in the pan."
+    },
+    {
+      "word": "蒸す",
+      "reading": "むす",
+      "meanings": [
+        "to steam"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "蒸気で熱する",
+      "category": "kitchen_cooking",
+      "context": "野菜を蒸す — steam vegetables. 蒸し料理 — steamed dish.",
+      "example_sentence": "中華まんを蒸し器で温めた。",
+      "example_reading": "ちゅうかまん を むしき で あたためた。",
+      "example_meaning": "I steamed the meat buns."
+    },
+    {
+      "word": "茹でる",
+      "reading": "ゆでる",
+      "meanings": [
+        "to boil (food)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "お湯で熱する",
+      "category": "kitchen_cooking",
+      "context": "卵を茹でる — boil eggs. Specifically food-in-water boiling. 沸かす is for water itself.",
+      "example_sentence": "パスタを茹でた。",
+      "example_reading": "パスタ を ゆでた。",
+      "example_meaning": "I boiled the pasta."
+    },
+    {
+      "word": "揚げる",
+      "reading": "あげる",
+      "meanings": [
+        "to deep fry"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "油で揚げる",
+      "category": "kitchen_cooking",
+      "context": "Same kanji form as 上げる but different sense. 唐揚げ — fried chicken. 揚げ物 — fried food.",
+      "example_sentence": "鶏肉を油でカリッと揚げた。",
+      "example_reading": "とりにく を あぶら で カリッと あげた。",
+      "example_meaning": "I deep-fried the chicken to a crisp."
+    },
+    {
+      "word": "炒める",
+      "reading": "いためる",
+      "meanings": [
+        "to stir fry",
+        "to sauté"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "フライパンで料理",
+      "category": "kitchen_cooking",
+      "context": "野菜炒め — stir-fried vegetables. Distinct from 揚げる (deep frying).",
+      "example_sentence": "玉ねぎを炒めて甘くした。",
+      "example_reading": "たまねぎ を いためて あまく した。",
+      "example_meaning": "I sautéed the onions until sweet."
+    },
+    {
+      "word": "煮る",
+      "reading": "にる",
+      "meanings": [
+        "to simmer",
+        "to stew"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "弱火で長く料理",
+      "category": "kitchen_cooking",
+      "context": "煮物 — simmered dish. Long, slow cooking with seasoning.",
+      "example_sentence": "大根を醤油で煮た。",
+      "example_reading": "だいこん を しょうゆ で にた。",
+      "example_meaning": "I simmered the daikon in soy sauce."
+    },
+    {
+      "word": "刻む",
+      "reading": "きざむ",
+      "meanings": [
+        "to chop finely",
+        "to mince"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "細かく切る",
+      "category": "kitchen_cooking",
+      "context": "ネギを刻む — chop scallions finely. More precise than 切る.",
+      "example_sentence": "にんにくを細かく刻んだ。",
+      "example_reading": "にんにく を こまかく きざんだ。",
+      "example_meaning": "I finely chopped the garlic."
+    },
+    {
+      "word": "食材",
+      "reading": "しょくざい",
+      "meanings": [
+        "food ingredients",
+        "groceries"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "料理の材料",
+      "category": "kitchen_cooking",
+      "context": "食材を買い出しに行く — go grocery shopping. Common in recipe writing.",
+      "example_sentence": "今日の食材はすべて地元産だ。",
+      "example_reading": "きょう の しょくざい は すべて じもとさん だ。",
+      "example_meaning": "Today's ingredients are all locally sourced."
+    },
+    {
+      "word": "食器",
+      "reading": "しょっき",
+      "meanings": [
+        "tableware",
+        "dishes"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お皿など",
+      "category": "kitchen_cooking",
+      "context": "食器棚 — china cabinet. 食器を洗う — wash dishes.",
+      "example_sentence": "夕食後、食器を洗った。",
+      "example_reading": "ゆうしょく ご、 しょっき を あらった。",
+      "example_meaning": "I washed the dishes after dinner."
+    },
+    {
+      "word": "お箸",
+      "reading": "おはし",
+      "meanings": [
+        "chopsticks"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "箸",
+      "category": "kitchen_cooking",
+      "context": "割り箸 — disposable chopsticks. お箸の持ち方 — how to hold chopsticks.",
+      "example_sentence": "お箸の使い方が上手ですね。",
+      "example_reading": "おはし の つかいかた が じょうず です ね。",
+      "example_meaning": "You're skilled with chopsticks."
+    },
+    {
+      "word": "スーパー",
+      "reading": "スーパー",
+      "meanings": [
+        "supermarket"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "スーパーマーケット",
+      "category": "shopping",
+      "context": "Short for スーパーマーケット. 業務スーパー, OK, ライフ — common chains.",
+      "example_sentence": "近所のスーパーで買い物した。",
+      "example_reading": "きんじょ の スーパー で かいもの した。",
+      "example_meaning": "I shopped at the local supermarket."
+    },
+    {
+      "word": "コンビニ",
+      "reading": "コンビニ",
+      "meanings": [
+        "convenience store"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "24時間の店",
+      "category": "shopping",
+      "context": "Short for コンビニエンスストア. セブン, ファミマ, ローソン. The Japanese miracle.",
+      "example_sentence": "コンビニで朝ご飯を買った。",
+      "example_reading": "コンビニ で あさごはん を かった。",
+      "example_meaning": "I bought breakfast at the convenience store."
+    },
+    {
+      "word": "レジ",
+      "reading": "レジ",
+      "meanings": [
+        "cash register",
+        "checkout"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "会計の場所",
+      "category": "shopping",
+      "context": "レジに並ぶ — line up at the register. レジ袋 — plastic bag at checkout (now charged).",
+      "example_sentence": "レジが混んでいた。",
+      "example_reading": "レジ が こんで いた。",
+      "example_meaning": "The checkout was crowded."
+    },
+    {
+      "word": "会計",
+      "reading": "かいけい",
+      "meanings": [
+        "bill",
+        "check (restaurant)",
+        "accounting"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金を払う",
+      "category": "shopping",
+      "context": "お会計をお願いします — Check please. Also means corporate accounting.",
+      "example_sentence": "お会計をお願いします。",
+      "example_reading": "お かいけい を おねがい します。",
+      "example_meaning": "Check please."
+    },
+    {
+      "word": "レシート",
+      "reading": "レシート",
+      "meanings": [
+        "receipt (informal)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "領収書",
+      "category": "shopping",
+      "context": "The thermal slip. 領収書 (formal) for tax/expense purposes.",
+      "example_sentence": "レシートをもらった。",
+      "example_reading": "レシート を もらった。",
+      "example_meaning": "I got the receipt."
+    },
+    {
+      "word": "マイバッグ",
+      "reading": "マイバッグ",
+      "meanings": [
+        "reusable shopping bag"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "エコバッグ",
+      "category": "shopping",
+      "context": "Wasei-eigo. Since 2020 レジ袋 are charged — マイバッグ became essential.",
+      "example_sentence": "マイバッグを忘れないで。",
+      "example_reading": "マイバッグ を わすれないで。",
+      "example_meaning": "Don't forget your reusable bag."
+    },
+    {
+      "word": "割引",
+      "reading": "わりびき",
+      "meanings": [
+        "discount"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "値下げ",
+      "category": "shopping",
+      "context": "20%割引 — 20% off. 学生割引 — student discount. 割引券 — coupon.",
+      "example_sentence": "学割で5%割引になった。",
+      "example_reading": "がくわり で ごパーセント わりびき に なった。",
+      "example_meaning": "I got a 5% student discount."
+    },
+    {
+      "word": "値引き",
+      "reading": "ねびき",
+      "meanings": [
+        "price reduction",
+        "markdown"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "安くする",
+      "category": "shopping",
+      "context": "閉店前の値引き — closing-time discounts. 値引きシール — markdown sticker.",
+      "example_sentence": "夕方になると総菜が値引きされる。",
+      "example_reading": "ゆうがた に なる と そうざい が ねびき される。",
+      "example_meaning": "In the evening, prepared foods get marked down."
+    },
+    {
+      "word": "試着",
+      "reading": "しちゃく",
+      "meanings": [
+        "trying on (clothes)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "着てみること",
+      "category": "shopping",
+      "context": "試着してもいいですか — May I try this on? 試着室 — fitting room.",
+      "example_sentence": "このシャツを試着してみたい。",
+      "example_reading": "この シャツ を しちゃく して みたい。",
+      "example_meaning": "I'd like to try on this shirt."
+    },
+    {
+      "word": "試食",
+      "reading": "ししょく",
+      "meanings": [
+        "food sampling",
+        "tasting"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "味見",
+      "category": "shopping",
+      "context": "Common in デパ地下 and supermarkets. 試食コーナー — sampling counter.",
+      "example_sentence": "デパートで試食をたくさんした。",
+      "example_reading": "デパート で ししょく を たくさん した。",
+      "example_meaning": "I sampled a lot at the department store."
+    },
+    {
+      "word": "在庫",
+      "reading": "ざいこ",
+      "meanings": [
+        "stock",
+        "inventory"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "店にある数",
+      "category": "shopping",
+      "context": "在庫切れ — out of stock. 在庫を確認する — check the inventory.",
+      "example_sentence": "申し訳ありませんが、在庫切れです。",
+      "example_reading": "もうしわけ ありませんが、 ざいこ ぎれ です。",
+      "example_meaning": "I'm sorry, but it's out of stock."
+    },
+    {
+      "word": "口座",
+      "reading": "こうざ",
+      "meanings": [
+        "bank account"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "銀行のアカウント",
+      "category": "money_banking",
+      "context": "普通口座 — savings account. 給与口座 — payroll account. 口座開設 — opening an account.",
+      "example_sentence": "銀行で新しい口座を開いた。",
+      "example_reading": "ぎんこう で あたらしい こうざ を ひらいた。",
+      "example_meaning": "I opened a new account at the bank."
+    },
+    {
+      "word": "通帳",
+      "reading": "つうちょう",
+      "meanings": [
+        "bankbook",
+        "passbook"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "銀行の手帳",
+      "category": "money_banking",
+      "context": "Old-school but still used in Japan. 通帳記入 — updating the bankbook.",
+      "example_sentence": "通帳記入をしに行った。",
+      "example_reading": "つうちょう きにゅう を し に いった。",
+      "example_meaning": "I went to update my bankbook."
+    },
+    {
+      "word": "入金",
+      "reading": "にゅうきん",
+      "meanings": [
+        "deposit",
+        "payment received"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金を入れる",
+      "category": "money_banking",
+      "context": "入金する — deposit. 入金確認 — confirm payment received. Pairs with 出金.",
+      "example_sentence": "今月の給料が入金された。",
+      "example_reading": "こんげつ の きゅうりょう が にゅうきん された。",
+      "example_meaning": "This month's salary was deposited."
+    },
+    {
+      "word": "出金",
+      "reading": "しゅっきん",
+      "meanings": [
+        "withdrawal"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金を出す",
+      "category": "money_banking",
+      "context": "ATM出金 — withdraw from ATM. Pairs with 入金.",
+      "example_sentence": "5万円を出金した。",
+      "example_reading": "ごまんえん を しゅっきん した。",
+      "example_meaning": "I withdrew 50,000 yen."
+    },
+    {
+      "word": "振込",
+      "reading": "ふりこみ",
+      "meanings": [
+        "bank transfer"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "送金",
+      "category": "money_banking",
+      "context": "振込手数料 — transfer fee. 給与振込 — payroll transfer.",
+      "example_sentence": "家賃を振込で支払う。",
+      "example_reading": "やちん を ふりこみ で しはらう。",
+      "example_meaning": "I pay rent by bank transfer."
+    },
+    {
+      "word": "振り込む",
+      "reading": "ふりこむ",
+      "meanings": [
+        "to transfer (money)",
+        "to deposit"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "送金する",
+      "category": "money_banking",
+      "context": "Verb form. 口座に振り込む — transfer to an account.",
+      "example_sentence": "請求書通りに振り込んだ。",
+      "example_reading": "せいきゅうしょ どおり に ふりこんだ。",
+      "example_meaning": "I transferred according to the invoice."
+    },
+    {
+      "word": "現金",
+      "reading": "げんきん",
+      "meanings": [
+        "cash"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お札と小銭",
+      "category": "money_banking",
+      "context": "現金のみ — cash only (still common in Japan). 現金書留 — cash registered mail.",
+      "example_sentence": "このお店は現金のみです。",
+      "example_reading": "この おみせ は げんきん のみ です。",
+      "example_meaning": "This shop is cash-only."
+    },
+    {
+      "word": "小銭",
+      "reading": "こぜに",
+      "meanings": [
+        "small change",
+        "coins"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "硬貨",
+      "category": "money_banking",
+      "context": "小銭がない — I don't have change. Japanese coins are heavy + numerous (1, 5, 10, 50, 100, 500 yen).",
+      "example_sentence": "小銭で支払いたい。",
+      "example_reading": "こぜに で しはらいたい。",
+      "example_meaning": "I'd like to pay in coins."
+    },
+    {
+      "word": "お札",
+      "reading": "おさつ",
+      "meanings": [
+        "banknotes",
+        "bills"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "紙のお金",
+      "category": "money_banking",
+      "context": "千円札, 五千円札, 一万円札. 新札 — new bills. 2024 saw the first new designs in 20 years.",
+      "example_sentence": "お札を崩したいんですが。",
+      "example_reading": "おさつ を くずしたい ん です が。",
+      "example_meaning": "I'd like to break a bill."
+    },
+    {
+      "word": "クレジットカード",
+      "reading": "クレジットカード",
+      "meanings": [
+        "credit card"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "クレカ",
+      "category": "money_banking",
+      "context": "Often shortened: クレカ. Japan still less card-saturated than US.",
+      "example_sentence": "クレジットカードで払えますか。",
+      "example_reading": "クレジットカード で はらえますか。",
+      "example_meaning": "Can I pay by credit card?"
+    },
+    {
+      "word": "電子マネー",
+      "reading": "でんしマネー",
+      "meanings": [
+        "electronic money",
+        "e-money"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "プリペイドカード",
+      "category": "money_banking",
+      "context": "Suica, PASMO, ICOCA, nanaco — the Japanese cashless landscape.",
+      "example_sentence": "電子マネーで支払うことが増えた。",
+      "example_reading": "でんしマネー で しはらう こと が ふえた。",
+      "example_meaning": "I pay with e-money more often now."
+    },
+    {
+      "word": "家計",
+      "reading": "かけい",
+      "meanings": [
+        "household budget",
+        "family finances"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "家のお金",
+      "category": "money_banking",
+      "context": "家計簿 — household account book. 家計を支える — support the household.",
+      "example_sentence": "家計の管理は妻に任せている。",
+      "example_reading": "かけい の かんり は つま に まかせて いる。",
+      "example_meaning": "I leave the household finances to my wife."
+    },
+    {
+      "word": "郵便",
+      "reading": "ゆうびん",
+      "meanings": [
+        "mail",
+        "postal service"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "手紙",
+      "category": "mail_delivery",
+      "context": "日本郵便 — Japan Post. 郵便番号 — postal code.",
+      "example_sentence": "郵便が届いた。",
+      "example_reading": "ゆうびん が とどいた。",
+      "example_meaning": "The mail arrived."
+    },
+    {
+      "word": "郵便局",
+      "reading": "ゆうびんきょく",
+      "meanings": [
+        "post office"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ポストオフィス",
+      "category": "mail_delivery",
+      "context": "Also handles banking and insurance in Japan. ゆうちょ銀行 — postal bank.",
+      "example_sentence": "郵便局で切手を買った。",
+      "example_reading": "ゆうびんきょく で きって を かった。",
+      "example_meaning": "I bought stamps at the post office."
+    },
+    {
+      "word": "切手",
+      "reading": "きって",
+      "meanings": [
+        "postage stamp"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "スタンプ",
+      "category": "mail_delivery",
+      "context": "63円切手 — basic letter stamp. 切手を貼る — affix a stamp.",
+      "example_sentence": "封筒に切手を貼った。",
+      "example_reading": "ふうとう に きって を はった。",
+      "example_meaning": "I put a stamp on the envelope."
+    },
+    {
+      "word": "封筒",
+      "reading": "ふうとう",
+      "meanings": [
+        "envelope"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "手紙の袋",
+      "category": "mail_delivery",
+      "context": "茶封筒 — manila/brown envelope. 長3封筒 — A4-folded envelope size.",
+      "example_sentence": "履歴書を封筒に入れた。",
+      "example_reading": "りれきしょ を ふうとう に いれた。",
+      "example_meaning": "I put my resume in the envelope."
+    },
+    {
+      "word": "はがき",
+      "reading": "はがき",
+      "meanings": [
+        "postcard"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ポストカード",
+      "category": "mail_delivery",
+      "context": "Kanji 葉書 — 'leaf-letter.' 年賀はがき — New Year postcards.",
+      "example_sentence": "友達にはがきを送った。",
+      "example_reading": "ともだち に はがき を おくった。",
+      "example_meaning": "I sent a postcard to a friend."
+    },
+    {
+      "word": "宅配便",
+      "reading": "たくはいびん",
+      "meanings": [
+        "home delivery service",
+        "courier"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "宅急便",
+      "category": "mail_delivery",
+      "context": "ヤマト, 佐川, 日本郵便 — major couriers. 宅急便 is Yamato's brand name, generic-ized like 'Xerox.'",
+      "example_sentence": "宅配便で荷物を送った。",
+      "example_reading": "たくはいびん で にもつ を おくった。",
+      "example_meaning": "I sent the package by courier."
+    },
+    {
+      "word": "配達",
+      "reading": "はいたつ",
+      "meanings": [
+        "delivery"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "届けること",
+      "category": "mail_delivery",
+      "context": "配達員 — delivery driver. 配達中 — out for delivery.",
+      "example_sentence": "今日配達される予定だ。",
+      "example_reading": "きょう はいたつ される よてい だ。",
+      "example_meaning": "It's scheduled to be delivered today."
+    },
+    {
+      "word": "不在票",
+      "reading": "ふざいひょう",
+      "meanings": [
+        "delivery slip (when not home)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "宅配が来た知らせ",
+      "category": "mail_delivery",
+      "context": "Slip left in your mailbox when nobody's home. You arrange 再配達 from this.",
+      "example_sentence": "ポストに不在票が入っていた。",
+      "example_reading": "ポスト に ふざいひょう が はいって いた。",
+      "example_meaning": "There was a delivery slip in my mailbox."
+    },
+    {
+      "word": "再配達",
+      "reading": "さいはいたつ",
+      "meanings": [
+        "redelivery"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "もう一度配達",
+      "category": "mail_delivery",
+      "context": "Schedule via phone or app/QR code. 再配達依頼 — redelivery request.",
+      "example_sentence": "再配達を夜の時間帯に頼んだ。",
+      "example_reading": "さい はいたつ を よる の じかんたい に たのんだ。",
+      "example_meaning": "I requested redelivery for the evening."
+    },
+    {
+      "word": "市役所",
+      "reading": "しやくしょ",
+      "meanings": [
+        "city hall",
+        "municipal office"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "市の事務所",
+      "category": "bureaucracy_forms",
+      "context": "Where you handle 住民票, マイナンバー, 印鑑登録. Often slow but free.",
+      "example_sentence": "市役所で書類を提出した。",
+      "example_reading": "しやくしょ で しょるい を ていしゅつ した。",
+      "example_meaning": "I submitted the documents at city hall."
+    },
+    {
+      "word": "区役所",
+      "reading": "くやくしょ",
+      "meanings": [
+        "ward office (large cities)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "区の役所",
+      "category": "bureaucracy_forms",
+      "context": "Tokyo's 23 wards. Same functions as 市役所 in other cities.",
+      "example_sentence": "住所変更で区役所へ行った。",
+      "example_reading": "じゅうしょ へんこう で くやくしょ へ いった。",
+      "example_meaning": "I went to the ward office to change my address."
+    },
+    {
+      "word": "住民票",
+      "reading": "じゅうみんひょう",
+      "meanings": [
+        "residency certificate"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "住所の証明",
+      "category": "bureaucracy_forms",
+      "context": "Required for jobs, bank accounts, phone contracts. Get from city hall, ~300 yen.",
+      "example_sentence": "住民票の写しを取った。",
+      "example_reading": "じゅうみんひょう の うつし を とった。",
+      "example_meaning": "I got a copy of my residency certificate."
+    },
+    {
+      "word": "印鑑",
+      "reading": "いんかん",
+      "meanings": [
+        "personal seal",
+        "hanko"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ハンコ",
+      "category": "bureaucracy_forms",
+      "context": "Often called ハンコ. Used instead of signature for official documents. 印鑑登録 — seal registration.",
+      "example_sentence": "契約書に印鑑を押した。",
+      "example_reading": "けいやくしょ に いんかん を おした。",
+      "example_meaning": "I stamped the contract with my seal."
+    },
+    {
+      "word": "印鑑証明",
+      "reading": "いんかんしょうめい",
+      "meanings": [
+        "seal certificate"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "印鑑の証明書",
+      "category": "bureaucracy_forms",
+      "context": "Proves the registered 印鑑 is yours. Required for big transactions (car, house).",
+      "example_sentence": "印鑑証明を市役所で取得した。",
+      "example_reading": "いんかん しょうめい を しやくしょ で しゅとく した。",
+      "example_meaning": "I got the seal certificate at city hall."
+    },
+    {
+      "word": "マイナンバー",
+      "reading": "マイナンバー",
+      "meanings": [
+        "my number (Japanese national ID)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "国民番号",
+      "category": "bureaucracy_forms",
+      "context": "Japan's social security/tax ID. マイナンバーカード — physical card. Push to consolidate is ongoing.",
+      "example_sentence": "マイナンバーカードを作った。",
+      "example_reading": "マイナンバーカード を つくった。",
+      "example_meaning": "I got a my-number card made."
+    },
+    {
+      "word": "住所変更",
+      "reading": "じゅうしょへんこう",
+      "meanings": [
+        "change of address"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "住所を変えること",
+      "category": "bureaucracy_forms",
+      "context": "Required within 14 days of moving. Cascade of follow-ups: bank, phone, license.",
+      "example_sentence": "引越し後に住所変更の手続きをした。",
+      "example_reading": "ひっこし ご に じゅうしょ へんこう の てつづき を した。",
+      "example_meaning": "I handled the change-of-address paperwork after moving."
+    },
+    {
+      "word": "手続き",
+      "reading": "てつづき",
+      "meanings": [
+        "procedure",
+        "paperwork",
+        "formalities"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "申請の流れ",
+      "category": "bureaucracy_forms",
+      "context": "〇〇の手続き — 〇〇 procedure. The defining word of Japanese bureaucracy.",
+      "example_sentence": "必要な手続きは全部済ませた。",
+      "example_reading": "ひつよう な てつづき は ぜんぶ すませた。",
+      "example_meaning": "I finished all the necessary paperwork."
+    },
+    {
+      "word": "申請書",
+      "reading": "しんせいしょ",
+      "meanings": [
+        "application form"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "申し込み書",
+      "category": "bureaucracy_forms",
+      "context": "申請書に記入 — fill in the form. Found at most 役所 counters.",
+      "example_sentence": "申請書に必要事項を記入した。",
+      "example_reading": "しんせいしょ に ひつよう じこう を きにゅう した。",
+      "example_meaning": "I filled in the required fields on the form."
+    },
+    {
+      "word": "記入",
+      "reading": "きにゅう",
+      "meanings": [
+        "filling in",
+        "writing in"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "書き込む",
+      "category": "bureaucracy_forms",
+      "context": "記入する — to fill in. 記入欄 — field to fill in.",
+      "example_sentence": "こちらの欄に記入してください。",
+      "example_reading": "こちら の らん に きにゅう して ください。",
+      "example_meaning": "Please fill in this field."
+    },
+    {
+      "word": "押印",
+      "reading": "おういん",
+      "meanings": [
+        "stamping with a seal",
+        "sealing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ハンコを押す",
+      "category": "bureaucracy_forms",
+      "context": "押印する — to seal. Government push to abolish unnecessary 押印 is recent.",
+      "example_sentence": "書類に押印してください。",
+      "example_reading": "しょるい に おういん して ください。",
+      "example_meaning": "Please affix your seal to the document."
+    },
+    {
+      "word": "携帯",
+      "reading": "けいたい",
+      "meanings": [
+        "mobile phone",
+        "cell phone"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "スマホ",
+      "category": "phone_internet",
+      "context": "Short for 携帯電話. Now largely replaced by スマホ in speech.",
+      "example_sentence": "携帯番号を教えてください。",
+      "example_reading": "けいたい ばんごう を おしえて ください。",
+      "example_meaning": "Please tell me your mobile number."
+    },
+    {
+      "word": "スマホ",
+      "reading": "スマホ",
+      "meanings": [
+        "smartphone"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "スマートフォン",
+      "category": "phone_internet",
+      "context": "Short for スマートフォン. The default device. スマホ決済 — smartphone payment.",
+      "example_sentence": "スマホを新しく買い替えた。",
+      "example_reading": "スマホ を あたらしく かいかえた。",
+      "example_meaning": "I bought a new smartphone."
+    },
+    {
+      "word": "充電",
+      "reading": "じゅうでん",
+      "meanings": [
+        "charging (battery)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電気を入れる",
+      "category": "phone_internet",
+      "context": "充電する — to charge. 充電器 — charger. 充電が切れる — battery dies.",
+      "example_sentence": "スマホの充電が切れそうだ。",
+      "example_reading": "スマホ の じゅうでん が きれそう だ。",
+      "example_meaning": "My phone's about to die."
+    },
+    {
+      "word": "通信料",
+      "reading": "つうしんりょう",
+      "meanings": [
+        "communication fee",
+        "data charges"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "スマホ代",
+      "category": "phone_internet",
+      "context": "Monthly mobile/internet bill. 通信費 — same idea, more general.",
+      "example_sentence": "通信料が予算を超えた。",
+      "example_reading": "つうしんりょう が よさん を こえた。",
+      "example_meaning": "My data charges exceeded budget."
+    },
+    {
+      "word": "圏外",
+      "reading": "けんがい",
+      "meanings": [
+        "out of service area",
+        "no signal"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電波が届かない",
+      "category": "phone_internet",
+      "context": "Shows as 圏外 on the status bar. Common in mountains, basements.",
+      "example_sentence": "地下鉄では圏外になる。",
+      "example_reading": "ちかてつ で は けんがい に なる。",
+      "example_meaning": "You go out of service in the subway."
+    },
+    {
+      "word": "着信",
+      "reading": "ちゃくしん",
+      "meanings": [
+        "incoming call/message"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電話が来る",
+      "category": "phone_internet",
+      "context": "着信履歴 — call history. 着信音 — ringtone.",
+      "example_sentence": "見知らぬ番号からの着信があった。",
+      "example_reading": "みしらぬ ばんごう から の ちゃくしん が あった。",
+      "example_meaning": "I had a call from an unknown number."
+    },
+    {
+      "word": "留守番電話",
+      "reading": "るすばんでんわ",
+      "meanings": [
+        "voicemail",
+        "answering machine"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "留守電",
+      "category": "phone_internet",
+      "context": "Often shortened to 留守電. Old landline term, also used for mobile voicemail.",
+      "example_sentence": "留守番電話にメッセージを残した。",
+      "example_reading": "るすばん でんわ に メッセージ を のこした。",
+      "example_meaning": "I left a message on the voicemail."
+    },
+    {
+      "word": "歯磨き",
+      "reading": "はみがき",
+      "meanings": [
+        "brushing teeth",
+        "toothpaste"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "歯を磨く",
+      "category": "personal_care",
+      "context": "歯磨きをする — brush teeth. 歯磨き粉 — toothpaste (粉 = powder, traditional).",
+      "example_sentence": "寝る前に歯磨きをする。",
+      "example_reading": "ねる まえ に はみがき を する。",
+      "example_meaning": "I brush my teeth before bed."
+    },
+    {
+      "word": "お風呂",
+      "reading": "おふろ",
+      "meanings": [
+        "bath",
+        "bathtub"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お湯につかる",
+      "category": "personal_care",
+      "context": "お風呂に入る — to take a bath. お風呂を沸かす — fill/heat the bath. Cultural staple.",
+      "example_sentence": "夜にお風呂に入った。",
+      "example_reading": "よる に おふろ に はいった。",
+      "example_meaning": "I took a bath at night."
+    },
+    {
+      "word": "シャワー",
+      "reading": "シャワー",
+      "meanings": [
+        "shower"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "立って洗う",
+      "category": "personal_care",
+      "context": "シャワーを浴びる — to take a shower. Used vs お風呂 (soaking bath).",
+      "example_sentence": "朝にシャワーを浴びる。",
+      "example_reading": "あさ に シャワー を あびる。",
+      "example_meaning": "I shower in the morning."
+    },
+    {
+      "word": "化粧",
+      "reading": "けしょう",
+      "meanings": [
+        "makeup",
+        "cosmetics"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "メイク",
+      "category": "personal_care",
+      "context": "化粧する — to put on makeup. 化粧品 — cosmetics. 化粧水 — toner.",
+      "example_sentence": "出かける前に化粧をした。",
+      "example_reading": "でかける まえ に けしょう を した。",
+      "example_meaning": "I put on makeup before going out."
+    },
+    {
+      "word": "髭剃り",
+      "reading": "ひげそり",
+      "meanings": [
+        "shaving",
+        "razor"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "ひげを剃る",
+      "category": "personal_care",
+      "context": "電気髭剃り — electric razor. 髭を剃る — to shave.",
+      "example_sentence": "毎朝、髭剃りをする。",
+      "example_reading": "まいあさ、 ひげそり を する。",
+      "example_meaning": "I shave every morning."
+    },
+    {
+      "word": "美容院",
+      "reading": "びよういん",
+      "meanings": [
+        "hair salon",
+        "beauty parlor"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ヘアサロン",
+      "category": "personal_care",
+      "context": "Note: 美容院 vs 病院 — different pitch accent! Don't confuse.",
+      "example_sentence": "美容院で髪を切った。",
+      "example_reading": "びよういん で かみ を きった。",
+      "example_meaning": "I got my hair cut at the salon."
+    },
+    {
+      "word": "家賃",
+      "reading": "やちん",
+      "meanings": [
+        "rent"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "借りる家のお金",
+      "category": "housing_rental",
+      "context": "家賃が高い — high rent. Tokyo single-room 6-8 man yen common. Monthly bank transfer.",
+      "example_sentence": "毎月25日に家賃を振り込む。",
+      "example_reading": "まいつき にじゅうごにち に やちん を ふりこむ。",
+      "example_meaning": "I transfer rent on the 25th of every month."
+    },
+    {
+      "word": "礼金",
+      "reading": "れいきん",
+      "meanings": [
+        "key money (non-refundable gift to landlord)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "大家へのお礼",
+      "category": "housing_rental",
+      "context": "Japan-specific. Usually 1-2 months rent, NON-refundable. Some properties advertise 礼金なし.",
+      "example_sentence": "このマンションは礼金なしだ。",
+      "example_reading": "この マンション は れいきん なし だ。",
+      "example_meaning": "This apartment doesn't require key money."
+    },
+    {
+      "word": "敷金",
+      "reading": "しききん",
+      "meanings": [
+        "security deposit"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "預けるお金",
+      "category": "housing_rental",
+      "context": "Refundable in theory; in practice deducted for cleaning/repairs. 1-2 months rent typical.",
+      "example_sentence": "敷金は退去時に一部戻ってきた。",
+      "example_reading": "しききん は たいきょ じ に いちぶ もどって きた。",
+      "example_meaning": "Some of the deposit came back when I moved out."
+    },
+    {
+      "word": "仲介手数料",
+      "reading": "ちゅうかいてすうりょう",
+      "meanings": [
+        "agent's fee",
+        "brokerage fee"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "不動産屋への手数料",
+      "category": "housing_rental",
+      "context": "Real estate agent's commission. Typically 1 month rent + tax.",
+      "example_sentence": "仲介手数料は家賃の一ヶ月分だった。",
+      "example_reading": "ちゅうかい てすうりょう は やちん の いっかげつぶん だった。",
+      "example_meaning": "The agent's fee was one month's rent."
+    },
+    {
+      "word": "管理費",
+      "reading": "かんりひ",
+      "meanings": [
+        "building management fee",
+        "common area fees"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "共益費",
+      "category": "housing_rental",
+      "context": "Monthly fee for cleaning, lighting in shared areas. Usually included with rent listing.",
+      "example_sentence": "家賃と管理費を別に払う。",
+      "example_reading": "やちん と かんりひ を べつ に はらう。",
+      "example_meaning": "I pay rent and management fees separately."
+    },
+    {
+      "word": "更新料",
+      "reading": "こうしんりょう",
+      "meanings": [
+        "lease renewal fee"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "契約更新のお金",
+      "category": "housing_rental",
+      "context": "Every 2 years, typically 1 month rent. Another Japan-specific cost.",
+      "example_sentence": "二年ごとに更新料がかかる。",
+      "example_reading": "にねん ごと に こうしんりょう が かかる。",
+      "example_meaning": "Renewal fees are charged every two years."
+    },
+    {
+      "word": "不動産屋",
+      "reading": "ふどうさんや",
+      "meanings": [
+        "real estate agency"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "家を探す店",
+      "category": "housing_rental",
+      "context": "SUUMO, アットホーム are platforms; you visit local 不動産屋 to actually see places.",
+      "example_sentence": "不動産屋で物件を紹介してもらった。",
+      "example_reading": "ふどうさんや で ぶっけん を しょうかい して もらった。",
+      "example_meaning": "The realtor showed me some properties."
+    },
+    {
+      "word": "物件",
+      "reading": "ぶっけん",
+      "meanings": [
+        "property (real estate)",
+        "listing"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "建物",
+      "category": "housing_rental",
+      "context": "〇〇物件 — 〇〇 property. Real estate ad keyword.",
+      "example_sentence": "駅近の物件を探している。",
+      "example_reading": "えきちか の ぶっけん を さがして いる。",
+      "example_meaning": "I'm looking for properties near the station."
+    },
+    {
+      "word": "退去",
+      "reading": "たいきょ",
+      "meanings": [
+        "moving out (of a residence)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "引っ越し（出て行く）",
+      "category": "housing_rental",
+      "context": "退去届 — notice of moving out. Required 1-2 months advance notice.",
+      "example_sentence": "退去の連絡を大家にした。",
+      "example_reading": "たいきょ の れんらく を おおや に した。",
+      "example_meaning": "I notified the landlord I'm moving out."
+    },
+    {
+      "word": "大家",
+      "reading": "おおや",
+      "meanings": [
+        "landlord",
+        "property owner"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "家主",
+      "category": "housing_rental",
+      "context": "More casual than 家主. Often resides in the same building in smaller properties.",
+      "example_sentence": "大家さんは親切な人だ。",
+      "example_reading": "おおや さん は しんせつ な ひと だ。",
+      "example_meaning": "The landlord is a kind person."
+    },
+    {
+      "word": "光熱費",
+      "reading": "こうねつひ",
+      "meanings": [
+        "utilities (electricity, gas, water)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電気・ガス・水道代",
+      "category": "utilities_bills",
+      "context": "Lit. 'light-heat fee.' Umbrella term for utility bills.",
+      "example_sentence": "夏は光熱費が高くなる。",
+      "example_reading": "なつ は こうねつひ が たかく なる。",
+      "example_meaning": "Utilities get expensive in summer."
+    },
+    {
+      "word": "電気代",
+      "reading": "でんきだい",
+      "meanings": [
+        "electricity bill"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "電気の料金",
+      "category": "utilities_bills",
+      "context": "Monthly bill from 東京電力 etc. 電気代が上がる — electricity gets more expensive.",
+      "example_sentence": "今月の電気代が高かった。",
+      "example_reading": "こんげつ の でんきだい が たかかった。",
+      "example_meaning": "This month's electricity bill was high."
+    },
+    {
+      "word": "ガス代",
+      "reading": "ガスだい",
+      "meanings": [
+        "gas bill"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ガスの料金",
+      "category": "utilities_bills",
+      "context": "都市ガス vs プロパンガス. Different cost structures.",
+      "example_sentence": "プロパンのほうがガス代が高い。",
+      "example_reading": "プロパン の ほう が ガスだい が たかい。",
+      "example_meaning": "Propane gas is more expensive."
+    },
+    {
+      "word": "水道",
+      "reading": "すいどう",
+      "meanings": [
+        "water supply",
+        "plumbing"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "水のシステム",
+      "category": "utilities_bills",
+      "context": "水道代 — water bill. 水道水 — tap water (very drinkable in Japan).",
+      "example_sentence": "水道の修理を頼んだ。",
+      "example_reading": "すいどう の しゅうり を たのんだ。",
+      "example_meaning": "I called for plumbing repairs."
+    },
+    {
+      "word": "領収書",
+      "reading": "りょうしゅうしょ",
+      "meanings": [
+        "receipt (official)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "お金を受け取った証明",
+      "category": "shopping",
+      "context": "Already in N3 Essentials. Used for tax / business expenses. Get it written with your company name.",
+      "example_sentence": "会社の経費なので領収書をもらった。",
+      "example_reading": "かいしゃ の けいひ な ので りょうしゅうしょ を もらった。",
+      "example_meaning": "It's for company expenses so I got an official receipt."
+    },
+    {
+      "word": "請求書",
+      "reading": "せいきゅうしょ",
+      "meanings": [
+        "invoice",
+        "bill (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "払うお金の書類",
+      "category": "utilities_bills",
+      "context": "Utility bills arrive monthly as 請求書. 請求書を発行する — issue an invoice.",
+      "example_sentence": "先月の請求書がまだ来ない。",
+      "example_reading": "せんげつ の せいきゅうしょ が まだ こない。",
+      "example_meaning": "Last month's bill hasn't arrived yet."
+    },
+    {
+      "word": "自動引き落とし",
+      "reading": "じどうひきおとし",
+      "meanings": [
+        "automatic withdrawal (from bank)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自動払い",
+      "category": "utilities_bills",
+      "context": "How most Japanese pay recurring bills. 引き落とし日 — withdrawal date.",
+      "example_sentence": "電気料金は自動引き落としにしている。",
+      "example_reading": "でんき りょうきん は じどう ひきおとし に して いる。",
+      "example_meaning": "I have electricity on auto-withdrawal."
+    },
+    {
+      "word": "起床",
+      "reading": "きしょう",
+      "meanings": [
+        "getting up (formal)",
+        "rising"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "起きる",
+      "category": "daily_routine",
+      "context": "More formal than 起きる. 起床時間 — wake-up time.",
+      "example_sentence": "毎日6時に起床する。",
+      "example_reading": "まいにち ろくじ に きしょう する。",
+      "example_meaning": "I get up at 6 every day."
+    },
+    {
+      "word": "就寝",
+      "reading": "しゅうしん",
+      "meanings": [
+        "going to bed (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "寝る",
+      "category": "daily_routine",
+      "context": "More formal than 寝る. Often paired with 起床 in health surveys.",
+      "example_sentence": "就寝前にスマホを見ない。",
+      "example_reading": "しゅうしん まえ に スマホ を みない。",
+      "example_meaning": "I don't look at my phone before bed."
+    },
+    {
+      "word": "睡眠",
+      "reading": "すいみん",
+      "meanings": [
+        "sleep"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "寝ること",
+      "category": "daily_routine",
+      "context": "睡眠不足 — sleep deprivation. 睡眠時間 — hours of sleep.",
+      "example_sentence": "最近睡眠が足りない。",
+      "example_reading": "さいきん すいみん が たりない。",
+      "example_meaning": "I haven't been getting enough sleep recently."
+    },
+    {
+      "word": "二度寝",
+      "reading": "にどね",
+      "meanings": [
+        "going back to sleep",
+        "sleeping in"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "もう一度寝る",
+      "category": "daily_routine",
+      "context": "Lit. 'two-time sleep.' That common morning sin.",
+      "example_sentence": "つい二度寝してしまった。",
+      "example_reading": "つい にどね して しまった。",
+      "example_meaning": "I accidentally went back to sleep."
+    },
+    {
+      "word": "寝坊",
+      "reading": "ねぼう",
+      "meanings": [
+        "oversleeping",
+        "sleeping in late"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "遅く起きる",
+      "category": "daily_routine",
+      "context": "寝坊する — to oversleep. Universal excuse.",
+      "example_sentence": "寝坊して遅刻した。",
+      "example_reading": "ねぼう して ちこく した。",
+      "example_meaning": "I overslept and was late."
+    },
+    {
+      "word": "朝食",
+      "reading": "ちょうしょく",
+      "meanings": [
+        "breakfast (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "朝ご飯",
+      "category": "daily_routine",
+      "context": "More formal than 朝ご飯. Hotel/restaurant register.",
+      "example_sentence": "ホテルの朝食はバイキング形式だった。",
+      "example_reading": "ホテル の ちょうしょく は バイキング けいしき だった。",
+      "example_meaning": "The hotel breakfast was buffet-style."
+    },
+    {
+      "word": "昼食",
+      "reading": "ちゅうしょく",
+      "meanings": [
+        "lunch (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昼ご飯",
+      "category": "daily_routine",
+      "context": "Formal. Used on menus, work documents.",
+      "example_sentence": "会議の前に昼食を済ませた。",
+      "example_reading": "かいぎ の まえ に ちゅうしょく を すませた。",
+      "example_meaning": "I had lunch before the meeting."
+    },
+    {
+      "word": "夕食",
+      "reading": "ゆうしょく",
+      "meanings": [
+        "dinner (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "夕ご飯",
+      "category": "daily_routine",
+      "context": "Formal. 夕食を共にする — share dinner.",
+      "example_sentence": "家族と夕食を取った。",
+      "example_reading": "かぞく と ゆうしょく を とった。",
+      "example_meaning": "I had dinner with my family."
+    },
+    {
+      "word": "食事",
+      "reading": "しょくじ",
+      "meanings": [
+        "meal",
+        "dining"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ご飯",
+      "category": "daily_routine",
+      "context": "食事をする — to have a meal. 食事中 — eating now (busy).",
+      "example_sentence": "食事の前に手を洗う。",
+      "example_reading": "しょくじ の まえ に て を あらう。",
+      "example_meaning": "I wash my hands before meals."
+    },
+    {
+      "word": "家具",
+      "reading": "かぐ",
+      "meanings": [
+        "furniture"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "テーブルや椅子",
+      "category": "household_objects",
+      "context": "Already in N3 Essentials. 家具屋 — furniture store.",
+      "example_sentence": "新しい家具を買い揃えた。",
+      "example_reading": "あたらしい かぐ を かいそろえた。",
+      "example_meaning": "I bought a full set of new furniture."
+    },
+    {
+      "word": "家電",
+      "reading": "かでん",
+      "meanings": [
+        "home appliances"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "電化製品",
+      "category": "household_objects",
+      "context": "Short for 家庭電化製品. 家電量販店 — appliance superstore (ヨドバシ, ビックカメラ).",
+      "example_sentence": "引越しで家電を全部買い替えた。",
+      "example_reading": "ひっこし で かでん を ぜんぶ かいかえた。",
+      "example_meaning": "I replaced all the appliances when I moved."
+    },
+    {
+      "word": "日用品",
+      "reading": "にちようひん",
+      "meanings": [
+        "daily necessities",
+        "household goods"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "毎日使う物",
+      "category": "household_objects",
+      "context": "日用品売り場 — household goods section.",
+      "example_sentence": "日用品をまとめて買った。",
+      "example_reading": "にちようひん を まとめて かった。",
+      "example_meaning": "I stocked up on daily necessities."
+    },
+    {
+      "word": "洗剤",
+      "reading": "せんざい",
+      "meanings": [
+        "detergent",
+        "cleanser"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "洗うのに使う物",
+      "category": "housekeeping_cleaning",
+      "context": "洗濯洗剤 — laundry detergent. 食器用洗剤 — dish soap.",
+      "example_sentence": "洗剤がそろそろ切れそうだ。",
+      "example_reading": "せんざい が そろそろ きれそう だ。",
+      "example_meaning": "The detergent is about to run out."
+    },
+    {
+      "word": "柔軟剤",
+      "reading": "じゅうなんざい",
+      "meanings": [
+        "fabric softener"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "洗濯の香りづけ",
+      "category": "housekeeping_cleaning",
+      "context": "レノア, ハミング, etc. Japanese laundry section overflows with these.",
+      "example_sentence": "柔軟剤の香りが好きだ。",
+      "example_reading": "じゅうなんざい の かおり が すき だ。",
+      "example_meaning": "I love the scent of fabric softener."
+    },
+    {
+      "word": "ティッシュ",
+      "reading": "ティッシュ",
+      "meanings": [
+        "tissues (paper)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "鼻紙",
+      "category": "household_objects",
+      "context": "ボックスティッシュ — boxed tissue. ポケットティッシュ — pocket pack (free promotional ones common).",
+      "example_sentence": "ティッシュをもう一箱ください。",
+      "example_reading": "ティッシュ を もう ひとはこ ください。",
+      "example_meaning": "One more box of tissues please."
+    },
+    {
+      "word": "トイレットペーパー",
+      "reading": "トイレットペーパー",
+      "meanings": [
+        "toilet paper"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "トイレの紙",
+      "category": "household_objects",
+      "context": "シングル/ダブル — single/double ply.",
+      "example_sentence": "トイレットペーパーを買い忘れた。",
+      "example_reading": "トイレットペーパー を かいわすれた。",
+      "example_meaning": "I forgot to buy toilet paper."
+    },
+    {
+      "word": "電球",
+      "reading": "でんきゅう",
+      "meanings": [
+        "lightbulb"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "明かりの玉",
+      "category": "household_objects",
+      "context": "LED電球 — LED bulb. 電球を交換する — replace a bulb.",
+      "example_sentence": "電球が切れたので交換した。",
+      "example_reading": "でんきゅう が きれた ので こうかん した。",
+      "example_meaning": "The bulb burned out so I replaced it."
+    },
+    {
+      "word": "近所",
+      "reading": "きんじょ",
+      "meanings": [
+        "neighborhood",
+        "vicinity"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "周りの地域",
+      "category": "neighborhood_local",
+      "context": "Also in N3 Essentials. ご近所 — polite form (Yotsubato deck).",
+      "example_sentence": "近所に新しいカフェができた。",
+      "example_reading": "きんじょ に あたらしい カフェ が できた。",
+      "example_meaning": "A new cafe opened in the neighborhood."
+    },
+    {
+      "word": "自治会",
+      "reading": "じちかい",
+      "meanings": [
+        "neighborhood association"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "町内会",
+      "category": "neighborhood_local",
+      "context": "Hyperlocal community group. Organizes 祭り, garbage stations. Membership often expected.",
+      "example_sentence": "自治会の集まりに参加した。",
+      "example_reading": "じちかい の あつまり に さんか した。",
+      "example_meaning": "I attended the neighborhood association meeting."
+    },
+    {
+      "word": "町内会",
+      "reading": "ちょうないかい",
+      "meanings": [
+        "block association",
+        "neighborhood council"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自治会",
+      "category": "neighborhood_local",
+      "context": "Equivalent to 自治会. Hyperlocal level. 回覧板 — notification board passed between houses.",
+      "example_sentence": "町内会費を払った。",
+      "example_reading": "ちょうない かいひ を はらった。",
+      "example_meaning": "I paid the block association dues."
+    },
+    {
+      "word": "回覧板",
+      "reading": "かいらんばん",
+      "meanings": [
+        "circulating notice board (neighborhood)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "近所に回す板",
+      "category": "neighborhood_local",
+      "context": "Physical clipboard passed from house to house with notices. Very analog Japanese institution.",
+      "example_sentence": "隣の家に回覧板を回した。",
+      "example_reading": "となり の いえ に かいらんばん を まわした。",
+      "example_meaning": "I passed the notice board to the neighbor."
+    },
+    {
+      "word": "近隣",
+      "reading": "きんりん",
+      "meanings": [
+        "neighborhood",
+        "neighboring area (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "近所",
+      "category": "neighborhood_local",
+      "context": "More formal than 近所. Common in real estate and city ordinances.",
+      "example_sentence": "近隣住民と挨拶を交わした。",
+      "example_reading": "きんりん じゅうみん と あいさつ を かわした。",
+      "example_meaning": "I greeted the neighboring residents."
+    },
+    {
+      "word": "住宅",
+      "reading": "じゅうたく",
+      "meanings": [
+        "residence",
+        "housing"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "住む家",
+      "category": "housing_rental",
+      "context": "住宅街 — residential area. 住宅ローン — home loan/mortgage.",
+      "example_sentence": "住宅街は夜静かだ。",
+      "example_reading": "じゅうたくがい は よる しずか だ。",
+      "example_meaning": "Residential areas are quiet at night."
+    },
+    {
+      "word": "マンション",
+      "reading": "マンション",
+      "meanings": [
+        "condominium",
+        "apartment building"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "建物の家",
+      "category": "housing_rental",
+      "context": "False friend: NOT a mansion! Means apartment/condo (concrete construction). アパート is wooden/older.",
+      "example_sentence": "駅近のマンションに引っ越した。",
+      "example_reading": "えきちか の マンション に ひっこした。",
+      "example_meaning": "I moved to an apartment near the station."
+    },
+    {
+      "word": "アパート",
+      "reading": "アパート",
+      "meanings": [
+        "apartment (older/wooden)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "古い建物の家",
+      "category": "housing_rental",
+      "context": "Distinguished from マンション — usually 2 stories, wooden, older. Cheaper rent.",
+      "example_sentence": "学生時代はアパートに住んでいた。",
+      "example_reading": "がくせい じだい は アパート に すんで いた。",
+      "example_meaning": "I lived in an apartment during my student years."
+    },
+    {
+      "word": "一戸建て",
+      "reading": "いっこだて",
+      "meanings": [
+        "detached house",
+        "single-family home"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "普通の家",
+      "category": "housing_rental",
+      "context": "Real estate listing keyword. Distinct from マンション. The dream/goal of many Japanese.",
+      "example_sentence": "郊外に一戸建てを買った。",
+      "example_reading": "こうがい に いっこだて を かった。",
+      "example_meaning": "I bought a house in the suburbs."
+    },
+    {
+      "word": "間取り",
+      "reading": "まどり",
+      "meanings": [
+        "floor plan",
+        "room layout"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "部屋の配置",
+      "category": "housing_rental",
+      "context": "間取り図 — floor plan diagram. Standard real estate listing element. 1LDK, 2DK abbreviations.",
+      "example_sentence": "間取りを確認してから決めた。",
+      "example_reading": "まどり を かくにん して から きめた。",
+      "example_meaning": "I decided after checking the floor plan."
+    },
+    {
+      "word": "築",
+      "reading": "ちく",
+      "meanings": [
+        "age (of a building)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "建ってからの年",
+      "category": "housing_rental",
+      "context": "築10年 — 10 years old. 築浅 — newly built (positive feature in listings).",
+      "example_sentence": "この物件は築15年だ。",
+      "example_reading": "この ぶっけん は ちく じゅうごねん だ。",
+      "example_meaning": "This place is 15 years old."
+    },
+    {
+      "word": "内見",
+      "reading": "ないけん",
+      "meanings": [
+        "viewing (apartment)",
+        "unit tour"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "部屋を見にいく",
+      "category": "housing_rental",
+      "context": "内見する — to view a property. The pre-rental viewing.",
+      "example_sentence": "内見の予約を入れた。",
+      "example_reading": "ないけん の よやく を いれた。",
+      "example_meaning": "I scheduled a viewing."
+    },
+    {
+      "word": "保証人",
+      "reading": "ほしょうにん",
+      "meanings": [
+        "guarantor",
+        "co-signer"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "保証してくれる人",
+      "category": "housing_rental",
+      "context": "Required for most Japanese rentals. Some places use 保証会社 (guarantor company) instead.",
+      "example_sentence": "保証人がいないと借りられない。",
+      "example_reading": "ほしょうにん が いない と かりられない。",
+      "example_meaning": "You can't rent without a guarantor."
+    },
+    {
+      "word": "保証会社",
+      "reading": "ほしょうがいしゃ",
+      "meanings": [
+        "guarantor company",
+        "rental guarantor"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "保証してくれる会社",
+      "category": "housing_rental",
+      "context": "Replaces personal guarantor. You pay them ~50% of one month's rent.",
+      "example_sentence": "保証会社を利用して契約した。",
+      "example_reading": "ほしょう がいしゃ を りよう して けいやく した。",
+      "example_meaning": "I signed up using a guarantor company."
+    },
+    {
+      "word": "契約",
+      "reading": "けいやく",
+      "meanings": [
+        "contract",
+        "agreement"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "約束の書類",
+      "category": "bureaucracy_forms",
+      "context": "契約する — to sign a contract. 契約書 — contract document.",
+      "example_sentence": "二年間の契約を結んだ。",
+      "example_reading": "にねんかん の けいやく を むすんだ。",
+      "example_meaning": "I signed a two-year contract."
+    },
+    {
+      "word": "解約",
+      "reading": "かいやく",
+      "meanings": [
+        "cancellation (contract)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "契約をやめる",
+      "category": "bureaucracy_forms",
+      "context": "解約手数料 — cancellation fee. Common: phone, gym, subscriptions.",
+      "example_sentence": "サブスクを解約した。",
+      "example_reading": "サブスク を かいやく した。",
+      "example_meaning": "I canceled the subscription."
+    },
+    {
+      "word": "更新",
+      "reading": "こうしん",
+      "meanings": [
+        "renewal",
+        "update"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "新しくする",
+      "category": "bureaucracy_forms",
+      "context": "契約更新 — contract renewal. アプリの更新 — app update.",
+      "example_sentence": "運転免許を更新した。",
+      "example_reading": "うんてん めんきょ を こうしん した。",
+      "example_meaning": "I renewed my driver's license."
+    },
+    {
+      "word": "提出",
+      "reading": "ていしゅつ",
+      "meanings": [
+        "submission (of documents)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "書類を出す",
+      "category": "bureaucracy_forms",
+      "context": "Also in N3/N4 General. 提出書類 — required documents.",
+      "example_sentence": "書類は明日までに提出してください。",
+      "example_reading": "しょるい は あした まで に ていしゅつ して ください。",
+      "example_meaning": "Please submit the documents by tomorrow."
+    },
+    {
+      "word": "必要書類",
+      "reading": "ひつようしょるい",
+      "meanings": [
+        "required documents"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "必要な書類",
+      "category": "bureaucracy_forms",
+      "context": "What every form lists. Always check before going to 役所.",
+      "example_sentence": "必要書類を一通り揃えた。",
+      "example_reading": "ひつよう しょるい を ひととおり そろえた。",
+      "example_meaning": "I've gathered all the required documents."
+    },
+    {
+      "word": "窓口",
+      "reading": "まどぐち",
+      "meanings": [
+        "service counter",
+        "window",
+        "point of contact"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "受付",
+      "category": "bureaucracy_forms",
+      "context": "銀行の窓口 — bank counter. 相談窓口 — consultation desk. Where humans handle your paperwork.",
+      "example_sentence": "5番窓口でお呼びします。",
+      "example_reading": "ごばん まどぐち で および します。",
+      "example_meaning": "You'll be called at counter 5."
+    },
+    {
+      "word": "受付",
+      "reading": "うけつけ",
+      "meanings": [
+        "reception",
+        "registration counter"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "窓口",
+      "category": "bureaucracy_forms",
+      "context": "First stop at any official setting. 受付時間 — reception hours.",
+      "example_sentence": "まず受付で手続きをしてください。",
+      "example_reading": "まず うけつけ で てつづき を して ください。",
+      "example_meaning": "First please register at reception."
+    },
+    {
+      "word": "順番待ち",
+      "reading": "じゅんばんまち",
+      "meanings": [
+        "waiting in line",
+        "queueing"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "並んで待つ",
+      "category": "bureaucracy_forms",
+      "context": "At hospitals, restaurants, popular shops. Number-ticket system common.",
+      "example_sentence": "30分順番待ちした。",
+      "example_reading": "さんじゅっぷん じゅんばんまち した。",
+      "example_meaning": "I waited 30 minutes in the queue."
+    },
+    {
+      "word": "診察券",
+      "reading": "しんさつけん",
+      "meanings": [
+        "medical patient ID card"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "病院のカード",
+      "category": "personal_care",
+      "context": "Issued by each clinic/hospital. Bring it each visit. Like a medical record number.",
+      "example_sentence": "診察券を受付に出した。",
+      "example_reading": "しんさつけん を うけつけ に だした。",
+      "example_meaning": "I handed in my patient ID at reception."
+    },
+    {
+      "word": "保険証",
+      "reading": "ほけんしょう",
+      "meanings": [
+        "health insurance card"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "健康保険のカード",
+      "category": "personal_care",
+      "context": "Required at every doctor visit. Reduces cost to 30%. Being merged with マイナンバー.",
+      "example_sentence": "保険証を忘れてしまった。",
+      "example_reading": "ほけんしょう を わすれて しまった。",
+      "example_meaning": "I forgot my insurance card."
+    },
+    {
+      "word": "処方箋",
+      "reading": "しょほうせん",
+      "meanings": [
+        "prescription"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "薬の指示書",
+      "category": "personal_care",
+      "context": "Doctor writes 処方箋, you take it to 薬局 (pharmacy). Required for prescription drugs.",
+      "example_sentence": "処方箋を薬局に持っていく。",
+      "example_reading": "しょほうせん を やっきょく に もって いく。",
+      "example_meaning": "I'll take the prescription to the pharmacy."
+    },
+    {
+      "word": "薬局",
+      "reading": "やっきょく",
+      "meanings": [
+        "pharmacy",
+        "drugstore"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "薬を買う店",
+      "category": "personal_care",
+      "context": "Where prescriptions are filled. 調剤薬局 — dispensing pharmacy. ドラッグストア sells OTC.",
+      "example_sentence": "病院の隣の薬局に行った。",
+      "example_reading": "びょういん の となり の やっきょく に いった。",
+      "example_meaning": "I went to the pharmacy next to the hospital."
+    },
+    {
+      "word": "ドラッグストア",
+      "reading": "ドラッグストア",
+      "meanings": [
+        "drugstore",
+        "health & beauty store"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "薬と日用品の店",
+      "category": "shopping",
+      "context": "マツモトキヨシ, ウェルシア, ココカラファイン. Sells everything: OTC meds, snacks, cosmetics, household.",
+      "example_sentence": "ドラッグストアで日用品を買った。",
+      "example_reading": "ドラッグストア で にちようひん を かった。",
+      "example_meaning": "I bought toiletries at the drugstore."
+    },
+    {
+      "word": "確定申告",
+      "reading": "かくていしんこく",
+      "meanings": [
+        "final tax return",
+        "income tax filing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "税金の申告",
+      "category": "bureaucracy_forms",
+      "context": "For self-employed and those with side income. Filed Feb-Mar.",
+      "example_sentence": "フリーランスは毎年確定申告が必要だ。",
+      "example_reading": "フリーランス は まいとし かくてい しんこく が ひつよう だ。",
+      "example_meaning": "Freelancers have to file taxes every year."
+    },
+    {
+      "word": "年末調整",
+      "reading": "ねんまつちょうせい",
+      "meanings": [
+        "year-end tax adjustment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "会社の税金調整",
+      "category": "bureaucracy_forms",
+      "context": "For full-time employees — your company handles year-end tax adjustment. Forms due each November.",
+      "example_sentence": "年末調整の書類を提出した。",
+      "example_reading": "ねんまつ ちょうせい の しょるい を ていしゅつ した。",
+      "example_meaning": "I submitted the year-end tax adjustment forms."
+    },
+    {
+      "word": "健康診断",
+      "reading": "けんこうしんだん",
+      "meanings": [
+        "health checkup",
+        "medical exam"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "健康のチェック",
+      "category": "personal_care",
+      "context": "Annual workplace requirement in Japan. 人間ドック is the more thorough version.",
+      "example_sentence": "毎年健康診断を受けている。",
+      "example_reading": "まいとし けんこう しんだん を うけて いる。",
+      "example_meaning": "I get a health checkup every year."
+    },
+    {
+      "word": "昼寝",
+      "reading": "ひるね",
+      "meanings": [
+        "nap",
+        "afternoon sleep"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "昼の昼間の眠り",
+      "category": "daily_routine",
+      "context": "昼寝をする — to take a nap. Acceptable on weekends, frowned-upon at work (officially).",
+      "example_sentence": "少し昼寝をして元気が出た。",
+      "example_reading": "すこし ひるね を して げんき が でた。",
+      "example_meaning": "A short nap perked me up."
+    },
+    {
+      "word": "買い出し",
+      "reading": "かいだし",
+      "meanings": [
+        "grocery run",
+        "stocking up shopping"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "まとめ買い",
+      "category": "shopping",
+      "context": "Bulk shopping trip, not casual shopping. Weekly 買い出し is common.",
+      "example_sentence": "週末に買い出しに行く。",
+      "example_reading": "しゅうまつ に かいだし に いく。",
+      "example_meaning": "I go grocery shopping on weekends."
+    },
+    {
+      "word": "献立",
+      "reading": "こんだて",
+      "meanings": [
+        "menu (planned meals)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "食事の計画",
+      "category": "kitchen_cooking",
+      "context": "今日の献立 — today's dinner plan. School lunch monthly menus call themselves 献立表.",
+      "example_sentence": "献立を考えるのが大変だ。",
+      "example_reading": "こんだて を かんがえる の が たいへん だ。",
+      "example_meaning": "Planning meals is hard work."
+    },
+    {
+      "word": "作り置き",
+      "reading": "つくりおき",
+      "meanings": [
+        "meal prep",
+        "cooking ahead",
+        "made-ahead food"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前もって料理",
+      "category": "kitchen_cooking",
+      "context": "Weekend ritual — make several dishes for the week. Lifestyle-blog favorite.",
+      "example_sentence": "週末に作り置きをしている。",
+      "example_reading": "しゅうまつ に つくりおき を して いる。",
+      "example_meaning": "I do meal prep on weekends."
+    },
+    {
+      "word": "宅配",
+      "reading": "たくはい",
+      "meanings": [
+        "home delivery"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "配達",
+      "category": "mail_delivery",
+      "context": "More general than 宅配便. Now refers to food delivery: Uber Eats, 出前館 etc.",
+      "example_sentence": "宅配で夕食を頼んだ。",
+      "example_reading": "たくはい で ゆうしょく を たのんだ。",
+      "example_meaning": "I ordered dinner for delivery."
+    },
+    {
+      "word": "出前",
+      "reading": "でまえ",
+      "meanings": [
+        "food delivery (traditional)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "宅配",
+      "category": "mail_delivery",
+      "context": "Old word — ramen/sushi shops have always done 出前. Modern 宅配 covers more.",
+      "example_sentence": "ラーメンを出前で取った。",
+      "example_reading": "ラーメン を でまえ で とった。",
+      "example_meaning": "I ordered ramen for delivery."
+    },
+    {
+      "word": "テイクアウト",
+      "reading": "テイクアウト",
+      "meanings": [
+        "takeout",
+        "to-go"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "持ち帰り",
+      "category": "shopping",
+      "context": "持ち帰り is the kanji equivalent. テイクアウト boomed during 2020.",
+      "example_sentence": "昼食はテイクアウトにした。",
+      "example_reading": "ちゅうしょく は テイクアウト に した。",
+      "example_meaning": "I got takeout for lunch."
+    }
+  ]
+}
