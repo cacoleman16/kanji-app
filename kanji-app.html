@@ -5977,18 +5977,40 @@ function shuffleArray(arr) {
   }
 }
 
-function buildQueue(deckCards, progress, { newPerDay, now, includeAll = false }) {
+function buildQueue(deck, progress, settings, { newPerDay, now, includeAll = false }) {
   const review = [];
   const fresh = [];
   const notDue = [];
-  for (const c of deckCards) {
-    const p = progress[c.kanji];
+  for (const c of deck.cards) {
+    const p = lookupProgress(progress, c, deck, settings);
     if (!p) fresh.push(c);
     else if (p.due <= now) review.push(c);
     else notDue.push(c);
   }
   if (includeAll) return [...review, ...notDue, ...fresh];
   return [...review, ...fresh.slice(0, newPerDay)];
+}
+
+// Vocab cards track separate SRS progress per direction (Japanese→English vs
+// English→Japanese), since each direction is its own learning task. Kanji decks
+// use the plain kanji string as the progress key. Reading falls back to the
+// legacy plain key if no direction-specific entry exists yet, so progress made
+// before this split carries over into both directions until the user rates a
+// card in one direction (after which the two diverge cleanly).
+function progressKey(card, deck, settings) {
+  if (deck && deck.kind === "vocab") {
+    const dir = (settings && settings.vocabDirection) || "ja-en";
+    return `${card.kanji}|${dir}`;
+  }
+  return card.kanji;
+}
+
+function lookupProgress(progress, card, deck, settings) {
+  if (deck && deck.kind === "vocab") {
+    const dir = (settings && settings.vocabDirection) || "ja-en";
+    return progress[`${card.kanji}|${dir}`] || progress[card.kanji];
+  }
+  return progress[card.kanji];
 }
 
 // Pool due cards across every kanji deck, optionally filtered by JLPT level.
@@ -6032,6 +6054,49 @@ function dueCountsByJlpt(progress, { now = Date.now() } = {}) {
   return counts;
 }
 
+// Cross-deck review pool for vocab — direction-aware. Counts and queues are
+// computed against the active vocabDirection so the "Review Due" tile reflects
+// the side the learner is currently studying.
+function buildMixedVocabDeck(progress, jlptFilter, settings, { now = Date.now() } = {}) {
+  const dir = (settings && settings.vocabDirection) || "ja-en";
+  const seen = new Set();
+  const cards = [];
+  for (const d of DECKS) {
+    if (!d.available || d.kind !== "vocab") continue;
+    for (const c of d.cards) {
+      const key = `${c.kanji}|${dir}`;
+      if (seen.has(key)) continue;
+      const p = progress[key] || progress[c.kanji];
+      if (!p || p.due > now) continue;
+      if (jlptFilter && jlptFilter !== "all" && c.jlpt !== jlptFilter) continue;
+      seen.add(key);
+      cards.push(c);
+    }
+  }
+  const dirLabel = dir === "en-ja" ? "EN → JP" : "JP → EN";
+  return { id: "__mixed_vocab__", name: `Mixed Vocab Review (${dirLabel})`, subtitle: `${cards.length} due`, kind: "vocab", available: true, cards };
+}
+
+function dueVocabCountsByJlpt(progress, settings, { now = Date.now() } = {}) {
+  const dir = (settings && settings.vocabDirection) || "ja-en";
+  const seen = new Set();
+  const counts = { all: 0, N5: 0, N4: 0, N3: 0, N2: 0, N1: 0, none: 0 };
+  for (const d of DECKS) {
+    if (!d.available || d.kind !== "vocab") continue;
+    for (const c of d.cards) {
+      const key = `${c.kanji}|${dir}`;
+      if (seen.has(key)) continue;
+      const p = progress[key] || progress[c.kanji];
+      if (!p || p.due > now) continue;
+      seen.add(key);
+      counts.all++;
+      const lvl = c.jlpt && counts[c.jlpt] !== undefined ? c.jlpt : "none";
+      counts[lvl]++;
+    }
+  }
+  return counts;
+}
+
 // ============================================================
 // Local storage (versioned + migrations)
 // ============================================================
@@ -6041,7 +6106,7 @@ function dueCountsByJlpt(progress, { now = Date.now() } = {}) {
 // exports still work.
 const STORAGE_KEY = "kanji-app";
 const LEGACY_V1_KEY = "kanji-app-v1";
-const SCHEMA_VERSION = 2;
+const SCHEMA_VERSION = 3;
 
 const DEFAULT_STATE = {
   schemaVersion: SCHEMA_VERSION,
@@ -6053,8 +6118,14 @@ const DEFAULT_STATE = {
 
 // Map of from-version → function(oldState) → newState.
 // v1 → v2: add `schemaVersion` field (shape otherwise identical).
+// v2 → v3: vocab progress is now stored under direction-specific keys
+//          (`${kanji}|ja-en` / `${kanji}|en-ja`). Pre-v3 progress entries
+//          stay under the plain kanji key and are still read via the
+//          legacy fallback in lookupProgress, so no in-place rewrite is
+//          needed — the bump just records that this build is direction-aware.
 const MIGRATIONS = {
   1: (s) => ({ ...s, schemaVersion: 2 }),
+  2: (s) => ({ ...s, schemaVersion: 3 }),
 };
 
 function migrate(state) {
@@ -6191,6 +6262,18 @@ function App() {
       screen = <Study deck={mixed} state={state} setState={setState} onDone={() => go({name:"home"})} />;
       break;
     }
+    case "mixedVocabReview":
+      screen = <MixedVocabReview
+        state={state}
+        onBack={() => go({name:"home"})}
+        onStart={(jlpt) => go({name:"mixedVocabStudy", jlpt})}
+      />;
+      break;
+    case "mixedVocabStudy": {
+      const mixed = buildMixedVocabDeck(state.progress, route.jlpt, state.settings);
+      screen = <Study deck={mixed} state={state} setState={setState} onDone={() => go({name:"home"})} />;
+      break;
+    }
     case "stats":
       screen = <Stats state={state} onBack={() => go({name:"home"})} />;
       break;
@@ -6229,6 +6312,7 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
   const [activeTab, setActiveTab] = React.useState("kanji");
 
   const mixedDueCounts = useMemo(() => dueCountsByJlpt(state.progress), [state.progress]);
+  const vocabDueCounts = useMemo(() => dueVocabCountsByJlpt(state.progress, state.settings), [state.progress, state.settings]);
 
   const dueByDeck = useMemo(() => {
     const now = Date.now();
@@ -6237,14 +6321,14 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
       if (!d.available) { result[d.id] = { due: 0, newCount: 0, total: d.cards.length }; continue; }
       let due = 0, newCount = 0;
       for (const c of d.cards) {
-        const p = state.progress[c.kanji];
+        const p = lookupProgress(state.progress, c, d, state.settings);
         if (!p) newCount++;
         else if (p.due <= now) due++;
       }
       result[d.id] = { due, newCount, total: d.cards.length };
     }
     return result;
-  }, [state.progress]);
+  }, [state.progress, state.settings]);
 
   // Build ordered list of tiles: each is { kind: "group" | "deck", ... }. Groups
   // replace their member decks and take the position of their first member.
@@ -6385,6 +6469,26 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
 
       {activeTab === "vocab" && vocabTiles.length > 0 && (
         <>
+          {vocabDueCounts.all > 0 && (
+            <button className="deck-card" onClick={() => onNav({name:"mixedVocabReview"})} style={{borderColor:"var(--accent)"}}>
+              <div>
+                <div className="deck-name">Review Due — All Vocab Decks</div>
+                <div className="deck-sub">
+                  {(state.settings.vocabDirection || "ja-en") === "en-ja" ? "EN → JP" : "JP → EN"}
+                  {" · "}
+                  {(["N5","N4","N3","N2","N1"]
+                    .filter(l => vocabDueCounts[l] > 0)
+                    .map(l => `${l} ${vocabDueCounts[l]}`)
+                    .join(" · ")) || "Mixed"}
+                </div>
+              </div>
+              <div className="deck-meta-right">
+                <div className="deck-due">
+                  <span>{vocabDueCounts.all} due</span>
+                </div>
+              </div>
+            </button>
+          )}
           <div className="section-label">Vocabulary</div>
           <div className="deck-list">
             {vocabTiles.map(renderTile)}
@@ -6416,7 +6520,7 @@ function GroupDetail({ group, state, onBack, onOpenDeck }) {
     for (const d of members) {
       let due = 0, newCount = 0, learned = 0;
       for (const c of d.cards) {
-        const p = state.progress[c.kanji];
+        const p = lookupProgress(state.progress, c, d, state.settings);
         if (!p) newCount++;
         else {
           learned++;
@@ -6426,7 +6530,7 @@ function GroupDetail({ group, state, onBack, onOpenDeck }) {
       result[d.id] = { due, newCount, learned, total: d.cards.length };
     }
     return result;
-  }, [members, state.progress]);
+  }, [members, state.progress, state.settings]);
 
   const totals = members.reduce((acc, d) => {
     const i = perDeck[d.id];
@@ -6506,6 +6610,74 @@ function GroupDetail({ group, state, onBack, onOpenDeck }) {
   );
 }
 
+// Cross-deck "Review Due" entry screen for vocab — picks a JLPT slice across
+// all vocab decks (in the active direction) and starts a Study session over
+// those due cards. JA→EN and EN→JP have independent SRS progress, so the
+// counts and queue are direction-specific.
+function MixedVocabReview({ state, onBack, onStart }) {
+  const [jlpt, setJlpt] = useState("all");
+  const counts = useMemo(() => dueVocabCountsByJlpt(state.progress, state.settings), [state.progress, state.settings]);
+  const selectedCount = jlpt === "all" ? counts.all : (counts[jlpt] || 0);
+  const levels = ["all", "N5", "N4", "N3", "N2", "N1"];
+  const dirLabel = (state.settings.vocabDirection || "ja-en") === "en-ja" ? "EN → JP" : "JP → EN";
+
+  return (
+    <div className="fade-in">
+      <div className="topbar">
+        <button className="icon-btn" onClick={onBack} aria-label="Back">←</button>
+        <div className="topbar-title">Review Due Vocab</div>
+        <div style={{width: 40}}/>
+      </div>
+
+      <div className="deck-detail-header">
+        <div className="deck-detail-title">Mixed vocab review</div>
+        <div className="deck-detail-sub">Due cards across all vocab decks · {dirLabel}</div>
+      </div>
+
+      <div className="deck-stats-grid">
+        <div className="mini-stat">
+          <div className="mini-stat-lbl">Total due</div>
+          <div className="mini-stat-val" style={{color: counts.all > 0 ? "var(--again)" : "var(--text)"}}>{counts.all}</div>
+        </div>
+        <div className="mini-stat">
+          <div className="mini-stat-lbl">In selection</div>
+          <div className="mini-stat-val">{selectedCount}</div>
+        </div>
+      </div>
+
+      <div className="section-label">Filter by JLPT level</div>
+      <div className="filter-row">
+        {levels.map(lvl => {
+          const c = lvl === "all" ? counts.all : (counts[lvl] || 0);
+          const disabled = c === 0 && lvl !== "all";
+          return (
+            <button
+              key={lvl}
+              className={`filter-chip ${jlpt === lvl ? "active" : ""}`}
+              onClick={() => !disabled && setJlpt(lvl)}
+              disabled={disabled}
+              style={disabled ? {opacity:0.4, cursor:"not-allowed"} : undefined}
+            >
+              {lvl === "all" ? "All" : lvl} <span style={{opacity:0.7}}>· {c}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      <button
+        className="study-cta"
+        onClick={() => onStart(jlpt)}
+        disabled={selectedCount === 0}
+        style={selectedCount === 0 ? {opacity:0.5, cursor:"not-allowed"} : undefined}
+      >
+        {selectedCount > 0
+          ? `Start review (${selectedCount} card${selectedCount === 1 ? "" : "s"})`
+          : "Nothing due"}
+      </button>
+    </div>
+  );
+}
+
 // Cross-deck "Review Due" entry screen — picks a JLPT slice across all kanji
 // decks and starts a single Study session over those due cards.
 function MixedReview({ state, onBack, onStart }) {
@@ -6572,7 +6744,7 @@ function MixedReview({ state, onBack, onStart }) {
 }
 
 function Study({ deck, state, setState, onDone, includeAll = false }) {
-  const [queue, setQueue] = useState(() => buildQueue(deck.cards, state.progress, { newPerDay: state.settings.newPerDay, now: Date.now(), includeAll }));
+  const [queue, setQueue] = useState(() => buildQueue(deck, state.progress, state.settings, { newPerDay: state.settings.newPerDay, now: Date.now(), includeAll }));
   const [idx, setIdx] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [sessionStats, setSessionStats] = useState({ reviewed: 0, again: 0, hard: 0, good: 0, easy: 0, skipped: 0 });
@@ -6586,15 +6758,17 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
 
   const rate = useCallback((rating) => {
     if (!current) return;
-    const prev = state.progress[current.kanji];
+    const key = progressKey(current, deck, state.settings);
+    const prev = lookupProgress(state.progress, current, deck, state.settings);
     const next = sm2(prev, rating);
     const today = todayStr();
 
     // Snapshot for undo — capture the exact prior state of everything this action will touch
     const snapshot = {
-      kanji: current.kanji,
+      progressKey: key,
       rating,
-      prevProgressForKanji: prev,   // may be undefined if this was a brand-new card
+      prevProgress: prev,           // may be undefined if this was a brand-new card
+      hadOwnEntry: Object.prototype.hasOwnProperty.call(state.progress, key),
       prevQueue: queue,
       prevIdx: idx,
       prevSessionStats: sessionStats,
@@ -6609,7 +6783,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
       byDay[today] = { ...d, reviewed: d.reviewed + 1, [rating]: (d[rating]||0) + 1 };
       return {
         ...s,
-        progress: { ...s.progress, [current.kanji]: next },
+        progress: { ...s.progress, [key]: next },
         stats: { ...s.stats, byDay },
         streak: updateStreak(s.streak, today),
       };
@@ -6634,11 +6808,14 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
     setUndoStack(stk => {
       if (stk.length === 0) return stk;
       const last = stk[stk.length - 1];
-      // Restore progress (delete the key if it was new before, else put back prior value)
+      // Restore progress: if the rated card had no own entry under its new
+      // direction-specific key before rating (only the legacy plain-key
+      // fallback, or nothing at all), delete the key we just wrote. Otherwise
+      // put back the prior value that lived under that exact key.
       setState(s => {
         const newProgress = { ...s.progress };
-        if (last.prevProgressForKanji === undefined) delete newProgress[last.kanji];
-        else newProgress[last.kanji] = last.prevProgressForKanji;
+        if (!last.hadOwnEntry) delete newProgress[last.progressKey];
+        else newProgress[last.progressKey] = last.prevProgress;
         return { ...s, progress: newProgress, stats: last.prevStats, streak: last.prevStreak };
       });
       setSessionStats(last.prevSessionStats);
@@ -6739,7 +6916,7 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
   }
 
   const progressPct = total === 0 ? 0 : Math.round((idx / total) * 100);
-  const intervals = previewIntervals(state.progress[current.kanji]);
+  const intervals = previewIntervals(lookupProgress(state.progress, current, deck, state.settings));
 
   return (
     <div className="fade-in">
@@ -6941,7 +7118,7 @@ function DeckDetail({ deck, state, onBack, onStudy }) {
   const now = Date.now();
   let learned = 0, due = 0, newCount = 0, mastered = 0;
   for (const c of deck.cards) {
-    const p = state.progress[c.kanji];
+    const p = lookupProgress(state.progress, c, deck, state.settings);
     if (!p) newCount++;
     else {
       learned++;
@@ -6954,7 +7131,7 @@ function DeckDetail({ deck, state, onBack, onStudy }) {
   const allCaughtUp = due === 0 && newCount === 0;
 
   const statusFor = (c) => {
-    const p = state.progress[c.kanji];
+    const p = lookupProgress(state.progress, c, deck, state.settings);
     if (!p) return "new";
     if (p.interval >= 21 && p.reps >= 3) return "mastered";
     if (p.due <= now) return "due";
