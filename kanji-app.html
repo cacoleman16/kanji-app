@@ -6790,11 +6790,16 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
     });
     setSessionStats(ss => ({ ...ss, reviewed: ss.reviewed+1, [rating]: ss[rating]+1 }));
 
-    // Again → re-queue this card a few positions later in the session
+    // Again → re-queue this card later in the session. The gap scales with
+    // the remaining queue: at least 8 cards back (so the prompt isn't fresh in
+    // memory), and roughly 20% of what's left for larger sessions — capped so
+    // the card always reappears before the session ends.
     if (rating === "again") {
       setQueue(q => {
         const rest = q.slice(idx + 1);
-        const insertAt = Math.min(rest.length, 3);
+        const minGap = 8;
+        const scaledGap = Math.floor(rest.length * 0.2);
+        const insertAt = Math.min(rest.length, Math.max(minGap, scaledGap));
         const newRest = [...rest.slice(0, insertAt), current, ...rest.slice(insertAt)];
         return [...q.slice(0, idx + 1), ...newRest];
       });
