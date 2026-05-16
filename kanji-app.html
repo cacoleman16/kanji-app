@@ -791,6 +791,21 @@
     border-radius: 8px;
   }
   .peek-close:hover { color: var(--text); }
+  .peek-star {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    background: none;
+    border: none;
+    color: var(--text-muted);
+    font-size: 22px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 8px;
+    transition: color 150ms, background 150ms;
+  }
+  .peek-star:hover { color: var(--accent); }
+  .peek-star.active { color: var(--accent); }
   .peek-nav {
     display: flex;
     align-items: center;
@@ -6098,6 +6113,61 @@ function dueVocabCountsByJlpt(progress, settings, { now = Date.now() } = {}) {
 }
 
 // ============================================================
+// Favorites
+// ============================================================
+// state.favorites is { kanji: [card.kanji, ...], vocab: [card.kanji, ...] }.
+// We split by kind so the synthetic Favorites deck can be rendered with the
+// correct card schema (kanji decks expose on_yomi/etymology, vocab decks
+// expose reading/example_sentence).
+
+function isFavorite(favorites, card, deck) {
+  if (!favorites || !deck) return false;
+  const list = favorites[deck.kind];
+  return Array.isArray(list) && list.includes(card.kanji);
+}
+
+function toggleFavorite(state, card, deck) {
+  const kind = deck.kind;
+  const list = (state.favorites && state.favorites[kind]) || [];
+  const has = list.includes(card.kanji);
+  const next = has ? list.filter(k => k !== card.kanji) : [...list, card.kanji];
+  return {
+    ...state,
+    favorites: {
+      ...(state.favorites || { kanji: [], vocab: [] }),
+      [kind]: next,
+    },
+  };
+}
+
+// Build a synthetic Favorites deck for a given kind. Looks up each favorited
+// kanji in DECKS and uses the first matching card (so we get full card data
+// including readings, examples, etc.). Cards no longer present in any deck
+// are silently dropped.
+function buildFavoriteDeck(favorites, kind) {
+  const list = (favorites && favorites[kind]) || [];
+  const cards = [];
+  const seen = new Set();
+  for (const k of list) {
+    if (seen.has(k)) continue;
+    for (const d of DECKS) {
+      if (!d.available || d.kind !== kind) continue;
+      const found = d.cards.find(c => c.kanji === k);
+      if (found) { cards.push(found); seen.add(k); break; }
+    }
+  }
+  const kindLabel = kind === "vocab" ? "Vocab" : "Kanji";
+  return {
+    id: kind === "vocab" ? "__favorites_vocab__" : "__favorites_kanji__",
+    name: `Favorites — ${kindLabel}`,
+    subtitle: `${cards.length} starred`,
+    kind,
+    cards,
+    available: true,
+  };
+}
+
+// ============================================================
 // Local storage (versioned + migrations)
 // ============================================================
 // When you change the shape of persisted state, bump SCHEMA_VERSION and add a
@@ -6106,7 +6176,7 @@ function dueVocabCountsByJlpt(progress, settings, { now = Date.now() } = {}) {
 // exports still work.
 const STORAGE_KEY = "kanji-app";
 const LEGACY_V1_KEY = "kanji-app-v1";
-const SCHEMA_VERSION = 3;
+const SCHEMA_VERSION = 4;
 
 const DEFAULT_STATE = {
   schemaVersion: SCHEMA_VERSION,
@@ -6114,6 +6184,7 @@ const DEFAULT_STATE = {
   stats:    { byDay: {} }, // { "YYYY-MM-DD": { reviewed, again, hard, good, easy } }
   settings: { dailyGoal: 30, newPerDay: 10, cardBackFontSize: "medium", theme: "dark", vocabDirection: "ja-en", vocabFurigana: "show" },
   streak:   { current: 0, longest: 0, lastActiveDay: null },
+  favorites:{ kanji: [], vocab: [] },  // arrays of card.kanji strings, split by deck kind so the synthetic Favorites deck can render each correctly
 };
 
 // Map of from-version → function(oldState) → newState.
@@ -6123,9 +6194,11 @@ const DEFAULT_STATE = {
 //          stay under the plain kanji key and are still read via the
 //          legacy fallback in lookupProgress, so no in-place rewrite is
 //          needed — the bump just records that this build is direction-aware.
+// v3 → v4: add `favorites` field for the star/favorite feature.
 const MIGRATIONS = {
   1: (s) => ({ ...s, schemaVersion: 2 }),
   2: (s) => ({ ...s, schemaVersion: 3 }),
+  3: (s) => ({ ...s, schemaVersion: 4, favorites: s.favorites || { kanji: [], vocab: [] } }),
 };
 
 function migrate(state) {
@@ -6145,9 +6218,13 @@ function hydrate(parsed) {
   return {
     ...structuredClone(DEFAULT_STATE),
     ...parsed,
-    settings: { ...DEFAULT_STATE.settings, ...(parsed.settings || {}) },
-    streak:   { ...DEFAULT_STATE.streak,   ...(parsed.streak || {}) },
-    stats:    { ...DEFAULT_STATE.stats,    ...(parsed.stats || {}) },
+    settings:  { ...DEFAULT_STATE.settings, ...(parsed.settings || {}) },
+    streak:    { ...DEFAULT_STATE.streak,   ...(parsed.streak || {}) },
+    stats:     { ...DEFAULT_STATE.stats,    ...(parsed.stats || {}) },
+    favorites: {
+      kanji: Array.isArray(parsed.favorites?.kanji) ? parsed.favorites.kanji : [],
+      vocab: Array.isArray(parsed.favorites?.vocab) ? parsed.favorites.vocab : [],
+    },
   };
 }
 
@@ -6274,6 +6351,13 @@ function App() {
       screen = <Study deck={mixed} state={state} setState={setState} onDone={() => go({name:"home"})} />;
       break;
     }
+    case "favoritesStudy": {
+      // Favorites mode reviews every starred card regardless of SRS due date,
+      // since "I want to look at this" is independent of "this is due."
+      const favDeck = buildFavoriteDeck(state.favorites, route.kind);
+      screen = <Study deck={favDeck} state={state} setState={setState} onDone={() => go({name:"home"})} includeAll={true} />;
+      break;
+    }
     case "stats":
       screen = <Stats state={state} onBack={() => go({name:"home"})} />;
       break;
@@ -6313,6 +6397,10 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
 
   const mixedDueCounts = useMemo(() => dueCountsByJlpt(state.progress), [state.progress]);
   const vocabDueCounts = useMemo(() => dueVocabCountsByJlpt(state.progress, state.settings), [state.progress, state.settings]);
+  const favoriteCounts = useMemo(() => ({
+    kanji: (state.favorites?.kanji || []).length,
+    vocab: (state.favorites?.vocab || []).length,
+  }), [state.favorites]);
 
   const dueByDeck = useMemo(() => {
     const now = Date.now();
@@ -6460,6 +6548,19 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
               </div>
             </button>
           )}
+          {favoriteCounts.kanji > 0 && (
+            <button className="deck-card" onClick={() => onNav({name:"favoritesStudy", kind:"kanji"})} style={{borderColor:"var(--accent)"}}>
+              <div>
+                <div className="deck-name">★ Favorites — Kanji</div>
+                <div className="deck-sub">Starred cards across all kanji decks</div>
+              </div>
+              <div className="deck-meta-right">
+                <div className="deck-due">
+                  <span>{favoriteCounts.kanji} starred</span>
+                </div>
+              </div>
+            </button>
+          )}
           <div className="section-label">Kanji decks</div>
           <div className="deck-list">
             {kanjiTiles.map(renderTile)}
@@ -6485,6 +6586,19 @@ function Home({ state, onOpenDeck, onOpenGroup, onNav }) {
               <div className="deck-meta-right">
                 <div className="deck-due">
                   <span>{vocabDueCounts.all} due</span>
+                </div>
+              </div>
+            </button>
+          )}
+          {favoriteCounts.vocab > 0 && (
+            <button className="deck-card" onClick={() => onNav({name:"favoritesStudy", kind:"vocab"})} style={{borderColor:"var(--accent)"}}>
+              <div>
+                <div className="deck-name">★ Favorites — Vocab</div>
+                <div className="deck-sub">Starred cards across all vocab decks</div>
+              </div>
+              <div className="deck-meta-right">
+                <div className="deck-due">
+                  <span>{favoriteCounts.vocab} starred</span>
                 </div>
               </div>
             </button>
@@ -6924,6 +7038,16 @@ function Study({ deck, state, setState, onDone, includeAll = false }) {
         <button className="icon-btn" onClick={onDone} aria-label="Back">←</button>
         <div className="study-progress-text">{idx + 1} / {total}</div>
         <div className="topbar-actions">
+          {current && (
+            <button
+              className={`undo-btn${isFavorite(state.favorites, current, deck) ? " active" : ""}`}
+              onClick={() => setState(s => toggleFavorite(s, current, deck))}
+              aria-label={isFavorite(state.favorites, current, deck) ? "Remove from favorites" : "Add to favorites"}
+              title={isFavorite(state.favorites, current, deck) ? "Starred — click to remove" : "Star this card"}
+            >
+              {isFavorite(state.favorites, current, deck) ? "★" : "☆"}
+            </button>
+          )}
           {deck.kind === "vocab" && (
             <button
               className="undo-btn"
@@ -7207,6 +7331,14 @@ function DeckDetail({ deck, state, onBack, onStudy }) {
         <div className="peek-backdrop" onClick={() => setPeekIdx(null)}>
           <div className="peek-card" onClick={e => e.stopPropagation()}>
             <button className="peek-close" onClick={() => setPeekIdx(null)} aria-label="Close">✕</button>
+            <button
+              className={`peek-star${isFavorite(state.favorites, peek, deck) ? " active" : ""}`}
+              onClick={() => setState(s => toggleFavorite(s, peek, deck))}
+              aria-label={isFavorite(state.favorites, peek, deck) ? "Remove from favorites" : "Add to favorites"}
+              title={isFavorite(state.favorites, peek, deck) ? "Starred — click to remove" : "Star this card"}
+            >
+              {isFavorite(state.favorites, peek, deck) ? "★" : "☆"}
+            </button>
             <div className="peek-kanji" style={vocabWordSize(peek.kanji, "peek")}>{peek.kanji}</div>
             <div className="meaning">
               {peek.meanings[0]}
