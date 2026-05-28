@@ -1,0 +1,609 @@
+{
+  "deck_id": "risa-class-vocab",
+  "deck_name": "Class Vocab — Risa-san",
+  "version": "1.0",
+  "source": "Vocabulary from Japanese class with Risa-san, plus related words and the 〜込む / 〜切る compound-verb patterns.",
+  "learner_level": "N3",
+  "notes": "A personal class-vocabulary deck collecting words that came up in lessons with Risa-san, grouped with a few related words and two productive compound-verb patterns: 〜込む (do deeply / into) and 〜切る (do completely / to the end). Mix of N3-N1. Several of the items hinge on distinctions that trip learners up — 濃い/薄い/厚い, the こい homophones (濃い・恋しい), and the two-sided 薄い (opposite of both 濃い and 厚い).",
+  "card_count": 32,
+  "categories": [
+    "adjectives",
+    "nouns",
+    "grammar_komu",
+    "grammar_kiru",
+    "related"
+  ],
+  "cards": [
+    {
+      "word": "濃い",
+      "reading": "こい",
+      "meanings": [
+        "thick (liquid/flavor)",
+        "dark (color)",
+        "strong",
+        "dense"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "濃厚",
+      "category": "adjectives",
+      "context": "For density / intensity: 濃いコーヒー (strong coffee), 濃い味 (rich flavor), 色が濃い (dark color), 濃い関係 (close relationship). Opposite is 薄い. Same こい reading as 恋しい — a fun class link.",
+      "example_sentence": "このコーヒーは濃すぎる。",
+      "example_reading": "この コーヒー は こ すぎる。",
+      "example_meaning": "This coffee is too strong."
+    },
+    {
+      "word": "薄い",
+      "reading": "うすい",
+      "meanings": [
+        "thin",
+        "weak (flavor)",
+        "light/pale (color)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "薄め",
+      "category": "adjectives",
+      "context": "Does DOUBLE duty: opposite of 濃い (density — 薄い味 = bland, 薄い色 = pale) AND opposite of 厚い (thickness — 薄い本 = thin book). Context tells you which sense.",
+      "example_sentence": "味が薄いので塩を足した。",
+      "example_reading": "あじ が うすい ので しお を たした。",
+      "example_meaning": "The flavor was weak so I added salt."
+    },
+    {
+      "word": "厚い",
+      "reading": "あつい",
+      "meanings": [
+        "thick (flat objects)",
+        "heavy (book)",
+        "kind-hearted"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "分厚い",
+      "category": "adjectives",
+      "context": "This is the あつい for THICKNESS/SIZE — 厚い本 (thick book), 厚いステーキ. Distinguish from 暑い (hot weather) and 熱い (hot to touch). Opposite is 薄い. Also figurative: 人情に厚い (warm-hearted).",
+      "example_sentence": "厚いステーキを焼いた。",
+      "example_reading": "あつい ステーキ を やいた。",
+      "example_meaning": "I grilled a thick steak."
+    },
+    {
+      "word": "恋しい",
+      "reading": "こいしい",
+      "meanings": [
+        "longed for",
+        "dearly missed",
+        "yearned for"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "懐かしい",
+      "category": "adjectives",
+      "context": "From 恋 (こい, romantic longing). Used for missing people, places, or things: 故郷が恋しい (homesick), 家族が恋しい. Same こい reading as 濃い — easy to mix up by ear.",
+      "example_sentence": "留学中、日本食が恋しくなった。",
+      "example_reading": "りゅうがく ちゅう、 にほんしょく が こいしく なった。",
+      "example_meaning": "While studying abroad, I came to miss Japanese food."
+    },
+    {
+      "word": "濃厚",
+      "reading": "のうこう",
+      "meanings": [
+        "rich",
+        "thick",
+        "dense (na-adj)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "濃い",
+      "category": "related",
+      "context": "The na-adjective sibling of 濃い. 濃厚なスープ (rich soup), 濃厚な味 (intense flavor). Also figurative: 濃厚な接触 (close contact).",
+      "example_sentence": "濃厚なチーズケーキが好きだ。",
+      "example_reading": "のうこう な チーズケーキ が すき だ。",
+      "example_meaning": "I love rich cheesecake."
+    },
+    {
+      "word": "分厚い",
+      "reading": "ぶあつい",
+      "meanings": [
+        "very thick",
+        "bulky",
+        "hefty"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "厚い",
+      "category": "related",
+      "context": "Intensified 厚い. 分厚い辞書 (a hefty dictionary), 分厚いステーキ. The 分 prefix adds 'really, substantially.'",
+      "example_sentence": "分厚い辞書を持ち歩くのは大変だ。",
+      "example_reading": "ぶあつい じしょ を もちあるく の は たいへん だ。",
+      "example_meaning": "Carrying a hefty dictionary around is a pain."
+    },
+    {
+      "word": "距離",
+      "reading": "きょり",
+      "meanings": [
+        "distance",
+        "range",
+        "interval"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "間隔",
+      "category": "nouns",
+      "context": "Both physical and emotional. 距離を置く (keep one's distance), 長距離 (long distance), 通勤距離 (commute distance). 距離 between two people isn't always measured in kilometers.",
+      "example_sentence": "駅まではかなりの距離がある。",
+      "example_reading": "えき まで は かなり の きょり が ある。",
+      "example_meaning": "It's quite a distance to the station."
+    },
+    {
+      "word": "距離感",
+      "reading": "きょりかん",
+      "meanings": [
+        "sense of distance",
+        "feeling of closeness/remoteness"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "間合い",
+      "category": "related",
+      "context": "距離 + 感 (feeling). Used for both spatial judgment (距離感をつかむ — judge the distance) and interpersonal closeness (適度な距離感 — a comfortable distance).",
+      "example_sentence": "二人の距離感がちょうどいい。",
+      "example_reading": "ふたり の きょりかん が ちょうど いい。",
+      "example_meaning": "The closeness between the two of them is just right."
+    },
+    {
+      "word": "鹿",
+      "reading": "しか",
+      "meanings": [
+        "deer"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ディア",
+      "category": "nouns",
+      "context": "The kanji 鹿 splits cleanly with no-nonsense cuts: the 广-like top is the deer's head and antlers, 比 at the bottom is the legs. Famous in 奈良公園の鹿 (Nara's bowing deer) and 鹿児島 (Kagoshima). 鹿肉 — venison.",
+      "example_sentence": "奈良では鹿が自由に歩いている。",
+      "example_reading": "なら で は しか が じゆう に あるいて いる。",
+      "example_meaning": "In Nara, deer wander around freely."
+    },
+    {
+      "word": "小説",
+      "reading": "しょうせつ",
+      "meanings": [
+        "novel",
+        "fiction"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "フィクション",
+      "category": "nouns",
+      "context": "推理小説 (mystery novel), 恋愛小説 (romance novel), 長編小説 (full-length novel). 小説を読む — read a novel.",
+      "example_sentence": "電車の中で小説を読むのが好きだ。",
+      "example_reading": "でんしゃ の なか で しょうせつ を よむ の が すき だ。",
+      "example_meaning": "I like reading novels on the train."
+    },
+    {
+      "word": "小説家",
+      "reading": "しょうせつか",
+      "meanings": [
+        "novelist"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "作家",
+      "category": "nouns",
+      "context": "小説 + 家 (the 〜家 suffix = practitioner/expert: 音楽家, 画家, 専門家). 小説家 is specifically a novelist; 作家 covers writers more broadly.",
+      "example_sentence": "彼女は有名な小説家になった。",
+      "example_reading": "かのじょ は ゆうめい な しょうせつか に なった。",
+      "example_meaning": "She became a famous novelist."
+    },
+    {
+      "word": "逸話",
+      "reading": "いつわ",
+      "meanings": [
+        "anecdote",
+        "episode",
+        "story (about a person)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "エピソード",
+      "category": "nouns",
+      "context": "逸 (deviate/excel) + 話 (story) — a notable little story, often about a famous person. 有名な逸話 — a well-known anecdote. The katakana エピソード is the everyday equivalent.",
+      "example_sentence": "その作家には面白い逸話が多い。",
+      "example_reading": "その さっか に は おもしろい いつわ が おおい。",
+      "example_meaning": "There are many interesting anecdotes about that author."
+    },
+    {
+      "word": "作家",
+      "reading": "さっか",
+      "meanings": [
+        "author",
+        "writer",
+        "creator"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "物書き",
+      "category": "related",
+      "context": "Broader than 小説家 — covers novelists, essayists, even artists/craftspeople (陶芸作家 — ceramic artist). 人気作家 — popular author.",
+      "example_sentence": "好きな作家の新刊を買った。",
+      "example_reading": "すき な さっか の しんかん を かった。",
+      "example_meaning": "I bought my favorite author's new book."
+    },
+    {
+      "word": "著者",
+      "reading": "ちょしゃ",
+      "meanings": [
+        "author (of a specific work)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "作者",
+      "category": "related",
+      "context": "The author OF a particular book. 本の著者 — the book's author. Distinct from 作家 (a writer as a profession). Appears on title pages and citations.",
+      "example_sentence": "この本の著者は誰ですか。",
+      "example_reading": "この ほん の ちょしゃ は だれ ですか。",
+      "example_meaning": "Who is the author of this book?"
+    },
+    {
+      "word": "物語",
+      "reading": "ものがたり",
+      "meanings": [
+        "story",
+        "tale",
+        "narrative"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ストーリー",
+      "category": "related",
+      "context": "A story/tale — broader than 小説 (a written novel). 昔話 (folktale), 物語を語る (tell a tale). 源氏物語 — The Tale of Genji.",
+      "example_sentence": "祖母が昔の物語を聞かせてくれた。",
+      "example_reading": "そぼ が むかし の ものがたり を きかせて くれた。",
+      "example_meaning": "My grandmother told me an old tale."
+    },
+    {
+      "word": "エピソード",
+      "reading": "エピソード",
+      "meanings": [
+        "episode",
+        "anecdote"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "逸話",
+      "category": "related",
+      "context": "The everyday loanword for 逸話. 面白いエピソード — an interesting anecdote. Also a TV/series episode.",
+      "example_sentence": "子供の頃の面白いエピソードを話してくれた。",
+      "example_reading": "こども の ころ の おもしろい エピソード を はなして くれた。",
+      "example_meaning": "They told me a funny anecdote from their childhood."
+    },
+    {
+      "word": "〜込む",
+      "reading": "こむ",
+      "meanings": [
+        "(verb-stem +) to do deeply / thoroughly",
+        "to do into something"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "しっかり〜する",
+      "category": "grammar_komu",
+      "context": "Attach 込む to a verb stem for two senses: (1) movement INTO something — 入り込む (get into), 飛び込む (jump in); (2) doing thoroughly/intensely — 考え込む (ponder deeply), 話し込む (talk at length). Highly productive pattern.",
+      "example_sentence": "細かいところまで作り込む。",
+      "example_reading": "こまかい ところ まで つくりこむ。",
+      "example_meaning": "To build it thoroughly down to the details."
+    },
+    {
+      "word": "話し込む",
+      "reading": "はなしこむ",
+      "meanings": [
+        "to get deep into conversation",
+        "to talk at length"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "長く話す",
+      "category": "grammar_komu",
+      "context": "話す + 込む — talk so absorbedly you lose track of time. つい話し込んでしまった — I ended up talking for ages.",
+      "example_sentence": "友達とつい話し込んでしまった。",
+      "example_reading": "ともだち と つい はなしこんで しまった。",
+      "example_meaning": "I got caught up talking with my friend."
+    },
+    {
+      "word": "眠り込む",
+      "reading": "ねむりこむ",
+      "meanings": [
+        "to fall fast asleep",
+        "to sleep deeply"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ぐっすり眠る",
+      "category": "grammar_komu",
+      "context": "眠る + 込む — fall into a deep sleep, often unintentionally. ソファで眠り込む — conk out on the sofa.",
+      "example_sentence": "疲れていてソファで眠り込んでしまった。",
+      "example_reading": "つかれて いて ソファ で ねむりこんで しまった。",
+      "example_meaning": "I was so tired I fell fast asleep on the sofa."
+    },
+    {
+      "word": "考え込む",
+      "reading": "かんがえこむ",
+      "meanings": [
+        "to be lost in thought",
+        "to ponder deeply",
+        "to brood"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "じっくり考える",
+      "category": "grammar_komu",
+      "context": "考える + 込む — think so hard you withdraw into yourself. 一人で考え込む — brood alone. Often suggests worry.",
+      "example_sentence": "彼は黙って考え込んでいた。",
+      "example_reading": "かれ は だまって かんがえこんで いた。",
+      "example_meaning": "He was silently lost in thought."
+    },
+    {
+      "word": "飲み込む",
+      "reading": "のみこむ",
+      "meanings": [
+        "to swallow",
+        "to grasp/comprehend"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "理解する",
+      "category": "grammar_komu",
+      "context": "飲む + 込む — literally swallow, but very common figuratively: コツを飲み込む — get the hang of it. 飲み込みが早い — a quick learner.",
+      "example_sentence": "彼は仕事の飲み込みが早い。",
+      "example_reading": "かれ は しごと の のみこみ が はやい。",
+      "example_meaning": "He picks up the work quickly."
+    },
+    {
+      "word": "入り込む",
+      "reading": "はいりこむ",
+      "meanings": [
+        "to get into",
+        "to penetrate",
+        "to slip into"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "中に入る",
+      "category": "grammar_komu",
+      "context": "入る + 込む — get deep INTO somewhere, often a tight or unexpected space. 狭い路地に入り込む — slip into a narrow alley. 役に入り込む — get into character.",
+      "example_sentence": "猫が車のエンジンルームに入り込んでいた。",
+      "example_reading": "ねこ が くるま の エンジンルーム に はいりこんで いた。",
+      "example_meaning": "A cat had crept into the car's engine compartment."
+    },
+    {
+      "word": "落ち込む",
+      "reading": "おちこむ",
+      "meanings": [
+        "to feel down",
+        "to get depressed",
+        "to fall into"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "がっかりする",
+      "category": "grammar_komu",
+      "context": "落ちる + 込む — one of the most common 〜込む verbs. 試験に落ちて落ち込む — feel down after failing an exam. Also literal: 穴に落ち込む.",
+      "example_sentence": "失敗してすっかり落ち込んでいる。",
+      "example_reading": "しっぱい して すっかり おちこんで いる。",
+      "example_meaning": "I'm thoroughly down after messing up."
+    },
+    {
+      "word": "〜切る",
+      "reading": "きる",
+      "meanings": [
+        "(verb-stem +) to do completely",
+        "to finish doing",
+        "to do to the very end"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "最後まで〜する",
+      "category": "grammar_kiru",
+      "context": "Attach 切る to a verb stem to mean 'do completely / to the end.' 食べ切る (eat it all), やり切る (see it through). The negative 〜切れない means 'can't fully do' — 数え切れない (countless), 待ち切れない (can't wait).",
+      "example_sentence": "最後までやり切ることが大事だ。",
+      "example_reading": "さいご まで やりきる こと が だいじ だ。",
+      "example_meaning": "It's important to see things through to the end."
+    },
+    {
+      "word": "食べ切る",
+      "reading": "たべきる",
+      "meanings": [
+        "to eat up completely",
+        "to finish eating"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "全部食べる",
+      "category": "grammar_kiru",
+      "context": "食べる + 切る — finish all of it. 一人では食べ切れない — I can't finish it on my own (〜切れない = can't fully do).",
+      "example_sentence": "量が多くて食べ切れなかった。",
+      "example_reading": "りょう が おおくて たべきれなかった。",
+      "example_meaning": "There was so much I couldn't finish it."
+    },
+    {
+      "word": "使い切る",
+      "reading": "つかいきる",
+      "meanings": [
+        "to use up completely",
+        "to exhaust (a supply)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "全部使う",
+      "category": "grammar_kiru",
+      "context": "使う + 切る — use every last bit. お金を使い切る (spend all one's money), 電池を使い切る (drain the battery).",
+      "example_sentence": "ポイントを期限までに使い切りたい。",
+      "example_reading": "ポイント を きげん まで に つかいきりたい。",
+      "example_meaning": "I want to use up my points before they expire."
+    },
+    {
+      "word": "読み切る",
+      "reading": "よみきる",
+      "meanings": [
+        "to read through to the end",
+        "to finish reading"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "最後まで読む",
+      "category": "grammar_kiru",
+      "context": "読む + 切る — read all the way through. 一晩で読み切った — I read it in one night. 読み切り — a one-shot (standalone manga/story).",
+      "example_sentence": "面白くて一気に読み切った。",
+      "example_reading": "おもしろくて いっき に よみきった。",
+      "example_meaning": "It was so good I read it all in one go."
+    },
+    {
+      "word": "言い切る",
+      "reading": "いいきる",
+      "meanings": [
+        "to state firmly",
+        "to assert",
+        "to declare definitively"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "はっきり言う",
+      "category": "grammar_kiru",
+      "context": "言う + 切る — say it with full conviction, leaving no doubt. 絶対大丈夫と言い切る — declare it'll definitely be fine.",
+      "example_sentence": "彼は成功すると言い切った。",
+      "example_reading": "かれ は せいこう する と いいきった。",
+      "example_meaning": "He declared outright that he would succeed."
+    },
+    {
+      "word": "疲れ切る",
+      "reading": "つかれきる",
+      "meanings": [
+        "to be completely exhausted",
+        "to be worn out"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "くたくた",
+      "category": "grammar_kiru",
+      "context": "疲れる + 切る — exhausted to the limit. 疲れ切っている — be utterly worn out.",
+      "example_sentence": "残業続きで疲れ切っている。",
+      "example_reading": "ざんぎょう つづき で つかれきって いる。",
+      "example_meaning": "I'm worn out from constant overtime."
+    },
+    {
+      "word": "やり切る",
+      "reading": "やりきる",
+      "meanings": [
+        "to carry through to the end",
+        "to complete fully",
+        "to see it through"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "最後までやる",
+      "category": "grammar_kiru",
+      "context": "やる + 切る — finish what you started, leave nothing undone. 最後までやり切る — see it through to the end. A motivational favorite.",
+      "example_sentence": "途中で諦めず、やり切ろう。",
+      "example_reading": "とちゅう で あきらめず、 やりきろう。",
+      "example_meaning": "Let's not give up halfway — let's see it through."
+    },
+    {
+      "word": "締め切る",
+      "reading": "しめきる",
+      "meanings": [
+        "to close (applications)",
+        "to set a deadline",
+        "to shut tight"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "受付を終える",
+      "category": "grammar_kiru",
+      "context": "締める + 切る — close off completely. 募集を締め切る — close applications. The noun 締め切り (deadline) comes from this.",
+      "example_sentence": "応募は今日で締め切ります。",
+      "example_reading": "おうぼ は きょう で しめきります。",
+      "example_meaning": "Applications close today."
+    },
+    {
+      "word": "数え切れない",
+      "reading": "かぞえきれない",
+      "meanings": [
+        "countless",
+        "too many to count"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たくさん",
+      "category": "grammar_kiru",
+      "context": "数える + 切る + ない — the 〜切れない 'can't fully do' form. Lit. 'can't finish counting.' 数え切れないほどの星 — countless stars. A great example of the negative 切る pattern.",
+      "example_sentence": "空には数え切れないほどの星があった。",
+      "example_reading": "そら に は かぞえきれない ほど の ほし が あった。",
+      "example_meaning": "There were countless stars in the sky."
+    }
+  ]
+}
