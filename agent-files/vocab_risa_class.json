@@ -5,13 +5,14 @@
   "source": "Vocabulary from Japanese class with Risa-san, plus related words and the 〜込む / 〜切る compound-verb patterns.",
   "learner_level": "N3",
   "notes": "A personal class-vocabulary deck collecting words that came up in lessons with Risa-san, grouped with a few related words and two productive compound-verb patterns: 〜込む (do deeply / into) and 〜切る (do completely / to the end). Mix of N3-N1. Several of the items hinge on distinctions that trip learners up — 濃い/薄い/厚い, the こい homophones (濃い・恋しい), and the two-sided 薄い (opposite of both 濃い and 厚い).",
-  "card_count": 32,
+  "card_count": 44,
   "categories": [
     "adjectives",
     "nouns",
     "grammar_komu",
     "grammar_kiru",
-    "related"
+    "related",
+    "chase_add"
   ],
   "cards": [
     {
@@ -604,6 +605,234 @@
       "example_sentence": "空には数え切れないほどの星があった。",
       "example_reading": "そら に は かぞえきれない ほど の ほし が あった。",
       "example_meaning": "There were countless stars in the sky."
+    },
+    {
+      "word": "追う",
+      "reading": "おう",
+      "meanings": [
+        "to chase",
+        "to pursue",
+        "to follow",
+        "to drive away"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "追いかける",
+      "category": "chase_add",
+      "context": "The core 'chase/pursue' verb. 夢を追う (chase a dream), 後を追う (follow after), 流行を追う (follow the trend). The kanji 追 is the 'chase' half of 追加.",
+      "example_sentence": "彼は長年その夢を追っている。",
+      "example_reading": "かれ は ながねん その ゆめ を おって いる。",
+      "example_meaning": "He has been chasing that dream for years."
+    },
+    {
+      "word": "追いかける",
+      "reading": "おいかける",
+      "meanings": [
+        "to chase after",
+        "to run after",
+        "to pursue"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "追う",
+      "category": "chase_add",
+      "context": "More active/physical than 追う — actually running after something. 犯人を追いかける (chase a criminal), バスを追いかける (run after the bus).",
+      "example_sentence": "犬が猫を追いかけている。",
+      "example_reading": "いぬ が ねこ を おいかけて いる。",
+      "example_meaning": "The dog is chasing the cat."
+    },
+    {
+      "word": "加える",
+      "reading": "くわえる",
+      "meanings": [
+        "to add",
+        "to include",
+        "to apply (force)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "足す",
+      "category": "chase_add",
+      "context": "The core 'add/include' verb. 塩を加える (add salt), メンバーに加える (add to the team), 力を加える (apply force). The kanji 加 is the 'add' half of 追加.",
+      "example_sentence": "最後に砂糖を加えてください。",
+      "example_reading": "さいご に さとう を くわえて ください。",
+      "example_meaning": "Please add sugar at the end."
+    },
+    {
+      "word": "追加",
+      "reading": "ついか",
+      "meanings": [
+        "addition",
+        "supplement",
+        "append",
+        "extra order"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "足すこと",
+      "category": "chase_add",
+      "context": "追 (chase) + 加 (add) literally written TOGETHER = 'addition / append.' Easy memory hook: you 'chase down and add' something extra. 追加注文 (an extra order — said constantly at restaurants), 追加料金 (surcharge), ビールを追加する (order another beer).",
+      "example_sentence": "すみません、ビールを一杯追加でお願いします。",
+      "example_reading": "すみません、 ビール を いっぱい ついか で おねがい します。",
+      "example_meaning": "Excuse me, one more beer please (an additional one)."
+    },
+    {
+      "word": "加わる",
+      "reading": "くわわる",
+      "meanings": [
+        "to join",
+        "to be added",
+        "to participate"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "参加する",
+      "category": "chase_add",
+      "context": "Intransitive pair of 加える — something/someone GETS added. チームに加わる (join a team), 新しい機能が加わる (a new feature is added).",
+      "example_sentence": "新しいメンバーがチームに加わった。",
+      "example_reading": "あたらしい メンバー が チーム に くわわった。",
+      "example_meaning": "A new member joined the team."
+    },
+    {
+      "word": "付け加える",
+      "reading": "つけくわえる",
+      "meanings": [
+        "to add on",
+        "to append",
+        "to supplement (a remark)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "加える",
+      "category": "chase_add",
+      "context": "付ける + 加える — tack something extra on, especially a comment. 一言付け加える — add a word/remark. More 'append on top' than plain 加える.",
+      "example_sentence": "最後に一言付け加えたい。",
+      "example_reading": "さいご に ひとこと つけくわえたい。",
+      "example_meaning": "I'd like to add one more thing at the end."
+    },
+    {
+      "word": "足す",
+      "reading": "たす",
+      "meanings": [
+        "to add (arithmetic)",
+        "to top up",
+        "to supplement"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "加える",
+      "category": "chase_add",
+      "context": "More everyday/casual than 加える. Arithmetic: 2に3を足す (add 3 to 2). Topping up: お湯を足す (add hot water), 塩を足す (add more salt). Pairs with 引く (subtract).",
+      "example_sentence": "味が薄かったら醤油を足してね。",
+      "example_reading": "あじ が うすかったら しょうゆ を たして ね。",
+      "example_meaning": "If it's bland, add some soy sauce."
+    },
+    {
+      "word": "追跡",
+      "reading": "ついせき",
+      "meanings": [
+        "pursuit",
+        "tracking",
+        "chase"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "追いかけること",
+      "category": "chase_add",
+      "context": "追 (chase) + 跡 (trace/track) — following a trail. 追跡する — to track/pursue. 荷物の追跡 (package tracking), 犯人を追跡する (track a suspect).",
+      "example_sentence": "荷物の追跡番号を教えてください。",
+      "example_reading": "にもつ の ついせき ばんごう を おしえて ください。",
+      "example_meaning": "Please tell me the package's tracking number."
+    },
+    {
+      "word": "追求",
+      "reading": "ついきゅう",
+      "meanings": [
+        "pursuit (of a goal)",
+        "seeking after"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "求めること",
+      "category": "chase_add",
+      "context": "追 (chase) + 求 (seek) — pursuing something abstract you want. 利益の追求 (pursuit of profit), 理想を追求する (pursue an ideal). Different 追〜 from 追跡 (physical tracking).",
+      "example_sentence": "会社は利益の追求だけではいけない。",
+      "example_reading": "かいしゃ は りえき の ついきゅう だけ で は いけない。",
+      "example_meaning": "A company can't be only about pursuing profit."
+    },
+    {
+      "word": "加入",
+      "reading": "かにゅう",
+      "meanings": [
+        "joining",
+        "enrollment",
+        "subscription"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "入ること",
+      "category": "chase_add",
+      "context": "加 (add) + 入 (enter) — formally joining/enrolling. 保険に加入する (enroll in insurance), 組合に加入する (join a union). More formal/institutional than 加わる.",
+      "example_sentence": "先月、生命保険に加入した。",
+      "example_reading": "せんげつ、 せいめい ほけん に かにゅう した。",
+      "example_meaning": "Last month I took out life insurance."
+    },
+    {
+      "word": "増やす",
+      "reading": "ふやす",
+      "meanings": [
+        "to increase",
+        "to add to (a quantity)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "多くする",
+      "category": "chase_add",
+      "context": "Make a quantity bigger — related to 加える but about amount, not items. 貯金を増やす (increase savings), 体重が増える (intransitive: weight increases). Pairs with 減らす (decrease).",
+      "example_sentence": "語彙を増やすために毎日勉強している。",
+      "example_reading": "ごい を ふやす ため に まいにち べんきょう して いる。",
+      "example_meaning": "I study every day to increase my vocabulary."
+    },
+    {
+      "word": "追い越す",
+      "reading": "おいこす",
+      "meanings": [
+        "to overtake",
+        "to pass (a vehicle/person)",
+        "to surpass"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "前に出る",
+      "category": "chase_add",
+      "context": "追う + 越す — chase and then get ahead. 車を追い越す (overtake a car), 先輩を追い越す (surpass a senior). Another useful 追〜 compound.",
+      "example_sentence": "高速道路で前の車を追い越した。",
+      "example_reading": "こうそく どうろ で まえ の くるま を おいこした。",
+      "example_meaning": "I overtook the car ahead on the expressway."
     }
   ]
 }
