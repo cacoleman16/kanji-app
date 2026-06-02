@@ -1,0 +1,1281 @@
+{
+  "deck_id": "formal-speech-sonkeigo",
+  "deck_name": "Very Formal Speech (尊敬語)",
+  "version": "1.0",
+  "source": "Hand-curated honorific (尊敬語) verbs, patterns, and very-polite set phrases used in formal Japanese.",
+  "learner_level": "N2",
+  "notes": "尊敬語 (sonkeigo, honorific language) ELEVATES the person you're talking to or about — the opposite direction from 謙譲語 which lowers the speaker. This deck covers: (1) the special honorific verbs that replace plain forms (いらっしゃる, なさる, 召し上がる, ご覧になる, おっしゃる, etc.); (2) the productive お/ご + verb-stem + になる pattern and お/ご + verb-stem + ください request pattern; (3) the honorific use of passive 〜られる; (4) the cluster of very-formal set phrases that dominate Japanese business, announcements, and customer service. Most cards sit at N2-N1.",
+  "card_count": 73,
+  "categories": [
+    "special_honorific_verbs",
+    "o_verb_ni_naru",
+    "o_verb_kudasai",
+    "honorific_passive",
+    "formal_address_titles",
+    "set_phrases_announcement",
+    "email_letter_formal",
+    "customer_service_keigo"
+  ],
+  "cards": [
+    {
+      "word": "いらっしゃる",
+      "reading": "いらっしゃる",
+      "meanings": [
+        "to be (honorific)",
+        "to come (honorific)",
+        "to go (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いる・行く・来る",
+      "category": "special_honorific_verbs",
+      "context": "Triple-duty honorific verb — replaces いる, 行く, 来る for someone you respect. お客様がいらっしゃいます — the customer has arrived. Conjugates irregularly: いらっしゃいます (not いらっしゃります).",
+      "example_sentence": "先生はもうすぐいらっしゃいます。",
+      "example_reading": "せんせい は もうすぐ いらっしゃいます。",
+      "example_meaning": "The teacher will be here soon."
+    },
+    {
+      "word": "おっしゃる",
+      "reading": "おっしゃる",
+      "meanings": [
+        "to say (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "言う",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 言う. Conjugates irregularly: おっしゃいます (not おっしゃります). お名前は何とおっしゃいますか — what's your name? おっしゃる通り — exactly as you say.",
+      "example_sentence": "お名前は何とおっしゃいますか。",
+      "example_reading": "おなまえ は なん と おっしゃいます か。",
+      "example_meaning": "What is your name?"
+    },
+    {
+      "word": "なさる",
+      "reading": "なさる",
+      "meanings": [
+        "to do (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "する",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of する. Irregular: なさいます (not なさります). 何をなさっていますか — what are you doing? 勉強なさる — to study (honoring the doer).",
+      "example_sentence": "どちらにご旅行なさいますか。",
+      "example_reading": "どちら に ご りょこう なさいます か。",
+      "example_meaning": "Where will you be traveling to?"
+    },
+    {
+      "word": "召し上がる",
+      "reading": "めしあがる",
+      "meanings": [
+        "to eat (honorific)",
+        "to drink (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "食べる・飲む",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 食べる and 飲む. お召し上がりください — please enjoy your meal. Restaurant standard.",
+      "example_sentence": "どうぞ召し上がってください。",
+      "example_reading": "どうぞ めしあがって ください。",
+      "example_meaning": "Please go ahead and eat."
+    },
+    {
+      "word": "ご覧になる",
+      "reading": "ごらんになる",
+      "meanings": [
+        "to see (honorific)",
+        "to look at (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "見る",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 見る. メニューをご覧ください — please look at the menu (with ください, common in service).",
+      "example_sentence": "こちらの資料をご覧になってください。",
+      "example_reading": "こちら の しりょう を ごらん に なって ください。",
+      "example_meaning": "Please take a look at this material."
+    },
+    {
+      "word": "ご存じ",
+      "reading": "ごぞんじ",
+      "meanings": [
+        "to know (honorific noun)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "知る",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 知る. ご存じですか — do you know? Pairs with humble 存じる/存じ上げる.",
+      "example_sentence": "この件はご存じでしたか。",
+      "example_reading": "この けん は ご ぞんじ でした か。",
+      "example_meaning": "Were you aware of this matter?"
+    },
+    {
+      "word": "くださる",
+      "reading": "くださる",
+      "meanings": [
+        "to give (honorific, to me)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "くれる",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of くれる. Irregular: くださいます (not くださります). 先生がくださった本 — the book the teacher gave me. The 'me-direction' giving verb.",
+      "example_sentence": "プレゼントをくださってありがとうございます。",
+      "example_reading": "プレゼント を くださって ありがとう ございます。",
+      "example_meaning": "Thank you for the gift."
+    },
+    {
+      "word": "お休みになる",
+      "reading": "おやすみになる",
+      "meanings": [
+        "to sleep (honorific)",
+        "to take a rest (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "寝る",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 寝る. お休みなさい (good night) uses the same root. Also for hospital/hotel context: 患者様がお休みになっています.",
+      "example_sentence": "社長は今お休みになっております。",
+      "example_reading": "しゃちょう は いま おやすみ に なって おります。",
+      "example_meaning": "The president is resting now."
+    },
+    {
+      "word": "お見えになる",
+      "reading": "おみえになる",
+      "meanings": [
+        "to come (honorific, of arrival)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "来る",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 来る — specifically for arrival. 'Comes into view.' お客様がお見えになりました — the guest has arrived.",
+      "example_sentence": "先方がお見えになりました。",
+      "example_reading": "せんぽう が お み え に なりました。",
+      "example_meaning": "The other party has arrived."
+    },
+    {
+      "word": "お亡くなりになる",
+      "reading": "おなくなりになる",
+      "meanings": [
+        "to pass away (honorific)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "亡くなる",
+      "category": "special_honorific_verbs",
+      "context": "Honorific death verb. 亡くなる alone is already polite (vs 死ぬ); お亡くなりになる goes further, used in news for public figures and in respectful condolences.",
+      "example_sentence": "昨日、お亡くなりになったそうです。",
+      "example_reading": "きのう、 お なくなり に なった そう です。",
+      "example_meaning": "I heard they passed away yesterday."
+    },
+    {
+      "word": "お聞きになる",
+      "reading": "おききになる",
+      "meanings": [
+        "to hear (honorific)",
+        "to ask (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "聞く",
+      "category": "special_honorific_verbs",
+      "context": "Honorific of 聞く via the お〜になる pattern. お聞きになりましたか — did you hear? Pairs with the humble form 伺う.",
+      "example_sentence": "ニュースをお聞きになりましたか。",
+      "example_reading": "ニュース を お き き に なりました か。",
+      "example_meaning": "Have you heard the news?"
+    },
+    {
+      "word": "お読みになる",
+      "reading": "およみになる",
+      "meanings": [
+        "to read (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "読む",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 読む. お読みになりましたか — have you read it? Productive pattern: お + verb stem + になる.",
+      "example_sentence": "この本をもうお読みになりましたか。",
+      "example_reading": "この ほん を もう お よみ に なりました か。",
+      "example_meaning": "Have you already read this book?"
+    },
+    {
+      "word": "お書きになる",
+      "reading": "おかきになる",
+      "meanings": [
+        "to write (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "書く",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 書く. こちらにお名前をお書きになってください — please write your name here. Common in service contexts.",
+      "example_sentence": "お名前をこちらにお書きになってください。",
+      "example_reading": "おなまえ を こちら に お かき に なって ください。",
+      "example_meaning": "Please write your name here."
+    },
+    {
+      "word": "お話しになる",
+      "reading": "おはなしになる",
+      "meanings": [
+        "to talk (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "話す",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 話す. 先生がお話になった内容 — what the teacher discussed. Equivalent to 話される (passive-honorific).",
+      "example_sentence": "先ほどお話になった件について。",
+      "example_reading": "さきほど お はなし に なった けん に ついて。",
+      "example_meaning": "Regarding the matter you spoke of earlier."
+    },
+    {
+      "word": "お考えになる",
+      "reading": "おかんがえになる",
+      "meanings": [
+        "to think (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "考える",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 考える. どうお考えになりますか — what do you think? Politer than 考えますか.",
+      "example_sentence": "その点についてどうお考えになりますか。",
+      "example_reading": "その てん に ついて どう お かんがえ に なります か。",
+      "example_meaning": "What do you think about that point?"
+    },
+    {
+      "word": "お待ちになる",
+      "reading": "おまちになる",
+      "meanings": [
+        "to wait (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "待つ",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 待つ. お待ちください is the more common imperative form (please wait).",
+      "example_sentence": "少々お待ちになってください。",
+      "example_reading": "しょうしょう お まち に なって ください。",
+      "example_meaning": "Please wait a moment."
+    },
+    {
+      "word": "お帰りになる",
+      "reading": "おかえりになる",
+      "meanings": [
+        "to go home (honorific)",
+        "to leave (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "帰る",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 帰る. 何時にお帰りになりますか — what time will you leave?",
+      "example_sentence": "もうお帰りになりますか。",
+      "example_reading": "もう お かえり に なります か。",
+      "example_meaning": "Are you leaving already?"
+    },
+    {
+      "word": "お使いになる",
+      "reading": "おつかいになる",
+      "meanings": [
+        "to use (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "使う",
+      "category": "o_verb_ni_naru",
+      "context": "Honorific of 使う. このアプリをお使いになりますか — do you use this app?",
+      "example_sentence": "普段、どのSNSをお使いになっていますか。",
+      "example_reading": "ふだん、 どの SNS を お つかい に なって います か。",
+      "example_meaning": "Which social media do you usually use?"
+    },
+    {
+      "word": "お乗りになる",
+      "reading": "おのりになる",
+      "meanings": [
+        "to ride / board (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "乗る",
+      "category": "o_verb_ni_naru",
+      "context": "お客様がお乗りになる際は… — when passengers are boarding… Train and bus announcements.",
+      "example_sentence": "こちらの電車にお乗りになるお客様は…",
+      "example_reading": "こちら の でんしゃ に お のり に なる おきゃくさま は…",
+      "example_meaning": "Passengers boarding this train…"
+    },
+    {
+      "word": "お選びになる",
+      "reading": "おえらびになる",
+      "meanings": [
+        "to choose (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "選ぶ",
+      "category": "o_verb_ni_naru",
+      "context": "お選びになる商品 — the product you choose. Shop/service vocabulary.",
+      "example_sentence": "どちらをお選びになりますか。",
+      "example_reading": "どちら を お えらび に なります か。",
+      "example_meaning": "Which would you like to choose?"
+    },
+    {
+      "word": "ご利用になる",
+      "reading": "ごりようになる",
+      "meanings": [
+        "to use (honorific, suru-noun verbs)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "利用する",
+      "category": "o_verb_ni_naru",
+      "context": "ご + 漢語 + になる — the suru-noun version. ご利用ありがとうございました — thank you for using (our service). Standard transit/retail.",
+      "example_sentence": "ご利用ありがとうございました。",
+      "example_reading": "ご りよう ありがとう ございました。",
+      "example_meaning": "Thank you for using (our service)."
+    },
+    {
+      "word": "ご出席になる",
+      "reading": "ごしゅっせきになる",
+      "meanings": [
+        "to attend (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "出席する",
+      "category": "o_verb_ni_naru",
+      "context": "ご出席になる方 — those who will attend. Pairs with the humble counterpart 出席させていただきます.",
+      "example_sentence": "会議にはご出席になりますか。",
+      "example_reading": "かいぎ に は ご しゅっせき に なります か。",
+      "example_meaning": "Will you be attending the meeting?"
+    },
+    {
+      "word": "ご覧ください",
+      "reading": "ごらんください",
+      "meanings": [
+        "please look (honorific imperative)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "見てください",
+      "category": "o_verb_kudasai",
+      "context": "Imperative of ご覧になる. こちらをご覧ください — please look at this. Presentation/announcement essential.",
+      "example_sentence": "画面をご覧ください。",
+      "example_reading": "がめん を ごらん ください。",
+      "example_meaning": "Please look at the screen."
+    },
+    {
+      "word": "お召し上がりください",
+      "reading": "おめしあがりください",
+      "meanings": [
+        "please eat / drink (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "食べてください",
+      "category": "o_verb_kudasai",
+      "context": "Restaurant/event standard. Server places dish: お熱いうちにお召し上がりください — please enjoy while hot.",
+      "example_sentence": "温かいうちにお召し上がりください。",
+      "example_reading": "あたたかい うち に お めしあがり ください。",
+      "example_meaning": "Please eat while it's still warm."
+    },
+    {
+      "word": "お入りください",
+      "reading": "おはいりください",
+      "meanings": [
+        "please come in (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "入ってください",
+      "category": "o_verb_kudasai",
+      "context": "Welcoming a visitor. どうぞお入りください — please come in. Cards/letters too.",
+      "example_sentence": "どうぞお入りください。",
+      "example_reading": "どうぞ お はいり ください。",
+      "example_meaning": "Please come in."
+    },
+    {
+      "word": "お座りください",
+      "reading": "おすわりください",
+      "meanings": [
+        "please sit (honorific)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "座ってください",
+      "category": "o_verb_kudasai",
+      "context": "More formal in business: お掛けください (please have a seat) is the standard upgrade.",
+      "example_sentence": "こちらにお座りください。",
+      "example_reading": "こちら に お すわり ください。",
+      "example_meaning": "Please sit here."
+    },
+    {
+      "word": "お掛けください",
+      "reading": "おかけください",
+      "meanings": [
+        "please have a seat (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "座ってください",
+      "category": "o_verb_kudasai",
+      "context": "More formal than お座りください. Doctor's office / business reception standard. 椅子にお掛けください.",
+      "example_sentence": "あちらにお掛けになってお待ちください。",
+      "example_reading": "あちら に お かけ に なって お まち ください。",
+      "example_meaning": "Please have a seat over there and wait."
+    },
+    {
+      "word": "お確かめください",
+      "reading": "おたしかめください",
+      "meanings": [
+        "please confirm / check (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "確認してください",
+      "category": "o_verb_kudasai",
+      "context": "Receipt/transaction Japanese: お釣りをお確かめください — please check your change. Different nuance from ご確認ください (more formal-procedural).",
+      "example_sentence": "お釣りをお確かめください。",
+      "example_reading": "お つり を お たしかめ ください。",
+      "example_meaning": "Please check your change."
+    },
+    {
+      "word": "ご確認ください",
+      "reading": "ごかくにんください",
+      "meanings": [
+        "please confirm (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "確認してください",
+      "category": "o_verb_kudasai",
+      "context": "Standard email/document phrase. 添付ファイルをご確認ください — please check the attached file. Pairs with humble ご確認いたします.",
+      "example_sentence": "内容をご確認ください。",
+      "example_reading": "ないよう を ご かくにん ください。",
+      "example_meaning": "Please confirm the contents."
+    },
+    {
+      "word": "ご了承ください",
+      "reading": "ごりょうしょうください",
+      "meanings": [
+        "please understand (formal disclaimer)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "分かってください",
+      "category": "o_verb_kudasai",
+      "context": "Common in signs / policies. あらかじめご了承ください — please understand in advance. Used to politely warn of inconveniences.",
+      "example_sentence": "変更の可能性もございますので、ご了承ください。",
+      "example_reading": "へんこう の かのうせい も ございます ので、 ご りょうしょう ください。",
+      "example_meaning": "Please be aware that changes may occur."
+    },
+    {
+      "word": "ご検討ください",
+      "reading": "ごけんとうください",
+      "meanings": [
+        "please consider (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "考えてください",
+      "category": "o_verb_kudasai",
+      "context": "Email/proposal closer. ご検討のほどよろしくお願いいたします — kindly consider. Note: 検討します as a reply often softly means 'no.'",
+      "example_sentence": "ご検討のほどよろしくお願いいたします。",
+      "example_reading": "ご けんとう の ほど よろしく おねがい いたします。",
+      "example_meaning": "I kindly ask you to consider it."
+    },
+    {
+      "word": "ご注意ください",
+      "reading": "ごちゅういください",
+      "meanings": [
+        "please be careful (formal warning)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気をつけてください",
+      "category": "o_verb_kudasai",
+      "context": "Public-warning standard. 足元にご注意ください — watch your step. 危険にご注意ください — beware of danger.",
+      "example_sentence": "閉まるドアにご注意ください。",
+      "example_reading": "しまる ドア に ご ちゅうい ください。",
+      "example_meaning": "Please watch out for the closing doors."
+    },
+    {
+      "word": "お気をつけください",
+      "reading": "おきをつけください",
+      "meanings": [
+        "please be careful (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "気をつけてください",
+      "category": "o_verb_kudasai",
+      "context": "More personal than ご注意ください. Said to someone departing or in cold weather: お足元にお気をつけください.",
+      "example_sentence": "お足元にお気をつけください。",
+      "example_reading": "お あしもと に お き を つけ ください。",
+      "example_meaning": "Please watch your step."
+    },
+    {
+      "word": "ご遠慮ください",
+      "reading": "ごえんりょください",
+      "meanings": [
+        "please refrain from (polite prohibition)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "しないでください",
+      "category": "o_verb_kudasai",
+      "context": "Soft prohibition. 喫煙はご遠慮ください — please refrain from smoking. Train signs often: 携帯電話のご使用はご遠慮ください.",
+      "example_sentence": "車内での通話はご遠慮ください。",
+      "example_reading": "しゃない で の つうわ は ご えんりょ ください。",
+      "example_meaning": "Please refrain from calls inside the train."
+    },
+    {
+      "word": "〜なさってください",
+      "reading": "なさってください",
+      "meanings": [
+        "please do (honorific imperative)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "してください",
+      "category": "o_verb_kudasai",
+      "context": "From なさる. お選びなさってください — please choose. Used to elegantly issue an imperative to a superior or customer.",
+      "example_sentence": "どうぞご自由になさってください。",
+      "example_reading": "どうぞ ご じゆう に なさって ください。",
+      "example_meaning": "Please feel free."
+    },
+    {
+      "word": "〜られる",
+      "reading": "られる",
+      "meanings": [
+        "honorific verb suffix"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "敬語の助動詞",
+      "category": "honorific_passive",
+      "context": "Passive-form suffix also used as a lighter honorific. 先生が話される — the teacher speaks (honored). Less formal than お話しになる but easier to slip in.",
+      "example_sentence": "社長は来週来られます。",
+      "example_reading": "しゃちょう は らいしゅう こられます。",
+      "example_meaning": "The president is coming next week."
+    },
+    {
+      "word": "〜れる",
+      "reading": "れる",
+      "meanings": [
+        "honorific suffix (五段 verbs)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "敬語の助動詞",
+      "category": "honorific_passive",
+      "context": "Same as 〜られる but for godan/五段 verbs. 書かれる, 行かれる, 読まれる. Mixes up beginner students because same form is also passive — context decides.",
+      "example_sentence": "先生が論文を書かれました。",
+      "example_reading": "せんせい が ろんぶん を かかれました。",
+      "example_meaning": "The professor wrote a paper."
+    },
+    {
+      "word": "様",
+      "reading": "さま",
+      "meanings": [
+        "Mr./Ms./Mrs. (very polite)",
+        "-sama"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "さん（敬語）",
+      "category": "formal_address_titles",
+      "context": "Higher than さん. Used for customers (お客様), letter addressees (山田様), and deities (神様). Standard in business correspondence.",
+      "example_sentence": "田中様、お待ちしておりました。",
+      "example_reading": "たなか さま、 お まち して おりました。",
+      "example_meaning": "Mr. Tanaka, we've been expecting you."
+    },
+    {
+      "word": "御中",
+      "reading": "おんちゅう",
+      "meanings": [
+        "Messrs. (formal address to an organization)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "組織への敬称",
+      "category": "formal_address_titles",
+      "context": "Used for envelopes addressed to a company/department (not a specific person). 株式会社A 御中 — Messrs. Company A. Mutually exclusive with 様.",
+      "example_sentence": "株式会社A 営業部 御中",
+      "example_reading": "かぶしき がいしゃ エー えいぎょうぶ おんちゅう",
+      "example_meaning": "Messrs. Sales Department, Company A"
+    },
+    {
+      "word": "各位",
+      "reading": "かくい",
+      "meanings": [
+        "everyone (formal address)",
+        "to all concerned"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "皆様",
+      "category": "formal_address_titles",
+      "context": "Letter opener for memos/announcements addressed to a group. お客様各位 — Dear customers. 関係者各位 — To all concerned.",
+      "example_sentence": "お取引先 各位",
+      "example_reading": "おとりひきさき かくい",
+      "example_meaning": "Dear Business Partners"
+    },
+    {
+      "word": "御社",
+      "reading": "おんしゃ",
+      "meanings": [
+        "your company (formal, spoken)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "あなたの会社",
+      "category": "formal_address_titles",
+      "context": "Used in speech. Written equivalent is 貴社. Pairs with humble 弊社 (our company).",
+      "example_sentence": "御社の理念に共感しました。",
+      "example_reading": "おんしゃ の りねん に きょうかん しました。",
+      "example_meaning": "I resonate with your company's philosophy."
+    },
+    {
+      "word": "貴社",
+      "reading": "きしゃ",
+      "meanings": [
+        "your company (formal, written)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "御社",
+      "category": "formal_address_titles",
+      "context": "Written form. Used in letters and emails. 貴社の益々のご発展をお祈り申し上げます — wishing your company further prosperity.",
+      "example_sentence": "貴社の益々のご発展をお祈り申し上げます。",
+      "example_reading": "きしゃ の ますます の ご はってん を お いのり もうしあげます。",
+      "example_meaning": "I wish your company continued prosperity."
+    },
+    {
+      "word": "お客様",
+      "reading": "おきゃくさま",
+      "meanings": [
+        "customer (most polite)",
+        "esteemed guest"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お客さん",
+      "category": "customer_service_keigo",
+      "context": "More formal than お客さん. Default in shops/restaurants. 'お客様は神様です' — the customer is god (a maxim).",
+      "example_sentence": "お客様、ご注文はお決まりですか。",
+      "example_reading": "おきゃくさま、 ご ちゅうもん は お きまり ですか。",
+      "example_meaning": "Madam/Sir, have you decided on your order?"
+    },
+    {
+      "word": "皆様",
+      "reading": "みなさま",
+      "meanings": [
+        "everyone (most polite)",
+        "ladies and gentlemen"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "皆さん",
+      "category": "formal_address_titles",
+      "context": "More formal than 皆さん. Speech/announcement opener. 皆様、こんばんは — Good evening, ladies and gentlemen.",
+      "example_sentence": "皆様、本日はお越しいただきありがとうございます。",
+      "example_reading": "みなさま、 ほんじつ は おこし いただき ありがとう ございます。",
+      "example_meaning": "Thank you all for coming today."
+    },
+    {
+      "word": "ようこそ",
+      "reading": "ようこそ",
+      "meanings": [
+        "welcome"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いらっしゃい",
+      "category": "customer_service_keigo",
+      "context": "Hotels, events, airports. ようこそ日本へ — welcome to Japan. ようこそお越しくださいました — welcome / thank you for coming.",
+      "example_sentence": "ようこそお越しくださいました。",
+      "example_reading": "ようこそ おこし くださいました。",
+      "example_meaning": "Welcome — thank you for coming."
+    },
+    {
+      "word": "いらっしゃいませ",
+      "reading": "いらっしゃいませ",
+      "meanings": [
+        "welcome (customer service)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ようこそ",
+      "category": "customer_service_keigo",
+      "context": "The cheerful shop/restaurant greeting heard everywhere. From いらっしゃる + ませ (honorific imperative).",
+      "example_sentence": "いらっしゃいませ、何名様ですか。",
+      "example_reading": "いらっしゃいませ、 なんめい さま ですか。",
+      "example_meaning": "Welcome — how many in your party?"
+    },
+    {
+      "word": "〜でいらっしゃる",
+      "reading": "でいらっしゃる",
+      "meanings": [
+        "to be (honorific copula)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "です",
+      "category": "customer_service_keigo",
+      "context": "Honorific copula. 田中様でいらっしゃいますか — are you Mr. Tanaka? Standard at reception and on phone.",
+      "example_sentence": "田中様でいらっしゃいますか。",
+      "example_reading": "たなか さま で いらっしゃいます か。",
+      "example_meaning": "Are you Mr. Tanaka?"
+    },
+    {
+      "word": "〜くださいませ",
+      "reading": "くださいませ",
+      "meanings": [
+        "please (most polite imperative)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ください",
+      "category": "customer_service_keigo",
+      "context": "ませ adds a final layer of polish. お待ちくださいませ — please wait (department-store register).",
+      "example_sentence": "少々お待ちくださいませ。",
+      "example_reading": "しょうしょう おまち くださいませ。",
+      "example_meaning": "Please wait a moment."
+    },
+    {
+      "word": "ご機嫌よう",
+      "reading": "ごきげんよう",
+      "meanings": [
+        "how do you do",
+        "goodbye (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "こんにちは・さようなら",
+      "category": "formal_address_titles",
+      "context": "Old-fashioned, very formal greeting. Heard in upper-class settings and traditional schools.",
+      "example_sentence": "ご機嫌よう、皆様。",
+      "example_reading": "ご きげん よう、 みなさま。",
+      "example_meaning": "Good day to you all."
+    },
+    {
+      "word": "お疲れ様でございます",
+      "reading": "おつかれさまでございます",
+      "meanings": [
+        "thank you for your hard work (very formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お疲れ様です",
+      "category": "customer_service_keigo",
+      "context": "Upgrade of お疲れ様です. Heard from front-desk staff and used in formal email to higher-ups.",
+      "example_sentence": "お疲れ様でございます、田中でございます。",
+      "example_reading": "おつかれさま で ございます、 たなか で ございます。",
+      "example_meaning": "Thank you for your hard work — this is Tanaka."
+    },
+    {
+      "word": "〜ていらっしゃる",
+      "reading": "ていらっしゃる",
+      "meanings": [
+        "is doing (honorific)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ている",
+      "category": "honorific_passive",
+      "context": "Honorific 〜ている. 先生は休んでいらっしゃいます — the teacher is resting. Standard in offices and shops.",
+      "example_sentence": "何をなさっていらっしゃいますか。",
+      "example_reading": "なに を なさって いらっしゃいます か。",
+      "example_meaning": "What are you doing?"
+    },
+    {
+      "word": "〜くださる",
+      "reading": "くださる",
+      "meanings": [
+        "honorific suffix (do for me)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜してくれる",
+      "category": "honorific_passive",
+      "context": "As a suffix: 教えてくださる — honorably teaches me. Past form 教えてくださった — thank you for teaching me.",
+      "example_sentence": "教えてくださってありがとうございます。",
+      "example_reading": "おしえて くださって ありがとう ございます。",
+      "example_meaning": "Thank you for teaching me."
+    },
+    {
+      "word": "〜ていただく",
+      "reading": "ていただく",
+      "meanings": [
+        "humbly have someone do",
+        "may I (humble request)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜してもらう",
+      "category": "set_phrases_announcement",
+      "context": "Humble counterpart to 〜てくださる, but listener-elevating in effect. 説明していただけますか — could you (humbly) explain? Workhorse business form.",
+      "example_sentence": "少々お時間をいただけますでしょうか。",
+      "example_reading": "しょうしょう お じかん を いただけます でしょうか。",
+      "example_meaning": "May I have a moment of your time?"
+    },
+    {
+      "word": "〜いただけませんか",
+      "reading": "いただけませんか",
+      "meanings": [
+        "could you please…? (most polite request)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "してくれませんか",
+      "category": "set_phrases_announcement",
+      "context": "Most polite request form. 教えていただけませんか — could you please tell me? Step above 〜てください.",
+      "example_sentence": "こちらにお名前をご記入いただけませんか。",
+      "example_reading": "こちら に お なまえ を ご きにゅう いただけません か。",
+      "example_meaning": "Could you please write your name here?"
+    },
+    {
+      "word": "ただ今",
+      "reading": "ただいま",
+      "meanings": [
+        "right now (formal)",
+        "just now (formal)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "今",
+      "category": "set_phrases_announcement",
+      "context": "Different from the 'I'm home' ただいま — same word, different register. ただ今、参ります — coming right now. Announcement classic.",
+      "example_sentence": "ただ今、確認いたします。",
+      "example_reading": "ただいま、 かくにん いたします。",
+      "example_meaning": "I'll check right now."
+    },
+    {
+      "word": "本日",
+      "reading": "ほんじつ",
+      "meanings": [
+        "today (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "今日",
+      "category": "set_phrases_announcement",
+      "context": "Formal version of 今日. Used in announcements and signs: 本日は休業 — closed today. 本日のおすすめ — today's recommendation.",
+      "example_sentence": "本日はご来店ありがとうございます。",
+      "example_reading": "ほんじつ は ごらいてん ありがとう ございます。",
+      "example_meaning": "Thank you for visiting today."
+    },
+    {
+      "word": "明日",
+      "reading": "みょうにち",
+      "meanings": [
+        "tomorrow (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "あした",
+      "category": "set_phrases_announcement",
+      "context": "Same kanji as あした but read みょうにち in formal contexts. Business letters, broadcasts: 明日も営業いたします.",
+      "example_sentence": "明日、改めてご連絡申し上げます。",
+      "example_reading": "みょうにち、 あらためて ご れんらく もうしあげます。",
+      "example_meaning": "I will contact you again tomorrow."
+    },
+    {
+      "word": "先日",
+      "reading": "せんじつ",
+      "meanings": [
+        "the other day (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "この間",
+      "category": "set_phrases_announcement",
+      "context": "Formal この間. Used as a polite opener to refer to recent past. 先日はお世話になりました — thank you for the other day.",
+      "example_sentence": "先日は大変お世話になりました。",
+      "example_reading": "せんじつ は たいへん おせわ に なりました。",
+      "example_meaning": "Thank you very much for the other day."
+    },
+    {
+      "word": "後ほど",
+      "reading": "のちほど",
+      "meanings": [
+        "later on (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "あとで",
+      "category": "set_phrases_announcement",
+      "context": "Formal あとで. 後ほどご連絡いたします — I'll contact you later. Phone/email staple.",
+      "example_sentence": "後ほどお電話差し上げます。",
+      "example_reading": "のちほど お でんわ さしあげます。",
+      "example_meaning": "I'll give you a call later."
+    },
+    {
+      "word": "〜致します",
+      "reading": "いたします",
+      "meanings": [
+        "to do (humble)",
+        "I will (humble)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "します",
+      "category": "set_phrases_announcement",
+      "context": "Kanji form of いたす. Used heavily in formal announcements. お知らせ致します — I (humbly) inform.",
+      "example_sentence": "開始致します。",
+      "example_reading": "かいし いたします。",
+      "example_meaning": "We will now begin."
+    },
+    {
+      "word": "〜について",
+      "reading": "について",
+      "meanings": [
+        "regarding (formal)",
+        "about"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のこと",
+      "category": "email_letter_formal",
+      "context": "Already in N3 Essentials. 〜につきまして is the upgraded business form.",
+      "example_sentence": "先日の件についてお伺いします。",
+      "example_reading": "せんじつ の けん に ついて お うかがい します。",
+      "example_meaning": "I'd like to inquire about the other day's matter."
+    },
+    {
+      "word": "〜につきまして",
+      "reading": "につきまして",
+      "meanings": [
+        "regarding (very formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜について",
+      "category": "email_letter_formal",
+      "context": "Business-email-formal version of について. その件につきまして — regarding that matter.",
+      "example_sentence": "ご質問につきまして、回答いたします。",
+      "example_reading": "ご しつもん に つきまして、 かいとう いたします。",
+      "example_meaning": "I will respond regarding your question."
+    },
+    {
+      "word": "〜に関しまして",
+      "reading": "にかんしまして",
+      "meanings": [
+        "concerning (very formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "〜について",
+      "category": "email_letter_formal",
+      "context": "Most-formal version. Press releases, corporate statements: 本件に関しまして、お詫び申し上げます — regarding this matter, we apologize.",
+      "example_sentence": "本件に関しまして、ご報告申し上げます。",
+      "example_reading": "ほんけん に かんしまして、 ご ほうこく もうしあげます。",
+      "example_meaning": "Regarding this matter, I respectfully report."
+    },
+    {
+      "word": "〜の件",
+      "reading": "のけん",
+      "meanings": [
+        "the matter of…",
+        "regarding (formal)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のこと",
+      "category": "email_letter_formal",
+      "context": "〇〇の件、承知いたしました — understood regarding the matter of 〇〇. Email-subject standard.",
+      "example_sentence": "昨日の会議の件、ご連絡いたします。",
+      "example_reading": "きのう の かいぎ の けん、 ご れんらく いたします。",
+      "example_meaning": "Regarding yesterday's meeting, I'm writing to you."
+    },
+    {
+      "word": "〜の旨",
+      "reading": "のむね",
+      "meanings": [
+        "to the effect that…",
+        "the gist that…"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜という意味",
+      "category": "email_letter_formal",
+      "context": "参加する旨をお伝えください — please convey that you'll attend. Used to summarize the content of a message.",
+      "example_sentence": "出席する旨をお伝えください。",
+      "example_reading": "しゅっせき する むね を お つたえ ください。",
+      "example_meaning": "Please convey that I will attend."
+    },
+    {
+      "word": "〜より",
+      "reading": "より",
+      "meanings": [
+        "from (formal)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜から",
+      "category": "email_letter_formal",
+      "context": "In formal contexts より replaces から. 営業部より — from the sales department. Sign-off: 田中より.",
+      "example_sentence": "田中より、よろしくお伝えください。",
+      "example_reading": "たなか より、 よろしく お つたえ ください。",
+      "example_meaning": "Please give my regards (from Tanaka)."
+    },
+    {
+      "word": "平素より",
+      "reading": "へいそより",
+      "meanings": [
+        "always",
+        "customarily (formal letter opener)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "いつも",
+      "category": "email_letter_formal",
+      "context": "Letter opener: 平素より格別のご高配を賜り、誠にありがとうございます — thank you for your continued patronage. Stilted but standard.",
+      "example_sentence": "平素よりお世話になっております。",
+      "example_reading": "へいそ より おせわ に なって おります。",
+      "example_meaning": "Thank you as always for your support."
+    },
+    {
+      "word": "益々のご発展",
+      "reading": "ますますのごはってん",
+      "meanings": [
+        "continued prosperity (formal letter)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "発展を祈る",
+      "category": "email_letter_formal",
+      "context": "Closing well-wish for business letters. 貴社の益々のご発展をお祈り申し上げます — wishing your company continued prosperity.",
+      "example_sentence": "貴社の益々のご発展をお祈り申し上げます。",
+      "example_reading": "きしゃ の ますます の ご はってん を お いのり もうしあげます。",
+      "example_meaning": "I wish your company continued prosperity."
+    },
+    {
+      "word": "お祈り申し上げます",
+      "reading": "おいのりもうしあげます",
+      "meanings": [
+        "I pray (formal well-wishing)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "祈ります",
+      "category": "email_letter_formal",
+      "context": "Closing of formal letters. ご健勝をお祈り申し上げます — wishing you good health. Highest-register well-wish.",
+      "example_sentence": "皆様のご健康をお祈り申し上げます。",
+      "example_reading": "みなさま の ご けんこう を お いのり もうしあげます。",
+      "example_meaning": "I pray for everyone's good health."
+    },
+    {
+      "word": "開店",
+      "reading": "かいてん",
+      "meanings": [
+        "opening (of a shop)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "店を開ける",
+      "category": "set_phrases_announcement",
+      "context": "開店時間 — opening hours. 開店記念 — opening anniversary. Department-store announcement vocabulary.",
+      "example_sentence": "本日も10時に開店いたします。",
+      "example_reading": "ほんじつ も じゅうじ に かいてん いたします。",
+      "example_meaning": "We open at 10 today as well."
+    },
+    {
+      "word": "閉店",
+      "reading": "へいてん",
+      "meanings": [
+        "closing (of a shop)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "店を閉める",
+      "category": "set_phrases_announcement",
+      "context": "閉店時間 — closing time. 閉店間際 — just before closing. 閉店セール — closing-down sale.",
+      "example_sentence": "まもなく閉店のお時間でございます。",
+      "example_reading": "まもなく へいてん の お じかん で ございます。",
+      "example_meaning": "We will be closing shortly."
+    },
+    {
+      "word": "発車",
+      "reading": "はっしゃ",
+      "meanings": [
+        "departure (of vehicle, formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "出発",
+      "category": "set_phrases_announcement",
+      "context": "Train/bus announcement. まもなく発車いたします — we will be departing shortly. 発車ベル — departure bell.",
+      "example_sentence": "電車が発車いたします、ご注意ください。",
+      "example_reading": "でんしゃ が はっしゃ いたします、 ご ちゅうい ください。",
+      "example_meaning": "The train is departing — please be careful."
+    },
+    {
+      "word": "到着",
+      "reading": "とうちゃく",
+      "meanings": [
+        "arrival (formal)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "着く",
+      "category": "set_phrases_announcement",
+      "context": "Pairs with 発車. まもなく〇〇駅に到着いたします — we will soon arrive at 〇〇 station. Transit standard.",
+      "example_sentence": "まもなく東京駅に到着いたします。",
+      "example_reading": "まもなく とうきょう えき に とうちゃく いたします。",
+      "example_meaning": "We will soon arrive at Tokyo Station."
+    }
+  ]
+}
