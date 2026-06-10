@@ -132,6 +132,10 @@ function pickNextInSeries(
       reason: (next) => `Next level: ${next.toUpperCase().replace("KANJI-JLPT-", "")}`,
     },
     {
+      ids: ["vocab-jlpt-n5", "vocab-jlpt-n4", "vocab-jlpt-n3", "vocab-jlpt-n2", "vocab-jlpt-n1"],
+      reason: (next) => `Next level: ${next.toUpperCase().replace("VOCAB-JLPT-", "")} vocabulary`,
+    },
+    {
       ids: [
         "kanji-jouyou-g1",
         "kanji-jouyou-g2",

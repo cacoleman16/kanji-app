@@ -23,8 +23,8 @@ export const RELEASE_NOTES: ReleaseNote[] = [
     version: "1.0.0-beta.1",
     title: "Welcome to the Kanjido beta",
     highlights: [
-      "47 default decks: kana, radicals, JLPT N5–N1, Jōyō, themed vocab, grammar",
-      "New: Radicals deck, Katakana false-friends, Greetings, N5 grammar",
+      "52 decks / 14,700+ cards: kana, radicals, JLPT kanji + vocab N5–N1, Jōyō",
+      "New: full JLPT vocabulary lists, Radicals, Katakana false-friends, Greetings",
       "Per-card review history — peek any card to see when you last saw it",
       "Custom decks via paste import or Anki .apkg",
     ],

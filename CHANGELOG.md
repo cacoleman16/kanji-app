@@ -8,14 +8,15 @@ period; 1.0.0-beta.1 is the first TestFlight-ready build.
 
 First TestFlight-ready release. Migrated from a single 1.2 MB
 `kanji-app.html` PWA to a Vite + React + TypeScript codebase wired for
-Capacitor iOS, with a freemium model, 47 default decks, and 5,936
-JMdict-derived examples on default kanji cards.
+Capacitor iOS, with a freemium model, 52 default decks (14,736 cards),
+and 5,936 JMdict-derived examples on default kanji cards.
 
 ### Added — content
-- **47 default decks** spanning 6 categories:
+- **52 default decks** spanning 7 categories:
   - Kana × 2 (Hiragana, Katakana) — free, with paired-kana + dakuten/handakuten variants + real example words on the back
   - **Radicals & Components (部首)** — 87 building blocks with Japanese radical names, position variants (亻 vs 人, 氵 vs 水), look-alike warnings (礻 vs 衤), and phonetic components that unlock on-reading guesses
-  - JLPT × 5 (N5 free, N4–N1 Pro)
+  - JLPT kanji × 5 (N5 free, N4–N1 Pro)
+  - **JLPT vocabulary × 5 (N5–N1, 7,836 words)** — the standard Waller lists, deduplicated across levels, built by `scripts/build-jlpt-vocab-decks.mjs`
   - Frequency tiers × 3 (Top 100 / 500 / 1,000)
   - Jōyō by grade × 7 (1–6 + Secondary)
   - Themed vocab × 21 (Numbers, Time, Counters, Body, Family, Food, Verbs, Adjectives, Verb pairs, Onomatopoeia, Travel, Weather, Office, Restaurant, Medical, Colors, Animals, Emotions, Proverbs, **School & Study, Tech & Appliances, Trains & Directions, Shopping & Money**)

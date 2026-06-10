@@ -94,6 +94,13 @@ const ORDER: Record<string, number> = {
   "vocab-phrases-greetings": 45,
   "vocab-katakana-words": 47,
 
+  // JLPT vocabulary progression (Pro)
+  "vocab-jlpt-n5": 60,
+  "vocab-jlpt-n4": 62,
+  "vocab-jlpt-n3": 64,
+  "vocab-jlpt-n2": 66,
+  "vocab-jlpt-n1": 68,
+
   // Radicals — the on-ramp to kanji proper
   "kanji-radicals": 90,
 
