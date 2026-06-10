@@ -243,7 +243,12 @@ describe("parseImport", () => {
 describe("updateStreak", () => {
   it("first-ever review sets current=1 and lastActiveDay", () => {
     const next = updateStreak({ current: 0, longest: 0, lastActiveDay: null }, "2026-04-17");
-    expect(next).toEqual({ current: 1, longest: 1, lastActiveDay: "2026-04-17" });
+    expect(next).toEqual({
+      current: 1,
+      longest: 1,
+      lastActiveDay: "2026-04-17",
+      graceUsedAt: null,
+    });
   });
 
   it("same-day review is a no-op", () => {
@@ -257,10 +262,46 @@ describe("updateStreak", () => {
     expect(next.longest).toBe(10);
   });
 
-  it("a gap resets current to 1 but preserves longest", () => {
-    const next = updateStreak({ current: 5, longest: 10, lastActiveDay: "2026-04-17" }, "2026-04-19");
+  it("a 3+ day gap resets current to 1 but preserves longest", () => {
+    const next = updateStreak({ current: 5, longest: 10, lastActiveDay: "2026-04-17" }, "2026-04-20");
     expect(next.current).toBe(1);
     expect(next.longest).toBe(10);
+    expect(next.graceUsedAt).toBeNull(); // fresh run, grace restored
+  });
+
+  it("one missed day is forgiven via the grace (gap of 2)", () => {
+    const next = updateStreak({ current: 30, longest: 30, lastActiveDay: "2026-04-17" }, "2026-04-19");
+    expect(next.current).toBe(31); // continues; the missed day isn't credited
+    expect(next.graceUsedAt).toBe("2026-04-19");
+  });
+
+  it("a second missed day in the same run breaks the streak", () => {
+    const afterGrace = updateStreak(
+      { current: 30, longest: 30, lastActiveDay: "2026-04-17" },
+      "2026-04-19",
+    );
+    // Streak continues normally for a while…
+    const cont = updateStreak(afterGrace, "2026-04-20");
+    expect(cont.current).toBe(32);
+    expect(cont.graceUsedAt).toBe("2026-04-19"); // grace stays spent
+    // …then a second 2-day gap is NOT forgiven.
+    const broken = updateStreak(cont, "2026-04-22");
+    expect(broken.current).toBe(1);
+    expect(broken.graceUsedAt).toBeNull();
+  });
+
+  it("grace is restored after a full reset", () => {
+    const broken = updateStreak(
+      { current: 9, longest: 9, lastActiveDay: "2026-04-17", graceUsedAt: "2026-04-10" },
+      "2026-04-25",
+    );
+    expect(broken.current).toBe(1);
+    expect(broken.graceUsedAt).toBeNull();
+    // The new run can use its grace again.
+    const d2 = updateStreak(broken, "2026-04-26");
+    const graced = updateStreak(d2, "2026-04-28"); // gap of 2
+    expect(graced.current).toBe(3);
+    expect(graced.graceUsedAt).toBe("2026-04-28");
   });
 });
 

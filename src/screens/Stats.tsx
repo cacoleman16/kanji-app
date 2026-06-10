@@ -210,6 +210,13 @@ export function Stats({ state, onBack }: StatsProps) {
             {state.streak.longest}
             <span className="stat-unit">d</span>
           </div>
+          {state.streak.current > 0 && (
+            <div className="stat-footnote">
+              {state.streak.graceUsedAt
+                ? "Grace day used this run"
+                : "1 grace day available — one miss won't break it"}
+            </div>
+          )}
         </div>
       </div>
 

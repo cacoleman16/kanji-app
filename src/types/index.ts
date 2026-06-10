@@ -200,6 +200,12 @@ export interface Streak {
   longest: number;
   /** ISO yyyy-mm-dd of last day with a review, or null. */
   lastActiveDay: string | null;
+  /**
+   * ISO yyyy-mm-dd of the day a grace (streak freeze) was consumed for the
+   * CURRENT streak run, or absent when the grace is still available. One
+   * missed day per run is forgiven; the field resets when the streak does.
+   */
+  graceUsedAt?: string | null;
 }
 
 // ============================================================

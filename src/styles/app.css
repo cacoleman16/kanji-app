@@ -1735,6 +1735,14 @@
     color: #fff;
   }
 
+  /* Small footnote under a stat-card value (e.g. streak grace status). */
+  .stat-footnote {
+    margin-top: 6px;
+    font-size: 10px;
+    line-height: 1.4;
+    color: var(--text-dim);
+  }
+
   /* ---------- Empty-state callouts ---------- */
   .empty-state {
     text-align: center;

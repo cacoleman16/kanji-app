@@ -158,16 +158,51 @@ export function daysBetween(a: string, b: string): number {
   return Math.round((d2.getTime() - d1.getTime()) / (24 * 60 * 60 * 1000));
 }
 
+/**
+ * Advance the streak for a review on `nowStr`.
+ *
+ * Grace day: ONE missed day per streak run is forgiven — a gap of exactly
+ * 2 days continues the streak (without crediting the missed day) and
+ * stamps `graceUsedAt`. A second 2-day gap in the same run, or any gap of
+ * 3+ days, resets to 1 and returns the grace. This keeps a 30-day streak
+ * from dying to a single sick day while still requiring near-daily play.
+ */
 export function updateStreak(streak: AppState["streak"], nowStr: string): AppState["streak"] {
   if (streak.lastActiveDay === nowStr) return streak; // already counted
   if (!streak.lastActiveDay) {
-    return { current: 1, longest: Math.max(1, streak.longest), lastActiveDay: nowStr };
+    return {
+      current: 1,
+      longest: Math.max(1, streak.longest),
+      lastActiveDay: nowStr,
+      graceUsedAt: null,
+    };
   }
   const gap = daysBetween(streak.lastActiveDay, nowStr);
-  const current = gap === 1 ? streak.current + 1 : 1;
+  if (gap === 1) {
+    const current = streak.current + 1;
+    return {
+      current,
+      longest: Math.max(streak.longest, current),
+      lastActiveDay: nowStr,
+      graceUsedAt: streak.graceUsedAt ?? null,
+    };
+  }
+  if (gap === 2 && !streak.graceUsedAt) {
+    // Missed exactly one day and the grace is unspent: forgive it. The
+    // missed day itself doesn't count — current only ticks for today.
+    const current = streak.current + 1;
+    return {
+      current,
+      longest: Math.max(streak.longest, current),
+      lastActiveDay: nowStr,
+      graceUsedAt: nowStr,
+    };
+  }
+  // Streak broken — start a fresh run with the grace restored.
   return {
-    current,
-    longest: Math.max(streak.longest, current),
+    current: 1,
+    longest: Math.max(streak.longest, 1),
     lastActiveDay: nowStr,
+    graceUsedAt: null,
   };
 }
