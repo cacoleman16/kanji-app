@@ -1,0 +1,2500 @@
+{
+  "deck_id": "kanji-radicals",
+  "deck_name": "Radicals & Components (部首)",
+  "subtitle": "The building blocks — learn these, decode everything else",
+  "version": "1.0",
+  "card_count": 87,
+  "notes": "The most productive radicals and components, with Japanese radical names, position variants (亻 vs 人, 氵 vs 水), look-alike warnings (礻 vs 衤), and phonetic components that unlock on-reading guesses.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge kanji composition).",
+  "cards": [
+    {
+      "kanji": "亻",
+      "meanings": [
+        "person",
+        "human"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "person (left)",
+      "etymology": "にんべん — 人 squeezed to the left side. The single most common radical; almost always means the kanji is about people or what people do.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "休",
+          "kana": "やすむ",
+          "meaning": "rest (a person against a tree)"
+        },
+        {
+          "kanji": "何",
+          "kana": "なに",
+          "meaning": "what"
+        },
+        {
+          "kanji": "作",
+          "kana": "つくる",
+          "meaning": "make"
+        }
+      ]
+    },
+    {
+      "kanji": "人",
+      "meanings": [
+        "person",
+        "human"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "person",
+      "etymology": "ひと — two legs walking. As a component on the bottom or right it keeps this shape; on the left it becomes 亻.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "人口",
+          "kana": "じんこう",
+          "meaning": "population"
+        },
+        {
+          "kanji": "大人",
+          "kana": "おとな",
+          "meaning": "adult"
+        }
+      ]
+    },
+    {
+      "kanji": "女",
+      "meanings": [
+        "woman",
+        "female"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "woman",
+      "etymology": "おんなへん on the left. A kneeling figure in the oldest forms. Signals female, relationships, or (in older coinages) flattering/unflattering social judgments.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "好",
+          "kana": "すき",
+          "meaning": "like (woman + child)"
+        },
+        {
+          "kanji": "姉",
+          "kana": "あね",
+          "meaning": "older sister"
+        },
+        {
+          "kanji": "安",
+          "kana": "やすい",
+          "meaning": "cheap, peaceful (woman under a roof)"
+        }
+      ]
+    },
+    {
+      "kanji": "子",
+      "meanings": [
+        "child"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "child",
+      "etymology": "こ — a swaddled baby with outstretched arms. Bottom or right position. Pairs with 女 in 好 'like'.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "字",
+          "kana": "じ",
+          "meaning": "character, letter (child under a roof learning)"
+        },
+        {
+          "kanji": "学",
+          "kana": "がく",
+          "meaning": "study"
+        }
+      ]
+    },
+    {
+      "kanji": "力",
+      "meanings": [
+        "power",
+        "strength"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "power",
+      "etymology": "ちから — a flexed arm. Signals effort, force, muscle.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "男",
+          "kana": "おとこ",
+          "meaning": "man (power in the rice field)"
+        },
+        {
+          "kanji": "助",
+          "kana": "たすける",
+          "meaning": "help"
+        },
+        {
+          "kanji": "働",
+          "kana": "はたらく",
+          "meaning": "work"
+        }
+      ]
+    },
+    {
+      "kanji": "心",
+      "meanings": [
+        "heart",
+        "mind",
+        "feeling"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "heart",
+      "etymology": "こころ — a stylized heart. At the bottom of a kanji it means emotion or thought; squeezed to the left it becomes 忄(りっしんべん).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "思",
+          "kana": "おもう",
+          "meaning": "think (heart under a rice field/brain)"
+        },
+        {
+          "kanji": "悪",
+          "kana": "わるい",
+          "meaning": "bad"
+        },
+        {
+          "kanji": "感",
+          "kana": "かん",
+          "meaning": "feeling"
+        }
+      ]
+    },
+    {
+      "kanji": "忄",
+      "meanings": [
+        "feeling",
+        "emotion"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "heart (left)",
+      "etymology": "りっしんべん — 心 compressed to the left side. Same meaning as 心: the kanji is about an emotion or state of mind.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "忙",
+          "kana": "いそがしい",
+          "meaning": "busy (heart + dying — your heart is dying)"
+        },
+        {
+          "kanji": "怖",
+          "kana": "こわい",
+          "meaning": "scary"
+        },
+        {
+          "kanji": "性",
+          "kana": "せい",
+          "meaning": "nature, gender"
+        }
+      ]
+    },
+    {
+      "kanji": "手",
+      "meanings": [
+        "hand"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "hand",
+      "etymology": "て — five fingers on a palm. As a left-side radical it compresses to 扌(てへん).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "手紙",
+          "kana": "てがみ",
+          "meaning": "letter"
+        },
+        {
+          "kanji": "上手",
+          "kana": "じょうず",
+          "meaning": "skilled"
+        }
+      ]
+    },
+    {
+      "kanji": "扌",
+      "meanings": [
+        "hand",
+        "action"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "hand (left)",
+      "etymology": "てへん — 手 squeezed to the left. Marks hands-on actions: holding, throwing, pushing, picking up.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "持",
+          "kana": "もつ",
+          "meaning": "hold"
+        },
+        {
+          "kanji": "押",
+          "kana": "おす",
+          "meaning": "push"
+        },
+        {
+          "kanji": "投",
+          "kana": "なげる",
+          "meaning": "throw"
+        }
+      ]
+    },
+    {
+      "kanji": "足",
+      "meanings": [
+        "foot",
+        "leg",
+        "sufficient"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "foot",
+      "etymology": "あし — a kneecap over a footprint. As a left radical (あしへん) it marks leg actions: run, jump, kick, step.",
+      "stroke_count": 7,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "走",
+          "kana": "はしる",
+          "meaning": "run"
+        },
+        {
+          "kanji": "路",
+          "kana": "ろ",
+          "meaning": "road"
+        },
+        {
+          "kanji": "踊",
+          "kana": "おどる",
+          "meaning": "dance"
+        }
+      ]
+    },
+    {
+      "kanji": "口",
+      "meanings": [
+        "mouth",
+        "opening"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "mouth",
+      "etymology": "くち — an open mouth. Signals speaking, eating, or any opening/entrance. One of the most reused components in the whole writing system.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "味",
+          "kana": "あじ",
+          "meaning": "taste"
+        },
+        {
+          "kanji": "叫",
+          "kana": "さけぶ",
+          "meaning": "shout"
+        },
+        {
+          "kanji": "問",
+          "kana": "もん",
+          "meaning": "question (a mouth at the gate)"
+        }
+      ]
+    },
+    {
+      "kanji": "目",
+      "meanings": [
+        "eye"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "eye",
+      "etymology": "め — an eye turned on its side. Signals seeing and attention.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "見",
+          "kana": "みる",
+          "meaning": "see (an eye on legs)"
+        },
+        {
+          "kanji": "眠",
+          "kana": "ねむる",
+          "meaning": "sleep"
+        }
+      ]
+    },
+    {
+      "kanji": "耳",
+      "meanings": [
+        "ear"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "ear",
+      "etymology": "みみ — an ear in profile. Signals hearing.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "聞",
+          "kana": "きく",
+          "meaning": "hear (an ear at the gate)"
+        },
+        {
+          "kanji": "取",
+          "kana": "とる",
+          "meaning": "take (grabbing by the ear)"
+        }
+      ]
+    },
+    {
+      "kanji": "言",
+      "meanings": [
+        "say",
+        "words",
+        "speech"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "say",
+      "etymology": "ごんべん on the left — sound waves rising from a mouth. Marks the huge family of speech kanji: talk, read, language, translate, promise.",
+      "stroke_count": 7,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "話",
+          "kana": "はなす",
+          "meaning": "talk"
+        },
+        {
+          "kanji": "読",
+          "kana": "よむ",
+          "meaning": "read"
+        },
+        {
+          "kanji": "語",
+          "kana": "ご",
+          "meaning": "language"
+        }
+      ]
+    },
+    {
+      "kanji": "見",
+      "meanings": [
+        "see",
+        "look"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "see",
+      "etymology": "みる — an eye (目) on legs (儿): a walking eyeball. Appears on the right in observation kanji.",
+      "stroke_count": 7,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "親",
+          "kana": "おや",
+          "meaning": "parent (watches over you from a tree)"
+        },
+        {
+          "kanji": "規",
+          "kana": "き",
+          "meaning": "rule, standard"
+        }
+      ]
+    },
+    {
+      "kanji": "日",
+      "meanings": [
+        "sun",
+        "day"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "sun / day",
+      "etymology": "ひ／にち — the sun with a spot in it. Top, bottom, left (ひへん) — anywhere. Signals time, light, weather.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "明",
+          "kana": "あかるい",
+          "meaning": "bright (sun + moon)"
+        },
+        {
+          "kanji": "時",
+          "kana": "とき",
+          "meaning": "time"
+        },
+        {
+          "kanji": "曜",
+          "kana": "よう",
+          "meaning": "weekday"
+        }
+      ]
+    },
+    {
+      "kanji": "月",
+      "meanings": [
+        "moon",
+        "month",
+        "body part"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "moon / flesh",
+      "etymology": "つき — but beware: on the LEFT of body kanji it's actually にくづき, the flattened form of 肉 'meat'. 腕 arm, 腰 hip, 肝 liver — those are flesh, not moons.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "明",
+          "kana": "あかるい",
+          "meaning": "bright"
+        },
+        {
+          "kanji": "服",
+          "kana": "ふく",
+          "meaning": "clothes (worn on the flesh)"
+        },
+        {
+          "kanji": "腕",
+          "kana": "うで",
+          "meaning": "arm"
+        }
+      ]
+    },
+    {
+      "kanji": "木",
+      "meanings": [
+        "tree",
+        "wood"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "tree",
+      "etymology": "き — trunk, branches, roots. As きへん on the left it marks trees, wood, and wooden things.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "林",
+          "kana": "はやし",
+          "meaning": "grove (two trees)"
+        },
+        {
+          "kanji": "森",
+          "kana": "もり",
+          "meaning": "forest (three trees)"
+        },
+        {
+          "kanji": "机",
+          "kana": "つくえ",
+          "meaning": "desk"
+        }
+      ]
+    },
+    {
+      "kanji": "水",
+      "meanings": [
+        "water"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "water",
+      "etymology": "みず — a stream with droplets. On the left it compresses to the three splashes 氵(さんずい).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "水曜日",
+          "kana": "すいようび",
+          "meaning": "Wednesday"
+        },
+        {
+          "kanji": "氷",
+          "kana": "こおり",
+          "meaning": "ice (water with one frozen drop)"
+        }
+      ]
+    },
+    {
+      "kanji": "氵",
+      "meanings": [
+        "water",
+        "liquid"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "water (left)",
+      "etymology": "さんずい — three splashes of water down the left side. Marks liquids, seas, washing, swimming. One of the top-3 most common radicals.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "海",
+          "kana": "うみ",
+          "meaning": "sea"
+        },
+        {
+          "kanji": "泳",
+          "kana": "およぐ",
+          "meaning": "swim"
+        },
+        {
+          "kanji": "酒",
+          "kana": "さけ",
+          "meaning": "alcohol"
+        }
+      ]
+    },
+    {
+      "kanji": "火",
+      "meanings": [
+        "fire"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "fire",
+      "etymology": "ひ — flames rising. At the bottom of a kanji it flattens into four dots 灬 (れっか) — 熱 hot, 焼 grill, 点 point all carry fire.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "火曜日",
+          "kana": "かようび",
+          "meaning": "Tuesday"
+        },
+        {
+          "kanji": "焼",
+          "kana": "やく",
+          "meaning": "grill, burn"
+        }
+      ]
+    },
+    {
+      "kanji": "土",
+      "meanings": [
+        "earth",
+        "soil",
+        "ground"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "earth",
+      "etymology": "つち — a mound of soil on the ground line. つちへん on the left marks ground, terrain, places.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "地",
+          "kana": "ち",
+          "meaning": "ground, place"
+        },
+        {
+          "kanji": "場",
+          "kana": "ば",
+          "meaning": "place"
+        },
+        {
+          "kanji": "坂",
+          "kana": "さか",
+          "meaning": "slope"
+        }
+      ]
+    },
+    {
+      "kanji": "山",
+      "meanings": [
+        "mountain"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "mountain",
+      "etymology": "やま — three peaks. Any position. Signals mountains and steepness.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "岩",
+          "kana": "いわ",
+          "meaning": "boulder (mountain rock)"
+        },
+        {
+          "kanji": "島",
+          "kana": "しま",
+          "meaning": "island (a bird's mountain)"
+        }
+      ]
+    },
+    {
+      "kanji": "川",
+      "meanings": [
+        "river",
+        "stream"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "river",
+      "etymology": "かわ — three lines of flowing water. Compare 州 (sandbanks in the stream).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "州",
+          "kana": "しゅう",
+          "meaning": "state, province"
+        },
+        {
+          "kanji": "訓",
+          "kana": "くん",
+          "meaning": "kun reading (words flowing like a river)"
+        }
+      ]
+    },
+    {
+      "kanji": "田",
+      "meanings": [
+        "rice field",
+        "paddy"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "rice field",
+      "etymology": "た — a field divided into four paddies, seen from above. Foundational in 男 'man' (power in the field) and 思 'think'.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "町",
+          "kana": "まち",
+          "meaning": "town"
+        },
+        {
+          "kanji": "畑",
+          "kana": "はたけ",
+          "meaning": "field (a fire-cleared dry field)"
+        }
+      ]
+    },
+    {
+      "kanji": "石",
+      "meanings": [
+        "stone",
+        "rock"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "stone",
+      "etymology": "いし — a cliff (厂) with a rock (口) at its base. いしへん marks minerals, hardness, breaking.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "砂",
+          "kana": "すな",
+          "meaning": "sand (small stones)"
+        },
+        {
+          "kanji": "研",
+          "kana": "けん",
+          "meaning": "polish, research"
+        }
+      ]
+    },
+    {
+      "kanji": "艹",
+      "meanings": [
+        "grass",
+        "plant"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "grass (top)",
+      "etymology": "くさかんむり — two blades of grass across the top. Marks plants, flowers, vegetables, herbs — and by extension tea and medicine.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "花",
+          "kana": "はな",
+          "meaning": "flower"
+        },
+        {
+          "kanji": "茶",
+          "kana": "ちゃ",
+          "meaning": "tea"
+        },
+        {
+          "kanji": "薬",
+          "kana": "くすり",
+          "meaning": "medicine (herbs that bring comfort)"
+        }
+      ]
+    },
+    {
+      "kanji": "竹",
+      "meanings": [
+        "bamboo"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "bamboo (top)",
+      "etymology": "たけかんむり — two bamboo stalks across the top. Marks things historically made of bamboo: writing implements, boxes, counting tools.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "筆",
+          "kana": "ふで",
+          "meaning": "brush"
+        },
+        {
+          "kanji": "箱",
+          "kana": "はこ",
+          "meaning": "box"
+        },
+        {
+          "kanji": "第",
+          "kana": "だい",
+          "meaning": "ordinal prefix"
+        }
+      ]
+    },
+    {
+      "kanji": "雨",
+      "meanings": [
+        "rain",
+        "weather"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "rain (top)",
+      "etymology": "あめかんむり — drops falling from a cloud under the sky. Tops the weather family: snow, cloud, thunder, electricity.",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "雪",
+          "kana": "ゆき",
+          "meaning": "snow"
+        },
+        {
+          "kanji": "電",
+          "kana": "でん",
+          "meaning": "electricity (lightning rain)"
+        },
+        {
+          "kanji": "雲",
+          "kana": "くも",
+          "meaning": "cloud"
+        }
+      ]
+    },
+    {
+      "kanji": "虫",
+      "meanings": [
+        "insect",
+        "bug"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "insect",
+      "etymology": "むし — originally a snake; now covers all creepy-crawlies. むしへん marks bugs and, oddly, the rainbow 虹.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "蚊",
+          "kana": "か",
+          "meaning": "mosquito"
+        },
+        {
+          "kanji": "虹",
+          "kana": "にじ",
+          "meaning": "rainbow"
+        }
+      ]
+    },
+    {
+      "kanji": "魚",
+      "meanings": [
+        "fish"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "fish",
+      "etymology": "さかな — head, scaled body, tail fin (the four dots). うおへん marks fish species — the sushi-menu radical.",
+      "stroke_count": 11,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "鮨",
+          "kana": "すし",
+          "meaning": "sushi"
+        },
+        {
+          "kanji": "鯨",
+          "kana": "くじら",
+          "meaning": "whale (the capital of fish)"
+        }
+      ]
+    },
+    {
+      "kanji": "鳥",
+      "meanings": [
+        "bird"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "bird",
+      "etymology": "とり — a long-tailed bird in profile. Compare 烏 'crow' — identical but missing the eye stroke, because crows are so black you can't see the eye.",
+      "stroke_count": 11,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "鳴",
+          "kana": "なく",
+          "meaning": "cry, chirp (a bird's mouth)"
+        },
+        {
+          "kanji": "鶏",
+          "kana": "にわとり",
+          "meaning": "chicken"
+        }
+      ]
+    },
+    {
+      "kanji": "犭",
+      "meanings": [
+        "beast",
+        "animal"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "animal (left)",
+      "etymology": "けものへん — a dog rotated to the left side. Marks mammals and wildness: cat, monkey, fox, hunting, 'crazy'.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "犬",
+          "kana": "いぬ",
+          "meaning": "dog (the standalone form)"
+        },
+        {
+          "kanji": "猫",
+          "kana": "ねこ",
+          "meaning": "cat"
+        },
+        {
+          "kanji": "猿",
+          "kana": "さる",
+          "meaning": "monkey"
+        }
+      ]
+    },
+    {
+      "kanji": "馬",
+      "meanings": [
+        "horse"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "horse",
+      "etymology": "うま — mane flying, four legs as dots. うまへん marks horses, riding, and stations (駅 — where you changed horses).",
+      "stroke_count": 10,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "駅",
+          "kana": "えき",
+          "meaning": "station"
+        },
+        {
+          "kanji": "験",
+          "kana": "けん",
+          "meaning": "test (originally testing horses)"
+        }
+      ]
+    },
+    {
+      "kanji": "牛",
+      "meanings": [
+        "cow",
+        "bull"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "cow",
+      "etymology": "うし — a horned head from the front. うしへん marks cattle and things done to/with them: 物 'thing' is originally a sacrificial ox.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "物",
+          "kana": "もの",
+          "meaning": "thing"
+        },
+        {
+          "kanji": "特",
+          "kana": "とく",
+          "meaning": "special (the temple's prize ox)"
+        }
+      ]
+    },
+    {
+      "kanji": "羊",
+      "meanings": [
+        "sheep"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "sheep",
+      "etymology": "ひつじ — horns over a woolly body. A big sheep is 美 'beautiful' — fat sheep were wealth.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "美",
+          "kana": "うつくしい",
+          "meaning": "beautiful (big sheep)"
+        },
+        {
+          "kanji": "洋",
+          "kana": "よう",
+          "meaning": "ocean, Western"
+        }
+      ]
+    },
+    {
+      "kanji": "貝",
+      "meanings": [
+        "shellfish",
+        "money",
+        "value"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "shell / money",
+      "etymology": "かい — a cowrie shell, the oldest Chinese currency. かいへん marks money and value: buy, sell, lend, poverty, prizes.",
+      "stroke_count": 7,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "買",
+          "kana": "かう",
+          "meaning": "buy"
+        },
+        {
+          "kanji": "貸",
+          "kana": "かす",
+          "meaning": "lend"
+        },
+        {
+          "kanji": "費",
+          "kana": "ひ",
+          "meaning": "expense"
+        }
+      ]
+    },
+    {
+      "kanji": "宀",
+      "meanings": [
+        "roof",
+        "house"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "roof (top)",
+      "etymology": "うかんむり — a peaked roof with a chimney dot. Whatever sits under it happens indoors: 家 home, 安 peace, 字 written character.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "家",
+          "kana": "いえ",
+          "meaning": "house (a pig under a roof — old farm life)"
+        },
+        {
+          "kanji": "安",
+          "kana": "やすい",
+          "meaning": "cheap, safe"
+        },
+        {
+          "kanji": "寝",
+          "kana": "ねる",
+          "meaning": "sleep"
+        }
+      ]
+    },
+    {
+      "kanji": "广",
+      "meanings": [
+        "building",
+        "shelter"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "cliff-house (top-left)",
+      "etymology": "まだれ — a roof with one open wall: a lean-to or public building. Marks shops, offices, wide spaces: 店, 広, 度, 庭.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "店",
+          "kana": "みせ",
+          "meaning": "shop"
+        },
+        {
+          "kanji": "広",
+          "kana": "ひろい",
+          "meaning": "wide"
+        },
+        {
+          "kanji": "庭",
+          "kana": "にわ",
+          "meaning": "garden"
+        }
+      ]
+    },
+    {
+      "kanji": "疒",
+      "meanings": [
+        "sickness",
+        "illness"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "sickness (top-left)",
+      "etymology": "やまいだれ — a bed (爿) tipped against the wall with someone on it. Everything inside is an ailment: 病 illness, 痛 pain, 疲 fatigue.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "病",
+          "kana": "びょう",
+          "meaning": "illness"
+        },
+        {
+          "kanji": "痛",
+          "kana": "いたい",
+          "meaning": "painful"
+        },
+        {
+          "kanji": "疲",
+          "kana": "つかれる",
+          "meaning": "get tired"
+        }
+      ]
+    },
+    {
+      "kanji": "門",
+      "meanings": [
+        "gate",
+        "door"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "gate (enclosure)",
+      "etymology": "もんがまえ — double doors of a gate. What's inside the gate is the action: an ear is 聞 'hear', a mouth is 問 'ask', the sun is 間 'interval'.",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "間",
+          "kana": "あいだ",
+          "meaning": "interval, between"
+        },
+        {
+          "kanji": "開",
+          "kana": "あける",
+          "meaning": "open"
+        },
+        {
+          "kanji": "閉",
+          "kana": "しめる",
+          "meaning": "close"
+        }
+      ]
+    },
+    {
+      "kanji": "囗",
+      "meanings": [
+        "enclosure",
+        "border"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "enclosure",
+      "etymology": "くにがまえ — a closed box around the whole kanji. Marks bounded spaces: 国 country, 園 garden, 回 rotation, 困 trapped (a tree boxed in = trouble).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "国",
+          "kana": "くに",
+          "meaning": "country"
+        },
+        {
+          "kanji": "園",
+          "kana": "えん",
+          "meaning": "garden, park"
+        },
+        {
+          "kanji": "困",
+          "kana": "こまる",
+          "meaning": "be in trouble"
+        }
+      ]
+    },
+    {
+      "kanji": "辶",
+      "meanings": [
+        "walk",
+        "movement",
+        "road"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "movement (wrap)",
+      "etymology": "しんにょう — a road plus a foot, wrapped under the kanji. Whatever rides on it is going somewhere: 道 road, 近 near, 送 send, 運 carry.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "道",
+          "kana": "みち",
+          "meaning": "road"
+        },
+        {
+          "kanji": "近",
+          "kana": "ちかい",
+          "meaning": "near"
+        },
+        {
+          "kanji": "送",
+          "kana": "おくる",
+          "meaning": "send"
+        }
+      ]
+    },
+    {
+      "kanji": "阝",
+      "meanings": [
+        "hill (left)",
+        "city (right)"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "hill / city",
+      "etymology": "Two radicals, one shape. LEFT = こざとへん, a terraced hill: 阪 slope, 防 defend, 陽 sunshine. RIGHT = おおざと, a town: 都 capital, 部 section, 郵 mail.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "都",
+          "kana": "と",
+          "meaning": "capital city"
+        },
+        {
+          "kanji": "部",
+          "kana": "ぶ",
+          "meaning": "section, club"
+        },
+        {
+          "kanji": "院",
+          "kana": "いん",
+          "meaning": "institution"
+        }
+      ]
+    },
+    {
+      "kanji": "彳",
+      "meanings": [
+        "step",
+        "going"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "step (left)",
+      "etymology": "ぎょうにんべん — half of 行: a step with the back foot still lifted. Marks roads taken and progress made: 行く's family, 待 wait, 後 behind, 復 return.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "待",
+          "kana": "まつ",
+          "meaning": "wait"
+        },
+        {
+          "kanji": "後",
+          "kana": "あと",
+          "meaning": "after, behind"
+        },
+        {
+          "kanji": "徒",
+          "kana": "と",
+          "meaning": "on foot, follower"
+        }
+      ]
+    },
+    {
+      "kanji": "刀",
+      "meanings": [
+        "sword",
+        "blade",
+        "katana"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "sword",
+      "etymology": "かたな — a curved single-edged blade. On the right it compresses to 刂 (りっとう).",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "切",
+          "kana": "きる",
+          "meaning": "cut"
+        },
+        {
+          "kanji": "分",
+          "kana": "わける",
+          "meaning": "divide (a blade splitting in two)"
+        }
+      ]
+    },
+    {
+      "kanji": "刂",
+      "meanings": [
+        "knife",
+        "cutting"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "knife (right)",
+      "etymology": "りっとう — 刀 standing upright on the right edge. Marks cutting and separating: 別 separate, 利 profit (cutting grain), 判 judge.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "別",
+          "kana": "べつ",
+          "meaning": "separate"
+        },
+        {
+          "kanji": "利",
+          "kana": "り",
+          "meaning": "profit, advantage"
+        },
+        {
+          "kanji": "割",
+          "kana": "わる",
+          "meaning": "split"
+        }
+      ]
+    },
+    {
+      "kanji": "糸",
+      "meanings": [
+        "thread",
+        "string"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "thread",
+      "etymology": "いとへん — a twisted skein of silk. Marks textiles, ties, and continuity: paper, line, connection, 'continue'.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "紙",
+          "kana": "かみ",
+          "meaning": "paper"
+        },
+        {
+          "kanji": "線",
+          "kana": "せん",
+          "meaning": "line"
+        },
+        {
+          "kanji": "結",
+          "kana": "むすぶ",
+          "meaning": "tie"
+        }
+      ]
+    },
+    {
+      "kanji": "金",
+      "meanings": [
+        "metal",
+        "gold",
+        "money"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "metal / gold",
+      "etymology": "かねへん — nuggets buried under the earth beneath a roof. Marks metals and metal objects: iron, silver, needle, bell, mirror.",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "銀",
+          "kana": "ぎん",
+          "meaning": "silver"
+        },
+        {
+          "kanji": "鉄",
+          "kana": "てつ",
+          "meaning": "iron"
+        },
+        {
+          "kanji": "釣",
+          "kana": "つる",
+          "meaning": "fish with a hook"
+        }
+      ]
+    },
+    {
+      "kanji": "米",
+      "meanings": [
+        "rice",
+        "grain"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "rice",
+      "etymology": "こめへん — grains scattering from a stalk, 八十八 (88) overlaid — the proverbial 88 labors to grow rice. Also means 'America' in abbreviations (米国).",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "粉",
+          "kana": "こな",
+          "meaning": "flour, powder (divided rice)"
+        },
+        {
+          "kanji": "精",
+          "kana": "せい",
+          "meaning": "refined"
+        }
+      ]
+    },
+    {
+      "kanji": "食",
+      "meanings": [
+        "food",
+        "eat"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "eat (left)",
+      "etymology": "しょくへん — a lidded pot of cooked rice. Marks meals and feeding: 飯 cooked rice, 飲 drink, 館 a hall (where guests are fed).",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "飯",
+          "kana": "はん",
+          "meaning": "meal, cooked rice"
+        },
+        {
+          "kanji": "飲",
+          "kana": "のむ",
+          "meaning": "drink"
+        },
+        {
+          "kanji": "館",
+          "kana": "かん",
+          "meaning": "public building"
+        }
+      ]
+    },
+    {
+      "kanji": "車",
+      "meanings": [
+        "car",
+        "wheel",
+        "vehicle"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "vehicle",
+      "etymology": "くるまへん — a cart seen from above: axle through a wheel. Marks vehicles and rotation: 転 roll, 軽 light(weight), 輪 wheel/ring.",
+      "stroke_count": 7,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "転",
+          "kana": "ころぶ",
+          "meaning": "tumble, roll"
+        },
+        {
+          "kanji": "輪",
+          "kana": "わ",
+          "meaning": "wheel, ring"
+        },
+        {
+          "kanji": "軍",
+          "kana": "ぐん",
+          "meaning": "army (vehicles under one cover)"
+        }
+      ]
+    },
+    {
+      "kanji": "弓",
+      "meanings": [
+        "bow (archery)"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "bow",
+      "etymology": "ゆみへん — an unstrung bow in profile. Marks pulling and tension: 引 pull, 強 strong, 弱 weak (two fraying bows).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "引",
+          "kana": "ひく",
+          "meaning": "pull"
+        },
+        {
+          "kanji": "強",
+          "kana": "つよい",
+          "meaning": "strong"
+        },
+        {
+          "kanji": "弱",
+          "kana": "よわい",
+          "meaning": "weak"
+        }
+      ]
+    },
+    {
+      "kanji": "衣",
+      "meanings": [
+        "clothing",
+        "garment"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "clothes",
+      "etymology": "ころも — a robe with draping sleeves. On the left it compresses to 衤(ころもへん) — one stroke MORE than the altar radical 礻. Mixing those two up changes 'shrine' kanji into 'shirt' kanji.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "服",
+          "kana": "ふく",
+          "meaning": "clothes"
+        },
+        {
+          "kanji": "袋",
+          "kana": "ふくろ",
+          "meaning": "bag"
+        },
+        {
+          "kanji": "初",
+          "kana": "はじめ",
+          "meaning": "first (cutting cloth for a new garment)"
+        }
+      ]
+    },
+    {
+      "kanji": "礻",
+      "meanings": [
+        "spirit",
+        "religion",
+        "show"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "altar (left)",
+      "etymology": "しめすへん — compressed 示 'altar'. Marks the sacred: 神 god, 礼 courtesy, 祈 pray, 祝 celebrate. One stroke fewer than the clothes radical 衤 — count the dots.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "神",
+          "kana": "かみ",
+          "meaning": "god"
+        },
+        {
+          "kanji": "礼",
+          "kana": "れい",
+          "meaning": "thanks, courtesy"
+        },
+        {
+          "kanji": "祝",
+          "kana": "いわう",
+          "meaning": "celebrate"
+        }
+      ]
+    },
+    {
+      "kanji": "一",
+      "meanings": [
+        "one",
+        "horizontal stroke"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "one",
+      "etymology": "いち — the simplest kanji and a component everywhere: a floor (上), a ceiling (下), a horizon (旦).",
+      "stroke_count": 1,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "上",
+          "kana": "うえ",
+          "meaning": "up"
+        },
+        {
+          "kanji": "下",
+          "kana": "した",
+          "meaning": "down"
+        }
+      ]
+    },
+    {
+      "kanji": "十",
+      "meanings": [
+        "ten",
+        "complete"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "ten / cross",
+      "etymology": "じゅう — a complete crossing. As a component it often just means 'needle' (the original drawing): 針 needle, 計 measure.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "計",
+          "kana": "けい",
+          "meaning": "measure, plan"
+        },
+        {
+          "kanji": "古",
+          "kana": "ふるい",
+          "meaning": "old (ten generations of mouths)"
+        }
+      ]
+    },
+    {
+      "kanji": "大",
+      "meanings": [
+        "big",
+        "large"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "big",
+      "etymology": "だい — a person with arms flung wide: 'this big!'. Component in 太 fat, 天 heaven (the line above the biggest thing), 犬 dog.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "太",
+          "kana": "ふとい",
+          "meaning": "fat"
+        },
+        {
+          "kanji": "天",
+          "kana": "てん",
+          "meaning": "heaven"
+        }
+      ]
+    },
+    {
+      "kanji": "小",
+      "meanings": [
+        "small"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "small",
+      "etymology": "ちいさい — a thing splitting into smaller pieces. On top of a kanji it often shrinks to ⺌: 当, 光, 学's crown.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "少",
+          "kana": "すこし",
+          "meaning": "a little"
+        },
+        {
+          "kanji": "光",
+          "kana": "ひかり",
+          "meaning": "light"
+        }
+      ]
+    },
+    {
+      "kanji": "白",
+      "meanings": [
+        "white"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "white",
+      "etymology": "しろ — the sun 日 with a ray on top: dazzling white. Component in 百 hundred, 泊 stay overnight.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "百",
+          "kana": "ひゃく",
+          "meaning": "hundred"
+        },
+        {
+          "kanji": "泊",
+          "kana": "とまる",
+          "meaning": "stay overnight"
+        }
+      ]
+    },
+    {
+      "kanji": "立",
+      "meanings": [
+        "stand",
+        "rise"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "stand",
+      "etymology": "たつ — a person standing on the ground line. たつへん in 駅, 新, 親 — often hints at something established or upright.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "新",
+          "kana": "あたらしい",
+          "meaning": "new (standing tree freshly axed)"
+        },
+        {
+          "kanji": "音",
+          "kana": "おと",
+          "meaning": "sound (standing sun? no — a tongue made visible)"
+        }
+      ]
+    },
+    {
+      "kanji": "王",
+      "meanings": [
+        "king",
+        "jewel"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "king / jewel",
+      "etymology": "おう — the one who connects heaven, earth and humanity (three lines, one axis). On the LEFT it's actually 玉 'jewel' minus its dot (たまへん): 球 ball, 理 logic (carving a jewel along its veins).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "玉",
+          "kana": "たま",
+          "meaning": "ball, jewel"
+        },
+        {
+          "kanji": "理",
+          "kana": "り",
+          "meaning": "logic, reason"
+        },
+        {
+          "kanji": "球",
+          "kana": "きゅう",
+          "meaning": "ball, sphere"
+        }
+      ]
+    },
+    {
+      "kanji": "工",
+      "meanings": [
+        "craft",
+        "construction"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "craft",
+      "etymology": "こう — a carpenter's square. Marks making and work: 空 sky (a carved-out hollow), 左 left (the hand holding the tool).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "空",
+          "kana": "そら",
+          "meaning": "sky"
+        },
+        {
+          "kanji": "左",
+          "kana": "ひだり",
+          "meaning": "left"
+        }
+      ]
+    },
+    {
+      "kanji": "又",
+      "meanings": [
+        "again",
+        "hand"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "again / right hand",
+      "etymology": "また — originally a right hand. Hides in many 'doing' kanji: 友 friend (two hands clasped), 取 take, 受 receive.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "友",
+          "kana": "とも",
+          "meaning": "friend"
+        },
+        {
+          "kanji": "受",
+          "kana": "うける",
+          "meaning": "receive"
+        }
+      ]
+    },
+    {
+      "kanji": "寸",
+      "meanings": [
+        "inch",
+        "measure"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "measurement",
+      "etymology": "すん — a hand with a pulse-point dot: the old inch, measured at the wrist. Marks precision and rules: 時 time, 寺 temple (where rules were kept).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "寺",
+          "kana": "てら",
+          "meaning": "temple"
+        },
+        {
+          "kanji": "対",
+          "kana": "たい",
+          "meaning": "versus, pair"
+        }
+      ]
+    },
+    {
+      "kanji": "尸",
+      "meanings": [
+        "body",
+        "flag"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "flag / corpse",
+      "etymology": "しかばね — a slumped seated figure (politely, 'flag'). Tops 屋 shop/roof, 局 office, 居 reside — places where bodies sit.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "屋",
+          "kana": "や",
+          "meaning": "shop, roof"
+        },
+        {
+          "kanji": "局",
+          "kana": "きょく",
+          "meaning": "bureau, office"
+        }
+      ]
+    },
+    {
+      "kanji": "尺",
+      "meanings": [
+        "shaku",
+        "length measure"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "shaku (length)",
+      "etymology": "しゃく — a hand-span: about 30 cm. Appears in 訳 translation and 駅 station (via its phonetic role).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "駅",
+          "kana": "えき",
+          "meaning": "station"
+        },
+        {
+          "kanji": "訳",
+          "kana": "わけ",
+          "meaning": "reason; translation"
+        }
+      ]
+    },
+    {
+      "kanji": "也",
+      "meanings": [
+        "also",
+        "classical copula"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "to be (classical)",
+      "etymology": "Phonetic component reading や/ち — it lends its sound: 地 (ち) ground, 池 (ち→いけ) pond, 他 (た) other. Spotting phonetic components like this unlocks on-reading guesses.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "地",
+          "kana": "ち",
+          "meaning": "ground"
+        },
+        {
+          "kanji": "池",
+          "kana": "いけ",
+          "meaning": "pond"
+        },
+        {
+          "kanji": "他",
+          "kana": "ほか",
+          "meaning": "other"
+        }
+      ]
+    },
+    {
+      "kanji": "可",
+      "meanings": [
+        "can",
+        "possible"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "possible (phonetic か)",
+      "etymology": "Phonetic か — its sound carries into 何 (か→なに), 河 river, 歌 song (two 可 + yawning mouth 欠). A workhorse phonetic.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "何",
+          "kana": "なに",
+          "meaning": "what"
+        },
+        {
+          "kanji": "歌",
+          "kana": "うた",
+          "meaning": "song"
+        },
+        {
+          "kanji": "河",
+          "kana": "かわ",
+          "meaning": "river"
+        }
+      ]
+    },
+    {
+      "kanji": "青",
+      "meanings": [
+        "blue",
+        "green",
+        "fresh"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "blue-green (phonetic せい)",
+      "etymology": "あお — life-colored: growing plants over a well. As a phonetic it gives せい/しょう to 晴 clear sky, 静 quiet, 精 refined, 情 emotion.",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "晴",
+          "kana": "はれる",
+          "meaning": "clear up"
+        },
+        {
+          "kanji": "静",
+          "kana": "しずか",
+          "meaning": "quiet"
+        },
+        {
+          "kanji": "情",
+          "kana": "じょう",
+          "meaning": "emotion"
+        }
+      ]
+    },
+    {
+      "kanji": "生",
+      "meanings": [
+        "life",
+        "birth",
+        "raw"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "life",
+      "etymology": "せい — a sprout pushing out of the ground. Component and phonetic in 星 star (sun-born), 性 nature, 姓 surname.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "星",
+          "kana": "ほし",
+          "meaning": "star"
+        },
+        {
+          "kanji": "性",
+          "kana": "せい",
+          "meaning": "nature, -ness"
+        }
+      ]
+    },
+    {
+      "kanji": "毎",
+      "meanings": [
+        "every",
+        "each"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "every",
+      "etymology": "まい — a kneeling mother (母) with a hairpin: 'every' mother. Phonetic in 海 sea (every water) and 梅 plum.",
+      "stroke_count": 6,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "海",
+          "kana": "うみ",
+          "meaning": "sea"
+        },
+        {
+          "kanji": "梅",
+          "kana": "うめ",
+          "meaning": "plum"
+        }
+      ]
+    },
+    {
+      "kanji": "穴",
+      "meanings": [
+        "hole",
+        "cave"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "hole (top)",
+      "etymology": "あなかんむり — a roof over a dug-out 八: a cave dwelling. Tops 空 sky/empty, 究 research (digging to the bottom of things), 窓 window.",
+      "stroke_count": 5,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "空",
+          "kana": "から",
+          "meaning": "empty"
+        },
+        {
+          "kanji": "究",
+          "kana": "きゅう",
+          "meaning": "research"
+        },
+        {
+          "kanji": "窓",
+          "kana": "まど",
+          "meaning": "window"
+        }
+      ]
+    },
+    {
+      "kanji": "頁",
+      "meanings": [
+        "head",
+        "page"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "head (right)",
+      "etymology": "おおがい — a big head on legs. On the right it marks head things: 顔 face, 頭 head, 題 topic, 順 order. (Also counts pages — ページ.)",
+      "stroke_count": 9,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "顔",
+          "kana": "かお",
+          "meaning": "face"
+        },
+        {
+          "kanji": "頭",
+          "kana": "あたま",
+          "meaning": "head"
+        },
+        {
+          "kanji": "題",
+          "kana": "だい",
+          "meaning": "topic, title"
+        }
+      ]
+    },
+    {
+      "kanji": "攵",
+      "meanings": [
+        "strike",
+        "action"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "strike (right)",
+      "etymology": "ぼくづくり／のぶん — a hand holding a stick. On the right it marks deliberate action, often forceful: 教 teach (beat knowledge in — old methods), 数 count, 政 govern.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "教",
+          "kana": "おしえる",
+          "meaning": "teach"
+        },
+        {
+          "kanji": "数",
+          "kana": "かず",
+          "meaning": "number"
+        },
+        {
+          "kanji": "放",
+          "kana": "はなす",
+          "meaning": "release"
+        }
+      ]
+    },
+    {
+      "kanji": "欠",
+      "meanings": [
+        "lack",
+        "yawn"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "yawn / lack",
+      "etymology": "あくび — a person with mouth wide open. On the right it marks open-mouthed actions: 歌 sing, 飲 drink, 欲 desire (gaping for more).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "歌",
+          "kana": "うた",
+          "meaning": "song"
+        },
+        {
+          "kanji": "欲",
+          "kana": "ほしい",
+          "meaning": "want"
+        }
+      ]
+    },
+    {
+      "kanji": "殳",
+      "meanings": [
+        "weapon",
+        "strike"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "weapon (right)",
+      "etymology": "るまた — a hand wielding a pike. Marks destructive or constructive force on the right: 殺 kill, 段 steps, 設 establish.",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "段",
+          "kana": "だん",
+          "meaning": "step, grade"
+        },
+        {
+          "kanji": "設",
+          "kana": "せつ",
+          "meaning": "establish"
+        }
+      ]
+    },
+    {
+      "kanji": "戈",
+      "meanings": [
+        "halberd",
+        "weapon"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "halberd",
+      "etymology": "ほこ — a long-handled battle axe. Lurks in 戦 war, 成 become (work completed by force), 我 I/ego (a hand gripping a weapon — the assertive self).",
+      "stroke_count": 4,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "戦",
+          "kana": "たたかう",
+          "meaning": "fight, war"
+        },
+        {
+          "kanji": "成",
+          "kana": "なる",
+          "meaning": "become"
+        },
+        {
+          "kanji": "我",
+          "kana": "われ",
+          "meaning": "I, ego"
+        }
+      ]
+    },
+    {
+      "kanji": "尭",
+      "meanings": [
+        "high",
+        "lofty"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "lofty (phonetic ぎょう)",
+      "etymology": "Phonetic component: lends ぎょう/しょう sounds and a sense of height — 焼 burn (flames rising high), 暁 daybreak.",
+      "stroke_count": 8,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "焼",
+          "kana": "やく",
+          "meaning": "burn, grill"
+        },
+        {
+          "kanji": "暁",
+          "kana": "あかつき",
+          "meaning": "daybreak"
+        }
+      ]
+    },
+    {
+      "kanji": "幺",
+      "meanings": [
+        "tiny",
+        "infant"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "tiny thread",
+      "etymology": "A small cocoon of thread. Doubles in 幼 infancy and hides inside 糸, 楽, 後. Signals smallness and beginnings.",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "幼",
+          "kana": "おさない",
+          "meaning": "infant, very young"
+        },
+        {
+          "kanji": "後",
+          "kana": "うしろ",
+          "meaning": "behind"
+        }
+      ]
+    },
+    {
+      "kanji": "夂",
+      "meanings": [
+        "go slowly",
+        "arrive late"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "winter foot (top)",
+      "etymology": "A dragging foot — walking with effort. Tops 冬 winter (the season that drags) and 各 each (arriving one by one).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "冬",
+          "kana": "ふゆ",
+          "meaning": "winter"
+        },
+        {
+          "kanji": "各",
+          "kana": "かく",
+          "meaning": "each"
+        }
+      ]
+    },
+    {
+      "kanji": "儿",
+      "meanings": [
+        "legs",
+        "human legs"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "legs (bottom)",
+      "etymology": "ひとあし — a pair of legs under the kanji, carrying it around: 見 see (an eye on legs), 兄 older brother (a big mouth on legs), 先 ahead.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "兄",
+          "kana": "あに",
+          "meaning": "older brother"
+        },
+        {
+          "kanji": "先",
+          "kana": "さき",
+          "meaning": "ahead, previous"
+        },
+        {
+          "kanji": "元",
+          "kana": "もと",
+          "meaning": "origin"
+        }
+      ]
+    },
+    {
+      "kanji": "冖",
+      "meanings": [
+        "cover",
+        "crown"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "cover (top)",
+      "etymology": "わかんむり — a cloth draped over something. Lighter than the roof 宀 (no chimney). Caps 写 copy, 軍 army, 冠 crown itself.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "写",
+          "kana": "うつす",
+          "meaning": "copy"
+        },
+        {
+          "kanji": "軍",
+          "kana": "ぐん",
+          "meaning": "army"
+        }
+      ]
+    },
+    {
+      "kanji": "亠",
+      "meanings": [
+        "lid",
+        "top"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "lid (top)",
+      "etymology": "なべぶた — 'pot lid'. A dot and a line capping the kanji: 京 capital, 夜 night, 高 tall all wear it.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "京",
+          "kana": "きょう",
+          "meaning": "capital"
+        },
+        {
+          "kanji": "夜",
+          "kana": "よる",
+          "meaning": "night"
+        },
+        {
+          "kanji": "高",
+          "kana": "たかい",
+          "meaning": "tall, expensive"
+        }
+      ]
+    },
+    {
+      "kanji": "厂",
+      "meanings": [
+        "cliff"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "cliff",
+      "etymology": "がんだれ — an overhanging cliff face. Shelters 原 meadow/origin (a spring under the cliff), 厚 thick, 歴 history.",
+      "stroke_count": 2,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "原",
+          "kana": "はら",
+          "meaning": "field, origin"
+        },
+        {
+          "kanji": "厚",
+          "kana": "あつい",
+          "meaning": "thick"
+        }
+      ]
+    },
+    {
+      "kanji": "亡",
+      "meanings": [
+        "perish",
+        "lost"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "perish (phonetic ぼう)",
+      "etymology": "ぼう — a person hidden away: gone. Phonetic and meaning donor to 忙 busy (heart perishing), 忘 forget (heart losing it), 望 hope (gazing after what's gone).",
+      "stroke_count": 3,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "忙",
+          "kana": "いそがしい",
+          "meaning": "busy"
+        },
+        {
+          "kanji": "忘",
+          "kana": "わすれる",
+          "meaning": "forget"
+        },
+        {
+          "kanji": "望",
+          "kana": "のぞむ",
+          "meaning": "hope"
+        }
+      ]
+    },
+    {
+      "kanji": "票",
+      "meanings": [
+        "ballot",
+        "label"
+      ],
+      "on_yomi": [],
+      "kun_yomi": [],
+      "keyword": "ballot (phonetic ひょう)",
+      "etymology": "ひょう — a slip of paper. Strong phonetic: 標 signpost, 漂 drift (paper on water). Recognize it and you can read half the ひょう words you meet.",
+      "stroke_count": 11,
+      "jlpt": null,
+      "grade": null,
+      "examples": [
+        {
+          "kanji": "投票",
+          "kana": "とうひょう",
+          "meaning": "vote"
+        },
+        {
+          "kanji": "目標",
+          "kana": "もくひょう",
+          "meaning": "goal"
+        }
+      ]
+    }
+  ]
+}

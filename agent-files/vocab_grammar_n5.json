@@ -1,0 +1,610 @@
+{
+  "deck_id": "grammar-n5",
+  "deck_name": "Grammar: JLPT N5 Essentials",
+  "subtitle": "～てください · ～たい · ～たことがある — the N5 syllabus",
+  "version": "1.0",
+  "card_count": 45,
+  "notes": "The sentence-level patterns of the N5 syllabus with structural recipes and exam-trap notes (まだ＋ています, ごろ vs ぐらい, ta/nai asymmetry in ほうがいい). Complements the particles and conjugation decks.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese grammar).",
+  "cards": [
+    {
+      "word": "～です／～ます",
+      "reading": "desu / masu",
+      "meanings": [
+        "polite sentence endings"
+      ],
+      "jlpt": "N5",
+      "category": "politeness",
+      "context": "The polite register's backbone. です follows nouns and adjectives; ます attaches to the verb stem. Default to this register with strangers; plain form with friends.",
+      "example_sentence": "私は学生です。毎日学校へ行きます。",
+      "example_reading": "わたし は がくせい です。まいにち がっこう へ いきます。",
+      "example_meaning": "I'm a student. I go to school every day."
+    },
+    {
+      "word": "～ではありません",
+      "reading": "dewa arimasen",
+      "meanings": [
+        "is not (polite negative of です)"
+      ],
+      "jlpt": "N5",
+      "category": "politeness",
+      "context": "Spoken Japanese almost always contracts to じゃありません or じゃないです. All three are correct; the では form is the most formal/written.",
+      "example_sentence": "彼は先生じゃありません。",
+      "example_reading": "かれ は せんせい じゃ ありません。",
+      "example_meaning": "He is not a teacher."
+    },
+    {
+      "word": "～ました／～ませんでした",
+      "reading": "mashita / masen deshita",
+      "meanings": [
+        "polite past / polite past negative"
+      ],
+      "jlpt": "N5",
+      "category": "tense",
+      "context": "Verb stem + ました (did) / ませんでした (didn't). Japanese has no separate future tense — 行きます covers both 'I go' and 'I will go'.",
+      "example_sentence": "昨日は雨でしたから、出かけませんでした。",
+      "example_reading": "きのう は あめ でした から、でかけません でした。",
+      "example_meaning": "It rained yesterday, so I didn't go out."
+    },
+    {
+      "word": "～ています",
+      "reading": "te imasu",
+      "meanings": [
+        "is doing (progressive)",
+        "state resulting from action"
+      ],
+      "jlpt": "N5",
+      "category": "aspect",
+      "context": "Two jobs: ongoing action (食べています = is eating) AND resulting state (結婚しています = is married, NOT 'is marrying'). 知っています 'I know' is the classic state example.",
+      "example_sentence": "兄は今、音楽を聞いています。",
+      "example_reading": "あに は いま、おんがく を きいています。",
+      "example_meaning": "My brother is listening to music right now."
+    },
+    {
+      "word": "～てください",
+      "reading": "te kudasai",
+      "meanings": [
+        "please do ~"
+      ],
+      "jlpt": "N5",
+      "category": "requests",
+      "context": "Te-form + ください. Politer softeners exist (～てくださいませんか), but てください is the everyday workhorse. Negative request: ～ないでください.",
+      "example_sentence": "ここに名前を書いてください。",
+      "example_reading": "ここ に なまえ を かいて ください。",
+      "example_meaning": "Please write your name here."
+    },
+    {
+      "word": "～ないでください",
+      "reading": "naide kudasai",
+      "meanings": [
+        "please don't ~"
+      ],
+      "jlpt": "N5",
+      "category": "requests",
+      "context": "Nai-form + でください. 心配しないでください = please don't worry.",
+      "example_sentence": "ここで写真を撮らないでください。",
+      "example_reading": "ここ で しゃしん を とらないで ください。",
+      "example_meaning": "Please don't take photos here."
+    },
+    {
+      "word": "～てもいいです",
+      "reading": "te mo ii desu",
+      "meanings": [
+        "it's okay to ~",
+        "may I ~? (in question form)"
+      ],
+      "jlpt": "N5",
+      "category": "permission",
+      "context": "Te-form + もいいです. As a question it asks permission: 入ってもいいですか. Granting: いいですよ. The も is droppable in casual speech (見ていい？).",
+      "example_sentence": "この椅子を使ってもいいですか。",
+      "example_reading": "この いす を つかって も いい です か。",
+      "example_meaning": "May I use this chair?"
+    },
+    {
+      "word": "～てはいけません",
+      "reading": "te wa ikemasen",
+      "meanings": [
+        "must not ~",
+        "it's forbidden to ~"
+      ],
+      "jlpt": "N5",
+      "category": "permission",
+      "context": "Te-form + はいけません. Strong prohibition — rules and signs. Spoken contraction: ～ちゃいけない／～じゃいけない (飲んじゃいけない).",
+      "example_sentence": "ここでタバコを吸ってはいけません。",
+      "example_reading": "ここ で タバコ を すって は いけません。",
+      "example_meaning": "You must not smoke here."
+    },
+    {
+      "word": "～なければなりません",
+      "reading": "nakereba narimasen",
+      "meanings": [
+        "must ~",
+        "have to ~"
+      ],
+      "jlpt": "N5",
+      "category": "obligation",
+      "context": "Nai-stem + ければなりません. Long but essential. Casual contractions: ～なきゃ／～ないと (行かなきゃ = gotta go). Double negative logic: 'if not done, it won't do'.",
+      "example_sentence": "明日は早く起きなければなりません。",
+      "example_reading": "あした は はやく おきなければ なりません。",
+      "example_meaning": "I have to get up early tomorrow."
+    },
+    {
+      "word": "～なくてもいいです",
+      "reading": "nakute mo ii desu",
+      "meanings": [
+        "don't have to ~"
+      ],
+      "jlpt": "N5",
+      "category": "obligation",
+      "context": "The release valve for なければなりません: 急がなくてもいいです = you don't have to hurry.",
+      "example_sentence": "全部食べなくてもいいですよ。",
+      "example_reading": "ぜんぶ たべなくて も いい です よ。",
+      "example_meaning": "You don't have to eat everything."
+    },
+    {
+      "word": "～たいです",
+      "reading": "tai desu",
+      "meanings": [
+        "want to ~"
+      ],
+      "jlpt": "N5",
+      "category": "desire",
+      "context": "Verb stem + たい conjugates like an i-adjective: 行きたくない, 行きたかった. The object can take が or を. For OTHERS' desires use ～たがっている — you can't directly assert another person's inner state.",
+      "example_sentence": "日本へ行きたいです。",
+      "example_reading": "にほん へ いきたい です。",
+      "example_meaning": "I want to go to Japan."
+    },
+    {
+      "word": "～がほしいです",
+      "reading": "ga hoshii desu",
+      "meanings": [
+        "want (a thing)"
+      ],
+      "jlpt": "N5",
+      "category": "desire",
+      "context": "Nouns take ほしい (with が); actions take たい. 'I want water' = 水がほしい; 'I want to drink' = 飲みたい. For others: ほしがっている.",
+      "example_sentence": "新しい自転車がほしいです。",
+      "example_reading": "あたらしい じてんしゃ が ほしい です。",
+      "example_meaning": "I want a new bicycle."
+    },
+    {
+      "word": "～ましょう",
+      "reading": "mashou",
+      "meanings": [
+        "let's ~",
+        "shall we ~ (in question)"
+      ],
+      "jlpt": "N5",
+      "category": "invitation",
+      "context": "Verb stem + ましょう. 行きましょう = let's go. ましょうか offers help: 手伝いましょうか = shall I help?",
+      "example_sentence": "一緒に昼ご飯を食べましょう。",
+      "example_reading": "いっしょ に ひるごはん を たべましょう。",
+      "example_meaning": "Let's have lunch together."
+    },
+    {
+      "word": "～ませんか",
+      "reading": "masen ka",
+      "meanings": [
+        "won't you ~?",
+        "how about ~ing?"
+      ],
+      "jlpt": "N5",
+      "category": "invitation",
+      "context": "The polite invitation — negative question form softens it, exactly like English 'won't you join us?'. More considerate than ましょう because it leaves room to decline.",
+      "example_sentence": "今度の週末、映画を見ませんか。",
+      "example_reading": "こんど の しゅうまつ、えいが を みません か。",
+      "example_meaning": "Want to see a movie this weekend?"
+    },
+    {
+      "word": "～ことができます",
+      "reading": "koto ga dekimasu",
+      "meanings": [
+        "can ~",
+        "be able to ~"
+      ],
+      "jlpt": "N5",
+      "category": "ability",
+      "context": "Dictionary form + ことができます. The analytic 'can'; short potential forms (飲める, 行ける) arrive at N4. 日本語を話すことができます = I can speak Japanese.",
+      "example_sentence": "私は漢字を読むことができます。",
+      "example_reading": "わたし は かんじ を よむ こと が できます。",
+      "example_meaning": "I can read kanji."
+    },
+    {
+      "word": "～が好きです",
+      "reading": "ga suki desu",
+      "meanings": [
+        "like ~"
+      ],
+      "jlpt": "N5",
+      "category": "preference",
+      "context": "好き is a na-adjective, not a verb — the liked thing takes が, not を. 犬が好きです. Dislike: 嫌い (same pattern). Love: 大好き.",
+      "example_sentence": "私は猫が好きです。",
+      "example_reading": "わたし は ねこ が すき です。",
+      "example_meaning": "I like cats."
+    },
+    {
+      "word": "～が上手です／下手です",
+      "reading": "ga jouzu / heta desu",
+      "meanings": [
+        "good at ~ / bad at ~"
+      ],
+      "jlpt": "N5",
+      "category": "preference",
+      "context": "Same が-pattern as 好き. Pitfall: don't praise yourself with 上手 — for your own skills use 得意 (とくい). 上手ですね is the compliment everyone gives your Japanese.",
+      "example_sentence": "妹は歌が上手です。",
+      "example_reading": "いもうと は うた が じょうず です。",
+      "example_meaning": "My little sister is good at singing."
+    },
+    {
+      "word": "～たことがあります",
+      "reading": "ta koto ga arimasu",
+      "meanings": [
+        "have ~ed (experience)"
+      ],
+      "jlpt": "N5",
+      "category": "experience",
+      "context": "Ta-form + ことがあります marks life experience: 富士山に登ったことがあります = I've climbed Mt. Fuji. Plain past 登りました just reports an event.",
+      "example_sentence": "日本へ行ったことがありますか。",
+      "example_reading": "にほん へ いった こと が あります か。",
+      "example_meaning": "Have you ever been to Japan?"
+    },
+    {
+      "word": "～たり～たりします",
+      "reading": "tari tari shimasu",
+      "meanings": [
+        "do things like ~ and ~"
+      ],
+      "jlpt": "N5",
+      "category": "listing",
+      "context": "Non-exhaustive activity list: 週末は買い物したり、映画を見たりします. Implies 'among other things' — unlike て-form chains, which list everything in order.",
+      "example_sentence": "休みの日は本を読んだり、料理をしたりします。",
+      "example_reading": "やすみ の ひ は ほん を よんだり、りょうり を したり します。",
+      "example_meaning": "On days off I do things like reading and cooking."
+    },
+    {
+      "word": "～ながら",
+      "reading": "nagara",
+      "meanings": [
+        "while ~ing"
+      ],
+      "jlpt": "N5",
+      "category": "simultaneity",
+      "context": "Verb stem + ながら; the MAIN action comes second. 音楽を聞きながら勉強する = study while listening to music (studying is the point).",
+      "example_sentence": "テレビを見ながらご飯を食べます。",
+      "example_reading": "テレビ を みながら ごはん を たべます。",
+      "example_meaning": "I eat while watching TV."
+    },
+    {
+      "word": "～前に／～後で",
+      "reading": "mae ni / ato de",
+      "meanings": [
+        "before ~ / after ~"
+      ],
+      "jlpt": "N5",
+      "category": "sequence",
+      "context": "前に takes the DICTIONARY form even for past events (寝る前に = before sleeping); 後で takes the ta-form (食べた後で = after eating). The tense mismatch trips everyone.",
+      "example_sentence": "寝る前に歯を磨きます。",
+      "example_reading": "ねる まえ に は を みがきます。",
+      "example_meaning": "I brush my teeth before going to bed."
+    },
+    {
+      "word": "～てから",
+      "reading": "te kara",
+      "meanings": [
+        "after ~, and then"
+      ],
+      "jlpt": "N5",
+      "category": "sequence",
+      "context": "Te-form + から chains a strict sequence: 宿題をしてから遊ぶ = play AFTER homework. Don't confuse with reason-から (which follows a full clause).",
+      "example_sentence": "手を洗ってから食べてください。",
+      "example_reading": "て を あらって から たべて ください。",
+      "example_meaning": "Please wash your hands before eating (eat after washing)."
+    },
+    {
+      "word": "～とき",
+      "reading": "toki",
+      "meanings": [
+        "when ~"
+      ],
+      "jlpt": "N5",
+      "category": "sequence",
+      "context": "Clause + とき. The tense before とき is relative to the main clause: 日本へ行くとき (when going — before arrival) vs 日本へ行ったとき (when I went — after arrival).",
+      "example_sentence": "子供のとき、よく川で泳ぎました。",
+      "example_reading": "こども の とき、よく かわ で およぎました。",
+      "example_meaning": "When I was a child, I often swam in the river."
+    },
+    {
+      "word": "～から（理由）",
+      "reading": "kara (reason)",
+      "meanings": [
+        "because ~, so ~"
+      ],
+      "jlpt": "N5",
+      "category": "reason",
+      "context": "Reason clause + から + result: 暑いから窓を開けた. The reason comes FIRST — backwards from English 'because'. Politer/softer alternative: ので.",
+      "example_sentence": "時間がないから、急ぎましょう。",
+      "example_reading": "じかん が ない から、いそぎましょう。",
+      "example_meaning": "We don't have time, so let's hurry."
+    },
+    {
+      "word": "～でしょう",
+      "reading": "deshou",
+      "meanings": [
+        "probably ~",
+        "right? (rising tone)"
+      ],
+      "jlpt": "N5",
+      "category": "conjecture",
+      "context": "Falling intonation = probability (明日は晴れるでしょう — weather-forecast speak). Rising = seeking agreement (おいしいでしょう？). Casual: だろう.",
+      "example_sentence": "午後は雨が降るでしょう。",
+      "example_reading": "ごご は あめ が ふる でしょう。",
+      "example_meaning": "It will probably rain in the afternoon."
+    },
+    {
+      "word": "あります／います",
+      "reading": "arimasu / imasu",
+      "meanings": [
+        "there is / exists"
+      ],
+      "jlpt": "N5",
+      "category": "existence",
+      "context": "The animacy split English lacks: あります for inanimate things and plants, います for people and animals. 机の上に本があります but 部屋に猫がいます. Mixing them up sounds genuinely wrong, not just foreign.",
+      "example_sentence": "公園に子供がたくさんいます。",
+      "example_reading": "こうえん に こども が たくさん います。",
+      "example_meaning": "There are many children in the park."
+    },
+    {
+      "word": "～は～より",
+      "reading": "wa ~ yori",
+      "meanings": [
+        "~ is more ... than ~"
+      ],
+      "jlpt": "N5",
+      "category": "comparison",
+      "context": "AはBより + adjective: 東京は大阪より大きい. No adjective inflection needed — the comparison lives entirely in より. Question form: AとBとどちらが～?",
+      "example_sentence": "新幹線はバスより速いです。",
+      "example_reading": "しんかんせん は バス より はやい です。",
+      "example_meaning": "The bullet train is faster than the bus."
+    },
+    {
+      "word": "～の中で～が一番",
+      "reading": "no naka de ~ ga ichiban",
+      "meanings": [
+        "~ is the most ... among ~"
+      ],
+      "jlpt": "N5",
+      "category": "comparison",
+      "context": "Superlative recipe: グループの中でAが一番 + adjective. 果物の中で何が一番好きですか = what fruit do you like best?",
+      "example_sentence": "季節の中で春が一番好きです。",
+      "example_reading": "きせつ の なか で はる が いちばん すき です。",
+      "example_meaning": "Spring is my favorite season."
+    },
+    {
+      "word": "～になります／～くなります",
+      "reading": "ni narimasu / ku narimasu",
+      "meanings": [
+        "become ~"
+      ],
+      "jlpt": "N5",
+      "category": "change",
+      "context": "Nouns/na-adj + になる (先生になる, 元気になる); i-adjectives drop い and take くなる (寒くなる). The all-purpose change-of-state verb.",
+      "example_sentence": "最近、日が短くなりましたね。",
+      "example_reading": "さいきん、ひ が みじかく なりました ね。",
+      "example_meaning": "The days have gotten shorter lately, haven't they."
+    },
+    {
+      "word": "～がります（〜たがる）",
+      "reading": "tagaru",
+      "meanings": [
+        "(someone else) wants to ~"
+      ],
+      "jlpt": "N5",
+      "category": "desire",
+      "context": "Japanese won't let you assert another's inner state directly: 弟は外で遊びたがっています (my brother shows signs of wanting to play). Your own desire stays ～たい.",
+      "example_sentence": "娘は犬を飼いたがっています。",
+      "example_reading": "むすめ は いぬ を かいたがっています。",
+      "example_meaning": "My daughter wants to get a dog."
+    },
+    {
+      "word": "もう／まだ",
+      "reading": "mou / mada",
+      "meanings": [
+        "already / still, not yet"
+      ],
+      "jlpt": "N5",
+      "category": "adverbs",
+      "context": "もう食べました = already ate. まだ食べていません = haven't eaten YET (uses ています, not ませんでした — a classic N5 exam point).",
+      "example_sentence": "もう宿題をしましたか。— いいえ、まだしていません。",
+      "example_reading": "もう しゅくだい を しました か。— いいえ、まだ していません。",
+      "example_meaning": "Have you done your homework yet? — No, not yet."
+    },
+    {
+      "word": "～ぐらい／～ごろ",
+      "reading": "gurai / goro",
+      "meanings": [
+        "about (amount) / about (time point)"
+      ],
+      "jlpt": "N5",
+      "category": "adverbs",
+      "context": "ごろ only for points in time (三時ごろ = around 3:00); ぐらい for quantities and durations (三時間ぐらい = about 3 hours). Mixing them is instantly noticeable.",
+      "example_sentence": "駅まで十分ぐらいかかります。",
+      "example_reading": "えき まで じゅっぷん ぐらい かかります。",
+      "example_meaning": "It takes about ten minutes to the station."
+    },
+    {
+      "word": "～すぎます",
+      "reading": "sugimasu",
+      "meanings": [
+        "too much ~",
+        "overly ~"
+      ],
+      "jlpt": "N5",
+      "category": "degree",
+      "context": "Verb stem or adjective stem + すぎる: 食べすぎた (ate too much), 高すぎる (too expensive). Conjugates as a regular ru-verb.",
+      "example_sentence": "昨日の夜、飲みすぎました。",
+      "example_reading": "きのう の よる、のみすぎました。",
+      "example_meaning": "I drank too much last night."
+    },
+    {
+      "word": "～ほうがいいです",
+      "reading": "hou ga ii desu",
+      "meanings": [
+        "it's better to ~",
+        "you should ~"
+      ],
+      "jlpt": "N5",
+      "category": "advice",
+      "context": "Advice TO do: ta-form + ほうがいい (休んだほうがいい). Advice NOT to: nai-form + ほうがいい (行かないほうがいい). The ta/nai asymmetry is the exam trap.",
+      "example_sentence": "熱があるなら、早く寝たほうがいいですよ。",
+      "example_reading": "ねつ が ある なら、はやく ねた ほう が いい です よ。",
+      "example_meaning": "If you have a fever, you should go to bed early."
+    },
+    {
+      "word": "～つもりです",
+      "reading": "tsumori desu",
+      "meanings": [
+        "intend to ~",
+        "plan to ~"
+      ],
+      "jlpt": "N5",
+      "category": "intention",
+      "context": "Dictionary form + つもり for firm personal plans: 来年留学するつもりです. Negative: 行かないつもり (intend not to) ≠ 行くつもりはない (have no intention — stronger).",
+      "example_sentence": "夏休みに国へ帰るつもりです。",
+      "example_reading": "なつやすみ に くに へ かえる つもり です。",
+      "example_meaning": "I plan to go back to my country for summer vacation."
+    },
+    {
+      "word": "～でしょう？／～ね／～よ",
+      "reading": "ne / yo (sentence enders)",
+      "meanings": [
+        "agreement-seeking / informing particles"
+      ],
+      "jlpt": "N5",
+      "category": "particles_final",
+      "context": "ね seeks agreement on shared info (いい天気ですね); よ asserts info the listener lacks (財布、落としましたよ). よ at the wrong moment sounds pushy — when unsure, ね.",
+      "example_sentence": "この店のラーメン、おいしいですね。",
+      "example_reading": "この みせ の ラーメン、おいしい です ね。",
+      "example_meaning": "This shop's ramen is great, isn't it."
+    },
+    {
+      "word": "疑問詞＋か／も",
+      "reading": "question word + ka / mo",
+      "meanings": [
+        "some- / every- / no- compounds"
+      ],
+      "jlpt": "N5",
+      "category": "indefinites",
+      "context": "何か = something, 何も(+neg) = nothing, 誰か = someone, 誰も(+neg) = no one, どこかへ = somewhere. か-compounds pair with affirmatives, も-compounds with negatives.",
+      "example_sentence": "何か食べましたか。— いいえ、何も食べていません。",
+      "example_reading": "なにか たべました か。— いいえ、なにも たべていません。",
+      "example_meaning": "Did you eat something? — No, I haven't eaten anything."
+    },
+    {
+      "word": "～や～など",
+      "reading": "ya ~ nado",
+      "meanings": [
+        "~ and ~, among others"
+      ],
+      "jlpt": "N5",
+      "category": "listing",
+      "context": "Non-exhaustive noun list: 机の上にペンや本などがあります. Contrast と, which is exhaustive — AとB means exactly A and B, nothing else.",
+      "example_sentence": "かばんの中に財布や鍵などが入っています。",
+      "example_reading": "かばん の なか に さいふ や かぎ など が はいっています。",
+      "example_meaning": "There's a wallet, keys, and such in the bag."
+    },
+    {
+      "word": "～ましょうか（申し出）",
+      "reading": "mashou ka (offering)",
+      "meanings": [
+        "shall I ~? (offering help)"
+      ],
+      "jlpt": "N5",
+      "category": "invitation",
+      "context": "荷物を持ちましょうか = shall I carry your bags? Decline politely with 大丈夫です.",
+      "example_sentence": "窓を開けましょうか。",
+      "example_reading": "まど を あけましょう か。",
+      "example_meaning": "Shall I open the window?"
+    },
+    {
+      "word": "～という～",
+      "reading": "to iu",
+      "meanings": [
+        "called ~",
+        "named ~"
+      ],
+      "jlpt": "N5",
+      "category": "naming",
+      "context": "Introduces names the listener may not know: 「君の名は」という映画 = the movie called 'Your Name'. Indispensable for asking about words: これは何という意味ですか.",
+      "example_sentence": "田中さんという人から電話がありました。",
+      "example_reading": "たなかさん という ひと から でんわ が ありました。",
+      "example_meaning": "There was a call from a person called Tanaka."
+    },
+    {
+      "word": "～のが好き／～のは～",
+      "reading": "no (nominalizer)",
+      "meanings": [
+        "~ing (turning verbs into nouns)"
+      ],
+      "jlpt": "N5",
+      "category": "nominalization",
+      "context": "の turns a verb clause into a noun: 泳ぐのが好きです = I like swimming. こと does the same job slightly more formally; at N5, の is the spoken default.",
+      "example_sentence": "音楽を聞くのが好きです。",
+      "example_reading": "おんがく を きく の が すき です。",
+      "example_meaning": "I like listening to music."
+    },
+    {
+      "word": "～にします",
+      "reading": "ni shimasu",
+      "meanings": [
+        "decide on ~",
+        "I'll have ~ (ordering)"
+      ],
+      "jlpt": "N5",
+      "category": "decisions",
+      "context": "The ordering phrase: コーヒーにします = I'll have the coffee. Literally 'make it into ~' — a decision verb.",
+      "example_sentence": "私はカレーにします。",
+      "example_reading": "わたし は カレー に します。",
+      "example_meaning": "I'll have the curry."
+    },
+    {
+      "word": "～をください",
+      "reading": "o kudasai",
+      "meanings": [
+        "please give me ~"
+      ],
+      "jlpt": "N5",
+      "category": "requests",
+      "context": "Noun + をください for requesting THINGS (これをください). For actions use ～てください. Counting in orders: りんごを三つください.",
+      "example_sentence": "すみません、水をください。",
+      "example_reading": "すみません、みず を ください。",
+      "example_meaning": "Excuse me, some water please."
+    },
+    {
+      "word": "～へ行く／～に行く",
+      "reading": "e iku / ni iku",
+      "meanings": [
+        "go to ~ (direction)"
+      ],
+      "jlpt": "N5",
+      "category": "movement",
+      "context": "へ and に are both fine for destinations; に is more common in speech, へ emphasizes direction. Purpose-of-motion uses the verb stem: 買い物に行く, 泳ぎに行く.",
+      "example_sentence": "週末、友達と海へ泳ぎに行きます。",
+      "example_reading": "しゅうまつ、ともだち と うみ へ およぎ に いきます。",
+      "example_meaning": "This weekend I'm going to the sea with friends to swim."
+    },
+    {
+      "word": "あまり～ません",
+      "reading": "amari ~ masen",
+      "meanings": [
+        "not very ~",
+        "not much ~"
+      ],
+      "jlpt": "N5",
+      "category": "adverbs",
+      "context": "あまり demands a negative ending: あまり高くないです = not very expensive. Its stronger sibling 全然 (+neg) = not at all. Using あまり with a positive is the give-away mistake.",
+      "example_sentence": "私はあまりテレビを見ません。",
+      "example_reading": "わたし は あまり テレビ を みません。",
+      "example_meaning": "I don't watch TV much."
+    }
+  ]
+}

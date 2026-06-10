@@ -15,7 +15,7 @@
     "format": "prettier --write .",
     "typecheck": "tsc --noEmit",
     "icons": "node scripts/generate-icons.mjs",
-    "build:decks": "node scripts/build-decks.mjs && node scripts/build-kana-decks.mjs && node scripts/build-themed-decks.mjs && node scripts/build-themed-decks-batch2.mjs && node scripts/build-themed-decks-batch3.mjs && node scripts/build-themed-decks-batch4.mjs && node scripts/build-grammar-decks.mjs",
+    "build:decks": "node scripts/build-decks.mjs && node scripts/build-kana-decks.mjs && node scripts/build-themed-decks.mjs && node scripts/build-themed-decks-batch2.mjs && node scripts/build-themed-decks-batch3.mjs && node scripts/build-themed-decks-batch4.mjs && node scripts/build-themed-decks-batch5.mjs && node scripts/build-grammar-decks.mjs && node scripts/build-grammar-n5-deck.mjs && node scripts/build-radicals-deck.mjs && node scripts/build-katakana-greetings-decks.mjs",
     "enrich:examples": "node scripts/enrich-decks-with-examples.mjs"
   },
   "dependencies": {

@@ -1,0 +1,413 @@
+{
+  "deck_id": "vocab-technology",
+  "deck_name": "Tech & Appliances (電気製品)",
+  "subtitle": "Phones, internet, the 壊れる/直す repair cycle",
+  "version": "1.0",
+  "card_count": 30,
+  "notes": "Devices, internet verbs, and household appliances. Drills the transitive/intransitive repair cycle (壊れる/壊す, 直る/直す) and the 音/声 sound split.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "電話",
+      "reading": "でんわ",
+      "meanings": [
+        "telephone",
+        "phone call"
+      ],
+      "jlpt": "N5",
+      "category": "devices",
+      "context": "電話する／電話をかける = make a call. Receiving: 電話に出る (answer, lit. 'come out to').",
+      "example_sentence": "後で電話をかけます。",
+      "example_reading": "あと で でんわ を かけます。",
+      "example_meaning": "I'll call you later."
+    },
+    {
+      "word": "携帯電話",
+      "reading": "けいたいでんわ",
+      "meanings": [
+        "mobile phone"
+      ],
+      "jlpt": "N4",
+      "category": "devices",
+      "context": "Universally clipped to 携帯 (けいたい). Younger speakers just say スマホ.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "電気",
+      "reading": "でんき",
+      "meanings": [
+        "electricity",
+        "(electric) light"
+      ],
+      "jlpt": "N5",
+      "category": "devices",
+      "context": "Doubles as 'the lights': 電気をつける／消す = turn the lights on/off.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "電池",
+      "reading": "でんち",
+      "meanings": [
+        "battery"
+      ],
+      "jlpt": "N4",
+      "category": "devices",
+      "context": "電池が切れた = the battery died. Rechargeable phone battery: バッテリー or 充電.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "充電",
+      "reading": "じゅうでん",
+      "meanings": [
+        "charging (a battery)"
+      ],
+      "jlpt": "N3",
+      "category": "devices",
+      "context": "充電する = to charge. 充電器 = charger. Figurative too: 週末に充電する = recharge on the weekend.",
+      "example_sentence": "スマホを充電するのを忘れた。",
+      "example_reading": "スマホ を じゅうでん する の を わすれた。",
+      "example_meaning": "I forgot to charge my phone."
+    },
+    {
+      "word": "インターネット",
+      "reading": "インターネット",
+      "meanings": [
+        "internet"
+      ],
+      "jlpt": "N4",
+      "category": "internet",
+      "context": "Clipped to ネット in everyday speech: ネットで調べる = look it up online.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "調べる",
+      "reading": "しらべる",
+      "meanings": [
+        "look up",
+        "investigate"
+      ],
+      "jlpt": "N4",
+      "category": "internet",
+      "context": "The look-it-up verb: 辞書で調べる, ネットで調べる. Casual: ググる (to google).",
+      "example_sentence": "分からない言葉はネットで調べます。",
+      "example_reading": "わからない ことば は ネット で しらべます。",
+      "example_meaning": "I look up words I don't know online."
+    },
+    {
+      "word": "サイト",
+      "reading": "サイト",
+      "meanings": [
+        "website"
+      ],
+      "jlpt": "N3",
+      "category": "internet",
+      "context": "Clipped from ウェブサイト. ホームページ (or HP) is the older generation's word for any website.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "動画",
+      "reading": "どうが",
+      "meanings": [
+        "video (online)"
+      ],
+      "jlpt": "N3",
+      "category": "internet",
+      "context": "Online video (YouTube etc.). A movie is 映画; a physical recording is ビデオ.",
+      "example_sentence": "猫の動画を見るのが好きです。",
+      "example_reading": "ねこ の どうが を みる の が すき です。",
+      "example_meaning": "I like watching cat videos."
+    },
+    {
+      "word": "写真",
+      "reading": "しゃしん",
+      "meanings": [
+        "photo"
+      ],
+      "jlpt": "N5",
+      "category": "media",
+      "context": "写真を撮る = take a photo (撮る, not 取る — same sound, dedicated kanji).",
+      "example_sentence": "ここで写真を撮ってもいいですか。",
+      "example_reading": "ここ で しゃしん を とって も いい です か。",
+      "example_meaning": "May I take photos here?"
+    },
+    {
+      "word": "画面",
+      "reading": "がめん",
+      "meanings": [
+        "screen"
+      ],
+      "jlpt": "N3",
+      "category": "devices",
+      "context": "Any display screen. 画面が割れた = the screen cracked.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "押す",
+      "reading": "おす",
+      "meanings": [
+        "push",
+        "press"
+      ],
+      "jlpt": "N5",
+      "category": "actions",
+      "context": "Buttons and doors. The PUSH/PULL door pair: 押す／引く — memorize before your first konbini door embarrassment.",
+      "example_sentence": "このボタンを押してください。",
+      "example_reading": "この ボタン を おして ください。",
+      "example_meaning": "Please press this button."
+    },
+    {
+      "word": "送る",
+      "reading": "おくる",
+      "meanings": [
+        "send",
+        "see someone off"
+      ],
+      "jlpt": "N4",
+      "category": "actions",
+      "context": "メールを送る = send an email. Also 'escort/drive someone': 駅まで送る = take someone to the station.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "届く",
+      "reading": "とどく",
+      "meanings": [
+        "arrive (mail/packages)",
+        "reach"
+      ],
+      "jlpt": "N3",
+      "category": "actions",
+      "context": "Intransitive — things arrive on their own: 荷物が届いた. The transitive partner is 届ける (deliver).",
+      "example_sentence": "注文した本がやっと届きました。",
+      "example_reading": "ちゅうもん した ほん が やっと とどきました。",
+      "example_meaning": "The book I ordered finally arrived."
+    },
+    {
+      "word": "壊れる",
+      "reading": "こわれる",
+      "meanings": [
+        "break (by itself)",
+        "be broken"
+      ],
+      "jlpt": "N4",
+      "category": "actions",
+      "context": "Intransitive: パソコンが壊れた = my computer broke. Transitive partner 壊す = (someone) breaks it. The 自動詞/他動詞 pair to drill.",
+      "example_sentence": "エアコンが壊れて、暑くてたまらない。",
+      "example_reading": "エアコン が こわれて、あつくて たまらない。",
+      "example_meaning": "The AC broke and it's unbearably hot."
+    },
+    {
+      "word": "直す",
+      "reading": "なおす",
+      "meanings": [
+        "fix",
+        "repair",
+        "correct"
+      ],
+      "jlpt": "N4",
+      "category": "actions",
+      "context": "Transitive: 自転車を直す. Intransitive partner 直る = get fixed. Same kanji pair handles recovering from illness when read 治す／治る.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "使う",
+      "reading": "つかう",
+      "meanings": [
+        "use"
+      ],
+      "jlpt": "N5",
+      "category": "actions",
+      "context": "",
+      "example_sentence": "この機械の使い方を教えてください。",
+      "example_reading": "この きかい の つかいかた を おしえて ください。",
+      "example_meaning": "Please show me how to use this machine."
+    },
+    {
+      "word": "使い方",
+      "reading": "つかいかた",
+      "meanings": [
+        "how to use",
+        "usage"
+      ],
+      "jlpt": "N4",
+      "category": "actions",
+      "context": "Verb stem + 方 (かた) = 'way of doing': 読み方 how to read, 作り方 how to make, 行き方 how to get there.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "機械",
+      "reading": "きかい",
+      "meanings": [
+        "machine"
+      ],
+      "jlpt": "N4",
+      "category": "devices",
+      "context": "Homophone alert: 機会 (きかい) = opportunity. Context separates the machine from the chance.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "meanings": [
+        "refrigerator"
+      ],
+      "jlpt": "N4",
+      "category": "appliances",
+      "context": "The freezer is 冷凍庫 (れいとうこ) — 蔵 stores, 凍 freezes.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "洗濯機",
+      "reading": "せんたくき",
+      "meanings": [
+        "washing machine"
+      ],
+      "jlpt": "N4",
+      "category": "appliances",
+      "context": "Commonly pronounced せんたっき in speech. 洗濯する = do laundry.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "掃除機",
+      "reading": "そうじき",
+      "meanings": [
+        "vacuum cleaner"
+      ],
+      "jlpt": "N4",
+      "category": "appliances",
+      "context": "掃除機をかける = to vacuum (uses かける, not する).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "電子レンジ",
+      "reading": "でんしレンジ",
+      "meanings": [
+        "microwave oven"
+      ],
+      "jlpt": "N3",
+      "category": "appliances",
+      "context": "Microwaving has its own casual verb: チンする, from the ding of old microwaves.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "炊飯器",
+      "reading": "すいはんき",
+      "meanings": [
+        "rice cooker"
+      ],
+      "jlpt": "N2",
+      "category": "appliances",
+      "context": "ご飯を炊く (たく) = cook rice — rice gets its own cooking verb, separate from 作る.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "パスワード",
+      "reading": "パスワード",
+      "meanings": [
+        "password"
+      ],
+      "jlpt": "N3",
+      "category": "internet",
+      "context": "Banks and ATMs say 暗証番号 (あんしょうばんごう) for PIN codes.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "登録",
+      "reading": "とうろく",
+      "meanings": [
+        "registration",
+        "sign-up"
+      ],
+      "jlpt": "N3",
+      "category": "internet",
+      "context": "登録する = register/subscribe. YouTube's subscribe button: チャンネル登録.",
+      "example_sentence": "このアプリは登録が必要です。",
+      "example_reading": "この アプリ は とうろく が ひつよう です。",
+      "example_meaning": "This app requires registration."
+    },
+    {
+      "word": "故障",
+      "reading": "こしょう",
+      "meanings": [
+        "breakdown",
+        "malfunction"
+      ],
+      "jlpt": "N3",
+      "category": "trouble",
+      "context": "故障中 on a sign = out of order. 故障する = break down (machines only, not people).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "音",
+      "reading": "おと",
+      "meanings": [
+        "sound"
+      ],
+      "jlpt": "N5",
+      "category": "media",
+      "context": "Inanimate sounds. Voices (people/animals) are 声 (こえ). 音を小さくする = turn the volume down.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meanings": [
+        "voice"
+      ],
+      "jlpt": "N5",
+      "category": "media",
+      "context": "Living voices only — the 音/声 split has no English equivalent. 大きい声で = in a loud voice.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "番号",
+      "reading": "ばんごう",
+      "meanings": [
+        "number (assigned)"
+      ],
+      "jlpt": "N5",
+      "category": "internet",
+      "context": "Assigned numbers: 電話番号 phone number, 部屋番号 room number. Math numbers are 数字.",
+      "example_sentence": "電話番号を教えてください。",
+      "example_reading": "でんわばんごう を おしえて ください。",
+      "example_meaning": "Please tell me your phone number."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "deck_id": "vocab-shopping",
+  "deck_name": "Shopping & Money (買い物)",
+  "subtitle": "いくらですか — prices, paying, returns",
+  "version": "1.0",
+  "card_count": 30,
+  "notes": "Money and shop vocabulary: price asking, payment methods, the 開く/閉まる and 並ぶ/並べる pairs, and the レシート vs 領収書 distinction.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "買い物",
+      "reading": "かいもの",
+      "meanings": [
+        "shopping"
+      ],
+      "jlpt": "N5",
+      "category": "general",
+      "context": "買い物する／買い物に行く. The verb 買う + thing 物 = 'buy-things'.",
+      "example_sentence": "週末はいつも母と買い物に行きます。",
+      "example_reading": "しゅうまつ は いつも はは と かいもの に いきます。",
+      "example_meaning": "On weekends I always go shopping with my mom."
+    },
+    {
+      "word": "店",
+      "reading": "みせ",
+      "meanings": [
+        "shop",
+        "store"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "お店 with the polite お is extremely common. Restaurant staff are 店員, the owner is 店長.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "店員",
+      "reading": "てんいん",
+      "meanings": [
+        "shop staff",
+        "clerk"
+      ],
+      "jlpt": "N4",
+      "category": "people",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お金",
+      "reading": "おかね",
+      "meanings": [
+        "money"
+      ],
+      "jlpt": "N5",
+      "category": "money",
+      "context": "Nearly always with お. Bare 金 (かね) sounds rough; read きん it means gold.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "値段",
+      "reading": "ねだん",
+      "meanings": [
+        "price"
+      ],
+      "jlpt": "N4",
+      "category": "money",
+      "context": "値段が高い／安い = expensive/cheap. Asking: これはいくらですか beats 値段は何ですか.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いくら",
+      "reading": "いくら",
+      "meanings": [
+        "how much?"
+      ],
+      "jlpt": "N5",
+      "category": "money",
+      "context": "",
+      "example_sentence": "すみません、これはいくらですか。",
+      "example_reading": "すみません、これ は いくら です か。",
+      "example_meaning": "Excuse me, how much is this?"
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meanings": [
+        "expensive",
+        "tall",
+        "high"
+      ],
+      "jlpt": "N5",
+      "category": "money",
+      "context": "One word for expensive AND tall/high — context decides. Cheap is 安い; short (height) is 低い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meanings": [
+        "cheap",
+        "inexpensive"
+      ],
+      "jlpt": "N5",
+      "category": "money",
+      "context": "Neutral, not derogatory. Quality-judgment 'cheap' is 安っぽい.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "無料",
+      "reading": "むりょう",
+      "meanings": [
+        "free of charge"
+      ],
+      "jlpt": "N3",
+      "category": "money",
+      "context": "Signs say 無料; speech often says タダ (casual). Paid is 有料 — check which one the parking lot sign says.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "割引",
+      "reading": "わりびき",
+      "meanings": [
+        "discount"
+      ],
+      "jlpt": "N3",
+      "category": "money",
+      "context": "二割引 = 20% off (割 = tenths). 学生割引 → 学割 = student discount.",
+      "example_sentence": "学生証があれば割引になります。",
+      "example_reading": "がくせいしょう が あれば わりびき に なります。",
+      "example_meaning": "With a student ID you get a discount."
+    },
+    {
+      "word": "払う",
+      "reading": "はらう",
+      "meanings": [
+        "pay"
+      ],
+      "jlpt": "N4",
+      "category": "money",
+      "context": "お金を払う. Splitting the bill is 割り勘 (わりかん); treating someone is おごる.",
+      "example_sentence": "カードで払ってもいいですか。",
+      "example_reading": "カード で はらって も いい です か。",
+      "example_meaning": "Can I pay by card?"
+    },
+    {
+      "word": "お釣り",
+      "reading": "おつり",
+      "meanings": [
+        "change (money returned)"
+      ],
+      "jlpt": "N4",
+      "category": "money",
+      "context": "お釣りは要りません = keep the change (taxi-only territory — tipping otherwise doesn't exist).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "現金",
+      "reading": "げんきん",
+      "meanings": [
+        "cash"
+      ],
+      "jlpt": "N3",
+      "category": "money",
+      "context": "現金のみ = cash only, still common at small shops. Cashless options: カード, 電子マネー, QR決済.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "財布",
+      "reading": "さいふ",
+      "meanings": [
+        "wallet",
+        "purse"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "財布を家に忘れてきました。",
+      "example_reading": "さいふ を いえ に わすれて きました。",
+      "example_meaning": "I left my wallet at home."
+    },
+    {
+      "word": "袋",
+      "reading": "ふくろ",
+      "meanings": [
+        "bag (plastic/paper)"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "レジ袋 = checkout bag (now charged). 袋はご利用ですか → 大丈夫です declines one.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "売る",
+      "reading": "うる",
+      "meanings": [
+        "sell"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Pairs with 買う. Intransitive 売れる = it sells (well): よく売れている = selling like hotcakes.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meanings": [
+        "buy"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Homophone 飼う = keep a pet. 犬を飼う vs 犬を買う — both grammatical, very different commitments.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "売り切れ",
+      "reading": "うりきれ",
+      "meanings": [
+        "sold out"
+      ],
+      "jlpt": "N3",
+      "category": "verbs",
+      "context": "売り切れました = sold out. The verb compound 売り切れる = sell out completely.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "選ぶ",
+      "reading": "えらぶ",
+      "meanings": [
+        "choose",
+        "select"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "",
+      "example_sentence": "プレゼントを選ぶのに一時間かかった。",
+      "example_reading": "プレゼント を えらぶ の に いちじかん かかった。",
+      "example_meaning": "It took an hour to choose a present."
+    },
+    {
+      "word": "試着",
+      "reading": "しちゃく",
+      "meanings": [
+        "trying on (clothes)"
+      ],
+      "jlpt": "N2",
+      "category": "clothing",
+      "context": "試着してもいいですか = may I try this on? The fitting room is 試着室.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "サイズ",
+      "reading": "サイズ",
+      "meanings": [
+        "size"
+      ],
+      "jlpt": "N4",
+      "category": "clothing",
+      "context": "もっと大きいサイズはありますか = do you have a bigger size?",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "似合う",
+      "reading": "にあう",
+      "meanings": [
+        "suit",
+        "look good on"
+      ],
+      "jlpt": "N3",
+      "category": "clothing",
+      "context": "よく似合いますよ = it really suits you (what the 店員 will say regardless).",
+      "example_sentence": "その色、よく似合っていますね。",
+      "example_reading": "その いろ、よく にあっています ね。",
+      "example_meaning": "That color really suits you."
+    },
+    {
+      "word": "返品",
+      "reading": "へんぴん",
+      "meanings": [
+        "returning goods"
+      ],
+      "jlpt": "N2",
+      "category": "after_sales",
+      "context": "返品する = return an item. Exchanging is 交換. Japanese return policies are stricter than US ones.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "レシート",
+      "reading": "レシート",
+      "meanings": [
+        "receipt"
+      ],
+      "jlpt": "N3",
+      "category": "after_sales",
+      "context": "The machine-printed slip. A formal handwritten receipt for expenses is 領収書 (りょうしゅうしょ) — ask for it by name on business trips.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "注文",
+      "reading": "ちゅうもん",
+      "meanings": [
+        "order (for goods)"
+      ],
+      "jlpt": "N4",
+      "category": "general",
+      "context": "Online and restaurant orders both: 注文する. ご注文 with the honorific ご in staff speech.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "配達",
+      "reading": "はいたつ",
+      "meanings": [
+        "delivery"
+      ],
+      "jlpt": "N3",
+      "category": "after_sales",
+      "context": "配達する = deliver. The courier service genre is 宅配便 (たくはいびん); redelivery slips say 再配達.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "営業時間",
+      "reading": "えいぎょうじかん",
+      "meanings": [
+        "business hours"
+      ],
+      "jlpt": "N3",
+      "category": "general",
+      "context": "営業中 = open (sign); 準備中 = closed/preparing (sign). 何時まで営業していますか = how late are you open?",
+      "example_sentence": "この店の営業時間は十時から八時までです。",
+      "example_reading": "この みせ の えいぎょうじかん は じゅうじ から はちじ まで です。",
+      "example_meaning": "This shop's hours are 10 to 8."
+    },
+    {
+      "word": "閉まる",
+      "reading": "しまる",
+      "meanings": [
+        "close (by itself)"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Intransitive: 店が閉まっている = the shop is closed. Transitive partner 閉める = (someone) closes it. Another core 自/他 pair.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "開く",
+      "reading": "あく",
+      "meanings": [
+        "open (by itself)"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Intransitive: ドアが開いた. Transitive partner 開ける. Same kanji read ひらく for books/events: 本を開く, 店を開く (open a business).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "並ぶ",
+      "reading": "ならぶ",
+      "meanings": [
+        "line up",
+        "queue"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "Intransitive: 人が並んでいる = people are queuing. Transitive partner 並べる = arrange/line things up. Queueing is a national sport — this word earns its keep.",
+      "example_sentence": "人気の店なので、いつも人が並んでいます。",
+      "example_reading": "にんき の みせ な ので、いつも ひと が ならんでいます。",
+      "example_meaning": "It's a popular shop, so people are always lined up."
+    }
+  ]
+}

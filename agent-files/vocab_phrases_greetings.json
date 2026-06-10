@@ -1,0 +1,633 @@
+{
+  "deck_id": "vocab-phrases-greetings",
+  "deck_name": "Greetings & Set Phrases (あいさつ)",
+  "subtitle": "The social glue — aisatsu, register ladders, untranslatables",
+  "version": "1.0",
+  "card_count": 46,
+  "notes": "The set phrases textbooks romanize on page one and never drill: home/leaving pairs, meal pairs, the すみません triple-duty, the お疲れ様 workplace economy, and politeness escalation ladders.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese expressions).",
+  "cards": [
+    {
+      "word": "おはようございます",
+      "reading": "おはようございます",
+      "meanings": [
+        "good morning (polite)"
+      ],
+      "jlpt": "N5",
+      "category": "daily_greetings",
+      "context": "Drop ございます with friends/family: おはよう. In workplaces it greets the FIRST meeting of the day even at night — service industry uses it at 8 PM.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "こんにちは",
+      "reading": "こんにちは",
+      "meanings": [
+        "hello",
+        "good afternoon"
+      ],
+      "jlpt": "N5",
+      "category": "daily_greetings",
+      "context": "Written with は (the particle), pronounced わ. Daytime only, and NOT used with your own in-group (family, close coworkers) — it has built-in distance.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "こんばんは",
+      "reading": "こんばんは",
+      "meanings": [
+        "good evening"
+      ],
+      "jlpt": "N5",
+      "category": "daily_greetings",
+      "context": "Same は-spelling trap as こんにちは.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おやすみなさい",
+      "reading": "おやすみなさい",
+      "meanings": [
+        "good night"
+      ],
+      "jlpt": "N5",
+      "category": "daily_greetings",
+      "context": "Casual: おやすみ. Said when someone is going to bed OR when parting at night.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "さようなら",
+      "reading": "さようなら",
+      "meanings": [
+        "goodbye (formal/final)"
+      ],
+      "jlpt": "N5",
+      "category": "daily_greetings",
+      "context": "Heavier than textbooks suggest — can imply long/permanent separation. Everyday partings: じゃあね, またね, お先に失礼します (work).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "じゃあね",
+      "reading": "じゃあね",
+      "meanings": [
+        "see you",
+        "bye (casual)"
+      ],
+      "jlpt": "N5",
+      "category": "daily_greetings",
+      "context": "The actual everyday goodbye between friends. Variants: じゃ、また / またね / バイバイ.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ただいま",
+      "reading": "ただいま",
+      "meanings": [
+        "I'm home"
+      ],
+      "jlpt": "N5",
+      "category": "home_pairs",
+      "context": "Pairs with おかえりなさい. Literally 'just now (returned)'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おかえりなさい",
+      "reading": "おかえりなさい",
+      "meanings": [
+        "welcome home"
+      ],
+      "jlpt": "N5",
+      "category": "home_pairs",
+      "context": "Response to ただいま. Casual: おかえり.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いってきます",
+      "reading": "いってきます",
+      "meanings": [
+        "I'm off (and coming back)"
+      ],
+      "jlpt": "N5",
+      "category": "home_pairs",
+      "context": "Said when leaving home/office. Literally 'I'll go and come back' — the coming-back is built into the grammar.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いってらっしゃい",
+      "reading": "いってらっしゃい",
+      "meanings": [
+        "take care",
+        "see you later (to someone leaving)"
+      ],
+      "jlpt": "N5",
+      "category": "home_pairs",
+      "context": "Response to いってきます.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いただきます",
+      "reading": "いただきます",
+      "meanings": [
+        "(said before eating)"
+      ],
+      "jlpt": "N5",
+      "category": "meals",
+      "context": "Humble 'I receive'. Thanks everyone and everything that produced the meal. No English equivalent — 'bon appétit' is said TO others; this is said by the eater.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ごちそうさまでした",
+      "reading": "ごちそうさまでした",
+      "meanings": [
+        "(said after eating)",
+        "thanks for the meal"
+      ],
+      "jlpt": "N5",
+      "category": "meals",
+      "context": "Closes the いただきます pair. Said to hosts, restaurant staff on leaving, or whoever paid. Casual: ごちそうさま.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ありがとうございます",
+      "reading": "ありがとうございます",
+      "meanings": [
+        "thank you (polite)"
+      ],
+      "jlpt": "N5",
+      "category": "thanks_apology",
+      "context": "Past tense ありがとうございました thanks a COMPLETED favor. Present tense for ongoing/just-now ones. Casual: ありがとう.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "meanings": [
+        "excuse me",
+        "sorry",
+        "thank you (for trouble taken)"
+      ],
+      "jlpt": "N5",
+      "category": "thanks_apology",
+      "context": "Triple duty: getting attention, light apology, AND thanks-with-apology (someone holds the door → すみません). The single most useful word in spoken Japanese.",
+      "example_sentence": "すみません、駅はどこですか。",
+      "example_reading": "すみません、えき は どこ です か。",
+      "example_meaning": "Excuse me, where is the station?"
+    },
+    {
+      "word": "ごめんなさい",
+      "reading": "ごめんなさい",
+      "meanings": [
+        "I'm sorry"
+      ],
+      "jlpt": "N5",
+      "category": "thanks_apology",
+      "context": "More personal than すみません, used with people close to you. Casual: ごめん／ごめんね. For serious/business apologies: 申し訳ありません.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "申し訳ありません",
+      "reading": "もうしわけありません",
+      "meanings": [
+        "I sincerely apologize"
+      ],
+      "jlpt": "N3",
+      "category": "thanks_apology",
+      "context": "Business-grade apology — literally 'there is no excuse'. The escalation ladder: ごめん → すみません → 申し訳ありません → 申し訳ございません.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お願いします",
+      "reading": "おねがいします",
+      "meanings": [
+        "please (requesting)"
+      ],
+      "jlpt": "N5",
+      "category": "requests",
+      "context": "Attach to anything you're requesting: これ、お願いします (this one, please). よろしくお願いします is its own separate beast — see that card.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "よろしくお願いします",
+      "reading": "よろしくおねがいします",
+      "meanings": [
+        "nice to meet you",
+        "I'm counting on you",
+        "best regards"
+      ],
+      "jlpt": "N5",
+      "category": "requests",
+      "context": "Untranslatable glue phrase: ends self-introductions, requests, emails, year-end greetings. Means roughly 'please treat the relationship/task well'. Just learn the situations, not a translation.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "はじめまして",
+      "reading": "はじめまして",
+      "meanings": [
+        "nice to meet you (first time)"
+      ],
+      "jlpt": "N5",
+      "category": "introductions",
+      "context": "Only at FIRST meetings. Standard set: はじめまして。[name]です。よろしくお願いします。",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お疲れ様です",
+      "reading": "おつかれさまです",
+      "meanings": [
+        "good work",
+        "hello/bye (workplace)"
+      ],
+      "jlpt": "N4",
+      "category": "workplace",
+      "context": "The workplace everything-greeting: passing coworkers, starting calls, ending meetings, leaving (お疲れ様でした). Never to customers — that's ありがとうございました.",
+      "example_sentence": "お先に失礼します。— お疲れ様でした。",
+      "example_reading": "おさき に しつれい します。— おつかれさまでした。",
+      "example_meaning": "I'm heading out first. — Good work today."
+    },
+    {
+      "word": "お先に失礼します",
+      "reading": "おさきにしつれいします",
+      "meanings": [
+        "excuse me for leaving first (work)"
+      ],
+      "jlpt": "N3",
+      "category": "workplace",
+      "context": "Said when leaving the office while others are still working. The reply is お疲れ様でした.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "meanings": [
+        "excuse me (entering/leaving/interrupting)"
+      ],
+      "jlpt": "N4",
+      "category": "workplace",
+      "context": "Entering an office or someone's room, hanging up a phone, leaving a meeting. Literally 'I commit a rudeness'. Past tense 失礼しました doubles as a light apology.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いらっしゃいませ",
+      "reading": "いらっしゃいませ",
+      "meanings": [
+        "welcome (to a shop)"
+      ],
+      "jlpt": "N5",
+      "category": "shop_japanese",
+      "context": "You HEAR this constantly but never say it (staff only). No response needed — a nod is fine. Don't reply こんにちは.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "かしこまりました",
+      "reading": "かしこまりました",
+      "meanings": [
+        "certainly (formal acknowledgment)"
+      ],
+      "jlpt": "N2",
+      "category": "shop_japanese",
+      "context": "Staff-speak for 'understood'. The politeness ladder: 分かった → 分かりました → 承知しました → かしこまりました.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "少々お待ちください",
+      "reading": "しょうしょうおまちください",
+      "meanings": [
+        "please wait a moment (formal)"
+      ],
+      "jlpt": "N3",
+      "category": "shop_japanese",
+      "context": "Shop and phone staple. Casual version: ちょっと待って(ね).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お待たせしました",
+      "reading": "おまたせしました",
+      "meanings": [
+        "sorry to keep you waiting"
+      ],
+      "jlpt": "N3",
+      "category": "shop_japanese",
+      "context": "Said when returning to a customer/friend after any wait — even a short one. Restaurant servers say it delivering food.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "どうぞ",
+      "reading": "どうぞ",
+      "meanings": [
+        "go ahead",
+        "here you are",
+        "please (offering)"
+      ],
+      "jlpt": "N5",
+      "category": "requests",
+      "context": "The offering word: handing things over, yielding a seat, inviting someone in. Pairs with どうも as the reply.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "どうも",
+      "reading": "どうも",
+      "meanings": [
+        "thanks (light)",
+        "hi (casual nod)"
+      ],
+      "jlpt": "N5",
+      "category": "thanks_apology",
+      "context": "Swiss-army filler: light thanks, casual hello, soft acknowledgment. どうもどうも from a middle-aged man can be an entire conversation.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お久しぶりです",
+      "reading": "おひさしぶりです",
+      "meanings": [
+        "long time no see"
+      ],
+      "jlpt": "N4",
+      "category": "social",
+      "context": "Casual: 久しぶり！ Roughly after a month or more apart.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お元気ですか",
+      "reading": "おげんきですか",
+      "meanings": [
+        "how are you?"
+      ],
+      "jlpt": "N5",
+      "category": "social",
+      "context": "NOT a daily greeting like English 'how are you' — only for people you haven't seen in a while. Reply: はい、元気です or おかげさまで.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "おかげさまで",
+      "reading": "おかげさまで",
+      "meanings": [
+        "thanks to you",
+        "fortunately"
+      ],
+      "jlpt": "N3",
+      "category": "social",
+      "context": "The graceful answer to お元気ですか — credits your wellbeing to others' kindness. Standalone: おかげさまで、元気です。",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お大事に",
+      "reading": "おだいじに",
+      "meanings": [
+        "get well soon",
+        "take care (to the sick)"
+      ],
+      "jlpt": "N4",
+      "category": "care",
+      "context": "To anyone ill or leaving a hospital/pharmacy. Full: お大事になさってください.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "気をつけて",
+      "reading": "きをつけて",
+      "meanings": [
+        "take care",
+        "be careful",
+        "safe travels"
+      ],
+      "jlpt": "N5",
+      "category": "care",
+      "context": "Seeing someone off: (お)気をつけて(ください). Also literal 'watch out!'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "頑張ってください",
+      "reading": "がんばってください",
+      "meanings": [
+        "good luck",
+        "do your best"
+      ],
+      "jlpt": "N5",
+      "category": "care",
+      "context": "Encouragement before exams/games/work. Casual: 頑張って／頑張れ. Reply: 頑張ります. To someone already struggling hard, 無理しないで (don't overdo it) is kinder.",
+      "example_sentence": "明日の試験、頑張ってください。",
+      "example_reading": "あした の しけん、がんばって ください。",
+      "example_meaning": "Good luck on tomorrow's exam."
+    },
+    {
+      "word": "おめでとうございます",
+      "reading": "おめでとうございます",
+      "meanings": [
+        "congratulations"
+      ],
+      "jlpt": "N5",
+      "category": "celebrations",
+      "context": "誕生日おめでとう (birthday), 合格おめでとう (passing an exam), 明けましておめでとう (New Year).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "明けましておめでとうございます",
+      "reading": "あけましておめでとうございます",
+      "meanings": [
+        "happy New Year"
+      ],
+      "jlpt": "N4",
+      "category": "celebrations",
+      "context": "Only AFTER midnight on Jan 1. Before year-end you say よいお年を. Followed by 今年もよろしくお願いします.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "よいお年を",
+      "reading": "よいおとしを",
+      "meanings": [
+        "have a good New Year (said in December)"
+      ],
+      "jlpt": "N3",
+      "category": "celebrations",
+      "context": "The BEFORE-new-year farewell — don't mix up with 明けまして (after).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "もしもし",
+      "reading": "もしもし",
+      "meanings": [
+        "hello (on the phone)"
+      ],
+      "jlpt": "N5",
+      "category": "phone",
+      "context": "Phone-only. Business calls open with お電話ありがとうございます or 「会社名」でございます instead.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "お邪魔します",
+      "reading": "おじゃまします",
+      "meanings": [
+        "pardon the intrusion (entering a home)"
+      ],
+      "jlpt": "N4",
+      "category": "visiting",
+      "context": "Said stepping into someone's home — literally 'I will disturb you'. Leaving: お邪魔しました.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ようこそ",
+      "reading": "ようこそ",
+      "meanings": [
+        "welcome"
+      ],
+      "jlpt": "N4",
+      "category": "visiting",
+      "context": "Welcoming guests/visitors: 日本へようこそ = Welcome to Japan.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "とんでもないです",
+      "reading": "とんでもないです",
+      "meanings": [
+        "not at all",
+        "don't mention it"
+      ],
+      "jlpt": "N3",
+      "category": "humility",
+      "context": "Deflects praise or thanks. Politer than いいえいいえ; the natural reply when a compliment lands.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "こちらこそ",
+      "reading": "こちらこそ",
+      "meanings": [
+        "likewise",
+        "the pleasure is mine"
+      ],
+      "jlpt": "N4",
+      "category": "humility",
+      "context": "Returns a thanks or greeting: ありがとう → こちらこそ (no, thank YOU).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "大丈夫です",
+      "reading": "だいじょうぶです",
+      "meanings": [
+        "it's okay",
+        "no thank you",
+        "I'm fine"
+      ],
+      "jlpt": "N5",
+      "category": "social",
+      "context": "Modern double duty: 'I'm fine' AND a soft 'no thanks' (レジ袋は？→ 大丈夫です). Context and tone decide — a major listening-comprehension trap.",
+      "example_sentence": "袋はご利用ですか。— 大丈夫です。",
+      "example_reading": "ふくろ は ごりよう です か。— だいじょうぶ です。",
+      "example_meaning": "Do you need a bag? — No, I'm fine."
+    },
+    {
+      "word": "お世話になっております",
+      "reading": "おせわになっております",
+      "meanings": [
+        "thank you for your continued support (business)"
+      ],
+      "jlpt": "N2",
+      "category": "workplace",
+      "context": "Opens nearly every business email and call between companies. There is no English equivalent; treat it as 'Dear sir/madam' that also does gratitude.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "いいえ",
+      "reading": "いいえ",
+      "meanings": [
+        "no",
+        "not at all"
+      ],
+      "jlpt": "N5",
+      "category": "basic",
+      "context": "Textbook 'no', but real speech softens: いや、ちょっと…, うーん, or just trailing off. Blunt いいえ can sound stiff. As a reply to thanks it means 'don't mention it'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "はい",
+      "reading": "はい",
+      "meanings": [
+        "yes",
+        "here (roll call)",
+        "I'm listening"
+      ],
+      "jlpt": "N5",
+      "category": "basic",
+      "context": "Also the aizuchi 'uh-huh' — はい during your speech means 'I'm following', NOT 'I agree'. Contract negotiations have gone wrong over this.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

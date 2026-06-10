@@ -90,6 +90,13 @@ const ORDER: Record<string, number> = {
   "vocab-numbers": 30,
   "vocab-time": 40,
 
+  // Early essentials (Pro) — what a beginner reaches for next
+  "vocab-phrases-greetings": 45,
+  "vocab-katakana-words": 47,
+
+  // Radicals — the on-ramp to kanji proper
+  "kanji-radicals": 90,
+
   // JLPT progression
   "kanji-jlpt-n5": 100,
   "kanji-jlpt-n4": 110,
@@ -120,6 +127,10 @@ const ORDER: Record<string, number> = {
   "vocab-adjectives": 450,
   "vocab-verbs-pairs": 455,
   "vocab-onomatopoeia": 460,
+  "vocab-shopping": 462,
+  "vocab-school": 464,
+  "vocab-transport": 466,
+  "vocab-technology": 468,
   "vocab-travel": 470,
   "vocab-weather": 480,
   "vocab-office": 490,
@@ -130,7 +141,8 @@ const ORDER: Record<string, number> = {
   "vocab-emotions": 495,
   "vocab-proverbs": 496,
 
-  // Grammar (Pro)
+  // Grammar (Pro) — N5 essentials first, then the focused decks
+  "grammar-n5": 499,
   "grammar-particles": 500,
   "grammar-patterns": 510,
   "grammar-conjugations": 520,

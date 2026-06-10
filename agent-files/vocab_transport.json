@@ -1,0 +1,408 @@
+{
+  "deck_id": "vocab-transport",
+  "deck_name": "Trains & Directions (交通)",
+  "subtitle": "乗る/降りる/乗り換える — surviving the rail network",
+  "version": "1.0",
+  "card_count": 30,
+  "notes": "Transit vocabulary with the particle patterns that matter (に乗る but を降りる), direction-giving language, and the 青信号 'blue' traffic light.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "駅",
+      "reading": "えき",
+      "meanings": [
+        "train station"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "駅まで歩いて十分です。",
+      "example_reading": "えき まで あるいて じゅっぷん です。",
+      "example_meaning": "It's a ten-minute walk to the station."
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meanings": [
+        "train"
+      ],
+      "jlpt": "N5",
+      "category": "vehicles",
+      "context": "電車に乗る = board (particle に); getting off is 降りる with を: 電車を降りる.",
+      "example_sentence": "電車に乗り遅れました。",
+      "example_reading": "でんしゃ に のりおくれました。",
+      "example_meaning": "I missed the train."
+    },
+    {
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "meanings": [
+        "subway"
+      ],
+      "jlpt": "N5",
+      "category": "vehicles",
+      "context": "地下 (underground) + 鉄 (iron/rail). Tokyo's systems are メトロ and 都営線.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meanings": [
+        "bullet train",
+        "Shinkansen"
+      ],
+      "jlpt": "N4",
+      "category": "vehicles",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "meanings": [
+        "airplane"
+      ],
+      "jlpt": "N5",
+      "category": "vehicles",
+      "context": "飛行機に乗る = board a plane. The airport is 空港.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "空港",
+      "reading": "くうこう",
+      "meanings": [
+        "airport"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "meanings": [
+        "bicycle"
+      ],
+      "jlpt": "N5",
+      "category": "vehicles",
+      "context": "Casual: チャリ. Riding uses に乗る like all vehicles.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meanings": [
+        "car"
+      ],
+      "jlpt": "N5",
+      "category": "vehicles",
+      "context": "The everyday word; 自動車 is the formal/legal term.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "乗る",
+      "reading": "のる",
+      "meanings": [
+        "ride",
+        "board"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Takes に (not を): バスに乗る. Transfer between lines: 乗り換える.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "降りる",
+      "reading": "おりる",
+      "meanings": [
+        "get off",
+        "disembark"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Getting off uses を: 次の駅で電車を降ります. Pairs with 乗る.",
+      "example_sentence": "次の駅で降りましょう。",
+      "example_reading": "つぎ の えき で おりましょう。",
+      "example_meaning": "Let's get off at the next station."
+    },
+    {
+      "word": "乗り換える",
+      "reading": "のりかえる",
+      "meanings": [
+        "transfer (trains/buses)"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "新宿で中央線に乗り換える = transfer to the Chuo line at Shinjuku. Noun: 乗り換え.",
+      "example_sentence": "東京駅で新幹線に乗り換えます。",
+      "example_reading": "とうきょうえき で しんかんせん に のりかえます。",
+      "example_meaning": "I transfer to the Shinkansen at Tokyo Station."
+    },
+    {
+      "word": "切符",
+      "reading": "きっぷ",
+      "meanings": [
+        "ticket (train)"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Paper train tickets. IC cards (Suica/PASMO) have mostly replaced them in cities.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "改札",
+      "reading": "かいさつ",
+      "meanings": [
+        "ticket gate"
+      ],
+      "jlpt": "N3",
+      "category": "places",
+      "context": "改札口 = the gate area. 改札で待ち合わせ = meet at the gates — the default station rendezvous.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "出口",
+      "reading": "でぐち",
+      "meanings": [
+        "exit"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "Pairs with 入口 (いりぐち, entrance). Station exits are numbered or lettered: 西口 west exit, A2出口.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "入口",
+      "reading": "いりぐち",
+      "meanings": [
+        "entrance"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "道",
+      "reading": "みち",
+      "meanings": [
+        "road",
+        "way"
+      ],
+      "jlpt": "N5",
+      "category": "directions",
+      "context": "道に迷う = get lost (lit. 'stray on the road'). 道を聞く = ask directions.",
+      "example_sentence": "すみません、道に迷ってしまいました。",
+      "example_reading": "すみません、みち に まよって しまいました。",
+      "example_meaning": "Excuse me, I've gotten lost."
+    },
+    {
+      "word": "交差点",
+      "reading": "こうさてん",
+      "meanings": [
+        "intersection"
+      ],
+      "jlpt": "N4",
+      "category": "directions",
+      "context": "The landmark in every direction-giving sentence: 次の交差点を右に曲がって…",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "信号",
+      "reading": "しんごう",
+      "meanings": [
+        "traffic light"
+      ],
+      "jlpt": "N4",
+      "category": "directions",
+      "context": "The 'green' light is called 青 (blue) — 青信号. A historical color-word artifact, not color blindness.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "曲がる",
+      "reading": "まがる",
+      "meanings": [
+        "turn (a corner)"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "角を右に曲がる = turn right at the corner (を for the place turned at, に for direction).",
+      "example_sentence": "二つ目の角を左に曲がってください。",
+      "example_reading": "ふたつめ の かど を ひだり に まがって ください。",
+      "example_meaning": "Turn left at the second corner."
+    },
+    {
+      "word": "渡る",
+      "reading": "わたる",
+      "meanings": [
+        "cross (a street/bridge)"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "橋を渡る, 道を渡る. Transitive partner 渡す = hand over.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "真っ直ぐ",
+      "reading": "まっすぐ",
+      "meanings": [
+        "straight ahead"
+      ],
+      "jlpt": "N5",
+      "category": "directions",
+      "context": "この道を真っ直ぐ行ってください = go straight down this road. Also 'directly': 真っ直ぐ家に帰る.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "近く",
+      "reading": "ちかく",
+      "meanings": [
+        "nearby",
+        "vicinity"
+      ],
+      "jlpt": "N5",
+      "category": "directions",
+      "context": "駅の近くに = near the station. The adjective is 近い; 近く works as a noun.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "遠い",
+      "reading": "とおい",
+      "meanings": [
+        "far"
+      ],
+      "jlpt": "N5",
+      "category": "directions",
+      "context": "Spelling trap: とおい (o+o), not とうい — one of the kana-spelling exceptions like おおきい.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "角",
+      "reading": "かど",
+      "meanings": [
+        "corner"
+      ],
+      "jlpt": "N5",
+      "category": "directions",
+      "context": "Street corners are かど. The same kanji read つの means animal horns.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "橋",
+      "reading": "はし",
+      "meanings": [
+        "bridge"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "Homophone with 箸 (chopsticks) and 端 (edge) — pitch accent differs: はし↗ bridge, は↘し chopsticks.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meanings": [
+        "hurry"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "",
+      "example_sentence": "急がないと、間に合いませんよ。",
+      "example_reading": "いそがない と、まにあいません よ。",
+      "example_meaning": "If we don't hurry, we won't make it."
+    },
+    {
+      "word": "間に合う",
+      "reading": "まにあう",
+      "meanings": [
+        "be in time",
+        "make it"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "電車に間に合った = made the train. Negative = missed it (alongside 乗り遅れる).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "止まる",
+      "reading": "とまる",
+      "meanings": [
+        "stop (by itself)"
+      ],
+      "jlpt": "N5",
+      "category": "verbs",
+      "context": "Intransitive: 電車が止まった. Transitive partner 止める = bring to a stop / park. Homophone 泊まる = stay overnight — different kanji.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "遅れる",
+      "reading": "おくれる",
+      "meanings": [
+        "be late",
+        "be delayed"
+      ],
+      "jlpt": "N4",
+      "category": "verbs",
+      "context": "電車が遅れている = the train is delayed. For appointments: 約束に遅れる. Apology: 遅れてすみません.",
+      "example_sentence": "事故で電車が三十分遅れました。",
+      "example_reading": "じこ で でんしゃ が さんじゅっぷん おくれました。",
+      "example_meaning": "The train was thirty minutes late due to an accident."
+    },
+    {
+      "word": "定期券",
+      "reading": "ていきけん",
+      "meanings": [
+        "commuter pass"
+      ],
+      "jlpt": "N2",
+      "category": "objects",
+      "context": "The monthly/term commuter pass loaded on an IC card. Clipped: 定期.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

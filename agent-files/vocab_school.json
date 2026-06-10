@@ -1,0 +1,514 @@
+{
+  "deck_id": "vocab-school",
+  "deck_name": "School & Study (学校)",
+  "subtitle": "Classroom, exams, the 先輩/後輩 system",
+  "version": "1.0",
+  "card_count": 38,
+  "notes": "School-life vocabulary: the institution ladder, classroom objects, study verbs (覚える/忘れる pair, 習う vs 勉強する), and the senpai/kōhai system.",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "学校",
+      "reading": "がっこう",
+      "meanings": [
+        "school"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "毎朝八時に学校へ行きます。",
+      "example_reading": "まいあさ はちじ に がっこう へ いきます。",
+      "example_meaning": "I go to school at eight every morning."
+    },
+    {
+      "word": "小学校",
+      "reading": "しょうがっこう",
+      "meanings": [
+        "elementary school"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "The ladder: 小学校 (6 yrs) → 中学校 (3) → 高校 (3) → 大学 (4).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "中学校",
+      "reading": "ちゅうがっこう",
+      "meanings": [
+        "junior high school"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "Often clipped to 中学. A junior-high student is 中学生.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "高校",
+      "reading": "こうこう",
+      "meanings": [
+        "high school"
+      ],
+      "jlpt": "N4",
+      "category": "places",
+      "context": "Clipped from 高等学校. Student: 高校生 (こうこうせい).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "大学",
+      "reading": "だいがく",
+      "meanings": [
+        "university",
+        "college"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "兄は大学で経済を勉強しています。",
+      "example_reading": "あに は だいがく で けいざい を べんきょう しています。",
+      "example_meaning": "My brother studies economics at university."
+    },
+    {
+      "word": "教室",
+      "reading": "きょうしつ",
+      "meanings": [
+        "classroom"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "meanings": [
+        "library"
+      ],
+      "jlpt": "N5",
+      "category": "places",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meanings": [
+        "teacher"
+      ],
+      "jlpt": "N5",
+      "category": "people",
+      "context": "Also the address term for doctors, lawyers, and artists. Never attach 先生 to your own name — it's bestowed, not claimed.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "meanings": [
+        "student"
+      ],
+      "jlpt": "N5",
+      "category": "people",
+      "context": "Strictly, 学生 = university student; 生徒 = secondary school; 児童 = elementary. Casually, 学生 covers them all.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "留学生",
+      "reading": "りゅうがくせい",
+      "meanings": [
+        "international student"
+      ],
+      "jlpt": "N4",
+      "category": "people",
+      "context": "留学する = to study abroad. 日本に留学したい = I want to study in Japan.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "先輩",
+      "reading": "せんぱい",
+      "meanings": [
+        "senior (in school/work)"
+      ],
+      "jlpt": "N3",
+      "category": "people",
+      "context": "The above-you peer in school year or company tenure. Pairs with 後輩 (junior). The relationship shapes speech levels — you use polite forms upward.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "後輩",
+      "reading": "こうはい",
+      "meanings": [
+        "junior (in school/work)"
+      ],
+      "jlpt": "N3",
+      "category": "people",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "授業",
+      "reading": "じゅぎょう",
+      "meanings": [
+        "class",
+        "lesson"
+      ],
+      "jlpt": "N4",
+      "category": "study",
+      "context": "The lesson itself (クラス is the group of students). 授業を受ける = take a class.",
+      "example_sentence": "今日の授業は三時に終わります。",
+      "example_reading": "きょう の じゅぎょう は さんじ に おわります。",
+      "example_meaning": "Today's classes end at three."
+    },
+    {
+      "word": "宿題",
+      "reading": "しゅくだい",
+      "meanings": [
+        "homework"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "",
+      "example_sentence": "宿題を忘れてしまいました。",
+      "example_reading": "しゅくだい を わすれて しまいました。",
+      "example_meaning": "I (regrettably) forgot my homework."
+    },
+    {
+      "word": "試験",
+      "reading": "しけん",
+      "meanings": [
+        "exam",
+        "test"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "試験を受ける = take an exam (not 取る). Passing: 合格する. Failing: 落ちる.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "合格",
+      "reading": "ごうかく",
+      "meanings": [
+        "passing (an exam)"
+      ],
+      "jlpt": "N4",
+      "category": "study",
+      "context": "合格する = to pass. The opposite — falling — is 落ちる or 不合格.",
+      "example_sentence": "JLPTのN5に合格しました。",
+      "example_reading": "ジェイエルピーティー の エヌご に ごうかく しました。",
+      "example_meaning": "I passed JLPT N5."
+    },
+    {
+      "word": "質問",
+      "reading": "しつもん",
+      "meanings": [
+        "question"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "質問がある = to have a question. 質問する = to ask. Don't confuse with 問題 (problem/exercise).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "meanings": [
+        "problem",
+        "exercise question"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "Both an exam question and a problem/issue (社会問題 = social issue). 問題ない = no problem.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "答え",
+      "reading": "こたえ",
+      "meanings": [
+        "answer"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "Verb: 答える (こたえる). 質問に答える = answer a question (particle に).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "意味",
+      "reading": "いみ",
+      "meanings": [
+        "meaning"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "",
+      "example_sentence": "この言葉の意味が分かりません。",
+      "example_reading": "この ことば の いみ が わかりません。",
+      "example_meaning": "I don't understand the meaning of this word."
+    },
+    {
+      "word": "言葉",
+      "reading": "ことば",
+      "meanings": [
+        "word",
+        "language"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "辞書",
+      "reading": "じしょ",
+      "meanings": [
+        "dictionary"
+      ],
+      "jlpt": "N5",
+      "category": "study",
+      "context": "辞書を引く = look something up (literally 'pull' the dictionary — from flipping pages).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "復習",
+      "reading": "ふくしゅう",
+      "meanings": [
+        "review (of studied material)"
+      ],
+      "jlpt": "N4",
+      "category": "study",
+      "context": "復習する = to review. Pairs with 予習 (preview/prepare before class). SRS is automated 復習.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "予習",
+      "reading": "よしゅう",
+      "meanings": [
+        "preparation (before a lesson)"
+      ],
+      "jlpt": "N4",
+      "category": "study",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "覚える",
+      "reading": "おぼえる",
+      "meanings": [
+        "memorize",
+        "learn"
+      ],
+      "jlpt": "N5",
+      "category": "study_verbs",
+      "context": "覚えている = remember (state). Forgetting is 忘れる — the pair to drill together.",
+      "example_sentence": "毎日新しい漢字を十個覚えます。",
+      "example_reading": "まいにち あたらしい かんじ を じゅっこ おぼえます。",
+      "example_meaning": "I memorize ten new kanji every day."
+    },
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meanings": [
+        "forget"
+      ],
+      "jlpt": "N5",
+      "category": "study_verbs",
+      "context": "Also 'leave behind': 傘を電車に忘れた = I left my umbrella on the train.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "教える",
+      "reading": "おしえる",
+      "meanings": [
+        "teach",
+        "tell (inform)"
+      ],
+      "jlpt": "N5",
+      "category": "study_verbs",
+      "context": "Broader than 'teach': 道を教える = tell someone the way. メールアドレスを教えてください = give me your email.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "習う",
+      "reading": "ならう",
+      "meanings": [
+        "learn (from someone)"
+      ],
+      "jlpt": "N5",
+      "category": "study_verbs",
+      "context": "Implies a teacher: ピアノを習っている = I take piano lessons. Self-study is 独学, generic studying is 勉強する.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meanings": [
+        "practice"
+      ],
+      "jlpt": "N5",
+      "category": "study_verbs",
+      "context": "練習する = to practice. Sports, music, and language drills all use it.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "卒業",
+      "reading": "そつぎょう",
+      "meanings": [
+        "graduation"
+      ],
+      "jlpt": "N4",
+      "category": "milestones",
+      "context": "卒業する takes を: 大学を卒業する. Entrance is 入学 (school) / 入社 (company).",
+      "example_sentence": "来年三月に大学を卒業します。",
+      "example_reading": "らいねん さんがつ に だいがく を そつぎょう します。",
+      "example_meaning": "I graduate from university next March."
+    },
+    {
+      "word": "入学",
+      "reading": "にゅうがく",
+      "meanings": [
+        "school entrance",
+        "enrollment"
+      ],
+      "jlpt": "N4",
+      "category": "milestones",
+      "context": "The Japanese school year starts in April — 入学式 (entrance ceremonies) happen under cherry blossoms.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "夏休み",
+      "reading": "なつやすみ",
+      "meanings": [
+        "summer vacation"
+      ],
+      "jlpt": "N5",
+      "category": "milestones",
+      "context": "School summer break (late July–August). Winter: 冬休み. Spring: 春休み.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "成績",
+      "reading": "せいせき",
+      "meanings": [
+        "grades",
+        "academic results"
+      ],
+      "jlpt": "N3",
+      "category": "study",
+      "context": "成績がいい／悪い = good/bad grades.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "専攻",
+      "reading": "せんこう",
+      "meanings": [
+        "major (field of study)"
+      ],
+      "jlpt": "N2",
+      "category": "study",
+      "context": "専攻は何ですか = what's your major? Casual alternative: 何を勉強していますか.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "黒板",
+      "reading": "こくばん",
+      "meanings": [
+        "blackboard"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "Whiteboard is ホワイトボード. 黒板を消す = erase the board.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "鉛筆",
+      "reading": "えんぴつ",
+      "meanings": [
+        "pencil"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "消しゴム",
+      "reading": "けしゴム",
+      "meanings": [
+        "eraser"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "消す (erase) + ゴム (rubber, from Dutch 'gom') — a kanji-katakana hybrid word.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "教科書",
+      "reading": "きょうかしょ",
+      "meanings": [
+        "textbook"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "教科書の二十ページを開いてください。",
+      "example_reading": "きょうかしょ の にじゅっページ を ひらいて ください。",
+      "example_meaning": "Please open your textbook to page 20."
+    }
+  ]
+}

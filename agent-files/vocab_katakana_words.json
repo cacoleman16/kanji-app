@@ -1,0 +1,1278 @@
+{
+  "deck_id": "vocab-katakana-words",
+  "deck_name": "Katakana Words (カタカナ語)",
+  "subtitle": "Loanwords, false friends & wasei-eigo traps",
+  "version": "1.0",
+  "card_count": 95,
+  "notes": "Doubles as katakana reading practice and a false-friend map: マンション, スマート, クレーム, テンション and friends all carry explicit pitfall notes. Sources of loans flagged (Portuguese パン, German アルバイト, brand-name ホッチキス).",
+  "source": "Hand-authored for Kanjido v1 (factual common-knowledge Japanese vocabulary).",
+  "cards": [
+    {
+      "word": "マンション",
+      "reading": "マンション",
+      "meanings": [
+        "condominium",
+        "apartment building (concrete)"
+      ],
+      "jlpt": "N4",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: not a mansion. A mid/high-rise concrete apartment. A wooden low-rise is アパート; an actual mansion is 豪邸 (ごうてい).",
+      "example_sentence": "駅の近くのマンションに住んでいます。",
+      "example_reading": "えき の ちかく の マンション に すんでいます。",
+      "example_meaning": "I live in a condo near the station."
+    },
+    {
+      "word": "スマート",
+      "reading": "スマート",
+      "meanings": [
+        "slim",
+        "stylish"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: describes a slim figure or sleek style, not intelligence. 'Smart person' = 頭がいい人.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ナイーブ",
+      "reading": "ナイーブ",
+      "meanings": [
+        "sensitive",
+        "delicate (emotionally)"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: means emotionally sensitive/fragile, often sympathetically. English 'naive' (gullible) is 世間知らず or 甘い.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "クレーム",
+      "reading": "クレーム",
+      "meanings": [
+        "complaint"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: a customer complaint, not an insurance claim. クレームをつける = to complain. A claim (assertion) is 主張.",
+      "example_sentence": "お客様からクレームが来た。",
+      "example_reading": "おきゃくさま から クレーム が きた。",
+      "example_meaning": "A complaint came in from a customer."
+    },
+    {
+      "word": "サービス",
+      "reading": "サービス",
+      "meanings": [
+        "service",
+        "free of charge",
+        "on the house"
+      ],
+      "jlpt": "N4",
+      "category": "false_friend",
+      "context": "Partly false friend: besides 'service', it commonly means a freebie. これはサービスです = this one's on the house.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "テンション",
+      "reading": "テンション",
+      "meanings": [
+        "mood",
+        "energy level"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: emotional energy, not physical tension. テンションが高い = hyped/excited. テンションが低い = low-energy. Stress/tension is 緊張.",
+      "example_sentence": "今日はテンションが高いね。",
+      "example_reading": "きょう は テンション が たかい ね。",
+      "example_meaning": "You're in high spirits today, huh."
+    },
+    {
+      "word": "ハンサム",
+      "reading": "ハンサム",
+      "meanings": [
+        "handsome (men only)"
+      ],
+      "jlpt": "N4",
+      "category": "false_friend",
+      "context": "Only describes men, and sounds slightly dated — かっこいい is the everyday word. Never used for objects or salaries the way English uses 'handsome'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ユニーク",
+      "reading": "ユニーク",
+      "meanings": [
+        "quirky",
+        "unusual",
+        "one of a kind"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "Leans 'amusingly odd' more than English 'unique'. ユニークな人 may mean a weirdo (affectionately). Strictly one-of-a-kind = 唯一の.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "バイキング",
+      "reading": "バイキング",
+      "meanings": [
+        "buffet",
+        "all-you-can-eat"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: 'Viking' means a buffet — named after a 1958 Tokyo restaurant inspired by smörgåsbord. 食べ放題 is the native synonym.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "カンニング",
+      "reading": "カンニング",
+      "meanings": [
+        "cheating (on a test)"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: from 'cunning' but means exam cheating. カンニングする = to cheat on a test.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "アルバイト",
+      "reading": "アルバイト",
+      "meanings": [
+        "part-time job"
+      ],
+      "jlpt": "N5",
+      "category": "loanword_german",
+      "context": "From German 'Arbeit' (work), not English. Usually shortened to バイト. A full-time job is 仕事 or 正社員 status.",
+      "example_sentence": "コンビニでアルバイトをしています。",
+      "example_reading": "コンビニ で アルバイト を しています。",
+      "example_meaning": "I work part-time at a convenience store."
+    },
+    {
+      "word": "ホッチキス",
+      "reading": "ホッチキス",
+      "meanings": [
+        "stapler"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "From the Hotchkiss brand name. No English speaker will guess this one — just memorize it.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "シャープペンシル",
+      "reading": "シャープペンシル",
+      "meanings": [
+        "mechanical pencil"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend",
+      "context": "Wasei-eigo (made-in-Japan English). Always shortened to シャーペン in real life.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ペットボトル",
+      "reading": "ペットボトル",
+      "meanings": [
+        "plastic bottle"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend",
+      "context": "From PET (polyethylene terephthalate), nothing to do with pets.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コンセント",
+      "reading": "コンセント",
+      "meanings": [
+        "electrical outlet"
+      ],
+      "jlpt": "N3",
+      "category": "false_friend",
+      "context": "FALSE FRIEND: a wall socket, not consent. Consent is 同意.",
+      "example_sentence": "コンセントはどこにありますか。",
+      "example_reading": "コンセント は どこ に あります か。",
+      "example_meaning": "Where is there an outlet?"
+    },
+    {
+      "word": "リフォーム",
+      "reading": "リフォーム",
+      "meanings": [
+        "renovation",
+        "remodeling"
+      ],
+      "jlpt": "N2",
+      "category": "false_friend",
+      "context": "Home renovation, not personal/political reform. Reform is 改革.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "マイペース",
+      "reading": "マイペース",
+      "meanings": [
+        "doing things one's own way",
+        "at one's own pace"
+      ],
+      "jlpt": "N2",
+      "category": "wasei_eigo",
+      "context": "Wasei-eigo. Describes a personality: unhurried, unaffected by others. Can be a gentle criticism (oblivious) or praise (steady).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "サラリーマン",
+      "reading": "サラリーマン",
+      "meanings": [
+        "male office worker",
+        "company employee"
+      ],
+      "jlpt": "N4",
+      "category": "wasei_eigo",
+      "context": "Wasei-eigo: salary + man. Female equivalent is OL (オーエル, 'office lady').",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ガソリンスタンド",
+      "reading": "ガソリンスタンド",
+      "meanings": [
+        "gas station"
+      ],
+      "jlpt": "N3",
+      "category": "wasei_eigo",
+      "context": "Wasei-eigo — English says 'gas station', not 'gasoline stand'.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "フライドポテト",
+      "reading": "フライドポテト",
+      "meanings": [
+        "french fries"
+      ],
+      "jlpt": "N3",
+      "category": "wasei_eigo",
+      "context": "Wasei-eigo — fries, not a whole fried potato. ポテト alone usually means fries too.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コンビニ",
+      "reading": "コンビニ",
+      "meanings": [
+        "convenience store"
+      ],
+      "jlpt": "N4",
+      "category": "daily_life",
+      "context": "Clipped from コンビニエンスストア. Japanese clips long loanwords aggressively — learn the clipped forms.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "スーパー",
+      "reading": "スーパー",
+      "meanings": [
+        "supermarket"
+      ],
+      "jlpt": "N5",
+      "category": "daily_life",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "デパート",
+      "reading": "デパート",
+      "meanings": [
+        "department store"
+      ],
+      "jlpt": "N5",
+      "category": "daily_life",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "エアコン",
+      "reading": "エアコン",
+      "meanings": [
+        "air conditioner"
+      ],
+      "jlpt": "N4",
+      "category": "daily_life",
+      "context": "Clipped from エアーコンディショナー. Covers both cooling and heating modes.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "テレビ",
+      "reading": "テレビ",
+      "meanings": [
+        "TV",
+        "television"
+      ],
+      "jlpt": "N5",
+      "category": "daily_life",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "パソコン",
+      "reading": "パソコン",
+      "meanings": [
+        "computer",
+        "PC"
+      ],
+      "jlpt": "N4",
+      "category": "technology",
+      "context": "Clipped from パーソナルコンピューター. A laptop specifically is ノートパソコン.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "スマホ",
+      "reading": "スマホ",
+      "meanings": [
+        "smartphone"
+      ],
+      "jlpt": "N3",
+      "category": "technology",
+      "context": "Clipped from スマートフォン. 携帯 (けいたい) is the older general word for mobile phone.",
+      "example_sentence": "スマホの充電が切れた。",
+      "example_reading": "スマホ の じゅうでん が きれた。",
+      "example_meaning": "My phone's battery died."
+    },
+    {
+      "word": "メール",
+      "reading": "メール",
+      "meanings": [
+        "email",
+        "text message"
+      ],
+      "jlpt": "N4",
+      "category": "technology",
+      "context": "Covers both email and SMS. Postal mail is 郵便 — never メール.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "アプリ",
+      "reading": "アプリ",
+      "meanings": [
+        "app"
+      ],
+      "jlpt": "N3",
+      "category": "technology",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ニュース",
+      "reading": "ニュース",
+      "meanings": [
+        "news"
+      ],
+      "jlpt": "N5",
+      "category": "media",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "アニメ",
+      "reading": "アニメ",
+      "meanings": [
+        "animation",
+        "anime"
+      ],
+      "jlpt": "N4",
+      "category": "media",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ドラマ",
+      "reading": "ドラマ",
+      "meanings": [
+        "TV drama",
+        "series"
+      ],
+      "jlpt": "N4",
+      "category": "media",
+      "context": "Primarily a TV series, not theatrical drama (演劇).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ゲーム",
+      "reading": "ゲーム",
+      "meanings": [
+        "video game",
+        "game"
+      ],
+      "jlpt": "N5",
+      "category": "media",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "カラオケ",
+      "reading": "カラオケ",
+      "meanings": [
+        "karaoke"
+      ],
+      "jlpt": "N4",
+      "category": "leisure",
+      "context": "空 (から, empty) + オケ (orchestra) — a rare kana-kanji hybrid that went global.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "レストラン",
+      "reading": "レストラン",
+      "meanings": [
+        "restaurant"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "Implies Western-style or upscale; a casual eatery is 食堂, a Japanese restaurant is 和食屋 or 料理屋.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ラーメン",
+      "reading": "ラーメン",
+      "meanings": [
+        "ramen"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meanings": [
+        "bread"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "From Portuguese 'pão' (16th century). Not all katakana words come from English.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コーヒー",
+      "reading": "コーヒー",
+      "meanings": [
+        "coffee"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "",
+      "example_sentence": "コーヒーをもう一杯ください。",
+      "example_reading": "コーヒー を もう いっぱい ください。",
+      "example_meaning": "One more coffee, please."
+    },
+    {
+      "word": "ビール",
+      "reading": "ビール",
+      "meanings": [
+        "beer"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "From Dutch 'bier'. とりあえずビール = 'beer for now' — the classic first order.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ジュース",
+      "reading": "ジュース",
+      "meanings": [
+        "juice",
+        "soft drink"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "Broader than English: any sweet soft drink can be ジュース, not just fruit juice.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "サラダ",
+      "reading": "サラダ",
+      "meanings": [
+        "salad"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "デザート",
+      "reading": "デザート",
+      "meanings": [
+        "dessert"
+      ],
+      "jlpt": "N4",
+      "category": "food",
+      "context": "Watch the vowels vs デザイン (design) and 砂漠 (desert, the dry kind).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "アイスクリーム",
+      "reading": "アイスクリーム",
+      "meanings": [
+        "ice cream"
+      ],
+      "jlpt": "N5",
+      "category": "food",
+      "context": "Usually clipped to アイス, which covers popsicles too.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ホテル",
+      "reading": "ホテル",
+      "meanings": [
+        "hotel"
+      ],
+      "jlpt": "N5",
+      "category": "travel",
+      "context": "Western-style. A traditional inn is 旅館 (りょかん).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meanings": [
+        "bus"
+      ],
+      "jlpt": "N5",
+      "category": "travel",
+      "context": "Same katakana as 'bath' in バスルーム — context decides.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "タクシー",
+      "reading": "タクシー",
+      "meanings": [
+        "taxi"
+      ],
+      "jlpt": "N5",
+      "category": "travel",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ホーム",
+      "reading": "ホーム",
+      "meanings": [
+        "train platform"
+      ],
+      "jlpt": "N4",
+      "category": "travel",
+      "context": "Clipped from プラットホーム — so 'home' on station signs means the platform, not home.",
+      "example_sentence": "三番ホームから出発します。",
+      "example_reading": "さんばん ホーム から しゅっぱつ します。",
+      "example_meaning": "Departing from platform 3."
+    },
+    {
+      "word": "チケット",
+      "reading": "チケット",
+      "meanings": [
+        "ticket"
+      ],
+      "jlpt": "N4",
+      "category": "travel",
+      "context": "Event/plane tickets. Train tickets are usually 切符 (きっぷ).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "パスポート",
+      "reading": "パスポート",
+      "meanings": [
+        "passport"
+      ],
+      "jlpt": "N4",
+      "category": "travel",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "カメラ",
+      "reading": "カメラ",
+      "meanings": [
+        "camera"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "プレゼント",
+      "reading": "プレゼント",
+      "meanings": [
+        "present",
+        "gift"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Casual gifts. Formal/seasonal gift-giving uses 贈り物 or 御中元/御歳暮.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ドア",
+      "reading": "ドア",
+      "meanings": [
+        "door (Western-style)"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Hinged Western doors. Sliding doors are 戸 (と) or 引き戸; the generic kanji word is 扉 (とびら).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ベッド",
+      "reading": "ベッド",
+      "meanings": [
+        "bed"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "Watch the voicing: ベッド (bed) vs ペット (pet). Dakuten discipline matters.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "シャワー",
+      "reading": "シャワー",
+      "meanings": [
+        "shower"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "シャワーを浴びてから寝ます。",
+      "example_reading": "シャワー を あびて から ねます。",
+      "example_meaning": "I take a shower and then go to bed."
+    },
+    {
+      "word": "トイレ",
+      "reading": "トイレ",
+      "meanings": [
+        "toilet",
+        "bathroom"
+      ],
+      "jlpt": "N5",
+      "category": "objects",
+      "context": "The room itself. Politer: お手洗い (おてあらい). Asking for the 'bathroom' (バスルーム) will get you a bath.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "エレベーター",
+      "reading": "エレベーター",
+      "meanings": [
+        "elevator"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "エスカレーター",
+      "reading": "エスカレーター",
+      "meanings": [
+        "escalator"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ボタン",
+      "reading": "ボタン",
+      "meanings": [
+        "button"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "From Portuguese 'botão'. Both clothing buttons and push buttons.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ポケット",
+      "reading": "ポケット",
+      "meanings": [
+        "pocket"
+      ],
+      "jlpt": "N4",
+      "category": "objects",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ネクタイ",
+      "reading": "ネクタイ",
+      "meanings": [
+        "necktie"
+      ],
+      "jlpt": "N4",
+      "category": "clothing",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "シャツ",
+      "reading": "シャツ",
+      "meanings": [
+        "shirt"
+      ],
+      "jlpt": "N5",
+      "category": "clothing",
+      "context": "ワイシャツ (dress shirt) comes from 'white shirt' — regardless of its color.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ズボン",
+      "reading": "ズボン",
+      "meanings": [
+        "trousers",
+        "pants"
+      ],
+      "jlpt": "N5",
+      "category": "clothing",
+      "context": "Likely from French 'jupon'. パンツ increasingly means trousers too — but classically means underwear. Tread carefully.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コート",
+      "reading": "コート",
+      "meanings": [
+        "coat",
+        "court (sports)"
+      ],
+      "jlpt": "N5",
+      "category": "clothing",
+      "context": "Same katakana for a winter coat and a tennis court.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "スカート",
+      "reading": "スカート",
+      "meanings": [
+        "skirt"
+      ],
+      "jlpt": "N5",
+      "category": "clothing",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "セーター",
+      "reading": "セーター",
+      "meanings": [
+        "sweater"
+      ],
+      "jlpt": "N5",
+      "category": "clothing",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ハイキング",
+      "reading": "ハイキング",
+      "meanings": [
+        "hiking"
+      ],
+      "jlpt": "N4",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ジョギング",
+      "reading": "ジョギング",
+      "meanings": [
+        "jogging"
+      ],
+      "jlpt": "N3",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "プール",
+      "reading": "プール",
+      "meanings": [
+        "swimming pool"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "スポーツ",
+      "reading": "スポーツ",
+      "meanings": [
+        "sports"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "サッカー",
+      "reading": "サッカー",
+      "meanings": [
+        "soccer",
+        "football"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "テニス",
+      "reading": "テニス",
+      "meanings": [
+        "tennis"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ピアノ",
+      "reading": "ピアノ",
+      "meanings": [
+        "piano"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ギター",
+      "reading": "ギター",
+      "meanings": [
+        "guitar"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "コンサート",
+      "reading": "コンサート",
+      "meanings": [
+        "concert"
+      ],
+      "jlpt": "N4",
+      "category": "leisure",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "パーティー",
+      "reading": "パーティー",
+      "meanings": [
+        "party"
+      ],
+      "jlpt": "N5",
+      "category": "leisure",
+      "context": "Social parties only — political parties are 政党, and the RPG kind is パーティ (often without the long vowel).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "レポート",
+      "reading": "レポート",
+      "meanings": [
+        "report",
+        "school paper"
+      ],
+      "jlpt": "N4",
+      "category": "school_work",
+      "context": "The standard word for a university assignment paper.",
+      "example_sentence": "明日までにレポートを出さなければならない。",
+      "example_reading": "あした まで に レポート を ださなければ ならない。",
+      "example_meaning": "I have to turn in my paper by tomorrow."
+    },
+    {
+      "word": "テスト",
+      "reading": "テスト",
+      "meanings": [
+        "test",
+        "exam"
+      ],
+      "jlpt": "N5",
+      "category": "school_work",
+      "context": "Interchangeable with 試験 for school tests; 試験 sounds more formal/official.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "クラス",
+      "reading": "クラス",
+      "meanings": [
+        "class (group)"
+      ],
+      "jlpt": "N5",
+      "category": "school_work",
+      "context": "The group of students, not the lesson — a lesson is 授業 (じゅぎょう).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ノート",
+      "reading": "ノート",
+      "meanings": [
+        "notebook"
+      ],
+      "jlpt": "N5",
+      "category": "school_work",
+      "context": "A physical notebook. A laptop is ノートパソコン. A memo/note is メモ.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ペン",
+      "reading": "ペン",
+      "meanings": [
+        "pen"
+      ],
+      "jlpt": "N5",
+      "category": "school_work",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ミーティング",
+      "reading": "ミーティング",
+      "meanings": [
+        "meeting"
+      ],
+      "jlpt": "N3",
+      "category": "school_work",
+      "context": "Casual work meetings. Formal meetings are 会議 (かいぎ); a quick stand-up is 打ち合わせ.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "スケジュール",
+      "reading": "スケジュール",
+      "meanings": [
+        "schedule"
+      ],
+      "jlpt": "N3",
+      "category": "school_work",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "アイデア",
+      "reading": "アイデア",
+      "meanings": [
+        "idea"
+      ],
+      "jlpt": "N3",
+      "category": "abstract",
+      "context": "Also spelled アイディア. Both common.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "チャンス",
+      "reading": "チャンス",
+      "meanings": [
+        "chance",
+        "opportunity"
+      ],
+      "jlpt": "N3",
+      "category": "abstract",
+      "context": "Only the opportunity sense. Probability-chance is 可能性, and 'by chance' is 偶然.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "イメージ",
+      "reading": "イメージ",
+      "meanings": [
+        "image",
+        "mental picture",
+        "impression"
+      ],
+      "jlpt": "N3",
+      "category": "abstract",
+      "context": "Mental image or public impression, not a picture file (that's 画像). イメージと違う = it's different from what I pictured.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ストレス",
+      "reading": "ストレス",
+      "meanings": [
+        "stress"
+      ],
+      "jlpt": "N3",
+      "category": "abstract",
+      "context": "",
+      "example_sentence": "仕事のストレスがたまっている。",
+      "example_reading": "しごと の ストレス が たまっている。",
+      "example_meaning": "Work stress is piling up."
+    },
+    {
+      "word": "ルール",
+      "reading": "ルール",
+      "meanings": [
+        "rule"
+      ],
+      "jlpt": "N3",
+      "category": "abstract",
+      "context": "Casual rules (games, etiquette). Laws and regulations are 規則 or 法律.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "タイプ",
+      "reading": "タイプ",
+      "meanings": [
+        "type",
+        "one's type (romantically)"
+      ],
+      "jlpt": "N4",
+      "category": "abstract",
+      "context": "タイプです = you're my type. Bland in English, loaded in Japanese.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "デート",
+      "reading": "デート",
+      "meanings": [
+        "date (romantic)"
+      ],
+      "jlpt": "N4",
+      "category": "social",
+      "context": "Only romantic dates. Calendar dates are 日付 (ひづけ).",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "キス",
+      "reading": "キス",
+      "meanings": [
+        "kiss"
+      ],
+      "jlpt": "N3",
+      "category": "social",
+      "context": "",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ペット",
+      "reading": "ペット",
+      "meanings": [
+        "pet"
+      ],
+      "jlpt": "N4",
+      "category": "social",
+      "context": "Unvoiced ペ — compare ベッド (bed). Minimal pairs like this are why the katakana deck exists.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "ドライブ",
+      "reading": "ドライブ",
+      "meanings": [
+        "a drive (for pleasure)"
+      ],
+      "jlpt": "N4",
+      "category": "leisure",
+      "context": "A leisure drive, not commuting. ドライブに行く = go for a drive.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "バーゲン",
+      "reading": "バーゲン",
+      "meanings": [
+        "sale (in a shop)"
+      ],
+      "jlpt": "N3",
+      "category": "shopping",
+      "context": "From 'bargain' but means the sale event itself. セール is interchangeable.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    },
+    {
+      "word": "レジ",
+      "reading": "レジ",
+      "meanings": [
+        "cash register",
+        "checkout"
+      ],
+      "jlpt": "N4",
+      "category": "shopping",
+      "context": "Clipped from レジスター. レジでお願いします = please pay at the register.",
+      "example_sentence": "レジに並んでください。",
+      "example_reading": "レジ に ならんで ください。",
+      "example_meaning": "Please line up at the register."
+    },
+    {
+      "word": "ポイント",
+      "reading": "ポイント",
+      "meanings": [
+        "points (loyalty)",
+        "key point"
+      ],
+      "jlpt": "N3",
+      "category": "shopping",
+      "context": "Loyalty-card points are a national obsession — ポイントカードはお持ちですか is heard at every register.",
+      "example_sentence": "",
+      "example_reading": "",
+      "example_meaning": ""
+    }
+  ]
+}

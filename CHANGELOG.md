@@ -8,17 +8,20 @@ period; 1.0.0-beta.1 is the first TestFlight-ready build.
 
 First TestFlight-ready release. Migrated from a single 1.2 MB
 `kanji-app.html` PWA to a Vite + React + TypeScript codebase wired for
-Capacitor iOS, with a freemium model, 39 default decks, and 5,936
+Capacitor iOS, with a freemium model, 47 default decks, and 5,936
 JMdict-derived examples on default kanji cards.
 
 ### Added — content
-- **39 default decks** spanning 5 categories:
+- **47 default decks** spanning 6 categories:
   - Kana × 2 (Hiragana, Katakana) — free, with paired-kana + dakuten/handakuten variants + real example words on the back
+  - **Radicals & Components (部首)** — 87 building blocks with Japanese radical names, position variants (亻 vs 人, 氵 vs 水), look-alike warnings (礻 vs 衤), and phonetic components that unlock on-reading guesses
   - JLPT × 5 (N5 free, N4–N1 Pro)
   - Frequency tiers × 3 (Top 100 / 500 / 1,000)
   - Jōyō by grade × 7 (1–6 + Secondary)
-  - Themed vocab × 17 (Numbers, Time, Counters, Body, Family, Food, Verbs, Adjectives, Verb pairs, Onomatopoeia, Travel, Weather, Office, Restaurant, Medical, Colors, Animals, Emotions, Proverbs)
-  - Grammar × 3 (Particles, Patterns & Phrases, Verb Conjugations)
+  - Themed vocab × 21 (Numbers, Time, Counters, Body, Family, Food, Verbs, Adjectives, Verb pairs, Onomatopoeia, Travel, Weather, Office, Restaurant, Medical, Colors, Animals, Emotions, Proverbs, **School & Study, Tech & Appliances, Trains & Directions, Shopping & Money**)
+  - **Katakana Words (カタカナ語)** — 95 loanwords with explicit false-friend pitfall notes (マンション ≠ mansion, クレーム ≠ claim, テンション ≠ tension)
+  - **Greetings & Set Phrases (あいさつ)** — 46 aisatsu: home/leaving pairs, meal pairs, register ladders, untranslatables (よろしくお願いします, お疲れ様)
+  - Grammar × 4 (**JLPT N5 Essentials** with exam-trap notes, Particles, Patterns & Phrases, Verb Conjugations)
 - **5,936 of 5,947 default kanji cards** carry JMdict-derived example compounds (~99.8% coverage)
 - **Conjugation tables** on all 14 verb-conjugation grammar cards — replaces dense prose with structured Group/Rule/Example tables. Te-form gets the famous 行く → 行って exception flagged.
 - **Custom decks**: create / rename / delete; add / edit / delete cards; CSV / TSV / JSON paste import with header inference; Anki `.apkg` import (Pro) with sql.js + fflate, both lazy-loaded.
