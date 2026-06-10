@@ -17,6 +17,7 @@ import { Paywall } from "@/screens/Paywall";
 import { Settings } from "@/screens/Settings";
 import { Stats } from "@/screens/Stats";
 import { Study } from "@/screens/Study";
+import { mirrorStateToNative } from "@/native/stateMirror";
 import { buildMixedDeck } from "@/srs/queue";
 import { loadState, saveState } from "@/storage/state";
 import type { AppState } from "@/types";
@@ -35,9 +36,18 @@ export function App() {
     if (!last || !Object.keys(initial.progress).length) return false;
     return Math.floor((Date.now() - new Date(last).getTime()) / 86_400_000) >= 30;
   });
+  // True while the most recent localStorage write failed (quota exceeded /
+  // private browsing). Drives a persistent warning banner — silently losing
+  // a study session is the one failure mode this app must never have.
+  const [saveFailed, setSaveFailed] = useState(false);
 
   useEffect(() => {
-    saveState(state);
+    const { ok, serialized } = saveState(state);
+    setSaveFailed(!ok);
+    // Keep the native mirror (iOS Library file) one step behind localStorage.
+    // No-ops on web. Runs even when localStorage failed — on iOS the mirror
+    // may still succeed, which makes it the recovery path on next launch.
+    mirrorStateToNative(serialized);
   }, [state]);
 
   const setStateFn = useCallback((updater: (s: AppState) => AppState) => {
@@ -245,6 +255,19 @@ export function App() {
       <a href="#kanjido-main" className="sr-only focusable">
         Skip to main content
       </a>
+      {saveFailed && (
+        <div className="export-banner save-failed-banner" role="alert">
+          <span>
+            Your progress couldn't be saved — storage may be full or restricted. Export a
+            backup now so nothing is lost.
+          </span>
+          <div className="export-banner-btns">
+            <button className="export-banner-cta" onClick={() => go({ name: "settings" })}>
+              Export
+            </button>
+          </div>
+        </div>
+      )}
       {showExportBanner && (
         <div className="export-banner">
           <span>Back after a while — export your progress so Safari doesn't clear it.</span>

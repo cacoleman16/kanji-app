@@ -193,6 +193,26 @@ describe("saveState round-trips through loadState", () => {
     saveState(s, provider);
     expect(loadState(provider)).toEqual(s);
   });
+
+  it("reports ok:true and returns the serialized payload on success", () => {
+    const provider = new MemoryStorageProvider();
+    const result = saveState(DEFAULT_STATE, provider);
+    expect(result.ok).toBe(true);
+    expect(JSON.parse(result.serialized)).toEqual(DEFAULT_STATE);
+  });
+
+  it("reports ok:false when the provider rejects the write (quota)", () => {
+    const failing = {
+      get: () => null,
+      set: () => false, // simulates QuotaExceededError / private browsing
+      remove: () => {},
+    };
+    const result = saveState(DEFAULT_STATE, failing);
+    expect(result.ok).toBe(false);
+    // The serialized payload is still returned so the native mirror can
+    // attempt its own (independent) write.
+    expect(result.serialized.length).toBeGreaterThan(0);
+  });
 });
 
 describe("parseImport", () => {

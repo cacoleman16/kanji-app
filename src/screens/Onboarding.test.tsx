@@ -99,4 +99,47 @@ describe("<Onboarding />", () => {
     expect(screen.getByText(/Katakana/i)).toBeTruthy();
     expect(screen.getByText(/JLPT N5/i)).toBeTruthy();
   });
+
+  it("offers a restore-a-backup link on the first step only", () => {
+    const { setState } = setup();
+    render(<Onboarding setState={setState} />);
+    expect(screen.getByText(/Restore a backup/i)).toBeTruthy();
+    fireEvent.click(screen.getByText("Continue"));
+    expect(screen.queryByText(/Restore a backup/i)).toBeNull();
+  });
+
+  it("restoring a valid backup file replaces state and completes onboarding", async () => {
+    const { setState } = setup();
+    const { container } = render(<Onboarding setState={setState} />);
+    const backup = {
+      ...structuredClone(DEFAULT_STATE),
+      progress: { 学: { ease: 2.5, interval: 6, reps: 2, due: 1, lastReview: 1 } },
+      streak: { current: 9, longest: 12, lastActiveDay: "2026-05-01" },
+    };
+    const file = new File([JSON.stringify(backup)], "kanjido-progress-2026-05-01.json", {
+      type: "application/json",
+    });
+    const input = container.querySelector('input[type="file"]') as HTMLInputElement;
+    await vi.waitFor(async () => {
+      fireEvent.change(input, { target: { files: [file] } });
+      expect(setState).toHaveBeenCalled();
+    });
+    const updater = setState.mock.calls.at(-1)![0];
+    const next = updater(structuredClone(DEFAULT_STATE));
+    expect(next.progress["学"]).toBeDefined();
+    expect(next.streak.current).toBe(9);
+    expect(next.settings.onboardingComplete).toBe(true);
+  });
+
+  it("shows an inline error for a non-backup file", async () => {
+    const { setState } = setup();
+    const { container } = render(<Onboarding setState={setState} />);
+    const file = new File(["definitely not json"], "notes.json", { type: "application/json" });
+    const input = container.querySelector('input[type="file"]') as HTMLInputElement;
+    fireEvent.change(input, { target: { files: [file] } });
+    await vi.waitFor(() => {
+      expect(screen.getByText(/doesn't look like a Kanjido backup/i)).toBeTruthy();
+    });
+    expect(setState).not.toHaveBeenCalled();
+  });
 });

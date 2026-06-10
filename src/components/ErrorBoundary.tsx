@@ -91,7 +91,7 @@ export class ErrorBoundary extends Component<Props, State> {
     }
   };
 
-  private hardReset = () => {
+  private hardReset = async () => {
     if (
       !confirm(
         "Erase the app's saved state and reload? This is the last-resort fix when reload doesn't work. Your iCloud backups (Pro) will survive — only on-device data is removed.",
@@ -102,6 +102,14 @@ export class ErrorBoundary extends Component<Props, State> {
       localStorage.removeItem(STORAGE_KEY);
       // Also drop the legacy v1 key in case migration is what crashed.
       localStorage.removeItem("kanji-app-v1");
+    } catch {
+      /* ignore */
+    }
+    // Also clear the iOS native mirror — otherwise the boot-restore path
+    // would resurrect the very state the user is trying to escape.
+    try {
+      const { clearNativeMirror } = await import("@/native/stateMirror");
+      await clearNativeMirror();
     } catch {
       /* ignore */
     }

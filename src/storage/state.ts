@@ -110,8 +110,20 @@ export function loadState(provider: StorageProvider = new LocalStorageProvider()
   }
 }
 
-export function saveState(s: AppState, provider: StorageProvider = new LocalStorageProvider()): void {
-  provider.set(STORAGE_KEY, JSON.stringify(s));
+export interface SaveResult {
+  /** False when the primary store rejected the write (quota, private mode). */
+  ok: boolean;
+  /** The serialized payload — reusable by callers (e.g. the native mirror). */
+  serialized: string;
+}
+
+export function saveState(
+  s: AppState,
+  provider: StorageProvider = new LocalStorageProvider(),
+): SaveResult {
+  const serialized = JSON.stringify(s);
+  const ok = provider.set(STORAGE_KEY, serialized);
+  return { ok, serialized };
 }
 
 /** Validate + migrate an imported JSON blob. Returns hydrated state or throws. */
