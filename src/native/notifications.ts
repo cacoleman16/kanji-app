@@ -109,3 +109,33 @@ export async function cancelDailyReminder(): Promise<void> {
     /* ignore */
   }
 }
+
+/**
+ * Register a handler for the user tapping a Kanjido notification. The app
+ * routes them straight to where they can act on it (Mixed Review) instead of
+ * dumping them wherever the app happened to be suspended.
+ *
+ * Returns a cleanup function that removes the listener. No-op on web.
+ */
+export function onNotificationTap(handler: () => void): () => void {
+  if (!isNative()) return () => {};
+  let removed = false;
+  let removeFn: (() => void) | null = null;
+  void (async () => {
+    try {
+      const { LocalNotifications } = await import("@capacitor/local-notifications");
+      const sub = await LocalNotifications.addListener(
+        "localNotificationActionPerformed",
+        () => handler(),
+      );
+      if (removed) void sub.remove();
+      else removeFn = () => void sub.remove();
+    } catch {
+      /* plugin unavailable */
+    }
+  })();
+  return () => {
+    removed = true;
+    removeFn?.();
+  };
+}

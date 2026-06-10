@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 
 import { Badge } from "@/components/Badge";
 import { EmptyState } from "@/components/EmptyState";
+import { useNow } from "@/hooks/useNow";
 import { allDecks } from "@/data/allDecks";
 import { decksInGroup, groupFor, type DeckGroup } from "@/data/groups";
 import { isDeckUnlocked, isPro } from "@/entitlements/entitlement";
@@ -49,14 +50,16 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
   const [activeTab, setActiveTab] = useState<"kanji" | "vocab" | "grammar">("kanji");
 
   const decks = useMemo(() => allDecks(state), [state]);
+  // Refreshes on app foregrounding so overnight-stale due counts correct
+  // themselves the moment the user comes back.
+  const now = useNow();
 
   const mixedDueCounts = useMemo(
-    () => dueCountsByJlpt(decks, state.progress, Date.now()),
-    [decks, state.progress],
+    () => dueCountsByJlpt(decks, state.progress, now),
+    [decks, state.progress, now],
   );
 
   const dueByDeck = useMemo<Record<string, DeckInfo>>(() => {
-    const now = Date.now();
     const result: Record<string, DeckInfo> = {};
     for (const d of decks) {
       if (d.available === false) {
@@ -77,7 +80,7 @@ export function Home({ state, onOpenDeck, onOpenGroup, onNav }: HomeProps) {
       result[d.id] = { due, newCount, total: d.cardCount };
     }
     return result;
-  }, [decks, state.progress]);
+  }, [decks, state.progress, now]);
 
   const { kanjiTiles, vocabTiles, grammarTiles } = useMemo(() => {
     const seenGroups = new Set<string>();

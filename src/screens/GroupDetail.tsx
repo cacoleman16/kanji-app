@@ -1,6 +1,7 @@
 import { useMemo } from "react";
 
 import { decksInGroup, type DeckGroup } from "@/data/groups";
+import { useNow } from "@/hooks/useNow";
 import type { AppState, Deck } from "@/types";
 
 interface GroupDetailProps {
@@ -12,6 +13,7 @@ interface GroupDetailProps {
 
 export function GroupDetail({ group, state, onBack, onOpenDeck }: GroupDetailProps) {
   const members = useMemo<Deck[]>(() => (group ? decksInGroup(group) : []), [group]);
+  const now = useNow();
 
   const perDeck = useMemo<
     Record<string, { due: number; newCount: number; learned: number; total: number }>
@@ -19,7 +21,6 @@ export function GroupDetail({ group, state, onBack, onOpenDeck }: GroupDetailPro
     const result: Record<string, { due: number; newCount: number; learned: number; total: number }> =
       {};
     if (!group) return result;
-    const now = Date.now();
     for (const d of members) {
       let due = 0;
       let newCount = 0;
@@ -36,7 +37,7 @@ export function GroupDetail({ group, state, onBack, onOpenDeck }: GroupDetailPro
       result[d.id] = { due, newCount, learned, total: d.cardCount };
     }
     return result;
-  }, [members, state.progress, group]);
+  }, [members, state.progress, group, now]);
 
   const chapters = useMemo<Array<[number, Deck[]]>>(() => {
     if (!group) return [];

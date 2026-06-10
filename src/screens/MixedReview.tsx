@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 
 import { EmptyState } from "@/components/EmptyState";
 import { useAllDeckCards } from "@/hooks/useAllDeckCards";
+import { useNow } from "@/hooks/useNow";
 import { allDecks } from "@/data/allDecks";
 import { dueCountsByJlpt } from "@/srs/queue";
 import type { AppState, Jlpt } from "@/types";
@@ -22,9 +23,10 @@ export function MixedReview({ state, onBack, onStart }: MixedReviewProps) {
   // visits resolve from cache instantly.
   const decks = useMemo(() => allDecks(state), [state]);
   const { hydratedDecks, loading } = useAllDeckCards(decks);
+  const now = useNow();
   const counts = useMemo(
-    () => dueCountsByJlpt(hydratedDecks, state.progress, Date.now()),
-    [hydratedDecks, state.progress],
+    () => dueCountsByJlpt(hydratedDecks, state.progress, now),
+    [hydratedDecks, state.progress, now],
   );
   const selectedCount = jlpt === "all" ? counts.all : counts[jlpt] || 0;
   const levels: Level[] = ["all", "N5", "N4", "N3", "N2", "N1"];

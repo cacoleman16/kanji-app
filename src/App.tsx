@@ -17,6 +17,7 @@ import { Paywall } from "@/screens/Paywall";
 import { Settings } from "@/screens/Settings";
 import { Stats } from "@/screens/Stats";
 import { Study } from "@/screens/Study";
+import { onNotificationTap } from "@/native/notifications";
 import { mirrorStateToNative } from "@/native/stateMirror";
 import { buildMixedDeck } from "@/srs/queue";
 import { loadState, saveState } from "@/storage/state";
@@ -55,6 +56,13 @@ export function App() {
   }, []);
 
   const go = useCallback((r: Route) => setRoute(r), []);
+
+  // Tapping the daily reminder lands the user on Mixed Review — the place
+  // they can act on "cards are due" immediately — instead of wherever the
+  // app happened to be suspended. No-op on web.
+  useEffect(() => {
+    return onNotificationTap(() => go({ name: "mixedReview" }));
+  }, [go]);
 
   const themePref = state.settings.theme || "dark";
   // For "system" mode we resolve the effective theme by listening to
