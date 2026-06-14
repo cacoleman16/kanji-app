@@ -1,0 +1,3448 @@
+{
+  "deck_id": "detective-drama-japanese",
+  "deck_name": "Detective Drama Japanese — Conan, 相棒, etc.",
+  "version": "1.0",
+  "source": "Hand-curated from common vocabulary across 名探偵コナン, 相棒, 科捜研の女, 古畑任三郎, and similar Japanese detective and police-drama media.",
+  "learner_level": "N3",
+  "notes": "Watching Japanese detective fiction (アニメ + 実写) requires a specific vocabulary cluster you don't get from textbooks: investigation procedure, forensic terminology, plot tropes (locked rooms, alibis, decoys), suspenseful dialogue (動くな！), and characters' role labels (刑事, 警部, 助手). This deck targets the words that recur in Conan, 相棒, 古畑, 科捜研の女, and similar shows. Most sit at N3-N1 with a strong genre tilt. Some words overlap with the News & Newspaper deck (criminal-procedure terms) but the example sentences and context here are framed for fiction rather than reportage.",
+  "card_count": 191,
+  "priority_guide": {
+    "high": "Appears in nearly every episode — learn first.",
+    "medium": "Common in specific story types (locked-room, kidnapping, etc.).",
+    "low": "Worth recognizing passively."
+  },
+  "difficulty_guide": {
+    "at_level": "N3-comfortable.",
+    "one_above": "N2 territory — drama-typical register.",
+    "two_above": "N1 / specialist — recognition first."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Common kanji.",
+    "medium": "One or more kanji uncommon — drill the reading.",
+    "hard": "Rare or technical — learn kana first."
+  },
+  "categories": [
+    "detective_investigation",
+    "crime_types",
+    "police_procedural",
+    "forensics_evidence",
+    "plot_mechanics",
+    "drama_dialogue",
+    "reactions_suspense",
+    "death_injury",
+    "characters_roles",
+    "courtroom_trial"
+  ],
+  "cards": [
+    {
+      "word": "探偵",
+      "reading": "たんてい",
+      "meanings": [
+        "detective",
+        "private investigator"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "事件を調べる人",
+      "category": "characters_roles",
+      "context": "私立探偵 — private detective. Distinct from 刑事 (police detective). Conan's official title is 名探偵.",
+      "example_sentence": "私は探偵の毛利小五郎です。",
+      "example_reading": "わたし は たんてい の もうり こごろう です。",
+      "example_meaning": "I'm Mouri Kogoro, a private detective."
+    },
+    {
+      "word": "名探偵",
+      "reading": "めいたんてい",
+      "meanings": [
+        "great detective",
+        "famous detective"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "優れた探偵",
+      "category": "characters_roles",
+      "context": "The honorific used for star detectives. The full Conan title: 名探偵コナン. Also used for Holmes (名探偵シャーロック・ホームズ).",
+      "example_sentence": "名探偵コナン、見参！",
+      "example_reading": "めいたんてい コナン、 けんざん！",
+      "example_meaning": "Detective Conan, on the case!"
+    },
+    {
+      "word": "推理",
+      "reading": "すいり",
+      "meanings": [
+        "reasoning",
+        "deduction",
+        "inference"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "考えて答えを出す",
+      "category": "detective_investigation",
+      "context": "推理小説 — mystery novel. 推理する — to deduce. Conan's signature activity.",
+      "example_sentence": "君の推理は完璧だ。",
+      "example_reading": "きみ の すいり は かんぺき だ。",
+      "example_meaning": "Your deduction is perfect."
+    },
+    {
+      "word": "推理する",
+      "reading": "すいりする",
+      "meanings": [
+        "to deduce",
+        "to reason out"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "考える",
+      "category": "detective_investigation",
+      "context": "Compounds with most reasoning verbs. 推理を組み立てる — build a deduction.",
+      "example_sentence": "コナンは犯人のトリックを推理した。",
+      "example_reading": "コナン は はんにん の トリック を すいり した。",
+      "example_meaning": "Conan deduced the criminal's trick."
+    },
+    {
+      "word": "捜査",
+      "reading": "そうさ",
+      "meanings": [
+        "investigation (police)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "事件を調べる",
+      "category": "detective_investigation",
+      "context": "捜査本部 — investigation HQ (set up for major cases). 捜査一課 — Homicide Division (Tokyo MPD's elite squad in 相棒).",
+      "example_sentence": "警察は事件の捜査を続けている。",
+      "example_reading": "けいさつ は じけん の そうさ を つづけて いる。",
+      "example_meaning": "The police continue to investigate the case."
+    },
+    {
+      "word": "事件",
+      "reading": "じけん",
+      "meanings": [
+        "case",
+        "incident"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "出来事",
+      "category": "detective_investigation",
+      "context": "Bread-and-butter word. 殺人事件 — murder case. 〇〇事件 — the 〇〇 case. Conan: 事件です！",
+      "example_sentence": "今回の事件は複雑だ。",
+      "example_reading": "こんかい の じけん は ふくざつ だ。",
+      "example_meaning": "This case is complicated."
+    },
+    {
+      "word": "謎",
+      "reading": "なぞ",
+      "meanings": [
+        "mystery",
+        "riddle",
+        "puzzle"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "分からないこと",
+      "category": "detective_investigation",
+      "context": "謎を解く — solve a mystery. 謎の人物 — mysterious figure. Heart of the genre.",
+      "example_sentence": "事件の謎が深まる一方だ。",
+      "example_reading": "じけん の なぞ が ふかまる いっぽう だ。",
+      "example_meaning": "The mystery of the case only deepens."
+    },
+    {
+      "word": "真相",
+      "reading": "しんそう",
+      "meanings": [
+        "truth",
+        "real story",
+        "facts of a case"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "本当のこと",
+      "category": "detective_investigation",
+      "context": "真相を究明 — get to the truth. Distinguished from 真実 (philosophical truth) — 真相 is the case-specific facts.",
+      "example_sentence": "事件の真相が明らかになった。",
+      "example_reading": "じけん の しんそう が あきらか に なった。",
+      "example_meaning": "The truth of the case has come to light."
+    },
+    {
+      "word": "真実",
+      "reading": "しんじつ",
+      "meanings": [
+        "truth",
+        "reality"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "本当",
+      "category": "detective_investigation",
+      "context": "Conan's catchphrase: 真実はいつもひとつ — there is always only one truth. More philosophical than 真相.",
+      "example_sentence": "真実はいつもひとつ！",
+      "example_reading": "しんじつ は いつも ひとつ！",
+      "example_meaning": "There's only ever one truth!"
+    },
+    {
+      "word": "手がかり",
+      "reading": "てがかり",
+      "meanings": [
+        "clue",
+        "lead"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ヒント",
+      "category": "detective_investigation",
+      "context": "手がかりを探す — search for clues. 手がかりがない — no leads. Often shortened to ヒント in casual contexts.",
+      "example_sentence": "重要な手がかりが見つかった。",
+      "example_reading": "じゅうよう な てがかり が みつかった。",
+      "example_meaning": "An important clue has been found."
+    },
+    {
+      "word": "目撃者",
+      "reading": "もくげきしゃ",
+      "meanings": [
+        "eyewitness"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見た人",
+      "category": "detective_investigation",
+      "context": "目撃情報 — eyewitness information. 目撃証言 — eyewitness testimony.",
+      "example_sentence": "事件の目撃者を探している。",
+      "example_reading": "じけん の もくげきしゃ を さがして いる。",
+      "example_meaning": "They're looking for witnesses to the incident."
+    },
+    {
+      "word": "目撃",
+      "reading": "もくげき",
+      "meanings": [
+        "witnessing",
+        "seeing (an event)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見ること",
+      "category": "detective_investigation",
+      "context": "目撃する — to witness. Stronger than 見る — implies an event.",
+      "example_sentence": "通行人が事件を目撃した。",
+      "example_reading": "つうこうにん が じけん を もくげき した。",
+      "example_meaning": "A passerby witnessed the incident."
+    },
+    {
+      "word": "動機",
+      "reading": "どうき",
+      "meanings": [
+        "motive",
+        "motivation"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "理由",
+      "category": "detective_investigation",
+      "context": "犯行動機 — motive for the crime. The classic detective question: 動機は何だ？",
+      "example_sentence": "犯行の動機は金銭目的だった。",
+      "example_reading": "はんこう の どうき は きんせん もくてき だった。",
+      "example_meaning": "The motive for the crime was money."
+    },
+    {
+      "word": "アリバイ",
+      "reading": "アリバイ",
+      "meanings": [
+        "alibi"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その時間のいた場所",
+      "category": "detective_investigation",
+      "context": "アリバイがある/ない — has/lacks an alibi. アリバイ崩し — breaking the alibi (a Conan plot staple).",
+      "example_sentence": "容疑者にはアリバイがある。",
+      "example_reading": "ようぎしゃ に は アリバイ が ある。",
+      "example_meaning": "The suspect has an alibi."
+    },
+    {
+      "word": "アリバイ崩し",
+      "reading": "アリバイくずし",
+      "meanings": [
+        "breaking an alibi"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "アリバイをやぶる",
+      "category": "plot_mechanics",
+      "context": "A whole subgenre of detective fiction (アリバイ崩し系). Episode trope: detective shows the alibi was faked.",
+      "example_sentence": "このトリックはアリバイ崩しの王道だ。",
+      "example_reading": "この トリック は アリバイ くずし の おうどう だ。",
+      "example_meaning": "This trick is a classic of the alibi-breaking genre."
+    },
+    {
+      "word": "怪しい",
+      "reading": "あやしい",
+      "meanings": [
+        "suspicious",
+        "fishy",
+        "dubious"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "おかしい",
+      "category": "detective_investigation",
+      "context": "あの男、怪しいぞ — That guy looks suspicious. Constant on detective shows.",
+      "example_sentence": "彼の話はどうも怪しい。",
+      "example_reading": "かれ の はなし は どうも あやしい。",
+      "example_meaning": "His story is somehow fishy."
+    },
+    {
+      "word": "不審",
+      "reading": "ふしん",
+      "meanings": [
+        "suspicious",
+        "dubious (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "あやしい",
+      "category": "detective_investigation",
+      "context": "More formal than 怪しい. 不審な人物 — suspicious individual. 不審火 — suspicious fire (arson?).",
+      "example_sentence": "近所で不審な動きが目撃された。",
+      "example_reading": "きんじょ で ふしん な うごき が もくげき された。",
+      "example_meaning": "Suspicious activity was witnessed nearby."
+    },
+    {
+      "word": "不審者",
+      "reading": "ふしんしゃ",
+      "meanings": [
+        "suspicious person"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "あやしい人",
+      "category": "detective_investigation",
+      "context": "Common warning-sign vocabulary. 不審者情報 — suspicious-person reports.",
+      "example_sentence": "学校付近で不審者が目撃された。",
+      "example_reading": "がっこう ふきん で ふしんしゃ が もくげき された。",
+      "example_meaning": "A suspicious individual was seen near the school."
+    },
+    {
+      "word": "見破る",
+      "reading": "みやぶる",
+      "meanings": [
+        "to see through",
+        "to detect",
+        "to penetrate (a lie)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "嘘を見つける",
+      "category": "detective_investigation",
+      "context": "嘘を見破る — see through a lie. トリックを見破る — see through the trick. Detective's signature ability.",
+      "example_sentence": "探偵は犯人の嘘を見破った。",
+      "example_reading": "たんてい は はんにん の うそ を みやぶった。",
+      "example_meaning": "The detective saw through the criminal's lie."
+    },
+    {
+      "word": "暴く",
+      "reading": "あばく",
+      "meanings": [
+        "to expose",
+        "to lay bare",
+        "to disclose"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "明らかにする",
+      "category": "detective_investigation",
+      "context": "陰謀を暴く — expose a conspiracy. Stronger and more dramatic than 明らかにする.",
+      "example_sentence": "彼の正体を暴いてやる。",
+      "example_reading": "かれ の しょうたい を あばいて やる。",
+      "example_meaning": "I'll expose his true identity."
+    },
+    {
+      "word": "正体",
+      "reading": "しょうたい",
+      "meanings": [
+        "true identity",
+        "real character"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "本当の姿",
+      "category": "detective_investigation",
+      "context": "正体を現す — reveal one's true identity. 正体不明 — identity unknown. Drama gold.",
+      "example_sentence": "ついに犯人の正体が分かった。",
+      "example_reading": "ついに はんにん の しょうたい が わかった。",
+      "example_meaning": "At last we know the criminal's true identity."
+    },
+    {
+      "word": "仮説",
+      "reading": "かせつ",
+      "meanings": [
+        "hypothesis"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "仮の考え",
+      "category": "detective_investigation",
+      "context": "仮説を立てる — formulate a hypothesis. The detective's working theory.",
+      "example_sentence": "こんな仮説はどうだろう。",
+      "example_reading": "こんな かせつ は どう だろう。",
+      "example_meaning": "How about this hypothesis?"
+    },
+    {
+      "word": "推測",
+      "reading": "すいそく",
+      "meanings": [
+        "guess",
+        "conjecture",
+        "speculation"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "予想",
+      "category": "detective_investigation",
+      "context": "推測する — to surmise. Weaker certainty than 推理.",
+      "example_sentence": "これはあくまで推測に過ぎない。",
+      "example_reading": "これ は あくまで すいそく に すぎない。",
+      "example_meaning": "This is no more than speculation."
+    },
+    {
+      "word": "真犯人",
+      "reading": "しんはんにん",
+      "meanings": [
+        "the real culprit",
+        "true perpetrator"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "本当の犯人",
+      "category": "detective_investigation",
+      "context": "The Conan moment: 真犯人はあなただ — the real culprit is you. Implies someone else was wrongly suspected.",
+      "example_sentence": "真犯人は別の人物だった。",
+      "example_reading": "しんはんにん は べつ の じんぶつ だった。",
+      "example_meaning": "The true culprit was someone else."
+    },
+    {
+      "word": "犯人",
+      "reading": "はんにん",
+      "meanings": [
+        "culprit",
+        "perpetrator",
+        "criminal"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "罪を犯した人",
+      "category": "crime_types",
+      "context": "犯人を捕まえる — catch the culprit. The classic line: 犯人はあなただ！",
+      "example_sentence": "犯人はこの中にいる。",
+      "example_reading": "はんにん は この なか に いる。",
+      "example_meaning": "The culprit is among us."
+    },
+    {
+      "word": "共犯",
+      "reading": "きょうはん",
+      "meanings": [
+        "accomplice",
+        "complicity"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "一緒に犯罪をした人",
+      "category": "crime_types",
+      "context": "共犯関係 — relationship of complicity. 共犯者 — accomplice (the person).",
+      "example_sentence": "事件には共犯がいた可能性が高い。",
+      "example_reading": "じけん に は きょうはん が いた かのうせい が たかい。",
+      "example_meaning": "There was likely an accomplice in this case."
+    },
+    {
+      "word": "犯罪",
+      "reading": "はんざい",
+      "meanings": [
+        "crime"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "悪いこと",
+      "category": "crime_types",
+      "context": "犯罪率 — crime rate. 犯罪者 — criminal. 犯罪心理 — criminal psychology.",
+      "example_sentence": "犯罪を未然に防ぐ。",
+      "example_reading": "はんざい を みぜん に ふせぐ。",
+      "example_meaning": "Prevent crime before it happens."
+    },
+    {
+      "word": "殺人",
+      "reading": "さつじん",
+      "meanings": [
+        "murder",
+        "homicide"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "人を殺すこと",
+      "category": "crime_types",
+      "context": "殺人事件 — murder case (the bread-and-butter Conan plot). 殺人犯 — murderer.",
+      "example_sentence": "これは計画的な殺人だ。",
+      "example_reading": "これ は けいかく てき な さつじん だ。",
+      "example_meaning": "This is premeditated murder."
+    },
+    {
+      "word": "殺害",
+      "reading": "さつがい",
+      "meanings": [
+        "killing",
+        "murder (act)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "殺すこと",
+      "category": "crime_types",
+      "context": "More clinical than 殺人. 殺害現場 — murder scene. 殺害方法 — method of killing.",
+      "example_sentence": "殺害方法から犯人像が見えてくる。",
+      "example_reading": "さつがい ほうほう から はんにんぞう が みえて くる。",
+      "example_meaning": "The criminal's profile emerges from the method of killing."
+    },
+    {
+      "word": "誘拐",
+      "reading": "ゆうかい",
+      "meanings": [
+        "kidnapping",
+        "abduction"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "連れ去ること",
+      "category": "crime_types",
+      "context": "誘拐犯 — kidnapper. 身代金目的の誘拐 — kidnapping for ransom.",
+      "example_sentence": "少女の誘拐事件が発生した。",
+      "example_reading": "しょうじょ の ゆうかい じけん が はっせい した。",
+      "example_meaning": "A kidnapping case involving a young girl has occurred."
+    },
+    {
+      "word": "人質",
+      "reading": "ひとじち",
+      "meanings": [
+        "hostage"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "つかまえられた人",
+      "category": "crime_types",
+      "context": "人質を取る — take a hostage. 人質救出 — hostage rescue. Reading 人質 = ひとじち (irregular).",
+      "example_sentence": "犯人は人質を取って立てこもった。",
+      "example_reading": "はんにん は ひとじち を とって たてこもった。",
+      "example_meaning": "The criminal took hostages and barricaded himself in."
+    },
+    {
+      "word": "身代金",
+      "reading": "みのしろきん",
+      "meanings": [
+        "ransom"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "誘拐の金",
+      "category": "crime_types",
+      "context": "身代金要求 — ransom demand. Common kidnapping-arc vocabulary.",
+      "example_sentence": "犯人は1億円の身代金を要求した。",
+      "example_reading": "はんにん は いちおく えん の みのしろきん を ようきゅう した。",
+      "example_meaning": "The criminal demanded a 100-million-yen ransom."
+    },
+    {
+      "word": "強盗",
+      "reading": "ごうとう",
+      "meanings": [
+        "robbery",
+        "robber"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "おどして物を取る人",
+      "category": "crime_types",
+      "context": "銀行強盗 — bank robbery. Distinct from 窃盗 (theft) — 強盗 involves force/threat.",
+      "example_sentence": "銀行強盗の事件が連続している。",
+      "example_reading": "ぎんこう ごうとう の じけん が れんぞく して いる。",
+      "example_meaning": "Bank robberies are happening in succession."
+    },
+    {
+      "word": "失踪",
+      "reading": "しっそう",
+      "meanings": [
+        "disappearance",
+        "running away"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "いなくなる",
+      "category": "crime_types",
+      "context": "失踪する — to disappear (often deliberately). Distinct from 行方不明 (whereabouts unknown).",
+      "example_sentence": "社長が突然失踪した。",
+      "example_reading": "しゃちょう が とつぜん しっそう した。",
+      "example_meaning": "The company president suddenly disappeared."
+    },
+    {
+      "word": "行方不明",
+      "reading": "ゆくえふめい",
+      "meanings": [
+        "missing",
+        "whereabouts unknown"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "どこにいるか分からない",
+      "category": "crime_types",
+      "context": "行方不明者 — a missing person. Less voluntary than 失踪 — used for kidnap victims, missing kids, etc.",
+      "example_sentence": "少年は3日前から行方不明だ。",
+      "example_reading": "しょうねん は みっか まえ から ゆくえふめい だ。",
+      "example_meaning": "The boy has been missing for three days."
+    },
+    {
+      "word": "行方",
+      "reading": "ゆくえ",
+      "meanings": [
+        "whereabouts"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "どこにいるか",
+      "category": "crime_types",
+      "context": "行方を追う — track someone's whereabouts. 行方をくらます — disappear, vanish.",
+      "example_sentence": "犯人の行方を追っている。",
+      "example_reading": "はんにん の ゆくえ を おって いる。",
+      "example_meaning": "They are tracking the criminal's whereabouts."
+    },
+    {
+      "word": "傷害",
+      "reading": "しょうがい",
+      "meanings": [
+        "assault",
+        "bodily injury (legal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "けがをさせる罪",
+      "category": "crime_types",
+      "context": "傷害事件 — assault case. 傷害罪 — assault charge. Distinct from generic 怪我 (injury).",
+      "example_sentence": "傷害の容疑で逮捕された。",
+      "example_reading": "しょうがい の ようぎ で たいほ された。",
+      "example_meaning": "He was arrested on assault charges."
+    },
+    {
+      "word": "暴行",
+      "reading": "ぼうこう",
+      "meanings": [
+        "assault",
+        "violence"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "暴力を振るう",
+      "category": "crime_types",
+      "context": "暴行事件 — assault case. Often paired: 暴行・傷害事件. Stronger than 喧嘩.",
+      "example_sentence": "路上で暴行事件が発生した。",
+      "example_reading": "ろじょう で ぼうこう じけん が はっせい した。",
+      "example_meaning": "An assault occurred on the street."
+    },
+    {
+      "word": "脅迫",
+      "reading": "きょうはく",
+      "meanings": [
+        "threat",
+        "intimidation",
+        "blackmail"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "おどし",
+      "category": "crime_types",
+      "context": "脅迫状 — threatening letter. 脅迫電話 — threatening phone call. Conan plot fixture.",
+      "example_sentence": "被害者は脅迫を受けていた。",
+      "example_reading": "ひがいしゃ は きょうはく を うけて いた。",
+      "example_meaning": "The victim had been receiving threats."
+    },
+    {
+      "word": "黒幕",
+      "reading": "くろまく",
+      "meanings": [
+        "mastermind",
+        "power behind the scenes"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裏のボス",
+      "category": "crime_types",
+      "context": "事件の黒幕 — mastermind behind the case. The 'real villain' reveal. Conan's 黒の組織 mainstays.",
+      "example_sentence": "事件の黒幕はまだ判明していない。",
+      "example_reading": "じけん の くろまく は まだ はんめい して いない。",
+      "example_meaning": "The mastermind behind the case is still unidentified."
+    },
+    {
+      "word": "組織",
+      "reading": "そしき",
+      "meanings": [
+        "organization",
+        "syndicate"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "グループ",
+      "category": "crime_types",
+      "context": "犯罪組織 — criminal syndicate. 黒の組織 — Conan's signature shadowy organization.",
+      "example_sentence": "事件の背後には大きな組織がある。",
+      "example_reading": "じけん の はいご に は おおきい そしき が ある。",
+      "example_meaning": "There's a large organization behind the case."
+    },
+    {
+      "word": "連続殺人",
+      "reading": "れんぞくさつじん",
+      "meanings": [
+        "serial murder",
+        "string of killings"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "続けて起こる殺人",
+      "category": "crime_types",
+      "context": "連続殺人犯 — serial killer. Drama's ratings booster.",
+      "example_sentence": "街で連続殺人事件が発生している。",
+      "example_reading": "まち で れんぞく さつじん じけん が はっせい して いる。",
+      "example_meaning": "A series of murders is occurring in the city."
+    },
+    {
+      "word": "模倣犯",
+      "reading": "もほうはん",
+      "meanings": [
+        "copycat criminal"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "真似をした犯人",
+      "category": "crime_types",
+      "context": "Plot twist: original crime + 模倣犯 = layered mystery. Famous Miyabe Miyuki novel of the same title.",
+      "example_sentence": "これは模倣犯の可能性もある。",
+      "example_reading": "これ は もほうはん の かのうせい も ある。",
+      "example_meaning": "There's also the possibility this is a copycat."
+    },
+    {
+      "word": "刑事",
+      "reading": "けいじ",
+      "meanings": [
+        "police detective"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "事件を調べる警察官",
+      "category": "police_procedural",
+      "context": "Police detective (vs. private 探偵). 刑事ドラマ — police drama. 目暮警部, 高木刑事 — Conan's recurring police characters.",
+      "example_sentence": "刑事は容疑者を追跡している。",
+      "example_reading": "けいじ は ようぎしゃ を ついせき して いる。",
+      "example_meaning": "The detective is pursuing the suspect."
+    },
+    {
+      "word": "警部",
+      "reading": "けいぶ",
+      "meanings": [
+        "police inspector"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "刑事のリーダー",
+      "category": "police_procedural",
+      "context": "Mid-rank — runs investigations on the ground. 目暮警部 (Conan), 杉下右京警部 (相棒).",
+      "example_sentence": "目暮警部はベテランの刑事だ。",
+      "example_reading": "めぐれ けいぶ は べてらん の けいじ だ。",
+      "example_meaning": "Inspector Megure is a veteran detective."
+    },
+    {
+      "word": "警部補",
+      "reading": "けいぶほ",
+      "meanings": [
+        "assistant police inspector"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "警部の下",
+      "category": "police_procedural",
+      "context": "One rank below 警部. Many drama protagonists are 警部補 (mid-career working detectives).",
+      "example_sentence": "佐藤警部補が事件を担当する。",
+      "example_reading": "さとう けいぶほ が じけん を たんとう する。",
+      "example_meaning": "Assistant Inspector Satou will handle the case."
+    },
+    {
+      "word": "警察官",
+      "reading": "けいさつかん",
+      "meanings": [
+        "police officer"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "おまわりさん",
+      "category": "police_procedural",
+      "context": "More formal than お巡りさん. Catch-all for any rank.",
+      "example_sentence": "警察官が現場に駆けつけた。",
+      "example_reading": "けいさつかん が げんば に かけつけた。",
+      "example_meaning": "Police officers rushed to the scene."
+    },
+    {
+      "word": "鑑識",
+      "reading": "かんしき",
+      "meanings": [
+        "forensics",
+        "crime-scene examination"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "証拠を調べる係",
+      "category": "forensics_evidence",
+      "context": "鑑識係 — forensics team. 鑑識結果 — forensic results. 科捜研の女's central concept.",
+      "example_sentence": "鑑識が現場の指紋を採取した。",
+      "example_reading": "かんしき が げんば の しもん を さいしゅ した。",
+      "example_meaning": "Forensics collected fingerprints from the scene."
+    },
+    {
+      "word": "検視",
+      "reading": "けんし",
+      "meanings": [
+        "coronial inspection",
+        "examining a body"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "死体の調査",
+      "category": "forensics_evidence",
+      "context": "Initial body inspection at the scene. Distinct from 解剖 (full autopsy).",
+      "example_sentence": "検視の結果、死因は刺殺だった。",
+      "example_reading": "けんし の けっか、 しいん は しさつ だった。",
+      "example_meaning": "The inspection found the cause of death was stabbing."
+    },
+    {
+      "word": "解剖",
+      "reading": "かいぼう",
+      "meanings": [
+        "autopsy",
+        "dissection"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "死体を細かく調べる",
+      "category": "forensics_evidence",
+      "context": "司法解剖 — judicial autopsy. 解剖医 — pathologist (the 科捜研の女 protagonist).",
+      "example_sentence": "司法解剖の結果が判明した。",
+      "example_reading": "しほう かいぼう の けっか が はんめい した。",
+      "example_meaning": "The results of the judicial autopsy are in."
+    },
+    {
+      "word": "現場",
+      "reading": "げんば",
+      "meanings": [
+        "scene (of incident)",
+        "actual site"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "事件のあった場所",
+      "category": "police_procedural",
+      "context": "事件現場 — crime scene. 現場百遍 — '100 visits to the scene' (a real police saying — every detail matters).",
+      "example_sentence": "刑事は現場に直行した。",
+      "example_reading": "けいじ は げんば に ちょっこう した。",
+      "example_meaning": "The detective went straight to the scene."
+    },
+    {
+      "word": "現場検証",
+      "reading": "げんばけんしょう",
+      "meanings": [
+        "on-scene investigation",
+        "crime-scene reconstruction"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "現場を調べること",
+      "category": "police_procedural",
+      "context": "Often the opening sequence of an episode — yellow tape, 鑑識, 警官 measuring distances.",
+      "example_sentence": "明日、現場検証が行われる。",
+      "example_reading": "あした、 げんば けんしょう が おこなわれる。",
+      "example_meaning": "Tomorrow the on-scene investigation will take place."
+    },
+    {
+      "word": "取り調べ",
+      "reading": "とりしらべ",
+      "meanings": [
+        "police interrogation",
+        "questioning"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "警察の質問",
+      "category": "police_procedural",
+      "context": "取り調べ室 — interrogation room. The classic 'good cop / bad cop' setting.",
+      "example_sentence": "容疑者の取り調べが始まった。",
+      "example_reading": "ようぎしゃ の とりしらべ が はじまった。",
+      "example_meaning": "The suspect's interrogation has begun."
+    },
+    {
+      "word": "連行",
+      "reading": "れんこう",
+      "meanings": [
+        "taking into custody",
+        "escorting (a suspect)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "警察に連れていく",
+      "category": "police_procedural",
+      "context": "任意同行 (voluntary) vs 連行 (involuntary). 連行する — to bring in.",
+      "example_sentence": "容疑者を警察署に連行した。",
+      "example_reading": "ようぎしゃ を けいさつしょ に れんこう した。",
+      "example_meaning": "They brought the suspect to the police station."
+    },
+    {
+      "word": "自首",
+      "reading": "じしゅ",
+      "meanings": [
+        "turning oneself in",
+        "voluntary surrender"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自分から警察に行く",
+      "category": "police_procedural",
+      "context": "Famous moment: 自首しなさい — Turn yourself in. Conan's preferred resolution.",
+      "example_sentence": "犯人は警察に自首した。",
+      "example_reading": "はんにん は けいさつ に じしゅ した。",
+      "example_meaning": "The criminal turned himself in to the police."
+    },
+    {
+      "word": "自白",
+      "reading": "じはく",
+      "meanings": [
+        "confession (to a crime)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "罪を認める",
+      "category": "police_procedural",
+      "context": "自白する — to confess. 自白を引き出す — extract a confession.",
+      "example_sentence": "容疑者は犯行を自白した。",
+      "example_reading": "ようぎしゃ は はんこう を じはく した。",
+      "example_meaning": "The suspect confessed to the crime."
+    },
+    {
+      "word": "供述",
+      "reading": "きょうじゅつ",
+      "meanings": [
+        "statement (to authorities)",
+        "testimony"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "言ったこと",
+      "category": "police_procedural",
+      "context": "More formal than 自白. 供述調書 — written statement. Police-procedural specific.",
+      "example_sentence": "被害者の供述と一致しない。",
+      "example_reading": "ひがいしゃ の きょうじゅつ と いっち しない。",
+      "example_meaning": "It doesn't match the victim's statement."
+    },
+    {
+      "word": "証言",
+      "reading": "しょうげん",
+      "meanings": [
+        "testimony",
+        "witness account"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "証人の話",
+      "category": "police_procedural",
+      "context": "目撃者の証言 — eyewitness testimony. 証言台 — witness stand.",
+      "example_sentence": "重要な証言が得られた。",
+      "example_reading": "じゅうよう な しょうげん が えられた。",
+      "example_meaning": "Important testimony has been obtained."
+    },
+    {
+      "word": "手錠",
+      "reading": "てじょう",
+      "meanings": [
+        "handcuffs"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "逮捕の道具",
+      "category": "police_procedural",
+      "context": "手錠をかける — put on handcuffs. The visual that closes most episodes.",
+      "example_sentence": "刑事は容疑者に手錠をかけた。",
+      "example_reading": "けいじ は ようぎしゃ に てじょう を かけた。",
+      "example_meaning": "The detective handcuffed the suspect."
+    },
+    {
+      "word": "パトカー",
+      "reading": "パトカー",
+      "meanings": [
+        "patrol car",
+        "police car"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "警察の車",
+      "category": "police_procedural",
+      "context": "Short for パトロールカー. Sirens (サイレン) blaring is a drama staple.",
+      "example_sentence": "パトカーが現場に到着した。",
+      "example_reading": "パトカー が げんば に とうちゃく した。",
+      "example_meaning": "The patrol car arrived at the scene."
+    },
+    {
+      "word": "警察署",
+      "reading": "けいさつしょ",
+      "meanings": [
+        "police station"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "警察の建物",
+      "category": "police_procedural",
+      "context": "Local-precinct setting where most procedural action happens. 〇〇警察署 — the 〇〇 station.",
+      "example_sentence": "被害者の家族が警察署を訪れた。",
+      "example_reading": "ひがいしゃ の かぞく が けいさつしょ を おとずれた。",
+      "example_meaning": "The victim's family visited the police station."
+    },
+    {
+      "word": "通報",
+      "reading": "つうほう",
+      "meanings": [
+        "report (to authorities)",
+        "calling 110/119"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "警察に知らせる",
+      "category": "police_procedural",
+      "context": "110番通報 — calling the police hotline. 通報する — to report. The opening minute of every drama.",
+      "example_sentence": "近所の人が警察に通報した。",
+      "example_reading": "きんじょ の ひと が けいさつ に つうほう した。",
+      "example_meaning": "A neighbor reported it to the police."
+    },
+    {
+      "word": "凶器",
+      "reading": "きょうき",
+      "meanings": [
+        "weapon (used in crime)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "犯罪の道具",
+      "category": "forensics_evidence",
+      "context": "Specifically a weapon-of-crime. Distinct from 武器 (general weapon). 凶器の鑑定 — analysis of the weapon.",
+      "example_sentence": "凶器はナイフと判明した。",
+      "example_reading": "きょうき は ナイフ と はんめい した。",
+      "example_meaning": "The weapon was identified as a knife."
+    },
+    {
+      "word": "指紋",
+      "reading": "しもん",
+      "meanings": [
+        "fingerprint"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "指のあと",
+      "category": "forensics_evidence",
+      "context": "指紋を採取 — collect prints. 指紋認証 — fingerprint authentication. Forensic essential.",
+      "example_sentence": "凶器から指紋が検出された。",
+      "example_reading": "きょうき から しもん が けんしゅつ された。",
+      "example_meaning": "Fingerprints were detected on the weapon."
+    },
+    {
+      "word": "足跡",
+      "reading": "あしあと",
+      "meanings": [
+        "footprint",
+        "tracks"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "足のあと",
+      "category": "forensics_evidence",
+      "context": "Snow scenes! Mud! Wet floors! 足跡を残す — leave footprints.",
+      "example_sentence": "雪の上に足跡が残っていた。",
+      "example_reading": "ゆき の うえ に あしあと が のこって いた。",
+      "example_meaning": "Footprints were left on the snow."
+    },
+    {
+      "word": "血痕",
+      "reading": "けっこん",
+      "meanings": [
+        "bloodstain"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "血のあと",
+      "category": "forensics_evidence",
+      "context": "Different word from 結婚 (marriage)! Same reading. 血痕反応 — luminol test.",
+      "example_sentence": "床に血痕が見つかった。",
+      "example_reading": "ゆか に けっこん が みつかった。",
+      "example_meaning": "A bloodstain was found on the floor."
+    },
+    {
+      "word": "血液型",
+      "reading": "けつえきがた",
+      "meanings": [
+        "blood type"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "A型・B型・O型",
+      "category": "forensics_evidence",
+      "context": "Used in identification. Cultural side note: blood-type personality typology is a Japanese small-talk staple.",
+      "example_sentence": "血液型はB型と判明した。",
+      "example_reading": "けつえきがた は ビーがた と はんめい した。",
+      "example_meaning": "The blood type was determined to be type B."
+    },
+    {
+      "word": "DNA鑑定",
+      "reading": "ディーエヌエーかんてい",
+      "meanings": [
+        "DNA testing",
+        "DNA analysis"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "DNAを調べる",
+      "category": "forensics_evidence",
+      "context": "Modern forensic mainstay. 鑑定 = expert appraisal. 親子鑑定 — paternity test.",
+      "example_sentence": "DNA鑑定で犯人が特定された。",
+      "example_reading": "ディーエヌエー かんてい で はんにん が とくてい された。",
+      "example_meaning": "The criminal was identified by DNA analysis."
+    },
+    {
+      "word": "死体",
+      "reading": "したい",
+      "meanings": [
+        "corpse",
+        "dead body"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "亡くなった人の体",
+      "category": "death_injury",
+      "context": "Direct/clinical. 死体発見 — body discovered. Compare 遺体 (more respectful).",
+      "example_sentence": "川の岸で死体が発見された。",
+      "example_reading": "かわ の きし で したい が はっけん された。",
+      "example_meaning": "A body was discovered on the riverbank."
+    },
+    {
+      "word": "遺体",
+      "reading": "いたい",
+      "meanings": [
+        "body (deceased, respectful)",
+        "remains"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "亡くなった人の体（丁寧）",
+      "category": "death_injury",
+      "context": "News and dramas use 遺体 for victims (respectful), 死体 in clinical context.",
+      "example_sentence": "被害者の遺体が遺族に引き渡された。",
+      "example_reading": "ひがいしゃ の いたい が いぞく に ひきわたされた。",
+      "example_meaning": "The victim's body was returned to the bereaved family."
+    },
+    {
+      "word": "死因",
+      "reading": "しいん",
+      "meanings": [
+        "cause of death"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "死んだ理由",
+      "category": "forensics_evidence",
+      "context": "死因は〇〇 — the cause of death is 〇〇. 死因不明 — cause of death unknown.",
+      "example_sentence": "死因は窒息と判明した。",
+      "example_reading": "しいん は ちっそく と はんめい した。",
+      "example_meaning": "The cause of death was determined to be suffocation."
+    },
+    {
+      "word": "死亡推定時刻",
+      "reading": "しぼうすいていじこく",
+      "meanings": [
+        "estimated time of death"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "亡くなったとされる時間",
+      "category": "forensics_evidence",
+      "context": "The classic alibi-pivot. 死亡推定時刻は午後9時から10時の間 — between 9 and 10pm.",
+      "example_sentence": "死亡推定時刻は昨夜10時頃だ。",
+      "example_reading": "しぼう すいてい じこく は さくや じゅうじ ごろ だ。",
+      "example_meaning": "The estimated time of death is around 10pm last night."
+    },
+    {
+      "word": "痕跡",
+      "reading": "こんせき",
+      "meanings": [
+        "trace",
+        "mark",
+        "sign"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "あと",
+      "category": "forensics_evidence",
+      "context": "More formal than あと. 争った痕跡 — signs of a struggle. 痕跡を消す — erase traces.",
+      "example_sentence": "争った痕跡が部屋に残っていた。",
+      "example_reading": "あらそった こんせき が へや に のこって いた。",
+      "example_meaning": "Signs of a struggle remained in the room."
+    },
+    {
+      "word": "筆跡",
+      "reading": "ひっせき",
+      "meanings": [
+        "handwriting"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "字の書き方",
+      "category": "forensics_evidence",
+      "context": "筆跡鑑定 — handwriting analysis. Note vs forged-document plots.",
+      "example_sentence": "筆跡から本人ではないと分かった。",
+      "example_reading": "ひっせき から ほんにん で は ない と わかった。",
+      "example_meaning": "The handwriting showed it wasn't the person himself."
+    },
+    {
+      "word": "防犯カメラ",
+      "reading": "ぼうはんカメラ",
+      "meanings": [
+        "security camera",
+        "CCTV"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "監視カメラ",
+      "category": "forensics_evidence",
+      "context": "Modern detective work — half of episodes hinge on 防犯カメラ footage. 防犯カメラ映像 — security camera footage.",
+      "example_sentence": "防犯カメラに犯人が映っていた。",
+      "example_reading": "ぼうはん カメラ に はんにん が うつって いた。",
+      "example_meaning": "The criminal was captured on the security camera."
+    },
+    {
+      "word": "監視カメラ",
+      "reading": "かんしカメラ",
+      "meanings": [
+        "surveillance camera"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "防犯カメラ",
+      "category": "forensics_evidence",
+      "context": "Often interchangeable with 防犯カメラ. 監視カメラの映像 — surveillance footage.",
+      "example_sentence": "監視カメラの映像を確認している。",
+      "example_reading": "かんし カメラ の えいぞう を かくにん して いる。",
+      "example_meaning": "We're checking the surveillance camera footage."
+    },
+    {
+      "word": "密室",
+      "reading": "みっしつ",
+      "meanings": [
+        "locked room",
+        "sealed room"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "鍵の閉まった部屋",
+      "category": "plot_mechanics",
+      "context": "密室殺人 — locked-room murder, the classic Conan setup. 密室トリック — locked-room trick.",
+      "example_sentence": "これは典型的な密室殺人だ。",
+      "example_reading": "これ は てんけい てき な みっしつ さつじん だ。",
+      "example_meaning": "This is a textbook locked-room murder."
+    },
+    {
+      "word": "トリック",
+      "reading": "トリック",
+      "meanings": [
+        "trick (mystery)",
+        "ruse"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "仕掛け",
+      "category": "plot_mechanics",
+      "context": "Loanword, but the genre's central concept. トリックを見破る — see through the trick.",
+      "example_sentence": "このトリックには気づかなかった。",
+      "example_reading": "この トリック に は きづかなかった。",
+      "example_meaning": "I didn't notice this trick."
+    },
+    {
+      "word": "暗号",
+      "reading": "あんごう",
+      "meanings": [
+        "code",
+        "cipher",
+        "secret message"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "秘密の文字",
+      "category": "plot_mechanics",
+      "context": "暗号を解く — crack a code. ダイイングメッセージ-style plots.",
+      "example_sentence": "被害者は死ぬ前に暗号を残した。",
+      "example_reading": "ひがいしゃ は しぬ まえ に あんごう を のこした。",
+      "example_meaning": "The victim left a coded message before dying."
+    },
+    {
+      "word": "偽装",
+      "reading": "ぎそう",
+      "meanings": [
+        "disguise",
+        "camouflage",
+        "fabrication"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見せかけ",
+      "category": "plot_mechanics",
+      "context": "自殺に偽装する — make it look like suicide. 偽装工作 — cover-up. Drama's go-to misdirection.",
+      "example_sentence": "自殺に偽装された他殺だった。",
+      "example_reading": "じさつ に ぎそう された たさつ だった。",
+      "example_meaning": "It was a homicide disguised as suicide."
+    },
+    {
+      "word": "偽名",
+      "reading": "ぎめい",
+      "meanings": [
+        "false name",
+        "alias"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "うその名前",
+      "category": "plot_mechanics",
+      "context": "偽名を使う — use a false name. Hotel registers and 'who is this person really' plots.",
+      "example_sentence": "容疑者は偽名でホテルに泊まっていた。",
+      "example_reading": "ようぎしゃ は ぎめい で ホテル に とまって いた。",
+      "example_meaning": "The suspect was staying at the hotel under a false name."
+    },
+    {
+      "word": "変装",
+      "reading": "へんそう",
+      "meanings": [
+        "disguise (physical)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見た目を変える",
+      "category": "plot_mechanics",
+      "context": "変装する — to disguise oneself. 怪盗キッド is a master of 変装.",
+      "example_sentence": "犯人は警官に変装していた。",
+      "example_reading": "はんにん は けいかん に へんそう して いた。",
+      "example_meaning": "The criminal was disguised as a police officer."
+    },
+    {
+      "word": "罠",
+      "reading": "わな",
+      "meanings": [
+        "trap",
+        "snare"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "仕掛け",
+      "category": "plot_mechanics",
+      "context": "罠にかかる — fall into a trap. 罠を仕掛ける — set a trap. Both literal and figurative.",
+      "example_sentence": "これは犯人の罠だった。",
+      "example_reading": "これ は はんにん の わな だった。",
+      "example_meaning": "This was the criminal's trap."
+    },
+    {
+      "word": "仕掛け",
+      "reading": "しかけ",
+      "meanings": [
+        "device",
+        "mechanism",
+        "contrivance"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "工夫",
+      "category": "plot_mechanics",
+      "context": "仕掛けを暴く — expose the device/mechanism. Locked-room solutions usually involve a 仕掛け.",
+      "example_sentence": "密室には巧妙な仕掛けがあった。",
+      "example_reading": "みっしつ に は こうみょう な しかけ が あった。",
+      "example_meaning": "There was a clever device in the locked room."
+    },
+    {
+      "word": "完全犯罪",
+      "reading": "かんぜんはんざい",
+      "meanings": [
+        "perfect crime"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "バレない犯罪",
+      "category": "plot_mechanics",
+      "context": "完全犯罪を企てる — plot a perfect crime. The villain's ambition; spoiler: never works.",
+      "example_sentence": "犯人は完全犯罪を狙っていた。",
+      "example_reading": "はんにん は かんぜん はんざい を ねらって いた。",
+      "example_meaning": "The criminal was aiming for the perfect crime."
+    },
+    {
+      "word": "動かないで",
+      "reading": "うごかないで",
+      "meanings": [
+        "Don't move!",
+        "Stay still!"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そのまま",
+      "category": "drama_dialogue",
+      "context": "Pointed gun + this phrase = drama. Often shouted as 動くな！ in male/police voice.",
+      "example_sentence": "動かないで！手を上げろ！",
+      "example_reading": "うごかないで！ て を あげろ！",
+      "example_meaning": "Don't move! Hands up!"
+    },
+    {
+      "word": "動くな",
+      "reading": "うごくな",
+      "meanings": [
+        "Don't move! (rough)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "動かないで",
+      "category": "drama_dialogue",
+      "context": "Imperative-negative. Sharper, more masculine than 動かないで. Police standoff register.",
+      "example_sentence": "動くな！警察だ！",
+      "example_reading": "うごくな！ けいさつ だ！",
+      "example_meaning": "Don't move! Police!"
+    },
+    {
+      "word": "逃げるな",
+      "reading": "にげるな",
+      "meanings": [
+        "Don't run!",
+        "Don't flee!"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "逃げないで",
+      "category": "drama_dialogue",
+      "context": "Foot-chase classic. The detective shouting it as the suspect bolts.",
+      "example_sentence": "逃げるな！話を聞かせろ！",
+      "example_reading": "にげるな！ はなし を きかせろ！",
+      "example_meaning": "Don't run! Let me hear what you have to say!"
+    },
+    {
+      "word": "手を上げろ",
+      "reading": "てをあげろ",
+      "meanings": [
+        "Hands up!",
+        "Put your hands up!"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "両手を上げて",
+      "category": "drama_dialogue",
+      "context": "Standoff classic. 両手を上げろ is more emphatic.",
+      "example_sentence": "手を上げろ、ゆっくりこっちを向け。",
+      "example_reading": "て を あげろ、 ゆっくり こっち を むけ。",
+      "example_meaning": "Hands up. Turn slowly this way."
+    },
+    {
+      "word": "取り押さえる",
+      "reading": "とりおさえる",
+      "meanings": [
+        "to subdue",
+        "to restrain",
+        "to apprehend"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "つかまえる",
+      "category": "police_procedural",
+      "context": "More physical than 逮捕. The act of pinning the suspect down.",
+      "example_sentence": "刑事は犯人を取り押さえた。",
+      "example_reading": "けいじ は はんにん を とりおさえた。",
+      "example_meaning": "The detective subdued the criminal."
+    },
+    {
+      "word": "発砲",
+      "reading": "はっぽう",
+      "meanings": [
+        "firing (a gun)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "銃を撃つ",
+      "category": "drama_dialogue",
+      "context": "発砲事件 — shooting incident. 発砲音 — gunshot sound. News + drama.",
+      "example_sentence": "犯人は警察に向けて発砲した。",
+      "example_reading": "はんにん は けいさつ に むけて はっぽう した。",
+      "example_meaning": "The criminal fired at the police."
+    },
+    {
+      "word": "拳銃",
+      "reading": "けんじゅう",
+      "meanings": [
+        "handgun",
+        "pistol"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "ピストル",
+      "category": "drama_dialogue",
+      "context": "More precise than 銃. 拳銃を所持 — possessing a handgun (illegal in Japan, hence dramatic).",
+      "example_sentence": "犯人は拳銃を所持していた。",
+      "example_reading": "はんにん は けんじゅう を しょじ して いた。",
+      "example_meaning": "The criminal was carrying a handgun."
+    },
+    {
+      "word": "撃つ",
+      "reading": "うつ",
+      "meanings": [
+        "to shoot (a gun)",
+        "to fire"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "発砲する",
+      "category": "drama_dialogue",
+      "context": "撃たれる — to be shot. 撃ち合い — gunfight. Different from 打つ (to hit).",
+      "example_sentence": "撃たれた被害者は病院に運ばれた。",
+      "example_reading": "うたれた ひがいしゃ は びょういん に はこばれた。",
+      "example_meaning": "The shot victim was taken to the hospital."
+    },
+    {
+      "word": "刺す",
+      "reading": "さす",
+      "meanings": [
+        "to stab",
+        "to pierce"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "突き刺す",
+      "category": "drama_dialogue",
+      "context": "刺殺 — stabbing death. 刺された — was stabbed.",
+      "example_sentence": "被害者は背中を刺されていた。",
+      "example_reading": "ひがいしゃ は せなか を さされて いた。",
+      "example_meaning": "The victim had been stabbed in the back."
+    },
+    {
+      "word": "殺す",
+      "reading": "ころす",
+      "meanings": [
+        "to kill",
+        "to murder"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "命を奪う",
+      "category": "drama_dialogue",
+      "context": "Direct verb form. 殺された — was killed. 殺してやる — drama's threat line.",
+      "example_sentence": "なぜ彼を殺したんだ？",
+      "example_reading": "なぜ かれ を ころした んだ？",
+      "example_meaning": "Why did you kill him?"
+    },
+    {
+      "word": "倒れる",
+      "reading": "たおれる",
+      "meanings": [
+        "to collapse",
+        "to fall over",
+        "to be struck down"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "地面に倒れる",
+      "category": "death_injury",
+      "context": "被害者が倒れていた — the victim was lying collapsed. Standard scene-discovery line.",
+      "example_sentence": "男性が玄関で倒れていた。",
+      "example_reading": "だんせい が げんかん で たおれて いた。",
+      "example_meaning": "A man was lying collapsed at the entrance."
+    },
+    {
+      "word": "意識不明",
+      "reading": "いしきふめい",
+      "meanings": [
+        "unconscious",
+        "loss of consciousness"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気を失っている",
+      "category": "death_injury",
+      "context": "意識不明の重体 — unconscious and in critical condition. Drama-news template.",
+      "example_sentence": "被害者は意識不明の状態だ。",
+      "example_reading": "ひがいしゃ は いしき ふめい の じょうたい だ。",
+      "example_meaning": "The victim is unconscious."
+    },
+    {
+      "word": "重体",
+      "reading": "じゅうたい",
+      "meanings": [
+        "critical condition (medical)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても危ない状態",
+      "category": "death_injury",
+      "context": "Medical news shorthand. Pairs with 軽傷 (minor injury) and 重傷 (serious injury).",
+      "example_sentence": "運び込まれた時、被害者は重体だった。",
+      "example_reading": "はこびこまれた とき、 ひがいしゃ は じゅうたい だった。",
+      "example_meaning": "When brought in, the victim was in critical condition."
+    },
+    {
+      "word": "救急車",
+      "reading": "きゅうきゅうしゃ",
+      "meanings": [
+        "ambulance"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "病院に運ぶ車",
+      "category": "death_injury",
+      "context": "救急車を呼ぶ — call an ambulance. The other half of the 110/119 pair.",
+      "example_sentence": "早く救急車を呼んで！",
+      "example_reading": "はやく きゅうきゅうしゃ を よんで！",
+      "example_meaning": "Quick, call an ambulance!"
+    },
+    {
+      "word": "駆けつける",
+      "reading": "かけつける",
+      "meanings": [
+        "to rush to (a place)",
+        "to hurry over"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "急いで行く",
+      "category": "drama_dialogue",
+      "context": "刑事が現場に駆けつけた — the detective rushed to the scene. Action-opening template.",
+      "example_sentence": "通報を受けて警官が駆けつけた。",
+      "example_reading": "つうほう を うけて けいかん が かけつけた。",
+      "example_meaning": "Receiving the call, officers rushed to the scene."
+    },
+    {
+      "word": "黙秘",
+      "reading": "もくひ",
+      "meanings": [
+        "remaining silent",
+        "right to silence"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "何も言わない",
+      "category": "police_procedural",
+      "context": "黙秘権 — right to remain silent. 黙秘を続ける — continue to remain silent (a tense interrogation arc).",
+      "example_sentence": "容疑者は黙秘を続けている。",
+      "example_reading": "ようぎしゃ は もくひ を つづけて いる。",
+      "example_meaning": "The suspect continues to remain silent."
+    },
+    {
+      "word": "否認",
+      "reading": "ひにん",
+      "meanings": [
+        "denial",
+        "disavowal"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "認めない",
+      "category": "police_procedural",
+      "context": "容疑を否認 — deny the charges. 全面否認 — full denial.",
+      "example_sentence": "被告は容疑を否認している。",
+      "example_reading": "ひこく は ようぎ を ひにん して いる。",
+      "example_meaning": "The defendant denies the charges."
+    },
+    {
+      "word": "嘘をつく",
+      "reading": "うそをつく",
+      "meanings": [
+        "to tell a lie",
+        "to lie"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "本当のことを言わない",
+      "category": "detective_investigation",
+      "context": "嘘をついている — is lying. Detective Q's bread-and-butter accusation.",
+      "example_sentence": "あなた、嘘をついていますね？",
+      "example_reading": "あなた、 うそ を ついて いますね？",
+      "example_meaning": "You're lying, aren't you?"
+    },
+    {
+      "word": "まさか",
+      "reading": "まさか",
+      "meanings": [
+        "No way!",
+        "You can't mean...",
+        "Surely not"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "信じられない",
+      "category": "reactions_suspense",
+      "context": "The big-reveal exclamation. まさか、犯人は…— No way... the criminal is...",
+      "example_sentence": "まさか、彼が犯人だなんて。",
+      "example_reading": "まさか、 かれ が はんにん だ なんて。",
+      "example_meaning": "No way... that he could be the criminal."
+    },
+    {
+      "word": "やはり",
+      "reading": "やはり",
+      "meanings": [
+        "as I thought",
+        "as expected",
+        "still"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "思ったとおり",
+      "category": "reactions_suspense",
+      "context": "More formal than やっぱり. やはり彼の仕業だった — As I thought, it was his doing.",
+      "example_sentence": "やはり犯人はあなただった。",
+      "example_reading": "やはり はんにん は あなた だった。",
+      "example_meaning": "As I thought — you were the criminal."
+    },
+    {
+      "word": "やっぱり",
+      "reading": "やっぱり",
+      "meanings": [
+        "as I thought",
+        "as expected",
+        "still (casual)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "やはり",
+      "category": "reactions_suspense",
+      "context": "Casual やはり. The most natural-feeling drama reveal opener.",
+      "example_sentence": "やっぱりそうだったか。",
+      "example_reading": "やっぱり そう だった か。",
+      "example_meaning": "So that was it after all."
+    },
+    {
+      "word": "信じられない",
+      "reading": "しんじられない",
+      "meanings": [
+        "unbelievable",
+        "I can't believe it"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "嘘みたい",
+      "category": "reactions_suspense",
+      "context": "Reaction shot vocabulary. Sometimes shortened to 信じらんない (very casual).",
+      "example_sentence": "信じられない、彼がそんなことを。",
+      "example_reading": "しんじられない、 かれ が そんな こと を。",
+      "example_meaning": "I can't believe it — that he would do that."
+    },
+    {
+      "word": "ばれる",
+      "reading": "ばれる",
+      "meanings": [
+        "to be exposed",
+        "to come to light",
+        "to be found out"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "見つかる",
+      "category": "reactions_suspense",
+      "context": "Casual; perfect for 'You're caught' moments. 嘘がばれる — the lie is exposed.",
+      "example_sentence": "とうとう嘘がばれた。",
+      "example_reading": "とうとう うそ が ばれた。",
+      "example_meaning": "At last the lie was exposed."
+    },
+    {
+      "word": "隠す",
+      "reading": "かくす",
+      "meanings": [
+        "to hide",
+        "to conceal"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見えなくする",
+      "category": "detective_investigation",
+      "context": "何か隠してる — you're hiding something. The accusation that drives the second act.",
+      "example_sentence": "何か隠していませんか？",
+      "example_reading": "なに か かくして いません か？",
+      "example_meaning": "Aren't you hiding something?"
+    },
+    {
+      "word": "隠れる",
+      "reading": "かくれる",
+      "meanings": [
+        "to hide oneself",
+        "to be hidden"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見えない所に行く",
+      "category": "detective_investigation",
+      "context": "Intransitive pair of 隠す. 隠れている真相 — the hidden truth.",
+      "example_sentence": "犯人はビルに隠れている。",
+      "example_reading": "はんにん は ビル に かくれて いる。",
+      "example_meaning": "The criminal is hiding in the building."
+    },
+    {
+      "word": "騙す",
+      "reading": "だます",
+      "meanings": [
+        "to deceive",
+        "to trick",
+        "to fool"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "嘘をついて利用する",
+      "category": "detective_investigation",
+      "context": "騙された — was deceived. 騙し合い — game of deception. Drama essential.",
+      "example_sentence": "私たちはまんまと騙されていた。",
+      "example_reading": "わたしたち は まんまと だまされて いた。",
+      "example_meaning": "We had been completely deceived."
+    },
+    {
+      "word": "目撃証言",
+      "reading": "もくげきしょうげん",
+      "meanings": [
+        "eyewitness testimony"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見た人の話",
+      "category": "detective_investigation",
+      "context": "Combines 目撃 + 証言. Critical evidence in court drama.",
+      "example_sentence": "目撃証言と犯人の供述が食い違う。",
+      "example_reading": "もくげき しょうげん と はんにん の きょうじゅつ が くいちがう。",
+      "example_meaning": "The eyewitness testimony contradicts the suspect's statement."
+    },
+    {
+      "word": "立てこもる",
+      "reading": "たてこもる",
+      "meanings": [
+        "to barricade oneself",
+        "to hole up"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "中に隠れて出てこない",
+      "category": "crime_types",
+      "context": "立てこもり事件 — siege/barricade incident. Hostage-situation vocabulary.",
+      "example_sentence": "犯人がコンビニに立てこもった。",
+      "example_reading": "はんにん が コンビニ に たてこもった。",
+      "example_meaning": "The criminal barricaded himself in a convenience store."
+    },
+    {
+      "word": "目を覚ます",
+      "reading": "めをさます",
+      "meanings": [
+        "to wake up",
+        "to come to",
+        "to regain consciousness"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "起きる・気がつく",
+      "category": "death_injury",
+      "context": "Hospital scene staple. 病院で目を覚ました — woke up in the hospital.",
+      "example_sentence": "被害者が病院で目を覚ました。",
+      "example_reading": "ひがいしゃ が びょういん で め を さました。",
+      "example_meaning": "The victim woke up at the hospital."
+    },
+    {
+      "word": "気を失う",
+      "reading": "きをうしなう",
+      "meanings": [
+        "to lose consciousness",
+        "to faint"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "意識を失う",
+      "category": "death_injury",
+      "context": "気を失っている — is unconscious. Less clinical than 意識不明.",
+      "example_sentence": "頭を打って気を失った。",
+      "example_reading": "あたま を うって き を うしなった。",
+      "example_meaning": "He hit his head and lost consciousness."
+    },
+    {
+      "word": "助手",
+      "reading": "じょしゅ",
+      "meanings": [
+        "assistant"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "アシスタント",
+      "category": "characters_roles",
+      "context": "探偵の助手 — detective's assistant (the Watson role). Conan and the 少年探偵団 effectively are 助手 to 毛利小五郎.",
+      "example_sentence": "私は名探偵の助手です。",
+      "example_reading": "わたし は めいたんてい の じょしゅ です。",
+      "example_meaning": "I'm the great detective's assistant."
+    },
+    {
+      "word": "依頼",
+      "reading": "いらい",
+      "meanings": [
+        "request",
+        "commission",
+        "client request"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "頼むこと",
+      "category": "detective_investigation",
+      "context": "事件の依頼を受ける — accept a case. The episode's opening hook.",
+      "example_sentence": "探偵に調査の依頼が舞い込んだ。",
+      "example_reading": "たんてい に ちょうさ の いらい が まいこんだ。",
+      "example_meaning": "An investigation request arrived for the detective."
+    },
+    {
+      "word": "依頼人",
+      "reading": "いらいにん",
+      "meanings": [
+        "client (of a detective/lawyer)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "頼んだ人",
+      "category": "characters_roles",
+      "context": "私の依頼人 — my client. Lawyer-drama too.",
+      "example_sentence": "依頼人は事件と無関係だった。",
+      "example_reading": "いらいにん は じけん と むかんけい だった。",
+      "example_meaning": "The client was unrelated to the case."
+    },
+    {
+      "word": "単独犯",
+      "reading": "たんどくはん",
+      "meanings": [
+        "lone criminal",
+        "sole perpetrator"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "一人で犯した人",
+      "category": "crime_types",
+      "context": "単独犯か共犯か — solo or with accomplices. Classic detective question.",
+      "example_sentence": "これは単独犯による犯行とみられる。",
+      "example_reading": "これ は たんどくはん に よる はんこう と みられる。",
+      "example_meaning": "This is believed to be the work of a lone criminal."
+    },
+    {
+      "word": "計画的",
+      "reading": "けいかくてき",
+      "meanings": [
+        "premeditated",
+        "planned"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前から考えていた",
+      "category": "plot_mechanics",
+      "context": "計画的犯行 — premeditated crime. Pairs with 衝動的.",
+      "example_sentence": "これは計画的な犯行だ。",
+      "example_reading": "これ は けいかく てき な はんこう だ。",
+      "example_meaning": "This is a premeditated crime."
+    },
+    {
+      "word": "衝動的",
+      "reading": "しょうどうてき",
+      "meanings": [
+        "impulsive",
+        "spur-of-the-moment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "とっさの",
+      "category": "plot_mechanics",
+      "context": "衝動的犯行 — crime of impulse. Sentencing factor in court drama.",
+      "example_sentence": "衝動的な犯行とは思えない。",
+      "example_reading": "しょうどう てき な はんこう と は おもえない。",
+      "example_meaning": "It doesn't seem to be a crime of impulse."
+    },
+    {
+      "word": "巻き込まれる",
+      "reading": "まきこまれる",
+      "meanings": [
+        "to be drawn into",
+        "to be caught up in"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "事件に入ってしまう",
+      "category": "detective_investigation",
+      "context": "事件に巻き込まれる — to get caught up in a case. Conan's perpetual condition.",
+      "example_sentence": "通行人が事件に巻き込まれた。",
+      "example_reading": "つうこうにん が じけん に まきこまれた。",
+      "example_meaning": "A passerby was caught up in the incident."
+    },
+    {
+      "word": "被疑者",
+      "reading": "ひぎしゃ",
+      "meanings": [
+        "suspect (legal/police term)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "容疑者",
+      "category": "police_procedural",
+      "context": "Legally precise alternative to 容疑者. Heard more in legal-drama dialogue.",
+      "example_sentence": "被疑者の身柄を確保した。",
+      "example_reading": "ひぎしゃ の みがら を かくほ した。",
+      "example_meaning": "They have the suspect in custody."
+    },
+    {
+      "word": "身柄",
+      "reading": "みがら",
+      "meanings": [
+        "custody (of a person)",
+        "one's person"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "つかまえている人",
+      "category": "police_procedural",
+      "context": "身柄を確保 — take into custody. 身柄を引き渡す — hand over (extradite). Legal-procedural.",
+      "example_sentence": "身柄は検察に送られた。",
+      "example_reading": "みがら は けんさつ に おくられた。",
+      "example_meaning": "The suspect was sent to the prosecutors."
+    },
+    {
+      "word": "任意同行",
+      "reading": "にんいどうこう",
+      "meanings": [
+        "voluntary accompaniment (to police)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "自分から警察に行く",
+      "category": "police_procedural",
+      "context": "Voluntary, pre-arrest questioning. The 'we just want to talk' phase.",
+      "example_sentence": "任意同行で警察署に向かった。",
+      "example_reading": "にんい どうこう で けいさつしょ に むかった。",
+      "example_meaning": "He voluntarily accompanied them to the police station."
+    },
+    {
+      "word": "張り込み",
+      "reading": "はりこみ",
+      "meanings": [
+        "stakeout",
+        "surveillance"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見張り",
+      "category": "police_procedural",
+      "context": "張り込み中 — on a stakeout. Coffee + cars + nighttime — drama trope.",
+      "example_sentence": "刑事は容疑者の自宅前で張り込みをしていた。",
+      "example_reading": "けいじ は ようぎしゃ の じたく まえ で はりこみ を して いた。",
+      "example_meaning": "The detectives were staking out the suspect's home."
+    },
+    {
+      "word": "尾行",
+      "reading": "びこう",
+      "meanings": [
+        "tailing",
+        "shadowing",
+        "tracking"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "後をつける",
+      "category": "police_procedural",
+      "context": "尾行する — to tail someone. 尾行されている — being followed. Privacy-eye fundamentals.",
+      "example_sentence": "探偵は浮気調査で尾行を続けた。",
+      "example_reading": "たんてい は うわき ちょうさ で びこう を つづけた。",
+      "example_meaning": "The detective tailed her in an infidelity investigation."
+    },
+    {
+      "word": "捜索",
+      "reading": "そうさく",
+      "meanings": [
+        "search (physical)",
+        "scouring"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "探すこと",
+      "category": "police_procedural",
+      "context": "家宅捜索 — house search. 捜索願 — missing-person request. Stronger than 捜査.",
+      "example_sentence": "警察は容疑者宅を捜索した。",
+      "example_reading": "けいさつ は ようぎしゃ たく を そうさく した。",
+      "example_meaning": "Police searched the suspect's home."
+    },
+    {
+      "word": "捕まえる",
+      "reading": "つかまえる",
+      "meanings": [
+        "to catch",
+        "to apprehend",
+        "to grab"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "逮捕する",
+      "category": "police_procedural",
+      "context": "犯人を捕まえる — catch the criminal. More everyday than 逮捕する.",
+      "example_sentence": "必ず犯人を捕まえる。",
+      "example_reading": "かならず はんにん を つかまえる。",
+      "example_meaning": "We will catch the criminal, no matter what."
+    },
+    {
+      "word": "逮捕状",
+      "reading": "たいほじょう",
+      "meanings": [
+        "arrest warrant"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "逮捕の許可書",
+      "category": "police_procedural",
+      "context": "逮捕状を取る — get an arrest warrant. The pre-arrest paperwork moment.",
+      "example_sentence": "裁判所が逮捕状を発行した。",
+      "example_reading": "さいばんしょ が たいほじょう を はっこう した。",
+      "example_meaning": "The court issued an arrest warrant."
+    },
+    {
+      "word": "指名手配",
+      "reading": "しめいてはい",
+      "meanings": [
+        "being on the wanted list",
+        "fugitive status"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "全国の警察が探している",
+      "category": "police_procedural",
+      "context": "指名手配犯 — wanted fugitive. 全国指名手配 — nationwide wanted notice.",
+      "example_sentence": "逃走した男は指名手配された。",
+      "example_reading": "とうそう した おとこ は しめい てはい された。",
+      "example_meaning": "The man who escaped was placed on the wanted list."
+    },
+    {
+      "word": "逃走",
+      "reading": "とうそう",
+      "meanings": [
+        "escape",
+        "fleeing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "逃げる",
+      "category": "crime_types",
+      "context": "逃走中 — on the run. 逃走経路 — escape route. More formal than 逃げる.",
+      "example_sentence": "犯人は車で逃走した。",
+      "example_reading": "はんにん は くるま で とうそう した。",
+      "example_meaning": "The criminal fled by car."
+    },
+    {
+      "word": "潜伏",
+      "reading": "せんぷく",
+      "meanings": [
+        "lying low",
+        "being in hiding"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "隠れていること",
+      "category": "crime_types",
+      "context": "潜伏先 — hideout. 潜伏中 — in hiding.",
+      "example_sentence": "容疑者は山中に潜伏しているとみられる。",
+      "example_reading": "ようぎしゃ は さんちゅう に せんぷく して いる と みられる。",
+      "example_meaning": "The suspect is believed to be hiding in the mountains."
+    },
+    {
+      "word": "事件性",
+      "reading": "じけんせい",
+      "meanings": [
+        "criminal nature (of an event)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "犯罪のにおい",
+      "category": "detective_investigation",
+      "context": "Standard police phrasing: 事件性はないとみられる — no foul play suspected. Or 事件性が高い — likely criminal.",
+      "example_sentence": "警察は事件性も視野に捜査している。",
+      "example_reading": "けいさつ は じけんせい も しや に そうさ して いる。",
+      "example_meaning": "Police are also looking into possible foul play."
+    },
+    {
+      "word": "密会",
+      "reading": "みっかい",
+      "meanings": [
+        "secret meeting",
+        "clandestine rendezvous"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "秘密の会合",
+      "category": "plot_mechanics",
+      "context": "Affairs, conspiracies — both use 密会. Camera reveal at a hotel lobby = 密会の現場.",
+      "example_sentence": "二人の密会の写真が発見された。",
+      "example_reading": "ふたり の みっかい の しゃしん が はっけん された。",
+      "example_meaning": "A photo of their secret meeting was discovered."
+    },
+    {
+      "word": "内通",
+      "reading": "ないつう",
+      "meanings": [
+        "leaking information",
+        "being an inside informant"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裏切って情報を流す",
+      "category": "plot_mechanics",
+      "context": "内通者 — mole, inside informant. 'There's a 内通者 in our department' is a season-ending reveal.",
+      "example_sentence": "組織内に内通者がいるらしい。",
+      "example_reading": "そしき ない に ないつうしゃ が いる らしい。",
+      "example_meaning": "It seems there's an informant within the organization."
+    },
+    {
+      "word": "裏切り",
+      "reading": "うらぎり",
+      "meanings": [
+        "betrayal",
+        "treachery"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "信頼を破る",
+      "category": "plot_mechanics",
+      "context": "Note: also in Drive My Car deck. Drama power-word. 裏切り者 — traitor.",
+      "example_sentence": "これは仲間に対する裏切りだ。",
+      "example_reading": "これ は なかま に たいする うらぎり だ。",
+      "example_meaning": "This is betrayal of one's comrades."
+    },
+    {
+      "word": "自殺",
+      "reading": "じさつ",
+      "meanings": [
+        "suicide"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自分で命を絶つ",
+      "category": "death_injury",
+      "context": "自殺と他殺 — suicide vs homicide. Plot pivot: 自殺に見せかけた他殺 — homicide disguised as suicide.",
+      "example_sentence": "当初は自殺と思われていた。",
+      "example_reading": "とうしょ は じさつ と おもわれて いた。",
+      "example_meaning": "Initially it was thought to be suicide."
+    },
+    {
+      "word": "他殺",
+      "reading": "たさつ",
+      "meanings": [
+        "homicide",
+        "killing by another"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "人に殺される",
+      "category": "death_injury",
+      "context": "Pairs with 自殺. 他殺の疑い — suspicion of homicide. The reveal that flips the case.",
+      "example_sentence": "検視の結果、他殺と断定された。",
+      "example_reading": "けんし の けっか、 たさつ と だんてい された。",
+      "example_meaning": "The inspection concluded it was homicide."
+    },
+    {
+      "word": "被害",
+      "reading": "ひがい",
+      "meanings": [
+        "damage",
+        "injury (suffered)",
+        "harm"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "受けた害",
+      "category": "crime_types",
+      "context": "被害届 — damage report (to police). 被害状況 — extent of damage.",
+      "example_sentence": "被害は多額に及ぶ見込みだ。",
+      "example_reading": "ひがい は たがく に およぶ みこみ だ。",
+      "example_meaning": "Damages are expected to reach a large sum."
+    },
+    {
+      "word": "狙う",
+      "reading": "ねらう",
+      "meanings": [
+        "to aim at",
+        "to target",
+        "to set sights on"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "目当てにする",
+      "category": "plot_mechanics",
+      "context": "命を狙われる — to have one's life targeted. 狙われた人物 — the targeted individual.",
+      "example_sentence": "何者かに命を狙われている。",
+      "example_reading": "なにもの か に いのち を ねらわれて いる。",
+      "example_meaning": "His life is being targeted by someone."
+    },
+    {
+      "word": "消息",
+      "reading": "しょうそく",
+      "meanings": [
+        "news (of someone)",
+        "whereabouts"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "知らせ",
+      "category": "crime_types",
+      "context": "消息を絶つ — go silent / disappear. 消息不明 — whereabouts unknown.",
+      "example_sentence": "その後、彼の消息は途絶えた。",
+      "example_reading": "そのご、 かれ の しょうそく は とだえた。",
+      "example_meaning": "After that, all news of him stopped."
+    },
+    {
+      "word": "麻薬",
+      "reading": "まやく",
+      "meanings": [
+        "narcotics",
+        "illegal drugs"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "違法薬物",
+      "category": "crime_types",
+      "context": "麻薬密売 — drug trafficking. 麻薬取締官 — drug enforcement agent.",
+      "example_sentence": "麻薬の密売ルートが摘発された。",
+      "example_reading": "まやく の みつばい ルート が てきはつ された。",
+      "example_meaning": "A drug trafficking route was uncovered."
+    },
+    {
+      "word": "密売",
+      "reading": "みつばい",
+      "meanings": [
+        "smuggling",
+        "illegal trafficking"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "こっそり売る",
+      "category": "crime_types",
+      "context": "密売人 — smuggler/dealer. 密売組織 — trafficking ring.",
+      "example_sentence": "武器の密売が発覚した。",
+      "example_reading": "ぶき の みつばい が はっかく した。",
+      "example_meaning": "An arms-trafficking operation was uncovered."
+    },
+    {
+      "word": "裁判",
+      "reading": "さいばん",
+      "meanings": [
+        "trial",
+        "court case",
+        "judgment"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "法廷で行うこと",
+      "category": "courtroom_trial",
+      "context": "裁判を起こす — bring a lawsuit. 裁判にかける — to put on trial. The umbrella word for the whole judicial process.",
+      "example_sentence": "事件は裁判で争われることになった。",
+      "example_reading": "じけん は さいばん で あらそわれる こと に なった。",
+      "example_meaning": "The case will be contested in court."
+    },
+    {
+      "word": "裁判所",
+      "reading": "さいばんしょ",
+      "meanings": [
+        "court",
+        "courthouse"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判をする建物",
+      "category": "courtroom_trial",
+      "context": "地方裁判所 (district court), 高等裁判所 (high court), 最高裁判所 (supreme court) — the three tiers.",
+      "example_sentence": "被告は裁判所に出廷した。",
+      "example_reading": "ひこく は さいばんしょ に しゅってい した。",
+      "example_meaning": "The defendant appeared in court."
+    },
+    {
+      "word": "法廷",
+      "reading": "ほうてい",
+      "meanings": [
+        "courtroom",
+        "court of law"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判の部屋",
+      "category": "courtroom_trial",
+      "context": "The room itself, vs 裁判所 (the building). 法廷ドラマ — courtroom drama. 法廷で証言する — testify in court.",
+      "example_sentence": "法廷は緊張した空気に包まれた。",
+      "example_reading": "ほうてい は きんちょう した くうき に つつまれた。",
+      "example_meaning": "The courtroom was filled with tension."
+    },
+    {
+      "word": "裁判官",
+      "reading": "さいばんかん",
+      "meanings": [
+        "judge"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "判決を出す人",
+      "category": "courtroom_trial",
+      "context": "The general term. 裁判長 is the presiding judge in a panel.",
+      "example_sentence": "裁判官は判決を言い渡した。",
+      "example_reading": "さいばんかん は はんけつ を いいわたした。",
+      "example_meaning": "The judge handed down the verdict."
+    },
+    {
+      "word": "裁判長",
+      "reading": "さいばんちょう",
+      "meanings": [
+        "presiding judge",
+        "chief judge"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判官のリーダー",
+      "category": "courtroom_trial",
+      "context": "In Japan most criminal trials use a 3-judge panel; the 裁判長 leads. Common dialogue: 裁判長！ (addressing the bench).",
+      "example_sentence": "裁判長は静粛にするよう促した。",
+      "example_reading": "さいばんちょう は せいしゅく に する よう うながした。",
+      "example_meaning": "The presiding judge called for quiet."
+    },
+    {
+      "word": "検察官",
+      "reading": "けんさつかん",
+      "meanings": [
+        "prosecutor",
+        "public prosecutor"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "検事",
+      "category": "courtroom_trial",
+      "context": "Often shortened to 検事. The other side from 弁護士. Hits hard in courtroom drama with lines like 求刑15年.",
+      "example_sentence": "検察官は厳しい求刑を行った。",
+      "example_reading": "けんさつかん は きびしい きゅうけい を おこなった。",
+      "example_meaning": "The prosecutor sought a harsh sentence."
+    },
+    {
+      "word": "検事",
+      "reading": "けんじ",
+      "meanings": [
+        "prosecutor (common term)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "検察官",
+      "category": "courtroom_trial",
+      "context": "Same role as 検察官; 検事 is the everyday word. Same kanji 事 reading as 刑事 — easy to confuse, different roles.",
+      "example_sentence": "担当検事は若手のエースだ。",
+      "example_reading": "たんとう けんじ は わかて の エース だ。",
+      "example_meaning": "The prosecutor in charge is a young rising star."
+    },
+    {
+      "word": "弁護士",
+      "reading": "べんごし",
+      "meanings": [
+        "lawyer",
+        "attorney"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判で味方をする人",
+      "category": "courtroom_trial",
+      "context": "Note: also appears in the N3 Essentials. 弁護士に相談する — consult a lawyer. リーガルハイ-style courtroom drama hero.",
+      "example_sentence": "被告は弁護士を雇った。",
+      "example_reading": "ひこく は べんごし を やとった。",
+      "example_meaning": "The defendant hired a lawyer."
+    },
+    {
+      "word": "弁護人",
+      "reading": "べんごにん",
+      "meanings": [
+        "defense counsel"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "弁護をする人",
+      "category": "courtroom_trial",
+      "context": "Legal-procedural term — the lawyer in a specific case. 主任弁護人 — lead defense counsel.",
+      "example_sentence": "弁護人は無罪を主張した。",
+      "example_reading": "べんごにん は むざい を しゅちょう した。",
+      "example_meaning": "Defense counsel argued for acquittal."
+    },
+    {
+      "word": "被告人",
+      "reading": "ひこくにん",
+      "meanings": [
+        "the accused",
+        "defendant (criminal)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判で訴えられた人",
+      "category": "courtroom_trial",
+      "context": "Formal version of 被告; common in courtroom dialogue: 被告人は前へ — 'the accused, step forward.' Reserved for criminal cases.",
+      "example_sentence": "被告人は最後の意見を述べた。",
+      "example_reading": "ひこくにん は さいご の いけん を のべた。",
+      "example_meaning": "The defendant gave their final statement."
+    },
+    {
+      "word": "原告",
+      "reading": "げんこく",
+      "meanings": [
+        "plaintiff (civil case)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "訴えた人",
+      "category": "courtroom_trial",
+      "context": "Civil case (民事) opposite of 被告. リーガルハイ etc. 原告側 — plaintiff's side.",
+      "example_sentence": "原告は損害賠償を求めた。",
+      "example_reading": "げんこく は そんがい ばいしょう を もとめた。",
+      "example_meaning": "The plaintiff sought damages."
+    },
+    {
+      "word": "証人",
+      "reading": "しょうにん",
+      "meanings": [
+        "witness (in court)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "証言する人",
+      "category": "courtroom_trial",
+      "context": "証人尋問 — witness examination. 証人として呼ばれる — to be summoned as a witness. Distinct from 目撃者 (eyewitness on the ground).",
+      "example_sentence": "次の証人を呼んでください。",
+      "example_reading": "つぎ の しょうにん を よんで ください。",
+      "example_meaning": "Please call the next witness."
+    },
+    {
+      "word": "裁判員",
+      "reading": "さいばんいん",
+      "meanings": [
+        "lay judge (Japanese system)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "市民の裁判官",
+      "category": "courtroom_trial",
+      "context": "裁判員制度 — the lay judge system (since 2009). Six citizens + three judges decide serious criminal cases. Modern courtroom-drama backdrop.",
+      "example_sentence": "今回の事件は裁判員裁判となる。",
+      "example_reading": "こんかい の じけん は さいばんいん さいばん と なる。",
+      "example_meaning": "This case will be tried under the lay-judge system."
+    },
+    {
+      "word": "有罪",
+      "reading": "ゆうざい",
+      "meanings": [
+        "guilty"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "罪がある",
+      "category": "courtroom_trial",
+      "context": "Note: also in News deck. The verdict word. 有罪を認める — to plead guilty. Pairs with 無罪.",
+      "example_sentence": "被告は有罪となった。",
+      "example_reading": "ひこく は ゆうざい と なった。",
+      "example_meaning": "The defendant was found guilty."
+    },
+    {
+      "word": "無罪",
+      "reading": "むざい",
+      "meanings": [
+        "not guilty",
+        "innocent (legal)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "罪がない",
+      "category": "courtroom_trial",
+      "context": "Note: also in News deck. 無罪を主張 — claim innocence. 推定無罪 — presumption of innocence.",
+      "example_sentence": "逆転無罪となった。",
+      "example_reading": "ぎゃくてん むざい と なった。",
+      "example_meaning": "The verdict was overturned to not guilty."
+    },
+    {
+      "word": "有罪判決",
+      "reading": "ゆうざいはんけつ",
+      "meanings": [
+        "guilty verdict",
+        "conviction"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "有罪の決定",
+      "category": "courtroom_trial",
+      "context": "The composed phrase. 有罪判決を受ける — be convicted.",
+      "example_sentence": "裁判所は有罪判決を下した。",
+      "example_reading": "さいばんしょ は ゆうざいはんけつ を くだした。",
+      "example_meaning": "The court handed down a guilty verdict."
+    },
+    {
+      "word": "無罪判決",
+      "reading": "むざいはんけつ",
+      "meanings": [
+        "not-guilty verdict",
+        "acquittal"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "無罪の決定",
+      "category": "courtroom_trial",
+      "context": "Counterpart to 有罪判決. 無罪判決を勝ち取る — win an acquittal.",
+      "example_sentence": "弁護団は無罪判決を勝ち取った。",
+      "example_reading": "べんごだん は むざいはんけつ を かちとった。",
+      "example_meaning": "The defense team won an acquittal."
+    },
+    {
+      "word": "判決を下す",
+      "reading": "はんけつをくだす",
+      "meanings": [
+        "to hand down a verdict",
+        "to deliver a judgment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "判決を出す",
+      "category": "courtroom_trial",
+      "context": "Set phrase used in news and dramas. 判決を言い渡す is a near-synonym.",
+      "example_sentence": "裁判長は判決を下した。",
+      "example_reading": "さいばんちょう は はんけつ を くだした。",
+      "example_meaning": "The presiding judge handed down the verdict."
+    },
+    {
+      "word": "求刑",
+      "reading": "きゅうけい",
+      "meanings": [
+        "prosecutor's sentencing demand"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "検察が求める刑",
+      "category": "courtroom_trial",
+      "context": "求刑15年 — prosecutors seek 15 years. The dramatic moment before the judge's actual sentence.",
+      "example_sentence": "検察は懲役10年を求刑した。",
+      "example_reading": "けんさつ は ちょうえき じゅうねん を きゅうけい した。",
+      "example_meaning": "Prosecutors sought a 10-year prison term."
+    },
+    {
+      "word": "量刑",
+      "reading": "りょうけい",
+      "meanings": [
+        "sentencing",
+        "measure of punishment"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "刑の重さ",
+      "category": "courtroom_trial",
+      "context": "量刑判断 — sentencing determination. 量刑が軽い — light sentence. The deliberation between 求刑 and 判決.",
+      "example_sentence": "裁判官は慎重に量刑を判断した。",
+      "example_reading": "さいばんかん は しんちょう に りょうけい を はんだん した。",
+      "example_meaning": "The judge carefully decided the sentence."
+    },
+    {
+      "word": "執行猶予",
+      "reading": "しっこうゆうよ",
+      "meanings": [
+        "suspended sentence",
+        "probation"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "刑が一時止まる",
+      "category": "courtroom_trial",
+      "context": "懲役3年、執行猶予5年 — three years' imprisonment, suspended for five — the classic Japanese light-sentence outcome. Stay clean during 猶予 and you avoid prison.",
+      "example_sentence": "懲役2年、執行猶予4年の判決だった。",
+      "example_reading": "ちょうえき にねん、 しっこうゆうよ よねん の はんけつ だった。",
+      "example_meaning": "The verdict was two years' imprisonment, suspended for four."
+    },
+    {
+      "word": "死刑",
+      "reading": "しけい",
+      "meanings": [
+        "death penalty",
+        "capital punishment"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "命をうばう刑",
+      "category": "courtroom_trial",
+      "context": "死刑判決 — death sentence. 死刑制度 — capital-punishment system. Heavy thematic territory in Japanese legal dramas.",
+      "example_sentence": "凶悪犯罪に死刑判決が出た。",
+      "example_reading": "きょうあく はんざい に しけい はんけつ が でた。",
+      "example_meaning": "A death sentence was handed down for the violent crime."
+    },
+    {
+      "word": "無期懲役",
+      "reading": "むきちょうえき",
+      "meanings": [
+        "life imprisonment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "終身刑",
+      "category": "courtroom_trial",
+      "context": "Below 死刑, above 有期懲役 (fixed-term imprisonment). 無期 = indefinite term. Drama-heavy sentence outcome.",
+      "example_sentence": "裁判所は無期懲役を言い渡した。",
+      "example_reading": "さいばんしょ は むきちょうえき を いいわたした。",
+      "example_meaning": "The court handed down a life sentence."
+    },
+    {
+      "word": "控訴",
+      "reading": "こうそ",
+      "meanings": [
+        "appeal (to higher court)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "上の裁判所に申し立てる",
+      "category": "courtroom_trial",
+      "context": "控訴する — to appeal. 控訴審 — appeal trial. From district to high court.",
+      "example_sentence": "被告側は判決を不服として控訴した。",
+      "example_reading": "ひこく がわ は はんけつ を ふふく と して こうそ した。",
+      "example_meaning": "The defense appealed, dissatisfied with the verdict."
+    },
+    {
+      "word": "上告",
+      "reading": "じょうこく",
+      "meanings": [
+        "final appeal (to Supreme Court)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "最高裁判所への申し立て",
+      "category": "courtroom_trial",
+      "context": "Above 控訴 — the next and final tier. 上告審 — Supreme Court appeal.",
+      "example_sentence": "検察側が最高裁に上告した。",
+      "example_reading": "けんさつ がわ が さいこうさい に じょうこく した。",
+      "example_meaning": "The prosecution filed a final appeal to the Supreme Court."
+    },
+    {
+      "word": "異議あり",
+      "reading": "いぎあり",
+      "meanings": [
+        "Objection!"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "反対です",
+      "category": "courtroom_trial",
+      "context": "The catchphrase. 逆転裁判 (Phoenix Wright) made it iconic. 裁判長、異議あり！ — Your Honor, objection!",
+      "example_sentence": "異議あり！その質問は誘導的です。",
+      "example_reading": "いぎ あり！ その しつもん は ゆうどうてき です。",
+      "example_meaning": "Objection! That question is leading."
+    },
+    {
+      "word": "異議",
+      "reading": "いぎ",
+      "meanings": [
+        "objection",
+        "dissenting opinion"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "反対意見",
+      "category": "courtroom_trial",
+      "context": "異議を申し立てる — file an objection. 異議なし — no objection.",
+      "example_sentence": "弁護人は証拠採用に異議を唱えた。",
+      "example_reading": "べんごにん は しょうこ さいよう に いぎ を となえた。",
+      "example_meaning": "Defense counsel objected to the evidence being admitted."
+    },
+    {
+      "word": "冤罪",
+      "reading": "えんざい",
+      "meanings": [
+        "false accusation",
+        "wrongful conviction",
+        "miscarriage of justice"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "無実の罪",
+      "category": "courtroom_trial",
+      "context": "Major real-world and dramatic theme in Japan: 冤罪事件 — wrongful-conviction case. The detective's purpose: prove 冤罪.",
+      "example_sentence": "再審で冤罪が認められた。",
+      "example_reading": "さいしん で えんざい が みとめられた。",
+      "example_meaning": "Through retrial, the wrongful conviction was acknowledged."
+    },
+    {
+      "word": "再審",
+      "reading": "さいしん",
+      "meanings": [
+        "retrial",
+        "reopening of a case"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "もう一度裁判する",
+      "category": "courtroom_trial",
+      "context": "再審請求 — petition for retrial. The 冤罪-fighter's tool. Often blocked for decades in real Japan.",
+      "example_sentence": "弁護団は再審を請求した。",
+      "example_reading": "べんごだん は さいしん を せいきゅう した。",
+      "example_meaning": "The defense team petitioned for a retrial."
+    },
+    {
+      "word": "立証",
+      "reading": "りっしょう",
+      "meanings": [
+        "to prove (legally)",
+        "substantiation"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "証明する",
+      "category": "courtroom_trial",
+      "context": "立証責任 — burden of proof. 立証する — to establish (a fact in court). Legal-precision verb.",
+      "example_sentence": "検察は立証に失敗した。",
+      "example_reading": "けんさつ は りっしょう に しっぱい した。",
+      "example_meaning": "The prosecution failed to make their case."
+    },
+    {
+      "word": "主張",
+      "reading": "しゅちょう",
+      "meanings": [
+        "assertion",
+        "claim",
+        "argument"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "強く言うこと",
+      "category": "courtroom_trial",
+      "context": "Note: also in N3 Essentials. In court: 弁護側の主張 — the defense's argument. 主張する — to assert.",
+      "example_sentence": "被告は無罪を主張している。",
+      "example_reading": "ひこく は むざい を しゅちょう して いる。",
+      "example_meaning": "The defendant maintains his innocence."
+    },
+    {
+      "word": "反論",
+      "reading": "はんろん",
+      "meanings": [
+        "counter-argument",
+        "rebuttal"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "反対の意見",
+      "category": "courtroom_trial",
+      "context": "反論する — to refute. The cross-examination move.",
+      "example_sentence": "検察は弁護側の主張に反論した。",
+      "example_reading": "けんさつ は べんご がわ の しゅちょう に はんろん した。",
+      "example_meaning": "The prosecution rebutted the defense's argument."
+    },
+    {
+      "word": "証拠不十分",
+      "reading": "しょうこふじゅうぶん",
+      "meanings": [
+        "insufficient evidence"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "証拠が足りない",
+      "category": "courtroom_trial",
+      "context": "証拠不十分で不起訴 — not indicted due to insufficient evidence. The classic let-off.",
+      "example_sentence": "証拠不十分で釈放された。",
+      "example_reading": "しょうこ ふじゅうぶん で しゃくほう された。",
+      "example_meaning": "He was released due to insufficient evidence."
+    },
+    {
+      "word": "不起訴",
+      "reading": "ふきそ",
+      "meanings": [
+        "non-indictment",
+        "decision not to prosecute"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "起訴しないこと",
+      "category": "courtroom_trial",
+      "context": "不起訴処分 — non-prosecution disposition. Outcome short of trial.",
+      "example_sentence": "検察は不起訴処分とした。",
+      "example_reading": "けんさつ は ふきそ しょぶん と した。",
+      "example_meaning": "Prosecutors decided not to indict."
+    },
+    {
+      "word": "釈放",
+      "reading": "しゃくほう",
+      "meanings": [
+        "release (from custody)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "解放する",
+      "category": "courtroom_trial",
+      "context": "釈放される — to be released. Distinct from 保釈 (bail) — 釈放 is unconditional.",
+      "example_sentence": "容疑が晴れて釈放された。",
+      "example_reading": "ようぎ が はれて しゃくほう された。",
+      "example_meaning": "With suspicion cleared, he was released."
+    },
+    {
+      "word": "保釈",
+      "reading": "ほしゃく",
+      "meanings": [
+        "bail",
+        "release on bail"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金を払って一時的に出ること",
+      "category": "courtroom_trial",
+      "context": "保釈金 — bail money. 保釈申請 — bail request. Often denied in serious cases — Carlos Ghosn made it international news.",
+      "example_sentence": "被告は保釈を認められた。",
+      "example_reading": "ひこく は ほしゃく を みとめられた。",
+      "example_meaning": "The defendant was granted bail."
+    },
+    {
+      "word": "訴訟",
+      "reading": "そしょう",
+      "meanings": [
+        "lawsuit",
+        "legal action"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "裁判の手続き",
+      "category": "courtroom_trial",
+      "context": "訴訟を起こす — file a lawsuit. 民事訴訟 / 刑事訴訟 — civil / criminal proceedings.",
+      "example_sentence": "会社は名誉毀損で訴訟を起こした。",
+      "example_reading": "かいしゃ は めいよ きそん で そしょう を おこした。",
+      "example_meaning": "The company filed a defamation lawsuit."
+    },
+    {
+      "word": "罪",
+      "reading": "つみ",
+      "meanings": [
+        "crime",
+        "sin",
+        "guilt"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "悪いこと",
+      "category": "courtroom_trial",
+      "context": "罪を犯す — commit a crime. 罪を償う — atone for a crime. 罪と罰 — Crime and Punishment. Both legal and moral senses.",
+      "example_sentence": "彼は自分の罪を認めた。",
+      "example_reading": "かれ は じぶん の つみ を みとめた。",
+      "example_meaning": "He acknowledged his crime."
+    },
+    {
+      "word": "罰",
+      "reading": "ばつ",
+      "meanings": [
+        "punishment",
+        "penalty"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "罰すること",
+      "category": "courtroom_trial",
+      "context": "罰を受ける — receive punishment. 罰金 — fine (literally 'punishment money').",
+      "example_sentence": "罪には罰がつきものだ。",
+      "example_reading": "つみ に は ばつ が つきもの だ。",
+      "example_meaning": "Crime is inseparable from punishment."
+    },
+    {
+      "word": "刑罰",
+      "reading": "けいばつ",
+      "meanings": [
+        "criminal penalty",
+        "sentence"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "罰",
+      "category": "courtroom_trial",
+      "context": "More formal/legal than 罰. 刑罰を科す — impose a penalty.",
+      "example_sentence": "重い刑罰が科された。",
+      "example_reading": "おもい けいばつ が かされた。",
+      "example_meaning": "A heavy penalty was imposed."
+    },
+    {
+      "word": "罰金",
+      "reading": "ばっきん",
+      "meanings": [
+        "fine (monetary penalty)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金で払う罰",
+      "category": "courtroom_trial",
+      "context": "罰金刑 — fine sentence. 罰金10万円 — 100,000 yen fine. Note: also in News deck.",
+      "example_sentence": "被告に罰金50万円が言い渡された。",
+      "example_reading": "ひこく に ばっきん ごじゅうまんえん が いいわたされた。",
+      "example_meaning": "The defendant was fined 500,000 yen."
+    },
+    {
+      "word": "前科",
+      "reading": "ぜんか",
+      "meanings": [
+        "criminal record",
+        "prior conviction"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前にした犯罪の記録",
+      "category": "courtroom_trial",
+      "context": "前科がある — to have a record. 前科者 — ex-convict. Often used in suspect-profiling scenes.",
+      "example_sentence": "容疑者には前科があった。",
+      "example_reading": "ようぎしゃ に は ぜんか が あった。",
+      "example_meaning": "The suspect had a prior conviction."
+    },
+    {
+      "word": "情状酌量",
+      "reading": "じょうじょうしゃくりょう",
+      "meanings": [
+        "extenuating circumstances",
+        "leniency due to circumstances"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "事情を考えて軽くする",
+      "category": "courtroom_trial",
+      "context": "情状酌量の余地 — room for leniency. The defense's plea for a softer sentence.",
+      "example_sentence": "裁判所は情状酌量の余地を認めた。",
+      "example_reading": "さいばんしょ は じょうじょう しゃくりょう の よち を みとめた。",
+      "example_meaning": "The court found room for leniency."
+    },
+    {
+      "word": "民事",
+      "reading": "みんじ",
+      "meanings": [
+        "civil (legal matter)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金や契約の裁判",
+      "category": "courtroom_trial",
+      "context": "民事裁判 — civil trial. 民事事件 — civil case. Pairs with 刑事 (criminal).",
+      "example_sentence": "これは民事の問題で警察は介入できない。",
+      "example_reading": "これ は みんじ の もんだい で けいさつ は かいにゅう できない。",
+      "example_meaning": "This is a civil matter; police can't intervene."
+    },
+    {
+      "word": "刑事事件",
+      "reading": "けいじじけん",
+      "meanings": [
+        "criminal case"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "犯罪の事件",
+      "category": "courtroom_trial",
+      "context": "Pairs with 民事事件. The terms can be confusing because 刑事 also means 'detective.' Here 刑事 = 'criminal (legal matter).'",
+      "example_sentence": "刑事事件として捜査が始まった。",
+      "example_reading": "けいじ じけん として そうさ が はじまった。",
+      "example_meaning": "Investigation began as a criminal case."
+    },
+    {
+      "word": "損害賠償",
+      "reading": "そんがいばいしょう",
+      "meanings": [
+        "damages",
+        "compensation for losses"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "お金で弁償",
+      "category": "courtroom_trial",
+      "context": "損害賠償を請求 — claim damages. 損害賠償金 — damages awarded. Civil suit centerpiece.",
+      "example_sentence": "被害者は損害賠償を求めて提訴した。",
+      "example_reading": "ひがいしゃ は そんがい ばいしょう を もとめて ていそ した。",
+      "example_meaning": "The victim filed suit seeking damages."
+    },
+    {
+      "word": "判事",
+      "reading": "はんじ",
+      "meanings": [
+        "judge (alternative term)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "裁判官",
+      "category": "courtroom_trial",
+      "context": "Older/literary alternative to 裁判官. Common in titles: 判事補 (assistant judge), 大法廷判事 (grand bench judge).",
+      "example_sentence": "高名な判事が定年退官した。",
+      "example_reading": "こうめい な はんじ が ていねん たいかん した。",
+      "example_meaning": "The renowned judge retired upon reaching the mandatory age."
+    }
+  ]
+}

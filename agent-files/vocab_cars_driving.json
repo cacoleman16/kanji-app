@@ -1,0 +1,1925 @@
+{
+  "deck_id": "cars-driving-rental-japanese",
+  "deck_name": "Cars, Driving & Rental Japanese",
+  "version": "1.0",
+  "source": "Hand-curated practical vocabulary for driving, renting cars, and navigating Japanese roads and gas stations.",
+  "learner_level": "N3",
+  "notes": "Renting and driving in Japan involves a specific vocabulary cluster: kei cars, ETC, 道の駅, 高速道路 tolls, the gas-pump menu (レギュラー/ハイオク/軽油), and rental-counter Japanese (満タン返却, 任意保険). This deck covers car parts, driving actions, road signs, parking, fuel, rental procedures, and common roadside vocabulary. Most cards sit at N3-N2 — useful for travel-Japanese and for living-in-Japan car ownership.",
+  "card_count": 109,
+  "categories": [
+    "car_basics",
+    "car_parts",
+    "driving_actions",
+    "road_signs_rules",
+    "parking",
+    "fuel_station",
+    "toll_highway",
+    "rental_procedures",
+    "trouble_repair",
+    "navigation"
+  ],
+  "cards": [
+    {
+      "word": "自動車",
+      "reading": "じどうしゃ",
+      "meanings": [
+        "automobile",
+        "motor vehicle"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車",
+      "category": "car_basics",
+      "context": "More formal than 車. 自動車学校 — driving school. 自動車保険 — car insurance.",
+      "example_sentence": "自動車保険に加入した。",
+      "example_reading": "じどうしゃ ほけん に かにゅう した。",
+      "example_meaning": "I signed up for car insurance."
+    },
+    {
+      "word": "軽自動車",
+      "reading": "けいじどうしゃ",
+      "meanings": [
+        "kei car",
+        "light vehicle (Japan-specific class)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "小さい車",
+      "category": "car_basics",
+      "context": "A Japan-specific class capped at 660cc engine. Yellow license plate. Cheaper tax + insurance — the everyday car of rural Japan.",
+      "example_sentence": "軽自動車は税金が安い。",
+      "example_reading": "けい じどうしゃ は ぜいきん が やすい。",
+      "example_meaning": "Kei cars have lower taxes."
+    },
+    {
+      "word": "普通車",
+      "reading": "ふつうしゃ",
+      "meanings": [
+        "regular passenger car (non-kei)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "普通の車",
+      "category": "car_basics",
+      "context": "Counterpart to 軽自動車. White license plate. Rental categories use these labels.",
+      "example_sentence": "普通車で旅行することにした。",
+      "example_reading": "ふつうしゃ で りょこう する こと に した。",
+      "example_meaning": "We decided to travel by regular car."
+    },
+    {
+      "word": "新車",
+      "reading": "しんしゃ",
+      "meanings": [
+        "new car",
+        "brand-new vehicle"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "新しい車",
+      "category": "car_basics",
+      "context": "新車価格 — new car price. Pairs with 中古車.",
+      "example_sentence": "新車を買うか迷っている。",
+      "example_reading": "しんしゃ を かう か まよって いる。",
+      "example_meaning": "I'm torn over whether to buy a new car."
+    },
+    {
+      "word": "中古車",
+      "reading": "ちゅうこしゃ",
+      "meanings": [
+        "used car",
+        "second-hand car"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "使った車",
+      "category": "car_basics",
+      "context": "中古車市場 — used car market. ガリバー and ビッグモーター are major chains.",
+      "example_sentence": "予算の関係で中古車を選んだ。",
+      "example_reading": "よさん の かんけい で ちゅうこしゃ を えらんだ。",
+      "example_meaning": "For budget reasons, I went with a used car."
+    },
+    {
+      "word": "電気自動車",
+      "reading": "でんきじどうしゃ",
+      "meanings": [
+        "electric vehicle",
+        "EV"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電気で走る車",
+      "category": "car_basics",
+      "context": "Often shortened to EV. 充電スタンド — charging station.",
+      "example_sentence": "電気自動車の販売が伸びている。",
+      "example_reading": "でんき じどうしゃ の はんばい が のびて いる。",
+      "example_meaning": "EV sales are growing."
+    },
+    {
+      "word": "ハイブリッド車",
+      "reading": "ハイブリッドしゃ",
+      "meanings": [
+        "hybrid car"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ガソリンと電気の車",
+      "category": "car_basics",
+      "context": "Toyota Prius is the famous one. 燃費がいい — fuel-efficient.",
+      "example_sentence": "ハイブリッド車は燃費が良い。",
+      "example_reading": "ハイブリッドしゃ は ねんぴ が よい。",
+      "example_meaning": "Hybrid cars get good fuel economy."
+    },
+    {
+      "word": "レンタカー",
+      "reading": "レンタカー",
+      "meanings": [
+        "rental car"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "借りる車",
+      "category": "rental_procedures",
+      "context": "レンタカーを借りる — to rent a car. Major chains: トヨタレンタカー, タイムズ, ニッポンレンタカー.",
+      "example_sentence": "空港でレンタカーを借りる予定だ。",
+      "example_reading": "くうこう で レンタカー を かりる よてい だ。",
+      "example_meaning": "I plan to rent a car at the airport."
+    },
+    {
+      "word": "カーシェアリング",
+      "reading": "カーシェアリング",
+      "meanings": [
+        "car sharing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "短時間の車レンタル",
+      "category": "rental_procedures",
+      "context": "Cheaper than 24-hour rentals for short trips. タイムズカー is the dominant brand in Japan.",
+      "example_sentence": "近所のカーシェアリングを利用している。",
+      "example_reading": "きんじょ の カーシェアリング を りよう して いる。",
+      "example_meaning": "I use the local car sharing service."
+    },
+    {
+      "word": "運転",
+      "reading": "うんてん",
+      "meanings": [
+        "driving",
+        "operating (a vehicle)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車を動かす",
+      "category": "driving_actions",
+      "context": "運転する — to drive. 運転中 — while driving. Used for trains too: 運転再開 — service resumed.",
+      "example_sentence": "運転に自信がない。",
+      "example_reading": "うんてん に じしん が ない。",
+      "example_meaning": "I don't have confidence in my driving."
+    },
+    {
+      "word": "運転手",
+      "reading": "うんてんしゅ",
+      "meanings": [
+        "driver"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "運転する人",
+      "category": "driving_actions",
+      "context": "タクシー運転手 — taxi driver. バスの運転手 — bus driver. Note: 運転者 is more general.",
+      "example_sentence": "運転手さん、ここで止めてください。",
+      "example_reading": "うんてんしゅ さん、 ここ で とめて ください。",
+      "example_meaning": "Driver, please stop here."
+    },
+    {
+      "word": "運転免許",
+      "reading": "うんてんめんきょ",
+      "meanings": [
+        "driver's license"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "車を運転する許可",
+      "category": "driving_actions",
+      "context": "運転免許証 — the physical license card. Distinct from 国際運転免許証 (international permit).",
+      "example_sentence": "運転免許の更新に行ってきた。",
+      "example_reading": "うんてんめんきょ の こうしん に いって きた。",
+      "example_meaning": "I went to renew my driver's license."
+    },
+    {
+      "word": "免許証",
+      "reading": "めんきょしょう",
+      "meanings": [
+        "license card",
+        "permit (physical)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "免許のカード",
+      "category": "driving_actions",
+      "context": "Also used for ID. Foreign residents often use it as primary ID.",
+      "example_sentence": "免許証を見せてください。",
+      "example_reading": "めんきょしょう を みせて ください。",
+      "example_meaning": "Please show me your license."
+    },
+    {
+      "word": "国際運転免許証",
+      "reading": "こくさいうんてんめんきょしょう",
+      "meanings": [
+        "international driving permit"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "外国で使える運転免許",
+      "category": "rental_procedures",
+      "context": "What most tourists need to rent a car in Japan. Valid 1 year. Get it before flying.",
+      "example_sentence": "国際運転免許証を持参してください。",
+      "example_reading": "こくさい うんてんめんきょしょう を じさん して ください。",
+      "example_meaning": "Please bring your international driving permit."
+    },
+    {
+      "word": "道路",
+      "reading": "どうろ",
+      "meanings": [
+        "road"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "道",
+      "category": "road_signs_rules",
+      "context": "道路工事 — road construction. 道路標識 — road sign. More formal than 道.",
+      "example_sentence": "この道路は雪で通れない。",
+      "example_reading": "この どうろ は ゆき で とおれない。",
+      "example_meaning": "This road is impassable due to snow."
+    },
+    {
+      "word": "高速道路",
+      "reading": "こうそくどうろ",
+      "meanings": [
+        "expressway",
+        "highway",
+        "freeway"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "速い道",
+      "category": "toll_highway",
+      "context": "All toll roads in Japan. Often shortened to 高速. Speed limit usually 100 km/h.",
+      "example_sentence": "高速道路で大阪へ向かった。",
+      "example_reading": "こうそく どうろ で おおさか へ むかった。",
+      "example_meaning": "We headed to Osaka via the expressway."
+    },
+    {
+      "word": "一般道",
+      "reading": "いっぱんどう",
+      "meanings": [
+        "regular road",
+        "non-expressway"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "普通の道",
+      "category": "road_signs_rules",
+      "context": "Pairs with 高速道路. ナビ asks 高速優先 or 一般道優先.",
+      "example_sentence": "ナビで一般道を選択した。",
+      "example_reading": "ナビ で いっぱんどう を せんたく した。",
+      "example_meaning": "I chose regular roads on the GPS."
+    },
+    {
+      "word": "信号",
+      "reading": "しんごう",
+      "meanings": [
+        "traffic light",
+        "signal"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "信号機",
+      "category": "road_signs_rules",
+      "context": "信号が赤/青 — light is red/green (青 actually = green in JP traffic context). 信号無視 — running a red.",
+      "example_sentence": "次の信号を右に曲がってください。",
+      "example_reading": "つぎ の しんごう を みぎ に まがって ください。",
+      "example_meaning": "Please turn right at the next light."
+    },
+    {
+      "word": "横断歩道",
+      "reading": "おうだんほどう",
+      "meanings": [
+        "pedestrian crossing",
+        "crosswalk"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "歩く人の道",
+      "category": "road_signs_rules",
+      "context": "Japanese drivers are notorious for not stopping at unsignalized 横断歩道 — police now enforce strictly.",
+      "example_sentence": "横断歩道では必ず止まる。",
+      "example_reading": "おうだんほどう で は かならず とまる。",
+      "example_meaning": "I always stop at pedestrian crossings."
+    },
+    {
+      "word": "交差点",
+      "reading": "こうさてん",
+      "meanings": [
+        "intersection",
+        "junction"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "道の交わる場所",
+      "category": "road_signs_rules",
+      "context": "次の交差点 — next intersection. T字路 — T-junction. 五差路 — 5-way intersection.",
+      "example_sentence": "交差点で事故が起きた。",
+      "example_reading": "こうさてん で じこ が おきた。",
+      "example_meaning": "An accident happened at the intersection."
+    },
+    {
+      "word": "標識",
+      "reading": "ひょうしき",
+      "meanings": [
+        "sign",
+        "road sign",
+        "marker"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "道のサイン",
+      "category": "road_signs_rules",
+      "context": "道路標識 — road sign. 一時停止標識 — stop sign.",
+      "example_sentence": "道路標識をよく見て運転してください。",
+      "example_reading": "どうろ ひょうしき を よく みて うんてん して ください。",
+      "example_meaning": "Drive while watching the road signs carefully."
+    },
+    {
+      "word": "通行止め",
+      "reading": "つうこうどめ",
+      "meanings": [
+        "road closed",
+        "no through traffic"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "通れない",
+      "category": "road_signs_rules",
+      "context": "Common in winter (snow) or after disasters. 通行止めの看板 — closed-road sign.",
+      "example_sentence": "大雪で峠道が通行止めだ。",
+      "example_reading": "おおゆき で とうげみち が つうこうどめ だ。",
+      "example_meaning": "The mountain pass is closed due to heavy snow."
+    },
+    {
+      "word": "一方通行",
+      "reading": "いっぽうつうこう",
+      "meanings": [
+        "one-way street"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "片方だけ通れる",
+      "category": "road_signs_rules",
+      "context": "Common in narrow city streets. The sign is a blue arrow.",
+      "example_sentence": "この道は一方通行だから注意して。",
+      "example_reading": "この みち は いっぽう つうこう だから ちゅうい して。",
+      "example_meaning": "This road is one-way, so be careful."
+    },
+    {
+      "word": "進入禁止",
+      "reading": "しんにゅうきんし",
+      "meanings": [
+        "do not enter"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "入ってはいけない",
+      "category": "road_signs_rules",
+      "context": "The red-and-white prohibitive sign. Often paired with 一方通行.",
+      "example_sentence": "進入禁止の標識を見落とした。",
+      "example_reading": "しんにゅう きんし の ひょうしき を みおとした。",
+      "example_meaning": "I missed the 'do not enter' sign."
+    },
+    {
+      "word": "右折",
+      "reading": "うせつ",
+      "meanings": [
+        "right turn"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "右に曲がる",
+      "category": "driving_actions",
+      "context": "右折禁止 — no right turn. 右折レーン — right-turn lane. In Japan, right turns cross oncoming traffic.",
+      "example_sentence": "次の交差点を右折する。",
+      "example_reading": "つぎ の こうさてん を うせつ する。",
+      "example_meaning": "I'll turn right at the next intersection."
+    },
+    {
+      "word": "左折",
+      "reading": "させつ",
+      "meanings": [
+        "left turn"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "左に曲がる",
+      "category": "driving_actions",
+      "context": "In Japan (left-side driving), 左折 is the easier turn.",
+      "example_sentence": "信号で左折してください。",
+      "example_reading": "しんごう で させつ して ください。",
+      "example_meaning": "Please turn left at the signal."
+    },
+    {
+      "word": "直進",
+      "reading": "ちょくしん",
+      "meanings": [
+        "going straight"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "まっすぐ進む",
+      "category": "driving_actions",
+      "context": "GPS instruction. 直進してください — go straight.",
+      "example_sentence": "この道をしばらく直進する。",
+      "example_reading": "この みち を しばらく ちょくしん する。",
+      "example_meaning": "Continue straight on this road for a while."
+    },
+    {
+      "word": "車線",
+      "reading": "しゃせん",
+      "meanings": [
+        "traffic lane"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "レーン",
+      "category": "driving_actions",
+      "context": "車線変更 — lane change. 追い越し車線 — passing lane.",
+      "example_sentence": "車線変更の時は必ずミラーを見る。",
+      "example_reading": "しゃせん へんこう の とき は かならず ミラー を みる。",
+      "example_meaning": "Always check the mirror when changing lanes."
+    },
+    {
+      "word": "歩道",
+      "reading": "ほどう",
+      "meanings": [
+        "sidewalk",
+        "pedestrian walkway"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "歩く道",
+      "category": "road_signs_rules",
+      "context": "歩道を走らないで — don't ride (bikes) on the sidewalk. Pairs with 車道.",
+      "example_sentence": "歩道を歩いてください。",
+      "example_reading": "ほどう を あるいて ください。",
+      "example_meaning": "Please walk on the sidewalk."
+    },
+    {
+      "word": "車道",
+      "reading": "しゃどう",
+      "meanings": [
+        "roadway (for cars)"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車の道",
+      "category": "road_signs_rules",
+      "context": "Pairs with 歩道. 車道を走る自転車 — bicycles riding in the roadway.",
+      "example_sentence": "自転車は車道を走るのが原則だ。",
+      "example_reading": "じてんしゃ は しゃどう を はしる の が げんそく だ。",
+      "example_meaning": "In principle, bicycles ride in the roadway."
+    },
+    {
+      "word": "駐車場",
+      "reading": "ちゅうしゃじょう",
+      "meanings": [
+        "parking lot"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "車を止める所",
+      "category": "parking",
+      "context": "地下駐車場 — underground parking. 屋上駐車場 — rooftop parking.",
+      "example_sentence": "近くに駐車場はありますか。",
+      "example_reading": "ちかく に ちゅうしゃじょう は ありますか。",
+      "example_meaning": "Is there a parking lot nearby?"
+    },
+    {
+      "word": "駐車",
+      "reading": "ちゅうしゃ",
+      "meanings": [
+        "parking"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "車を止める",
+      "category": "parking",
+      "context": "駐車する — to park. 駐車料金 — parking fee.",
+      "example_sentence": "ここに駐車してもいいですか。",
+      "example_reading": "ここ に ちゅうしゃ して も いい ですか。",
+      "example_meaning": "May I park here?"
+    },
+    {
+      "word": "駐車禁止",
+      "reading": "ちゅうしゃきんし",
+      "meanings": [
+        "no parking"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "駐車できない",
+      "category": "parking",
+      "context": "Red circle with diagonal line. Get fined if you ignore it.",
+      "example_sentence": "駐車禁止の場所に止めてしまった。",
+      "example_reading": "ちゅうしゃ きんし の ばしょ に とめて しまった。",
+      "example_meaning": "I accidentally parked in a no-parking zone."
+    },
+    {
+      "word": "コインパーキング",
+      "reading": "コインパーキング",
+      "meanings": [
+        "coin-operated parking",
+        "paid lot"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お金を払う駐車場",
+      "category": "parking",
+      "context": "Drive over a flap that locks until you pay. タイムズ24 dominates this market.",
+      "example_sentence": "近くのコインパーキングに止めた。",
+      "example_reading": "ちかく の コインパーキング に とめた。",
+      "example_meaning": "I parked at a nearby paid lot."
+    },
+    {
+      "word": "駐車違反",
+      "reading": "ちゅうしゃいはん",
+      "meanings": [
+        "parking violation"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "駐車のルール違反",
+      "category": "parking",
+      "context": "駐車違反のステッカー — yellow sticker on your car. Followed by a fine in the mail.",
+      "example_sentence": "駐車違反の罰金が来た。",
+      "example_reading": "ちゅうしゃ いはん の ばっきん が きた。",
+      "example_meaning": "A fine for parking violation arrived."
+    },
+    {
+      "word": "ガソリンスタンド",
+      "reading": "ガソリンスタンド",
+      "meanings": [
+        "gas station"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "給油所",
+      "category": "fuel_station",
+      "context": "ENEOS, 出光, コスモ are major chains. Often shortened to スタンド or just GS.",
+      "example_sentence": "高速を下りる前にガソリンスタンドに寄った。",
+      "example_reading": "こうそく を おりる まえ に ガソリンスタンド に よった。",
+      "example_meaning": "We stopped at a gas station before exiting the expressway."
+    },
+    {
+      "word": "ガソリン",
+      "reading": "ガソリン",
+      "meanings": [
+        "gasoline",
+        "petrol"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車の燃料",
+      "category": "fuel_station",
+      "context": "ガソリン価格 — gas price. Tracked daily in news.",
+      "example_sentence": "ガソリン価格が上がり続けている。",
+      "example_reading": "ガソリン かかく が あがりつづけて いる。",
+      "example_meaning": "Gas prices keep rising."
+    },
+    {
+      "word": "給油",
+      "reading": "きゅうゆ",
+      "meanings": [
+        "refueling",
+        "filling up"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ガソリンを入れる",
+      "category": "fuel_station",
+      "context": "給油する — to refuel. 給油口 — fuel cap/inlet.",
+      "example_sentence": "高速に入る前に給油しよう。",
+      "example_reading": "こうそく に はいる まえ に きゅうゆ しよう。",
+      "example_meaning": "Let's fill up before getting on the expressway."
+    },
+    {
+      "word": "満タン",
+      "reading": "まんタン",
+      "meanings": [
+        "full tank"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いっぱい",
+      "category": "fuel_station",
+      "context": "満タンお願いします — fill it up, please. Standard rental return phrasing: 満タン返し — return with full tank.",
+      "example_sentence": "レギュラー、満タンでお願いします。",
+      "example_reading": "レギュラー、 まんタン で おねがい します。",
+      "example_meaning": "Regular, fill it up please."
+    },
+    {
+      "word": "レギュラー",
+      "reading": "レギュラー",
+      "meanings": [
+        "regular gasoline (87 octane)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "普通のガソリン",
+      "category": "fuel_station",
+      "context": "Most cars run on this. Red pump in Japan.",
+      "example_sentence": "うちの車はレギュラーです。",
+      "example_reading": "うち の くるま は レギュラー です。",
+      "example_meaning": "Our car runs on regular."
+    },
+    {
+      "word": "ハイオク",
+      "reading": "ハイオク",
+      "meanings": [
+        "premium gasoline (high-octane)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "高いガソリン",
+      "category": "fuel_station",
+      "context": "From English 'high-octane.' For sports cars and luxury vehicles. Yellow pump.",
+      "example_sentence": "このスポーツカーはハイオク仕様だ。",
+      "example_reading": "この スポーツカー は ハイオク しよう だ。",
+      "example_meaning": "This sports car requires premium gas."
+    },
+    {
+      "word": "軽油",
+      "reading": "けいゆ",
+      "meanings": [
+        "diesel fuel"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ディーゼル燃料",
+      "category": "fuel_station",
+      "context": "Green pump. Critical NOT to confuse with レギュラー — diesel engine cars only. 軽自動車 doesn't take 軽油!",
+      "example_sentence": "軽自動車に軽油を入れないように。",
+      "example_reading": "けい じどうしゃ に けいゆ を いれない よう に。",
+      "example_meaning": "Don't put diesel in a kei car!"
+    },
+    {
+      "word": "燃費",
+      "reading": "ねんぴ",
+      "meanings": [
+        "fuel economy",
+        "mileage"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ガソリンの効率",
+      "category": "fuel_station",
+      "context": "燃費がいい/悪い — good/bad mileage. 燃費20km/L — 20 km per liter.",
+      "example_sentence": "このハイブリッド車は燃費がいい。",
+      "example_reading": "この ハイブリッドしゃ は ねんぴ が いい。",
+      "example_meaning": "This hybrid gets great mileage."
+    },
+    {
+      "word": "セルフ",
+      "reading": "セルフ",
+      "meanings": [
+        "self-service (gas station)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "自分で給油",
+      "category": "fuel_station",
+      "context": "Cheaper than full-service. セルフスタンド — self-service station. Most modern stations in Japan.",
+      "example_sentence": "セルフのスタンドで給油した。",
+      "example_reading": "セルフ の スタンド で きゅうゆ した。",
+      "example_meaning": "I refueled at a self-serve station."
+    },
+    {
+      "word": "料金所",
+      "reading": "りょうきんじょ",
+      "meanings": [
+        "tollgate",
+        "toll booth"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "高速の料金を払う所",
+      "category": "toll_highway",
+      "context": "Where you pay tolls. Increasingly automated via ETC.",
+      "example_sentence": "料金所で1500円払った。",
+      "example_reading": "りょうきんじょ で せんごひゃくえん はらった。",
+      "example_meaning": "I paid 1,500 yen at the tollbooth."
+    },
+    {
+      "word": "ETC",
+      "reading": "イーティーシー",
+      "meanings": [
+        "electronic toll collection",
+        "ETC system"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "電子料金システム",
+      "category": "toll_highway",
+      "context": "ETCカード + onboard sensor = drive through tollgate without stopping. Essential for regular highway use.",
+      "example_sentence": "ETCがあると割引が受けられる。",
+      "example_reading": "イーティーシー が ある と わりびき が うけられる。",
+      "example_meaning": "You can get discounts with ETC."
+    },
+    {
+      "word": "高速料金",
+      "reading": "こうそくりょうきん",
+      "meanings": [
+        "expressway toll",
+        "highway fee"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "高速のお金",
+      "category": "toll_highway",
+      "context": "Depends on distance. Long Tokyo-Osaka trip can cost 10,000+ yen.",
+      "example_sentence": "高速料金は5000円もかかった。",
+      "example_reading": "こうそく りょうきん は ごせんえん も かかった。",
+      "example_meaning": "The toll cost a full 5,000 yen."
+    },
+    {
+      "word": "インターチェンジ",
+      "reading": "インターチェンジ",
+      "meanings": [
+        "interchange (highway entrance/exit)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "高速の出入り口",
+      "category": "toll_highway",
+      "context": "Often shortened to IC: 川崎IC. Where you enter/exit the expressway.",
+      "example_sentence": "次のインターチェンジで降ります。",
+      "example_reading": "つぎ の インターチェンジ で おります。",
+      "example_meaning": "I'll get off at the next interchange."
+    },
+    {
+      "word": "サービスエリア",
+      "reading": "サービスエリア",
+      "meanings": [
+        "service area",
+        "highway rest area"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "高速の休憩所",
+      "category": "toll_highway",
+      "context": "SA — has food courts, shops, restrooms, gas. Spaced ~50km apart on expressways. Major travel landmarks.",
+      "example_sentence": "次のサービスエリアで休もう。",
+      "example_reading": "つぎ の サービスエリア で やすもう。",
+      "example_meaning": "Let's rest at the next service area."
+    },
+    {
+      "word": "パーキングエリア",
+      "reading": "パーキングエリア",
+      "meanings": [
+        "parking area (smaller rest stop)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "小さい休憩所",
+      "category": "toll_highway",
+      "context": "PA — smaller than SA, basics only (restroom, vending). Spaced ~15km apart.",
+      "example_sentence": "トイレに行きたいのでパーキングエリアに寄ろう。",
+      "example_reading": "トイレ に いきたい ので パーキングエリア に よろう。",
+      "example_meaning": "I need a restroom — let's stop at a parking area."
+    },
+    {
+      "word": "道の駅",
+      "reading": "みちのえき",
+      "meanings": [
+        "roadside station (non-expressway)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一般道の休憩所",
+      "category": "toll_highway",
+      "context": "Equivalent of SA but for regular roads. Famous for local food, produce, souvenirs. Each has its own character.",
+      "example_sentence": "道の駅で地元の野菜を買った。",
+      "example_reading": "みち の えき で じもと の やさい を かった。",
+      "example_meaning": "I bought local vegetables at the roadside station."
+    },
+    {
+      "word": "トンネル",
+      "reading": "トンネル",
+      "meanings": [
+        "tunnel"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "山の中の道",
+      "category": "navigation",
+      "context": "Mountainous Japan has thousands. ライトを点ける — turn on lights inside tunnels.",
+      "example_sentence": "長いトンネルを抜けると景色が変わった。",
+      "example_reading": "ながい トンネル を ぬける と けしき が かわった。",
+      "example_meaning": "After passing through the long tunnel, the scenery changed."
+    },
+    {
+      "word": "橋",
+      "reading": "はし",
+      "meanings": [
+        "bridge"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "川を渡る道",
+      "category": "navigation",
+      "context": "Same reading as 端 (edge) — different kanji. レインボーブリッジ etc. — famous bridges.",
+      "example_sentence": "橋を渡って右に曲がってください。",
+      "example_reading": "はし を わたって みぎ に まがって ください。",
+      "example_meaning": "Cross the bridge and turn right."
+    },
+    {
+      "word": "ナビ",
+      "reading": "ナビ",
+      "meanings": [
+        "GPS navigation",
+        "car nav"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "カーナビ",
+      "category": "navigation",
+      "context": "Short for カーナビゲーション. Built into most Japanese cars. ナビ通り — as the GPS says.",
+      "example_sentence": "ナビに行き先を入力してください。",
+      "example_reading": "ナビ に いきさき を にゅうりょく して ください。",
+      "example_meaning": "Please enter the destination into the GPS."
+    },
+    {
+      "word": "目的地",
+      "reading": "もくてきち",
+      "meanings": [
+        "destination"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "行く所",
+      "category": "navigation",
+      "context": "ナビ standard term: 目的地に到着しました.",
+      "example_sentence": "目的地まであと10キロです。",
+      "example_reading": "もくてきち まで あと じゅっキロ です。",
+      "example_meaning": "10 km to the destination."
+    },
+    {
+      "word": "経由",
+      "reading": "けいゆ",
+      "meanings": [
+        "via",
+        "by way of"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "〜を通って",
+      "category": "navigation",
+      "context": "東名経由 — via the Tomei. Both for highways and public transit routes.",
+      "example_sentence": "中央道経由で名古屋に行く。",
+      "example_reading": "ちゅうおうどう けいゆ で なごや に いく。",
+      "example_meaning": "I'm going to Nagoya via the Chuo Expressway."
+    },
+    {
+      "word": "ハンドル",
+      "reading": "ハンドル",
+      "meanings": [
+        "steering wheel"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "運転の輪",
+      "category": "car_parts",
+      "context": "ハンドルを握る — grip the wheel. ハンドルが軽い/重い — light/heavy steering.",
+      "example_sentence": "ハンドルをしっかり握ってください。",
+      "example_reading": "ハンドル を しっかり にぎって ください。",
+      "example_meaning": "Hold the steering wheel firmly."
+    },
+    {
+      "word": "アクセル",
+      "reading": "アクセル",
+      "meanings": [
+        "accelerator",
+        "gas pedal"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "踏む足",
+      "category": "car_parts",
+      "context": "アクセルを踏む — step on the gas. アクセルとブレーキを踏み間違える — the dangerous mistake (often elderly).",
+      "example_sentence": "アクセルを踏み込んで加速した。",
+      "example_reading": "アクセル を ふみこんで かそく した。",
+      "example_meaning": "I stepped on the gas and accelerated."
+    },
+    {
+      "word": "ブレーキ",
+      "reading": "ブレーキ",
+      "meanings": [
+        "brake"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "止めるペダル",
+      "category": "car_parts",
+      "context": "ブレーキを踏む — apply the brake. 急ブレーキ — sudden brake. サイドブレーキ — parking brake.",
+      "example_sentence": "急ブレーキを踏んだら危ない。",
+      "example_reading": "きゅうブレーキ を ふんだら あぶない。",
+      "example_meaning": "Slamming on the brakes is dangerous."
+    },
+    {
+      "word": "シートベルト",
+      "reading": "シートベルト",
+      "meanings": [
+        "seat belt"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "座席のベルト",
+      "category": "car_parts",
+      "context": "シートベルトをする/締める — to fasten. 法律で義務 — required by law.",
+      "example_sentence": "出発前にシートベルトを締めてください。",
+      "example_reading": "しゅっぱつ まえ に シートベルト を しめて ください。",
+      "example_meaning": "Please fasten your seatbelt before departure."
+    },
+    {
+      "word": "バックミラー",
+      "reading": "バックミラー",
+      "meanings": [
+        "rearview mirror"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "後ろを見る鏡",
+      "category": "car_parts",
+      "context": "Wasei-eigo. Note: in English we say 'rearview mirror,' not 'back mirror.'",
+      "example_sentence": "バックミラーで後ろの車を確認した。",
+      "example_reading": "バックミラー で うしろ の くるま を かくにん した。",
+      "example_meaning": "I checked the car behind via the rearview mirror."
+    },
+    {
+      "word": "サイドミラー",
+      "reading": "サイドミラー",
+      "meanings": [
+        "side mirror"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "横のミラー",
+      "category": "car_parts",
+      "context": "More properly ドアミラー in Japanese. Both terms used.",
+      "example_sentence": "駐車する時はサイドミラーが役立つ。",
+      "example_reading": "ちゅうしゃ する とき は サイドミラー が やくだつ。",
+      "example_meaning": "Side mirrors are useful when parking."
+    },
+    {
+      "word": "ウィンカー",
+      "reading": "ウィンカー",
+      "meanings": [
+        "turn signal",
+        "blinker"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "曲がる時の点滅",
+      "category": "car_parts",
+      "context": "From 'winker.' ウィンカーを出す — to signal. Distinct from English 'blinker.'",
+      "example_sentence": "曲がる前にウィンカーを出して。",
+      "example_reading": "まがる まえ に ウィンカー を だして。",
+      "example_meaning": "Signal before turning."
+    },
+    {
+      "word": "ヘッドライト",
+      "reading": "ヘッドライト",
+      "meanings": [
+        "headlight"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前のライト",
+      "category": "car_parts",
+      "context": "ヘッドライトを点ける — turn on headlights. ハイビーム — high beams.",
+      "example_sentence": "夕方になったらヘッドライトを点ける。",
+      "example_reading": "ゆうがた に なったら ヘッドライト を つける。",
+      "example_meaning": "Turn on the headlights when evening comes."
+    },
+    {
+      "word": "タイヤ",
+      "reading": "タイヤ",
+      "meanings": [
+        "tire"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車のゴム輪",
+      "category": "car_parts",
+      "context": "スタッドレスタイヤ — winter tires. タイヤ交換 — tire change. Winter requirement in snow areas.",
+      "example_sentence": "冬になる前にタイヤを交換する。",
+      "example_reading": "ふゆ に なる まえ に タイヤ を こうかん する。",
+      "example_meaning": "I switch tires before winter comes."
+    },
+    {
+      "word": "バッテリー",
+      "reading": "バッテリー",
+      "meanings": [
+        "battery (car)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "電池",
+      "category": "car_parts",
+      "context": "バッテリーが上がる — battery dies (lit. 'rises'). JAF call-out is standard recourse.",
+      "example_sentence": "バッテリーが上がって動かない。",
+      "example_reading": "バッテリー が あがって うごかない。",
+      "example_meaning": "The battery is dead and it won't move."
+    },
+    {
+      "word": "エンジン",
+      "reading": "エンジン",
+      "meanings": [
+        "engine"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車の動力",
+      "category": "car_parts",
+      "context": "エンジンをかける — start the engine. エンジンを切る — turn off the engine.",
+      "example_sentence": "駐車したらエンジンを切ってください。",
+      "example_reading": "ちゅうしゃ したら エンジン を きって ください。",
+      "example_meaning": "Please turn off the engine after parking."
+    },
+    {
+      "word": "ナンバープレート",
+      "reading": "ナンバープレート",
+      "meanings": [
+        "license plate"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車の番号",
+      "category": "car_parts",
+      "context": "色が違う: white = 普通車, yellow = 軽自動車, green = commercial. Quick visual ID.",
+      "example_sentence": "ナンバープレートで車の種類が分かる。",
+      "example_reading": "ナンバープレート で くるま の しゅるい が わかる。",
+      "example_meaning": "You can tell the car type from the license plate."
+    },
+    {
+      "word": "トランク",
+      "reading": "トランク",
+      "meanings": [
+        "trunk",
+        "boot (UK)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "後ろの荷物入れ",
+      "category": "car_parts",
+      "context": "トランクに荷物を入れる — put luggage in the trunk.",
+      "example_sentence": "トランクが満タンだ。",
+      "example_reading": "トランク が まんタン だ。",
+      "example_meaning": "The trunk is packed full."
+    },
+    {
+      "word": "運転席",
+      "reading": "うんてんせき",
+      "meanings": [
+        "driver's seat"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "運転する席",
+      "category": "car_parts",
+      "context": "In Japan the 運転席 is on the right side. Pairs with 助手席.",
+      "example_sentence": "運転席に座って準備した。",
+      "example_reading": "うんてんせき に すわって じゅんび した。",
+      "example_meaning": "I sat in the driver's seat and got ready."
+    },
+    {
+      "word": "助手席",
+      "reading": "じょしゅせき",
+      "meanings": [
+        "passenger seat (front)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "運転手の隣の席",
+      "category": "car_parts",
+      "context": "Also in the Drive My Car deck. Lit. 'assistant seat.'",
+      "example_sentence": "助手席に荷物を置いた。",
+      "example_reading": "じょしゅせき に にもつ を おいた。",
+      "example_meaning": "I put my bag in the passenger seat."
+    },
+    {
+      "word": "後部座席",
+      "reading": "こうぶざせき",
+      "meanings": [
+        "back seat",
+        "rear seat"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "後ろの席",
+      "category": "car_parts",
+      "context": "Also in the Drive My Car deck. 後部座席もシートベルト着用義務.",
+      "example_sentence": "子供は後部座席に座らせる。",
+      "example_reading": "こども は こうぶ ざせき に すわらせる。",
+      "example_meaning": "I put the kids in the back seat."
+    },
+    {
+      "word": "スピード違反",
+      "reading": "スピードいはん",
+      "meanings": [
+        "speeding (violation)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "速度オーバー",
+      "category": "road_signs_rules",
+      "context": "スピード違反で捕まる — get pulled over for speeding. Common N5 word for an unfortunately common reality.",
+      "example_sentence": "スピード違反で罰金を取られた。",
+      "example_reading": "スピードいはん で ばっきん を とられた。",
+      "example_meaning": "I got fined for speeding."
+    },
+    {
+      "word": "制限速度",
+      "reading": "せいげんそくど",
+      "meanings": [
+        "speed limit"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "最高速度",
+      "category": "road_signs_rules",
+      "context": "高速の制限速度 — highway speed limit (usually 100). 一般道 — usually 50-60.",
+      "example_sentence": "制限速度を守って運転しよう。",
+      "example_reading": "せいげんそくど を まもって うんてん しよう。",
+      "example_meaning": "Let's drive within the speed limit."
+    },
+    {
+      "word": "渋滞",
+      "reading": "じゅうたい",
+      "meanings": [
+        "traffic jam",
+        "congestion"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "道が混む",
+      "category": "road_signs_rules",
+      "context": "Also in N3/N4 General and Drive My Car v2. 大渋滞 — major jam. 渋滞情報 — traffic info.",
+      "example_sentence": "連休中は渋滞がひどい。",
+      "example_reading": "れんきゅう ちゅう は じゅうたい が ひどい。",
+      "example_meaning": "Traffic is terrible during long weekends."
+    },
+    {
+      "word": "事故",
+      "reading": "じこ",
+      "meanings": [
+        "accident"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "アクシデント",
+      "category": "trouble_repair",
+      "context": "Also in N3 Essentials. 交通事故 — traffic accident. Reporting required: 警察 + 保険.",
+      "example_sentence": "小さな事故を起こしてしまった。",
+      "example_reading": "ちいさな じこ を おこして しまった。",
+      "example_meaning": "I caused a minor accident."
+    },
+    {
+      "word": "接触事故",
+      "reading": "せっしょくじこ",
+      "meanings": [
+        "minor collision",
+        "fender bender"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "小さい事故",
+      "category": "trouble_repair",
+      "context": "Also in Drive My Car deck. Bumper-touching incidents. Still requires police report in Japan.",
+      "example_sentence": "駐車場で接触事故に遭った。",
+      "example_reading": "ちゅうしゃじょう で せっしょくじこ に あった。",
+      "example_meaning": "I had a minor collision in the parking lot."
+    },
+    {
+      "word": "衝突",
+      "reading": "しょうとつ",
+      "meanings": [
+        "collision",
+        "crash"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ぶつかる",
+      "category": "trouble_repair",
+      "context": "正面衝突 — head-on. 追突 — rear-end collision. More serious than 接触事故.",
+      "example_sentence": "高速で衝突事故があった。",
+      "example_reading": "こうそく で しょうとつ じこ が あった。",
+      "example_meaning": "There was a collision on the expressway."
+    },
+    {
+      "word": "故障",
+      "reading": "こしょう",
+      "meanings": [
+        "breakdown",
+        "malfunction"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "壊れる",
+      "category": "trouble_repair",
+      "context": "故障する — to break down. 故障中 — out of order.",
+      "example_sentence": "エンジンが故障してJAFを呼んだ。",
+      "example_reading": "エンジン が こしょう して JAF を よんだ。",
+      "example_meaning": "The engine broke down so I called JAF."
+    },
+    {
+      "word": "パンク",
+      "reading": "パンク",
+      "meanings": [
+        "flat tire",
+        "puncture"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "タイヤがダメ",
+      "category": "trouble_repair",
+      "context": "From 'puncture.' タイヤがパンクする — to get a flat. スペアタイヤ — spare tire.",
+      "example_sentence": "タイヤがパンクして交換した。",
+      "example_reading": "タイヤ が パンク して こうかん した。",
+      "example_meaning": "The tire went flat so I replaced it."
+    },
+    {
+      "word": "修理",
+      "reading": "しゅうり",
+      "meanings": [
+        "repair"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "直すこと",
+      "category": "trouble_repair",
+      "context": "修理工場 — repair shop. 修理代 — repair cost.",
+      "example_sentence": "車を修理に出した。",
+      "example_reading": "くるま を しゅうり に だした。",
+      "example_meaning": "I took the car in for repairs."
+    },
+    {
+      "word": "JAF",
+      "reading": "ジャフ",
+      "meanings": [
+        "JAF (Japan Automobile Federation)",
+        "roadside assistance"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "道路救援サービス",
+      "category": "trouble_repair",
+      "context": "Annual membership ~4000 yen, covers tow trucks + jump starts. Like AAA.",
+      "example_sentence": "パンクしたのでJAFに連絡した。",
+      "example_reading": "パンク した ので JAF に れんらく した。",
+      "example_meaning": "I had a flat tire so I called JAF."
+    },
+    {
+      "word": "けん引",
+      "reading": "けんいん",
+      "meanings": [
+        "towing"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "引っ張ること",
+      "category": "trouble_repair",
+      "context": "レッカー is the more common word. けん引免許 — towing license.",
+      "example_sentence": "故障車をけん引してもらった。",
+      "example_reading": "こしょうしゃ を けんいん して もらった。",
+      "example_meaning": "They towed my broken-down car."
+    },
+    {
+      "word": "レッカー",
+      "reading": "レッカー",
+      "meanings": [
+        "tow truck"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "車を運ぶ車",
+      "category": "trouble_repair",
+      "context": "レッカー車 — tow truck. レッカー移動 — getting towed (e.g. for illegal parking).",
+      "example_sentence": "違法駐車でレッカー移動された。",
+      "example_reading": "いほう ちゅうしゃ で レッカー いどう された。",
+      "example_meaning": "My car was towed for illegal parking."
+    },
+    {
+      "word": "車検",
+      "reading": "しゃけん",
+      "meanings": [
+        "vehicle inspection (mandatory)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "車のチェック",
+      "category": "trouble_repair",
+      "context": "Required every 2 years for personal cars. Often costs 100,000+ yen. Major reason people sell rather than keep old cars in Japan.",
+      "example_sentence": "今年は車検の年だ。",
+      "example_reading": "ことし は しゃけん の とし だ。",
+      "example_meaning": "This is a vehicle-inspection year for me."
+    },
+    {
+      "word": "自賠責保険",
+      "reading": "じばいせきほけん",
+      "meanings": [
+        "compulsory automobile liability insurance"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "強制の車保険",
+      "category": "trouble_repair",
+      "context": "Mandatory by law in Japan. Covers others' injuries only — get 任意保険 for full coverage.",
+      "example_sentence": "自賠責保険は法律で加入が義務だ。",
+      "example_reading": "じばいせき ほけん は ほうりつ で かにゅう が ぎむ だ。",
+      "example_meaning": "Compulsory liability insurance is required by law."
+    },
+    {
+      "word": "任意保険",
+      "reading": "にんいほけん",
+      "meanings": [
+        "voluntary insurance",
+        "optional auto insurance"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "プラスの保険",
+      "category": "trouble_repair",
+      "context": "Beyond 自賠責. Recommended — covers your own damage, property, larger liability.",
+      "example_sentence": "事故のために任意保険にも入っておく。",
+      "example_reading": "じこ の ため に にんい ほけん に も はいって おく。",
+      "example_meaning": "I keep voluntary insurance just in case of an accident."
+    },
+    {
+      "word": "予約",
+      "reading": "よやく",
+      "meanings": [
+        "reservation",
+        "booking"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前もって申し込む",
+      "category": "rental_procedures",
+      "context": "Also in N3/N4 General. オンライン予約 — online booking. Use for rentals + restaurants + everything.",
+      "example_sentence": "レンタカーを予約しておいた。",
+      "example_reading": "レンタカー を よやく して おいた。",
+      "example_meaning": "I reserved a rental car in advance."
+    },
+    {
+      "word": "返却",
+      "reading": "へんきゃく",
+      "meanings": [
+        "return (giving back)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "返すこと",
+      "category": "rental_procedures",
+      "context": "返却時間 — return time. 返却場所 — return location. Common for rentals + libraries.",
+      "example_sentence": "返却時間に遅れないでください。",
+      "example_reading": "へんきゃく じかん に おくれない で ください。",
+      "example_meaning": "Please don't be late returning it."
+    },
+    {
+      "word": "営業所",
+      "reading": "えいぎょうしょ",
+      "meanings": [
+        "branch office",
+        "sales office"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "会社の支店",
+      "category": "rental_procedures",
+      "context": "レンタカーの営業所 — rental car branch. Where you pick up + drop off.",
+      "example_sentence": "空港の営業所でレンタカーを借りた。",
+      "example_reading": "くうこう の えいぎょうしょ で レンタカー を かりた。",
+      "example_meaning": "I rented a car at the airport branch."
+    },
+    {
+      "word": "乗り捨て",
+      "reading": "のりすて",
+      "meanings": [
+        "one-way rental",
+        "drop-off at different location"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "別の所に返す",
+      "category": "rental_procedures",
+      "context": "乗り捨て料金 — drop-off fee (often substantial). 乗り捨て可 — one-way rental allowed.",
+      "example_sentence": "札幌で借りて函館で乗り捨てる。",
+      "example_reading": "さっぽろ で かりて はこだて で のりすてる。",
+      "example_meaning": "Pick up in Sapporo and drop off in Hakodate."
+    },
+    {
+      "word": "保険",
+      "reading": "ほけん",
+      "meanings": [
+        "insurance"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "万一の備え",
+      "category": "rental_procedures",
+      "context": "保険に入る — to take out insurance. Rental cars always ask about additional 保険.",
+      "example_sentence": "レンタカーの保険に追加加入した。",
+      "example_reading": "レンタカー の ほけん に ついか かにゅう した。",
+      "example_meaning": "I added extra rental car insurance."
+    },
+    {
+      "word": "免責",
+      "reading": "めんせき",
+      "meanings": [
+        "deductible",
+        "exemption from liability"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自分が払う部分",
+      "category": "rental_procedures",
+      "context": "免責補償制度 — waiver for the deductible. Rental-counter offers this as an add-on.",
+      "example_sentence": "免責補償制度に加入した。",
+      "example_reading": "めんせき ほしょう せいど に かにゅう した。",
+      "example_meaning": "I added the deductible-waiver coverage."
+    },
+    {
+      "word": "出発",
+      "reading": "しゅっぱつ",
+      "meanings": [
+        "departure"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "出ること",
+      "category": "rental_procedures",
+      "context": "Also in N3/N4 General. 出発時間 — departure time. Pairs with 到着.",
+      "example_sentence": "早朝に出発した。",
+      "example_reading": "そうちょう に しゅっぱつ した。",
+      "example_meaning": "We departed in the early morning."
+    },
+    {
+      "word": "到着",
+      "reading": "とうちゃく",
+      "meanings": [
+        "arrival"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "着くこと",
+      "category": "rental_procedures",
+      "context": "Also in N3/N4 General. 到着予定時刻 — estimated arrival time.",
+      "example_sentence": "午後3時に到着する予定だ。",
+      "example_reading": "ごご さんじ に とうちゃく する よてい だ。",
+      "example_meaning": "Scheduled to arrive at 3pm."
+    },
+    {
+      "word": "運転中",
+      "reading": "うんてんちゅう",
+      "meanings": [
+        "while driving"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "運転している間",
+      "category": "driving_actions",
+      "context": "運転中の携帯禁止 — no phones while driving (heavily enforced).",
+      "example_sentence": "運転中はスマホを触らないで。",
+      "example_reading": "うんてんちゅう は スマホ を さわらないで。",
+      "example_meaning": "Don't touch your phone while driving."
+    },
+    {
+      "word": "追い越し",
+      "reading": "おいこし",
+      "meanings": [
+        "overtaking",
+        "passing"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "前の車を抜く",
+      "category": "driving_actions",
+      "context": "追い越し禁止 — no passing. 追い越し車線 — passing lane.",
+      "example_sentence": "この道は追い越し禁止だ。",
+      "example_reading": "この みち は おいこし きんし だ。",
+      "example_meaning": "No passing on this road."
+    },
+    {
+      "word": "追い越す",
+      "reading": "おいこす",
+      "meanings": [
+        "to overtake",
+        "to pass (a vehicle)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "前の車を抜く",
+      "category": "driving_actions",
+      "context": "Verb form. 安全に追い越す — pass safely.",
+      "example_sentence": "トラックを追い越した。",
+      "example_reading": "トラック を おいこした。",
+      "example_meaning": "I overtook the truck."
+    },
+    {
+      "word": "加速",
+      "reading": "かそく",
+      "meanings": [
+        "acceleration"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "速くなる",
+      "category": "driving_actions",
+      "context": "加速する — to accelerate. 加速性能 — acceleration performance.",
+      "example_sentence": "高速の合流で加速する。",
+      "example_reading": "こうそく の ごうりゅう で かそく する。",
+      "example_meaning": "Accelerate when merging onto the highway."
+    },
+    {
+      "word": "減速",
+      "reading": "げんそく",
+      "meanings": [
+        "deceleration",
+        "slowing down"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "遅くなる",
+      "category": "driving_actions",
+      "context": "減速する — to slow down. 減速帯 — rumble strips before curves.",
+      "example_sentence": "カーブの前で減速してください。",
+      "example_reading": "カーブ の まえ で げんそく して ください。",
+      "example_meaning": "Slow down before the curve."
+    },
+    {
+      "word": "安全運転",
+      "reading": "あんぜんうんてん",
+      "meanings": [
+        "safe driving"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気を付けて運転",
+      "category": "driving_actions",
+      "context": "安全運転で! — drive safely! Standard farewell to someone setting out.",
+      "example_sentence": "安全運転を心がけよう。",
+      "example_reading": "あんぜん うんてん を こころがけよう。",
+      "example_meaning": "Let's prioritize safe driving."
+    },
+    {
+      "word": "飲酒運転",
+      "reading": "いんしゅうんてん",
+      "meanings": [
+        "drunk driving",
+        "DUI"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お酒を飲んで運転",
+      "category": "driving_actions",
+      "context": "Heavily penalized in Japan — license suspension, large fines, even prison.",
+      "example_sentence": "飲酒運転は絶対にしない。",
+      "example_reading": "いんしゅ うんてん は ぜったい に しない。",
+      "example_meaning": "Absolutely never drink and drive."
+    },
+    {
+      "word": "バック",
+      "reading": "バック",
+      "meanings": [
+        "reverse (driving)",
+        "backing up"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "後ろに動く",
+      "category": "driving_actions",
+      "context": "バックする — to back up. バックカメラ — backup camera. Both noun and verb.",
+      "example_sentence": "狭い道だからバックで戻った。",
+      "example_reading": "せまい みち だから バック で もどった。",
+      "example_meaning": "The road was narrow so I reversed."
+    },
+    {
+      "word": "Uターン",
+      "reading": "ユーターン",
+      "meanings": [
+        "U-turn"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "反対方向に曲がる",
+      "category": "driving_actions",
+      "context": "Uターン禁止 — no U-turns. Also figurative for going back to one's hometown.",
+      "example_sentence": "次の交差点でUターンしてください。",
+      "example_reading": "つぎ の こうさてん で ユーターン して ください。",
+      "example_meaning": "Make a U-turn at the next intersection."
+    },
+    {
+      "word": "カーナビ",
+      "reading": "カーナビ",
+      "meanings": [
+        "car navigation system"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ナビ",
+      "category": "navigation",
+      "context": "Full form of ナビ. Built-in screen on most Japanese cars. Old ones use DVDs!",
+      "example_sentence": "カーナビの調子が悪い。",
+      "example_reading": "カーナビ の ちょうし が わるい。",
+      "example_meaning": "The car GPS isn't working well."
+    },
+    {
+      "word": "ドラレコ",
+      "reading": "ドラレコ",
+      "meanings": [
+        "dashcam (dashboard recorder)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ドライブレコーダー",
+      "category": "car_parts",
+      "context": "Abbreviation of ドライブレコーダー. Standard equipment now after 煽り運転 (road rage) cases.",
+      "example_sentence": "念のためドラレコを取り付けた。",
+      "example_reading": "ねん の ため ドラレコ を とりつけた。",
+      "example_meaning": "I installed a dashcam just in case."
+    },
+    {
+      "word": "煽り運転",
+      "reading": "あおりうんてん",
+      "meanings": [
+        "aggressive driving",
+        "road rage tailgating"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "危険な運転",
+      "category": "driving_actions",
+      "context": "Made-up word that became huge news after a 2017 high-profile case. Now legally defined.",
+      "example_sentence": "煽り運転は厳しく取り締まられる。",
+      "example_reading": "あおり うんてん は きびしく とりしまられる。",
+      "example_meaning": "Aggressive tailgating is strictly enforced."
+    },
+    {
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "meanings": [
+        "bicycle"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "チャリ",
+      "category": "car_basics",
+      "context": "Already in Yotsubato deck. Important in Japan: cyclists share the road. ママチャリ — mom-style bike.",
+      "example_sentence": "駅まで自転車で行く。",
+      "example_reading": "えき まで じてんしゃ で いく。",
+      "example_meaning": "I go to the station by bicycle."
+    },
+    {
+      "word": "バイク",
+      "reading": "バイク",
+      "meanings": [
+        "motorcycle",
+        "scooter"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "オートバイ",
+      "category": "car_basics",
+      "context": "Confusing: バイク = motorcycle (NOT bicycle). 自転車 = bicycle. Wasei-eigo trap.",
+      "example_sentence": "バイクの免許を取った。",
+      "example_reading": "バイク の めんきょ を とった。",
+      "example_meaning": "I got my motorcycle license."
+    }
+  ]
+}

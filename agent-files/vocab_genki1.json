@@ -1,0 +1,4010 @@
+{
+  "deck_id": "genki1-vocab",
+  "deck_name": "Genki 1 Vocab",
+  "version": "1.0",
+  "source": "Hand-curated vocabulary across Genki I lessons 1–12 (Banno et al.).",
+  "learner_level": "N5",
+  "notes": "Vocabulary from Genki I, organized by lesson (L1–L12). Numbers 1–10, days of the week, and the most basic greetings (こんにちは, ありがとう) are intentionally skipped — they live in the JLPT N4/N5 Core deck. The focus is the content vocab and useful function words from each chapter: question words and demonstratives (L2), daily-activity verbs and time markers (L3), location words and existence verbs (L4), i/na-adjectives (L5), te-form requests and movement verbs (L6), family terms and physical description (L7), majors and intentions (L8), food (L9), comparisons and weather/seasons (L10), wants and activities (L11), and complaints and body/health (L12).",
+  "card_count": 385,
+  "categories": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L5",
+    "L6",
+    "L7",
+    "L8",
+    "L9",
+    "L10",
+    "L11",
+    "L12"
+  ],
+  "cards": [
+    {
+      "word": "私",
+      "reading": "わたし",
+      "meanings": [
+        "I",
+        "me"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "Most common 'I' for formal/neutral speech. Men can also use 僕 (ぼく) casually."
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meanings": [
+        "teacher",
+        "doctor (form of address)"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "Form of address for teachers, doctors, lawyers."
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "meanings": [
+        "student"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "General 'student.' Specifically: 大学生 (uni), 高校生 (high school)."
+    },
+    {
+      "word": "大学",
+      "reading": "だいがく",
+      "meanings": [
+        "university",
+        "college"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "大学院 — graduate school. 大学生 — university student."
+    },
+    {
+      "word": "高校",
+      "reading": "こうこう",
+      "meanings": [
+        "high school"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "高校生 — high schooler. Short for 高等学校."
+    },
+    {
+      "word": "大学院生",
+      "reading": "だいがくいんせい",
+      "meanings": [
+        "graduate student"
+      ],
+      "jlpt": "N4",
+      "category": "L1",
+      "context": "大学院 + 生 (student)."
+    },
+    {
+      "word": "留学生",
+      "reading": "りゅうがくせい",
+      "meanings": [
+        "exchange student",
+        "international student"
+      ],
+      "jlpt": "N4",
+      "category": "L1",
+      "context": "What you say if you're studying in Japan."
+    },
+    {
+      "word": "会社員",
+      "reading": "かいしゃいん",
+      "meanings": [
+        "company employee",
+        "office worker"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "More formal than サラリーマン."
+    },
+    {
+      "word": "医者",
+      "reading": "いしゃ",
+      "meanings": [
+        "doctor"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "お医者さん is the polite form."
+    },
+    {
+      "word": "専攻",
+      "reading": "せんこう",
+      "meanings": [
+        "major",
+        "field of study"
+      ],
+      "jlpt": "N3",
+      "category": "L1",
+      "context": "私の専攻は〜です — my major is..."
+    },
+    {
+      "word": "友達",
+      "reading": "ともだち",
+      "meanings": [
+        "friend"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "Doesn't take a counter as a regular noun would."
+    },
+    {
+      "word": "名前",
+      "reading": "なまえ",
+      "meanings": [
+        "name"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "お名前は何ですか — what's your name?"
+    },
+    {
+      "word": "何",
+      "reading": "なに / なん",
+      "meanings": [
+        "what"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "なに for direct what; なん before counters/copula (何時, 何ですか)."
+    },
+    {
+      "word": "今",
+      "reading": "いま",
+      "meanings": [
+        "now"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "今何時ですか — what time is it now?"
+    },
+    {
+      "word": "〜さん",
+      "reading": "さん",
+      "meanings": [
+        "Mr./Ms./Mrs. (polite suffix)"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "Don't attach it to your own name."
+    },
+    {
+      "word": "〜歳",
+      "reading": "さい",
+      "meanings": [
+        "years old (age counter)"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "20-years-old is irregular: 二十歳 (はたち)."
+    },
+    {
+      "word": "日本",
+      "reading": "にほん / にっぽん",
+      "meanings": [
+        "Japan"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "Both readings exist. にっぽん is more formal/emphatic."
+    },
+    {
+      "word": "日本語",
+      "reading": "にほんご",
+      "meanings": [
+        "Japanese (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "〜語 attaches to a country to make 'language of.'"
+    },
+    {
+      "word": "英語",
+      "reading": "えいご",
+      "meanings": [
+        "English (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": ""
+    },
+    {
+      "word": "電話番号",
+      "reading": "でんわばんごう",
+      "meanings": [
+        "telephone number"
+      ],
+      "jlpt": "N5",
+      "category": "L1",
+      "context": "番号 — number."
+    },
+    {
+      "word": "これ",
+      "reading": "これ",
+      "meanings": [
+        "this (one near me)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "これ・それ・あれ・どれ — this/that/that-over-there/which (pronouns)."
+    },
+    {
+      "word": "それ",
+      "reading": "それ",
+      "meanings": [
+        "that (one near you)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "あれ",
+      "reading": "あれ",
+      "meanings": [
+        "that (one over there)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "Away from both speakers."
+    },
+    {
+      "word": "どれ",
+      "reading": "どれ",
+      "meanings": [
+        "which (one)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "この",
+      "reading": "この",
+      "meanings": [
+        "this (modifier)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "Used before a noun: この本 — this book. Adjective version of これ."
+    },
+    {
+      "word": "その",
+      "reading": "その",
+      "meanings": [
+        "that (modifier)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "あの",
+      "reading": "あの",
+      "meanings": [
+        "that over there (modifier)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "どの",
+      "reading": "どの",
+      "meanings": [
+        "which (modifier)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "ここ",
+      "reading": "ここ",
+      "meanings": [
+        "here",
+        "this place"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "ここ・そこ・あそこ・どこ — here/there/over there/where."
+    },
+    {
+      "word": "そこ",
+      "reading": "そこ",
+      "meanings": [
+        "there",
+        "that place"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "あそこ",
+      "reading": "あそこ",
+      "meanings": [
+        "over there"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "Irregular — note the あ pattern usually gives あれ but the place form is あそこ."
+    },
+    {
+      "word": "どこ",
+      "reading": "どこ",
+      "meanings": [
+        "where"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "いくら",
+      "reading": "いくら",
+      "meanings": [
+        "how much (money)"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "これはいくらですか — how much is this?"
+    },
+    {
+      "word": "円",
+      "reading": "えん",
+      "meanings": [
+        "yen"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "meanings": [
+        "umbrella"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "折りたたみ傘 — folding umbrella."
+    },
+    {
+      "word": "鞄",
+      "reading": "かばん",
+      "meanings": [
+        "bag",
+        "briefcase"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "Usually written in kana."
+    },
+    {
+      "word": "靴",
+      "reading": "くつ",
+      "meanings": [
+        "shoes"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "靴を脱ぐ — take off shoes (entering Japanese homes)."
+    },
+    {
+      "word": "帽子",
+      "reading": "ぼうし",
+      "meanings": [
+        "hat",
+        "cap"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "帽子をかぶる — wear a hat."
+    },
+    {
+      "word": "時計",
+      "reading": "とけい",
+      "meanings": [
+        "watch",
+        "clock"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "腕時計 — wristwatch. 目覚まし時計 — alarm clock."
+    },
+    {
+      "word": "財布",
+      "reading": "さいふ",
+      "meanings": [
+        "wallet"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "鍵",
+      "reading": "かぎ",
+      "meanings": [
+        "key"
+      ],
+      "jlpt": "N3",
+      "category": "L2",
+      "context": "鍵をかける — lock."
+    },
+    {
+      "word": "鉛筆",
+      "reading": "えんぴつ",
+      "meanings": [
+        "pencil"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "ボールペン",
+      "reading": "ボールペン",
+      "meanings": [
+        "ballpoint pen"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "ノート",
+      "reading": "ノート",
+      "meanings": [
+        "notebook"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "ノートパソコン — laptop computer."
+    },
+    {
+      "word": "辞書",
+      "reading": "じしょ",
+      "meanings": [
+        "dictionary"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "辞書を引く — look up in a dictionary."
+    },
+    {
+      "word": "雑誌",
+      "reading": "ざっし",
+      "meanings": [
+        "magazine"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "新聞",
+      "reading": "しんぶん",
+      "meanings": [
+        "newspaper"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "お土産",
+      "reading": "おみやげ",
+      "meanings": [
+        "souvenir",
+        "gift from a trip"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": "Cultural staple — travelers bring お土産 for coworkers."
+    },
+    {
+      "word": "駅",
+      "reading": "えき",
+      "meanings": [
+        "train station"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "スーパー",
+      "reading": "スーパー",
+      "meanings": [
+        "supermarket"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "デパート",
+      "reading": "デパート",
+      "meanings": [
+        "department store"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "コンビニ",
+      "reading": "コンビニ",
+      "meanings": [
+        "convenience store"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "Short for コンビニエンスストア."
+    },
+    {
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "meanings": [
+        "bank"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "病院",
+      "reading": "びょういん",
+      "meanings": [
+        "hospital"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "郵便局",
+      "reading": "ゆうびんきょく",
+      "meanings": [
+        "post office"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "喫茶店",
+      "reading": "きっさてん",
+      "meanings": [
+        "coffee shop",
+        "café"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": "Older-style coffee shop; カフェ for modern ones."
+    },
+    {
+      "word": "レストラン",
+      "reading": "レストラン",
+      "meanings": [
+        "restaurant"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "公園",
+      "reading": "こうえん",
+      "meanings": [
+        "park"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "ホテル",
+      "reading": "ホテル",
+      "meanings": [
+        "hotel"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "美術館",
+      "reading": "びじゅつかん",
+      "meanings": [
+        "art museum"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "博物館",
+      "reading": "はくぶつかん",
+      "meanings": [
+        "museum"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "教会",
+      "reading": "きょうかい",
+      "meanings": [
+        "church"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "神社",
+      "reading": "じんじゃ",
+      "meanings": [
+        "Shinto shrine"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": ""
+    },
+    {
+      "word": "お寺",
+      "reading": "おてら",
+      "meanings": [
+        "Buddhist temple"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": "Just 寺 without お in some contexts."
+    },
+    {
+      "word": "本屋",
+      "reading": "ほんや",
+      "meanings": [
+        "bookstore"
+      ],
+      "jlpt": "N5",
+      "category": "L2",
+      "context": "〜屋 is the suffix for shops."
+    },
+    {
+      "word": "〜屋",
+      "reading": "や",
+      "meanings": [
+        "shop / -shop (suffix)"
+      ],
+      "jlpt": "N4",
+      "category": "L2",
+      "context": "魚屋, 八百屋, 花屋, パン屋."
+    },
+    {
+      "word": "朝",
+      "reading": "あさ",
+      "meanings": [
+        "morning"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "昼",
+      "reading": "ひる",
+      "meanings": [
+        "noon",
+        "daytime",
+        "lunch"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "晩",
+      "reading": "ばん",
+      "meanings": [
+        "evening",
+        "night"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "晩ご飯 — dinner."
+    },
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meanings": [
+        "night"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "毎日",
+      "reading": "まいにち",
+      "meanings": [
+        "every day"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "毎朝",
+      "reading": "まいあさ",
+      "meanings": [
+        "every morning"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "毎晩",
+      "reading": "まいばん",
+      "meanings": [
+        "every evening",
+        "every night"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "今朝",
+      "reading": "けさ",
+      "meanings": [
+        "this morning"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Irregular reading — note けさ, not こんあさ."
+    },
+    {
+      "word": "今晩",
+      "reading": "こんばん",
+      "meanings": [
+        "this evening",
+        "tonight"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "〜時",
+      "reading": "じ",
+      "meanings": [
+        "o'clock (hour counter)"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "4時 = よじ, 7時 = しちじ, 9時 = くじ (irregular)."
+    },
+    {
+      "word": "〜分",
+      "reading": "ふん・ぷん",
+      "meanings": [
+        "minute (counter)"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "いっぷん, さんぷん, ろっぷん — voicing depends on the preceding number."
+    },
+    {
+      "word": "半",
+      "reading": "はん",
+      "meanings": [
+        "half",
+        "half past"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "7時半 — 7:30."
+    },
+    {
+      "word": "〜から",
+      "reading": "から",
+      "meanings": [
+        "from"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "3時から — from 3."
+    },
+    {
+      "word": "〜まで",
+      "reading": "まで",
+      "meanings": [
+        "until",
+        "to"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meanings": [
+        "to wake up",
+        "to get up"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Ichidan."
+    },
+    {
+      "word": "寝る",
+      "reading": "ねる",
+      "meanings": [
+        "to sleep",
+        "to go to bed"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Ichidan."
+    },
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meanings": [
+        "to eat"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Ichidan."
+    },
+    {
+      "word": "飲む",
+      "reading": "のむ",
+      "meanings": [
+        "to drink"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan. 薬を飲む — to take medicine."
+    },
+    {
+      "word": "見る",
+      "reading": "みる",
+      "meanings": [
+        "to see",
+        "to watch",
+        "to look at"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Ichidan."
+    },
+    {
+      "word": "読む",
+      "reading": "よむ",
+      "meanings": [
+        "to read"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "書く",
+      "reading": "かく",
+      "meanings": [
+        "to write",
+        "to draw"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "話す",
+      "reading": "はなす",
+      "meanings": [
+        "to speak",
+        "to talk"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "聞く",
+      "reading": "きく",
+      "meanings": [
+        "to hear",
+        "to listen",
+        "to ask"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan. Also 'ask': 先生に聞く."
+    },
+    {
+      "word": "行く",
+      "reading": "いく",
+      "meanings": [
+        "to go"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Irregular godan (te-form 行って not 行いて)."
+    },
+    {
+      "word": "来る",
+      "reading": "くる",
+      "meanings": [
+        "to come"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Irregular. 来ます (きます), 来た (きた), 来ない (こない)."
+    },
+    {
+      "word": "帰る",
+      "reading": "かえる",
+      "meanings": [
+        "to return home",
+        "to go back"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan that LOOKS ichidan (special class)."
+    },
+    {
+      "word": "する",
+      "reading": "する",
+      "meanings": [
+        "to do"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Irregular. Combines with countless nouns: 勉強する, 料理する."
+    },
+    {
+      "word": "勉強する",
+      "reading": "べんきょうする",
+      "meanings": [
+        "to study"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "買う",
+      "reading": "かう",
+      "meanings": [
+        "to buy"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "買い物",
+      "reading": "かいもの",
+      "meanings": [
+        "shopping"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "買い物する — to shop."
+    },
+    {
+      "word": "撮る",
+      "reading": "とる",
+      "meanings": [
+        "to take (a photo)"
+      ],
+      "jlpt": "N4",
+      "category": "L3",
+      "context": "Different kanji from 取る (take generally)."
+    },
+    {
+      "word": "待つ",
+      "reading": "まつ",
+      "meanings": [
+        "to wait"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "歩く",
+      "reading": "あるく",
+      "meanings": [
+        "to walk"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "走る",
+      "reading": "はしる",
+      "meanings": [
+        "to run"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan that LOOKS ichidan."
+    },
+    {
+      "word": "泳ぐ",
+      "reading": "およぐ",
+      "meanings": [
+        "to swim"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Godan."
+    },
+    {
+      "word": "いつも",
+      "reading": "いつも",
+      "meanings": [
+        "always"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "たいてい",
+      "reading": "たいてい",
+      "meanings": [
+        "usually",
+        "generally"
+      ],
+      "jlpt": "N4",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "よく",
+      "reading": "よく",
+      "meanings": [
+        "often",
+        "well"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "Adverbial form of いい — also frequency 'often.'"
+    },
+    {
+      "word": "時々",
+      "reading": "ときどき",
+      "meanings": [
+        "sometimes",
+        "occasionally"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "あまり",
+      "reading": "あまり",
+      "meanings": [
+        "not very (with negative)",
+        "not often"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "あまり〜ない pattern."
+    },
+    {
+      "word": "全然",
+      "reading": "ぜんぜん",
+      "meanings": [
+        "not at all (with negative)"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": "全然分からない — don't understand at all."
+    },
+    {
+      "word": "バス",
+      "reading": "バス",
+      "meanings": [
+        "bus"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "電車",
+      "reading": "でんしゃ",
+      "meanings": [
+        "train (electric)"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "地下鉄",
+      "reading": "ちかてつ",
+      "meanings": [
+        "subway",
+        "metro"
+      ],
+      "jlpt": "N4",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "タクシー",
+      "reading": "タクシー",
+      "meanings": [
+        "taxi"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "飛行機",
+      "reading": "ひこうき",
+      "meanings": [
+        "airplane"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "自転車",
+      "reading": "じてんしゃ",
+      "meanings": [
+        "bicycle"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "車",
+      "reading": "くるま",
+      "meanings": [
+        "car"
+      ],
+      "jlpt": "N5",
+      "category": "L3",
+      "context": ""
+    },
+    {
+      "word": "上",
+      "reading": "うえ",
+      "meanings": [
+        "on",
+        "above",
+        "top"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": "テーブルの上 — on the table."
+    },
+    {
+      "word": "下",
+      "reading": "した",
+      "meanings": [
+        "under",
+        "below",
+        "beneath"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "前",
+      "reading": "まえ",
+      "meanings": [
+        "before",
+        "in front of",
+        "ago"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": "駅の前 — in front of the station."
+    },
+    {
+      "word": "後ろ",
+      "reading": "うしろ",
+      "meanings": [
+        "behind",
+        "back"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "左",
+      "reading": "ひだり",
+      "meanings": [
+        "left"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "右",
+      "reading": "みぎ",
+      "meanings": [
+        "right"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "中",
+      "reading": "なか",
+      "meanings": [
+        "inside",
+        "middle"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "外",
+      "reading": "そと",
+      "meanings": [
+        "outside"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "隣",
+      "reading": "となり",
+      "meanings": [
+        "next to",
+        "next door"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "そば",
+      "reading": "そば",
+      "meanings": [
+        "nearby",
+        "beside",
+        "soba (buckwheat noodles)"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": "Two unrelated words sharing the same kana. (1) location word: 駅のそば — beside the station. (2) buckwheat noodles, often written 蕎麦."
+    },
+    {
+      "word": "近く",
+      "reading": "ちかく",
+      "meanings": [
+        "nearby",
+        "vicinity"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "間",
+      "reading": "あいだ",
+      "meanings": [
+        "between",
+        "interval"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": "AとBの間 — between A and B."
+    },
+    {
+      "word": "ある",
+      "reading": "ある",
+      "meanings": [
+        "to exist (inanimate)",
+        "to have"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": "For non-living things. Negative: ない."
+    },
+    {
+      "word": "いる",
+      "reading": "いる",
+      "meanings": [
+        "to exist (animate)",
+        "to be"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": "For people/animals."
+    },
+    {
+      "word": "〜時間",
+      "reading": "じかん",
+      "meanings": [
+        "hour (duration counter)"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": "3時間 — 3 hours (duration), vs 3時 — 3 o'clock."
+    },
+    {
+      "word": "今週",
+      "reading": "こんしゅう",
+      "meanings": [
+        "this week"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "来週",
+      "reading": "らいしゅう",
+      "meanings": [
+        "next week"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "先週",
+      "reading": "せんしゅう",
+      "meanings": [
+        "last week"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "〜時間目",
+      "reading": "じかんめ",
+      "meanings": [
+        "nth period (class)"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": "一時間目 — first period."
+    },
+    {
+      "word": "一緒に",
+      "reading": "いっしょに",
+      "meanings": [
+        "together"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "一人で",
+      "reading": "ひとりで",
+      "meanings": [
+        "alone",
+        "by oneself"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "だいたい",
+      "reading": "だいたい",
+      "meanings": [
+        "about",
+        "roughly",
+        "mostly"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "宿題",
+      "reading": "しゅくだい",
+      "meanings": [
+        "homework"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "テスト",
+      "reading": "テスト",
+      "meanings": [
+        "test",
+        "quiz"
+      ],
+      "jlpt": "N5",
+      "category": "L4",
+      "context": ""
+    },
+    {
+      "word": "試験",
+      "reading": "しけん",
+      "meanings": [
+        "exam",
+        "examination"
+      ],
+      "jlpt": "N4",
+      "category": "L4",
+      "context": "More formal than テスト."
+    },
+    {
+      "word": "高い",
+      "reading": "たかい",
+      "meanings": [
+        "expensive",
+        "tall",
+        "high"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "i-adjective."
+    },
+    {
+      "word": "安い",
+      "reading": "やすい",
+      "meanings": [
+        "cheap",
+        "inexpensive"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "大きい",
+      "reading": "おおきい",
+      "meanings": [
+        "big",
+        "large"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "小さい",
+      "reading": "ちいさい",
+      "meanings": [
+        "small",
+        "little"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "新しい",
+      "reading": "あたらしい",
+      "meanings": [
+        "new"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "古い",
+      "reading": "ふるい",
+      "meanings": [
+        "old (for objects)"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Don't use for people — that's 年をとった."
+    },
+    {
+      "word": "いい",
+      "reading": "いい",
+      "meanings": [
+        "good"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Irregular: past form is よかった, negative よくない."
+    },
+    {
+      "word": "悪い",
+      "reading": "わるい",
+      "meanings": [
+        "bad",
+        "wrong"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "暑い",
+      "reading": "あつい",
+      "meanings": [
+        "hot (weather)"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "For air/weather. Don't use for objects."
+    },
+    {
+      "word": "寒い",
+      "reading": "さむい",
+      "meanings": [
+        "cold (weather)"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "For air/weather."
+    },
+    {
+      "word": "暖かい",
+      "reading": "あたたかい",
+      "meanings": [
+        "warm (weather)"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "涼しい",
+      "reading": "すずしい",
+      "meanings": [
+        "cool (pleasantly)"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "熱い",
+      "reading": "あつい",
+      "meanings": [
+        "hot (to touch)"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": "For objects/liquids. Different kanji from 暑い."
+    },
+    {
+      "word": "冷たい",
+      "reading": "つめたい",
+      "meanings": [
+        "cold (to touch)"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": "For objects/liquids."
+    },
+    {
+      "word": "忙しい",
+      "reading": "いそがしい",
+      "meanings": [
+        "busy"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "楽しい",
+      "reading": "たのしい",
+      "meanings": [
+        "fun",
+        "enjoyable"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "つまらない",
+      "reading": "つまらない",
+      "meanings": [
+        "boring",
+        "trifling"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "面白い",
+      "reading": "おもしろい",
+      "meanings": [
+        "interesting",
+        "funny"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "難しい",
+      "reading": "むずかしい",
+      "meanings": [
+        "difficult"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "易しい",
+      "reading": "やさしい",
+      "meanings": [
+        "easy"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Same reading as 優しい (kind) — different kanji."
+    },
+    {
+      "word": "優しい",
+      "reading": "やさしい",
+      "meanings": [
+        "kind",
+        "gentle"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Same reading as 易しい (easy)."
+    },
+    {
+      "word": "早い",
+      "reading": "はやい",
+      "meanings": [
+        "early"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Time-related. Distinguish from 速い (speed)."
+    },
+    {
+      "word": "速い",
+      "reading": "はやい",
+      "meanings": [
+        "fast",
+        "quick"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Speed-related."
+    },
+    {
+      "word": "遅い",
+      "reading": "おそい",
+      "meanings": [
+        "slow",
+        "late"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "長い",
+      "reading": "ながい",
+      "meanings": [
+        "long"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "短い",
+      "reading": "みじかい",
+      "meanings": [
+        "short"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "美味しい",
+      "reading": "おいしい",
+      "meanings": [
+        "delicious"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "Often written in kana."
+    },
+    {
+      "word": "不味い",
+      "reading": "まずい",
+      "meanings": [
+        "bad-tasting",
+        "awkward (situation)"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": ""
+    },
+    {
+      "word": "元気",
+      "reading": "げんき",
+      "meanings": [
+        "healthy",
+        "lively",
+        "energetic"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. The textbook's namesake! 元気ですか — how are you?"
+    },
+    {
+      "word": "暇",
+      "reading": "ひま",
+      "meanings": [
+        "free time",
+        "not busy"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj."
+    },
+    {
+      "word": "上手",
+      "reading": "じょうず",
+      "meanings": [
+        "skilled",
+        "good at"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. 〜が上手 — good at ~. Don't use about yourself; that sounds boastful."
+    },
+    {
+      "word": "下手",
+      "reading": "へた",
+      "meanings": [
+        "unskilled",
+        "bad at"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. 〜が下手."
+    },
+    {
+      "word": "好き",
+      "reading": "すき",
+      "meanings": [
+        "liked",
+        "fond of"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. 〜が好き. 大好き — really like / love."
+    },
+    {
+      "word": "嫌い",
+      "reading": "きらい",
+      "meanings": [
+        "disliked",
+        "hated"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. Despite ending in い, it's a NA-adjective!"
+    },
+    {
+      "word": "きれい",
+      "reading": "きれい",
+      "meanings": [
+        "pretty",
+        "clean"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. Same trap as 嫌い — looks like i-adj but isn't."
+    },
+    {
+      "word": "静か",
+      "reading": "しずか",
+      "meanings": [
+        "quiet"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj."
+    },
+    {
+      "word": "賑やか",
+      "reading": "にぎやか",
+      "meanings": [
+        "lively",
+        "bustling"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj."
+    },
+    {
+      "word": "親切",
+      "reading": "しんせつ",
+      "meanings": [
+        "kind",
+        "considerate"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": "na-adj."
+    },
+    {
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meanings": [
+        "famous"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": "na-adj."
+    },
+    {
+      "word": "便利",
+      "reading": "べんり",
+      "meanings": [
+        "convenient"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": "na-adj."
+    },
+    {
+      "word": "不便",
+      "reading": "ふべん",
+      "meanings": [
+        "inconvenient"
+      ],
+      "jlpt": "N4",
+      "category": "L5",
+      "context": "Opposite of 便利."
+    },
+    {
+      "word": "ハンサム",
+      "reading": "ハンサム",
+      "meanings": [
+        "handsome"
+      ],
+      "jlpt": "N5",
+      "category": "L5",
+      "context": "na-adj. Genki staple."
+    },
+    {
+      "word": "開ける",
+      "reading": "あける",
+      "meanings": [
+        "to open (something)"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Transitive. ドアを開ける."
+    },
+    {
+      "word": "閉める",
+      "reading": "しめる",
+      "meanings": [
+        "to close (something)"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Transitive. ドアを閉める."
+    },
+    {
+      "word": "つける",
+      "reading": "つける",
+      "meanings": [
+        "to turn on",
+        "to attach"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "電気をつける — turn on the lights."
+    },
+    {
+      "word": "消す",
+      "reading": "けす",
+      "meanings": [
+        "to turn off",
+        "to erase"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "電気を消す — turn off the lights."
+    },
+    {
+      "word": "急ぐ",
+      "reading": "いそぐ",
+      "meanings": [
+        "to hurry"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "Godan."
+    },
+    {
+      "word": "教える",
+      "reading": "おしえる",
+      "meanings": [
+        "to teach",
+        "to tell"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Ichidan."
+    },
+    {
+      "word": "押す",
+      "reading": "おす",
+      "meanings": [
+        "to push",
+        "to press"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Godan. ボタンを押す."
+    },
+    {
+      "word": "引く",
+      "reading": "ひく",
+      "meanings": [
+        "to pull",
+        "to look up (dictionary)"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "風邪を引く — catch a cold."
+    },
+    {
+      "word": "座る",
+      "reading": "すわる",
+      "meanings": [
+        "to sit (down)"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "Godan."
+    },
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meanings": [
+        "to stand up",
+        "to be erected"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "Godan."
+    },
+    {
+      "word": "使う",
+      "reading": "つかう",
+      "meanings": [
+        "to use"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Godan."
+    },
+    {
+      "word": "入る",
+      "reading": "はいる",
+      "meanings": [
+        "to enter",
+        "to come in"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Godan that LOOKS ichidan. お風呂に入る."
+    },
+    {
+      "word": "出る",
+      "reading": "でる",
+      "meanings": [
+        "to leave",
+        "to come out",
+        "to attend"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "Ichidan."
+    },
+    {
+      "word": "持ってくる",
+      "reading": "もってくる",
+      "meanings": [
+        "to bring (something)"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "持つ + 来る. Use 来る for items."
+    },
+    {
+      "word": "持っていく",
+      "reading": "もっていく",
+      "meanings": [
+        "to take (something with you)"
+      ],
+      "jlpt": "N5",
+      "category": "L6",
+      "context": "持つ + 行く. Use 行く direction-away."
+    },
+    {
+      "word": "連れてくる",
+      "reading": "つれてくる",
+      "meanings": [
+        "to bring (a person)"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "連れる for people, 持つ for things."
+    },
+    {
+      "word": "曲がる",
+      "reading": "まがる",
+      "meanings": [
+        "to turn",
+        "to bend"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "Godan. 右に曲がる — turn right."
+    },
+    {
+      "word": "渡る",
+      "reading": "わたる",
+      "meanings": [
+        "to cross"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "道を渡る — cross the road."
+    },
+    {
+      "word": "信号",
+      "reading": "しんごう",
+      "meanings": [
+        "traffic light"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": ""
+    },
+    {
+      "word": "角",
+      "reading": "かど",
+      "meanings": [
+        "corner"
+      ],
+      "jlpt": "N4",
+      "category": "L6",
+      "context": "角を曲がる — turn at the corner."
+    },
+    {
+      "word": "お父さん",
+      "reading": "おとうさん",
+      "meanings": [
+        "father (someone else's, or one's own polite)"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "父 for your own when talking to outsiders."
+    },
+    {
+      "word": "お母さん",
+      "reading": "おかあさん",
+      "meanings": [
+        "mother (someone else's, or one's own polite)"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "母 for your own when talking to outsiders."
+    },
+    {
+      "word": "父",
+      "reading": "ちち",
+      "meanings": [
+        "my father"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "Humble form for one's own dad in formal speech."
+    },
+    {
+      "word": "母",
+      "reading": "はは",
+      "meanings": [
+        "my mother"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "Humble form for one's own mom in formal speech."
+    },
+    {
+      "word": "お兄さん",
+      "reading": "おにいさん",
+      "meanings": [
+        "older brother"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "お姉さん",
+      "reading": "おねえさん",
+      "meanings": [
+        "older sister"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "兄",
+      "reading": "あに",
+      "meanings": [
+        "my older brother"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "Humble form."
+    },
+    {
+      "word": "姉",
+      "reading": "あね",
+      "meanings": [
+        "my older sister"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "Humble form."
+    },
+    {
+      "word": "弟",
+      "reading": "おとうと",
+      "meanings": [
+        "younger brother"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "妹",
+      "reading": "いもうと",
+      "meanings": [
+        "younger sister"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "おじいさん",
+      "reading": "おじいさん",
+      "meanings": [
+        "grandfather",
+        "old man"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "おばあさん",
+      "reading": "おばあさん",
+      "meanings": [
+        "grandmother",
+        "old woman"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "おじさん",
+      "reading": "おじさん",
+      "meanings": [
+        "uncle",
+        "middle-aged man"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "おばさん",
+      "reading": "おばさん",
+      "meanings": [
+        "aunt",
+        "middle-aged woman"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "両親",
+      "reading": "りょうしん",
+      "meanings": [
+        "both parents"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "兄弟",
+      "reading": "きょうだい",
+      "meanings": [
+        "siblings"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "Gender-neutral, despite literal 'brothers.'"
+    },
+    {
+      "word": "子供",
+      "reading": "こども",
+      "meanings": [
+        "child",
+        "kids"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "主人",
+      "reading": "しゅじん",
+      "meanings": [
+        "husband (one's own)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "Used by women about their own husband."
+    },
+    {
+      "word": "奥さん",
+      "reading": "おくさん",
+      "meanings": [
+        "wife (someone else's)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "Used about others' wives, not your own."
+    },
+    {
+      "word": "夫",
+      "reading": "おっと",
+      "meanings": [
+        "husband (one's own, formal/modern)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "妻",
+      "reading": "つま",
+      "meanings": [
+        "wife (one's own)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "住む",
+      "reading": "すむ",
+      "meanings": [
+        "to live (somewhere)"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "Usually as 〜に住んでいる (live in)."
+    },
+    {
+      "word": "知る",
+      "reading": "しる",
+      "meanings": [
+        "to come to know"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "知っている — to know. 知らない — don't know."
+    },
+    {
+      "word": "背",
+      "reading": "せ",
+      "meanings": [
+        "height (of person)"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "背が高い — tall."
+    },
+    {
+      "word": "髪",
+      "reading": "かみ",
+      "meanings": [
+        "hair (on head)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meanings": [
+        "eye"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "顔",
+      "reading": "かお",
+      "meanings": [
+        "face"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "口",
+      "reading": "くち",
+      "meanings": [
+        "mouth"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "耳",
+      "reading": "みみ",
+      "meanings": [
+        "ear"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "鼻",
+      "reading": "はな",
+      "meanings": [
+        "nose"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "手",
+      "reading": "て",
+      "meanings": [
+        "hand"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "足",
+      "reading": "あし",
+      "meanings": [
+        "foot",
+        "leg"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "頭",
+      "reading": "あたま",
+      "meanings": [
+        "head"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "体",
+      "reading": "からだ",
+      "meanings": [
+        "body"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "指",
+      "reading": "ゆび",
+      "meanings": [
+        "finger",
+        "toe"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "細い",
+      "reading": "ほそい",
+      "meanings": [
+        "thin",
+        "slender"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "太い",
+      "reading": "ふとい",
+      "meanings": [
+        "thick",
+        "fat (object)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": ""
+    },
+    {
+      "word": "痩せる",
+      "reading": "やせる",
+      "meanings": [
+        "to lose weight",
+        "to become thin"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "痩せている — thin (continuous state)."
+    },
+    {
+      "word": "太る",
+      "reading": "ふとる",
+      "meanings": [
+        "to gain weight",
+        "to become fat"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "太っている — overweight."
+    },
+    {
+      "word": "メガネ",
+      "reading": "メガネ",
+      "meanings": [
+        "glasses",
+        "eyewear"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "メガネをかける — wear glasses (verb is かける)."
+    },
+    {
+      "word": "着る",
+      "reading": "きる",
+      "meanings": [
+        "to wear (upper body, dresses)"
+      ],
+      "jlpt": "N5",
+      "category": "L7",
+      "context": "For clothes covering torso."
+    },
+    {
+      "word": "履く",
+      "reading": "はく",
+      "meanings": [
+        "to wear (lower body, shoes)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "靴を履く, ズボンを履く."
+    },
+    {
+      "word": "かぶる",
+      "reading": "かぶる",
+      "meanings": [
+        "to wear (on head)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "帽子をかぶる."
+    },
+    {
+      "word": "かける",
+      "reading": "かける",
+      "meanings": [
+        "to wear (glasses)",
+        "to hang",
+        "to call (phone)"
+      ],
+      "jlpt": "N4",
+      "category": "L7",
+      "context": "Multi-purpose verb."
+    },
+    {
+      "word": "〜と思う",
+      "reading": "とおもう",
+      "meanings": [
+        "I think (that)"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": "Plain form + と思う for opinions."
+    },
+    {
+      "word": "〜と言う",
+      "reading": "という",
+      "meanings": [
+        "to say (that)",
+        "called"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": "Plain form + と言う for reported speech."
+    },
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meanings": [
+        "to think",
+        "to feel"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": "Godan."
+    },
+    {
+      "word": "言う",
+      "reading": "いう",
+      "meanings": [
+        "to say",
+        "to be called"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": "Godan. Pronounced ゆう in fast speech."
+    },
+    {
+      "word": "趣味",
+      "reading": "しゅみ",
+      "meanings": [
+        "hobby"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "旅行",
+      "reading": "りょこう",
+      "meanings": [
+        "travel",
+        "trip"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": "旅行する — to travel."
+    },
+    {
+      "word": "文学",
+      "reading": "ぶんがく",
+      "meanings": [
+        "literature"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": "As a school subject."
+    },
+    {
+      "word": "歴史",
+      "reading": "れきし",
+      "meanings": [
+        "history"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "経済",
+      "reading": "けいざい",
+      "meanings": [
+        "economics",
+        "economy"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "政治",
+      "reading": "せいじ",
+      "meanings": [
+        "politics"
+      ],
+      "jlpt": "N4",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "心理学",
+      "reading": "しんりがく",
+      "meanings": [
+        "psychology"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "生物学",
+      "reading": "せいぶつがく",
+      "meanings": [
+        "biology"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "化学",
+      "reading": "かがく",
+      "meanings": [
+        "chemistry"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": "Same reading as 科学 (science) — watch out."
+    },
+    {
+      "word": "科学",
+      "reading": "かがく",
+      "meanings": [
+        "science"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "数学",
+      "reading": "すうがく",
+      "meanings": [
+        "mathematics"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "音楽",
+      "reading": "おんがく",
+      "meanings": [
+        "music"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "美術",
+      "reading": "びじゅつ",
+      "meanings": [
+        "fine art",
+        "art (subject)"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "体育",
+      "reading": "たいいく",
+      "meanings": [
+        "physical education"
+      ],
+      "jlpt": "N3",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "中国語",
+      "reading": "ちゅうごくご",
+      "meanings": [
+        "Chinese (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "韓国語",
+      "reading": "かんこくご",
+      "meanings": [
+        "Korean (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "スペイン語",
+      "reading": "スペインご",
+      "meanings": [
+        "Spanish (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "フランス語",
+      "reading": "フランスご",
+      "meanings": [
+        "French (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "ドイツ語",
+      "reading": "ドイツご",
+      "meanings": [
+        "German (language)"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "パーティー",
+      "reading": "パーティー",
+      "meanings": [
+        "party"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": ""
+    },
+    {
+      "word": "アルバイト",
+      "reading": "アルバイト",
+      "meanings": [
+        "part-time job"
+      ],
+      "jlpt": "N5",
+      "category": "L8",
+      "context": "From German Arbeit. Often shortened to バイト."
+    },
+    {
+      "word": "ご飯",
+      "reading": "ごはん",
+      "meanings": [
+        "rice",
+        "meal"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "朝ご飯/昼ご飯/晩ご飯."
+    },
+    {
+      "word": "お米",
+      "reading": "おこめ",
+      "meanings": [
+        "uncooked rice"
+      ],
+      "jlpt": "N4",
+      "category": "L9",
+      "context": "米 is uncooked; ご飯 is cooked/served."
+    },
+    {
+      "word": "パン",
+      "reading": "パン",
+      "meanings": [
+        "bread"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "From Portuguese pão."
+    },
+    {
+      "word": "卵",
+      "reading": "たまご",
+      "meanings": [
+        "egg"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "牛乳",
+      "reading": "ぎゅうにゅう",
+      "meanings": [
+        "milk (cow's)"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "野菜",
+      "reading": "やさい",
+      "meanings": [
+        "vegetables"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "肉",
+      "reading": "にく",
+      "meanings": [
+        "meat"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "牛肉 beef, 豚肉 pork, 鶏肉 chicken."
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meanings": [
+        "fish"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "果物",
+      "reading": "くだもの",
+      "meanings": [
+        "fruit"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "Irregular reading."
+    },
+    {
+      "word": "りんご",
+      "reading": "りんご",
+      "meanings": [
+        "apple"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "バナナ",
+      "reading": "バナナ",
+      "meanings": [
+        "banana"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "オレンジ",
+      "reading": "オレンジ",
+      "meanings": [
+        "orange"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "ぶどう",
+      "reading": "ぶどう",
+      "meanings": [
+        "grape"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "いちご",
+      "reading": "いちご",
+      "meanings": [
+        "strawberry"
+      ],
+      "jlpt": "N4",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "スイカ",
+      "reading": "スイカ",
+      "meanings": [
+        "watermelon"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "お弁当",
+      "reading": "おべんとう",
+      "meanings": [
+        "bento",
+        "boxed lunch"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "お菓子",
+      "reading": "おかし",
+      "meanings": [
+        "sweets",
+        "snacks"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "ケーキ",
+      "reading": "ケーキ",
+      "meanings": [
+        "cake"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "アイスクリーム",
+      "reading": "アイスクリーム",
+      "meanings": [
+        "ice cream"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "カレー",
+      "reading": "カレー",
+      "meanings": [
+        "curry"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "Japanese curry — different from Indian/Thai."
+    },
+    {
+      "word": "ラーメン",
+      "reading": "ラーメン",
+      "meanings": [
+        "ramen"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "うどん",
+      "reading": "うどん",
+      "meanings": [
+        "udon noodles"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "天ぷら",
+      "reading": "てんぷら",
+      "meanings": [
+        "tempura"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "寿司",
+      "reading": "すし",
+      "meanings": [
+        "sushi"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "お酒",
+      "reading": "おさけ",
+      "meanings": [
+        "alcohol",
+        "sake"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "General term for alcohol."
+    },
+    {
+      "word": "ビール",
+      "reading": "ビール",
+      "meanings": [
+        "beer"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "ワイン",
+      "reading": "ワイン",
+      "meanings": [
+        "wine"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "ジュース",
+      "reading": "ジュース",
+      "meanings": [
+        "juice",
+        "soft drink"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "紅茶",
+      "reading": "こうちゃ",
+      "meanings": [
+        "black tea"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": "お茶 is green tea by default."
+    },
+    {
+      "word": "喉が乾く",
+      "reading": "のどがかわく",
+      "meanings": [
+        "to be thirsty"
+      ],
+      "jlpt": "N4",
+      "category": "L9",
+      "context": "喉が乾いた — I'm thirsty."
+    },
+    {
+      "word": "お腹が空く",
+      "reading": "おなかがすく",
+      "meanings": [
+        "to be hungry"
+      ],
+      "jlpt": "N4",
+      "category": "L9",
+      "context": "お腹が空いた — I'm hungry."
+    },
+    {
+      "word": "食堂",
+      "reading": "しょくどう",
+      "meanings": [
+        "cafeteria",
+        "dining hall"
+      ],
+      "jlpt": "N4",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "作る",
+      "reading": "つくる",
+      "meanings": [
+        "to make"
+      ],
+      "jlpt": "N5",
+      "category": "L9",
+      "context": ""
+    },
+    {
+      "word": "〜より",
+      "reading": "より",
+      "meanings": [
+        "than (comparison)"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "AはBより〜 — A is more ~ than B."
+    },
+    {
+      "word": "〜のほうが",
+      "reading": "のほうが",
+      "meanings": [
+        "more (in comparison)"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "AのほうがBより〜."
+    },
+    {
+      "word": "一番",
+      "reading": "いちばん",
+      "meanings": [
+        "the most",
+        "number one",
+        "best"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "〜の中で一番〜 — the most ~ in/among ~."
+    },
+    {
+      "word": "どちら",
+      "reading": "どちら",
+      "meanings": [
+        "which one (of two)"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "AとBとどちらが〜 — which is more ~, A or B?"
+    },
+    {
+      "word": "海",
+      "reading": "うみ",
+      "meanings": [
+        "sea",
+        "ocean"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "山",
+      "reading": "やま",
+      "meanings": [
+        "mountain"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "川",
+      "reading": "かわ",
+      "meanings": [
+        "river"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "湖",
+      "reading": "みずうみ",
+      "meanings": [
+        "lake"
+      ],
+      "jlpt": "N4",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "空",
+      "reading": "そら",
+      "meanings": [
+        "sky"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "雲",
+      "reading": "くも",
+      "meanings": [
+        "cloud"
+      ],
+      "jlpt": "N4",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meanings": [
+        "rain"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "雨が降る — to rain."
+    },
+    {
+      "word": "雪",
+      "reading": "ゆき",
+      "meanings": [
+        "snow"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "雪が降る — to snow."
+    },
+    {
+      "word": "風",
+      "reading": "かぜ",
+      "meanings": [
+        "wind"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "Same reading as 風邪 (cold/flu)."
+    },
+    {
+      "word": "天気",
+      "reading": "てんき",
+      "meanings": [
+        "weather"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "春",
+      "reading": "はる",
+      "meanings": [
+        "spring"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "夏",
+      "reading": "なつ",
+      "meanings": [
+        "summer"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "秋",
+      "reading": "あき",
+      "meanings": [
+        "autumn",
+        "fall"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "冬",
+      "reading": "ふゆ",
+      "meanings": [
+        "winter"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "季節",
+      "reading": "きせつ",
+      "meanings": [
+        "season"
+      ],
+      "jlpt": "N4",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "動物",
+      "reading": "どうぶつ",
+      "meanings": [
+        "animal"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "場所",
+      "reading": "ばしょ",
+      "meanings": [
+        "place",
+        "location"
+      ],
+      "jlpt": "N4",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "もっと",
+      "reading": "もっと",
+      "meanings": [
+        "more"
+      ],
+      "jlpt": "N4",
+      "category": "L10",
+      "context": ""
+    },
+    {
+      "word": "降る",
+      "reading": "ふる",
+      "meanings": [
+        "to fall (rain/snow)"
+      ],
+      "jlpt": "N5",
+      "category": "L10",
+      "context": "Godan. 雨が降る — to rain."
+    },
+    {
+      "word": "〜たい",
+      "reading": "たい",
+      "meanings": [
+        "want to (verb)"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": "Verb stem + たい. Conjugates as i-adjective."
+    },
+    {
+      "word": "スポーツ",
+      "reading": "スポーツ",
+      "meanings": [
+        "sport"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "テニス",
+      "reading": "テニス",
+      "meanings": [
+        "tennis"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "水泳",
+      "reading": "すいえい",
+      "meanings": [
+        "swimming"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "野球",
+      "reading": "やきゅう",
+      "meanings": [
+        "baseball"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "サッカー",
+      "reading": "サッカー",
+      "meanings": [
+        "soccer",
+        "football"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "バスケットボール",
+      "reading": "バスケットボール",
+      "meanings": [
+        "basketball"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": "Often shortened to バスケ."
+    },
+    {
+      "word": "スキー",
+      "reading": "スキー",
+      "meanings": [
+        "skiing",
+        "ski"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": "スキーをする — to ski."
+    },
+    {
+      "word": "スノーボード",
+      "reading": "スノーボード",
+      "meanings": [
+        "snowboarding"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "ジョギング",
+      "reading": "ジョギング",
+      "meanings": [
+        "jogging"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "ゴルフ",
+      "reading": "ゴルフ",
+      "meanings": [
+        "golf"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "楽器",
+      "reading": "がっき",
+      "meanings": [
+        "musical instrument"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "ピアノ",
+      "reading": "ピアノ",
+      "meanings": [
+        "piano"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "ギター",
+      "reading": "ギター",
+      "meanings": [
+        "guitar"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "バイオリン",
+      "reading": "バイオリン",
+      "meanings": [
+        "violin"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "弾く",
+      "reading": "ひく",
+      "meanings": [
+        "to play (stringed instrument)"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": "ピアノを弾く. Same kanji as 引く (pull)."
+    },
+    {
+      "word": "歌う",
+      "reading": "うたう",
+      "meanings": [
+        "to sing"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "歌",
+      "reading": "うた",
+      "meanings": [
+        "song"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "ダンス",
+      "reading": "ダンス",
+      "meanings": [
+        "dance",
+        "dancing"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "踊る",
+      "reading": "おどる",
+      "meanings": [
+        "to dance"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": "Godan."
+    },
+    {
+      "word": "釣り",
+      "reading": "つり",
+      "meanings": [
+        "fishing"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": "釣りをする — to fish."
+    },
+    {
+      "word": "山登り",
+      "reading": "やまのぼり",
+      "meanings": [
+        "mountain climbing"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "ハイキング",
+      "reading": "ハイキング",
+      "meanings": [
+        "hiking"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "散歩",
+      "reading": "さんぽ",
+      "meanings": [
+        "walk",
+        "stroll"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": "散歩する — take a walk."
+    },
+    {
+      "word": "ドライブ",
+      "reading": "ドライブ",
+      "meanings": [
+        "drive (for pleasure)"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "カラオケ",
+      "reading": "カラオケ",
+      "meanings": [
+        "karaoke"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "結婚式",
+      "reading": "けっこんしき",
+      "meanings": [
+        "wedding ceremony"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "お祭り",
+      "reading": "おまつり",
+      "meanings": [
+        "festival"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "着物",
+      "reading": "きもの",
+      "meanings": [
+        "kimono"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "お正月",
+      "reading": "おしょうがつ",
+      "meanings": [
+        "New Year"
+      ],
+      "jlpt": "N4",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "クリスマス",
+      "reading": "クリスマス",
+      "meanings": [
+        "Christmas"
+      ],
+      "jlpt": "N5",
+      "category": "L11",
+      "context": ""
+    },
+    {
+      "word": "〜なきゃ",
+      "reading": "なきゃ",
+      "meanings": [
+        "must (do)",
+        "have to"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "Casual contraction of 〜なければ. Often left dangling: 行かなきゃ — gotta go."
+    },
+    {
+      "word": "〜なければならない",
+      "reading": "なければならない",
+      "meanings": [
+        "must (do) (formal)"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "Formal version."
+    },
+    {
+      "word": "〜てはいけない",
+      "reading": "てはいけない",
+      "meanings": [
+        "must not (do)",
+        "cannot"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "Casual: 〜ちゃだめ."
+    },
+    {
+      "word": "病気",
+      "reading": "びょうき",
+      "meanings": [
+        "sickness",
+        "illness"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": "病気になる — to get sick."
+    },
+    {
+      "word": "風邪",
+      "reading": "かぜ",
+      "meanings": [
+        "cold (sickness)"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": "風邪を引く — catch a cold. Same reading as 風 (wind)."
+    },
+    {
+      "word": "熱",
+      "reading": "ねつ",
+      "meanings": [
+        "fever",
+        "heat"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "熱がある — to have a fever."
+    },
+    {
+      "word": "咳",
+      "reading": "せき",
+      "meanings": [
+        "cough"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "咳が出る — to have a cough."
+    },
+    {
+      "word": "頭痛",
+      "reading": "ずつう",
+      "meanings": [
+        "headache"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "薬",
+      "reading": "くすり",
+      "meanings": [
+        "medicine"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": "薬を飲む — take medicine."
+    },
+    {
+      "word": "歯",
+      "reading": "は",
+      "meanings": [
+        "tooth",
+        "teeth"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "歯医者",
+      "reading": "はいしゃ",
+      "meanings": [
+        "dentist"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "喉",
+      "reading": "のど",
+      "meanings": [
+        "throat"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "お腹",
+      "reading": "おなか",
+      "meanings": [
+        "stomach",
+        "belly"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "痛い",
+      "reading": "いたい",
+      "meanings": [
+        "painful",
+        "hurts"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": "〜が痛い — ~ hurts. 頭が痛い — my head hurts."
+    },
+    {
+      "word": "大変",
+      "reading": "たいへん",
+      "meanings": [
+        "tough",
+        "difficult",
+        "very"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "na-adj + adverb."
+    },
+    {
+      "word": "二日酔い",
+      "reading": "ふつかよい",
+      "meanings": [
+        "hangover"
+      ],
+      "jlpt": "N3",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "咳が出る",
+      "reading": "せきがでる",
+      "meanings": [
+        "to have a cough"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "鼻水が出る",
+      "reading": "はなみずがでる",
+      "meanings": [
+        "to have a runny nose"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "気分が悪い",
+      "reading": "きぶんがわるい",
+      "meanings": [
+        "to feel sick",
+        "feel bad"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "多い",
+      "reading": "おおい",
+      "meanings": [
+        "many",
+        "numerous"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": "i-adj — used predicatively mostly: 雨が多い."
+    },
+    {
+      "word": "少ない",
+      "reading": "すくない",
+      "meanings": [
+        "few",
+        "scarce"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "重い",
+      "reading": "おもい",
+      "meanings": [
+        "heavy"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "軽い",
+      "reading": "かるい",
+      "meanings": [
+        "light (weight)"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "甘い",
+      "reading": "あまい",
+      "meanings": [
+        "sweet"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "辛い",
+      "reading": "からい",
+      "meanings": [
+        "spicy",
+        "hot"
+      ],
+      "jlpt": "N5",
+      "category": "L12",
+      "context": "Different reading つらい = painful/difficult."
+    },
+    {
+      "word": "苦い",
+      "reading": "にがい",
+      "meanings": [
+        "bitter"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "酸っぱい",
+      "reading": "すっぱい",
+      "meanings": [
+        "sour"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": ""
+    },
+    {
+      "word": "塩辛い",
+      "reading": "しおからい",
+      "meanings": [
+        "salty"
+      ],
+      "jlpt": "N4",
+      "category": "L12",
+      "context": "Also しょっぱい casually."
+    }
+  ]
+}

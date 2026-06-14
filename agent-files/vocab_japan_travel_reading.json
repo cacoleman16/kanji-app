@@ -5,7 +5,7 @@
   "source": "Japanese intermediate reading passage on travel through Japan (JR Pass, Hokkaido, Honshu, Shikoku, Kyushu)",
   "learner_level": "N3",
   "notes": "Vocabulary drawn from a textbook-style reading passage describing how to travel Japan as a foreigner — buying a JR Pass abroad, visiting Hokkaido (the 'frontier'), the major cities of Honshu (Tokyo/Kyoto/Nara/Osaka), and the volcanoes and hot springs of Shikoku and Kyushu. The deck targets words an N3 learner has likely seen passively in textbooks but cannot yet produce, plus a few N2/N1 words that are surprisingly useful in everyday descriptive Japanese (特徴, 活気, 絶えず, 醜い). Words a learner already knows from N4/N5 (神社, 文化, 料理, 教育) are deliberately excluded. Proper nouns and pure katakana loanwords are also excluded.",
-  "card_count": 40,
+  "card_count": 79,
   "priority_guide": {
     "high": "Learn first — high-frequency word that blocks comprehension if missing.",
     "medium": "Learn after high priority — enriches descriptive range; context usually helps.",
@@ -35,7 +35,11 @@
     {
       "word": "特徴",
       "reading": "とくちょう",
-      "meanings": ["distinguishing feature", "characteristic", "trait"],
+      "meanings": [
+        "distinguishing feature",
+        "characteristic",
+        "trait"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -50,7 +54,11 @@
     {
       "word": "影響",
       "reading": "えいきょう",
-      "meanings": ["influence", "effect", "impact"],
+      "meanings": [
+        "influence",
+        "effect",
+        "impact"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -65,7 +73,11 @@
     {
       "word": "景色",
       "reading": "けしき",
-      "meanings": ["scenery", "landscape", "view"],
+      "meanings": [
+        "scenery",
+        "landscape",
+        "view"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -80,7 +92,11 @@
     {
       "word": "混雑",
       "reading": "こんざつ",
-      "meanings": ["congestion", "crowding", "being packed"],
+      "meanings": [
+        "congestion",
+        "crowding",
+        "being packed"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -95,7 +111,10 @@
     {
       "word": "批判",
       "reading": "ひはん",
-      "meanings": ["criticism", "critique"],
+      "meanings": [
+        "criticism",
+        "critique"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -110,7 +129,10 @@
     {
       "word": "物価",
       "reading": "ぶっか",
-      "meanings": ["prices (of goods generally)", "cost of living"],
+      "meanings": [
+        "prices (of goods generally)",
+        "cost of living"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -125,7 +147,10 @@
     {
       "word": "先住民",
       "reading": "せんじゅうみん",
-      "meanings": ["indigenous people", "native inhabitants"],
+      "meanings": [
+        "indigenous people",
+        "native inhabitants"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -140,7 +165,11 @@
     {
       "word": "大自然",
       "reading": "だいしぜん",
-      "meanings": ["great nature", "wilderness", "untouched nature"],
+      "meanings": [
+        "great nature",
+        "wilderness",
+        "untouched nature"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -156,7 +185,10 @@
     {
       "word": "農業",
       "reading": "のうぎょう",
-      "meanings": ["agriculture", "farming (as an industry)"],
+      "meanings": [
+        "agriculture",
+        "farming (as an industry)"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -171,7 +203,11 @@
     {
       "word": "有効",
       "reading": "ゆうこう",
-      "meanings": ["valid", "effective", "in force"],
+      "meanings": [
+        "valid",
+        "effective",
+        "in force"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -186,7 +222,10 @@
     {
       "word": "鉄道",
       "reading": "てつどう",
-      "meanings": ["railway", "railroad"],
+      "meanings": [
+        "railway",
+        "railroad"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -201,7 +240,10 @@
     {
       "word": "国際的",
       "reading": "こくさいてき",
-      "meanings": ["international", "global"],
+      "meanings": [
+        "international",
+        "global"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -216,7 +258,10 @@
     {
       "word": "政治",
       "reading": "せいじ",
-      "meanings": ["politics", "government"],
+      "meanings": [
+        "politics",
+        "government"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -231,7 +276,11 @@
     {
       "word": "経済",
       "reading": "けいざい",
-      "meanings": ["economy", "economics", "financial affairs"],
+      "meanings": [
+        "economy",
+        "economics",
+        "financial affairs"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -246,7 +295,11 @@
     {
       "word": "商業",
       "reading": "しょうぎょう",
-      "meanings": ["commerce", "trade", "business activity"],
+      "meanings": [
+        "commerce",
+        "trade",
+        "business activity"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -261,7 +314,10 @@
     {
       "word": "芸術",
       "reading": "げいじゅつ",
-      "meanings": ["art", "the fine arts"],
+      "meanings": [
+        "art",
+        "the fine arts"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -276,7 +332,12 @@
     {
       "word": "中心",
       "reading": "ちゅうしん",
-      "meanings": ["center", "core", "hub", "focal point"],
+      "meanings": [
+        "center",
+        "core",
+        "hub",
+        "focal point"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -291,7 +352,11 @@
     {
       "word": "醜い",
       "reading": "みにくい",
-      "meanings": ["ugly", "unsightly", "disgraceful"],
+      "meanings": [
+        "ugly",
+        "unsightly",
+        "disgraceful"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -306,7 +371,10 @@
     {
       "word": "犯罪",
       "reading": "はんざい",
-      "meanings": ["crime", "criminal offense"],
+      "meanings": [
+        "crime",
+        "criminal offense"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -321,7 +389,12 @@
     {
       "word": "活気",
       "reading": "かっき",
-      "meanings": ["liveliness", "vitality", "energy", "vigor"],
+      "meanings": [
+        "liveliness",
+        "vitality",
+        "energy",
+        "vigor"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -336,7 +409,11 @@
     {
       "word": "絶えず",
       "reading": "たえず",
-      "meanings": ["constantly", "ceaselessly", "without interruption"],
+      "meanings": [
+        "constantly",
+        "ceaselessly",
+        "without interruption"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -351,7 +428,11 @@
     {
       "word": "変化",
       "reading": "へんか",
-      "meanings": ["change", "transformation", "shift"],
+      "meanings": [
+        "change",
+        "transformation",
+        "shift"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -366,7 +447,12 @@
     {
       "word": "魅力的",
       "reading": "みりょくてき",
-      "meanings": ["attractive", "charming", "fascinating", "appealing"],
+      "meanings": [
+        "attractive",
+        "charming",
+        "fascinating",
+        "appealing"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -381,7 +467,11 @@
     {
       "word": "限る",
       "reading": "かぎる",
-      "meanings": ["to limit", "to be limited to", "to be the best (in 〜に限る)"],
+      "meanings": [
+        "to limit",
+        "to be limited to",
+        "to be the best (in 〜に限る)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -396,7 +486,11 @@
     {
       "word": "被害",
       "reading": "ひがい",
-      "meanings": ["damage", "harm", "casualty"],
+      "meanings": [
+        "damage",
+        "harm",
+        "casualty"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -411,7 +505,10 @@
     {
       "word": "大仏",
       "reading": "だいぶつ",
-      "meanings": ["Great Buddha", "large Buddha statue"],
+      "meanings": [
+        "Great Buddha",
+        "large Buddha statue"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "at_level",
@@ -426,7 +523,9 @@
     {
       "word": "火山",
       "reading": "かざん",
-      "meanings": ["volcano"],
+      "meanings": [
+        "volcano"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -441,7 +540,11 @@
     {
       "word": "温泉",
       "reading": "おんせん",
-      "meanings": ["hot spring", "hot-spring resort", "onsen"],
+      "meanings": [
+        "hot spring",
+        "hot-spring resort",
+        "onsen"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -456,7 +559,12 @@
     {
       "word": "土地",
       "reading": "とち",
-      "meanings": ["land", "region", "the local area", "locale"],
+      "meanings": [
+        "land",
+        "region",
+        "the local area",
+        "locale"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -471,7 +579,12 @@
     {
       "word": "珍しい",
       "reading": "めずらしい",
-      "meanings": ["rare", "unusual", "novel", "uncommon"],
+      "meanings": [
+        "rare",
+        "unusual",
+        "novel",
+        "uncommon"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -486,7 +599,9 @@
     {
       "word": "人口",
       "reading": "じんこう",
-      "meanings": ["population"],
+      "meanings": [
+        "population"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -501,7 +616,11 @@
     {
       "word": "都",
       "reading": "みやこ",
-      "meanings": ["capital", "ancient capital", "metropolis"],
+      "meanings": [
+        "capital",
+        "ancient capital",
+        "metropolis"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -516,7 +635,9 @@
     {
       "word": "旅行社",
       "reading": "りょこうしゃ",
-      "meanings": ["travel agency"],
+      "meanings": [
+        "travel agency"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -531,7 +652,11 @@
     {
       "word": "〜あたり",
       "reading": "あたり",
-      "meanings": ["around", "in the neighborhood of", "or thereabouts"],
+      "meanings": [
+        "around",
+        "in the neighborhood of",
+        "or thereabouts"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -546,7 +671,9 @@
     {
       "word": "お城",
       "reading": "おしろ",
-      "meanings": ["castle"],
+      "meanings": [
+        "castle"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -561,7 +688,11 @@
     {
       "word": "残る",
       "reading": "のこる",
-      "meanings": ["to remain", "to be left over", "to survive"],
+      "meanings": [
+        "to remain",
+        "to be left over",
+        "to survive"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -576,7 +707,10 @@
     {
       "word": "訪ねる",
       "reading": "たずねる",
-      "meanings": ["to visit (a place)", "to call on (a person)"],
+      "meanings": [
+        "to visit (a place)",
+        "to call on (a person)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -591,7 +725,11 @@
     {
       "word": "全国",
       "reading": "ぜんこく",
-      "meanings": ["the whole country", "nationwide", "national"],
+      "meanings": [
+        "the whole country",
+        "nationwide",
+        "national"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -606,7 +744,11 @@
     {
       "word": "期間",
       "reading": "きかん",
-      "meanings": ["period", "term", "duration"],
+      "meanings": [
+        "period",
+        "term",
+        "duration"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -621,7 +763,9 @@
     {
       "word": "切符",
       "reading": "きっぷ",
-      "meanings": ["ticket"],
+      "meanings": [
+        "ticket"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -632,6 +776,702 @@
       "example_sentence": "旅行の長さによって、一週間、二週間、三週間有効の切符が買える。",
       "example_reading": "りょこう の ながさ に よって、 いっしゅうかん、 にしゅうかん、 さんしゅうかん ゆうこう の きっぷ が かえる。",
       "example_meaning": "Depending on the length of your trip, you can buy tickets valid for one, two, or three weeks."
+    },
+    {
+      "word": "駅員",
+      "reading": "えきいん",
+      "meanings": [
+        "station attendant",
+        "station staff"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "駅の人",
+      "category": "travel_transport",
+      "context": "駅員に聞く is the standard phrase for asking station staff. Foreigners hear this constantly when navigating Japan's train system.",
+      "example_sentence": "困ったら駅員に聞いてください。",
+      "example_reading": "こまったら えきいん に きいて ください。",
+      "example_meaning": "If you have trouble, please ask a station attendant."
+    },
+    {
+      "word": "案内所",
+      "reading": "あんないじょ",
+      "meanings": [
+        "information desk",
+        "information center"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "インフォメーション",
+      "category": "travel_transport",
+      "context": "観光案内所 (tourist information center) is the full form. Most major train stations and tourist sites have one — they often have English-speaking staff.",
+      "example_sentence": "観光案内所で地図をもらった。",
+      "example_reading": "かんこう あんないじょ で ちず を もらった。",
+      "example_meaning": "I got a map at the tourist information center."
+    },
+    {
+      "word": "路線",
+      "reading": "ろせん",
+      "meanings": [
+        "route",
+        "line (train, bus)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "線（せん）",
+      "category": "travel_transport",
+      "context": "路線図 (route map) is essential for navigating Tokyo's transit. JR路線, 地下鉄路線 — JR line, subway line. Worth distinguishing from 道路 (road).",
+      "example_sentence": "路線図を見て乗り換えを確認した。",
+      "example_reading": "ろせんず を みて のりかえ を かくにん した。",
+      "example_meaning": "I checked the transfer on the route map."
+    },
+    {
+      "word": "急行",
+      "reading": "きゅうこう",
+      "meanings": [
+        "express train",
+        "limited stops"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "快速（かいそく）※やや違う",
+      "category": "travel_transport",
+      "context": "急行は special-stop trains; faster than 普通 but slower than 特急. Different railway companies use the term differently — always check the destination board.",
+      "example_sentence": "次の急行は新宿行きです。",
+      "example_reading": "つぎ の きゅうこう は しんじゅく ゆき です。",
+      "example_meaning": "The next express is bound for Shinjuku."
+    },
+    {
+      "word": "特急",
+      "reading": "とっきゅう",
+      "meanings": [
+        "limited express",
+        "fastest train type"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "はやい電車",
+      "category": "travel_transport",
+      "context": "特急 trains usually require an additional 特急券 (limited express ticket) on top of the basic fare. Common for long-distance JR routes outside the Shinkansen.",
+      "example_sentence": "特急に乗るには特急券が必要だ。",
+      "example_reading": "とっきゅう に のる に は とっきゅうけん が ひつよう だ。",
+      "example_meaning": "You need a limited express ticket to ride a limited express."
+    },
+    {
+      "word": "新幹線",
+      "reading": "しんかんせん",
+      "meanings": [
+        "bullet train",
+        "Shinkansen"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "高速列車",
+      "category": "travel_transport",
+      "context": "The most famous train system in Japan. JRパス covers most 新幹線 lines except のぞみ and みずほ — a key restriction tourists overlook.",
+      "example_sentence": "新幹線で東京から京都まで二時間半かかる。",
+      "example_reading": "しんかんせん で とうきょう から きょうと まで にじかん はん かかる。",
+      "example_meaning": "It takes two and a half hours from Tokyo to Kyoto by Shinkansen."
+    },
+    {
+      "word": "在来線",
+      "reading": "ざいらいせん",
+      "meanings": [
+        "conventional/local train line",
+        "non-Shinkansen line"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "普通の電車の線",
+      "category": "travel_transport",
+      "context": "Used in contrast to 新幹線. JR Pass covers all 在来線. The kanji 在来 means 'pre-existing' — i.e. the older/regular network.",
+      "example_sentence": "新幹線の駅から在来線に乗り換える。",
+      "example_reading": "しんかんせん の えき から ざいらいせん に のりかえる。",
+      "example_meaning": "Transfer from the Shinkansen station to a conventional line."
+    },
+    {
+      "word": "指定席",
+      "reading": "していせき",
+      "meanings": [
+        "reserved seat"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "予約した席",
+      "category": "travel_transport",
+      "context": "指定席 vs 自由席 — reserved vs unreserved. On busy days like お盆, 自由席 fills up and standing is common.",
+      "example_sentence": "連休中は指定席を予約したほうがいい。",
+      "example_reading": "れんきゅう ちゅう は していせき を よやく した ほう が いい。",
+      "example_meaning": "During long weekends it's better to reserve a seat."
+    },
+    {
+      "word": "自由席",
+      "reading": "じゆうせき",
+      "meanings": [
+        "unreserved seat"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "自由に座れる席",
+      "category": "travel_transport",
+      "context": "Cheaper than 指定席 but no guaranteed seat. Always check 自由席車両 (unreserved car) numbers — usually printed on the platform.",
+      "example_sentence": "自由席は混んでいたので立っていた。",
+      "example_reading": "じゆうせき は こんで いた ので たって いた。",
+      "example_meaning": "The unreserved car was crowded so I stood."
+    },
+    {
+      "word": "片道",
+      "reading": "かたみち",
+      "meanings": [
+        "one-way trip"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "行きだけ",
+      "category": "travel_transport",
+      "context": "片道切符 — one-way ticket. Pairs with 往復 (round trip).",
+      "example_sentence": "片道だけ買いたいんですが。",
+      "example_reading": "かたみち だけ かいたい ん です が。",
+      "example_meaning": "I'd just like to buy a one-way ticket."
+    },
+    {
+      "word": "往復",
+      "reading": "おうふく",
+      "meanings": [
+        "round trip",
+        "there and back"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "行って帰る",
+      "category": "travel_transport",
+      "context": "往復切符 — round-trip ticket. Sometimes cheaper as a discount package (往復割引).",
+      "example_sentence": "往復で買うと割引があります。",
+      "example_reading": "おうふく で かう と わりびき が あります。",
+      "example_meaning": "There's a discount if you buy a round-trip ticket."
+    },
+    {
+      "word": "運賃",
+      "reading": "うんちん",
+      "meanings": [
+        "fare",
+        "transportation charge"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "料金（りょうきん）",
+      "category": "travel_transport",
+      "context": "Specific to transit fares. 運賃表 — fare chart, posted at every station. 大人運賃 / 子供運賃 — adult/child fare.",
+      "example_sentence": "運賃は距離によって変わる。",
+      "example_reading": "うんちん は きょり に よって かわる。",
+      "example_meaning": "The fare changes with distance."
+    },
+    {
+      "word": "宿泊",
+      "reading": "しゅくはく",
+      "meanings": [
+        "lodging",
+        "staying overnight"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "泊まる（とまる）",
+      "category": "travel_transport",
+      "context": "宿泊する — to stay overnight. 宿泊先 — accommodation. 宿泊費 — lodging cost. Used on hotel forms; learn before checking in.",
+      "example_sentence": "今夜はどこに宿泊しますか。",
+      "example_reading": "こんや は どこ に しゅくはく しますか。",
+      "example_meaning": "Where will you be lodging tonight?"
+    },
+    {
+      "word": "民宿",
+      "reading": "みんしゅく",
+      "meanings": [
+        "family-run inn",
+        "guesthouse (Japanese-style)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "小さい旅館",
+      "category": "travel_transport",
+      "context": "More casual and cheaper than 旅館 — usually a family running rooms in their own house. Common in rural areas and small islands.",
+      "example_sentence": "漁村の民宿に泊まった。",
+      "example_reading": "ぎょそん の みんしゅく に とまった。",
+      "example_meaning": "I stayed at a family-run guesthouse in the fishing village."
+    },
+    {
+      "word": "温泉宿",
+      "reading": "おんせんやど",
+      "meanings": [
+        "hot-spring inn"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "温泉のある旅館",
+      "category": "travel_transport",
+      "context": "Combines 温泉 (hot spring) + 宿 (inn). The classic Japanese travel experience: arrive evening, soak, dinner, soak again, sleep on futon.",
+      "example_sentence": "箱根の温泉宿で一泊した。",
+      "example_reading": "はこね の おんせんやど で いっぱく した。",
+      "example_meaning": "We spent one night at a hot-spring inn in Hakone."
+    },
+    {
+      "word": "露天風呂",
+      "reading": "ろてんぶろ",
+      "meanings": [
+        "open-air bath",
+        "outdoor hot spring"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "外の温泉",
+      "category": "travel_transport",
+      "context": "露天 = open-air. The signature offering of any onsen worth visiting — bathing under the stars in winter is a famous experience.",
+      "example_sentence": "雪を見ながら露天風呂に入った。",
+      "example_reading": "ゆき を みながら ろてんぶろ に はいった。",
+      "example_meaning": "I bathed in the open-air hot spring while watching the snow."
+    },
+    {
+      "word": "湯",
+      "reading": "ゆ",
+      "meanings": [
+        "hot water",
+        "bath"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お風呂",
+      "category": "travel_transport",
+      "context": "In hot-spring contexts, 湯 = the bath itself. 湯に浸かる — to soak in the bath. お湯 is more polite.",
+      "example_sentence": "この湯はちょっと熱すぎる。",
+      "example_reading": "この ゆ は ちょっと あつ すぎる。",
+      "example_meaning": "This bath is a little too hot."
+    },
+    {
+      "word": "浴衣",
+      "reading": "ゆかた",
+      "meanings": [
+        "yukata (light cotton kimono)",
+        "summer kimono"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "夏のきもの",
+      "category": "travel_transport",
+      "context": "Worn at 旅館 and at summer 祭り. The reading ゆかた is irregular — the kanji 浴衣 literally mean 'bathing clothes.'",
+      "example_sentence": "旅館で浴衣を着て夕食を食べた。",
+      "example_reading": "りょかん で ゆかた を きて ゆうしょく を たべた。",
+      "example_meaning": "I wore a yukata and ate dinner at the inn."
+    },
+    {
+      "word": "畳",
+      "reading": "たたみ",
+      "meanings": [
+        "tatami mat"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "日本の床",
+      "category": "travel_transport",
+      "context": "The size of a 畳 is the standard unit for room size: 六畳の部屋 (six-mat room). Crucial when reading apartment listings.",
+      "example_sentence": "この部屋は八畳の和室です。",
+      "example_reading": "この へや は はちじょう の わしつ です。",
+      "example_meaning": "This room is an eight-mat Japanese-style room."
+    },
+    {
+      "word": "和室",
+      "reading": "わしつ",
+      "meanings": [
+        "Japanese-style room"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "日本のスタイルの部屋",
+      "category": "travel_transport",
+      "context": "和室 has tatami floor and shoji doors; 洋室 (ようしつ) is Western-style. 旅館 typically have 和室 with futons.",
+      "example_sentence": "和室と洋室、どちらにしますか。",
+      "example_reading": "わしつ と ようしつ、 どちら に しますか。",
+      "example_meaning": "Which would you prefer, a Japanese- or Western-style room?"
+    },
+    {
+      "word": "観光地",
+      "reading": "かんこうち",
+      "meanings": [
+        "tourist spot",
+        "sightseeing area"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "観光のところ",
+      "category": "travel_transport",
+      "context": "観光地 vs 観光名所 (めいしょ, famous spot) — the latter is more about renowned attractions.",
+      "example_sentence": "京都は人気のある観光地だ。",
+      "example_reading": "きょうと は にんき の ある かんこうち だ。",
+      "example_meaning": "Kyoto is a popular tourist destination."
+    },
+    {
+      "word": "名所",
+      "reading": "めいしょ",
+      "meanings": [
+        "famous place",
+        "noted sight",
+        "scenic spot"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "有名なところ",
+      "category": "travel_transport",
+      "context": "観光名所 — tourist attraction. Each region has 名所巡り — touring its famous spots.",
+      "example_sentence": "奈良の名所をめぐった。",
+      "example_reading": "なら の めいしょ を めぐった。",
+      "example_meaning": "I toured the famous spots of Nara."
+    },
+    {
+      "word": "巡る",
+      "reading": "めぐる",
+      "meanings": [
+        "to go around",
+        "to tour",
+        "to revolve around"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "回る",
+      "category": "travel_transport",
+      "context": "寺を巡る — tour the temples. Also abstract: 季節が巡る — the seasons turn. 〜をめぐって — concerning…",
+      "example_sentence": "古い寺をいくつも巡った。",
+      "example_reading": "ふるい てら を いくつ も めぐった。",
+      "example_meaning": "I toured several old temples."
+    },
+    {
+      "word": "伝統",
+      "reading": "でんとう",
+      "meanings": [
+        "tradition"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昔から続いていること",
+      "category": "travel_transport",
+      "context": "伝統的 — traditional. 伝統工芸 (でんとうこうげい) — traditional crafts, a key concept in regional tourism (Kyoto, Kanazawa, etc.).",
+      "example_sentence": "金沢には伝統工芸が多い。",
+      "example_reading": "かなざわ に は でんとう こうげい が おおい。",
+      "example_meaning": "Kanazawa has many traditional crafts."
+    },
+    {
+      "word": "工芸",
+      "reading": "こうげい",
+      "meanings": [
+        "craft",
+        "handicraft"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "手作りの工業品",
+      "category": "travel_transport",
+      "context": "伝統工芸 — traditional crafts. Each region has its own: Kyoto 西陣織, Kanazawa 金箔 (gold leaf), Okinawa 紅型 (bingata).",
+      "example_sentence": "地元の工芸品をお土産に買った。",
+      "example_reading": "じもと の こうげいひん を おみやげ に かった。",
+      "example_meaning": "I bought a local craft as a souvenir."
+    },
+    {
+      "word": "地元",
+      "reading": "じもと",
+      "meanings": [
+        "local",
+        "one's hometown",
+        "local area"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その土地",
+      "category": "travel_transport",
+      "context": "地元の人 — local people. 地元の食べ物 — local food. The everyday word for the place a person is rooted in.",
+      "example_sentence": "地元の人がよく行くお店を教えてもらった。",
+      "example_reading": "じもと の ひと が よく いく おみせ を おしえて もらった。",
+      "example_meaning": "I was told about a shop locals often visit."
+    },
+    {
+      "word": "郷土料理",
+      "reading": "きょうどりょうり",
+      "meanings": [
+        "local cuisine",
+        "regional food"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "その地方の料理",
+      "category": "travel_transport",
+      "context": "郷土 = native place. 郷土料理 specifically refers to dishes tied to a region: 北海道のジンギスカン, 沖縄のゴーヤチャンプルー.",
+      "example_sentence": "九州の郷土料理を味わいたい。",
+      "example_reading": "きゅうしゅう の きょうどりょうり を あじわいたい。",
+      "example_meaning": "I want to try the local cuisine of Kyushu."
+    },
+    {
+      "word": "名物",
+      "reading": "めいぶつ",
+      "meanings": [
+        "specialty (of a region)",
+        "famous product"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その土地の有名な物",
+      "category": "travel_transport",
+      "context": "その町の名物 — that town's specialty. Each area's tourist board prominently displays its 名物 — Sendai's tongue, Hokkaido's seafood, etc.",
+      "example_sentence": "このお菓子は京都の名物です。",
+      "example_reading": "この おかし は きょうと の めいぶつ です。",
+      "example_meaning": "This sweet is a Kyoto specialty."
+    },
+    {
+      "word": "お土産",
+      "reading": "おみやげ",
+      "meanings": [
+        "souvenir",
+        "gift (from a trip)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "プレゼント（旅行先から）",
+      "category": "travel_transport",
+      "context": "Cultural essential: travelers buy お土産 for coworkers and family. 駅や空港の売店 (kiosks) overflow with regional お土産 boxed sweets.",
+      "example_sentence": "会社の同僚にお土産を買った。",
+      "example_reading": "かいしゃ の どうりょう に おみやげ を かった。",
+      "example_meaning": "I bought souvenirs for my coworkers."
+    },
+    {
+      "word": "季節限定",
+      "reading": "きせつげんてい",
+      "meanings": [
+        "seasonal",
+        "season-limited"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "その季節だけ",
+      "category": "travel_transport",
+      "context": "季節限定の味 — seasonal flavor. Common marketing on convenience-store products and travel sweets — Japan's love affair with the seasons.",
+      "example_sentence": "季節限定のいちごのお菓子を買った。",
+      "example_reading": "きせつげんてい の いちご の おかし を かった。",
+      "example_meaning": "I bought a seasonal strawberry sweet."
+    },
+    {
+      "word": "絶景",
+      "reading": "ぜっけい",
+      "meanings": [
+        "spectacular view",
+        "superb scenery"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "とてもきれいな景色",
+      "category": "travel_transport",
+      "context": "絶 = surpassing + 景 = scene. Travel posters and Instagram captions overflow with this. Stronger than just 景色がいい.",
+      "example_sentence": "展望台から絶景が広がっていた。",
+      "example_reading": "てんぼうだい から ぜっけい が ひろがって いた。",
+      "example_meaning": "From the observation deck, a spectacular view spread out."
+    },
+    {
+      "word": "展望台",
+      "reading": "てんぼうだい",
+      "meanings": [
+        "observation deck",
+        "viewing platform"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "景色を見るところ",
+      "category": "travel_transport",
+      "context": "Towers, mountains, and high buildings have a 展望台. Tokyo Skytree's 展望台 is one of the highest in the world.",
+      "example_sentence": "東京タワーの展望台に上った。",
+      "example_reading": "とうきょう たわー の てんぼうだい に のぼった。",
+      "example_meaning": "I went up to the observation deck of Tokyo Tower."
+    },
+    {
+      "word": "紅葉",
+      "reading": "こうよう",
+      "meanings": [
+        "autumn leaves",
+        "fall foliage"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "秋の葉",
+      "category": "travel_transport",
+      "context": "Also read もみじ for the maple itself. 紅葉狩り — fall-leaf viewing. Major autumn tourism activity, especially in Kyoto and Nikko.",
+      "example_sentence": "秋に京都へ紅葉を見に行った。",
+      "example_reading": "あき に きょうと へ こうよう を みに いった。",
+      "example_meaning": "I went to Kyoto in autumn to see the fall foliage."
+    },
+    {
+      "word": "花見",
+      "reading": "はなみ",
+      "meanings": [
+        "cherry-blossom viewing",
+        "flower viewing"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "桜を見ること",
+      "category": "travel_transport",
+      "context": "Major spring social event. People reserve picnic spots under cherry trees with blue tarps. 花見の名所 — cherry-blossom hotspots.",
+      "example_sentence": "上野公園で花見をした。",
+      "example_reading": "うえの こうえん で はなみ を した。",
+      "example_meaning": "We had a hanami at Ueno Park."
+    },
+    {
+      "word": "桜",
+      "reading": "さくら",
+      "meanings": [
+        "cherry blossom",
+        "cherry tree"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "チェリーブロッサム",
+      "category": "travel_transport",
+      "context": "桜前線 (さくらぜんせん) — the cherry-blossom front, tracked nightly on the news as it moves north each spring.",
+      "example_sentence": "桜が満開だ。",
+      "example_reading": "さくら が まんかい だ。",
+      "example_meaning": "The cherry blossoms are in full bloom."
+    },
+    {
+      "word": "満開",
+      "reading": "まんかい",
+      "meanings": [
+        "full bloom"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "全部咲いた",
+      "category": "travel_transport",
+      "context": "Cherry-blossom forecast term. 満開予想 — predicted peak-bloom date. Also for other flowers: バラが満開.",
+      "example_sentence": "今週末が桜の満開らしい。",
+      "example_reading": "こんしゅうまつ が さくら の まんかい らしい。",
+      "example_meaning": "Apparently this weekend is the peak of the cherry blossoms."
+    },
+    {
+      "word": "歴史的",
+      "reading": "れきしてき",
+      "meanings": [
+        "historic",
+        "historical"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昔から大切な",
+      "category": "travel_transport",
+      "context": "歴史的建造物 — historic building. Used heavily in Kyoto and Nara tourism.",
+      "example_sentence": "奈良には歴史的建造物がたくさんある。",
+      "example_reading": "なら に は れきしてき けんぞうぶつ が たくさん ある。",
+      "example_meaning": "Nara has many historic buildings."
+    },
+    {
+      "word": "建造物",
+      "reading": "けんぞうぶつ",
+      "meanings": [
+        "building",
+        "structure (formal)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "建物",
+      "category": "travel_transport",
+      "context": "More formal than 建物 — used for important/protected structures. Common on heritage signage.",
+      "example_sentence": "重要文化財の建造物が並ぶ。",
+      "example_reading": "じゅうよう ぶんかざい の けんぞうぶつ が ならぶ。",
+      "example_meaning": "Buildings designated as important cultural properties line the street."
+    },
+    {
+      "word": "世界遺産",
+      "reading": "せかいいさん",
+      "meanings": [
+        "World Heritage Site"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ユネスコの遺産",
+      "category": "travel_transport",
+      "context": "Japan has many: 姫路城, 厳島神社, 白川郷, 屋久島, etc. Visible everywhere on tourism signage.",
+      "example_sentence": "白川郷は世界遺産に登録されている。",
+      "example_reading": "しらかわごう は せかいいさん に とうろく されて いる。",
+      "example_meaning": "Shirakawa-go is registered as a World Heritage Site."
     }
   ]
 }

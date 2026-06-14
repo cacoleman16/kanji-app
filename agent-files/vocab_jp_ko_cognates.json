@@ -1,0 +1,983 @@
+{
+  "deck_id": "japanese-korean-cognates",
+  "deck_name": "Japanese–Korean Cognates",
+  "version": "1.0",
+  "source": "Hand-curated Sino-Japanese / Sino-Korean cognate pairs — words sharing the same Chinese root, explained in English.",
+  "learner_level": "N3",
+  "notes": "Roughly 60% of Japanese and Korean vocabulary comes from the same Classical Chinese roots, so a huge number of words are cognates — they sound similar because the Japanese on'yomi and the Korean Hanja reading descend from the same source. This deck pairs common Japanese words with their Korean cognate (in Hangul + Revised Romanization) and points out the regular sound correspondences. The Japanese word is the study front; the English meaning and the Korean comparison are on the back. A handful of 'pattern' cards explain recurring morpheme correspondences (無→무, 学→학, 国→국, etc.) that let you predict cognates you've never seen. Useful if you study (or want to start) both languages.",
+  "card_count": 55,
+  "categories": [
+    "sound_patterns",
+    "everyday",
+    "places",
+    "time_abstract",
+    "society",
+    "descriptive",
+    "near_identical"
+  ],
+  "cards": [
+    {
+      "word": "無料",
+      "reading": "むりょう",
+      "meanings": [
+        "free of charge"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ただ",
+      "category": "near_identical",
+      "context": "Korean: 무료 (muryo). Almost identical. The 無 (mu, 'non-/free of') prefix maps regularly: Japanese 無 = Korean 무 (mu). Learn this one and you can predict 無理/무리, 無視/무시.",
+      "example_sentence": "入場は無料です。",
+      "example_reading": "にゅうじょう は むりょう です。",
+      "example_meaning": "Admission is free."
+    },
+    {
+      "word": "無理",
+      "reading": "むり",
+      "meanings": [
+        "impossible",
+        "unreasonable",
+        "overdoing it"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "できない",
+      "category": "near_identical",
+      "context": "Korean: 무리 (muri). Essentially the same word and meaning — 'unreasonable / pushing too hard.' 무리하지 마 = 無理しないで (don't overdo it). The 無 = 무 pattern again.",
+      "example_sentence": "そんなに働くと体に無理がある。",
+      "example_reading": "そんなに はたらく と からだ に むり が ある。",
+      "example_meaning": "Working that much is too hard on your body."
+    },
+    {
+      "word": "無視",
+      "reading": "むし",
+      "meanings": [
+        "ignoring",
+        "disregard"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "無視する",
+      "category": "near_identical",
+      "context": "Korean: 무시 (musi). 무시하다 = 無視する (to ignore). 無 (mu) = 무, 視 (shi) = 시 (si). Note Japanese し often = Korean 시 (si).",
+      "example_sentence": "彼は私の話を無視した。",
+      "example_reading": "かれ は わたし の はなし を むし した。",
+      "example_meaning": "He ignored what I said."
+    },
+    {
+      "word": "約束",
+      "reading": "やくそく",
+      "meanings": [
+        "promise",
+        "appointment"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "約束する",
+      "category": "near_identical",
+      "context": "Korean: 약속 (yaksok) — one of the most strikingly similar cognates. 약속하다 = 約束する (to promise). 約 (yaku) = 약 (yak), 束 (soku) = 속 (sok).",
+      "example_sentence": "友達と映画の約束をした。",
+      "example_reading": "ともだち と えいが の やくそく を した。",
+      "example_meaning": "I made plans to see a movie with a friend."
+    },
+    {
+      "word": "準備",
+      "reading": "じゅんび",
+      "meanings": [
+        "preparation"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "用意",
+      "category": "near_identical",
+      "context": "Korean: 준비 (junbi) — nearly identical. 준비하다 = 準備する (to prepare). 準 (jun) = 준 (jun), 備 (bi) = 비 (bi).",
+      "example_sentence": "旅行の準備をしている。",
+      "example_reading": "りょこう の じゅんび を して いる。",
+      "example_meaning": "I'm getting ready for a trip."
+    },
+    {
+      "word": "温度",
+      "reading": "おんど",
+      "meanings": [
+        "temperature"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気温",
+      "category": "near_identical",
+      "context": "Korean: 온도 (ondo) — identical in sound. 温 (on) = 온 (on), 度 (do) = 도 (do). The 度 = 도 (do) mapping shows up in 制度/제도, 態度/태도.",
+      "example_sentence": "部屋の温度を下げた。",
+      "example_reading": "へや の おんど を さげた。",
+      "example_meaning": "I lowered the room temperature."
+    },
+    {
+      "word": "道路",
+      "reading": "どうろ",
+      "meanings": [
+        "road"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "道",
+      "category": "near_identical",
+      "context": "Korean: 도로 (doro) — almost the same. 道 (dō) = 도 (do), 路 (ro) = 로 (ro). Japanese long ō frequently shortens to a plain Korean vowel.",
+      "example_sentence": "この道路は夜とても静かだ。",
+      "example_reading": "この どうろ は よる とても しずか だ。",
+      "example_meaning": "This road is very quiet at night."
+    },
+    {
+      "word": "高速道路",
+      "reading": "こうそくどうろ",
+      "meanings": [
+        "expressway",
+        "highway"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "高速",
+      "category": "near_identical",
+      "context": "Korean: 고속도로 (gosokdoro) — a whole phrase that's nearly identical. 高速 = 고속 (gosok), 道路 = 도로 (doro). String the cognates together and full compounds line up.",
+      "example_sentence": "高速道路で渋滞に巻き込まれた。",
+      "example_reading": "こうそく どうろ で じゅうたい に まきこまれた。",
+      "example_meaning": "I got caught in a traffic jam on the expressway."
+    },
+    {
+      "word": "記憶",
+      "reading": "きおく",
+      "meanings": [
+        "memory",
+        "recollection"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "思い出",
+      "category": "time_abstract",
+      "context": "Korean: 기억 (gieok). 기억하다 = 記憶する (to memorize/remember). 記 (ki) = 기 (gi), 憶 (oku) = 억 (eok).",
+      "example_sentence": "子供の頃の記憶はあいまいだ。",
+      "example_reading": "こども の ころ の きおく は あいまい だ。",
+      "example_meaning": "My childhood memories are hazy."
+    },
+    {
+      "word": "家具",
+      "reading": "かぐ",
+      "meanings": [
+        "furniture"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "テーブルや椅子",
+      "category": "everyday",
+      "context": "Korean: 가구 (gagu). 家 (ka) = 가 (ga), 具 (gu) = 구 (gu). Note Japanese voiceless k often = Korean voiced g at the start of a word.",
+      "example_sentence": "新しい家具を買いそろえた。",
+      "example_reading": "あたらしい かぐ を かいそろえた。",
+      "example_meaning": "I bought a full set of new furniture."
+    },
+    {
+      "word": "家族",
+      "reading": "かぞく",
+      "meanings": [
+        "family"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "家庭",
+      "category": "everyday",
+      "context": "Korean: 가족 (gajok). 家 (ka) = 가 (ga), 族 (zoku) = 족 (jok). Japanese ぞ/zo often = Korean 조 (jo).",
+      "example_sentence": "家族と一緒に夕食を食べた。",
+      "example_reading": "かぞく と いっしょ に ゆうしょく を たべた。",
+      "example_meaning": "I had dinner with my family."
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meanings": [
+        "mood",
+        "feeling"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気持ち",
+      "category": "everyday",
+      "context": "Korean: 기분 (gibun). 기분 좋다 = 気分がいい (feel good). 気 (ki) = 기 (gi), 分 (bun) = 분 (bun). A word you'll hear constantly in both languages.",
+      "example_sentence": "散歩したら気分がよくなった。",
+      "example_reading": "さんぽ したら きぶん が よく なった。",
+      "example_meaning": "I felt better after taking a walk."
+    },
+    {
+      "word": "簡単",
+      "reading": "かんたん",
+      "meanings": [
+        "simple",
+        "easy"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "易しい",
+      "category": "descriptive",
+      "context": "Korean: 간단 (gandan). 간단하다 = 簡単だ (to be simple). 簡 (kan) = 간 (gan), 単 (tan) = 단 (dan). Japanese ん before t/d = Korean ㄴ (n).",
+      "example_sentence": "この問題は簡単だ。",
+      "example_reading": "この もんだい は かんたん だ。",
+      "example_meaning": "This problem is easy."
+    },
+    {
+      "word": "満足",
+      "reading": "まんぞく",
+      "meanings": [
+        "satisfaction"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "満ち足りる",
+      "category": "descriptive",
+      "context": "Korean: 만족 (manjok). 만족하다 = 満足する (to be satisfied). 満 (man) = 만 (man), 足 (zoku) = 족 (jok). Same 족 ending as 家族/가족.",
+      "example_sentence": "結果に満足している。",
+      "example_reading": "けっか に まんぞく して いる。",
+      "example_meaning": "I'm satisfied with the result."
+    },
+    {
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meanings": [
+        "famous"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "名高い",
+      "category": "descriptive",
+      "context": "Korean: 유명 (yumyeong). 유명하다 = 有名だ (to be famous). 有 (yū) = 유 (yu), 名 (mei) = 명 (myeong). Japanese 〜めい/mei often = Korean 〜명 (myeong).",
+      "example_sentence": "この店は有名なラーメン屋だ。",
+      "example_reading": "この みせ は ゆうめい な ラーメンや だ。",
+      "example_meaning": "This place is a famous ramen shop."
+    },
+    {
+      "word": "危険",
+      "reading": "きけん",
+      "meanings": [
+        "danger",
+        "risk"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "危ない",
+      "category": "descriptive",
+      "context": "Korean: 위험 (wiheom). 위험하다 = 危険だ (to be dangerous). Less obvious by sound, but the same 危険 root. 険 (ken) = 험 (heom).",
+      "example_sentence": "夜の山道は危険だ。",
+      "example_reading": "よる の やまみち は きけん だ。",
+      "example_meaning": "Mountain paths are dangerous at night."
+    },
+    {
+      "word": "単純",
+      "reading": "たんじゅん",
+      "meanings": [
+        "simple",
+        "plain"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "シンプル",
+      "category": "descriptive",
+      "context": "Korean: 단순 (dansun). 단순하다 = 単純だ (to be simple). 単 (tan) = 단 (dan), 純 (jun) = 순 (sun).",
+      "example_sentence": "考え方が単純すぎる。",
+      "example_reading": "かんがえかた が たんじゅん すぎる。",
+      "example_meaning": "That way of thinking is too simplistic."
+    },
+    {
+      "word": "緊張",
+      "reading": "きんちょう",
+      "meanings": [
+        "tension",
+        "nervousness"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "どきどき",
+      "category": "descriptive",
+      "context": "Korean: 긴장 (ginjang). 긴장하다 = 緊張する (to get nervous). 緊 (kin) = 긴 (gin), 張 (chō) = 장 (jang). Japanese 〜ちょう/chō often = Korean 〜장 (jang).",
+      "example_sentence": "面接の前はとても緊張した。",
+      "example_reading": "めんせつ の まえ は とても きんちょう した。",
+      "example_meaning": "I was very nervous before the interview."
+    },
+    {
+      "word": "運動",
+      "reading": "うんどう",
+      "meanings": [
+        "exercise",
+        "movement",
+        "campaign"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "スポーツ",
+      "category": "everyday",
+      "context": "Korean: 운동 (undong). 운동하다 = 運動する (to exercise). 運 (un) = 운 (un), 動 (dō) = 동 (dong). Japanese 〜どう/dō often = Korean 〜동 (dong).",
+      "example_sentence": "健康のために毎日運動している。",
+      "example_reading": "けんこう の ため に まいにち うんどう して いる。",
+      "example_meaning": "I exercise every day for my health."
+    },
+    {
+      "word": "計算",
+      "reading": "けいさん",
+      "meanings": [
+        "calculation"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "計算する",
+      "category": "everyday",
+      "context": "Korean: 계산 (gyesan). 계산하다 = 計算する (to calculate); also means 'paying the bill' in Korean restaurants. 計 (kei) = 계 (gye), 算 (san) = 산 (san).",
+      "example_sentence": "暗算で計算した。",
+      "example_reading": "あんざん で けいさん した。",
+      "example_meaning": "I calculated it in my head."
+    },
+    {
+      "word": "計画",
+      "reading": "けいかく",
+      "meanings": [
+        "plan"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "プラン",
+      "category": "everyday",
+      "context": "Korean: 계획 (gyehoek). 계획하다 = 計画する (to plan). 計 (kei) = 계 (gye), 画 (kaku) = 획 (hoek). The 計 = 계 (gye) mapping also gives 計算/계산.",
+      "example_sentence": "週末の計画を立てた。",
+      "example_reading": "しゅうまつ の けいかく を たてた。",
+      "example_meaning": "I made plans for the weekend."
+    },
+    {
+      "word": "習慣",
+      "reading": "しゅうかん",
+      "meanings": [
+        "habit",
+        "custom"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "癖",
+      "category": "everyday",
+      "context": "Korean: 습관 (seupgwan). 습관 = 習慣 (habit). 習 (shū) = 습 (seup), 慣 (kan) = 관 (gwan). The 〜慣/館/官 = 관 (gwan) mapping is very productive.",
+      "example_sentence": "早起きの習慣をつけたい。",
+      "example_reading": "はやおき の しゅうかん を つけたい。",
+      "example_meaning": "I want to develop the habit of waking up early."
+    },
+    {
+      "word": "感謝",
+      "reading": "かんしゃ",
+      "meanings": [
+        "gratitude",
+        "thanks"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ありがたい",
+      "category": "everyday",
+      "context": "Korean: 감사 (gamsa). 감사합니다 = a formal 'thank you' (= 感謝します). 感 (kan) = 감 (gam), 謝 (sha) = 사 (sa). Japanese ん before s = Korean ㅁ (m) here.",
+      "example_sentence": "ご協力に感謝します。",
+      "example_reading": "ご きょうりょく に かんしゃ します。",
+      "example_meaning": "Thank you for your cooperation."
+    },
+    {
+      "word": "招待",
+      "reading": "しょうたい",
+      "meanings": [
+        "invitation"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "招く",
+      "category": "everyday",
+      "context": "Korean: 초대 (chodae). 초대하다 = 招待する (to invite). 招 (shō) = 초 (cho), 待 (tai) = 대 (dae). Note Japanese し/しょ can map to Korean ㅊ (ch).",
+      "example_sentence": "結婚式に招待された。",
+      "example_reading": "けっこんしき に しょうたい された。",
+      "example_meaning": "I was invited to a wedding."
+    },
+    {
+      "word": "結婚",
+      "reading": "けっこん",
+      "meanings": [
+        "marriage"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "結婚する",
+      "category": "everyday",
+      "context": "Korean: 결혼 (gyeolhon). 결혼하다 = 結婚する (to marry). 結 (ke[k]) = 결 (gyeol), 婚 (kon) = 혼 (hon). Japanese small っ (gemination) often corresponds to a Korean ㄹ (l) final.",
+      "example_sentence": "二人は来年結婚する。",
+      "example_reading": "ふたり は らいねん けっこん する。",
+      "example_meaning": "The two of them will marry next year."
+    },
+    {
+      "word": "料理",
+      "reading": "りょうり",
+      "meanings": [
+        "cooking",
+        "cuisine",
+        "dish"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "食事",
+      "category": "everyday",
+      "context": "Korean: 요리 (yori). 요리하다 = 料理する (to cook). 料 (ryō) = 요 (yo), 理 (ri) = 리 (ri). Japanese word-initial り/りょ = Korean 이/요 (the r/l is dropped at the start in Korean).",
+      "example_sentence": "母の料理が一番おいしい。",
+      "example_reading": "はは の りょうり が いちばん おいしい。",
+      "example_meaning": "My mother's cooking is the best."
+    },
+    {
+      "word": "写真",
+      "reading": "しゃしん",
+      "meanings": [
+        "photo",
+        "photograph"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "フォト",
+      "category": "everyday",
+      "context": "Korean: 사진 (sajin). 사진 찍다 = 写真を撮る (take a photo). 写 (sha) = 사 (sa), 真 (shin) = 진 (jin).",
+      "example_sentence": "旅行先でたくさん写真を撮った。",
+      "example_reading": "りょこうさき で たくさん しゃしん を とった。",
+      "example_meaning": "I took lots of photos at my travel destination."
+    },
+    {
+      "word": "注意",
+      "reading": "ちゅうい",
+      "meanings": [
+        "caution",
+        "attention",
+        "warning"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気をつける",
+      "category": "everyday",
+      "context": "Korean: 주의 (juui). 注 (chū) = 주 (ju), 意 (i) = 의 (ui). Japanese ちゅ/chu = Korean 주 (ju). Signs in both countries warn with this word.",
+      "example_sentence": "足元に注意してください。",
+      "example_reading": "あしもと に ちゅうい して ください。",
+      "example_meaning": "Please watch your step."
+    },
+    {
+      "word": "安全",
+      "reading": "あんぜん",
+      "meanings": [
+        "safety",
+        "security"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "安心",
+      "category": "everyday",
+      "context": "Korean: 안전 (anjeon). 안전하다 = 安全だ (to be safe). 安 (an) = 안 (an), 全 (zen) = 전 (jeon). Japanese 〜ぜん/zen = Korean 〜전 (jeon).",
+      "example_sentence": "安全のためヘルメットをかぶる。",
+      "example_reading": "あんぜん の ため ヘルメット を かぶる。",
+      "example_meaning": "Wear a helmet for safety."
+    },
+    {
+      "word": "都市",
+      "reading": "とし",
+      "meanings": [
+        "city",
+        "metropolis"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "都会",
+      "category": "places",
+      "context": "Korean: 도시 (dosi). 都 (to) = 도 (do), 市 (shi) = 시 (si). The 市 = 시 (si) mapping is everywhere (市場/시장, 市民/시민).",
+      "example_sentence": "大都市の生活は便利だ。",
+      "example_reading": "だいとし の せいかつ は べんり だ。",
+      "example_meaning": "Life in a big city is convenient."
+    },
+    {
+      "word": "図書館",
+      "reading": "としょかん",
+      "meanings": [
+        "library"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "本を借りる所",
+      "category": "places",
+      "context": "Korean: 도서관 (doseogwan). 図書 (tosho) = 도서 (doseo), 館 (kan) = 관 (gwan). The 〜館 = 관 (gwan) ending recurs in 体育館/체육관, 大使館/대사관.",
+      "example_sentence": "図書館で試験勉強をした。",
+      "example_reading": "としょかん で しけん べんきょう を した。",
+      "example_meaning": "I studied for the exam at the library."
+    },
+    {
+      "word": "公園",
+      "reading": "こうえん",
+      "meanings": [
+        "park"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "遊ぶ所",
+      "category": "places",
+      "context": "Korean: 공원 (gongwon). 公 (kō) = 공 (gong), 園 (en) = 원 (won). The 公 = 공 (gong) mapping gives 公共/공공, 公務員/공무원.",
+      "example_sentence": "公園を散歩するのが日課だ。",
+      "example_reading": "こうえん を さんぽ する の が にっか だ。",
+      "example_meaning": "Walking in the park is my daily routine."
+    },
+    {
+      "word": "病院",
+      "reading": "びょういん",
+      "meanings": [
+        "hospital"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "医者に行く所",
+      "category": "places",
+      "context": "Korean: 병원 (byeongwon). 病 (byō) = 병 (byeong), 院 (in) = 원 (won). Same 〜院 = 원 (won) as 大学院/대학원.",
+      "example_sentence": "風邪をひいて病院に行った。",
+      "example_reading": "かぜ を ひいて びょういん に いった。",
+      "example_meaning": "I caught a cold and went to the hospital."
+    },
+    {
+      "word": "銀行",
+      "reading": "ぎんこう",
+      "meanings": [
+        "bank"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金を預ける所",
+      "category": "places",
+      "context": "Korean: 은행 (eunhaeng). Less obvious by sound but the same 銀行 root. 銀 (gin) = 은 (eun), 行 (kō) = 행 (haeng).",
+      "example_sentence": "銀行で口座を開いた。",
+      "example_reading": "ぎんこう で こうざ を ひらいた。",
+      "example_meaning": "I opened an account at the bank."
+    },
+    {
+      "word": "教室",
+      "reading": "きょうしつ",
+      "meanings": [
+        "classroom"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "授業の部屋",
+      "category": "places",
+      "context": "Korean: 교실 (gyosil). 教 (kyō) = 교 (gyo), 室 (shitsu) = 실 (sil). The 教 = 교 (gyo) mapping gives 教育/교육, 教会/교회.",
+      "example_sentence": "教室はとても静かだった。",
+      "example_reading": "きょうしつ は とても しずか だった。",
+      "example_meaning": "The classroom was very quiet."
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "meanings": [
+        "student"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "生徒",
+      "category": "places",
+      "context": "Korean: 학생 (haksaeng). 学 (gaku) = 학 (hak), 生 (sei) = 생 (saeng). The 学 = 학 (hak) and 生 = 생 (saeng) mappings are two of the most useful to know.",
+      "example_sentence": "私は日本語の学生です。",
+      "example_reading": "わたし は にほんご の がくせい です。",
+      "example_meaning": "I am a student of Japanese."
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meanings": [
+        "teacher",
+        "doctor (form of address)"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "教師",
+      "category": "places",
+      "context": "Korean: 선생 (seonsaeng), politely 선생님 (seonsaengnim). 先 (sen) = 선 (seon), 生 (sei) = 생 (saeng). Same 生 = 생 as 学生/학생.",
+      "example_sentence": "日本語の先生はとても優しい。",
+      "example_reading": "にほんご の せんせい は とても やさしい。",
+      "example_meaning": "My Japanese teacher is very kind."
+    },
+    {
+      "word": "時間",
+      "reading": "じかん",
+      "meanings": [
+        "time",
+        "hour"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "とき",
+      "category": "time_abstract",
+      "context": "Korean: 시간 (sigan). 時 (ji) = 시 (si), 間 (kan) = 간 (gan). The 間 = 간 (gan) mapping gives 空間/공간, 人間/인간.",
+      "example_sentence": "時間がないので急ごう。",
+      "example_reading": "じかん が ない ので いそごう。",
+      "example_meaning": "We're out of time, let's hurry."
+    },
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "meanings": [
+        "the past"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昔",
+      "category": "time_abstract",
+      "context": "Korean: 과거 (gwageo). 過 (ka) = 과 (gwa), 去 (ko) = 거 (geo). Pairs with 未来/미래 and 現在/현재.",
+      "example_sentence": "過去のことは忘れよう。",
+      "example_reading": "かこ の こと は わすれよう。",
+      "example_meaning": "Let's forget about the past."
+    },
+    {
+      "word": "未来",
+      "reading": "みらい",
+      "meanings": [
+        "the future"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "将来",
+      "category": "time_abstract",
+      "context": "Korean: 미래 (mirae). 未 (mi) = 미 (mi), 来 (rai) = 래 (rae). Japanese らい/rai = Korean 래 (rae).",
+      "example_sentence": "明るい未来を信じている。",
+      "example_reading": "あかるい みらい を しんじて いる。",
+      "example_meaning": "I believe in a bright future."
+    },
+    {
+      "word": "現在",
+      "reading": "げんざい",
+      "meanings": [
+        "the present",
+        "now"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "今",
+      "category": "time_abstract",
+      "context": "Korean: 현재 (hyeonjae). 現 (gen) = 현 (hyeon), 在 (zai) = 재 (jae). Japanese げん/gen = Korean 현 (hyeon), as in 現実/현실.",
+      "example_sentence": "現在の状況を説明します。",
+      "example_reading": "げんざい の じょうきょう を せつめい します。",
+      "example_meaning": "I'll explain the current situation."
+    },
+    {
+      "word": "自由",
+      "reading": "じゆう",
+      "meanings": [
+        "freedom",
+        "liberty"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "フリー",
+      "category": "society",
+      "context": "Korean: 자유 (jayu). 自 (ji) = 자 (ja), 由 (yū) = 유 (yu). The 自 = 자 (ja) mapping gives 自動/자동, 自然/자연.",
+      "example_sentence": "言論の自由は大切だ。",
+      "example_reading": "げんろん の じゆう は たいせつ だ。",
+      "example_meaning": "Freedom of speech is important."
+    },
+    {
+      "word": "社会",
+      "reading": "しゃかい",
+      "meanings": [
+        "society"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "世間",
+      "category": "society",
+      "context": "Korean: 사회 (sahoe). 社 (sha) = 사 (sa), 会 (kai) = 회 (hoe). The 会 = 회 (hoe) mapping gives 会社/회사 (note the reversal!), 会議/회의.",
+      "example_sentence": "現代社会は変化が速い。",
+      "example_reading": "げんだい しゃかい は へんか が はやい。",
+      "example_meaning": "Modern society changes quickly."
+    },
+    {
+      "word": "経済",
+      "reading": "けいざい",
+      "meanings": [
+        "economy"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金の動き",
+      "category": "society",
+      "context": "Korean: 경제 (gyeongje). 経 (kei) = 경 (gyeong), 済 (zai) = 제 (je). Japanese けい/kei often = Korean 경 (gyeong), as in 경찰/警察.",
+      "example_sentence": "世界経済が不安定だ。",
+      "example_reading": "せかい けいざい が ふあんてい だ。",
+      "example_meaning": "The world economy is unstable."
+    },
+    {
+      "word": "政府",
+      "reading": "せいふ",
+      "meanings": [
+        "government"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "国の機関",
+      "category": "society",
+      "context": "Korean: 정부 (jeongbu). 政 (sei) = 정 (jeong), 府 (fu) = 부 (bu). Japanese せい/sei = Korean 정 (jeong), as in 정치/政治.",
+      "example_sentence": "政府は新しい政策を発表した。",
+      "example_reading": "せいふ は あたらしい せいさく を はっぴょう した。",
+      "example_meaning": "The government announced a new policy."
+    },
+    {
+      "word": "文化",
+      "reading": "ぶんか",
+      "meanings": [
+        "culture"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "伝統",
+      "category": "society",
+      "context": "Korean: 문화 (munhwa). 文 (bun) = 문 (mun), 化 (ka) = 화 (hwa). The 化 = 화 (hwa) mapping gives 変化/변화, 文化/문화.",
+      "example_sentence": "日本の文化に興味がある。",
+      "example_reading": "にほん の ぶんか に きょうみ が ある。",
+      "example_meaning": "I'm interested in Japanese culture."
+    },
+    {
+      "word": "歴史",
+      "reading": "れきし",
+      "meanings": [
+        "history"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "過去の出来事",
+      "category": "society",
+      "context": "Korean: 역사 (yeoksa). 歴 (reki) = 역 (yeok), 史 (shi) = 사 (sa). Japanese word-initial れ/re drops to a vowel in Korean (역, no r).",
+      "example_sentence": "日本の歴史を勉強している。",
+      "example_reading": "にほん の れきし を べんきょう して いる。",
+      "example_meaning": "I'm studying Japanese history."
+    },
+    {
+      "word": "国家",
+      "reading": "こっか",
+      "meanings": [
+        "nation",
+        "state"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "国",
+      "category": "society",
+      "context": "Korean: 국가 (gukga). 国 (ko[k]) = 국 (guk), 家 (ka) = 가 (ga). The 国 = 국 (guk) mapping gives 韓国/한국, 国民/국민, 外国/외국.",
+      "example_sentence": "国家の安全を守る。",
+      "example_reading": "こっか の あんぜん を まもる。",
+      "example_meaning": "To protect the nation's security."
+    },
+    {
+      "word": "地図",
+      "reading": "ちず",
+      "meanings": [
+        "map"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "マップ",
+      "category": "places",
+      "context": "Korean: 지도 (jido). 地 (chi) = 지 (ji), 図 (zu) = 도 (do). The 地 = 지 (ji) mapping gives 地下/지하, 地震/지진.",
+      "example_sentence": "地図を見ながら歩いた。",
+      "example_reading": "ちず を みながら あるいた。",
+      "example_meaning": "I walked while looking at a map."
+    },
+    {
+      "word": "三角",
+      "reading": "さんかく",
+      "meanings": [
+        "triangle"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "三角形",
+      "category": "near_identical",
+      "context": "Korean: 삼각 (samgak). 三 (san) = 삼 (sam), 角 (kaku) = 각 (gak). Japanese ん before k = Korean ㅁ (m) here. (삼각김밥 = the triangular convenience-store rice ball!)",
+      "example_sentence": "三角の形に切ってください。",
+      "example_reading": "さんかく の かたち に きって ください。",
+      "example_meaning": "Please cut it into a triangle shape."
+    },
+    {
+      "word": "汽車",
+      "reading": "きしゃ",
+      "meanings": [
+        "steam train",
+        "train (older word)"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電車",
+      "category": "near_identical",
+      "context": "Korean: 기차 (gicha) — and in Korean this is the everyday word for 'train'! 汽 (ki) = 기 (gi), 車 (sha) = 차 (cha). Note Japanese しゃ/sha = Korean 차 (cha).",
+      "example_sentence": "昔は汽車で旅をした。",
+      "example_reading": "むかし は きしゃ で たび を した。",
+      "example_meaning": "Long ago, people traveled by steam train."
+    },
+    {
+      "word": "無 → 무",
+      "reading": "む → mu",
+      "meanings": [
+        "pattern: the 'non-/un-' prefix"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "否定の接頭語",
+      "category": "sound_patterns",
+      "context": "PATTERN CARD. Japanese 無 (mu) = Korean 무 (mu), the negation prefix. Once you know it, you can guess: 無料/무료 (free), 無理/무리 (impossible), 無視/무시 (ignore), 無料/무료, 無責任/무책임 (irresponsible). Many Sino prefixes map this cleanly.",
+      "example_sentence": "無料、無理、無視 — all start with 無 = 무.",
+      "example_reading": "むりょう、 むり、 むし。",
+      "example_meaning": "Free, impossible, ignore — all share the 無/무 prefix."
+    },
+    {
+      "word": "学 → 학",
+      "reading": "がく → hak",
+      "meanings": [
+        "pattern: 'study/learning'"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "勉強の漢字",
+      "category": "sound_patterns",
+      "context": "PATTERN CARD. Japanese 学 (gaku) = Korean 학 (hak). Predicts: 学生/학생 (student), 学校/학교 (school), 大学/대학 (university), 学習/학습 (learning), 科学/과학 (science). A Japanese 〜く/ku ending often becomes a Korean ㄱ (k) final consonant.",
+      "example_sentence": "学生、学校、大学 — 学 = 학。",
+      "example_reading": "がくせい、 がっこう、 だいがく。",
+      "example_meaning": "Student, school, university — all share 学/학."
+    },
+    {
+      "word": "国 → 국",
+      "reading": "こく → guk",
+      "meanings": [
+        "pattern: 'country/nation'"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "国の漢字",
+      "category": "sound_patterns",
+      "context": "PATTERN CARD. Japanese 国 (koku) = Korean 국 (guk). Predicts: 韓国/한국 (Korea), 国民/국민 (citizens), 外国/외국 (foreign country), 国家/국가 (nation), 中国/중국 (China). Another 〜く/ku → ㄱ (k) final.",
+      "example_sentence": "韓国、中国、外国 — 国 = 국。",
+      "example_reading": "かんこく、 ちゅうごく、 がいこく。",
+      "example_meaning": "Korea, China, foreign country — all share 国/국."
+    },
+    {
+      "word": "〜館 → 〜관",
+      "reading": "かん → gwan",
+      "meanings": [
+        "pattern: 'hall/building' suffix"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "建物の接尾語",
+      "category": "sound_patterns",
+      "context": "PATTERN CARD. Japanese 〜館 (kan) = Korean 〜관 (gwan), a 'hall/building' suffix. Predicts: 図書館/도서관 (library), 体育館/체육관 (gym), 大使館/대사관 (embassy), 映画館/영화관 (cinema). The same 관 also covers 慣 (習慣/습관) and 官 (官僚/관료).",
+      "example_sentence": "図書館、体育館、大使館 — 〜館 = 〜관。",
+      "example_reading": "としょかん、 たいいくかん、 たいしかん。",
+      "example_meaning": "Library, gym, embassy — all end in 館/관."
+    }
+  ]
+}

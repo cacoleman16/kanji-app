@@ -1,0 +1,3421 @@
+{
+  "deck_id": "genki2-vocab",
+  "deck_name": "Genki 2 Vocab",
+  "version": "1.0",
+  "source": "Hand-curated vocabulary across Genki II lessons 13–23 (Banno et al.).",
+  "learner_level": "N4",
+  "notes": "Vocabulary from Genki II, organized by lesson (L13–L23). Genki II shifts into intermediate territory: potential and conditional forms (L13–L14), volitional and travel (L15), giving/receiving (L16), hearsay (L17), causatives (L18), honorific and humble keigo (L19–L20), passive (L21), causative-passive (L22), and abstract/societal topics (L23). Cards skip items already covered in earlier decks where possible, but include them with new context when the Genki lesson treats them as new vocabulary or grammar fixtures.",
+  "card_count": 323,
+  "categories": [
+    "L13",
+    "L14",
+    "L15",
+    "L16",
+    "L17",
+    "L18",
+    "L19",
+    "L20",
+    "L21",
+    "L22",
+    "L23"
+  ],
+  "cards": [
+    {
+      "word": "〜ことができる",
+      "reading": "ことができる",
+      "meanings": [
+        "can (do something)",
+        "be able to"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "Dictionary form + ことができる. The formal potential."
+    },
+    {
+      "word": "〜られる",
+      "reading": "られる",
+      "meanings": [
+        "potential suffix (ichidan)"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "食べられる — can eat. Ichidan + られる. Same form as passive."
+    },
+    {
+      "word": "〜える",
+      "reading": "える",
+      "meanings": [
+        "potential ending (godan)"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "行く → 行ける, 読む → 読める. Godan -u → -eru."
+    },
+    {
+      "word": "飼う",
+      "reading": "かう",
+      "meanings": [
+        "to keep (a pet)",
+        "to raise (an animal)"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "Same reading as 買う (buy)."
+    },
+    {
+      "word": "ペット",
+      "reading": "ペット",
+      "meanings": [
+        "pet"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": ""
+    },
+    {
+      "word": "〜そう",
+      "reading": "そう",
+      "meanings": [
+        "looks like",
+        "appears to be"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "Adjective stem / verb stem + そう for appearance: 美味しそう — looks delicious."
+    },
+    {
+      "word": "込む",
+      "reading": "こむ",
+      "meanings": [
+        "to be crowded"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "電車が込んでいる — the train is crowded. Often as 込んでいる."
+    },
+    {
+      "word": "乗る",
+      "reading": "のる",
+      "meanings": [
+        "to ride",
+        "to get on"
+      ],
+      "jlpt": "N5",
+      "category": "L13",
+      "context": "〜に乗る (particle に, not を)."
+    },
+    {
+      "word": "降りる",
+      "reading": "おりる",
+      "meanings": [
+        "to get off",
+        "to descend"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "バスを降りる — get off the bus (を)."
+    },
+    {
+      "word": "開く",
+      "reading": "あく",
+      "meanings": [
+        "to open (intransitive)"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "ドアが開く. Pairs with transitive 開ける."
+    },
+    {
+      "word": "閉まる",
+      "reading": "しまる",
+      "meanings": [
+        "to close (intransitive)"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "Pairs with transitive 閉める."
+    },
+    {
+      "word": "始まる",
+      "reading": "はじまる",
+      "meanings": [
+        "to begin (intransitive)"
+      ],
+      "jlpt": "N5",
+      "category": "L13",
+      "context": "Pairs with transitive 始める."
+    },
+    {
+      "word": "終わる",
+      "reading": "おわる",
+      "meanings": [
+        "to end",
+        "to finish"
+      ],
+      "jlpt": "N5",
+      "category": "L13",
+      "context": ""
+    },
+    {
+      "word": "見つかる",
+      "reading": "みつかる",
+      "meanings": [
+        "to be found",
+        "to turn up"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "Intransitive. Pairs with 見つける."
+    },
+    {
+      "word": "見つける",
+      "reading": "みつける",
+      "meanings": [
+        "to find",
+        "to discover"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": ""
+    },
+    {
+      "word": "探す",
+      "reading": "さがす",
+      "meanings": [
+        "to search for",
+        "to look for"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": ""
+    },
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meanings": [
+        "to forget",
+        "to leave behind"
+      ],
+      "jlpt": "N5",
+      "category": "L13",
+      "context": ""
+    },
+    {
+      "word": "思い出す",
+      "reading": "おもいだす",
+      "meanings": [
+        "to remember",
+        "to recall"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": ""
+    },
+    {
+      "word": "覚える",
+      "reading": "おぼえる",
+      "meanings": [
+        "to memorize",
+        "to remember"
+      ],
+      "jlpt": "N5",
+      "category": "L13",
+      "context": "覚えている — to remember (as a state)."
+    },
+    {
+      "word": "気を付ける",
+      "reading": "きをつける",
+      "meanings": [
+        "to be careful"
+      ],
+      "jlpt": "N4",
+      "category": "L13",
+      "context": "気を付けて — be careful (when leaving)."
+    },
+    {
+      "word": "切手",
+      "reading": "きって",
+      "meanings": [
+        "postage stamp"
+      ],
+      "jlpt": "N5",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "葉書",
+      "reading": "はがき",
+      "meanings": [
+        "postcard"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "封筒",
+      "reading": "ふうとう",
+      "meanings": [
+        "envelope"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "小包",
+      "reading": "こづつみ",
+      "meanings": [
+        "package",
+        "parcel"
+      ],
+      "jlpt": "N3",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "船便",
+      "reading": "ふなびん",
+      "meanings": [
+        "sea mail",
+        "surface mail"
+      ],
+      "jlpt": "N3",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "航空便",
+      "reading": "こうくうびん",
+      "meanings": [
+        "airmail"
+      ],
+      "jlpt": "N3",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "送る",
+      "reading": "おくる",
+      "meanings": [
+        "to send",
+        "to see off"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "届く",
+      "reading": "とどく",
+      "meanings": [
+        "to arrive",
+        "to be delivered"
+      ],
+      "jlpt": "N3",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "〜たら",
+      "reading": "たら",
+      "meanings": [
+        "if/when (conditional)"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": "Past form + ら. Most flexible conditional."
+    },
+    {
+      "word": "〜ば",
+      "reading": "ば",
+      "meanings": [
+        "if (conditional)"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": "行けば, 読めば. Often hypothetical."
+    },
+    {
+      "word": "もし",
+      "reading": "もし",
+      "meanings": [
+        "if (hypothetical)"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": "Often paired with 〜たら/〜ば."
+    },
+    {
+      "word": "〜と",
+      "reading": "と",
+      "meanings": [
+        "whenever",
+        "if (consequence)"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": "Habitual/inevitable consequence: 春になると桜が咲く."
+    },
+    {
+      "word": "夏休み",
+      "reading": "なつやすみ",
+      "meanings": [
+        "summer vacation"
+      ],
+      "jlpt": "N5",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "春休み",
+      "reading": "はるやすみ",
+      "meanings": [
+        "spring vacation"
+      ],
+      "jlpt": "N5",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "冬休み",
+      "reading": "ふゆやすみ",
+      "meanings": [
+        "winter vacation"
+      ],
+      "jlpt": "N5",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "連休",
+      "reading": "れんきゅう",
+      "meanings": [
+        "consecutive holidays"
+      ],
+      "jlpt": "N3",
+      "category": "L14",
+      "context": "ゴールデンウィーク is the classic 連休."
+    },
+    {
+      "word": "卒業",
+      "reading": "そつぎょう",
+      "meanings": [
+        "graduation"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "入学",
+      "reading": "にゅうがく",
+      "meanings": [
+        "entering school"
+      ],
+      "jlpt": "N4",
+      "category": "L14",
+      "context": ""
+    },
+    {
+      "word": "〜よう",
+      "reading": "よう",
+      "meanings": [
+        "let's (volitional)",
+        "I shall"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": "Plain volitional. 食べよう, 行こう, しよう."
+    },
+    {
+      "word": "〜ようと思う",
+      "reading": "ようとおもう",
+      "meanings": [
+        "I plan to",
+        "I intend to"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": "Volitional + と思う for intentions."
+    },
+    {
+      "word": "〜つもり",
+      "reading": "つもり",
+      "meanings": [
+        "intend to",
+        "plan to"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": "Dictionary + つもり. Stronger commitment than 〜ようと思う."
+    },
+    {
+      "word": "予定",
+      "reading": "よてい",
+      "meanings": [
+        "plan",
+        "schedule"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": "〜する予定だ — be planning to."
+    },
+    {
+      "word": "海岸",
+      "reading": "かいがん",
+      "meanings": [
+        "seashore",
+        "coast"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "砂浜",
+      "reading": "すなはま",
+      "meanings": [
+        "sandy beach"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "湖",
+      "reading": "みずうみ",
+      "meanings": [
+        "lake"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "森",
+      "reading": "もり",
+      "meanings": [
+        "forest",
+        "woods"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "林",
+      "reading": "はやし",
+      "meanings": [
+        "woods",
+        "grove"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "草",
+      "reading": "くさ",
+      "meanings": [
+        "grass",
+        "weed"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "花",
+      "reading": "はな",
+      "meanings": [
+        "flower"
+      ],
+      "jlpt": "N5",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "葉",
+      "reading": "は",
+      "meanings": [
+        "leaf"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": "Same reading as 歯 (tooth) — different kanji."
+    },
+    {
+      "word": "木",
+      "reading": "き",
+      "meanings": [
+        "tree",
+        "wood"
+      ],
+      "jlpt": "N5",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "星",
+      "reading": "ほし",
+      "meanings": [
+        "star"
+      ],
+      "jlpt": "N5",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "月",
+      "reading": "つき",
+      "meanings": [
+        "moon",
+        "month"
+      ],
+      "jlpt": "N5",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "太陽",
+      "reading": "たいよう",
+      "meanings": [
+        "sun"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": "More formal/scientific than お日様."
+    },
+    {
+      "word": "地球",
+      "reading": "ちきゅう",
+      "meanings": [
+        "earth",
+        "the globe"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "温泉",
+      "reading": "おんせん",
+      "meanings": [
+        "hot spring"
+      ],
+      "jlpt": "N4",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "観光",
+      "reading": "かんこう",
+      "meanings": [
+        "sightseeing"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": "観光客 — tourist. 観光地 — tourist spot."
+    },
+    {
+      "word": "観光客",
+      "reading": "かんこうきゃく",
+      "meanings": [
+        "tourist"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "温泉旅館",
+      "reading": "おんせんりょかん",
+      "meanings": [
+        "hot-spring inn"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "民宿",
+      "reading": "みんしゅく",
+      "meanings": [
+        "family-run inn",
+        "guesthouse"
+      ],
+      "jlpt": "N3",
+      "category": "L15",
+      "context": ""
+    },
+    {
+      "word": "あげる",
+      "reading": "あげる",
+      "meanings": [
+        "to give (to non-superior)"
+      ],
+      "jlpt": "N5",
+      "category": "L16",
+      "context": "You give to others (not yourself). Outward direction."
+    },
+    {
+      "word": "くれる",
+      "reading": "くれる",
+      "meanings": [
+        "to give (to me)"
+      ],
+      "jlpt": "N5",
+      "category": "L16",
+      "context": "Someone gives to me/us. Inward direction."
+    },
+    {
+      "word": "もらう",
+      "reading": "もらう",
+      "meanings": [
+        "to receive"
+      ],
+      "jlpt": "N5",
+      "category": "L16",
+      "context": "From someone else."
+    },
+    {
+      "word": "差し上げる",
+      "reading": "さしあげる",
+      "meanings": [
+        "to give (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L16",
+      "context": "Humble version of あげる, used toward superiors."
+    },
+    {
+      "word": "くださる",
+      "reading": "くださる",
+      "meanings": [
+        "to give (honorific, to me)"
+      ],
+      "jlpt": "N3",
+      "category": "L16",
+      "context": "Honorific of くれる. Irregular: くださいます (not くださります)."
+    },
+    {
+      "word": "いただく",
+      "reading": "いただく",
+      "meanings": [
+        "to receive (humble)",
+        "to eat/drink (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L16",
+      "context": "Humble version of もらう."
+    },
+    {
+      "word": "〜てあげる",
+      "reading": "てあげる",
+      "meanings": [
+        "to do (something) for someone"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": "Te-form + あげる: 友達に教えてあげる."
+    },
+    {
+      "word": "〜てくれる",
+      "reading": "てくれる",
+      "meanings": [
+        "to do (something) for me"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": "Te-form + くれる: 母が作ってくれた — mom made it for me."
+    },
+    {
+      "word": "〜てもらう",
+      "reading": "てもらう",
+      "meanings": [
+        "to get someone to do (something)",
+        "have done"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": "Te-form + もらう: 教えてもらう — have someone teach me."
+    },
+    {
+      "word": "プレゼント",
+      "reading": "プレゼント",
+      "meanings": [
+        "present",
+        "gift"
+      ],
+      "jlpt": "N5",
+      "category": "L16",
+      "context": ""
+    },
+    {
+      "word": "花束",
+      "reading": "はなたば",
+      "meanings": [
+        "bouquet"
+      ],
+      "jlpt": "N3",
+      "category": "L16",
+      "context": ""
+    },
+    {
+      "word": "指輪",
+      "reading": "ゆびわ",
+      "meanings": [
+        "ring"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": "結婚指輪 — wedding ring."
+    },
+    {
+      "word": "父の日",
+      "reading": "ちちのひ",
+      "meanings": [
+        "Father's Day"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": ""
+    },
+    {
+      "word": "母の日",
+      "reading": "ははのひ",
+      "meanings": [
+        "Mother's Day"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": ""
+    },
+    {
+      "word": "バレンタインデー",
+      "reading": "バレンタインデー",
+      "meanings": [
+        "Valentine's Day"
+      ],
+      "jlpt": "N4",
+      "category": "L16",
+      "context": "Women give chocolates to men in Japan; men reciprocate on ホワイトデー (March 14)."
+    },
+    {
+      "word": "〜そうです",
+      "reading": "そうです",
+      "meanings": [
+        "I hear that…",
+        "apparently…"
+      ],
+      "jlpt": "N4",
+      "category": "L17",
+      "context": "Plain form + そうです (hearsay). 雨が降るそうです — I hear it'll rain. Different from 〜そう (looks like)."
+    },
+    {
+      "word": "〜って",
+      "reading": "って",
+      "meanings": [
+        "I heard that…",
+        "quote particle (casual)"
+      ],
+      "jlpt": "N4",
+      "category": "L17",
+      "context": "Casual hearsay/quote. 田中さんは病気だって — they say Tanaka is sick."
+    },
+    {
+      "word": "〜という",
+      "reading": "という",
+      "meanings": [
+        "called",
+        "named",
+        "that is to say"
+      ],
+      "jlpt": "N4",
+      "category": "L17",
+      "context": "〜という人 — a person called ~."
+    },
+    {
+      "word": "噂",
+      "reading": "うわさ",
+      "meanings": [
+        "rumor",
+        "gossip"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "大統領",
+      "reading": "だいとうりょう",
+      "meanings": [
+        "president (of a country)"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "王様",
+      "reading": "おうさま",
+      "meanings": [
+        "king"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "お姫様",
+      "reading": "おひめさま",
+      "meanings": [
+        "princess"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "結婚相手",
+      "reading": "けっこんあいて",
+      "meanings": [
+        "marriage partner"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "恋人",
+      "reading": "こいびと",
+      "meanings": [
+        "lover",
+        "sweetheart"
+      ],
+      "jlpt": "N4",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "独身",
+      "reading": "どくしん",
+      "meanings": [
+        "single",
+        "unmarried"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "離婚",
+      "reading": "りこん",
+      "meanings": [
+        "divorce"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": "離婚する — to divorce."
+    },
+    {
+      "word": "いじめる",
+      "reading": "いじめる",
+      "meanings": [
+        "to bully"
+      ],
+      "jlpt": "N3",
+      "category": "L17",
+      "context": "いじめ — bullying (a social issue word)."
+    },
+    {
+      "word": "無くす",
+      "reading": "なくす",
+      "meanings": [
+        "to lose (something)",
+        "to misplace"
+      ],
+      "jlpt": "N4",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "困る",
+      "reading": "こまる",
+      "meanings": [
+        "to be in trouble",
+        "to be at a loss"
+      ],
+      "jlpt": "N4",
+      "category": "L17",
+      "context": ""
+    },
+    {
+      "word": "〜させる",
+      "reading": "させる",
+      "meanings": [
+        "to make / let someone do (causative)"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "V-causative. 食べさせる — make/let someone eat."
+    },
+    {
+      "word": "〜せる",
+      "reading": "せる",
+      "meanings": [
+        "godan causative ending"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "行く → 行かせる, 読む → 読ませる."
+    },
+    {
+      "word": "〜させてください",
+      "reading": "させてください",
+      "meanings": [
+        "please let me (do)"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "Polite request for permission."
+    },
+    {
+      "word": "親",
+      "reading": "おや",
+      "meanings": [
+        "parent"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "親に〜させる — make a parent do…"
+    },
+    {
+      "word": "娘",
+      "reading": "むすめ",
+      "meanings": [
+        "daughter"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": ""
+    },
+    {
+      "word": "息子",
+      "reading": "むすこ",
+      "meanings": [
+        "son"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": ""
+    },
+    {
+      "word": "お手伝いさん",
+      "reading": "おてつだいさん",
+      "meanings": [
+        "housekeeper",
+        "helper"
+      ],
+      "jlpt": "N3",
+      "category": "L18",
+      "context": ""
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "meanings": [
+        "conversation"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": ""
+    },
+    {
+      "word": "留学",
+      "reading": "りゅうがく",
+      "meanings": [
+        "studying abroad"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "留学する — to study abroad."
+    },
+    {
+      "word": "将来",
+      "reading": "しょうらい",
+      "meanings": [
+        "future"
+      ],
+      "jlpt": "N3",
+      "category": "L18",
+      "context": ""
+    },
+    {
+      "word": "夢",
+      "reading": "ゆめ",
+      "meanings": [
+        "dream",
+        "aspiration"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "夢を見る — to dream."
+    },
+    {
+      "word": "練習",
+      "reading": "れんしゅう",
+      "meanings": [
+        "practice",
+        "training"
+      ],
+      "jlpt": "N4",
+      "category": "L18",
+      "context": "練習する — to practice."
+    },
+    {
+      "word": "いらっしゃる",
+      "reading": "いらっしゃる",
+      "meanings": [
+        "to be (honorific)",
+        "to come / go (honorific)"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "Honorific of いる, 行く, 来る. Irregular: いらっしゃいます."
+    },
+    {
+      "word": "おっしゃる",
+      "reading": "おっしゃる",
+      "meanings": [
+        "to say (honorific)"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "Honorific of 言う. Irregular: おっしゃいます."
+    },
+    {
+      "word": "なさる",
+      "reading": "なさる",
+      "meanings": [
+        "to do (honorific)"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "Honorific of する. Irregular: なさいます."
+    },
+    {
+      "word": "召し上がる",
+      "reading": "めしあがる",
+      "meanings": [
+        "to eat / drink (honorific)"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "Honorific of 食べる/飲む."
+    },
+    {
+      "word": "ご覧になる",
+      "reading": "ごらんになる",
+      "meanings": [
+        "to see (honorific)"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "Honorific of 見る."
+    },
+    {
+      "word": "ご存じ",
+      "reading": "ごぞんじ",
+      "meanings": [
+        "to know (honorific)"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "ご存じですか — do you know?"
+    },
+    {
+      "word": "お休みになる",
+      "reading": "おやすみになる",
+      "meanings": [
+        "to sleep (honorific)"
+      ],
+      "jlpt": "N2",
+      "category": "L19",
+      "context": "Honorific of 寝る."
+    },
+    {
+      "word": "お〜になる",
+      "reading": "おになる",
+      "meanings": [
+        "honorific verb pattern"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "お + verb stem + になる. お読みになる, お書きになる."
+    },
+    {
+      "word": "〜れる/られる",
+      "reading": "れる/られる",
+      "meanings": [
+        "honorific verb suffix"
+      ],
+      "jlpt": "N3",
+      "category": "L19",
+      "context": "Lighter honorific than お〜になる. 行かれる, 来られる. Same form as passive!"
+    },
+    {
+      "word": "申す",
+      "reading": "もうす",
+      "meanings": [
+        "to say (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "〜と申します — I'm called ~ (introduction)."
+    },
+    {
+      "word": "申し上げる",
+      "reading": "もうしあげる",
+      "meanings": [
+        "to say (very humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "お礼申し上げます, お詫び申し上げます."
+    },
+    {
+      "word": "伺う",
+      "reading": "うかがう",
+      "meanings": [
+        "to ask / visit / hear (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Triple-duty humble verb."
+    },
+    {
+      "word": "参る",
+      "reading": "まいる",
+      "meanings": [
+        "to go / come (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Humble of 行く/来る."
+    },
+    {
+      "word": "拝見する",
+      "reading": "はいけんする",
+      "meanings": [
+        "to see (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Humble of 見る."
+    },
+    {
+      "word": "存じる",
+      "reading": "ぞんじる",
+      "meanings": [
+        "to know / think (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Humble of 知る, 思う."
+    },
+    {
+      "word": "おる",
+      "reading": "おる",
+      "meanings": [
+        "to be (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Humble of いる. お世話になっております."
+    },
+    {
+      "word": "いたす",
+      "reading": "いたす",
+      "meanings": [
+        "to do (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Humble of する. お願いいたします."
+    },
+    {
+      "word": "お〜する",
+      "reading": "おする",
+      "meanings": [
+        "humble verb pattern"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "お + verb stem + する. お持ちする, お送りする."
+    },
+    {
+      "word": "〜ております",
+      "reading": "ております",
+      "meanings": [
+        "humble continuous"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "Humble of 〜ています. お待ちしております."
+    },
+    {
+      "word": "よろしくお願いいたします",
+      "reading": "よろしくおねがいいたします",
+      "meanings": [
+        "thank you for your kind consideration (humble)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": "More polite than お願いします."
+    },
+    {
+      "word": "承知いたしました",
+      "reading": "しょうちいたしました",
+      "meanings": [
+        "understood (humble business)"
+      ],
+      "jlpt": "N3",
+      "category": "L20",
+      "context": ""
+    },
+    {
+      "word": "〜れる",
+      "reading": "れる",
+      "meanings": [
+        "passive suffix (godan)"
+      ],
+      "jlpt": "N4",
+      "category": "L21",
+      "context": "Godan -u → -a + れる. 読まれる, 噛まれる."
+    },
+    {
+      "word": "泥棒",
+      "reading": "どろぼう",
+      "meanings": [
+        "thief",
+        "burglar"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": "泥棒に入られる — to be burgled."
+    },
+    {
+      "word": "噛む",
+      "reading": "かむ",
+      "meanings": [
+        "to bite",
+        "to chew"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": "犬に噛まれる — bitten by a dog."
+    },
+    {
+      "word": "踏む",
+      "reading": "ふむ",
+      "meanings": [
+        "to step on"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": "足を踏まれる — to have one's foot stepped on."
+    },
+    {
+      "word": "叱る",
+      "reading": "しかる",
+      "meanings": [
+        "to scold"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": "先生に叱られた — scolded by the teacher."
+    },
+    {
+      "word": "褒める",
+      "reading": "ほめる",
+      "meanings": [
+        "to praise"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "頼む",
+      "reading": "たのむ",
+      "meanings": [
+        "to ask (a favor)",
+        "to order (food)"
+      ],
+      "jlpt": "N4",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "招待する",
+      "reading": "しょうたいする",
+      "meanings": [
+        "to invite"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": "パーティーに招待される — be invited to a party."
+    },
+    {
+      "word": "招待",
+      "reading": "しょうたい",
+      "meanings": [
+        "invitation"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "頼る",
+      "reading": "たよる",
+      "meanings": [
+        "to rely on",
+        "to depend on"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "困らせる",
+      "reading": "こまらせる",
+      "meanings": [
+        "to trouble someone (causative)"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "泣く",
+      "reading": "なく",
+      "meanings": [
+        "to cry",
+        "to weep"
+      ],
+      "jlpt": "N4",
+      "category": "L21",
+      "context": "Don't confuse with 鳴く (animal cry)."
+    },
+    {
+      "word": "笑う",
+      "reading": "わらう",
+      "meanings": [
+        "to laugh",
+        "to smile"
+      ],
+      "jlpt": "N4",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "怒る",
+      "reading": "おこる",
+      "meanings": [
+        "to get angry",
+        "to be furious"
+      ],
+      "jlpt": "N3",
+      "category": "L21",
+      "context": ""
+    },
+    {
+      "word": "〜させられる",
+      "reading": "させられる",
+      "meanings": [
+        "be made to (causative-passive)"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": "V-causative-passive. 食べさせられる — be made to eat."
+    },
+    {
+      "word": "〜される",
+      "reading": "される",
+      "meanings": [
+        "godan causative-passive"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": "Godan -u → -a + される. 読まされる, 行かされる."
+    },
+    {
+      "word": "嫌だ",
+      "reading": "いやだ",
+      "meanings": [
+        "disagreeable",
+        "I don't want to"
+      ],
+      "jlpt": "N4",
+      "category": "L22",
+      "context": ""
+    },
+    {
+      "word": "恥ずかしい",
+      "reading": "はずかしい",
+      "meanings": [
+        "embarrassing",
+        "ashamed",
+        "shy"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": ""
+    },
+    {
+      "word": "残念",
+      "reading": "ざんねん",
+      "meanings": [
+        "regrettable",
+        "disappointing"
+      ],
+      "jlpt": "N4",
+      "category": "L22",
+      "context": "残念です — what a shame."
+    },
+    {
+      "word": "安心",
+      "reading": "あんしん",
+      "meanings": [
+        "relief",
+        "peace of mind"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": "安心する — to feel relieved."
+    },
+    {
+      "word": "心配",
+      "reading": "しんぱい",
+      "meanings": [
+        "worry",
+        "concern"
+      ],
+      "jlpt": "N4",
+      "category": "L22",
+      "context": "心配する — to worry."
+    },
+    {
+      "word": "喜ぶ",
+      "reading": "よろこぶ",
+      "meanings": [
+        "to be glad",
+        "to rejoice"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": ""
+    },
+    {
+      "word": "驚く",
+      "reading": "おどろく",
+      "meanings": [
+        "to be surprised",
+        "to be astonished"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": ""
+    },
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meanings": [
+        "to do one's best",
+        "to persevere"
+      ],
+      "jlpt": "N4",
+      "category": "L22",
+      "context": "頑張って — good luck."
+    },
+    {
+      "word": "必要",
+      "reading": "ひつよう",
+      "meanings": [
+        "necessary"
+      ],
+      "jlpt": "N4",
+      "category": "L22",
+      "context": "na-adj."
+    },
+    {
+      "word": "大切",
+      "reading": "たいせつ",
+      "meanings": [
+        "important",
+        "valuable"
+      ],
+      "jlpt": "N4",
+      "category": "L22",
+      "context": "na-adj."
+    },
+    {
+      "word": "立派",
+      "reading": "りっぱ",
+      "meanings": [
+        "splendid",
+        "admirable",
+        "grand"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": "na-adj."
+    },
+    {
+      "word": "複雑",
+      "reading": "ふくざつ",
+      "meanings": [
+        "complicated",
+        "complex"
+      ],
+      "jlpt": "N3",
+      "category": "L22",
+      "context": "na-adj."
+    },
+    {
+      "word": "環境",
+      "reading": "かんきょう",
+      "meanings": [
+        "environment"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "自然環境 — natural environment."
+    },
+    {
+      "word": "自然",
+      "reading": "しぜん",
+      "meanings": [
+        "nature"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "宇宙",
+      "reading": "うちゅう",
+      "meanings": [
+        "universe",
+        "space",
+        "cosmos"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "公害",
+      "reading": "こうがい",
+      "meanings": [
+        "pollution"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "温暖化",
+      "reading": "おんだんか",
+      "meanings": [
+        "global warming"
+      ],
+      "jlpt": "N2",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "リサイクル",
+      "reading": "リサイクル",
+      "meanings": [
+        "recycling"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "ゴミ",
+      "reading": "ゴミ",
+      "meanings": [
+        "garbage",
+        "trash"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "資源",
+      "reading": "しげん",
+      "meanings": [
+        "resources"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "天然資源 — natural resources."
+    },
+    {
+      "word": "省エネ",
+      "reading": "しょうエネ",
+      "meanings": [
+        "energy conservation"
+      ],
+      "jlpt": "N2",
+      "category": "L23",
+      "context": "省エネルギー の short form."
+    },
+    {
+      "word": "電気",
+      "reading": "でんき",
+      "meanings": [
+        "electricity",
+        "light (electric)"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "水",
+      "reading": "みず",
+      "meanings": [
+        "water"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "原料",
+      "reading": "げんりょう",
+      "meanings": [
+        "raw material"
+      ],
+      "jlpt": "N2",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "森林",
+      "reading": "しんりん",
+      "meanings": [
+        "forest"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "伐採",
+      "reading": "ばっさい",
+      "meanings": [
+        "deforestation",
+        "logging"
+      ],
+      "jlpt": "N1",
+      "category": "L23",
+      "context": "森林伐採 — deforestation."
+    },
+    {
+      "word": "絶滅",
+      "reading": "ぜつめつ",
+      "meanings": [
+        "extinction"
+      ],
+      "jlpt": "N1",
+      "category": "L23",
+      "context": "絶滅危惧種 — endangered species."
+    },
+    {
+      "word": "動物",
+      "reading": "どうぶつ",
+      "meanings": [
+        "animal"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "植物",
+      "reading": "しょくぶつ",
+      "meanings": [
+        "plant"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "鳥",
+      "reading": "とり",
+      "meanings": [
+        "bird"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "魚",
+      "reading": "さかな",
+      "meanings": [
+        "fish"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "虫",
+      "reading": "むし",
+      "meanings": [
+        "bug",
+        "insect"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "平和",
+      "reading": "へいわ",
+      "meanings": [
+        "peace"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "戦争",
+      "reading": "せんそう",
+      "meanings": [
+        "war"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "歴史",
+      "reading": "れきし",
+      "meanings": [
+        "history"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "文化",
+      "reading": "ぶんか",
+      "meanings": [
+        "culture"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "伝統",
+      "reading": "でんとう",
+      "meanings": [
+        "tradition"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "伝統的 — traditional."
+    },
+    {
+      "word": "社会",
+      "reading": "しゃかい",
+      "meanings": [
+        "society"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "政治",
+      "reading": "せいじ",
+      "meanings": [
+        "politics"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "経済",
+      "reading": "けいざい",
+      "meanings": [
+        "economy"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "教育",
+      "reading": "きょういく",
+      "meanings": [
+        "education"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "科学",
+      "reading": "かがく",
+      "meanings": [
+        "science"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "技術",
+      "reading": "ぎじゅつ",
+      "meanings": [
+        "technology",
+        "technique"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "芸術",
+      "reading": "げいじゅつ",
+      "meanings": [
+        "art",
+        "the arts"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "医学",
+      "reading": "いがく",
+      "meanings": [
+        "medicine (the field)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "宗教",
+      "reading": "しゅうきょう",
+      "meanings": [
+        "religion"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "信じる",
+      "reading": "しんじる",
+      "meanings": [
+        "to believe",
+        "to trust"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "考える",
+      "reading": "かんがえる",
+      "meanings": [
+        "to think",
+        "to consider"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "知識",
+      "reading": "ちしき",
+      "meanings": [
+        "knowledge"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "経験",
+      "reading": "けいけん",
+      "meanings": [
+        "experience"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "meanings": [
+        "problem",
+        "question"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "解決",
+      "reading": "かいけつ",
+      "meanings": [
+        "solution",
+        "resolution"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "解決する — to solve."
+    },
+    {
+      "word": "努力",
+      "reading": "どりょく",
+      "meanings": [
+        "effort"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "努力する — to make an effort."
+    },
+    {
+      "word": "成功",
+      "reading": "せいこう",
+      "meanings": [
+        "success"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "成功する — to succeed."
+    },
+    {
+      "word": "失敗",
+      "reading": "しっぱい",
+      "meanings": [
+        "failure",
+        "mistake"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "失敗する — to fail."
+    },
+    {
+      "word": "事件",
+      "reading": "じけん",
+      "meanings": [
+        "incident",
+        "case"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "事故",
+      "reading": "じこ",
+      "meanings": [
+        "accident"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "交通事故 — traffic accident."
+    },
+    {
+      "word": "地震",
+      "reading": "じしん",
+      "meanings": [
+        "earthquake"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "台風",
+      "reading": "たいふう",
+      "meanings": [
+        "typhoon"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "火事",
+      "reading": "かじ",
+      "meanings": [
+        "fire (disaster)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "救急車",
+      "reading": "きゅうきゅうしゃ",
+      "meanings": [
+        "ambulance"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "救急車を呼ぶ — call an ambulance."
+    },
+    {
+      "word": "消防車",
+      "reading": "しょうぼうしゃ",
+      "meanings": [
+        "fire engine"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "警察",
+      "reading": "けいさつ",
+      "meanings": [
+        "police"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "110番",
+      "reading": "ひゃくとおばん",
+      "meanings": [
+        "110 (police emergency number)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "119番",
+      "reading": "ひゃくじゅうきゅうばん",
+      "meanings": [
+        "119 (fire/ambulance number)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "アナウンス",
+      "reading": "アナウンス",
+      "meanings": [
+        "announcement"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "番組",
+      "reading": "ばんぐみ",
+      "meanings": [
+        "TV/radio program"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "ニュース",
+      "reading": "ニュース",
+      "meanings": [
+        "news"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "放送",
+      "reading": "ほうそう",
+      "meanings": [
+        "broadcast"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "生放送 — live broadcast."
+    },
+    {
+      "word": "記者",
+      "reading": "きしゃ",
+      "meanings": [
+        "reporter",
+        "journalist"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "作家",
+      "reading": "さっか",
+      "meanings": [
+        "author",
+        "writer"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "作品",
+      "reading": "さくひん",
+      "meanings": [
+        "a work (of art, etc.)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "小説",
+      "reading": "しょうせつ",
+      "meanings": [
+        "novel",
+        "fiction"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "漫画",
+      "reading": "まんが",
+      "meanings": [
+        "manga",
+        "comics"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "映画",
+      "reading": "えいが",
+      "meanings": [
+        "movie",
+        "film"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "監督",
+      "reading": "かんとく",
+      "meanings": [
+        "director",
+        "manager"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "映画監督 — film director. 野球監督 — baseball coach."
+    },
+    {
+      "word": "俳優",
+      "reading": "はいゆう",
+      "meanings": [
+        "actor"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "歌手",
+      "reading": "かしゅ",
+      "meanings": [
+        "singer"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "スター",
+      "reading": "スター",
+      "meanings": [
+        "star (celebrity)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "人気",
+      "reading": "にんき",
+      "meanings": [
+        "popularity"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "人気がある — to be popular."
+    },
+    {
+      "word": "有名",
+      "reading": "ゆうめい",
+      "meanings": [
+        "famous"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "na-adj."
+    },
+    {
+      "word": "特別",
+      "reading": "とくべつ",
+      "meanings": [
+        "special"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "na-adj."
+    },
+    {
+      "word": "普通",
+      "reading": "ふつう",
+      "meanings": [
+        "normal",
+        "usual",
+        "ordinary"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "普通電車 — local train."
+    },
+    {
+      "word": "特に",
+      "reading": "とくに",
+      "meanings": [
+        "especially",
+        "particularly"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "急に",
+      "reading": "きゅうに",
+      "meanings": [
+        "suddenly"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "突然",
+      "reading": "とつぜん",
+      "meanings": [
+        "suddenly",
+        "abruptly"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "More formal than 急に."
+    },
+    {
+      "word": "最近",
+      "reading": "さいきん",
+      "meanings": [
+        "recently",
+        "lately"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "最後",
+      "reading": "さいご",
+      "meanings": [
+        "last",
+        "final",
+        "end"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "最初",
+      "reading": "さいしょ",
+      "meanings": [
+        "first",
+        "beginning"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "以上",
+      "reading": "いじょう",
+      "meanings": [
+        "more than",
+        "above",
+        "that's all"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "100円以上 — 100 yen or more."
+    },
+    {
+      "word": "以下",
+      "reading": "いか",
+      "meanings": [
+        "less than",
+        "below"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "以内",
+      "reading": "いない",
+      "meanings": [
+        "within",
+        "inside"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "一週間以内 — within one week."
+    },
+    {
+      "word": "そのため",
+      "reading": "そのため",
+      "meanings": [
+        "because of that",
+        "for that reason"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "その上",
+      "reading": "そのうえ",
+      "meanings": [
+        "moreover",
+        "besides"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "しかし",
+      "reading": "しかし",
+      "meanings": [
+        "however",
+        "but"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "More formal than でも."
+    },
+    {
+      "word": "または",
+      "reading": "または",
+      "meanings": [
+        "or",
+        "alternatively"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "つまり",
+      "reading": "つまり",
+      "meanings": [
+        "in other words",
+        "that is"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "例えば",
+      "reading": "たとえば",
+      "meanings": [
+        "for example"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meanings": [
+        "actually",
+        "in fact"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "実際",
+      "reading": "じっさい",
+      "meanings": [
+        "actually",
+        "in reality"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "確かに",
+      "reading": "たしかに",
+      "meanings": [
+        "certainly",
+        "indeed"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "本当",
+      "reading": "ほんとう",
+      "meanings": [
+        "truth",
+        "really"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "本当に — really."
+    },
+    {
+      "word": "嘘",
+      "reading": "うそ",
+      "meanings": [
+        "lie",
+        "no way!"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "嘘をつく — to tell a lie."
+    },
+    {
+      "word": "〜のに",
+      "reading": "のに",
+      "meanings": [
+        "even though",
+        "despite"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "Implies frustration."
+    },
+    {
+      "word": "〜ても",
+      "reading": "ても",
+      "meanings": [
+        "even if",
+        "even though"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "〜から",
+      "reading": "から",
+      "meanings": [
+        "because",
+        "since"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": "Speaker's reasoning."
+    },
+    {
+      "word": "〜ので",
+      "reading": "ので",
+      "meanings": [
+        "because (soft)"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "More objective/softer than から."
+    },
+    {
+      "word": "〜ように",
+      "reading": "ように",
+      "meanings": [
+        "so that",
+        "in such a way"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "忘れないように — so that I don't forget."
+    },
+    {
+      "word": "〜ために",
+      "reading": "ために",
+      "meanings": [
+        "for the sake of",
+        "in order to"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "〜らしい",
+      "reading": "らしい",
+      "meanings": [
+        "seems like",
+        "apparently"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "〜みたい",
+      "reading": "みたい",
+      "meanings": [
+        "like",
+        "seems"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "Casual form."
+    },
+    {
+      "word": "〜ようだ",
+      "reading": "ようだ",
+      "meanings": [
+        "seems like",
+        "as if"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "More formal than 〜みたい."
+    },
+    {
+      "word": "〜場合",
+      "reading": "ばあい",
+      "meanings": [
+        "case",
+        "situation"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "〜場合は — in the case of..."
+    },
+    {
+      "word": "〜ところ",
+      "reading": "ところ",
+      "meanings": [
+        "place",
+        "point",
+        "aspect"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "Temporal: 食べるところ (about to eat), 食べたところ (just ate)."
+    },
+    {
+      "word": "〜こと",
+      "reading": "こと",
+      "meanings": [
+        "thing (abstract)",
+        "matter",
+        "fact"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "Used to nominalize verbs: 読むこと — reading."
+    },
+    {
+      "word": "〜の",
+      "reading": "の",
+      "meanings": [
+        "nominalizer (casual)"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "見るのが好き — I like seeing/watching."
+    },
+    {
+      "word": "〜ばかり",
+      "reading": "ばかり",
+      "meanings": [
+        "only",
+        "just done"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "Two senses: only/limit + recency."
+    },
+    {
+      "word": "〜だけ",
+      "reading": "だけ",
+      "meanings": [
+        "only",
+        "just"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "〜しか",
+      "reading": "しか",
+      "meanings": [
+        "only (with negative)"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "1000円しかない — I only have 1000 yen."
+    },
+    {
+      "word": "〜まで",
+      "reading": "まで",
+      "meanings": [
+        "until",
+        "to",
+        "even"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "〜までに",
+      "reading": "までに",
+      "meanings": [
+        "by (deadline)"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "明日までに — by tomorrow."
+    },
+    {
+      "word": "必ず",
+      "reading": "かならず",
+      "meanings": [
+        "always",
+        "certainly",
+        "without fail"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "きっと",
+      "reading": "きっと",
+      "meanings": [
+        "surely",
+        "probably"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "もちろん",
+      "reading": "もちろん",
+      "meanings": [
+        "of course",
+        "certainly"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "絶対",
+      "reading": "ぜったい",
+      "meanings": [
+        "absolutely",
+        "never (with neg)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "絶対に."
+    },
+    {
+      "word": "なかなか",
+      "reading": "なかなか",
+      "meanings": [
+        "very",
+        "quite",
+        "not easily (with neg)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "なかなか上手 — quite skilled. With negative: not easily."
+    },
+    {
+      "word": "ぜひ",
+      "reading": "ぜひ",
+      "meanings": [
+        "by all means",
+        "definitely"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "ぜひ来てください — please do come."
+    },
+    {
+      "word": "是非",
+      "reading": "ぜひ",
+      "meanings": [
+        "by all means (kanji)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "Often written in kana."
+    },
+    {
+      "word": "だんだん",
+      "reading": "だんだん",
+      "meanings": [
+        "gradually",
+        "little by little"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "どんどん",
+      "reading": "どんどん",
+      "meanings": [
+        "rapidly",
+        "more and more"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "ますます",
+      "reading": "ますます",
+      "meanings": [
+        "more and more",
+        "increasingly"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "ちっとも",
+      "reading": "ちっとも",
+      "meanings": [
+        "not at all",
+        "not in the slightest"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "With negative."
+    },
+    {
+      "word": "全く",
+      "reading": "まったく",
+      "meanings": [
+        "completely",
+        "entirely (with neg: not at all)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "間違える",
+      "reading": "まちがえる",
+      "meanings": [
+        "to make a mistake",
+        "to confuse"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "間違い",
+      "reading": "まちがい",
+      "meanings": [
+        "mistake"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "間違いない — for sure."
+    },
+    {
+      "word": "正しい",
+      "reading": "ただしい",
+      "meanings": [
+        "correct",
+        "right"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meanings": [
+        "to understand",
+        "to know"
+      ],
+      "jlpt": "N5",
+      "category": "L23",
+      "context": "Takes が, not を."
+    },
+    {
+      "word": "理解",
+      "reading": "りかい",
+      "meanings": [
+        "understanding"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "理解する — to understand (more formal)."
+    },
+    {
+      "word": "気がする",
+      "reading": "きがする",
+      "meanings": [
+        "to have a feeling",
+        "to feel like"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "気になる",
+      "reading": "きになる",
+      "meanings": [
+        "to be on one's mind",
+        "to bother"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "気にする",
+      "reading": "きにする",
+      "meanings": [
+        "to mind",
+        "to worry about"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "気にしないで — don't worry about it."
+    },
+    {
+      "word": "気が付く",
+      "reading": "きがつく",
+      "meanings": [
+        "to notice",
+        "to realize"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "気持ち",
+      "reading": "きもち",
+      "meanings": [
+        "feeling",
+        "mood"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meanings": [
+        "mood",
+        "feeling"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "感じ",
+      "reading": "かんじ",
+      "meanings": [
+        "feeling",
+        "impression"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "〜感じがする — feel like."
+    },
+    {
+      "word": "感想",
+      "reading": "かんそう",
+      "meanings": [
+        "impressions",
+        "thoughts"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "感想を聞かせて — let me hear your thoughts."
+    },
+    {
+      "word": "意見",
+      "reading": "いけん",
+      "meanings": [
+        "opinion",
+        "view"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "理由",
+      "reading": "りゆう",
+      "meanings": [
+        "reason"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "原因",
+      "reading": "げんいん",
+      "meanings": [
+        "cause"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "結果",
+      "reading": "けっか",
+      "meanings": [
+        "result",
+        "consequence"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "目的",
+      "reading": "もくてき",
+      "meanings": [
+        "purpose",
+        "aim"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "目標",
+      "reading": "もくひょう",
+      "meanings": [
+        "goal",
+        "target"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "夢中",
+      "reading": "むちゅう",
+      "meanings": [
+        "absorbed in",
+        "crazy about"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "〜に夢中になる — get absorbed in."
+    },
+    {
+      "word": "我慢",
+      "reading": "がまん",
+      "meanings": [
+        "patience",
+        "endurance"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "我慢する — to endure."
+    },
+    {
+      "word": "遠慮",
+      "reading": "えんりょ",
+      "meanings": [
+        "restraint",
+        "reserve"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "遠慮しないで — don't hesitate."
+    },
+    {
+      "word": "礼儀",
+      "reading": "れいぎ",
+      "meanings": [
+        "manners",
+        "etiquette"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "挨拶",
+      "reading": "あいさつ",
+      "meanings": [
+        "greeting"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "挨拶する — to greet."
+    },
+    {
+      "word": "お辞儀",
+      "reading": "おじぎ",
+      "meanings": [
+        "bow (greeting)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "お辞儀する — to bow."
+    },
+    {
+      "word": "握手",
+      "reading": "あくしゅ",
+      "meanings": [
+        "handshake"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "握手する — to shake hands."
+    },
+    {
+      "word": "敬語",
+      "reading": "けいご",
+      "meanings": [
+        "honorific language",
+        "keigo"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "丁寧",
+      "reading": "ていねい",
+      "meanings": [
+        "polite",
+        "careful"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "na-adj."
+    },
+    {
+      "word": "失礼",
+      "reading": "しつれい",
+      "meanings": [
+        "rude",
+        "excuse me"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "na-adj + interjection."
+    },
+    {
+      "word": "恥",
+      "reading": "はじ",
+      "meanings": [
+        "shame"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "恥をかく — to be shamed/embarrassed."
+    },
+    {
+      "word": "自慢",
+      "reading": "じまん",
+      "meanings": [
+        "boasting",
+        "pride"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "自慢する — to brag."
+    },
+    {
+      "word": "才能",
+      "reading": "さいのう",
+      "meanings": [
+        "talent",
+        "ability"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "能力",
+      "reading": "のうりょく",
+      "meanings": [
+        "ability",
+        "capability"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "性格",
+      "reading": "せいかく",
+      "meanings": [
+        "personality",
+        "character"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "印象",
+      "reading": "いんしょう",
+      "meanings": [
+        "impression"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "第一印象 — first impression."
+    },
+    {
+      "word": "友情",
+      "reading": "ゆうじょう",
+      "meanings": [
+        "friendship"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "愛",
+      "reading": "あい",
+      "meanings": [
+        "love"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "愛する — to love."
+    },
+    {
+      "word": "恋",
+      "reading": "こい",
+      "meanings": [
+        "love (romantic)"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "恋をする — to fall in love."
+    },
+    {
+      "word": "感動",
+      "reading": "かんどう",
+      "meanings": [
+        "being moved",
+        "deep emotion"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "感動する — to be moved."
+    },
+    {
+      "word": "記憶",
+      "reading": "きおく",
+      "meanings": [
+        "memory",
+        "recollection"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "想像",
+      "reading": "そうぞう",
+      "meanings": [
+        "imagination"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "想像する — to imagine."
+    },
+    {
+      "word": "発見",
+      "reading": "はっけん",
+      "meanings": [
+        "discovery"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "発明",
+      "reading": "はつめい",
+      "meanings": [
+        "invention"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "研究",
+      "reading": "けんきゅう",
+      "meanings": [
+        "research"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "研究する — to research."
+    },
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meanings": [
+        "meeting",
+        "conference"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "発表",
+      "reading": "はっぴょう",
+      "meanings": [
+        "announcement",
+        "presentation"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "説明",
+      "reading": "せつめい",
+      "meanings": [
+        "explanation"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": "説明する — to explain."
+    },
+    {
+      "word": "質問",
+      "reading": "しつもん",
+      "meanings": [
+        "question"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": "質問する — to ask a question."
+    },
+    {
+      "word": "答える",
+      "reading": "こたえる",
+      "meanings": [
+        "to answer"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "答え",
+      "reading": "こたえ",
+      "meanings": [
+        "answer"
+      ],
+      "jlpt": "N4",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "卒業式",
+      "reading": "そつぎょうしき",
+      "meanings": [
+        "graduation ceremony"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    },
+    {
+      "word": "入学式",
+      "reading": "にゅうがくしき",
+      "meanings": [
+        "matriculation ceremony"
+      ],
+      "jlpt": "N3",
+      "category": "L23",
+      "context": ""
+    }
+  ]
+}

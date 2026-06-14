@@ -5,7 +5,7 @@
   "source": "あずまきよひこ「よつばと！」第1巻〜第5巻（電撃コミックス）",
   "learner_level": "N3",
   "notes": "Vocabulary drawn from Yotsuba&! volumes 1–5 that is likely to trip up an N3 learner. The manga uses highly colloquial, child-directed speech, heavy onomatopoeia, and casual contractions not often taught in textbooks. This deck targets: (1) words written in kanji that N3 learners may not recognise, (2) colloquial grammar words and sentence-final particles, (3) onomatopoeia that carry emotional or physical nuance, and (4) everyday words whose readings are deceptively tricky. Words well within N4–N3 range are excluded.",
-  "card_count": 58,
+  "card_count": 100,
   "priority_guide": {
     "high": "Learn first — appears frequently and blocks comprehension of whole exchanges.",
     "medium": "Learn after high priority — enriches understanding; context often helps.",
@@ -35,7 +35,10 @@
     {
       "word": "引っ越し",
       "reading": "ひっこし",
-      "meanings": ["moving house", "relocation"],
+      "meanings": [
+        "moving house",
+        "relocation"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -50,7 +53,10 @@
     {
       "word": "ご近所",
       "reading": "ごきんじょ",
-      "meanings": ["neighbourhood", "the neighbours (polite)"],
+      "meanings": [
+        "neighbourhood",
+        "the neighbours (polite)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -65,7 +71,11 @@
     {
       "word": "挨拶",
       "reading": "あいさつ",
-      "meanings": ["greeting", "salutation", "introduction visit"],
+      "meanings": [
+        "greeting",
+        "salutation",
+        "introduction visit"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -80,7 +90,10 @@
     {
       "word": "お邪魔します",
       "reading": "おじゃまします",
-      "meanings": ["excuse me for intruding", "sorry to bother you (said when entering someone's home)"],
+      "meanings": [
+        "excuse me for intruding",
+        "sorry to bother you (said when entering someone's home)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -95,7 +108,11 @@
     {
       "word": "仕方ない",
       "reading": "しかたない",
-      "meanings": ["can't be helped", "nothing to be done", "it is what it is"],
+      "meanings": [
+        "can't be helped",
+        "nothing to be done",
+        "it is what it is"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -110,7 +127,12 @@
     {
       "word": "当たり前",
       "reading": "あたりまえ",
-      "meanings": ["natural", "obvious", "of course", "taken for granted"],
+      "meanings": [
+        "natural",
+        "obvious",
+        "of course",
+        "taken for granted"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -125,7 +147,12 @@
     {
       "word": "不思議",
       "reading": "ふしぎ",
-      "meanings": ["mysterious", "strange", "wonderful", "curious"],
+      "meanings": [
+        "mysterious",
+        "strange",
+        "wonderful",
+        "curious"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -140,7 +167,12 @@
     {
       "word": "素直",
       "reading": "すなお",
-      "meanings": ["honest", "obedient", "straightforward", "naive and pure"],
+      "meanings": [
+        "honest",
+        "obedient",
+        "straightforward",
+        "naive and pure"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -155,7 +187,10 @@
     {
       "word": "迷子",
       "reading": "まいご",
-      "meanings": ["lost child", "person who has lost their way"],
+      "meanings": [
+        "lost child",
+        "person who has lost their way"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -170,7 +205,11 @@
     {
       "word": "約束",
       "reading": "やくそく",
-      "meanings": ["promise", "appointment", "arrangement"],
+      "meanings": [
+        "promise",
+        "appointment",
+        "arrangement"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -185,7 +224,10 @@
     {
       "word": "縁側",
       "reading": "えんがわ",
-      "meanings": ["veranda", "wooden corridor/platform along the edge of a traditional Japanese house"],
+      "meanings": [
+        "veranda",
+        "wooden corridor/platform along the edge of a traditional Japanese house"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -200,7 +242,12 @@
     {
       "word": "片付ける",
       "reading": "かたづける",
-      "meanings": ["to tidy up", "to put away", "to clean up", "to deal with"],
+      "meanings": [
+        "to tidy up",
+        "to put away",
+        "to clean up",
+        "to deal with"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -215,7 +262,10 @@
     {
       "word": "洗濯",
       "reading": "せんたく",
-      "meanings": ["laundry", "washing clothes"],
+      "meanings": [
+        "laundry",
+        "washing clothes"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -230,7 +280,11 @@
     {
       "word": "手伝う",
       "reading": "てつだう",
-      "meanings": ["to help", "to assist", "to lend a hand"],
+      "meanings": [
+        "to help",
+        "to assist",
+        "to lend a hand"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -245,7 +299,10 @@
     {
       "word": "布団",
       "reading": "ふとん",
-      "meanings": ["futon", "Japanese padded bedding"],
+      "meanings": [
+        "futon",
+        "Japanese padded bedding"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -260,7 +317,10 @@
     {
       "word": "買い物",
       "reading": "かいもの",
-      "meanings": ["shopping", "purchasing"],
+      "meanings": [
+        "shopping",
+        "purchasing"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -275,7 +335,10 @@
     {
       "word": "虫取り",
       "reading": "むしとり",
-      "meanings": ["bug catching", "insect collecting"],
+      "meanings": [
+        "bug catching",
+        "insect collecting"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -290,7 +353,9 @@
     {
       "word": "セミ",
       "reading": "せみ",
-      "meanings": ["cicada"],
+      "meanings": [
+        "cicada"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -305,7 +370,10 @@
     {
       "word": "遊園地",
       "reading": "ゆうえんち",
-      "meanings": ["amusement park", "theme park"],
+      "meanings": [
+        "amusement park",
+        "theme park"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -320,7 +388,11 @@
     {
       "word": "農家",
       "reading": "のうか",
-      "meanings": ["farming household", "farmer's house", "farm family"],
+      "meanings": [
+        "farming household",
+        "farmer's house",
+        "farm family"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -335,7 +407,10 @@
     {
       "word": "散歩",
       "reading": "さんぽ",
-      "meanings": ["walk", "stroll"],
+      "meanings": [
+        "walk",
+        "stroll"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -350,7 +425,10 @@
     {
       "word": "翌日",
       "reading": "よくじつ",
-      "meanings": ["the next day", "the following day"],
+      "meanings": [
+        "the next day",
+        "the following day"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -365,7 +443,11 @@
     {
       "word": "電線",
       "reading": "でんせん",
-      "meanings": ["power line", "electric wire", "telephone line"],
+      "meanings": [
+        "power line",
+        "electric wire",
+        "telephone line"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -380,7 +462,9 @@
     {
       "word": "自転車",
       "reading": "じてんしゃ",
-      "meanings": ["bicycle"],
+      "meanings": [
+        "bicycle"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -395,7 +479,10 @@
     {
       "word": "牛乳",
       "reading": "ぎゅうにゅう",
-      "meanings": ["cow's milk", "milk"],
+      "meanings": [
+        "cow's milk",
+        "milk"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -410,7 +497,11 @@
     {
       "word": "はしゃぐ",
       "reading": "はしゃぐ",
-      "meanings": ["to frolic", "to be overexcited", "to make a racket from excitement"],
+      "meanings": [
+        "to frolic",
+        "to be overexcited",
+        "to make a racket from excitement"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -425,7 +516,12 @@
     {
       "word": "ぼんやり",
       "reading": "ぼんやり",
-      "meanings": ["absent-mindedly", "vaguely", "hazily", "spaced out"],
+      "meanings": [
+        "absent-mindedly",
+        "vaguely",
+        "hazily",
+        "spaced out"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -440,7 +536,10 @@
     {
       "word": "うろうろ",
       "reading": "うろうろ",
-      "meanings": ["wandering around aimlessly", "milling about"],
+      "meanings": [
+        "wandering around aimlessly",
+        "milling about"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -455,7 +554,11 @@
     {
       "word": "わくわく",
       "reading": "わくわく",
-      "meanings": ["excited", "thrilled", "with anticipation (positive)"],
+      "meanings": [
+        "excited",
+        "thrilled",
+        "with anticipation (positive)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -470,7 +573,11 @@
     {
       "word": "どきどき",
       "reading": "どきどき",
-      "meanings": ["heart pounding", "nervous excitement", "thudding heartbeat"],
+      "meanings": [
+        "heart pounding",
+        "nervous excitement",
+        "thudding heartbeat"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -485,7 +592,11 @@
     {
       "word": "ぴかぴか",
       "reading": "ぴかぴか",
-      "meanings": ["sparkling clean", "gleaming", "brand new and shiny"],
+      "meanings": [
+        "sparkling clean",
+        "gleaming",
+        "brand new and shiny"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -500,7 +611,11 @@
     {
       "word": "ぐるぐる",
       "reading": "ぐるぐる",
-      "meanings": ["spinning round and round", "going in circles", "wrapped around repeatedly"],
+      "meanings": [
+        "spinning round and round",
+        "going in circles",
+        "wrapped around repeatedly"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -515,7 +630,11 @@
     {
       "word": "くすくす",
       "reading": "くすくす",
-      "meanings": ["giggling", "chuckling quietly", "suppressed laughter"],
+      "meanings": [
+        "giggling",
+        "chuckling quietly",
+        "suppressed laughter"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -530,7 +649,11 @@
     {
       "word": "いたずら",
       "reading": "いたずら",
-      "meanings": ["mischief", "prank", "naughty trick"],
+      "meanings": [
+        "mischief",
+        "prank",
+        "naughty trick"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -545,7 +668,10 @@
     {
       "word": "怒る",
       "reading": "おこる／いかる",
-      "meanings": ["to get angry", "to be mad (おこる = colloquial; いかる = formal/literary)"],
+      "meanings": [
+        "to get angry",
+        "to be mad (おこる = colloquial; いかる = formal/literary)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -560,7 +686,10 @@
     {
       "word": "謝る",
       "reading": "あやまる",
-      "meanings": ["to apologise", "to say sorry"],
+      "meanings": [
+        "to apologise",
+        "to say sorry"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -575,7 +704,11 @@
     {
       "word": "がっかり",
       "reading": "がっかり",
-      "meanings": ["disappointed", "let down", "disillusioned"],
+      "meanings": [
+        "disappointed",
+        "let down",
+        "disillusioned"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -590,7 +723,11 @@
     {
       "word": "なかよし",
       "reading": "なかよし",
-      "meanings": ["good friends", "close friends", "on good terms"],
+      "meanings": [
+        "good friends",
+        "close friends",
+        "on good terms"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -605,7 +742,12 @@
     {
       "word": "よその",
       "reading": "よその",
-      "meanings": ["someone else's", "another family's", "a stranger's", "other people's"],
+      "meanings": [
+        "someone else's",
+        "another family's",
+        "a stranger's",
+        "other people's"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -620,7 +762,12 @@
     {
       "word": "かっこいい",
       "reading": "かっこいい",
-      "meanings": ["cool", "stylish", "handsome", "awesome-looking"],
+      "meanings": [
+        "cool",
+        "stylish",
+        "handsome",
+        "awesome-looking"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -635,7 +782,11 @@
     {
       "word": "ばかにする",
       "reading": "ばかにする",
-      "meanings": ["to make fun of", "to look down on", "to treat as stupid"],
+      "meanings": [
+        "to make fun of",
+        "to look down on",
+        "to treat as stupid"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -650,7 +801,10 @@
     {
       "word": "うなずく",
       "reading": "うなずく",
-      "meanings": ["to nod", "to nod in agreement"],
+      "meanings": [
+        "to nod",
+        "to nod in agreement"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -665,7 +819,10 @@
     {
       "word": "一人暮らし",
       "reading": "ひとりぐらし",
-      "meanings": ["living alone", "single-person household"],
+      "meanings": [
+        "living alone",
+        "single-person household"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -680,7 +837,11 @@
     {
       "word": "おでかけ",
       "reading": "おでかけ",
-      "meanings": ["outing", "going out", "trip (casual / child-friendly register)"],
+      "meanings": [
+        "outing",
+        "going out",
+        "trip (casual / child-friendly register)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -695,7 +856,10 @@
     {
       "word": "風車",
       "reading": "ふうしゃ",
-      "meanings": ["windmill", "wind turbine"],
+      "meanings": [
+        "windmill",
+        "wind turbine"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -710,7 +874,9 @@
     {
       "word": "神社",
       "reading": "じんじゃ",
-      "meanings": ["Shinto shrine"],
+      "meanings": [
+        "Shinto shrine"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -725,7 +891,10 @@
     {
       "word": "公園",
       "reading": "こうえん",
-      "meanings": ["park", "public park"],
+      "meanings": [
+        "park",
+        "public park"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -740,7 +909,9 @@
     {
       "word": "カエル",
       "reading": "かえる",
-      "meanings": ["frog"],
+      "meanings": [
+        "frog"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -755,7 +926,10 @@
     {
       "word": "夕涼み",
       "reading": "ゆうすずみ",
-      "meanings": ["enjoying the cool evening air", "evening cool-off"],
+      "meanings": [
+        "enjoying the cool evening air",
+        "evening cool-off"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -770,7 +944,11 @@
     {
       "word": "おねがい",
       "reading": "おねがい",
-      "meanings": ["please", "I beg you", "I have a request (used as exclamation)"],
+      "meanings": [
+        "please",
+        "I beg you",
+        "I have a request (used as exclamation)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -785,7 +963,11 @@
     {
       "word": "どうしよう",
       "reading": "どうしよう",
-      "meanings": ["what should I do?", "oh no, what now?", "I don't know what to do"],
+      "meanings": [
+        "what should I do?",
+        "oh no, what now?",
+        "I don't know what to do"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -800,7 +982,12 @@
     {
       "word": "やっぱり",
       "reading": "やっぱり",
-      "meanings": ["as I thought", "after all", "just as expected", "still"],
+      "meanings": [
+        "as I thought",
+        "after all",
+        "just as expected",
+        "still"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -815,7 +1002,12 @@
     {
       "word": "ほら",
       "reading": "ほら",
-      "meanings": ["look!", "see?", "here you go", "there! (drawing attention)"],
+      "meanings": [
+        "look!",
+        "see?",
+        "here you go",
+        "there! (drawing attention)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -830,7 +1022,11 @@
     {
       "word": "もったいない",
       "reading": "もったいない",
-      "meanings": ["wasteful", "what a waste", "too good to waste"],
+      "meanings": [
+        "wasteful",
+        "what a waste",
+        "too good to waste"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -845,7 +1041,12 @@
     {
       "word": "めんどくさい",
       "reading": "めんどくさい",
-      "meanings": ["troublesome", "annoying", "too much bother", "a pain (to deal with)"],
+      "meanings": [
+        "troublesome",
+        "annoying",
+        "too much bother",
+        "a pain (to deal with)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -860,7 +1061,11 @@
     {
       "word": "びっくり",
       "reading": "びっくり",
-      "meanings": ["surprised", "startled", "shocked"],
+      "meanings": [
+        "surprised",
+        "startled",
+        "shocked"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -875,7 +1080,11 @@
     {
       "word": "うれしい",
       "reading": "うれしい",
-      "meanings": ["happy", "glad", "delighted"],
+      "meanings": [
+        "happy",
+        "glad",
+        "delighted"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -890,7 +1099,12 @@
     {
       "word": "困る",
       "reading": "こまる",
-      "meanings": ["to be troubled", "to be in a fix", "to be at a loss", "to be bothered"],
+      "meanings": [
+        "to be troubled",
+        "to be in a fix",
+        "to be at a loss",
+        "to be bothered"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -905,7 +1119,11 @@
     {
       "word": "急ぐ",
       "reading": "いそぐ",
-      "meanings": ["to hurry", "to rush", "to be in a hurry"],
+      "meanings": [
+        "to hurry",
+        "to rush",
+        "to be in a hurry"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -920,7 +1138,12 @@
     {
       "word": "遠慮",
       "reading": "えんりょ",
-      "meanings": ["reserve", "restraint", "holding back", "hesitation out of politeness"],
+      "meanings": [
+        "reserve",
+        "restraint",
+        "holding back",
+        "hesitation out of politeness"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -935,7 +1158,11 @@
     {
       "word": "用意",
       "reading": "ようい",
-      "meanings": ["preparation", "arrangement", "getting things ready"],
+      "meanings": [
+        "preparation",
+        "arrangement",
+        "getting things ready"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -950,7 +1177,11 @@
     {
       "word": "気をつけて",
       "reading": "きをつけて",
-      "meanings": ["take care", "be careful", "watch out"],
+      "meanings": [
+        "take care",
+        "be careful",
+        "watch out"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -965,7 +1196,11 @@
     {
       "word": "やめろ",
       "reading": "やめろ",
-      "meanings": ["stop it!", "quit it!", "cut it out! (masculine imperative)"],
+      "meanings": [
+        "stop it!",
+        "quit it!",
+        "cut it out! (masculine imperative)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -980,7 +1215,13 @@
     {
       "word": "大丈夫",
       "reading": "だいじょうぶ",
-      "meanings": ["all right", "fine", "OK", "no problem", "safe"],
+      "meanings": [
+        "all right",
+        "fine",
+        "OK",
+        "no problem",
+        "safe"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -995,7 +1236,11 @@
     {
       "word": "そういえば",
       "reading": "そういえば",
-      "meanings": ["come to think of it", "now that you mention it", "speaking of which"],
+      "meanings": [
+        "come to think of it",
+        "now that you mention it",
+        "speaking of which"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -1010,7 +1255,11 @@
     {
       "word": "なんで",
       "reading": "なんで",
-      "meanings": ["why?", "how come?", "for what reason? (casual)"],
+      "meanings": [
+        "why?",
+        "how come?",
+        "for what reason? (casual)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -1025,7 +1274,12 @@
     {
       "word": "ちゃんと",
       "reading": "ちゃんと",
-      "meanings": ["properly", "correctly", "thoroughly", "without cutting corners"],
+      "meanings": [
+        "properly",
+        "correctly",
+        "thoroughly",
+        "without cutting corners"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -1040,7 +1294,13 @@
     {
       "word": "まあ",
       "reading": "まあ",
-      "meanings": ["well", "I suppose", "oh well", "anyway", "sort of (softening particle)"],
+      "meanings": [
+        "well",
+        "I suppose",
+        "oh well",
+        "anyway",
+        "sort of (softening particle)"
+      ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -1055,7 +1315,11 @@
     {
       "word": "えっ",
       "reading": "えっ",
-      "meanings": ["huh?", "what? (surprised)", "wait really?"],
+      "meanings": [
+        "huh?",
+        "what? (surprised)",
+        "wait really?"
+      ],
       "jlpt": "N4",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
@@ -1070,7 +1334,12 @@
     {
       "word": "すごい",
       "reading": "すごい",
-      "meanings": ["amazing", "incredible", "great", "terrible (in formal context)"],
+      "meanings": [
+        "amazing",
+        "incredible",
+        "great",
+        "terrible (in formal context)"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
@@ -1081,6 +1350,561 @@
       "example_sentence": "すごい！こんな大きい虫初めて見た！",
       "example_reading": "すごい！こんな おおきい むし はじめて みた！",
       "example_meaning": "Amazing! I've never seen such a big bug before!"
+    },
+    {
+      "word": "そっと",
+      "reading": "そっと",
+      "meanings": [
+        "softly",
+        "gently",
+        "quietly"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "静かに",
+      "category": "onomatopoeia",
+      "context": "Yotsuba sneaks up on people そっと; her father places her down そっと when she falls asleep. Indicates a tender, careful action.",
+      "example_sentence": "そっと近づいた。",
+      "example_reading": "そっと ちかづいた。",
+      "example_meaning": "I approached softly."
+    },
+    {
+      "word": "こっそり",
+      "reading": "こっそり",
+      "meanings": [
+        "secretly",
+        "stealthily",
+        "on the sly"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ひそかに",
+      "category": "onomatopoeia",
+      "context": "Yotsuba constantly does things こっそり — sneaking treats, peeking through fences. Conveys a guilty/playful sneakiness.",
+      "example_sentence": "こっそり部屋に入った。",
+      "example_reading": "こっそり へや に はいった。",
+      "example_meaning": "I sneaked into the room."
+    },
+    {
+      "word": "ばたばた",
+      "reading": "ばたばた",
+      "meanings": [
+        "flapping",
+        "bustling",
+        "hectic"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "忙しく",
+      "category": "onomatopoeia",
+      "context": "Yotsuba running around the house ばたばた. Also adults: 朝はばたばたしてる — mornings are hectic.",
+      "example_sentence": "朝からばたばたしている。",
+      "example_reading": "あさ から ばたばた して いる。",
+      "example_meaning": "I've been busy since morning."
+    },
+    {
+      "word": "のんびり",
+      "reading": "のんびり",
+      "meanings": [
+        "leisurely",
+        "relaxed",
+        "laid-back"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ゆっくり",
+      "category": "onomatopoeia",
+      "context": "Yotsuba spends afternoons のんびり on the engawa with the cat. The opposite mood to ばたばた.",
+      "example_sentence": "休みの日はのんびり過ごす。",
+      "example_reading": "やすみ の ひ は のんびり すごす。",
+      "example_meaning": "I spend my days off relaxing."
+    },
+    {
+      "word": "ぼーっと",
+      "reading": "ぼーっと",
+      "meanings": [
+        "absent-mindedly",
+        "spaced out",
+        "dazed"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ぼんやり",
+      "category": "onomatopoeia",
+      "context": "Distinct from ぼんやり: ぼーっと implies more total spacing-out. Yotsuba sometimes stares ぼーっと at insects.",
+      "example_sentence": "何をぼーっとしてるの？",
+      "example_reading": "なに を ぼーっと してるの？",
+      "example_meaning": "What are you spacing out about?"
+    },
+    {
+      "word": "そろそろ",
+      "reading": "そろそろ",
+      "meanings": [
+        "soon",
+        "gradually",
+        "about time"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "もうすぐ",
+      "category": "colloquial",
+      "context": "そろそろ帰ろうか — shall we head home soon? In Yotsuba, the parents use it to gently signal endings.",
+      "example_sentence": "そろそろ寝る時間だよ。",
+      "example_reading": "そろそろ ねる じかん だ よ。",
+      "example_meaning": "It's about time for bed."
+    },
+    {
+      "word": "ぐっすり",
+      "reading": "ぐっすり",
+      "meanings": [
+        "soundly (asleep)",
+        "fast asleep"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よく寝る",
+      "category": "onomatopoeia",
+      "context": "ぐっすり眠る — sleep soundly. After a day of running around, Yotsuba sleeps ぐっすり.",
+      "example_sentence": "昨日はぐっすり眠れた。",
+      "example_reading": "きのう は ぐっすり ねむれた。",
+      "example_meaning": "I slept soundly last night."
+    },
+    {
+      "word": "うっかり",
+      "reading": "うっかり",
+      "meanings": [
+        "carelessly",
+        "absent-mindedly",
+        "by mistake"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "間違って",
+      "category": "onomatopoeia",
+      "context": "うっかり忘れた — carelessly forgot. Yotsuba's father is the king of うっかり.",
+      "example_sentence": "うっかり財布を忘れた。",
+      "example_reading": "うっかり さいふ を わすれた。",
+      "example_meaning": "I absent-mindedly forgot my wallet."
+    },
+    {
+      "word": "ちゃっかり",
+      "reading": "ちゃっかり",
+      "meanings": [
+        "shrewdly",
+        "cleverly (self-interested)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ずるく",
+      "category": "colloquial",
+      "context": "Mildly cheeky — Yotsuba ちゃっかり grabs the last piece of cake. Slight admiration mixed with mock disapproval.",
+      "example_sentence": "妹はちゃっかり一番大きいのをもらった。",
+      "example_reading": "いもうと は ちゃっかり いちばん おおきい の を もらった。",
+      "example_meaning": "My little sister cleverly grabbed the biggest one."
+    },
+    {
+      "word": "ぺこぺこ",
+      "reading": "ぺこぺこ",
+      "meanings": [
+        "very hungry",
+        "starving"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とてもおなかすいた",
+      "category": "onomatopoeia",
+      "context": "おなかぺこぺこ — starving. Yotsuba says this constantly. Also a separate sense: bowing repeatedly.",
+      "example_sentence": "おなかがぺこぺこだ。",
+      "example_reading": "おなか が ぺこぺこ だ。",
+      "example_meaning": "I'm starving."
+    },
+    {
+      "word": "ぐらぐら",
+      "reading": "ぐらぐら",
+      "meanings": [
+        "wobbly",
+        "unstable",
+        "shaky"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "揺れる",
+      "category": "onomatopoeia",
+      "context": "歯がぐらぐら — a loose tooth. 椅子がぐらぐらする — the chair wobbles. Yotsuba loves wobbly things.",
+      "example_sentence": "このテーブルはぐらぐらする。",
+      "example_reading": "この てーぶる は ぐらぐら する。",
+      "example_meaning": "This table wobbles."
+    },
+    {
+      "word": "つるつる",
+      "reading": "つるつる",
+      "meanings": [
+        "smooth",
+        "slippery"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "すべすべ",
+      "category": "onomatopoeia",
+      "context": "つるつる滑る — slip smoothly. Also for noodles: うどんをつるつる食べる — slurp udon noodles.",
+      "example_sentence": "床がつるつるして危ない。",
+      "example_reading": "ゆか が つるつる して あぶない。",
+      "example_meaning": "The floor is slippery and dangerous."
+    },
+    {
+      "word": "ふわふわ",
+      "reading": "ふわふわ",
+      "meanings": [
+        "fluffy",
+        "soft",
+        "light"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "やわらかい",
+      "category": "onomatopoeia",
+      "context": "ふわふわのパン — fluffy bread. Yotsuba pets the cat for its ふわふわ fur.",
+      "example_sentence": "ふわふわの雲が浮かんでいる。",
+      "example_reading": "ふわふわ の くも が うかんで いる。",
+      "example_meaning": "Fluffy clouds are floating."
+    },
+    {
+      "word": "べたべた",
+      "reading": "べたべた",
+      "meanings": [
+        "sticky",
+        "clingy",
+        "clammy"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "くっつく",
+      "category": "onomatopoeia",
+      "context": "手がべたべた — sticky hands (Yotsuba after eating watermelon). Also clingy: 母にべたべたする — clings to mom.",
+      "example_sentence": "汗で体がべたべたする。",
+      "example_reading": "あせ で からだ が べたべた する。",
+      "example_meaning": "My body is sticky with sweat."
+    },
+    {
+      "word": "ずっと",
+      "reading": "ずっと",
+      "meanings": [
+        "all the way",
+        "continuously",
+        "much more"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いつも・もっと",
+      "category": "colloquial",
+      "context": "Three uses: time (ずっと前から — for a long time), space (ずっと向こう — way over there), comparison (ずっと安い — much cheaper).",
+      "example_sentence": "ずっと前から知っていた。",
+      "example_reading": "ずっと まえ から しって いた。",
+      "example_meaning": "I've known for a long time."
+    },
+    {
+      "word": "絶対",
+      "reading": "ぜったい",
+      "meanings": [
+        "absolutely",
+        "never (with neg)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "必ず",
+      "category": "colloquial",
+      "context": "絶対行く — definitely going. 絶対だめ — absolutely no. Yotsuba is given to absolute declarations.",
+      "example_sentence": "絶対に勝つ！",
+      "example_reading": "ぜったい に かつ！",
+      "example_meaning": "I'll definitely win!"
+    },
+    {
+      "word": "だって",
+      "reading": "だって",
+      "meanings": [
+        "because",
+        "but",
+        "even"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜から",
+      "category": "colloquial",
+      "context": "Child's protest word. だって寒いから — because it's cold! Yotsuba uses it constantly when defending herself.",
+      "example_sentence": "だって、本当に知らなかった。",
+      "example_reading": "だって、 ほんとうに しらなかった。",
+      "example_meaning": "But I really didn't know!"
+    },
+    {
+      "word": "何だか",
+      "reading": "なんだか",
+      "meanings": [
+        "somehow",
+        "for some reason"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうしてか",
+      "category": "colloquial",
+      "context": "何だか悲しい — somehow sad. Hedge for vague feelings.",
+      "example_sentence": "何だか変な感じがする。",
+      "example_reading": "なんだか へんな かんじ が する。",
+      "example_meaning": "Something feels off somehow."
+    },
+    {
+      "word": "何となく",
+      "reading": "なんとなく",
+      "meanings": [
+        "somehow",
+        "without a particular reason"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なぜか",
+      "category": "colloquial",
+      "context": "何となく行きたくない — somehow don't feel like going. Stronger 'I just don't know why' than 何だか.",
+      "example_sentence": "何となく彼が嫌い。",
+      "example_reading": "なんとなく かれ が きらい。",
+      "example_meaning": "Somehow I don't like him."
+    },
+    {
+      "word": "とりあえず",
+      "reading": "とりあえず",
+      "meanings": [
+        "for now",
+        "first of all"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "今のところ",
+      "category": "colloquial",
+      "context": "とりあえずビール — beer for now (classic order). Stop-gap word.",
+      "example_sentence": "とりあえず、座ってください。",
+      "example_reading": "とりあえず、 すわって ください。",
+      "example_meaning": "For now, please sit down."
+    },
+    {
+      "word": "なんで",
+      "reading": "なんで",
+      "meanings": [
+        "why"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうして",
+      "category": "colloquial",
+      "context": "Casual replacement for どうして. Yotsuba's most-used word: なんで？なんで？",
+      "example_sentence": "なんで泣いてるの？",
+      "example_reading": "なんで ないてる の？",
+      "example_meaning": "Why are you crying?"
+    },
+    {
+      "word": "どうやって",
+      "reading": "どうやって",
+      "meanings": [
+        "how (in what way)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どんなやり方で",
+      "category": "colloquial",
+      "context": "どうやって作るの？— How do you make it? More 'method' than どう (general 'how').",
+      "example_sentence": "どうやって行けばいいですか。",
+      "example_reading": "どうやって いけば いい ですか。",
+      "example_meaning": "How should I get there?"
+    },
+    {
+      "word": "こんなに",
+      "reading": "こんなに",
+      "meanings": [
+        "this much",
+        "like this",
+        "so"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "こんな〜",
+      "category": "colloquial",
+      "context": "こんなに大きい — this big! Yotsuba's wide-eyed exclamation register.",
+      "example_sentence": "こんなにたくさんありがとう。",
+      "example_reading": "こんなに たくさん ありがとう。",
+      "example_meaning": "Thank you for so much!"
+    },
+    {
+      "word": "そんなに",
+      "reading": "そんなに",
+      "meanings": [
+        "that much",
+        "so",
+        "not really (with neg)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そんな〜",
+      "category": "colloquial",
+      "context": "そんなに辛くない — not THAT spicy. With negation = mild dismissal.",
+      "example_sentence": "そんなに心配しないで。",
+      "example_reading": "そんなに しんぱい しないで。",
+      "example_meaning": "Don't worry that much."
+    },
+    {
+      "word": "あんなに",
+      "reading": "あんなに",
+      "meanings": [
+        "so much",
+        "like that"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "あれほど",
+      "category": "colloquial",
+      "context": "あんなに食べたのに — even though I ate that much… Often paired with のに for surprise.",
+      "example_sentence": "あんなに頑張ったのに。",
+      "example_reading": "あんなに がんばった のに。",
+      "example_meaning": "Even though I tried so hard..."
+    },
+    {
+      "word": "知らない",
+      "reading": "しらない",
+      "meanings": [
+        "don't know",
+        "not my problem (colloquial)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "分からない",
+      "category": "colloquial",
+      "context": "As exclamation: 知らない！— I don't care/Whatever! Common in family arguments. Yotsuba uses both meanings.",
+      "example_sentence": "もう知らない！",
+      "example_reading": "もう しらない！",
+      "example_meaning": "I don't care anymore!"
+    },
+    {
+      "word": "だめ",
+      "reading": "だめ",
+      "meanings": [
+        "no good",
+        "not allowed",
+        "useless"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いけない",
+      "category": "colloquial",
+      "context": "だめ！ — no/don't! Yotsuba hears this constantly when she's about to cause trouble. Also self-deprecation: 私はだめだ.",
+      "example_sentence": "そこに入っちゃだめ。",
+      "example_reading": "そこ に はいっちゃ だめ。",
+      "example_meaning": "You can't go in there."
+    },
+    {
+      "word": "ダメ",
+      "reading": "だめ",
+      "meanings": [
+        "no good",
+        "not allowed"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いけない",
+      "category": "colloquial",
+      "context": "Same word as だめ — often written in katakana for emphasis or in casual writing. Yotsuba's father uses ダメ! when she's misbehaving.",
+      "example_sentence": "走っちゃダメ！",
+      "example_reading": "はしっちゃ だめ！",
+      "example_meaning": "No running!"
+    },
+    {
+      "word": "勝手に",
+      "reading": "かってに",
+      "meanings": [
+        "on one's own",
+        "selfishly",
+        "without asking"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自分で決めて",
+      "category": "colloquial",
+      "context": "勝手に食べた — ate without permission. Yotsuba is constantly accused of doing things 勝手に.",
+      "example_sentence": "勝手に部屋に入らないで。",
+      "example_reading": "かって に へや に はいらないで。",
+      "example_meaning": "Don't enter my room without asking."
+    },
+    {
+      "word": "ちょっと",
+      "reading": "ちょっと",
+      "meanings": [
+        "a little",
+        "wait/excuse me",
+        "not really"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "少し",
+      "category": "colloquial",
+      "context": "At N3 level, focus on the polite-decline use: ちょっと… (silent rest = no). Cultural softener par excellence.",
+      "example_sentence": "今ちょっと忙しくて...",
+      "example_reading": "いま ちょっと いそがしくて...",
+      "example_meaning": "I'm a bit busy right now..."
     }
   ]
 }

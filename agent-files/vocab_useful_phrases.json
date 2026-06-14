@@ -1,0 +1,2165 @@
+{
+  "deck_id": "useful-phrases-japanese",
+  "deck_name": "Useful Phrases & Expressions",
+  "version": "1.0",
+  "source": "Hand-curated set phrases, idioms, conversational fillers, and high-leverage expressions from everyday Japanese.",
+  "learner_level": "N3",
+  "notes": "Japanese conversation is held together by recurring set phrases — softening hedges (とりあえず, 一応), idiomatic body expressions (顔が広い, 気が利く), interjections (なるほど, やっぱり), and structures that let you respond gracefully without reaching for unfamiliar grammar. This deck collects the high-frequency expressions that make speech sound natural, plus common 慣用句 (idioms) using body-part metaphors. Mix of N3-N1 levels; most are immediately useful as soon as learned.",
+  "card_count": 116,
+  "categories": [
+    "greetings_farewells",
+    "gratitude_apology",
+    "agreement_response",
+    "hedging_softening",
+    "filler_hesitation",
+    "set_expressions",
+    "body_idioms",
+    "casual_reactions",
+    "narrative_connectors",
+    "encouragement_concern"
+  ],
+  "cards": [
+    {
+      "word": "お疲れ様です",
+      "reading": "おつかれさまです",
+      "meanings": [
+        "thank you for your hard work",
+        "good work",
+        "hi/bye (office)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ご苦労様",
+      "category": "greetings_farewells",
+      "context": "The all-purpose office greeting — hello, goodbye, acknowledgment. お疲れ様でした (past) — after work is done.",
+      "example_sentence": "お疲れ様です、佐藤です。",
+      "example_reading": "おつかれさま です、 さとう です。",
+      "example_meaning": "Good work — this is Sato (typical phone opening)."
+    },
+    {
+      "word": "お世話になります",
+      "reading": "おせわになります",
+      "meanings": [
+        "I am in your care",
+        "obliged to you"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よろしく",
+      "category": "greetings_farewells",
+      "context": "Standard business phone/email opener. Past form お世話になりました for thanks after the fact.",
+      "example_sentence": "いつもお世話になっております。",
+      "example_reading": "いつも おせわ に なって おります。",
+      "example_meaning": "Thank you as always for your support."
+    },
+    {
+      "word": "よろしくお願いします",
+      "reading": "よろしくおねがいします",
+      "meanings": [
+        "please treat me well",
+        "I look forward to working with you"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お願いします",
+      "category": "greetings_farewells",
+      "context": "Untranslatable cultural cornerstone. Use at intros, end of emails, before favors.",
+      "example_sentence": "これからよろしくお願いします。",
+      "example_reading": "これから よろしく おねがい します。",
+      "example_meaning": "I look forward to working with you going forward."
+    },
+    {
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "meanings": [
+        "excuse me (entering/leaving)",
+        "pardon me"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "すみません",
+      "category": "greetings_farewells",
+      "context": "Said entering a room, hanging up, ending a meeting. 失礼しました — apology after the fact.",
+      "example_sentence": "お先に失礼します。",
+      "example_reading": "おさき に しつれい します。",
+      "example_meaning": "Excuse me for leaving before you (clocking out)."
+    },
+    {
+      "word": "お先に失礼します",
+      "reading": "おさきにしつれいします",
+      "meanings": [
+        "I'll be leaving first",
+        "excuse me for going ahead"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "先に帰ります",
+      "category": "greetings_farewells",
+      "context": "Standard clock-out phrase in Japanese offices. Acknowledges colleagues still working.",
+      "example_sentence": "残業お疲れ様、お先に失礼します。",
+      "example_reading": "ざんぎょう おつかれさま、 おさき に しつれい します。",
+      "example_meaning": "Good work on the overtime — I'll head out first."
+    },
+    {
+      "word": "お邪魔します",
+      "reading": "おじゃまします",
+      "meanings": [
+        "sorry to intrude",
+        "excuse me for visiting"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "失礼します",
+      "category": "greetings_farewells",
+      "context": "Said entering someone's home or office. Already in the Yotsubato deck. Past: お邪魔しました — when leaving.",
+      "example_sentence": "お邪魔します、靴を脱いでもいいですか。",
+      "example_reading": "おじゃま します、 くつ を ぬいで も いい ですか。",
+      "example_meaning": "Excuse me — should I take off my shoes?"
+    },
+    {
+      "word": "いただきます",
+      "reading": "いただきます",
+      "meanings": [
+        "I humbly receive",
+        "let's eat (pre-meal)"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "食べます",
+      "category": "greetings_farewells",
+      "context": "Said before eating, with hands together. Acknowledges those who provided the food.",
+      "example_sentence": "いただきます！",
+      "example_reading": "いただきます！",
+      "example_meaning": "Let's eat!"
+    },
+    {
+      "word": "ごちそうさまでした",
+      "reading": "ごちそうさまでした",
+      "meanings": [
+        "thank you for the meal",
+        "that was a feast"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ごちそうさま",
+      "category": "greetings_farewells",
+      "context": "Said after eating. Casual: ごちそうさま. Even said leaving restaurants in some regions.",
+      "example_sentence": "とても美味しかった、ごちそうさまでした。",
+      "example_reading": "とても おいしかった、 ごちそうさま でした。",
+      "example_meaning": "That was very delicious — thank you for the meal."
+    },
+    {
+      "word": "行ってきます",
+      "reading": "いってきます",
+      "meanings": [
+        "I'm off",
+        "I'll be back"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "出かけます",
+      "category": "greetings_farewells",
+      "context": "Said leaving home/office. Paired with 行ってらっしゃい from those staying.",
+      "example_sentence": "行ってきます！",
+      "example_reading": "いってきます！",
+      "example_meaning": "I'm heading out!"
+    },
+    {
+      "word": "行ってらっしゃい",
+      "reading": "いってらっしゃい",
+      "meanings": [
+        "take care",
+        "see you (to someone leaving)"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "気をつけて",
+      "category": "greetings_farewells",
+      "context": "Response to 行ってきます. Standard family + office send-off.",
+      "example_sentence": "行ってらっしゃい、気をつけてね。",
+      "example_reading": "いってらっしゃい、 きをつけて ね。",
+      "example_meaning": "Take care now!"
+    },
+    {
+      "word": "ただいま",
+      "reading": "ただいま",
+      "meanings": [
+        "I'm home",
+        "I'm back"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "帰りました",
+      "category": "greetings_farewells",
+      "context": "Said returning home/office. Paired with お帰りなさい. Also means 'right now' in another reading context.",
+      "example_sentence": "ただいま！",
+      "example_reading": "ただいま！",
+      "example_meaning": "I'm home!"
+    },
+    {
+      "word": "お帰りなさい",
+      "reading": "おかえりなさい",
+      "meanings": [
+        "welcome home",
+        "welcome back"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "おかえり",
+      "category": "greetings_farewells",
+      "context": "Response to ただいま. Casual: おかえり.",
+      "example_sentence": "お帰りなさい、夕食できてるよ。",
+      "example_reading": "おかえりなさい、 ゆうしょく できてる よ。",
+      "example_meaning": "Welcome home — dinner's ready."
+    },
+    {
+      "word": "久しぶり",
+      "reading": "ひさしぶり",
+      "meanings": [
+        "long time no see",
+        "it's been a while"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "久々",
+      "category": "greetings_farewells",
+      "context": "Already in N3/N4 General. Polite: お久しぶりです.",
+      "example_sentence": "わあ、久しぶり！元気だった？",
+      "example_reading": "わあ、 ひさしぶり！ げんき だった？",
+      "example_meaning": "Wow, long time no see! How've you been?"
+    },
+    {
+      "word": "お久しぶりです",
+      "reading": "おひさしぶりです",
+      "meanings": [
+        "it's been a while (polite)",
+        "long time no see (formal)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "久しぶり",
+      "category": "greetings_farewells",
+      "context": "Polite version. Standard business reunion opener.",
+      "example_sentence": "お久しぶりです、お元気でしたか。",
+      "example_reading": "おひさしぶり です、 お げんき でした か。",
+      "example_meaning": "It's been a while — how have you been?"
+    },
+    {
+      "word": "初めまして",
+      "reading": "はじめまして",
+      "meanings": [
+        "nice to meet you",
+        "how do you do"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よろしく",
+      "category": "greetings_farewells",
+      "context": "First-meeting only. Usually followed by self-introduction.",
+      "example_sentence": "初めまして、山田と申します。",
+      "example_reading": "はじめまして、 やまだ と もうします。",
+      "example_meaning": "Nice to meet you, I'm Yamada."
+    },
+    {
+      "word": "申し訳ありません",
+      "reading": "もうしわけありません",
+      "meanings": [
+        "I am terribly sorry",
+        "my apologies"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "すみません",
+      "category": "gratitude_apology",
+      "context": "Already in N3/N4 General. Stronger/more formal than すみません. Business apologies.",
+      "example_sentence": "ご迷惑をおかけして申し訳ありません。",
+      "example_reading": "ご めいわく を おかけ して もうしわけ ありません。",
+      "example_meaning": "I'm very sorry for the inconvenience."
+    },
+    {
+      "word": "恐れ入ります",
+      "reading": "おそれいります",
+      "meanings": [
+        "thank you (very humble)",
+        "I'm sorry to trouble you"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "すみません（敬語）",
+      "category": "gratitude_apology",
+      "context": "Customer-service Japanese. Combines apology + gratitude. Used by shop staff and in keigo.",
+      "example_sentence": "恐れ入りますが、もう一度お願いします。",
+      "example_reading": "おそれいります が、 もう いちど おねがい します。",
+      "example_meaning": "I'm very sorry, but could you say that again?"
+    },
+    {
+      "word": "すみません",
+      "reading": "すみません",
+      "meanings": [
+        "excuse me",
+        "I'm sorry",
+        "thank you (acknowledging trouble)"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ごめんなさい",
+      "category": "gratitude_apology",
+      "context": "The Swiss-army knife of Japanese. Apologizing + getting attention + thanking-for-trouble.",
+      "example_sentence": "すみません、ちょっといいですか。",
+      "example_reading": "すみません、 ちょっと いい ですか。",
+      "example_meaning": "Excuse me, do you have a moment?"
+    },
+    {
+      "word": "ごめんなさい",
+      "reading": "ごめんなさい",
+      "meanings": [
+        "I'm sorry"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "すみません",
+      "category": "gratitude_apology",
+      "context": "More personal/emotional than すみません. Used between friends, partners, family. Casual: ごめん.",
+      "example_sentence": "遅れてごめんなさい。",
+      "example_reading": "おくれて ごめんなさい。",
+      "example_meaning": "Sorry for being late."
+    },
+    {
+      "word": "ありがたい",
+      "reading": "ありがたい",
+      "meanings": [
+        "grateful",
+        "thankful",
+        "appreciated"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "うれしい",
+      "category": "gratitude_apology",
+      "context": "From ありがとう. ありがたい話 — a story to be grateful for. Used to express genuine gratitude.",
+      "example_sentence": "そう言ってもらえてありがたい。",
+      "example_reading": "そう いって もらえて ありがたい。",
+      "example_meaning": "I appreciate you saying that."
+    },
+    {
+      "word": "助かりました",
+      "reading": "たすかりました",
+      "meanings": [
+        "that helped",
+        "I'm saved",
+        "thank you"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ありがとうございました",
+      "category": "gratitude_apology",
+      "context": "Past form of 助かる (already in N3 essentials). Stronger than ありがとう — implies real rescue.",
+      "example_sentence": "教えてくれて助かりました。",
+      "example_reading": "おしえて くれて たすかりました。",
+      "example_meaning": "Thanks for telling me — it really helped."
+    },
+    {
+      "word": "どういたしまして",
+      "reading": "どういたしまして",
+      "meanings": [
+        "you're welcome",
+        "don't mention it"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いいえ",
+      "category": "gratitude_apology",
+      "context": "Standard textbook response to ありがとう. Actually less common in casual speech than いいえ or no response at all.",
+      "example_sentence": "どういたしまして、お役に立てて良かった。",
+      "example_reading": "どういたしまして、 おやくにたてて よかった。",
+      "example_meaning": "You're welcome — glad I could help."
+    },
+    {
+      "word": "いえいえ",
+      "reading": "いえいえ",
+      "meanings": [
+        "no, no",
+        "not at all"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いいえ",
+      "category": "gratitude_apology",
+      "context": "Casual humble deflection. Responding to thanks or praise. More natural than どういたしまして for many situations.",
+      "example_sentence": "いえいえ、こちらこそありがとう。",
+      "example_reading": "いえいえ、 こちらこそ ありがとう。",
+      "example_meaning": "No no — thank YOU."
+    },
+    {
+      "word": "こちらこそ",
+      "reading": "こちらこそ",
+      "meanings": [
+        "it's I who should...",
+        "likewise (to me)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "私の方こそ",
+      "category": "gratitude_apology",
+      "context": "Reflecting thanks/apology back. ありがとう → こちらこそ. Polite humbleness signal.",
+      "example_sentence": "いえ、こちらこそ申し訳ありません。",
+      "example_reading": "いえ、 こちらこそ もうしわけ ありません。",
+      "example_meaning": "No, it's me who should apologize."
+    },
+    {
+      "word": "なるほど",
+      "reading": "なるほど",
+      "meanings": [
+        "I see",
+        "that's right",
+        "indeed"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そうか",
+      "category": "agreement_response",
+      "context": "Also in Detective Drama deck. Active listening signal — shows you're following.",
+      "example_sentence": "なるほど、そういう理由でしたか。",
+      "example_reading": "なるほど、 そういう りゆう でしたか。",
+      "example_meaning": "I see — so that's the reason."
+    },
+    {
+      "word": "確かに",
+      "reading": "たしかに",
+      "meanings": [
+        "certainly",
+        "indeed",
+        "you're right"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "そうだね",
+      "category": "agreement_response",
+      "context": "Already in N3 Essentials. Acknowledging the validity of someone's point.",
+      "example_sentence": "確かに、その通りですね。",
+      "example_reading": "たしかに、 その とおり です ね。",
+      "example_meaning": "Indeed, you're exactly right."
+    },
+    {
+      "word": "その通り",
+      "reading": "そのとおり",
+      "meanings": [
+        "exactly",
+        "that's right",
+        "precisely"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その通りです",
+      "category": "agreement_response",
+      "context": "Stronger agreement than そうです. Often as standalone reply: その通り！",
+      "example_sentence": "その通り、私もそう思う。",
+      "example_reading": "そのとおり、 わたし も そう おもう。",
+      "example_meaning": "Exactly — I think so too."
+    },
+    {
+      "word": "もちろん",
+      "reading": "もちろん",
+      "meanings": [
+        "of course",
+        "certainly"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "当然",
+      "category": "agreement_response",
+      "context": "Already in N3 Essentials. Casual もち is slang short form.",
+      "example_sentence": "もちろん手伝います。",
+      "example_reading": "もちろん てつだいます。",
+      "example_meaning": "Of course I'll help."
+    },
+    {
+      "word": "当たり前",
+      "reading": "あたりまえ",
+      "meanings": [
+        "of course",
+        "natural",
+        "obvious"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "当然",
+      "category": "agreement_response",
+      "context": "Already in Yotsubato. Stronger than もちろん — 'duh, obviously.' Used with mild attitude.",
+      "example_sentence": "そんなの当たり前だよ。",
+      "example_reading": "そんな の あたりまえ だ よ。",
+      "example_meaning": "That's totally obvious."
+    },
+    {
+      "word": "そうですね",
+      "reading": "そうですね",
+      "meanings": [
+        "that's right",
+        "let me think",
+        "I agree"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そうだね",
+      "category": "agreement_response",
+      "context": "Multi-purpose: agreement + 'let me think.' Stalling word while you formulate a reply.",
+      "example_sentence": "そうですね、難しい質問ですね。",
+      "example_reading": "そうですね、 むずかしい しつもん です ね。",
+      "example_meaning": "Hmm, that's a tough question."
+    },
+    {
+      "word": "そうですか",
+      "reading": "そうですか",
+      "meanings": [
+        "is that so?",
+        "I see",
+        "oh really"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そうなんだ",
+      "category": "agreement_response",
+      "context": "Already in N3 Essentials. Polite acknowledgment. Casual そうなんだ.",
+      "example_sentence": "そうですか、それは大変でしたね。",
+      "example_reading": "そうですか、 それ は たいへん でしたね。",
+      "example_meaning": "I see — that must have been tough."
+    },
+    {
+      "word": "そうかもしれない",
+      "reading": "そうかもしれない",
+      "meanings": [
+        "that might be",
+        "could be"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そうかも",
+      "category": "hedging_softening",
+      "context": "Hedged agreement. Casual: そうかも. Softens disagreement: そうかもしれないけど… — that might be, but…",
+      "example_sentence": "そうかもしれない、でもよく分からない。",
+      "example_reading": "そう かも しれない、 でも よく わからない。",
+      "example_meaning": "Maybe, but I'm not sure."
+    },
+    {
+      "word": "とりあえず",
+      "reading": "とりあえず",
+      "meanings": [
+        "for now",
+        "first of all",
+        "tentatively"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "今のところ",
+      "category": "hedging_softening",
+      "context": "Also in N3 Essentials + Yotsubato. The classic order: とりあえずビール — beer for starters. Stop-gap word.",
+      "example_sentence": "とりあえず、座って話しましょう。",
+      "example_reading": "とりあえず、 すわって はなしましょう。",
+      "example_meaning": "For now, let's sit and talk."
+    },
+    {
+      "word": "一応",
+      "reading": "いちおう",
+      "meanings": [
+        "just in case",
+        "for now",
+        "tentatively"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "念のため",
+      "category": "hedging_softening",
+      "context": "Hedging hedge. 一応 finished it (= sort of done). Avoids commitment to perfection.",
+      "example_sentence": "一応終わったけど、確認してください。",
+      "example_reading": "いちおう おわった けど、 かくにん して ください。",
+      "example_meaning": "I sort of finished — please double-check."
+    },
+    {
+      "word": "念のため",
+      "reading": "ねんのため",
+      "meanings": [
+        "just in case",
+        "for safety"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "万一に備えて",
+      "category": "hedging_softening",
+      "context": "More precise than 一応. 念のため確認します — let me confirm just in case.",
+      "example_sentence": "念のため、メールも送っておきます。",
+      "example_reading": "ねん の ため、 メール も おくって おきます。",
+      "example_meaning": "Just in case, I'll also send an email."
+    },
+    {
+      "word": "万が一",
+      "reading": "まんがいち",
+      "meanings": [
+        "in the unlikely event",
+        "just in case"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "もしも",
+      "category": "hedging_softening",
+      "context": "More dramatic than 念のため. 万が一の時 — in case of emergency.",
+      "example_sentence": "万が一遅れたら連絡します。",
+      "example_reading": "まんがいち おくれたら れんらく します。",
+      "example_meaning": "In the unlikely event I'm late, I'll let you know."
+    },
+    {
+      "word": "せっかく",
+      "reading": "せっかく",
+      "meanings": [
+        "with great trouble",
+        "since (you went to the effort)",
+        "specially"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "わざわざ",
+      "category": "set_expressions",
+      "context": "Already in N3 Essentials. Hard to translate — implies 'since the opportunity arose…' Often paired with のに for disappointment.",
+      "example_sentence": "せっかく来たんだから、食事して行きなよ。",
+      "example_reading": "せっかく きた んだ から、 しょくじ して いきな よ。",
+      "example_meaning": "Since you came all this way, stay for a meal."
+    },
+    {
+      "word": "わざわざ",
+      "reading": "わざわざ",
+      "meanings": [
+        "going out of one's way",
+        "taking the trouble",
+        "specially"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "特別に",
+      "category": "set_expressions",
+      "context": "Also in N3 Essentials. Acknowledges someone's effort: わざわざありがとう — thanks for going out of your way.",
+      "example_sentence": "わざわざお越しいただきありがとうございます。",
+      "example_reading": "わざわざ おこし いただき ありがとう ございます。",
+      "example_meaning": "Thank you for taking the trouble to come."
+    },
+    {
+      "word": "どうせ",
+      "reading": "どうせ",
+      "meanings": [
+        "anyway",
+        "in any case (resigned)",
+        "since it's all the same"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どっちみち",
+      "category": "set_expressions",
+      "context": "Carries resigned/pessimistic tone. どうせ私なんか — what's the use of me…",
+      "example_sentence": "どうせ間に合わないから諦めよう。",
+      "example_reading": "どうせ まにあわない から あきらめよう。",
+      "example_meaning": "We're not going to make it anyway — let's give up."
+    },
+    {
+      "word": "ついでに",
+      "reading": "ついでに",
+      "meanings": [
+        "while at it",
+        "incidentally",
+        "by the way"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のついでに",
+      "category": "set_expressions",
+      "context": "While doing something else: 散歩のついでに買い物 — shopping while on a walk.",
+      "example_sentence": "買い物のついでに郵便局に寄った。",
+      "example_reading": "かいもの の ついで に ゆうびんきょく に よった。",
+      "example_meaning": "I stopped at the post office while shopping."
+    },
+    {
+      "word": "そのまま",
+      "reading": "そのまま",
+      "meanings": [
+        "as it is",
+        "unchanged",
+        "just like that"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そのままで",
+      "category": "set_expressions",
+      "context": "そのままにしておく — leave it as is. そのままで結構です — it's fine as it is.",
+      "example_sentence": "そのままで大丈夫です。",
+      "example_reading": "そのまま で だいじょうぶ です。",
+      "example_meaning": "It's fine as it is."
+    },
+    {
+      "word": "このまま",
+      "reading": "このまま",
+      "meanings": [
+        "this way",
+        "as things are",
+        "like this"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "今のままで",
+      "category": "set_expressions",
+      "context": "このままでいいのか — is this really okay? Often contemplative.",
+      "example_sentence": "このまま続けて大丈夫ですか。",
+      "example_reading": "このまま つづけて だいじょうぶ ですか。",
+      "example_meaning": "Is it okay to continue this way?"
+    },
+    {
+      "word": "えーと",
+      "reading": "えーと",
+      "meanings": [
+        "um",
+        "well",
+        "let me see"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "あのー",
+      "category": "filler_hesitation",
+      "context": "Hesitation marker. Crucial for sounding natural — natives use these constantly.",
+      "example_sentence": "えーと、確か3時の予定です。",
+      "example_reading": "えーと、 たしか さんじ の よてい です。",
+      "example_meaning": "Um, I think it's scheduled for 3."
+    },
+    {
+      "word": "あのー",
+      "reading": "あのー",
+      "meanings": [
+        "um",
+        "excuse me",
+        "that...",
+        "you know"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "えーと",
+      "category": "filler_hesitation",
+      "context": "Even more natural-sounding than えーと. Sentence-opener for soft starts.",
+      "example_sentence": "あのー、ちょっと質問してもいいですか。",
+      "example_reading": "あのー、 ちょっと しつもん して も いい ですか。",
+      "example_meaning": "Um, may I ask a question?"
+    },
+    {
+      "word": "なんていうか",
+      "reading": "なんていうか",
+      "meanings": [
+        "how should I put it",
+        "like",
+        "sort of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "何と言ったらいいか",
+      "category": "filler_hesitation",
+      "context": "Buys time to find the right word. Conversation-essential.",
+      "example_sentence": "彼は、なんていうか、不思議な人だ。",
+      "example_reading": "かれ は、 なんて いう か、 ふしぎ な ひと だ。",
+      "example_meaning": "He's, how should I say, an unusual person."
+    },
+    {
+      "word": "そういえば",
+      "reading": "そういえば",
+      "meanings": [
+        "speaking of which",
+        "come to think of it",
+        "by the way"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そういうと",
+      "category": "narrative_connectors",
+      "context": "Already in Yotsubato. Topic-shifter — pivots conversation to a related thought.",
+      "example_sentence": "そういえば、明日の予定は？",
+      "example_reading": "そういえば、 あした の よてい は？",
+      "example_meaning": "Come to think of it, what's the plan for tomorrow?"
+    },
+    {
+      "word": "ちなみに",
+      "reading": "ちなみに",
+      "meanings": [
+        "by the way",
+        "incidentally",
+        "FYI"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ところで",
+      "category": "narrative_connectors",
+      "context": "Already in N3 Essentials. Casual side-information opener.",
+      "example_sentence": "ちなみに、私もそれが好きです。",
+      "example_reading": "ちなみに、 わたし も それ が すき です。",
+      "example_meaning": "By the way, I like that too."
+    },
+    {
+      "word": "ところで",
+      "reading": "ところで",
+      "meanings": [
+        "by the way (topic change)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そういえば",
+      "category": "narrative_connectors",
+      "context": "Also in N3 Essentials. More explicit topic-change than ちなみに.",
+      "example_sentence": "ところで、最近どう？",
+      "example_reading": "ところで、 さいきん どう？",
+      "example_meaning": "By the way, how have things been lately?"
+    },
+    {
+      "word": "つまり",
+      "reading": "つまり",
+      "meanings": [
+        "in other words",
+        "to put it simply",
+        "so basically"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "要するに",
+      "category": "narrative_connectors",
+      "context": "Also in N3 Essentials. Summarizing what was just said.",
+      "example_sentence": "つまり、行きたくないってこと？",
+      "example_reading": "つまり、 いきたくない って こと？",
+      "example_meaning": "So basically you don't want to go?"
+    },
+    {
+      "word": "例えば",
+      "reading": "たとえば",
+      "meanings": [
+        "for example",
+        "for instance"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "例として",
+      "category": "narrative_connectors",
+      "context": "Bread-and-butter explainer. Introduces examples.",
+      "example_sentence": "例えば、こういう場合はどうしますか。",
+      "example_reading": "たとえば、 こういう ばあい は どう しますか。",
+      "example_meaning": "For example, what would you do in this situation?"
+    },
+    {
+      "word": "実は",
+      "reading": "じつは",
+      "meanings": [
+        "actually",
+        "to tell the truth",
+        "in fact"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "本当は",
+      "category": "narrative_connectors",
+      "context": "Confession/reveal opener. Builds dramatic anticipation.",
+      "example_sentence": "実は、来月引っ越すんです。",
+      "example_reading": "じつ は、 らいげつ ひっこす ん です。",
+      "example_meaning": "Actually, I'm moving next month."
+    },
+    {
+      "word": "それから",
+      "reading": "それから",
+      "meanings": [
+        "and then",
+        "after that",
+        "also"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その後",
+      "category": "narrative_connectors",
+      "context": "Sequencing word. それから〜 — and then…",
+      "example_sentence": "駅まで歩いて、それからバスに乗った。",
+      "example_reading": "えき まで あるいて、 それから バス に のった。",
+      "example_meaning": "I walked to the station, then took a bus."
+    },
+    {
+      "word": "だから",
+      "reading": "だから",
+      "meanings": [
+        "so",
+        "therefore",
+        "that's why"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なので",
+      "category": "narrative_connectors",
+      "context": "だから言ったでしょ — that's why I told you! Often emotional.",
+      "example_sentence": "雨だから、傘を持っていこう。",
+      "example_reading": "あめ だから、 かさ を もって いこう。",
+      "example_meaning": "It's raining, so let's bring an umbrella."
+    },
+    {
+      "word": "だからこそ",
+      "reading": "だからこそ",
+      "meanings": [
+        "that's exactly why",
+        "precisely because"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そのため",
+      "category": "narrative_connectors",
+      "context": "Emphatic だから — stresses causation. Often introduces a counter-intuitive point.",
+      "example_sentence": "難しいからこそ、挑戦する価値がある。",
+      "example_reading": "むずかしい から こそ、 ちょうせん する かち が ある。",
+      "example_meaning": "Precisely because it's hard, it's worth attempting."
+    },
+    {
+      "word": "それなのに",
+      "reading": "それなのに",
+      "meanings": [
+        "and yet",
+        "despite that",
+        "in spite of that"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "しかし",
+      "category": "narrative_connectors",
+      "context": "Concessive — sets up unexpected contrast. Often expresses frustration.",
+      "example_sentence": "準備したのに、それなのに失敗した。",
+      "example_reading": "じゅんび した のに、 それなのに しっぱい した。",
+      "example_meaning": "I prepared and yet I still failed."
+    },
+    {
+      "word": "それでも",
+      "reading": "それでも",
+      "meanings": [
+        "even so",
+        "still",
+        "nonetheless"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "でも",
+      "category": "narrative_connectors",
+      "context": "Softer than それなのに. それでも頑張る — keep trying anyway.",
+      "example_sentence": "大変だけど、それでも続ける。",
+      "example_reading": "たいへん だけど、 それでも つづける。",
+      "example_meaning": "It's tough, but I'll keep going anyway."
+    },
+    {
+      "word": "仕方ない",
+      "reading": "しかたない",
+      "meanings": [
+        "it can't be helped",
+        "there's no choice",
+        "oh well"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "しょうがない",
+      "category": "casual_reactions",
+      "context": "Already in Yotsubato. Cultural staple — accepting what you can't change.",
+      "example_sentence": "雨だから仕方ないね。",
+      "example_reading": "あめ だから しかたない ね。",
+      "example_meaning": "It's raining, so it can't be helped."
+    },
+    {
+      "word": "しょうがない",
+      "reading": "しょうがない",
+      "meanings": [
+        "it can't be helped",
+        "oh well (casual)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "仕方ない",
+      "category": "casual_reactions",
+      "context": "Casual contraction of 仕様がない. Same meaning as 仕方ない, more conversational.",
+      "example_sentence": "終電に乗り遅れた、しょうがない。",
+      "example_reading": "しゅうでん に のりおくれた、 しょうがない。",
+      "example_meaning": "I missed the last train — oh well."
+    },
+    {
+      "word": "まあいいか",
+      "reading": "まあいいか",
+      "meanings": [
+        "oh well",
+        "whatever",
+        "I guess that's fine"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "まあいい",
+      "category": "casual_reactions",
+      "context": "Shrugging acceptance. Solo まあいいか signals 'fine, moving on.'",
+      "example_sentence": "少し違うけど、まあいいか。",
+      "example_reading": "すこし ちがう けど、 まあ いい か。",
+      "example_meaning": "It's a bit different, but oh well."
+    },
+    {
+      "word": "まさか",
+      "reading": "まさか",
+      "meanings": [
+        "no way",
+        "you can't mean",
+        "surely not"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "信じられない",
+      "category": "casual_reactions",
+      "context": "Also in Detective Drama. Surprised disbelief.",
+      "example_sentence": "まさか、本当に当たったの？",
+      "example_reading": "まさか、 ほんとうに あたった の？",
+      "example_meaning": "No way — you really won?"
+    },
+    {
+      "word": "うそ",
+      "reading": "うそ",
+      "meanings": [
+        "lie",
+        "no way!",
+        "you're kidding"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "まじ",
+      "category": "casual_reactions",
+      "context": "As exclamation: うそ！— No way! As noun: 嘘. Casual reaction to surprising news.",
+      "example_sentence": "うそ、まじで？",
+      "example_reading": "うそ、 まじ で？",
+      "example_meaning": "No way, seriously?"
+    },
+    {
+      "word": "マジで",
+      "reading": "マジで",
+      "meanings": [
+        "seriously",
+        "really",
+        "for real (slang)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "本当に",
+      "category": "casual_reactions",
+      "context": "Slangy. Among friends. マジ怒ってる — seriously angry. Avoid in formal settings.",
+      "example_sentence": "マジで美味しい！",
+      "example_reading": "マジ で おいしい！",
+      "example_meaning": "Seriously delicious!"
+    },
+    {
+      "word": "やばい",
+      "reading": "やばい",
+      "meanings": [
+        "dangerous",
+        "awesome",
+        "oh no (slang multi-purpose)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "すごい/まずい",
+      "category": "casual_reactions",
+      "context": "The chameleon slang word — can mean amazing OR terrible. Tone disambiguates.",
+      "example_sentence": "このケーキ、やばい！",
+      "example_reading": "この ケーキ、 やばい！",
+      "example_meaning": "This cake is amazing!"
+    },
+    {
+      "word": "へえ",
+      "reading": "へえ",
+      "meanings": [
+        "oh",
+        "really",
+        "huh (mild surprise)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そうなんだ",
+      "category": "casual_reactions",
+      "context": "Active-listening sound. Lower pitch = more genuine surprise.",
+      "example_sentence": "へえ、それは面白いね。",
+      "example_reading": "へえ、 それ は おもしろい ね。",
+      "example_meaning": "Oh, that's interesting."
+    },
+    {
+      "word": "ふーん",
+      "reading": "ふーん",
+      "meanings": [
+        "hmm",
+        "oh (mildly uninterested)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そう",
+      "category": "casual_reactions",
+      "context": "Less engaged than へえ. Sometimes signals mild disinterest. Tone matters.",
+      "example_sentence": "ふーん、そうなんだ。",
+      "example_reading": "ふーん、 そう なんだ。",
+      "example_meaning": "Hmm, I see."
+    },
+    {
+      "word": "そっか",
+      "reading": "そっか",
+      "meanings": [
+        "I see (casual)",
+        "oh",
+        "right"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そうか",
+      "category": "casual_reactions",
+      "context": "Casual そうか. Used to acknowledge new info, often with gentleness.",
+      "example_sentence": "そっか、それは大変だね。",
+      "example_reading": "そっか、 それ は たいへん だ ね。",
+      "example_meaning": "I see, that sounds tough."
+    },
+    {
+      "word": "なんだか",
+      "reading": "なんだか",
+      "meanings": [
+        "somehow",
+        "for some reason"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "何となく",
+      "category": "hedging_softening",
+      "context": "Also in Yotsubato. Hedge for vague feelings.",
+      "example_sentence": "なんだか今日は疲れた。",
+      "example_reading": "なんだか きょう は つかれた。",
+      "example_meaning": "Somehow I'm tired today."
+    },
+    {
+      "word": "なんとなく",
+      "reading": "なんとなく",
+      "meanings": [
+        "somehow",
+        "without a particular reason"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なんだか",
+      "category": "hedging_softening",
+      "context": "Already in Yotsubato. 'I just don't know why' feeling.",
+      "example_sentence": "なんとなく嫌な予感がする。",
+      "example_reading": "なんとなく いやな よかん が する。",
+      "example_meaning": "I just have a bad feeling somehow."
+    },
+    {
+      "word": "別に",
+      "reading": "べつに",
+      "meanings": [
+        "not particularly",
+        "not really",
+        "nothing in particular"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "特に",
+      "category": "casual_reactions",
+      "context": "Solo 別に as a reply implies casual dismissal — 'meh, nothing really.' Can sound cold.",
+      "example_sentence": "どうしたの？別に、何でもない。",
+      "example_reading": "どう した の？ べつに、 なんでも ない。",
+      "example_meaning": "What's up? Nothing — it's fine."
+    },
+    {
+      "word": "結構です",
+      "reading": "けっこうです",
+      "meanings": [
+        "that's enough",
+        "no thank you (polite refusal)",
+        "fine"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いいです",
+      "category": "casual_reactions",
+      "context": "Tricky: 結構です can mean 'yes that's fine' OR 'no thanks.' Tone + context disambiguates. Often used to politely decline.",
+      "example_sentence": "お茶はいかがですか — 結構です。",
+      "example_reading": "おちゃ は いかが ですか — けっこう です。",
+      "example_meaning": "Would you like tea? — No thank you."
+    },
+    {
+      "word": "構いません",
+      "reading": "かまいません",
+      "meanings": [
+        "I don't mind",
+        "that's fine"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いいですよ",
+      "category": "casual_reactions",
+      "context": "Formal acceptance. Casual: 構わない. Used to grant permission politely.",
+      "example_sentence": "写真を撮っても構いませんか。",
+      "example_reading": "しゃしん を とって も かまいません か。",
+      "example_meaning": "Do you mind if I take a photo?"
+    },
+    {
+      "word": "楽しみ",
+      "reading": "たのしみ",
+      "meanings": [
+        "something to look forward to",
+        "pleasure"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "わくわく",
+      "category": "encouragement_concern",
+      "context": "楽しみにしている — looking forward to. 楽しみです — I'm looking forward to it.",
+      "example_sentence": "明日の旅行が楽しみだ。",
+      "example_reading": "あした の りょこう が たのしみ だ。",
+      "example_meaning": "I'm looking forward to tomorrow's trip."
+    },
+    {
+      "word": "楽しみにしています",
+      "reading": "たのしみにしています",
+      "meanings": [
+        "I look forward to it (polite)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "楽しみ",
+      "category": "encouragement_concern",
+      "context": "Standard closer for invitations and email replies.",
+      "example_sentence": "お会いできるのを楽しみにしています。",
+      "example_reading": "お あい できる の を たのしみ に して います。",
+      "example_meaning": "I look forward to meeting you."
+    },
+    {
+      "word": "頑張って",
+      "reading": "がんばって",
+      "meanings": [
+        "good luck",
+        "do your best",
+        "hang in there"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "応援してる",
+      "category": "encouragement_concern",
+      "context": "Already in N3 Essentials. Universal encouragement. 頑張ってください more formal.",
+      "example_sentence": "明日の試験、頑張って！",
+      "example_reading": "あした の しけん、 がんばって！",
+      "example_meaning": "Good luck on tomorrow's exam!"
+    },
+    {
+      "word": "お大事に",
+      "reading": "おだいじに",
+      "meanings": [
+        "take care (of your health)",
+        "get well soon"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "早くよくなって",
+      "category": "encouragement_concern",
+      "context": "Said to someone sick or leaving the doctor/pharmacy. Standard.",
+      "example_sentence": "風邪気味なんです — お大事に。",
+      "example_reading": "かぜ ぎみ なん です — おだいじ に。",
+      "example_meaning": "I'm coming down with a cold — Get well soon."
+    },
+    {
+      "word": "大変ですね",
+      "reading": "たいへんですね",
+      "meanings": [
+        "that's tough",
+        "that must be hard"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "つらいですね",
+      "category": "encouragement_concern",
+      "context": "Sympathy phrase. Acknowledges someone's hardship.",
+      "example_sentence": "残業続きで、大変ですね。",
+      "example_reading": "ざんぎょう つづき で、 たいへん です ね。",
+      "example_meaning": "Constant overtime — that must be tough."
+    },
+    {
+      "word": "気をつけて",
+      "reading": "きをつけて",
+      "meanings": [
+        "take care",
+        "be careful"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "気をつけてね",
+      "category": "encouragement_concern",
+      "context": "Also in Yotsubato. Said when someone is leaving, driving, traveling.",
+      "example_sentence": "帰り道、気をつけて。",
+      "example_reading": "かえりみち、 きをつけて。",
+      "example_meaning": "Be safe on your way home."
+    },
+    {
+      "word": "役に立つ",
+      "reading": "やくにたつ",
+      "meanings": [
+        "to be useful",
+        "to be helpful"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "使える",
+      "category": "set_expressions",
+      "context": "Already in N3 Essentials. お役に立てて嬉しい — glad to be of help.",
+      "example_sentence": "このアプリは旅行で役に立つ。",
+      "example_reading": "この アプリ は りょこう で やくにたつ。",
+      "example_meaning": "This app is useful for traveling."
+    },
+    {
+      "word": "手が空く",
+      "reading": "てがあく",
+      "meanings": [
+        "to have free time",
+        "to be available",
+        "be off the clock"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "時間ができる",
+      "category": "body_idioms",
+      "context": "Lit. 'hands become empty.' 手が空いたら — when you're free.",
+      "example_sentence": "手が空いたら手伝ってください。",
+      "example_reading": "て が あいたら てつだって ください。",
+      "example_meaning": "When you're free, please give me a hand."
+    },
+    {
+      "word": "手を貸す",
+      "reading": "てをかす",
+      "meanings": [
+        "to lend a hand",
+        "to help"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "手伝う",
+      "category": "body_idioms",
+      "context": "Lit. 'lend a hand' — same metaphor as English. 手を貸してください — please help me.",
+      "example_sentence": "重いから手を貸してくれない？",
+      "example_reading": "おもい から て を かして くれない？",
+      "example_meaning": "It's heavy — can you lend a hand?"
+    },
+    {
+      "word": "手を抜く",
+      "reading": "てをぬく",
+      "meanings": [
+        "to cut corners",
+        "to slack off",
+        "to neglect quality"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いい加減にする",
+      "category": "body_idioms",
+      "context": "Lit. 'pull the hand out.' Negative connotation. 手抜き工事 — shoddy construction.",
+      "example_sentence": "仕事で手を抜くのは良くない。",
+      "example_reading": "しごと で て を ぬく の は よくない。",
+      "example_meaning": "Cutting corners at work is not good."
+    },
+    {
+      "word": "顔が広い",
+      "reading": "かおがひろい",
+      "meanings": [
+        "to know many people",
+        "to be well-connected"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "知り合いが多い",
+      "category": "body_idioms",
+      "context": "Lit. 'has a wide face.' Compliment — implies social connections.",
+      "example_sentence": "田中さんは業界で顔が広い。",
+      "example_reading": "たなか さん は ぎょうかい で かお が ひろい。",
+      "example_meaning": "Tanaka is well-connected in the industry."
+    },
+    {
+      "word": "口が堅い",
+      "reading": "くちがかたい",
+      "meanings": [
+        "tight-lipped",
+        "good at keeping secrets"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "秘密を守る",
+      "category": "body_idioms",
+      "context": "Lit. 'hard mouth.' Trustworthy with secrets. Pairs with 口が軽い.",
+      "example_sentence": "彼女は口が堅いから安心だ。",
+      "example_reading": "かのじょ は くち が かたい から あんしん だ。",
+      "example_meaning": "She keeps secrets well — you can relax."
+    },
+    {
+      "word": "口が軽い",
+      "reading": "くちがかるい",
+      "meanings": [
+        "blabbermouth",
+        "gossipy",
+        "loose-lipped"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よく喋る",
+      "category": "body_idioms",
+      "context": "Lit. 'light mouth.' Negative — leaks secrets. Opposite of 口が堅い.",
+      "example_sentence": "あの人は口が軽いから話さない方がいい。",
+      "example_reading": "あの ひと は くち が かるい から はなさない ほう が いい。",
+      "example_meaning": "She talks too much — better not to tell her."
+    },
+    {
+      "word": "耳が痛い",
+      "reading": "みみがいたい",
+      "meanings": [
+        "hits close to home",
+        "painful to hear (truth)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その通り過ぎる",
+      "category": "body_idioms",
+      "context": "Lit. 'ears hurt.' Said when criticism is too accurate.",
+      "example_sentence": "そんな話、耳が痛い。",
+      "example_reading": "そんな はなし、 みみ が いたい。",
+      "example_meaning": "That hits close to home."
+    },
+    {
+      "word": "目が回る",
+      "reading": "めがまわる",
+      "meanings": [
+        "to be busy",
+        "head spinning",
+        "dizzy"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "忙しすぎる",
+      "category": "body_idioms",
+      "context": "Lit. 'eyes spin.' Used for extreme busyness or actual dizziness.",
+      "example_sentence": "目が回るほど忙しい。",
+      "example_reading": "め が まわる ほど いそがしい。",
+      "example_meaning": "So busy my head's spinning."
+    },
+    {
+      "word": "気が利く",
+      "reading": "きがきく",
+      "meanings": [
+        "thoughtful",
+        "considerate",
+        "attentive"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よく気がつく",
+      "category": "body_idioms",
+      "context": "High compliment. 気が利く人 — a thoughtful, perceptive person.",
+      "example_sentence": "彼女は本当に気が利く人だ。",
+      "example_reading": "かのじょ は ほんとう に き が きく ひと だ。",
+      "example_meaning": "She's a truly thoughtful person."
+    },
+    {
+      "word": "気が短い",
+      "reading": "きがみじかい",
+      "meanings": [
+        "short-tempered",
+        "impatient"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "短気",
+      "category": "body_idioms",
+      "context": "Lit. 'short-spirited.' Pairs with 気が長い (patient).",
+      "example_sentence": "父は気が短いので、すぐ怒る。",
+      "example_reading": "ちち は き が みじかい ので、 すぐ おこる。",
+      "example_meaning": "My dad is short-tempered, so he gets angry quickly."
+    },
+    {
+      "word": "気が長い",
+      "reading": "きがながい",
+      "meanings": [
+        "patient",
+        "easy-going"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "のんびりした",
+      "category": "body_idioms",
+      "context": "Lit. 'long-spirited.' Compliment for patience.",
+      "example_sentence": "母は気が長くて、何時間も待ってくれる。",
+      "example_reading": "はは は き が ながくて、 なんじかん も まって くれる。",
+      "example_meaning": "My mom is patient — she'll wait hours."
+    },
+    {
+      "word": "腹が立つ",
+      "reading": "はらがたつ",
+      "meanings": [
+        "to get angry",
+        "to be annoyed"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "怒る",
+      "category": "body_idioms",
+      "context": "Lit. 'stomach stands up.' Common alt for 怒る. 腹立つ (more casual).",
+      "example_sentence": "あの態度には腹が立った。",
+      "example_reading": "あの たいど に は はら が たった。",
+      "example_meaning": "That attitude made me angry."
+    },
+    {
+      "word": "頭が固い",
+      "reading": "あたまがかたい",
+      "meanings": [
+        "stubborn",
+        "inflexible thinking"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "頑固",
+      "category": "body_idioms",
+      "context": "Lit. 'head is hard.' Specifically about thinking style — won't accept new ideas.",
+      "example_sentence": "うちの上司は頭が固くて困る。",
+      "example_reading": "うち の じょうし は あたま が かたくて こまる。",
+      "example_meaning": "My boss is inflexible and it's a headache."
+    },
+    {
+      "word": "馬が合う",
+      "reading": "うまがあう",
+      "meanings": [
+        "to get along",
+        "to click with"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "気が合う",
+      "category": "body_idioms",
+      "context": "Lit. 'the horses match.' Idiomatic — instant chemistry with someone.",
+      "example_sentence": "彼とは馬が合う。",
+      "example_reading": "かれ と は うま が あう。",
+      "example_meaning": "I really click with him."
+    },
+    {
+      "word": "一石二鳥",
+      "reading": "いっせきにちょう",
+      "meanings": [
+        "killing two birds with one stone"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一度に二つの利益",
+      "category": "body_idioms",
+      "context": "Yojijukugo (4-character idiom). Direct calque of the English idiom.",
+      "example_sentence": "運動とダイエットで一石二鳥だ。",
+      "example_reading": "うんどう と ダイエット で いっせき にちょう だ。",
+      "example_meaning": "Exercise plus dieting — two birds with one stone."
+    },
+    {
+      "word": "十人十色",
+      "reading": "じゅうにんといろ",
+      "meanings": [
+        "everyone is different",
+        "to each their own"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "人それぞれ",
+      "category": "body_idioms",
+      "context": "Lit. 'ten people, ten colors.' Acknowledging differences in taste.",
+      "example_sentence": "好みは十人十色だ。",
+      "example_reading": "このみ は じゅうにん といろ だ。",
+      "example_meaning": "Taste varies from person to person."
+    },
+    {
+      "word": "猫の手も借りたい",
+      "reading": "ねこのてもかりたい",
+      "meanings": [
+        "so busy I'd take help from anyone",
+        "desperate for help"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても忙しい",
+      "category": "body_idioms",
+      "context": "Lit. 'I'd even borrow a cat's paw.' Used to describe extreme business.",
+      "example_sentence": "今、猫の手も借りたいくらい忙しい。",
+      "example_reading": "いま、 ねこ の て も かりたい くらい いそがしい。",
+      "example_meaning": "I'm so swamped I'd take help from anyone."
+    },
+    {
+      "word": "目から鱗",
+      "reading": "めからうろこ",
+      "meanings": [
+        "eye-opener",
+        "sudden realization"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "はっと気づく",
+      "category": "body_idioms",
+      "context": "Lit. 'scales (fall) from the eyes.' Biblical-origin phrase, idiomatic in JP.",
+      "example_sentence": "その説明で目から鱗が落ちた。",
+      "example_reading": "その せつめい で め から うろこ が おちた。",
+      "example_meaning": "That explanation was an eye-opener."
+    },
+    {
+      "word": "思わず",
+      "reading": "おもわず",
+      "meanings": [
+        "unintentionally",
+        "spontaneously",
+        "without thinking"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "自然に",
+      "category": "set_expressions",
+      "context": "思わず笑ってしまった — couldn't help laughing. Common in narratives.",
+      "example_sentence": "思わず大声で笑ってしまった。",
+      "example_reading": "おもわず おおごえ で わらって しまった。",
+      "example_meaning": "I couldn't help laughing out loud."
+    },
+    {
+      "word": "つい",
+      "reading": "つい",
+      "meanings": [
+        "unintentionally",
+        "just (a moment ago)",
+        "carelessly"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "うっかり",
+      "category": "set_expressions",
+      "context": "つい食べ過ぎた — ate too much without meaning to. Implies lack of control.",
+      "example_sentence": "つい余計なことを言ってしまった。",
+      "example_reading": "つい よけい な こと を いって しまった。",
+      "example_meaning": "I accidentally said something unnecessary."
+    },
+    {
+      "word": "あいにく",
+      "reading": "あいにく",
+      "meanings": [
+        "unfortunately",
+        "sorry to say"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "残念ながら",
+      "category": "set_expressions",
+      "context": "Polite apologetic opener. あいにく満席です — sorry, we're fully booked.",
+      "example_sentence": "あいにく明日は予定があります。",
+      "example_reading": "あいにく あした は よてい が あります。",
+      "example_meaning": "Unfortunately I have plans tomorrow."
+    },
+    {
+      "word": "思い切って",
+      "reading": "おもいきって",
+      "meanings": [
+        "boldly",
+        "decisively",
+        "taking the plunge"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "勇気を出して",
+      "category": "set_expressions",
+      "context": "思い切って言う — say it boldly. 思い切って買う — splurge and buy.",
+      "example_sentence": "思い切って告白した。",
+      "example_reading": "おもいきって こくはく した。",
+      "example_meaning": "I worked up the courage and confessed."
+    },
+    {
+      "word": "ようやく",
+      "reading": "ようやく",
+      "meanings": [
+        "finally",
+        "at last",
+        "barely"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "やっと",
+      "category": "set_expressions",
+      "context": "Already in N3 Essentials. More literary than やっと.",
+      "example_sentence": "ようやく春らしくなった。",
+      "example_reading": "ようやく はる らしく なった。",
+      "example_meaning": "It's finally starting to feel like spring."
+    },
+    {
+      "word": "いよいよ",
+      "reading": "いよいよ",
+      "meanings": [
+        "at last",
+        "finally",
+        "more and more"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とうとう",
+      "category": "set_expressions",
+      "context": "Already in N3 Essentials. Builds anticipation: いよいよ明日 — at last, tomorrow.",
+      "example_sentence": "いよいよ大会の日だ。",
+      "example_reading": "いよいよ たいかい の ひ だ。",
+      "example_meaning": "At last, the day of the tournament."
+    },
+    {
+      "word": "〜と思います",
+      "reading": "とおもいます",
+      "meanings": [
+        "I think (that)",
+        "I believe"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "でしょう",
+      "category": "hedging_softening",
+      "context": "Standard hedge for opinions. ます-form makes it polite. と思う for casual.",
+      "example_sentence": "明日は雨が降ると思います。",
+      "example_reading": "あした は あめ が ふる と おもいます。",
+      "example_meaning": "I think it'll rain tomorrow."
+    },
+    {
+      "word": "気がする",
+      "reading": "きがする",
+      "meanings": [
+        "I have a feeling",
+        "I feel like",
+        "seems to me"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "感じがする",
+      "category": "hedging_softening",
+      "context": "Softer than と思う — based on intuition rather than logic.",
+      "example_sentence": "雨が降りそうな気がする。",
+      "example_reading": "あめ が ふりそう な き が する。",
+      "example_meaning": "I have a feeling it might rain."
+    },
+    {
+      "word": "ほど",
+      "reading": "ほど",
+      "meanings": [
+        "about",
+        "to the extent of",
+        "the more...the more"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜くらい",
+      "category": "set_expressions",
+      "context": "5分ほど — about 5 minutes. 死ぬほど疲れた — tired enough to die. 〜ば〜ほど — the more X, the more Y.",
+      "example_sentence": "これほど美味しいラーメンは初めてだ。",
+      "example_reading": "これ ほど おいしい ラーメン は はじめて だ。",
+      "example_meaning": "This is the most delicious ramen I've ever had."
+    },
+    {
+      "word": "くらい",
+      "reading": "くらい",
+      "meanings": [
+        "about",
+        "approximately",
+        "to the extent of"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ほど",
+      "category": "set_expressions",
+      "context": "Sometimes ぐらい. Casual: そのくらい — about that much. Estimating size/quantity.",
+      "example_sentence": "一時間くらいで着きます。",
+      "example_reading": "いちじかん くらい で つきます。",
+      "example_meaning": "I'll arrive in about an hour."
+    },
+    {
+      "word": "なんとか",
+      "reading": "なんとか",
+      "meanings": [
+        "somehow",
+        "manage to"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうにか",
+      "category": "set_expressions",
+      "context": "なんとか頑張る — somehow manage. Also as placeholder: 田中なんとか — Tanaka something.",
+      "example_sentence": "なんとか間に合った。",
+      "example_reading": "なんとか まにあった。",
+      "example_meaning": "Somehow I made it in time."
+    },
+    {
+      "word": "どうにか",
+      "reading": "どうにか",
+      "meanings": [
+        "somehow",
+        "one way or another"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なんとか",
+      "category": "set_expressions",
+      "context": "More desperate than なんとか. どうにかしてください — please do something about it.",
+      "example_sentence": "どうにかして助けてください。",
+      "example_reading": "どうにか して たすけて ください。",
+      "example_meaning": "Somehow please help me."
+    },
+    {
+      "word": "ずっと",
+      "reading": "ずっと",
+      "meanings": [
+        "all the time",
+        "much more",
+        "far"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いつも",
+      "category": "set_expressions",
+      "context": "Already in Yotsubato. Three uses: time, distance, comparison.",
+      "example_sentence": "ずっと前からの夢だった。",
+      "example_reading": "ずっと まえ から の ゆめ だった。",
+      "example_meaning": "It's been my dream for a long time."
+    },
+    {
+      "word": "ますます",
+      "reading": "ますます",
+      "meanings": [
+        "more and more",
+        "increasingly"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どんどん",
+      "category": "set_expressions",
+      "context": "ますますお元気で — get even healthier. Often closing well-wish in formal correspondence.",
+      "example_sentence": "日本語がますます上手になりましたね。",
+      "example_reading": "にほんご が ますます じょうず に なりましたね。",
+      "example_meaning": "Your Japanese has gotten even better."
+    },
+    {
+      "word": "〜気味",
+      "reading": "ぎみ",
+      "meanings": [
+        "a bit (negative)",
+        "tinge of"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "少し〜",
+      "category": "set_expressions",
+      "context": "Already in N3/N4 General. 風邪気味 — feeling a cold coming on.",
+      "example_sentence": "最近、疲れ気味です。",
+      "example_reading": "さいきん、 つかれ ぎみ です。",
+      "example_meaning": "I've been a bit tired lately."
+    },
+    {
+      "word": "〜らしい",
+      "reading": "らしい",
+      "meanings": [
+        "seems like",
+        "apparently",
+        "typical of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のようだ",
+      "category": "set_expressions",
+      "context": "Already in N3/N4 General. Hearsay vs 'characteristic of' — context disambiguates.",
+      "example_sentence": "明日は雪らしい。",
+      "example_reading": "あした は ゆき らしい。",
+      "example_meaning": "Apparently it'll snow tomorrow."
+    },
+    {
+      "word": "〜つもり",
+      "reading": "つもり",
+      "meanings": [
+        "intend to",
+        "plan to"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜と考えている",
+      "category": "set_expressions",
+      "context": "明日帰るつもり — I plan to go home tomorrow. つもりはない — don't intend to.",
+      "example_sentence": "来年留学するつもりです。",
+      "example_reading": "らいねん りゅうがく する つもり です。",
+      "example_meaning": "I plan to study abroad next year."
+    },
+    {
+      "word": "〜はず",
+      "reading": "はず",
+      "meanings": [
+        "should be",
+        "supposed to",
+        "ought to"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "きっと",
+      "category": "set_expressions",
+      "context": "Already in N3 Essentials. Reasoned expectation. はずがない — there's no way.",
+      "example_sentence": "電車はもうすぐ来るはずだ。",
+      "example_reading": "でんしゃ は もうすぐ くる はず だ。",
+      "example_meaning": "The train should be coming soon."
+    },
+    {
+      "word": "〜ばかり",
+      "reading": "ばかり",
+      "meanings": [
+        "only",
+        "just",
+        "just (did)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜だけ",
+      "category": "set_expressions",
+      "context": "Already in N3/N4 General. Either limiting (only X) or recency (just did).",
+      "example_sentence": "日本に来たばかりです。",
+      "example_reading": "にほん に きた ばかり です。",
+      "example_meaning": "I just arrived in Japan."
+    },
+    {
+      "word": "おかげで",
+      "reading": "おかげで",
+      "meanings": [
+        "thanks to",
+        "because of (positive)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のため",
+      "category": "set_expressions",
+      "context": "Already in N3/N4 General. お陰様で — formal humble form, very common in greetings.",
+      "example_sentence": "先生のおかげで合格した。",
+      "example_reading": "せんせい の おかげ で ごうかく した。",
+      "example_meaning": "Thanks to my teacher, I passed."
+    }
+  ]
+}

@@ -1,0 +1,7943 @@
+{
+  "deck_id": "n3-essentials",
+  "deck_name": "JLPT N3 Essentials",
+  "version": "1.0",
+  "source": "Hand-curated from JLPT N3 frequency lists, common Japanese corpora, and pitfalls observed in N4→N3 learners.",
+  "learner_level": "N3",
+  "notes": "A focused 500-word target deck of N3-level vocabulary that learners need to bridge from N4 textbook Japanese into real-world reading and listening. Cards lean toward words an N4 learner has seen but cannot yet use actively: abstract nouns, transitive/intransitive verb pairs, common -する verbs, frequency adverbs, and common な/い adjectives. Words covered in the existing N4/N5 Core, N3/N4 General, Japan Travel, or Yotsubato decks are intentionally excluded to avoid overlap. This is volume 1 of 500 — additional cards will be added in future passes; the current build covers the highest-frequency essentials first.",
+  "card_count": 711,
+  "categories": [
+    "verbs_action",
+    "verbs_communication",
+    "verbs_emotion",
+    "verbs_thinking",
+    "verbs_pairs",
+    "verbs_suru",
+    "adj_i",
+    "adj_na",
+    "adverbs",
+    "nouns_daily",
+    "nouns_work_study",
+    "nouns_society",
+    "nouns_emotion",
+    "nouns_abstract",
+    "nouns_body_health",
+    "nouns_food",
+    "nouns_nature",
+    "nouns_time",
+    "expressions"
+  ],
+  "cards": [
+    {
+      "word": "預ける",
+      "reading": "あずける",
+      "meanings": [
+        "to deposit",
+        "to entrust",
+        "to leave with"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "荷物を預ける — to check/leave luggage. Pairs with 預かる (to look after for someone)."
+    },
+    {
+      "word": "預かる",
+      "reading": "あずかる",
+      "meanings": [
+        "to look after",
+        "to keep for someone",
+        "to take charge of"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "鍵を預かる — to keep someone's key. Other side of 預ける."
+    },
+    {
+      "word": "与える",
+      "reading": "あたえる",
+      "meanings": [
+        "to give",
+        "to provide",
+        "to award"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "More formal than あげる. Used for impact/influence: 影響を与える — to have an influence on."
+    },
+    {
+      "word": "扱う",
+      "reading": "あつかう",
+      "meanings": [
+        "to handle",
+        "to deal with",
+        "to treat"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "商品を扱う — to deal in (a product). Also 大切に扱う — to handle with care."
+    },
+    {
+      "word": "集中",
+      "reading": "しゅうちゅう",
+      "meanings": [
+        "concentration",
+        "focus"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "集中する — to concentrate. 集中力 — powers of concentration."
+    },
+    {
+      "word": "育てる",
+      "reading": "そだてる",
+      "meanings": [
+        "to raise",
+        "to bring up",
+        "to cultivate"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "子供を育てる — to raise children. Pairs with 育つ."
+    },
+    {
+      "word": "育つ",
+      "reading": "そだつ",
+      "meanings": [
+        "to grow up",
+        "to be raised"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Intransitive of 育てる. 田舎で育った — I grew up in the countryside."
+    },
+    {
+      "word": "進める",
+      "reading": "すすめる",
+      "meanings": [
+        "to advance (something)",
+        "to push forward",
+        "to promote"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "計画を進める — to push a plan forward. Don't confuse with 勧める (to recommend)."
+    },
+    {
+      "word": "進む",
+      "reading": "すすむ",
+      "meanings": [
+        "to advance",
+        "to make progress",
+        "to proceed"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Intransitive of 進める. 工事が進む — construction is progressing."
+    },
+    {
+      "word": "勧める",
+      "reading": "すすめる",
+      "meanings": [
+        "to recommend",
+        "to advise",
+        "to encourage"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "Same reading as 進める but different kanji. 本を勧める — to recommend a book."
+    },
+    {
+      "word": "加える",
+      "reading": "くわえる",
+      "meanings": [
+        "to add",
+        "to include"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "塩を加える — add salt. 仲間に加える — bring into the group."
+    },
+    {
+      "word": "加わる",
+      "reading": "くわわる",
+      "meanings": [
+        "to join",
+        "to be added to",
+        "to participate"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Intransitive pair of 加える. チームに加わる — to join a team."
+    },
+    {
+      "word": "含む",
+      "reading": "ふくむ",
+      "meanings": [
+        "to contain",
+        "to include",
+        "to comprise"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "税込み — tax included (literally 'tax-containing'). 含めて — including."
+    },
+    {
+      "word": "含める",
+      "reading": "ふくめる",
+      "meanings": [
+        "to include",
+        "to add in"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Transitive form. 子供も含めて20人 — 20 people including children."
+    },
+    {
+      "word": "超える",
+      "reading": "こえる",
+      "meanings": [
+        "to exceed",
+        "to go beyond",
+        "to cross"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "Often written 越える for 'cross over'. 1万円を超える — to exceed 10,000 yen."
+    },
+    {
+      "word": "越える",
+      "reading": "こえる",
+      "meanings": [
+        "to cross over",
+        "to go beyond"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "Used for crossing physical things: 山を越える, 国境を越える."
+    },
+    {
+      "word": "伸びる",
+      "reading": "のびる",
+      "meanings": [
+        "to stretch",
+        "to grow longer",
+        "to extend"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "背が伸びる — to grow taller. 麺が伸びる — noodles get soggy."
+    },
+    {
+      "word": "伸ばす",
+      "reading": "のばす",
+      "meanings": [
+        "to extend",
+        "to lengthen",
+        "to grow out"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Transitive of 伸びる. 髪を伸ばす — to grow out one's hair."
+    },
+    {
+      "word": "曲げる",
+      "reading": "まげる",
+      "meanings": [
+        "to bend",
+        "to distort"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "膝を曲げる — to bend one's knees. Pairs with 曲がる."
+    },
+    {
+      "word": "曲がる",
+      "reading": "まがる",
+      "meanings": [
+        "to turn",
+        "to bend",
+        "to curve"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "右に曲がる — to turn right. Intransitive of 曲げる."
+    },
+    {
+      "word": "折る",
+      "reading": "おる",
+      "meanings": [
+        "to break (long thin object)",
+        "to fold"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "骨を折る — to break a bone (also idiomatically: to take pains). 紙を折る — to fold paper."
+    },
+    {
+      "word": "折れる",
+      "reading": "おれる",
+      "meanings": [
+        "to break (intr.)",
+        "to be folded",
+        "to give in"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "骨が折れる — a bone breaks; also figuratively 'requires effort'."
+    },
+    {
+      "word": "破る",
+      "reading": "やぶる",
+      "meanings": [
+        "to tear",
+        "to break (a promise/record)",
+        "to defeat"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "約束を破る — to break a promise. 記録を破る — to break a record."
+    },
+    {
+      "word": "破れる",
+      "reading": "やぶれる",
+      "meanings": [
+        "to be torn",
+        "to be ripped"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Intransitive. 紙が破れる — the paper tears."
+    },
+    {
+      "word": "割る",
+      "reading": "わる",
+      "meanings": [
+        "to divide",
+        "to break (into pieces)",
+        "to split"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "Math: 10を2で割る — divide 10 by 2. 卵を割る — crack an egg."
+    },
+    {
+      "word": "割れる",
+      "reading": "われる",
+      "meanings": [
+        "to break (into pieces)",
+        "to crack",
+        "to split"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Intransitive. ガラスが割れる — the glass breaks."
+    },
+    {
+      "word": "焼く",
+      "reading": "やく",
+      "meanings": [
+        "to bake",
+        "to grill",
+        "to burn"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "魚を焼く — to grill fish. 焼ける is the intransitive."
+    },
+    {
+      "word": "焼ける",
+      "reading": "やける",
+      "meanings": [
+        "to be baked",
+        "to burn (intr.)",
+        "to get a tan"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "日に焼ける — to get a suntan. 家が焼ける — the house burns down."
+    },
+    {
+      "word": "沸かす",
+      "reading": "わかす",
+      "meanings": [
+        "to boil (water)",
+        "to heat up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "お湯を沸かす — to boil water. Pairs with 沸く."
+    },
+    {
+      "word": "沸く",
+      "reading": "わく",
+      "meanings": [
+        "to boil",
+        "to get heated up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "お湯が沸いた — the water has boiled."
+    },
+    {
+      "word": "冷やす",
+      "reading": "ひやす",
+      "meanings": [
+        "to cool",
+        "to chill"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "ビールを冷やす — chill the beer. Pairs with 冷える."
+    },
+    {
+      "word": "冷える",
+      "reading": "ひえる",
+      "meanings": [
+        "to grow cold",
+        "to cool down"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "体が冷える — to feel chilled. 冷えた飲み物 — chilled drink."
+    },
+    {
+      "word": "温める",
+      "reading": "あたためる",
+      "meanings": [
+        "to warm up",
+        "to heat"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "スープを温める — heat up the soup. Also 暖める for room/body warming."
+    },
+    {
+      "word": "溶ける",
+      "reading": "とける",
+      "meanings": [
+        "to melt",
+        "to dissolve"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "雪が溶ける — the snow melts. 氷が溶ける — ice melts."
+    },
+    {
+      "word": "濡れる",
+      "reading": "ぬれる",
+      "meanings": [
+        "to get wet",
+        "to be soaked"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "雨で濡れた — got wet in the rain."
+    },
+    {
+      "word": "乾く",
+      "reading": "かわく",
+      "meanings": [
+        "to dry out",
+        "to become dry"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "洗濯物が乾く — laundry dries. Pairs with 乾かす."
+    },
+    {
+      "word": "乾かす",
+      "reading": "かわかす",
+      "meanings": [
+        "to dry (something)",
+        "to dry out"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "髪を乾かす — to dry one's hair."
+    },
+    {
+      "word": "汚れる",
+      "reading": "よごれる",
+      "meanings": [
+        "to get dirty",
+        "to become soiled"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "服が汚れる — clothes get dirty."
+    },
+    {
+      "word": "汚す",
+      "reading": "よごす",
+      "meanings": [
+        "to make dirty",
+        "to soil",
+        "to stain"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "床を汚さないで — don't dirty the floor."
+    },
+    {
+      "word": "包む",
+      "reading": "つつむ",
+      "meanings": [
+        "to wrap",
+        "to envelop"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "プレゼントを包む — to wrap a present."
+    },
+    {
+      "word": "運ぶ",
+      "reading": "はこぶ",
+      "meanings": [
+        "to carry",
+        "to transport",
+        "to convey"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "荷物を運ぶ — carry baggage. 順調に運ぶ — to proceed smoothly."
+    },
+    {
+      "word": "渡す",
+      "reading": "わたす",
+      "meanings": [
+        "to hand over",
+        "to pass on"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "書類を渡す — to hand over documents. Pairs with 渡る."
+    },
+    {
+      "word": "渡る",
+      "reading": "わたる",
+      "meanings": [
+        "to cross",
+        "to go across"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "橋を渡る — to cross a bridge."
+    },
+    {
+      "word": "探す",
+      "reading": "さがす",
+      "meanings": [
+        "to search for",
+        "to look for"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "家を探す — house hunting. 仕事を探す — job hunting."
+    },
+    {
+      "word": "投げる",
+      "reading": "なげる",
+      "meanings": [
+        "to throw",
+        "to toss",
+        "to give up on"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "ボールを投げる — throw a ball."
+    },
+    {
+      "word": "叩く",
+      "reading": "たたく",
+      "meanings": [
+        "to strike",
+        "to knock",
+        "to clap"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "ドアを叩く — knock on the door. 手を叩く — clap hands."
+    },
+    {
+      "word": "押す",
+      "reading": "おす",
+      "meanings": [
+        "to push",
+        "to press",
+        "to stamp"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "ボタンを押す — press a button. ハンコを押す — stamp a seal."
+    },
+    {
+      "word": "引く",
+      "reading": "ひく",
+      "meanings": [
+        "to pull",
+        "to subtract",
+        "to look up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "辞書を引く — look up in a dictionary. 風邪を引く — to catch a cold."
+    },
+    {
+      "word": "持ち上げる",
+      "reading": "もちあげる",
+      "meanings": [
+        "to lift up",
+        "to flatter"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "重い荷物を持ち上げる — to lift a heavy bag."
+    },
+    {
+      "word": "取り出す",
+      "reading": "とりだす",
+      "meanings": [
+        "to take out",
+        "to pull out"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "カバンから本を取り出す — take a book out of the bag."
+    },
+    {
+      "word": "取り替える",
+      "reading": "とりかえる",
+      "meanings": [
+        "to exchange",
+        "to replace"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "電池を取り替える — replace the batteries."
+    },
+    {
+      "word": "組み立てる",
+      "reading": "くみたてる",
+      "meanings": [
+        "to assemble",
+        "to put together",
+        "to construct"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "家具を組み立てる — assemble furniture."
+    },
+    {
+      "word": "組み合わせる",
+      "reading": "くみあわせる",
+      "meanings": [
+        "to combine",
+        "to put together"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "色を組み合わせる — combine colors."
+    },
+    {
+      "word": "飛ばす",
+      "reading": "とばす",
+      "meanings": [
+        "to skip",
+        "to make fly",
+        "to drive fast"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "ページを飛ばす — to skip pages. Transitive of 飛ぶ."
+    },
+    {
+      "word": "逃げる",
+      "reading": "にげる",
+      "meanings": [
+        "to escape",
+        "to run away",
+        "to flee"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "問題から逃げる — to run from a problem."
+    },
+    {
+      "word": "逃がす",
+      "reading": "にがす",
+      "meanings": [
+        "to let escape",
+        "to set free",
+        "to miss"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "チャンスを逃がす — to miss a chance."
+    },
+    {
+      "word": "追う",
+      "reading": "おう",
+      "meanings": [
+        "to chase",
+        "to follow"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "夢を追う — to chase a dream."
+    },
+    {
+      "word": "追いかける",
+      "reading": "おいかける",
+      "meanings": [
+        "to run after",
+        "to pursue"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "More active than 追う. 犯人を追いかける — chase a criminal."
+    },
+    {
+      "word": "通る",
+      "reading": "とおる",
+      "meanings": [
+        "to pass through",
+        "to go along"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "バスが通る — a bus passes by. 試験に通る — to pass an exam."
+    },
+    {
+      "word": "通す",
+      "reading": "とおす",
+      "meanings": [
+        "to let pass",
+        "to put through"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "客を通す — show a guest in. 目を通す — to look over."
+    },
+    {
+      "word": "離れる",
+      "reading": "はなれる",
+      "meanings": [
+        "to leave",
+        "to be separated",
+        "to be apart"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "故郷を離れる — to leave one's hometown."
+    },
+    {
+      "word": "離す",
+      "reading": "はなす",
+      "meanings": [
+        "to separate",
+        "to release",
+        "to let go"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "手を離す — let go of one's hand."
+    },
+    {
+      "word": "近づく",
+      "reading": "ちかづく",
+      "meanings": [
+        "to approach",
+        "to draw near",
+        "to get close to"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "締め切りが近づく — the deadline approaches."
+    },
+    {
+      "word": "近づける",
+      "reading": "ちかづける",
+      "meanings": [
+        "to bring near",
+        "to bring close"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "Transitive form. 顔を近づける — bring one's face close."
+    },
+    {
+      "word": "戻る",
+      "reading": "もどる",
+      "meanings": [
+        "to return",
+        "to go back",
+        "to come back"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "家に戻る — go back home. Less formal than 帰る."
+    },
+    {
+      "word": "戻す",
+      "reading": "もどす",
+      "meanings": [
+        "to return (something)",
+        "to put back"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "本を棚に戻す — put the book back on the shelf."
+    },
+    {
+      "word": "届く",
+      "reading": "とどく",
+      "meanings": [
+        "to reach",
+        "to arrive",
+        "to be delivered"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "手紙が届く — a letter arrives. 手が届く — within reach."
+    },
+    {
+      "word": "届ける",
+      "reading": "とどける",
+      "meanings": [
+        "to deliver",
+        "to report",
+        "to forward"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "荷物を届ける — to deliver a package."
+    },
+    {
+      "word": "残る",
+      "reading": "のこる",
+      "meanings": [
+        "to remain",
+        "to be left",
+        "to stay"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "会社に残る — to stay at the office. 記憶に残る — stay in memory."
+    },
+    {
+      "word": "残す",
+      "reading": "のこす",
+      "meanings": [
+        "to leave (behind)",
+        "to save"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "食べ残す — to leave food uneaten."
+    },
+    {
+      "word": "溜まる",
+      "reading": "たまる",
+      "meanings": [
+        "to pile up",
+        "to accumulate",
+        "to build up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "ストレスが溜まる — stress builds up. 仕事が溜まる — work piles up."
+    },
+    {
+      "word": "溜める",
+      "reading": "ためる",
+      "meanings": [
+        "to save up",
+        "to accumulate"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "お金を溜める — to save money. Often written 貯める for money."
+    },
+    {
+      "word": "建てる",
+      "reading": "たてる",
+      "meanings": [
+        "to build",
+        "to erect",
+        "to construct"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "家を建てる — build a house. Different from 立てる ('to stand up')."
+    },
+    {
+      "word": "建つ",
+      "reading": "たつ",
+      "meanings": [
+        "to be built",
+        "to be constructed"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "新しいビルが建つ — a new building is being built."
+    },
+    {
+      "word": "飾る",
+      "reading": "かざる",
+      "meanings": [
+        "to decorate",
+        "to adorn"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "部屋を飾る — to decorate a room."
+    },
+    {
+      "word": "並べる",
+      "reading": "ならべる",
+      "meanings": [
+        "to arrange",
+        "to line up",
+        "to display"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "商品を並べる — display goods on shelves."
+    },
+    {
+      "word": "並ぶ",
+      "reading": "ならぶ",
+      "meanings": [
+        "to line up",
+        "to stand in line"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "レジに並ぶ — line up at the cashier."
+    },
+    {
+      "word": "閉じる",
+      "reading": "とじる",
+      "meanings": [
+        "to close",
+        "to shut"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "目を閉じる — close eyes. 本を閉じる — close a book. More literary than 閉める."
+    },
+    {
+      "word": "開く",
+      "reading": "ひらく",
+      "meanings": [
+        "to open",
+        "to spread out",
+        "to hold (an event)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "店を開く — open a shop. パーティーを開く — hold a party. Reading ひらく vs あく — different nuance."
+    },
+    {
+      "word": "伝える",
+      "reading": "つたえる",
+      "meanings": [
+        "to convey",
+        "to transmit",
+        "to tell"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "気持ちを伝える — convey feelings. よろしくお伝えください — please give my regards."
+    },
+    {
+      "word": "伝わる",
+      "reading": "つたわる",
+      "meanings": [
+        "to be conveyed",
+        "to spread",
+        "to be transmitted"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "うわさが伝わる — a rumor spreads. 気持ちが伝わる — feelings get across."
+    },
+    {
+      "word": "教わる",
+      "reading": "おそわる",
+      "meanings": [
+        "to be taught",
+        "to learn from"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "先生に教わる — to be taught by a teacher. Counterpart of 教える."
+    },
+    {
+      "word": "答える",
+      "reading": "こたえる",
+      "meanings": [
+        "to answer",
+        "to respond"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "質問に答える — answer a question. The noun 答え means 'answer'."
+    },
+    {
+      "word": "質問",
+      "reading": "しつもん",
+      "meanings": [
+        "question",
+        "inquiry"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "質問する — to ask a question. 質問はありますか — any questions?"
+    },
+    {
+      "word": "説明",
+      "reading": "せつめい",
+      "meanings": [
+        "explanation",
+        "exposition"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "説明する — to explain. 説明書 — instruction manual."
+    },
+    {
+      "word": "報告",
+      "reading": "ほうこく",
+      "meanings": [
+        "report",
+        "information"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "報告する — to report. 報告書 — written report."
+    },
+    {
+      "word": "発表",
+      "reading": "はっぴょう",
+      "meanings": [
+        "announcement",
+        "presentation"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "発表する — to announce/present. プレゼン uses this concept."
+    },
+    {
+      "word": "紹介",
+      "reading": "しょうかい",
+      "meanings": [
+        "introduction",
+        "referral"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "自己紹介 — self-introduction. 紹介する — to introduce."
+    },
+    {
+      "word": "案内",
+      "reading": "あんない",
+      "meanings": [
+        "guidance",
+        "information",
+        "showing around"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "道案内 — directions. ご案内します — I'll show you the way."
+    },
+    {
+      "word": "注意",
+      "reading": "ちゅうい",
+      "meanings": [
+        "caution",
+        "warning",
+        "attention"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "注意する — to warn / pay attention. 注意点 — point to be careful about."
+    },
+    {
+      "word": "反対",
+      "reading": "はんたい",
+      "meanings": [
+        "opposition",
+        "opposite",
+        "reverse"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "反対する — to oppose. 反対方向 — opposite direction."
+    },
+    {
+      "word": "賛成",
+      "reading": "さんせい",
+      "meanings": [
+        "agreement",
+        "approval"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "賛成する — to agree with. Opposite of 反対."
+    },
+    {
+      "word": "意見",
+      "reading": "いけん",
+      "meanings": [
+        "opinion",
+        "view"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "意見を言う — to give an opinion. ご意見ありがとうございます — thank you for your input."
+    },
+    {
+      "word": "主張",
+      "reading": "しゅちょう",
+      "meanings": [
+        "assertion",
+        "claim",
+        "insistence"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "主張する — to insist, claim. Stronger than 意見."
+    },
+    {
+      "word": "発言",
+      "reading": "はつげん",
+      "meanings": [
+        "statement",
+        "remark",
+        "utterance"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "発言する — to speak up, make a remark. Used in formal settings."
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "meanings": [
+        "conversation",
+        "dialogue"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "日常会話 — everyday conversation. Different nuance from 話 (general 'talk')."
+    },
+    {
+      "word": "討論",
+      "reading": "とうろん",
+      "meanings": [
+        "debate",
+        "discussion"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "討論会 — debate session. More formal than 議論."
+    },
+    {
+      "word": "議論",
+      "reading": "ぎろん",
+      "meanings": [
+        "argument",
+        "discussion",
+        "debate"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "議論する — to discuss/argue. Often used in news/business."
+    },
+    {
+      "word": "翻訳",
+      "reading": "ほんやく",
+      "meanings": [
+        "translation"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "翻訳する — to translate (text). Distinct from 通訳 (interpretation, spoken)."
+    },
+    {
+      "word": "通訳",
+      "reading": "つうやく",
+      "meanings": [
+        "interpretation",
+        "interpreter"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "通訳する — to interpret (spoken). Also refers to the person doing it."
+    },
+    {
+      "word": "発音",
+      "reading": "はつおん",
+      "meanings": [
+        "pronunciation"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "発音が難しい — pronunciation is difficult."
+    },
+    {
+      "word": "うわさ",
+      "reading": "うわさ",
+      "meanings": [
+        "rumor",
+        "gossip"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "Often written 噂. うわさを聞く — to hear a rumor."
+    },
+    {
+      "word": "嘘",
+      "reading": "うそ",
+      "meanings": [
+        "lie",
+        "falsehood"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "嘘をつく — to tell a lie. Also exclamation: 嘘! 'No way!'"
+    },
+    {
+      "word": "本当",
+      "reading": "ほんとう",
+      "meanings": [
+        "truth",
+        "reality"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "本当に — really. Casual ほんと is everywhere in spoken Japanese."
+    },
+    {
+      "word": "事実",
+      "reading": "じじつ",
+      "meanings": [
+        "fact",
+        "truth",
+        "reality"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "事実上 — in effect. More formal than 本当."
+    },
+    {
+      "word": "実際",
+      "reading": "じっさい",
+      "meanings": [
+        "actual",
+        "reality",
+        "actually"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "実際に — actually, in reality. 実際の話 — the actual story."
+    },
+    {
+      "word": "確か",
+      "reading": "たしか",
+      "meanings": [
+        "certain",
+        "sure",
+        "if I remember correctly"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "確かに — certainly. 確か… — if I recall correctly… (hedging)."
+    },
+    {
+      "word": "確実",
+      "reading": "かくじつ",
+      "meanings": [
+        "certainty",
+        "reliability",
+        "sure thing"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "確実な情報 — reliable information. Stronger than 確か."
+    },
+    {
+      "word": "必ず",
+      "reading": "かならず",
+      "meanings": [
+        "always",
+        "certainly",
+        "without fail"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "必ず行きます — I will definitely go. Stronger than きっと."
+    },
+    {
+      "word": "きっと",
+      "reading": "きっと",
+      "meanings": [
+        "surely",
+        "certainly",
+        "probably"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "きっと来ます — I'm sure they'll come. Speaker's strong belief."
+    },
+    {
+      "word": "たぶん",
+      "reading": "たぶん",
+      "meanings": [
+        "probably",
+        "perhaps"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Often written 多分. Common hedge — weaker than きっと."
+    },
+    {
+      "word": "おそらく",
+      "reading": "おそらく",
+      "meanings": [
+        "probably",
+        "likely",
+        "perhaps"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "More formal than たぶん. Often paired with でしょう."
+    },
+    {
+      "word": "もしかして",
+      "reading": "もしかして",
+      "meanings": [
+        "by any chance",
+        "perhaps",
+        "could it be"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "もしかして山田さん? — Could you be Yamada-san?"
+    },
+    {
+      "word": "もしも",
+      "reading": "もしも",
+      "meanings": [
+        "if (emphatic)",
+        "in the event that"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "More emphatic than もし. もしもの時 — in case of emergency."
+    },
+    {
+      "word": "絶対",
+      "reading": "ぜったい",
+      "meanings": [
+        "absolute",
+        "absolutely",
+        "never (with negation)"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "絶対に行く — definitely going. 絶対に許さない — never forgive."
+    },
+    {
+      "word": "全く",
+      "reading": "まったく",
+      "meanings": [
+        "completely",
+        "entirely",
+        "not at all (with negation)"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "全く分からない — I don't understand at all. Also exclamation of frustration."
+    },
+    {
+      "word": "全部",
+      "reading": "ぜんぶ",
+      "meanings": [
+        "all",
+        "whole",
+        "everything"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "全部食べた — ate it all. Common, but the kanji can trip beginners."
+    },
+    {
+      "word": "一部",
+      "reading": "いちぶ",
+      "meanings": [
+        "part",
+        "portion",
+        "section"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "一部の人 — some people. Opposite of 全部."
+    },
+    {
+      "word": "全体",
+      "reading": "ぜんたい",
+      "meanings": [
+        "whole",
+        "entirety",
+        "general"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "全体的に — overall, on the whole. 全体の半分 — half of the whole."
+    },
+    {
+      "word": "大部分",
+      "reading": "だいぶぶん",
+      "meanings": [
+        "majority",
+        "most",
+        "greater part"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "大部分の人 — most people."
+    },
+    {
+      "word": "以上",
+      "reading": "いじょう",
+      "meanings": [
+        "more than",
+        "above",
+        "that's all"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "100円以上 — 100 yen or more. 以上です — that concludes (used to end presentations)."
+    },
+    {
+      "word": "以下",
+      "reading": "いか",
+      "meanings": [
+        "less than",
+        "below",
+        "the following"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "以下の通り — as follows. 18歳以下 — 18 years old or younger."
+    },
+    {
+      "word": "以内",
+      "reading": "いない",
+      "meanings": [
+        "within",
+        "inside",
+        "not exceeding"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "一週間以内 — within one week."
+    },
+    {
+      "word": "以外",
+      "reading": "いがい",
+      "meanings": [
+        "except",
+        "other than",
+        "besides"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "日本語以外 — other than Japanese."
+    },
+    {
+      "word": "以前",
+      "reading": "いぜん",
+      "meanings": [
+        "before",
+        "previously",
+        "ago"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "以前会ったことがある — we've met before."
+    },
+    {
+      "word": "以後",
+      "reading": "いご",
+      "meanings": [
+        "after this",
+        "from now on",
+        "since"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "以後気をつけます — I'll be careful from now on."
+    },
+    {
+      "word": "今後",
+      "reading": "こんご",
+      "meanings": [
+        "from now on",
+        "henceforth",
+        "in the future"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "今後ともよろしく — please continue to support me. Business essential."
+    },
+    {
+      "word": "将来",
+      "reading": "しょうらい",
+      "meanings": [
+        "future",
+        "prospects"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "将来の夢 — dream for the future. Personal/career future."
+    },
+    {
+      "word": "未来",
+      "reading": "みらい",
+      "meanings": [
+        "future",
+        "time to come"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "More abstract than 将来. 未来予想 — predicting the future."
+    },
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "meanings": [
+        "past",
+        "bygone days"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "過去の経験 — past experience. Opposite of 未来."
+    },
+    {
+      "word": "現在",
+      "reading": "げんざい",
+      "meanings": [
+        "present",
+        "current",
+        "now"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "現在の状況 — current situation. More formal than 今."
+    },
+    {
+      "word": "瞬間",
+      "reading": "しゅんかん",
+      "meanings": [
+        "moment",
+        "instant",
+        "second"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "その瞬間 — at that moment."
+    },
+    {
+      "word": "期限",
+      "reading": "きげん",
+      "meanings": [
+        "deadline",
+        "time limit"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "期限を守る — meet the deadline. Distinct from 締め切り (more 'cutoff')."
+    },
+    {
+      "word": "年齢",
+      "reading": "ねんれい",
+      "meanings": [
+        "age (of a person)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "More formal than 年. 年齢制限 — age restriction."
+    },
+    {
+      "word": "世代",
+      "reading": "せだい",
+      "meanings": [
+        "generation"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "次の世代 — the next generation."
+    },
+    {
+      "word": "年代",
+      "reading": "ねんだい",
+      "meanings": [
+        "era",
+        "period",
+        "decade"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "90年代 — the 90s."
+    },
+    {
+      "word": "日付",
+      "reading": "ひづけ",
+      "meanings": [
+        "date (of the month)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_time",
+      "context": "日付を確認する — check the date."
+    },
+    {
+      "word": "締切",
+      "reading": "しめきり",
+      "meanings": [
+        "deadline",
+        "closing date"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Often written 締め切り. 締切に間に合う — make the deadline."
+    },
+    {
+      "word": "間に合う",
+      "reading": "まにあう",
+      "meanings": [
+        "to be in time",
+        "to be enough",
+        "to make do"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "電車に間に合う — make the train. Also 'be sufficient': これで間に合います."
+    },
+    {
+      "word": "延期",
+      "reading": "えんき",
+      "meanings": [
+        "postponement",
+        "deferment"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "延期する — to postpone. 試合が延期になった — match was postponed."
+    },
+    {
+      "word": "中止",
+      "reading": "ちゅうし",
+      "meanings": [
+        "cancellation",
+        "suspension"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "中止する — to cancel. Stronger than just 延期."
+    },
+    {
+      "word": "開始",
+      "reading": "かいし",
+      "meanings": [
+        "start",
+        "commencement"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "開始する — to start (an event, activity). More formal than 始める."
+    },
+    {
+      "word": "終了",
+      "reading": "しゅうりょう",
+      "meanings": [
+        "end",
+        "conclusion",
+        "completion"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "終了する — to end. Used for events, broadcasts, sales."
+    },
+    {
+      "word": "中断",
+      "reading": "ちゅうだん",
+      "meanings": [
+        "interruption",
+        "suspension"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "中断する — to interrupt/suspend. 試合中断 — match suspended."
+    },
+    {
+      "word": "再開",
+      "reading": "さいかい",
+      "meanings": [
+        "resumption",
+        "reopening"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "再開する — to resume. After 中断 comes 再開."
+    },
+    {
+      "word": "成功",
+      "reading": "せいこう",
+      "meanings": [
+        "success",
+        "achievement"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "成功する — to succeed. Opposite of 失敗."
+    },
+    {
+      "word": "失敗",
+      "reading": "しっぱい",
+      "meanings": [
+        "failure",
+        "mistake",
+        "blunder"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "失敗する — to fail. 失敗しないように — so as not to fail."
+    },
+    {
+      "word": "努力",
+      "reading": "どりょく",
+      "meanings": [
+        "effort",
+        "endeavor"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "努力する — to make an effort. 努力家 — a hard-working person."
+    },
+    {
+      "word": "頑張る",
+      "reading": "がんばる",
+      "meanings": [
+        "to do one's best",
+        "to persevere",
+        "to hang in there"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "頑張って — Good luck/Hang in there. Universal Japanese encouragement."
+    },
+    {
+      "word": "工夫",
+      "reading": "くふう",
+      "meanings": [
+        "device",
+        "ingenuity",
+        "clever idea"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "工夫する — to devise. 工夫を凝らす — to put thought into."
+    },
+    {
+      "word": "応募",
+      "reading": "おうぼ",
+      "meanings": [
+        "application",
+        "entry"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "応募する — to apply (for a contest, job). 応募者 — applicant."
+    },
+    {
+      "word": "申し込む",
+      "reading": "もうしこむ",
+      "meanings": [
+        "to apply for",
+        "to sign up for",
+        "to propose"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "レッスンに申し込む — sign up for a lesson. Different from 応募する in nuance."
+    },
+    {
+      "word": "申し込み",
+      "reading": "もうしこみ",
+      "meanings": [
+        "application",
+        "subscription",
+        "proposal"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "申し込み書 — application form."
+    },
+    {
+      "word": "登録",
+      "reading": "とうろく",
+      "meanings": [
+        "registration",
+        "enrollment"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "登録する — to register. Common online: アカウント登録."
+    },
+    {
+      "word": "会員",
+      "reading": "かいいん",
+      "meanings": [
+        "member"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "会員登録 — member registration."
+    },
+    {
+      "word": "利用",
+      "reading": "りよう",
+      "meanings": [
+        "use",
+        "utilization"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "利用する — to use (a service/facility). サービスを利用する — use a service."
+    },
+    {
+      "word": "使用",
+      "reading": "しよう",
+      "meanings": [
+        "use",
+        "application",
+        "employment"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "More formal than 使う. 使用禁止 — prohibited use."
+    },
+    {
+      "word": "消費",
+      "reading": "しょうひ",
+      "meanings": [
+        "consumption",
+        "spending"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "消費する — to consume. 消費税 — consumption tax."
+    },
+    {
+      "word": "節約",
+      "reading": "せつやく",
+      "meanings": [
+        "frugality",
+        "economy",
+        "saving"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "節約する — to economize. お金を節約する — save money."
+    },
+    {
+      "word": "無駄",
+      "reading": "むだ",
+      "meanings": [
+        "waste",
+        "futility",
+        "useless"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "無駄遣い — wasteful spending. 時間の無駄 — waste of time."
+    },
+    {
+      "word": "効率",
+      "reading": "こうりつ",
+      "meanings": [
+        "efficiency"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "効率がいい — efficient. 効率的 — efficient (na-adj form)."
+    },
+    {
+      "word": "効果",
+      "reading": "こうか",
+      "meanings": [
+        "effect",
+        "efficacy"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "効果がある — to have an effect. 効果的 — effective."
+    },
+    {
+      "word": "作用",
+      "reading": "さよう",
+      "meanings": [
+        "action",
+        "effect",
+        "function"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "副作用 — side effect (medical/general)."
+    },
+    {
+      "word": "印象",
+      "reading": "いんしょう",
+      "meanings": [
+        "impression"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "第一印象 — first impression. 印象的 — impressive, striking."
+    },
+    {
+      "word": "性格",
+      "reading": "せいかく",
+      "meanings": [
+        "personality",
+        "character"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "性格がいい — has a good personality."
+    },
+    {
+      "word": "性質",
+      "reading": "せいしつ",
+      "meanings": [
+        "nature",
+        "property",
+        "disposition"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "For substances or abstract nature. 化学的性質 — chemical properties."
+    },
+    {
+      "word": "特徴",
+      "reading": "とくちょう",
+      "meanings": [
+        "distinctive feature",
+        "characteristic"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "Note: also in Japan Travel deck. Highly common — worth knowing in both contexts."
+    },
+    {
+      "word": "特長",
+      "reading": "とくちょう",
+      "meanings": [
+        "strong point",
+        "advantage"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "Same reading as 特徴 — different kanji means 'strong point' specifically."
+    },
+    {
+      "word": "長所",
+      "reading": "ちょうしょ",
+      "meanings": [
+        "strong point",
+        "strength",
+        "merit"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "Often paired with 短所 in interviews/self-introductions."
+    },
+    {
+      "word": "短所",
+      "reading": "たんしょ",
+      "meanings": [
+        "weak point",
+        "weakness",
+        "shortcoming"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "自分の短所 — one's own weaknesses."
+    },
+    {
+      "word": "才能",
+      "reading": "さいのう",
+      "meanings": [
+        "talent",
+        "ability",
+        "gift"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "音楽の才能 — musical talent."
+    },
+    {
+      "word": "能力",
+      "reading": "のうりょく",
+      "meanings": [
+        "ability",
+        "capability",
+        "competence"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "能力試験 — proficiency test (as in JLPT 日本語能力試験)."
+    },
+    {
+      "word": "知識",
+      "reading": "ちしき",
+      "meanings": [
+        "knowledge",
+        "information"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "知識を増やす — to increase one's knowledge."
+    },
+    {
+      "word": "常識",
+      "reading": "じょうしき",
+      "meanings": [
+        "common sense",
+        "general knowledge"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "常識がない — lacks common sense (mild insult)."
+    },
+    {
+      "word": "知恵",
+      "reading": "ちえ",
+      "meanings": [
+        "wisdom",
+        "wit",
+        "cleverness"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "知恵を貸す — to lend wisdom (to help solve a problem)."
+    },
+    {
+      "word": "記憶",
+      "reading": "きおく",
+      "meanings": [
+        "memory",
+        "recollection"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "記憶力 — power of memory. 記憶に残る — to stay in memory."
+    },
+    {
+      "word": "想像",
+      "reading": "そうぞう",
+      "meanings": [
+        "imagination",
+        "supposition"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_thinking",
+      "context": "想像する — to imagine. 想像力 — imagination (the faculty)."
+    },
+    {
+      "word": "創造",
+      "reading": "そうぞう",
+      "meanings": [
+        "creation",
+        "creating"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_thinking",
+      "context": "Same reading as 想像 but different kanji. 創造性 — creativity."
+    },
+    {
+      "word": "発明",
+      "reading": "はつめい",
+      "meanings": [
+        "invention"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "発明する — to invent. 発明家 — inventor."
+    },
+    {
+      "word": "発見",
+      "reading": "はっけん",
+      "meanings": [
+        "discovery",
+        "finding"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "発見する — to discover. Distinct from 発明 (creation)."
+    },
+    {
+      "word": "研究",
+      "reading": "けんきゅう",
+      "meanings": [
+        "research",
+        "study",
+        "investigation"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "研究する — to research. 研究者 — researcher."
+    },
+    {
+      "word": "調査",
+      "reading": "ちょうさ",
+      "meanings": [
+        "investigation",
+        "survey",
+        "examination"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "アンケート調査 — questionnaire survey."
+    },
+    {
+      "word": "分析",
+      "reading": "ぶんせき",
+      "meanings": [
+        "analysis"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "分析する — to analyze. データ分析 — data analysis."
+    },
+    {
+      "word": "判断",
+      "reading": "はんだん",
+      "meanings": [
+        "judgment",
+        "decision",
+        "determination"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "判断する — to judge/decide. 判断力 — power of judgment."
+    },
+    {
+      "word": "評価",
+      "reading": "ひょうか",
+      "meanings": [
+        "evaluation",
+        "appraisal",
+        "rating"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "評価する — to evaluate. 高い評価 — high rating."
+    },
+    {
+      "word": "批判",
+      "reading": "ひはん",
+      "meanings": [
+        "criticism",
+        "disapproval"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "批判する — to criticize. Distinct from 批評 (literary critique)."
+    },
+    {
+      "word": "提案",
+      "reading": "ていあん",
+      "meanings": [
+        "proposal",
+        "suggestion"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "提案する — to propose. Business essential."
+    },
+    {
+      "word": "検討",
+      "reading": "けんとう",
+      "meanings": [
+        "consideration",
+        "examination",
+        "study"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "検討する — to consider. Soft business decline: 検討します = I'll think about it (often = no)."
+    },
+    {
+      "word": "解決",
+      "reading": "かいけつ",
+      "meanings": [
+        "solution",
+        "resolution"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "解決する — to solve. 問題解決 — problem-solving."
+    },
+    {
+      "word": "問題",
+      "reading": "もんだい",
+      "meanings": [
+        "problem",
+        "question",
+        "issue"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "問題ない — no problem. Also test questions and social issues."
+    },
+    {
+      "word": "課題",
+      "reading": "かだい",
+      "meanings": [
+        "task",
+        "assignment",
+        "subject"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "宿題 (homework) and 課題 differ — 課題 is more 'assigned task/issue.'"
+    },
+    {
+      "word": "宿題",
+      "reading": "しゅくだい",
+      "meanings": [
+        "homework",
+        "assignment"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Common in school context, also figurative: 'unfinished business.'"
+    },
+    {
+      "word": "試験",
+      "reading": "しけん",
+      "meanings": [
+        "test",
+        "examination"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "試験を受ける — take an exam. JLPT itself is 日本語能力試験."
+    },
+    {
+      "word": "単語",
+      "reading": "たんご",
+      "meanings": [
+        "word",
+        "vocabulary item"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "単語帳 — vocabulary book. Useful for self-talk: 単語が分からない."
+    },
+    {
+      "word": "文章",
+      "reading": "ぶんしょう",
+      "meanings": [
+        "sentence",
+        "passage",
+        "writing"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "文章を書く — to write prose. Bigger than 文 (a single sentence)."
+    },
+    {
+      "word": "段落",
+      "reading": "だんらく",
+      "meanings": [
+        "paragraph"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "段落分け — paragraph divisions. JLPT reading section term."
+    },
+    {
+      "word": "記事",
+      "reading": "きじ",
+      "meanings": [
+        "article (news, magazine)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "新聞記事 — news article. ネット記事 — online article."
+    },
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meanings": [
+        "materials",
+        "data",
+        "documents"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Note: also in N3/N4 General. 資料を準備する — prepare materials."
+    },
+    {
+      "word": "報道",
+      "reading": "ほうどう",
+      "meanings": [
+        "news report",
+        "reporting",
+        "journalism"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "報道する — to report (in news). マスコミ報道 — media coverage."
+    },
+    {
+      "word": "放送",
+      "reading": "ほうそう",
+      "meanings": [
+        "broadcast",
+        "broadcasting"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "テレビ放送 — TV broadcast. 生放送 — live broadcast."
+    },
+    {
+      "word": "番組",
+      "reading": "ばんぐみ",
+      "meanings": [
+        "TV/radio program"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "テレビ番組 — TV show. 人気番組 — popular show."
+    },
+    {
+      "word": "画面",
+      "reading": "がめん",
+      "meanings": [
+        "screen",
+        "display"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "画面が暗い — the screen is dark. Computer/phone screen."
+    },
+    {
+      "word": "画像",
+      "reading": "がぞう",
+      "meanings": [
+        "image",
+        "picture (digital)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "画像を保存する — save an image. Digital pics."
+    },
+    {
+      "word": "音声",
+      "reading": "おんせい",
+      "meanings": [
+        "voice",
+        "audio",
+        "sound"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "音声ファイル — audio file. More technical than 声."
+    },
+    {
+      "word": "映像",
+      "reading": "えいぞう",
+      "meanings": [
+        "video",
+        "footage",
+        "image"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "映像を見る — watch the video/footage. News reports often use this."
+    },
+    {
+      "word": "録画",
+      "reading": "ろくが",
+      "meanings": [
+        "video recording"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "録画する — to record (video). 録音 is for audio."
+    },
+    {
+      "word": "録音",
+      "reading": "ろくおん",
+      "meanings": [
+        "audio recording"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "録音する — record audio. Distinct from 録画."
+    },
+    {
+      "word": "操作",
+      "reading": "そうさ",
+      "meanings": [
+        "operation",
+        "handling"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "パソコンの操作 — computer operation. 操作する — operate (machinery)."
+    },
+    {
+      "word": "設定",
+      "reading": "せってい",
+      "meanings": [
+        "setting",
+        "configuration"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "設定する — to set/configure. アプリの設定 — app settings."
+    },
+    {
+      "word": "保存",
+      "reading": "ほぞん",
+      "meanings": [
+        "saving (a file)",
+        "preservation"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "ファイルを保存する — save a file. 保存料 — preservatives."
+    },
+    {
+      "word": "削除",
+      "reading": "さくじょ",
+      "meanings": [
+        "deletion",
+        "erasure"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "削除する — to delete. Common in tech contexts."
+    },
+    {
+      "word": "検索",
+      "reading": "けんさく",
+      "meanings": [
+        "search",
+        "retrieval"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "検索する — to search (online). ググる (slang) means the same."
+    },
+    {
+      "word": "情報",
+      "reading": "じょうほう",
+      "meanings": [
+        "information"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "情報を集める — gather information. 情報源 — information source."
+    },
+    {
+      "word": "通信",
+      "reading": "つうしん",
+      "meanings": [
+        "communication",
+        "correspondence"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "通信費 — communication fees (phone/internet)."
+    },
+    {
+      "word": "接続",
+      "reading": "せつぞく",
+      "meanings": [
+        "connection",
+        "connecting"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "接続する — to connect. ネット接続 — internet connection."
+    },
+    {
+      "word": "環境",
+      "reading": "かんきょう",
+      "meanings": [
+        "environment",
+        "circumstance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "自然環境 — natural environment. 仕事の環境 — work environment."
+    },
+    {
+      "word": "自然",
+      "reading": "しぜん",
+      "meanings": [
+        "nature",
+        "natural"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "自然な感じ — natural feel. Also a noun."
+    },
+    {
+      "word": "気候",
+      "reading": "きこう",
+      "meanings": [
+        "climate"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "温暖な気候 — warm climate. Distinct from 天気 (weather)."
+    },
+    {
+      "word": "地球",
+      "reading": "ちきゅう",
+      "meanings": [
+        "the Earth",
+        "the globe"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "地球温暖化 — global warming."
+    },
+    {
+      "word": "宇宙",
+      "reading": "うちゅう",
+      "meanings": [
+        "universe",
+        "space",
+        "cosmos"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "宇宙飛行士 — astronaut."
+    },
+    {
+      "word": "惑星",
+      "reading": "わくせい",
+      "meanings": [
+        "planet"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "地球は惑星です — Earth is a planet."
+    },
+    {
+      "word": "星",
+      "reading": "ほし",
+      "meanings": [
+        "star",
+        "mark",
+        "planet"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "星を見る — stargaze. 五つ星 — five stars (rating)."
+    },
+    {
+      "word": "太陽",
+      "reading": "たいよう",
+      "meanings": [
+        "sun"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "太陽系 — solar system. More scientific than 日."
+    },
+    {
+      "word": "月",
+      "reading": "つき",
+      "meanings": [
+        "moon",
+        "month"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "At N3 level: 月の光 (moonlight) — beyond just 'month.'"
+    },
+    {
+      "word": "季節",
+      "reading": "きせつ",
+      "meanings": [
+        "season"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "季節の変わり目 — change of seasons."
+    },
+    {
+      "word": "四季",
+      "reading": "しき",
+      "meanings": [
+        "four seasons"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "日本には四季がある — Japan has four seasons."
+    },
+    {
+      "word": "梅雨",
+      "reading": "つゆ",
+      "meanings": [
+        "rainy season (May-July in Japan)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "Irregular reading つゆ. 梅雨入り — start of the rainy season."
+    },
+    {
+      "word": "湿気",
+      "reading": "しっけ",
+      "meanings": [
+        "humidity",
+        "moisture",
+        "damp"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "Sometimes also しっき. 湿気が多い — high humidity."
+    },
+    {
+      "word": "乾燥",
+      "reading": "かんそう",
+      "meanings": [
+        "dryness",
+        "drying"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "乾燥肌 — dry skin. 空気が乾燥する — air gets dry."
+    },
+    {
+      "word": "天候",
+      "reading": "てんこう",
+      "meanings": [
+        "weather (general/extended)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "More formal than 天気. 天候不順 — unsettled weather."
+    },
+    {
+      "word": "地震",
+      "reading": "じしん",
+      "meanings": [
+        "earthquake"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "地震が起きる — an earthquake occurs. Important for Japan!"
+    },
+    {
+      "word": "津波",
+      "reading": "つなみ",
+      "meanings": [
+        "tsunami",
+        "tidal wave"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "津波警報 — tsunami warning. Loanword everywhere now."
+    },
+    {
+      "word": "洪水",
+      "reading": "こうずい",
+      "meanings": [
+        "flood"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "洪水被害 — flood damage."
+    },
+    {
+      "word": "災害",
+      "reading": "さいがい",
+      "meanings": [
+        "disaster",
+        "calamity"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "自然災害 — natural disaster. 災害対策 — disaster countermeasures."
+    },
+    {
+      "word": "避難",
+      "reading": "ひなん",
+      "meanings": [
+        "evacuation",
+        "taking refuge"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "避難する — to evacuate. 避難所 — evacuation shelter."
+    },
+    {
+      "word": "危険",
+      "reading": "きけん",
+      "meanings": [
+        "danger",
+        "peril",
+        "risk"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "危険な道 — dangerous road. Sign warnings often say 危険."
+    },
+    {
+      "word": "安全",
+      "reading": "あんぜん",
+      "meanings": [
+        "safety",
+        "security"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "安全第一 — safety first. Opposite of 危険."
+    },
+    {
+      "word": "事故",
+      "reading": "じこ",
+      "meanings": [
+        "accident",
+        "incident"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "交通事故 — traffic accident. 事故に遭う — to be in an accident."
+    },
+    {
+      "word": "怪我",
+      "reading": "けが",
+      "meanings": [
+        "injury",
+        "wound"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "怪我をする — to get injured. 大怪我 — serious injury."
+    },
+    {
+      "word": "病気",
+      "reading": "びょうき",
+      "meanings": [
+        "illness",
+        "sickness"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "Already at N5 level but worth being conscious of compounds: 病気になる — to get sick."
+    },
+    {
+      "word": "治る",
+      "reading": "なおる",
+      "meanings": [
+        "to heal",
+        "to be cured",
+        "to recover"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "風邪が治る — to recover from a cold. Distinct from 直る (to be repaired)."
+    },
+    {
+      "word": "治す",
+      "reading": "なおす",
+      "meanings": [
+        "to cure",
+        "to heal",
+        "to fix (illness)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_pairs",
+      "context": "病気を治す — cure illness. 直す for objects."
+    },
+    {
+      "word": "診察",
+      "reading": "しんさつ",
+      "meanings": [
+        "medical examination"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "診察を受ける — get examined by a doctor."
+    },
+    {
+      "word": "治療",
+      "reading": "ちりょう",
+      "meanings": [
+        "medical treatment",
+        "cure"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "治療を受ける — receive treatment."
+    },
+    {
+      "word": "手術",
+      "reading": "しゅじゅつ",
+      "meanings": [
+        "surgery",
+        "operation"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "手術を受ける — undergo surgery."
+    },
+    {
+      "word": "入院",
+      "reading": "にゅういん",
+      "meanings": [
+        "hospitalization"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "入院する — to be hospitalized. 退院 — discharge from hospital."
+    },
+    {
+      "word": "退院",
+      "reading": "たいいん",
+      "meanings": [
+        "leaving hospital",
+        "being discharged"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "退院する — to be discharged."
+    },
+    {
+      "word": "診療所",
+      "reading": "しんりょうじょ",
+      "meanings": [
+        "clinic",
+        "doctor's office"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "Smaller than 病院. Also クリニック (loanword)."
+    },
+    {
+      "word": "内科",
+      "reading": "ないか",
+      "meanings": [
+        "internal medicine",
+        "internist"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "内科医 — internist. Compare 外科 (surgery)."
+    },
+    {
+      "word": "外科",
+      "reading": "げか",
+      "meanings": [
+        "surgery (department)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "外科医 — surgeon."
+    },
+    {
+      "word": "歯科",
+      "reading": "しか",
+      "meanings": [
+        "dentistry"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "歯医者 (はいしゃ) — dentist. 歯科医院 — dental clinic."
+    },
+    {
+      "word": "症状",
+      "reading": "しょうじょう",
+      "meanings": [
+        "symptoms"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "症状を伝える — describe symptoms (at clinic)."
+    },
+    {
+      "word": "頭痛",
+      "reading": "ずつう",
+      "meanings": [
+        "headache"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "頭痛がする — have a headache."
+    },
+    {
+      "word": "腹痛",
+      "reading": "ふくつう",
+      "meanings": [
+        "stomachache",
+        "abdominal pain"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "More formal than お腹が痛い."
+    },
+    {
+      "word": "発熱",
+      "reading": "はつねつ",
+      "meanings": [
+        "fever"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "発熱する — to develop a fever. More medical than 熱がある."
+    },
+    {
+      "word": "咳",
+      "reading": "せき",
+      "meanings": [
+        "cough"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "咳が出る — to have a cough. JLPT-rare kanji but common word."
+    },
+    {
+      "word": "鼻水",
+      "reading": "はなみず",
+      "meanings": [
+        "runny nose"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "鼻水が出る — have a runny nose."
+    },
+    {
+      "word": "花粉症",
+      "reading": "かふんしょう",
+      "meanings": [
+        "hay fever",
+        "pollen allergy"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "Major topic in Japan. 花粉症の薬 — hay fever medicine."
+    },
+    {
+      "word": "アレルギー",
+      "reading": "アレルギー",
+      "meanings": [
+        "allergy"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "卵アレルギー — egg allergy."
+    },
+    {
+      "word": "健康",
+      "reading": "けんこう",
+      "meanings": [
+        "health",
+        "healthy"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "健康に気をつける — take care of one's health. Used as both noun and na-adj."
+    },
+    {
+      "word": "運動",
+      "reading": "うんどう",
+      "meanings": [
+        "exercise",
+        "movement",
+        "campaign"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "Beyond 'exercise' — also a 'movement': 環境運動 — environmental movement."
+    },
+    {
+      "word": "筋肉",
+      "reading": "きんにく",
+      "meanings": [
+        "muscle"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "筋肉痛 — muscle pain (after exercise)."
+    },
+    {
+      "word": "骨",
+      "reading": "ほね",
+      "meanings": [
+        "bone"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "骨折 — bone fracture. 骨を折る (idiom: take pains)."
+    },
+    {
+      "word": "血",
+      "reading": "ち",
+      "meanings": [
+        "blood"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "血が出る — to bleed. 血液 (けつえき) is more medical."
+    },
+    {
+      "word": "皮膚",
+      "reading": "ひふ",
+      "meanings": [
+        "skin"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "More medical than 肌. 皮膚科 — dermatology."
+    },
+    {
+      "word": "肌",
+      "reading": "はだ",
+      "meanings": [
+        "skin",
+        "complexion"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "肌が荒れる — skin gets rough. 肌色 — skin color."
+    },
+    {
+      "word": "心臓",
+      "reading": "しんぞう",
+      "meanings": [
+        "heart (organ)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "心臓が悪い — have heart trouble. 心 is more for 'heart' as feeling."
+    },
+    {
+      "word": "胃",
+      "reading": "い",
+      "meanings": [
+        "stomach"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "胃が痛い — stomach hurts. Different from お腹 (abdomen)."
+    },
+    {
+      "word": "肺",
+      "reading": "はい",
+      "meanings": [
+        "lung"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "肺がん — lung cancer."
+    },
+    {
+      "word": "脳",
+      "reading": "のう",
+      "meanings": [
+        "brain"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "脳の働き — brain function."
+    },
+    {
+      "word": "年寄り",
+      "reading": "としより",
+      "meanings": [
+        "old person",
+        "elderly"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "お年寄り is the polite form. 高齢者 is more formal."
+    },
+    {
+      "word": "高齢者",
+      "reading": "こうれいしゃ",
+      "meanings": [
+        "elderly person",
+        "senior citizen"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "News/government term. 高齢化社会 — aging society."
+    },
+    {
+      "word": "赤ちゃん",
+      "reading": "あかちゃん",
+      "meanings": [
+        "baby",
+        "infant"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "赤ちゃんが生まれる — a baby is born."
+    },
+    {
+      "word": "妊娠",
+      "reading": "にんしん",
+      "meanings": [
+        "pregnancy"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "妊娠する — to become pregnant."
+    },
+    {
+      "word": "出産",
+      "reading": "しゅっさん",
+      "meanings": [
+        "childbirth",
+        "giving birth"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "出産する — to give birth."
+    },
+    {
+      "word": "育児",
+      "reading": "いくじ",
+      "meanings": [
+        "child-rearing",
+        "childcare"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "育児休暇 — childcare leave. Common workplace term."
+    },
+    {
+      "word": "教育",
+      "reading": "きょういく",
+      "meanings": [
+        "education"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "教育を受ける — to receive education. 教育者 — educator."
+    },
+    {
+      "word": "進学",
+      "reading": "しんがく",
+      "meanings": [
+        "entering a higher school",
+        "advancement"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "大学に進学する — to enter university."
+    },
+    {
+      "word": "就職",
+      "reading": "しゅうしょく",
+      "meanings": [
+        "finding employment",
+        "getting a job"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "就職活動 (就活) — job hunting."
+    },
+    {
+      "word": "転職",
+      "reading": "てんしょく",
+      "meanings": [
+        "changing jobs",
+        "career change"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "転職する — to change jobs."
+    },
+    {
+      "word": "退職",
+      "reading": "たいしょく",
+      "meanings": [
+        "retirement",
+        "quitting"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "退職する — to retire/quit. 退職金 — retirement bonus."
+    },
+    {
+      "word": "会議",
+      "reading": "かいぎ",
+      "meanings": [
+        "meeting",
+        "conference"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "会議に出る — attend a meeting."
+    },
+    {
+      "word": "打ち合わせ",
+      "reading": "うちあわせ",
+      "meanings": [
+        "preliminary meeting",
+        "arrangement"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "More casual/preparatory than 会議."
+    },
+    {
+      "word": "出張",
+      "reading": "しゅっちょう",
+      "meanings": [
+        "business trip"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "出張する — to go on a business trip."
+    },
+    {
+      "word": "残業",
+      "reading": "ざんぎょう",
+      "meanings": [
+        "overtime work"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "残業する — to work overtime. 残業代 — overtime pay."
+    },
+    {
+      "word": "休暇",
+      "reading": "きゅうか",
+      "meanings": [
+        "vacation",
+        "leave",
+        "time off"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "More formal than 休み. 有給休暇 — paid leave."
+    },
+    {
+      "word": "有給",
+      "reading": "ゆうきゅう",
+      "meanings": [
+        "paid (leave)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "有給を取る — to take paid leave. Often shortened from 有給休暇."
+    },
+    {
+      "word": "勤務",
+      "reading": "きんむ",
+      "meanings": [
+        "work",
+        "duty",
+        "service"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "勤務時間 — working hours."
+    },
+    {
+      "word": "通勤",
+      "reading": "つうきん",
+      "meanings": [
+        "commuting (to work)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "通勤する — to commute. 通学 is for school."
+    },
+    {
+      "word": "通学",
+      "reading": "つうがく",
+      "meanings": [
+        "commuting (to school)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "通学路 — route to school."
+    },
+    {
+      "word": "職場",
+      "reading": "しょくば",
+      "meanings": [
+        "workplace"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "職場の人 — workplace people."
+    },
+    {
+      "word": "上司",
+      "reading": "じょうし",
+      "meanings": [
+        "boss",
+        "superior at work"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Compare 部長, 課長 (specific titles)."
+    },
+    {
+      "word": "部下",
+      "reading": "ぶか",
+      "meanings": [
+        "subordinate"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Opposite of 上司."
+    },
+    {
+      "word": "同僚",
+      "reading": "どうりょう",
+      "meanings": [
+        "colleague",
+        "coworker"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Same level, same workplace."
+    },
+    {
+      "word": "部署",
+      "reading": "ぶしょ",
+      "meanings": [
+        "department",
+        "section",
+        "post"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "営業部署 — sales department."
+    },
+    {
+      "word": "担当",
+      "reading": "たんとう",
+      "meanings": [
+        "being in charge of"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "担当する — to be in charge of. 担当者 — person in charge."
+    },
+    {
+      "word": "責任",
+      "reading": "せきにん",
+      "meanings": [
+        "responsibility",
+        "accountability"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "責任を持つ — take responsibility. 責任者 — person responsible."
+    },
+    {
+      "word": "義務",
+      "reading": "ぎむ",
+      "meanings": [
+        "duty",
+        "obligation"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "義務教育 — compulsory education."
+    },
+    {
+      "word": "権利",
+      "reading": "けんり",
+      "meanings": [
+        "right (entitlement)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "権利を持つ — to have rights. 人権 — human rights."
+    },
+    {
+      "word": "自由",
+      "reading": "じゆう",
+      "meanings": [
+        "freedom",
+        "liberty"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "自由に — freely. 言論の自由 — freedom of speech."
+    },
+    {
+      "word": "平和",
+      "reading": "へいわ",
+      "meanings": [
+        "peace"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "平和な国 — peaceful country. Opposite of 戦争."
+    },
+    {
+      "word": "戦争",
+      "reading": "せんそう",
+      "meanings": [
+        "war"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "戦争反対 — anti-war. Heavier than 喧嘩."
+    },
+    {
+      "word": "政府",
+      "reading": "せいふ",
+      "meanings": [
+        "government"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "政府の対応 — government's response."
+    },
+    {
+      "word": "国民",
+      "reading": "こくみん",
+      "meanings": [
+        "citizen",
+        "national",
+        "the people"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "国民の声 — voice of the people."
+    },
+    {
+      "word": "市民",
+      "reading": "しみん",
+      "meanings": [
+        "citizen (of a city)",
+        "civilian"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "市民会館 — city hall/civic center."
+    },
+    {
+      "word": "社会",
+      "reading": "しゃかい",
+      "meanings": [
+        "society"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "社会人 — working adult/member of society."
+    },
+    {
+      "word": "地域",
+      "reading": "ちいき",
+      "meanings": [
+        "region",
+        "area",
+        "district"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "地域社会 — local community."
+    },
+    {
+      "word": "地方",
+      "reading": "ちほう",
+      "meanings": [
+        "countryside",
+        "region",
+        "area"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "地方出身 — from the countryside (as opposed to Tokyo)."
+    },
+    {
+      "word": "都市",
+      "reading": "とし",
+      "meanings": [
+        "city",
+        "metropolis"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "都市部 — urban areas. Opposite of 田舎."
+    },
+    {
+      "word": "田舎",
+      "reading": "いなか",
+      "meanings": [
+        "countryside",
+        "rural area",
+        "one's hometown"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "田舎に帰る — return to the countryside/hometown."
+    },
+    {
+      "word": "都会",
+      "reading": "とかい",
+      "meanings": [
+        "the city",
+        "metropolis"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "都会の生活 — city life."
+    },
+    {
+      "word": "住民",
+      "reading": "じゅうみん",
+      "meanings": [
+        "resident",
+        "inhabitant"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "住民票 — resident certificate."
+    },
+    {
+      "word": "選挙",
+      "reading": "せんきょ",
+      "meanings": [
+        "election"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "選挙に行く — to go vote."
+    },
+    {
+      "word": "投票",
+      "reading": "とうひょう",
+      "meanings": [
+        "voting"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "投票する — to vote. 投票所 — polling place."
+    },
+    {
+      "word": "法律",
+      "reading": "ほうりつ",
+      "meanings": [
+        "law",
+        "statute"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "法律違反 — violation of law."
+    },
+    {
+      "word": "裁判",
+      "reading": "さいばん",
+      "meanings": [
+        "trial",
+        "court case"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "裁判所 — courthouse."
+    },
+    {
+      "word": "警察",
+      "reading": "けいさつ",
+      "meanings": [
+        "police"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "警察に届ける — to report to the police. 警察官 — police officer."
+    },
+    {
+      "word": "消防",
+      "reading": "しょうぼう",
+      "meanings": [
+        "fire fighting"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "消防車 — fire truck. 消防士 — firefighter."
+    },
+    {
+      "word": "救急",
+      "reading": "きゅうきゅう",
+      "meanings": [
+        "emergency",
+        "first aid"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "救急車 — ambulance. 救急室 — emergency room."
+    },
+    {
+      "word": "経営",
+      "reading": "けいえい",
+      "meanings": [
+        "management",
+        "running (a business)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "会社を経営する — to run a company."
+    },
+    {
+      "word": "社長",
+      "reading": "しゃちょう",
+      "meanings": [
+        "company president",
+        "CEO"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Common form of address: 社長, 部長 etc."
+    },
+    {
+      "word": "経済",
+      "reading": "けいざい",
+      "meanings": [
+        "economy"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Note: also in Japan Travel deck. 日本経済 — Japanese economy."
+    },
+    {
+      "word": "消費者",
+      "reading": "しょうひしゃ",
+      "meanings": [
+        "consumer"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "消費者保護 — consumer protection."
+    },
+    {
+      "word": "価格",
+      "reading": "かかく",
+      "meanings": [
+        "price"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "More formal than 値段. 定価 (ていか) — list price."
+    },
+    {
+      "word": "値段",
+      "reading": "ねだん",
+      "meanings": [
+        "price",
+        "cost"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "値段が高い — expensive. More casual than 価格."
+    },
+    {
+      "word": "料金",
+      "reading": "りょうきん",
+      "meanings": [
+        "fee",
+        "charge",
+        "fare"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "電気料金 — electricity bill. Used for services."
+    },
+    {
+      "word": "税金",
+      "reading": "ぜいきん",
+      "meanings": [
+        "tax"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "税金を払う — to pay taxes. 消費税 — consumption tax."
+    },
+    {
+      "word": "請求",
+      "reading": "せいきゅう",
+      "meanings": [
+        "claim",
+        "demand",
+        "invoice"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "請求書 — invoice. 請求する — to bill, demand."
+    },
+    {
+      "word": "支払い",
+      "reading": "しはらい",
+      "meanings": [
+        "payment"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "支払いを済ませる — complete the payment."
+    },
+    {
+      "word": "領収書",
+      "reading": "りょうしゅうしょ",
+      "meanings": [
+        "receipt (formal)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "レシート is informal. 領収書をください — receipt please (asked at restaurants)."
+    },
+    {
+      "word": "貯金",
+      "reading": "ちょきん",
+      "meanings": [
+        "savings",
+        "saving up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "貯金する — to save money. Distinct from 預金 (bank deposit)."
+    },
+    {
+      "word": "借金",
+      "reading": "しゃっきん",
+      "meanings": [
+        "debt",
+        "loan"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "借金がある — to be in debt."
+    },
+    {
+      "word": "収入",
+      "reading": "しゅうにゅう",
+      "meanings": [
+        "income",
+        "earnings"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "年収 — annual income."
+    },
+    {
+      "word": "支出",
+      "reading": "ししゅつ",
+      "meanings": [
+        "expenditure",
+        "spending"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Opposite of 収入. 家計の支出."
+    },
+    {
+      "word": "通貨",
+      "reading": "つうか",
+      "meanings": [
+        "currency"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "外国通貨 — foreign currency."
+    },
+    {
+      "word": "両替",
+      "reading": "りょうがえ",
+      "meanings": [
+        "money exchange",
+        "change"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "両替する — to change money/break a bill."
+    },
+    {
+      "word": "商売",
+      "reading": "しょうばい",
+      "meanings": [
+        "business",
+        "trade"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "商売をする — to do business. More everyday than ビジネス."
+    },
+    {
+      "word": "商品",
+      "reading": "しょうひん",
+      "meanings": [
+        "goods",
+        "merchandise"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "新商品 — new product."
+    },
+    {
+      "word": "製品",
+      "reading": "せいひん",
+      "meanings": [
+        "product",
+        "manufactured goods"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "日本製品 — Japanese-made products. Slightly more formal than 商品."
+    },
+    {
+      "word": "工場",
+      "reading": "こうじょう",
+      "meanings": [
+        "factory"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "自動車工場 — car factory."
+    },
+    {
+      "word": "会社員",
+      "reading": "かいしゃいん",
+      "meanings": [
+        "company employee",
+        "office worker"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Standard label. サラリーマン is more colloquial."
+    },
+    {
+      "word": "公務員",
+      "reading": "こうむいん",
+      "meanings": [
+        "civil servant",
+        "public official"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Government employee. Stable career stereotype."
+    },
+    {
+      "word": "主婦",
+      "reading": "しゅふ",
+      "meanings": [
+        "housewife",
+        "homemaker"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "専業主婦 — full-time homemaker."
+    },
+    {
+      "word": "学者",
+      "reading": "がくしゃ",
+      "meanings": [
+        "scholar",
+        "academic"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "歴史学者 — historian."
+    },
+    {
+      "word": "作家",
+      "reading": "さっか",
+      "meanings": [
+        "author",
+        "writer"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "小説家 (novelist) is more specific."
+    },
+    {
+      "word": "画家",
+      "reading": "がか",
+      "meanings": [
+        "painter",
+        "artist"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "日本画家 — Japanese-style painter."
+    },
+    {
+      "word": "音楽家",
+      "reading": "おんがくか",
+      "meanings": [
+        "musician"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "More formal than ミュージシャン."
+    },
+    {
+      "word": "歌手",
+      "reading": "かしゅ",
+      "meanings": [
+        "singer"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "プロ歌手 — professional singer."
+    },
+    {
+      "word": "記者",
+      "reading": "きしゃ",
+      "meanings": [
+        "reporter",
+        "journalist"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "新聞記者 — newspaper reporter."
+    },
+    {
+      "word": "政治家",
+      "reading": "せいじか",
+      "meanings": [
+        "politician"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "政治家になる — to become a politician."
+    },
+    {
+      "word": "医師",
+      "reading": "いし",
+      "meanings": [
+        "doctor (formal)",
+        "physician"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "More formal than お医者さん. 医師免許 — medical license."
+    },
+    {
+      "word": "看護師",
+      "reading": "かんごし",
+      "meanings": [
+        "nurse"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "Replaced older 看護婦 (only female form). Now gender-neutral."
+    },
+    {
+      "word": "弁護士",
+      "reading": "べんごし",
+      "meanings": [
+        "lawyer",
+        "attorney"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "弁護士に相談する — consult a lawyer."
+    },
+    {
+      "word": "建築家",
+      "reading": "けんちくか",
+      "meanings": [
+        "architect"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "安藤忠雄は建築家だ — Tadao Ando is an architect."
+    },
+    {
+      "word": "職業",
+      "reading": "しょくぎょう",
+      "meanings": [
+        "occupation",
+        "profession"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "More formal than 仕事. Used on official forms."
+    },
+    {
+      "word": "立場",
+      "reading": "たちば",
+      "meanings": [
+        "standpoint",
+        "position",
+        "point of view"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "私の立場では — from my position. 立場が違う — different positions."
+    },
+    {
+      "word": "態度",
+      "reading": "たいど",
+      "meanings": [
+        "attitude",
+        "manner",
+        "behavior"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "態度が悪い — bad attitude."
+    },
+    {
+      "word": "行動",
+      "reading": "こうどう",
+      "meanings": [
+        "action",
+        "behavior",
+        "conduct"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "行動する — to take action. 行動範囲 — range of activities."
+    },
+    {
+      "word": "礼儀",
+      "reading": "れいぎ",
+      "meanings": [
+        "manners",
+        "etiquette",
+        "courtesy"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "礼儀正しい — well-mannered."
+    },
+    {
+      "word": "マナー",
+      "reading": "マナー",
+      "meanings": [
+        "manners",
+        "etiquette"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "テーブルマナー — table manners. Loanword."
+    },
+    {
+      "word": "敬語",
+      "reading": "けいご",
+      "meanings": [
+        "honorific language"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "敬語を使う — use polite language. 尊敬語/謙譲語 are subtypes."
+    },
+    {
+      "word": "丁寧語",
+      "reading": "ていねいご",
+      "meanings": [
+        "polite language (です/ます style)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "です/ます is the basic 丁寧語."
+    },
+    {
+      "word": "流行",
+      "reading": "りゅうこう",
+      "meanings": [
+        "fashion",
+        "trend",
+        "popularity"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "流行する — to be trendy. 大流行 — huge trend."
+    },
+    {
+      "word": "伝統",
+      "reading": "でんとう",
+      "meanings": [
+        "tradition"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "伝統文化 — traditional culture. 伝統的 — traditional."
+    },
+    {
+      "word": "文化",
+      "reading": "ぶんか",
+      "meanings": [
+        "culture"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "日本文化 — Japanese culture. 文化の違い — cultural differences."
+    },
+    {
+      "word": "習慣",
+      "reading": "しゅうかん",
+      "meanings": [
+        "custom",
+        "habit",
+        "practice"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "早起きの習慣 — habit of waking early."
+    },
+    {
+      "word": "癖",
+      "reading": "くせ",
+      "meanings": [
+        "habit (often bad)",
+        "quirk"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "More personal/quirky than 習慣. 口癖 — verbal habit."
+    },
+    {
+      "word": "祭り",
+      "reading": "まつり",
+      "meanings": [
+        "festival"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "夏祭り — summer festival. お祭り is the polite form."
+    },
+    {
+      "word": "行事",
+      "reading": "ぎょうじ",
+      "meanings": [
+        "event",
+        "function",
+        "ceremony"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "年中行事 — annual events."
+    },
+    {
+      "word": "宗教",
+      "reading": "しゅうきょう",
+      "meanings": [
+        "religion"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "宗教の自由 — religious freedom."
+    },
+    {
+      "word": "信仰",
+      "reading": "しんこう",
+      "meanings": [
+        "faith",
+        "belief"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "信仰心 — religious feeling."
+    },
+    {
+      "word": "歴史",
+      "reading": "れきし",
+      "meanings": [
+        "history"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "歴史的な出来事 — historical event."
+    },
+    {
+      "word": "昔話",
+      "reading": "むかしばなし",
+      "meanings": [
+        "old tale",
+        "folktale"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "日本の昔話 — Japanese folktales."
+    },
+    {
+      "word": "物語",
+      "reading": "ものがたり",
+      "meanings": [
+        "story",
+        "tale",
+        "narrative"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "竹取物語 — The Tale of the Bamboo Cutter."
+    },
+    {
+      "word": "伝説",
+      "reading": "でんせつ",
+      "meanings": [
+        "legend",
+        "tradition"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "都市伝説 — urban legend."
+    },
+    {
+      "word": "小説",
+      "reading": "しょうせつ",
+      "meanings": [
+        "novel",
+        "fiction"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "小説家 — novelist."
+    },
+    {
+      "word": "詩",
+      "reading": "し",
+      "meanings": [
+        "poem",
+        "poetry"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "詩を書く — write a poem."
+    },
+    {
+      "word": "芸術",
+      "reading": "げいじゅつ",
+      "meanings": [
+        "art",
+        "the arts"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "Note: also in Japan Travel deck. 芸術家 — artist."
+    },
+    {
+      "word": "美術",
+      "reading": "びじゅつ",
+      "meanings": [
+        "fine arts"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "美術館 — art museum. More 'visual art' than 芸術."
+    },
+    {
+      "word": "音楽",
+      "reading": "おんがく",
+      "meanings": [
+        "music"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "クラシック音楽 — classical music."
+    },
+    {
+      "word": "演劇",
+      "reading": "えんげき",
+      "meanings": [
+        "drama",
+        "play",
+        "theater"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "演劇部 — drama club."
+    },
+    {
+      "word": "映画",
+      "reading": "えいが",
+      "meanings": [
+        "film",
+        "movie"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "映画館 — cinema. Already at N5 but examples worth knowing."
+    },
+    {
+      "word": "展示",
+      "reading": "てんじ",
+      "meanings": [
+        "exhibition",
+        "display"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "展示会 — exhibition. 展示する — to display."
+    },
+    {
+      "word": "作品",
+      "reading": "さくひん",
+      "meanings": [
+        "work (of art, literature)",
+        "piece"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "代表作品 — representative work."
+    },
+    {
+      "word": "作者",
+      "reading": "さくしゃ",
+      "meanings": [
+        "author",
+        "creator (of a work)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "作者不明 — author unknown."
+    },
+    {
+      "word": "監督",
+      "reading": "かんとく",
+      "meanings": [
+        "director",
+        "manager",
+        "supervisor"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_work_study",
+      "context": "映画監督 — film director. 野球監督 — baseball coach."
+    },
+    {
+      "word": "才",
+      "reading": "さい",
+      "meanings": [
+        "age (suffix)",
+        "talent"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "At N3, it shifts from 'years old' into compounds: 天才 (genius), 才能 (talent)."
+    },
+    {
+      "word": "姿",
+      "reading": "すがた",
+      "meanings": [
+        "figure",
+        "form",
+        "appearance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "後ろ姿 — view from behind. 姿を見せる — to show oneself."
+    },
+    {
+      "word": "形",
+      "reading": "かたち",
+      "meanings": [
+        "shape",
+        "form",
+        "figure"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "形が変わる — shape changes. Also figurative: 'form' or 'system.'"
+    },
+    {
+      "word": "内容",
+      "reading": "ないよう",
+      "meanings": [
+        "contents",
+        "substance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "本の内容 — the content of a book."
+    },
+    {
+      "word": "表面",
+      "reading": "ひょうめん",
+      "meanings": [
+        "surface",
+        "outside"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "表面的 — superficial. 表面に出る — to come to the surface."
+    },
+    {
+      "word": "中身",
+      "reading": "なかみ",
+      "meanings": [
+        "contents",
+        "inside",
+        "substance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "カバンの中身 — what's inside the bag."
+    },
+    {
+      "word": "裏",
+      "reading": "うら",
+      "meanings": [
+        "back",
+        "reverse",
+        "behind"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "裏側 — the other side. 裏切り — betrayal."
+    },
+    {
+      "word": "表",
+      "reading": "おもて",
+      "meanings": [
+        "front",
+        "face",
+        "outside"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "表に出る — go outside. Distinct reading: ひょう = table/chart."
+    },
+    {
+      "word": "奥",
+      "reading": "おく",
+      "meanings": [
+        "inner part",
+        "depths",
+        "interior"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "奥さん — wife (literally 'inner one'). 奥深い — deep, profound."
+    },
+    {
+      "word": "頂上",
+      "reading": "ちょうじょう",
+      "meanings": [
+        "summit",
+        "top of a mountain"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_nature",
+      "context": "山の頂上 — mountain peak."
+    },
+    {
+      "word": "地下",
+      "reading": "ちか",
+      "meanings": [
+        "underground",
+        "basement"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "地下鉄 — subway. 地下一階 — first basement floor."
+    },
+    {
+      "word": "屋根",
+      "reading": "やね",
+      "meanings": [
+        "roof"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "屋根の上 — on the roof."
+    },
+    {
+      "word": "床",
+      "reading": "ゆか",
+      "meanings": [
+        "floor"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "床に座る — sit on the floor."
+    },
+    {
+      "word": "壁",
+      "reading": "かべ",
+      "meanings": [
+        "wall"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "壁にぶつかる — hit a wall (literal or metaphorical)."
+    },
+    {
+      "word": "廊下",
+      "reading": "ろうか",
+      "meanings": [
+        "corridor",
+        "hallway"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "廊下を走らないで — don't run in the hallway."
+    },
+    {
+      "word": "階段",
+      "reading": "かいだん",
+      "meanings": [
+        "stairs",
+        "staircase"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "階段を上る — go up the stairs."
+    },
+    {
+      "word": "玄関",
+      "reading": "げんかん",
+      "meanings": [
+        "entryway",
+        "entrance (of a house)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "玄関で靴を脱ぐ — take shoes off at the entryway. Cultural essential."
+    },
+    {
+      "word": "押入れ",
+      "reading": "おしいれ",
+      "meanings": [
+        "closet (Japanese-style)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "Where futons are stored during the day."
+    },
+    {
+      "word": "畳",
+      "reading": "たたみ",
+      "meanings": [
+        "tatami mat"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "畳の部屋 — tatami room."
+    },
+    {
+      "word": "障子",
+      "reading": "しょうじ",
+      "meanings": [
+        "paper sliding door"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "障子を開ける — open the shoji."
+    },
+    {
+      "word": "家具",
+      "reading": "かぐ",
+      "meanings": [
+        "furniture"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "家具を買う — buy furniture."
+    },
+    {
+      "word": "電化製品",
+      "reading": "でんかせいひん",
+      "meanings": [
+        "electrical appliance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "家電 (かでん) is the shorter, more common form."
+    },
+    {
+      "word": "冷蔵庫",
+      "reading": "れいぞうこ",
+      "meanings": [
+        "refrigerator"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "冷蔵庫に入れる — put in the fridge."
+    },
+    {
+      "word": "電子レンジ",
+      "reading": "でんしレンジ",
+      "meanings": [
+        "microwave oven"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "レンジで温める — heat in the microwave."
+    },
+    {
+      "word": "洗濯機",
+      "reading": "せんたくき",
+      "meanings": [
+        "washing machine"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "洗濯機を回す — run the washer."
+    },
+    {
+      "word": "掃除機",
+      "reading": "そうじき",
+      "meanings": [
+        "vacuum cleaner"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "掃除機をかける — to vacuum."
+    },
+    {
+      "word": "エアコン",
+      "reading": "エアコン",
+      "meanings": [
+        "air conditioner"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "エアコンをつける — turn on the AC."
+    },
+    {
+      "word": "扇風機",
+      "reading": "せんぷうき",
+      "meanings": [
+        "electric fan"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "扇風機をつける — turn on the fan."
+    },
+    {
+      "word": "暖房",
+      "reading": "だんぼう",
+      "meanings": [
+        "heating (of a room)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "暖房を入れる — turn on heating. Opposite of 冷房."
+    },
+    {
+      "word": "冷房",
+      "reading": "れいぼう",
+      "meanings": [
+        "air cooling"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "冷房が効きすぎ — AC is too cold."
+    },
+    {
+      "word": "鍵",
+      "reading": "かぎ",
+      "meanings": [
+        "key",
+        "lock"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "鍵をかける — lock the door."
+    },
+    {
+      "word": "傘",
+      "reading": "かさ",
+      "meanings": [
+        "umbrella"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "折り畳み傘 — folding umbrella."
+    },
+    {
+      "word": "財布",
+      "reading": "さいふ",
+      "meanings": [
+        "wallet",
+        "purse"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "財布を落とす — drop one's wallet."
+    },
+    {
+      "word": "眼鏡",
+      "reading": "めがね",
+      "meanings": [
+        "glasses",
+        "eyewear"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "眼鏡をかける — wear glasses."
+    },
+    {
+      "word": "指輪",
+      "reading": "ゆびわ",
+      "meanings": [
+        "ring (jewelry)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "結婚指輪 — wedding ring."
+    },
+    {
+      "word": "宝石",
+      "reading": "ほうせき",
+      "meanings": [
+        "jewel",
+        "gem"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "宝石店 — jewelry store."
+    },
+    {
+      "word": "道具",
+      "reading": "どうぐ",
+      "meanings": [
+        "tool",
+        "instrument"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "大工道具 — carpenter's tools."
+    },
+    {
+      "word": "機械",
+      "reading": "きかい",
+      "meanings": [
+        "machine",
+        "machinery"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "機械が壊れる — the machine breaks."
+    },
+    {
+      "word": "装置",
+      "reading": "そうち",
+      "meanings": [
+        "device",
+        "apparatus"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "More technical than 機械. 安全装置 — safety device."
+    },
+    {
+      "word": "部品",
+      "reading": "ぶひん",
+      "meanings": [
+        "parts",
+        "component"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "自動車の部品 — car parts."
+    },
+    {
+      "word": "材料",
+      "reading": "ざいりょう",
+      "meanings": [
+        "materials",
+        "ingredients"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "For cooking and construction. 材料を集める — gather materials."
+    },
+    {
+      "word": "金属",
+      "reading": "きんぞく",
+      "meanings": [
+        "metal"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "金属アレルギー — metal allergy."
+    },
+    {
+      "word": "鉄",
+      "reading": "てつ",
+      "meanings": [
+        "iron",
+        "steel"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "鉄道 — railway. 鉄分 — iron (nutritional)."
+    },
+    {
+      "word": "木材",
+      "reading": "もくざい",
+      "meanings": [
+        "wood (as material)",
+        "lumber"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "For building. 木 alone = tree/wood generic."
+    },
+    {
+      "word": "紙",
+      "reading": "かみ",
+      "meanings": [
+        "paper"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "紙を一枚 — one sheet of paper."
+    },
+    {
+      "word": "袋",
+      "reading": "ふくろ",
+      "meanings": [
+        "bag",
+        "sack"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "レジ袋 — plastic bag at the cashier. ビニール袋 — plastic bag."
+    },
+    {
+      "word": "箱",
+      "reading": "はこ",
+      "meanings": [
+        "box"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "段ボール箱 — cardboard box."
+    },
+    {
+      "word": "瓶",
+      "reading": "びん",
+      "meanings": [
+        "bottle",
+        "jar"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "ビールの瓶 — beer bottle. 缶 — can."
+    },
+    {
+      "word": "缶",
+      "reading": "かん",
+      "meanings": [
+        "can",
+        "tin"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "缶ジュース — canned juice."
+    },
+    {
+      "word": "皿",
+      "reading": "さら",
+      "meanings": [
+        "plate",
+        "dish",
+        "saucer"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "お皿 — plate (polite)."
+    },
+    {
+      "word": "茶碗",
+      "reading": "ちゃわん",
+      "meanings": [
+        "rice bowl",
+        "tea bowl"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "ご飯茶碗 — rice bowl."
+    },
+    {
+      "word": "鍋",
+      "reading": "なべ",
+      "meanings": [
+        "pot",
+        "saucepan",
+        "hot pot dish"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "鍋料理 — hot pot cuisine. Also the pot itself."
+    },
+    {
+      "word": "包丁",
+      "reading": "ほうちょう",
+      "meanings": [
+        "kitchen knife"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "包丁を使う — use a kitchen knife."
+    },
+    {
+      "word": "卵",
+      "reading": "たまご",
+      "meanings": [
+        "egg"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "At N3 the kanji 卵 is worth knowing."
+    },
+    {
+      "word": "豆腐",
+      "reading": "とうふ",
+      "meanings": [
+        "tofu"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "絹豆腐, 木綿豆腐 — silken/firm tofu."
+    },
+    {
+      "word": "納豆",
+      "reading": "なっとう",
+      "meanings": [
+        "natto (fermented soybeans)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "納豆ご飯 — natto over rice."
+    },
+    {
+      "word": "味噌",
+      "reading": "みそ",
+      "meanings": [
+        "miso",
+        "soybean paste"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "味噌汁 — miso soup."
+    },
+    {
+      "word": "醤油",
+      "reading": "しょうゆ",
+      "meanings": [
+        "soy sauce"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "醤油をかける — to put soy sauce on."
+    },
+    {
+      "word": "野菜",
+      "reading": "やさい",
+      "meanings": [
+        "vegetables"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "野菜を食べる — eat vegetables."
+    },
+    {
+      "word": "果物",
+      "reading": "くだもの",
+      "meanings": [
+        "fruit"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "果物屋 — fruit shop."
+    },
+    {
+      "word": "穀物",
+      "reading": "こくもつ",
+      "meanings": [
+        "grain",
+        "cereal"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "More academic. Daily life: お米 (rice)."
+    },
+    {
+      "word": "砂糖",
+      "reading": "さとう",
+      "meanings": [
+        "sugar"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "砂糖を入れる — add sugar."
+    },
+    {
+      "word": "塩",
+      "reading": "しお",
+      "meanings": [
+        "salt"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "塩辛い — salty. 塩を振る — sprinkle salt."
+    },
+    {
+      "word": "酢",
+      "reading": "す",
+      "meanings": [
+        "vinegar"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "酢の物 — vinegared dishes."
+    },
+    {
+      "word": "油",
+      "reading": "あぶら",
+      "meanings": [
+        "oil",
+        "fat"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "サラダ油 — salad oil. Different reading 脂 = animal fat."
+    },
+    {
+      "word": "飲み物",
+      "reading": "のみもの",
+      "meanings": [
+        "beverage",
+        "drink"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "飲み物は何にしますか — What would you like to drink?"
+    },
+    {
+      "word": "食べ物",
+      "reading": "たべもの",
+      "meanings": [
+        "food"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "好きな食べ物 — favorite food."
+    },
+    {
+      "word": "料理",
+      "reading": "りょうり",
+      "meanings": [
+        "cooking",
+        "cuisine",
+        "dish"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "料理する — to cook. 日本料理 — Japanese cuisine."
+    },
+    {
+      "word": "味",
+      "reading": "あじ",
+      "meanings": [
+        "taste",
+        "flavor"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_food",
+      "context": "味が薄い — bland. 味見する — to taste-test."
+    },
+    {
+      "word": "匂い",
+      "reading": "におい",
+      "meanings": [
+        "smell",
+        "odor",
+        "scent"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "いい匂い — nice smell. 臭い (くさい) is for bad smells specifically."
+    },
+    {
+      "word": "音",
+      "reading": "おと",
+      "meanings": [
+        "sound",
+        "noise"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "音が出る — make a sound. 騒音 — loud noise."
+    },
+    {
+      "word": "光",
+      "reading": "ひかり",
+      "meanings": [
+        "light",
+        "beam"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "太陽の光 — sunlight."
+    },
+    {
+      "word": "影",
+      "reading": "かげ",
+      "meanings": [
+        "shadow",
+        "shade"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "影が長い — long shadow."
+    },
+    {
+      "word": "色",
+      "reading": "いろ",
+      "meanings": [
+        "color"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "At N3 think compounds: 色々 (various), 顔色 (complexion)."
+    },
+    {
+      "word": "模様",
+      "reading": "もよう",
+      "meanings": [
+        "pattern",
+        "design",
+        "look"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "花模様 — floral pattern."
+    },
+    {
+      "word": "線",
+      "reading": "せん",
+      "meanings": [
+        "line"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "赤い線 — red line. 線を引く — draw a line."
+    },
+    {
+      "word": "面",
+      "reading": "めん",
+      "meanings": [
+        "surface",
+        "face",
+        "aspect"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "As suffix: 表面, 一面. As noun: 'aspect'."
+    },
+    {
+      "word": "角",
+      "reading": "かど",
+      "meanings": [
+        "corner",
+        "angle"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "次の角を曲がる — turn at the next corner. Reading かく for 'angle.'"
+    },
+    {
+      "word": "端",
+      "reading": "はし",
+      "meanings": [
+        "edge",
+        "end",
+        "tip"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "道の端 — edge of the road. Different from 橋 (bridge), same reading."
+    },
+    {
+      "word": "穴",
+      "reading": "あな",
+      "meanings": [
+        "hole"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "穴を掘る — dig a hole. 穴があく — a hole forms."
+    },
+    {
+      "word": "隙間",
+      "reading": "すきま",
+      "meanings": [
+        "gap",
+        "crevice",
+        "opening"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "ドアの隙間 — gap in the door."
+    },
+    {
+      "word": "周り",
+      "reading": "まわり",
+      "meanings": [
+        "surroundings",
+        "circumference",
+        "vicinity"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "周りの人 — people around you."
+    },
+    {
+      "word": "近所",
+      "reading": "きんじょ",
+      "meanings": [
+        "neighborhood"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "Already in Yotsubato deck (ご近所). 近所の店 — neighborhood shop."
+    },
+    {
+      "word": "頻繁",
+      "reading": "ひんぱん",
+      "meanings": [
+        "frequent",
+        "often"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "頻繁に — frequently. More formal than よく."
+    },
+    {
+      "word": "普通",
+      "reading": "ふつう",
+      "meanings": [
+        "normal",
+        "usual",
+        "ordinary"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "普通の人 — ordinary person. Also 'local train' on JR (普通電車)."
+    },
+    {
+      "word": "特別",
+      "reading": "とくべつ",
+      "meanings": [
+        "special"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "特別な日 — special day. 特別に — especially."
+    },
+    {
+      "word": "重要",
+      "reading": "じゅうよう",
+      "meanings": [
+        "important",
+        "essential"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "重要な点 — important point. More formal than 大切."
+    },
+    {
+      "word": "必要",
+      "reading": "ひつよう",
+      "meanings": [
+        "necessary",
+        "required"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "必要がある — to need to. 必要な物 — necessary things."
+    },
+    {
+      "word": "豊富",
+      "reading": "ほうふ",
+      "meanings": [
+        "abundant",
+        "plentiful"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "知識が豊富 — has abundant knowledge."
+    },
+    {
+      "word": "複雑",
+      "reading": "ふくざつ",
+      "meanings": [
+        "complicated",
+        "complex"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "複雑な気持ち — complicated feelings."
+    },
+    {
+      "word": "単純",
+      "reading": "たんじゅん",
+      "meanings": [
+        "simple",
+        "plain",
+        "straightforward"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "単純な人 — a simple-minded person (sometimes negative)."
+    },
+    {
+      "word": "簡単",
+      "reading": "かんたん",
+      "meanings": [
+        "easy",
+        "simple"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "簡単な質問 — easy question. Already common, important nuance vs 単純."
+    },
+    {
+      "word": "困難",
+      "reading": "こんなん",
+      "meanings": [
+        "difficulty",
+        "trouble",
+        "hardship"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "困難な状況 — difficult situation. More formal than 大変."
+    },
+    {
+      "word": "明確",
+      "reading": "めいかく",
+      "meanings": [
+        "clear",
+        "definite",
+        "precise"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "明確な答え — clear answer."
+    },
+    {
+      "word": "曖昧",
+      "reading": "あいまい",
+      "meanings": [
+        "vague",
+        "ambiguous"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "曖昧な返事 — vague answer. Common Japanese cultural concept."
+    },
+    {
+      "word": "正確",
+      "reading": "せいかく",
+      "meanings": [
+        "accurate",
+        "precise",
+        "exact"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "正確な情報 — accurate information."
+    },
+    {
+      "word": "完全",
+      "reading": "かんぜん",
+      "meanings": [
+        "complete",
+        "perfect"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "完全に — completely. 完全な答え — perfect answer."
+    },
+    {
+      "word": "十分",
+      "reading": "じゅうぶん",
+      "meanings": [
+        "enough",
+        "sufficient"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "十分な時間 — enough time. Often written 充分."
+    },
+    {
+      "word": "不足",
+      "reading": "ふそく",
+      "meanings": [
+        "insufficiency",
+        "shortage"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "睡眠不足 — sleep deprivation. Opposite of 十分."
+    },
+    {
+      "word": "適当",
+      "reading": "てきとう",
+      "meanings": [
+        "suitable",
+        "appropriate",
+        "random/half-hearted"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "Tricky: can mean 'appropriate' OR 'haphazard.' Context matters."
+    },
+    {
+      "word": "急",
+      "reading": "きゅう",
+      "meanings": [
+        "sudden",
+        "urgent",
+        "steep"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "急な変化 — sudden change. 急ぐ — to hurry. Already in N3/N4 General as adverb 急に."
+    },
+    {
+      "word": "穏やか",
+      "reading": "おだやか",
+      "meanings": [
+        "calm",
+        "gentle",
+        "mild"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "穏やかな天気 — mild weather. Personality too: 穏やかな人."
+    },
+    {
+      "word": "静か",
+      "reading": "しずか",
+      "meanings": [
+        "quiet",
+        "still"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "At N3 think nuances: 静かに考える — to think quietly."
+    },
+    {
+      "word": "派手",
+      "reading": "はで",
+      "meanings": [
+        "showy",
+        "flashy",
+        "loud"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "派手な服 — flashy clothes. Often slightly negative."
+    },
+    {
+      "word": "地味",
+      "reading": "じみ",
+      "meanings": [
+        "plain",
+        "sober",
+        "modest"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "Opposite of 派手. 地味な人 — unassuming person."
+    },
+    {
+      "word": "豪華",
+      "reading": "ごうか",
+      "meanings": [
+        "luxurious",
+        "gorgeous",
+        "splendid"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "豪華な料理 — luxurious meal."
+    },
+    {
+      "word": "質素",
+      "reading": "しっそ",
+      "meanings": [
+        "simple",
+        "frugal",
+        "modest"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "質素な生活 — simple life. Opposite of 豪華."
+    },
+    {
+      "word": "贅沢",
+      "reading": "ぜいたく",
+      "meanings": [
+        "luxury",
+        "extravagance"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "贅沢な食事 — extravagant meal."
+    },
+    {
+      "word": "優しい",
+      "reading": "やさしい",
+      "meanings": [
+        "kind",
+        "gentle",
+        "easy"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "At N3, deeper sense: 優しい言葉 — kind words. Already at N5 but worth solid review."
+    },
+    {
+      "word": "厳しい",
+      "reading": "きびしい",
+      "meanings": [
+        "strict",
+        "severe",
+        "harsh"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "厳しい先生 — strict teacher."
+    },
+    {
+      "word": "柔らかい",
+      "reading": "やわらかい",
+      "meanings": [
+        "soft",
+        "tender",
+        "flexible"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "柔らかいパン — soft bread. Also figurative: 頭が柔らかい — flexible thinking."
+    },
+    {
+      "word": "硬い",
+      "reading": "かたい",
+      "meanings": [
+        "hard",
+        "stiff",
+        "rigid"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "硬いパン — hard bread. 固い is a near-synonym (firm)."
+    },
+    {
+      "word": "鋭い",
+      "reading": "するどい",
+      "meanings": [
+        "sharp",
+        "pointed",
+        "keen"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "鋭い質問 — sharp question. 鋭い感覚 — keen sense."
+    },
+    {
+      "word": "鈍い",
+      "reading": "にぶい",
+      "meanings": [
+        "dull",
+        "slow",
+        "blunt"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "動きが鈍い — slow movements. Opposite of 鋭い."
+    },
+    {
+      "word": "濃い",
+      "reading": "こい",
+      "meanings": [
+        "thick",
+        "dense",
+        "strong (taste/color)"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "濃いコーヒー — strong coffee. 関係が濃い — close relationship."
+    },
+    {
+      "word": "薄い",
+      "reading": "うすい",
+      "meanings": [
+        "thin",
+        "light (color/taste)"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "薄い味 — bland taste. Opposite of 濃い."
+    },
+    {
+      "word": "深い",
+      "reading": "ふかい",
+      "meanings": [
+        "deep",
+        "profound"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "深い意味 — deep meaning. Both physical and abstract."
+    },
+    {
+      "word": "浅い",
+      "reading": "あさい",
+      "meanings": [
+        "shallow"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "浅い知識 — superficial knowledge. Opposite of 深い."
+    },
+    {
+      "word": "細かい",
+      "reading": "こまかい",
+      "meanings": [
+        "detailed",
+        "fine",
+        "minute"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "細かい字 — fine print. お金が細かい — having small change."
+    },
+    {
+      "word": "粗い",
+      "reading": "あらい",
+      "meanings": [
+        "rough",
+        "coarse"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "粗い仕事 — sloppy work. Different from 荒い (wild)."
+    },
+    {
+      "word": "激しい",
+      "reading": "はげしい",
+      "meanings": [
+        "intense",
+        "violent",
+        "fierce"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "激しい雨 — heavy rain. 激しく怒る — angry intensely."
+    },
+    {
+      "word": "恐ろしい",
+      "reading": "おそろしい",
+      "meanings": [
+        "terrifying",
+        "frightening"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "恐ろしい話 — terrifying story. Stronger than 怖い."
+    },
+    {
+      "word": "恥ずかしい",
+      "reading": "はずかしい",
+      "meanings": [
+        "embarrassing",
+        "ashamed",
+        "shy"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "恥ずかしい思いをする — to feel embarrassed."
+    },
+    {
+      "word": "懐かしい",
+      "reading": "なつかしい",
+      "meanings": [
+        "nostalgic",
+        "missed",
+        "old familiar"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "Often heard alone as 懐かしい! when someone hears an old song. Untranslatable nuance."
+    },
+    {
+      "word": "羨ましい",
+      "reading": "うらやましい",
+      "meanings": [
+        "envious",
+        "jealous"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "羨ましい! — Lucky you / I'm jealous (positive)."
+    },
+    {
+      "word": "おかしい",
+      "reading": "おかしい",
+      "meanings": [
+        "strange",
+        "funny",
+        "wrong"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "何かおかしい — something's off. Also 'amusing.'"
+    },
+    {
+      "word": "ややこしい",
+      "reading": "ややこしい",
+      "meanings": [
+        "complicated",
+        "tangled",
+        "tricky"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "ややこしい問題 — tricky problem. Casual register."
+    },
+    {
+      "word": "ずるい",
+      "reading": "ずるい",
+      "meanings": [
+        "sneaky",
+        "unfair",
+        "cunning"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "ずるい! — that's unfair! Common kid/casual exclamation."
+    },
+    {
+      "word": "偉い",
+      "reading": "えらい",
+      "meanings": [
+        "great",
+        "admirable",
+        "high-ranking"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "偉い人 — important person. 偉いね — well done (to a child)."
+    },
+    {
+      "word": "細い",
+      "reading": "ほそい",
+      "meanings": [
+        "thin",
+        "slender",
+        "narrow"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "細い道 — narrow road. 細い手首 — slender wrist."
+    },
+    {
+      "word": "太い",
+      "reading": "ふとい",
+      "meanings": [
+        "thick",
+        "fat (object)",
+        "bold"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "For things, not people. 太い線 — thick line."
+    },
+    {
+      "word": "丸い",
+      "reading": "まるい",
+      "meanings": [
+        "round",
+        "circular"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "丸いテーブル — round table. 丸い顔 — round face."
+    },
+    {
+      "word": "四角い",
+      "reading": "しかくい",
+      "meanings": [
+        "square",
+        "four-cornered"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "四角い箱 — square box."
+    },
+    {
+      "word": "等しい",
+      "reading": "ひとしい",
+      "meanings": [
+        "equal",
+        "equivalent"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "AはBに等しい — A equals B. Math/logic."
+    },
+    {
+      "word": "ふと",
+      "reading": "ふと",
+      "meanings": [
+        "suddenly",
+        "by chance"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "ふと思った — I suddenly thought… A subtle 'just then.'"
+    },
+    {
+      "word": "突然",
+      "reading": "とつぜん",
+      "meanings": [
+        "suddenly",
+        "abruptly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "突然の知らせ — sudden news. Stronger than ふと."
+    },
+    {
+      "word": "いきなり",
+      "reading": "いきなり",
+      "meanings": [
+        "suddenly",
+        "without warning"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "いきなり聞かれた — was suddenly asked. More casual than 突然."
+    },
+    {
+      "word": "ようやく",
+      "reading": "ようやく",
+      "meanings": [
+        "finally",
+        "at last",
+        "barely"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "ようやく着いた — finally arrived. More literary than やっと."
+    },
+    {
+      "word": "やっと",
+      "reading": "やっと",
+      "meanings": [
+        "finally",
+        "at last"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "やっと終わった — finally done. More casual."
+    },
+    {
+      "word": "ついに",
+      "reading": "ついに",
+      "meanings": [
+        "finally",
+        "at last",
+        "in the end"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "ついに完成した — at last completed. Often dramatic."
+    },
+    {
+      "word": "いよいよ",
+      "reading": "いよいよ",
+      "meanings": [
+        "at last",
+        "more and more",
+        "really"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "いよいよ明日 — finally, tomorrow. Anticipation."
+    },
+    {
+      "word": "とうとう",
+      "reading": "とうとう",
+      "meanings": [
+        "finally",
+        "at last (often regretful)"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Often used for inevitable outcomes — 'in the end…'"
+    },
+    {
+      "word": "まもなく",
+      "reading": "まもなく",
+      "meanings": [
+        "soon",
+        "shortly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "まもなく到着します — arriving shortly. Common in train/airport announcements."
+    },
+    {
+      "word": "間もなく",
+      "reading": "まもなく",
+      "meanings": [
+        "soon",
+        "shortly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Same as above with kanji. Both forms used."
+    },
+    {
+      "word": "既に",
+      "reading": "すでに",
+      "meanings": [
+        "already"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "More formal than もう. 既に完了している — already completed."
+    },
+    {
+      "word": "未だに",
+      "reading": "いまだに",
+      "meanings": [
+        "still (not yet, with negative)",
+        "still up to now"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "未だに分からない — still don't understand."
+    },
+    {
+      "word": "今更",
+      "reading": "いまさら",
+      "meanings": [
+        "now (when it's too late)",
+        "at this late point"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "今更どうしようもない — too late to do anything now."
+    },
+    {
+      "word": "度々",
+      "reading": "たびたび",
+      "meanings": [
+        "often",
+        "repeatedly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "度々すみません — sorry to bother you repeatedly."
+    },
+    {
+      "word": "時々",
+      "reading": "ときどき",
+      "meanings": [
+        "sometimes",
+        "occasionally"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "At N3 also written 時時. 時々雨 — occasionally rain."
+    },
+    {
+      "word": "毎度",
+      "reading": "まいど",
+      "meanings": [
+        "each time",
+        "every time",
+        "always"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "毎度ありがとうございます — thank you every time (shop greeting)."
+    },
+    {
+      "word": "次第に",
+      "reading": "しだいに",
+      "meanings": [
+        "gradually",
+        "by degrees"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "次第に慣れる — gradually get used to."
+    },
+    {
+      "word": "徐々に",
+      "reading": "じょじょに",
+      "meanings": [
+        "gradually",
+        "slowly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "徐々に進む — proceed gradually."
+    },
+    {
+      "word": "少しずつ",
+      "reading": "すこしずつ",
+      "meanings": [
+        "little by little",
+        "gradually"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "少しずつ進歩する — progress little by little."
+    },
+    {
+      "word": "どんどん",
+      "reading": "どんどん",
+      "meanings": [
+        "rapidly",
+        "more and more"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "どんどん進める — push ahead rapidly. Onomatopoeia origin."
+    },
+    {
+      "word": "だんだん",
+      "reading": "だんだん",
+      "meanings": [
+        "gradually",
+        "step by step"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "だんだん寒くなる — gets gradually colder."
+    },
+    {
+      "word": "なるべく",
+      "reading": "なるべく",
+      "meanings": [
+        "as much as possible",
+        "if possible"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "なるべく早く — as soon as possible. More natural than できるだけ in some cases."
+    },
+    {
+      "word": "できるだけ",
+      "reading": "できるだけ",
+      "meanings": [
+        "as much as possible"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "できるだけ頑張る — do one's very best."
+    },
+    {
+      "word": "わざと",
+      "reading": "わざと",
+      "meanings": [
+        "on purpose",
+        "deliberately"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "わざと無視する — deliberately ignore."
+    },
+    {
+      "word": "わざわざ",
+      "reading": "わざわざ",
+      "meanings": [
+        "on purpose",
+        "going out of one's way",
+        "specially"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "わざわざありがとう — thank you for going to the trouble."
+    },
+    {
+      "word": "せっかく",
+      "reading": "せっかく",
+      "meanings": [
+        "with great trouble",
+        "at great pains",
+        "since (you went to the trouble)"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "せっかく来たのに — even though I came all this way. Hard to translate, deeply Japanese."
+    },
+    {
+      "word": "とりあえず",
+      "reading": "とりあえず",
+      "meanings": [
+        "for now",
+        "first of all",
+        "tentatively"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "とりあえずビール — beer for now (classic order). Hugely common."
+    },
+    {
+      "word": "そのうち",
+      "reading": "そのうち",
+      "meanings": [
+        "before long",
+        "soon enough",
+        "one of these days"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "そのうち会おう — let's meet sometime. Vague near-future."
+    },
+    {
+      "word": "いずれ",
+      "reading": "いずれ",
+      "meanings": [
+        "sooner or later",
+        "eventually",
+        "either way"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "いずれにしても — in any case."
+    },
+    {
+      "word": "せめて",
+      "reading": "せめて",
+      "meanings": [
+        "at least"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "せめて連絡してほしい — at least contact me. Conveys disappointment."
+    },
+    {
+      "word": "少なくとも",
+      "reading": "すくなくとも",
+      "meanings": [
+        "at least",
+        "at minimum"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "少なくとも10人 — at least 10 people."
+    },
+    {
+      "word": "もちろん",
+      "reading": "もちろん",
+      "meanings": [
+        "of course",
+        "certainly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "もちろんです — of course (polite affirm)."
+    },
+    {
+      "word": "確かに",
+      "reading": "たしかに",
+      "meanings": [
+        "certainly",
+        "surely",
+        "indeed"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "確かにそうだ — indeed it's so."
+    },
+    {
+      "word": "あくまで",
+      "reading": "あくまで",
+      "meanings": [
+        "to the end",
+        "persistently",
+        "strictly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "あくまで個人の意見 — strictly a personal opinion."
+    },
+    {
+      "word": "主に",
+      "reading": "おもに",
+      "meanings": [
+        "mainly",
+        "chiefly",
+        "primarily"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "主に日本語を勉強する — mainly study Japanese."
+    },
+    {
+      "word": "特に",
+      "reading": "とくに",
+      "meanings": [
+        "especially",
+        "particularly",
+        "not really (with neg)"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Note: also in N3/N4 General. 特に問題ない — no particular problem."
+    },
+    {
+      "word": "具体的",
+      "reading": "ぐたいてき",
+      "meanings": [
+        "concrete",
+        "specific",
+        "tangible"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "具体的に説明する — explain concretely."
+    },
+    {
+      "word": "抽象的",
+      "reading": "ちゅうしょうてき",
+      "meanings": [
+        "abstract"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "抽象的な話 — abstract talk. Opposite of 具体的."
+    },
+    {
+      "word": "基本的",
+      "reading": "きほんてき",
+      "meanings": [
+        "basic",
+        "fundamental",
+        "essentially"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "基本的に — basically. Common conversational opener."
+    },
+    {
+      "word": "一般的",
+      "reading": "いっぱんてき",
+      "meanings": [
+        "general",
+        "common",
+        "typical"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "一般的に — generally speaking."
+    },
+    {
+      "word": "個人的",
+      "reading": "こじんてき",
+      "meanings": [
+        "personal",
+        "individual"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "個人的には — personally speaking."
+    },
+    {
+      "word": "効果的",
+      "reading": "こうかてき",
+      "meanings": [
+        "effective"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "効果的な方法 — effective method."
+    },
+    {
+      "word": "積極的",
+      "reading": "せっきょくてき",
+      "meanings": [
+        "active",
+        "positive",
+        "proactive"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "積極的に参加する — actively participate."
+    },
+    {
+      "word": "消極的",
+      "reading": "しょうきょくてき",
+      "meanings": [
+        "passive",
+        "negative",
+        "unenthusiastic"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "Opposite of 積極的."
+    },
+    {
+      "word": "否定的",
+      "reading": "ひていてき",
+      "meanings": [
+        "negative (in attitude)",
+        "negating"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "否定的な意見 — negative opinion."
+    },
+    {
+      "word": "肯定的",
+      "reading": "こうていてき",
+      "meanings": [
+        "positive",
+        "affirmative"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "肯定的に考える — think positively."
+    },
+    {
+      "word": "楽観的",
+      "reading": "らっかんてき",
+      "meanings": [
+        "optimistic"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "楽観的な人 — an optimist."
+    },
+    {
+      "word": "悲観的",
+      "reading": "ひかんてき",
+      "meanings": [
+        "pessimistic"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "悲観的な見方 — pessimistic outlook."
+    },
+    {
+      "word": "現実",
+      "reading": "げんじつ",
+      "meanings": [
+        "reality",
+        "actuality"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "現実的 — realistic. 現実逃避 — escape from reality."
+    },
+    {
+      "word": "理想",
+      "reading": "りそう",
+      "meanings": [
+        "ideal"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "理想的 — ideal. 理想と現実 — ideals vs reality."
+    },
+    {
+      "word": "夢",
+      "reading": "ゆめ",
+      "meanings": [
+        "dream",
+        "aspiration"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "夢を見る — to dream. 夢を叶える — fulfill a dream."
+    },
+    {
+      "word": "希望",
+      "reading": "きぼう",
+      "meanings": [
+        "hope",
+        "wish"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "希望する — to hope/desire. 希望者 — applicant/volunteer."
+    },
+    {
+      "word": "願い",
+      "reading": "ねがい",
+      "meanings": [
+        "wish",
+        "request",
+        "desire"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "お願い — request (polite). 願いが叶う — wish comes true."
+    },
+    {
+      "word": "目指す",
+      "reading": "めざす",
+      "meanings": [
+        "to aim at",
+        "to strive for"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "医者を目指す — aim to be a doctor."
+    },
+    {
+      "word": "挑戦",
+      "reading": "ちょうせん",
+      "meanings": [
+        "challenge"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "挑戦する — to take on a challenge."
+    },
+    {
+      "word": "競争",
+      "reading": "きょうそう",
+      "meanings": [
+        "competition"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "競争する — to compete. 競争相手 — competitor."
+    },
+    {
+      "word": "勝負",
+      "reading": "しょうぶ",
+      "meanings": [
+        "match",
+        "contest",
+        "outcome"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "勝負する — to compete (decide it). 勝負を決める — decide the match."
+    },
+    {
+      "word": "勝つ",
+      "reading": "かつ",
+      "meanings": [
+        "to win",
+        "to defeat"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "試合に勝つ — win a match."
+    },
+    {
+      "word": "負ける",
+      "reading": "まける",
+      "meanings": [
+        "to lose",
+        "to be defeated"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "試合に負ける — lose a match."
+    },
+    {
+      "word": "引き分け",
+      "reading": "ひきわけ",
+      "meanings": [
+        "draw",
+        "tie"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "試合は引き分け — the match was a tie."
+    },
+    {
+      "word": "優勝",
+      "reading": "ゆうしょう",
+      "meanings": [
+        "championship",
+        "first place"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "優勝する — to win the championship."
+    },
+    {
+      "word": "応援",
+      "reading": "おうえん",
+      "meanings": [
+        "support",
+        "cheering",
+        "rooting for"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "応援する — to cheer on. 応援団 — cheer squad."
+    },
+    {
+      "word": "記録",
+      "reading": "きろく",
+      "meanings": [
+        "record (data, performance)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "記録する — to record. 世界記録 — world record."
+    },
+    {
+      "word": "順番",
+      "reading": "じゅんばん",
+      "meanings": [
+        "order",
+        "turn",
+        "sequence"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "順番を待つ — wait one's turn."
+    },
+    {
+      "word": "順位",
+      "reading": "じゅんい",
+      "meanings": [
+        "rank",
+        "place",
+        "standing"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "順位が上がる — rise in rank."
+    },
+    {
+      "word": "レベル",
+      "reading": "レベル",
+      "meanings": [
+        "level"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "レベルが高い — high level. Loanword everywhere."
+    },
+    {
+      "word": "段階",
+      "reading": "だんかい",
+      "meanings": [
+        "stage",
+        "phase",
+        "step"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "次の段階 — next stage."
+    },
+    {
+      "word": "程度",
+      "reading": "ていど",
+      "meanings": [
+        "degree",
+        "extent",
+        "level"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "ある程度 — to some extent. 程度の問題 — matter of degree."
+    },
+    {
+      "word": "範囲",
+      "reading": "はんい",
+      "meanings": [
+        "range",
+        "scope",
+        "extent"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "範囲を広げる — expand the range."
+    },
+    {
+      "word": "基準",
+      "reading": "きじゅん",
+      "meanings": [
+        "standard",
+        "criterion"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "基準を満たす — meet the standard."
+    },
+    {
+      "word": "水準",
+      "reading": "すいじゅん",
+      "meanings": [
+        "level (standard)",
+        "quality level"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "生活水準 — standard of living."
+    },
+    {
+      "word": "傾向",
+      "reading": "けいこう",
+      "meanings": [
+        "tendency",
+        "trend"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "傾向がある — to tend to."
+    },
+    {
+      "word": "特徴的",
+      "reading": "とくちょうてき",
+      "meanings": [
+        "distinctive",
+        "characteristic"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "特徴的な声 — distinctive voice."
+    },
+    {
+      "word": "代表",
+      "reading": "だいひょう",
+      "meanings": [
+        "representative",
+        "representation"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "代表する — to represent. 代表者 — representative."
+    },
+    {
+      "word": "中央",
+      "reading": "ちゅうおう",
+      "meanings": [
+        "center",
+        "middle"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_daily",
+      "context": "中央線 — Chuo Line (Tokyo). 中央銀行 — central bank."
+    },
+    {
+      "word": "中心",
+      "reading": "ちゅうしん",
+      "meanings": [
+        "center",
+        "middle",
+        "focus"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "Note: also in Japan Travel deck. 街の中心 — city center."
+    },
+    {
+      "word": "周囲",
+      "reading": "しゅうい",
+      "meanings": [
+        "surroundings",
+        "circumference"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "More formal than 周り."
+    },
+    {
+      "word": "区別",
+      "reading": "くべつ",
+      "meanings": [
+        "distinction",
+        "differentiation"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "区別する — to distinguish."
+    },
+    {
+      "word": "違い",
+      "reading": "ちがい",
+      "meanings": [
+        "difference",
+        "distinction"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "文化の違い — cultural differences."
+    },
+    {
+      "word": "共通",
+      "reading": "きょうつう",
+      "meanings": [
+        "common",
+        "mutual",
+        "shared"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "共通の話題 — common topic. 共通点 — point in common."
+    },
+    {
+      "word": "独特",
+      "reading": "どくとく",
+      "meanings": [
+        "peculiar",
+        "unique",
+        "characteristic"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "独特な味 — unique flavor."
+    },
+    {
+      "word": "具合",
+      "reading": "ぐあい",
+      "meanings": [
+        "condition",
+        "state",
+        "health"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "具合が悪い — feeling unwell."
+    },
+    {
+      "word": "調子",
+      "reading": "ちょうし",
+      "meanings": [
+        "condition",
+        "tone",
+        "manner"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "調子はどう — how are you feeling? 調子に乗る — get carried away."
+    },
+    {
+      "word": "状況",
+      "reading": "じょうきょう",
+      "meanings": [
+        "situation",
+        "circumstances",
+        "conditions"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "状況による — depends on the situation."
+    },
+    {
+      "word": "状態",
+      "reading": "じょうたい",
+      "meanings": [
+        "state",
+        "condition",
+        "circumstance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "健康状態 — state of health. 動作状態 — operating state."
+    },
+    {
+      "word": "立つ",
+      "reading": "たつ",
+      "meanings": [
+        "to stand",
+        "to be erected",
+        "to depart"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "At N3 think compounds: 役に立つ — useful. 思い立つ — make up one's mind."
+    },
+    {
+      "word": "役立つ",
+      "reading": "やくだつ",
+      "meanings": [
+        "to be useful",
+        "to serve a purpose"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "勉強に役立つ — useful for studying."
+    },
+    {
+      "word": "役に立つ",
+      "reading": "やくにたつ",
+      "meanings": [
+        "to be useful",
+        "to be helpful"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "More common phrasal form than 役立つ. 役に立つアプリ — useful app."
+    },
+    {
+      "word": "間違える",
+      "reading": "まちがえる",
+      "meanings": [
+        "to mistake",
+        "to confuse with",
+        "to err"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "道を間違える — go the wrong way."
+    },
+    {
+      "word": "間違い",
+      "reading": "まちがい",
+      "meanings": [
+        "mistake",
+        "error"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "間違いない — for sure, no mistake about it."
+    },
+    {
+      "word": "勘違い",
+      "reading": "かんちがい",
+      "meanings": [
+        "misunderstanding",
+        "wrong idea"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "勘違いする — to misunderstand. Often gentler than 間違える."
+    },
+    {
+      "word": "誤解",
+      "reading": "ごかい",
+      "meanings": [
+        "misunderstanding"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "誤解しないで — don't misunderstand."
+    },
+    {
+      "word": "理解",
+      "reading": "りかい",
+      "meanings": [
+        "understanding",
+        "comprehension"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "理解する — to understand (more formal than 分かる)."
+    },
+    {
+      "word": "納得",
+      "reading": "なっとく",
+      "meanings": [
+        "being convinced",
+        "understanding (with acceptance)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "納得する — to be convinced. 納得いかない — can't accept it."
+    },
+    {
+      "word": "気持ち",
+      "reading": "きもち",
+      "meanings": [
+        "feeling",
+        "mood",
+        "sensation"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "気持ちがいい — feels good."
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meanings": [
+        "mood",
+        "feeling",
+        "atmosphere"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "気分がいい — in a good mood. Subtle nuance vs 気持ち."
+    },
+    {
+      "word": "感情",
+      "reading": "かんじょう",
+      "meanings": [
+        "emotion",
+        "feelings",
+        "sentiment"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "More formal/intellectual than 気持ち. 感情的 — emotional."
+    },
+    {
+      "word": "感覚",
+      "reading": "かんかく",
+      "meanings": [
+        "sense",
+        "feeling",
+        "sensation"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "五感 — five senses. 感覚的 — intuitive."
+    },
+    {
+      "word": "感想",
+      "reading": "かんそう",
+      "meanings": [
+        "impressions",
+        "thoughts (after experience)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "感想を聞かせて — let me hear your thoughts."
+    },
+    {
+      "word": "気の毒",
+      "reading": "きのどく",
+      "meanings": [
+        "pitiful",
+        "feel sorry for",
+        "unfortunate"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "気の毒に — that's a shame. お気の毒に — my condolences."
+    },
+    {
+      "word": "せつない",
+      "reading": "せつない",
+      "meanings": [
+        "heart-wrenching",
+        "painful (emotionally)"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "せつない気持ち — painful, bittersweet feeling. Rich Japanese mood word."
+    },
+    {
+      "word": "寂しい",
+      "reading": "さびしい",
+      "meanings": [
+        "lonely",
+        "sad",
+        "missing"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "Also さみしい. 寂しくなる — to feel lonely (e.g. when someone leaves)."
+    },
+    {
+      "word": "切ない",
+      "reading": "せつない",
+      "meanings": [
+        "bittersweet",
+        "painful (emotional)"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "With kanji. Same word as せつない (no kanji form)."
+    },
+    {
+      "word": "恋",
+      "reading": "こい",
+      "meanings": [
+        "love (romantic)",
+        "longing"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "恋をする — to fall in love. 恋人 — sweetheart."
+    },
+    {
+      "word": "愛",
+      "reading": "あい",
+      "meanings": [
+        "love"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "More universal/lasting than 恋. 愛する — to love."
+    },
+    {
+      "word": "恋愛",
+      "reading": "れんあい",
+      "meanings": [
+        "love",
+        "romance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "恋愛関係 — romantic relationship."
+    },
+    {
+      "word": "友情",
+      "reading": "ゆうじょう",
+      "meanings": [
+        "friendship"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "More formal than 友達. The bond itself."
+    },
+    {
+      "word": "信頼",
+      "reading": "しんらい",
+      "meanings": [
+        "trust",
+        "confidence",
+        "reliance"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "Note: also in Drive My Car deck. 信頼する — to trust."
+    },
+    {
+      "word": "裏切る",
+      "reading": "うらぎる",
+      "meanings": [
+        "to betray",
+        "to deceive"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "信頼を裏切る — betray trust."
+    },
+    {
+      "word": "喧嘩",
+      "reading": "けんか",
+      "meanings": [
+        "fight",
+        "quarrel",
+        "argument"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "喧嘩する — to fight (verbal usually, but can be physical)."
+    },
+    {
+      "word": "仲直り",
+      "reading": "なかなおり",
+      "meanings": [
+        "reconciliation",
+        "making up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "仲直りする — make up after a fight."
+    },
+    {
+      "word": "許す",
+      "reading": "ゆるす",
+      "meanings": [
+        "to forgive",
+        "to permit",
+        "to allow"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_emotion",
+      "context": "Note: also in Drive My Car v2. 許してください — please forgive me."
+    },
+    {
+      "word": "認める",
+      "reading": "みとめる",
+      "meanings": [
+        "to acknowledge",
+        "to recognize",
+        "to admit"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_thinking",
+      "context": "間違いを認める — admit a mistake."
+    },
+    {
+      "word": "疑う",
+      "reading": "うたがう",
+      "meanings": [
+        "to doubt",
+        "to suspect"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_thinking",
+      "context": "疑いを持つ — have doubts."
+    },
+    {
+      "word": "信じる",
+      "reading": "しんじる",
+      "meanings": [
+        "to believe",
+        "to trust",
+        "to have faith in"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_thinking",
+      "context": "信じられない — unbelievable."
+    },
+    {
+      "word": "考え",
+      "reading": "かんがえ",
+      "meanings": [
+        "thought",
+        "idea",
+        "opinion"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "考えがある — to have an idea. The noun form."
+    },
+    {
+      "word": "アイデア",
+      "reading": "アイデア",
+      "meanings": [
+        "idea"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "いいアイデア — good idea. Loanword everywhere."
+    },
+    {
+      "word": "発想",
+      "reading": "はっそう",
+      "meanings": [
+        "idea",
+        "conception",
+        "way of thinking"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "発想を変える — change one's way of thinking."
+    },
+    {
+      "word": "見方",
+      "reading": "みかた",
+      "meanings": [
+        "viewpoint",
+        "perspective"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "見方が違う — see things differently. Different from 味方 (ally)."
+    },
+    {
+      "word": "考え方",
+      "reading": "かんがえかた",
+      "meanings": [
+        "way of thinking",
+        "attitude"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "考え方が違う — different way of thinking."
+    },
+    {
+      "word": "主観",
+      "reading": "しゅかん",
+      "meanings": [
+        "subjectivity"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "主観的 — subjective."
+    },
+    {
+      "word": "客観",
+      "reading": "きゃっかん",
+      "meanings": [
+        "objectivity"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "客観的 — objective."
+    },
+    {
+      "word": "目",
+      "reading": "め",
+      "meanings": [
+        "eye",
+        "viewpoint"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_body_health",
+      "context": "At N3, idiomatic compounds: 目立つ (stand out), 目に入る (catch sight of)."
+    },
+    {
+      "word": "目立つ",
+      "reading": "めだつ",
+      "meanings": [
+        "to stand out",
+        "to be conspicuous"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "目立つ服 — flashy clothes."
+    },
+    {
+      "word": "目に入る",
+      "reading": "めにはいる",
+      "meanings": [
+        "to catch sight of",
+        "to come into view"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "目に入った — caught my eye."
+    },
+    {
+      "word": "気づく",
+      "reading": "きづく",
+      "meanings": [
+        "to notice",
+        "to realize"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_thinking",
+      "context": "Note: already in N3/N4 General. 気づかなかった — didn't notice."
+    },
+    {
+      "word": "気が付く",
+      "reading": "きがつく",
+      "meanings": [
+        "to notice",
+        "to come to oneself",
+        "to realize"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "More phrasal form. Often used in past: 気が付くと — when I noticed."
+    },
+    {
+      "word": "気にする",
+      "reading": "きにする",
+      "meanings": [
+        "to mind",
+        "to worry about",
+        "to take to heart"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "気にしないで — don't worry about it."
+    },
+    {
+      "word": "気になる",
+      "reading": "きになる",
+      "meanings": [
+        "to be on one's mind",
+        "to bother",
+        "to be curious about"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "気になる人 — someone you're interested in."
+    },
+    {
+      "word": "気が合う",
+      "reading": "きがあう",
+      "meanings": [
+        "to get along (well)",
+        "to click"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "気が合わない — don't get along."
+    },
+    {
+      "word": "気をつける",
+      "reading": "きをつける",
+      "meanings": [
+        "to be careful",
+        "to take care",
+        "to pay attention"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "Note: also in Yotsubato deck. 気をつけて — take care."
+    },
+    {
+      "word": "頭が良い",
+      "reading": "あたまがいい",
+      "meanings": [
+        "smart",
+        "intelligent"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "頭がいい人 — smart person."
+    },
+    {
+      "word": "手伝い",
+      "reading": "てつだい",
+      "meanings": [
+        "help",
+        "assistance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "お手伝い — helper/help (polite). Also 'maid' in older usage."
+    },
+    {
+      "word": "助け",
+      "reading": "たすけ",
+      "meanings": [
+        "help",
+        "rescue",
+        "assistance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "助けを求める — seek help."
+    },
+    {
+      "word": "助かる",
+      "reading": "たすかる",
+      "meanings": [
+        "to be saved",
+        "to be helped",
+        "to be a relief"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "助かりました — that helped a lot. Common gratitude."
+    },
+    {
+      "word": "助ける",
+      "reading": "たすける",
+      "meanings": [
+        "to help",
+        "to rescue"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "助けて! — Help! Distinct from 手伝う (assist)."
+    },
+    {
+      "word": "お礼",
+      "reading": "おれい",
+      "meanings": [
+        "thanks",
+        "gratitude",
+        "reward"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "お礼を言う — to give thanks. お礼の手紙 — thank-you letter."
+    },
+    {
+      "word": "感謝",
+      "reading": "かんしゃ",
+      "meanings": [
+        "gratitude",
+        "thanks"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "感謝する — to be grateful. More formal than ありがとう."
+    },
+    {
+      "word": "褒める",
+      "reading": "ほめる",
+      "meanings": [
+        "to praise",
+        "to compliment"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "先生に褒められた — was praised by the teacher."
+    },
+    {
+      "word": "叱る",
+      "reading": "しかる",
+      "meanings": [
+        "to scold"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "親に叱られる — be scolded by parents."
+    },
+    {
+      "word": "励ます",
+      "reading": "はげます",
+      "meanings": [
+        "to encourage",
+        "to cheer up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "友達を励ます — encourage a friend."
+    },
+    {
+      "word": "慰める",
+      "reading": "なぐさめる",
+      "meanings": [
+        "to comfort",
+        "to console"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_communication",
+      "context": "悲しむ友達を慰める — comfort a sad friend."
+    },
+    {
+      "word": "訪問",
+      "reading": "ほうもん",
+      "meanings": [
+        "visit",
+        "call (on someone)"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "More formal than 訪ねる (already in Travel deck)."
+    },
+    {
+      "word": "観光",
+      "reading": "かんこう",
+      "meanings": [
+        "sightseeing",
+        "tourism"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "観光する — to sightsee. 観光客 — tourist."
+    },
+    {
+      "word": "見学",
+      "reading": "けんがく",
+      "meanings": [
+        "field trip",
+        "factory tour",
+        "observation visit"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "工場見学 — factory tour."
+    },
+    {
+      "word": "集合",
+      "reading": "しゅうごう",
+      "meanings": [
+        "gathering",
+        "meeting up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "集合場所 — meeting place. More formal than 集まる."
+    },
+    {
+      "word": "解散",
+      "reading": "かいさん",
+      "meanings": [
+        "dispersing",
+        "breaking up"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "パーティーが解散する — party breaks up."
+    },
+    {
+      "word": "出会い",
+      "reading": "であい",
+      "meanings": [
+        "meeting",
+        "encounter"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_abstract",
+      "context": "運命の出会い — fated encounter. Often romanticized."
+    },
+    {
+      "word": "別れ",
+      "reading": "わかれ",
+      "meanings": [
+        "parting",
+        "separation",
+        "farewell"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_emotion",
+      "context": "別れの言葉 — words of farewell."
+    },
+    {
+      "word": "再会",
+      "reading": "さいかい",
+      "meanings": [
+        "reunion",
+        "meeting again"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "再会を楽しみにする — look forward to a reunion."
+    },
+    {
+      "word": "離婚",
+      "reading": "りこん",
+      "meanings": [
+        "divorce"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "離婚する — to divorce."
+    },
+    {
+      "word": "結婚",
+      "reading": "けっこん",
+      "meanings": [
+        "marriage"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "結婚式 — wedding ceremony. 結婚する — to get married."
+    },
+    {
+      "word": "夫",
+      "reading": "おっと",
+      "meanings": [
+        "husband"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "More formal than 主人. Used in writing/news."
+    },
+    {
+      "word": "妻",
+      "reading": "つま",
+      "meanings": [
+        "wife"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "More formal than 家内/奥さん. Used about one's own wife."
+    },
+    {
+      "word": "親",
+      "reading": "おや",
+      "meanings": [
+        "parent",
+        "parents"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "両親 — both parents. 親孝行 — filial piety."
+    },
+    {
+      "word": "兄弟",
+      "reading": "きょうだい",
+      "meanings": [
+        "siblings",
+        "brothers"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "兄弟がいる — to have siblings (gender-inclusive)."
+    },
+    {
+      "word": "親戚",
+      "reading": "しんせき",
+      "meanings": [
+        "relatives"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "親戚の家 — relative's house."
+    },
+    {
+      "word": "先祖",
+      "reading": "せんぞ",
+      "meanings": [
+        "ancestors",
+        "forefathers"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "先祖代々 — generation after generation."
+    },
+    {
+      "word": "子孫",
+      "reading": "しそん",
+      "meanings": [
+        "descendants"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "子孫を残す — leave descendants."
+    },
+    {
+      "word": "友人",
+      "reading": "ゆうじん",
+      "meanings": [
+        "friend"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "More formal than 友達. Used in writing."
+    },
+    {
+      "word": "知り合い",
+      "reading": "しりあい",
+      "meanings": [
+        "acquaintance"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Less close than 友人/友達. 知り合いの店 — an acquaintance's shop."
+    },
+    {
+      "word": "恋人",
+      "reading": "こいびと",
+      "meanings": [
+        "lover",
+        "sweetheart",
+        "boyfriend/girlfriend"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Romantic partner. Distinct from 彼/彼女."
+    },
+    {
+      "word": "彼氏",
+      "reading": "かれし",
+      "meanings": [
+        "boyfriend"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "More casual than 恋人 (when male)."
+    },
+    {
+      "word": "彼女",
+      "reading": "かのじょ",
+      "meanings": [
+        "she",
+        "girlfriend"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Both pronoun and 'girlfriend' depending on context."
+    },
+    {
+      "word": "先輩",
+      "reading": "せんぱい",
+      "meanings": [
+        "senior (at school/work)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Often left untranslated. 学校の先輩 — school senior."
+    },
+    {
+      "word": "後輩",
+      "reading": "こうはい",
+      "meanings": [
+        "junior (at school/work)"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Opposite of 先輩."
+    },
+    {
+      "word": "上下関係",
+      "reading": "じょうげかんけい",
+      "meanings": [
+        "hierarchical relationship"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "Important Japanese cultural concept."
+    },
+    {
+      "word": "人間関係",
+      "reading": "にんげんかんけい",
+      "meanings": [
+        "human relationships",
+        "interpersonal relations"
+      ],
+      "jlpt": "N3",
+      "category": "nouns_society",
+      "context": "人間関係が悪い — poor relationships at work etc."
+    },
+    {
+      "word": "付き合う",
+      "reading": "つきあう",
+      "meanings": [
+        "to associate",
+        "to date",
+        "to keep company"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_action",
+      "context": "彼と付き合っている — I'm dating him. Also 'keep someone company.'"
+    },
+    {
+      "word": "親しい",
+      "reading": "したしい",
+      "meanings": [
+        "close (friend)",
+        "intimate",
+        "familiar"
+      ],
+      "jlpt": "N3",
+      "category": "adj_i",
+      "context": "親しい友達 — close friend."
+    },
+    {
+      "word": "なるほど",
+      "reading": "なるほど",
+      "meanings": [
+        "I see",
+        "that's right",
+        "indeed"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "Common acknowledgement in conversation."
+    },
+    {
+      "word": "そうですか",
+      "reading": "そうですか",
+      "meanings": [
+        "I see",
+        "is that so"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "Standard politely-acknowledging phrase."
+    },
+    {
+      "word": "そういえば",
+      "reading": "そういえば",
+      "meanings": [
+        "come to think of it",
+        "by the way"
+      ],
+      "jlpt": "N3",
+      "category": "expressions",
+      "context": "Note: also in Yotsubato. Topic shifter — 'speaking of which.'"
+    },
+    {
+      "word": "つまり",
+      "reading": "つまり",
+      "meanings": [
+        "in other words",
+        "that is to say",
+        "in short"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "つまり、行きたくない — In other words, I don't want to go."
+    },
+    {
+      "word": "要するに",
+      "reading": "ようするに",
+      "meanings": [
+        "in short",
+        "in essence",
+        "to put it briefly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "More formal/explicit than つまり."
+    },
+    {
+      "word": "ちなみに",
+      "reading": "ちなみに",
+      "meanings": [
+        "incidentally",
+        "by the way",
+        "FYI"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Conversation-shifter; adding side info."
+    },
+    {
+      "word": "ところで",
+      "reading": "ところで",
+      "meanings": [
+        "by the way",
+        "incidentally"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "More formal than ちなみに. Topic change."
+    },
+    {
+      "word": "したがって",
+      "reading": "したがって",
+      "meanings": [
+        "therefore",
+        "accordingly"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Formal, written. 従って — same with kanji."
+    },
+    {
+      "word": "そのため",
+      "reading": "そのため",
+      "meanings": [
+        "because of that",
+        "therefore"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "そのために is closer to 'for that purpose.'"
+    },
+    {
+      "word": "ただし",
+      "reading": "ただし",
+      "meanings": [
+        "however",
+        "provided that",
+        "but note"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Adds an exception/caveat. Common in formal writing."
+    },
+    {
+      "word": "とはいえ",
+      "reading": "とはいえ",
+      "meanings": [
+        "that said",
+        "even so",
+        "nonetheless"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "Concessive linker — common in writing."
+    },
+    {
+      "word": "一方",
+      "reading": "いっぽう",
+      "meanings": [
+        "on the one hand",
+        "while",
+        "whereas"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "一方で — on the one hand. Useful for comparing."
+    },
+    {
+      "word": "逆",
+      "reading": "ぎゃく",
+      "meanings": [
+        "reverse",
+        "opposite",
+        "contrary"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "逆に — on the contrary. 逆方向 — opposite direction."
+    },
+    {
+      "word": "互いに",
+      "reading": "たがいに",
+      "meanings": [
+        "mutually",
+        "each other",
+        "reciprocally"
+      ],
+      "jlpt": "N3",
+      "category": "adverbs",
+      "context": "お互いに — to/for each other (more polite)."
+    },
+    {
+      "word": "面倒",
+      "reading": "めんどう",
+      "meanings": [
+        "trouble",
+        "bother",
+        "care"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "面倒な仕事 — troublesome job. 面倒くさい — what a pain."
+    },
+    {
+      "word": "親切",
+      "reading": "しんせつ",
+      "meanings": [
+        "kindness",
+        "kind"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "Note: also in N3/N4 General deck. ご親切に — kind of you."
+    },
+    {
+      "word": "勝手",
+      "reading": "かって",
+      "meanings": [
+        "selfish",
+        "arbitrary",
+        "one's own way"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "勝手にする — do as you please (often negative)."
+    },
+    {
+      "word": "自慢",
+      "reading": "じまん",
+      "meanings": [
+        "pride",
+        "boasting"
+      ],
+      "jlpt": "N3",
+      "category": "verbs_suru",
+      "context": "自慢する — to boast. 自慢の息子 — a son one is proud of."
+    },
+    {
+      "word": "謙虚",
+      "reading": "けんきょ",
+      "meanings": [
+        "humble",
+        "modest"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "謙虚な態度 — humble attitude."
+    },
+    {
+      "word": "頑固",
+      "reading": "がんこ",
+      "meanings": [
+        "stubborn",
+        "obstinate"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "頑固な人 — stubborn person."
+    },
+    {
+      "word": "わがまま",
+      "reading": "わがまま",
+      "meanings": [
+        "selfish",
+        "willful"
+      ],
+      "jlpt": "N3",
+      "category": "adj_na",
+      "context": "わがままを言う — to be selfish."
+    }
+  ]
+}
