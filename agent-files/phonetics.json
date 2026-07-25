@@ -1,0 +1,1164 @@
+{
+ "version": "2.0",
+ "count": 46,
+ "series": [
+  {
+   "phonetic": "寺",
+   "reading": "ジ",
+   "reliability": "low",
+   "teaching_note": "寺 is the ジ engine under 持 and 時, but 待 特 等 詩 all break away — treat 寺 as a hint, not a guarantee.",
+   "members": [
+    {
+     "kanji": "持",
+     "semantic": "扌 hand (what holds)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "時",
+     "semantic": "日 sun (what marks the hour)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "待",
+     "semantic": "彳 crossroad-step (where you wait)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "特",
+     "semantic": "牛 ox (the special one)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "等",
+     "semantic": "竹 bamboo (slips ranked in order)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "詩",
+     "semantic": "言 words (poetry)",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "尺",
+   "reading": "タク",
+   "reliability": "low",
+   "teaching_note": "The 尺 in 択 沢 訳 釈 駅 is a shinjitai squeeze of the old phonetic 睪, so it flags one sound family that scattered into タク・ヤク・シャク・エキ — only 択 沢 land on タク, and 昼's 尺 is an unrelated stroke accident.",
+   "members": [
+    {
+     "kanji": "択",
+     "semantic": "扌 hand (picking out)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "沢",
+     "semantic": "氵 water (marsh)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "訳",
+     "semantic": "言 words (translation)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "釈",
+     "semantic": "釆 sorting-grain (explaining apart)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "駅",
+     "semantic": "馬 horse (post station)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "昼",
+     "semantic": "旦 sun-over-horizon; its 尺 is a corrupted remnant, not 睪",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "己",
+   "reading": "キ",
+   "reliability": "medium",
+   "teaching_note": "己 hands キ to 記, but 改 and 配 grew their 己-shape out of other elements, so this is a two-hit series rather than a rule.",
+   "members": [
+    {
+     "kanji": "己",
+     "semantic": "(the phonetic itself; usually read コ)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "記",
+     "semantic": "言 words (writing down)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "改",
+     "semantic": "攵 hand-with-stick (striking into shape)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "配",
+     "semantic": "酉 wine jar (rations handed out)",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "才",
+   "reading": "ザイ",
+   "reliability": "medium",
+   "teaching_note": "才 is a voicing phonetic — alone it reads サイ, but bolted to 木 and 貝 it voices to ザイ in 材 財, while the bolt inside 閉 only looks like 才.",
+   "members": [
+    {
+     "kanji": "材",
+     "semantic": "木 tree (timber)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "財",
+     "semantic": "貝 cowrie shell (wealth)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "才",
+     "semantic": "(the phonetic itself, unvoiced サイ)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "閉",
+     "semantic": "門 gate; the inner stroke is a door-bolt, a 才 look-alike",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "方",
+   "reading": "ホウ",
+   "reliability": "medium",
+   "teaching_note": "方 reliably gives ホウ (放 訪) or its voiced twin ボウ (房), but 旅 and 族 only look like 方 — their element is the banner 㫃.",
+   "members": [
+    {
+     "kanji": "放",
+     "semantic": "攵 hand-with-stick (driving off)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "訪",
+     "semantic": "言 words (calling on someone)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "房",
+     "semantic": "戸 door (a side room); ボウ is voiced ホウ",
+     "takes_reading": false
+    },
+    {
+     "kanji": "旅",
+     "semantic": "㫃 banner with people following — not 方",
+     "takes_reading": false
+    },
+    {
+     "kanji": "族",
+     "semantic": "㫃 banner plus 矢 arrow (clan under one flag) — not 方",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "未",
+   "reading": "ミ",
+   "reliability": "medium",
+   "teaching_note": "未 marks the m- family — ミ in 未 味, マイ in 妹 — while 業's bottom only resembles 未 and carries no sound at all.",
+   "members": [
+    {
+     "kanji": "未",
+     "semantic": "(the phonetic itself)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "味",
+     "semantic": "口 mouth (taste)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "妹",
+     "semantic": "女 woman (younger sister); マイ is the same m- phonetic, older reading layer",
+     "takes_reading": false
+    },
+    {
+     "kanji": "業",
+     "semantic": "no split — 業 is one pictograph of a bell-rack board; the 未 shape is decomposition noise",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "束",
+   "reading": "ソク",
+   "reliability": "high",
+   "teaching_note": "束 hands ソク straight to 速; 頼's left side is a squeezed 剌, not 束, which is why it reads ライ.",
+   "members": [
+    {
+     "kanji": "束",
+     "semantic": "(the phonetic itself)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "速",
+     "semantic": "辶 road (moving fast)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "頼",
+     "semantic": "頁 head; its left element is 剌, a 束 look-alike",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "正",
+   "reading": "セイ",
+   "reliability": "high",
+   "teaching_note": "正 is a solid セイ engine for 政 整, and 症 証 are not really exceptions — ショウ is 正's own go-on reading, the one you already say in 正月 (しょうがつ).",
+   "members": [
+    {
+     "kanji": "政",
+     "semantic": "攵 hand-with-stick (rule enforced)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "整",
+     "semantic": "敕 bundle-and-strike (putting in order)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "症",
+     "semantic": "疒 sickness-frame",
+     "takes_reading": false
+    },
+    {
+     "kanji": "証",
+     "semantic": "言 words (proof)",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "氐",
+   "reading": "テイ",
+   "reliability": "high",
+   "teaching_note": "氐 is a clean テイ phonetic — every kanji here built on it reads テイ, so 氐 is one of the few you can trust on sight.",
+   "members": [
+    {
+     "kanji": "低",
+     "semantic": "亻 person (bent low)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "底",
+     "semantic": "广 lean-to roof (the bottom of a building)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "民",
+   "reading": "ミン",
+   "reliability": "high",
+   "teaching_note": "民 lends ミン to 眠 with no exceptions — sleep is just an eye 目 plus the people-sound.",
+   "members": [
+    {
+     "kanji": "民",
+     "semantic": "(the phonetic itself)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "眠",
+     "semantic": "目 eye (closing)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "求",
+   "reading": "キュウ",
+   "reliability": "high",
+   "teaching_note": "求 is a reliable キュウ engine: 救 and 球 both keep the sound, with 攵 and 王 supplying the meaning.",
+   "members": [
+    {
+     "kanji": "救",
+     "semantic": "攵 hand-with-stick (rescuing action)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "球",
+     "semantic": "王/玉 jade (a polished sphere)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "生",
+   "reading": "セイ",
+   "reliability": "high",
+   "teaching_note": "生 gives セイ (and its go-on ショウ) to 性, but in 産 it flips role and works as the meaning — birth — while 产 on top carries the sound.",
+   "members": [
+    {
+     "kanji": "生",
+     "semantic": "(the phonetic itself)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "性",
+     "semantic": "忄 heart (inborn nature)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "産",
+     "semantic": "产 is the phonetic here; 生 is the meaning, giving birth",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "甬",
+   "reading": "ツウ",
+   "reliability": "high",
+   "teaching_note": "甬 is a dependable ツウ phonetic in 通 and 痛, so when this element shows up, guess ツウ first.",
+   "members": [
+    {
+     "kanji": "通",
+     "semantic": "辶 road (passing through)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "痛",
+     "semantic": "疒 sickness-frame (pain)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "申",
+   "reading": "シン",
+   "reliability": "high",
+   "teaching_note": "申 is the シン sound in 神: the altar 礻 supplies the god, 申 supplies the reading.",
+   "members": [
+    {
+     "kanji": "申",
+     "semantic": "(the phonetic itself)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "神",
+     "semantic": "礻 altar (the divine)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "皮",
+   "reading": "ヒ",
+   "reliability": "high",
+   "teaching_note": "皮 carries the h-row sound into 彼 疲 as ヒ and into 破 as ハ, so it fixes the initial even when the vowel shifts.",
+   "members": [
+    {
+     "kanji": "彼",
+     "semantic": "彳 crossroad-step (that person over there)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "疲",
+     "semantic": "疒 sickness-frame (worn out)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "破",
+     "semantic": "石 stone (smashing); ハ is the same phonetic family as ヒ",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "者",
+   "reading": "ショ",
+   "reliability": "medium",
+   "teaching_note": "者 really does carry the sound, but it scatters — 暑 緒 take ショ, 著 takes チョ, 都 takes ト — so let 者 narrow your guess, never fix it.",
+   "members": [
+    {
+     "kanji": "暑",
+     "semantic": "日 sun (heat)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "緒",
+     "semantic": "糸 thread (a cord, a beginning)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "著",
+     "semantic": "艹 grass (marked, conspicuous); reads チョ",
+     "takes_reading": false
+    },
+    {
+     "kanji": "都",
+     "semantic": "阝 city-mound (capital); reads ト",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "菐",
+   "reading": "ボク",
+   "reliability": "high",
+   "teaching_note": "菐 shows up only in 僕 and 撲 and hands both a clean ボク — learn the pair together and this odd component pays for itself.",
+   "members": [
+    {
+     "kanji": "僕",
+     "semantic": "亻 person (manservant, 'I')",
+     "takes_reading": true
+    },
+    {
+     "kanji": "撲",
+     "semantic": "扌 hand (striking)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "谷",
+   "reading": "ヨク",
+   "reliability": "medium",
+   "teaching_note": "谷 hides a second voice — standing alone it is コク, but as a phonetic it produces the yo-/yu- family: ヨク in 浴 欲, ヨウ in 容, ユウ in 裕.",
+   "members": [
+    {
+     "kanji": "浴",
+     "semantic": "氵 water (bathing)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "欲",
+     "semantic": "欠 gaping mouth (craving)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "谷",
+     "semantic": "(the phonetic itself, read コク as a word)",
+     "takes_reading": false
+    },
+    {
+     "kanji": "容",
+     "semantic": "宀 roof (what a space holds); reads ヨウ",
+     "takes_reading": false
+    },
+    {
+     "kanji": "裕",
+     "semantic": "衤 clothing (ample cloth); reads ユウ",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "豆",
+   "reading": "トウ",
+   "reliability": "medium",
+   "teaching_note": "豆 gives トウ to 登 and 頭, while 短 and 豊 use the bean-vessel for its picture rather than its sound, so they keep their own readings.",
+   "members": [
+    {
+     "kanji": "登",
+     "semantic": "癶 two feet (climbing up)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "頭",
+     "semantic": "頁 head",
+     "takes_reading": true
+    },
+    {
+     "kanji": "短",
+     "semantic": "矢 arrow — 豆 is drawn here as a short measuring object, not a sound",
+     "takes_reading": false
+    },
+    {
+     "kanji": "豊",
+     "semantic": "曲 heaped grain above the vessel — 豆 is the pictured vessel, not a sound",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "責",
+   "reading": "セキ",
+   "reliability": "high",
+   "teaching_note": "責 is a strong セキ engine — 積 and 績 both take it, and only 債 slips to サイ.",
+   "members": [
+    {
+     "kanji": "積",
+     "semantic": "禾 grain stalk (piling up)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "績",
+     "semantic": "糸 thread (spun achievement)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "債",
+     "semantic": "亻 person (debt owed); reads サイ",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "長",
+   "reading": "チョウ",
+   "reliability": "high",
+   "teaching_note": "長 hands チョウ to everything it enters — 帳 張 keep it exactly, with 巾 cloth and 弓 bow doing the meaning work.",
+   "members": [
+    {
+     "kanji": "帳",
+     "semantic": "巾 cloth (a hanging curtain, a ledger)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "張",
+     "semantic": "弓 bow (stretched taut)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "青",
+   "reading": "セイ",
+   "reliability": "high",
+   "teaching_note": "青 is one of the most trustworthy phonetics in the language — 清 精 情 all carry セイ, and 情's everyday ジョウ is simply the voiced go-on of that same sound.",
+   "members": [
+    {
+     "kanji": "清",
+     "semantic": "氵 water (clear)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "精",
+     "semantic": "米 rice (refined)",
+     "takes_reading": true
+    },
+    {
+     "kanji": "情",
+     "semantic": "忄 heart (feeling); officially セイ as well as ジョウ",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "𢎨",
+   "reading": "ダイ",
+   "reliability": "high",
+   "teaching_note": "𢎨 is just 弟 with its horns lopped off, so read it as 弟 = ダイ — which is exactly the reading 第 takes.",
+   "members": [
+    {
+     "kanji": "弟",
+     "semantic": "丷 horns added on top of the same body",
+     "takes_reading": true
+    },
+    {
+     "kanji": "第",
+     "semantic": "竹 bamboo (numbered slips in sequence)",
+     "takes_reading": true
+    }
+   ]
+  },
+  {
+   "phonetic": "且",
+   "reading": "ソ",
+   "reliability": "medium",
+   "teaching_note": "且 is a solid ソ engine in 阻 粗 組, but 助 voices it to ジョ and 査 flattens it to サ, so read 且 as \"some s/z sound\" rather than exactly ソ.",
+   "members": [
+    {
+     "kanji": "阻",
+     "takes_reading": true,
+     "semantic": "阝 hill — a slope that blocks the way"
+    },
+    {
+     "kanji": "粗",
+     "takes_reading": true,
+     "semantic": "米 rice — unrefined grain"
+    },
+    {
+     "kanji": "組",
+     "takes_reading": true,
+     "semantic": "糸 thread — braided into a group"
+    },
+    {
+     "kanji": "助",
+     "takes_reading": false,
+     "semantic": "力 muscle — lending strength"
+    },
+    {
+     "kanji": "査",
+     "takes_reading": false,
+     "semantic": "木 tree — the wooden tally you check against"
+    }
+   ]
+  },
+  {
+   "phonetic": "亡",
+   "reading": "ボウ",
+   "reliability": "high",
+   "teaching_note": "亡 is one of the few you can trust outright — 忙 忘 望 all take ボウ with no exceptions anywhere in this app.",
+   "members": [
+    {
+     "kanji": "忙",
+     "takes_reading": true,
+     "semantic": "忄 heart — a heart gone missing from busyness"
+    },
+    {
+     "kanji": "忘",
+     "takes_reading": true,
+     "semantic": "心 heart — memory lost from the heart"
+    },
+    {
+     "kanji": "望",
+     "takes_reading": true,
+     "semantic": "月 moon plus 王/壬, a person on tiptoe gazing at it"
+    }
+   ]
+  },
+  {
+   "phonetic": "交",
+   "reading": "コウ",
+   "reliability": "high",
+   "teaching_note": "交 hands コウ to 効 校 較 with no exceptions, though 較 usually surfaces as カク in everyday 比較.",
+   "members": [
+    {
+     "kanji": "効",
+     "takes_reading": true,
+     "semantic": "力 muscle — force that actually works"
+    },
+    {
+     "kanji": "校",
+     "takes_reading": true,
+     "semantic": "木 tree — the wooden schoolhouse"
+    },
+    {
+     "kanji": "較",
+     "takes_reading": true,
+     "semantic": "車 cart — carts drawn up side by side"
+    }
+   ]
+  },
+  {
+   "phonetic": "反",
+   "reading": "ハン",
+   "reliability": "high",
+   "teaching_note": "反 gives ハン to 坂 板 飯; only 返 drifts to ヘン, so take ハン as the default and memorize 返 as the single stray.",
+   "members": [
+    {
+     "kanji": "坂",
+     "takes_reading": true,
+     "semantic": "土 soil — an earthen slope"
+    },
+    {
+     "kanji": "板",
+     "takes_reading": true,
+     "semantic": "木 tree — a sawn plank"
+    },
+    {
+     "kanji": "飯",
+     "takes_reading": true,
+     "semantic": "飠 food — cooked rice"
+    },
+    {
+     "kanji": "返",
+     "takes_reading": false,
+     "semantic": "辶 road — going back down the road"
+    }
+   ]
+  },
+  {
+   "phonetic": "召",
+   "reading": "ショウ",
+   "reliability": "high",
+   "teaching_note": "召 is a clean ショウ engine — 招 昭 紹 all take it, so 召 plus any radical is a safe ショウ bet.",
+   "members": [
+    {
+     "kanji": "招",
+     "takes_reading": true,
+     "semantic": "扌 hand — a hand beckoning you over"
+    },
+    {
+     "kanji": "昭",
+     "takes_reading": true,
+     "semantic": "日 sun — sunlight making things bright"
+    },
+    {
+     "kanji": "紹",
+     "takes_reading": true,
+     "semantic": "糸 thread — a thread tying two people together"
+    }
+   ]
+  },
+  {
+   "phonetic": "正",
+   "reading": "セイ・ショウ",
+   "reliability": "high",
+   "teaching_note": "正 really is the sound in 政 症 証 整, but Japanese borrowed that one Chinese syllable in two layers — セイ and ショウ — so 正 narrows you to those two and never to one.",
+   "members": [
+    {
+     "kanji": "政",
+     "takes_reading": true,
+     "semantic": "攵 hand with a stick — governing by correction"
+    },
+    {
+     "kanji": "症",
+     "takes_reading": true,
+     "semantic": "疒 sickbed — the visible sign of illness"
+    },
+    {
+     "kanji": "証",
+     "takes_reading": true,
+     "semantic": "言 words — words that prove it"
+    },
+    {
+     "kanji": "整",
+     "takes_reading": true,
+     "semantic": "敕 (束 bundle + 攵 stick) — a bundle beaten into line"
+    }
+   ]
+  },
+  {
+   "phonetic": "白",
+   "reading": "ハク",
+   "reliability": "low",
+   "teaching_note": "白 lends ハク to 泊 迫 and ヒャク to 百, but the 白 inside 皆 習 原 楽 is a lookalike that was never 白 at all, so only trust the sound when 白 sits as a whole clean block.",
+   "members": [
+    {
+     "kanji": "白",
+     "takes_reading": true
+    },
+    {
+     "kanji": "泊",
+     "takes_reading": true,
+     "semantic": "氵 water — a boat moored for the night"
+    },
+    {
+     "kanji": "迫",
+     "takes_reading": true,
+     "semantic": "辶 road — closing in along the road"
+    },
+    {
+     "kanji": "百",
+     "takes_reading": false,
+     "semantic": "一 a single stroke on top; same sound family, but Japanese took it as ヒャク"
+    },
+    {
+     "kanji": "的",
+     "takes_reading": false,
+     "semantic": "勺 ladle — and here 勺, not 白, is the part carrying the sound"
+    },
+    {
+     "kanji": "皆",
+     "takes_reading": false,
+     "semantic": "比 two people side by side; its 白 is a worn-down 自 nose"
+    },
+    {
+     "kanji": "原",
+     "takes_reading": false,
+     "semantic": "厂 cliff; the 白+小 below is really 泉, a spring"
+    },
+    {
+     "kanji": "習",
+     "takes_reading": false,
+     "semantic": "羽 wings; its 白 is a worn-down 自 nose"
+    },
+    {
+     "kanji": "楽",
+     "takes_reading": false,
+     "semantic": "木 tree; its 白 is the body of a drum on a rack"
+    }
+   ]
+  },
+  {
+   "phonetic": "主",
+   "reading": "チュウ",
+   "reliability": "high",
+   "teaching_note": "主 reads シュ alone but pumps チュウ into everything built on it — 注 柱 — and 住 only voices that same sound to ジュウ, so the series is effectively perfect.",
+   "members": [
+    {
+     "kanji": "注",
+     "takes_reading": true,
+     "semantic": "氵 water — water poured out"
+    },
+    {
+     "kanji": "柱",
+     "takes_reading": true,
+     "semantic": "木 tree — the wooden pillar"
+    },
+    {
+     "kanji": "住",
+     "takes_reading": false,
+     "semantic": "亻 person — a person settled in place"
+    }
+   ]
+  },
+  {
+   "phonetic": "乍",
+   "reading": "サク",
+   "reliability": "high",
+   "teaching_note": "乍 is a clean サク engine in 作 昨 with no exceptions here — a small, dependable pair.",
+   "members": [
+    {
+     "kanji": "作",
+     "takes_reading": true,
+     "semantic": "亻 person — a person making something"
+    },
+    {
+     "kanji": "昨",
+     "takes_reading": true,
+     "semantic": "日 sun — the day just gone"
+    }
+   ]
+  },
+  {
+   "phonetic": "也",
+   "reading": "チ",
+   "reliability": "medium",
+   "teaching_note": "也 carries a チ sound into 地 池, but 他 broke off to タ, so use 也 to expect チ and flag 他 as the one that got away.",
+   "members": [
+    {
+     "kanji": "地",
+     "takes_reading": true,
+     "semantic": "土 soil — the ground itself"
+    },
+    {
+     "kanji": "池",
+     "takes_reading": true,
+     "semantic": "氵 water — water held in a hollow"
+    },
+    {
+     "kanji": "他",
+     "takes_reading": false,
+     "semantic": "亻 person — some other person"
+    }
+   ]
+  },
+  {
+   "phonetic": "亲",
+   "reading": "シン",
+   "reliability": "high",
+   "teaching_note": "亲 is a perfect シン engine — 新 親 both take it, so this pair is a freebie once you spot the shared left side.",
+   "members": [
+    {
+     "kanji": "新",
+     "takes_reading": true,
+     "semantic": "斤 axe — freshly cut wood"
+    },
+    {
+     "kanji": "親",
+     "takes_reading": true,
+     "semantic": "見 an eye on legs — the one who watches over you"
+    }
+   ]
+  },
+  {
+   "phonetic": "兑",
+   "reading": "ゼイ・セツ",
+   "reliability": "high",
+   "teaching_note": "兑 marks a ゼイ/セツ family — 税 is ゼイ but 説 is normally セツ (ゼイ only in 遊説), so expect a z/s sound with an e, not one fixed reading.",
+   "members": [
+    {
+     "kanji": "税",
+     "takes_reading": true,
+     "semantic": "禾 grain stalk — the harvest the state takes"
+    },
+    {
+     "kanji": "説",
+     "takes_reading": true,
+     "semantic": "言 words — words that explain"
+    }
+   ]
+  },
+  {
+   "phonetic": "其",
+   "reading": "キ",
+   "reliability": "high",
+   "teaching_note": "其 is a clean キ engine in 基 期, though 期 keeps a rare ゴ for 最期.",
+   "members": [
+    {
+     "kanji": "基",
+     "takes_reading": true,
+     "semantic": "土 soil — packed earth to build on"
+    },
+    {
+     "kanji": "期",
+     "takes_reading": true,
+     "semantic": "月 moon — time counted in moons"
+    }
+   ]
+  },
+  {
+   "phonetic": "冓",
+   "reading": "コウ",
+   "reliability": "high",
+   "teaching_note": "冓 is a perfect コウ engine — 構 講 both take it, so spotting this dense stacked lattice settles the reading immediately.",
+   "members": [
+    {
+     "kanji": "構",
+     "takes_reading": true,
+     "semantic": "木 tree — timber framed into a structure"
+    },
+    {
+     "kanji": "講",
+     "takes_reading": true,
+     "semantic": "言 words — words built up into a lecture"
+    }
+   ]
+  },
+  {
+   "phonetic": "劦",
+   "reading": "キョウ",
+   "reliability": "high",
+   "teaching_note": "劦 (three 力 stacked) is doing double duty as both meaning and sound, giving キョウ to 協 and 脅 with no exceptions.",
+   "members": [
+    {
+     "kanji": "協",
+     "takes_reading": true,
+     "semantic": "十 ten — ten hands pulling together"
+    },
+    {
+     "kanji": "脅",
+     "takes_reading": true,
+     "semantic": "月 flesh — the ribs, where a threat presses"
+    }
+   ]
+  },
+  {
+   "phonetic": "占",
+   "reading": "テン",
+   "reliability": "medium",
+   "teaching_note": "占 points at a テン sound in 店 点, but 粘 went to ネン and 貼 to チョウ, so treat 占 as a coin-flip hint rather than a rule.",
+   "members": [
+    {
+     "kanji": "店",
+     "takes_reading": true,
+     "semantic": "广 lean-to roof — a shopfront"
+    },
+    {
+     "kanji": "点",
+     "takes_reading": true,
+     "semantic": "灬 fire — sparks as dots"
+    },
+    {
+     "kanji": "粘",
+     "takes_reading": false,
+     "semantic": "米 rice — rice that sticks"
+    },
+    {
+     "kanji": "貼",
+     "takes_reading": false,
+     "semantic": "貝 cowrie shell — money stuck onto something"
+    }
+   ]
+  },
+  {
+   "phonetic": "各",
+   "reading": "カク",
+   "reliability": "medium",
+   "teaching_note": "各 forks in Japanese — it gives カク to 客 格 but an l-branch to 略 (リャク) and 路 (ロ), so 各 narrows you to two families instead of picking one.",
+   "members": [
+    {
+     "kanji": "客",
+     "takes_reading": true,
+     "semantic": "宀 roof — someone under your roof"
+    },
+    {
+     "kanji": "格",
+     "takes_reading": true,
+     "semantic": "木 tree — the wooden frame that sets rank"
+    },
+    {
+     "kanji": "略",
+     "takes_reading": false,
+     "semantic": "田 rice field — carving fields up, hence cutting short"
+    },
+    {
+     "kanji": "路",
+     "takes_reading": false,
+     "semantic": "𧾷 foot — where feet go"
+    }
+   ]
+  },
+  {
+   "phonetic": "周",
+   "reading": "チョウ",
+   "reliability": "medium",
+   "teaching_note": "周 genuinely is the sound in all three, but Japanese split it — シュウ in 週 (matching 周 itself) and チョウ in 調 彫.",
+   "members": [
+    {
+     "kanji": "彫",
+     "takes_reading": true,
+     "semantic": "彡 scratched strokes — marks cut into a surface"
+    },
+    {
+     "kanji": "調",
+     "takes_reading": true,
+     "semantic": "言 words — words used to check and tune"
+    },
+    {
+     "kanji": "週",
+     "takes_reading": false,
+     "semantic": "辶 road — a circuit walked round again"
+    }
+   ]
+  },
+  {
+   "phonetic": "圣",
+   "reading": "ケイ",
+   "reliability": "high",
+   "teaching_note": "The 圣 in 経 軽 is really a squashed 巠, and it delivers ケイ to both without fail.",
+   "members": [
+    {
+     "kanji": "経",
+     "takes_reading": true,
+     "semantic": "糸 thread — the warp threads running lengthwise"
+    },
+    {
+     "kanji": "軽",
+     "takes_reading": true,
+     "semantic": "車 cart — a cart light enough to pull"
+    }
+   ]
+  },
+  {
+   "phonetic": "复",
+   "reading": "フク",
+   "reliability": "high",
+   "teaching_note": "复 is a perfect フク engine — 腹 複 both take it, so this shape is a straight reading shortcut.",
+   "members": [
+    {
+     "kanji": "腹",
+     "takes_reading": true,
+     "semantic": "月/⺝ flesh — the fleshy belly"
+    },
+    {
+     "kanji": "複",
+     "takes_reading": true,
+     "semantic": "衤 cloth — a second layer of clothing"
+    }
+   ]
+  },
+  {
+   "phonetic": "央",
+   "reading": "エイ",
+   "reliability": "high",
+   "teaching_note": "央 reads オウ on its own but hands エイ to everything built on it — 英 映 — so here the parent is the odd one out, not the children.",
+   "members": [
+    {
+     "kanji": "英",
+     "takes_reading": true,
+     "semantic": "艹 grass — the flower, the finest part of the plant"
+    },
+    {
+     "kanji": "映",
+     "takes_reading": true,
+     "semantic": "日 sun — sunlight throwing an image"
+    },
+    {
+     "kanji": "央",
+     "takes_reading": false
+    }
+   ]
+  },
+  {
+   "phonetic": "奴",
+   "reading": "ド",
+   "reliability": "high",
+   "teaching_note": "奴 is a clean ド engine — 努 怒 both take it, matching 奴's own ド exactly.",
+   "members": [
+    {
+     "kanji": "努",
+     "takes_reading": true,
+     "semantic": "力 muscle — straining with everything you have"
+    },
+    {
+     "kanji": "怒",
+     "takes_reading": true,
+     "semantic": "心 heart — a heart boiling over"
+    }
+   ]
+  },
+  {
+   "phonetic": "官",
+   "reading": "カン",
+   "reliability": "high",
+   "teaching_note": "官 is a perfect カン engine — 管 館 both take it with no exceptions in this app.",
+   "members": [
+    {
+     "kanji": "管",
+     "takes_reading": true,
+     "semantic": "竹 bamboo — a hollow bamboo tube"
+    },
+    {
+     "kanji": "館",
+     "takes_reading": true,
+     "semantic": "飠 food — a hall where people are fed"
+    }
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "phonetic": "止",
+   "reading": "セイ",
+   "why": "止 itself is シ and lends no sound — the real phonetic in 政 整 症 証 is the larger unit 正, 歳 takes its sound from 戌/戉, and 企 歩 歯 歴 use 止 as the foot radical for meaning."
+  },
+  {
+   "phonetic": "生",
+   "reading": "ショウ",
+   "why": "Duplicate of the accepted 生 = セイ series; ショウ is merely the go-on layer of the same phonetic, and shipping both would give the learner two competing cards for one fact."
+  },
+  {
+   "phonetic": "者",
+   "reading": "チョ",
+   "why": "Duplicate of the accepted 者 = ショ series — same component and same transmission, just the minority reading layer; merged into one card so 著/緒/暑/都 are not taught twice with contradictory keys."
+  },
+  {
+   "phonetic": "𠂇",
+   "reading": "ウ",
+   "why": "𠂇 is the drawn left hand used for meaning, not a sound carrier — 右 有 友 agree because those Old Chinese hand-words were near-homophones themselves, and 左 サ and 布 フ show the shape predicts nothing."
+  },
+  {
+   "phonetic": "𠂉",
+   "reading": "ブ",
+   "why": "A stroke fragment from the decomposition, not a real shared component — 無 and 舞 match because 舞 is the original graph of 無 itself, while 午 毎 旅 族 監 share only a slanted top stroke."
+  },
+  {
+   "phonetic": "𠂇",
+   "reading": "ユウ",
+   "why": "𠂇 is the hand pictograph used for meaning, not sound — 友 右 有 rhyme because they are a cognate word family, and the same element yields サ in 左 and フ in 布."
+  },
+  {
+   "phonetic": "㐅",
+   "reading": "キ",
+   "why": "㐅 is a bare X-stroke artifact: the shape inside 気 descends from the 米 of 氣 and the one in 希 from 爻, so there is no shared component to transmit a sound."
+  },
+  {
+   "phonetic": "丷",
+   "reading": "リツ",
+   "why": "丷 is a two-stroke fragment rather than a component — it also caps 半 平 弟 金 商 楽 with six unrelated readings, so リツ in 立 率 is pure coincidence."
+  },
+  {
+   "phonetic": "卌",
+   "reading": "ブ",
+   "why": "卌 is a stroke-grid artifact; 無 and 舞 do share ブ, but only because both descend from the same plumed-dancer pictograph, not because any 卌 element carries sound."
+  },
+  {
+   "phonetic": "卜",
+   "reading": "ゲ",
+   "why": "The 卜 in 下 is just a downward-pointing indicator stroke, unrelated to the divination crack in 外, and ゲ is merely the go-on reading the two happen to share."
+  }
+ ]
+}

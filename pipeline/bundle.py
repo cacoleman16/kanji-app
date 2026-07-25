@@ -88,6 +88,105 @@ print(f"\nLoaded {len(extra_kanji_decks)} extra kanji deck(s):")
 for d in extra_kanji_decks:
     print(f"  {d['deck_name']}: {d['card_count']} cards")
 
+# ── 2d. Canonical composition layer ───────────────────────────────────────────
+# Three files form the single source of truth for how kanji are explained:
+#   radicals.json   — the primitive inventory; each primitive has ONE fixed keyword
+#   mnemonics.json  — one mnemonic per kanji, keyed by character
+#   phonetics.json  — phonetic-series index (component -> on-yomi -> members)
+#
+# mnemonics.json is applied ON TOP of every kanji card in every deck, which is
+# what makes it impossible for the same kanji to carry two different stories in
+# two different decks (the bug this layer exists to kill).
+def load_optional(path, default):
+    if not os.path.exists(path):
+        print(f"  ! {os.path.basename(path)} not found — skipping composition layer")
+        return default
+    return load(path)
+
+radicals_doc  = load_optional(os.path.join(AGENTS, "radicals.json"),  {"radicals": []})
+mnemonics_doc = load_optional(os.path.join(AGENTS, "mnemonics.json"), {"kanji": {}})
+phonetics_doc = load_optional(os.path.join(AGENTS, "phonetics.json"), {"series": []})
+
+RADICALS  = {r["id"]: r for r in radicals_doc.get("radicals", [])}
+MNEMONICS = mnemonics_doc.get("kanji", {})
+# Keyed by "component|reading": one component can head two series (生 lends both
+# セイ and ショウ), so keying on the component alone silently drops one of them.
+PHONETICS = {f'{s["phonetic"]}|{s["reading"]}': s for s in phonetics_doc.get("series", [])}
+print(f"\nComposition layer: {len(RADICALS)} primitives, {len(MNEMONICS)} mnemonics, {len(PHONETICS)} phonetic series")
+
+
+def apply_mnemonic(card):
+    """Overwrite a kanji card's explanation fields from the canonical store."""
+    m = MNEMONICS.get(card.get("kanji"))
+    if not m:
+        return card
+    card["keyword"] = m.get("keyword") or card.get("keyword", "")
+    card["etymology"] = m.get("story") or card.get("etymology", "")
+    card["components"] = m.get("components", [])
+    if m.get("phonetic"):
+        card["phonetic"] = m["phonetic"]
+    if m.get("structure"):
+        card["structure"] = m["structure"]
+    return card
+
+
+def apply_to_deck(deck):
+    deck["cards"] = [apply_mnemonic(c) for c in deck["cards"]]
+    return deck
+
+
+def build_radical_deck():
+    """Turn the primitive inventory into a studiable deck.
+
+    Only the RECURRING primitives (in_deck) become flashcards. The single-use
+    tail still lives in RADICALS so its component chips resolve to a real
+    keyword, but drilling a shape that appears in exactly one kanji is wasted
+    review time.
+    """
+    cards = []
+    for r in radicals_doc.get("radicals", []):
+        if not r.get("in_deck", True):
+            continue
+        cards.append({
+            "kanji": r["id"],
+            "meanings": [r["keyword"]] + ([r["meaning"]] if r.get("meaning") and r["meaning"] != r["keyword"] else []),
+            "keyword": r["keyword"],
+            "meaning_full": r.get("meaning", ""),
+            "etymology": r.get("story", ""),
+            "stroke_count": r.get("strokes", 0),
+            "jlpt": "",
+            "on_yomi": [],
+            "kun_yomi": [],
+            "examples": [],
+            "variants": r.get("variants", []),
+            "variant_notes": r.get("variant_notes", ""),
+            "confusable_with": r.get("confusable_with", []),
+            "phonetic_readings": r.get("phonetic_readings", []),
+            "kangxi": r.get("kangxi"),
+            "radical_type": r.get("type", "semantic"),
+        })
+    # Teach simple shapes before complex ones.
+    cards.sort(key=lambda c: (c["stroke_count"] or 99, c["kanji"]))
+    return {
+        "deck_id": "radicals",
+        "deck_name": "Radicals & Primitives",
+        "version": radicals_doc.get("version", "1.0"),
+        "card_count": len(cards),
+        "cards": cards,
+    }
+
+
+# Apply the canonical mnemonics to every kanji-bearing deck.
+if MNEMONICS:
+    for _d in [n5, n4, n3, n2, n1, g1, g2] + integrated_decks + extra_kanji_decks:
+        apply_to_deck(_d)
+    _covered = sum(1 for _d in [n5, n4, n3, n2, n1, g1, g2] + integrated_decks + extra_kanji_decks
+                   for c in _d["cards"] if c.get("components"))
+    print(f"  Applied canonical mnemonics to {_covered} card instances")
+
+radical_deck = build_radical_deck()
+
+
 # ── 3. Build the JS DECKS array ───────────────────────────────────────────────
 def cards_js(deck):
     """Return compact JS representation of cards array."""
@@ -125,10 +224,18 @@ decks_js += deck_entry("n1", n1) + ",\n"
 # Extra curated kanji decks (frequency-ranked, themed, etc.)
 for kd in extra_kanji_decks:
     decks_js += deck_entry(kd["deck_id"], kd) + ",\n"
+# Radicals deck (its own kind — progress is namespaced `rad|<char>` at runtime)
+if radical_deck["card_count"]:
+    decks_js += deck_entry("radicals", radical_deck, kind="radical", unit="primitives") + ",\n"
 # Vocabulary decks
 for vd in vocab_decks:
     decks_js += deck_entry(vd["deck_id"], vd, kind="vocab", unit="words") + ",\n"
 decks_js += "];"
+
+# Runtime lookup tables for the composition UI (component chips, radical sheet,
+# phonetic series row). Emitted ahead of DECKS inside the generated region.
+radicals_js  = "const RADICALS = " + json.dumps(RADICALS, ensure_ascii=False, separators=(',', ':')) + ";"
+phonetics_js = "const PHONETICS = " + json.dumps(PHONETICS, ensure_ascii=False, separators=(',', ':')) + ";"
 
 # ── 4. Patch the HTML ─────────────────────────────────────────────────────────
 with open(HTML, encoding="utf-8") as f:
@@ -157,6 +264,8 @@ new_section = (
     "// DATA — All decks generated by the data pipeline.\n"
     "// DO NOT edit by hand — regenerate with pipeline/bundle.py\n"
     "// ============================================================\n"
+    + radicals_js + "\n"
+    + phonetics_js + "\n"
     + decks_js
 )
 
