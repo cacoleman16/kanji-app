@@ -1,0 +1,1349 @@
+{
+  "deck_id": "integrated-ch12-vocab",
+  "deck_name": "An Integrated Approach — Ch.12 Vocabulary",
+  "version": "1.0",
+  "source": "An Integrated Approach to Intermediate Japanese (Revised Edition), 第12課 病気になったら, 単語 list pp. 223–224.",
+  "learner_level": "N3",
+  "notes": "Complete 単語 list for Chapter 12 (病気になったら — 'If You Get Sick'), transcribed from the textbook vocabulary pages. Covers 会話 1–3 (describing symptoms at home, a pharmacy/clinic consultation, and a dental emergency) and the 読み物, an essay by a doctor on how Japanese and American patients differ in the way they talk to physicians. Cards are tagged by section. Proper nouns (永井明, 尾崎歯科) are omitted; everything else printed in the list is included. Heavy on medical vocabulary plus a rich set of pain onomatopoeia (きりきり, しくしく, ぽんぽん, ぼそぼそ) that describe both symptoms and speaking styles.",
+  "card_count": 72,
+  "priority_guide": {
+    "high": "Core chapter vocabulary — you'll need it to describe symptoms or read the essay.",
+    "medium": "Useful but more situational.",
+    "low": "Recognition is enough for now."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / specialist — ambitious but appears in the reading."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Kanji are rare or have irregular readings — learn the kana form first."
+  },
+  "categories": [
+    "kaiwa1",
+    "kaiwa2",
+    "kaiwa3",
+    "yomimono"
+  ],
+  "cards": [
+    {
+      "word": "病状",
+      "reading": "びょうじょう",
+      "meanings": [
+        "condition of an illness",
+        "patient's condition"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "病気の様子",
+      "category": "kaiwa1",
+      "context": "病 (illness) + 状 (condition). Distinct from 症状 (しょうじょう — the individual symptoms). 病状 is the overall clinical picture.",
+      "example_sentence": "病状を詳しく医者に説明した。",
+      "example_reading": "びょうじょう を くわしく いしゃ に せつめい した。",
+      "example_meaning": "I explained my condition to the doctor in detail."
+    },
+    {
+      "word": "訴える",
+      "reading": "うったえる",
+      "meanings": [
+        "to complain of (a symptom)",
+        "to appeal",
+        "to sue"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "痛みを言う",
+      "category": "kaiwa1",
+      "context": "In medical contexts it means reporting a symptom: 頭痛を訴える. Elsewhere it means to appeal to someone or to sue in court — all three senses share the idea of 'making a case.'",
+      "example_sentence": "患者は激しい腹痛を訴えた。",
+      "example_reading": "かんじゃ は はげしい ふくつう を うったえた。",
+      "example_meaning": "The patient complained of severe abdominal pain."
+    },
+    {
+      "word": "気分",
+      "reading": "きぶん",
+      "meanings": [
+        "feeling",
+        "mood",
+        "how one feels physically"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "体の調子",
+      "category": "kaiwa1",
+      "context": "気分が悪い covers both 'in a bad mood' and 'feeling sick' — context decides. For the physical sense only, 具合が悪い is clearer.",
+      "example_sentence": "朝から気分が悪くて何も食べられない。",
+      "example_reading": "あさ から きぶん が わるくて なにも たべられない。",
+      "example_meaning": "I've felt sick since morning and can't eat anything."
+    },
+    {
+      "word": "顔色",
+      "reading": "かおいろ",
+      "meanings": [
+        "complexion",
+        "facial color"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "顔の色",
+      "category": "kaiwa1",
+      "context": "顔色が悪い — to look pale/unwell, one of the most common ways someone notices you're sick. Also figurative: 顔色をうかがう — to read someone's mood.",
+      "example_sentence": "顔色が悪いけど、大丈夫？",
+      "example_reading": "かおいろ が わるい けど、 だいじょうぶ？",
+      "example_meaning": "You look pale — are you okay?"
+    },
+    {
+      "word": "あまり〜ない",
+      "reading": "あまり〜ない",
+      "meanings": [
+        "not much",
+        "not very",
+        "not enough"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "少ししか〜ない",
+      "category": "kaiwa1",
+      "context": "文法ノート1. Always paired with a negative. あまり食べていない — I haven't eaten much. In casual speech it often contracts to あんまり.",
+      "example_sentence": "最近あまり眠れていない。",
+      "example_reading": "さいきん あまり ねむれて いない。",
+      "example_meaning": "I haven't been sleeping much lately."
+    },
+    {
+      "word": "せい",
+      "reading": "せい",
+      "meanings": [
+        "because of (negative cause)",
+        "fault"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜が原因で",
+      "category": "kaiwa1",
+      "context": "文法ノート2. Used when something affects you NEGATIVELY: 寒さのせいで風邪をひいた. The positive counterpart is おかげで. 人のせいにする — to blame others.",
+      "example_sentence": "寝不足のせいで頭が痛い。",
+      "example_reading": "ねぶそく の せい で あたま が いたい。",
+      "example_meaning": "My head hurts because of lack of sleep."
+    },
+    {
+      "word": "ソファー",
+      "reading": "ソファー",
+      "meanings": [
+        "sofa",
+        "couch"
+      ],
+      "jlpt": "N4",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "長椅子",
+      "category": "kaiwa1",
+      "context": "Also written ソファ. The native equivalent 長椅子 (ながいす) exists but sounds dated.",
+      "example_sentence": "ソファーで横になって休んでいた。",
+      "example_reading": "ソファー で よこ に なって やすんで いた。",
+      "example_meaning": "I was lying down resting on the sofa."
+    },
+    {
+      "word": "吐く",
+      "reading": "はく",
+      "meanings": [
+        "to throw up",
+        "to vomit",
+        "to exhale"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "戻す",
+      "category": "kaiwa1",
+      "context": "Also 息を吐く (exhale) and 嘘を吐く (tell a lie). The polite medical euphemism is 戻す. 吐き気 (はきけ) — nausea.",
+      "example_sentence": "何度も吐いてしまって、体力がない。",
+      "example_reading": "なんども はいて しまって、 たいりょく が ない。",
+      "example_meaning": "I've thrown up several times and have no strength."
+    },
+    {
+      "word": "医者",
+      "reading": "いしゃ",
+      "meanings": [
+        "doctor",
+        "physician"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お医者さん",
+      "category": "kaiwa1",
+      "context": "Politely お医者さん. The formal/professional term is 医師 (いし), used on licenses and in news. 医者に診てもらう — to see a doctor.",
+      "example_sentence": "早く医者に診てもらったほうがいい。",
+      "example_reading": "はやく いしゃ に みて もらった ほう が いい。",
+      "example_meaning": "You'd better have a doctor look at you soon."
+    },
+    {
+      "word": "診る",
+      "reading": "みる",
+      "meanings": [
+        "to examine (a patient)",
+        "to medically assess"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "診察する",
+      "category": "kaiwa1",
+      "context": "A specialized 見る used ONLY for medical examination. 医者に診てもらう — to get examined. Compare 見る (see), 観る (watch attentively).",
+      "example_sentence": "先生に喉を診てもらった。",
+      "example_reading": "せんせい に のど を みて もらった。",
+      "example_meaning": "The doctor examined my throat."
+    },
+    {
+      "word": "地図",
+      "reading": "ちず",
+      "meanings": [
+        "map"
+      ],
+      "jlpt": "N4",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "マップ",
+      "category": "kaiwa1",
+      "context": "地 (earth) + 図 (diagram). Note 図 is read ず here but と in 意図 (いと) and 図書館 (としょかん).",
+      "example_sentence": "病院までの地図を書いてもらった。",
+      "example_reading": "びょういん まで の ちず を かいて もらった。",
+      "example_meaning": "They drew me a map to the hospital."
+    },
+    {
+      "word": "お大事に",
+      "reading": "おだいじに",
+      "meanings": [
+        "Take care!",
+        "Get well soon"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "早く良くなってください",
+      "category": "kaiwa1",
+      "context": "The standard parting phrase to someone who is ill — you'll hear it from every doctor, pharmacist, and receptionist as you leave. Left deliberately unfinished (…してください is implied).",
+      "example_sentence": "どうぞお大事に。",
+      "example_reading": "どうぞ お だいじ に。",
+      "example_meaning": "Please take care of yourself."
+    },
+    {
+      "word": "何となく",
+      "reading": "なんとなく",
+      "meanings": [
+        "somehow",
+        "for no particular reason"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "はっきりしないが",
+      "category": "kaiwa2",
+      "context": "For vague, unlocatable feelings — perfect for describing symptoms you can't pin down. Compare 何だか (Ch.11), which leans toward describing a state.",
+      "example_sentence": "何となく体がだるい。",
+      "example_reading": "なんとなく からだ が だるい。",
+      "example_meaning": "My body feels sluggish somehow."
+    },
+    {
+      "word": "だるい",
+      "reading": "だるい",
+      "meanings": [
+        "listless",
+        "languid",
+        "heavy (of the body)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "体が重い",
+      "category": "kaiwa2",
+      "context": "The specific fatigue of illness — a heavy, dragging tiredness. 体がだるい is the standard way to report it. Slangy extension: 面倒 → だるい (what a drag).",
+      "example_sentence": "熱はないが、体がだるくて動けない。",
+      "example_reading": "ねつ は ない が、 からだ が だるくて うごけない。",
+      "example_meaning": "I don't have a fever, but I'm too listless to move."
+    },
+    {
+      "word": "のど",
+      "reading": "のど",
+      "meanings": [
+        "throat"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "kaiwa2",
+      "context": "Kanji 喉 is rarely written. のどが痛い — sore throat; のどが渇く — to be thirsty. A first-line symptom word.",
+      "example_sentence": "のどが痛くて声が出ない。",
+      "example_reading": "のど が いたくて こえ が でない。",
+      "example_meaning": "My throat hurts and I can't speak."
+    },
+    {
+      "word": "飲み込む",
+      "reading": "のみこむ",
+      "meanings": [
+        "to swallow",
+        "to grasp (mentally)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ごくんと飲む",
+      "category": "kaiwa2",
+      "context": "Literal here: 飲み込むと痛い — it hurts when I swallow. Figuratively very common: 飲み込みが早い — a quick study. Another 〜込む compound.",
+      "example_sentence": "物を飲み込む時に喉が痛みます。",
+      "example_reading": "もの を のみこむ とき に のど が いたみます。",
+      "example_meaning": "My throat hurts when I swallow things."
+    },
+    {
+      "word": "寒気がする",
+      "reading": "さむけがする",
+      "meanings": [
+        "to feel a chill",
+        "to have the shivers"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ぞくぞくする",
+      "category": "kaiwa2",
+      "context": "寒気 is read さむけ, NOT かんき (which means 'cold air'). A classic early fever symptom — 寒気がして熱が出た.",
+      "example_sentence": "昨日の夜から寒気がします。",
+      "example_reading": "きのう の よる から さむけ が します。",
+      "example_meaning": "I've had chills since last night."
+    },
+    {
+      "word": "食欲",
+      "reading": "しょくよく",
+      "meanings": [
+        "appetite"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "食べたい気持ち",
+      "category": "kaiwa2",
+      "context": "食欲がない — no appetite (a standard symptom report). The 〜欲 suffix marks desires: 意欲 (motivation), 睡眠欲, 物欲.",
+      "example_sentence": "熱のせいか、食欲が全然ありません。",
+      "example_reading": "ねつ の せい か、 しょくよく が ぜんぜん ありません。",
+      "example_meaning": "Maybe because of the fever, I have no appetite at all."
+    },
+    {
+      "word": "下痢",
+      "reading": "げり",
+      "meanings": [
+        "diarrhea"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "お腹をこわす",
+      "category": "kaiwa2",
+      "context": "下痢をする — to have diarrhea. The euphemism お腹をこわす (to upset one's stomach) is preferred in polite conversation. Opposite: 便秘 (constipation).",
+      "example_sentence": "昨日から下痢が続いています。",
+      "example_reading": "きのう から げり が つづいて います。",
+      "example_meaning": "I've had diarrhea since yesterday."
+    },
+    {
+      "word": "薬",
+      "reading": "くすり",
+      "meanings": [
+        "medicine",
+        "drug"
+      ],
+      "jlpt": "N5",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "kaiwa2",
+      "context": "The verb is 飲む, never 食べる, even for pills: 薬を飲む. 風邪薬 — cold medicine; 目薬 — eye drops (still 差す, not 飲む).",
+      "example_sentence": "食後にこの薬を飲んでください。",
+      "example_reading": "しょくご に この くすり を のんで ください。",
+      "example_meaning": "Please take this medicine after meals."
+    },
+    {
+      "word": "服用する",
+      "reading": "ふくようする",
+      "meanings": [
+        "to take (medicine)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "薬を飲む",
+      "category": "kaiwa2",
+      "context": "The clinical term for 薬を飲む — what's printed on packaging and prescriptions: 一日三回服用. You'll read it far more often than you'll say it.",
+      "example_sentence": "一日三回、食後に服用してください。",
+      "example_reading": "いちにち さんかい、 しょくご に ふくよう して ください。",
+      "example_meaning": "Take it three times a day after meals."
+    },
+    {
+      "word": "うがい",
+      "reading": "うがい",
+      "meanings": [
+        "gargling"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "のどを洗うこと",
+      "category": "kaiwa2",
+      "context": "うがいをする — to gargle. Paired with 手洗い as Japan's standard illness-prevention advice: 手洗いうがいをしましょう.",
+      "example_sentence": "帰ったらすぐ手洗いとうがいをする。",
+      "example_reading": "かえったら すぐ てあらい と うがい を する。",
+      "example_meaning": "As soon as I get home I wash my hands and gargle."
+    },
+    {
+      "word": "軟らかい",
+      "reading": "やわらかい",
+      "meanings": [
+        "soft",
+        "tender"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "柔らかい",
+      "category": "kaiwa2",
+      "context": "軟らかい is preferred for food texture (soft, easy to chew); 柔らかい for flexibility and figurative softness (頭が柔らかい). Same reading.",
+      "example_sentence": "軟らかい物なら食べられそうです。",
+      "example_reading": "やわらかい もの なら たべられそう です。",
+      "example_meaning": "I think I could eat something soft."
+    },
+    {
+      "word": "おかゆ",
+      "reading": "おかゆ",
+      "meanings": [
+        "rice porridge",
+        "congee"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "やわらかいご飯",
+      "category": "kaiwa2",
+      "context": "Kanji お粥 is rarely written. The default sick food in Japan — the culinary equivalent of chicken soup. Often served with 梅干し.",
+      "example_sentence": "熱がある時はおかゆがいい。",
+      "example_reading": "ねつ が ある とき は おかゆ が いい。",
+      "example_meaning": "Rice porridge is good when you have a fever."
+    },
+    {
+      "word": "〜に越したことはない",
+      "reading": "にこしたことはない",
+      "meanings": [
+        "nothing can be better than ~",
+        "it's best to ~"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "〜が一番いい",
+      "category": "kaiwa2",
+      "context": "文法ノート5. Set expression recommending the safest option: 早く行くに越したことはない — you can't do better than going early. Attaches to plain forms.",
+      "example_sentence": "用心するに越したことはない。",
+      "example_reading": "ようじん する に こした こと は ない。",
+      "example_meaning": "You can't do better than being cautious."
+    },
+    {
+      "word": "治る",
+      "reading": "なおる",
+      "meanings": [
+        "to get better",
+        "to recover from illness"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "良くなる",
+      "category": "kaiwa2",
+      "context": "INTRANSITIVE [v.i.] — the illness heals on its own: 風邪が治る. Transitive 治す (to cure). Homophone trap: 直る/直す are for objects being repaired.",
+      "example_sentence": "風邪はもうすっかり治りました。",
+      "example_reading": "かぜ は もう すっかり なおりました。",
+      "example_meaning": "My cold has completely cleared up."
+    },
+    {
+      "word": "起きる",
+      "reading": "おきる",
+      "meanings": [
+        "to get up",
+        "to wake up",
+        "to occur"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "目を覚ます",
+      "category": "kaiwa3",
+      "context": "Ichidan verb. Three senses: rise from bed, stay awake, and (of events) occur — 事故が起きる.",
+      "example_sentence": "朝起きたら歯がひどく痛かった。",
+      "example_reading": "あさ おきたら は が ひどく いたかった。",
+      "example_meaning": "When I got up this morning my tooth hurt badly."
+    },
+    {
+      "word": "しかめっ面",
+      "reading": "しかめっつら",
+      "meanings": [
+        "grimace",
+        "scowl",
+        "frown"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "苦しそうな顔",
+      "category": "kaiwa3",
+      "context": "From 顔をしかめる (to grimace). Note the small っ and the 面 read つら — a rougher word for 'face' than 顔.",
+      "example_sentence": "痛みのせいでしかめっ面をしていた。",
+      "example_reading": "いたみ の せい で しかめっつら を して いた。",
+      "example_meaning": "He was grimacing because of the pain."
+    },
+    {
+      "word": "歯",
+      "reading": "は",
+      "meanings": [
+        "tooth",
+        "teeth"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "kaiwa3",
+      "context": "歯が痛い — toothache; 歯を磨く — brush teeth; 歯医者 — dentist. Homophone: 葉 (leaf) is also は.",
+      "example_sentence": "奥の歯がずきずきと痛みます。",
+      "example_reading": "おく の は が ずきずき と いたみます。",
+      "example_meaning": "My back tooth is throbbing."
+    },
+    {
+      "word": "突然",
+      "reading": "とつぜん",
+      "meanings": [
+        "suddenly",
+        "all of a sudden"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "急に",
+      "category": "kaiwa3",
+      "context": "More formal and abrupt-sounding than 急に. Often for unwelcome surprises: 突然の訪問, 突然痛くなる.",
+      "example_sentence": "夜中に突然、歯が痛くなった。",
+      "example_reading": "よなか に とつぜん、 は が いたく なった。",
+      "example_meaning": "In the middle of the night my tooth suddenly started hurting."
+    },
+    {
+      "word": "見える",
+      "reading": "みえる",
+      "meanings": [
+        "to come (honorific)",
+        "to be visible"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いらっしゃる",
+      "category": "kaiwa3",
+      "context": "Two distinct uses. Here it's the HONORIFIC of 来る — お客様が見えました. The everyday sense is 'to be visible' (山が見える). Compare お見えになる (Genki II L19).",
+      "example_sentence": "三時に患者さんが見えます。",
+      "example_reading": "さんじ に かんじゃ さん が みえます。",
+      "example_meaning": "A patient will be coming at three."
+    },
+    {
+      "word": "患者",
+      "reading": "かんじゃ",
+      "meanings": [
+        "patient"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "病人",
+      "category": "kaiwa3",
+      "context": "The clinical term; staff address patients as 患者さん. The central figure of this chapter's reading about doctor–patient communication.",
+      "example_sentence": "患者と医者の関係は国によって違う。",
+      "example_reading": "かんじゃ と いしゃ の かんけい は くに に よって ちがう。",
+      "example_meaning": "The doctor–patient relationship differs by country."
+    },
+    {
+      "word": "空く",
+      "reading": "あく",
+      "meanings": [
+        "to become vacant",
+        "to open up",
+        "to be free"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "あきができる",
+      "category": "kaiwa3",
+      "context": "For appointment slots, seats, and rooms: 席が空く, 予約が空く. Same kanji read すく means 'to become empty/uncrowded' (お腹が空く, 電車が空く).",
+      "example_sentence": "午後なら予約が空いています。",
+      "example_reading": "ごご なら よやく が あいて います。",
+      "example_meaning": "We have an opening in the afternoon."
+    },
+    {
+      "word": "切る",
+      "reading": "きる",
+      "meanings": [
+        "to hang up (a phone)",
+        "to cut"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "電話を終える",
+      "category": "kaiwa3",
+      "context": "電話を切る — hang up, literally 'cut the phone.' Homophone trap: 着る (to wear) is also きる, different kanji.",
+      "example_sentence": "予約を取ってから電話を切った。",
+      "example_reading": "よやく を とって から でんわ を きった。",
+      "example_meaning": "I hung up after making the appointment."
+    },
+    {
+      "word": "運がいい",
+      "reading": "うんがいい",
+      "meanings": [
+        "lucky",
+        "fortunate"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ラッキー",
+      "category": "kaiwa3",
+      "context": "運 alone means luck or fate. Opposite: 運が悪い. Also 運がよかった — that was lucky. Compare 運命 (destiny), 運転 (driving — 'carrying fortune').",
+      "example_sentence": "すぐ診てもらえて運がよかった。",
+      "example_reading": "すぐ みて もらえて うん が よかった。",
+      "example_meaning": "I was lucky to be seen right away."
+    },
+    {
+      "word": "のちほど",
+      "reading": "のちほど",
+      "meanings": [
+        "later",
+        "in a while"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "あとで",
+      "category": "kaiwa3",
+      "context": "Formal あとで, written 後ほど. Standard in business phone calls: のちほどご連絡いたします. Pairs with 先ほど (a while ago).",
+      "example_sentence": "のちほどこちらからご連絡いたします。",
+      "example_reading": "のちほど こちら から ご れんらく いたします。",
+      "example_meaning": "We will contact you later."
+    },
+    {
+      "word": "最初",
+      "reading": "さいしょ",
+      "meanings": [
+        "the beginning",
+        "first",
+        "at first"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "初め",
+      "category": "yomimono",
+      "context": "最初に — first of all; 最初は — at first (implying a change later). Opposite: 最後.",
+      "example_sentence": "最初は緊張してうまく話せなかった。",
+      "example_reading": "さいしょ は きんちょう して うまく はなせなかった。",
+      "example_meaning": "At first I was nervous and couldn't speak well."
+    },
+    {
+      "word": "診察",
+      "reading": "しんさつ",
+      "meanings": [
+        "medical examination",
+        "consultation"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "医者に診てもらうこと",
+      "category": "yomimono",
+      "context": "診察を受ける — to be examined; 診察室 — examination room; 診察券 — the patient ID card every Japanese clinic issues you.",
+      "example_sentence": "診察の前に問診票を書いた。",
+      "example_reading": "しんさつ の まえ に もんしんひょう を かいた。",
+      "example_meaning": "I filled out a medical questionnaire before the examination."
+    },
+    {
+      "word": "手順",
+      "reading": "てじゅん",
+      "meanings": [
+        "procedure",
+        "steps",
+        "protocol"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "やり方の順番",
+      "category": "yomimono",
+      "context": "手 (hand) + 順 (order) — the ordered steps of doing something. 手順を踏む — to follow the proper procedure.",
+      "example_sentence": "診察には決まった手順がある。",
+      "example_reading": "しんさつ に は きまった てじゅん が ある。",
+      "example_meaning": "There is a set procedure for a medical examination."
+    },
+    {
+      "word": "雰囲気",
+      "reading": "ふんいき",
+      "meanings": [
+        "atmosphere",
+        "mood",
+        "vibe"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "ムード",
+      "category": "yomimono",
+      "context": "Notorious reading: ふんいき, NOT ふいんき (a very common native typo). Used for the feel of a place or a conversation.",
+      "example_sentence": "診察室の雰囲気は少し重かった。",
+      "example_reading": "しんさつしつ の ふんいき は すこし おもかった。",
+      "example_meaning": "The atmosphere in the examination room was a little heavy."
+    },
+    {
+      "word": "先ほど",
+      "reading": "さきほど",
+      "meanings": [
+        "a while ago",
+        "just now",
+        "earlier"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "さっき",
+      "category": "yomimono",
+      "context": "Formal さっき. Pairs with のちほど (later). Business standard: 先ほどのお電話の件 — regarding the call a moment ago.",
+      "example_sentence": "先ほど申し上げた通りです。",
+      "example_reading": "さきほど もうしあげた とおり です。",
+      "example_meaning": "It is as I mentioned a moment ago."
+    },
+    {
+      "word": "言葉づかい",
+      "reading": "ことばづかい",
+      "meanings": [
+        "choice of words",
+        "way of speaking",
+        "wording"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "話し方",
+      "category": "yomimono",
+      "context": "Also written 言葉遣い. About register and politeness rather than content — 言葉づかいが丁寧だ. Central to this essay's argument about doctor–patient speech.",
+      "example_sentence": "医者の言葉づかいで患者の安心感が変わる。",
+      "example_reading": "いしゃ の ことばづかい で かんじゃ の あんしんかん が かわる。",
+      "example_meaning": "A doctor's choice of words changes how reassured the patient feels."
+    },
+    {
+      "word": "そのうちの",
+      "reading": "そのうちの",
+      "meanings": [
+        "among them",
+        "of those"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "その中の",
+      "category": "yomimono",
+      "context": "Equivalent to その中の. Note: そのうち on its own means 'before long / one of these days' — a completely different expression.",
+      "example_sentence": "十人の患者のうちの三人がそう答えた。",
+      "example_reading": "じゅうにん の かんじゃ の うち の さんにん が そう こたえた。",
+      "example_meaning": "Three of the ten patients answered that way."
+    },
+    {
+      "word": "一言",
+      "reading": "ひとこと",
+      "meanings": [
+        "a word",
+        "a brief remark"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "短い言葉",
+      "category": "yomimono",
+      "context": "Read ひとこと, not いちげん. 一言で言うと — to put it in a word. Also 一言も言わない — not to say a single word.",
+      "example_sentence": "その一言で気持ちが楽になった。",
+      "example_reading": "その ひとこと で きもち が らく に なった。",
+      "example_meaning": "That one word put me at ease."
+    },
+    {
+      "word": "やっと",
+      "reading": "やっと",
+      "meanings": [
+        "at last",
+        "finally",
+        "barely"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ようやく",
+      "category": "yomimono",
+      "context": "Implies effort or a long wait paid off. Near-synonym ようやく is more written; ついに suggests an inevitable outcome.",
+      "example_sentence": "やっと自分の症状を説明できた。",
+      "example_reading": "やっと じぶん の しょうじょう を せつめい できた。",
+      "example_meaning": "I was finally able to explain my symptoms."
+    },
+    {
+      "word": "導入",
+      "reading": "どうにゅう",
+      "meanings": [
+        "introduction",
+        "lead-in",
+        "adoption (of a system)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "始めの部分",
+      "category": "yomimono",
+      "context": "Two senses: the opening section of a talk or text, and adopting a new system (新制度の導入). Distinct from 紹介 (introducing a person).",
+      "example_sentence": "導入の部分がうまくいけば後は楽だ。",
+      "example_reading": "どうにゅう の ぶぶん が うまく いけば あと は らく だ。",
+      "example_meaning": "If the opening goes well, the rest is easy."
+    },
+    {
+      "word": "部分",
+      "reading": "ぶぶん",
+      "meanings": [
+        "part",
+        "portion",
+        "section"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ところ",
+      "category": "yomimono",
+      "context": "Opposite: 全体 (the whole). 部分的に — partially. Note both kanji are read ぶ here.",
+      "example_sentence": "痛む部分を指で示してください。",
+      "example_reading": "いたむ ぶぶん を ゆび で しめして ください。",
+      "example_meaning": "Please point to the part that hurts."
+    },
+    {
+      "word": "成功",
+      "reading": "せいこう",
+      "meanings": [
+        "success"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "うまくいくこと",
+      "category": "yomimono",
+      "context": "成功する — to succeed. Opposite: 失敗 (Ch.11). 手術は成功した — the surgery was a success.",
+      "example_sentence": "手術は成功したと聞いて安心した。",
+      "example_reading": "しゅじゅつ は せいこう した と きいて あんしん した。",
+      "example_meaning": "I was relieved to hear the surgery was a success."
+    },
+    {
+      "word": "具合",
+      "reading": "ぐあい",
+      "meanings": [
+        "condition",
+        "state of health",
+        "how something is going"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "調子",
+      "category": "yomimono",
+      "context": "具合はどうですか — how are you feeling? Purely about physical condition, unlike 気分 which can mean mood. Also used for machines: 具合が悪い.",
+      "example_sentence": "今日は具合がよくなってきました。",
+      "example_reading": "きょう は ぐあい が よく なって きました。",
+      "example_meaning": "I've been feeling better today."
+    },
+    {
+      "word": "なんとか",
+      "reading": "なんとか",
+      "meanings": [
+        "somehow",
+        "manage to",
+        "one way or another"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうにか",
+      "category": "yomimono",
+      "context": "Implies barely pulling something off: なんとか間に合った. Also a placeholder for a forgotten name: 田中なんとかさん.",
+      "example_sentence": "なんとか症状を伝えることができた。",
+      "example_reading": "なんとか しょうじょう を つたえる こと が できた。",
+      "example_meaning": "I managed somehow to convey my symptoms."
+    },
+    {
+      "word": "さて",
+      "reading": "さて",
+      "meanings": [
+        "well then",
+        "now (topic shift)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ところで",
+      "category": "yomimono",
+      "context": "A discourse marker signalling a move to a new, usually more important topic — exactly what a doctor does before getting to business. Common in letters and speeches.",
+      "example_sentence": "さて、今日はどうなさいましたか。",
+      "example_reading": "さて、 きょう は どう なさいました か。",
+      "example_meaning": "Now then, what brings you in today?"
+    },
+    {
+      "word": "症状",
+      "reading": "しょうじょう",
+      "meanings": [
+        "symptom"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "体の様子",
+      "category": "yomimono",
+      "context": "The individual signs of illness, as opposed to 病状 (the overall condition). 症状を伝える — to describe your symptoms, the core skill this chapter teaches.",
+      "example_sentence": "どんな症状がありますか。",
+      "example_reading": "どんな しょうじょう が あります か。",
+      "example_meaning": "What symptoms do you have?"
+    },
+    {
+      "word": "現在",
+      "reading": "げんざい",
+      "meanings": [
+        "now",
+        "at present",
+        "currently"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "今",
+      "category": "yomimono",
+      "context": "Formal 今 — used in writing, reports, and clinical questions (現在服用中の薬). Pairs with 過去 and 未来.",
+      "example_sentence": "現在、薬は何か飲んでいますか。",
+      "example_reading": "げんざい、 くすり は なにか のんで います か。",
+      "example_meaning": "Are you currently taking any medication?"
+    },
+    {
+      "word": "胃",
+      "reading": "い",
+      "meanings": [
+        "stomach"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お腹",
+      "category": "yomimono",
+      "context": "The organ specifically. 胃が痛い — stomach (organ) pain; お腹が痛い is the vaguer 'belly hurts.' 胃薬 — stomach medicine.",
+      "example_sentence": "胃のあたりがきりきり痛みます。",
+      "example_reading": "い の あたり が きりきり いたみます。",
+      "example_meaning": "I have a piercing pain around my stomach."
+    },
+    {
+      "word": "いつ頃",
+      "reading": "いつごろ",
+      "meanings": [
+        "around when",
+        "about what time"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "いつくらい",
+      "category": "yomimono",
+      "context": "頃 (ごろ) softens a time reference to approximate. A standard clinical question: いつ頃から痛みますか.",
+      "example_sentence": "いつ頃から痛み始めましたか。",
+      "example_reading": "いつごろ から いたみ はじめました か。",
+      "example_meaning": "Around when did the pain start?"
+    },
+    {
+      "word": "きりきり",
+      "reading": "きりきり",
+      "meanings": [
+        "piercing (pain)",
+        "sharp and boring"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "鋭く痛む",
+      "category": "yomimono",
+      "context": "Onomatopoeia for a sharp, drilling pain — as if being screwed into. Used with 痛む for stomachaches and headaches. Compare しくしく (dull) below.",
+      "example_sentence": "胃がきりきりと痛んで眠れない。",
+      "example_reading": "い が きりきり と いたんで ねむれない。",
+      "example_meaning": "My stomach has a piercing pain and I can't sleep."
+    },
+    {
+      "word": "重っ苦しい",
+      "reading": "おもっくるしい",
+      "meanings": [
+        "heavy",
+        "dull",
+        "leaden",
+        "oppressive"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "重くて苦しい",
+      "category": "yomimono",
+      "context": "重い + 苦しい fused with an emphatic っ. For a dull, weighty discomfort — also used of a heavy atmosphere: 重っ苦しい空気.",
+      "example_sentence": "胸が重っ苦しい感じがする。",
+      "example_reading": "むね が おもっくるしい かんじ が する。",
+      "example_meaning": "There's a heavy, oppressive feeling in my chest."
+    },
+    {
+      "word": "しくしく",
+      "reading": "しくしく",
+      "meanings": [
+        "dull persistent pain",
+        "sobbing quietly"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "鈍く痛む",
+      "category": "yomimono",
+      "context": "Two unrelated uses: a nagging low-grade ache (toothache, stomachache) and quiet weeping (しくしく泣く). Contrast きりきり (sharp) and ずきずき (throbbing).",
+      "example_sentence": "お腹がしくしくと痛みます。",
+      "example_reading": "おなか が しくしく と いたみます。",
+      "example_meaning": "I have a dull, nagging pain in my stomach."
+    },
+    {
+      "word": "四六時中",
+      "reading": "しろくじちゅう",
+      "meanings": [
+        "all the time",
+        "around the clock"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "いつも",
+      "category": "yomimono",
+      "context": "From 4 × 6 = 24 hours. A yojijukugo meaning literally 'throughout the twenty-four hours.' More vivid than いつも.",
+      "example_sentence": "四六時中、痛みが続いています。",
+      "example_reading": "しろくじちゅう、 いたみ が つづいて います。",
+      "example_meaning": "The pain continues around the clock."
+    },
+    {
+      "word": "手馴れた",
+      "reading": "てなれた",
+      "meanings": [
+        "practiced",
+        "skilled",
+        "well-accustomed"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "慣れている",
+      "category": "yomimono",
+      "context": "Also written 手慣れた. From 手 + 慣れる — hands that know the work. Used attributively: 手馴れた様子で.",
+      "example_sentence": "医者は手馴れた様子で診察を進めた。",
+      "example_reading": "いしゃ は てなれた ようす で しんさつ を すすめた。",
+      "example_meaning": "The doctor proceeded with the examination in a practiced manner."
+    },
+    {
+      "word": "ぽんぽん",
+      "reading": "ぽんぽん",
+      "meanings": [
+        "without reserve",
+        "rapid-fire",
+        "one after another"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "次々と遠慮なく",
+      "category": "yomimono",
+      "context": "Used with 言う: firing off remarks in machine-gun fashion without holding back — the essay's characterization of American patients. Also a child's word for 'tummy.'",
+      "example_sentence": "アメリカ人の患者は質問をぽんぽん言う。",
+      "example_reading": "アメリカじん の かんじゃ は しつもん を ぽんぽん いう。",
+      "example_meaning": "American patients fire off questions one after another."
+    },
+    {
+      "word": "浴びせる",
+      "reading": "あびせる",
+      "meanings": [
+        "to shower (someone) with",
+        "to hurl (questions, abuse)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たくさん向ける",
+      "context": "Transitive of 浴びる (to bathe in). Figurative in this reading: 質問を浴びせる — to bombard with questions. Also 非難を浴びせる.",
+      "category": "yomimono",
+      "example_sentence": "医者に質問を浴びせる患者もいる。",
+      "example_reading": "いしゃ に しつもん を あびせる かんじゃ も いる。",
+      "example_meaning": "Some patients bombard the doctor with questions."
+    },
+    {
+      "word": "脱線する",
+      "reading": "だっせんする",
+      "meanings": [
+        "to digress",
+        "to ramble",
+        "to derail"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "話がそれる",
+      "category": "yomimono",
+      "context": "Literally a train coming off the rails (脱 = come off, 線 = track). The figurative use — wandering off topic — is far more common: 話が脱線する.",
+      "example_sentence": "話が脱線して要点が伝わらなかった。",
+      "example_reading": "はなし が だっせん して ようてん が つたわらなかった。",
+      "example_meaning": "The conversation wandered and the main point didn't get across."
+    },
+    {
+      "word": "ためらう",
+      "reading": "ためらう",
+      "meanings": [
+        "to hesitate",
+        "to waver"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "迷う",
+      "category": "yomimono",
+      "context": "Kanji 躊躇う is essentially never written. The noun ためらい means hesitation. More about reluctance to act than 迷う (being unable to decide).",
+      "example_sentence": "質問するのをためらってしまった。",
+      "example_reading": "しつもん する の を ためらって しまった。",
+      "example_meaning": "I ended up hesitating to ask."
+    },
+    {
+      "word": "ぼそぼそと",
+      "reading": "ぼそぼそと",
+      "meanings": [
+        "in a subdued tone",
+        "mumbling",
+        "under one's breath"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "小さい声で",
+      "category": "yomimono",
+      "context": "Used with 話す: speaking quietly and indistinctly — the essay's picture of the reticent Japanese patient, in direct contrast to ぽんぽん.",
+      "example_sentence": "患者はぼそぼそと小さな声で話した。",
+      "example_reading": "かんじゃ は ぼそぼそ と ちいさな こえ で はなした。",
+      "example_meaning": "The patient spoke in a low, mumbling voice."
+    },
+    {
+      "word": "素人",
+      "reading": "しろうと",
+      "meanings": [
+        "layman",
+        "amateur",
+        "non-expert"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "専門家でない人",
+      "category": "yomimono",
+      "context": "Irregular jukujikun reading — しろうと, not そじん. Opposite: 玄人 (くろうと — expert/professional). The patient is the 素人 facing the medical 玄人.",
+      "example_sentence": "素人には難しい説明だった。",
+      "example_reading": "しろうと に は むずかしい せつめい だった。",
+      "example_meaning": "It was an explanation difficult for a layman."
+    },
+    {
+      "word": "腹をたてる",
+      "reading": "はらをたてる",
+      "meanings": [
+        "to get angry",
+        "to lose one's temper"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "おこる",
+      "category": "yomimono",
+      "context": "Literally 'to stand up one's belly.' Also written 腹を立てる. The related 腹が立つ is the intransitive version — 'I get angry.'",
+      "example_sentence": "医者が腹をたてることもあるそうだ。",
+      "example_reading": "いしゃ が はら を たてる こと も ある そう だ。",
+      "example_meaning": "Apparently doctors sometimes lose their temper too."
+    },
+    {
+      "word": "無茶",
+      "reading": "むちゃ",
+      "meanings": [
+        "unreasonable",
+        "absurd",
+        "reckless"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "めちゃくちゃ",
+      "category": "yomimono",
+      "context": "na-adjective. 無茶を言う — to say something unreasonable; 無茶をする — to overdo it recklessly. Intensified form: 無茶苦茶 (むちゃくちゃ).",
+      "example_sentence": "それは無茶な要求だと思う。",
+      "example_reading": "それ は むちゃ な ようきゅう だ と おもう。",
+      "example_meaning": "I think that's an unreasonable demand."
+    },
+    {
+      "word": "萎縮する",
+      "reading": "いしゅくする",
+      "meanings": [
+        "to be intimidated",
+        "to shrink back",
+        "to feel dispirited"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "縮こまる",
+      "category": "yomimono",
+      "context": "Literally 'to wither and shrink' — psychologically shrinking in the presence of authority. Exactly what the essay says patients do facing an intimidating doctor.",
+      "example_sentence": "厳しい医者の前で患者は萎縮してしまう。",
+      "example_reading": "きびしい いしゃ の まえ で かんじゃ は いしゅく して しまう。",
+      "example_meaning": "Patients shrink back in front of a stern doctor."
+    },
+    {
+      "word": "毅然として",
+      "reading": "きぜんとして",
+      "meanings": [
+        "boldly",
+        "firmly",
+        "resolutely"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "はっきりと強く",
+      "category": "yomimono",
+      "context": "A dignified, unshakeable firmness — standing your ground without aggression. The 〜として adverbial pattern also gives 断固として, 平然として.",
+      "example_sentence": "毅然として自分の意見を述べた。",
+      "example_reading": "きぜん と して じぶん の いけん を のべた。",
+      "example_meaning": "He stated his opinion firmly."
+    },
+    {
+      "word": "のらりくらり",
+      "reading": "のらりくらり",
+      "meanings": [
+        "noncommittally",
+        "evasively",
+        "in a roundabout way"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "はっきり答えない",
+      "category": "yomimono",
+      "context": "Slipping away from a direct answer like an eel. のらりくらりとかわす — to dodge questions evasively. The opposite stance to 毅然として.",
+      "example_sentence": "のらりくらりとした返事しか返ってこなかった。",
+      "example_reading": "のらりくらり と した へんじ しか かえって こなかった。",
+      "example_meaning": "All I got back were evasive answers."
+    },
+    {
+      "word": "主張する",
+      "reading": "しゅちょうする",
+      "meanings": [
+        "to assert",
+        "to insist",
+        "to claim"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "強く言う",
+      "category": "yomimono",
+      "context": "Stronger than 言う — putting forward a position and standing behind it. 自己主張 — self-assertion, a quality the essay contrasts across cultures.",
+      "example_sentence": "自分の考えをはっきり主張するべきだ。",
+      "example_reading": "じぶん の かんがえ を はっきり しゅちょう する べき だ。",
+      "example_meaning": "You should assert your own views clearly."
+    }
+  ]
+}
