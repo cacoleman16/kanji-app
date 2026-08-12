@@ -1,738 +1,1959 @@
 {
   "deck_id": "integrated-ch11-vocab",
   "deck_name": "An Integrated Approach — Ch.11 Vocabulary",
-  "version": "1.0",
-  "source": "An Integrated Approach to Intermediate Japanese (Revised Edition), Chapter 11 単語 list, book pp. 204–206 (PDF pp. 214–216). Covers 会話 1–3 and the 読み物.",
+  "version": "2.0",
+  "source": "An Integrated Approach to Intermediate Japanese (Revised Edition), 第11課 ホストファミリーとの問題, 単語 list pp. 204–206.",
   "learner_level": "N3",
-  "notes": "Chapter 11's dialogues deal with apologizing, being scolded, and host-family friction; the 読み物 is a 1989 (平成元年) essay by an American exchange student about living with her Japanese host family — blending in, gestures, being scolded, the spirit of independence, and cross-cultural misunderstanding. The deck keeps the words an N3 learner has seen passively but cannot produce (文句, 我慢する, 納得する, 積極的), the chapter's rich 気〜 and 〜込む families, and a handful of N2/N1 stretch words that are common in real descriptive Japanese (みっともない, 相違, 悔やむ, 先手を打つ). Excluded: proper nouns (小川, 真美, ジル, 松本, 平成元年), N4/N5 vocabulary already mastered (問題, 遅い, 喫茶店, 晩ご飯, 手紙, 足, 口, 短い, 明るい, 弟, だめ, 失敗する, 洗濯), transparent collocations (涙を流す, 風邪をひく), and textual conventions (中略, 後略). On top of the chapter list, a 気〜 idiom section (15 cards) was added to drill the high-frequency 気に〜／気を〜 family together with the in-text 気になる and 気遣う: 気にする, 気に入る, 気にかける, 気に障る, 気に病む, 気に留める, 気をつける, 気を遣う, 気を配る, 気を許す, 気を失う, 気を落とす, 気を悪くする, 気を引く, 気を取り直す. Note 気をかける is not standard — the correct form is 気にかける (に, not を).",
-  "card_count": 60,
+  "notes": "Complete 単語 list for Chapter 11 (ホストファミリーとの問題 — 'Problems with the Host Family'), transcribed from the textbook vocabulary pages. Covers 会話 1–3 (a late arrival and an apology, a discussion about independence, and a scolding) and the 読み物, a 1989 essay by an exchange student named Jill about cross-cultural friction living with a Japanese host family. Cards are tagged by section so you can drill one 会話 at a time. Proper nouns (小川, 真美, ジル, 松本, みどり) are omitted; everything else in the printed list is included, from N5 basics up to N1 stretch words, since the textbook treats them as one chapter set. Context notes flag homophone traps, transitive/intransitive pairs, and register. A final kigo_bonus section carries 13 supplementary 気〜 idioms (気に入る, 気に障る, 気を配る…) that are not in the printed 単語 list — they were added to an earlier version of this deck and are kept here as an optional expansion of the 気〜 family the chapter introduces.",
+  "card_count": 117,
   "priority_guide": {
-    "high": "Learn first — high-frequency word that blocks comprehension if missing.",
-    "medium": "Learn after high priority — enriches descriptive range; context usually helps.",
-    "low": "Passive recognition is enough for now — note once, revisit later."
+    "high": "Core chapter vocabulary — appears in the dialogues/reading and is broadly useful.",
+    "medium": "Useful but more situational.",
+    "low": "Recognition is enough — mostly textual conventions or set literary phrases."
   },
   "difficulty_guide": {
     "at_level": "Solidly N3 — should be mastered.",
     "one_above": "N2 territory — worth stretching to.",
-    "two_above": "N1 territory — ambitious but high-frequency in real usage."
+    "two_above": "N1 / literary — ambitious but appears in the reading."
   },
   "kanji_difficulty_guide": {
     "easy": "Kanji are common; readable at N3.",
-    "medium": "One or more kanji may trip you — drill the reading carefully.",
+    "medium": "One or more kanji may trip you — drill the reading.",
     "hard": "Kanji are rare or have irregular readings — learn the kana form first."
   },
   "categories": [
-    "communication_conflict",
-    "emotion_attitude",
-    "daily_life",
-    "people_culture",
-    "abstract_thinking",
-    "adverbs_expressions",
-    "idiom",
-    "grammar_suffix"
+    "kaiwa1",
+    "kaiwa2",
+    "kaiwa3",
+    "yomimono",
+    "kigo_bonus"
   ],
   "cards": [
     {
-      "word": "文句",
-      "reading": "もんく",
-      "meanings": ["complaint", "grumbling", "objection"],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "不満（ふまん）",
-      "category": "communication_conflict",
-      "context": "Almost always appears as 文句を言う (to complain) or 文句がある (to have a complaint). This is everyday grumbling — a formal complaint to a company is 苦情 or クレーム (false friend: クレーム means complaint, never 'claim').",
-      "example_sentence": "彼は何を食べても文句を言う。",
-      "example_reading": "かれ は なに を たべて も もんく を いう。",
-      "example_meaning": "No matter what he eats, he complains."
-    },
-    {
-      "word": "謝る",
-      "reading": "あやまる",
-      "meanings": ["to apologize"],
+      "word": "問題",
+      "reading": "もんだい",
+      "meanings": [
+        "problem",
+        "issue",
+        "question"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "謝罪する（しゃざいする）※フォーマル",
-      "category": "communication_conflict",
-      "context": "Homophone trap: 誤る (to make a mistake) is also あやまる — context and kanji decide. The person you apologize to takes に: 友達に謝る. The formal noun is 謝罪.",
-      "example_sentence": "遅れたことを友達に謝った。",
-      "example_reading": "おくれた こと を ともだち に あやまった。",
-      "example_meaning": "I apologized to my friend for being late."
+      "simpler_synonym": "トラブル",
+      "category": "kaiwa1",
+      "context": "The chapter title itself: ホストファミリーとの問題 — problems with the host family. Also 'exam question' (試験問題) and 'social issue' (社会問題).",
+      "example_sentence": "ホストファミリーとの問題を先生に相談した。",
+      "example_reading": "ホストファミリー と の もんだい を せんせい に そうだん した。",
+      "example_meaning": "I consulted my teacher about problems with my host family."
+    },
+    {
+      "word": "文句",
+      "reading": "もんく",
+      "meanings": [
+        "complaint",
+        "grumbling",
+        "objection"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "不満",
+      "category": "kaiwa1",
+      "context": "文句を言う — to complain. Note the reading: not ぶんく. 文句ばかり言う人 — someone who does nothing but complain.",
+      "example_sentence": "彼はいつも文句ばかり言っている。",
+      "example_reading": "かれ は いつも もんく ばかり いって いる。",
+      "example_meaning": "He's always just complaining."
+    },
+    {
+      "word": "謝る",
+      "reading": "あやまる",
+      "meanings": [
+        "to apologize"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "すみませんと言う",
+      "category": "kaiwa1",
+      "context": "Homophone trap: 謝る (apologize) vs 誤る (to err, make a mistake) — same reading あやまる, different kanji and meaning.",
+      "example_sentence": "遅れたことを心から謝った。",
+      "example_reading": "おくれた こと を こころ から あやまった。",
+      "example_meaning": "I sincerely apologized for being late."
+    },
+    {
+      "word": "遅い",
+      "reading": "おそい",
+      "meanings": [
+        "late",
+        "slow"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "時間に間に合わない",
+      "category": "kaiwa1",
+      "context": "Two senses: late in time (帰りが遅い) and slow in speed (歩くのが遅い). The verb 遅れる means 'to be late / fall behind.'",
+      "example_sentence": "こんなに遅い時間に帰ってくるとは思わなかった。",
+      "example_reading": "こんなに おそい じかん に かえって くる と は おもわなかった。",
+      "example_meaning": "I didn't expect you to come home at such a late hour."
+    },
+    {
+      "word": "街",
+      "reading": "まち",
+      "meanings": [
+        "town",
+        "downtown",
+        "the streets"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "町",
+      "category": "kaiwa1",
+      "context": "街で — in town, out on the streets. 街 evokes a bustling commercial district; 町 is the more neutral 'town.' Same reading.",
+      "example_sentence": "街で偶然、昔の友達に会った。",
+      "example_reading": "まち で ぐうぜん、 むかし の ともだち に あった。",
+      "example_meaning": "I ran into an old friend downtown by chance."
     },
     {
       "word": "ばったり",
       "reading": "ばったり",
-      "meanings": ["(to meet) by chance", "unexpectedly (running into someone)"],
+      "meanings": [
+        "by chance (of meeting)",
+        "unexpectedly"
+      ],
       "jlpt": "N2",
-      "priority": "medium",
+      "priority": "high",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "偶然（ぐうぜん）会う",
-      "category": "adverbs_expressions",
-      "context": "Mimetic adverb, nearly always with 会う／出会う for surprise encounters. Secondary sense: collapsing suddenly (ばったり倒れる) or something stopping dead (客足がばったり止まる).",
-      "example_sentence": "駅で昔の友達にばったり会った。",
-      "example_reading": "えき で むかし の ともだち に ばったり あった。",
-      "example_meaning": "I ran into an old friend at the station."
+      "simpler_synonym": "偶然",
+      "category": "kaiwa1",
+      "context": "Almost always with 会う: ばったり会う — to run into someone unexpectedly. Also describes something toppling over with a thud.",
+      "example_sentence": "駅前でばったり先生に会ってしまった。",
+      "example_reading": "えきまえ で ばったり せんせい に あって しまった。",
+      "example_meaning": "I bumped into my teacher right in front of the station."
     },
     {
-      "word": "話し込む",
-      "reading": "はなしこむ",
-      "meanings": ["to be deep in conversation", "to get absorbed in talking"],
-      "jlpt": "N2",
+      "word": "喫茶店",
+      "reading": "きっさてん",
+      "meanings": [
+        "coffee shop",
+        "tearoom"
+      ],
+      "jlpt": "N4",
       "priority": "medium",
-      "difficulty_vs_n3": "one_above",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "カフェ",
+      "category": "kaiwa1",
+      "context": "The older-style Japanese coffee shop — think dark wood and hand-drip coffee. Modern places are カフェ.",
+      "example_sentence": "喫茶店で二時間も話し込んでしまった。",
+      "example_reading": "きっさてん で にじかん も はなしこんで しまった。",
+      "example_meaning": "We ended up talking for a full two hours at the coffee shop."
+    },
+    {
+      "word": "どんどん",
+      "reading": "どんどん",
+      "meanings": [
+        "quickly and steadily",
+        "at a rapid pace",
+        "more and more"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "夢中（むちゅう）で話す",
-      "category": "communication_conflict",
-      "context": "The 〜込む suffix on a verb stem means 'deeply / into': 考え込む (be lost in thought), 溶け込む (blend in), 座り込む (sit down and stay). 話し込む implies losing track of time — exactly why the speaker in 会話1 was late.",
-      "example_sentence": "喫茶店で友達と話し込んで、時間を忘れてしまった。",
-      "example_reading": "きっさてん で ともだち と はなしこんで、じかん を わすれて しまった。",
-      "example_meaning": "I got absorbed talking with a friend at a coffee shop and completely lost track of time."
+      "simpler_synonym": "次々に",
+      "category": "kaiwa1",
+      "context": "Describes something progressing fast and without stopping. どんどん進む — advance rapidly. Also the sound of banging on a door.",
+      "example_sentence": "話しているうちに時間がどんどん過ぎていった。",
+      "example_reading": "はなして いる うち に じかん が どんどん すぎて いった。",
+      "example_meaning": "While we were talking, time just kept slipping away."
+    },
+    {
+      "word": "時間がたつ",
+      "reading": "じかんがたつ",
+      "meanings": [
+        "time passes",
+        "time goes by"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "時間が過ぎる",
+      "category": "kaiwa1",
+      "context": "Often written 時間が経つ. The verb 経つ (たつ) is specifically for elapsed time — distinct from 立つ (to stand) and 建つ (to be built).",
+      "example_sentence": "楽しい時は時間がたつのが早い。",
+      "example_reading": "たのしい とき は じかん が たつ の が はやい。",
+      "example_meaning": "Time flies when you're having fun."
+    },
+    {
+      "word": "晩ご飯",
+      "reading": "ばんごはん",
+      "meanings": [
+        "dinner",
+        "evening meal"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "夕飯",
+      "category": "kaiwa1",
+      "context": "Literally 'evening meal.' The formal equivalent is 夕食 (ゆうしょく); 夕飯 (ゆうはん) is another everyday option.",
+      "example_sentence": "晩ご飯までには必ず帰ると約束した。",
+      "example_reading": "ばんごはん まで に は かならず かえる と やくそく した。",
+      "example_meaning": "I promised I'd definitely be home by dinner."
     },
     {
       "word": "がっかりする",
       "reading": "がっかりする",
-      "meanings": ["to be disappointed", "to feel let down"],
+      "meanings": [
+        "to feel disappointed",
+        "to be let down"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "失望する（しつぼうする）※フォーマル",
-      "category": "emotion_attitude",
-      "context": "Describes your own deflation; the cause takes に: 結果にがっかりした. To call something disappointing as a judgment, use 残念だ instead. Don't force an English-style transitive 'X disappointed me' — flip it to Xにがっかりした.",
-      "example_sentence": "試合に負けて、みんながっかりした。",
-      "example_reading": "しあい に まけて、みんな がっかり した。",
-      "example_meaning": "We lost the match and everyone was disappointed."
+      "simpler_synonym": "失望する",
+      "category": "kaiwa1",
+      "context": "About your own feelings. To disappoint someone else, use がっかりさせる. The formal equivalent is 失望する.",
+      "example_sentence": "約束を破られて、本当にがっかりした。",
+      "example_reading": "やくそく を やぶられて、 ほんとう に がっかり した。",
+      "example_meaning": "I was really disappointed to have the promise broken."
     },
     {
       "word": "気になる",
       "reading": "きになる",
-      "meanings": ["to weigh on one's mind", "to be bothered by", "to be curious about"],
+      "meanings": [
+        "to bother one",
+        "to be concerned about",
+        "to weigh on one's mind"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "心配になる（しんぱいになる）",
-      "category": "emotion_attitude",
-      "context": "Sort the 気 family once: 〜が気になる (it bothers you — involuntary), 〜を気にする (you actively worry about it), 〜に気をつける (you take care), 〜が気にかかる (written variant of 気になる, also in this chapter). The thing bothering you takes が.",
-      "example_sentence": "明日の面接のことが気になって眠れない。",
-      "example_reading": "あした の めんせつ の こと が き に なって ねむれない。",
-      "example_meaning": "Tomorrow's interview is weighing on my mind and I can't sleep."
-    },
-    {
-      "word": "どうしても",
-      "reading": "どうしても",
-      "meanings": ["no matter what", "by all means", "(with negative) simply can't"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "絶対に（ぜったいに）",
-      "category": "adverbs_expressions",
-      "context": "Two faces: with an affirmative it means 'at any cost' (どうしても行きたい); with a negative it means 'no matter how hard one tries, it won't work' (どうしても覚えられない) — the chapter's grammar note sense.",
-      "example_sentence": "この漢字だけはどうしても覚えられない。",
-      "example_reading": "この かんじ だけ は どうしても おぼえられない。",
-      "example_meaning": "This one kanji I simply cannot memorize, no matter what."
-    },
-    {
-      "word": "時間が経つ",
-      "reading": "じかんがたつ",
-      "meanings": ["time passes", "time goes by"],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "時間が過ぎる（すぎる）",
-      "category": "daily_life",
-      "context": "経つ takes only time expressions as its subject. The kanji 経 reads けい in 経験・経済 but たつ here — the textbook often writes it in kana (たつ). Common pattern: 〜ているうちに時間が経つ.",
-      "example_sentence": "友達と話していると、時間が経つのを忘れる。",
-      "example_reading": "ともだち と はなして いる と、じかん が たつ の を わすれる。",
-      "example_meaning": "When I'm talking with friends, I forget the passing of time."
-    },
-    {
-      "word": "関係",
-      "reading": "かんけい",
-      "meanings": ["relationship", "connection", "relation"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "仲（なか）※人間どうしの親しさ",
-      "category": "people_culture",
-      "context": "Broad workhorse: 人間関係 (human relations), 〜と関係がある (is connected to), 〜に関係なく (regardless of). For how well two people get along, use 仲がいい／悪い — not 関係がいい.",
-      "example_sentence": "日本の会社では人間関係がとても大切だ。",
-      "example_reading": "にほん の かいしゃ で は にんげんかんけい が とても たいせつ だ。",
-      "example_meaning": "In Japanese companies, human relationships are extremely important."
-    },
-    {
-      "word": "独立",
-      "reading": "どくりつ",
-      "meanings": ["independence", "self-reliance", "standing on one's own"],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "自立（じりつ）",
-      "category": "people_culture",
-      "context": "The chapter uses 独立した (independent) and 独立精神 (spirit of independence) — the value the essay's author feels her host family lacks toward children. 自立 is personal self-reliance; 独立 also covers countries and businesses becoming independent.",
-      "example_sentence": "彼女は大学を出てすぐ、親から独立した。",
-      "example_reading": "かのじょ は だいがく を でて すぐ、おや から どくりつ した。",
-      "example_meaning": "She became independent from her parents right after finishing university."
-    },
-    {
-      "word": "何だか",
-      "reading": "なんだか",
-      "meanings": ["somehow", "for some reason", "kind of"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "何となく（なんとなく）",
-      "category": "adverbs_expressions",
-      "context": "For feelings you can't pin down: 何だか悲しい (I feel sad somehow). 何となく is the close cousin — 何だか leans slightly more emotional and conversational. Hugely common in speech; using it makes your Japanese sound natural fast.",
-      "example_sentence": "今日は何だか元気が出ない。",
-      "example_reading": "きょう は なんだか げんき が でない。",
-      "example_meaning": "For some reason I just have no energy today."
-    },
-    {
-      "word": "寝坊する",
-      "reading": "ねぼうする",
-      "meanings": ["to oversleep"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "朝寝坊する（あさねぼうする）",
-      "category": "daily_life",
-      "context": "朝寝坊 is both the act and the person ('a late riser'). Don't confuse with 昼寝 (a nap, deliberate). In 会話3 the homestay student gets scolded for it — a classic host-family flashpoint.",
-      "example_sentence": "寝坊して、授業に三十分も遅れてしまった。",
-      "example_reading": "ねぼう して、じゅぎょう に さんじゅっぷん も おくれて しまった。",
-      "example_meaning": "I overslept and ended up a whole thirty minutes late to class."
-    },
-    {
-      "word": "叱る",
-      "reading": "しかる",
-      "meanings": ["to scold", "to tell off"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "怒る（おこる）",
-      "category": "communication_conflict",
-      "context": "叱る is corrective scolding from a position of responsibility (parent, teacher, boss); 怒る is the emotion of anger, though colloquially it also means 'scold angrily' — the textbook lists おこる that way. You'll meet it most as the passive: 先生に叱られた. Often written in kana (しかる).",
-      "example_sentence": "弟は宿題をしなくて、母に叱られた。",
-      "example_reading": "おとうと は しゅくだい を しなくて、はは に しかられた。",
-      "example_meaning": "My little brother didn't do his homework and got scolded by our mother."
-    },
-    {
-      "word": "みっともない",
-      "reading": "みっともない",
-      "meanings": ["disgraceful", "unseemly", "shameful to be seen"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "恥ずかしい（はずかしい）",
-      "category": "emotion_attitude",
-      "context": "Judges behavior or appearance by how it looks to others — society's eyes, not your inner embarrassment (that's 恥ずかしい). A parent's scolding word: みっともないからやめなさい. Historically from 見とうもない 'not fit to be seen'.",
-      "example_sentence": "人の前で大声でけんかするのはみっともない。",
-      "example_reading": "ひと の まえ で おおごえ で けんか する の は みっともない。",
-      "example_meaning": "Having a shouting match in front of other people is disgraceful."
-    },
-    {
-      "word": "口をはさむ",
-      "reading": "くちをはさむ",
-      "meanings": ["to butt in", "to interrupt", "to cut into a conversation"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "話に割り込む（わりこむ）",
-      "category": "communication_conflict",
-      "context": "Literally 'insert one's mouth' — wedging yourself into someone else's conversation, usually unwelcome: 人の話に口をはさむ. Part of the chapter's 口 idiom set alongside 口やかましい and 悪口.",
-      "example_sentence": "人の話に口をはさむのは失礼だと言われた。",
-      "example_reading": "ひと の はなし に くち を はさむ の は しつれい だ と いわれた。",
-      "example_meaning": "I was told that butting into other people's conversations is rude."
-    },
-    {
-      "word": "やかましい",
-      "reading": "やかましい",
-      "meanings": ["noisy", "fussy", "overly critical", "strict (about)"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "うるさい",
-      "category": "emotion_attitude",
-      "context": "Like うるさい, it spans 'noisy' and 'nagging': 時間にやかましい (strict about time). The reading also uses 口やかましい (nagging, sharp-tongued) — the essay author's view of her host mother. Slightly more old-fashioned/written than うるさい.",
-      "example_sentence": "父は時間にやかましい人だった。",
-      "example_reading": "ちち は じかん に やかましい ひと だった。",
-      "example_meaning": "My father was a man who was strict about punctuality."
-    },
-    {
-      "word": "我慢する",
-      "reading": "がまんする",
-      "meanings": ["to endure", "to put up with", "to hold back"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "耐える（たえる）※フォーマル",
-      "category": "emotion_attitude",
-      "context": "Culturally loaded: silently enduring discomfort is virtue-coded in Japan, and the homestay conflict in this chapter turns on it. Key forms: 我慢できない (can't stand it), 我慢の限界 (the limit of one's patience).",
-      "example_sentence": "言いたいことがあっても、我慢して何も言わなかった。",
-      "example_reading": "いいたい こと が あって も、がまん して なに も いわなかった。",
-      "example_meaning": "Even though I had things I wanted to say, I held back and said nothing."
-    },
-    {
-      "word": "暮らす",
-      "reading": "くらす",
-      "meanings": ["to live", "to get along", "to spend one's days"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "生活する（せいかつする）",
-      "category": "daily_life",
-      "context": "住む is residing at an address (point-like, takes に); 暮らす is the texture of daily life (一人で暮らす, 幸せに暮らす). The noun is 暮らし (living, livelihood). The essay opens with the author having lived (暮らした) with a Japanese family.",
-      "example_sentence": "彼女は一年間、日本の家族と一緒に暮らした。",
-      "example_reading": "かのじょ は いちねんかん、にほん の かぞく と いっしょ に くらした。",
-      "example_meaning": "She lived together with a Japanese family for one year."
-    },
-    {
-      "word": "約",
-      "reading": "やく",
-      "meanings": ["approximately", "about"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "だいたい／およそ",
-      "category": "adverbs_expressions",
-      "context": "Prefix directly before numbers: 約三時間 (about three hours). More written/formal than だいたい — use it in essays and reports. Same kanji carries the 'binding' sense in 約束 and 予約; here it's the 'rounded number' sense.",
-      "example_sentence": "駅から大学まで約二十分かかる。",
-      "example_reading": "えき から だいがく まで やく にじゅっぷん かかる。",
-      "example_meaning": "It takes about twenty minutes from the station to the university."
-    },
-    {
-      "word": "過ごす",
-      "reading": "すごす",
-      "meanings": ["to spend (time)", "to pass (time)"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "（時間を）送る（おくる）",
-      "category": "daily_life",
-      "context": "Transitive/intransitive pair: 過ごす is transitive (you spend time, takes を — 楽しい時間を過ごす); 過ぎる is intransitive (time passes by itself — 時間が過ぎる). English 'spend' only maps to 過ごす, never 過ぎる.",
-      "example_sentence": "週末は家族とゆっくり過ごした。",
-      "example_reading": "しゅうまつ は かぞく と ゆっくり すごした。",
-      "example_meaning": "I spent the weekend relaxing with my family."
-    },
-    {
-      "word": "得る",
-      "reading": "える",
-      "meanings": ["to gain", "to obtain", "to acquire"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "手に入れる（てにいれる）",
-      "category": "abstract_thinking",
-      "context": "Written/formal verb whose objects are usually abstract: 知識を得る, 経験を得る, 信頼を得る. Also lives on as the suffix 〜得る (ありえる／ありうる 'can possibly be') — both readings survive for the suffix.",
-      "example_sentence": "留学で、お金では買えない経験を得た。",
-      "example_reading": "りゅうがく で、おかね で は かえない けいけん を えた。",
-      "example_meaning": "Through studying abroad, I gained experience that money can't buy."
-    },
-    {
-      "word": "笑顔",
-      "reading": "えがお",
-      "meanings": ["smile", "smiling face"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "微笑み（ほほえみ）",
-      "category": "daily_life",
-      "context": "Irregular reading — えがお, not しょうがお. Japanese doesn't lexically split 'laugh' and 'smile' (笑う covers both), so 笑顔 is how you point specifically at a smile. Collocations: 笑顔を見せる, 笑顔で挨拶する.",
-      "example_sentence": "彼女はいつも笑顔で挨拶してくれる。",
-      "example_reading": "かのじょ は いつも えがお で あいさつ して くれる。",
-      "example_meaning": "She always greets me with a smile."
-    },
-    {
-      "word": "似合う",
-      "reading": "にあう",
-      "meanings": ["to suit", "to look good on", "to become (a person)"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "ぴったりだ",
-      "category": "daily_life",
-      "context": "The thing suits the person: 人に〜が似合う — その帽子、よく似合うね is the everyday compliment. Don't confuse with 似ている (to resemble) or 〜と合う (two things go well together). In the essay, a smile 'suits' the host sister.",
-      "example_sentence": "その着物は彼女によく似合っていた。",
-      "example_reading": "その きもの は かのじょ に よく にあって いた。",
-      "example_meaning": "That kimono really suited her."
-    },
-    {
-      "word": "気遣う",
-      "reading": "きづかう",
-      "meanings": ["to be considerate of", "to worry about (someone)", "to show concern for"],
-      "jlpt": "N1",
-      "priority": "low",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "気を遣う（きをつかう）",
-      "category": "emotion_attitude",
-      "context": "The compact written form of 気を遣う. In speech you'll mostly hear the noun in polite set phrases: お気遣いありがとうございます (thank you for your consideration). Note the rendaku: 遣う reads づかう here.",
-      "example_sentence": "彼はいつも周りの人を気遣っている。",
-      "example_reading": "かれ は いつも まわり の ひと を きづかって いる。",
-      "example_meaning": "He is always considerate of the people around him."
-    },
-    {
-      "word": "溶け込む",
-      "reading": "とけこむ",
-      "meanings": ["to blend in", "to fit in", "to melt into"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "なじむ",
-      "category": "people_culture",
-      "context": "Literally 'melt into' — sugar dissolves into coffee, and a newcomer 溶け込む into a class, team, or culture. The central image of the essay: becoming part of the host family. Same 〜込む family as 話し込む.",
-      "example_sentence": "彼女はすぐに新しいクラスに溶け込んだ。",
-      "example_reading": "かのじょ は すぐ に あたらしい クラス に とけこんだ。",
-      "example_meaning": "She blended into her new class right away."
-    },
-    {
-      "word": "身振り",
-      "reading": "みぶり",
-      "meanings": ["gesture", "body language"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "ジェスチャー",
-      "category": "people_culture",
-      "context": "Lives almost entirely in the set phrase 身振り手振りで — 'with gestures and hand motions' — which is exactly how the essay's author communicated before her Japanese improved. 振り is the 'manner of moving' suffix (口振り, 素振り).",
-      "example_sentence": "言葉が通じなくて、身振り手振りで説明した。",
-      "example_reading": "ことば が つうじなくて、みぶり てぶり で せつめい した。",
-      "example_meaning": "We couldn't understand each other's language, so I explained with gestures."
-    },
-    {
-      "word": "相違",
-      "reading": "そうい",
-      "meanings": ["difference", "discrepancy", "divergence"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "違い（ちがい）",
-      "category": "people_culture",
-      "context": "Formal/written word for 違い — at home in essays (文化の相違, 意見の相違) and contracts (相違ありません 'this is correct'). In conversation, stick with 違い; reaching for 相違 in speech sounds stiff.",
-      "example_sentence": "二つの国の習慣には大きな相違がある。",
-      "example_reading": "ふたつ の くに の しゅうかん に は おおきな そうい が ある。",
-      "example_meaning": "There are major differences between the customs of the two countries."
-    },
-    {
-      "word": "積極的",
-      "reading": "せっきょくてき",
-      "meanings": ["proactive", "positive", "active (attitude)"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "前向き（まえむき）",
-      "category": "emotion_attitude",
-      "context": "The personality word teachers and bosses use constantly. 積極的に＋verb = doing something of your own initiative (積極的に参加する). Antonym: 消極的 (passive, reserved) — learn them as a pair.",
-      "example_sentence": "彼は授業で積極的に質問する。",
-      "example_reading": "かれ は じゅぎょう で せっきょくてき に しつもん する。",
-      "example_meaning": "He actively asks questions in class."
-    },
-    {
-      "word": "尋ねる",
-      "reading": "たずねる",
-      "meanings": ["to inquire", "to ask"],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "質問する（しつもんする）／聞く",
-      "category": "communication_conflict",
-      "context": "Homophone trap: 訪ねる (to visit) is also たずねる — only the kanji separates them. 尋ねる is politer and more written than 聞く; the textbook glosses it as ＝質問する.",
-      "example_sentence": "駅への道を近くの人に尋ねた。",
-      "example_reading": "えき へ の みち を ちかく の ひと に たずねた。",
-      "example_meaning": "I asked a person nearby for the way to the station."
-    },
-    {
-      "word": "常に",
-      "reading": "つねに",
-      "meanings": ["always", "constantly", "at all times"],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "いつも",
-      "category": "adverbs_expressions",
-      "context": "The written-register いつも — the textbook flags it as a written expression. Use it in essays, presentations, and formal statements; in casual speech it sounds stiff. Common pattern: 常に〜ようにしている (I make it a rule to always…).",
-      "example_sentence": "母は常に家族のことを考えている。",
-      "example_reading": "はは は つねに かぞく の こと を かんがえて いる。",
-      "example_meaning": "My mother is always thinking of the family."
-    },
-    {
-      "word": "返る",
-      "reading": "かえる",
-      "meanings": ["(something) returns", "to come back", "to be restored"],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "戻る（もどる）",
-      "category": "daily_life",
-      "context": "Intransitive — the thing comes back on its own; the transitive partner is 返す (you return something). Three-way homophone with 帰る (a person goes home) and 変える (to change) — kanji choice is load-bearing. The textbook marks it v.i.",
-      "example_sentence": "貸した本がやっと返ってきた。",
-      "example_reading": "かした ほん が やっと かえって きた。",
-      "example_meaning": "The book I lent out finally came back."
-    },
-    {
-      "word": "納得する",
-      "reading": "なっとくする",
-      "meanings": ["to be convinced", "to accept (an explanation)", "to understand and agree"],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "理解する（りかいする）",
-      "category": "abstract_thinking",
-      "context": "Stronger than 分かる — it means the explanation clicked and you accept it. The negative is essential for disagreements: 納得がいかない／納得できない (I can't accept that). Watch the doubled っ: なっとく.",
-      "example_sentence": "彼の説明を聞いて、やっと納得した。",
-      "example_reading": "かれ の せつめい を きいて、やっと なっとく した。",
-      "example_meaning": "After hearing his explanation, I was finally convinced."
-    },
-    {
-      "word": "異文化",
-      "reading": "いぶんか",
-      "meanings": ["different culture", "foreign culture"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "違う文化（ちがうぶんか）",
-      "category": "people_culture",
-      "context": "The prefix 異〜 means 'different/other' (異国 foreign land, 異常 abnormal). The reading extends it to 異文化圏 — 〜圏 is the 'sphere' suffix you'll keep meeting: 英語圏 (English-speaking world), 首都圏 (greater Tokyo).",
-      "example_sentence": "留学して初めて、異文化の難しさを知った。",
-      "example_reading": "りゅうがく して はじめて、いぶんか の むずかしさ を しった。",
-      "example_meaning": "Only after studying abroad did I learn how hard a different culture can be."
-    },
-    {
-      "word": "助言",
-      "reading": "じょげん",
-      "meanings": ["advice", "counsel"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "アドバイス",
-      "category": "communication_conflict",
-      "context": "Formal word — everyday conversation overwhelmingly uses アドバイス. 助言する = to advise. Mind the reading: じょげん, not じょごん. In the essay the host parents' constant 助言 reads as nagging to the American author.",
-      "example_sentence": "先生の助言のおかげで、いいレポートが書けた。",
-      "example_reading": "せんせい の じょげん の おかげ で、いい レポート が かけた。",
-      "example_meaning": "Thanks to my teacher's advice, I was able to write a good report."
-    },
-    {
-      "word": "陰で",
-      "reading": "かげで",
-      "meanings": ["behind someone's back", "behind the scenes"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "本人がいないところで",
-      "category": "communication_conflict",
-      "context": "陰 is shade/shadow. 陰で悪口を言う = badmouth someone behind their back; the noun 陰口 (かげぐち) means exactly that. Not always negative: 陰で支える is supporting someone from behind the scenes — and おかげで grew from the same root.",
-      "example_sentence": "陰で文句を言うより、直接話した方がいい。",
-      "example_reading": "かげ で もんく を いう より、ちょくせつ はなした ほう が いい。",
-      "example_meaning": "Rather than complaining behind someone's back, it's better to talk to them directly."
-    },
-    {
-      "word": "悪口を言う",
-      "reading": "わるくちをいう",
-      "meanings": ["to speak ill of someone", "to badmouth"],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "けなす",
-      "category": "communication_conflict",
-      "context": "Both わるくち and わるぐち are accepted readings. Pairs naturally with 陰で and こそこそと (in whispers) — the essay strings all three together. The opposite act is ほめる (to praise).",
-      "example_sentence": "友達の悪口を言うつもりはなかった。",
-      "example_reading": "ともだち の わるくち を いう つもり は なかった。",
-      "example_meaning": "I didn't mean to speak ill of my friend."
-    },
-    {
-      "word": "甘い",
-      "reading": "あまい",
-      "meanings": ["lenient", "soft (on someone)", "naive", "sweet"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "厳しくない（きびしくない）",
-      "category": "emotion_attitude",
-      "context": "You know 'sweet' — the figurative senses are the trap: 子供に甘い (soft on the kids, the chapter's 甘くする 'to be lenient'), 考えが甘い (naive thinking), 甘く見る (to underestimate). Antonym in all these: 厳しい.",
-      "example_sentence": "祖父は孫にとても甘い。",
-      "example_reading": "そふ は まご に とても あまい。",
-      "example_meaning": "My grandfather is very soft on his grandchildren."
-    },
-    {
-      "word": "悔やむ",
-      "reading": "くやむ",
-      "meanings": ["to regret", "to rue"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "後悔する（こうかいする）",
-      "category": "emotion_attitude",
-      "context": "後悔する is the everyday verb; 悔やむ is more written and more emotional. Same kanji gives you 悔しい (くやしい) — 'frustrating, mortifying' — one of the highest-frequency emotion words in real spoken Japanese.",
-      "example_sentence": "今さら悔やんでも、失敗はもう変えられない。",
-      "example_reading": "いまさら くやんで も、しっぱい は もう かえられない。",
-      "example_meaning": "Regretting it now won't change the failure."
-    },
-    {
-      "word": "妨げ",
-      "reading": "さまたげ",
-      "meanings": ["obstacle", "hindrance", "impediment"],
-      "jlpt": "N2",
-      "priority": "low",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "邪魔（じゃま）",
-      "category": "abstract_thinking",
-      "context": "Set pattern: 〜の妨げになる (to get in the way of) — in the essay, parental interference is a 妨げ to children's independence. The verb is 妨げる. Everyday speech prefers 邪魔（になる）; 妨げ is essay register.",
-      "example_sentence": "騒音は勉強の妨げになる。",
-      "example_reading": "そうおん は べんきょう の さまたげ に なる。",
-      "example_meaning": "Noise gets in the way of studying."
-    },
-    {
-      "word": "決して〜ない",
-      "reading": "けっして〜ない",
-      "meanings": ["never", "by no means", "absolutely not"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "絶対に〜ない（ぜったいに）",
-      "category": "adverbs_expressions",
-      "context": "Must close with a negative — 決して忘れません, never 決して忘れます. Firm, written-leaning tone. Compare 全く〜ない (not at all — degree, also in this chapter) and casual 絶対〜ない. Watch the doubled っ: けっして.",
-      "example_sentence": "あの日のことは決して忘れない。",
-      "example_reading": "あの ひ の こと は けっして わすれない。",
-      "example_meaning": "I will never forget that day."
-    },
-    {
-      "word": "無駄",
-      "reading": "むだ",
-      "meanings": ["waste", "futile", "pointless"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "役に立たない（やくにたたない）",
-      "category": "abstract_thinking",
-      "context": "Noun and な-adjective: 無駄な時間 (wasted time), 時間の無駄 (a waste of time), 無駄にする (to let go to waste), 無駄遣い (wasting money). 〜ても無駄だ ('no use doing…') is the everyday workhorse pattern.",
-      "example_sentence": "心配しても無駄だと分かっていた。",
-      "example_reading": "しんぱい して も むだ だ と わかって いた。",
-      "example_meaning": "I knew that worrying would do no good."
-    },
-    {
-      "word": "日々",
-      "reading": "ひび",
-      "meanings": ["days", "daily", "every day (written)"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "毎日（まいにち）",
-      "category": "daily_life",
-      "context": "Written-register 毎日: 日々の生活 (everyday life), 日々努力する (strive daily). The 々 mark repeats the previous kanji with rendaku: ひ＋び. Common in essays and reflective writing — like the essay's closing lines about her days in Japan.",
-      "example_sentence": "日本で過ごした日々は今でも忘れられない。",
-      "example_reading": "にほん で すごした ひび は いま でも わすれられない。",
-      "example_meaning": "Even now I can't forget the days I spent in Japan."
-    },
-    {
-      "word": "感想",
-      "reading": "かんそう",
-      "meanings": ["impressions", "thoughts (about an experience)"],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "思ったこと",
-      "category": "abstract_thinking",
-      "context": "What you felt about an experience — teachers ask 感想を聞かせてください after every activity. 感想文 is the school reaction essay; the chapter's reading comes from a 感想文集 (collection of student essays). Distinct from 意見 (a position you argue).",
-      "example_sentence": "映画を見た感想を友達と話し合った。",
-      "example_reading": "えいが を みた かんそう を ともだち と はなしあった。",
-      "example_meaning": "I talked over my impressions of the movie with a friend."
-    },
-    {
-      "word": "先手を打つ",
-      "reading": "せんてをうつ",
-      "meanings": ["to make the first move", "to act before the other person", "to preempt"],
-      "jlpt": "N1",
-      "priority": "low",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "先にやっておく（さきに）",
-      "category": "idiom",
-      "context": "From board games — playing the first stone (先手 = first move, 打つ = to play/strike). Acting in anticipation of the other person's move: in the essay, apologizing before the host mother can scold. Opposite: 後手に回る (to be stuck reacting).",
-      "example_sentence": "怒られる前に、先手を打って謝った。",
-      "example_reading": "おこられる まえ に、せんて を うって あやまった。",
-      "example_meaning": "Before I could get told off, I made the first move and apologized."
-    },
-    {
-      "word": "〜上",
-      "reading": "〜じょう",
-      "meanings": ["for reasons of 〜", "from the standpoint of 〜", "in terms of 〜"],
-      "jlpt": "N2",
-      "priority": "low",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜の点で（てんで）",
-      "category": "grammar_suffix",
-      "context": "Suffix on Sino-Japanese nouns: 教育上 (for educational reasons — the essay's usage), 健康上, 仕事上, 規則上. Written/formal register. Read じょう, never うえ, in this use; often followed by の＋noun or a clause.",
-      "example_sentence": "健康上の理由で、たばこをやめた。",
-      "example_reading": "けんこうじょう の りゆう で、たばこ を やめた。",
-      "example_meaning": "I quit smoking for health reasons."
+      "simpler_synonym": "心配になる",
+      "category": "kaiwa1",
+      "context": "文法ノート3. INVOLUNTARY — something bothers you whether you like it or not, marked with が. Contrast 気にする (deliberately minding something, marked with を).",
+      "example_sentence": "帰りが遅いと、どうしても気になってしまう。",
+      "example_reading": "かえり が おそい と、 どうしても き に なって しまう。",
+      "example_meaning": "When someone's late coming home, I can't help worrying."
     },
     {
       "word": "気にする",
       "reading": "きにする",
-      "meanings": ["to mind", "to worry about", "to care about"],
+      "meanings": [
+        "to mind",
+        "to worry about (deliberately)"
+      ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "心配する（しんぱいする）",
-      "category": "emotion_attitude",
-      "context": "The transitive twin of 気になる: 気にする is something YOU actively choose to mind, while 気になる is something that bothers you on its own. The most useful form is the negative — 気にしないで (don't worry about it). The object takes を.",
-      "example_sentence": "小さいことを気にしすぎないほうがいい。",
-      "example_reading": "ちいさい こと を き に し すぎない ほう が いい。",
-      "example_meaning": "It's better not to worry too much about small things."
+      "simpler_synonym": "心配する",
+      "category": "kaiwa1",
+      "context": "The volitional counterpart to 気になる: you choose to dwell on it, marked with を. 気にしないで — don't worry about it.",
+      "example_sentence": "そんな小さなことを気にしないでください。",
+      "example_reading": "そんな ちいさな こと を き に しないで ください。",
+      "example_meaning": "Please don't worry about such a small thing."
+    },
+    {
+      "word": "どうしても",
+      "reading": "どうしても",
+      "meanings": [
+        "no matter how hard one tries",
+        "absolutely",
+        "by all means"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうやっても",
+      "category": "kaiwa1",
+      "context": "文法ノート4. With a negative: 'no matter what I do, I can't ~.' With a positive: 'absolutely must.' どうしても行きたい — I want to go no matter what.",
+      "example_sentence": "どうしても思い出せない名前がある。",
+      "example_reading": "どうしても おもいだせない なまえ が ある。",
+      "example_meaning": "There's a name I simply cannot recall."
+    },
+    {
+      "word": "話し込む",
+      "reading": "はなしこむ",
+      "meanings": [
+        "to become absorbed in talking",
+        "to talk at length"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "長く話す",
+      "category": "kaiwa1",
+      "context": "話す + 込む. The 〜込む suffix adds 'deeply / thoroughly' — you talk so absorbedly you lose track of time. Compare 考え込む, 溶け込む in this same chapter.",
+      "example_sentence": "つい話し込んで、終電を逃してしまった。",
+      "example_reading": "つい はなしこんで、 しゅうでん を のがして しまった。",
+      "example_meaning": "I got so caught up talking that I missed the last train."
+    },
+    {
+      "word": "ちょうだい",
+      "reading": "ちょうだい",
+      "meanings": [
+        "please (give me)",
+        "gimme"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ください",
+      "category": "kaiwa1",
+      "context": "Colloquial ください, used mostly by children and women. 待ってちょうだい — wait, would you. Softer and more familiar than ください.",
+      "example_sentence": "ちょっと待ってちょうだい。",
+      "example_reading": "ちょっと まって ちょうだい。",
+      "example_meaning": "Hold on a second, would you."
+    },
+    {
+      "word": "気をつける",
+      "reading": "きをつける",
+      "meanings": [
+        "to pay attention to",
+        "to be careful of"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "注意する",
+      "category": "kaiwa1",
+      "context": "文法ノート6. Takes に for the thing you're watching out for: 車に気をつけて. As a parting phrase, 気をつけて means 'take care / travel safe.'",
+      "example_sentence": "これからは時間に気をつけます。",
+      "example_reading": "これから は じかん に き を つけます。",
+      "example_meaning": "I'll be careful about the time from now on."
+    },
+    {
+      "word": "関係",
+      "reading": "かんけい",
+      "meanings": [
+        "relationship",
+        "connection",
+        "relevance"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "つながり",
+      "category": "kaiwa2",
+      "context": "人間関係 — interpersonal relationships (a key phrase in this chapter). 関係ない — that's got nothing to do with it.",
+      "example_sentence": "ホストファミリーとの関係がぎくしゃくしている。",
+      "example_reading": "ホストファミリー と の かんけい が ぎくしゃく して いる。",
+      "example_meaning": "Things have gotten awkward with my host family."
+    },
+    {
+      "word": "手紙",
+      "reading": "てがみ",
+      "meanings": [
+        "letter"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "レター",
+      "category": "kaiwa2",
+      "context": "手紙を書く/出す — write/send a letter. Note: 紙 alone is 'paper'; the compound is 'hand-paper.'",
+      "example_sentence": "親からの手紙を読んで、少し考えさせられた。",
+      "example_reading": "おや から の てがみ を よんで、 すこし かんがえさせられた。",
+      "example_meaning": "Reading the letter from my parents gave me something to think about."
+    },
+    {
+      "word": "独立した",
+      "reading": "どくりつした",
+      "meanings": [
+        "independent",
+        "self-reliant"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自立した",
+      "category": "kaiwa2",
+      "context": "独立 as a noun means 'independence' (of a country or a person). Used attributively as 独立した〜. See also 独立精神 in the reading.",
+      "example_sentence": "親から独立した生活を始めたい。",
+      "example_reading": "おや から どくりつ した せいかつ を はじめたい。",
+      "example_meaning": "I want to start a life independent from my parents."
+    },
+    {
+      "word": "人間",
+      "reading": "にんげん",
+      "meanings": [
+        "person",
+        "human being",
+        "character (of a person)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "人",
+      "category": "kaiwa2",
+      "context": "Beyond 'human,' it often means 'the kind of person someone is': 独立した人間 — an independent person. 人間関係 — human relationships.",
+      "example_sentence": "彼は独立した人間として扱われたがっている。",
+      "example_reading": "かれ は どくりつ した にんげん と して あつかわれたがって いる。",
+      "example_meaning": "He wants to be treated as an independent person."
+    },
+    {
+      "word": "何だか",
+      "reading": "なんだか",
+      "meanings": [
+        "somehow",
+        "for some reason",
+        "kind of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なんとなく",
+      "category": "kaiwa2",
+      "context": "A hedge for a feeling you can't pin down. Near-synonym 何となく (also in Ch.12) — 何だか leans toward describing a state, 何となく toward an action without clear reason.",
+      "example_sentence": "何だか今日は落ち着かない。",
+      "example_reading": "なんだか きょう は おちつかない。",
+      "example_meaning": "For some reason I feel unsettled today."
+    },
+    {
+      "word": "知らせる",
+      "reading": "しらせる",
+      "meanings": [
+        "to inform",
+        "to let know",
+        "to notify"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "伝える",
+      "category": "kaiwa2",
+      "context": "Pattern: （〜に…を）知らせる — inform someone of something. The causative-like form of 知る. The noun お知らせ means 'notice / announcement.'",
+      "example_sentence": "遅くなる時は必ず知らせてください。",
+      "example_reading": "おそく なる とき は かならず しらせて ください。",
+      "example_meaning": "Please always let me know when you'll be late."
+    },
+    {
+      "word": "寝坊する",
+      "reading": "ねぼうする",
+      "meanings": [
+        "to oversleep"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "寝過ごす",
+      "category": "kaiwa3",
+      "context": "朝寝坊 — a late riser / sleeping in. The 坊 suffix appears in several affectionate-but-critical labels (甘えん坊, 食いしん坊).",
+      "example_sentence": "寝坊して一時間目の授業に遅れた。",
+      "example_reading": "ねぼう して いちじかんめ の じゅぎょう に おくれた。",
+      "example_meaning": "I overslept and was late to first period."
+    },
+    {
+      "word": "だめ",
+      "reading": "だめ",
+      "meanings": [
+        "no good",
+        "must not",
+        "useless"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いけない",
+      "category": "kaiwa3",
+      "context": "na-adjective. 〜てはだめ — you mustn't ~. Also 'broken/hopeless': このパソコンはもうだめだ. Sometimes written 駄目.",
+      "example_sentence": "そんな言い方をしてはだめだよ。",
+      "example_reading": "そんな いいかた を して は だめ だ よ。",
+      "example_meaning": "You mustn't talk that way."
+    },
+    {
+      "word": "しかる",
+      "reading": "しかる",
+      "meanings": [
+        "to scold",
+        "to tell off"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "注意する",
+      "category": "kaiwa3",
+      "context": "Usually written 叱る. A superior scolding a subordinate — parent to child, teacher to student. Passive 叱られる (to get scolded) is the form you'll hear most.",
+      "example_sentence": "母に大きな声でしかられた。",
+      "example_reading": "はは に おおきな こえ で しかられた。",
+      "example_meaning": "My mother scolded me loudly."
+    },
+    {
+      "word": "みっともない",
+      "reading": "みっともない",
+      "meanings": [
+        "indecent",
+        "unsightly",
+        "shameful"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "恥ずかしい",
+      "category": "kaiwa3",
+      "context": "Stronger than 恥ずかしい — it's about how bad you look to others, not how you feel. A classic parental scolding word: みっともないからやめなさい.",
+      "example_sentence": "人前でそんなことをするのはみっともない。",
+      "example_reading": "ひとまえ で そんな こと を する の は みっともない。",
+      "example_meaning": "Doing that in front of people is unseemly."
+    },
+    {
+      "word": "おこる",
+      "reading": "おこる",
+      "meanings": [
+        "to scold angrily",
+        "to get angry"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "しかる",
+      "category": "kaiwa3",
+      "context": "Usually written 怒る. Two uses: 'to be angry' (怒っている) and colloquially 'to scold' — overlapping with しかる but more emotional and less pedagogical.",
+      "example_sentence": "父にひどくおこられてしまった。",
+      "example_reading": "ちち に ひどく おこられて しまった。",
+      "example_meaning": "My father chewed me out badly."
+    },
+    {
+      "word": "足",
+      "reading": "あし",
+      "meanings": [
+        "leg",
+        "foot"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "脚",
+      "category": "kaiwa3",
+      "context": "Japanese uses one word for both leg and foot. 足 covers the whole limb; 脚 (same reading) specifically emphasizes the leg. Idiom: 足を組む — to cross one's legs.",
+      "example_sentence": "食事中に足を組むのは行儀が悪い。",
+      "example_reading": "しょくじ ちゅう に あし を くむ の は ぎょうぎ が わるい。",
+      "example_meaning": "Crossing your legs during a meal is bad manners."
+    },
+    {
+      "word": "側",
+      "reading": "がわ",
+      "meanings": [
+        "side",
+        "the ~ side (party)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "方",
+      "category": "kaiwa3",
+      "context": "As a suffix: 右側 (right side), 相手側 (the other party), ホストファミリー側 (the host family's side). Distinct from 側 read そば, meaning 'nearby.'",
+      "example_sentence": "こちら側にも悪いところがあった。",
+      "example_reading": "こちら がわ に も わるい ところ が あった。",
+      "example_meaning": "There were things at fault on our side too."
+    },
+    {
+      "word": "口",
+      "reading": "くち",
+      "meanings": [
+        "mouth",
+        "opening",
+        "way of speaking"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "kaiwa3",
+      "context": "The base of a whole family of idioms in this chapter: 口をはさむ (butt in), 口やかましい (nagging), 悪口 (bad-mouthing). Also 口が堅い (tight-lipped), 口が軽い (blabbermouth).",
+      "example_sentence": "口は災いのもとだと言われている。",
+      "example_reading": "くち は わざわい の もと だ と いわれて いる。",
+      "example_meaning": "They say the mouth is the source of trouble."
+    },
+    {
+      "word": "口をはさむ",
+      "reading": "くちをはさむ",
+      "meanings": [
+        "to butt in",
+        "to interrupt",
+        "to put in a word"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "割り込む",
+      "category": "kaiwa3",
+      "context": "Literally 'to insert one's mouth' — often written 口を挟む. Usually critical: butting into a conversation that isn't yours.",
+      "example_sentence": "人の話に口をはさむものではない。",
+      "example_reading": "ひと の はなし に くち を はさむ もの で は ない。",
+      "example_meaning": "One shouldn't butt into other people's conversations."
+    },
+    {
+      "word": "やかましい",
+      "reading": "やかましい",
+      "meanings": [
+        "fussy",
+        "overly critical",
+        "noisy"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "うるさい",
+      "category": "kaiwa3",
+      "context": "Two senses: physically noisy, and 'picky/nitpicking about rules.' Here it's the second. See the compound 口やかましい in the reading.",
+      "example_sentence": "うちのホストマザーは時間にやかましい。",
+      "example_reading": "うち の ホストマザー は じかん に やかましい。",
+      "example_meaning": "My host mother is a stickler about time."
+    },
+    {
+      "word": "我慢する",
+      "reading": "がまんする",
+      "meanings": [
+        "to endure",
+        "to put up with",
+        "to hold back"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "耐える",
+      "category": "kaiwa3",
+      "context": "A cultural keystone: bearing something without complaint. 我慢できない — I can't stand it. Also for physical urges: トイレを我慢する.",
+      "example_sentence": "言いたいことを我慢して黙っていた。",
+      "example_reading": "いいたい こと を がまん して だまって いた。",
+      "example_meaning": "I held back what I wanted to say and stayed quiet."
+    },
+    {
+      "word": "暮らす",
+      "reading": "くらす",
+      "meanings": [
+        "to live",
+        "to get by",
+        "to make a living"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "生活する",
+      "category": "yomimono",
+      "context": "Emphasizes daily living, not just residence — contrast 住む (to reside at an address). 暮らし — one's livelihood / daily life.",
+      "example_sentence": "一年間、日本の家庭で暮らした。",
+      "example_reading": "いちねんかん、 にほん の かてい で くらした。",
+      "example_meaning": "I lived with a Japanese family for a year."
+    },
+    {
+      "word": "短い",
+      "reading": "みじかい",
+      "meanings": [
+        "short (in length or duration)"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "yomimono",
+      "context": "For both physical length and time. Opposite 長い. Note: for 'short in height,' Japanese uses 背が低い, not 短い.",
+      "example_sentence": "短い間だったが、忘れられない経験になった。",
+      "example_reading": "みじかい あいだ だった が、 わすれられない けいけん に なった。",
+      "example_meaning": "It was a short time, but it became an unforgettable experience."
+    },
+    {
+      "word": "約",
+      "reading": "やく",
+      "meanings": [
+        "approximately",
+        "about"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "だいたい",
+      "category": "yomimono",
+      "context": "A prefix placed before a number: 約三か月 — about three months. More formal/written than だいたい or 〜ぐらい.",
+      "example_sentence": "約三か月、松本さんの家に滞在した。",
+      "example_reading": "やく さんかげつ、 まつもと さん の いえ に たいざい した。",
+      "example_meaning": "I stayed at the Matsumoto family's home for about three months."
+    },
+    {
+      "word": "過ごす",
+      "reading": "すごす",
+      "meanings": [
+        "to spend (time)",
+        "to pass (time)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "時間を使う",
+      "category": "yomimono",
+      "context": "TRANSITIVE — you spend time deliberately: 楽しく過ごす. Its intransitive partner 過ぎる means time passes on its own: 時間が過ぎる.",
+      "example_sentence": "日本で過ごした日々は宝物だ。",
+      "example_reading": "にほん で すごした ひび は たからもの だ。",
+      "example_meaning": "The days I spent in Japan are a treasure."
+    },
+    {
+      "word": "色々",
+      "reading": "いろいろ",
+      "meanings": [
+        "various",
+        "all sorts of"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "さまざま",
+      "category": "yomimono",
+      "context": "na-adjective: 色々な経験. Literally 'colors upon colors.' The more formal written equivalent is 様々 (さまざま).",
+      "example_sentence": "色々なことを学ぶことができた。",
+      "example_reading": "いろいろな こと を まなぶ こと が できた。",
+      "example_meaning": "I was able to learn all sorts of things."
+    },
+    {
+      "word": "得る",
+      "reading": "える",
+      "meanings": [
+        "to gain",
+        "to obtain",
+        "to learn"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "手に入れる",
+      "category": "yomimono",
+      "context": "Written/formal. Also read うる in the suffix 〜得る ('can possibly ~': ありうる). 情報を得る — obtain information.",
+      "example_sentence": "この経験から多くのことを得た。",
+      "example_reading": "この けいけん から おおく の こと を えた。",
+      "example_meaning": "I gained a great deal from this experience."
+    },
+    {
+      "word": "笑顔",
+      "reading": "えがお",
+      "meanings": [
+        "smile",
+        "smiling face"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "スマイル",
+      "category": "yomimono",
+      "context": "Irregular compound reading — not わらいがお. 笑顔が似合う — a smile suits someone (exactly the phrasing used in this reading).",
+      "example_sentence": "彼女はいつも明るい笑顔で迎えてくれた。",
+      "example_reading": "かのじょ は いつも あかるい えがお で むかえて くれた。",
+      "example_meaning": "She always greeted me with a bright smile."
+    },
+    {
+      "word": "似合う",
+      "reading": "にあう",
+      "meanings": [
+        "to suit",
+        "to look good on",
+        "to match"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ぴったり合う",
+      "category": "yomimono",
+      "context": "The thing that suits takes が, the person takes に: その服は君に似合う. A standard compliment.",
+      "example_sentence": "笑顔がとてもよく似合う人だった。",
+      "example_reading": "えがお が とても よく にあう ひと だった。",
+      "example_meaning": "She was a person whose smile suited her perfectly."
+    },
+    {
+      "word": "明るい",
+      "reading": "あかるい",
+      "meanings": [
+        "cheerful",
+        "bright"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "元気な",
+      "category": "yomimono",
+      "context": "Both literal brightness (明るい部屋) and personality (明るい性格 — a sunny disposition). Opposite for personality: 暗い.",
+      "example_sentence": "明るくてやさしい人だと形容されている。",
+      "example_reading": "あかるくて やさしい ひと だ と けいよう されて いる。",
+      "example_meaning": "She's described as a cheerful and kind person."
+    },
+    {
+      "word": "やさしい",
+      "reading": "やさしい",
+      "meanings": [
+        "kind",
+        "sweet",
+        "gentle"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "親切な",
+      "category": "yomimono",
+      "context": "Homophone trap: 優しい (kind) vs 易しい (easy). Same reading やさしい, opposite domains. Here it's 優しい.",
+      "example_sentence": "やさしい言葉をかけてもらって救われた。",
+      "example_reading": "やさしい ことば を かけて もらって すくわれた。",
+      "example_meaning": "Being spoken to kindly was a relief."
+    },
+    {
+      "word": "気遣う",
+      "reading": "きづかう",
+      "meanings": [
+        "to be concerned about",
+        "to worry over",
+        "to show consideration"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "心配する",
+      "category": "yomimono",
+      "context": "Caring attentiveness toward another person's feelings or wellbeing. The noun 気遣い is high praise: 気遣いのできる人 — a thoughtful person.",
+      "example_sentence": "いつも私の体調を気遣ってくれた。",
+      "example_reading": "いつも わたし の たいちょう を きづかって くれた。",
+      "example_meaning": "She was always concerned about my health."
+    },
+    {
+      "word": "様",
+      "reading": "さま",
+      "meanings": [
+        "state",
+        "appearance",
+        "the way (someone does something)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "様子",
+      "category": "yomimono",
+      "context": "Here it's the noun 'manner/state,' not the honorific 〜様. Related: 様子 (ようす — appearance, situation), 有様 (ありさま — sorry state).",
+      "example_sentence": "その様を見て、彼女の優しさが分かった。",
+      "example_reading": "その さま を みて、 かのじょ の やさしさ が わかった。",
+      "example_meaning": "Seeing the way she acted, I understood her kindness."
+    },
+    {
+      "word": "形容する",
+      "reading": "けいようする",
+      "meanings": [
+        "to describe",
+        "to express figuratively",
+        "to characterize"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "表現する",
+      "category": "yomimono",
+      "context": "Literary. Related: 形容詞 (adjective — literally 'describing word'). 言葉では形容できない — indescribable.",
+      "example_sentence": "言葉では形容できないほど嬉しかった。",
+      "example_reading": "ことば で は けいよう できない ほど うれしかった。",
+      "example_meaning": "I was happier than words could describe."
+    },
+    {
+      "word": "〜くらいだ",
+      "reading": "くらいだ",
+      "meanings": [
+        "to the extent that ~",
+        "so much that ~"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ほどだ",
+      "category": "yomimono",
+      "context": "文法ノート9. Attaches to a plain-form clause to show degree: 泣きたいくらいだ — I'm so upset I could cry. Also written ぐらいだ.",
+      "example_sentence": "信じられないくらいやさしくしてもらった。",
+      "example_reading": "しんじられない くらい やさしく して もらった。",
+      "example_meaning": "They treated me so kindly it was hard to believe."
+    },
+    {
+      "word": "中略",
+      "reading": "ちゅうりゃく",
+      "meanings": [
+        "middle portion omitted"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "（省略）",
+      "category": "yomimono",
+      "context": "An editorial convention marking a cut in a quoted text. Pairs with 前略 (opening omitted) and 後略 (ending omitted). You'll see these bracketed in readings.",
+      "example_sentence": "（中略）と書かれた部分は省略されている。",
+      "example_reading": "（ちゅうりゃく） と かかれた ぶぶん は しょうりゃく されて いる。",
+      "example_meaning": "The part marked '(omitted)' has been cut."
+    },
+    {
+      "word": "彼女",
+      "reading": "かのじょ",
+      "meanings": [
+        "she",
+        "her",
+        "girlfriend"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "あの人",
+      "category": "yomimono",
+      "context": "Both the third-person pronoun and 'girlfriend' — context decides. In written essays like this reading it's simply 'she.'",
+      "example_sentence": "彼女は日本の生活に溶け込んでいった。",
+      "example_reading": "かのじょ は にほん の せいかつ に とけこんで いった。",
+      "example_meaning": "She gradually blended into life in Japan."
+    },
+    {
+      "word": "溶け込む",
+      "reading": "とけこむ",
+      "meanings": [
+        "to melt into",
+        "to blend in",
+        "to become part of"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "馴染む",
+      "category": "yomimono",
+      "context": "溶ける (dissolve) + 込む (deeply into). The standard verb for adapting to a new group or culture — the central theme of this reading.",
+      "example_sentence": "少しずつ家族の中に溶け込んでいった。",
+      "example_reading": "すこしずつ かぞく の なか に とけこんで いった。",
+      "example_meaning": "Little by little I blended into the family."
+    },
+    {
+      "word": "ふざけ合う",
+      "reading": "ふざけあう",
+      "meanings": [
+        "to kid each other",
+        "to joke around together"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "冗談を言い合う",
+      "category": "yomimono",
+      "context": "ふざける (to fool around) + 合う (mutually). The 〜合う suffix makes any action reciprocal: 話し合う, 助け合う, 認め合う.",
+      "example_sentence": "弟とふざけ合うのが楽しかった。",
+      "example_reading": "おとうと と ふざけあう の が たのしかった。",
+      "example_meaning": "Joking around with my younger brother was fun."
+    },
+    {
+      "word": "〜ものだ",
+      "reading": "ものだ",
+      "meanings": [
+        "used to (do something)",
+        "would often"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "よく〜した",
+      "category": "yomimono",
+      "context": "文法ノート10. Past plain form + ものだ = nostalgic recollection of a repeated past habit. Distinct from ものだ after dictionary form, which states a general truth.",
+      "example_sentence": "よく二人で夜遅くまで話したものだ。",
+      "example_reading": "よく ふたり で よる おそく まで はなした もの だ。",
+      "example_meaning": "The two of us used to talk late into the night."
+    },
+    {
+      "word": "弟",
+      "reading": "おとうと",
+      "meanings": [
+        "younger brother"
+      ],
+      "jlpt": "N5",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "yomimono",
+      "context": "Your own younger brother. Someone else's is 弟さん. Japanese requires you to specify older/younger: 兄 vs 弟, 姉 vs 妹.",
+      "example_sentence": "ホストファミリーの弟とすぐ仲良くなった。",
+      "example_reading": "ホストファミリー の おとうと と すぐ なかよく なった。",
+      "example_meaning": "I quickly became friendly with my host family's younger son."
+    },
+    {
+      "word": "身振り",
+      "reading": "みぶり",
+      "meanings": [
+        "gesture",
+        "body language"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ジェスチャー",
+      "context": "身 (body) + 振り (motion). Almost always paired with 手振り as the set phrase 身振り手振り — gesturing with your whole body, the fallback when words fail.",
+      "category": "yomimono",
+      "example_sentence": "身振り手振りで何とか伝えようとした。",
+      "example_reading": "みぶり てぶり で なんとか つたえよう と した。",
+      "example_meaning": "I tried to get it across somehow with gestures."
+    },
+    {
+      "word": "手振り",
+      "reading": "てぶり",
+      "meanings": [
+        "hand gesture"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ジェスチャー",
+      "category": "yomimono",
+      "context": "The hand half of 身振り手振り. Rarely used alone — learn the pair together as one four-mora chunk.",
+      "example_sentence": "言葉が出ないので手振りで説明した。",
+      "example_reading": "ことば が でない ので てぶり で せつめい した。",
+      "example_meaning": "The words wouldn't come, so I explained with hand gestures."
+    },
+    {
+      "word": "相違",
+      "reading": "そうい",
+      "meanings": [
+        "difference",
+        "discrepancy"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "違い",
+      "category": "yomimono",
+      "context": "Formal/written for 違い. 文化の相違 — cultural differences. Also the set phrase 相違ない — there's no doubt.",
+      "example_sentence": "文化の相違から誤解が生まれた。",
+      "example_reading": "ぶんか の そうい から ごかい が うまれた。",
+      "example_meaning": "Misunderstandings arose from cultural differences."
+    },
+    {
+      "word": "習いたて",
+      "reading": "ならいたて",
+      "meanings": [
+        "newly learned",
+        "just picked up"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "習ったばかり",
+      "category": "yomimono",
+      "context": "文法ノート11. The 〜たて suffix means 'freshly done': 焼きたて (fresh-baked), 出来たて (just made), できたてほやほや. Used attributively: 習いたての日本語.",
+      "example_sentence": "習いたての日本語で一生懸命話した。",
+      "example_reading": "ならいたて の にほんご で いっしょうけんめい はなした。",
+      "example_meaning": "I spoke as hard as I could in my newly learned Japanese."
+    },
+    {
+      "word": "積極的",
+      "reading": "せっきょくてき",
+      "meanings": [
+        "active",
+        "proactive",
+        "positive (in attitude)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自分から進んで",
+      "category": "yomimono",
+      "context": "na-adjective; the adverb 積極的に means 'actively, on one's own initiative.' Opposite: 消極的 (passive, reticent). Common in self-evaluations and job interviews.",
+      "example_sentence": "積極的に家族の行事に参加した。",
+      "example_reading": "せっきょくてき に かぞく の ぎょうじ に さんか した。",
+      "example_meaning": "I actively took part in the family's events."
+    },
+    {
+      "word": "参加する",
+      "reading": "さんかする",
+      "meanings": [
+        "to participate",
+        "to take part",
+        "to join in"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "加わる",
+      "category": "yomimono",
+      "context": "Takes に for what you join: 会議に参加する. 参加者 — participant. Compare 加入する (formally enroll in an organization).",
+      "example_sentence": "地域のお祭りに参加させてもらった。",
+      "example_reading": "ちいき の おまつり に さんか させて もらった。",
+      "example_meaning": "They let me take part in the local festival."
+    },
+    {
+      "word": "尋ねる",
+      "reading": "たずねる",
+      "meanings": [
+        "to inquire",
+        "to ask"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "質問する",
+      "category": "yomimono",
+      "context": "Homophone trap: 尋ねる (to ask) vs 訪ねる (to visit) — identical reading たずねる. More formal than 聞く. The humble form is 伺う.",
+      "example_sentence": "分からないことは何でも尋ねるようにした。",
+      "example_reading": "わからない こと は なんでも たずねる よう に した。",
+      "example_meaning": "I made a point of asking about anything I didn't understand."
+    },
+    {
+      "word": "アメリカ流",
+      "reading": "アメリカりゅう",
+      "meanings": [
+        "the American way",
+        "American-style"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "アメリカのやり方",
+      "category": "yomimono",
+      "context": "The 〜流 suffix means 'in the style/school of': 自己流 (one's own way), 日本流, 我流. Useful for contrasting cultural approaches.",
+      "example_sentence": "アメリカ流のはっきりした言い方は誤解されやすい。",
+      "example_reading": "アメリカりゅう の はっきり した いいかた は ごかい されやすい。",
+      "example_meaning": "The direct American way of speaking is easily misunderstood."
+    },
+    {
+      "word": "常に",
+      "reading": "つねに",
+      "meanings": [
+        "always",
+        "at all times",
+        "constantly"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "いつも",
+      "category": "yomimono",
+      "context": "Written-language いつも. You'll see it in essays and formal writing but rarely in conversation — using it in casual speech sounds stiff.",
+      "example_sentence": "常に相手の気持ちを考えるようにしている。",
+      "example_reading": "つね に あいて の きもち を かんがえる よう に して いる。",
+      "example_meaning": "I always try to consider the other person's feelings."
+    },
+    {
+      "word": "返る",
+      "reading": "かえる",
+      "meanings": [
+        "to return (of a thing)",
+        "to come back"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "戻る",
+      "category": "yomimono",
+      "context": "INTRANSITIVE [v.i.] — something comes back on its own: 返事が返る. Its transitive partner is 返す (to give back). Distinct from 帰る (a person going home), same reading.",
+      "example_sentence": "質問しても答えが返ってこなかった。",
+      "example_reading": "しつもん して も こたえ が かえって こなかった。",
+      "example_meaning": "Even when I asked, no answer came back."
+    },
+    {
+      "word": "納得する",
+      "reading": "なっとくする",
+      "meanings": [
+        "to understand and accept",
+        "to be convinced",
+        "to be satisfied with"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "理解して受け入れる",
+      "category": "yomimono",
+      "context": "More than 分かる — it's intellectual understanding PLUS emotional acceptance. 納得がいかない — I understand but I can't accept it.",
+      "example_sentence": "説明を聞いてやっと納得した。",
+      "example_reading": "せつめい を きいて やっと なっとく した。",
+      "example_meaning": "After hearing the explanation I was finally satisfied."
+    },
+    {
+      "word": "しまい",
+      "reading": "しまい",
+      "meanings": [
+        "the end",
+        "the last"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "終わり",
+      "category": "yomimono",
+      "context": "Sometimes written 仕舞い. しまいには — in the end, eventually. The verb しまう (to finish/put away) is the same root.",
+      "example_sentence": "しまいには何も言えなくなってしまった。",
+      "example_reading": "しまい に は なにも いえなく なって しまった。",
+      "example_meaning": "In the end I couldn't say anything at all."
+    },
+    {
+      "word": "先手を打つ",
+      "reading": "せんてをうつ",
+      "meanings": [
+        "to make the first move",
+        "to preempt",
+        "to act in anticipation"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "先に行動する",
+      "category": "yomimono",
+      "context": "From board games (go/shogi): 先手 is the first move. Taking the initiative before the other side can act. Opposite: 後手に回る — to fall behind.",
+      "example_sentence": "文句を言われる前に先手を打って謝った。",
+      "example_reading": "もんく を いわれる まえ に せんて を うって あやまった。",
+      "example_meaning": "I apologized preemptively before they could complain."
+    },
+    {
+      "word": "異文化",
+      "reading": "いぶんか",
+      "meanings": [
+        "different culture",
+        "foreign culture"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "他の文化",
+      "category": "yomimono",
+      "context": "異 (different) + 文化. 異文化理解 — cross-cultural understanding; 異文化コミュニケーション. The academic frame for this whole chapter.",
+      "example_sentence": "異文化の中で暮らすのは簡単ではない。",
+      "example_reading": "いぶんか の なか で くらす の は かんたん で は ない。",
+      "example_meaning": "Living inside a different culture isn't easy."
+    },
+    {
+      "word": "圏",
+      "reading": "けん",
+      "meanings": [
+        "sphere",
+        "zone",
+        "range"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "範囲",
+      "category": "yomimono",
+      "context": "A suffix marking a zone of influence: 文化圏 (cultural sphere), 首都圏 (greater Tokyo area), 通勤圏 (commuting range), 圏外 (out of signal range).",
+      "example_sentence": "同じ文化圏の人とは話が通じやすい。",
+      "example_reading": "おなじ ぶんかけん の ひと と は はなし が つうじやすい。",
+      "example_meaning": "It's easier to communicate with people from the same cultural sphere."
+    },
+    {
+      "word": "身を以て",
+      "reading": "みをもって",
+      "meanings": [
+        "personally",
+        "through one's own experience",
+        "firsthand"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "自分で経験して",
+      "category": "yomimono",
+      "context": "Literally 'with one's own body.' Also written 身をもって. Emphasizes lived, not theoretical, knowledge — the essay's whole premise.",
+      "example_sentence": "文化の違いを身を以て知った。",
+      "example_reading": "ぶんか の ちがい を み を もって しった。",
+      "example_meaning": "I learned about cultural differences firsthand."
+    },
+    {
+      "word": "〜上",
+      "reading": "じょう",
+      "meanings": [
+        "for reasons of ~",
+        "from the standpoint of ~",
+        "in terms of ~"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜の点で",
+      "category": "yomimono",
+      "context": "A formal noun suffix: 教育上 (for educational reasons), 安全上 (for safety reasons), 仕事上 (work-related). Common in written and business Japanese.",
+      "example_sentence": "教育上よくないと言われた。",
+      "example_reading": "きょういく じょう よくない と いわれた。",
+      "example_meaning": "I was told it was bad from an educational standpoint."
+    },
+    {
+      "word": "目に余る",
+      "reading": "めにあまる",
+      "meanings": [
+        "to be too much to tolerate",
+        "to be intolerable",
+        "to be glaring"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "我慢できない",
+      "category": "yomimono",
+      "context": "Literally 'to overflow the eye' — bad behavior so conspicuous it can't be overlooked. 目に余る行為 — intolerable conduct.",
+      "example_sentence": "彼の態度は目に余るものがあった。",
+      "example_reading": "かれ の たいど は め に あまる もの が あった。",
+      "example_meaning": "There was something intolerable about his attitude."
+    },
+    {
+      "word": "気にかかる",
+      "reading": "きにかかる",
+      "meanings": [
+        "to weigh on one's mind",
+        "to make one uneasy"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "心配だ",
+      "category": "yomimono",
+      "context": "Close to 気になる, but heavier — a lingering unease rather than mere curiosity. The transitive counterpart is 気にかける (to be mindful of someone).",
+      "example_sentence": "あの時の言葉がずっと気にかかっている。",
+      "example_reading": "あの とき の ことば が ずっと き に かかって いる。",
+      "example_meaning": "What was said back then has been weighing on me ever since."
+    },
+    {
+      "word": "注意する",
+      "reading": "ちゅういする",
+      "meanings": [
+        "to caution",
+        "to warn",
+        "to advise",
+        "to pay attention"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "気をつけるよう言う",
+      "category": "yomimono",
+      "context": "Two directions: paying attention yourself (足元に注意する) and warning someone else (子供を注意する). In this reading it's the second — a mild telling-off.",
+      "example_sentence": "何度も注意されて嫌になった。",
+      "example_reading": "なんども ちゅうい されて いや に なった。",
+      "example_meaning": "Being warned over and over got tiresome."
+    },
+    {
+      "word": "助言",
+      "reading": "じょげん",
+      "meanings": [
+        "advice",
+        "counsel"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "アドバイス",
+      "category": "yomimono",
+      "context": "Formal/written; the everyday word is アドバイス. Note the reading じょげん, not すけごと. 助言を求める — to seek advice.",
+      "example_sentence": "先輩の助言はとてもありがたかった。",
+      "example_reading": "せんぱい の じょげん は とても ありがたかった。",
+      "example_meaning": "My senior's advice was very welcome."
+    },
+    {
+      "word": "何度となく",
+      "reading": "なんどとなく",
+      "meanings": [
+        "many times",
+        "time and time again"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "何度も",
+      "category": "yomimono",
+      "context": "A more literary 何度も. The 〜となく pattern also gives 幾度となく (countless times) and 何人となく.",
+      "example_sentence": "何度となく同じことを言われた。",
+      "example_reading": "なんど と なく おなじ こと を いわれた。",
+      "example_meaning": "I was told the same thing time and time again."
+    },
+    {
+      "word": "口やかましい",
+      "reading": "くちやかましい",
+      "meanings": [
+        "nagging",
+        "critical",
+        "fault-finding"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "うるさく言う",
+      "category": "yomimono",
+      "context": "口 + やかましい — constantly criticizing out loud. Also written 口喧しい. A near-synonym is 口うるさい.",
+      "example_sentence": "口やかましく言われるのが辛かった。",
+      "example_reading": "くちやかましく いわれる の が つらかった。",
+      "example_meaning": "Being nagged at constantly was hard to take."
+    },
+    {
+      "word": "陰で",
+      "reading": "かげで",
+      "meanings": [
+        "behind someone's back",
+        "in secret"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見えないところで",
+      "category": "yomimono",
+      "context": "陰 is 'shade/shadow.' 陰で悪口を言う — to badmouth someone behind their back. Distinguish from お陰で (thanks to), which is positive.",
+      "example_sentence": "陰で何か言われているような気がした。",
+      "example_reading": "かげ で なにか いわれて いる よう な き が した。",
+      "example_meaning": "I had a feeling something was being said behind my back."
+    },
+    {
+      "word": "こそこそと",
+      "reading": "こそこそと",
+      "meanings": [
+        "in whispers",
+        "secretly",
+        "furtively"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ひそひそと",
+      "category": "yomimono",
+      "context": "Onomatopoeia with a sneaky, guilty feel — hiding something. The near-synonym ひそひそ is neutral about whispering; こそこそ implies you shouldn't be doing it.",
+      "example_sentence": "隣の部屋でこそこそと話し声が聞こえた。",
+      "example_reading": "となり の へや で こそこそ と はなしごえ が きこえた。",
+      "example_meaning": "I could hear furtive voices in the next room."
+    },
+    {
+      "word": "悪口を言う",
+      "reading": "わるくちをいう",
+      "meanings": [
+        "to speak ill of someone",
+        "to badmouth"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "悪く言う",
+      "category": "yomimono",
+      "context": "悪口 is also read わるぐち. Often paired with 陰で: 陰で悪口を言う — talk trash behind someone's back.",
+      "example_sentence": "人の悪口を言うのはやめたほうがいい。",
+      "example_reading": "ひと の わるくち を いう の は やめた ほう が いい。",
+      "example_meaning": "You'd do better to stop speaking ill of people."
+    },
+    {
+      "word": "甘くする",
+      "reading": "あまくする",
+      "meanings": [
+        "to be lenient",
+        "to go easy on"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "厳しくしない",
+      "category": "yomimono",
+      "context": "Figurative 甘い — 'sweet' becomes 'soft/indulgent.' 親が子供に甘い — parents who spoil their kids. 考えが甘い — naive thinking. Opposite: 厳しい.",
+      "example_sentence": "外国人だからと甘くされるのは嫌だった。",
+      "example_reading": "がいこくじん だから と あまく される の は いや だった。",
+      "example_meaning": "I hated being gone easy on just because I was a foreigner."
+    },
+    {
+      "word": "失敗する",
+      "reading": "しっぱいする",
+      "meanings": [
+        "to fail",
+        "to be unsuccessful",
+        "to mess up"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "うまくいかない",
+      "category": "yomimono",
+      "context": "Opposite of 成功する (which appears in Ch.12). 失敗は成功のもと — failure is the foundation of success.",
+      "example_sentence": "何度も失敗しながら少しずつ覚えた。",
+      "example_reading": "なんども しっぱい しながら すこしずつ おぼえた。",
+      "example_meaning": "I learned bit by bit while failing many times."
+    },
+    {
+      "word": "使用",
+      "reading": "しよう",
+      "meanings": [
+        "use",
+        "usage"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "使うこと",
+      "category": "yomimono",
+      "context": "Formal noun for 使うこと. 使用禁止 — use prohibited; 使用中 — in use (on restroom doors). Homophone alert: 仕様 (specification) is also しよう.",
+      "example_sentence": "洗濯機の使用について注意された。",
+      "example_reading": "せんたくき の しよう に ついて ちゅうい された。",
+      "example_meaning": "I was cautioned about my use of the washing machine."
+    },
+    {
+      "word": "風邪をひく",
+      "reading": "かぜをひく",
+      "meanings": [
+        "to catch a cold"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "体調を崩す",
+      "category": "yomimono",
+      "context": "The verb must be ひく (引く), not なる or つかまえる. Note 風邪 (cold) vs 風 (wind) — same reading かぜ, different kanji.",
+      "example_sentence": "薄着をして風邪をひいてしまった。",
+      "example_reading": "うすぎ を して かぜ を ひいて しまった。",
+      "example_meaning": "I dressed too lightly and caught a cold."
+    },
+    {
+      "word": "無限に",
+      "reading": "むげんに",
+      "meanings": [
+        "without limit",
+        "infinitely",
+        "endlessly"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "限りなく",
+      "category": "yomimono",
+      "context": "無 (without) + 限 (limit). The noun 無限 means infinity. Opposite: 有限 (finite). 無限大 — infinity (mathematical).",
+      "example_sentence": "心配は無限に広がっていった。",
+      "example_reading": "しんぱい は むげん に ひろがって いった。",
+      "example_meaning": "The worry spread without limit."
+    },
+    {
+      "word": "結果",
+      "reading": "けっか",
+      "meanings": [
+        "result",
+        "outcome",
+        "consequence"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "結末",
+      "category": "yomimono",
+      "context": "Also functions as a connective: 〜した結果 — as a result of doing ~. Pairs with 原因 (cause).",
+      "example_sentence": "我慢し続けた結果、体調を崩した。",
+      "example_reading": "がまん しつづけた けっか、 たいちょう を くずした。",
+      "example_meaning": "As a result of enduring it, my health suffered."
+    },
+    {
+      "word": "みそ汁",
+      "reading": "みそしる",
+      "meanings": [
+        "miso soup"
+      ],
+      "jlpt": "N4",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お味噌汁",
+      "category": "yomimono",
+      "context": "Often written 味噌汁, politely お味噌汁. Note the reading of 汁 as しる (soup/broth) — the same kanji is ジュース-adjacent in 果汁 (かじゅう, fruit juice).",
+      "example_sentence": "毎朝みそ汁を作ってくれた。",
+      "example_reading": "まいあさ みそしる を つくって くれた。",
+      "example_meaning": "She made miso soup for me every morning."
+    },
+    {
+      "word": "全く〜ない",
+      "reading": "まったく〜ない",
+      "meanings": [
+        "not at all",
+        "completely not"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "全然〜ない",
+      "category": "yomimono",
+      "context": "Stronger and more written than 全然〜ない. Without a negative, 全く means 'entirely' or serves as an exclamation of exasperation: 全く、困ったものだ.",
+      "example_sentence": "その気持ちが全く分からなかった。",
+      "example_reading": "その きもち が まったく わからなかった。",
+      "example_meaning": "I didn't understand that feeling at all."
+    },
+    {
+      "word": "最後に",
+      "reading": "さいごに",
+      "meanings": [
+        "at the end",
+        "lastly",
+        "finally"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "終わりに",
+      "category": "yomimono",
+      "context": "Used to introduce a closing point in speech or writing. Pairs with 最初に (first of all). Note 最後 vs 最期 (さいご, one's dying moment).",
+      "example_sentence": "最後に、感謝の気持ちを伝えたい。",
+      "example_reading": "さいご に、 かんしゃ の きもち を つたえたい。",
+      "example_meaning": "Lastly, I'd like to express my gratitude."
+    },
+    {
+      "word": "洗濯",
+      "reading": "せんたく",
+      "meanings": [
+        "laundry",
+        "washing"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "洗い物",
+      "category": "yomimono",
+      "context": "洗濯する — do laundry; 洗濯物 — the laundry itself; 洗濯機 (せんたくき) — washing machine. Homophone: 選択 (choice) is also せんたく.",
+      "example_sentence": "洗濯は自分でするように言われた。",
+      "example_reading": "せんたく は じぶん で する よう に いわれた。",
+      "example_meaning": "I was told to do my own laundry."
+    },
+    {
+      "word": "だんだんと",
+      "reading": "だんだんと",
+      "meanings": [
+        "gradually",
+        "little by little"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "少しずつ",
+      "category": "yomimono",
+      "context": "Also just だんだん. Describes steady, incremental change — often over a long span. Compare 徐々に (more formal) and どんどん (faster, more forceful).",
+      "example_sentence": "だんだんと日本の生活に慣れてきた。",
+      "example_reading": "だんだん と にほん の せいかつ に なれて きた。",
+      "example_meaning": "I gradually got used to life in Japan."
+    },
+    {
+      "word": "独立精神",
+      "reading": "どくりつせいしん",
+      "meanings": [
+        "spirit of independence",
+        "self-reliance"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "自立心",
+      "category": "yomimono",
+      "context": "独立 + 精神 (spirit). A recurring theme of the essay — the writer feels her independence eroding under a protective host family.",
+      "example_sentence": "独立精神が薄らいでいくのを感じた。",
+      "example_reading": "どくりつ せいしん が うすらいで いく の を かんじた。",
+      "example_meaning": "I felt my spirit of independence fading."
+    },
+    {
+      "word": "薄らぐ",
+      "reading": "うすらぐ",
+      "meanings": [
+        "to fade",
+        "to diminish",
+        "to thin out"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "弱くなる",
+      "category": "yomimono",
+      "context": "From 薄い (thin/faint). Used for things that gradually weaken: 記憶が薄らぐ, 痛みが薄らぐ. More literary than 弱くなる.",
+      "example_sentence": "時間とともに不安は薄らいでいった。",
+      "example_reading": "じかん と ともに ふあん は うすらいで いった。",
+      "example_meaning": "With time, the anxiety faded."
+    },
+    {
+      "word": "悔やむ",
+      "reading": "くやむ",
+      "meanings": [
+        "to regret",
+        "to mourn"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "後悔する",
+      "category": "yomimono",
+      "context": "More literary than 後悔する, and it can also mean mourning the dead (お悔やみ — condolences). The adjective 悔しい means 'frustrating / mortifying.'",
+      "example_sentence": "あの時黙っていたことを今も悔やんでいる。",
+      "example_reading": "あの とき だまって いた こと を いま も くやんで いる。",
+      "example_meaning": "I still regret having stayed silent back then."
+    },
+    {
+      "word": "真の",
+      "reading": "しんの",
+      "meanings": [
+        "true",
+        "genuine",
+        "real"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "本当の",
+      "category": "yomimono",
+      "context": "Literary attributive for 本当の. 真の友人 — a true friend; 真の意味で — in the true sense. Only used before nouns.",
+      "example_sentence": "それが真の国際交流だと思う。",
+      "example_reading": "それ が しん の こくさい こうりゅう だ と おもう。",
+      "example_meaning": "I think that's true international exchange."
+    },
+    {
+      "word": "妨げ",
+      "reading": "さまたげ",
+      "meanings": [
+        "obstacle",
+        "hindrance",
+        "impediment"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "じゃま",
+      "category": "yomimono",
+      "context": "Noun form of 妨げる (to obstruct). 〜の妨げになる — to become an obstacle to ~. More formal than じゃま.",
+      "example_sentence": "過保護は自立の妨げになる。",
+      "example_reading": "かほご は じりつ の さまたげ に なる。",
+      "example_meaning": "Overprotection becomes an obstacle to independence."
+    },
+    {
+      "word": "涙を流す",
+      "reading": "なみだをながす",
+      "meanings": [
+        "to shed tears",
+        "to weep"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "泣く",
+      "category": "yomimono",
+      "context": "More descriptive and literary than 泣く. Related: 涙が出る (tears come), 涙もろい (easily moved to tears).",
+      "example_sentence": "別れの日、みんなで涙を流した。",
+      "example_reading": "わかれ の ひ、 みんな で なみだ を ながした。",
+      "example_meaning": "On the day we parted, we all shed tears."
+    },
+    {
+      "word": "決して〜ない",
+      "reading": "けっして〜ない",
+      "meanings": [
+        "by no means",
+        "never",
+        "not at all"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "絶対に〜ない",
+      "category": "yomimono",
+      "context": "Always requires a negative predicate. Emphatic and somewhat formal — a firm denial or vow. 決して忘れません — I will never forget.",
+      "example_sentence": "あの経験は決して無駄ではなかった。",
+      "example_reading": "あの けいけん は けっして むだ で は なかった。",
+      "example_meaning": "That experience was by no means wasted."
+    },
+    {
+      "word": "無駄",
+      "reading": "むだ",
+      "meanings": [
+        "waste",
+        "futility",
+        "pointless"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "意味がない",
+      "category": "yomimono",
+      "context": "na-adjective. 無駄にする — to waste; 無駄遣い — wasteful spending; 時間の無駄 — a waste of time.",
+      "example_sentence": "苦労したが、無駄な時間ではなかった。",
+      "example_reading": "くろう した が、 むだ な じかん で は なかった。",
+      "example_meaning": "It was hard, but it wasn't wasted time."
+    },
+    {
+      "word": "日々",
+      "reading": "ひび",
+      "meanings": [
+        "days",
+        "daily life",
+        "day after day"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "毎日",
+      "category": "yomimono",
+      "context": "The 々 is a repetition mark. More lyrical than 毎日 — used when reflecting on a stretch of life. Also adverbial: 日々成長する.",
+      "example_sentence": "日本で過ごした日々を今も思い出す。",
+      "example_reading": "にほん で すごした ひび を いま も おもいだす。",
+      "example_meaning": "I still remember the days I spent in Japan."
+    },
+    {
+      "word": "後略",
+      "reading": "こうりゃく",
+      "meanings": [
+        "latter portion omitted"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "（省略）",
+      "category": "yomimono",
+      "context": "The bookend to 中略 and 前略. Marks that the quoted text has been cut off at the end. Appears in brackets in academic writing.",
+      "example_sentence": "引用は（後略）となっている。",
+      "example_reading": "いんよう は （こうりゃく） と なって いる。",
+      "example_meaning": "The quotation is marked '(rest omitted).'"
+    },
+    {
+      "word": "感想",
+      "reading": "かんそう",
+      "meanings": [
+        "one's impressions",
+        "thoughts",
+        "reaction"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "思ったこと",
+      "category": "yomimono",
+      "context": "What you thought of something after experiencing it. 感想文 — a written reflection (a staple of Japanese school assignments). 感想を聞かせて — tell me what you thought.",
+      "example_sentence": "留学の感想を文集に書いた。",
+      "example_reading": "りゅうがく の かんそう を ぶんしゅう に かいた。",
+      "example_meaning": "I wrote my impressions of studying abroad in the essay collection."
+    },
+    {
+      "word": "文集",
+      "reading": "ぶんしゅう",
+      "meanings": [
+        "collection of essays",
+        "anthology"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "作文集",
+      "category": "yomimono",
+      "context": "文 (writing) + 集 (collection). Commonly a school or program keepsake — this reading is taken from one. Compare 詩集 (poetry collection), 全集 (complete works).",
+      "example_sentence": "卒業記念の文集に載せてもらった。",
+      "example_reading": "そつぎょう きねん の ぶんしゅう に のせて もらった。",
+      "example_meaning": "It was included in the graduation commemorative anthology."
+    },
+    {
+      "word": "平成元年",
+      "reading": "へいせいがんねん",
+      "meanings": [
+        "the first year of Heisei [1989]"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "1989年",
+      "category": "yomimono",
+      "context": "Japanese era-name dating. 元年 (がんねん) is always 'year one' of an era, never 一年. Eras: 昭和 (1926–89), 平成 (1989–2019), 令和 (2019–).",
+      "example_sentence": "この文章は平成元年に書かれた。",
+      "example_reading": "この ぶんしょう は へいせい がんねん に かかれた。",
+      "example_meaning": "This piece was written in the first year of Heisei."
     },
     {
       "word": "気に入る",
       "reading": "きにいる",
-      "meanings": ["to like", "to take a liking to", "to be pleased with"],
+      "meanings": [
+        "to like",
+        "to take a liking to",
+        "to be pleased with"
+      ],
       "jlpt": "N4",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
       "simpler_synonym": "好きになる（すきになる）",
-      "category": "emotion_attitude",
-      "context": "Reading trap: 入る here is いる, never はいる. The thing you like takes が／を: このシャツが気に入った. The state 気に入っている means an ongoing fondness, and お気に入り is 'a favorite'.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. Reading trap: 入る here is いる, never はいる. The thing you like takes が／を: このシャツが気に入った. The state 気に入っている means an ongoing fondness, and お気に入り is 'a favorite'.",
       "example_sentence": "新しい部屋がとても気に入っている。",
       "example_reading": "あたらしい へや が とても き に いって いる。",
       "example_meaning": "I really like my new room."
@@ -740,14 +1961,18 @@
     {
       "word": "気にかける",
       "reading": "きにかける",
-      "meanings": ["to be concerned about", "to care about (someone)", "to keep in mind"],
+      "meanings": [
+        "to be concerned about",
+        "to care about (someone)",
+        "to keep in mind"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
       "simpler_synonym": "気遣う（きづかう）／心配する",
-      "category": "emotion_attitude",
-      "context": "The standard form is 気にかける — に, not を; there is no 気をかける. Warmer and more other-directed than 気にする: you hold someone in your thoughts, often as 気にかけてくれる (kind enough to care). Its intransitive partner 気にかかる means something weighs on you.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. The standard form is 気にかける — に, not を; there is no 気をかける. Warmer and more other-directed than 気にする: you hold someone in your thoughts, often as 気にかけてくれる (kind enough to care). Its intransitive partner 気にかかる means something weighs on you.",
       "example_sentence": "先生はいつも卒業生のことを気にかけてくれる。",
       "example_reading": "せんせい は いつも そつぎょうせい の こと を き に かけて くれる。",
       "example_meaning": "The teacher always keeps her graduates in mind."
@@ -755,14 +1980,18 @@
     {
       "word": "気に障る",
       "reading": "きにさわる",
-      "meanings": ["to offend", "to get on one's nerves", "to rub the wrong way"],
+      "meanings": [
+        "to offend",
+        "to get on one's nerves",
+        "to rub the wrong way"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "不快にさせる（ふかいにさせる）",
-      "category": "emotion_attitude",
-      "context": "障る means 'to interfere with / harm', so 気に障る is something that grates on your feelings. Common hedge: 気に障ったらごめんなさい (sorry if that offended you). Don't mix up 障る (さわる, to be harmful) with its homophone 触る (さわる, to touch).",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 障る means 'to interfere with / harm', so 気に障る is something that grates on your feelings. Common hedge: 気に障ったらごめんなさい (sorry if that offended you). Don't mix up 障る (さわる, to be harmful) with its homophone 触る (さわる, to touch).",
       "example_sentence": "彼の言い方が少し気に障った。",
       "example_reading": "かれ の いいかた が すこし き に さわった。",
       "example_meaning": "The way he said it rubbed me a little the wrong way."
@@ -770,14 +1999,18 @@
     {
       "word": "気に病む",
       "reading": "きにやむ",
-      "meanings": ["to worry oneself sick", "to brood over", "to fret"],
+      "meanings": [
+        "to worry oneself sick",
+        "to brood over",
+        "to fret"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "ひどく心配する（しんぱい）",
-      "category": "emotion_attitude",
-      "context": "病む is 'to fall ill', so 気に病む is to make yourself sick with worry — far heavier than 気にする. Mostly used to reassure: そんなに気に病まないで. Reserve it for real distress, not minor concerns.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 病む is 'to fall ill', so 気に病む is to make yourself sick with worry — far heavier than 気にする. Mostly used to reassure: そんなに気に病まないで. Reserve it for real distress, not minor concerns.",
       "example_sentence": "一度の失敗をそんなに気に病むことはない。",
       "example_reading": "いちど の しっぱい を そんな に き に やむ こと は ない。",
       "example_meaning": "There's no need to fret so much over a single failure."
@@ -785,44 +2018,37 @@
     {
       "word": "気に留める",
       "reading": "きにとめる",
-      "meanings": ["to take note of", "to pay heed to", "to bear in mind"],
+      "meanings": [
+        "to take note of",
+        "to pay heed to",
+        "to bear in mind"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "覚えておく（おぼえておく）／注意する",
-      "category": "emotion_attitude",
-      "context": "留める = to fix in place; 気に留める = to let something register in your mind. Very often negative — 気にも留めない (to not pay it the slightest attention). More written and formal than 気にする.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 留める = to fix in place; 気に留める = to let something register in your mind. Very often negative — 気にも留めない (to not pay it the slightest attention). More written and formal than 気にする.",
       "example_sentence": "誰も彼の小さな変化を気に留めなかった。",
       "example_reading": "だれ も かれ の ちいさな へんか を き に とめなかった。",
       "example_meaning": "No one took note of the small change in him."
     },
     {
-      "word": "気をつける",
-      "reading": "きをつける",
-      "meanings": ["to be careful", "to pay attention", "to take care"],
-      "jlpt": "N4",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "注意する（ちゅうい する）",
-      "category": "emotion_attitude",
-      "context": "The everyday 'watch out / take care'. What you watch for takes に: 車に気をつけて. As a parting line, 気をつけてね means 'take care / get home safe'. This is the 気 idiom you will say most often.",
-      "example_sentence": "風邪をひかないように気をつけてください。",
-      "example_reading": "かぜ を ひかない よう に き を つけて ください。",
-      "example_meaning": "Please take care not to catch a cold."
-    },
-    {
       "word": "気を遣う",
       "reading": "きをつかう",
-      "meanings": ["to be considerate", "to be attentive to others", "to be thoughtful"],
+      "meanings": [
+        "to be considerate",
+        "to be attentive to others",
+        "to be thoughtful"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "気配りする（きくばりする）",
-      "category": "emotion_attitude",
-      "context": "The everyday spoken form of the compact 気遣う already in this deck. It's the active effort of reading the room and accommodating others — central to Japanese social life, and tiring: 気を遣って疲れた. Also written 気を使う.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. The everyday spoken form of the compact 気遣う already in this deck. It's the active effort of reading the room and accommodating others — central to Japanese social life, and tiring: 気を遣って疲れた. Also written 気を使う.",
       "example_sentence": "みんなに気を遣って、自分の意見が言えなかった。",
       "example_reading": "みんな に き を つかって、じぶん の いけん が いえなかった。",
       "example_meaning": "I was so busy being considerate of everyone that I couldn't voice my own opinion."
@@ -830,14 +2056,18 @@
     {
       "word": "気を配る",
       "reading": "きをくばる",
-      "meanings": ["to pay attention to", "to be attentive", "to look out for"],
+      "meanings": [
+        "to pay attention to",
+        "to be attentive",
+        "to look out for"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "注意を払う（ちゅういをはらう）",
-      "category": "emotion_attitude",
-      "context": "配る = to distribute; 気を配る = to spread your attention around, watching over details or people's needs (安全に気を配る). Close to 気を遣う, but 気を配る leans toward vigilance over a situation, while 気を遣う leans toward social tact toward people.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 配る = to distribute; 気を配る = to spread your attention around, watching over details or people's needs (安全に気を配る). Close to 気を遣う, but 気を配る leans toward vigilance over a situation, while 気を遣う leans toward social tact toward people.",
       "example_sentence": "店長は客一人一人に気を配っていた。",
       "example_reading": "てんちょう は きゃく ひとりひとり に き を くばって いた。",
       "example_meaning": "The manager paid attention to each and every customer."
@@ -845,14 +2075,18 @@
     {
       "word": "気を許す",
       "reading": "きをゆるす",
-      "meanings": ["to let one's guard down", "to relax one's vigilance", "to open up to (someone)"],
+      "meanings": [
+        "to let one's guard down",
+        "to relax one's vigilance",
+        "to open up to (someone)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
       "simpler_synonym": "油断する（ゆだんする）／心を開く",
-      "category": "emotion_attitude",
-      "context": "許す = to permit; 気を許す = to lower your inner guard. Two flavors: trusting someone enough to relax (気を許せる友達 = a friend you can be yourself with), or carelessly dropping your guard (気を許すな = stay alert).",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 許す = to permit; 気を許す = to lower your inner guard. Two flavors: trusting someone enough to relax (気を許せる友達 = a friend you can be yourself with), or carelessly dropping your guard (気を許すな = stay alert).",
       "example_sentence": "彼女にだけは気を許して何でも話せる。",
       "example_reading": "かのじょ に だけ は き を ゆるして なんでも はなせる。",
       "example_meaning": "She's the one person I can let my guard down with and tell anything."
@@ -860,14 +2094,18 @@
     {
       "word": "気を失う",
       "reading": "きをうしなう",
-      "meanings": ["to faint", "to lose consciousness", "to black out"],
+      "meanings": [
+        "to faint",
+        "to lose consciousness",
+        "to black out"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "意識を失う（いしきをうしなう）／気絶する（きぜつ）",
-      "category": "emotion_attitude",
-      "context": "Here 気 means consciousness, so 気を失う = to pass out. The one-word equivalent is 気絶する (きぜつする). Keep it apart from 気をなくす (to lose motivation), which uses 無くす, not 失う.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. Here 気 means consciousness, so 気を失う = to pass out. The one-word equivalent is 気絶する (きぜつする). Keep it apart from 気をなくす (to lose motivation), which uses 無くす, not 失う.",
       "example_sentence": "暑さで気を失って倒れてしまった。",
       "example_reading": "あつさ で き を うしなって たおれて しまった。",
       "example_meaning": "I fainted from the heat and collapsed."
@@ -875,14 +2113,18 @@
     {
       "word": "気を落とす",
       "reading": "きをおとす",
-      "meanings": ["to be discouraged", "to lose heart", "to be disheartened"],
+      "meanings": [
+        "to be discouraged",
+        "to lose heart",
+        "to be disheartened"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
       "simpler_synonym": "がっかりする／落ち込む（おちこむ）",
-      "category": "emotion_attitude",
-      "context": "落とす = to drop; 気を落とす = to let your spirits fall. Mostly heard as consolation: 気を落とさないで (don't be discouraged). Compare 落ち込む, which just describes being down, with no nuance of someone cheering you up.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 落とす = to drop; 気を落とす = to let your spirits fall. Mostly heard as consolation: 気を落とさないで (don't be discouraged). Compare 落ち込む, which just describes being down, with no nuance of someone cheering you up.",
       "example_sentence": "試験に落ちても、そんなに気を落とさないで。",
       "example_reading": "しけん に おちて も、そんな に き を おとさないで。",
       "example_meaning": "Even if you failed the exam, don't be so discouraged."
@@ -890,14 +2132,18 @@
     {
       "word": "気を悪くする",
       "reading": "きをわるくする",
-      "meanings": ["to take offense", "to feel hurt", "to be put out"],
+      "meanings": [
+        "to take offense",
+        "to feel hurt",
+        "to be put out"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
       "simpler_synonym": "不愉快になる（ふゆかいになる）",
-      "category": "emotion_attitude",
-      "context": "To have your mood spoiled by what someone said or did. Common hedge before a frank remark: 気を悪くしないで聞いてね (don't take this the wrong way). Close to 気に障る, but 気を悪くする focuses on the resulting bad mood rather than the initial sting.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. To have your mood spoiled by what someone said or did. Common hedge before a frank remark: 気を悪くしないで聞いてね (don't take this the wrong way). Close to 気に障る, but 気を悪くする focuses on the resulting bad mood rather than the initial sting.",
       "example_sentence": "正直に言っただけなのに、彼は気を悪くした。",
       "example_reading": "しょうじき に いった だけ なのに、かれ は き を わるく した。",
       "example_meaning": "I only spoke honestly, yet he took offense."
@@ -905,14 +2151,18 @@
     {
       "word": "気を引く",
       "reading": "きをひく",
-      "meanings": ["to attract someone's attention", "to draw interest", "to sound someone out"],
+      "meanings": [
+        "to attract someone's attention",
+        "to draw interest",
+        "to sound someone out"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
       "simpler_synonym": "関心を引く（かんしんをひく）",
-      "category": "emotion_attitude",
-      "context": "引く = to pull; 気を引く = to pull someone's attention your way, often romantically (好きな人の気を引く). Don't confuse with 気が引ける, which means to feel hesitant or awkward about doing something.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 引く = to pull; 気を引く = to pull someone's attention your way, often romantically (好きな人の気を引く). Don't confuse with 気が引ける, which means to feel hesitant or awkward about doing something.",
       "example_sentence": "彼は好きな子の気を引こうとしている。",
       "example_reading": "かれ は すきな こ の き を ひこう と して いる。",
       "example_meaning": "He's trying to get the attention of the girl he likes."
@@ -920,14 +2170,18 @@
     {
       "word": "気を取り直す",
       "reading": "きをとりなおす",
-      "meanings": ["to pull oneself together", "to regain one's composure", "to rally"],
+      "meanings": [
+        "to pull oneself together",
+        "to regain one's composure",
+        "to rally"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "medium",
       "simpler_synonym": "立ち直る（たちなおる）／気持ちを切り替える",
-      "category": "emotion_attitude",
-      "context": "取り直す = to take hold again; 気を取り直す = to recover your spirit after a setback and carry on. Often sentence-initial: 気を取り直して、… ('pulling myself together, …'). It's the natural sequel to 気を落とす.",
+      "category": "kigo_bonus",
+      "context": "Supplementary — not in the Ch.11 単語 list, added to round out the 気〜 idiom family. 取り直す = to take hold again; 気を取り直す = to recover your spirit after a setback and carry on. Often sentence-initial: 気を取り直して、… ('pulling myself together, …'). It's the natural sequel to 気を落とす.",
       "example_sentence": "気を取り直して、もう一度挑戦することにした。",
       "example_reading": "き を とりなおして、もう いちど ちょうせん する こと に した。",
       "example_meaning": "I pulled myself together and decided to try once more."
