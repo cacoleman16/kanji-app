@@ -1,0 +1,1363 @@
+{
+  "deck_id": "kiminonawa-ch3-vocab",
+  "deck_name": "君の名は。 Ch.3 日々 — Vocabulary",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第三章「日々」",
+  "chapter": 3,
+  "chapter_title": "日々",
+  "chapter_title_reading": "ひび",
+  "chapter_title_meaning": "Days",
+  "learner_level": "N3",
+  "notes": "The body swaps between 瀧 and 三葉 become routine: rules typed into each other's phones, complaints about money and manners, sudden popularity at school, and 三葉 setting up 瀧's date with 奥寺先輩. 瀧, in 三葉's body, climbs to the shrine's ご神体 with grandma and 四葉 and hears about ムスビ; then come the awkward date in Tokyo, a phone call that won't connect, and the sudden end of the swaps. The deck focuses on rule-and-money words, school social life, the pilgrimage and grandma's vocabulary of connection and time, and the nerves of the date. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late.",
+  "card_count": 67,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "casual_speech",
+    "feelings",
+    "literary",
+    "nature_sky",
+    "onomatopoeia",
+    "senses_body",
+    "shrine_tradition",
+    "story_terms",
+    "time_memory",
+    "tokyo_life",
+    "town_life"
+  ],
+  "cards": [
+    {
+      "word": "日々",
+      "reading": "ひび",
+      "meanings": [
+        "days",
+        "day after day",
+        "daily life"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "毎日",
+      "category": "time_memory",
+      "scene": "The chapter title — the swaps stop being a shock and turn into a run of ordinary days lived in each other's bodies.",
+      "context": "々 is the repeat mark, so 日々 = 日 + 日 (the second becomes び by sound change). More literary than 毎日: 忙しい日々, 幸せな日々. Compare 人々 (ひとびと) and 時々 (ときどき).",
+      "example_sentence": "東京での新しい日々にも、少しずつ慣れてきた。",
+      "example_reading": "とうきょう での あたらしい ひび に も、 すこしずつ なれて きた。",
+      "example_meaning": "I've gradually gotten used to my new days in Tokyo."
+    },
+    {
+      "word": "日常",
+      "reading": "にちじょう",
+      "meanings": [
+        "everyday life",
+        "daily routine",
+        "the ordinary"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "毎日の生活",
+      "category": "time_memory",
+      "scene": "Waking up in someone else's body a few times a week becomes, strangely, part of their normal routine.",
+      "context": "日常 = the normal, everyday state of things: 日常生活 (daily life), 日常的に (routinely), 非日常 (the extraordinary). The comedy of this chapter is the bizarre becoming 日常.",
+      "example_sentence": "スマホのない日常なんて、もう考えられない。",
+      "example_reading": "スマホ の ない にちじょう なんて、 もう かんがえられない。",
+      "example_meaning": "I can't imagine everyday life without a smartphone anymore."
+    },
+    {
+      "word": "禁止事項",
+      "reading": "きんしじこう",
+      "meanings": [
+        "list of prohibitions",
+        "things not to do",
+        "prohibited items"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "してはいけないこと",
+      "category": "story_terms",
+      "scene": "瀧 and 三葉 each type a list of things the other must never do in their body and leave it in the phone's notes.",
+      "context": "禁止 (prohibition) + 事項 (items, matters). 事項 is a stiff, official word (注意事項 = points to note, 決定事項 = decisions made), so using it for a teenager's list of complaints is part of the joke. Expect it as a heading over a list.",
+      "example_sentence": "寮の禁止事項の一つは、夜十時以降の外出だ。",
+      "example_reading": "りょう の きんしじこう の ひとつ は、 よる じゅうじ いこう の がいしゅつ だ。",
+      "example_meaning": "One of the dorm's prohibitions is going out after 10 p.m."
+    },
+    {
+      "word": "箇条書き",
+      "reading": "かじょうがき",
+      "meanings": [
+        "itemized list",
+        "bullet points",
+        "writing as a list"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "リスト",
+      "category": "story_terms",
+      "scene": "The rules they leave each other on the phone are written as short, itemized lists.",
+      "context": "箇条 = an article or clause; 書き = writing. 箇条書きにする = to put in bullet points. 箇 is rare outside this word and the counter 〜箇所 (かしょ, places).",
+      "example_sentence": "言いたいことを箇条書きにしてから、先生に相談した。",
+      "example_reading": "いいたい こと を かじょうがき に して から、 せんせい に そうだん した。",
+      "example_meaning": "I listed what I wanted to say as bullet points before talking to my teacher."
+    },
+    {
+      "word": "書き残す",
+      "reading": "かきのこす",
+      "meanings": [
+        "to leave a written note",
+        "to write down for later",
+        "to leave behind in writing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "メモする",
+      "category": "time_memory",
+      "scene": "After each swap they write down what they did that day so the other won't be caught off guard.",
+      "context": "書く + 残す (leave behind): the note survives after the writer has gone. 言い残す = to leave words behind (e.g. last words). In a story about fading memories, what is written down matters a great deal.",
+      "example_sentence": "忘れないうちに、今日の出来事をスマホに書き残しておこう。",
+      "example_reading": "わすれない うち に、 きょう の できごと を スマホ に かきのこして おこう。",
+      "example_meaning": "Before I forget, I'll write today's events down on my phone."
+    },
+    {
+      "word": "散財",
+      "reading": "さんざい",
+      "meanings": [
+        "squandering money",
+        "splurging",
+        "spending lavishly"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金をたくさん使う",
+      "category": "tokyo_life",
+      "scene": "瀧's main complaint: 三葉 burns through his money on Tokyo cafés and treats.",
+      "context": "散 (scatter) + 財 (wealth): money scattered to the winds. 散財する. Slightly old-fashioned and humorous; 無駄遣い is the everyday word and 浪費 (ろうひ) the formal one.",
+      "example_sentence": "給料日のあとは、ついつい散財してしまう。",
+      "example_reading": "きゅうりょうび の あと は、 ついつい さんざい して しまう。",
+      "example_meaning": "After payday, I always end up splurging."
+    },
+    {
+      "word": "無駄遣い",
+      "reading": "むだづかい",
+      "meanings": [
+        "wasting money",
+        "wasteful spending",
+        "waste"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金をむだに使うこと",
+      "category": "tokyo_life",
+      "scene": "瀧 scolds 三葉 for wasting the wages he earns at his part-time job.",
+      "context": "無駄 (waste) + 遣い (using; 使い becomes づかい). Also for time and energy: 時間の無駄遣い. 無駄遣いするな! is exactly the kind of line an annoyed teenager puts in a rule list.",
+      "example_sentence": "バイト代を無駄遣いしないように、使ったお金を毎日ノートにつけている。",
+      "example_reading": "バイトだい を むだづかい しない よう に、 つかった おかね を まいにち ノート に つけて いる。",
+      "example_meaning": "So I don't waste my part-time pay, I write down what I spend in a notebook every day."
+    },
+    {
+      "word": "金遣い",
+      "reading": "かねづかい",
+      "meanings": [
+        "way of spending money",
+        "spending habits"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お金の使い方",
+      "category": "tokyo_life",
+      "scene": "瀧 is horrified at how freely 三葉 spends when she is in his body.",
+      "context": "Almost always in 金遣いが荒い (あらい) = spends recklessly, is a spendthrift. Same 遣い as in 無駄遣い and 言葉遣い (choice of words).",
+      "example_sentence": "兄は金遣いが荒くて、いつも月末にはお金がない。",
+      "example_reading": "あに は かねづかい が あらくて、 いつも げつまつ に は おかね が ない。",
+      "example_meaning": "My brother spends so recklessly that he's always broke at the end of the month."
+    },
+    {
+      "word": "贅沢",
+      "reading": "ぜいたく",
+      "meanings": [
+        "luxury",
+        "extravagance",
+        "treating oneself"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "お金をかけること",
+      "category": "tokyo_life",
+      "scene": "For 三葉, a country girl, a Tokyo café with fancy desserts is a wonderful luxury.",
+      "context": "贅沢な (adjective) or 贅沢する (verb). Can be positive (a treat) or critical (too extravagant). 贅沢を言う = to be choosy: 贅沢を言うな = don't be picky. Both kanji are hard, so learn the kana.",
+      "example_sentence": "たまには贅沢して、高いケーキを食べに行こう。",
+      "example_reading": "たまに は ぜいたく して、 たかい ケーキ を たべ に いこう。",
+      "example_meaning": "Let's treat ourselves once in a while and go eat some expensive cake."
+    },
+    {
+      "word": "満喫",
+      "reading": "まんきつ",
+      "meanings": [
+        "to fully enjoy",
+        "to have one's fill of",
+        "to make the most of"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "十分に楽しむ",
+      "category": "tokyo_life",
+      "scene": "三葉 makes the most of her days as a Tokyo boy, the city life she always dreamed of.",
+      "context": "満 (full) + 喫 (consume, as in 喫茶). 東京を満喫する, 夏休みを満喫する. Only for good things you savour. Don't confuse it with 漫喫 (also まんきつ), slang for a manga café.",
+      "example_sentence": "三葉は東京の休日を思いきり満喫した。",
+      "example_reading": "みつは は とうきょう の きゅうじつ を おもいきり まんきつ した。",
+      "example_meaning": "Mitsuha enjoyed her day off in Tokyo to the fullest."
+    },
+    {
+      "word": "呆れる",
+      "reading": "あきれる",
+      "meanings": [
+        "to be exasperated",
+        "to be appalled",
+        "to be dumbfounded"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "（悪い意味で）びっくりする",
+      "category": "feelings",
+      "scene": "Each reads the other's notes about the day and is exasperated at what was done in their body.",
+      "context": "Shaking your head in disbelief: 呆れた! = Unbelievable! 呆れて物も言えない = so appalled I'm speechless. Unlike neutral 驚く, 呆れる always carries a 'what were you thinking' edge. Often written in kana.",
+      "example_sentence": "部屋の散らかりように、母はすっかり呆れていた。",
+      "example_reading": "へや の ちらかりよう に、 はは は すっかり あきれて いた。",
+      "example_meaning": "My mother was completely exasperated at how messy the room was."
+    },
+    {
+      "word": "ムカつく",
+      "reading": "むかつく",
+      "meanings": [
+        "to be pissed off",
+        "annoying",
+        "to feel queasy"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "腹が立つ",
+      "category": "casual_speech",
+      "scene": "Both of them grumble about the other's behaviour in very casual language.",
+      "context": "Casual and a bit rude: ムカつく! = That pisses me off! Often written in katakana for emphasis; it originally meant feeling sick to your stomach (胸がむかつく). Adjective use: ムカつくやつ = an annoying guy.",
+      "example_sentence": "あいつの言い方、本当にムカつく。",
+      "example_reading": "あいつ の いいかた、 ほんとう に むかつく。",
+      "example_meaning": "The way that guy talks really pisses me off."
+    },
+    {
+      "word": "振る舞い",
+      "reading": "ふるまい",
+      "meanings": [
+        "behaviour",
+        "conduct",
+        "manners"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "態度",
+      "category": "town_life",
+      "scene": "Classmates notice that on certain days 三葉's behaviour is suddenly bold and boyish.",
+      "context": "From 振る舞う (to behave, conduct oneself): how you carry yourself in front of others, as in 女の子らしい振る舞い. 振る舞う can also mean to treat people to food: ごちそうを振る舞う.",
+      "example_sentence": "今日の彼の振る舞いは、いつもとまるで違っていた。",
+      "example_reading": "きょう の かれ の ふるまい は、 いつも と まるで ちがって いた。",
+      "example_meaning": "His behaviour today was completely different from usual."
+    },
+    {
+      "word": "がさつ",
+      "reading": "がさつ",
+      "meanings": [
+        "rough-mannered",
+        "crude",
+        "careless and loud"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "乱暴",
+      "category": "town_life",
+      "scene": "三葉 complains that 瀧 makes her look rough and unladylike in the way he sits and moves.",
+      "context": "A な-adjective for someone coarse who doesn't mind the details: slamming doors, sprawling, eating messily. Usually written in kana. Opposites: 上品 (じょうひん), しとやか.",
+      "example_sentence": "がさつに見えるけど、彼は意外と優しい。",
+      "example_reading": "がさつ に みえる けど、 かれ は いがい と やさしい。",
+      "example_meaning": "He looks rough, but he's surprisingly kind."
+    },
+    {
+      "word": "嫌味",
+      "reading": "いやみ",
+      "meanings": [
+        "sarcastic remark",
+        "snide dig",
+        "unpleasantness"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "意地悪な言葉",
+      "category": "town_life",
+      "scene": "The classmates who sneer at 三葉's family keep up their snide remarks — until 瀧 is the one in her body.",
+      "context": "嫌味を言う = to make a snide remark; 嫌味な人 = someone who is always passive-aggressive. Also written いやみ or 厭味. Close to 皮肉 (ひにく, irony or sarcasm), but 嫌味 is more personal and spiteful.",
+      "example_sentence": "彼女は笑顔で嫌味を言うから、余計に腹が立つ。",
+      "example_reading": "かのじょ は えがお で いやみ を いう から、 よけい に はら が たつ。",
+      "example_meaning": "She makes snide remarks with a smile, which makes it even more infuriating."
+    },
+    {
+      "word": "蹴る",
+      "reading": "ける",
+      "meanings": [
+        "to kick",
+        "to turn down flatly"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "瀧, in 三葉's body, kicks a desk to shut up the classmates who mock her.",
+      "context": "A godan verb despite the -eru ending: 蹴らない, 蹴って, 蹴った. 机を蹴る, ボールを蹴る. Figurative: 誘いを蹴る (flatly turn down an offer). Recognise 足 on the left of the kanji.",
+      "example_sentence": "彼は怒って、ドアを思いきり蹴った。",
+      "example_reading": "かれ は おこって、 ドア を おもいきり けった。",
+      "example_meaning": "He got angry and kicked the door as hard as he could."
+    },
+    {
+      "word": "凍りつく",
+      "reading": "こおりつく",
+      "meanings": [
+        "to freeze solid",
+        "to freeze up (from shock)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "固まる",
+      "category": "literary",
+      "scene": "Fits the moment the classroom falls dead silent after the desk is kicked.",
+      "context": "凍る (freeze) + つく (stick): ice clinging, and figuratively an atmosphere or a face frozen in shock: 空気が凍りつく, 笑顔が凍りつく. Also written 凍り付く.",
+      "example_sentence": "先生の一言で、教室の空気が凍りついた。",
+      "example_reading": "せんせい の ひとこと で、 きょうしつ の くうき が こおりついた。",
+      "example_meaning": "One word from the teacher and the atmosphere in the classroom froze."
+    },
+    {
+      "word": "大胆",
+      "reading": "だいたん",
+      "meanings": [
+        "bold",
+        "daring",
+        "audacious"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "思い切った",
+      "category": "town_life",
+      "scene": "In P.E., 瀧-as-三葉 plays basketball with a boldness that has everyone staring.",
+      "context": "大 (big) + 胆 (liver, i.e. nerve). 大胆な行動, 大胆に動く. Can be admiring or mean 'shockingly forward'. Opposite: 慎重 (しんちょう, cautious).",
+      "example_sentence": "おとなしい彼女が、急に大胆な髪型にしてきた。",
+      "example_reading": "おとなしい かのじょ が、 きゅう に だいたん な かみがた に して きた。",
+      "example_meaning": "That quiet girl suddenly showed up with a daring hairstyle."
+    },
+    {
+      "word": "豪快",
+      "reading": "ごうかい",
+      "meanings": [
+        "dynamic",
+        "hearty",
+        "powerful and unrestrained"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "元気で力強い",
+      "category": "town_life",
+      "scene": "The way 瀧 charges around the court and shoots, with no thought for how a girl is 'supposed' to move.",
+      "context": "豪 (mighty) + 快 (pleasant): big, bold and satisfyingly powerful. 豪快に笑う (laugh heartily), 豪快なシュート. Usually praise; compare 大胆 (daring) and がさつ (sloppy).",
+      "example_sentence": "祖父はいつも口を大きく開けて豪快に笑う。",
+      "example_reading": "そふ は いつも くち を おおきく あけて ごうかい に わらう。",
+      "example_meaning": "My grandfather always laughs heartily with his mouth wide open."
+    },
+    {
+      "word": "黄色い声",
+      "reading": "きいろいこえ",
+      "meanings": [
+        "shrill cheers (of girls)",
+        "high-pitched squeals"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "女の子の高い声",
+      "category": "town_life",
+      "scene": "Fits the girls cheering when the 'new' 三葉 plays sport like a star.",
+      "context": "Not literally yellow: the idiom for excited high-pitched cries, usually girls reacting to a star or idol. 黄色い声援 (せいえん) = shrill cheering. For neutral description, 甲高い声 (かんだかいこえ) = a shrill voice.",
+      "example_sentence": "選手が出てくると、会場から黄色い声が上がった。",
+      "example_reading": "せんしゅ が でて くる と、 かいじょう から きいろい こえ が あがった。",
+      "example_meaning": "When the player came out, shrill cheers rose from the crowd."
+    },
+    {
+      "word": "モテる",
+      "reading": "もてる",
+      "meanings": [
+        "to be popular (romantically)",
+        "to be a hit with"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "人気がある",
+      "category": "casual_speech",
+      "scene": "To 三葉's alarm, 'her' sudden coolness makes her popular, especially with girls.",
+      "context": "From 持てる, written モテる in casual style. 女子にモテる = popular with girls; モテモテ = hugely popular; 非モテ = unpopular. It means romantic popularity, unlike the general 人気がある.",
+      "example_sentence": "兄は高校時代、けっこうモテたらしい。",
+      "example_reading": "あに は こうこう じだい、 けっこう モテた らしい。",
+      "example_meaning": "Apparently my brother was pretty popular with girls in high school."
+    },
+    {
+      "word": "視線",
+      "reading": "しせん",
+      "meanings": [
+        "gaze",
+        "line of sight",
+        "eyes (of others)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "目",
+      "category": "senses_body",
+      "scene": "Wherever 'she' goes, 三葉 now draws curious or admiring looks.",
+      "context": "視 (look) + 線 (line). 視線を感じる (feel someone's eyes on you), 視線をそらす (look away), 熱い視線 (an ardent gaze). Very common in novels to track who is looking at whom.",
+      "example_sentence": "後ろから誰かの視線を感じて、振り向いた。",
+      "example_reading": "うしろ から だれか の しせん を かんじて、 ふりむいた。",
+      "example_meaning": "I felt someone's eyes on me from behind and turned around."
+    },
+    {
+      "word": "下級生",
+      "reading": "かきゅうせい",
+      "meanings": [
+        "underclassman",
+        "younger student",
+        "student in a lower year"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "後輩",
+      "category": "town_life",
+      "scene": "A younger girl at school falls for the cool new 三葉 and works up the courage to approach her.",
+      "context": "下級 (lower grade) + 生 (student); opposite 上級生. 後輩 is broader (anyone junior to you in a club or workplace), while 下級生 refers strictly to school year.",
+      "example_sentence": "下級生の女の子から、手紙をもらった。",
+      "example_reading": "かきゅうせい の おんなのこ から、 てがみ を もらった。",
+      "example_meaning": "I got a letter from a girl in a lower year."
+    },
+    {
+      "word": "告白",
+      "reading": "こくはく",
+      "meanings": [
+        "confession of love",
+        "telling someone you like them",
+        "confession"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "好きだと言う",
+      "category": "feelings",
+      "scene": "The younger girl's approach amounts to a love confession — to a 三葉 who is actually 瀧.",
+      "context": "告 (announce) + 白 (make plain). In school life 告白する almost always means confessing romantic feelings; the slang is 告る (こくる). It can also mean confessing a crime or a secret: 罪を告白する.",
+      "example_sentence": "卒業式の日に、思い切って先輩に告白した。",
+      "example_reading": "そつぎょうしき の ひ に、 おもいきって せんぱい に こくはく した。",
+      "example_meaning": "On graduation day, I worked up my courage and confessed to my senpai."
+    },
+    {
+      "word": "お膳立て",
+      "reading": "おぜんだて",
+      "meanings": [
+        "setting things up (for someone)",
+        "making all the arrangements",
+        "groundwork"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "準備",
+      "category": "tokyo_life",
+      "scene": "三葉, in 瀧's body, charms 奥寺先輩 and arranges a date, so 瀧 only has to show up.",
+      "context": "Literally laying out the 膳 (meal tray) before someone eats; figuratively preparing everything so another person only has to act: デートのお膳立てをする. Related: 段取り (だんどり, arrangements), 約束を取り付ける (to secure an appointment).",
+      "example_sentence": "友達がお膳立てしてくれたおかげで、二人で話すことができた。",
+      "example_reading": "ともだち が おぜんだて して くれた おかげ で、 ふたり で はなす こと が できた。",
+      "example_meaning": "Thanks to my friend setting it all up, the two of us got to talk."
+    },
+    {
+      "word": "ご神体",
+      "reading": "ごしんたい",
+      "meanings": [
+        "sacred object of worship",
+        "object a god dwells in",
+        "shrine's holy body"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "神様が宿るもの",
+      "category": "story_terms",
+      "scene": "瀧-in-三葉 climbs the mountain with grandma and 四葉 to the shrine's ご神体, a huge tree on a rock in a hollow.",
+      "context": "神体 = the physical thing a god is believed to inhabit (a mirror, a rock, a waterfall, even a whole mountain), with honorific ご. It is the god's dwelling, not the god itself. This place becomes a key location later, so learn it now.",
+      "example_sentence": "この神社のご神体は、裏にある大きな岩だそうだ。",
+      "example_reading": "この じんじゃ の ごしんたい は、 うら に ある おおきな いわ だ そう だ。",
+      "example_meaning": "They say this shrine's sacred object is the big rock behind it."
+    },
+    {
+      "word": "険しい",
+      "reading": "けわしい",
+      "meanings": [
+        "steep",
+        "rugged",
+        "stern (of a face)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "急な",
+      "category": "nature_sky",
+      "scene": "The path up to the ご神体 is a long, steep mountain climb.",
+      "context": "険しい山道 = a steep, rough mountain path. Figurative: 険しい表情 (a grim look), 険しい道のり (a hard road ahead). 急 (きゅう) only describes the angle; 険しい adds danger and difficulty.",
+      "example_sentence": "頂上までは険しい道が一時間ほど続く。",
+      "example_reading": "ちょうじょう まで は けわしい みち が いちじかん ほど つづく。",
+      "example_meaning": "A steep path continues for about an hour to the summit."
+    },
+    {
+      "word": "苔",
+      "reading": "こけ",
+      "meanings": [
+        "moss"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "nature_sky",
+      "scene": "Moss-covered stones and roots line the old path to the sacred site.",
+      "context": "苔むす / 苔むした = moss-grown, a classic image of age and sacredness (it appears in the national anthem: 苔のむすまで). The kanji is 艹 (grass) + 台.",
+      "example_sentence": "雨上がりの庭で、苔が鮮やかな緑に光っていた。",
+      "example_reading": "あめあがり の にわ で、 こけ が あざやか な みどり に ひかって いた。",
+      "example_meaning": "In the garden after the rain, the moss was shining a vivid green."
+    },
+    {
+      "word": "汗だく",
+      "reading": "あせだく",
+      "meanings": [
+        "dripping with sweat",
+        "drenched in sweat"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "汗でびしょびしょ",
+      "category": "senses_body",
+      "scene": "瀧, in 三葉's body, ends up soaked in sweat on the long climb.",
+      "context": "汗 + だくだく (mimetic for gushing). 汗だくになる. Casual and vivid; similar are 汗びっしょり and 汗まみれ.",
+      "example_sentence": "駅まで走ったら、汗だくになってしまった。",
+      "example_reading": "えき まで はしったら、 あせだく に なって しまった。",
+      "example_meaning": "I ran to the station and ended up drenched in sweat."
+    },
+    {
+      "word": "息が上がる",
+      "reading": "いきがあがる",
+      "meanings": [
+        "to get out of breath",
+        "to be winded"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "息が苦しくなる",
+      "category": "senses_body",
+      "scene": "The long climb leaves 瀧, in 三葉's body, out of breath.",
+      "context": "Your breathing 'rises', getting fast and shallow from exertion. Compare 息を切らす (to be panting, written style) and はあはあ (the sound of panting). 息が上がる is the moment you notice you can't keep up the pace.",
+      "example_sentence": "階段を三階まで上っただけで、息が上がった。",
+      "example_reading": "かいだん を さんがい まで のぼった だけ で、 いき が あがった。",
+      "example_meaning": "Just climbing the stairs to the third floor left me out of breath."
+    },
+    {
+      "word": "氏神",
+      "reading": "うじがみ",
+      "meanings": [
+        "local guardian deity",
+        "tutelary god of a community"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "町の神様",
+      "category": "shrine_tradition",
+      "scene": "On the way up, grandma explains that the old word for the land's guardian god is ムスビ.",
+      "context": "氏 (clan) + 神: originally a clan's ancestral god, now the protective god of a local area, whose people are its 氏子 (うじこ). 氏 is read うじ here, not し as in 田中氏.",
+      "example_sentence": "この町の人は、毎年秋に氏神様にお参りする。",
+      "example_reading": "この まち の ひと は、 まいとし あき に うじがみさま に おまいり する。",
+      "example_meaning": "People in this town visit their guardian god every autumn."
+    },
+    {
+      "word": "産霊",
+      "reading": "むすび",
+      "meanings": [
+        "musubi: the binding force of creation",
+        "old name for the local guardian god",
+        "connection, tying together"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "つながり",
+      "category": "shrine_tradition",
+      "scene": "Grandma's lesson on the climb: tying thread, linking people, the flow of time — all of it is ムスビ.",
+      "context": "An ancient Shinto word for the power that creates and binds things (産 = give birth, 霊 = spirit). The reading むすび is irregular, and the novel mostly writes it in katakana as ムスビ. It echoes 結び (tying, a knot), and the story's whole theme of connection hangs on it.",
+      "example_sentence": "祖母は、人と人との出会いも産霊の一つだと話してくれた。",
+      "example_reading": "そぼ は、 ひと と ひと と の であい も むすび の ひとつ だ と はなして くれた。",
+      "example_meaning": "My grandmother told me that meetings between people are also a kind of musubi."
+    },
+    {
+      "word": "繋がる",
+      "reading": "つながる",
+      "meanings": [
+        "to be connected",
+        "to be linked",
+        "(of a call) to go through"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "The key word of grandma's speech — threads, people and time are all connected; at the chapter's end, 瀧's call to 三葉 won't connect.",
+      "context": "Intransitive 繋がる (be connected) vs transitive 繋ぐ (つなぐ, connect): 手を繋ぐ, 電話が繋がる. Often written in kana つながる. Watch for 電話が繋がらない at the end, where the connection grandma praised is suddenly cut.",
+      "example_sentence": "この道は駅前の大通りに繋がっている。",
+      "example_reading": "この みち は えきまえ の おおどおり に つながって いる。",
+      "example_meaning": "This road connects to the main street in front of the station."
+    },
+    {
+      "word": "寄り集まる",
+      "reading": "よりあつまる",
+      "meanings": [
+        "to gather together",
+        "to come together (from many sides)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "集まる",
+      "category": "time_memory",
+      "scene": "Grandma describes many threads gathering together to form a braid, and time doing the same.",
+      "context": "寄る (draw near) + 集まる: many separate things drawing in to form one whole. It also echoes 縒る (よる, to twist threads together), the basic action of making a braid.",
+      "example_sentence": "近所の子どもたちが寄り集まって、たき火を囲んだ。",
+      "example_reading": "きんじょ の こどもたち が よりあつまって、 たきび を かこんだ。",
+      "example_meaning": "The neighbourhood kids gathered together around the bonfire."
+    },
+    {
+      "word": "捩れる",
+      "reading": "ねじれる",
+      "meanings": [
+        "to twist",
+        "to be twisted",
+        "to become distorted"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "曲がる",
+      "category": "time_memory",
+      "scene": "In grandma's image, threads twist as they are braided, and so does time.",
+      "context": "Also written 捻れる, or simply ねじれる in kana. Transitive: 捩る (ねじる, to twist something). ねじれ = a twist; 時間のねじれ = a twist in time, a phrase that suits this story well.",
+      "example_sentence": "固く絞ったタオルが、捩れたまま乾いてしまった。",
+      "example_reading": "かたく しぼった タオル が、 ねじれた まま かわいて しまった。",
+      "example_meaning": "The towel I'd wrung out tightly dried still twisted."
+    },
+    {
+      "word": "絡まる",
+      "reading": "からまる",
+      "meanings": [
+        "to get tangled",
+        "to be entwined",
+        "to get caught up in"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ぐちゃぐちゃになる",
+      "category": "time_memory",
+      "scene": "Threads tangle in grandma's description of the braided cord, just as people's lives are about to.",
+      "context": "Intransitive; the transitive form is 絡める (からめる). 糸が絡まる, 髪が絡まる. 絡む (からむ) is close but can also mean to pick a fight or to be involved. Pair it with ほどける (come undone).",
+      "example_sentence": "イヤホンのコードがすぐ絡まって、いらいらする。",
+      "example_reading": "イヤホン の コード が すぐ からまって、 いらいら する。",
+      "example_meaning": "My earphone cord gets tangled right away, which drives me nuts."
+    },
+    {
+      "word": "ほどける",
+      "reading": "ほどける",
+      "meanings": [
+        "to come undone",
+        "to come untied",
+        "to unravel; (of tension) to ease"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "取れる",
+      "category": "time_memory",
+      "scene": "Grandma's braided cord, like time itself, can unravel and then be bound together again.",
+      "context": "Kanji 解ける, which can also be read とける (melt, be solved), so books often use kana. Transitive: ほどく (untie). 靴ひもがほどける. Figurative: 緊張がほどける = tension eases.",
+      "example_sentence": "歩いているうちに、靴ひもがほどけてしまった。",
+      "example_reading": "あるいて いる うち に、 くつひも が ほどけて しまった。",
+      "example_meaning": "While I was walking, my shoelace came undone."
+    },
+    {
+      "word": "途切れる",
+      "reading": "とぎれる",
+      "meanings": [
+        "to break off",
+        "to be interrupted",
+        "to cut out"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "切れる",
+      "category": "time_memory",
+      "scene": "Grandma says the threads of time sometimes break off and then join up again.",
+      "context": "途 (way, route) + 切れる (be cut): something continuous stopping partway. 話が途切れる (the conversation dies), 記憶が途切れる (memory has gaps), 電波が途切れる. Contrast 途絶える (とだえる): stopping and staying stopped.",
+      "example_sentence": "トンネルに入ると、ラジオの音が途切れた。",
+      "example_reading": "トンネル に はいる と、 ラジオ の おと が とぎれた。",
+      "example_meaning": "When we entered the tunnel, the radio cut out."
+    },
+    {
+      "word": "魂",
+      "reading": "たましい",
+      "meanings": [
+        "soul",
+        "spirit"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "心",
+      "category": "shrine_tradition",
+      "scene": "Grandma adds that water or food entering the body and binding with the soul is also ムスビ.",
+      "context": "鬼 inside the kanji hints at the spirit world. 魂が抜ける (be dazed, as if your soul left), 魂を込める (put your soul into something). 心 is heart and mind; 魂 is the deeper, spiritual self — the part that might travel between bodies.",
+      "example_sentence": "職人は一つ一つの作品に魂を込めている。",
+      "example_reading": "しょくにん は ひとつひとつ の さくひん に たましい を こめて いる。",
+      "example_meaning": "The craftsman puts his soul into every single piece."
+    },
+    {
+      "word": "窪地",
+      "reading": "くぼち",
+      "meanings": [
+        "hollow",
+        "basin",
+        "depression in the ground"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "低い土地",
+      "category": "nature_sky",
+      "scene": "At the top, the ご神体 sits in a vast, crater-like hollow.",
+      "context": "窪 (dent, hollow) + 地 (ground). 窪み (くぼみ) = a small dent; 窪む = to sink in. Pay attention to the shape of this place — the landscape itself becomes a clue later.",
+      "example_sentence": "雨水が窪地にたまって、小さな池ができていた。",
+      "example_reading": "あまみず が くぼち に たまって、 ちいさな いけ が できて いた。",
+      "example_meaning": "Rainwater had collected in the hollow and formed a small pond."
+    },
+    {
+      "word": "巨木",
+      "reading": "きょぼく",
+      "meanings": [
+        "giant tree",
+        "huge old tree"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "大きな木",
+      "category": "nature_sky",
+      "scene": "In the middle of the hollow stands the ご神体 itself, a huge tree growing on a rock.",
+      "context": "巨 (giant, as in 巨人, 巨大) + 木. Literary; everyday speech says 大きな木, and 大木 (たいぼく) is the common written word. A shrine's sacred tree is a 御神木 (ごしんぼく).",
+      "example_sentence": "村の入り口には、樹齢千年の巨木が立っている。",
+      "example_reading": "むら の いりぐち に は、 じゅれい せんねん の きょぼく が たって いる。",
+      "example_meaning": "At the entrance to the village stands a giant tree a thousand years old."
+    },
+    {
+      "word": "小川",
+      "reading": "おがわ",
+      "meanings": [
+        "stream",
+        "brook",
+        "creek"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "川",
+      "category": "nature_sky",
+      "scene": "A small stream lies before the sacred tree, and crossing it means stepping into another world.",
+      "context": "小 is read お here (not しょう or こ), as in the common surname 小川. Related literary words: せせらぎ (the murmur of a stream), 沢 (さわ, mountain stream). In myth, crossing water often marks the border with the land of the dead.",
+      "example_sentence": "家の裏の小川で、よく弟と魚を捕まえた。",
+      "example_reading": "いえ の うら の おがわ で、 よく おとうと と さかな を つかまえた。",
+      "example_meaning": "I often caught fish with my little brother in the stream behind our house."
+    },
+    {
+      "word": "隠り世",
+      "reading": "かくりよ",
+      "meanings": [
+        "the hidden world",
+        "the other world",
+        "realm of gods and the dead"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "あの世",
+      "category": "shrine_tradition",
+      "scene": "Grandma tells them that beyond the stream lies 隠り世, the other world.",
+      "context": "An old Shinto word: 隠る (かくる, an old form of 隠れる, to hide) + 世 (world), the world hidden from the living. Its opposite is 現世 (うつしよ, this visible world). Everyday words for the afterlife: あの世 / この世.",
+      "example_sentence": "昔の人は、山の奥に隠り世があると信じていた。",
+      "example_reading": "むかし の ひと は、 やま の おく に かくりよ が ある と しんじて いた。",
+      "example_meaning": "People long ago believed the other world lay deep in the mountains."
+    },
+    {
+      "word": "此岸",
+      "reading": "しがん",
+      "meanings": [
+        "this shore (this world)",
+        "the world of the living"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "この世",
+      "category": "shrine_tradition",
+      "scene": "Grandma's point at the stream: to come back to this side from the other world, you must leave something precious behind.",
+      "context": "Buddhist term: 此 (this) + 岸 (shore), the world of the living, as opposed to 彼岸 (ひがん, 'that shore': the afterlife, and also the equinox weeks when families visit graves). 此 is an old kanji for これ, as in 此処 (ここ).",
+      "example_sentence": "川の向こうが彼岸で、こちら側が此岸だと祖母は教えてくれた。",
+      "example_reading": "かわ の むこう が ひがん で、 こちらがわ が しがん だ と そぼ は おしえて くれた。",
+      "example_meaning": "My grandmother taught me that the far side of the river is the other shore, and this side is the world of the living."
+    },
+    {
+      "word": "分身",
+      "reading": "ぶんしん",
+      "meanings": [
+        "part of oneself",
+        "alter ego",
+        "double"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "もう一人の自分",
+      "category": "story_terms",
+      "scene": "Grandma describes the 口噛み酒 they offer as half of 三葉 herself — the idea this word names.",
+      "context": "分 (divide) + 身 (body, self): a part split off from oneself. In games and anime it's a clone or doppelgänger. Here it ties the sake to 三葉's very self, so remember what is left at the ご神体.",
+      "example_sentence": "このギターは、父にとって分身のような存在だ。",
+      "example_reading": "この ギター は、 ちち に とって ぶんしん の よう な そんざい だ。",
+      "example_meaning": "This guitar is like a part of my father himself."
+    },
+    {
+      "word": "祠",
+      "reading": "ほこら",
+      "meanings": [
+        "small shrine",
+        "wayside shrine",
+        "sanctuary"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "小さな神社",
+      "category": "shrine_tradition",
+      "scene": "Fits the small sacred space at the foot of the ご神体 where the sake is laid.",
+      "context": "A tiny shrine, often just a stone or wooden box, in a forest, on a mountain or by a road; smaller than a 社 (やしろ) or a 神社. The kanji is rare, so know it by sight.",
+      "example_sentence": "山道の脇に、古い石の祠がひっそりと立っていた。",
+      "example_reading": "やまみち の わき に、 ふるい いし の ほこら が ひっそり と たって いた。",
+      "example_meaning": "Beside the mountain path, an old stone shrine stood quietly."
+    },
+    {
+      "word": "供える",
+      "reading": "そなえる",
+      "meanings": [
+        "to offer (to a god or the dead)",
+        "to place as an offering"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "あげる",
+      "category": "shrine_tradition",
+      "scene": "The purpose of the climb: to offer the 口噛み酒 made at the festival to the god.",
+      "context": "Noun: お供え / お供え物. Don't mix it up with 備える (same reading: to prepare, to equip); the 人 radical in 供 marks people making offerings. More formal relatives: 捧げる (ささげる, to dedicate), 奉納 (dedication at a shrine).",
+      "example_sentence": "祖母は毎朝、仏壇にご飯とお茶を供える。",
+      "example_reading": "そぼ は まいあさ、 ぶつだん に ごはん と おちゃ を そなえる。",
+      "example_meaning": "My grandmother offers rice and tea at the family altar every morning."
+    },
+    {
+      "word": "ぎょっとする",
+      "reading": "ぎょっとする",
+      "meanings": [
+        "to be startled",
+        "to get a jolt",
+        "to be taken aback"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "びっくりする",
+      "category": "onomatopoeia",
+      "scene": "瀧 gets a jolt when grandma remarks that 三葉 seems to be dreaming.",
+      "context": "A sudden, uneasy shock, often because something hits too close to home or looks alarming. ぎょっとした顔 = a startled face. Stronger and more uneasy than びっくり; compare どきっとする (heart skips a beat, which can be romantic).",
+      "example_sentence": "暗い廊下で急に声をかけられて、ぎょっとした。",
+      "example_reading": "くらい ろうか で きゅう に こえ を かけられて、 ぎょっと した。",
+      "example_meaning": "Someone suddenly spoke to me in the dark hallway, and I got a fright."
+    },
+    {
+      "word": "がちがち",
+      "reading": "がちがち",
+      "meanings": [
+        "stiff with nerves",
+        "rigid",
+        "frozen hard"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "緊張している",
+      "category": "onomatopoeia",
+      "scene": "On the day of the date with 奥寺先輩, 瀧 is stiff with nerves.",
+      "context": "Mimetic for something hard and rigid: 緊張でがちがちになる (tense up completely), がちがちに凍る (frozen solid). Also used for chattering teeth. Often written ガチガチ in katakana.",
+      "example_sentence": "発表の前は、緊張で体ががちがちになる。",
+      "example_reading": "はっぴょう の まえ は、 きんちょう で からだ が がちがち に なる。",
+      "example_meaning": "Before a presentation, my whole body goes stiff with nerves."
+    },
+    {
+      "word": "ぎこちない",
+      "reading": "ぎこちない",
+      "meanings": [
+        "awkward",
+        "stiff",
+        "clumsy (of movement or talk)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "不自然",
+      "category": "feelings",
+      "scene": "瀧's conversation with 奥寺 on the date is stiff and halting.",
+      "context": "An い-adjective for movements, smiles or talk that aren't smooth: ぎこちない笑顔, 会話がぎこちない, ぎこちなく歩く. ぎこちない is about the stiffness itself; 気まずい is about the uncomfortable atmosphere.",
+      "example_sentence": "ケンカのあと、二人の会話はどこかぎこちなかった。",
+      "example_reading": "ケンカ の あと、 ふたり の かいわ は どこか ぎこちなかった。",
+      "example_meaning": "After the fight, their conversation was somehow stiff."
+    },
+    {
+      "word": "気まずい",
+      "reading": "きまずい",
+      "meanings": [
+        "awkward",
+        "uncomfortable (atmosphere)",
+        "embarrassing"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "居心地が悪い",
+      "category": "feelings",
+      "scene": "Silences on the date grow awkward as 瀧 struggles to find anything to say.",
+      "context": "気 (feeling) + まずい (bad): the air between people feels off. 気まずい沈黙 (awkward silence), 気まずい雰囲気. 気まずくなる = things get awkward between people.",
+      "example_sentence": "名前を間違えてしまい、気まずい空気が流れた。",
+      "example_reading": "なまえ を まちがえて しまい、 きまずい くうき が ながれた。",
+      "example_meaning": "I got her name wrong, and an awkward atmosphere settled in."
+    },
+    {
+      "word": "沈黙",
+      "reading": "ちんもく",
+      "meanings": [
+        "silence",
+        "keeping silent"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "黙っていること",
+      "category": "literary",
+      "scene": "Long silences open up between 瀧 and 奥寺 as they walk.",
+      "context": "沈 (sink) + 黙 (be silent). Written and literary; everyday speech uses 黙る (だまる). 沈黙が続く, 沈黙を破る (break the silence). It pairs naturally with 気まずい.",
+      "example_sentence": "長い沈黙を破ったのは、彼女のほうだった。",
+      "example_reading": "ながい ちんもく を やぶった の は、 かのじょ の ほう だった。",
+      "example_meaning": "It was she who broke the long silence."
+    },
+    {
+      "word": "上の空",
+      "reading": "うわのそら",
+      "meanings": [
+        "absent-minded",
+        "distracted",
+        "not paying attention"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "ぼんやりしている",
+      "category": "feelings",
+      "scene": "During the date, 瀧's mind keeps drifting elsewhere, and 奥寺 notices.",
+      "context": "Irregular reading: 上 = うわ (as in 上着), 空 = そら. 上の空で聞く = to listen without taking anything in. Your mind is 'up in the sky' instead of here.",
+      "example_sentence": "好きな人のことを考えていて、授業中ずっと上の空だった。",
+      "example_reading": "すき な ひと の こと を かんがえて いて、 じゅぎょうちゅう ずっと うわのそら だった。",
+      "example_meaning": "I was thinking about the person I like, so I was distracted all through class."
+    },
+    {
+      "word": "空回り",
+      "reading": "からまわり",
+      "meanings": [
+        "trying hard to no effect",
+        "spinning one's wheels",
+        "idling (of an engine)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "うまくいかない",
+      "category": "feelings",
+      "scene": "瀧 tries hard to make the date go well, but his efforts keep falling flat.",
+      "context": "空 = から (empty) + 回り (turning): a wheel spinning without grip. 気持ちが空回りする = your eagerness gets you nowhere. 空 has three readings to watch: そら (sky), から (empty), くう (void).",
+      "example_sentence": "張り切りすぎて、かえって空回りしてしまった。",
+      "example_reading": "はりきりすぎて、 かえって からまわり して しまった。",
+      "example_meaning": "I was so fired up that I just ended up spinning my wheels."
+    },
+    {
+      "word": "写真展",
+      "reading": "しゃしんてん",
+      "meanings": [
+        "photo exhibition",
+        "photography show"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "写真の展覧会",
+      "category": "tokyo_life",
+      "scene": "Near 四ツ谷 (よつや), 瀧 and 奥寺 visit a photo exhibition of rural landscapes.",
+      "context": "〜展 = an exhibition of ~: 美術展 (art exhibition), 個展 (solo show), 展示 (display), 展覧会 (exhibition). One set of photos, of a lake town, catches at 瀧 for reasons he can't explain.",
+      "example_sentence": "週末、駅の近くで開かれている写真展に行った。",
+      "example_reading": "しゅうまつ、 えき の ちかく で ひらかれて いる しゃしんてん に いった。",
+      "example_meaning": "At the weekend I went to a photo exhibition being held near the station."
+    },
+    {
+      "word": "郷愁",
+      "reading": "きょうしゅう",
+      "meanings": [
+        "nostalgia",
+        "longing for home",
+        "homesickness"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "懐かしい気持ち",
+      "category": "literary",
+      "scene": "A lake-town photograph stirs a strange longing in 瀧, as if for a home he has never had.",
+      "context": "郷 (home village) + 愁 (sorrow). Literary; casual speech uses ノスタルジー or ホームシック. 郷愁を誘う風景 = scenery that evokes nostalgia. 懐かしい is the everyday adjective.",
+      "example_sentence": "古い駅舎は、どこか郷愁を誘う。",
+      "example_reading": "ふるい えきしゃ は、 どこか きょうしゅう を さそう。",
+      "example_meaning": "The old station building somehow evokes a sense of nostalgia."
+    },
+    {
+      "word": "釘付け",
+      "reading": "くぎづけ",
+      "meanings": [
+        "riveted",
+        "glued (of eyes)",
+        "rooted to the spot"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "じっと見る",
+      "category": "senses_body",
+      "scene": "瀧's eyes are glued to one landscape photograph at the exhibition.",
+      "context": "Literally nailed down (釘 = nail). 目が釘付けになる = your eyes are glued to something; その場に釘付けになる = to be rooted to the spot.",
+      "example_sentence": "子どもたちはテレビの画面に釘付けになっていた。",
+      "example_reading": "こどもたち は テレビ の がめん に くぎづけ に なって いた。",
+      "example_meaning": "The kids were glued to the TV screen."
+    },
+    {
+      "word": "別人",
+      "reading": "べつじん",
+      "meanings": [
+        "a different person",
+        "someone else entirely"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "違う人",
+      "category": "story_terms",
+      "scene": "奥寺 tells 瀧 he seems like a different person today — not knowing how true that was on other days.",
+      "context": "別 (separate) + 人; the reading is べつじん, not べつにん. まるで別人みたい = like a completely different person. Dramatic irony: the 瀧 she warmed to was partly 三葉.",
+      "example_sentence": "眼鏡を外した先生は、まるで別人のようだった。",
+      "example_reading": "めがね を はずした せんせい は、 まるで べつじん の よう だった。",
+      "example_meaning": "With his glasses off, our teacher looked like a completely different person."
+    },
+    {
+      "word": "見透かす",
+      "reading": "みすかす",
+      "meanings": [
+        "to see through (someone)",
+        "to read someone's mind"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "分かってしまう",
+      "category": "feelings",
+      "scene": "奥寺 sees right through 瀧: his heart has gone to someone else.",
+      "context": "見 + 透かす (to make transparent): seeing straight through to someone's hidden thoughts. The passive 心を見透かされる (have your feelings seen through) is the most common form. Close: 見抜く (みぬく, to detect the truth).",
+      "example_sentence": "母には、私のうそなんてすぐに見透かされてしまう。",
+      "example_reading": "はは に は、 わたし の うそ なんて すぐ に みすかされて しまう。",
+      "example_meaning": "My mother sees through my lies right away."
+    },
+    {
+      "word": "片思い",
+      "reading": "かたおもい",
+      "meanings": [
+        "one-sided love",
+        "unrequited crush"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一人だけ好きなこと",
+      "category": "feelings",
+      "scene": "瀧's long crush on 奥寺先輩 — and her sense that his feelings now lie elsewhere.",
+      "context": "片 (one of a pair, as in 片割れ) + 思い. 片思いをする, 片思い中. Opposite: 両思い (りょうおもい, mutual love). Also written 片想い in romantic contexts.",
+      "example_sentence": "三年間の片思いが、ついに実った。",
+      "example_reading": "さんねんかん の かたおもい が、 ついに みのった。",
+      "example_meaning": "Three years of one-sided love finally paid off."
+    },
+    {
+      "word": "照れる",
+      "reading": "てれる",
+      "meanings": [
+        "to be bashful",
+        "to be shy",
+        "to feel embarrassed (when praised)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "恥ずかしがる",
+      "category": "feelings",
+      "scene": "瀧 gets flustered and bashful around 奥寺 on the date.",
+      "context": "The embarrassment of being praised or noticed: cute, not humiliating. 照れくさい (feeling embarrassed), 照れ屋 (a shy person), 照れ隠し (covering up embarrassment). 恥ずかしい also covers real shame.",
+      "example_sentence": "褒められると、弟はすぐ照れて下を向く。",
+      "example_reading": "ほめられる と、 おとうと は すぐ てれて した を むく。",
+      "example_meaning": "Whenever he's praised, my little brother gets bashful and looks down."
+    },
+    {
+      "word": "圏外",
+      "reading": "けんがい",
+      "meanings": [
+        "out of range (no signal)",
+        "outside the area",
+        "out of the running"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "電波がない",
+      "category": "story_terms",
+      "scene": "That night 瀧 calls 三葉's number, but it won't connect, as if she were out of range.",
+      "context": "圏 (sphere, zone) + 外 (outside). On a phone screen 圏外 = no service. Also 首都圏 (the Greater Tokyo area) and 圏内 (within range). Figurative: 合格圏外 = no chance of passing.",
+      "example_sentence": "山の中では、スマホがずっと圏外だった。",
+      "example_reading": "やま の なか で は、 スマホ が ずっと けんがい だった。",
+      "example_meaning": "In the mountains, my phone had no signal the whole time."
+    },
+    {
+      "word": "電波",
+      "reading": "でんぱ",
+      "meanings": [
+        "radio waves",
+        "(phone) signal",
+        "reception"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "The recorded message on 瀧's call suggests the phone is switched off or somewhere the signal can't reach.",
+      "context": "電 (electric) + 波 (wave). 電波が届かない (no reception), 電波が弱い (weak signal). The standard recorded message says the phone is off or 電波の届かない場所にある.",
+      "example_sentence": "エレベーターの中では、電波が届きにくい。",
+      "example_reading": "エレベーター の なか で は、 でんぱ が とどきにくい。",
+      "example_meaning": "Inside elevators, the signal has trouble getting through."
+    },
+    {
+      "word": "途絶える",
+      "reading": "とだえる",
+      "meanings": [
+        "to stop completely",
+        "to cease",
+        "to be cut off"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "なくなる",
+      "category": "literary",
+      "scene": "After the date the swaps simply stop, and every link to 三葉 goes dead.",
+      "context": "途 (route) + 絶える (die out): a flow that ends and doesn't resume. 連絡が途絶える (contact ceases), 人通りが途絶える (no more passers-by). Contrast 途切れる, a break that may reconnect.",
+      "example_sentence": "彼女からの連絡は、その日を境に途絶えた。",
+      "example_reading": "かのじょ から の れんらく は、 その ひ を さかい に とだえた。",
+      "example_meaning": "Contact from her stopped from that day on."
+    },
+    {
+      "word": "ぱったり",
+      "reading": "ぱったり",
+      "meanings": [
+        "(stop) suddenly and completely",
+        "abruptly",
+        "(meet) by chance"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "急に",
+      "category": "onomatopoeia",
+      "scene": "The swaps that had come a few times a week suddenly stop altogether.",
+      "context": "ぱったり止む / ぱったり来なくなる = to stop dead. Also ぱったり会う = to bump into someone (more often ばったり). The nuance is a sudden, total end.",
+      "example_sentence": "あんなに毎日来ていたメールが、ぱったり来なくなった。",
+      "example_reading": "あんな に まいにち きて いた メール が、 ぱったり こなく なった。",
+      "example_meaning": "The emails that used to come every day suddenly stopped altogether."
+    },
+    {
+      "word": "胸騒ぎ",
+      "reading": "むなさわぎ",
+      "meanings": [
+        "uneasy feeling",
+        "foreboding",
+        "sense that something is wrong"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "不安な気持ち",
+      "category": "feelings",
+      "scene": "When the call won't go through, 瀧 is left with a vague sense that something is wrong.",
+      "context": "胸 is read むな here (as in 胸元, むなもと) + 騒ぎ (commotion): your chest stirring with dread. 胸騒ぎがする. Compare 嫌な予感 (いやなよかん, a bad feeling).",
+      "example_sentence": "帰りが遅い娘を待ちながら、母は胸騒ぎがしていた。",
+      "example_reading": "かえり が おそい むすめ を まちながら、 はは は むなさわぎ が して いた。",
+      "example_meaning": "Waiting for her daughter, who was late home, the mother had a sense of foreboding."
+    },
+    {
+      "word": "もどかしい",
+      "reading": "もどかしい",
+      "meanings": [
+        "frustrating",
+        "irritatingly out of reach",
+        "impatient (unable to act)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いらいらする",
+      "category": "feelings",
+      "scene": "Fits 瀧's frustration at having no way to reach 三葉.",
+      "context": "The itch of not being able to do or say what you want: 思いをうまく伝えられないのがもどかしい. Compare いらいら (general irritation) and じれったい (impatient with someone slow).",
+      "example_sentence": "言いたいことが英語で言えなくて、もどかしかった。",
+      "example_reading": "いいたい こと が えいご で いえなくて、 もどかしかった。",
+      "example_meaning": "It was frustrating not being able to say what I wanted in English."
+    }
+  ]
+}
