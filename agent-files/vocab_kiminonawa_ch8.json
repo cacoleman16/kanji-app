@@ -1,0 +1,1373 @@
+{
+  "deck_id": "kiminonawa-ch8-vocab",
+  "deck_name": "君の名は。 Ch.8 君の名は。 — Vocabulary",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第8章「君の名は。」",
+  "chapter": 8,
+  "chapter_title": "君の名は。",
+  "chapter_title_reading": "きみのなは",
+  "chapter_title_meaning": "Your Name Is…",
+  "learner_level": "N3",
+  "notes": "Years later in Tokyo, 瀧 is a university student slogging through job hunting while 三葉 also lives and works in the city; old friends have moved on, and both feel an ache of loss for someone they cannot name as the seasons pass. A glimpse between two side-by-side trains sends them running through the streets until they meet on a shrine staircase. This deck focuses on job-hunting and adult-life words, the vocabulary of vague longing and loss, train and city scenes, weather and seasons, and the final meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late.",
+  "card_count": 69,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "literary",
+    "feelings",
+    "senses_body",
+    "onomatopoeia",
+    "nature_sky",
+    "tokyo_life",
+    "time_memory",
+    "story_terms"
+  ],
+  "cards": [
+    {
+      "word": "名",
+      "reading": "な",
+      "meanings": [
+        "name (literary)",
+        "reputation"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "名前",
+      "category": "literary",
+      "scene": "The chapter (and the whole novel) takes its title from a question about a name, asked with the old-fashioned word 名.",
+      "context": "名 on its own, read な, is the literary/older word for 名前: 名を名乗る (to give one's name), 名もない花 (a nameless flower), 名が知れる (to become well known). In compounds it is usually めい/みょう (有名, 名字), so the bare な reading is worth drilling.",
+      "example_sentence": "名も知らない人のことを、どうしてこんなに思い出すのだろう。",
+      "example_reading": "な も しらない ひと の こと を、 どうして こんなに おもいだす の だろう。",
+      "example_meaning": "Why do I keep thinking about someone whose name I don't even know?"
+    },
+    {
+      "word": "就職活動",
+      "reading": "しゅうしょくかつどう",
+      "meanings": [
+        "job hunting",
+        "job search (for graduating students)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "仕事探し",
+      "category": "tokyo_life",
+      "scene": "The chapter jumps years ahead: 瀧 is now a university student going through the job-hunting season in Tokyo.",
+      "context": "Almost always shortened to 就活 (しゅうかつ) in speech. Japanese students job-hunt as a cohort in their final university years, all in near-identical dark suits, which is why the season feels so uniform and draining. Fun sound-alikes: 婚活 (marriage hunting) and 終活 (しゅうかつ, preparing for the end of one's life).",
+      "example_sentence": "就職活動が始まって、毎日のように会社の説明会に通っている。",
+      "example_reading": "しゅうしょく かつどう が はじまって、 まいにち の ように かいしゃ の せつめいかい に かよって いる。",
+      "example_meaning": "Job hunting has started, and I go to company information sessions almost every day."
+    },
+    {
+      "word": "リクルートスーツ",
+      "reading": "リクルートスーツ",
+      "meanings": [
+        "job-hunting suit",
+        "plain dark suit worn by job seekers"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "スーツ",
+      "category": "tokyo_life",
+      "scene": "瀧 spends the season in a suit, going from one company to the next.",
+      "context": "Wasei-eigo: リクルート here means 'job hunting', not 'to recruit someone'. The standard look is a plain black or navy suit, white shirt and black shoes, so every candidate looks the same — an image of the anonymous adult crowd that suits this chapter's mood.",
+      "example_sentence": "慣れないリクルートスーツを着て、駅の階段を急いで上った。",
+      "example_reading": "なれない リクルートスーツ を きて、 えき の かいだん を いそいで のぼった。",
+      "example_meaning": "Wearing an unfamiliar job-hunting suit, I hurried up the station stairs."
+    },
+    {
+      "word": "履歴書",
+      "reading": "りれきしょ",
+      "meanings": [
+        "résumé",
+        "CV"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Part of the paperwork of 瀧's job hunt, sent off to company after company.",
+      "context": "履歴 (personal history: 履 'tread', as in 履く 'put on shoes', + 歴 'history') + 書 (document). Japanese résumés follow a fixed template with an ID photo, and many are still handwritten (手書き). Collocations: 履歴書を書く / 送る / 出す.",
+      "example_sentence": "履歴書の写真を撮り直したほうがいいと、司に言われた。",
+      "example_reading": "りれきしょ の しゃしん を とりなおした ほう が いい と、 つかさ に いわれた。",
+      "example_meaning": "司 told me I should retake the photo for my résumé."
+    },
+    {
+      "word": "志望動機",
+      "reading": "しぼうどうき",
+      "meanings": [
+        "reason for applying",
+        "motivation (for choosing a company or school)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "選んだ理由",
+      "category": "tokyo_life",
+      "scene": "In interviews 瀧 has to explain why he wants to work in construction and with townscapes.",
+      "context": "志望 = what you aspire to (第一志望 = first choice); 動機 = motive (also used for crimes: 犯行の動機). 'Why our company?' is the central question of every Japanese interview, and 瀧's answer is tied to how places stay alive in people's memories.",
+      "example_sentence": "志望動機を聞かれて、言葉に詰まってしまった。",
+      "example_reading": "しぼう どうき を きかれて、 ことば に つまって しまった。",
+      "example_meaning": "When I was asked my reason for applying, I got stuck for words."
+    },
+    {
+      "word": "面接",
+      "reading": "めんせつ",
+      "meanings": [
+        "interview (job or school)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Much of 瀧's job hunt is a string of interviews in stiff office rooms.",
+      "context": "面 (face) + 接 (contact): a face-to-face meeting. 面接を受ける = to have an interview (not する), 面接官 = interviewer, 一次面接 / 最終面接 = first-round / final interview. A media interview is インタビュー instead.",
+      "example_sentence": "最終面接まで進んだのに、結局だめだった。",
+      "example_reading": "さいしゅう めんせつ まで すすんだ のに、 けっきょく だめ だった。",
+      "example_meaning": "I made it all the way to the final interview, but in the end it was no good."
+    },
+    {
+      "word": "名乗る",
+      "reading": "なのる",
+      "meanings": [
+        "to give one's name",
+        "to introduce oneself",
+        "to call oneself"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "名前を言う",
+      "category": "story_terms",
+      "scene": "Every interview begins with 瀧 stating his name — fitting for a chapter whose last question is about names.",
+      "context": "名 (name) + 乗る: to state your name (名を名乗る is redundant but very common), or to go by a name (〜と名乗る). Contrast 名付ける (to give someone else a name). In a story about two people who never learned each other's names, this word quietly matters.",
+      "example_sentence": "面接の最初に、大きな声ではっきりと名乗った。",
+      "example_reading": "めんせつ の さいしょ に、 おおきな こえ で はっきり と なのった。",
+      "example_meaning": "At the start of the interview, I stated my name clearly in a loud voice."
+    },
+    {
+      "word": "御社",
+      "reading": "おんしゃ",
+      "meanings": [
+        "your company (honorific, spoken)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "そちらの会社",
+      "category": "tokyo_life",
+      "scene": "The interview scenes run on job-hunting keigo, and this word turns up in almost every answer a candidate gives.",
+      "context": "Used in speech; in writing (résumés, emails) the equivalent is 貴社 (きしゃ). Your own company is 弊社 (へいしゃ). 御 is read おん here, not ご or お — compare 御中 (おんちゅう) on envelopes.",
+      "example_sentence": "御社の街づくりへの取り組みに、強く惹かれました。",
+      "example_reading": "おんしゃ の まちづくり へ の とりくみ に、 つよく ひかれました。",
+      "example_meaning": "I was strongly drawn to your company's work on urban development."
+    },
+    {
+      "word": "不採用",
+      "reading": "ふさいよう",
+      "meanings": [
+        "rejection (for a job)",
+        "not hired"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "落ちる",
+      "category": "tokyo_life",
+      "scene": "Rejection after rejection piles up during 瀧's job hunt.",
+      "context": "不 (not) + 採用 (hiring, adoption). 不採用通知 = rejection notice. Students nickname rejection emails お祈りメール because they close by 'praying for your future success' (今後のご活躍をお祈り申し上げます). Casual: 落ちた.",
+      "example_sentence": "また不採用の知らせが届いて、ため息が出た。",
+      "example_reading": "また ふさいよう の しらせ が とどいて、 ためいき が でた。",
+      "example_meaning": "Another rejection notice arrived, and I let out a sigh."
+    },
+    {
+      "word": "内定",
+      "reading": "ないてい",
+      "meanings": [
+        "informal job offer",
+        "provisional appointment"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "What every job-hunting student is chasing — and what 瀧 keeps failing to get.",
+      "context": "Japanese companies give students a 内定 months before graduation; the job starts the following April. 内定をもらう / 内定が出る = to get an offer; 内々定 (ないないてい) = an even earlier, unofficial promise. 'Still no 内定' is the classic worry of final-year students.",
+      "example_sentence": "夏が終わっても、まだ一社も内定をもらえていない。",
+      "example_reading": "なつ が おわって も、 まだ いっしゃ も ないてい を もらえて いない。",
+      "example_meaning": "Even though summer is over, I still haven't got an offer from a single company."
+    },
+    {
+      "word": "焦燥",
+      "reading": "しょうそう",
+      "meanings": [
+        "impatience",
+        "fretfulness",
+        "anxious frustration"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "あせり",
+      "category": "literary",
+      "scene": "The chapter is full of restless urgency — the pressure of the job hunt, and a deeper sense that time is slipping away from something important.",
+      "context": "焦 (scorch; 焦る あせる = to feel rushed) + 燥 (dry, as in 乾燥). Mostly seen as 焦燥感, a written word for the burning feeling that time is running out. Everyday equivalent: 焦り (あせり).",
+      "example_sentence": "周りが次々と内定を決めていき、焦燥感ばかりが募った。",
+      "example_reading": "まわり が つぎつぎ と ないてい を きめて いき、 しょうそうかん ばかり が つのった。",
+      "example_meaning": "Everyone around me was landing job offers one after another, and all I felt was growing anxious frustration."
+    },
+    {
+      "word": "企業",
+      "reading": "きぎょう",
+      "meanings": [
+        "company",
+        "enterprise",
+        "corporation"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "会社",
+      "category": "tokyo_life",
+      "scene": "瀧 applies to firm after firm, especially in construction.",
+      "context": "More formal than 会社 — the word of news and job hunting: 大企業 (big corporation), 中小企業 (small/medium business), 企業説明会 (company info session). 起業 (also きぎょう) means 'founding a business' — same sound, different first kanji.",
+      "example_sentence": "建設関係の企業を中心に、エントリーシートを出した。",
+      "example_reading": "けんせつ かんけい の きぎょう を ちゅうしん に、 エントリーシート を だした。",
+      "example_meaning": "I sent application forms mainly to construction-related companies."
+    },
+    {
+      "word": "社会人",
+      "reading": "しゃかいじん",
+      "meanings": [
+        "working adult",
+        "member of society (in employment)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "大人",
+      "category": "tokyo_life",
+      "scene": "Years have passed: several characters are already working adults while 瀧 is still trying to become one.",
+      "context": "Not just 'adult' — specifically someone who has finished school and works. 社会人になる marks the jump from student to employee; 社会人一年目 = first year in the workforce. The word carries the weight of responsibility and routine.",
+      "example_sentence": "社会人になったら、こんなふうに友達と会えなくなるのかな。",
+      "example_reading": "しゃかいじん に なったら、 こんな ふう に ともだち と あえなく なる の かな。",
+      "example_meaning": "I wonder if I won't be able to see friends like this once I'm a working adult."
+    },
+    {
+      "word": "建築",
+      "reading": "けんちく",
+      "meanings": [
+        "architecture",
+        "construction (of buildings)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "建物を建てること",
+      "category": "tokyo_life",
+      "scene": "瀧 is drawn to architecture and construction because he cares about how towns look and live on in memory.",
+      "context": "建 (build) + 築 (construct). 建築家 = architect, 建築学科 = architecture department. 建設 (けんせつ) is construction in the wider civil-engineering sense (roads, bridges, dams) — both appear around 瀧's job hunt.",
+      "example_sentence": "建築の仕事に就いて、人が長く暮らせる建物をつくりたい。",
+      "example_reading": "けんちく の しごと に ついて、 ひと が ながく くらせる たてもの を つくりたい。",
+      "example_meaning": "I want to work in architecture and make buildings people can live in for a long time."
+    },
+    {
+      "word": "街並み",
+      "reading": "まちなみ",
+      "meanings": [
+        "townscape",
+        "streetscape",
+        "the look of a street"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "街の景色",
+      "category": "tokyo_life",
+      "scene": "瀧 is fascinated by townscapes — the way a street's look stays alive in people's memories.",
+      "context": "Also written 町並み. 並み = a row of things (as in 並ぶ), so it means the whole look of a street: buildings, roofs and signs together. For someone who saw a whole town vanish, a townscape is something worth protecting.",
+      "example_sentence": "雨に濡れた夕方の街並みが、なぜか懐かしく見えた。",
+      "example_reading": "あめ に ぬれた ゆうがた の まちなみ が、 なぜか なつかしく みえた。",
+      "example_meaning": "The evening streetscape, wet with rain, somehow looked nostalgic."
+    },
+    {
+      "word": "景観",
+      "reading": "けいかん",
+      "meanings": [
+        "scenery",
+        "landscape (esp. urban or planned)",
+        "view"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "景色",
+      "category": "tokyo_life",
+      "scene": "A technical word that fits 瀧's interest in how cities and landscapes are shaped.",
+      "context": "More technical than 景色 or 風景 — the word of planners and architects: 景観を守る (protect the landscape), 都市景観 (urban landscape), 景観条例 (landscape ordinance). Expect it alongside 建築 and 街並み.",
+      "example_sentence": "新しいビルが、川沿いの景観を大きく変えてしまった。",
+      "example_reading": "あたらしい ビル が、 かわぞい の けいかん を おおきく かえて しまった。",
+      "example_meaning": "The new building greatly changed the riverside landscape."
+    },
+    {
+      "word": "街づくり",
+      "reading": "まちづくり",
+      "meanings": [
+        "town planning",
+        "community development",
+        "urban development"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "街を作ること",
+      "category": "tokyo_life",
+      "scene": "The kind of work 瀧 wants to do: shaping places that people will remember warmly.",
+      "context": "Also written まちづくり in kana, common in city-hall and corporate slogans. More than putting up buildings — it means shaping how a place works and feels for the people who live there. Two easy parts (街 + 作り), but it's a fixed term worth knowing.",
+      "example_sentence": "災害に強い街づくりが、どの地域でも課題になっている。",
+      "example_reading": "さいがい に つよい まちづくり が、 どの ちいき でも かだい に なって いる。",
+      "example_meaning": "Building disaster-resilient towns has become an issue in every region."
+    },
+    {
+      "word": "携わる",
+      "reading": "たずさわる",
+      "meanings": [
+        "to be involved in (work)",
+        "to take part in"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "関わる",
+      "category": "tokyo_life",
+      "scene": "A formal, interview-friendly verb for the work 瀧 hopes to do.",
+      "context": "Used for one's job or a project: 〜に携わる (建築に携わる, 街づくりに携わる). More dignified than 関わる, which is why it is a favourite in interviews and résumés. 携 also appears in 携帯 (けいたい, 'carry with you').",
+      "example_sentence": "いつか、人の記憶に残るような建物の設計に携わりたい。",
+      "example_reading": "いつか、 ひと の きおく に のこる ような たてもの の せっけい に たずさわりたい。",
+      "example_meaning": "Someday I want to be involved in designing buildings that stay in people's memories."
+    },
+    {
+      "word": "上京",
+      "reading": "じょうきょう",
+      "meanings": [
+        "moving to Tokyo",
+        "going up to the capital"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "東京に引っ越す",
+      "category": "tokyo_life",
+      "scene": "三葉, too, now lives and works in Tokyo — the same city as 瀧, without either of them knowing.",
+      "context": "上 (up) + 京 (capital): going 'up' to the capital from the provinces (historically Kyoto, now Tokyo). The opposite is 帰郷 (ききょう, returning to one's hometown). For someone from a small town like 糸守, 上京 is a big life step.",
+      "example_sentence": "高校を卒業してすぐ、彼女は一人で上京した。",
+      "example_reading": "こうこう を そつぎょう して すぐ、 かのじょ は ひとり で じょうきょう した。",
+      "example_meaning": "Right after finishing high school, she moved to Tokyo by herself."
+    },
+    {
+      "word": "満員電車",
+      "reading": "まんいんでんしゃ",
+      "meanings": [
+        "packed train",
+        "rush-hour train"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "こんでいる電車",
+      "category": "tokyo_life",
+      "scene": "Daily commuting on crowded Tokyo trains is the backdrop to the characters' adult lives.",
+      "context": "満員 = full to capacity (満 'full' + 員 'members'). 満員電車に揺られる (to be jostled on a packed train) is the classic image of Tokyo working life. Compare 満席 (まんせき, every seat taken).",
+      "example_sentence": "満員電車に揺られて、毎朝同じ時間に会社へ向かう。",
+      "example_reading": "まんいん でんしゃ に ゆられて、 まいあさ おなじ じかん に かいしゃ へ むかう。",
+      "example_meaning": "Jostled on a packed train, I head to the office at the same time every morning."
+    },
+    {
+      "word": "ぼんやり",
+      "reading": "ぼんやり",
+      "meanings": [
+        "absent-mindedly",
+        "vaguely",
+        "dimly"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なんとなく",
+      "category": "onomatopoeia",
+      "scene": "In quiet moments — on a train, at a window — 瀧 and 三葉 drift off, staring at nothing.",
+      "context": "Two senses: (1) a person spacing out (ぼんやりする, ぼんやり眺める); (2) something blurry or dim (ぼんやり見える, ぼんやりと覚えている). Both fit a chapter about half-remembered feelings.",
+      "example_sentence": "電車の窓に映る自分の顔を、ぼんやり見つめていた。",
+      "example_reading": "でんしゃ の まど に うつる じぶん の かお を、 ぼんやり みつめて いた。",
+      "example_meaning": "I stared absently at my own face reflected in the train window."
+    },
+    {
+      "word": "喪失感",
+      "reading": "そうしつかん",
+      "meanings": [
+        "sense of loss",
+        "feeling of emptiness after a loss"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "なくした気持ち",
+      "category": "feelings",
+      "scene": "Both 瀧 and 三葉 carry an ache of loss without knowing what — or who — they lost.",
+      "context": "喪 (mourning, as in 喪服 'mourning clothes') + 失 (lose) + 感 (feeling). Normally grief after a death or big loss; here it is strangely objectless, which is the point — they mourn someone they can't remember. 喪失感に襲われる = to be overwhelmed by a sense of loss.",
+      "example_sentence": "理由のわからない喪失感が、ときどき胸に広がる。",
+      "example_reading": "りゆう の わからない そうしつかん が、 ときどき むね に ひろがる。",
+      "example_meaning": "Sometimes a sense of loss I can't explain spreads through my chest."
+    },
+    {
+      "word": "ぽっかり",
+      "reading": "ぽっかり",
+      "meanings": [
+        "gaping (hole)",
+        "(floating) alone in empty space"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "大きく",
+      "category": "onomatopoeia",
+      "scene": "The emptiness the two feel is the kind people describe as a hole opening in the heart.",
+      "context": "Almost always in 胸に(心に)ぽっかり穴が開く — 'a hole gapes open in one's heart', the standard image for loss. Also for something floating alone in open space: 空にぽっかり浮かぶ雲 (a lone cloud in the sky).",
+      "example_sentence": "卒業式のあと、心にぽっかり穴が開いたような気がした。",
+      "example_reading": "そつぎょうしき の あと、 こころ に ぽっかり あな が あいた ような き が した。",
+      "example_meaning": "After the graduation ceremony, I felt as if a hole had opened in my heart."
+    },
+    {
+      "word": "漠然と",
+      "reading": "ばくぜんと",
+      "meanings": [
+        "vaguely",
+        "obscurely",
+        "without clear shape"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "なんとなく",
+      "category": "literary",
+      "scene": "The longing that follows 瀧 and 三葉 through the years has no clear outline — they can't say what they want.",
+      "context": "漠 as in 砂漠 (desert): wide, empty, featureless. 漠然とした不安 (a vague anxiety) is a stock phrase. Unlike casual なんとなく ('somehow'), 漠然と is written and describes something that lacks an outline — exactly the quality of their longing.",
+      "example_sentence": "将来に対して、漠然とした不安を抱えている。",
+      "example_reading": "しょうらい に たいして、 ばくぜん と した ふあん を かかえて いる。",
+      "example_meaning": "I carry a vague anxiety about the future."
+    },
+    {
+      "word": "無性に",
+      "reading": "むしょうに",
+      "meanings": [
+        "intensely (for no clear reason)",
+        "terribly",
+        "overwhelmingly"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "すごく",
+      "category": "feelings",
+      "scene": "Out of nowhere, an urge to see someone — someone they can't name — washes over them.",
+      "context": "Used with desires and emotions that rise without a clear cause: 無性に〜したくなる (suddenly be dying to ~), 無性に寂しい. Don't confuse it with 無償 (むしょう, free of charge).",
+      "example_sentence": "雨の夜、無性に誰かの声が聞きたくなった。",
+      "example_reading": "あめ の よる、 むしょう に だれか の こえ が ききたく なった。",
+      "example_meaning": "On a rainy night, I suddenly longed terribly to hear someone's voice."
+    },
+    {
+      "word": "探し求める",
+      "reading": "さがしもとめる",
+      "meanings": [
+        "to search for",
+        "to seek (long and earnestly)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "探す",
+      "category": "feelings",
+      "scene": "The chapter's refrain: both of them are always looking for someone, without knowing who.",
+      "context": "探す + 求める (to seek, want): searching with longing for something important or elusive — 理想を探し求める, 答えを探し求める. Stronger and more literary than 探す alone.",
+      "example_sentence": "彼はずっと、何かを探し求めるように街を歩いていた。",
+      "example_reading": "かれ は ずっと、 なにか を さがしもとめる ように まち を あるいて いた。",
+      "example_meaning": "He kept walking the city as if searching for something."
+    },
+    {
+      "word": "胸騒ぎ",
+      "reading": "むなさわぎ",
+      "meanings": [
+        "uneasy stirring in the chest",
+        "premonition",
+        "foreboding"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "不安な気持ち",
+      "category": "feelings",
+      "scene": "A restless stirring in the chest keeps returning to them, as if something were about to happen.",
+      "context": "胸 reads むな in some compounds (胸騒ぎ, 胸元 むなもと, 胸板 むないた) + 騒ぐ (to make a commotion): the chest 'in uproar'. Usually a bad premonition (胸騒ぎがする), but in this chapter the restlessness also points toward something hoped for.",
+      "example_sentence": "駅に着いたとたん、妙な胸騒ぎがした。",
+      "example_reading": "えき に ついた とたん、 みょう な むなさわぎ が した。",
+      "example_meaning": "The moment I arrived at the station, I had a strange sense that something was about to happen."
+    },
+    {
+      "word": "もどかしい",
+      "reading": "もどかしい",
+      "meanings": [
+        "frustrating (just out of reach)",
+        "tantalizing",
+        "impatient"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いらいらする",
+      "category": "feelings",
+      "scene": "Something is always almost in reach for them — a memory, a name — and never quite there.",
+      "context": "The irritation of something being nearly within grasp: a word on the tip of your tongue, a memory you can't pull up, slow progress. Usually written in kana. A close cousin is 歯がゆい (はがゆい).",
+      "example_sentence": "言いたいことがうまく言葉にならず、もどかしかった。",
+      "example_reading": "いいたい こと が うまく ことば に ならず、 もどかしかった。",
+      "example_meaning": "It was frustrating that I couldn't put what I wanted to say into words."
+    },
+    {
+      "word": "寂寥",
+      "reading": "せきりょう",
+      "meanings": [
+        "loneliness",
+        "desolation",
+        "forlornness"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "さびしさ",
+      "category": "literary",
+      "scene": "A high-literary word for the loneliness that hits them even in crowded Tokyo.",
+      "context": "寂 is the kanji of 寂しい (さびしい); 寥 is rare and means 'empty, deserted'. Usually 寂寥感 or 寂寥とした (desolate, of scenery). You'll mostly meet it in novels and essays — recognising it with furigana is enough.",
+      "example_sentence": "人であふれる街の中で、ふと寂寥感に包まれることがある。",
+      "example_reading": "ひと で あふれる まち の なか で、 ふと せきりょうかん に つつまれる こと が ある。",
+      "example_meaning": "Even in a city overflowing with people, I am sometimes suddenly wrapped in loneliness."
+    },
+    {
+      "word": "切ない",
+      "reading": "せつない",
+      "meanings": [
+        "heart-rending",
+        "painfully sad",
+        "aching with longing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "悲しい",
+      "category": "feelings",
+      "scene": "The chapter's emotional colour: sadness mixed with longing for someone just out of reach.",
+      "context": "Sadness mixed with yearning — sweet and painful at once — common in love stories and songs. More emotional than 悲しい; 胸が切なくなる = one's heart aches.",
+      "example_sentence": "その歌を聞くと、なぜか切ない気持ちになる。",
+      "example_reading": "その うた を きく と、 なぜか せつない きもち に なる。",
+      "example_meaning": "Whenever I hear that song, I somehow feel a painful ache."
+    },
+    {
+      "word": "既視感",
+      "reading": "きしかん",
+      "meanings": [
+        "déjà vu",
+        "sense of having seen something before"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "前に見た気がすること",
+      "category": "time_memory",
+      "scene": "Places and faces keep tugging at 瀧 and 三葉 with the feeling that they've seen them before.",
+      "context": "既 (already, as in 既に すでに) + 視 (look) + 感 (feeling) — a native rendering of déjà vu, which is also used as デジャヴ / デジャブ. 既視感を覚える = to have a sense of déjà vu.",
+      "example_sentence": "初めて来た町なのに、強い既視感を覚えた。",
+      "example_reading": "はじめて きた まち なのに、 つよい きしかん を おぼえた。",
+      "example_meaning": "Even though it was my first time in that town, I had a strong sense of déjà vu."
+    },
+    {
+      "word": "面影",
+      "reading": "おもかげ",
+      "meanings": [
+        "image (of someone) in one's memory",
+        "trace",
+        "vestige"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昔の様子",
+      "category": "time_memory",
+      "scene": "Faces and places carry faint traces of something the two can no longer name.",
+      "context": "The image of someone that lingers in memory, or a trace of the past still visible: 昔の面影が残る (traces of the old days remain), 母の面影がある (resembles her mother). Note the reading: 面 as おも, not めん.",
+      "example_sentence": "再開発された駅前には、昔の面影がほとんど残っていなかった。",
+      "example_reading": "さいかいはつ された えきまえ には、 むかし の おもかげ が ほとんど のこって いなかった。",
+      "example_meaning": "Hardly any trace of the old days remained in front of the redeveloped station."
+    },
+    {
+      "word": "薄れる",
+      "reading": "うすれる",
+      "meanings": [
+        "to fade",
+        "to grow faint",
+        "to weaken"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "消えていく",
+      "category": "time_memory",
+      "scene": "Over the years, whatever happened before has been slipping further from their memories.",
+      "context": "From 薄い (thin, faint). For memories, feelings, colours, mist: 記憶が薄れる, 痛みが薄れる. Unlike 消える (vanish), 薄れる is gradual.",
+      "example_sentence": "時間がたつにつれて、あの夢の記憶も薄れていった。",
+      "example_reading": "じかん が たつ に つれて、 あの ゆめ の きおく も うすれて いった。",
+      "example_meaning": "As time went by, the memory of that dream faded too."
+    },
+    {
+      "word": "歳月",
+      "reading": "さいげつ",
+      "meanings": [
+        "years",
+        "time (as it passes)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "年月",
+      "category": "time_memory",
+      "scene": "The chapter covers years, not days — seasons roll by while the ache stays.",
+      "context": "Literary word for the passing years: 歳月が流れる, 長い歳月をかけて. Plainer alternatives: 年月 (としつき / ねんげつ), 月日 (つきひ). 歳 is the 歳 of 〜歳 (years of age).",
+      "example_sentence": "あの日から、長い歳月が流れたような気がする。",
+      "example_reading": "あの ひ から、 ながい さいげつ が ながれた ような き が する。",
+      "example_meaning": "It feels as though long years have passed since that day."
+    },
+    {
+      "word": "巡る",
+      "reading": "めぐる",
+      "meanings": [
+        "to come round (seasons)",
+        "to go around",
+        "to tour"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "まわる",
+      "category": "nature_sky",
+      "scene": "Season after season comes and goes as the two keep searching.",
+      "context": "季節が巡る = the seasons come round again. Also 名所を巡る (tour famous spots), 思いが巡る (thoughts go round and round). More literary than まわる. Same root as めぐり会う (to meet by fate), which appears near the end of this deck.",
+      "example_sentence": "季節が巡って、また桜の咲く頃になった。",
+      "example_reading": "きせつ が めぐって、 また さくら の さく ころ に なった。",
+      "example_meaning": "The seasons came round, and it was cherry-blossom time again."
+    },
+    {
+      "word": "移ろう",
+      "reading": "うつろう",
+      "meanings": [
+        "to change gradually",
+        "to fade",
+        "to shift (seasons, feelings)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "変わっていく",
+      "category": "literary",
+      "scene": "The seasons of Tokyo change around the characters while their longing stays the same.",
+      "context": "Poetic word for gradual change, especially of seasons and feelings: 季節が移ろう, 移ろいやすい心 (a fickle heart). Noun: 移ろい. Related to 移る (to move), but with a wistful, impermanent tone.",
+      "example_sentence": "窓から見える木々の色が、少しずつ移ろっていく。",
+      "example_reading": "まど から みえる きぎ の いろ が、 すこし ずつ うつろって いく。",
+      "example_meaning": "The colours of the trees outside the window are gradually changing."
+    },
+    {
+      "word": "梅雨",
+      "reading": "つゆ",
+      "meanings": [
+        "rainy season (June–July)"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "雨の季節",
+      "category": "nature_sky",
+      "scene": "As the seasons cycle through the chapter, the grey, rainy weeks of early summer come round with the rest.",
+      "context": "Irregular reading: 梅 (plum) + 雨 = つゆ (ばいう in weather reports). 梅雨入り / 梅雨明け = start / end of the rainy season. Heavy, humid and grey — a season for brooding.",
+      "example_sentence": "梅雨が明けると、東京は一気に夏になる。",
+      "example_reading": "つゆ が あける と、 とうきょう は いっき に なつ に なる。",
+      "example_meaning": "When the rainy season ends, Tokyo turns to summer all at once."
+    },
+    {
+      "word": "降り積もる",
+      "reading": "ふりつもる",
+      "meanings": [
+        "to fall and pile up (snow)",
+        "to accumulate"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "雪がたまる",
+      "category": "nature_sky",
+      "scene": "Snow falls on Tokyo as the years pass — weather is one of the ways the chapter marks time and mood.",
+      "context": "降る + 積もる: snow (or ash, dust) falling and building up layer on layer. Also figurative: 降り積もる思い (feelings that pile up over time) — a good image for years of unnamed longing.",
+      "example_sentence": "夜のあいだに雪が降り積もり、朝の街は真っ白だった。",
+      "example_reading": "よる の あいだ に ゆき が ふりつもり、 あさ の まち は まっしろ だった。",
+      "example_meaning": "Snow piled up during the night, and in the morning the town was pure white."
+    },
+    {
+      "word": "しんしんと",
+      "reading": "しんしんと",
+      "meanings": [
+        "(snow falling) silently",
+        "deeply (of quiet or cold)"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "静かに",
+      "category": "onomatopoeia",
+      "scene": "Quiet snowy moments are when the ache comes back to them most strongly.",
+      "context": "Describes snow falling steadily and silently (雪がしんしんと降る) or the deep quiet and cold of night (夜がしんしんと更ける). Sometimes written 深々と. Different from しーんと (a sudden hush in a room).",
+      "example_sentence": "雪がしんしんと降る夜、ひとりで窓の外を見ていた。",
+      "example_reading": "ゆき が しんしん と ふる よる、 ひとり で まど の そと を みて いた。",
+      "example_meaning": "On a night when snow was falling silently, I was looking out of the window alone."
+    },
+    {
+      "word": "婚約",
+      "reading": "こんやく",
+      "meanings": [
+        "engagement (to marry)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "結婚の約束",
+      "category": "feelings",
+      "scene": "Old friends have moved on: テッシー and サヤちん are engaged, and 奥寺先輩 has found someone too.",
+      "context": "婚 (marriage) + 約 (promise). 婚約する = to get engaged, 婚約者 = fiancé(e), 婚約指輪 = engagement ring. In casual talk people often just say 結婚が決まった.",
+      "example_sentence": "高校時代から付き合っていた二人が、ついに婚約したらしい。",
+      "example_reading": "こうこう じだい から つきあって いた ふたり が、 ついに こんやく した らしい。",
+      "example_meaning": "Apparently the two who'd been going out since high school finally got engaged."
+    },
+    {
+      "word": "相変わらず",
+      "reading": "あいかわらず",
+      "meanings": [
+        "as always",
+        "same as ever",
+        "as usual"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いつもと同じ",
+      "category": "time_memory",
+      "scene": "When 瀧 meets up with 司 and 奥寺先輩 years later, some things haven't changed at all.",
+      "context": "Used warmly (相変わらず元気だね — you're as lively as ever) or as a mild jab (相変わらずだな — you haven't changed!). 相 + 変わらず (without changing).",
+      "example_sentence": "久しぶりに会った司は、相変わらず落ち着いていた。",
+      "example_reading": "ひさしぶり に あった つかさ は、 あいかわらず おちついて いた。",
+      "example_meaning": "司, whom I hadn't seen in a while, was as composed as ever."
+    },
+    {
+      "word": "近況",
+      "reading": "きんきょう",
+      "meanings": [
+        "recent situation",
+        "how one has been lately"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "最近の様子",
+      "category": "tokyo_life",
+      "scene": "Catching up with 奥寺先輩 and 司 means trading news of how everyone has been.",
+      "context": "近況を報告する / 近況を聞く = to give / ask for an update on someone's life; 近況報告 = catch-up news. Common in letters, emails and reunions. 況 also appears in 状況 (situation).",
+      "example_sentence": "喫茶店で、先輩とお互いの近況を話した。",
+      "example_reading": "きっさてん で、 せんぱい と おたがい の きんきょう を はなした。",
+      "example_meaning": "At the café, my senior and I talked about how we'd each been lately."
+    },
+    {
+      "word": "車窓",
+      "reading": "しゃそう",
+      "meanings": [
+        "train window",
+        "view from a vehicle window"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "電車の窓",
+      "category": "tokyo_life",
+      "scene": "The climax begins with a glimpse through the windows of two trains running side by side.",
+      "context": "車 + 窓. 車窓から見る景色 / 車窓の風景 = the scenery passing outside. A written word — in speech, 電車の窓. In this chapter a train window is where the two finally see each other.",
+      "example_sentence": "車窓を流れる景色を眺めているうちに、眠ってしまった。",
+      "example_reading": "しゃそう を ながれる けしき を ながめて いる うち に、 ねむって しまった。",
+      "example_meaning": "While I was gazing at the scenery flowing past the train window, I fell asleep."
+    },
+    {
+      "word": "並走",
+      "reading": "へいそう",
+      "meanings": [
+        "running side by side",
+        "running parallel"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "となりを走る",
+      "category": "tokyo_life",
+      "scene": "Two trains run alongside each other for a few seconds — long enough for a glimpse.",
+      "context": "並 (side by side) + 走 (run). Used of vehicles, runners, rail lines: 二本の電車が並走する. On Tokyo lines that run parallel, passengers in two trains can look straight into each other's cars for a moment.",
+      "example_sentence": "隣の線路を並走する電車の中に、見覚えのある顔があった。",
+      "example_reading": "となり の せんろ を へいそう する でんしゃ の なか に、 みおぼえ の ある かお が あった。",
+      "example_meaning": "In the train running alongside on the next track, there was a face I recognized."
+    },
+    {
+      "word": "ちらりと",
+      "reading": "ちらりと",
+      "meanings": [
+        "(see) for an instant",
+        "a glimpse",
+        "fleetingly"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "少しだけ",
+      "category": "onomatopoeia",
+      "scene": "Through the passing train windows, all either of them gets is a brief glimpse.",
+      "context": "A brief, partial look: ちらりと見える (catch a glimpse), ちらりと見る (glance). Variants: ちらっと (casual) and ちらちら (flickering, repeatedly).",
+      "example_sentence": "人混みの向こうに、ちらりと赤い髪飾りが見えた。",
+      "example_reading": "ひとごみ の むこう に、 ちらり と あかい かみかざり が みえた。",
+      "example_meaning": "Beyond the crowd, I caught a glimpse of a red hair ornament."
+    },
+    {
+      "word": "横顔",
+      "reading": "よこがお",
+      "meanings": [
+        "profile",
+        "face seen from the side",
+        "(another) side of someone"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Faces seen in passing — through glass, across a platform — are often only half-seen.",
+      "context": "横 (side) + 顔 (face). Figurative: 意外な横顔 = an unexpected side of someone (common in magazine profiles). People gazing out of windows are usually seen in profile.",
+      "example_sentence": "窓ガラスに映った彼女の横顔は、どこか寂しそうだった。",
+      "example_reading": "まどガラス に うつった かのじょ の よこがお は、 どこか さびしそう だった。",
+      "example_meaning": "Her profile reflected in the window glass looked somehow lonely."
+    },
+    {
+      "word": "視線",
+      "reading": "しせん",
+      "meanings": [
+        "gaze",
+        "line of sight",
+        "eyes (looking)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見ている方向",
+      "category": "senses_body",
+      "scene": "Across two moving trains, their eyes meet.",
+      "context": "視線を感じる (feel someone's eyes on you), 視線をそらす (look away), 視線が合う / ぶつかる (eyes meet). A key word whenever characters look at — or away from — each other.",
+      "example_sentence": "誰かの視線を感じて振り向くと、そこには誰もいなかった。",
+      "example_reading": "だれか の しせん を かんじて ふりむく と、 そこ には だれ も いなかった。",
+      "example_meaning": "I felt someone's eyes on me and turned, but no one was there."
+    },
+    {
+      "word": "はっと",
+      "reading": "はっと",
+      "meanings": [
+        "with a start",
+        "suddenly (realizing)",
+        "with a gasp"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "急に気づく",
+      "category": "onomatopoeia",
+      "scene": "The glimpse through the window jolts them out of their routine.",
+      "context": "はっとする = to be startled or suddenly realize; はっと気づく, はっと息をのむ. A sharp, instant jolt — different from ふと, a soft, idle 'suddenly'.",
+      "example_sentence": "名前を呼ばれた気がして、はっと顔を上げた。",
+      "example_reading": "なまえ を よばれた き が して、 はっと かお を あげた。",
+      "example_meaning": "I thought I heard my name and looked up with a start."
+    },
+    {
+      "word": "見開く",
+      "reading": "みひらく",
+      "meanings": [
+        "to open (one's eyes) wide"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "目を大きく開ける",
+      "category": "senses_body",
+      "scene": "A typical reaction word for the jolt of recognition when they see each other between the trains.",
+      "context": "Almost always 目を見開く — eyes widening in shock or wonder. Different from 目を開ける (simply open your eyes) and from 見開き (a two-page spread in a book).",
+      "example_sentence": "信じられない知らせに、彼は目を見開いた。",
+      "example_reading": "しんじられない しらせ に、 かれ は め を みひらいた。",
+      "example_meaning": "At the unbelievable news, his eyes went wide."
+    },
+    {
+      "word": "鼓動",
+      "reading": "こどう",
+      "meanings": [
+        "heartbeat",
+        "pulse",
+        "throb"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "心臓の音",
+      "category": "senses_body",
+      "scene": "Hearts pound as they leave their trains and run in search of each other.",
+      "context": "鼓 = drum (太鼓), 動 = move: the heart as a drum. 鼓動が速くなる / 高鳴る = the heart races / pounds. A written, slightly dramatic word — in speech, ドキドキ or 心臓がバクバクする.",
+      "example_sentence": "走ったわけでもないのに、鼓動がどんどん速くなっていく。",
+      "example_reading": "はしった わけ でも ない のに、 こどう が どんどん はやく なって いく。",
+      "example_meaning": "I haven't even been running, yet my heartbeat keeps getting faster."
+    },
+    {
+      "word": "改札",
+      "reading": "かいさつ",
+      "meanings": [
+        "ticket gate",
+        "ticket barrier"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "駅の出口",
+      "category": "tokyo_life",
+      "scene": "Jumping off at the next station, they rush out through the ticket gates.",
+      "context": "改 (inspect, as in 切符を改める) + 札 (ticket, tag). 改札口 = the gate area, 改札を出る / 通る / 抜ける. In Tokyo you tap an IC card — and the gate snaps shut if your balance is too low.",
+      "example_sentence": "改札を抜けると、外は小雨が降っていた。",
+      "example_reading": "かいさつ を ぬける と、 そと は こさめ が ふって いた。",
+      "example_meaning": "When I went out through the ticket gate, a light rain was falling outside."
+    },
+    {
+      "word": "駆け出す",
+      "reading": "かけだす",
+      "meanings": [
+        "to break into a run",
+        "to dash off"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "走り出す",
+      "category": "senses_body",
+      "scene": "Both of them break into a run, searching the streets for the person they glimpsed.",
+      "context": "駆ける (to run, dash — more literary than 走る) + 出す (start). Watch for its relatives in a chase scene: 駆け寄る (run up to), 駆け上がる (dash up), 駆け下りる (dash down), 駆け抜ける (run through).",
+      "example_sentence": "電話を切ると、彼女は傘も持たずに駆け出した。",
+      "example_reading": "でんわ を きる と、 かのじょ は かさ も もたず に かけだした。",
+      "example_meaning": "As soon as she hung up, she dashed off without even taking an umbrella."
+    },
+    {
+      "word": "人混み",
+      "reading": "ひとごみ",
+      "meanings": [
+        "crowd",
+        "throng of people"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "たくさんの人",
+      "category": "tokyo_life",
+      "scene": "The search for each other runs through Tokyo's crowds.",
+      "context": "人 + 混む (to be crowded); also written 人込み. 人混みをかき分ける (push through the crowd), 人混みに紛れる (be lost in the crowd). 群衆 (ぐんしゅう) is a more formal 'mass of people'.",
+      "example_sentence": "朝の人混みをかき分けて、出口に向かった。",
+      "example_reading": "あさ の ひとごみ を かきわけて、 でぐち に むかった。",
+      "example_meaning": "I pushed through the morning crowd toward the exit."
+    },
+    {
+      "word": "雑踏",
+      "reading": "ざっとう",
+      "meanings": [
+        "hustle and bustle",
+        "crowded streets",
+        "throng"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "人混み",
+      "category": "literary",
+      "scene": "A literary word for the noisy, moving city they search through.",
+      "context": "The noise and movement of a crowded street as a whole: 都会の雑踏, 雑踏に紛れる (lose oneself in the crowd). 雑 (miscellaneous) + 踏 (tread, as in 踏む) — countless feet. More literary than 人混み.",
+      "example_sentence": "雑踏の中で、彼女の声だけがはっきり聞こえた。",
+      "example_reading": "ざっとう の なか で、 かのじょ の こえ だけ が はっきり きこえた。",
+      "example_meaning": "In the bustle of the crowd, only her voice came through clearly."
+    },
+    {
+      "word": "路地",
+      "reading": "ろじ",
+      "meanings": [
+        "alley",
+        "lane",
+        "narrow street"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "細い道",
+      "category": "tokyo_life",
+      "scene": "The search takes them through side streets and lanes, not just the main roads.",
+      "context": "A narrow street between buildings; 路地裏 (back alley) has a hidden, atmospheric feel. Tokyo's older residential districts are mazes of 路地 and slopes.",
+      "example_sentence": "地図にも載っていないような細い路地に迷い込んだ。",
+      "example_reading": "ちず に も のって いない ような ほそい ろじ に まよいこんだ。",
+      "example_meaning": "I wandered into a narrow alley that didn't seem to be on any map."
+    },
+    {
+      "word": "見失う",
+      "reading": "みうしなう",
+      "meanings": [
+        "to lose sight of",
+        "to lose track of"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "見えなくなる",
+      "category": "senses_body",
+      "scene": "In a big city, someone glimpsed for a second is easy to lose.",
+      "context": "Literal (人混みで友達を見失う) and figurative (自分を見失う = to lose oneself; 目標を見失う = to lose sight of one's goal). Both senses suit a chapter about searching.",
+      "example_sentence": "角を曲がったところで、その人の姿を見失ってしまった。",
+      "example_reading": "かど を まがった ところ で、 その ひと の すがた を みうしなって しまった。",
+      "example_meaning": "Right as I turned the corner, I lost sight of that person."
+    },
+    {
+      "word": "立ち止まる",
+      "reading": "たちどまる",
+      "meanings": [
+        "to stop (while walking)",
+        "to stand still"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "止まる",
+      "category": "senses_body",
+      "scene": "At the critical moment, someone has to stop walking.",
+      "context": "Specifically halting while on foot: 急に立ち止まる, 立ち止まって振り返る. Figurative: 立ち止まって考える (pause and reflect). 止まる is also for vehicles and machines; 立ち止まる is only for people and animals.",
+      "example_sentence": "桜並木の下で、彼女は急に立ち止まった。",
+      "example_reading": "さくら なみき の した で、 かのじょ は きゅう に たちどまった。",
+      "example_meaning": "Under the row of cherry trees, she suddenly stopped."
+    },
+    {
+      "word": "すれ違う",
+      "reading": "すれちがう",
+      "meanings": [
+        "to pass each other (going opposite ways)",
+        "to miss each other",
+        "to be at cross purposes"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "横を通り過ぎる",
+      "category": "story_terms",
+      "scene": "On a stone staircase by a shrine, the two finally come face to face — and pass each other.",
+      "context": "Written 擦れ違う: 擦れる (to brush) + 違う. Literally passing someone going the other way; figuratively, people whose timing or feelings never line up are すれ違っている — the story's whole premise in one word. Noun: すれ違い.",
+      "example_sentence": "毎朝同じ駅ですれ違う人の顔を、いつの間にか覚えていた。",
+      "example_reading": "まいあさ おなじ えき で すれちがう ひと の かお を、 いつのまにか おぼえて いた。",
+      "example_meaning": "Without realizing it, I had come to remember the face of someone I passed at the same station every morning."
+    },
+    {
+      "word": "気配",
+      "reading": "けはい",
+      "meanings": [
+        "presence (sensed)",
+        "sign",
+        "indication"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "様子",
+      "category": "senses_body",
+      "scene": "A word for sensing someone nearby without looking — the kind of awareness that fills the staircase scene.",
+      "context": "Something sensed without seeing it directly: 人の気配がする (sense someone is there), 春の気配 (signs of spring). 気 is read け here (as in 寒気 さむけ, 湿気 しっけ), not き.",
+      "example_sentence": "背後に人の気配を感じて、思わず足を止めた。",
+      "example_reading": "はいご に ひと の けはい を かんじて、 おもわず あし を とめた。",
+      "example_meaning": "Sensing someone behind me, I stopped without thinking."
+    },
+    {
+      "word": "ためらう",
+      "reading": "ためらう",
+      "meanings": [
+        "to hesitate",
+        "to waver"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "迷う",
+      "category": "feelings",
+      "scene": "Speaking to a stranger on the stairs takes a moment of hesitation.",
+      "context": "The kanji 躊躇う is rare (the noun 躊躇 ちゅうちょ is more common), so the book will use kana. ためらいがちに = hesitantly, ためらわずに = without hesitating.",
+      "example_sentence": "声をかけようとして、一瞬ためらった。",
+      "example_reading": "こえ を かけよう と して、 いっしゅん ためらった。",
+      "example_meaning": "I was about to call out to them, but hesitated for a moment."
+    },
+    {
+      "word": "振り返る",
+      "reading": "ふりかえる",
+      "meanings": [
+        "to turn around (to look back)",
+        "to look back on (the past)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "後ろを見る",
+      "category": "senses_body",
+      "scene": "After passing each other on the stairs, they both turn around.",
+      "context": "Two meanings, both at home in this chapter: physically turning to look behind you (振り返ると…), and reflecting on the past (過去を振り返る). 振り向く is only the physical turn.",
+      "example_sentence": "名前を呼ばれて振り返ると、懐かしい友人が手を振っていた。",
+      "example_reading": "なまえ を よばれて ふりかえる と、 なつかしい ゆうじん が て を ふって いた。",
+      "example_meaning": "When I turned around at the sound of my name, an old friend was waving."
+    },
+    {
+      "word": "見覚え",
+      "reading": "みおぼえ",
+      "meanings": [
+        "recognition",
+        "familiarity (of something seen before)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "前に見たこと",
+      "category": "time_memory",
+      "scene": "The stranger on the staircase has a face that is somehow familiar.",
+      "context": "Almost always 見覚えがある / ない (looks familiar / unfamiliar). 見 + 覚え (memory). Compare 聞き覚え (a familiar sound or voice) and 身に覚えがない (to have no memory of doing something).",
+      "example_sentence": "その人の笑顔には、確かに見覚えがあった。",
+      "example_reading": "その ひと の えがお には、 たしか に みおぼえ が あった。",
+      "example_meaning": "I was sure I'd seen that person's smile before."
+    },
+    {
+      "word": "込み上げる",
+      "reading": "こみあげる",
+      "meanings": [
+        "to well up (emotion, tears)",
+        "to surge up"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "急に出てくる",
+      "category": "feelings",
+      "scene": "When they meet, feeling they cannot explain rises up in both of them.",
+      "context": "Feelings rising from the chest to the throat: 涙が込み上げる, 怒りが込み上げる, 笑いが込み上げる. Often written こみ上げる. You feel it physically — like a lump in the throat.",
+      "example_sentence": "久しぶりに母の声を聞いて、涙が込み上げてきた。",
+      "example_reading": "ひさしぶり に はは の こえ を きいて、 なみだ が こみあげて きた。",
+      "example_meaning": "Hearing my mother's voice after so long, I felt tears welling up."
+    },
+    {
+      "word": "涙がこぼれる",
+      "reading": "なみだがこぼれる",
+      "meanings": [
+        "tears spill over",
+        "to shed tears"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "泣く",
+      "category": "feelings",
+      "scene": "In the final meeting, tears come before either of them understands why.",
+      "context": "こぼれる (零れる) = to spill or overflow: liquid from a cup, light through a gap (光がこぼれる), a smile (笑みがこぼれる). 涙がこぼれる means tears falling before you can stop them — no sobbing needed, unlike 泣く. Transitive: こぼす.",
+      "example_sentence": "映画の最後の場面で、思わず涙がこぼれた。",
+      "example_reading": "えいが の さいご の ばめん で、 おもわず なみだ が こぼれた。",
+      "example_meaning": "At the last scene of the film, tears spilled over before I knew it."
+    },
+    {
+      "word": "伝う",
+      "reading": "つたう",
+      "meanings": [
+        "to run down (along a surface)",
+        "to go along"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "流れる",
+      "category": "senses_body",
+      "scene": "Fits the tears of the staircase scene, running down a cheek.",
+      "context": "Moving along a surface: 涙が頬を伝う (tears run down one's cheek), 雨が窓を伝う, 壁を伝って歩く (walk feeling one's way along a wall). Don't confuse with 伝える (to convey) — same kanji, different verb.",
+      "example_sentence": "窓ガラスを伝う雨のしずくを、指でなぞった。",
+      "example_reading": "まどガラス を つたう あめ の しずく を、 ゆび で なぞった。",
+      "example_meaning": "I traced the raindrops running down the window glass with my finger."
+    },
+    {
+      "word": "意を決する",
+      "reading": "いをけっする",
+      "meanings": [
+        "to make up one's mind",
+        "to steel oneself"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "決心する",
+      "category": "literary",
+      "scene": "Turning back to speak to a stranger takes resolve.",
+      "context": "意 (intention) + 決する (decide): a literary set phrase, usually 意を決して〜した (steeling herself, she ~). More dramatic than 決める — it marks the moment just before a hard step.",
+      "example_sentence": "彼は意を決して、彼女に声をかけた。",
+      "example_reading": "かれ は い を けっして、 かのじょ に こえ を かけた。",
+      "example_meaning": "Steeling himself, he spoke to her."
+    },
+    {
+      "word": "声が重なる",
+      "reading": "こえがかさなる",
+      "meanings": [
+        "(two) voices overlap",
+        "to say something at the same moment"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "同時に言う",
+      "category": "senses_body",
+      "scene": "The chapter ends with the two asking the same question at exactly the same time.",
+      "context": "重なる = to lie on top of each other or happen at the same time: 予定が重なる (schedules clash), 偶然が重なる (coincidences pile up). 声が重なる = two people speak in the same instant.",
+      "example_sentence": "二人の「いただきます」の声が重なって、思わず笑った。",
+      "example_reading": "ふたり の 「いただきます」 の こえ が かさなって、 おもわず わらった。",
+      "example_meaning": "Our two voices saying 'itadakimasu' overlapped, and we laughed in spite of ourselves."
+    },
+    {
+      "word": "めぐり会う",
+      "reading": "めぐりあう",
+      "meanings": [
+        "to meet (by chance or fate)",
+        "to come across at last"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "出会う",
+      "category": "time_memory",
+      "scene": "After years of searching, the two finally find each other.",
+      "context": "Also written 巡り会う / 巡り合う. Meeting after wandering — it implies chance or destiny after a long time: 運命の人にめぐり会う. Same 巡る as 季節が巡る: things going round until they meet.",
+      "example_sentence": "長い旅の果てに、彼はようやく探していた人にめぐり会えた。",
+      "example_reading": "ながい たび の はて に、 かれ は ようやく さがして いた ひと に めぐりあえた。",
+      "example_meaning": "At the end of a long journey, he finally met the person he had been looking for."
+    },
+    {
+      "word": "再会",
+      "reading": "さいかい",
+      "meanings": [
+        "reunion",
+        "meeting again"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "また会うこと",
+      "category": "time_memory",
+      "scene": "For two people who have forgotten each other, the final meeting is both a first meeting and a reunion.",
+      "context": "再 (again) + 会 (meet). 再会する, 再会を果たす (to finally meet again), 感動の再会 (an emotional reunion). Watch the homophone 再開 (さいかい) = resumption.",
+      "example_sentence": "十年ぶりの再会に、二人とも言葉が出なかった。",
+      "example_reading": "じゅうねん ぶり の さいかい に、 ふたり とも ことば が でなかった。",
+      "example_meaning": "Meeting again after ten years, neither of them could find words."
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "deck_id": "kiminonawa-ch8-grammar",
+  "deck_name": "君の名は。 Ch.8 君の名は。 — Grammar & Expressions",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第8章「君の名は。」",
+  "chapter": 8,
+  "chapter_title": "君の名は。",
+  "chapter_title_reading": "きみのなは",
+  "chapter_title_meaning": "Your Name Is…",
+  "learner_level": "N3",
+  "notes": "The final chapter moves between 瀧's job hunt, years of unexplained longing for both 瀧 and 三葉, and their meeting after a glimpse between two trains. This deck covers the N2/N1 patterns and literary devices that carry that mood: concession and trends for the job hunt, can't-help-it feelings and 'without ever' for the longing, and rhetorical suspicion and 'as if' for the meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late.",
+  "card_count": 17,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "grammar",
+    "literary_style"
+  ],
+  "cards": [
+    {
+      "word": "〜を通じて",
+      "reading": "をつうじて",
+      "meanings": [
+        "through ~",
+        "by means of ~",
+        "throughout (a period)"
+      ],
+      "pattern": "N + を通じて / を通して",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜で",
+      "category": "grammar",
+      "scene": "In interviews, 瀧 tries to put into words what he hopes to achieve through architecture.",
+      "context": "Form: N + を通じて (more formal) / を通して. Two uses: (1) means or medium — 仕事を通じて社会に貢献する; (2) throughout a span — 一年を通じて (all year round). を通して leans toward a deliberate channel ('via someone'); を通じて is the polished choice in interviews and speeches.",
+      "example_sentence": "建築の仕事を通じて、人々の暮らしを支えたいと考えています。",
+      "example_reading": "けんちく の しごと を つうじて、 ひとびと の くらし を ささえたい と かんがえて います。",
+      "example_meaning": "I hope to support people's lives through work in architecture."
+    },
+    {
+      "word": "〜一方だ",
+      "reading": "いっぽうだ",
+      "meanings": [
+        "keeps ~ing (in one direction)",
+        "just gets more and more ~"
+      ],
+      "pattern": "Vdictionary + 一方だ",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どんどん〜なる",
+      "category": "grammar",
+      "scene": "As rejections pile up, 瀧's job hunt seems to go only one way.",
+      "context": "Form: V-dictionary (verbs of change: 増える, 減る, 悪くなる) + 一方だ. A trend moving steadily in one direction, usually an unwelcome one. Close to 〜ばかりだ in this sense. Don't confuse with 〜一方で ('on the other hand'), which contrasts two facts.",
+      "example_sentence": "面接に落ちるたびに、自信はなくなる一方だった。",
+      "example_reading": "めんせつ に おちる たび に、 じしん は なくなる いっぽう だった。",
+      "example_meaning": "Every time I failed an interview, my confidence just kept draining away."
+    },
+    {
+      "word": "〜ものの",
+      "reading": "ものの",
+      "meanings": [
+        "although ~",
+        "even though ~ (the expected result doesn't follow)"
+      ],
+      "pattern": "plain form + ものの",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜けど",
+      "category": "grammar",
+      "scene": "瀧 knows what kind of work he wants, yet the job offers don't come.",
+      "context": "Form: plain form + ものの (Na-adj: 〜な / 〜であるものの; N: 〜であるものの). A written-leaning 'although': the first part is true, but what you'd expect from it doesn't happen. Stiffer than 〜けど / 〜が and tinged with disappointment; とはいうものの = 'that said…'.",
+      "example_sentence": "志望動機は何度も練習したものの、本番では頭が真っ白になった。",
+      "example_reading": "しぼう どうき は なんど も れんしゅう した ものの、 ほんばん では あたま が まっしろ に なった。",
+      "example_meaning": "Although I'd practised my reason for applying over and over, my mind went blank in the real interview."
+    },
+    {
+      "word": "〜てはじめて",
+      "reading": "てはじめて",
+      "meanings": [
+        "only after ~",
+        "not until ~"
+      ],
+      "pattern": "Vて + はじめて",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜てから、やっと",
+      "category": "grammar",
+      "scene": "Grown up and out in the working world, the characters are only now starting to see their lives — and what's missing from them — clearly.",
+      "context": "Form: Vて + はじめて (初めて). 'Only once X happened did Y' — usually followed by a realization: 失ってはじめて大切さに気づく (you only see its value after losing it). Different from plain 初めて (for the first time).",
+      "example_sentence": "社会人になってはじめて、親のありがたさがわかった。",
+      "example_reading": "しゃかいじん に なって はじめて、 おや の ありがたさ が わかった。",
+      "example_meaning": "Only after I became a working adult did I understand how much I owed my parents."
+    },
+    {
+      "word": "〜てならない",
+      "reading": "てならない",
+      "meanings": [
+        "can't help feeling ~",
+        "feel terribly ~"
+      ],
+      "pattern": "Vて / Adjくて / Naで + ならない",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても〜",
+      "category": "grammar",
+      "scene": "Both 瀧 and 三葉 can't shake the feeling that they've lost or forgotten something.",
+      "context": "Form: Vて (feeling/perception verbs, esp. 気がする) / Adj-くて / Na-で + ならない: 気がしてならない, 心配でならない, 悔しくてならない. A feeling too strong to suppress — more literary than 〜てしょうがない / 〜てたまらない. Where 〜ような気がする (N3) is a mild 'I feel as if', 〜気がしてならない is that feeling refusing to go away.",
+      "example_sentence": "誰かとの約束を忘れている気がしてならない。",
+      "example_reading": "だれか と の やくそく を わすれて いる き が して ならない。",
+      "example_meaning": "I can't shake the feeling that I've forgotten a promise I made to someone."
+    },
+    {
+      "word": "〜わけでもない",
+      "reading": "わけでもない",
+      "meanings": [
+        "it's not (exactly) that ~",
+        "it's not as if ~ either"
+      ],
+      "pattern": "plain form + わけでもない",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜というのではない",
+      "category": "grammar",
+      "scene": "Neither of them is waiting for anyone in particular — and yet they keep scanning crowds.",
+      "context": "Form: plain form (Na-adj 〜な, N 〜という) + わけでもない. Rules out an obvious explanation: 悲しいわけでもないのに涙が出る (it's not that I'm sad, yet tears come). The も adds 'nor is it…', often after other reasons have been rejected. Compare わけではない (plain denial) and わけがない (impossible).",
+      "example_sentence": "誰かを待っているわけでもないのに、つい駅の人混みを見てしまう。",
+      "example_reading": "だれか を まって いる わけ でも ない のに、 つい えき の ひとごみ を みて しまう。",
+      "example_meaning": "It's not as if I'm waiting for anyone, yet I find myself watching the station crowds."
+    },
+    {
+      "word": "〜ずにはいられない",
+      "reading": "ずにはいられない",
+      "meanings": [
+        "can't help ~ing",
+        "can't keep from ~ing"
+      ],
+      "pattern": "Vない-stem + ずにはいられない",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうしても〜てしまう",
+      "category": "grammar",
+      "scene": "Even years later, they can't stop looking for someone they can't name.",
+      "context": "Form: Vない-stem + ずにはいられない (する → せずにはいられない). An inner urge you can't resist. Compare 〜ないではいられない (same meaning, a little softer) and 〜ざるを得ない (forced by circumstances, not by desire).",
+      "example_sentence": "窓の外を見るたびに、誰かの姿を探さずにはいられない。",
+      "example_reading": "まど の そと を みる たび に、 だれか の すがた を さがさず に は いられない。",
+      "example_meaning": "Every time I look out the window, I can't help searching for someone."
+    },
+    {
+      "word": "〜ともなく",
+      "reading": "ともなく",
+      "meanings": [
+        "without really meaning to ~",
+        "idly ~ing",
+        "somehow (who/where unclear)"
+      ],
+      "pattern": "Vdictionary + ともなく (+ same verb)",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なんとなく〜",
+      "category": "literary_style",
+      "scene": "On trains and in quiet moments, they gaze out at the city without really seeing it.",
+      "context": "Form: V-dictionary + ともなく, usually followed by the same or a similar verb: 見るともなく見る (look without really looking), 聞くともなく聞く. Describes idle, half-conscious action. With question words: どこからともなく (from somewhere or other), 誰からともなく (without anyone in particular starting). Literary.",
+      "example_sentence": "見るともなく車窓の景色を眺めていた。",
+      "example_reading": "みる とも なく しゃそう の けしき を ながめて いた。",
+      "example_meaning": "I was idly watching the scenery outside the train window, not really looking at it."
+    },
+    {
+      "word": "〜ないまま (unresolved)",
+      "reading": "ないまま",
+      "meanings": [
+        "without ever ~",
+        "with ~ still not done"
+      ],
+      "pattern": "Vない + まま",
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ないで",
+      "category": "grammar",
+      "scene": "Years pass with the ache still unexplained and the person still not found.",
+      "context": "Form: Vない + まま (〜ないままだ / 〜ないまま〜する). まま means a state continues unchanged; with ない it stresses that something never happened while time moved on: 理由がわからないまま (still not knowing why). Often paired with ずっと: ずっと〜ないままでいる.",
+      "example_sentence": "言いたいことを言えないまま、卒業の日が来てしまった。",
+      "example_reading": "いいたい こと を いえない まま、 そつぎょう の ひ が きて しまった。",
+      "example_meaning": "Graduation day came without my ever saying what I wanted to say."
+    },
+    {
+      "word": "〜ことなく",
+      "reading": "ことなく",
+      "meanings": [
+        "without ~ing",
+        "never once ~ing"
+      ],
+      "pattern": "Vdictionary + ことなく",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ないで",
+      "category": "grammar",
+      "scene": "Seasons change, but the longing never fades.",
+      "context": "Form: V-dictionary + ことなく. A written equivalent of 〜ないで / 〜ずに, often with a sense of 'never once': 休むことなく働く (work without a single break), 迷うことなく (without hesitating). Narration uses it for things that persist unbroken.",
+      "example_sentence": "その思いは、何年たっても消えることなく胸に残っていた。",
+      "example_reading": "その おもい は、 なんねん たって も きえる こと なく むね に のこって いた。",
+      "example_meaning": "That feeling stayed in my heart, never fading, no matter how many years went by."
+    },
+    {
+      "word": "〜て以来",
+      "reading": "ていらい",
+      "meanings": [
+        "ever since ~"
+      ],
+      "pattern": "Vて + 以来 / N + 以来",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜てから ずっと",
+      "category": "grammar",
+      "scene": "Years have gone by since the events of the earlier chapters, and the strange feeling has stayed ever since.",
+      "context": "Form: Vて + 以来, or N + 以来 (あの日以来, 卒業以来). A state that began at a point in the past and still continues. Unlike 〜てから (simple sequence), 以来 stresses the unbroken stretch up to now, and has a written feel.",
+      "example_sentence": "東京に来て以来、一度も故郷に帰っていない。",
+      "example_reading": "とうきょう に きて いらい、 いちど も こきょう に かえって いない。",
+      "example_meaning": "Ever since coming to Tokyo, I haven't been back to my hometown even once."
+    },
+    {
+      "word": "〜ような、〜ような",
+      "reading": "ような、ような",
+      "meanings": [
+        "somehow both ~ and ~",
+        "half ~, half ~"
+      ],
+      "pattern": "A ような、B ような + N",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ような気もするし、〜ような気もする",
+      "category": "literary_style",
+      "scene": "Their feelings in this chapter rarely have one name — sad and nostalgic, hopeful and afraid at once.",
+      "context": "Form: A (plain form / i-adj) + ような、B + ような + noun (気持ち, 気分, 感じ). Lists two, often opposite, impressions to describe a feeling that won't settle into one word: 嬉しいような悲しいような気持ち. A favourite device of emotional narration.",
+      "example_sentence": "卒業の日は、嬉しいような寂しいような、不思議な気分だった。",
+      "example_reading": "そつぎょう の ひ は、 うれしい ような さびしい ような、 ふしぎ な きぶん だった。",
+      "example_meaning": "Graduation day felt strange — somehow both happy and lonely."
+    },
+    {
+      "word": "〜のではないか (inner suspicion)",
+      "reading": "のではないか",
+      "meanings": [
+        "perhaps ~ (I suspect)",
+        "could it be that ~?"
+      ],
+      "pattern": "plain form + のではないか",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜かもしれない",
+      "category": "literary_style",
+      "scene": "Glimpsing a face through a train window, each begins to suspect: could it be that person?",
+      "context": "Form: plain form + のではないか (Na-adj / N + なのではないか); spoken 〜んじゃないか. In narration it is not a question to anyone — it voices a growing suspicion: もしかして、あの人なのではないか. On the certainty scale it sits above 〜かもしれない and below 〜に違いない.",
+      "example_sentence": "もしかしたら、あの人も誰かを探しているのではないか。",
+      "example_reading": "もしかしたら、 あの ひと も だれか を さがして いる の では ない か。",
+      "example_meaning": "Could it be that that person, too, is searching for someone?"
+    },
+    {
+      "word": "〜ではあるまいか",
+      "reading": "ではあるまいか",
+      "meanings": [
+        "might it not be that ~?",
+        "I wonder if ~ (literary)"
+      ],
+      "pattern": "N / plain form + の + ではあるまいか",
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ではないだろうか",
+      "category": "literary_style",
+      "scene": "As they search the streets, each half-wonders whether the feeling is real or only imagined.",
+      "context": "Form: N / plain form + の + ではあるまいか. まい is the literary negative of conjecture/volition (≈ ないだろう), so あるまいか ≈ ないだろうか — a bookish 〜のではないだろうか. まい also appears in 〜ようか〜まいか ('whether to ~ or not'): 行こうか行くまいか迷う.",
+      "example_sentence": "この気持ちは、ただの思い込みではあるまいか。",
+      "example_reading": "この きもち は、 ただ の おもいこみ では ある まい か。",
+      "example_meaning": "Might this feeling not be just my imagination?"
+    },
+    {
+      "word": "〜かのように",
+      "reading": "かのように",
+      "meanings": [
+        "as if ~",
+        "as though ~ (but it isn't)"
+      ],
+      "pattern": "plain form + かのように",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "まるで〜みたいに",
+      "category": "grammar",
+      "scene": "When they finally meet, the stranger in front of each of them feels like someone they have always known.",
+      "context": "Form: plain form + かのように (N / Na-adj: 〜であるかのように). Unlike 〜ように / 〜みたいに (simple likeness), かのように stresses that the comparison is contrary to fact — it is as if, but it isn't. Often paired with まるで.",
+      "example_sentence": "初めて会ったのに、ずっと前から知っていたかのように感じた。",
+      "example_reading": "はじめて あった のに、 ずっと まえ から しって いた か の ように かんじた。",
+      "example_meaning": "Though we had only just met, it felt as if I'd known them for a long time."
+    },
+    {
+      "word": "〜ずじまい",
+      "reading": "ずじまい",
+      "meanings": [
+        "ended up never ~ing",
+        "never got to ~"
+      ],
+      "pattern": "Vない-stem + ずじまい",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "結局〜なかった",
+      "category": "grammar",
+      "scene": "Like テッシー and サヤちん sitting near 瀧 in a café without his noticing, many near-meetings in this chapter come to nothing.",
+      "context": "Form: Vない-stem + ずじまい (だ / で終わる); する → せずじまい. The chance passed and the thing never happened, with a note of regret: 聞かずじまい, 言えずじまい, 会えずじまい. Compare 〜ないまま (neutral 'still not').",
+      "example_sentence": "引っ越しの前に、隣のおばあさんにお礼を言えずじまいだった。",
+      "example_reading": "ひっこし の まえ に、 となり の おばあさん に おれい を いえず じまい だった。",
+      "example_meaning": "I never got to thank the old lady next door before I moved."
+    },
+    {
+      "word": "〜は。 (predicate left unsaid)",
+      "reading": "は",
+      "meanings": [
+        "What is N? / What about N? (predicate left unsaid)",
+        "an open-ended, unfinished sentence"
+      ],
+      "pattern": "N + は (？) — predicate omitted",
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜は何ですか",
+      "category": "literary_style",
+      "scene": "The chapter's title echoes the question the two ask each other at the very end.",
+      "context": "Form: N + は (+ rising tone or ？), predicate dropped: お名前は？ = What's your name? The title 君の名は。 does the same with literary 名 (な) and a full stop instead of a question mark, so it reads as an unfinished question — or an unfinished statement ('Your name is…'). Leaving the predicate unsaid is common in titles and emotional speech.",
+      "example_sentence": "「で、その人の名前は？」と友達に聞かれて、答えられなかった。",
+      "example_reading": "「で、 その ひと の なまえ は？」 と ともだち に きかれて、 こたえられなかった。",
+      "example_meaning": "\"So, what's the person's name?\" my friend asked, and I couldn't answer."
+    }
+  ]
+}
