@@ -1,0 +1,1372 @@
+{
+  "deck_id": "kiminonawa-ch7-vocab",
+  "deck_name": "君の名は。 Ch.7 うつくしく、もがく — Vocabulary",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第7章「うつくしく、もがく」",
+  "chapter": 7,
+  "chapter_title": "うつくしく、もがく",
+  "chapter_title_reading": "うつくしく、もがく",
+  "chapter_title_meaning": "Beautifully, Struggling",
+  "learner_level": "N3",
+  "notes": "Back in her own body after the twilight meeting, 三葉 races down the mountain while the plan unfolds: テッシー cuts the town's power, サヤちん broadcasts the evacuation call, and the town office contradicts it. As the comet splits overhead, 三葉 falls, finds an unexpected message on her palm, and pushes on to confront her father before the fragment falls. The deck focuses on physical struggle, darkness and confusion, the comet as spectacle, despair and resolve, and aftermath words. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late — especially the aftermath cards (奇跡, 生存, 無事, 訓練, 大半), which may belong to the start of Ch.8.",
+  "card_count": 68,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "literary",
+    "senses_body",
+    "nature_sky",
+    "onomatopoeia",
+    "feelings",
+    "town_life",
+    "disaster",
+    "dialect",
+    "story_terms"
+  ],
+  "cards": [
+    {
+      "word": "もがく",
+      "reading": "もがく",
+      "meanings": [
+        "to struggle",
+        "to writhe",
+        "to flounder (trying to get free or succeed)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "必死にがんばる",
+      "category": "literary",
+      "scene": "The chapter title itself — 三葉 struggling with everything she has to save the town while the comet blazes overhead.",
+      "context": "Originally physical: thrashing your arms and legs to get free (水の中でもがく). Figuratively, to struggle desperately against a situation. Usually written in kana (the kanji 踠く is rare); the title pairs it with うつくしく, so the struggle itself is framed as something beautiful.",
+      "example_sentence": "どんなにもがいても、時間は止まってくれない。",
+      "example_reading": "どんなに もがいて も、 じかん は とまって くれない。",
+      "example_meaning": "No matter how much you struggle, time won't stop for you."
+    },
+    {
+      "word": "駆け下りる",
+      "reading": "かけおりる",
+      "meanings": [
+        "to run down (a slope or stairs)",
+        "to dash down"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "走って下りる",
+      "category": "senses_body",
+      "scene": "Back in her own body after the twilight meeting, 三葉 races down the mountain toward the festival town.",
+      "context": "駆ける (to run, dash — more literary than 走る) + 下りる. Its relatives: 駆け上がる (dash up), 駆け寄る (run up to someone), 駆け込む (rush into). 駆 has the horse radical 馬 — think galloping.",
+      "example_sentence": "瀧は駅の階段を一気に駆け下りた。",
+      "example_reading": "たき は えき の かいだん を いっき に かけおりた。",
+      "example_meaning": "Taki dashed down the station stairs in one go."
+    },
+    {
+      "word": "斜面",
+      "reading": "しゃめん",
+      "meanings": [
+        "slope",
+        "incline",
+        "hillside"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "坂",
+      "category": "nature_sky",
+      "scene": "The mountainside 三葉 has to get down — and the kind of slope she later tumbles down.",
+      "context": "斜 (slant, diagonal) + 面 (surface). 斜面 is a natural slope or hillside; 坂 is usually a road or path that goes up or down. 急な斜面 = a steep slope. The same 斜 is in 斜め (ななめ, diagonal).",
+      "example_sentence": "雨のあとの斜面は滑りやすいので気をつけて。",
+      "example_reading": "あめ の あと の しゃめん は すべりやすい ので き を つけて。",
+      "example_meaning": "Slopes are slippery after rain, so be careful."
+    },
+    {
+      "word": "息を切らす",
+      "reading": "いきをきらす",
+      "meanings": [
+        "to be out of breath",
+        "to pant"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "はあはあする",
+      "category": "senses_body",
+      "scene": "三葉 runs so hard and so long, down the mountain and through town, that she can barely breathe.",
+      "context": "Literally 'to cut one's breath'. Often 息を切らして + verb: 息を切らして走ってきた (came running, out of breath). Intransitive partner: 息が切れる (to run out of breath). Compare 息を呑む (gasp in surprise) and 息を殺す (hold your breath to stay hidden).",
+      "example_sentence": "四葉は息を切らしながら、家まで走って帰ってきた。",
+      "example_reading": "よつは は いき を きらしながら、 いえ まで はしって かえって きた。",
+      "example_meaning": "Yotsuha ran all the way home, out of breath."
+    },
+    {
+      "word": "喘ぐ",
+      "reading": "あえぐ",
+      "meanings": [
+        "to gasp",
+        "to pant",
+        "to struggle (under hardship)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "はあはあする",
+      "category": "literary",
+      "scene": "Fits the narration of 三葉's exhausted running — gasping for air as she pushes on.",
+      "context": "Literary word for laboured breathing: 喘ぎながら坂を上る. Figuratively, to suffer under something: 不況に喘ぐ (struggling in a recession). 喘息 (ぜんそく, asthma) uses the same rare kanji — learn the kana form first.",
+      "example_sentence": "マラソンを走り終えた選手たちが、苦しそうに喘いでいる。",
+      "example_reading": "マラソン を はしりおえた せんしゅ たち が、 くるしそう に あえいで いる。",
+      "example_meaning": "The runners who have just finished the marathon are gasping painfully."
+    },
+    {
+      "word": "はあはあ",
+      "reading": "はあはあ",
+      "meanings": [
+        "panting",
+        "huffing and puffing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "息が苦しい",
+      "category": "onomatopoeia",
+      "scene": "The sound of 三葉's breathing as she runs toward town without stopping.",
+      "context": "The sound of heavy breathing after exertion; also はあはあする / はあはあ言う. Rougher, wheezing breath is ぜえぜえ. Action-heavy prose often writes it in katakana: ハアハア.",
+      "example_sentence": "五階まで階段で上ったら、はあはあと息が上がってしまった。",
+      "example_reading": "ごかい まで かいだん で のぼったら、 はあはあ と いき が あがって しまった。",
+      "example_meaning": "I took the stairs up to the fifth floor and ended up huffing and puffing."
+    },
+    {
+      "word": "必死",
+      "reading": "ひっし",
+      "meanings": [
+        "desperate",
+        "frantic",
+        "with all one's might"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一生懸命",
+      "category": "feelings",
+      "scene": "Describes 三葉's whole state in this chapter — running, falling and getting up again with frantic determination.",
+      "context": "必 (certainly) + 死 (death): acting as if your life depends on it. Mostly 必死に + verb or 必死だ. Stronger and more desperate than 一生懸命, which can describe calm, steady effort.",
+      "example_sentence": "バスに乗り遅れないよう、必死に走った。",
+      "example_reading": "バス に のりおくれない よう、 ひっし に はしった。",
+      "example_meaning": "I ran desperately so as not to miss the bus."
+    },
+    {
+      "word": "懸命",
+      "reading": "けんめい",
+      "meanings": [
+        "with all one's effort",
+        "strenuous",
+        "eager"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "一生懸命",
+      "category": "literary",
+      "scene": "Fits the narration of 三葉 pushing on toward town with every ounce of effort.",
+      "context": "The 懸命 inside 一生懸命, used alone in written style: 懸命に走る, 懸命な努力, 懸命の救助活動 (an all-out rescue effort — common in news). Don't confuse it with 賢明 (けんめい, wise), which sounds identical.",
+      "example_sentence": "救助隊は夜通し懸命の捜索を続けた。",
+      "example_reading": "きゅうじょたい は よどおし けんめい の そうさく を つづけた。",
+      "example_meaning": "The rescue team kept up an all-out search through the night."
+    },
+    {
+      "word": "鼓動",
+      "reading": "こどう",
+      "meanings": [
+        "heartbeat",
+        "pulse",
+        "throbbing"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "心臓の音",
+      "category": "senses_body",
+      "scene": "Fits 三葉's heart pounding in her chest as she runs.",
+      "context": "鼓 (drum) + 動 (move) — the heart's drumbeat. 鼓動が速くなる / 鼓動が高鳴る = the heart races. More literary than ドキドキ. 太鼓 (たいこ) uses the same 鼓.",
+      "example_sentence": "静かな部屋で、自分の鼓動だけがやけに大きく聞こえた。",
+      "example_reading": "しずかな へや で、 じぶん の こどう だけ が やけに おおきく きこえた。",
+      "example_meaning": "In the quiet room, only my own heartbeat sounded strangely loud."
+    },
+    {
+      "word": "汗だく",
+      "reading": "あせだく",
+      "meanings": [
+        "drenched in sweat",
+        "dripping with sweat"
+      ],
+      "jlpt": "N1",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "汗びっしょり",
+      "category": "senses_body",
+      "scene": "Fits the state 三葉 is in after running all the way down the mountain.",
+      "context": "Colloquial: 汗 + だく (from だくだく, pouring). 汗だくになる / 汗だくで走る. Synonyms: 汗びっしょり (soaked), 汗まみれ (smeared with sweat — sounds a little dirtier).",
+      "example_sentence": "引っ越しの手伝いで一日中働き、汗だくになった。",
+      "example_reading": "ひっこし の てつだい で いちにちじゅう はたらき、 あせだく に なった。",
+      "example_meaning": "I worked all day helping with the move and ended up drenched in sweat."
+    },
+    {
+      "word": "足がもつれる",
+      "reading": "あしがもつれる",
+      "meanings": [
+        "one's legs get tangled",
+        "to stumble from exhaustion"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "うまく歩けない",
+      "category": "senses_body",
+      "scene": "As exhaustion sets in on 三葉's run, her legs stop obeying her.",
+      "context": "もつれる (縺れる) = to get tangled, like thread. 足がもつれる = legs tangling from fatigue, alcohol or panic; 舌がもつれる = to slur one's words; 話がもつれる = a matter gets complicated.",
+      "example_sentence": "疲れきって足がもつれ、彼は道の真ん中で転んだ。",
+      "example_reading": "つかれきって あし が もつれ、 かれ は みち の まんなか で ころんだ。",
+      "example_meaning": "Completely exhausted, his legs got tangled and he fell in the middle of the road."
+    },
+    {
+      "word": "暗闇",
+      "reading": "くらやみ",
+      "meanings": [
+        "darkness",
+        "the dark"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "暗いところ",
+      "category": "senses_body",
+      "scene": "After テッシー blows up the substation, the whole town is plunged into darkness.",
+      "context": "暗 (dark) + 闇 (darkness). A dark place or pitch darkness: 暗闇の中で. 闇 (やみ) alone is more literary and metaphorical (闇夜, 心の闇). The blackout itself is 停電.",
+      "example_sentence": "停電で、部屋は一瞬にして暗闇に包まれた。",
+      "example_reading": "ていでん で、 へや は いっしゅん に して くらやみ に つつまれた。",
+      "example_meaning": "In the power cut, the room was swallowed by darkness in an instant."
+    },
+    {
+      "word": "静まり返る",
+      "reading": "しずまりかえる",
+      "meanings": [
+        "to fall completely silent",
+        "to become hushed"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても静かになる",
+      "category": "literary",
+      "scene": "Fits the sudden hush of a festival town cut off from its lights, before the noise of confusion rises.",
+      "context": "静まる (become quiet) + 返る, which here intensifies ('completely'), as in 呆れ返る. Usually past or ている form: しんと静まり返った夜 (a dead-silent night).",
+      "example_sentence": "先生が入ってくると、騒がしかった教室が静まり返った。",
+      "example_reading": "せんせい が はいって くる と、 さわがしかった きょうしつ が しずまりかえった。",
+      "example_meaning": "When the teacher came in, the noisy classroom went completely silent."
+    },
+    {
+      "word": "町民",
+      "reading": "ちょうみん",
+      "meanings": [
+        "townspeople",
+        "residents of a town"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "町の人",
+      "category": "town_life",
+      "scene": "The people of Itomori — the ones 三葉 and her friends are trying to move, and the ones every announcement addresses.",
+      "context": "町 (town) + 民 (people). Official, broadcast-style word: announcements address 町民の皆さん. Parallel words: 市民 (city residents), 村民 (villagers), 住民 (residents in general), 国民 (a nation's citizens).",
+      "example_sentence": "町民の皆さんは、落ち着いて行動してください。",
+      "example_reading": "ちょうみん の みなさん は、 おちついて こうどう して ください。",
+      "example_meaning": "Residents, please stay calm as you act."
+    },
+    {
+      "word": "ざわめく",
+      "reading": "ざわめく",
+      "meanings": [
+        "to stir",
+        "to murmur (of a crowd)",
+        "to rustle"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ざわざわする",
+      "category": "senses_body",
+      "scene": "Fits the uneasy festival crowd murmuring in the dark.",
+      "context": "From ざわざわ (murmuring, rustling). The noun ざわめき = a stir, a buzz of voices. Also leaves in the wind (木々がざわめく) or an uneasy heart (胸がざわめく).",
+      "example_sentence": "有名人が現れると、会場がざわめいた。",
+      "example_reading": "ゆうめいじん が あらわれる と、 かいじょう が ざわめいた。",
+      "example_meaning": "When the celebrity appeared, a murmur ran through the hall."
+    },
+    {
+      "word": "混乱",
+      "reading": "こんらん",
+      "meanings": [
+        "confusion",
+        "chaos",
+        "disorder"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ごちゃごちゃ",
+      "category": "disaster",
+      "scene": "The town falls into confusion: one announcement says leave, another says stay put.",
+      "context": "混 (mix) + 乱 (disorder). 混乱する, 混乱が起きる, 混乱を招く (cause confusion), 頭が混乱する (my head's a mess). Covers both public chaos and personal mental confusion.",
+      "example_sentence": "情報が食い違い、現場は大混乱になった。",
+      "example_reading": "じょうほう が くいちがい、 げんば は だいこんらん に なった。",
+      "example_meaning": "The information conflicted, and the scene descended into total chaos."
+    },
+    {
+      "word": "群衆",
+      "reading": "ぐんしゅう",
+      "meanings": [
+        "crowd",
+        "throng",
+        "masses"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たくさんの人",
+      "category": "disaster",
+      "scene": "Fits the festival crowd milling in the dark, unsure whether to move.",
+      "context": "群 (flock, group) + 衆 (multitude). A large, unorganised crowd: 群衆をかき分ける (push through a crowd). 人混み is the everyday word for a crowded place; 群れ (むれ) = a flock or herd.",
+      "example_sentence": "彼女は群衆をかき分けて、前へ進んだ。",
+      "example_reading": "かのじょ は ぐんしゅう を かきわけて、 まえ へ すすんだ。",
+      "example_meaning": "She pushed her way through the crowd and moved forward."
+    },
+    {
+      "word": "呼びかけ",
+      "reading": "よびかけ",
+      "meanings": [
+        "appeal",
+        "call (to the public)",
+        "address"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "お願い",
+      "category": "disaster",
+      "scene": "サヤちん's broadcast calls on the townspeople to evacuate.",
+      "context": "Noun from 呼びかける (to call out to; to appeal to the public). 避難の呼びかけ = a call to evacuate; 呼びかけに応じる = to respond to an appeal. It stresses urging people to act, not just shouting.",
+      "example_sentence": "町の呼びかけに応じて、多くの人が清掃に参加した。",
+      "example_reading": "まち の よびかけ に おうじて、 おおく の ひと が せいそう に さんか した。",
+      "example_meaning": "In response to the town's appeal, many people joined the clean-up."
+    },
+    {
+      "word": "恐れ",
+      "reading": "おそれ",
+      "meanings": [
+        "risk (of)",
+        "danger (of)",
+        "fear"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "危険",
+      "category": "disaster",
+      "scene": "Fits the warnings broadcast over the town, which speak of the danger still to come.",
+      "context": "In warnings, 〜の恐れがある = there is a risk of ~: 火事の恐れ, 津波の恐れがある. As a plain noun it also means fear or dread (死への恐れ). Formal — news and emergency announcements love it.",
+      "example_sentence": "大雨のため、川が氾濫する恐れがあります。",
+      "example_reading": "おおあめ の ため、 かわ が はんらん する おそれ が あります。",
+      "example_meaning": "Due to the heavy rain, there is a risk the river will flood."
+    },
+    {
+      "word": "指示",
+      "reading": "しじ",
+      "meanings": [
+        "instructions",
+        "directions",
+        "orders"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "命令",
+      "category": "disaster",
+      "scene": "The townspeople wait for official instructions — and get contradictory ones.",
+      "context": "指 (point) + 示 (show). 指示を出す (give instructions), 指示に従う (follow instructions), 指示を待つ. 命令 is a harsher 'command'; 指示 is neutral direction from whoever is in charge.",
+      "example_sentence": "係員の指示に従って、ゆっくり外に出てください。",
+      "example_reading": "かかりいん の しじ に したがって、 ゆっくり そと に でて ください。",
+      "example_meaning": "Please follow the staff's instructions and exit slowly."
+    },
+    {
+      "word": "役場",
+      "reading": "やくば",
+      "meanings": [
+        "town office",
+        "village office",
+        "local government office"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "役所",
+      "category": "town_life",
+      "scene": "The 'stay put' announcement comes from the town office — and it is where 三葉 runs to face her father.",
+      "context": "Usually 町役場 or 村役場 — the office of a small town or village; a city's is 市役所. For Itomori it is the seat of her father the mayor's power, which is why the chapter's climax heads there.",
+      "example_sentence": "引っ越したら、まず役場で住所の変更をしなければならない。",
+      "example_reading": "ひっこしたら、 まず やくば で じゅうしょ の へんこう を しなければ ならない。",
+      "example_meaning": "When you move, you first have to change your address at the town office."
+    },
+    {
+      "word": "打ち消す",
+      "reading": "うちけす",
+      "meanings": [
+        "to deny",
+        "to negate",
+        "to cancel out"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "否定する",
+      "category": "disaster",
+      "scene": "The town office counters サヤちん's evacuation message, effectively cancelling it out.",
+      "context": "打ち (emphatic prefix) + 消す. To deny a rumour (噂を打ち消す), to push away a feeling (不安を打ち消す), or in grammar, 打ち消し = the negative form. It means wiping something out by contradicting it.",
+      "example_sentence": "彼は不安を打ち消すように、わざと明るく笑った。",
+      "example_reading": "かれ は ふあん を うちけす よう に、 わざと あかるく わらった。",
+      "example_meaning": "He laughed brightly on purpose, as if to push away his anxiety."
+    },
+    {
+      "word": "その場",
+      "reading": "そのば",
+      "meanings": [
+        "on the spot",
+        "where one is",
+        "there and then"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "そこ",
+      "category": "disaster",
+      "scene": "The town office's announcement tells people to stay where they are instead of evacuating.",
+      "context": "その場で待機 = wait where you are; その場で決める = decide on the spot; その場しのぎ = a stopgap. Points to the place or moment where something is happening.",
+      "example_sentence": "地震が起きたら、まずその場で頭を守ってください。",
+      "example_reading": "じしん が おきたら、 まず そのば で あたま を まもって ください。",
+      "example_meaning": "When an earthquake hits, first protect your head right where you are."
+    },
+    {
+      "word": "待機",
+      "reading": "たいき",
+      "meanings": [
+        "standby",
+        "waiting (for instructions)",
+        "staying on alert"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "待つ",
+      "category": "disaster",
+      "scene": "The counter-announcement tells townspeople to stand by, and the evacuation stalls.",
+      "context": "待 (wait) + 機 (opportunity). Waiting in readiness for orders: 自宅待機 (stay at home on standby), 待機する, 待機中. A formal, official word — which is why it sounds authoritative coming over a loudspeaker.",
+      "example_sentence": "大雪のため、社員は自宅で待機するよう指示された。",
+      "example_reading": "おおゆき の ため、 しゃいん は じたく で たいき する よう しじ された。",
+      "example_meaning": "Because of the heavy snow, employees were told to stand by at home."
+    },
+    {
+      "word": "戸惑う",
+      "reading": "とまどう",
+      "meanings": [
+        "to be bewildered",
+        "to be at a loss",
+        "to be thrown"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "困る",
+      "category": "feelings",
+      "scene": "With two opposite announcements, the townspeople don't know what to do.",
+      "context": "戸 (door) + 惑う (be lost) — picture someone at a door unsure whether to go through. Noun: 戸惑い. Milder and more personal than 混乱: one person's hesitation rather than public chaos.",
+      "example_sentence": "急に英語で話しかけられて、少し戸惑った。",
+      "example_reading": "きゅう に えいご で はなしかけられて、 すこし とまどった。",
+      "example_meaning": "I was a bit thrown when someone suddenly spoke to me in English."
+    },
+    {
+      "word": "半信半疑",
+      "reading": "はんしんはんぎ",
+      "meanings": [
+        "half-believing",
+        "dubious",
+        "half in doubt"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "よく信じられない",
+      "category": "feelings",
+      "scene": "Fits the townspeople who hear the evacuation call but only half believe it.",
+      "context": "半 (half) 信 (believe) 半 疑 (doubt) — a four-character idiom. 半信半疑で聞く / 半信半疑のまま. Common in narration when characters hear something hard to believe — like a warning about a comet.",
+      "example_sentence": "四葉は姉の話を半信半疑で聞いていた。",
+      "example_reading": "よつは は あね の はなし を はんしんはんぎ で きいて いた。",
+      "example_meaning": "Yotsuha listened to her sister's story, only half believing it."
+    },
+    {
+      "word": "声を張り上げる",
+      "reading": "こえをはりあげる",
+      "meanings": [
+        "to raise one's voice",
+        "to shout at the top of one's lungs"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "大きい声で言う",
+      "category": "senses_body",
+      "scene": "Fits the shouting in the dark, confused town as people try to make themselves heard.",
+      "context": "張り上げる = stretch up, raise high. Straining your voice so others can hear, not necessarily in anger (angry shouting is 怒鳴る). 声を限りに叫ぶ is a more dramatic 'scream with all your voice'.",
+      "example_sentence": "ガイドは観光客に向かって声を張り上げた。",
+      "example_reading": "ガイド は かんこうきゃく に むかって こえ を はりあげた。",
+      "example_meaning": "The guide raised her voice to call out to the tourists."
+    },
+    {
+      "word": "はよ",
+      "reading": "はよ",
+      "meanings": [
+        "quickly",
+        "hurry up"
+      ],
+      "jlpt": "",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "早く",
+      "category": "dialect",
+      "scene": "Fits Itomori voices urging people to hurry — the clipped western-Japan form of 早く.",
+      "context": "Shortened 早く (はやく → はよう → はよ), common across western Japan, including 飛騨弁-style Itomori speech: はよ逃げて (get out, quick!), はよして (hurry up). 関西弁 uses the same form.",
+      "example_sentence": "はよせんと、バスに乗り遅れるよ。",
+      "example_reading": "はよ せん と、 バス に のりおくれる よ。",
+      "example_meaning": "If you don't hurry, you'll miss the bus."
+    },
+    {
+      "word": "輝く",
+      "reading": "かがやく",
+      "meanings": [
+        "to shine",
+        "to sparkle",
+        "to glitter"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "光る",
+      "category": "nature_sky",
+      "scene": "The comet blazes across the night sky above the festival.",
+      "context": "Stronger and more beautiful than 光る — brilliant, radiant light. Figurative too: 目が輝く (eyes light up), 輝かしい未来 (a brilliant future). Noun: 輝き.",
+      "example_sentence": "雨上がりの夜空に、星が輝いていた。",
+      "example_reading": "あめあがり の よぞら に、 ほし が かがやいて いた。",
+      "example_meaning": "Stars were shining in the night sky after the rain."
+    },
+    {
+      "word": "尾",
+      "reading": "お",
+      "meanings": [
+        "tail",
+        "trail (of a comet)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "しっぽ",
+      "category": "nature_sky",
+      "scene": "The comet's long glowing tail stretches over Itomori before it breaks apart.",
+      "context": "Written-style word for tail; しっぽ is everyday. 彗星の尾 = a comet's tail. 尾を引く = to trail behind, or for an effect to linger (事件が尾を引く). Read び in compounds such as 尾行 (びこう, tailing someone).",
+      "example_sentence": "流れ星は白い尾を引いて、山の向こうに消えた。",
+      "example_reading": "ながれぼし は しろい お を ひいて、 やま の むこう に きえた。",
+      "example_meaning": "The shooting star trailed a white tail and vanished beyond the mountains."
+    },
+    {
+      "word": "分裂",
+      "reading": "ぶんれつ",
+      "meanings": [
+        "splitting apart",
+        "breakup",
+        "division"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "割れる",
+      "category": "nature_sky",
+      "scene": "Above the town, the comet splits apart — the moment that seals Itomori's fate.",
+      "context": "分 (divide) + 裂 (tear). Something whole splitting into parts: 彗星が分裂する, 細胞分裂 (cell division), 党の分裂 (a party split). 割れる is everyday breaking; 分裂 is a scientific or formal splitting.",
+      "example_sentence": "細胞は分裂をくり返して増えていく。",
+      "example_reading": "さいぼう は ぶんれつ を くりかえして ふえて いく。",
+      "example_meaning": "Cells multiply by dividing again and again."
+    },
+    {
+      "word": "砕ける",
+      "reading": "くだける",
+      "meanings": [
+        "to shatter",
+        "to break into pieces",
+        "to be crushed"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "割れる",
+      "category": "nature_sky",
+      "scene": "Fits the comet breaking up into pieces overhead.",
+      "context": "Breaking into many small pieces (割れる can be a single crack). Transitive: 砕く. 砕け散る = shatter and scatter. Figurative: 砕けた話し方 = relaxed, casual speech; 当たって砕けろ = go for it, even if you fail.",
+      "example_sentence": "コップが床に落ちて、粉々に砕けた。",
+      "example_reading": "コップ が ゆか に おちて、 こなごな に くだけた。",
+      "example_meaning": "The glass fell to the floor and shattered into tiny pieces."
+    },
+    {
+      "word": "降り注ぐ",
+      "reading": "ふりそそぐ",
+      "meanings": [
+        "to pour down",
+        "to rain down (on)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たくさん降る",
+      "category": "nature_sky",
+      "scene": "The splitting comet showers light over the valley as a fragment heads for the town.",
+      "context": "降る (fall) + 注ぐ (pour). For light, rain, ash or attention pouring onto something: 日差しが降り注ぐ (sunlight pours down). A lovely, slightly literary verb that suits 新海誠's light-filled prose.",
+      "example_sentence": "窓から暖かい日差しが降り注いでいる。",
+      "example_reading": "まど から あたたかい ひざし が ふりそそいで いる。",
+      "example_meaning": "Warm sunlight is pouring in through the window."
+    },
+    {
+      "word": "幻想的",
+      "reading": "げんそうてき",
+      "meanings": [
+        "fantastical",
+        "dreamlike",
+        "magical (of a sight)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "夢みたいにきれい",
+      "category": "literary",
+      "scene": "The splitting comet is a breathtaking, dreamlike sight — beautiful even as it threatens the town.",
+      "context": "幻想 (fantasy, illusion) + 的. A compliment for scenery and light: 幻想的な景色. It echoes the title's うつくしく — the terrible thing is also gorgeous.",
+      "example_sentence": "雪の中のお祭りの灯りは、とても幻想的だった。",
+      "example_reading": "ゆき の なか の おまつり の あかり は、 とても げんそうてき だった。",
+      "example_meaning": "The festival lights in the snow were truly magical."
+    },
+    {
+      "word": "見とれる",
+      "reading": "みとれる",
+      "meanings": [
+        "to be captivated (by a sight)",
+        "to gaze in fascination"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "じっと見る",
+      "category": "feelings",
+      "scene": "Fits festival-goers gazing up at the dazzling comet without sensing the danger.",
+      "context": "Kanji: 見惚れる (惚 = be charmed). 〜に見とれる = to be lost in looking at something beautiful, often forgetting what you should be doing: 景色に見とれる.",
+      "example_sentence": "あまりにきれいな夕焼けに、思わず見とれてしまった。",
+      "example_reading": "あまりに きれいな ゆうやけ に、 おもわず みとれて しまった。",
+      "example_meaning": "I found myself captivated by the incredibly beautiful sunset."
+    },
+    {
+      "word": "不気味",
+      "reading": "ぶきみ",
+      "meanings": [
+        "eerie",
+        "ominous",
+        "creepy"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "こわい",
+      "category": "feelings",
+      "scene": "The same comet that dazzles also feels ominous — 三葉 knows what it is about to do.",
+      "context": "不 (not) + 気味 (feeling): an unsettling fear you can't quite name. 不気味な静けさ = an eerie silence; 不気味に光る = to glow ominously. 気味が悪い is a close synonym.",
+      "example_sentence": "誰もいない夜の学校は、不気味なほど静かだった。",
+      "example_reading": "だれ も いない よる の がっこう は、 ぶきみな ほど しずか だった。",
+      "example_meaning": "The empty school at night was eerily quiet."
+    },
+    {
+      "word": "呆然",
+      "reading": "ぼうぜん",
+      "meanings": [
+        "dumbfounded",
+        "stunned",
+        "in a daze"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "びっくりして動けない",
+      "category": "feelings",
+      "scene": "Fits people staring up, stunned, as the comet breaks apart.",
+      "context": "呆 (amazed, absent-minded) + 然 (state). Usually 呆然とする / 呆然と立ち尽くす. Also written 茫然. 呆れる (あきれる, to be appalled or fed up) shares the first kanji.",
+      "example_sentence": "試験の結果を見て、彼はしばらく呆然としていた。",
+      "example_reading": "しけん の けっか を みて、 かれ は しばらく ぼうぜん と して いた。",
+      "example_meaning": "Seeing his exam results, he stood there stunned for a while."
+    },
+    {
+      "word": "立ち尽くす",
+      "reading": "たちつくす",
+      "meanings": [
+        "to stand frozen",
+        "to stand rooted to the spot"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "動かないで立っている",
+      "category": "literary",
+      "scene": "Fits townspeople frozen in place under the splitting comet.",
+      "context": "立つ + 尽くす (do completely). Standing still for a long time, unable to move from shock, awe or grief. Very often paired with 呆然と.",
+      "example_sentence": "焼けてしまった家の前で、彼はただ立ち尽くしていた。",
+      "example_reading": "やけて しまった いえ の まえ で、 かれ は ただ たちつくして いた。",
+      "example_meaning": "He just stood frozen in front of his burned-down house."
+    },
+    {
+      "word": "つまずく",
+      "reading": "つまずく",
+      "meanings": [
+        "to trip",
+        "to stumble",
+        "to hit a snag"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "転びそうになる",
+      "category": "senses_body",
+      "scene": "Running desperately, 三葉 trips and goes tumbling down a slope.",
+      "context": "Kanji 躓く is rare — learn the kana. 石につまずく (trip on a stone). Figuratively, to stumble at a task: 最初の問題でつまずく. 転ぶ means actually falling down; つまずく is catching your foot.",
+      "example_sentence": "暗い道で石につまずいて、危うく転ぶところだった。",
+      "example_reading": "くらい みち で いし に つまずいて、 あやうく ころぶ ところ だった。",
+      "example_meaning": "I tripped on a stone on the dark road and nearly fell."
+    },
+    {
+      "word": "転がり落ちる",
+      "reading": "ころがりおちる",
+      "meanings": [
+        "to tumble down",
+        "to roll down (a slope)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "落ちる",
+      "category": "senses_body",
+      "scene": "三葉 falls and rolls helplessly down the slope.",
+      "context": "転がる (roll) + 落ちる (fall). Compound verbs stack motion + direction: 転げ落ちる (a little more colloquial), 滑り落ちる (slide down). Figurative: 坂を転がり落ちるように = going downhill fast.",
+      "example_sentence": "ボールが階段を転がり落ちていった。",
+      "example_reading": "ボール が かいだん を ころがりおちて いった。",
+      "example_meaning": "The ball went rolling down the stairs."
+    },
+    {
+      "word": "ごろごろ",
+      "reading": "ごろごろ",
+      "meanings": [
+        "rolling over and over",
+        "rumbling (thunder)",
+        "lazing around"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "転がる様子",
+      "category": "onomatopoeia",
+      "scene": "Fits the moment 三葉 tumbles over and over down the slope.",
+      "context": "Many senses: heavy rolling (ごろごろ転がる), thunder (雷がごろごろ鳴る), lounging (家でごろごろする), and lots of something lying around (石がごろごろある). Lighter, smaller rolling is ころころ.",
+      "example_sentence": "大きな岩がごろごろと坂を転がってきた。",
+      "example_reading": "おおきな いわ が ごろごろ と さか を ころがって きた。",
+      "example_meaning": "A large rock came rolling and tumbling down the slope."
+    },
+    {
+      "word": "泥だらけ",
+      "reading": "どろだらけ",
+      "meanings": [
+        "covered in mud",
+        "muddy all over"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても汚い",
+      "category": "senses_body",
+      "scene": "After her fall down the slope, 三葉 is covered in mud and dirt.",
+      "context": "泥 (mud) + だらけ (covered with, full of — usually something unwanted). Same pattern: 傷だらけ (covered in cuts), 間違いだらけ (full of mistakes). 泥まみれ is similar but stresses being smeared all over.",
+      "example_sentence": "サッカーの試合のあと、ユニフォームが泥だらけになった。",
+      "example_reading": "サッカー の しあい の あと、 ユニフォーム が どろだらけ に なった。",
+      "example_meaning": "After the soccer match, my uniform was covered in mud."
+    },
+    {
+      "word": "膝",
+      "reading": "ひざ",
+      "meanings": [
+        "knee",
+        "lap"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Fits the knees 三葉 bangs and scrapes in her tumble down the slope.",
+      "context": "A common word with a tricky kanji. 膝をつく (drop to one's knees), 膝を抱える (hug one's knees), 膝が笑う (legs go wobbly — literally 'knees laugh' — after a hard hike). Also 'lap': 膝の上に猫を乗せる.",
+      "example_sentence": "山を下りるころには、膝が笑ってうまく歩けなかった。",
+      "example_reading": "やま を おりる ころ に は、 ひざ が わらって うまく あるけなかった。",
+      "example_meaning": "By the time we got down the mountain, my knees were wobbling and I could hardly walk."
+    },
+    {
+      "word": "擦りむく",
+      "reading": "すりむく",
+      "meanings": [
+        "to scrape (skin)",
+        "to graze"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "けがをする",
+      "category": "senses_body",
+      "scene": "Fits the scrapes 三葉 gets when she falls and rolls down the slope.",
+      "context": "擦る (rub) + むく (剥く, peel). 膝を擦りむく, 手を擦りむく. Also written 擦り剥く. 擦り傷 (すりきず) = a scrape or graze.",
+      "example_sentence": "弟は自転車で転んで、ひじを擦りむいた。",
+      "example_reading": "おとうと は じてんしゃ で ころんで、 ひじ を すりむいた。",
+      "example_meaning": "My little brother fell off his bike and scraped his elbow."
+    },
+    {
+      "word": "ずきずき",
+      "reading": "ずきずき",
+      "meanings": [
+        "throbbing (pain)",
+        "pounding (pain)"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "痛い",
+      "category": "onomatopoeia",
+      "scene": "Fits the throbbing pain of 三葉's scrapes and bruises after the fall.",
+      "context": "A pulsing pain that beats with your heart: 頭がずきずきする, 傷がずきずき痛む. Compare ひりひり (stinging, like a burn), ちくちく (prickly), がんがん (a pounding headache).",
+      "example_sentence": "転んだところが、夜になってもずきずき痛む。",
+      "example_reading": "ころんだ ところ が、 よる に なって も ずきずき いたむ。",
+      "example_meaning": "The place where I fell is still throbbing, even at night."
+    },
+    {
+      "word": "絶望",
+      "reading": "ぜつぼう",
+      "meanings": [
+        "despair",
+        "hopelessness"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "希望がない",
+      "category": "feelings",
+      "scene": "Lying at the bottom of the slope, 三葉 is overcome with despair.",
+      "context": "絶 (cut off) + 望 (hope). 絶望する, 絶望的 (hopeless), 絶望の淵 (the depths of despair). Opposite: 希望 (hope). A heavy word that narration saves for the lowest point.",
+      "example_sentence": "何度挑戦してもうまくいかず、彼は絶望しかけた。",
+      "example_reading": "なんど ちょうせん して も うまく いかず、 かれ は ぜつぼう しかけた。",
+      "example_meaning": "No matter how many times he tried it didn't work, and he nearly gave in to despair."
+    },
+    {
+      "word": "力尽きる",
+      "reading": "ちからつきる",
+      "meanings": [
+        "to run out of strength",
+        "to be utterly spent",
+        "to collapse"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "もう動けない",
+      "category": "literary",
+      "scene": "After the fall, 三葉 seems to have nothing left and lies there unable to go on.",
+      "context": "力 (strength) + 尽きる (run out). Written style for giving out completely: ゴール直前で力尽きる. In literary prose it can also mean to die, so read the context.",
+      "example_sentence": "マラソンの選手は、ゴールの手前で力尽きて倒れた。",
+      "example_reading": "マラソン の せんしゅ は、 ゴール の てまえ で ちからつきて たおれた。",
+      "example_meaning": "The marathon runner collapsed, spent, just short of the finish line."
+    },
+    {
+      "word": "視界",
+      "reading": "しかい",
+      "meanings": [
+        "field of vision",
+        "view",
+        "visibility"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "見えるところ",
+      "category": "senses_body",
+      "scene": "Fits the darkness and tears blurring 三葉's vision as she lies on the slope.",
+      "context": "視 (look) + 界 (boundary, world). 視界がぼやける / にじむ (vision blurs), 視界に入る (come into view), 視界が悪い (poor visibility, e.g. in fog).",
+      "example_sentence": "霧で視界が悪く、車はゆっくり進んだ。",
+      "example_reading": "きり で しかい が わるく、 くるま は ゆっくり すすんだ。",
+      "example_meaning": "Visibility was poor in the fog, so the cars moved slowly."
+    },
+    {
+      "word": "滲む",
+      "reading": "にじむ",
+      "meanings": [
+        "to blur",
+        "to run (of ink)",
+        "to well up (tears, sweat, blood)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "ぼやける",
+      "category": "senses_body",
+      "scene": "Fits tears welling up and blurring 三葉's sight as she lies there in despair.",
+      "context": "Liquid spreading and blurring: インクが滲む, 涙で景色が滲む, 血が滲む (blood oozes). Figurative: 声に悔しさが滲む (frustration seeps into one's voice). The kanji 滲 is rare — know the kana form.",
+      "example_sentence": "涙で、手紙の文字が滲んで見えた。",
+      "example_reading": "なみだ で、 てがみ の もじ が にじんで みえた。",
+      "example_meaning": "Through my tears, the writing in the letter looked blurred."
+    },
+    {
+      "word": "ぽろぽろ",
+      "reading": "ぽろぽろ",
+      "meanings": [
+        "(tears) falling drop after drop",
+        "crumbling"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "涙がたくさん出る",
+      "category": "onomatopoeia",
+      "scene": "Fits tears spilling down 三葉's face in her lowest moment.",
+      "context": "Big tears dropping one after another: 涙がぽろぽろこぼれる. Also crumbs or small bits falling off: パンくずがぽろぽろ落ちる. Quiet weeping is しくしく; loud wailing is わんわん.",
+      "example_sentence": "映画の最後で、四葉はぽろぽろと涙をこぼした。",
+      "example_reading": "えいが の さいご で、 よつは は ぽろぽろ と なみだ を こぼした。",
+      "example_meaning": "At the end of the movie, Yotsuha's tears spilled down one after another."
+    },
+    {
+      "word": "震える",
+      "reading": "ふるえる",
+      "meanings": [
+        "to tremble",
+        "to shake",
+        "to shiver"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Fits 三葉's hands and legs shaking — from exhaustion and fear — as she lies on the slope.",
+      "context": "震 (quake) — the same kanji as 地震. 手が震える, 声が震える (voice trembles), 寒さに震える. Transitive: 震わせる (肩を震わせて泣く = cry with shaking shoulders).",
+      "example_sentence": "緊張で、発表のあいだずっと声が震えていた。",
+      "example_reading": "きんちょう で、 はっぴょう の あいだ ずっと こえ が ふるえて いた。",
+      "example_meaning": "My voice trembled with nerves through the whole presentation."
+    },
+    {
+      "word": "掌",
+      "reading": "てのひら",
+      "meanings": [
+        "palm (of the hand)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "手のひら",
+      "category": "senses_body",
+      "scene": "三葉 opens her hand, expecting to find his name written on her palm — and finds something else.",
+      "context": "One-kanji spelling of 手のひら (both read てのひら); literary prose prefers 掌. Other readings: たなごころ (archaic) and しょう in compounds (合掌 = palms pressed together in prayer). 掌を返す = to do a sudden about-face.",
+      "example_sentence": "雪のひとひらが、掌の上ですっと溶けた。",
+      "example_reading": "ゆき の ひとひら が、 てのひら の うえ で すっと とけた。",
+      "example_meaning": "A single snowflake melted away on my palm."
+    },
+    {
+      "word": "握りしめる",
+      "reading": "にぎりしめる",
+      "meanings": [
+        "to grip tightly",
+        "to clench (one's fist)",
+        "to clutch"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "強く持つ",
+      "category": "senses_body",
+      "scene": "Fits 三葉 closing her hand tight over the words on her palm.",
+      "context": "握る (grip) + 締める (tighten); also written 握り締める. 拳を握りしめる (clench a fist), 手紙を握りしめる. Often with ぎゅっと: ぎゅっと握りしめる.",
+      "example_sentence": "彼女はお守りをぎゅっと握りしめて、試験会場に入った。",
+      "example_reading": "かのじょ は おまもり を ぎゅっと にぎりしめて、 しけん かいじょう に はいった。",
+      "example_meaning": "She clutched her lucky charm tightly and walked into the exam hall."
+    },
+    {
+      "word": "歯を食いしばる",
+      "reading": "はをくいしばる",
+      "meanings": [
+        "to grit one's teeth",
+        "to clench one's teeth and endure"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "がまんする",
+      "category": "feelings",
+      "scene": "Fits 三葉 forcing herself back onto her feet after reading her palm.",
+      "context": "食いしばる = to clench (the teeth) hard. Enduring pain or hardship, physically or figuratively: 歯を食いしばって耐える / 頑張る. A classic gesture of resolve in action scenes.",
+      "example_sentence": "苦しいときこそ、歯を食いしばって前に進もう。",
+      "example_reading": "くるしい とき こそ、 は を くいしばって まえ に すすもう。",
+      "example_meaning": "It's exactly when things are hard that we should grit our teeth and push on."
+    },
+    {
+      "word": "振り絞る",
+      "reading": "ふりしぼる",
+      "meanings": [
+        "to muster (strength, voice, courage)",
+        "to summon up"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "全部出す",
+      "category": "literary",
+      "scene": "Strengthened by her palm, 三葉 musters what is left of her strength and keeps going.",
+      "context": "振る (shake) + 絞る (wring out) — wringing out the last drops. Fixed partners: 力を振り絞る, 声を振り絞る, 勇気を振り絞る. Implies you were almost empty.",
+      "example_sentence": "彼は最後の力を振り絞って、ゴールまで走りきった。",
+      "example_reading": "かれ は さいご の ちから を ふりしぼって、 ゴール まで はしりきった。",
+      "example_meaning": "He mustered the last of his strength and ran all the way to the finish."
+    },
+    {
+      "word": "がくがく",
+      "reading": "がくがく",
+      "meanings": [
+        "(knees) shaking",
+        "wobbly",
+        "trembling"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "震える",
+      "category": "onomatopoeia",
+      "scene": "Fits 三葉's exhausted legs shaking as she pushes herself up and runs on.",
+      "context": "Violent, uncontrollable shaking of joints: 膝ががくがくする, 足ががくがく震える (from fear, cold or fatigue). Also for something loose: 歯ががくがくする (a wobbly tooth).",
+      "example_sentence": "初めての舞台で、緊張のあまり足ががくがく震えた。",
+      "example_reading": "はじめて の ぶたい で、 きんちょう の あまり あし が がくがく ふるえた。",
+      "example_meaning": "On stage for the first time, my legs shook from sheer nerves."
+    },
+    {
+      "word": "よろめく",
+      "reading": "よろめく",
+      "meanings": [
+        "to stagger",
+        "to totter",
+        "to reel"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ふらふらする",
+      "category": "senses_body",
+      "scene": "Fits 三葉 staggering to her feet and on toward the town office.",
+      "context": "From よろよろ (unsteady). Losing your balance for a moment: 疲れてよろめく, 段差でよろめく. ふらつく is similar; よろける is a close colloquial variant.",
+      "example_sentence": "電車が急に止まり、立っていた人たちがよろめいた。",
+      "example_reading": "でんしゃ が きゅう に とまり、 たって いた ひと たち が よろめいた。",
+      "example_meaning": "The train stopped suddenly and the standing passengers staggered."
+    },
+    {
+      "word": "見据える",
+      "reading": "みすえる",
+      "meanings": [
+        "to look straight at",
+        "to fix one's eyes on",
+        "to face squarely"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "まっすぐ見る",
+      "category": "literary",
+      "scene": "Fits 三葉 facing her father squarely at the town office.",
+      "context": "見る + 据える (set firmly). To look steadily without wavering: 相手の目を見据える. Figurative: 将来を見据える (keep the future firmly in view) — a favourite in speeches and news.",
+      "example_sentence": "選手は静かにゴールを見据えて、スタートの合図を待った。",
+      "example_reading": "せんしゅ は しずか に ゴール を みすえて、 スタート の あいず を まった。",
+      "example_meaning": "The athlete quietly fixed her eyes on the finish line and waited for the starting signal."
+    },
+    {
+      "word": "覚悟",
+      "reading": "かくご",
+      "meanings": [
+        "resolve",
+        "readiness (for the worst)",
+        "being prepared"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "決心",
+      "category": "feelings",
+      "scene": "三葉 reaches the town office ready to face her father, whatever happens.",
+      "context": "覚悟する / 覚悟を決める (to make up one's mind, steel oneself). Implies accepting a hard outcome in advance — stronger than 決心 (decision). 覚悟しろ! is a classic threat: 'Prepare yourself!'",
+      "example_sentence": "厳しい練習になることは、覚悟の上だ。",
+      "example_reading": "きびしい れんしゅう に なる こと は、 かくご の うえ だ。",
+      "example_meaning": "I'm fully prepared for the training to be tough."
+    },
+    {
+      "word": "閃光",
+      "reading": "せんこう",
+      "meanings": [
+        "flash (of light)",
+        "glare"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "強い光",
+      "category": "disaster",
+      "scene": "Fits the instant the fragment falls — a blinding flash.",
+      "context": "閃 (flash) + 光 (light). An intense, instantaneous burst: 閃光が走る. Used for explosions, lightning and camera flashes. 閃く (ひらめく) = to flash; also, for an idea to strike you.",
+      "example_sentence": "空に閃光が走り、数秒遅れて雷の音が響いた。",
+      "example_reading": "そら に せんこう が はしり、 すうびょう おくれて かみなり の おと が ひびいた。",
+      "example_meaning": "A flash streaked across the sky, and a few seconds later the thunder boomed."
+    },
+    {
+      "word": "轟音",
+      "reading": "ごうおん",
+      "meanings": [
+        "roar",
+        "thunderous noise",
+        "deafening sound"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "大きい音",
+      "category": "disaster",
+      "scene": "Fits the deafening roar as the fragment comes down.",
+      "context": "轟 (three 車 — rumbling carts) + 音. 轟音を立てる, 轟音とともに. The verb 轟く (とどろく) = to roar, resound; also to be famous far and wide (名が轟く).",
+      "example_sentence": "飛行機が轟音を立てて、頭の上を通りすぎた。",
+      "example_reading": "ひこうき が ごうおん を たてて、 あたま の うえ を とおりすぎた。",
+      "example_meaning": "The plane passed overhead with a thunderous roar."
+    },
+    {
+      "word": "衝撃",
+      "reading": "しょうげき",
+      "meanings": [
+        "impact",
+        "shock",
+        "jolt"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "強い力",
+      "category": "disaster",
+      "scene": "Fits the impact of the falling fragment.",
+      "context": "衝 (collide) + 撃 (strike). Physical impact (衝撃波 = shockwave) and emotional shock (衝撃的なニュース, 衝撃を受ける) — both senses are very common.",
+      "example_sentence": "その知らせは、町の人々に大きな衝撃を与えた。",
+      "example_reading": "その しらせ は、 まち の ひとびと に おおきな しょうげき を あたえた。",
+      "example_meaning": "The news came as a great shock to the people of the town."
+    },
+    {
+      "word": "奇跡",
+      "reading": "きせき",
+      "meanings": [
+        "miracle",
+        "wonder"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Aftermath (may fall at the start of Ch.8): people call it a miracle that most of the town survived.",
+      "context": "奇 (strange) + 跡 (trace). 奇跡的に (miraculously), 奇跡が起きる. Don't confuse it with the homophone 軌跡 (きせき, trajectory). In the story, only the reader knows the 'miracle' had a cause.",
+      "example_sentence": "大事故だったが、乗客は奇跡的に全員助かった。",
+      "example_reading": "だいじこ だった が、 じょうきゃく は きせきてき に ぜんいん たすかった。",
+      "example_meaning": "It was a major accident, but miraculously every passenger survived."
+    },
+    {
+      "word": "生存",
+      "reading": "せいぞん",
+      "meanings": [
+        "survival",
+        "existence"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "生き残る",
+      "category": "disaster",
+      "scene": "Aftermath (may fall at the start of Ch.8): reports note that most of the townspeople survived.",
+      "context": "生 (live) + 存 (exist). Formal and news register: 生存者 (survivor), 生存率 (survival rate), 生存が確認される. Everyday equivalents: 生き残る, 助かる.",
+      "example_sentence": "地震から三日後、がれきの中から生存者が見つかった。",
+      "example_reading": "じしん から みっか ご、 がれき の なか から せいぞんしゃ が みつかった。",
+      "example_meaning": "Three days after the earthquake, a survivor was found in the rubble."
+    },
+    {
+      "word": "無事",
+      "reading": "ぶじ",
+      "meanings": [
+        "safe",
+        "unharmed",
+        "without incident"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "大丈夫",
+      "category": "disaster",
+      "scene": "Aftermath (may fall at the start of Ch.8): most of the townspeople come through safely.",
+      "context": "無 (without) + 事 (incident). 無事に着く (arrive safely), 無事を祈る (pray for someone's safety), ご無事で (stay safe). Everyday too: 無事終わった (it went off without a hitch).",
+      "example_sentence": "台風が過ぎて、家族全員の無事が確認できた。",
+      "example_reading": "たいふう が すぎて、 かぞく ぜんいん の ぶじ が かくにん できた。",
+      "example_meaning": "After the typhoon passed, we confirmed that the whole family was safe."
+    },
+    {
+      "word": "避難所",
+      "reading": "ひなんじょ",
+      "meanings": [
+        "evacuation shelter",
+        "refuge"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "逃げる場所",
+      "category": "disaster",
+      "scene": "The safe place the townspeople must reach for the plan to work — and where survivors gather afterwards.",
+      "context": "避難 (evacuation) + 所 (place). Japanese towns designate schools and community halls as shelters. On signs, 避難場所 is an open-air assembly point, while 避難所 is a building where people can stay.",
+      "example_sentence": "地震のあと、近くの小学校が避難所になった。",
+      "example_reading": "じしん の あと、 ちかく の しょうがっこう が ひなんじょ に なった。",
+      "example_meaning": "After the earthquake, the nearby elementary school became an evacuation shelter."
+    },
+    {
+      "word": "訓練",
+      "reading": "くんれん",
+      "meanings": [
+        "drill",
+        "training",
+        "exercise"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "練習",
+      "category": "disaster",
+      "scene": "Aftermath (may fall at the start of Ch.8): the townspeople survived because an evacuation drill happened to be held that night.",
+      "context": "訓 (instruct) + 練 (practise). 避難訓練 (evacuation drill) and 防災訓練 (disaster drill) are routine in Japanese schools and towns. 訓練 suggests organised, repeated practice; 練習 is general practice.",
+      "example_sentence": "学校では年に二回、避難訓練が行われる。",
+      "example_reading": "がっこう で は ねん に にかい、 ひなん くんれん が おこなわれる。",
+      "example_meaning": "Evacuation drills are held at school twice a year."
+    },
+    {
+      "word": "大半",
+      "reading": "たいはん",
+      "meanings": [
+        "the majority",
+        "most",
+        "the greater part"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ほとんど",
+      "category": "disaster",
+      "scene": "Aftermath (may fall at the start of Ch.8): the striking fact that most of Itomori's people survived.",
+      "context": "大 (big) + 半 (half): 'more than half'. 〜の大半 = most of ~: 町民の大半, 一日の大半. A little more formal than ほとんど, and used for amounts clearly over half rather than 'almost all'.",
+      "example_sentence": "休みの日の大半を、ゲームをして過ごしてしまった。",
+      "example_reading": "やすみ の ひ の たいはん を、 ゲーム を して すごして しまった。",
+      "example_meaning": "I ended up spending most of my day off playing games."
+    }
+  ]
+}

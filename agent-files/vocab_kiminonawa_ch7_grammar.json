@@ -1,0 +1,418 @@
+{
+  "deck_id": "kiminonawa-ch7-grammar",
+  "deck_name": "君の名は。 Ch.7 うつくしく、もがく — Grammar & Expressions",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第7章「うつくしく、もがく」",
+  "chapter": 7,
+  "chapter_title": "うつくしく、もがく",
+  "chapter_title_reading": "うつくしく、もがく",
+  "chapter_title_meaning": "Beautifully, Struggling",
+  "learner_level": "N3",
+  "notes": "Grammar and expressions for the chapter in which 三葉 runs, falls and gets back up to save Itomori as the comet splits overhead. The focus is on patterns of struggle and resolve (〜ものか, 〜まいと, 〜てたまるか, 〜さえ〜ば), degree and feeling (〜ほど, 〜てたまらない, 〜ずにはいられない), and the written-style devices of action narration, starting with the title's adjective く-form. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late.",
+  "card_count": 19,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "literary_style",
+    "grammar",
+    "casual_speech",
+    "expression"
+  ],
+  "cards": [
+    {
+      "word": "〜く、〜 (adjective continuative)",
+      "reading": "く",
+      "meanings": [
+        "~ and ~ (written link)",
+        "~ly, ~ (adverbial)"
+      ],
+      "pattern": "い-adj stem + く、 + next phrase",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜くて",
+      "category": "literary_style",
+      "scene": "The chapter title うつくしく、もがく uses this form, hovering between 'struggling beautifully' and 'beautiful, and struggling'.",
+      "context": "Form: い-adjective stem + く (うつくしい → うつくしく), then a comma and the next phrase. In speech you'd say 〜くて; the bare く-form linking clauses is written style. It can work as an adverb ('beautifully') or simply join clauses ('is beautiful, and…') — the comma in the title lets both readings live at once.",
+      "example_sentence": "空は高く、風は冷たかった。",
+      "example_reading": "そら は たかく、 かぜ は つめたかった。",
+      "example_meaning": "The sky was high, and the wind was cold."
+    },
+    {
+      "word": "Vて、Vて (repetition)",
+      "reading": "て、て",
+      "meanings": [
+        "~ and ~ and ~ (on and on)",
+        "kept on ~ing"
+      ],
+      "pattern": "V-て、V-て、(V-て…) + final verb",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜続ける",
+      "category": "literary_style",
+      "scene": "Fits the breathless narration of 三葉 running and running toward town.",
+      "context": "Form: repeat the same verb in て-form (走って、走って、走った). Repetition stretches time and shows relentless effort — a staple of emotional action passages. Different from 〜続ける (a neutral 'keep doing'): repetition adds rhythm and feeling.",
+      "example_sentence": "彼女は泣いて、泣いて、やがて静かに眠った。",
+      "example_reading": "かのじょ は ないて、 ないて、 やがて しずか に ねむった。",
+      "example_meaning": "She cried and cried, and eventually fell quietly asleep."
+    },
+    {
+      "word": "擬態語 + と",
+      "reading": "ぎたいご と",
+      "meanings": [
+        "in a ~ manner (mimetic adverb)",
+        "with a ~ (sound/motion)"
+      ],
+      "pattern": "onomatopoeia / mimetic word + と + V",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "literary_style",
+      "scene": "Action passages in this chapter — running, tumbling, shaking — lean heavily on mimetic words such as ごろごろ and がくがく.",
+      "context": "Form: mimetic word + と + verb (ごろごろと転がる); doubled words can drop と (ごろごろ転がる). Word shape signals nuance: ABAB = repeated or continuous (ごろごろ, がくがく); Aっと / Aんと = one quick, sharp action (ぎゅっと, ぱっと, ぴょんと); ABり = one smooth motion (ふわり, ゆらり).",
+      "example_sentence": "猫がぴょんと塀の上に飛び乗った。",
+      "example_reading": "ねこ が ぴょん と へい の うえ に とびのった。",
+      "example_meaning": "The cat sprang up onto the wall with a hop."
+    },
+    {
+      "word": "〜ても〜ても",
+      "reading": "ても…ても",
+      "meanings": [
+        "no matter how much ~",
+        "however many times ~"
+      ],
+      "pattern": "V-ても + V-ても (same verb)",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いくら〜ても",
+      "category": "grammar",
+      "scene": "Fits 三葉's run: no matter how hard she goes, she can't seem to get there fast enough.",
+      "context": "Form: V-ても + the same V-ても (走っても走っても), followed by a result that defies the effort. Repeating 〜ても stresses endless effort with no payoff. Compare いくら〜ても (however much ~), which says the same in a single phrase.",
+      "example_sentence": "探しても探しても、なくした鍵は見つからなかった。",
+      "example_reading": "さがして も さがして も、 なくした かぎ は みつからなかった。",
+      "example_meaning": "I searched and searched, but I couldn't find the key I'd lost."
+    },
+    {
+      "word": "〜ことなく",
+      "reading": "ことなく",
+      "meanings": [
+        "without ~ing",
+        "never once ~ing"
+      ],
+      "pattern": "V-dictionary + ことなく",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ないで / 〜ずに",
+      "category": "grammar",
+      "scene": "Fits 三葉 running on toward town without stopping once she is back on her feet.",
+      "context": "Form: V-dictionary form + ことなく (休むことなく, 迷うことなく). Written-style 'without doing ~', often implying that something you might expect never happened. Spoken equivalents: 〜ないで / 〜ずに. Ch.1's Nなく attaches to nouns; ことなく attaches to verbs.",
+      "example_sentence": "彼女は一度も休むことなく、山頂まで登りきった。",
+      "example_reading": "かのじょ は いちど も やすむ こと なく、 さんちょう まで のぼりきった。",
+      "example_meaning": "She climbed all the way to the summit without taking a single break."
+    },
+    {
+      "word": "〜たとたん(に)",
+      "reading": "とたん(に)",
+      "meanings": [
+        "the moment ~",
+        "just as ~"
+      ],
+      "pattern": "V-た + とたん(に)",
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜たらすぐ",
+      "category": "grammar",
+      "scene": "Fits the instant the substation blows and the lights across town go out at once.",
+      "context": "Form: V-た form + とたん(に) (途端に). Something happens immediately — and usually unexpectedly — after the first action. The second clause is an event you didn't control, so it can't describe your own planned action (×家に着いたとたん、宿題をした). Compare 〜たらすぐ (a neutral 'as soon as').",
+      "example_sentence": "外に出たとたん、急に雨が降り出した。",
+      "example_reading": "そと に でた とたん、 きゅう に あめ が ふりだした。",
+      "example_meaning": "The moment I stepped outside, it suddenly started to rain."
+    },
+    {
+      "word": "〜ばかりか",
+      "reading": "ばかりか",
+      "meanings": [
+        "not only ~ but (even)",
+        "far from just ~"
+      ],
+      "pattern": "plain form / N + ばかりか、〜も・まで・さえ",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜だけでなく",
+      "category": "grammar",
+      "scene": "Fits the town's predicament: not only is it pitch dark, but people are being told to stay put.",
+      "context": "Form: plain form (な-adj + な; nouns attach directly) + ばかりか, usually followed by も / まで / さえ. 'Not only A but even B', where B is more surprising or worse. A written-style 〜だけでなく; it can't be followed by commands or invitations.",
+      "example_sentence": "彼は宿題を忘れたばかりか、教科書まで家に置いてきた。",
+      "example_reading": "かれ は しゅくだい を わすれた ばかりか、 きょうかしょ まで いえ に おいて きた。",
+      "example_meaning": "Not only did he forget his homework, he even left his textbook at home."
+    },
+    {
+      "word": "〜ながらも",
+      "reading": "ながらも",
+      "meanings": [
+        "although ~",
+        "while being ~ (contrast)"
+      ],
+      "pattern": "Vます-stem / い-adj / な-adj stem / N + ながらも",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のに / 〜けれども",
+      "category": "grammar",
+      "scene": "Fits the comet as the chapter frames it — beautiful while also terrifying.",
+      "context": "Form: Vます-stem, い-adjective, な-adjective stem or noun + ながらも (狭いながらも, 子供ながらも). Here ながら is not 'while doing at the same time' but concessive 'although'. More literary than 〜のに / 〜けれども, with a sense of acknowledging both sides.",
+      "example_sentence": "狭いながらも、日当たりのいい部屋だ。",
+      "example_reading": "せまい ながら も、 ひあたり の いい へや だ。",
+      "example_meaning": "It's a small room, but it gets plenty of sun."
+    },
+    {
+      "word": "〜ほど (to the point that)",
+      "reading": "ほど",
+      "meanings": [
+        "so ~ that…",
+        "to the extent that…"
+      ],
+      "pattern": "plain form + ほど + adj / V",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜くらい",
+      "category": "grammar",
+      "scene": "Fits the splitting comet as a sight beautiful to the point of being frightening.",
+      "context": "Form: plain form (な-adj + な) + ほど (怖いほど, 泣きたくなるほど, 信じられないほど) + adjective or verb. Shows an extreme degree by saying how far it goes. Close to 〜くらい, but ほど sounds more serious and literary. Don't confuse it with 〜ば〜ほど (the more…the more).",
+      "example_sentence": "その夜の星空は、息をのむほど美しかった。",
+      "example_reading": "その よる の ほしぞら は、 いき を のむ ほど うつくしかった。",
+      "example_meaning": "The starry sky that night was breathtakingly beautiful."
+    },
+    {
+      "word": "〜ずにはいられない",
+      "reading": "ずにはいられない",
+      "meanings": [
+        "can't help ~ing",
+        "can't stop oneself from ~"
+      ],
+      "pattern": "V-ない stem + ずにはいられない (する → せずには)",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうしても〜してしまう",
+      "category": "grammar",
+      "scene": "Fits the festival-goers who can't help gazing up at the comet, and 三葉 who can't stop running.",
+      "context": "Form: V-ない form minus ない + ずにはいられない (笑わずにはいられない; する → せずにはいられない). An irresistible urge to act. Same meaning as 〜ないではいられない; ずには is more written. Compare 〜てたまらない, which describes an unbearable feeling rather than an action you can't hold back.",
+      "example_sentence": "あまりにおかしくて、笑わずにはいられなかった。",
+      "example_reading": "あまりに おかしくて、 わらわず に は いられなかった。",
+      "example_meaning": "It was so funny I couldn't help laughing."
+    },
+    {
+      "word": "〜てたまらない",
+      "reading": "てたまらない",
+      "meanings": [
+        "unbearably ~",
+        "can't stand how ~",
+        "dying to ~"
+      ],
+      "pattern": "V-て / い-adj-くて / な-adj-で + たまらない",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても〜",
+      "category": "grammar",
+      "scene": "Fits 三葉 lying on the slope, frightened and frustrated beyond bearing.",
+      "context": "Form: V-て, い-adj-くて (怖くてたまらない), な-adj-で (心配でたまらない) + たまらない. An overwhelming feeling or sensation you can't contain; mostly first person. Very close to 〜てしかたがない; 〜てならない is more formal and literary.",
+      "example_sentence": "明日の結果が気になってたまらない。",
+      "example_reading": "あした の けっか が き に なって たまらない。",
+      "example_meaning": "I'm dying to know tomorrow's results."
+    },
+    {
+      "word": "〜まいと(する)",
+      "reading": "まいと",
+      "meanings": [
+        "trying hard not to ~",
+        "determined not to ~"
+      ],
+      "pattern": "V-dictionary + まいと (+ する / V)",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ないように",
+      "category": "grammar",
+      "scene": "Fits 三葉 fighting not to cry and not to give up as she drags herself back up.",
+      "context": "Form: V-dictionary form + まいと (る-verbs may also use the ます-stem: 負けまい; する → するまい / すまい), often + する or another verb. まい is a literary negative will ('I will not'); 〜まいと means straining not to do something: 泣くまいと唇を噛む. Stronger and more literary than 〜ないように.",
+      "example_sentence": "四葉は泣くまいと、ぎゅっと口を結んだ。",
+      "example_reading": "よつは は なくまい と、 ぎゅっと くち を むすんだ。",
+      "example_meaning": "Yotsuha pressed her lips tightly together, determined not to cry."
+    },
+    {
+      "word": "〜(よ)うにも〜ない",
+      "reading": "ようにも…ない",
+      "meanings": [
+        "want to ~ but can't",
+        "even if one tries to ~, one can't"
+      ],
+      "pattern": "V-volitional + にも + V-potential-negative",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜たくても〜ない",
+      "category": "grammar",
+      "scene": "Fits the moment after the fall when 三葉 tries to get up but her body won't obey.",
+      "context": "Form: V-volitional (立とう) + にも + the potential negative of the same verb (立てない): 立とうにも立てない. Says an attempt is impossible because of circumstances. Compare 〜たくても〜ない (want to but can't), which centres on desire; 〜うにも stresses that the attempt itself is blocked.",
+      "example_sentence": "電車が止まってしまい、帰ろうにも帰れなかった。",
+      "example_reading": "でんしゃ が とまって しまい、 かえろう にも かえれなかった。",
+      "example_meaning": "The trains had stopped, so I couldn't get home however much I wanted to."
+    },
+    {
+      "word": "〜かける / 〜かけの",
+      "reading": "かける",
+      "meanings": [
+        "to be about to ~",
+        "to start ~ and stop halfway",
+        "half-~ed"
+      ],
+      "pattern": "Vます-stem + かける / かけの + N",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜そうになる",
+      "category": "grammar",
+      "scene": "Fits the moment 三葉 almost gives up — 諦めかける — before the message on her palm changes everything.",
+      "context": "Form: Vます-stem + かける (verb), or + かけの + noun (読みかけの本 = a half-read book). Two senses: an action started and left unfinished (言いかけてやめた), or something on the verge of happening (死にかける = nearly die, 諦めかける = nearly give up). Context decides which.",
+      "example_sentence": "彼は何か言いかけたが、結局黙ってしまった。",
+      "example_reading": "かれ は なにか いいかけた が、 けっきょく だまって しまった。",
+      "example_meaning": "He started to say something, but in the end he fell silent."
+    },
+    {
+      "word": "〜ものか / 〜もんか",
+      "reading": "ものか",
+      "meanings": [
+        "no way I'll ~!",
+        "as if I would ~!"
+      ],
+      "pattern": "plain form (な-adj/N + な) + ものか",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "絶対に〜ない",
+      "category": "grammar",
+      "scene": "Fits 三葉 refusing to give up once she has read the message on her palm.",
+      "context": "Form: plain form (な-adj / noun + な) + ものか; casual もんか, polite ものですか. A strong rhetorical denial — 'Like I'd ever!': 諦めるものか (I won't give up!). Said with falling intonation, it is far more emotional than a plain 〜ない.",
+      "example_sentence": "こんなところで負けるものか。",
+      "example_reading": "こんな ところ で まける もの か。",
+      "example_meaning": "There's no way I'm losing here!"
+    },
+    {
+      "word": "〜てたまるか",
+      "reading": "てたまるか",
+      "meanings": [
+        "like hell I'll ~!",
+        "I won't let ~ happen!"
+      ],
+      "pattern": "V-て + たまるか",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "絶対に〜ない",
+      "category": "casual_speech",
+      "scene": "Fits the chapter's defiant mood — refusing to let the town and its people be lost.",
+      "context": "Form: V-て + たまるか (from たまる, 'to bear', as a rhetorical question: 'could I stand it if ~?'). Often with causative or passive: 死なせてたまるか (I won't let you die!), 負けてたまるか. Rough, emotional and common in manga and anime; it sounds tougher than 〜ものか.",
+      "example_sentence": "ここまで来て、あきらめてたまるか。",
+      "example_reading": "ここ まで きて、 あきらめて たまる か。",
+      "example_meaning": "After coming all this way, like hell I'm giving up now."
+    },
+    {
+      "word": "〜どころではない",
+      "reading": "どころではない",
+      "meanings": [
+        "this is no time for ~",
+        "~ is out of the question"
+      ],
+      "pattern": "N / V-dictionary + どころではない",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜している場合ではない",
+      "category": "grammar",
+      "scene": "Fits the night itself: with the comet coming down, it is no time for festivals or sky-watching.",
+      "context": "Form: noun or V-dictionary form + どころではない (casual: どころじゃない). The situation is too urgent or serious for that: 祭りどころではない. Compare 〜どころか (far from A, actually B), which links two clauses.",
+      "example_sentence": "試験の前日で、遊ぶどころではない。",
+      "example_reading": "しけん の ぜんじつ で、 あそぶ どころ で は ない。",
+      "example_meaning": "It's the day before the exam — this is no time to be having fun."
+    },
+    {
+      "word": "〜さえ〜ば",
+      "reading": "さえ…ば",
+      "meanings": [
+        "if only ~",
+        "as long as ~"
+      ],
+      "pattern": "N + さえ + V-ば / Vます-stem + さえすれば",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜があれば大丈夫",
+      "category": "grammar",
+      "scene": "Fits 三葉's single goal: if only she can reach her father, the town might still be saved.",
+      "context": "Form: N + さえ + V-ば (時間さえあれば), Vます-stem + さえすれば (会いさえすれば), or V-て + さえいれば. Says this one condition is enough and nothing else matters. Different from plain さえ ('even'): 子供でさえ = even a child.",
+      "example_sentence": "地図さえあれば、一人でも行けると思う。",
+      "example_reading": "ちず さえ あれば、 ひとり で も いける と おもう。",
+      "example_meaning": "As long as I have a map, I think I can go on my own."
+    },
+    {
+      "word": "どうか〜ますように",
+      "reading": "どうか…ますように",
+      "meanings": [
+        "please let ~ (a prayer)",
+        "I pray that ~"
+      ],
+      "pattern": "どうか + V-ます + ように",
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜といいな",
+      "category": "expression",
+      "scene": "Fits 三葉's silent prayer to reach the town office in time.",
+      "context": "Form: どうか (or どうぞ) + V-ます form + ように, ending the sentence. A wish or prayer to fate or the gods: 合格できますように. Here ように is not 'so that' but 'may it be that'. どうか adds earnest pleading, stronger than どうぞ.",
+      "example_sentence": "どうか、みんなが無事でありますように。",
+      "example_reading": "どうか、 みんな が ぶじ で あります よう に。",
+      "example_meaning": "Please, let everyone be safe."
+    }
+  ]
+}
