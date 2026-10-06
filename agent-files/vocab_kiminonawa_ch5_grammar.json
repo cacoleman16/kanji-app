@@ -8,8 +8,8 @@
   "chapter_title_reading": "きおく",
   "chapter_title_meaning": "Memory",
   "learner_level": "N3",
-  "notes": "Grammar, literary patterns and Itomori dialect for Chapter 5: 瀧's climb to the shrine's sacred site, the vision of 三葉's life and family, her trip to Tokyo three years earlier, and the comet splitting on festival night. The focus is on N2/N1 patterns that suit this chapter's reflective, memory-driven narration — 'as if', 'ever since', 'kept getting worse', 'couldn't help', 'despite'. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late; example sentences are original.",
-  "card_count": 18,
+  "notes": "Grammar, literary patterns and Itomori dialect for Chapter 5: 瀧's climb to the shrine's sacred site, the vision of 三葉's life and family, her trip to Tokyo three years earlier, and the comet splitting on festival night. The focus is on N2/N1 patterns that suit this chapter's reflective, memory-driven narration — 'as if', 'ever since', 'kept getting worse', 'couldn't help', 'despite'. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late; example sentences are original. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 14,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -26,7 +26,6 @@
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
   "categories": [
-    "casual_speech",
     "dialect",
     "grammar",
     "literary_style"
@@ -53,26 +52,6 @@
       "pattern": "V-dictionary + ほかない"
     },
     {
-      "word": "〜かのように",
-      "reading": "かのように",
-      "meanings": [
-        "as if ~",
-        "as though ~"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜みたいに",
-      "category": "grammar",
-      "scene": "The vision sweeps 瀧 along as if he were living 三葉's life himself.",
-      "context": "Form: V / い-Adj plain + かのように; N / Na-adj + である + かのように. The か adds 'though it isn't really so': 何もなかったかのように (as if nothing had happened). More literary than 〜みたいに; before a noun use 〜かのような.",
-      "example_sentence": "彼女は何も聞こえなかったかのように、本を読み続けた。",
-      "example_reading": "かのじょ は なにも きこえなかった か の ように、 ほん を よみつづけた。",
-      "example_meaning": "She went on reading as if she hadn't heard a thing.",
-      "pattern": "plain form + かのように (N / Na-adj + である + かのように)"
-    },
-    {
       "word": "〜がまま",
       "reading": "がまま",
       "meanings": [
@@ -91,26 +70,6 @@
       "example_reading": "かれ は てんいん に すすめられる が まま に、 たかい コート を かって しまった。",
       "example_meaning": "He did just as the clerk suggested and ended up buying an expensive coat.",
       "pattern": "V-dictionary / V-passive + がまま(に)"
-    },
-    {
-      "word": "〜一方だ",
-      "reading": "いっぽうだ",
-      "meanings": [
-        "keeps ~ing",
-        "more and more ~ (only one direction)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "どんどん〜なる",
-      "category": "grammar",
-      "scene": "In the vision, 二葉's illness only gets worse.",
-      "context": "Form: V-dictionary + 一方だ, with verbs of change (増える, 減る, 悪くなる, 進む). An unstoppable one-way trend, often negative: 病状は悪化する一方だった. Not the same as 〜一方で (meanwhile / on the other hand).",
-      "example_sentence": "町の人口は、年々減る一方だ。",
-      "example_reading": "まち の じんこう は、 ねんねん へる いっぽう だ。",
-      "example_meaning": "The town's population just keeps falling year after year.",
-      "pattern": "V-dictionary + 一方だ"
     },
     {
       "word": "〜まいと",
@@ -273,26 +232,6 @@
       "pattern": "Vます-stem / Adj / N + ながらも"
     },
     {
-      "word": "〜ずにはいられない",
-      "reading": "ずにはいられない",
-      "meanings": [
-        "can't help ~ing",
-        "can't stop oneself from ~"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "どうしても〜てしまう",
-      "category": "grammar",
-      "scene": "三葉 can't stop herself from going to Tokyo to see 瀧.",
-      "context": "Form: V-ない form minus ない + ずにはいられない (する → せずにはいられない). An urge to act that you can't hold back: 笑わずにはいられない. Close to 〜ないではいられない (more spoken); 〜てたまらない is about a feeling rather than an action.",
-      "example_sentence": "彼のことが心配で、電話せずにはいられなかった。",
-      "example_reading": "かれ の こと が しんぱい で、 でんわ せず に は いられなかった。",
-      "example_meaning": "I was so worried about him that I couldn't help calling.",
-      "pattern": "V-ない stem + ずにはいられない"
-    },
-    {
       "word": "〜ことなく",
       "reading": "ことなく",
       "meanings": [
@@ -351,26 +290,6 @@
       "example_reading": "そら が ひかった か と おもう と、 おおきな かみなり の おと が した。",
       "example_meaning": "No sooner had the sky flashed than there was a loud crack of thunder.",
       "pattern": "V-た + かと思うと / かと思ったら"
-    },
-    {
-      "word": "〜っけ",
-      "reading": "っけ",
-      "meanings": [
-        "was it ~? (trying to recall)",
-        "didn't we ~? (nostalgic)"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜でしたか",
-      "category": "casual_speech",
-      "scene": "A memory chapter is full of half-remembered things — like where that cord on 瀧's wrist came from.",
-      "context": "Form: V-た / い-Adj-かった / N だった + っけ (polite: でしたっけ). Asking yourself or someone to confirm something half-forgotten: 名前、何だっけ? Can also be wistful: よくここで遊んだっけ (we used to play here, didn't we). Casual.",
-      "example_sentence": "あれ、この紐、いつから着けてるんだっけ？",
-      "example_reading": "あれ、 この ひも、 いつ から つけてる ん だっけ？",
-      "example_meaning": "Huh, since when have I been wearing this cord, again?",
-      "pattern": "plain past / だった + っけ"
     },
     {
       "word": "〜んかった (＝〜なかった)",

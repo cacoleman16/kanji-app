@@ -2,14 +2,14 @@
   "deck_id": "kiminonawa-ch7-vocab",
   "deck_name": "君の名は。 Ch.7 うつくしく、もがく — Vocabulary",
   "version": "1.0",
-  "source": "新海誠『君の名は。』(角川つばさ文庫), 第7章「うつくしく、もがく」",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第七章「うつくしく、もがく」",
   "chapter": 7,
   "chapter_title": "うつくしく、もがく",
   "chapter_title_reading": "うつくしく、もがく",
   "chapter_title_meaning": "Beautifully, Struggling",
   "learner_level": "N3",
-  "notes": "Back in her own body after the twilight meeting, 三葉 races down the mountain while the plan unfolds: テッシー cuts the town's power, サヤちん broadcasts the evacuation call, and the town office contradicts it. As the comet splits overhead, 三葉 falls, finds an unexpected message on her palm, and pushes on to confront her father before the fragment falls. The deck focuses on physical struggle, darkness and confusion, the comet as spectacle, despair and resolve, and aftermath words. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late — especially the aftermath cards (奇跡, 生存, 無事, 訓練, 大半), which may belong to the start of Ch.8.",
-  "card_count": 68,
+  "notes": "Back in her own body after the twilight meeting, 三葉 races down the mountain while the plan unfolds: テッシー cuts the town's power, サヤちん broadcasts the evacuation call, and the town office contradicts it. As the comet splits overhead, 三葉 falls, finds an unexpected message on her palm, and pushes on to confront her father before the fragment falls. The deck focuses on physical struggle, darkness and confusion, the comet as spectacle, despair and resolve, and aftermath words. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late — especially the aftermath cards (奇跡, 生存, 無事, 訓練, 大半), which may belong to the start of Ch.8. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 51,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -26,15 +26,15 @@
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
   "categories": [
+    "dialect",
+    "disaster",
+    "feelings",
     "literary",
-    "senses_body",
     "nature_sky",
     "onomatopoeia",
-    "feelings",
-    "town_life",
-    "disaster",
-    "dialect",
-    "story_terms"
+    "senses_body",
+    "story_terms",
+    "town_life"
   ],
   "cards": [
     {
@@ -116,26 +116,6 @@
       "example_meaning": "Yotsuha ran all the way home, out of breath."
     },
     {
-      "word": "喘ぐ",
-      "reading": "あえぐ",
-      "meanings": [
-        "to gasp",
-        "to pant",
-        "to struggle (under hardship)"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "はあはあする",
-      "category": "literary",
-      "scene": "Fits the narration of 三葉's exhausted running — gasping for air as she pushes on.",
-      "context": "Literary word for laboured breathing: 喘ぎながら坂を上る. Figuratively, to suffer under something: 不況に喘ぐ (struggling in a recession). 喘息 (ぜんそく, asthma) uses the same rare kanji — learn the kana form first.",
-      "example_sentence": "マラソンを走り終えた選手たちが、苦しそうに喘いでいる。",
-      "example_reading": "マラソン を はしりおえた せんしゅ たち が、 くるしそう に あえいで いる。",
-      "example_meaning": "The runners who have just finished the marathon are gasping painfully."
-    },
-    {
       "word": "はあはあ",
       "reading": "はあはあ",
       "meanings": [
@@ -153,26 +133,6 @@
       "example_sentence": "五階まで階段で上ったら、はあはあと息が上がってしまった。",
       "example_reading": "ごかい まで かいだん で のぼったら、 はあはあ と いき が あがって しまった。",
       "example_meaning": "I took the stairs up to the fifth floor and ended up huffing and puffing."
-    },
-    {
-      "word": "必死",
-      "reading": "ひっし",
-      "meanings": [
-        "desperate",
-        "frantic",
-        "with all one's might"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "一生懸命",
-      "category": "feelings",
-      "scene": "Describes 三葉's whole state in this chapter — running, falling and getting up again with frantic determination.",
-      "context": "必 (certainly) + 死 (death): acting as if your life depends on it. Mostly 必死に + verb or 必死だ. Stronger and more desperate than 一生懸命, which can describe calm, steady effort.",
-      "example_sentence": "バスに乗り遅れないよう、必死に走った。",
-      "example_reading": "バス に のりおくれない よう、 ひっし に はしった。",
-      "example_meaning": "I ran desperately so as not to miss the bus."
     },
     {
       "word": "懸命",
@@ -193,45 +153,6 @@
       "example_sentence": "救助隊は夜通し懸命の捜索を続けた。",
       "example_reading": "きゅうじょたい は よどおし けんめい の そうさく を つづけた。",
       "example_meaning": "The rescue team kept up an all-out search through the night."
-    },
-    {
-      "word": "鼓動",
-      "reading": "こどう",
-      "meanings": [
-        "heartbeat",
-        "pulse",
-        "throbbing"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "心臓の音",
-      "category": "senses_body",
-      "scene": "Fits 三葉's heart pounding in her chest as she runs.",
-      "context": "鼓 (drum) + 動 (move) — the heart's drumbeat. 鼓動が速くなる / 鼓動が高鳴る = the heart races. More literary than ドキドキ. 太鼓 (たいこ) uses the same 鼓.",
-      "example_sentence": "静かな部屋で、自分の鼓動だけがやけに大きく聞こえた。",
-      "example_reading": "しずかな へや で、 じぶん の こどう だけ が やけに おおきく きこえた。",
-      "example_meaning": "In the quiet room, only my own heartbeat sounded strangely loud."
-    },
-    {
-      "word": "汗だく",
-      "reading": "あせだく",
-      "meanings": [
-        "drenched in sweat",
-        "dripping with sweat"
-      ],
-      "jlpt": "N1",
-      "priority": "low",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "汗びっしょり",
-      "category": "senses_body",
-      "scene": "Fits the state 三葉 is in after running all the way down the mountain.",
-      "context": "Colloquial: 汗 + だく (from だくだく, pouring). 汗だくになる / 汗だくで走る. Synonyms: 汗びっしょり (soaked), 汗まみれ (smeared with sweat — sounds a little dirtier).",
-      "example_sentence": "引っ越しの手伝いで一日中働き、汗だくになった。",
-      "example_reading": "ひっこし の てつだい で いちにちじゅう はたらき、 あせだく に なった。",
-      "example_meaning": "I worked all day helping with the move and ended up drenched in sweat."
     },
     {
       "word": "足がもつれる",
@@ -330,26 +251,6 @@
       "example_meaning": "When the celebrity appeared, a murmur ran through the hall."
     },
     {
-      "word": "混乱",
-      "reading": "こんらん",
-      "meanings": [
-        "confusion",
-        "chaos",
-        "disorder"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "ごちゃごちゃ",
-      "category": "disaster",
-      "scene": "The town falls into confusion: one announcement says leave, another says stay put.",
-      "context": "混 (mix) + 乱 (disorder). 混乱する, 混乱が起きる, 混乱を招く (cause confusion), 頭が混乱する (my head's a mess). Covers both public chaos and personal mental confusion.",
-      "example_sentence": "情報が食い違い、現場は大混乱になった。",
-      "example_reading": "じょうほう が くいちがい、 げんば は だいこんらん に なった。",
-      "example_meaning": "The information conflicted, and the scene descended into total chaos."
-    },
-    {
       "word": "群衆",
       "reading": "ぐんしゅう",
       "meanings": [
@@ -430,26 +331,6 @@
       "example_meaning": "Please follow the staff's instructions and exit slowly."
     },
     {
-      "word": "役場",
-      "reading": "やくば",
-      "meanings": [
-        "town office",
-        "village office",
-        "local government office"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "役所",
-      "category": "town_life",
-      "scene": "The 'stay put' announcement comes from the town office — and it is where 三葉 runs to face her father.",
-      "context": "Usually 町役場 or 村役場 — the office of a small town or village; a city's is 市役所. For Itomori it is the seat of her father the mayor's power, which is why the chapter's climax heads there.",
-      "example_sentence": "引っ越したら、まず役場で住所の変更をしなければならない。",
-      "example_reading": "ひっこしたら、 まず やくば で じゅうしょ の へんこう を しなければ ならない。",
-      "example_meaning": "When you move, you first have to change your address at the town office."
-    },
-    {
       "word": "打ち消す",
       "reading": "うちけす",
       "meanings": [
@@ -510,46 +391,6 @@
       "example_meaning": "Because of the heavy snow, employees were told to stand by at home."
     },
     {
-      "word": "戸惑う",
-      "reading": "とまどう",
-      "meanings": [
-        "to be bewildered",
-        "to be at a loss",
-        "to be thrown"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "困る",
-      "category": "feelings",
-      "scene": "With two opposite announcements, the townspeople don't know what to do.",
-      "context": "戸 (door) + 惑う (be lost) — picture someone at a door unsure whether to go through. Noun: 戸惑い. Milder and more personal than 混乱: one person's hesitation rather than public chaos.",
-      "example_sentence": "急に英語で話しかけられて、少し戸惑った。",
-      "example_reading": "きゅう に えいご で はなしかけられて、 すこし とまどった。",
-      "example_meaning": "I was a bit thrown when someone suddenly spoke to me in English."
-    },
-    {
-      "word": "半信半疑",
-      "reading": "はんしんはんぎ",
-      "meanings": [
-        "half-believing",
-        "dubious",
-        "half in doubt"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "よく信じられない",
-      "category": "feelings",
-      "scene": "Fits the townspeople who hear the evacuation call but only half believe it.",
-      "context": "半 (half) 信 (believe) 半 疑 (doubt) — a four-character idiom. 半信半疑で聞く / 半信半疑のまま. Common in narration when characters hear something hard to believe — like a warning about a comet.",
-      "example_sentence": "四葉は姉の話を半信半疑で聞いていた。",
-      "example_reading": "よつは は あね の はなし を はんしんはんぎ で きいて いた。",
-      "example_meaning": "Yotsuha listened to her sister's story, only half believing it."
-    },
-    {
       "word": "声を張り上げる",
       "reading": "こえをはりあげる",
       "meanings": [
@@ -608,45 +449,6 @@
       "example_meaning": "Stars were shining in the night sky after the rain."
     },
     {
-      "word": "尾",
-      "reading": "お",
-      "meanings": [
-        "tail",
-        "trail (of a comet)"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "しっぽ",
-      "category": "nature_sky",
-      "scene": "The comet's long glowing tail stretches over Itomori before it breaks apart.",
-      "context": "Written-style word for tail; しっぽ is everyday. 彗星の尾 = a comet's tail. 尾を引く = to trail behind, or for an effect to linger (事件が尾を引く). Read び in compounds such as 尾行 (びこう, tailing someone).",
-      "example_sentence": "流れ星は白い尾を引いて、山の向こうに消えた。",
-      "example_reading": "ながれぼし は しろい お を ひいて、 やま の むこう に きえた。",
-      "example_meaning": "The shooting star trailed a white tail and vanished beyond the mountains."
-    },
-    {
-      "word": "分裂",
-      "reading": "ぶんれつ",
-      "meanings": [
-        "splitting apart",
-        "breakup",
-        "division"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "割れる",
-      "category": "nature_sky",
-      "scene": "Above the town, the comet splits apart — the moment that seals Itomori's fate.",
-      "context": "分 (divide) + 裂 (tear). Something whole splitting into parts: 彗星が分裂する, 細胞分裂 (cell division), 党の分裂 (a party split). 割れる is everyday breaking; 分裂 is a scientific or formal splitting.",
-      "example_sentence": "細胞は分裂をくり返して増えていく。",
-      "example_reading": "さいぼう は ぶんれつ を くりかえして ふえて いく。",
-      "example_meaning": "Cells multiply by dividing again and again."
-    },
-    {
       "word": "砕ける",
       "reading": "くだける",
       "meanings": [
@@ -667,25 +469,6 @@
       "example_meaning": "The glass fell to the floor and shattered into tiny pieces."
     },
     {
-      "word": "降り注ぐ",
-      "reading": "ふりそそぐ",
-      "meanings": [
-        "to pour down",
-        "to rain down (on)"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "たくさん降る",
-      "category": "nature_sky",
-      "scene": "The splitting comet showers light over the valley as a fragment heads for the town.",
-      "context": "降る (fall) + 注ぐ (pour). For light, rain, ash or attention pouring onto something: 日差しが降り注ぐ (sunlight pours down). A lovely, slightly literary verb that suits 新海誠's light-filled prose.",
-      "example_sentence": "窓から暖かい日差しが降り注いでいる。",
-      "example_reading": "まど から あたたかい ひざし が ふりそそいで いる。",
-      "example_meaning": "Warm sunlight is pouring in through the window."
-    },
-    {
       "word": "幻想的",
       "reading": "げんそうてき",
       "meanings": [
@@ -704,84 +487,6 @@
       "example_sentence": "雪の中のお祭りの灯りは、とても幻想的だった。",
       "example_reading": "ゆき の なか の おまつり の あかり は、 とても げんそうてき だった。",
       "example_meaning": "The festival lights in the snow were truly magical."
-    },
-    {
-      "word": "見とれる",
-      "reading": "みとれる",
-      "meanings": [
-        "to be captivated (by a sight)",
-        "to gaze in fascination"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "じっと見る",
-      "category": "feelings",
-      "scene": "Fits festival-goers gazing up at the dazzling comet without sensing the danger.",
-      "context": "Kanji: 見惚れる (惚 = be charmed). 〜に見とれる = to be lost in looking at something beautiful, often forgetting what you should be doing: 景色に見とれる.",
-      "example_sentence": "あまりにきれいな夕焼けに、思わず見とれてしまった。",
-      "example_reading": "あまりに きれいな ゆうやけ に、 おもわず みとれて しまった。",
-      "example_meaning": "I found myself captivated by the incredibly beautiful sunset."
-    },
-    {
-      "word": "不気味",
-      "reading": "ぶきみ",
-      "meanings": [
-        "eerie",
-        "ominous",
-        "creepy"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "こわい",
-      "category": "feelings",
-      "scene": "The same comet that dazzles also feels ominous — 三葉 knows what it is about to do.",
-      "context": "不 (not) + 気味 (feeling): an unsettling fear you can't quite name. 不気味な静けさ = an eerie silence; 不気味に光る = to glow ominously. 気味が悪い is a close synonym.",
-      "example_sentence": "誰もいない夜の学校は、不気味なほど静かだった。",
-      "example_reading": "だれ も いない よる の がっこう は、 ぶきみな ほど しずか だった。",
-      "example_meaning": "The empty school at night was eerily quiet."
-    },
-    {
-      "word": "呆然",
-      "reading": "ぼうぜん",
-      "meanings": [
-        "dumbfounded",
-        "stunned",
-        "in a daze"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "びっくりして動けない",
-      "category": "feelings",
-      "scene": "Fits people staring up, stunned, as the comet breaks apart.",
-      "context": "呆 (amazed, absent-minded) + 然 (state). Usually 呆然とする / 呆然と立ち尽くす. Also written 茫然. 呆れる (あきれる, to be appalled or fed up) shares the first kanji.",
-      "example_sentence": "試験の結果を見て、彼はしばらく呆然としていた。",
-      "example_reading": "しけん の けっか を みて、 かれ は しばらく ぼうぜん と して いた。",
-      "example_meaning": "Seeing his exam results, he stood there stunned for a while."
-    },
-    {
-      "word": "立ち尽くす",
-      "reading": "たちつくす",
-      "meanings": [
-        "to stand frozen",
-        "to stand rooted to the spot"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "動かないで立っている",
-      "category": "literary",
-      "scene": "Fits townspeople frozen in place under the splitting comet.",
-      "context": "立つ + 尽くす (do completely). Standing still for a long time, unable to move from shock, awe or grief. Very often paired with 呆然と.",
-      "example_sentence": "焼けてしまった家の前で、彼はただ立ち尽くしていた。",
-      "example_reading": "やけて しまった いえ の まえ で、 かれ は ただ たちつくして いた。",
-      "example_meaning": "He just stood frozen in front of his burned-down house."
     },
     {
       "word": "つまずく",
@@ -1094,25 +799,6 @@
       "example_meaning": "It's exactly when things are hard that we should grit our teeth and push on."
     },
     {
-      "word": "振り絞る",
-      "reading": "ふりしぼる",
-      "meanings": [
-        "to muster (strength, voice, courage)",
-        "to summon up"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "全部出す",
-      "category": "literary",
-      "scene": "Strengthened by her palm, 三葉 musters what is left of her strength and keeps going.",
-      "context": "振る (shake) + 絞る (wring out) — wringing out the last drops. Fixed partners: 力を振り絞る, 声を振り絞る, 勇気を振り絞る. Implies you were almost empty.",
-      "example_sentence": "彼は最後の力を振り絞って、ゴールまで走りきった。",
-      "example_reading": "かれ は さいご の ちから を ふりしぼって、 ゴール まで はしりきった。",
-      "example_meaning": "He mustered the last of his strength and ran all the way to the finish."
-    },
-    {
       "word": "がくがく",
       "reading": "がくがく",
       "meanings": [
@@ -1230,26 +916,6 @@
       "example_sentence": "飛行機が轟音を立てて、頭の上を通りすぎた。",
       "example_reading": "ひこうき が ごうおん を たてて、 あたま の うえ を とおりすぎた。",
       "example_meaning": "The plane passed overhead with a thunderous roar."
-    },
-    {
-      "word": "衝撃",
-      "reading": "しょうげき",
-      "meanings": [
-        "impact",
-        "shock",
-        "jolt"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "強い力",
-      "category": "disaster",
-      "scene": "Fits the impact of the falling fragment.",
-      "context": "衝 (collide) + 撃 (strike). Physical impact (衝撃波 = shockwave) and emotional shock (衝撃的なニュース, 衝撃を受ける) — both senses are very common.",
-      "example_sentence": "その知らせは、町の人々に大きな衝撃を与えた。",
-      "example_reading": "その しらせ は、 まち の ひとびと に おおきな しょうげき を あたえた。",
-      "example_meaning": "The news came as a great shock to the people of the town."
     },
     {
       "word": "奇跡",

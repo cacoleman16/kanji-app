@@ -2,14 +2,14 @@
   "deck_id": "kiminonawa-ch4-vocab",
   "deck_name": "君の名は。 Ch.4 探訪 — Vocabulary",
   "version": "1.0",
-  "source": "新海誠『君の名は。』(角川つばさ文庫), 第4章「探訪」",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第四章「探訪」",
   "chapter": 4,
   "chapter_title": "探訪",
   "chapter_title_reading": "たんぼう",
-  "chapter_title_meaning": "The Search (an exploratory visit)",
+  "chapter_title_meaning": "The Search",
   "learner_level": "N3",
-  "notes": "瀧 can no longer reach 三葉, so he sets out for Hida with 司 and 奥寺先輩, armed only with sketches of a landscape he remembers. A ramen shop owner identifies it as 糸守町, destroyed three years earlier when a comet fragment fell during its autumn festival; 瀧 faces the ruins, the newspaper archives and the list of the dead while his memories begin to slip. The deck focuses on searching and travel, rural Gifu, the disaster as news and historical record, shock and disbelief, and fading memory. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late.",
-  "card_count": 68,
+  "notes": "瀧 can no longer reach 三葉, so he sets out for Hida with 司 and 奥寺先輩, armed only with sketches of a landscape he remembers. A ramen shop owner identifies it as 糸守町, destroyed three years earlier when a comet fragment fell during its autumn festival; 瀧 faces the ruins, the newspaper archives and the list of the dead while his memories begin to slip. The deck focuses on searching and travel, rural Gifu, the disaster as news and historical record, shock and disbelief, and fading memory. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 65,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -25,12 +25,26 @@
     "medium": "One or more kanji may trip you — drill the reading.",
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
-  "categories": ["story_terms", "literary", "town_life", "feelings", "nature_sky", "senses_body", "time_memory", "onomatopoeia", "disaster"],
+  "categories": [
+    "disaster",
+    "feelings",
+    "literary",
+    "nature_sky",
+    "onomatopoeia",
+    "senses_body",
+    "story_terms",
+    "time_memory",
+    "town_life"
+  ],
   "cards": [
     {
       "word": "探訪",
       "reading": "たんぼう",
-      "meanings": ["exploratory visit", "search trip", "inquiry made by visiting places"],
+      "meanings": [
+        "exploratory visit",
+        "search trip",
+        "inquiry made by visiting places"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -44,25 +58,13 @@
       "example_meaning": "On the weekend I watched a TV programme exploring old streetscapes."
     },
     {
-      "word": "心当たり",
-      "reading": "こころあたり",
-      "meanings": ["idea (of where or who)", "something that rings a bell", "a guess from what one knows"],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "思い当たること",
-      "category": "story_terms",
-      "scene": "瀧 has no idea where 三葉 actually lives — and the people he later asks have none either.",
-      "context": "Almost always with ある/ない: 心当たりがある = 'I have an idea / that rings a bell'; 心当たりはありませんか is the standard question when asking around. Compare 手がかり (an outside clue) — 心当たり is something already in your own head.",
-      "example_sentence": "この写真の場所に心当たりはありませんか。",
-      "example_reading": "この しゃしん の ばしょ に こころあたり は ありません か。",
-      "example_meaning": "Do you have any idea where this photo was taken?"
-    },
-    {
       "word": "手がかり",
       "reading": "てがかり",
-      "meanings": ["clue", "lead", "something to go on"],
+      "meanings": [
+        "clue",
+        "lead",
+        "something to go on"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -78,7 +80,12 @@
     {
       "word": "描く",
       "reading": "えがく",
-      "meanings": ["to draw", "to paint", "to depict", "to picture (in one's mind)"],
+      "meanings": [
+        "to draw",
+        "to paint",
+        "to depict",
+        "to picture (in one's mind)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -94,7 +101,11 @@
     {
       "word": "町並み",
       "reading": "まちなみ",
-      "meanings": ["streetscape", "row of houses along a street", "townscape"],
+      "meanings": [
+        "streetscape",
+        "row of houses along a street",
+        "townscape"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -102,31 +113,19 @@
       "simpler_synonym": "町の様子",
       "category": "town_life",
       "scene": "瀧's sketches show the lakeside town's streets, houses and hills — the view he hopes someone will recognise.",
-      "context": "町 + 並み (a row, a line-up — as in 山並み mountain range, 家並み row of houses). Describes the overall look of a town's buildings: 古い町並み, 町並みを残す.",
+      "context": "町 + 並み (a row, a line-up — as in 山並み mountain range, 家並み row of houses). Describes the overall look of a town's buildings: 古い町並み, 町並みを残す. Also written 街並み, which feels more urban.",
       "example_sentence": "飛騨の古い町並みを歩くと、時間が止まったように感じる。",
       "example_reading": "ひだ の ふるい まちなみ を あるく と、 じかん が とまった よう に かんじる。",
       "example_meaning": "Walking through Hida's old streets, it feels as if time has stopped."
     },
     {
-      "word": "半信半疑",
-      "reading": "はんしんはんぎ",
-      "meanings": ["half-doubting", "not quite believing", "dubious"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "よく信じられない",
-      "category": "feelings",
-      "scene": "Fits 司 and 奥寺先輩's reaction to 瀧's sudden, hard-to-explain trip — doubtful, but they come along anyway.",
-      "context": "Four-character compound: half 信 (believe), half 疑 (doubt). Used as 半信半疑で聞く or 半信半疑のまま. Common in narration when someone hears an unlikely story.",
-      "example_sentence": "テッシーの話を、サヤちんは半信半疑で聞いていた。",
-      "example_reading": "テッシー の はなし を、 サヤちん は はんしんはんぎ で きいて いた。",
-      "example_meaning": "サヤちん listened to テッシー's story only half believing it."
-    },
-    {
       "word": "乗り継ぐ",
       "reading": "のりつぐ",
-      "meanings": ["to change (trains, planes)", "to connect", "to transfer"],
+      "meanings": [
+        "to change (trains, planes)",
+        "to connect",
+        "to transfer"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -142,7 +141,10 @@
     {
       "word": "車窓",
       "reading": "しゃそう",
-      "meanings": ["train window", "view from a train or car window"],
+      "meanings": [
+        "train window",
+        "view from a train or car window"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -158,7 +160,9 @@
     {
       "word": "飛騨",
       "reading": "ひだ",
-      "meanings": ["Hida (mountainous northern region of Gifu)"],
+      "meanings": [
+        "Hida (mountainous northern region of Gifu)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -174,7 +178,9 @@
     {
       "word": "岐阜県",
       "reading": "ぎふけん",
-      "meanings": ["Gifu Prefecture"],
+      "meanings": [
+        "Gifu Prefecture"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -190,7 +196,11 @@
     {
       "word": "山あい",
       "reading": "やまあい",
-      "meanings": ["mountain valley", "among the mountains", "ravine"],
+      "meanings": [
+        "mountain valley",
+        "among the mountains",
+        "ravine"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -206,7 +216,11 @@
     {
       "word": "のどか",
       "reading": "のどか",
-      "meanings": ["peaceful", "tranquil", "calm and unhurried (countryside, weather)"],
+      "meanings": [
+        "peaceful",
+        "tranquil",
+        "calm and unhurried (countryside, weather)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -222,7 +236,11 @@
     {
       "word": "聞き込み",
       "reading": "ききこみ",
-      "meanings": ["making inquiries", "asking around", "canvassing for information"],
+      "meanings": [
+        "making inquiries",
+        "asking around",
+        "canvassing for information"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -238,7 +256,11 @@
     {
       "word": "地元",
       "reading": "じもと",
-      "meanings": ["local area", "home town", "locals (地元の人)"],
+      "meanings": [
+        "local area",
+        "home town",
+        "locals (地元の人)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -254,7 +276,10 @@
     {
       "word": "見覚え",
       "reading": "みおぼえ",
-      "meanings": ["recognition", "the sense of having seen something before"],
+      "meanings": [
+        "recognition",
+        "the sense of having seen something before"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -270,7 +295,11 @@
     {
       "word": "首をかしげる",
       "reading": "くびをかしげる",
-      "meanings": ["to tilt one's head (puzzled)", "to be puzzled", "to have doubts"],
+      "meanings": [
+        "to tilt one's head (puzzled)",
+        "to be puzzled",
+        "to have doubts"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -286,7 +315,11 @@
     {
       "word": "あてもなく",
       "reading": "あてもなく",
-      "meanings": ["aimlessly", "without any plan", "with nothing to go on"],
+      "meanings": [
+        "aimlessly",
+        "without any plan",
+        "with nothing to go on"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -302,7 +335,11 @@
     {
       "word": "手応え",
       "reading": "てごたえ",
-      "meanings": ["response", "sense of getting somewhere", "promising reaction"],
+      "meanings": [
+        "response",
+        "sense of getting somewhere",
+        "promising reaction"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -318,7 +355,11 @@
     {
       "word": "空振り",
       "reading": "からぶり",
-      "meanings": ["swing and a miss", "fruitless attempt", "coming up empty"],
+      "meanings": [
+        "swing and a miss",
+        "fruitless attempt",
+        "coming up empty"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -334,7 +375,11 @@
     {
       "word": "途方に暮れる",
       "reading": "とほうにくれる",
-      "meanings": ["to be at a loss", "not to know what to do", "to be at one's wits' end"],
+      "meanings": [
+        "to be at a loss",
+        "not to know what to do",
+        "to be at one's wits' end"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -350,7 +395,10 @@
     {
       "word": "疲れ果てる",
       "reading": "つかれはてる",
-      "meanings": ["to be utterly exhausted", "to be worn out"],
+      "meanings": [
+        "to be utterly exhausted",
+        "to be worn out"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -366,7 +414,10 @@
     {
       "word": "とぼとぼ",
       "reading": "とぼとぼ",
-      "meanings": ["trudging", "plodding along dejectedly"],
+      "meanings": [
+        "trudging",
+        "plodding along dejectedly"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -382,7 +433,11 @@
     {
       "word": "店主",
       "reading": "てんしゅ",
-      "meanings": ["shop owner", "proprietor", "restaurant owner"],
+      "meanings": [
+        "shop owner",
+        "proprietor",
+        "restaurant owner"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -398,7 +453,11 @@
     {
       "word": "分裂",
       "reading": "ぶんれつ",
-      "meanings": ["split", "breakup", "division into parts"],
+      "meanings": [
+        "split",
+        "breakup",
+        "division into parts"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -414,7 +473,11 @@
     {
       "word": "破片",
       "reading": "はへん",
-      "meanings": ["fragment", "piece", "shard"],
+      "meanings": [
+        "fragment",
+        "piece",
+        "shard"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -430,7 +493,11 @@
     {
       "word": "落下",
       "reading": "らっか",
-      "meanings": ["fall", "drop", "falling (from the sky)"],
+      "meanings": [
+        "fall",
+        "drop",
+        "falling (from the sky)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -446,7 +513,10 @@
     {
       "word": "直撃",
       "reading": "ちょくげき",
-      "meanings": ["direct hit", "striking head-on"],
+      "meanings": [
+        "direct hit",
+        "striking head-on"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -462,7 +532,11 @@
     {
       "word": "壊滅",
       "reading": "かいめつ",
-      "meanings": ["annihilation", "total destruction", "devastation"],
+      "meanings": [
+        "annihilation",
+        "total destruction",
+        "devastation"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -478,7 +552,11 @@
     {
       "word": "犠牲者",
       "reading": "ぎせいしゃ",
-      "meanings": ["victim", "casualty", "those killed (in a disaster)"],
+      "meanings": [
+        "victim",
+        "casualty",
+        "those killed (in a disaster)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -494,7 +572,10 @@
     {
       "word": "行方不明",
       "reading": "ゆくえふめい",
-      "meanings": ["missing", "whereabouts unknown"],
+      "meanings": [
+        "missing",
+        "whereabouts unknown"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -510,7 +591,11 @@
     {
       "word": "被害",
       "reading": "ひがい",
-      "meanings": ["damage", "harm", "loss (from a disaster or crime)"],
+      "meanings": [
+        "damage",
+        "harm",
+        "loss (from a disaster or crime)"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -526,7 +611,10 @@
     {
       "word": "見下ろす",
       "reading": "みおろす",
-      "meanings": ["to look down at", "to overlook (from above)"],
+      "meanings": [
+        "to look down at",
+        "to overlook (from above)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -542,7 +630,11 @@
     {
       "word": "廃墟",
       "reading": "はいきょ",
-      "meanings": ["ruins", "abandoned ruins", "derelict place"],
+      "meanings": [
+        "ruins",
+        "abandoned ruins",
+        "derelict place"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -558,7 +650,11 @@
     {
       "word": "ひっそり",
       "reading": "ひっそり",
-      "meanings": ["hushed", "deserted and silent", "quietly"],
+      "meanings": [
+        "hushed",
+        "deserted and silent",
+        "quietly"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -574,7 +670,11 @@
     {
       "word": "立入禁止",
       "reading": "たちいりきんし",
-      "meanings": ["no entry", "keep out", "off-limits"],
+      "meanings": [
+        "no entry",
+        "keep out",
+        "off-limits"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -590,7 +690,11 @@
     {
       "word": "水没",
       "reading": "すいぼつ",
-      "meanings": ["submersion", "being under water", "flooding (of an area)"],
+      "meanings": [
+        "submersion",
+        "being under water",
+        "flooding (of an area)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -606,7 +710,10 @@
     {
       "word": "がれき",
       "reading": "がれき",
-      "meanings": ["rubble", "debris"],
+      "meanings": [
+        "rubble",
+        "debris"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -622,7 +729,10 @@
     {
       "word": "変わり果てる",
       "reading": "かわりはてる",
-      "meanings": ["to be changed beyond recognition", "to be utterly transformed (for the worse)"],
+      "meanings": [
+        "to be changed beyond recognition",
+        "to be utterly transformed (for the worse)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -638,7 +748,11 @@
     {
       "word": "面影",
       "reading": "おもかげ",
-      "meanings": ["trace (of how something used to be)", "vestige", "lingering image (of a face or place)"],
+      "meanings": [
+        "trace (of how something used to be)",
+        "vestige",
+        "lingering image (of a face or place)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -654,7 +768,10 @@
     {
       "word": "跡形もなく",
       "reading": "あとかたもなく",
-      "meanings": ["without a trace", "completely (gone)"],
+      "meanings": [
+        "without a trace",
+        "completely (gone)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -670,7 +787,11 @@
     {
       "word": "呆然",
       "reading": "ぼうぜん",
-      "meanings": ["dumbfounded", "stunned", "in a daze"],
+      "meanings": [
+        "dumbfounded",
+        "stunned",
+        "in a daze"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -686,7 +807,11 @@
     {
       "word": "愕然",
       "reading": "がくぜん",
-      "meanings": ["shocked", "aghast", "thunderstruck"],
+      "meanings": [
+        "shocked",
+        "aghast",
+        "thunderstruck"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -702,7 +827,10 @@
     {
       "word": "立ち尽くす",
       "reading": "たちつくす",
-      "meanings": ["to stand frozen", "to stand motionless (stunned)"],
+      "meanings": [
+        "to stand frozen",
+        "to stand motionless (stunned)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -718,7 +846,10 @@
     {
       "word": "取り乱す",
       "reading": "とりみだす",
-      "meanings": ["to lose one's composure", "to become distraught"],
+      "meanings": [
+        "to lose one's composure",
+        "to become distraught"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -734,7 +865,11 @@
     {
       "word": "幻",
       "reading": "まぼろし",
-      "meanings": ["illusion", "phantom", "vision"],
+      "meanings": [
+        "illusion",
+        "phantom",
+        "vision"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -750,7 +885,10 @@
     {
       "word": "文字化け",
       "reading": "もじばけ",
-      "meanings": ["garbled text", "corrupted characters"],
+      "meanings": [
+        "garbled text",
+        "corrupted characters"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -766,7 +904,11 @@
     {
       "word": "衝撃",
       "reading": "しょうげき",
-      "meanings": ["shock", "impact (physical)", "jolt"],
+      "meanings": [
+        "shock",
+        "impact (physical)",
+        "jolt"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -782,7 +924,11 @@
     {
       "word": "報道",
       "reading": "ほうどう",
-      "meanings": ["news coverage", "reporting", "the press"],
+      "meanings": [
+        "news coverage",
+        "reporting",
+        "the press"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -798,7 +944,11 @@
     {
       "word": "見出し",
       "reading": "みだし",
-      "meanings": ["headline", "heading", "caption"],
+      "meanings": [
+        "headline",
+        "heading",
+        "caption"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -814,7 +964,11 @@
     {
       "word": "当時",
       "reading": "とうじ",
-      "meanings": ["at that time", "in those days", "then"],
+      "meanings": [
+        "at that time",
+        "in those days",
+        "then"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -830,7 +984,11 @@
     {
       "word": "軌道",
       "reading": "きどう",
-      "meanings": ["orbit", "trajectory", "track"],
+      "meanings": [
+        "orbit",
+        "trajectory",
+        "track"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -846,7 +1004,9 @@
     {
       "word": "隕石",
       "reading": "いんせき",
-      "meanings": ["meteorite"],
+      "meanings": [
+        "meteorite"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -862,7 +1022,11 @@
     {
       "word": "太古",
       "reading": "たいこ",
-      "meanings": ["ancient times", "remote antiquity", "prehistoric era"],
+      "meanings": [
+        "ancient times",
+        "remote antiquity",
+        "prehistoric era"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -878,7 +1042,11 @@
     {
       "word": "消滅",
       "reading": "しょうめつ",
-      "meanings": ["disappearance", "extinction", "ceasing to exist"],
+      "meanings": [
+        "disappearance",
+        "extinction",
+        "ceasing to exist"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -894,7 +1062,10 @@
     {
       "word": "住民",
       "reading": "じゅうみん",
-      "meanings": ["residents", "inhabitants"],
+      "meanings": [
+        "residents",
+        "inhabitants"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -910,7 +1081,10 @@
     {
       "word": "ずらりと",
       "reading": "ずらりと",
-      "meanings": ["in a long row", "lined up (impressively)"],
+      "meanings": [
+        "in a long row",
+        "lined up (impressively)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -926,7 +1100,11 @@
     {
       "word": "名簿",
       "reading": "めいぼ",
-      "meanings": ["list of names", "register", "roster"],
+      "meanings": [
+        "list of names",
+        "register",
+        "roster"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -942,7 +1120,11 @@
     {
       "word": "食い違い",
       "reading": "くいちがい",
-      "meanings": ["discrepancy", "mismatch", "inconsistency"],
+      "meanings": [
+        "discrepancy",
+        "mismatch",
+        "inconsistency"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -958,7 +1140,11 @@
     {
       "word": "ずれ",
       "reading": "ずれ",
-      "meanings": ["gap", "lag", "misalignment"],
+      "meanings": [
+        "gap",
+        "lag",
+        "misalignment"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -974,7 +1160,10 @@
     {
       "word": "つじつま",
       "reading": "つじつま",
-      "meanings": ["coherence", "consistency (of a story or facts)"],
+      "meanings": [
+        "coherence",
+        "consistency (of a story or facts)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -990,7 +1179,10 @@
     {
       "word": "ぞっと",
       "reading": "ぞっと",
-      "meanings": ["shudder", "chill (of fear or horror)"],
+      "meanings": [
+        "shudder",
+        "chill (of fear or horror)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -1006,7 +1198,11 @@
     {
       "word": "悟る",
       "reading": "さとる",
-      "meanings": ["to realise (deeply)", "to perceive", "to become enlightened"],
+      "meanings": [
+        "to realise (deeply)",
+        "to perceive",
+        "to become enlightened"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -1022,7 +1218,11 @@
     {
       "word": "宿",
       "reading": "やど",
-      "meanings": ["inn", "lodging", "place to stay"],
+      "meanings": [
+        "inn",
+        "lodging",
+        "place to stay"
+      ],
       "jlpt": "N2",
       "priority": "low",
       "difficulty_vs_n3": "one_above",
@@ -1038,7 +1238,9 @@
     {
       "word": "喉まで出かかる",
       "reading": "のどまででかかる",
-      "meanings": ["to be on the tip of one's tongue"],
+      "meanings": [
+        "to be on the tip of one's tongue"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -1054,7 +1256,11 @@
     {
       "word": "おぼろげ",
       "reading": "おぼろげ",
-      "meanings": ["vague", "dim", "hazy (memory)"],
+      "meanings": [
+        "vague",
+        "dim",
+        "hazy (memory)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -1068,25 +1274,13 @@
       "example_meaning": "I only dimly remember the house I lived in as a child."
     },
     {
-      "word": "薄れる",
-      "reading": "うすれる",
-      "meanings": ["to fade", "to grow faint", "to wane"],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "弱くなる",
-      "category": "time_memory",
-      "scene": "The harder 瀧 tries to hold on, the more his memories of 三葉 fade.",
-      "context": "From 薄い (thin, faint). 記憶が薄れる, 関心が薄れる, 痛みが薄れる. A gradual weakening — it pairs naturally with 〜ていく and 〜につれて.",
-      "example_sentence": "時間がたつにつれて、その日の記憶は薄れていった。",
-      "example_reading": "じかん が たつ に つれて、 その ひ の きおく は うすれて いった。",
-      "example_meaning": "As time passed, the memory of that day faded."
-    },
-    {
       "word": "抜け落ちる",
       "reading": "ぬけおちる",
-      "meanings": ["to drop out", "to fall out", "to go missing (from memory)"],
+      "meanings": [
+        "to drop out",
+        "to fall out",
+        "to go missing (from memory)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -1102,7 +1296,11 @@
     {
       "word": "決意",
       "reading": "けつい",
-      "meanings": ["determination", "resolve", "firm decision"],
+      "meanings": [
+        "determination",
+        "resolve",
+        "firm decision"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",

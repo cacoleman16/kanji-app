@@ -10,9 +10,17 @@ chapter-by-chapter study guides, and how to make the decks more accurate as you 
 
 Each chapter has two decks, grouped in the app under one Vocabulary tile: **君の名は。 (Your Name) — Novel**.
 
-| Ch. | Title | Vocabulary deck | Grammar & Expressions deck |
+| Ch. | Title | Vocabulary cards | Grammar & Expressions cards |
 |---|---|---|---|
-<!-- DECK-TABLE -->
+| 1 | 夢（ゆめ）: Dream | 59 | 15 |
+| 2 | 端緒（たんしょ）: The First Clue | 70 | 19 |
+| 3 | 日々（ひび）: Days | 67 | 16 |
+| 4 | 探訪（たんぼう）: The Search | 65 | 19 |
+| 5 | 記憶（きおく）: Memory | 56 | 14 |
+| 6 | 再演（さいえん）: Re-staging | 59 | 14 |
+| 7 | うつくしく、もがく: Beautifully, Struggling | 51 | 12 |
+| 8 | 君の名は。（きみのなは）: Your Name Is… | 53 | 12 |
+| | **Total** | **480** | **121** |
 
 Files are in `agent-files/` (they need the `vocab_` prefix so `pipeline/bundle.py` picks them up):
 
@@ -27,6 +35,8 @@ agent-files/vocab_kiminonawa_chN_grammar.json  ← grammar & expressions, deck_i
 - **Everything else:** built from each chapter's scenes and the novel's style, not copied from the book page by
   page. Expect a few words to sit a chapter early or late, and some words the book uses to be missing.
   The "Refine a deck from page photos" prompt below fixes that.
+- **No repeats:** each word or pattern lives in exactly one chapter, the earliest one that needs it. If a
+  word you meet in Chapter 6 isn't in the Chapter 6 deck, check the earlier chapters.
 - **Spoilers:** later chapters' `scene` and `context` fields describe what happens in those chapters. Study each
   deck when you reach that chapter.
 - Example sentences are original, not quoted from the book.

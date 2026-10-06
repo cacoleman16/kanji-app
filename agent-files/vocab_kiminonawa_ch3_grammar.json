@@ -8,8 +8,8 @@
   "chapter_title_reading": "ひび",
   "chapter_title_meaning": "Days",
   "learner_level": "N3",
-  "notes": "The body swaps between 瀧 and 三葉 become routine, with rules, complaints, a pilgrimage to the ご神体 where grandma explains ムスビ, and an awkward date that ends with a call that won't connect. This deck covers the grammar of rules and decisions (〜ことにする, sentence-final 〜こと), complaining (〜くせに, 〜てばかり, 〜どころか), grandma's speech (〜と引き換えに, dialect 〜なあかん), and the frustrations of the date and its aftermath (〜ものの, 〜かのように, 〜ずにはいられない). The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late.",
-  "card_count": 17,
+  "notes": "The body swaps between 瀧 and 三葉 become routine, with rules, complaints, a pilgrimage to the ご神体 where grandma explains ムスビ, and an awkward date that ends with a call that won't connect. This deck covers the grammar of rules and decisions (〜ことにする, sentence-final 〜こと), complaining (〜くせに, 〜てばかり, 〜どころか), grandma's speech (〜と引き換えに, dialect 〜なあかん), and the frustrations of the date and its aftermath (〜ものの, 〜かのように, 〜ずにはいられない). The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 16,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -26,7 +26,6 @@
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
   "categories": [
-    "casual_speech",
     "dialect",
     "expression",
     "grammar",
@@ -235,7 +234,7 @@
       "scene": "Fits the friction when each meddles in the other's life, from picking fights to setting up dates.",
       "context": "Form: 余計な (unnecessary) + お世話 (care, help), a fixed phrase usually used as a sharp retort: 余計なお世話だ! The milder relative is 余計なことしないで (don't do anything uncalled-for). Compare お世話になります, polite thanks for real help.",
       "example_sentence": "「早く彼女を作れば?」「余計なお世話だよ。」",
-      "example_reading": "「はやく かのじょ を つくれば?」 「よけい な おせわ だ よ。」",
+      "example_reading": "「はやく かのじょ を つくれば？」 「よけい な おせわ だ よ。」",
       "example_meaning": "'Why don't you hurry up and get a girlfriend?' 'Mind your own business.'"
     },
     {
@@ -357,26 +356,6 @@
       "example_sentence": "その話を聞いて、泣かずにはいられなかった。",
       "example_reading": "その はなし を きいて、 なかず に は いられなかった。",
       "example_meaning": "When I heard that story, I couldn't help crying."
-    },
-    {
-      "word": "〜ってば / 〜ったら",
-      "reading": "ってば / ったら",
-      "meanings": [
-        "I'm telling you, ~!",
-        "(exasperated) honestly, ~!"
-      ],
-      "pattern": "文 + ってば; 名前 + ったら / ってば",
-      "jlpt": "N1",
-      "priority": "low",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "casual_speech",
-      "scene": "Fits the exasperated tone of the notes they leave about each other's antics.",
-      "context": "Form: statement + ってば = 'I said ~!' (insistent, impatient): 大丈夫だってば! Name + ったら (or ってば) = exasperated affection: 瀧くんったら. Both are casual and a little sulky, common in girls' speech; ってば comes from と言えば.",
-      "example_sentence": "もう、分かったってば。何回も言わないで。",
-      "example_reading": "もう、 わかった って ば。 なんかい も いわないで。",
-      "example_meaning": "Okay, I get it already! Stop saying it over and over."
     }
   ]
 }

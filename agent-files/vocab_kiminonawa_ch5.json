@@ -8,8 +8,8 @@
   "chapter_title_reading": "きおく",
   "chapter_title_meaning": "Memory",
   "learner_level": "N3",
-  "notes": "瀧 leaves 司 and 奥寺先輩 behind and climbs alone through the rain to the shrine's sacred site, where he drinks the 口噛み酒 he once offered as 三葉. A fall, an ancient drawing of a comet, and then a vision of 三葉's life: her birth, her mother's death, her father leaving the shrine for politics, and the day three years earlier when she went to Tokyo to find a 瀧 who didn't know her yet, before cutting her hair and watching the comet split on festival night. The deck focuses on the stormy climb, the vision, family history (illness, death, marrying into a family, politics), embarrassment and longing on the train, the haircut, and the comet. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late; example sentences are original.",
-  "card_count": 69,
+  "notes": "瀧 leaves 司 and 奥寺先輩 behind and climbs alone through the rain to the shrine's sacred site, where he drinks the 口噛み酒 he once offered as 三葉. A fall, an ancient drawing of a comet, and then a vision of 三葉's life: her birth, her mother's death, her father leaving the shrine for politics, and the day three years earlier when she went to Tokyo to find a 瀧 who didn't know her yet, before cutting her hair and watching the comet split on festival night. The deck focuses on the stormy climb, the vision, family history (illness, death, marrying into a family, politics), embarrassment and longing on the train, the haircut, and the comet. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late; example sentences are original. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 56,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -78,26 +78,6 @@
       "example_meaning": "There was a small village at the foot of the mountain."
     },
     {
-      "word": "険しい",
-      "reading": "けわしい",
-      "meanings": [
-        "steep",
-        "rugged",
-        "stern (face)"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "急な",
-      "category": "nature_sky",
-      "scene": "The way up to the shrine's sacred site on the mountaintop is a hard, rough climb.",
-      "context": "険しい山道 = a steep, rough mountain path. Also used for faces and situations: 険しい顔 (a grim look), 険しい道のり (a hard road ahead). 急な坂 just means 'steep'; 険しい adds danger and difficulty.",
-      "example_sentence": "険しい山道を一時間以上も登り続けた。",
-      "example_reading": "けわしい やまみち を いちじかん いじょう も のぼりつづけた。",
-      "example_meaning": "I kept climbing the steep mountain path for over an hour."
-    },
-    {
       "word": "土砂降り",
       "reading": "どしゃぶり",
       "meanings": [
@@ -154,25 +134,6 @@
       "example_sentence": "傘を忘れて、家に着くころにはびしょ濡れだった。",
       "example_reading": "かさ を わすれて、 いえ に つく ころ に は びしょぬれ だった。",
       "example_meaning": "I forgot my umbrella and was soaked by the time I got home."
-    },
-    {
-      "word": "息が上がる",
-      "reading": "いきがあがる",
-      "meanings": [
-        "to get out of breath",
-        "to pant"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "はあはあする",
-      "category": "senses_body",
-      "scene": "The climb is steep, and 瀧 is soon breathing hard.",
-      "context": "Literally 'the breath rises': breathing goes fast and shallow from effort. Near-synonyms: 息が切れる, 息を切らす. Getting it back under control is 息を整える.",
-      "example_sentence": "階段を駆け上がったら、すっかり息が上がってしまった。",
-      "example_reading": "かいだん を かけあがったら、 すっかり いき が あがって しまった。",
-      "example_meaning": "After running up the stairs, I was completely out of breath."
     },
     {
       "word": "薄暗い",
@@ -274,25 +235,6 @@
       "example_meaning": "In the pitch-dark room, I felt around for the light switch."
     },
     {
-      "word": "供える",
-      "reading": "そなえる",
-      "meanings": [
-        "to offer (to a god or the dead)",
-        "to make an offering"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "あげる",
-      "category": "shrine_tradition",
-      "scene": "The 口噛み酒 in the hollow is the very offering 瀧 left there while he was in 三葉's body.",
-      "context": "Things offered are お供え / 供え物. Used for shrines, household altars and graves: 花を供える, 線香を供える. Homophone: 備える (to prepare for) — same reading, different kanji and meaning.",
-      "example_sentence": "祖母の墓に、白い菊の花を供えた。",
-      "example_reading": "そぼ の はか に、 しろい きく の はな を そなえた。",
-      "example_meaning": "I offered white chrysanthemums at my grandmother's grave."
-    },
-    {
       "word": "瓶子",
       "reading": "へいし",
       "meanings": [
@@ -329,26 +271,6 @@
       "example_sentence": "祖父は小さな杯に酒を注いだ。",
       "example_reading": "そふ は ちいさな さかずき に さけ を そそいだ。",
       "example_meaning": "My grandfather poured sake into a small cup."
-    },
-    {
-      "word": "分身",
-      "reading": "ぶんしん",
-      "meanings": [
-        "part of oneself",
-        "alter ego",
-        "double"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "自分の一部",
-      "category": "story_terms",
-      "scene": "The sake was made from 三葉's own body — drinking it feels like taking in half of her.",
-      "context": "分 (divide) + 身 (body): a piece split off from oneself — a child, a life's work, or a clone in fiction (分身の術 = a ninja's body-double trick). The idea that the sake carries half of 三葉 drives this scene.",
-      "example_sentence": "父にとって、この店は自分の分身のようなものだった。",
-      "example_reading": "ちち に とって、 この みせ は じぶん の ぶんしん の ような もの だった。",
-      "example_meaning": "To my father, this shop was like a part of himself."
     },
     {
       "word": "飲み干す",
@@ -503,26 +425,6 @@
       "example_sentence": "高い熱が出て、意識がもうろうとしてきた。",
       "example_reading": "たかい ねつ が でて、 いしき が もうろう と して きた。",
       "example_meaning": "I ran a high fever and my mind started to go hazy."
-    },
-    {
-      "word": "幻",
-      "reading": "まぼろし",
-      "meanings": [
-        "vision",
-        "illusion",
-        "phantom"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "夢のようなもの",
-      "category": "time_memory",
-      "scene": "What 瀧 sees next is a vision of 三葉's life, not an ordinary dream.",
-      "context": "Something seen that isn't really there, or something too fleeting to grasp: 幻を見る, 幻の名作 (a legendary, near-unobtainable work). On-reading げん as in 幻想 (fantasy) and 幻想的 (dreamlike).",
-      "example_sentence": "砂漠で倒れた旅人は、水の幻を見た。",
-      "example_reading": "さばく で たおれた たびびと は、 みず の まぼろし を みた。",
-      "example_meaning": "The traveller who collapsed in the desert saw a vision of water."
     },
     {
       "word": "走馬灯",
@@ -906,82 +808,6 @@
       "example_meaning": "Right after high school, I moved to Tokyo to become a singer."
     },
     {
-      "word": "人混み",
-      "reading": "ひとごみ",
-      "meanings": [
-        "crowd",
-        "throng of people"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "人が多いところ",
-      "category": "tokyo_life",
-      "scene": "三葉 searches for 瀧 through the crowds of Tokyo.",
-      "context": "人 + 混む (to be crowded). 人混みの中, 人混みをかき分ける (push through the crowd). Also written 人込み. 雑踏 (ざっとう) is the literary cousin.",
-      "example_sentence": "人混みの中で、友達とはぐれてしまった。",
-      "example_reading": "ひとごみ の なか で、 ともだち と はぐれて しまった。",
-      "example_meaning": "I got separated from my friend in the crowd."
-    },
-    {
-      "word": "当てもなく",
-      "reading": "あてもなく",
-      "meanings": [
-        "aimlessly",
-        "with nowhere in particular to go"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "目的もなく",
-      "category": "literary",
-      "scene": "With no address and no plan, 三葉 walks the city hoping to run into 瀧.",
-      "context": "当て = an aim, expectation or lead. 当てもなく歩く = walk with nowhere in mind. Related: 当てがない (have no prospects), 当てにする (count on). Often written in kana.",
-      "example_sentence": "眠れない夜、当てもなく町を歩き回った。",
-      "example_reading": "ねむれない よる、 あて も なく まち を あるきまわった。",
-      "example_meaning": "On a sleepless night, I wandered the town aimlessly."
-    },
-    {
-      "word": "途方に暮れる",
-      "reading": "とほうにくれる",
-      "meanings": [
-        "to be at a loss",
-        "to not know what to do"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "困る",
-      "category": "feelings",
-      "scene": "Lost in the vast city, 三葉 starts to wonder whether she will ever find him.",
-      "context": "途方 = a way or means: night falls on you and no way forward is left. Set phrase. Also 途方もない (outrageous, enormous). Compare 悲しみに暮れる earlier in the chapter — same 暮れる.",
-      "example_sentence": "終電を逃して、駅の前で途方に暮れた。",
-      "example_reading": "しゅうでん を のがして、 えき の まえ で とほう に くれた。",
-      "example_meaning": "I missed the last train and stood in front of the station at a total loss."
-    },
-    {
-      "word": "満員電車",
-      "reading": "まんいんでんしゃ",
-      "meanings": [
-        "packed train",
-        "rush-hour train"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "こんでいる電車",
-      "category": "tokyo_life",
-      "scene": "三葉 finally spots 瀧 aboard a crowded train.",
-      "context": "満員 = full to capacity (満 full + 員 members). The classic Tokyo ordeal: 満員電車に揺られる (be jostled about in a packed train). Also 満員御礼 (a sold-out show).",
-      "example_sentence": "毎朝、満員電車に揺られて会社に通っている。",
-      "example_reading": "まいあさ、 まんいん でんしゃ に ゆられて かいしゃ に かよって いる。",
-      "example_meaning": "Every morning I commute to work, jostled about on a packed train."
-    },
-    {
       "word": "おずおず",
       "reading": "おずおず",
       "meanings": [
@@ -1000,46 +826,6 @@
       "example_sentence": "新入生は、おずおずと教室のドアを開けた。",
       "example_reading": "しんにゅうせい は、 おずおず と きょうしつ の ドア を あけた。",
       "example_meaning": "The new student timidly opened the classroom door."
-    },
-    {
-      "word": "見覚え",
-      "reading": "みおぼえ",
-      "meanings": [
-        "recognition",
-        "familiarity",
-        "having seen before"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "前に見たこと",
-      "category": "time_memory",
-      "scene": "The younger 瀧 on the train has no idea who 三葉 is.",
-      "context": "見覚えがある = looks familiar; 見覚えがない = I don't recognise it. The heart of this chapter's ache: a face that should be familiar, isn't. The ear version is 聞き覚え (a familiar voice or sound).",
-      "example_sentence": "見覚えのある背中を見つけて、思わず声をかけた。",
-      "example_reading": "みおぼえ の ある せなか を みつけて、 おもわず こえ を かけた。",
-      "example_meaning": "I spotted a familiar figure from behind and called out without thinking."
-    },
-    {
-      "word": "怪訝",
-      "reading": "けげん",
-      "meanings": [
-        "puzzled",
-        "dubious",
-        "suspicious (look)"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "不思議そうな",
-      "category": "feelings",
-      "scene": "瀧 eyes the strange girl who seems to know him with puzzled suspicion.",
-      "context": "Almost always 怪訝な顔 / 怪訝そうに: a look that says 'who are you, and what is this?'. Written register; in speech, 変な顔をする. 怪 (strange) + 訝 (doubt, a very rare kanji).",
-      "example_sentence": "急に話しかけられて、彼は怪訝な顔をした。",
-      "example_reading": "きゅう に はなしかけられて、 かれ は けげんな かお を した。",
-      "example_meaning": "Spoken to out of the blue, he gave a puzzled look."
     },
     {
       "word": "人違い",
@@ -1158,26 +944,6 @@
       "example_meaning": "I always carry the charm my grandmother gave me."
     },
     {
-      "word": "おぼろげ",
-      "reading": "おぼろげ",
-      "meanings": [
-        "vague",
-        "faint",
-        "dim (memory)"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "ぼんやり",
-      "category": "time_memory",
-      "scene": "瀧 has only the vaguest sense of where the cord on his wrist came from — until the vision shows him.",
-      "context": "Kanji 朧げ (朧 = hazy, as in 朧月, a soft spring moon). おぼろげな記憶, おぼろげに覚えている. Gentle and literary; the plain equivalent is ぼんやり.",
-      "example_sentence": "幼いころに住んでいた家のことは、おぼろげにしか覚えていない。",
-      "example_reading": "おさない ころ に すんで いた いえ の こと は、 おぼろげ に しか おぼえて いない。",
-      "example_meaning": "I only dimly remember the house I lived in as a small child."
-    },
-    {
       "word": "ばっさり",
       "reading": "ばっさり",
       "meanings": [
@@ -1253,26 +1019,6 @@
       "example_sentence": "引っ越した後も、前の町に少し未練があった。",
       "example_reading": "ひっこした あと も、 まえ の まち に すこし みれん が あった。",
       "example_meaning": "Even after moving, I still felt a little attached to my old town."
-    },
-    {
-      "word": "分裂",
-      "reading": "ぶんれつ",
-      "meanings": [
-        "splitting apart",
-        "division",
-        "breakup"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "割れること",
-      "category": "nature_sky",
-      "scene": "On festival night, 三葉 and her friends watch the comet split apart in the sky above Itomori.",
-      "context": "分 (divide) + 裂 (tear). Cells, groups, or a comet's core breaking apart: 細胞分裂, 党が分裂する. The festival crowd sees only beauty; the reader knows what one of the pieces will do.",
-      "example_sentence": "意見の違いから、そのグループは二つに分裂した。",
-      "example_reading": "いけん の ちがい から、 その グループ は ふたつ に ぶんれつ した。",
-      "example_meaning": "Over a difference of opinion, the group split in two."
     },
     {
       "word": "尾",

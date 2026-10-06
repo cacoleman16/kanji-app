@@ -2,14 +2,14 @@
   "deck_id": "kiminonawa-ch8-vocab",
   "deck_name": "君の名は。 Ch.8 君の名は。 — Vocabulary",
   "version": "1.0",
-  "source": "新海誠『君の名は。』(角川つばさ文庫), 第8章「君の名は。」",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第八章「君の名は。」",
   "chapter": 8,
   "chapter_title": "君の名は。",
   "chapter_title_reading": "きみのなは",
   "chapter_title_meaning": "Your Name Is…",
   "learner_level": "N3",
-  "notes": "Years later in Tokyo, 瀧 is a university student slogging through job hunting while 三葉 also lives and works in the city; old friends have moved on, and both feel an ache of loss for someone they cannot name as the seasons pass. A glimpse between two side-by-side trains sends them running through the streets until they meet on a shrine staircase. This deck focuses on job-hunting and adult-life words, the vocabulary of vague longing and loss, train and city scenes, weather and seasons, and the final meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late.",
-  "card_count": 69,
+  "notes": "Years later in Tokyo, 瀧 is a university student slogging through job hunting while 三葉 also lives and works in the city; old friends have moved on, and both feel an ache of loss for someone they cannot name as the seasons pass. A glimpse between two side-by-side trains sends them running through the streets until they meet on a shrine staircase. This deck focuses on job-hunting and adult-life words, the vocabulary of vague longing and loss, train and city scenes, weather and seasons, and the final meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 53,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -26,14 +26,14 @@
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
   "categories": [
-    "literary",
     "feelings",
-    "senses_body",
-    "onomatopoeia",
+    "literary",
     "nature_sky",
-    "tokyo_life",
+    "onomatopoeia",
+    "senses_body",
+    "story_terms",
     "time_memory",
-    "story_terms"
+    "tokyo_life"
   ],
   "cards": [
     {
@@ -304,26 +304,6 @@
       "example_meaning": "I want to work in architecture and make buildings people can live in for a long time."
     },
     {
-      "word": "街並み",
-      "reading": "まちなみ",
-      "meanings": [
-        "townscape",
-        "streetscape",
-        "the look of a street"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "街の景色",
-      "category": "tokyo_life",
-      "scene": "瀧 is fascinated by townscapes — the way a street's look stays alive in people's memories.",
-      "context": "Also written 町並み. 並み = a row of things (as in 並ぶ), so it means the whole look of a street: buildings, roofs and signs together. For someone who saw a whole town vanish, a townscape is something worth protecting.",
-      "example_sentence": "雨に濡れた夕方の街並みが、なぜか懐かしく見えた。",
-      "example_reading": "あめ に ぬれた ゆうがた の まちなみ が、 なぜか なつかしく みえた。",
-      "example_meaning": "The evening streetscape, wet with rain, somehow looked nostalgic."
-    },
-    {
       "word": "景観",
       "reading": "けいかん",
       "meanings": [
@@ -381,44 +361,6 @@
       "example_sentence": "いつか、人の記憶に残るような建物の設計に携わりたい。",
       "example_reading": "いつか、 ひと の きおく に のこる ような たてもの の せっけい に たずさわりたい。",
       "example_meaning": "Someday I want to be involved in designing buildings that stay in people's memories."
-    },
-    {
-      "word": "上京",
-      "reading": "じょうきょう",
-      "meanings": [
-        "moving to Tokyo",
-        "going up to the capital"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "東京に引っ越す",
-      "category": "tokyo_life",
-      "scene": "三葉, too, now lives and works in Tokyo — the same city as 瀧, without either of them knowing.",
-      "context": "上 (up) + 京 (capital): going 'up' to the capital from the provinces (historically Kyoto, now Tokyo). The opposite is 帰郷 (ききょう, returning to one's hometown). For someone from a small town like 糸守, 上京 is a big life step.",
-      "example_sentence": "高校を卒業してすぐ、彼女は一人で上京した。",
-      "example_reading": "こうこう を そつぎょう して すぐ、 かのじょ は ひとり で じょうきょう した。",
-      "example_meaning": "Right after finishing high school, she moved to Tokyo by herself."
-    },
-    {
-      "word": "満員電車",
-      "reading": "まんいんでんしゃ",
-      "meanings": [
-        "packed train",
-        "rush-hour train"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "こんでいる電車",
-      "category": "tokyo_life",
-      "scene": "Daily commuting on crowded Tokyo trains is the backdrop to the characters' adult lives.",
-      "context": "満員 = full to capacity (満 'full' + 員 'members'). 満員電車に揺られる (to be jostled on a packed train) is the classic image of Tokyo working life. Compare 満席 (まんせき, every seat taken).",
-      "example_sentence": "満員電車に揺られて、毎朝同じ時間に会社へ向かう。",
-      "example_reading": "まんいん でんしゃ に ゆられて、 まいあさ おなじ じかん に かいしゃ へ むかう。",
-      "example_meaning": "Jostled on a packed train, I head to the office at the same time every morning."
     },
     {
       "word": "ぼんやり",
@@ -538,46 +480,6 @@
       "example_meaning": "He kept walking the city as if searching for something."
     },
     {
-      "word": "胸騒ぎ",
-      "reading": "むなさわぎ",
-      "meanings": [
-        "uneasy stirring in the chest",
-        "premonition",
-        "foreboding"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "不安な気持ち",
-      "category": "feelings",
-      "scene": "A restless stirring in the chest keeps returning to them, as if something were about to happen.",
-      "context": "胸 reads むな in some compounds (胸騒ぎ, 胸元 むなもと, 胸板 むないた) + 騒ぐ (to make a commotion): the chest 'in uproar'. Usually a bad premonition (胸騒ぎがする), but in this chapter the restlessness also points toward something hoped for.",
-      "example_sentence": "駅に着いたとたん、妙な胸騒ぎがした。",
-      "example_reading": "えき に ついた とたん、 みょう な むなさわぎ が した。",
-      "example_meaning": "The moment I arrived at the station, I had a strange sense that something was about to happen."
-    },
-    {
-      "word": "もどかしい",
-      "reading": "もどかしい",
-      "meanings": [
-        "frustrating (just out of reach)",
-        "tantalizing",
-        "impatient"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "いらいらする",
-      "category": "feelings",
-      "scene": "Something is always almost in reach for them — a memory, a name — and never quite there.",
-      "context": "The irritation of something being nearly within grasp: a word on the tip of your tongue, a memory you can't pull up, slow progress. Usually written in kana. A close cousin is 歯がゆい (はがゆい).",
-      "example_sentence": "言いたいことがうまく言葉にならず、もどかしかった。",
-      "example_reading": "いいたい こと が うまく ことば に ならず、 もどかしかった。",
-      "example_meaning": "It was frustrating that I couldn't put what I wanted to say into words."
-    },
-    {
       "word": "寂寥",
       "reading": "せきりょう",
       "meanings": [
@@ -635,46 +537,6 @@
       "example_sentence": "初めて来た町なのに、強い既視感を覚えた。",
       "example_reading": "はじめて きた まち なのに、 つよい きしかん を おぼえた。",
       "example_meaning": "Even though it was my first time in that town, I had a strong sense of déjà vu."
-    },
-    {
-      "word": "面影",
-      "reading": "おもかげ",
-      "meanings": [
-        "image (of someone) in one's memory",
-        "trace",
-        "vestige"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "昔の様子",
-      "category": "time_memory",
-      "scene": "Faces and places carry faint traces of something the two can no longer name.",
-      "context": "The image of someone that lingers in memory, or a trace of the past still visible: 昔の面影が残る (traces of the old days remain), 母の面影がある (resembles her mother). Note the reading: 面 as おも, not めん.",
-      "example_sentence": "再開発された駅前には、昔の面影がほとんど残っていなかった。",
-      "example_reading": "さいかいはつ された えきまえ には、 むかし の おもかげ が ほとんど のこって いなかった。",
-      "example_meaning": "Hardly any trace of the old days remained in front of the redeveloped station."
-    },
-    {
-      "word": "薄れる",
-      "reading": "うすれる",
-      "meanings": [
-        "to fade",
-        "to grow faint",
-        "to weaken"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "消えていく",
-      "category": "time_memory",
-      "scene": "Over the years, whatever happened before has been slipping further from their memories.",
-      "context": "From 薄い (thin, faint). For memories, feelings, colours, mist: 記憶が薄れる, 痛みが薄れる. Unlike 消える (vanish), 薄れる is gradual.",
-      "example_sentence": "時間がたつにつれて、あの夢の記憶も薄れていった。",
-      "example_reading": "じかん が たつ に つれて、 あの ゆめ の きおく も うすれて いった。",
-      "example_meaning": "As time went by, the memory of that dream faded too."
     },
     {
       "word": "歳月",
@@ -849,25 +711,6 @@
       "example_meaning": "At the café, my senior and I talked about how we'd each been lately."
     },
     {
-      "word": "車窓",
-      "reading": "しゃそう",
-      "meanings": [
-        "train window",
-        "view from a vehicle window"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "電車の窓",
-      "category": "tokyo_life",
-      "scene": "The climax begins with a glimpse through the windows of two trains running side by side.",
-      "context": "車 + 窓. 車窓から見る景色 / 車窓の風景 = the scenery passing outside. A written word — in speech, 電車の窓. In this chapter a train window is where the two finally see each other.",
-      "example_sentence": "車窓を流れる景色を眺めているうちに、眠ってしまった。",
-      "example_reading": "しゃそう を ながれる けしき を ながめて いる うち に、 ねむって しまった。",
-      "example_meaning": "While I was gazing at the scenery flowing past the train window, I fell asleep."
-    },
-    {
       "word": "並走",
       "reading": "へいそう",
       "meanings": [
@@ -927,26 +770,6 @@
       "example_meaning": "Her profile reflected in the window glass looked somehow lonely."
     },
     {
-      "word": "視線",
-      "reading": "しせん",
-      "meanings": [
-        "gaze",
-        "line of sight",
-        "eyes (looking)"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "見ている方向",
-      "category": "senses_body",
-      "scene": "Across two moving trains, their eyes meet.",
-      "context": "視線を感じる (feel someone's eyes on you), 視線をそらす (look away), 視線が合う / ぶつかる (eyes meet). A key word whenever characters look at — or away from — each other.",
-      "example_sentence": "誰かの視線を感じて振り向くと、そこには誰もいなかった。",
-      "example_reading": "だれか の しせん を かんじて ふりむく と、 そこ には だれ も いなかった。",
-      "example_meaning": "I felt someone's eyes on me and turned, but no one was there."
-    },
-    {
       "word": "はっと",
       "reading": "はっと",
       "meanings": [
@@ -985,26 +808,6 @@
       "example_meaning": "At the unbelievable news, his eyes went wide."
     },
     {
-      "word": "鼓動",
-      "reading": "こどう",
-      "meanings": [
-        "heartbeat",
-        "pulse",
-        "throb"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "心臓の音",
-      "category": "senses_body",
-      "scene": "Hearts pound as they leave their trains and run in search of each other.",
-      "context": "鼓 = drum (太鼓), 動 = move: the heart as a drum. 鼓動が速くなる / 高鳴る = the heart races / pounds. A written, slightly dramatic word — in speech, ドキドキ or 心臓がバクバクする.",
-      "example_sentence": "走ったわけでもないのに、鼓動がどんどん速くなっていく。",
-      "example_reading": "はしった わけ でも ない のに、 こどう が どんどん はやく なって いく。",
-      "example_meaning": "I haven't even been running, yet my heartbeat keeps getting faster."
-    },
-    {
       "word": "改札",
       "reading": "かいさつ",
       "meanings": [
@@ -1041,45 +844,6 @@
       "example_sentence": "電話を切ると、彼女は傘も持たずに駆け出した。",
       "example_reading": "でんわ を きる と、 かのじょ は かさ も もたず に かけだした。",
       "example_meaning": "As soon as she hung up, she dashed off without even taking an umbrella."
-    },
-    {
-      "word": "人混み",
-      "reading": "ひとごみ",
-      "meanings": [
-        "crowd",
-        "throng of people"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "たくさんの人",
-      "category": "tokyo_life",
-      "scene": "The search for each other runs through Tokyo's crowds.",
-      "context": "人 + 混む (to be crowded); also written 人込み. 人混みをかき分ける (push through the crowd), 人混みに紛れる (be lost in the crowd). 群衆 (ぐんしゅう) is a more formal 'mass of people'.",
-      "example_sentence": "朝の人混みをかき分けて、出口に向かった。",
-      "example_reading": "あさ の ひとごみ を かきわけて、 でぐち に むかった。",
-      "example_meaning": "I pushed through the morning crowd toward the exit."
-    },
-    {
-      "word": "雑踏",
-      "reading": "ざっとう",
-      "meanings": [
-        "hustle and bustle",
-        "crowded streets",
-        "throng"
-      ],
-      "jlpt": "N1",
-      "priority": "low",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "人混み",
-      "category": "literary",
-      "scene": "A literary word for the noisy, moving city they search through.",
-      "context": "The noise and movement of a crowded street as a whole: 都会の雑踏, 雑踏に紛れる (lose oneself in the crowd). 雑 (miscellaneous) + 踏 (tread, as in 踏む) — countless feet. More literary than 人混み.",
-      "example_sentence": "雑踏の中で、彼女の声だけがはっきり聞こえた。",
-      "example_reading": "ざっとう の なか で、 かのじょ の こえ だけ が はっきり きこえた。",
-      "example_meaning": "In the bustle of the crowd, only her voice came through clearly."
     },
     {
       "word": "路地",
@@ -1160,26 +924,6 @@
       "example_meaning": "Without realizing it, I had come to remember the face of someone I passed at the same station every morning."
     },
     {
-      "word": "気配",
-      "reading": "けはい",
-      "meanings": [
-        "presence (sensed)",
-        "sign",
-        "indication"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "様子",
-      "category": "senses_body",
-      "scene": "A word for sensing someone nearby without looking — the kind of awareness that fills the staircase scene.",
-      "context": "Something sensed without seeing it directly: 人の気配がする (sense someone is there), 春の気配 (signs of spring). 気 is read け here (as in 寒気 さむけ, 湿気 しっけ), not き.",
-      "example_sentence": "背後に人の気配を感じて、思わず足を止めた。",
-      "example_reading": "はいご に ひと の けはい を かんじて、 おもわず あし を とめた。",
-      "example_meaning": "Sensing someone behind me, I stopped without thinking."
-    },
-    {
       "word": "ためらう",
       "reading": "ためらう",
       "meanings": [
@@ -1216,44 +960,6 @@
       "example_sentence": "名前を呼ばれて振り返ると、懐かしい友人が手を振っていた。",
       "example_reading": "なまえ を よばれて ふりかえる と、 なつかしい ゆうじん が て を ふって いた。",
       "example_meaning": "When I turned around at the sound of my name, an old friend was waving."
-    },
-    {
-      "word": "見覚え",
-      "reading": "みおぼえ",
-      "meanings": [
-        "recognition",
-        "familiarity (of something seen before)"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "前に見たこと",
-      "category": "time_memory",
-      "scene": "The stranger on the staircase has a face that is somehow familiar.",
-      "context": "Almost always 見覚えがある / ない (looks familiar / unfamiliar). 見 + 覚え (memory). Compare 聞き覚え (a familiar sound or voice) and 身に覚えがない (to have no memory of doing something).",
-      "example_sentence": "その人の笑顔には、確かに見覚えがあった。",
-      "example_reading": "その ひと の えがお には、 たしか に みおぼえ が あった。",
-      "example_meaning": "I was sure I'd seen that person's smile before."
-    },
-    {
-      "word": "込み上げる",
-      "reading": "こみあげる",
-      "meanings": [
-        "to well up (emotion, tears)",
-        "to surge up"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "急に出てくる",
-      "category": "feelings",
-      "scene": "When they meet, feeling they cannot explain rises up in both of them.",
-      "context": "Feelings rising from the chest to the throat: 涙が込み上げる, 怒りが込み上げる, 笑いが込み上げる. Often written こみ上げる. You feel it physically — like a lump in the throat.",
-      "example_sentence": "久しぶりに母の声を聞いて、涙が込み上げてきた。",
-      "example_reading": "ひさしぶり に はは の こえ を きいて、 なみだ が こみあげて きた。",
-      "example_meaning": "Hearing my mother's voice after so long, I felt tears welling up."
     },
     {
       "word": "涙がこぼれる",
@@ -1349,25 +1055,6 @@
       "example_sentence": "長い旅の果てに、彼はようやく探していた人にめぐり会えた。",
       "example_reading": "ながい たび の はて に、 かれ は ようやく さがして いた ひと に めぐりあえた。",
       "example_meaning": "At the end of a long journey, he finally met the person he had been looking for."
-    },
-    {
-      "word": "再会",
-      "reading": "さいかい",
-      "meanings": [
-        "reunion",
-        "meeting again"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "また会うこと",
-      "category": "time_memory",
-      "scene": "For two people who have forgotten each other, the final meeting is both a first meeting and a reunion.",
-      "context": "再 (again) + 会 (meet). 再会する, 再会を果たす (to finally meet again), 感動の再会 (an emotional reunion). Watch the homophone 再開 (さいかい) = resumption.",
-      "example_sentence": "十年ぶりの再会に、二人とも言葉が出なかった。",
-      "example_reading": "じゅうねん ぶり の さいかい に、 ふたり とも ことば が でなかった。",
-      "example_meaning": "Meeting again after ten years, neither of them could find words."
     }
   ]
 }

@@ -2,14 +2,14 @@
   "deck_id": "kiminonawa-ch4-grammar",
   "deck_name": "君の名は。 Ch.4 探訪 — Grammar & Expressions",
   "version": "1.0",
-  "source": "新海誠『君の名は。』(角川つばさ文庫), 第4章「探訪」",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第四章「探訪」",
   "chapter": 4,
   "chapter_title": "探訪",
   "chapter_title_reading": "たんぼう",
-  "chapter_title_meaning": "The Search (an exploratory visit)",
+  "chapter_title_meaning": "The Search",
   "learner_level": "N3",
-  "notes": "瀧 travels to Hida with 司 and 奥寺先輩 to find 三葉's town from his sketches, learns that 糸守町 was destroyed by a comet fragment three years earlier, and reads the archives and the list of the dead as his memories start to fade. This deck covers the patterns that carry those scenes: searching (〜を頼りに, 〜て回る, 〜たところ), the formal register of news and reference books (〜により, 〜とされる, 〜に及ぶ), disbelief (〜とは, 〜はずがない, 〜はずなのに), reasoning out the time gap (〜ことになる) and memory slipping away (〜につれて, 〜一方だ, 〜さえ, 〜っけ). The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few items may sit a chapter early or late.",
-  "card_count": 20,
+  "notes": "瀧 travels to Hida with 司 and 奥寺先輩 to find 三葉's town from his sketches, learns that 糸守町 was destroyed by a comet fragment three years earlier, and reads the archives and the list of the dead as his memories start to fade. This deck covers the patterns that carry those scenes: searching (〜を頼りに, 〜て回る, 〜たところ), the formal register of news and reference books (〜により, 〜とされる, 〜に及ぶ), disbelief (〜とは, 〜はずがない, 〜はずなのに), reasoning out the time gap (〜ことになる) and memory slipping away (〜につれて, 〜一方だ, 〜さえ). The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few items may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 19,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -25,12 +25,19 @@
     "medium": "One or more kanji may trip you — drill the reading.",
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
-  "categories": ["expression", "grammar", "literary_style", "casual_speech"],
+  "categories": [
+    "expression",
+    "grammar",
+    "literary_style"
+  ],
   "cards": [
     {
       "word": "連絡がつかない",
       "reading": "れんらくがつかない",
-      "meanings": ["can't get hold of (someone)", "can't reach / get through to"],
+      "meanings": [
+        "can't get hold of (someone)",
+        "can't reach / get through to"
+      ],
       "pattern": "(Nと / Nに) 連絡がつく / つかない",
       "jlpt": "N2",
       "priority": "high",
@@ -47,7 +54,11 @@
     {
       "word": "〜を頼りに",
       "reading": "をたよりに",
-      "meanings": ["relying on ~", "using ~ as a guide", "with only ~ to go on"],
+      "meanings": [
+        "relying on ~",
+        "using ~ as a guide",
+        "with only ~ to go on"
+      ],
       "pattern": "N + を頼りに(して) + V",
       "jlpt": "N2",
       "priority": "high",
@@ -64,7 +75,10 @@
     {
       "word": "〜て回る",
       "reading": "てまわる",
-      "meanings": ["go around ~ing", "~ from place to place / person to person"],
+      "meanings": [
+        "go around ~ing",
+        "~ from place to place / person to person"
+      ],
       "pattern": "Vて + 回る",
       "jlpt": "N2",
       "priority": "high",
@@ -81,7 +95,11 @@
     {
       "word": "〜果てる",
       "reading": "はてる",
-      "meanings": ["utterly ~", "~ to the extreme", "completely ~ (negative states)"],
+      "meanings": [
+        "utterly ~",
+        "~ to the extreme",
+        "completely ~ (negative states)"
+      ],
       "pattern": "Vます-stem + 果てる",
       "jlpt": "N1",
       "priority": "medium",
@@ -98,7 +116,10 @@
     {
       "word": "〜たところ",
       "reading": "たところ",
-      "meanings": ["when I did ~, (it turned out that)", "upon ~ing"],
+      "meanings": [
+        "when I did ~, (it turned out that)",
+        "upon ~ing"
+      ],
       "pattern": "Vた + ところ、(discovered result)",
       "jlpt": "N2",
       "priority": "high",
@@ -115,7 +136,11 @@
     {
       "word": "〜により / 〜による",
       "reading": "により / による",
-      "meanings": ["due to ~ (written)", "by means of ~", "caused by ~"],
+      "meanings": [
+        "due to ~ (written)",
+        "by means of ~",
+        "caused by ~"
+      ],
       "pattern": "N + により、clause / N + による + N",
       "jlpt": "N2",
       "priority": "high",
@@ -132,7 +157,11 @@
     {
       "word": "〜に及ぶ",
       "reading": "におよぶ",
-      "meanings": ["to reach (a number or extent)", "to amount to", "to extend to"],
+      "meanings": [
+        "to reach (a number or extent)",
+        "to amount to",
+        "to extend to"
+      ],
       "pattern": "N (number / range) + に及ぶ",
       "jlpt": "N1",
       "priority": "medium",
@@ -149,7 +178,10 @@
     {
       "word": "言葉を失う",
       "reading": "ことばをうしなう",
-      "meanings": ["to be speechless", "to be lost for words"],
+      "meanings": [
+        "to be speechless",
+        "to be lost for words"
+      ],
       "pattern": "言葉を失う (≈ 言葉が出ない)",
       "jlpt": "N1",
       "priority": "medium",
@@ -166,7 +198,10 @@
     {
       "word": "〜とは (surprise)",
       "reading": "とは",
-      "meanings": ["to think that ~!", "who would have thought ~"],
+      "meanings": [
+        "to think that ~!",
+        "who would have thought ~"
+      ],
       "pattern": "plain form / N + とは(…)",
       "jlpt": "N1",
       "priority": "high",
@@ -183,7 +218,10 @@
     {
       "word": "〜はずがない",
       "reading": "はずがない",
-      "meanings": ["there's no way that ~", "~ can't possibly be so"],
+      "meanings": [
+        "there's no way that ~",
+        "~ can't possibly be so"
+      ],
       "pattern": "plain form + はずがない (Nの / なA-な + はずがない)",
       "jlpt": "N3",
       "priority": "high",
@@ -200,7 +238,10 @@
     {
       "word": "〜はずなのに",
       "reading": "はずなのに",
-      "meanings": ["even though it should be ~", "~ ought to be the case, and yet"],
+      "meanings": [
+        "even though it should be ~",
+        "~ ought to be the case, and yet"
+      ],
       "pattern": "plain form + はずなのに (Nの / なA-な + はずなのに)",
       "jlpt": "N3",
       "priority": "high",
@@ -217,7 +258,10 @@
     {
       "word": "〜うちに (change creeps in)",
       "reading": "うちに",
-      "meanings": ["while ~ing (something changes)", "as one keeps ~ing, before one knows it"],
+      "meanings": [
+        "while ~ing (something changes)",
+        "as one keeps ~ing, before one knows it"
+      ],
       "pattern": "Vている + うちに、(unplanned change)",
       "jlpt": "N3",
       "priority": "medium",
@@ -234,7 +278,11 @@
     {
       "word": "〜とされる",
       "reading": "とされる",
-      "meanings": ["is considered ~", "is said / believed to ~ (formal)", "is officially ~"],
+      "meanings": [
+        "is considered ~",
+        "is said / believed to ~ (formal)",
+        "is officially ~"
+      ],
       "pattern": "plain form / N + とされる・とされている",
       "jlpt": "N1",
       "priority": "medium",
@@ -251,7 +299,11 @@
     {
       "word": "〜ことになる (that means…)",
       "reading": "ことになる",
-      "meanings": ["that means ~", "it works out that ~", "it amounts to ~"],
+      "meanings": [
+        "that means ~",
+        "it works out that ~",
+        "it amounts to ~"
+      ],
       "pattern": "plain form + ことになる",
       "jlpt": "N2",
       "priority": "high",
@@ -268,7 +320,10 @@
     {
       "word": "〜につれて",
       "reading": "につれて",
-      "meanings": ["as ~ (gradually)", "in step with ~"],
+      "meanings": [
+        "as ~ (gradually)",
+        "in step with ~"
+      ],
       "pattern": "V dictionary form / N + につれて",
       "jlpt": "N2",
       "priority": "high",
@@ -285,7 +340,10 @@
     {
       "word": "〜一方だ",
       "reading": "いっぽうだ",
-      "meanings": ["keeps ~ing (only one way)", "more and more ~"],
+      "meanings": [
+        "keeps ~ing (only one way)",
+        "more and more ~"
+      ],
       "pattern": "V dictionary form + 一方だ",
       "jlpt": "N2",
       "priority": "medium",
@@ -300,26 +358,12 @@
       "example_meaning": "The harder he tried to remember, the more the memory just kept fading."
     },
     {
-      "word": "〜っけ",
-      "reading": "っけ",
-      "meanings": ["what was ~ again?", "was it ~? (trying to recall)"],
-      "pattern": "plain past / だった + っけ; 〜んだっけ",
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜でしたか",
-      "category": "casual_speech",
-      "scene": "At the inn, 瀧 struggles to recall the name of the girl he came all this way to find.",
-      "context": "Form: plain past (〜た / だった) + っけ, or 〜んだっけ. Used when trying to recall something you once knew, or checking it with someone. Casual; the polite version is 〜でしたっけ. Soft and self-directed — the sound of a memory slipping.",
-      "example_sentence": "あの子の名前、何だったっけ。",
-      "example_reading": "あの こ の なまえ、 なん だった っけ。",
-      "example_meaning": "What was that girl's name again?"
-    },
-    {
       "word": "〜さえ",
       "reading": "さえ",
-      "meanings": ["even ~", "not even ~"],
+      "meanings": [
+        "even ~",
+        "not even ~"
+      ],
       "pattern": "N (+ particle) + さえ (+ negative)",
       "jlpt": "N2",
       "priority": "high",
@@ -336,7 +380,11 @@
     {
       "word": "〜かける (half-done / about to)",
       "reading": "かける",
-      "meanings": ["start to ~ (but stop)", "half-~", "be about to ~"],
+      "meanings": [
+        "start to ~ (but stop)",
+        "half-~",
+        "be about to ~"
+      ],
       "pattern": "Vます-stem + かける / Vます-stem + かけの + N",
       "jlpt": "N3",
       "priority": "medium",
@@ -353,7 +401,9 @@
     {
       "word": "〜ぬ (literary negative)",
       "reading": "ぬ",
-      "meanings": ["not ~ (classical negative)"],
+      "meanings": [
+        "not ~ (classical negative)"
+      ],
       "pattern": "Vない-stem + ぬ (する → せぬ)",
       "jlpt": "N1",
       "priority": "low",

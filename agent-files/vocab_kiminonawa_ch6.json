@@ -2,14 +2,14 @@
   "deck_id": "kiminonawa-ch6-vocab",
   "deck_name": "君の名は。 Ch.6 再演 — Vocabulary",
   "version": "1.0",
-  "source": "新海誠『君の名は。』(角川つばさ文庫), 第6章「再演」",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第六章「再演」",
   "chapter": 6,
   "chapter_title": "再演",
   "chapter_title_reading": "さいえん",
-  "chapter_title_meaning": "A second performance / re-staging",
+  "chapter_title_meaning": "Re-staging",
   "learner_level": "N3",
-  "notes": "瀧 wakes in 三葉's body on the morning of the festival, the day the comet fragment will fall, and sets out to save the town: he recruits テッシー and サヤちん into a plan built on a blackout, a hijacked emergency broadcast and an evacuation, fails to persuade 三葉's father the mayor, then races up the mountain to the ご神体, where at twilight the two finally meet face to face. The deck focuses on planning and disaster vocabulary (作戦, 爆破, 変電所, 防災無線, 避難), the clash with the mayor, the desperate climb, and the literary language of the twilight meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late.",
-  "card_count": 69,
+  "notes": "瀧 wakes in 三葉's body on the morning of the festival, the day the comet fragment will fall, and sets out to save the town: he recruits テッシー and サヤちん into a plan built on a blackout, a hijacked emergency broadcast and an evacuation, fails to persuade 三葉's father the mayor, then races up the mountain to the ご神体, where at twilight the two finally meet face to face. The deck focuses on planning and disaster vocabulary (作戦, 爆破, 変電所, 防災無線, 避難), the clash with the mayor, the desperate climb, and the literary language of the twilight meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 59,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -25,12 +25,28 @@
     "medium": "One or more kanji may trip you — drill the reading.",
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
-  "categories": ["story_terms", "time_memory", "senses_body", "feelings", "disaster", "shrine_tradition", "literary", "town_life", "casual_speech", "onomatopoeia", "nature_sky"],
+  "categories": [
+    "casual_speech",
+    "disaster",
+    "feelings",
+    "literary",
+    "nature_sky",
+    "onomatopoeia",
+    "senses_body",
+    "shrine_tradition",
+    "story_terms",
+    "time_memory",
+    "town_life"
+  ],
   "cards": [
     {
       "word": "再演",
       "reading": "さいえん",
-      "meanings": ["re-staging", "second performance", "revival (of a play)"],
+      "meanings": [
+        "re-staging",
+        "second performance",
+        "revival (of a play)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -46,7 +62,11 @@
     {
       "word": "当日",
       "reading": "とうじつ",
-      "meanings": ["the day itself", "the day in question", "on the day"],
+      "meanings": [
+        "the day itself",
+        "the day in question",
+        "on the day"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -62,7 +82,11 @@
     {
       "word": "鼓動",
       "reading": "こどう",
-      "meanings": ["heartbeat", "pulse", "throbbing"],
+      "meanings": [
+        "heartbeat",
+        "pulse",
+        "throbbing"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -78,7 +102,11 @@
     {
       "word": "込み上げる",
       "reading": "こみあげる",
-      "meanings": ["to well up (tears, emotion)", "to surge up", "to feel sick (nausea rising)"],
+      "meanings": [
+        "to well up (tears, emotion)",
+        "to surge up",
+        "to feel sick (nausea rising)"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -94,7 +122,10 @@
     {
       "word": "安堵",
       "reading": "あんど",
-      "meanings": ["relief", "reassurance"],
+      "meanings": [
+        "relief",
+        "reassurance"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -110,7 +141,11 @@
     {
       "word": "噛みしめる",
       "reading": "かみしめる",
-      "meanings": ["to savor (a feeling)", "to bite down hard", "to take to heart"],
+      "meanings": [
+        "to savor (a feeling)",
+        "to bite down hard",
+        "to take to heart"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -124,25 +159,13 @@
       "example_meaning": "After getting the news that she'd passed, she spent a while savoring her joy."
     },
     {
-      "word": "決意",
-      "reading": "けつい",
-      "meanings": ["determination", "resolve", "firm decision"],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "強く決めること",
-      "category": "feelings",
-      "scene": "瀧 begins the festival day determined that this time nobody in the town will die.",
-      "context": "Stronger and more emotional than 決心. Collocations: 決意する, 決意を固める (firm up one's resolve), 決意の表情 (a determined look). Compare 覚悟 (readiness to face the consequences).",
-      "example_sentence": "彼は町の人を一人残らず助けると決意した。",
-      "example_reading": "かれ は まち の ひと を ひとり のこらず たすける と けつい した。",
-      "example_meaning": "He resolved to save every last person in the town."
-    },
-    {
       "word": "食い止める",
       "reading": "くいとめる",
-      "meanings": ["to stop (something from spreading)", "to hold back", "to keep in check"],
+      "meanings": [
+        "to stop (something from spreading)",
+        "to hold back",
+        "to keep in check"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -158,7 +181,11 @@
     {
       "word": "見抜く",
       "reading": "みぬく",
-      "meanings": ["to see through", "to see the truth behind", "to read (someone)"],
+      "meanings": [
+        "to see through",
+        "to see the truth behind",
+        "to read (someone)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -174,7 +201,11 @@
     {
       "word": "血筋",
       "reading": "ちすじ",
-      "meanings": ["bloodline", "lineage", "family line"],
+      "meanings": [
+        "bloodline",
+        "lineage",
+        "family line"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -190,7 +221,11 @@
     {
       "word": "役目",
       "reading": "やくめ",
-      "meanings": ["role", "duty", "job one is meant to do"],
+      "meanings": [
+        "role",
+        "duty",
+        "job one is meant to do"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -206,7 +241,11 @@
     {
       "word": "作戦",
       "reading": "さくせん",
-      "meanings": ["plan of action", "strategy", "operation"],
+      "meanings": [
+        "plan of action",
+        "strategy",
+        "operation"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -222,7 +261,11 @@
     {
       "word": "突拍子もない",
       "reading": "とっぴょうしもない",
-      "meanings": ["wild", "outlandish", "off-the-wall"],
+      "meanings": [
+        "wild",
+        "outlandish",
+        "off-the-wall"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -236,25 +279,13 @@
       "example_meaning": "Everyone was left speechless by his outlandish plan."
     },
     {
-      "word": "半信半疑",
-      "reading": "はんしんはんぎ",
-      "meanings": ["half in doubt", "not sure whether to believe", "skeptical"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "少し疑っている",
-      "category": "feelings",
-      "scene": "Fits テッシー and サヤちん hearing 瀧's warning — they cannot quite believe it, yet their friend has never seemed so serious.",
-      "context": "Four-character idiom: 半 (half) 信 (believe) 半 疑 (doubt). Used as 半信半疑で聞く or 半信半疑のまま. The opposite state is 確信 (certainty).",
-      "example_sentence": "その話を、私は半信半疑で聞いていた。",
-      "example_reading": "その はなし を、 わたし は はんしんはんぎ で きいて いた。",
-      "example_meaning": "I listened to that story only half believing it."
-    },
-    {
       "word": "正気",
       "reading": "しょうき",
-      "meanings": ["sanity", "one's right mind", "one's senses"],
+      "meanings": [
+        "sanity",
+        "one's right mind",
+        "one's senses"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -270,7 +301,11 @@
     {
       "word": "爆破",
       "reading": "ばくは",
-      "meanings": ["blowing up", "blasting", "demolition by explosives"],
+      "meanings": [
+        "blowing up",
+        "blasting",
+        "demolition by explosives"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -286,7 +321,10 @@
     {
       "word": "爆薬",
       "reading": "ばくやく",
-      "meanings": ["explosives", "blasting charge"],
+      "meanings": [
+        "explosives",
+        "blasting charge"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -302,7 +340,10 @@
     {
       "word": "変電所",
       "reading": "へんでんしょ",
-      "meanings": ["electrical substation", "transformer station"],
+      "meanings": [
+        "electrical substation",
+        "transformer station"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -318,7 +359,10 @@
     {
       "word": "停電",
       "reading": "ていでん",
-      "meanings": ["power outage", "blackout"],
+      "meanings": [
+        "power outage",
+        "blackout"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -334,7 +378,10 @@
     {
       "word": "防災無線",
       "reading": "ぼうさいむせん",
-      "meanings": ["disaster-warning radio system", "town emergency loudspeakers"],
+      "meanings": [
+        "disaster-warning radio system",
+        "town emergency loudspeakers"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -350,7 +397,11 @@
     {
       "word": "乗っ取る",
       "reading": "のっとる",
-      "meanings": ["to hijack", "to take over", "to seize control of"],
+      "meanings": [
+        "to hijack",
+        "to take over",
+        "to seize control of"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -364,25 +415,12 @@
       "example_meaning": "My friend's account got hijacked and I received a weird message."
     },
     {
-      "word": "電波",
-      "reading": "でんぱ",
-      "meanings": ["radio waves", "signal (reception)", "(slang) bizarre, delusional talk"],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "story_terms",
-      "scene": "Part of the technical side of the broadcast plan — the town's loudspeakers are fed by radio.",
-      "context": "電波が届く / 電波が悪い = good / bad reception; 電波を飛ばす = transmit. Slang: 電波な人 or 電波系 = someone saying strange, paranoid things as if receiving messages — which is just how 三葉's warning could sound to outsiders.",
-      "example_sentence": "山の中では電波が弱くて、電話がつながらなかった。",
-      "example_reading": "やま の なか で は でんぱ が よわくて、 でんわ が つながらなかった。",
-      "example_meaning": "The signal was weak in the mountains, so the call wouldn't connect."
-    },
-    {
       "word": "周波数",
       "reading": "しゅうはすう",
-      "meanings": ["frequency (radio)", "wavelength (loosely)"],
+      "meanings": [
+        "frequency (radio)",
+        "wavelength (loosely)"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -398,7 +436,10 @@
     {
       "word": "避難",
       "reading": "ひなん",
-      "meanings": ["evacuation", "taking refuge"],
+      "meanings": [
+        "evacuation",
+        "taking refuge"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -414,7 +455,10 @@
     {
       "word": "避難指示",
       "reading": "ひなんしじ",
-      "meanings": ["evacuation order", "official instruction to evacuate"],
+      "meanings": [
+        "evacuation order",
+        "official instruction to evacuate"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -430,7 +474,10 @@
     {
       "word": "危険区域",
       "reading": "きけんくいき",
-      "meanings": ["danger zone", "hazardous area"],
+      "meanings": [
+        "danger zone",
+        "hazardous area"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -444,41 +491,12 @@
       "example_meaning": "Beyond this point is a danger zone, so only authorised personnel may enter."
     },
     {
-      "word": "直撃",
-      "reading": "ちょくげき",
-      "meanings": ["direct hit", "to strike head-on"],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "まっすぐ当たる",
-      "category": "disaster",
-      "scene": "瀧 knows the fragment will come down right on the festival area by the shrine, and everyone has to be gone from there.",
-      "context": "直 (direct) + 撃 (strike, as in 攻撃). 台風が町を直撃する (a typhoon hits the town head-on) is a very common news phrase; also 直撃を受ける (take a direct hit).",
-      "example_sentence": "今夜、大型の台風が九州を直撃するおそれがある。",
-      "example_reading": "こんや、 おおがた の たいふう が きゅうしゅう を ちょくげき する おそれ が ある。",
-      "example_meaning": "There's a risk that a large typhoon will hit Kyushu directly tonight."
-    },
-    {
-      "word": "分裂",
-      "reading": "ぶんれつ",
-      "meanings": ["splitting apart", "breakup", "division"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "割れること",
-      "category": "nature_sky",
-      "scene": "瀧 knows what nobody else does: tonight the comet will break apart, and one piece will fall on 糸守.",
-      "context": "分 (divide) + 裂 (tear; the 裂 of 裂ける, さける). Used for comets, cells (細胞分裂) and groups (党が分裂する, a party splits). The comet's breakup is what turns a beautiful sight into a disaster.",
-      "example_sentence": "細胞は分裂をくり返して増えていく。",
-      "example_reading": "さいぼう は ぶんれつ を くりかえして ふえて いく。",
-      "example_meaning": "Cells multiply by dividing over and over."
-    },
-    {
       "word": "校庭",
       "reading": "こうてい",
-      "meanings": ["school grounds", "schoolyard"],
+      "meanings": [
+        "school grounds",
+        "schoolyard"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -494,7 +512,11 @@
     {
       "word": "段取り",
       "reading": "だんどり",
-      "meanings": ["arrangements", "sequence of steps", "preparations"],
+      "meanings": [
+        "arrangements",
+        "sequence of steps",
+        "preparations"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -510,7 +532,10 @@
     {
       "word": "手分け",
       "reading": "てわけ",
-      "meanings": ["dividing up the work", "splitting tasks"],
+      "meanings": [
+        "dividing up the work",
+        "splitting tasks"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -526,7 +551,10 @@
     {
       "word": "決行",
       "reading": "けっこう",
-      "meanings": ["carrying out (a plan) as decided", "going ahead despite the risk"],
+      "meanings": [
+        "carrying out (a plan) as decided",
+        "going ahead despite the risk"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -542,7 +570,11 @@
     {
       "word": "オカルト",
       "reading": "オカルト",
-      "meanings": ["the occult", "paranormal stuff", "the supernatural"],
+      "meanings": [
+        "the occult",
+        "paranormal stuff",
+        "the supernatural"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -558,7 +590,11 @@
     {
       "word": "張り切る",
       "reading": "はりきる",
-      "meanings": ["to be fired up", "to throw oneself into", "to be full of enthusiasm"],
+      "meanings": [
+        "to be fired up",
+        "to throw oneself into",
+        "to be full of enthusiasm"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -574,7 +610,11 @@
     {
       "word": "ノリノリ",
       "reading": "ノリノリ",
-      "meanings": ["really into it", "in high spirits", "pumped"],
+      "meanings": [
+        "really into it",
+        "in high spirits",
+        "pumped"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -590,7 +630,11 @@
     {
       "word": "目を輝かせる",
       "reading": "めをかがやかせる",
-      "meanings": ["one's eyes light up", "to look thrilled", "to sparkle with interest"],
+      "meanings": [
+        "one's eyes light up",
+        "to look thrilled",
+        "to sparkle with interest"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -606,7 +650,10 @@
     {
       "word": "役場",
       "reading": "やくば",
-      "meanings": ["town office", "local government office"],
+      "meanings": [
+        "town office",
+        "local government office"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -622,7 +669,10 @@
     {
       "word": "説得",
       "reading": "せっとく",
-      "meanings": ["persuasion", "talking someone into something"],
+      "meanings": [
+        "persuasion",
+        "talking someone into something"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -638,7 +688,11 @@
     {
       "word": "妄言",
       "reading": "もうげん",
-      "meanings": ["delusional talk", "wild nonsense", "reckless remarks"],
+      "meanings": [
+        "delusional talk",
+        "wild nonsense",
+        "reckless remarks"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -654,7 +708,11 @@
     {
       "word": "たわごと",
       "reading": "たわごと",
-      "meanings": ["nonsense", "drivel", "rubbish"],
+      "meanings": [
+        "nonsense",
+        "drivel",
+        "rubbish"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -670,7 +728,11 @@
     {
       "word": "取り合う",
       "reading": "とりあう",
-      "meanings": ["(with negative) to refuse to take seriously", "to pay attention to", "to scramble for"],
+      "meanings": [
+        "(with negative) to refuse to take seriously",
+        "to pay attention to",
+        "to scramble for"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -686,7 +748,10 @@
     {
       "word": "診る",
       "reading": "みる",
-      "meanings": ["to examine (a patient)", "to see (as a doctor)"],
+      "meanings": [
+        "to examine (a patient)",
+        "to see (as a doctor)"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -702,7 +767,11 @@
     {
       "word": "苛立つ",
       "reading": "いらだつ",
-      "meanings": ["to get irritated", "to grow impatient", "to be on edge"],
+      "meanings": [
+        "to get irritated",
+        "to grow impatient",
+        "to be on edge"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -718,7 +787,11 @@
     {
       "word": "かっとなる",
       "reading": "かっとなる",
-      "meanings": ["to flare up", "to lose one's temper", "to snap"],
+      "meanings": [
+        "to flare up",
+        "to lose one's temper",
+        "to snap"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -734,7 +807,10 @@
     {
       "word": "怒鳴る",
       "reading": "どなる",
-      "meanings": ["to shout (in anger)", "to yell at"],
+      "meanings": [
+        "to shout (in anger)",
+        "to yell at"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -750,7 +826,10 @@
     {
       "word": "胸ぐらを掴む",
       "reading": "むなぐらをつかむ",
-      "meanings": ["to grab someone by the collar", "to seize someone by the lapels"],
+      "meanings": [
+        "to grab someone by the collar",
+        "to seize someone by the lapels"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -764,25 +843,13 @@
       "example_meaning": "The man grabbed the other guy by the collar and shoved him against the wall."
     },
     {
-      "word": "動揺",
-      "reading": "どうよう",
-      "meanings": ["agitation", "being shaken", "loss of composure"],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "心が揺れる",
-      "category": "feelings",
-      "scene": "The mayor, shaken by this violent stranger in his daughter's body, asks who he is really talking to.",
-      "context": "動 (move) + 揺 (shake). 動揺する, 動揺を隠す, 動揺が広がる (unease spreads). Describes an inner wobble rather than visible fear; compare 狼狽 (ろうばい, flustered panic — literary). Don't mix it up with the homophone 童謡 (children's song).",
-      "example_sentence": "突然の知らせに、彼女は動揺を隠せなかった。",
-      "example_reading": "とつぜん の しらせ に、 かのじょ は どうよう を かくせなかった。",
-      "example_meaning": "She couldn't hide how shaken she was by the sudden news."
-    },
-    {
       "word": "無力",
       "reading": "むりょく",
-      "meanings": ["powerless", "helpless", "helplessness"],
+      "meanings": [
+        "powerless",
+        "helpless",
+        "helplessness"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -798,7 +865,10 @@
     {
       "word": "手遅れ",
       "reading": "ておくれ",
-      "meanings": ["too late", "past saving"],
+      "meanings": [
+        "too late",
+        "past saving"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -814,7 +884,11 @@
     {
       "word": "漕ぐ",
       "reading": "こぐ",
-      "meanings": ["to pedal (a bike)", "to row (a boat)", "to swing (on a swing)"],
+      "meanings": [
+        "to pedal (a bike)",
+        "to row (a boat)",
+        "to swing (on a swing)"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -830,7 +904,10 @@
     {
       "word": "全速力",
       "reading": "ぜんそくりょく",
-      "meanings": ["full speed", "top speed"],
+      "meanings": [
+        "full speed",
+        "top speed"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -846,7 +923,11 @@
     {
       "word": "必死",
       "reading": "ひっし",
-      "meanings": ["desperate", "frantic", "with all one's might"],
+      "meanings": [
+        "desperate",
+        "frantic",
+        "with all one's might"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -862,7 +943,11 @@
     {
       "word": "あえぐ",
       "reading": "あえぐ",
-      "meanings": ["to pant", "to gasp for breath", "to struggle (under hardship)"],
+      "meanings": [
+        "to pant",
+        "to gasp for breath",
+        "to struggle (under hardship)"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -876,25 +961,13 @@
       "example_meaning": "The old man climbed the steep stairs, gasping for breath."
     },
     {
-      "word": "汗だく",
-      "reading": "あせだく",
-      "meanings": ["drenched in sweat", "dripping with sweat"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "汗びっしょり",
-      "category": "senses_body",
-      "scene": "Fits 瀧 after racing up the mountain in 三葉's body.",
-      "context": "汗 + だく (from だくだく, streaming). Casual: 汗だくになる, 汗だくで帰ってくる. Synonyms: 汗びっしょり, 汗まみれ (covered in sweat — a bit grimier).",
-      "example_sentence": "夏の部活のあとは、いつも汗だくになる。",
-      "example_reading": "なつ の ぶかつ の あと は、 いつも あせだく に なる。",
-      "example_meaning": "After club practice in summer, I'm always drenched in sweat."
-    },
-    {
       "word": "くぼみ",
       "reading": "くぼみ",
-      "meanings": ["hollow", "depression (in the ground)", "dent"],
+      "meanings": [
+        "hollow",
+        "depression (in the ground)",
+        "dent"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -910,7 +983,11 @@
     {
       "word": "縁",
       "reading": "ふち",
-      "meanings": ["rim", "edge", "brink"],
+      "meanings": [
+        "rim",
+        "edge",
+        "brink"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -926,7 +1003,10 @@
     {
       "word": "稜線",
       "reading": "りょうせん",
-      "meanings": ["ridgeline", "mountain skyline"],
+      "meanings": [
+        "ridgeline",
+        "mountain skyline"
+      ],
       "jlpt": "N1",
       "priority": "low",
       "difficulty_vs_n3": "two_above",
@@ -942,7 +1022,11 @@
     {
       "word": "夕暮れ",
       "reading": "ゆうぐれ",
-      "meanings": ["dusk", "twilight", "nightfall"],
+      "meanings": [
+        "dusk",
+        "twilight",
+        "nightfall"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -958,7 +1042,11 @@
     {
       "word": "気配",
       "reading": "けはい",
-      "meanings": ["presence", "sign", "sense that someone is there"],
+      "meanings": [
+        "presence",
+        "sign",
+        "sense that someone is there"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -974,7 +1062,11 @@
     {
       "word": "呼びかける",
       "reading": "よびかける",
-      "meanings": ["to call out to", "to appeal to (the public)", "to urge"],
+      "meanings": [
+        "to call out to",
+        "to appeal to (the public)",
+        "to urge"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -990,7 +1082,11 @@
     {
       "word": "境界",
       "reading": "きょうかい",
-      "meanings": ["boundary", "border", "dividing line"],
+      "meanings": [
+        "boundary",
+        "border",
+        "dividing line"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -1006,7 +1102,11 @@
     {
       "word": "隔たり",
       "reading": "へだたり",
-      "meanings": ["gap", "distance", "separation"],
+      "meanings": [
+        "gap",
+        "distance",
+        "separation"
+      ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
@@ -1022,7 +1122,10 @@
     {
       "word": "再会",
       "reading": "さいかい",
-      "meanings": ["reunion", "meeting again"],
+      "meanings": [
+        "reunion",
+        "meeting again"
+      ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
@@ -1038,7 +1141,10 @@
     {
       "word": "向かい合う",
       "reading": "むかいあう",
-      "meanings": ["to face each other", "to sit or stand opposite"],
+      "meanings": [
+        "to face each other",
+        "to sit or stand opposite"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -1054,7 +1160,9 @@
     {
       "word": "手首",
       "reading": "てくび",
-      "meanings": ["wrist"],
+      "meanings": [
+        "wrist"
+      ],
       "jlpt": "N2",
       "priority": "medium",
       "difficulty_vs_n3": "one_above",
@@ -1070,7 +1178,11 @@
     {
       "word": "ふっと",
       "reading": "ふっと",
-      "meanings": ["suddenly (and lightly)", "all at once", "with a puff"],
+      "meanings": [
+        "suddenly (and lightly)",
+        "all at once",
+        "with a puff"
+      ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
@@ -1082,54 +1194,6 @@
       "example_sentence": "ろうそくの火が、風もないのにふっと消えた。",
       "example_reading": "ろうそく の ひ が、 かぜ も ない のに ふっと きえた。",
       "example_meaning": "The candle flame suddenly went out, even though there was no wind."
-    },
-    {
-      "word": "途切れる",
-      "reading": "とぎれる",
-      "meanings": ["to be cut off", "to break off", "to be interrupted"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "止まる",
-      "category": "time_memory",
-      "scene": "The meeting breaks off as suddenly as it began.",
-      "context": "途 (way, path) + 切れる (be cut). 話が途切れる (conversation breaks off), 道が途切れる, 記憶が途切れる (a gap in memory). 途切れ途切れ = in fits and starts.",
-      "example_sentence": "電話の声が途切れ途切れになって、やがて聞こえなくなった。",
-      "example_reading": "でんわ の こえ が とぎれとぎれ に なって、 やがて きこえなく なった。",
-      "example_meaning": "The voice on the phone kept cutting out, and eventually I couldn't hear it at all."
-    },
-    {
-      "word": "呆然",
-      "reading": "ぼうぜん",
-      "meanings": ["dumbfounded", "stunned", "in a daze"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "ぼんやり",
-      "category": "feelings",
-      "scene": "Fits 三葉 left alone on the rim with the pen fallen, unable to take in what has just happened.",
-      "context": "呆 (dumbfounded) + 然 (state). 呆然とする, 呆然と立ち尽くす — a classic pair. Compare ぼうっとする (absent-minded): 呆然 is a daze caused by shock.",
-      "example_sentence": "家が燃えるのを、彼は呆然と見つめていた。",
-      "example_reading": "いえ が もえる の を、 かれ は ぼうぜん と みつめて いた。",
-      "example_meaning": "He stared, stunned, as the house burned."
-    },
-    {
-      "word": "立ち尽くす",
-      "reading": "たちつくす",
-      "meanings": ["to stand stock-still", "to stand frozen (in shock)"],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "動けずに立つ",
-      "category": "literary",
-      "scene": "Suits the chapter's last moment — someone left standing on the rim, unable to move.",
-      "context": "立つ + 尽くす (completely, to the end): to stay standing, unable to do anything else. Common in narration with 呆然と or その場に (on the spot). Compare 立ち止まる (to stop walking).",
-      "example_sentence": "突然の雨の中、彼女はその場に立ち尽くしていた。",
-      "example_reading": "とつぜん の あめ の なか、 かのじょ は その ば に たちつくして いた。",
-      "example_meaning": "In the sudden rain, she stood frozen on the spot."
     }
   ]
 }
