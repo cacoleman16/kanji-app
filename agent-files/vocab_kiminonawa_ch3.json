@@ -199,26 +199,6 @@
       "example_meaning": "My brother spends so recklessly that he's always broke at the end of the month."
     },
     {
-      "word": "贅沢",
-      "reading": "ぜいたく",
-      "meanings": [
-        "luxury",
-        "extravagance",
-        "treating oneself"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "お金をかけること",
-      "category": "tokyo_life",
-      "scene": "For 三葉, a country girl, a Tokyo café with fancy desserts is a wonderful luxury.",
-      "context": "贅沢な (adjective) or 贅沢する (verb). Can be positive (a treat) or critical (too extravagant). 贅沢を言う = to be choosy: 贅沢を言うな = don't be picky. Both kanji are hard, so learn the kana.",
-      "example_sentence": "たまには贅沢して、高いケーキを食べに行こう。",
-      "example_reading": "たまに は ぜいたく して、 たかい ケーキ を たべ に いこう。",
-      "example_meaning": "Let's treat ourselves once in a while and go eat some expensive cake."
-    },
-    {
       "word": "満喫",
       "reading": "まんきつ",
       "meanings": [
@@ -239,24 +219,24 @@
       "example_meaning": "Mitsuha enjoyed her day off in Tokyo to the fullest."
     },
     {
-      "word": "呆れる",
-      "reading": "あきれる",
+      "word": "愚痴",
+      "reading": "ぐち",
       "meanings": [
-        "to be exasperated",
-        "to be appalled",
-        "to be dumbfounded"
+        "grumbling",
+        "moaning",
+        "complaint (venting)"
       ],
-      "jlpt": "N2",
+      "jlpt": "N1",
       "priority": "high",
-      "difficulty_vs_n3": "one_above",
+      "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "hard",
-      "simpler_synonym": "（悪い意味で）びっくりする",
+      "simpler_synonym": "文句",
       "category": "feelings",
-      "scene": "Each reads the other's notes about the day and is exasperated at what was done in their body.",
-      "context": "Shaking your head in disbelief: 呆れた! = Unbelievable! 呆れて物も言えない = so appalled I'm speechless. Unlike neutral 驚く, 呆れる always carries a 'what were you thinking' edge. Often written in kana.",
-      "example_sentence": "部屋の散らかりように、母はすっかり呆れていた。",
-      "example_reading": "へや の ちらかりよう に、 はは は すっかり あきれて いた。",
-      "example_meaning": "My mother was completely exasperated at how messy the room was."
+      "scene": "Their phone notes fill up with grumbles about what the other did in their body.",
+      "context": "愚痴を言う / 愚痴をこぼす = to grumble, to moan (often about something you can't change). 文句 is a complaint aimed at getting something fixed; 愚痴 is venting. 愚 = foolish, 痴 = silly.",
+      "example_sentence": "仕事の愚痴を聞いてもらったら、少し気が楽になった。",
+      "example_reading": "しごと の ぐち を きいて もらったら、 すこし き が らく に なった。",
+      "example_meaning": "Having someone listen to me moan about work made me feel a little better."
     },
     {
       "word": "ムカつく",
@@ -299,24 +279,24 @@
       "example_meaning": "His behaviour today was completely different from usual."
     },
     {
-      "word": "がさつ",
-      "reading": "がさつ",
+      "word": "はしたない",
+      "reading": "はしたない",
       "meanings": [
-        "rough-mannered",
-        "crude",
-        "careless and loud"
+        "unladylike",
+        "improper",
+        "ill-mannered"
       ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "乱暴",
+      "simpler_synonym": "行儀が悪い",
       "category": "town_life",
-      "scene": "三葉 complains that 瀧 makes her look rough and unladylike in the way he sits and moves.",
-      "context": "A な-adjective for someone coarse who doesn't mind the details: slamming doors, sprawling, eating messily. Usually written in kana. Opposites: 上品 (じょうひん), しとやか.",
-      "example_sentence": "がさつに見えるけど、彼は意外と優しい。",
-      "example_reading": "がさつ に みえる けど、 かれ は いがい と やさしい。",
-      "example_meaning": "He looks rough, but he's surprisingly kind."
+      "scene": "三葉's complaint about 瀧: he sits and moves in her body in ways she finds unladylike.",
+      "context": "An い-adjective for behaviour that is vulgar or improper, traditionally used to scold girls: 足を広げて座るなんてはしたない. Somewhat old-fashioned in tone. Opposites: 上品 (じょうひん), しとやか. A close cousin is がさつ (rough, careless).",
+      "example_sentence": "口に食べ物を入れたまま話すなんて、はしたないと祖母によく叱られた。",
+      "example_reading": "くち に たべもの を いれた まま はなす なんて、 はしたない と そぼ に よく しかられた。",
+      "example_meaning": "My grandmother often scolded me that talking with food in my mouth was unladylike."
     },
     {
       "word": "嫌味",
@@ -415,6 +395,26 @@
       "example_sentence": "祖父はいつも口を大きく開けて豪快に笑う。",
       "example_reading": "そふ は いつも くち を おおきく あけて ごうかい に わらう。",
       "example_meaning": "My grandfather always laughs heartily with his mouth wide open."
+    },
+    {
+      "word": "男勝り",
+      "reading": "おとこまさり",
+      "meanings": [
+        "tomboyish",
+        "spirited (of a girl or woman)",
+        "bolder than a man"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "男の子みたいに強い",
+      "category": "town_life",
+      "scene": "On swap days, classmates see a suddenly bold, boyish 三葉 who outdoes the boys.",
+      "context": "男 + 勝る (まさる, to surpass): a girl or woman with more spirit and nerve than a man. Usually admiring or neutral: 男勝りな性格. Not the same as ボーイッシュ, which is about looks and clothes.",
+      "example_sentence": "姉は男勝りで、子どものころは近所の男の子たちを従えていた。",
+      "example_reading": "あね は おとこまさり で、 こども の ころ は きんじょ の おとこのこたち を したがえて いた。",
+      "example_meaning": "My sister was a tomboy, and as a kid she had the neighbourhood boys following her lead."
     },
     {
       "word": "黄色い声",
@@ -1005,24 +1005,23 @@
       "example_meaning": "Before a presentation, my whole body goes stiff with nerves."
     },
     {
-      "word": "ぎこちない",
-      "reading": "ぎこちない",
+      "word": "ぎくしゃく",
+      "reading": "ぎくしゃく",
       "meanings": [
-        "awkward",
-        "stiff",
-        "clumsy (of movement or talk)"
+        "awkward, strained (of talk or relations)",
+        "jerky, stiff (of movement)"
       ],
       "jlpt": "N1",
       "priority": "high",
       "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "不自然",
-      "category": "feelings",
-      "scene": "瀧's conversation with 奥寺 on the date is stiff and halting.",
-      "context": "An い-adjective for movements, smiles or talk that aren't smooth: ぎこちない笑顔, 会話がぎこちない, ぎこちなく歩く. ぎこちない is about the stiffness itself; 気まずい is about the uncomfortable atmosphere.",
-      "example_sentence": "ケンカのあと、二人の会話はどこかぎこちなかった。",
-      "example_reading": "ケンカ の あと、 ふたり の かいわ は どこか ぎこちなかった。",
-      "example_meaning": "After the fight, their conversation was somehow stiff."
+      "simpler_synonym": "うまくいかない",
+      "category": "onomatopoeia",
+      "scene": "瀧's conversation with 奥寺 on the date is stiff and halting and never finds its rhythm.",
+      "context": "Mimetic for jerky, unsmooth movement: ぎくしゃく歩く (walk stiffly, like a robot). Very common for relationships or conversations that have turned awkward: 二人の関係がぎくしゃくする. The adjective ぎこちない has a similar sense; 気まずい describes the uncomfortable atmosphere.",
+      "example_sentence": "けんかをしてから、彼とはずっとぎくしゃくしている。",
+      "example_reading": "けんか を して から、 かれ と は ずっと ぎくしゃく して いる。",
+      "example_meaning": "Ever since our fight, things have been strained between him and me."
     },
     {
       "word": "気まずい",
@@ -1182,23 +1181,24 @@
       "example_meaning": "With his glasses off, our teacher looked like a completely different person."
     },
     {
-      "word": "見透かす",
-      "reading": "みすかす",
+      "word": "察する",
+      "reading": "さっする",
       "meanings": [
-        "to see through (someone)",
-        "to read someone's mind"
+        "to sense",
+        "to guess (someone's feelings)",
+        "to read between the lines"
       ],
       "jlpt": "N1",
       "priority": "medium",
       "difficulty_vs_n3": "two_above",
       "kanji_difficulty": "medium",
-      "simpler_synonym": "分かってしまう",
+      "simpler_synonym": "気づく",
       "category": "feelings",
-      "scene": "奥寺 sees right through 瀧: his heart has gone to someone else.",
-      "context": "見 + 透かす (to make transparent): seeing straight through to someone's hidden thoughts. The passive 心を見透かされる (have your feelings seen through) is the most common form. Close: 見抜く (みぬく, to detect the truth).",
-      "example_sentence": "母には、私のうそなんてすぐに見透かされてしまう。",
-      "example_reading": "はは に は、 わたし の うそ なんて すぐ に みすかされて しまう。",
-      "example_meaning": "My mother sees through my lies right away."
+      "scene": "奥寺 picks up, without being told, that 瀧's heart lies with someone else.",
+      "context": "Reading feelings or a situation that nobody puts into words, a core Japanese social skill. 察しがいい = quick on the uptake; お察しします = I can imagine how you feel. Close: 見抜く (みぬく, see through a pretence), 気づく (notice).",
+      "example_sentence": "彼女は私の表情から、何かあったと察したようだった。",
+      "example_reading": "かのじょ は わたし の ひょうじょう から、 なにか あった と さっした よう だった。",
+      "example_meaning": "She seemed to sense from my expression that something had happened."
     },
     {
       "word": "片思い",
