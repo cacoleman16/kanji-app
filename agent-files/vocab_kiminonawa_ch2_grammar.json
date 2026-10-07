@@ -1,0 +1,422 @@
+{
+  "deck_id": "kiminonawa-ch2-grammar",
+  "deck_name": "君の名は。 Ch.2 端緒 — Grammar & Expressions",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第二章「端緒」",
+  "chapter": 2,
+  "chapter_title": "端緒",
+  "chapter_title_reading": "たんしょ",
+  "chapter_title_meaning": "The First Clue",
+  "learner_level": "N3",
+  "notes": "Grammar and expressions for Chapter 2: casual and rough male speech (すげえ, 〜ぞ／〜ぜ, 〜かよ, 〜ちゃう), first-person pronoun play, and the language of bewilderment and realisation (〜にしては, 身に覚えがない, まさか). Built from the chapter's scenes and the novel's style, not transcribed page by page, so a few items may turn up a chapter early or late. Example sentences are original, not quoted from the book. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 19,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "casual_speech",
+    "expression",
+    "grammar"
+  ],
+  "cards": [
+    {
+      "word": "〜にしては",
+      "reading": "にしては",
+      "meanings": [
+        "for a ~",
+        "considering it's ~"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のわりに",
+      "category": "grammar",
+      "scene": "瀧 keeps thinking that, for a dream, everything feels far too real.",
+      "context": "Form: N / V plain form + にしては. The result doesn't match what you'd expect from that premise: 夢にしてはリアル, 初めてにしては上手. Compare 〜わりに (similar, but can follow adjectives: 高いわりに) and 〜としては (from the standpoint of).",
+      "example_sentence": "初めて作ったにしては、このケーキはよくできている。",
+      "example_reading": "はじめて つくった に しては、 この ケーキ は よく できて いる。",
+      "example_meaning": "For a first attempt, this cake turned out really well.",
+      "pattern": "N / V plain form + にしては"
+    },
+    {
+      "word": "〜としか思えない",
+      "reading": "としかおもえない",
+      "meanings": [
+        "can only think that ~",
+        "it can't be anything but ~"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "きっと〜だと思う",
+      "category": "grammar",
+      "scene": "The strange room, the strange body — 瀧 concludes it can only be a dream.",
+      "context": "Form: plain form (N / な-adj may drop だ) + としか思えない. Lit. 'can't think anything other than ~' — strong conviction, often about something odd. Same frame: 〜としか言えない 'all I can say is ~'.",
+      "example_sentence": "こんなに偶然が重なるなんて、運命としか思えない。",
+      "example_reading": "こんな に ぐうぜん が かさなる なんて、 うんめい と しか おもえない。",
+      "example_meaning": "With so many coincidences piling up, it can only be fate.",
+      "pattern": "plain form + としか思えない"
+    },
+    {
+      "word": "狐につままれる",
+      "reading": "きつねにつままれる",
+      "meanings": [
+        "to be utterly bewildered",
+        "to feel bewitched (as if tricked by a fox)"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "わけがわからない",
+      "category": "expression",
+      "scene": "The morning after a swap, each hero feels as if they had been tricked by a fox.",
+      "context": "Form: 狐につままれる, usually 狐につままれたような顔 / 気分. In folklore foxes 'pinch' (つまむ) people and bewitch them, so the idiom means being baffled by something that makes no sense. Fits a story steeped in the supernatural.",
+      "example_sentence": "起きたら部屋がきれいに片付いていて、狐につままれたような気分だった。",
+      "example_reading": "おきたら へや が きれい に かたづいて いて、 きつね に つままれた よう な きぶん だった。",
+      "example_meaning": "I woke up to find my room neatly tidied, and felt completely bewildered.",
+      "pattern": "狐につままれた(ような) + 顔／気分"
+    },
+    {
+      "word": "〜っけ",
+      "reading": "っけ",
+      "meanings": [
+        "was it ~? (trying to remember)",
+        "did I ~ again?"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜でしょうか",
+      "category": "casual_speech",
+      "scene": "瀧 at 三葉's school — which desk was hers again? Which classroom?",
+      "context": "Form: plain form (often past: だった／したっけ) + っけ; polite 〜でしたっけ／〜ましたっけ. Asks yourself or someone to confirm something you half-remember. Very common in speech, never in formal writing.",
+      "example_sentence": "あれ、今日の集合時間は何時だったっけ？",
+      "example_reading": "あれ、 きょう の しゅうごう じかん は なんじ だった っけ？",
+      "example_meaning": "Huh, what time were we meeting today again?",
+      "pattern": "plain form (often past) + っけ"
+    },
+    {
+      "word": "〜ってば",
+      "reading": "ってば",
+      "meanings": [
+        "I said ~! (exasperated insistence)",
+        "honestly, (name)!"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜と言っているでしょう",
+      "category": "casual_speech",
+      "scene": "四葉 has to call her big sister more than once, and she's running out of patience.",
+      "context": "Form: sentence + ってば (insisting: もういいってば！ 'I said it's fine!') or name + ってば (exasperation: お姉ちゃんってば…). Contracted from といえば. Softer variant: 〜ったら (お姉ちゃんったら).",
+      "example_sentence": "だから、私じゃないってば！",
+      "example_reading": "だから、 わたし じゃ ない って ば！",
+      "example_meaning": "I told you, it wasn't me!",
+      "pattern": "sentence / name + ってば"
+    },
+    {
+      "word": "〜ちゃう・〜じゃう",
+      "reading": "ちゃう・じゃう",
+      "meanings": [
+        "end up ~ing (casual)",
+        "go and ~ / ~ completely"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜てしまう",
+      "category": "casual_speech",
+      "scene": "Both heroes do things in each other's bodies that can't be undone — and talk about them in casual speech.",
+      "context": "Form: 〜てしまう → 〜ちゃう, 〜でしまう → 〜じゃう (past 〜ちゃった／〜じゃった). Completion or regret: 寝坊しちゃった, 全部飲んじゃった. A rougher male version is 〜ちまう／〜ちまった. Same meaning as 〜てしまう, but casual speech only.",
+      "example_sentence": "楽しみにしていたプリン、弟に食べられちゃった。",
+      "example_reading": "たのしみ に して いた プリン、 おとうと に たべられちゃった。",
+      "example_meaning": "My little brother ate the pudding I'd been looking forward to.",
+      "pattern": "Vて → 〜ちゃう ／ Vで → 〜じゃう"
+    },
+    {
+      "word": "すげえ・やべえ (〜い → 〜えー)",
+      "reading": "すげえ・やべえ",
+      "meanings": [
+        "rough male sound change in い-adjectives",
+        "すごい → awesome!",
+        "やばい → crap! / amazing!"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "すごい",
+      "category": "casual_speech",
+      "scene": "Rough boy-speech that sounds natural from 瀧 and his friends — and very strange coming out of 三葉's mouth.",
+      "context": "Form: the last two vowel sounds of an い-adjective merge into a long え: すごい → すげえ, やばい → やべえ, うるさい → うるせえ, 痛い → いてえ, ない → ねえ (知らねえ). Rough, masculine, very casual. Also written with ー: すげー.",
+      "example_sentence": "うわ、この景色すげえ！",
+      "example_reading": "うわ、 この けしき すげえ！",
+      "example_meaning": "Whoa, this view is amazing!",
+      "pattern": "〜ない → 〜ねえ, 〜ごい → 〜げえ, 〜ばい → 〜べえ, 〜さい → 〜せえ"
+    },
+    {
+      "word": "わたし・僕・俺 (first-person pronouns)",
+      "reading": "わたし・ぼく・おれ",
+      "meanings": [
+        "words for 'I'",
+        "neutral / feminine vs. boyish vs. rough masculine 'I'"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "casual_speech",
+      "scene": "三葉, in 瀧's body, tries several words for 'I' before landing on 俺 — while 瀧 says 俺 with 三葉's voice.",
+      "context": "Form: chosen by speaker, setting and self-image. わたし = neutral; standard for women, and for men in formal settings. わたくし = very formal. あたし = casual feminine. 僕 = soft, polite boyish. 俺 = rough, masculine, among friends. A boy saying わたし casually to his friends sounds odd, so the wrong pronoun instantly marks someone as 'not themselves'.",
+      "example_sentence": "仕事では「わたし」と言うが、友達とは「俺」で話している。",
+      "example_reading": "しごと で は 「わたし」 と いう が、 ともだち と は 「おれ」 で はなして いる。",
+      "example_meaning": "At work I use the neutral word for 'I', but with friends I use the rough, masculine one.",
+      "pattern": "わたし／わたくし／あたし／僕／俺"
+    },
+    {
+      "word": "〜ぞ・〜ぜ",
+      "reading": "ぞ・ぜ",
+      "meanings": [
+        "(strong masculine ending) I'm telling you!",
+        "let's ~! (ぜ, buddy-style)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜よ",
+      "category": "casual_speech",
+      "scene": "Rough male endings like these are part of what makes 'Mitsuha' sound so unlike herself at school.",
+      "context": "Form: plain form + ぞ／ぜ (after nouns and な-adj: だぞ, だぜ). ぞ = forceful assertion or warning (行くぞ！ 'Let's go!', 危ないぞ 'Watch out'). ぜ = cool, matey emphasis (行こうぜ). Both sound masculine; a softer, neutral choice is よ.",
+      "example_sentence": "もう遅いぞ。早く帰ろうぜ。",
+      "example_reading": "もう おそい ぞ。 はやく かえろう ぜ。",
+      "example_meaning": "It's late, you know. Let's head home already.",
+      "pattern": "plain form + ぞ／ぜ"
+    },
+    {
+      "word": "〜じゃん",
+      "reading": "じゃん",
+      "meanings": [
+        "isn't it? / you know (casual)",
+        "see? / look!"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜じゃないか",
+      "category": "casual_speech",
+      "scene": "The breezy speech of 瀧's Tokyo friends, which 三葉 has to keep up with.",
+      "context": "Form: plain form (N / な-adj without だ) + じゃん. From じゃないか; originally Kanto-area slang. Points out the obvious or seeks agreement: いいじゃん！ 'That's great!', 言ったじゃん 'I told you!'. Used by both genders, but very casual.",
+      "example_sentence": "その服、すごく似合ってるじゃん。",
+      "example_reading": "その ふく、 すごく にあってる じゃん。",
+      "example_meaning": "Those clothes really suit you!",
+      "pattern": "plain form (N / な-adj without だ) + じゃん"
+    },
+    {
+      "word": "〜かよ",
+      "reading": "かよ",
+      "meanings": [
+        "(rough rhetorical question) seriously?",
+        "no way!",
+        "you've got to be kidding"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜の？",
+      "category": "casual_speech",
+      "scene": "Rough reactions of disbelief — the voice of a boy waking up in a world that makes no sense.",
+      "context": "Form: plain form (N / な-adj without だ) + かよ. Rhetorical か + emphatic よ: surprise, disbelief or irritation. マジかよ 'No way!', また〜かよ 'Not ~ again!'. Masculine and rough; the neutral version is just a rising tone (本当？).",
+      "example_sentence": "また雨かよ。せっかくの休みなのに。",
+      "example_reading": "また あめ かよ。 せっかく の やすみ な のに。",
+      "example_meaning": "Rain again? And on my day off, too.",
+      "pattern": "plain form + かよ"
+    },
+    {
+      "word": "〜っぽい",
+      "reading": "っぽい",
+      "meanings": [
+        "-ish",
+        "-like",
+        "seems to be ~ (casual)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜みたい",
+      "category": "casual_speech",
+      "scene": "'Taki' suddenly seems oddly girlish to his friends, and 'Mitsuha' boyish to hers.",
+      "context": "Form: N + っぽい (男っぽい 'boyish', 子供っぽい 'childish'); Vます-stem + っぽい (忘れっぽい 'forgetful'); plain sentence + っぽい (casual 'seems like': 雨が降るっぽい). Vague and casual — compare 〜らしい, which means 'typical of, as it should be' (男らしい 'manly', usually praise).",
+      "example_sentence": "今日の彼、なんだか女の子っぽいね。",
+      "example_reading": "きょう の かれ、 なんだか おんなのこ っぽい ね。",
+      "example_meaning": "He seems kind of girlish today, doesn't he?",
+      "pattern": "N / Vます-stem / plain form + っぽい"
+    },
+    {
+      "word": "見る見るうちに",
+      "reading": "みるみるうちに",
+      "meanings": [
+        "before one's very eyes",
+        "in no time",
+        "rapidly"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "すぐに",
+      "category": "expression",
+      "scene": "As 'Taki' works the needle, the tear in 奥寺先輩's skirt becomes something pretty before everyone's eyes.",
+      "context": "Form: 見る見る(うちに) + a verb of change (〜なる, 〜ていく). Describes a fast change you can actually watch happen: 見る見るうちに暗くなった. Often written みるみる. Compare あっという間に (in an instant, not necessarily watched).",
+      "example_sentence": "薬を飲んだら、熱が見る見るうちに下がった。",
+      "example_reading": "くすり を のんだら、 ねつ が みるみる うち に さがった。",
+      "example_meaning": "After I took the medicine, my fever went down rapidly.",
+      "pattern": "見る見る(うちに) + change verb"
+    },
+    {
+      "word": "〜のに (sentence-final)",
+      "reading": "のに",
+      "meanings": [
+        "but… (regret, complaint)",
+        "if only ~",
+        "even though ~ (left hanging)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜けど残念だ",
+      "category": "grammar",
+      "scene": "Back in their own bodies, each grumbles about what the other did with their day.",
+      "context": "Form: plain form (N / な-adj + な) + のに at the end of a sentence. The main clause is swallowed, leaving regret, complaint or disappointment: 言ってくれればよかったのに 'You should have told me', せっかく作ったのに 'And after I made it specially…'. Different from mid-sentence のに 'even though'.",
+      "example_sentence": "早く起きれば間に合ったのに。",
+      "example_reading": "はやく おきれば まにあった のに。",
+      "example_meaning": "If only I'd got up earlier, I would have made it.",
+      "pattern": "plain form + のに。(at sentence end)"
+    },
+    {
+      "word": "身に覚えがない",
+      "reading": "みにおぼえがない",
+      "meanings": [
+        "to have no recollection of doing it",
+        "to know nothing about it"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "覚えていない",
+      "category": "expression",
+      "scene": "Friends describe things 'they' did yesterday that neither hero remembers doing.",
+      "context": "Form: 身に覚えがない, or before a noun 身に覚えのない + N. Lit. 'no memory in one's own body' — something is pinned on you that you didn't do (or can't remember doing). Common in denials: 身に覚えのない罪 'a crime I didn't commit'.",
+      "example_sentence": "身に覚えのない請求書が届いて、驚いた。",
+      "example_reading": "み に おぼえ の ない せいきゅうしょ が とどいて、 おどろいた。",
+      "example_meaning": "I was shocked when a bill arrived for something I never bought.",
+      "pattern": "身に覚えがない ／ 身に覚えのない + N"
+    },
+    {
+      "word": "〜わけがない",
+      "reading": "わけがない",
+      "meanings": [
+        "there's no way ~",
+        "cannot possibly ~"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜はずがない",
+      "category": "grammar",
+      "scene": "Swapping bodies with a stranger in your sleep? That can't possibly be real — can it?",
+      "context": "Form: plain form (N + の／である, な-adj + な) + わけがない (casual: わけない). A flat denial based on reasoning. 〜はずがない is close but leans on expectation; 〜わけではない means 'it's not that ~' — don't mix them up.",
+      "example_sentence": "こんなに難しい問題、一日で解けるわけがない。",
+      "example_reading": "こんな に むずかしい もんだい、 いちにち で とける わけ が ない。",
+      "example_meaning": "There's no way I can solve a problem this hard in one day.",
+      "pattern": "plain form + わけがない"
+    },
+    {
+      "word": "辻褄が合う",
+      "reading": "つじつまがあう",
+      "meanings": [
+        "to add up",
+        "to be consistent",
+        "to make sense"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "話が合う",
+      "category": "expression",
+      "scene": "Friends' strange reports, odd notes, lost days — slowly the pieces begin to add up.",
+      "context": "Form: 辻褄が合う／合わない, 辻褄を合わせる (to make a story fit). 辻 (crossroads) + 褄 (the hem of a kimono): seams that line up. Usually about stories or explanations. Often written in kana: つじつま.",
+      "example_sentence": "彼の説明は、どうも辻褄が合わない。",
+      "example_reading": "かれ の せつめい は、 どうも つじつま が あわない。",
+      "example_meaning": "His explanation just doesn't add up.",
+      "pattern": "辻褄が合う ／ 合わない ／ 辻褄を合わせる"
+    },
+    {
+      "word": "まさか",
+      "reading": "まさか",
+      "meanings": [
+        "surely not",
+        "no way!",
+        "could it be…?"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "本当に？",
+      "category": "expression",
+      "scene": "The chapter's turning point — could it be that they really are swapping?",
+      "context": "Form: まさか + negative guess (まさか来ないだろう 'surely he won't come'), まさか〜とは思わなかった 'I never dreamed ~', or alone as an exclamation 'No way!'. Trailing off — まさか… — signals someone realising something unbelievable.",
+      "example_sentence": "まさか、あれが本当に夢じゃなかったなんて。",
+      "example_reading": "まさか、 あれ が ほんとう に ゆめ じゃ なかった なんて。",
+      "example_meaning": "No way — that really wasn't a dream?",
+      "pattern": "まさか + 〜ない／〜とは思わなかった／…"
+    },
+    {
+      "word": "気のせい",
+      "reading": "きのせい",
+      "meanings": [
+        "just one's imagination",
+        "it's nothing"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "思いちがい",
+      "category": "expression",
+      "scene": "At first each tries to brush off the strange signs as nothing more than imagination.",
+      "context": "Form: 気のせいだ 'it's just my imagination'; 気のせいか、〜 'maybe it's just me, but ~'. A way to dismiss a strange feeling — exactly what you tell yourself before admitting something impossible.",
+      "example_sentence": "気のせいか、今日はみんなが私を見ている気がする。",
+      "example_reading": "き の せい か、 きょう は みんな が わたし を みて いる き が する。",
+      "example_meaning": "Maybe it's just me, but I feel like everyone's looking at me today.",
+      "pattern": "気のせいだ ／ 気のせいか、〜"
+    }
+  ]
+}

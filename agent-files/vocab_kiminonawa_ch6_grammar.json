@@ -1,0 +1,324 @@
+{
+  "deck_id": "kiminonawa-ch6-grammar",
+  "deck_name": "君の名は。 Ch.6 再演 — Grammar & Expressions",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第六章「再演」",
+  "chapter": 6,
+  "chapter_title": "再演",
+  "chapter_title_reading": "さいえん",
+  "chapter_title_meaning": "Re-staging",
+  "learner_level": "N3",
+  "notes": "瀧 relives the festival day in 三葉's body: he enlists テッシー and サヤちん in a plan to cut the power, take over the emergency broadcast and evacuate the town, clashes with the mayor, and races up the mountain to meet 三葉 at twilight. This deck covers the patterns that carry that day — resolve (〜てみせる, 〜てたまるか, 〜からには), plan logic (〜さえ〜ば, 〜ないことには, 〜てでも), frustration with people who won't listen (〜っこない, 〜ざるを得ない), Itomori 〜んと, and a few set phrases. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 14,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "casual_speech",
+    "dialect",
+    "expression",
+    "grammar"
+  ],
+  "cards": [
+    {
+      "word": "〜はずだった (what was meant to happen)",
+      "reading": "はずだった",
+      "meanings": [
+        "was supposed to ~",
+        "should have ~ (but things changed)",
+        "was meant to ~"
+      ],
+      "pattern": "V(plain) / Aい / Nの + はずだった",
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜予定だった",
+      "category": "grammar",
+      "scene": "瀧 wakes inside a day that, in his timeline, already ended in disaster — 三葉 was supposed to be dead, and yet here she is, alive.",
+      "context": "Form: plain form + はずだった (Nの / なA-な + はずだった). はずだ alone is an expectation ('should be'). In the past it often marks an expectation or fate that did not come true or is being undone: 来るはずだった (was supposed to come, but didn't). Compare 〜予定だった (was scheduled), which is neutral and carries no sense of fate.",
+      "example_sentence": "その日、町の祭りは何事もなく終わるはずだった。",
+      "example_reading": "その ひ、 まち の まつり は なにごと も なく おわる はず だった。",
+      "example_meaning": "That day, the town festival was supposed to end without incident."
+    },
+    {
+      "word": "〜てみせる",
+      "reading": "てみせる",
+      "meanings": [
+        "I'll definitely ~ (just watch)",
+        "I'll show you I can ~"
+      ],
+      "pattern": "Vて + みせる",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "必ず〜する",
+      "category": "grammar",
+      "scene": "瀧's mood on festival morning: this time he will save the town, and prove it can be done.",
+      "context": "Form: Vて-form + みせる. Besides 'show by doing' (やってみせる = demonstrate), it declares determination to achieve something, as if in front of others or fate: 絶対に合格してみせる. Compare 〜てみる (try ~), which has no such resolve.",
+      "example_sentence": "次の大会では、必ず優勝してみせる。",
+      "example_reading": "つぎ の たいかい で は、 かならず ゆうしょう して みせる。",
+      "example_meaning": "At the next tournament I'll win — just watch."
+    },
+    {
+      "word": "〜てたまるか",
+      "reading": "てたまるか",
+      "meanings": [
+        "no way I'll let ~",
+        "I won't let ~ happen",
+        "like hell I'll ~"
+      ],
+      "pattern": "Vて + たまるか (often causative: 〜させてたまるか)",
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "絶対に〜しない",
+      "category": "grammar",
+      "scene": "Sums up 瀧's resolve for the day: he will not let the town, or 三葉, die a second time.",
+      "context": "Form: Vて-form + たまるか — a rhetorical question that works as a fierce refusal. Spoken and emphatic, usually male: 負けてたまるか (I'm not going to lose), 死なせてたまるか (I won't let you die). Softer equivalent: 〜ものか / 〜もんか.",
+      "example_sentence": "ここまで来て、あきらめてたまるか。",
+      "example_reading": "ここ まで きて、 あきらめて たまる か。",
+      "example_meaning": "After coming this far, there's no way I'm giving up."
+    },
+    {
+      "word": "〜さえ〜ば",
+      "reading": "さえ〜ば",
+      "meanings": [
+        "if only ~",
+        "as long as ~",
+        "all it takes is ~"
+      ],
+      "pattern": "N + さえ + conditional / Vます-stem + さえ + すれば",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜だけ〜ば",
+      "category": "grammar",
+      "scene": "The logic of 瀧's plan — as long as the town reaches the high school grounds in time, everyone lives.",
+      "context": "Form: N + さえ + conditional (時間さえあれば), or Vます-stem + さえすれば (逃げさえすれば). Says one condition is enough for the result. Compare plainer 〜だけ〜ば; and さえ alone in a negative sentence means 'not even' (水さえない).",
+      "example_sentence": "みんなが校庭に避難しさえすれば、誰も死なずにすむ。",
+      "example_reading": "みんな が こうてい に ひなん し さえ すれば、 だれ も しなず に すむ。",
+      "example_meaning": "As long as everyone evacuates to the schoolyard, nobody has to die."
+    },
+    {
+      "word": "〜からには",
+      "reading": "からには",
+      "meanings": [
+        "now that ~",
+        "since ~ (then surely)",
+        "once ~"
+      ],
+      "pattern": "V(plain) / Nである + からには",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のだから",
+      "category": "grammar",
+      "scene": "Fits the friends once they are in: if they are going to do something this crazy, they had better do it properly.",
+      "context": "Form: plain form + からには (Nである + からには). States a fact and draws a strong conclusion — a duty, a resolve, something that must follow: 引き受けたからには最後までやる. Close to 〜以上(は) (いじょうは); both are much firmer than a simple から.",
+      "example_sentence": "やると決めたからには、最後までやり通すつもりだ。",
+      "example_reading": "やる と きめた から に は、 さいご まで やりとおす つもり だ。",
+      "example_meaning": "Now that I've decided to do it, I intend to see it through to the end."
+    },
+    {
+      "word": "〜てでも",
+      "reading": "てでも",
+      "meanings": [
+        "even if it means ~",
+        "even by ~ing",
+        "at any cost"
+      ],
+      "pattern": "Vて + でも",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どんなことをしても",
+      "category": "grammar",
+      "scene": "The plan breaks real rules — explosives, a hijacked broadcast — because people must be got out even if it takes something drastic.",
+      "context": "Form: Vて-form + でも. Names a drastic means you are willing to use for a goal: 借金してでも, 無理やりにでも, どんな手を使ってでも. Stronger than 〜ても (even if): 〜てでも always has a wanted result behind it.",
+      "example_sentence": "どんな手を使ってでも、町の人たちを逃がさなければならない。",
+      "example_reading": "どんな て を つかって でも、 まち の ひとたち を にがさなければ ならない。",
+      "example_meaning": "Whatever it takes, we have to get the townspeople away."
+    },
+    {
+      "word": "〜ないことには",
+      "reading": "ないことには",
+      "meanings": [
+        "unless ~",
+        "without ~ first (nothing will happen)"
+      ],
+      "pattern": "Vない + ことには + (negative result)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜なければ",
+      "category": "grammar",
+      "scene": "瀧's reasoning at the town office: unless the mayor gives the order, the town as a whole will not move.",
+      "context": "Form: Vない-form + ことには, followed by a negative outcome (〜ない, 〜できない, 始まらない). Stresses an essential precondition: 会ってみないことには分からない. Stiffer and more emphatic than 〜なければ.",
+      "example_sentence": "町長が避難指示を出さないことには、町の人は動かないだろう。",
+      "example_reading": "ちょうちょう が ひなんしじ を ださない こと に は、 まち の ひと は うごかない だろう。",
+      "example_meaning": "Unless the mayor issues an evacuation order, the townspeople probably won't move."
+    },
+    {
+      "word": "〜っこない",
+      "reading": "っこない",
+      "meanings": [
+        "there's no way ~",
+        "can't possibly ~"
+      ],
+      "pattern": "Vます-stem + っこない",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜わけがない",
+      "category": "casual_speech",
+      "scene": "What 瀧 fears, and then finds out: nobody in authority is going to believe a story about a falling comet.",
+      "context": "Form: Vます-stem + っこない, often with a potential verb (分かりっこない, 信じてもらえっこない). Casual and spoken; same meaning as 〜わけがない / 〜はずがない, but with a frustrated, slightly childish ring.",
+      "example_sentence": "こんな話、大人に言ったって信じてもらえっこないよ。",
+      "example_reading": "こんな はなし、 おとな に いったって しんじて もらえっこない よ。",
+      "example_meaning": "There's no way adults would believe a story like this, even if we told them."
+    },
+    {
+      "word": "〜ざるを得ない",
+      "reading": "ざるをえない",
+      "meanings": [
+        "have no choice but to ~",
+        "cannot help but ~"
+      ],
+      "pattern": "Vない-stem + ざるを得ない (する → せざるを得ない)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "〜しかない",
+      "category": "grammar",
+      "scene": "After the clash with the mayor, 瀧 has to admit that only the real 三葉 can convince him.",
+      "context": "Form: Vない-stem + ざる + を得ない; する becomes せざる. Written and formal: circumstances force you, often against your wishes — 認めざるを得ない (have to admit). The everyday equivalent 〜しかない is plainer and far more common in speech.",
+      "example_sentence": "ここまで証拠がそろえば、彼の話を信じざるを得ない。",
+      "example_reading": "ここ まで しょうこ が そろえば、 かれ の はなし を しんじざる を えない。",
+      "example_meaning": "With this much evidence, I have no choice but to believe his story."
+    },
+    {
+      "word": "〜んと (= 〜ないと)",
+      "reading": "んと",
+      "meanings": [
+        "have to ~ (Itomori dialect)",
+        "if (we) don't ~"
+      ],
+      "pattern": "Vない-stem + んと (行かんと, 逃げんと, せんと)",
+      "jlpt": "",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ないと",
+      "category": "dialect",
+      "scene": "Natural in the friends' Itomori speech as the urgency of the plan sinks in — they have to move, and fast.",
+      "context": "Form: Vない-stem + ん (the Itomori / western negative from Chapter 1) + と. Like standard 〜ないと, it can end a sentence meaning 'must': 早よ逃げんと！ Note 早よ (はよ) = 早く. 瀧 talks Tokyo-style, so he would say 〜なきゃ or 〜ないと instead.",
+      "example_sentence": "早よ準備せんと、間に合わんよ。",
+      "example_reading": "はよ じゅんび せんと、 まにあわん よ。",
+      "example_meaning": "If we don't get ready quickly, we won't make it."
+    },
+    {
+      "word": "手を貸す",
+      "reading": "てをかす",
+      "meanings": [
+        "to lend a hand",
+        "to help out"
+      ],
+      "pattern": "N に + 手を貸す / 手を貸してくれ",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "手伝う",
+      "category": "expression",
+      "scene": "What 瀧 asks of テッシー and サヤちん at school — he cannot save the town alone.",
+      "context": "Form: Nに + 手を貸す; requests are 手を貸してくれ (blunt, male) or 手を貸してもらえる？ The flip side is 手を借りる (borrow someone's help) — 猫の手も借りたい = so busy you'd take help from a cat.",
+      "example_sentence": "一人じゃ無理なんだ。頼む、手を貸してくれ。",
+      "example_reading": "ひとり じゃ むり なんだ。 たのむ、 て を かして くれ。",
+      "example_meaning": "I can't do it alone. Please, lend me a hand."
+    },
+    {
+      "word": "一か八か",
+      "reading": "いちかばちか",
+      "meanings": [
+        "all or nothing",
+        "sink or swim",
+        "take a gamble"
+      ],
+      "pattern": "一か八か + (やってみる / 賭ける) / 一か八かの + N",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "思いきって",
+      "category": "expression",
+      "scene": "Fits a plan built on explosives and a hijacked broadcast — one shot, no rehearsal, everything riding on it.",
+      "context": "Form: used adverbially (一か八かやってみる) or before の (一か八かの勝負). From gambling slang; the reading ばち for 八 is irregular. Neutral or admiring about the boldness; compare 無謀 (むぼう, reckless), which is critical.",
+      "example_sentence": "残り時間はわずかだったが、一か八かやってみることにした。",
+      "example_reading": "のこり じかん は わずか だった が、 いちかばちか やって みる こと に した。",
+      "example_meaning": "There was hardly any time left, but I decided to take the gamble."
+    },
+    {
+      "word": "腹をくくる",
+      "reading": "はらをくくる",
+      "meanings": [
+        "to steel oneself",
+        "to make up one's mind (and accept the risk)",
+        "to commit"
+      ],
+      "pattern": "腹をくくる / 腹をくくって + V",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "覚悟を決める",
+      "category": "expression",
+      "scene": "Fits the moment the friends commit to the plan in spite of the risks, and 瀧 walking in to face the mayor.",
+      "context": "Form: 腹をくくる, or 腹をくくって + verb. Literally 'tie up the belly' — 腹 is the seat of resolve in Japanese idiom (腹を決める, 腹が決まる). The kanji 括る is usually left in kana. Close to 覚悟を決める; it implies accepting whatever happens.",
+      "example_sentence": "もう逃げられないと腹をくくって、彼は父親の部屋のドアをたたいた。",
+      "example_reading": "もう にげられない と はら を くくって、 かれ は ちちおや の へや の ドア を たたいた。",
+      "example_meaning": "Steeling himself — there was no running away now — he knocked on his father's door."
+    },
+    {
+      "word": "一刻を争う",
+      "reading": "いっこくをあらそう",
+      "meanings": [
+        "every moment counts",
+        "urgent",
+        "a race against time"
+      ],
+      "pattern": "一刻を争う / 一刻を争う + N (事態, 状況)",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "とても急ぐ",
+      "category": "expression",
+      "scene": "The whole chapter is a race against the clock: by nightfall the fragment will fall.",
+      "context": "Form: used as a predicate (一刻を争う) or before a noun (一刻を争う事態 = an emergency where every second counts). 一刻 = a moment (originally a unit of time) + 争う (compete). Related: 一刻も早く (as soon as possible), 刻一刻と (moment by moment).",
+      "example_sentence": "けが人の命にかかわるので、一刻を争う。",
+      "example_reading": "けがにん の いのち に かかわる ので、 いっこく を あらそう。",
+      "example_meaning": "A person's life is at stake, so every moment counts."
+    }
+  ]
+}

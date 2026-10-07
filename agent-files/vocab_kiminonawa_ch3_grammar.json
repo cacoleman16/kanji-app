@@ -1,0 +1,361 @@
+{
+  "deck_id": "kiminonawa-ch3-grammar",
+  "deck_name": "君の名は。 Ch.3 日々 — Grammar & Expressions",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第三章「日々」",
+  "chapter": 3,
+  "chapter_title": "日々",
+  "chapter_title_reading": "ひび",
+  "chapter_title_meaning": "Days",
+  "learner_level": "N3",
+  "notes": "The body swaps between 瀧 and 三葉 become routine, with rules, complaints, a pilgrimage to the ご神体 where grandma explains ムスビ, and an awkward date that ends with a call that won't connect. This deck covers the grammar of rules and decisions (〜ことにする, sentence-final 〜こと), complaining (〜くせに, 〜てばかり, 〜どころか), grandma's speech (〜と引き換えに, dialect 〜なあかん), and the frustrations of the date and its aftermath (〜ものの, 〜かのように, 〜ずにはいられない). The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
+  "card_count": 16,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "dialect",
+    "expression",
+    "grammar",
+    "literary_style"
+  ],
+  "cards": [
+    {
+      "word": "〜ては〜 (repeated action)",
+      "reading": "ては",
+      "meanings": [
+        "do ~ over and over",
+        "~ and then ~, again and again"
+      ],
+      "pattern": "Vて + は + V2 (often doubled: Vては V2、Vては V2)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "何度も〜",
+      "category": "literary_style",
+      "scene": "Fits the rhythm of the chapter: swap, return, swap again — days that repeat in a cycle.",
+      "context": "Form: Vて + は + V2, often repeated as a pair (書いては消し、書いては消し). It describes an action cycle repeating over time, and the doubled form is a favourite of written narration. Not to be confused with the conditional 〜ては of 〜てはいけない.",
+      "example_sentence": "メッセージを書いては消し、書いては消して、結局何も送れなかった。",
+      "example_reading": "メッセージ を かいて は けし、 かいて は けして、 けっきょく なにも おくれなかった。",
+      "example_meaning": "I kept writing a message and deleting it, over and over, and in the end couldn't send anything."
+    },
+    {
+      "word": "〜ことにする / 〜ことになっている",
+      "reading": "ことにする / ことになっている",
+      "meanings": [
+        "decide to ~ (by choice)",
+        "it's the rule that ~",
+        "it's been arranged that ~"
+      ],
+      "pattern": "V辞書形 / Vない + ことにする; V辞書形 / Vない + ことになっている",
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜と決める / 〜というルールだ",
+      "category": "grammar",
+      "scene": "Once the swaps become regular, 瀧 and 三葉 settle on ground rules for living each other's lives.",
+      "context": "Form: V-dict / V-nai + ことにする (a decision you make; ことにしている = a habit you keep) vs + ことになる / ことになっている (decided by others or by circumstance, so it's now the rule). The contrast matters: メモを残すことにした = we chose to; メモを残すことになっている = that's the rule now.",
+      "example_sentence": "うちでは、夕飯はみんなで食べることになっている。",
+      "example_reading": "うち で は、 ゆうはん は みんな で たべる こと に なって いる。",
+      "example_meaning": "In our family, the rule is that we all eat dinner together."
+    },
+    {
+      "word": "〜こと / 〜ないこと (written rules)",
+      "reading": "こと / ないこと",
+      "meanings": [
+        "Be sure to ~ (written instruction)",
+        "Do not ~ (written rule)"
+      ],
+      "pattern": "V辞書形 + こと。 / Vない + こと。 (sentence-final)",
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜てください / 〜てはいけない",
+      "category": "grammar",
+      "scene": "The rules they type into each other's phones read like a school notice of musts and must-nots.",
+      "context": "Form: V-dict + こと。 (do ~) / V-nai + こと。 (don't ~) at the very end of a sentence. This is the impersonal style of signs, school rules and instructions — firmer and colder than 〜てください, more official than 〜ないで. Used between two teenagers, it sounds bossy and comic.",
+      "example_sentence": "廊下では走らないこと。宿題は金曜日までに出すこと。",
+      "example_reading": "ろうか で は はしらない こと。 しゅくだい は きんようび まで に だす こと。",
+      "example_meaning": "No running in the hallways. Hand in homework by Friday."
+    },
+    {
+      "word": "〜てばかり(いる)",
+      "reading": "てばかり",
+      "meanings": [
+        "do nothing but ~",
+        "keep ~ing (critical)"
+      ],
+      "pattern": "Vて + ばかり(いる); N + ばかり",
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いつも〜",
+      "category": "grammar",
+      "scene": "Fits the complaints in their notes: one is always spending, the other always picking fights.",
+      "context": "Form: Vて + ばかりいる, or N + ばかり. Someone keeps doing just one thing, almost always with criticism: 遊んでばかりいないで勉強しなさい. Different from Vた + ばかり (= have only just done).",
+      "example_sentence": "弟はゲームをしてばかりで、全然勉強しない。",
+      "example_reading": "おとうと は ゲーム を して ばかり で、 ぜんぜん べんきょう しない。",
+      "example_meaning": "My little brother does nothing but play games and never studies."
+    },
+    {
+      "word": "〜どころか",
+      "reading": "どころか",
+      "meanings": [
+        "far from ~",
+        "let alone ~",
+        "on the contrary"
+      ],
+      "pattern": "普通形 / N + どころか (なA without な)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜ではなく、反対に",
+      "category": "grammar",
+      "scene": "Fits 瀧's complaint: far from saving his money, 三葉 spends it on treats.",
+      "context": "Form: plain form / N (な-adjective without な) + どころか. It strongly denies the first idea and gives the opposite or something more extreme: 貯金するどころか借金した. Related: 〜どころではない = in no position to ~.",
+      "example_sentence": "節約するどころか、先月より三万円も多く使ってしまった。",
+      "example_reading": "せつやく する どころ か、 せんげつ より さんまんえん も おおく つかって しまった。",
+      "example_meaning": "Far from saving money, I spent 30,000 yen more than last month."
+    },
+    {
+      "word": "〜くせに",
+      "reading": "くせに",
+      "meanings": [
+        "even though ~ (resentful)",
+        "despite being ~"
+      ],
+      "pattern": "普通形 / Nの / なAな + くせに",
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜のに",
+      "category": "grammar",
+      "scene": "Fits the accusations in their notes, each blaming the other for acting out of character.",
+      "context": "Form: plain form / Nの / なAな + くせに. Like 〜のに, but with contempt or reproach toward a person: 男のくせに, 知らないくせに (you don't even know, and yet...). Used about other people (or yourself, mockingly), never neutrally.",
+      "example_sentence": "自分は遅刻するくせに、人には厳しいんだから。",
+      "example_reading": "じぶん は ちこく する くせ に、 ひと に は きびしい ん だ から。",
+      "example_meaning": "He's always late himself, yet he's strict with everyone else."
+    },
+    {
+      "word": "〜もかまわず",
+      "reading": "もかまわず",
+      "meanings": [
+        "without caring about ~",
+        "regardless of ~",
+        "heedless of ~"
+      ],
+      "pattern": "N + もかまわず; V普通形 + の + もかまわず",
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜を気にしないで",
+      "category": "grammar",
+      "scene": "In P.E., 瀧 throws himself into basketball without a thought for the stares or how a girl is 'supposed' to move.",
+      "context": "Form: N + もかまわず (人目もかまわず, 雨もかまわず) or V-plain + の + もかまわず. From かまう (to mind) + the literary negative ず: doing something regardless of what would normally hold you back. The plain equivalent is 〜を気にせず.",
+      "example_sentence": "彼女は人目もかまわず、大声で泣き出した。",
+      "example_reading": "かのじょ は ひとめ も かまわず、 おおごえ で なきだした。",
+      "example_meaning": "She burst into loud tears without caring who saw."
+    },
+    {
+      "word": "〜わけにはいかない",
+      "reading": "わけにはいかない",
+      "meanings": [
+        "can't very well ~",
+        "it wouldn't do to ~"
+      ],
+      "pattern": "V辞書形 + わけにはいかない; Vない + わけにはいかない (= must)",
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜できない",
+      "category": "grammar",
+      "scene": "Fits the dilemmas of living someone else's life: 瀧 can't just let the mockery pass, and 三葉's shrine duties can't be skipped.",
+      "context": "Form: V-dict + わけにはいかない = can't do it for social, moral or practical reasons (not physical inability). V-nai + わけにはいかない = can't not do it, i.e. have to. Plain 〜できない just states inability.",
+      "example_sentence": "約束した以上、今さら断るわけにはいかない。",
+      "example_reading": "やくそく した いじょう、 いまさら ことわる わけ に は いかない。",
+      "example_meaning": "Since I promised, I can't very well say no now."
+    },
+    {
+      "word": "調子に乗る",
+      "reading": "ちょうしにのる",
+      "meanings": [
+        "to get carried away",
+        "to get cocky",
+        "to push one's luck"
+      ],
+      "pattern": "調子に乗る / 調子に乗るな",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いい気になる",
+      "category": "expression",
+      "scene": "Fits the warnings they fire at each other when the other enjoys their new life a little too much.",
+      "context": "Form: 調子に乗る, a fixed expression (調子 = rhythm, condition). Literally riding the rhythm, i.e. getting overconfident after things go well. 調子に乗るな! = Don't get cocky! Compare 調子がいい (in good form, or glib).",
+      "example_sentence": "少し褒められたからって、調子に乗るなよ。",
+      "example_reading": "すこし ほめられた から って、 ちょうし に のる な よ。",
+      "example_meaning": "Don't get cocky just because you got a little praise."
+    },
+    {
+      "word": "余計なお世話",
+      "reading": "よけいなおせわ",
+      "meanings": [
+        "none of your business",
+        "mind your own business",
+        "unwanted help"
+      ],
+      "pattern": "余計なお世話(だ)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "関係ない",
+      "category": "expression",
+      "scene": "Fits the friction when each meddles in the other's life, from picking fights to setting up dates.",
+      "context": "Form: 余計な (unnecessary) + お世話 (care, help), a fixed phrase usually used as a sharp retort: 余計なお世話だ! The milder relative is 余計なことしないで (don't do anything uncalled-for). Compare お世話になります, polite thanks for real help.",
+      "example_sentence": "「早く彼女を作れば?」「余計なお世話だよ。」",
+      "example_reading": "「はやく かのじょ を つくれば？」 「よけい な おせわ だ よ。」",
+      "example_meaning": "'Why don't you hurry up and get a girlfriend?' 'Mind your own business.'"
+    },
+    {
+      "word": "〜なあかん / 〜せなあかん",
+      "reading": "なあかん",
+      "meanings": [
+        "must ~",
+        "have to ~ (western dialect)"
+      ],
+      "pattern": "Vない-stem + なあかん (する → せなあかん)",
+      "jlpt": "",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜なければならない",
+      "category": "dialect",
+      "scene": "Grandma's speech at the stream — what you must give up to come back from the other world.",
+      "context": "Form: V-nai stem + なあかん, i.e. 〜なければいけない built on あかん (no good), as in western Japan: 行かなあかん, 食べなあかん, irregular せなあかん. Itomori's older speakers use this pattern; the Tokyo equivalent is 〜なきゃ.",
+      "example_sentence": "明日は朝が早いし、もう寝なあかん。",
+      "example_reading": "あした は あさ が はやい し、 もう ねなあかん。",
+      "example_meaning": "I have to get up early tomorrow, so I'd better go to bed now."
+    },
+    {
+      "word": "〜と引き換えに",
+      "reading": "とひきかえに",
+      "meanings": [
+        "in exchange for ~",
+        "at the cost of ~"
+      ],
+      "pattern": "N + と引き換えに; 〜を引き換えにする",
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "〜の代わりに",
+      "category": "grammar",
+      "scene": "Grandma explains that coming back from 隠り世 is only possible in exchange for something precious — the 口噛み酒.",
+      "context": "Form: N + と引き換えに, or 〜を引き換えにする. 引き換える = to exchange; the phrase stresses giving up something valuable to get something else: 命と引き換えに (at the cost of one's life). 引換券 (ひきかえけん) is a claim ticket. Stronger than 〜の代わりに.",
+      "example_sentence": "彼は自由と引き換えに、大金を手に入れた。",
+      "example_reading": "かれ は じゆう と ひきかえ に、 たいきん を て に いれた。",
+      "example_meaning": "He gained a fortune at the cost of his freedom."
+    },
+    {
+      "word": "〜ものの",
+      "reading": "ものの",
+      "meanings": [
+        "although ~",
+        "even though ~ (things didn't go as hoped)"
+      ],
+      "pattern": "普通形 + ものの (N / なA: である + ものの)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜けれども",
+      "category": "grammar",
+      "scene": "瀧 finally has the date he wanted — and yet he can't make it go well.",
+      "context": "Form: plain form + ものの (N / な-adjective: である + ものの). A written-style 'although': the first part is true, but the expected result doesn't follow. Very common as 〜たものの: 買ったものの、一度も使っていない. More formal than けど.",
+      "example_sentence": "デートの約束はしたものの、何を着ていけばいいか分からない。",
+      "example_reading": "デート の やくそく は した もの の、 なに を きて いけば いい か わからない。",
+      "example_meaning": "I made the date, but I have no idea what to wear."
+    },
+    {
+      "word": "〜ような気がする",
+      "reading": "ようなきがする",
+      "meanings": [
+        "have a feeling that ~",
+        "it seems to me that ~"
+      ],
+      "pattern": "普通形 / Nの + ような気がする",
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜と思う",
+      "category": "grammar",
+      "scene": "At the photo exhibition, a lake-town landscape gives 瀧 the vague feeling it means something to him.",
+      "context": "Form: plain form / Nの + ような気がする (or just 〜気がする). Softer and vaguer than 〜と思う: an intuition you can't justify. In this story it marks half-memories, such as どこかで会ったような気がする.",
+      "example_sentence": "誰かに名前を呼ばれたような気がして、目が覚めた。",
+      "example_reading": "だれか に なまえ を よばれた よう な き が して、 め が さめた。",
+      "example_meaning": "I woke up feeling as if someone had called my name."
+    },
+    {
+      "word": "〜かのように",
+      "reading": "かのように",
+      "meanings": [
+        "as if ~",
+        "as though ~ (when it isn't so)"
+      ],
+      "pattern": "普通形 + かのように (N / なA: である + かのように)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜みたいに",
+      "category": "grammar",
+      "scene": "Fits the end of the chapter, when the swaps stop as if nothing had ever happened.",
+      "context": "Form: plain form (N / な-adjective usually + である) + かのように. Compares with something that is not actually true: まるで何もなかったかのように. More literary than 〜みたいに or 〜ように; the か adds 'as if (though it isn't)'.",
+      "example_sentence": "彼はまるで何も知らないかのように、平気な顔をしていた。",
+      "example_reading": "かれ は まるで なにも しらない か の よう に、 へいき な かお を して いた。",
+      "example_meaning": "He kept a calm face, as if he knew nothing at all."
+    },
+    {
+      "word": "〜ずにはいられない",
+      "reading": "ずにはいられない",
+      "meanings": [
+        "can't help ~ing",
+        "can't stop oneself from ~"
+      ],
+      "pattern": "Vない-stem + ずにはいられない (する → せずにはいられない)",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "どうしても〜してしまう",
+      "category": "grammar",
+      "scene": "Fits 瀧 that night, unable to stop himself from calling 三葉.",
+      "context": "Form: V-nai stem + ずにはいられない (irregular: せずには). An urge you can't hold back: 笑わずにはいられない. The written counterpart of 〜ないではいられない; stronger and more emotional than 〜てしまう.",
+      "example_sentence": "その話を聞いて、泣かずにはいられなかった。",
+      "example_reading": "その はなし を きいて、 なかず に は いられなかった。",
+      "example_meaning": "When I heard that story, I couldn't help crying."
+    }
+  ]
+}
