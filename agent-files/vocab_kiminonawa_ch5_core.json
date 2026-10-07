@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Memory",
   "learner_level": "N3",
   "notes": "Everyday words for Chapter 5 — mostly N4–N3, plus a few common N2 words and set phrases. The list is built from the chapter's scenes (the rainy climb and the fall, the vision of 三葉's family life, her trip to Tokyo, the haircut and the comet on festival night), not copied page by page; study it before the main Vocabulary deck. Example sentences are original.",
-  "card_count": 59,
+  "card_count": 55,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -76,25 +76,6 @@
       "example_meaning": "I stayed behind, all alone, in the empty classroom."
     },
     {
-      "word": "頂上",
-      "reading": "ちょうじょう",
-      "meanings": [
-        "summit",
-        "top (of a mountain)"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "山の上",
-      "category": "nature_sky",
-      "scene": "瀧 pushes on to the top of the mountain, where the ご神体 lies.",
-      "context": "頂 (peak) + 上 (top). 頂上に着く = to reach the summit. 山頂 (さんちょう) means the same in written style.",
-      "example_sentence": "二時間歩いて、やっと頂上に着いた。",
-      "example_reading": "にじかん あるいて、 やっと ちょうじょう に ついた。",
-      "example_meaning": "After walking for two hours, we finally reached the summit."
-    },
-    {
       "word": "濡れる",
       "reading": "ぬれる",
       "meanings": [
@@ -151,25 +132,6 @@
       "example_sentence": "雪の日は道が滑るから、気をつけてね。",
       "example_reading": "ゆき の ひ は みち が すべる から、 き を つけて ね。",
       "example_meaning": "The roads are slippery on snowy days, so be careful."
-    },
-    {
-      "word": "岩",
-      "reading": "いわ",
-      "meanings": [
-        "rock",
-        "boulder"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "nature_sky",
-      "scene": "The hollow under the great tree is walled with rock — and something is drawn on it.",
-      "context": "岩 = a big rock; 石 (いし) = a stone you can pick up. 岩場 = rocky ground; 岩肌 = the bare surface of a rock. Kanji hint: 山 over 石.",
-      "example_sentence": "海の近くに、大きな岩がいくつも並んでいる。",
-      "example_reading": "うみ の ちかく に、 おおきな いわ が いくつ も ならんで いる。",
-      "example_meaning": "Near the sea, a number of huge rocks stand in a row."
     },
     {
       "word": "蓋",
@@ -271,6 +233,25 @@
       "example_meaning": "After standing for a long time in the heat, I nearly fainted."
     },
     {
+      "word": "思い出",
+      "reading": "おもいで",
+      "meanings": [
+        "memory",
+        "recollection (of something you lived through)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "time_memory",
+      "scene": "The vision is made of 三葉's memories — fitting for a chapter called 記憶.",
+      "context": "思い出 = a memory of something you lived through, often warm: 楽しい思い出, 思い出に残る. 記憶 = memory as a faculty, or what is stored: 記憶力, 記憶がない. 思い出す = to recall.",
+      "example_sentence": "この写真には、夏休みの思い出がたくさんつまっている。",
+      "example_reading": "この しゃしん に は、 なつやすみ の おもいで が たくさん つまって いる。",
+      "example_meaning": "This photo is full of memories of the summer holidays."
+    },
+    {
       "word": "流れる",
       "reading": "ながれる",
       "meanings": [
@@ -289,26 +270,6 @@
       "example_sentence": "あの頃から、もう十年の月日が流れた。",
       "example_reading": "あの ころ から、 もう じゅうねん の つきひ が ながれた。",
       "example_meaning": "Ten years have already passed since those days."
-    },
-    {
-      "word": "浮かぶ",
-      "reading": "うかぶ",
-      "meanings": [
-        "to come to mind",
-        "to float",
-        "to appear"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "time_memory",
-      "scene": "Pictures from 三葉's life rise up in 瀧's mind one by one.",
-      "context": "頭に浮かぶ / 思い浮かぶ = to come to mind; 涙が浮かぶ = tears well up; 雲が浮かぶ = clouds float. Transitive: 浮かべる (笑顔を浮かべる = to smile).",
-      "example_sentence": "その歌を聞くと、ふるさとの景色が目に浮かぶ。",
-      "example_reading": "その うた を きく と、 ふるさと の けしき が め に うかぶ。",
-      "example_meaning": "When I hear that song, I can picture the scenery of my hometown."
     },
     {
       "word": "次々に",
@@ -480,23 +441,22 @@
       "example_meaning": "My cold just won't go away."
     },
     {
-      "word": "亡くなる",
-      "reading": "なくなる",
+      "word": "亡くす",
+      "reading": "なくす",
       "meanings": [
-        "to pass away",
-        "to die (polite)"
+        "to lose (a loved one to death)"
       ],
-      "jlpt": "N3",
+      "jlpt": "N2",
       "priority": "high",
-      "difficulty_vs_n3": "at_level",
+      "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "死ぬ",
+      "simpler_synonym": "",
       "category": "town_life",
-      "scene": "三葉's mother dies in hospital while 三葉 is still small.",
-      "context": "The polite, gentle way to say 死ぬ. Same sound as 無くなる (to be lost, run out) — the kanji 亡 shows it is a person. 亡くす = to lose a loved one: 母を亡くす.",
-      "example_sentence": "祖母は、私が十歳のときに亡くなった。",
-      "example_reading": "そぼ は、 わたし が じゅっさい の とき に なくなった。",
-      "example_meaning": "My grandmother passed away when I was ten."
+      "scene": "三葉 loses her mother in hospital while she is still a small child.",
+      "context": "亡くす = to lose someone to death: 母を亡くす, 事故で夫を亡くす. The polite intransitive is 亡くなる (to pass away). Same sound as 無くす (to lose a thing) — the kanji 亡 marks a death.",
+      "example_sentence": "彼は子どもの頃に父親を亡くした。",
+      "example_reading": "かれ は こども の ころ に ちちおや を なくした。",
+      "example_meaning": "He lost his father when he was a child."
     },
     {
       "word": "悲しむ",
@@ -674,24 +634,24 @@
       "example_meaning": "The day before the trip, I was too excited to sleep."
     },
     {
-      "word": "思い切って",
-      "reading": "おもいきって",
+      "word": "決心",
+      "reading": "けっしん",
       "meanings": [
-        "taking the plunge",
-        "boldly",
-        "plucking up one's courage"
+        "decision",
+        "resolution",
+        "making up one's mind"
       ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "勇気を出して",
+      "simpler_synonym": "",
       "category": "feelings",
-      "scene": "三葉 makes up her mind and goes to Tokyo alone to find 瀧.",
-      "context": "From 思い切る (to make up one's mind). 思い切って言う / 聞く / 買う = to finally dare to. Don't confuse with 思いきり (with all your might): 思いきり泣く.",
-      "example_sentence": "思い切って、好きな人に電話をかけた。",
-      "example_reading": "おもいきって、 すきな ひと に でんわ を かけた。",
-      "example_meaning": "I plucked up my courage and called the person I liked."
+      "scene": "三葉 makes up her mind to go to Tokyo alone to find 瀧.",
+      "context": "決心する / 決心がつく (to manage to decide) / 決心がつかない. More personal and emotional than 決定 (an official decision); 決意 is the stronger, more written word.",
+      "example_sentence": "悩んだ末に、留学する決心をした。",
+      "example_reading": "なやんだ すえ に、 りゅうがく する けっしん を した。",
+      "example_meaning": "After a lot of thought, I made up my mind to study abroad."
     },
     {
       "word": "わざわざ",
@@ -770,26 +730,6 @@
       "example_meaning": "Lately I often see a cat in front of that shop."
     },
     {
-      "word": "姿",
-      "reading": "すがた",
-      "meanings": [
-        "figure",
-        "form",
-        "appearance"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "",
-      "category": "senses_body",
-      "scene": "Among all the passengers, 三葉 spots the figure of the boy she came to find.",
-      "context": "Someone's shape or appearance as seen: 後ろ姿 = someone seen from behind; 姿を消す = to disappear; 姿が見えない = nowhere to be seen; 制服姿 = in uniform.",
-      "example_sentence": "人ごみの中に、兄の姿が見えた。",
-      "example_reading": "ひとごみ の なか に、 あに の すがた が みえた。",
-      "example_meaning": "I caught sight of my brother in the crowd."
-    },
-    {
       "word": "年下",
       "reading": "としした",
       "meanings": [
@@ -848,6 +788,26 @@
       "example_meaning": "The film wasn't as good as I had hoped."
     },
     {
+      "word": "思い込む",
+      "reading": "おもいこむ",
+      "meanings": [
+        "to be convinced (often wrongly)",
+        "to assume",
+        "to take for granted"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "三葉 had been sure that 瀧 would know her the moment he saw her.",
+      "context": "思う + 込む (into): to get an idea fixed in your head. 〜と思い込む = to believe firmly, usually wrongly. Noun: 思い込み = an assumption. 勘違い is the mistake itself; 思い込み is the stubborn belief behind it.",
+      "example_sentence": "今日は休みだと思い込んで、会社に行かなかった。",
+      "example_reading": "きょう は やすみ だ と おもいこんで、 かいしゃ に いかなかった。",
+      "example_meaning": "I was convinced today was a day off, so I didn't go to work."
+    },
+    {
       "word": "知り合い",
       "reading": "しりあい",
       "meanings": [
@@ -865,26 +825,6 @@
       "example_sentence": "パーティーには知り合いが一人もいなかった。",
       "example_reading": "パーティー に は しりあい が ひとり も いなかった。",
       "example_meaning": "I didn't know a single person at the party."
-    },
-    {
-      "word": "勘違い",
-      "reading": "かんちがい",
-      "meanings": [
-        "misunderstanding",
-        "wrong assumption",
-        "mistaking (something)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "間違い",
-      "category": "feelings",
-      "scene": "瀧 assumes the strange girl has mixed him up with someone — and 三葉 sees her hope was misplaced.",
-      "context": "勘違いする = to get the wrong idea (an error in your head). 間違い = any mistake; 人違い = mistaking one person for another. 勘 = intuition.",
-      "example_sentence": "今日が締め切りだと勘違いして、急いで宿題を出した。",
-      "example_reading": "きょう が しめきり だ と かんちがい して、 いそいで しゅくだい を だした。",
-      "example_meaning": "I mistakenly thought today was the deadline and rushed to hand in my homework."
     },
     {
       "word": "顔が赤くなる",
@@ -964,44 +904,24 @@
       "example_meaning": "I went to the trouble of making it, but nobody ate it."
     },
     {
-      "word": "結局",
-      "reading": "けっきょく",
+      "word": "逃げ出す",
+      "reading": "にげだす",
       "meanings": [
-        "in the end",
-        "after all",
-        "eventually"
+        "to run away",
+        "to flee",
+        "to escape"
       ],
       "jlpt": "N3",
-      "priority": "high",
+      "priority": "medium",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "literary",
-      "scene": "For all 三葉's hopes, in the end the 瀧 she meets doesn't know her.",
-      "context": "結局 = 'in the end', often when things didn't go as planned: 結局行かなかった. ついに / とうとう stress the long wait; 結局 stresses the final outcome.",
-      "example_sentence": "さんざん迷ったけど、結局何も買わなかった。",
-      "example_reading": "さんざん まよった けど、 けっきょく なにも かわなかった。",
-      "example_meaning": "I agonised over it for ages, but in the end I didn't buy anything."
-    },
-    {
-      "word": "慌てる",
-      "reading": "あわてる",
-      "meanings": [
-        "to panic",
-        "to be flustered",
-        "to rush"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "",
+      "simpler_synonym": "逃げる",
       "category": "feelings",
-      "scene": "Flustered and embarrassed, 三葉 hurries off the train.",
-      "context": "慌てて = in a hurry or panic: 慌てて家を出る. Similar: 焦る (あせる, to feel pressured or impatient). 慌て者 = a scatterbrain.",
-      "example_sentence": "寝坊して、慌てて家を飛び出した。",
-      "example_reading": "ねぼう して、 あわてて いえ を とびだした。",
-      "example_meaning": "I overslept and rushed out of the house in a panic."
+      "scene": "Fits the moment 三葉, too embarrassed to stay, gets off the train.",
+      "context": "逃げる + 出す (out): to bolt, to break away and run. 〜から逃げ出す = to escape from. 逃げ出したい気分 = wanting to run away (from embarrassment or pressure).",
+      "example_sentence": "恥ずかしくて、その場から逃げ出したかった。",
+      "example_reading": "はずかしくて、 その ば から にげだしたかった。",
+      "example_meaning": "I was so embarrassed I wanted to run away from there."
     },
     {
       "word": "発車",
