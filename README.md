@@ -26,7 +26,7 @@ On iPhone: open that URL in Safari → Share → **Add to Home Screen** → laun
 | `pipeline/out/*.json` | Generated deck files — intermediate, consumed by `bundle.py`. |
 | `agent-files/integrated_ch*.json` | Integrated Approach chapter decks. Auto-picked up by `bundle.py`. |
 | `agent-files/vocab_*.json` | Vocabulary decks. **Must start with `vocab_`** to be auto-picked up by `bundle.py`. |
-| `agent-files/vocab_kiminonawa_ch*.json` | 君の名は。 novel decks — one Vocabulary + one Grammar & Expressions deck per chapter, grouped on Home via `DECK_GROUPS`. |
+| `agent-files/vocab_kiminonawa_ch*.json` | 君の名は。 novel decks — three per chapter (Core Words N4–N3, Vocabulary, Grammar & Expressions), grouped on Home via `DECK_GROUPS`. |
 | `study-guides/kimi-no-na-wa/README.md` | How the 君の名は。 decks were built, plus ready-to-paste prompts for an agent to write chapter study guides or refine a deck from page photos. |
 | `kanji-app.html.bak` | Backup from the last `bundle.py` run. |
 | `package.json` | npm — only dev dep is `@babel/cli` + `@babel/preset-react` for the build step. |
@@ -245,7 +245,7 @@ First load needs internet (Noto Sans JP from Google Fonts). After that the brows
 | Murakami vocab deck (v1 52 words, v2 32 words) | ✅ live |
 | Core N3/N4 general vocab deck (65 words) | ✅ live |
 | よつばと！ vocab deck (58 words) | ✅ live |
-| 君の名は。 novel decks (Ch.1–8, vocab + grammar per chapter, grouped tile) | ✅ live |
+| 君の名は。 novel decks (Ch.1–8, core + vocab + grammar per chapter, grouped tile) | ✅ live |
 | Card peek + ← / → navigation | ✅ live |
 | Vocab card front (readable size + kana) | ✅ live |
 | Vocab deck JLPT priority filter | ✅ live |

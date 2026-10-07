@@ -1,0 +1,1001 @@
+{
+  "deck_id": "kiminonawa-ch1-core",
+  "deck_name": "君の名は。 Ch.1 夢 — Core Words",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第一章「夢」",
+  "chapter": 1,
+  "chapter_title": "夢",
+  "chapter_title_reading": "ゆめ",
+  "chapter_title_meaning": "Dream",
+  "learner_level": "N3",
+  "notes": "Everyday words for Chapter 1 — mostly N4–N3, plus a few common N2 words and set phrases (and 跡形もなく / 体験, which you flagged while reading). These are the words the main Vocabulary deck skipped as 'too easy'; study this deck first. Opening-page cards are checked against p.5; the rest are built from the chapter's scenes, not copied page by page. Example sentences are original.",
+  "card_count": 51,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "dialect",
+    "feelings",
+    "literary",
+    "nature_sky",
+    "senses_body",
+    "shrine_tradition",
+    "story_terms",
+    "time_memory",
+    "town_life"
+  ],
+  "cards": [
+    {
+      "word": "夢",
+      "reading": "ゆめ",
+      "meanings": [
+        "dream"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "time_memory",
+      "scene": "The chapter title 「夢」 — and what the opening page turns out to be.",
+      "context": "夢を見る = to have a dream (not 夢をする). 夢がかなう = a dream comes true; 夢中 (むちゅう) = absorbed in something.",
+      "example_sentence": "ゆうべ、空を飛ぶ夢を見た。",
+      "example_reading": "ゆうべ、 そら を とぶ ゆめ を みた。",
+      "example_meaning": "Last night I dreamed I was flying."
+    },
+    {
+      "word": "声",
+      "reading": "こえ",
+      "meanings": [
+        "voice"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Opening page (p.5) — a familiar voice (懐かしい声) from the dream.",
+      "context": "声 is a voice (people, animals); 音 (おと) is a sound made by things. 声をかける = to speak to someone.",
+      "example_sentence": "後ろから誰かの声が聞こえた。",
+      "example_reading": "うしろ から だれか の こえ が きこえた。",
+      "example_meaning": "I heard someone's voice behind me."
+    },
+    {
+      "word": "大切",
+      "reading": "たいせつ",
+      "meanings": [
+        "precious",
+        "important",
+        "dear"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "大事",
+      "category": "feelings",
+      "scene": "Opening page (p.5) — 大切な誰か — someone precious.",
+      "context": "な-adjective: 大切な人 (someone dear). Close to 大事; 大切 sounds a little warmer. 大切にする = to treasure, take good care of.",
+      "example_sentence": "これは祖母にもらった大切な時計だ。",
+      "example_reading": "これ は そぼ に もらった たいせつな とけい だ。",
+      "example_meaning": "This is a precious watch my grandmother gave me."
+    },
+    {
+      "word": "誰か",
+      "reading": "だれか",
+      "meanings": [
+        "someone",
+        "somebody"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Opening page (p.5) — the dreamer is close to someone precious — but who?",
+      "context": "誰か = someone; 誰も〜ない = no one; 誰でも = anyone. Same pattern: 何か (something), どこか (somewhere). Searching for 'someone' without knowing who runs through the whole book.",
+      "example_sentence": "誰かがドアをノックしている。",
+      "example_reading": "だれか が ドア を ノック して いる。",
+      "example_meaning": "Someone is knocking on the door."
+    },
+    {
+      "word": "頃",
+      "reading": "ころ",
+      "meanings": [
+        "(around the) time when",
+        "the days of"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "時",
+      "category": "time_memory",
+      "scene": "Opening page (p.5) — like back when we were nursing babies (乳飲み児の頃).",
+      "context": "子どもの頃 = when I was a child. After a clock time it's usually read ごろ: 三時頃 (さんじごろ) = around three.",
+      "example_sentence": "子どもの頃、よくこの川で泳いだ。",
+      "example_reading": "こども の ころ、 よく この かわ で およいだ。",
+      "example_meaning": "When I was a child, I often swam in this river."
+    },
+    {
+      "word": "不安",
+      "reading": "ふあん",
+      "meanings": [
+        "anxiety",
+        "unease",
+        "worry"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "心配",
+      "category": "feelings",
+      "scene": "Opening page (p.5) — in the dream there is no anxiety at all.",
+      "context": "不 (not) + 安 (at ease). 不安になる / 不安がある / 不安な顔. Opposite: 安心 (あんしん). 心配 is worry about something specific; 不安 is a vaguer unease.",
+      "example_sentence": "明日の試験のことを考えると、不安になる。",
+      "example_reading": "あした の しけん の こと を かんがえる と、 ふあん に なる。",
+      "example_meaning": "When I think about tomorrow's exam, I get anxious."
+    },
+    {
+      "word": "寂しさ",
+      "reading": "さびしさ",
+      "meanings": [
+        "loneliness"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Opening page (p.5) — no anxiety and no loneliness (寂しさ) at all.",
+      "context": "寂しい (lonely) + さ → a noun (see the 〜さ grammar card). Also written 淋しい. 寂しくなる = to feel lonely, to miss someone.",
+      "example_sentence": "一人暮らしを始めて、初めて寂しさを知った。",
+      "example_reading": "ひとりぐらし を はじめて、 はじめて さびしさ を しった。",
+      "example_meaning": "When I started living alone, I learned what loneliness was for the first time."
+    },
+    {
+      "word": "涙",
+      "reading": "なみだ",
+      "meanings": [
+        "tears"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Fits the opening's waking-up mood — and tears turn up all through this story.",
+      "context": "涙が出る / 涙がこぼれる / 涙を流す. 涙ぐむ (なみだぐむ) = to tear up. 泣く is the verb 'to cry'.",
+      "example_sentence": "映画の最後で、思わず涙が出た。",
+      "example_reading": "えいが の さいご で、 おもわず なみだ が でた。",
+      "example_meaning": "At the end of the film, tears came before I knew it."
+    },
+    {
+      "word": "目が覚める",
+      "reading": "めがさめる",
+      "meanings": [
+        "to wake up"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "起きる",
+      "category": "senses_body",
+      "scene": "The opening wakes from a dream — and waking-up scenes come back again and again.",
+      "context": "目が覚める = you wake up (eyes 'come awake'). 起きる = you get up. 目を覚ます = to wake (yourself or someone). 目覚まし時計 = alarm clock.",
+      "example_sentence": "朝五時に目が覚めて、もう眠れなかった。",
+      "example_reading": "あさ ごじ に め が さめて、 もう ねむれなかった。",
+      "example_meaning": "I woke up at five in the morning and couldn't get back to sleep."
+    },
+    {
+      "word": "なぜか",
+      "reading": "なぜか",
+      "meanings": [
+        "for some reason",
+        "somehow"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なんとなく",
+      "category": "literary",
+      "scene": "Fits the opening's mood — feelings that come for reasons the dreamer can't explain.",
+      "context": "なぜ (why) + か → 'for some reason'. More casual equivalents: なんだか, 何となく.",
+      "example_sentence": "なぜか、その歌を聞くと胸が痛くなる。",
+      "example_reading": "なぜか、 その うた を きく と むね が いたく なる。",
+      "example_meaning": "For some reason, my chest aches when I hear that song."
+    },
+    {
+      "word": "跡形もなく",
+      "reading": "あとかたもなく",
+      "meanings": [
+        "without a trace",
+        "completely (gone)"
+      ],
+      "jlpt": "N1",
+      "priority": "high",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "何も残らず",
+      "category": "literary",
+      "scene": "You met this in Chapter 1: what seemed so real vanishes completely (跡形もなく消える). It comes back later in the book too.",
+      "context": "跡形 = marks or traces left behind. Almost always with a vanishing verb: 跡形もなく消える / なくなる = to vanish completely. Compare 跡地 (the site where something used to stand).",
+      "example_sentence": "古い校舎は取り壊され、跡形もなく消えていた。",
+      "example_reading": "ふるい こうしゃ は とりこわされ、 あとかた も なく きえて いた。",
+      "example_meaning": "The old school building had been torn down and was gone without a trace.",
+      "flagged_in_notebook": true
+    },
+    {
+      "word": "体験",
+      "reading": "たいけん",
+      "meanings": [
+        "(personal) experience",
+        "something you go through yourself"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "経験",
+      "category": "time_memory",
+      "scene": "Experiencing something first-hand — you noted this one while reading Chapter 1.",
+      "context": "体験 = living through a particular thing yourself (体験談 = a first-hand account, 実体験 = real-life experience). 経験 = experience you build up over time (経験がある, 経験者). Roughly: 体験 is the event, 経験 is what it gives you.",
+      "example_sentence": "留学中の体験を、作文に書いた。",
+      "example_reading": "りゅうがくちゅう の たいけん を、 さくぶん に かいた。",
+      "example_meaning": "I wrote an essay about my experiences studying abroad.",
+      "flagged_in_notebook": true
+    },
+    {
+      "word": "鏡",
+      "reading": "かがみ",
+      "meanings": [
+        "mirror"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "Mornings in front of the mirror, getting ready and doing her hair.",
+      "context": "鏡を見る; 鏡に映る (うつる) = to be reflected in a mirror; 手鏡 = hand mirror.",
+      "example_sentence": "出かける前に、鏡で髪をチェックした。",
+      "example_reading": "でかける まえ に、 かがみ で かみ を チェック した。",
+      "example_meaning": "Before going out, I checked my hair in the mirror."
+    },
+    {
+      "word": "制服",
+      "reading": "せいふく",
+      "meanings": [
+        "(school) uniform"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "Getting dressed for school in her uniform.",
+      "context": "制 (rule) + 服 (clothes). 私服 (しふく) = your own clothes. セーラー服 = sailor-style school uniform.",
+      "example_sentence": "うちの高校の制服は、セーラー服だ。",
+      "example_reading": "うち の こうこう の せいふく は、 セーラーふく だ。",
+      "example_meaning": "Our high school's uniform is a sailor suit."
+    },
+    {
+      "word": "着替える",
+      "reading": "きがえる",
+      "meanings": [
+        "to change clothes"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "The morning routine at 三葉's house.",
+      "context": "着 (wear) + 替える (switch). Noun: 着替え = a change of clothes. Also read きかえる.",
+      "example_sentence": "雨でぬれたので、すぐに着替えた。",
+      "example_reading": "あめ で ぬれた ので、 すぐ に きがえた。",
+      "example_meaning": "I got wet in the rain, so I changed right away."
+    },
+    {
+      "word": "寝坊",
+      "reading": "ねぼう",
+      "meanings": [
+        "oversleeping",
+        "a late riser"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "Fits the rushed school mornings.",
+      "context": "寝坊する = to oversleep. 朝寝坊 = a late riser. Not the same as 寝不足 (ねぶそく, not enough sleep).",
+      "example_sentence": "寝坊して、バスに乗り遅れた。",
+      "example_reading": "ねぼう して、 バス に のりおくれた。",
+      "example_meaning": "I overslept and missed the bus."
+    },
+    {
+      "word": "政治",
+      "reading": "せいじ",
+      "meanings": [
+        "politics",
+        "government"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "Her father the mayor is a politician — and politics follows 三葉 to school.",
+      "context": "政治家 (せいじか) = politician; 政治的 = political.",
+      "example_sentence": "父は若い頃から政治に興味があった。",
+      "example_reading": "ちち は わかい ころ から せいじ に きょうみ が あった。",
+      "example_meaning": "My father has been interested in politics since he was young."
+    },
+    {
+      "word": "候補",
+      "reading": "こうほ",
+      "meanings": [
+        "candidate"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "The mayoral election: her father is one of the candidates.",
+      "context": "候補者 = a candidate (person); 立候補する = to run for office; 優勝候補 = a favourite to win.",
+      "example_sentence": "今度の選挙には、三人の候補者がいる。",
+      "example_reading": "こんど の せんきょ に は、 さんにん の こうほしゃ が いる。",
+      "example_meaning": "There are three candidates in the coming election."
+    },
+    {
+      "word": "幼なじみ",
+      "reading": "おさななじみ",
+      "meanings": [
+        "childhood friend"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昔からの友だち",
+      "category": "town_life",
+      "scene": "テッシー and サヤちん are 三葉's childhood friends.",
+      "context": "幼い (young) + なじみ (familiar). Someone you've known since you were small. Also written 幼馴染.",
+      "example_sentence": "彼とは幼なじみで、小さい頃からいつも一緒だった。",
+      "example_reading": "かれ と は おさななじみ で、 ちいさい ころ から いつも いっしょ だった。",
+      "example_meaning": "He's my childhood friend; we've always been together since we were little."
+    },
+    {
+      "word": "同級生",
+      "reading": "どうきゅうせい",
+      "meanings": [
+        "classmate",
+        "someone in the same year"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "クラスメート",
+      "category": "town_life",
+      "scene": "三葉's classmates — some friendly, some not.",
+      "context": "同 (same) + 級 (grade) + 生. 同い年 (おないどし) = the same age.",
+      "example_sentence": "駅で、中学の同級生にばったり会った。",
+      "example_reading": "えき で、 ちゅうがく の どうきゅうせい に ばったり あった。",
+      "example_meaning": "I bumped into a classmate from junior high at the station."
+    },
+    {
+      "word": "噂",
+      "reading": "うわさ",
+      "meanings": [
+        "rumour",
+        "gossip"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "In a small town everyone talks — the shrine family and the mayor are always gossip.",
+      "context": "噂をする = to gossip about; 噂が広まる = a rumour spreads. Saying: 噂をすれば… = speak of the devil.",
+      "example_sentence": "新しい先生の噂は、すぐに学校中に広まった。",
+      "example_reading": "あたらしい せんせい の うわさ は、 すぐ に がっこうじゅう に ひろまった。",
+      "example_meaning": "Rumours about the new teacher quickly spread through the school."
+    },
+    {
+      "word": "からかう",
+      "reading": "からかう",
+      "meanings": [
+        "to tease",
+        "to make fun of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "Classmates tease 三葉 about her family and the shrine.",
+      "context": "人をからかう; passive からかわれる = to be teased. Lighter than いじめる (to bully).",
+      "example_sentence": "弟はいつも私をからかって笑う。",
+      "example_reading": "おとうと は いつも わたし を からかって わらう。",
+      "example_meaning": "My little brother is always teasing me and laughing."
+    },
+    {
+      "word": "様子",
+      "reading": "ようす",
+      "meanings": [
+        "state",
+        "how someone seems",
+        "appearance"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "Her friends say she seemed strange yesterday.",
+      "context": "様子がおかしい / 様子が変 = acting strangely. 様子を見る = to wait and see.",
+      "example_sentence": "今日の彼は、なんだか様子が変だった。",
+      "example_reading": "きょう の かれ は、 なんだか ようす が へん だった。",
+      "example_meaning": "He seemed somehow off today."
+    },
+    {
+      "word": "変",
+      "reading": "へん",
+      "meanings": [
+        "strange",
+        "odd",
+        "weird"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "おかしい",
+      "category": "town_life",
+      "scene": "'You were acting strange yesterday' — the friends' first clue that something's going on.",
+      "context": "な-adjective: 変な人, 変な味. 変だ = something's off. Don't confuse with 大変 (たいへん, terrible / very).",
+      "example_sentence": "冷蔵庫から変なにおいがする。",
+      "example_reading": "れいぞうこ から へんな におい が する。",
+      "example_meaning": "There's a strange smell coming from the fridge."
+    },
+    {
+      "word": "不思議",
+      "reading": "ふしぎ",
+      "meanings": [
+        "mysterious",
+        "strange",
+        "wondrous"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "time_memory",
+      "scene": "Odd things start happening to 三葉 that she can't explain.",
+      "context": "不思議な usually means wondrous or puzzling (neutral or positive); 変な leans negative. 不思議に思う = to wonder about something.",
+      "example_sentence": "不思議なことに、その日のことを何も覚えていない。",
+      "example_reading": "ふしぎな こと に、 その ひ の こと を なにも おぼえて いない。",
+      "example_meaning": "Strangely, I don't remember anything about that day."
+    },
+    {
+      "word": "黒板",
+      "reading": "こくばん",
+      "meanings": [
+        "blackboard"
+      ],
+      "jlpt": "N4",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "The teacher writes old words for twilight on the blackboard.",
+      "context": "黒 (black) + 板 (board). 黒板を消す = to erase the board.",
+      "example_sentence": "先生が黒板に大きく字を書いた。",
+      "example_reading": "せんせい が こくばん に おおきく じ を かいた。",
+      "example_meaning": "The teacher wrote large characters on the blackboard."
+    },
+    {
+      "word": "方言",
+      "reading": "ほうげん",
+      "meanings": [
+        "dialect"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "dialect",
+      "scene": "In class, the town's own word for twilight turns out to be dialect.",
+      "context": "方 (region) + 言 (speech). 標準語 (ひょうじゅんご) = standard Japanese. Named dialects use 〜弁: 関西弁, 飛騨弁 — the model for Itomori speech.",
+      "example_sentence": "祖母の方言は、ときどき聞き取れない。",
+      "example_reading": "そぼ の ほうげん は、 ときどき ききとれない。",
+      "example_meaning": "Sometimes I can't catch my grandmother's dialect."
+    },
+    {
+      "word": "湖",
+      "reading": "みずうみ",
+      "meanings": [
+        "lake"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "nature_sky",
+      "scene": "Itomori is built around a big lake (糸守湖).",
+      "context": "On its own it's みずうみ; in names it's 〜湖 (こ): 琵琶湖 (びわこ), 糸守湖 (いともりこ).",
+      "example_sentence": "湖の水面に、夕日が映っていた。",
+      "example_reading": "みずうみ の すいめん に、 ゆうひ が うつって いた。",
+      "example_meaning": "The evening sun was reflected on the surface of the lake."
+    },
+    {
+      "word": "人口",
+      "reading": "じんこう",
+      "meanings": [
+        "population"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "A small mountain town where the population is shrinking.",
+      "context": "人口が多い / 少ない (not 大きい). 人口が減る = the population falls.",
+      "example_sentence": "この村の人口は、千人もいない。",
+      "example_reading": "この むら の じんこう は、 せんにん も いない。",
+      "example_meaning": "This village has fewer than a thousand people."
+    },
+    {
+      "word": "都会",
+      "reading": "とかい",
+      "meanings": [
+        "big city",
+        "urban area"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "三葉 dreams of the big city — the opposite of her small town.",
+      "context": "都会 (city life) vs 田舎 (countryside). 都会的 = urban, sophisticated. 都市 (とし) is the more technical word.",
+      "example_sentence": "都会の生活にあこがれて、東京に出た。",
+      "example_reading": "とかい の せいかつ に あこがれて、 とうきょう に でた。",
+      "example_meaning": "I longed for city life, so I moved to Tokyo."
+    },
+    {
+      "word": "退屈",
+      "reading": "たいくつ",
+      "meanings": [
+        "boring",
+        "bored"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "つまらない",
+      "category": "feelings",
+      "scene": "To 三葉, small-town life feels dull.",
+      "context": "な-adjective and する-verb: 退屈な授業 (a boring class), 退屈する (to be bored). つまらない is more casual.",
+      "example_sentence": "雨の日曜日は、退屈でしかたがない。",
+      "example_reading": "あめ の にちようび は、 たいくつ で しかたが ない。",
+      "example_meaning": "Rainy Sundays are unbearably boring."
+    },
+    {
+      "word": "うんざり",
+      "reading": "うんざり",
+      "meanings": [
+        "fed up",
+        "sick of (it)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "嫌になる",
+      "category": "feelings",
+      "scene": "三葉 is fed up with everyone watching her family.",
+      "context": "うんざりする; 〜にうんざりだ. Stronger than 嫌: you've had more than enough.",
+      "example_sentence": "毎日同じ話を聞かされて、うんざりした。",
+      "example_reading": "まいにち おなじ はなし を きかされて、 うんざり した。",
+      "example_meaning": "I was sick of hearing the same story every day."
+    },
+    {
+      "word": "憧れ",
+      "reading": "あこがれ",
+      "meanings": [
+        "longing",
+        "yearning",
+        "admiration (for an ideal)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "夢",
+      "category": "feelings",
+      "scene": "三葉's longing for Tokyo and city life.",
+      "context": "Verb 憧れる (〜に憧れる = to long for, look up to). 憧れの先輩 = the senior everyone admires. 憧 = heart radical 忄 + 童.",
+      "example_sentence": "都会の暮らしは、ずっと私の憧れだった。",
+      "example_reading": "とかい の くらし は、 ずっと わたし の あこがれ だった。",
+      "example_meaning": "City life had always been my dream."
+    },
+    {
+      "word": "卒業",
+      "reading": "そつぎょう",
+      "meanings": [
+        "graduation"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "三葉 thinks about what she'll do after high school.",
+      "context": "〜を卒業する = to graduate from (with を). 卒業式 = graduation ceremony. Figurative: to grow out of something.",
+      "example_sentence": "高校を卒業したら、東京の大学に行きたい。",
+      "example_reading": "こうこう を そつぎょう したら、 とうきょう の だいがく に いきたい。",
+      "example_meaning": "After I graduate from high school, I want to go to a university in Tokyo."
+    },
+    {
+      "word": "地球",
+      "reading": "ちきゅう",
+      "meanings": [
+        "the Earth"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "nature_sky",
+      "scene": "The comet is approaching Earth.",
+      "context": "地 (ground) + 球 (ball). 地球温暖化 = global warming.",
+      "example_sentence": "月は、地球のまわりを回っている。",
+      "example_reading": "つき は、 ちきゅう の まわり を まわって いる。",
+      "example_meaning": "The moon goes around the Earth."
+    },
+    {
+      "word": "宇宙",
+      "reading": "うちゅう",
+      "meanings": [
+        "space",
+        "the universe"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "nature_sky",
+      "scene": "TV coverage of the comet arriving from space.",
+      "context": "宇宙人 = alien; 宇宙飛行士 (うちゅうひこうし) = astronaut.",
+      "example_sentence": "いつか宇宙から地球を見てみたい。",
+      "example_reading": "いつか うちゅう から ちきゅう を みて みたい。",
+      "example_meaning": "Someday I want to see the Earth from space."
+    },
+    {
+      "word": "話題",
+      "reading": "わだい",
+      "meanings": [
+        "topic (of conversation)",
+        "talk of the town"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "The comet is what everyone is talking about.",
+      "context": "話題になる = to become a hot topic; 話題を変える = to change the subject.",
+      "example_sentence": "その映画は、今クラスで話題になっている。",
+      "example_reading": "その えいが は、 いま クラス で わだい に なって いる。",
+      "example_meaning": "That film is what everyone in class is talking about right now."
+    },
+    {
+      "word": "中継",
+      "reading": "ちゅうけい",
+      "meanings": [
+        "(live) broadcast",
+        "relay"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "town_life",
+      "scene": "TV shows live coverage of the comet.",
+      "context": "生中継 (なまちゅうけい) = a live broadcast. 中継する = to broadcast live / relay.",
+      "example_sentence": "サッカーの試合をテレビの生中継で見た。",
+      "example_reading": "サッカー の しあい を テレビ の なまちゅうけい で みた。",
+      "example_meaning": "I watched the soccer match live on TV."
+    },
+    {
+      "word": "糸",
+      "reading": "いと",
+      "meanings": [
+        "thread",
+        "yarn"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "shrine_tradition",
+      "scene": "The braided cords are made from many coloured threads — and the town itself is called 糸守.",
+      "context": "毛糸 (けいと) = wool yarn; 糸を通す = to thread a needle. 糸 is the first kanji of 糸守 ('thread-guard').",
+      "example_sentence": "母は赤い糸でボタンをつけてくれた。",
+      "example_reading": "はは は あかい いと で ボタン を つけて くれた。",
+      "example_meaning": "My mother sewed on the button for me with red thread."
+    },
+    {
+      "word": "紐",
+      "reading": "ひも",
+      "meanings": [
+        "string",
+        "cord"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "shrine_tradition",
+      "scene": "組紐 is a braided 紐 — and 三葉 ties her hair with one.",
+      "context": "紐を結ぶ = to tie a string; 靴紐 (くつひも) = shoelace.",
+      "example_sentence": "靴紐がほどけているよ。",
+      "example_reading": "くつひも が ほどけて いる よ。",
+      "example_meaning": "Your shoelace is untied."
+    },
+    {
+      "word": "伝統",
+      "reading": "でんとう",
+      "meanings": [
+        "tradition"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "shrine_tradition",
+      "scene": "The braiding and the ritual are old shrine traditions kept up by grandmother.",
+      "context": "伝 (pass on) + 統 (lineage). 伝統的な = traditional; 伝統を守る = to keep a tradition alive.",
+      "example_sentence": "この祭りは、三百年続く町の伝統だ。",
+      "example_reading": "この まつり は、 さんびゃくねん つづく まち の でんとう だ。",
+      "example_meaning": "This festival is a town tradition that goes back three hundred years."
+    },
+    {
+      "word": "記録",
+      "reading": "きろく",
+      "meanings": [
+        "record",
+        "document"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "shrine_tradition",
+      "scene": "Grandmother's story: old records burned in a great fire, so the meaning of the rituals was lost.",
+      "context": "記録する / 記録に残す = to keep on record. Also a sports record: 世界記録, 記録を破る (break a record).",
+      "example_sentence": "昔の記録によると、この町には城があったらしい。",
+      "example_reading": "むかし の きろく に よる と、 この まち に は しろ が あった らしい。",
+      "example_meaning": "According to old records, this town apparently had a castle."
+    },
+    {
+      "word": "焼ける",
+      "reading": "やける",
+      "meanings": [
+        "to burn (down)",
+        "to be grilled / baked",
+        "to get a tan"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "燃える",
+      "category": "shrine_tradition",
+      "scene": "The old records burned in the great fire.",
+      "context": "Intransitive (something burns); transitive 焼く = to burn, grill. 日に焼ける = to get a tan; パンが焼ける = bread is baked.",
+      "example_sentence": "火事で、家が全部焼けてしまった。",
+      "example_reading": "かじ で、 いえ が ぜんぶ やけて しまった。",
+      "example_meaning": "The whole house burned down in the fire."
+    },
+    {
+      "word": "祭り",
+      "reading": "まつり",
+      "meanings": [
+        "festival"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "shrine_tradition",
+      "scene": "The shrine's autumn festival night.",
+      "context": "夏祭り, 秋祭り; お祭り (friendly/polite). 祭る (まつる) = to enshrine, worship.",
+      "example_sentence": "祭りの夜、町は人でいっぱいだった。",
+      "example_reading": "まつり の よる、 まち は ひと で いっぱい だった。",
+      "example_meaning": "On the night of the festival, the town was full of people."
+    },
+    {
+      "word": "衣装",
+      "reading": "いしょう",
+      "meanings": [
+        "costume",
+        "outfit"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "服",
+      "category": "shrine_tradition",
+      "scene": "The sisters dress in shrine-maiden costume for the ritual.",
+      "context": "衣 (garment) + 装 (attire). 民族衣装 = national costume; 花嫁衣装 = wedding dress.",
+      "example_sentence": "劇のために、手作りの衣装を用意した。",
+      "example_reading": "げき の ため に、 てづくり の いしょう を ようい した。",
+      "example_meaning": "I prepared a handmade costume for the play."
+    },
+    {
+      "word": "鈴",
+      "reading": "すず",
+      "meanings": [
+        "(small) bell"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "shrine_tradition",
+      "scene": "Fits the ritual dance, where shrine maidens shake bells.",
+      "context": "A small round bell: 鈴が鳴る = a bell rings. A big temple bell is 鐘 (かね).",
+      "example_sentence": "猫の首輪に小さな鈴をつけた。",
+      "example_reading": "ねこ の くびわ に ちいさな すず を つけた。",
+      "example_meaning": "I put a little bell on the cat's collar."
+    },
+    {
+      "word": "吐き出す",
+      "reading": "はきだす",
+      "meanings": [
+        "to spit out",
+        "to let out (feelings)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "出す",
+      "category": "shrine_tradition",
+      "scene": "Making 口噛み酒: the chewed rice is spat out into a vessel — in front of everyone.",
+      "context": "吐く (to spit, vomit, breathe out) + 出す (out). Figurative: 気持ちを吐き出す = to get your feelings out.",
+      "example_sentence": "熱すぎて、思わずスープを吐き出した。",
+      "example_reading": "あつすぎて、 おもわず スープ を はきだした。",
+      "example_meaning": "It was so hot I spat the soup out without thinking."
+    },
+    {
+      "word": "叫ぶ",
+      "reading": "さけぶ",
+      "meanings": [
+        "to shout",
+        "to yell",
+        "to cry out"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "大声を出す",
+      "category": "feelings",
+      "scene": "Fed up, 三葉 shouts her wish from the shrine steps.",
+      "context": "叫ぶ = to cry out, usually with emotion; 大声を出す is just 'speak loudly'. 叫び声 = a scream.",
+      "example_sentence": "山の上で、大きな声で名前を叫んだ。",
+      "example_reading": "やま の うえ で、 おおきな こえ で なまえ を さけんだ。",
+      "example_meaning": "At the top of the mountain, I shouted the name at the top of my voice."
+    },
+    {
+      "word": "思わず",
+      "reading": "おもわず",
+      "meanings": [
+        "without meaning to",
+        "involuntarily",
+        "in spite of oneself"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "つい",
+      "category": "literary",
+      "scene": "A narration favourite — reactions that happen before anyone thinks.",
+      "context": "思わず笑う / 思わず声が出る. Close to つい, which is more 'out of habit'.",
+      "example_sentence": "あまりにおかしくて、思わず笑ってしまった。",
+      "example_reading": "あまり に おかしくて、 おもわず わらって しまった。",
+      "example_meaning": "It was so funny that I burst out laughing."
+    },
+    {
+      "word": "ため息",
+      "reading": "ためいき",
+      "meanings": [
+        "sigh"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "三葉 sighs a lot about her town and her family.",
+      "context": "ため息をつく = to sigh (use つく, not する).",
+      "example_sentence": "テストの点を見て、深いため息をついた。",
+      "example_reading": "テスト の てん を みて、 ふかい ためいき を ついた。",
+      "example_meaning": "I looked at my test score and let out a deep sigh."
+    },
+    {
+      "word": "作",
+      "reading": "さく",
+      "meanings": [
+        "written by (credit)",
+        "a work"
+      ],
+      "jlpt": "N2",
+      "priority": "low",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "literary",
+      "scene": "On the cover: 新海誠・作 — written by 新海誠.",
+      "context": "In book credits 作 = the author and 絵 = the illustrator. 作品 (さくひん) = a work; 作る shares the kanji.",
+      "example_sentence": "この絵本は、作も絵も同じ人だ。",
+      "example_reading": "この えほん は、 さく も え も おなじ ひと だ。",
+      "example_meaning": "The story and the pictures in this picture book are by the same person."
+    }
+  ]
+}
