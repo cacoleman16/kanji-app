@@ -1,0 +1,1119 @@
+{
+  "deck_id": "kiminonawa-ch4-core",
+  "deck_name": "君の名は。 Ch.4 探訪 — Core Words",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第四章「探訪」",
+  "chapter": 4,
+  "chapter_title": "探訪",
+  "chapter_title_reading": "たんぼう",
+  "chapter_title_meaning": "The Search",
+  "learner_level": "N3",
+  "notes": "Everyday words for Chapter 4 — mostly N4–N3, plus a few common N2 words and set phrases. Built from the chapter's scenes (the trip to Hida, asking around, the ramen shop, the news of the disaster, the ruins, the library and the inn), not copied page by page; these are the words the main Vocabulary deck skipped as 'too easy', so study this deck before it. Example sentences are original.",
+  "card_count": 56,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "casual_speech",
+    "disaster",
+    "feelings",
+    "literary",
+    "story_terms",
+    "time_memory",
+    "town_life"
+  ],
+  "cards": [
+    {
+      "word": "連絡",
+      "reading": "れんらく",
+      "meanings": [
+        "contact",
+        "getting in touch",
+        "message"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "The chapter opens with 瀧 unable to get in touch with 三葉 by any means.",
+      "context": "連絡する = to contact, get in touch; 連絡を取る = to get in touch; 連絡先 = contact details. The set phrase 連絡がつかない (can't reach someone) has its own card in the grammar deck.",
+      "example_sentence": "駅に着いたら、すぐ連絡してください。",
+      "example_reading": "えき に ついたら、 すぐ れんらく して ください。",
+      "example_meaning": "Please get in touch as soon as you reach the station."
+    },
+    {
+      "word": "返事",
+      "reading": "へんじ",
+      "meanings": [
+        "reply",
+        "answer",
+        "response"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "答え",
+      "category": "story_terms",
+      "scene": "However 瀧 tries to reach 三葉, no answer ever comes back.",
+      "context": "返事をする = to reply (to a call, a letter, a question); 返事がない = there's no answer. 返信 (へんしん) is a reply to a message or email. Answering 'はい！' when your name is called is also a 返事.",
+      "example_sentence": "メールを送ったのに、まだ返事が来ない。",
+      "example_reading": "メール を おくった のに、 まだ へんじ が こない。",
+      "example_meaning": "I sent an email, but there's still no reply."
+    },
+    {
+      "word": "住所",
+      "reading": "じゅうしょ",
+      "meanings": [
+        "address"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "瀧 has no address for 三葉 — he can't even name her town, only picture it.",
+      "context": "住所 = a postal address: 住所を書く, 住所を教える. 連絡先 = contact details (phone, email). Don't confuse with 場所 (a place in general).",
+      "example_sentence": "ここに名前と住所を書いてください。",
+      "example_reading": "ここ に なまえ と じゅうしょ を かいて ください。",
+      "example_meaning": "Please write your name and address here."
+    },
+    {
+      "word": "存在",
+      "reading": "そんざい",
+      "meanings": [
+        "existence",
+        "being",
+        "presence"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "いること",
+      "category": "story_terms",
+      "scene": "瀧 wants proof that 三葉 really exists — that she isn't just a dream.",
+      "context": "存在する = to exist (formal; in everyday speech people use いる / ある). 存在感 = presence (someone who stands out). 実在 (じつざい) = to really exist rather than be fictional.",
+      "example_sentence": "宇宙人は本当に存在すると思いますか。",
+      "example_reading": "うちゅうじん は ほんとう に そんざい する と おもいます か。",
+      "example_meaning": "Do you think aliens really exist?"
+    },
+    {
+      "word": "直接",
+      "reading": "ちょくせつ",
+      "meanings": [
+        "directly",
+        "in person",
+        "first-hand"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Messages and calls don't reach her, so 瀧 decides to go and find 三葉 in person.",
+      "context": "直接会う / 直接話す / 直接聞く = face to face, with no go-between. Opposite: 間接的 (かんせつてき, indirect). Also a noun: 直接の原因 = the direct cause.",
+      "example_sentence": "メールではなく、直接会って話したい。",
+      "example_reading": "メール では なく、 ちょくせつ あって はなしたい。",
+      "example_meaning": "I want to talk face to face, not by email."
+    },
+    {
+      "word": "思い切って",
+      "reading": "おもいきって",
+      "meanings": [
+        "boldly",
+        "taking the plunge",
+        "making up one's mind"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "勇気を出して",
+      "category": "feelings",
+      "scene": "Rather than wait, 瀧 takes the plunge and sets off for a town he can't even name.",
+      "context": "思い切って〜する = to go ahead and do something you were hesitating over. Don't confuse with 思い切り (おもいきり) = with all your might (思い切り走る).",
+      "example_sentence": "思い切って、先生に進路の相談をしてみた。",
+      "example_reading": "おもいきって、 せんせい に しんろ の そうだん を して みた。",
+      "example_meaning": "I plucked up the courage to talk to my teacher about my future plans."
+    },
+    {
+      "word": "ついてくる",
+      "reading": "ついてくる",
+      "meanings": [
+        "to come along (with someone)",
+        "to follow"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一緒に来る",
+      "category": "story_terms",
+      "scene": "司 and 奥寺先輩 come along with 瀧 on the trip to Hida.",
+      "context": "Written 付いて来る but usually in kana. ついてくる = to come along with (me) / to follow; ついていく = to go along with someone else. ついてきて！ = Come with me!",
+      "example_sentence": "うちの犬は、どこへ行っても私についてくる。",
+      "example_reading": "うち の いぬ は、 どこ へ いって も わたし に ついて くる。",
+      "example_meaning": "Our dog follows me wherever I go."
+    },
+    {
+      "word": "特急",
+      "reading": "とっきゅう",
+      "meanings": [
+        "limited express (train)"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "After the shinkansen, the three ride a limited express up into the Hida mountains.",
+      "context": "特 (special) + 急 (express), short for 特別急行. Faster than 急行 (express) and 快速 (rapid), and usually needs an extra 特急券. 各駅停車 / 普通 = a local train that stops everywhere.",
+      "example_sentence": "特急に乗れば、一時間ほどで着きます。",
+      "example_reading": "とっきゅう に のれば、 いちじかん ほど で つきます。",
+      "example_meaning": "If you take the limited express, you'll get there in about an hour."
+    },
+    {
+      "word": "到着",
+      "reading": "とうちゃく",
+      "meanings": [
+        "arrival",
+        "to arrive (〜する)"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "着く",
+      "category": "story_terms",
+      "scene": "After hours on trains, the three arrive in the Hida region.",
+      "context": "到着する = to arrive (formal: station announcements, news). Everyday word: 着く. Opposite: 出発 (しゅっぱつ, departure). 到着時刻 = arrival time.",
+      "example_sentence": "電車は予定より十分遅れて到着した。",
+      "example_reading": "でんしゃ は よてい より じゅっぷん おくれて とうちゃく した。",
+      "example_meaning": "The train arrived ten minutes later than scheduled."
+    },
+    {
+      "word": "旅",
+      "reading": "たび",
+      "meanings": [
+        "journey",
+        "trip",
+        "travel"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "旅行",
+      "category": "story_terms",
+      "scene": "The trip to Hida is half search, half journey into the unknown.",
+      "context": "旅行 is the everyday word (旅行に行く). 旅 sounds more personal or literary: 旅に出る (set out on a journey), 一人旅 (travelling alone), 旅人 (traveller).",
+      "example_sentence": "大学生のとき、一人で北海道を旅した。",
+      "example_reading": "だいがくせい の とき、 ひとり で ほっかいどう を たび した。",
+      "example_meaning": "When I was at university, I travelled around Hokkaido on my own."
+    },
+    {
+      "word": "地方",
+      "reading": "ちほう",
+      "meanings": [
+        "region",
+        "area",
+        "the provinces (outside big cities)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "田舎",
+      "category": "town_life",
+      "scene": "The search takes them out of Tokyo and into the Hida region of Gifu.",
+      "context": "飛騨地方 = the Hida region; 関東地方, 東北地方. On its own 地方 often means 'outside the big cities' (地方の町). Compare 地元 (じもと) = your home area, the locals.",
+      "example_sentence": "この地方は、冬になると雪がたくさん降る。",
+      "example_reading": "この ちほう は、 ふゆ に なる と ゆき が たくさん ふる。",
+      "example_meaning": "In this region, it snows a lot in winter."
+    },
+    {
+      "word": "尋ねる",
+      "reading": "たずねる",
+      "meanings": [
+        "to ask",
+        "to inquire"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "聞く",
+      "category": "story_terms",
+      "scene": "瀧 shows his sketches to stranger after stranger, asking whether anyone knows the place.",
+      "context": "A politer, more written word for 聞く (to ask): 道を尋ねる = to ask the way. Don't mix it up with 訪ねる (also たずねる) = to visit (友人を訪ねる).",
+      "example_sentence": "駅員さんに、バス乗り場の場所を尋ねた。",
+      "example_reading": "えきいん さん に、 バス のりば の ばしょ を たずねた。",
+      "example_meaning": "I asked a station attendant where the bus stop was."
+    },
+    {
+      "word": "この辺",
+      "reading": "このへん",
+      "meanings": [
+        "around here",
+        "this area"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "このあたり",
+      "category": "story_terms",
+      "scene": "The question the three keep putting to locals: is there a place like this around here?",
+      "context": "この辺 = around here; その辺 / あの辺 work the same way. このあたり means the same and sounds a little softer. この辺で = at about this point (この辺で休もう = let's take a break now).",
+      "example_sentence": "この辺に、おいしいラーメン屋はありませんか。",
+      "example_reading": "この へん に、 おいしい ラーメンや は ありません か。",
+      "example_meaning": "Is there a good ramen shop around here?"
+    },
+    {
+      "word": "似る",
+      "reading": "にる",
+      "meanings": [
+        "to resemble",
+        "to look like"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Matching sketches to real places: does anything here look like the town 瀧 remembers?",
+      "context": "Almost always 似ている: AはBに似ている = A looks like B (母に似ている). 似た = similar (似た町). Not to be confused with 似合う (にあう) = to suit someone.",
+      "example_sentence": "この写真の山は、私のふるさとの山によく似ている。",
+      "example_reading": "この しゃしん の やま は、 わたし の ふるさと の やま に よく にて いる。",
+      "example_meaning": "The mountain in this photo looks a lot like the one in my hometown."
+    },
+    {
+      "word": "見当がつかない",
+      "reading": "けんとうがつかない",
+      "meanings": [
+        "to have no idea",
+        "can't even guess"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "わからない",
+      "category": "story_terms",
+      "scene": "Nobody can place the town in 瀧's drawings — no one has the faintest idea where it might be.",
+      "context": "見当 = a rough guess or estimate. 見当がつく = to be able to guess; 見当がつかない = to have no idea at all. 見当違い = off the mark.",
+      "example_sentence": "彼女が何に怒っているのか、まったく見当がつかない。",
+      "example_reading": "かのじょ が なに に おこって いる の か、 まったく けんとう が つかない。",
+      "example_meaning": "I have absolutely no idea what she's angry about."
+    },
+    {
+      "word": "見つかる",
+      "reading": "みつかる",
+      "meanings": [
+        "to be found",
+        "to turn up"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Hours of asking around, and the town in the sketches still can't be found.",
+      "context": "見つかる (intransitive) = to be found: 財布が見つかった. 見つける (transitive) = to find: 財布を見つけた. Watch the particles: が見つかる / を見つける.",
+      "example_sentence": "なくした鍵は、結局見つからなかった。",
+      "example_reading": "なくした かぎ は、 けっきょく みつからなかった。",
+      "example_meaning": "The key I lost never turned up in the end."
+    },
+    {
+      "word": "諦める",
+      "reading": "あきらめる",
+      "meanings": [
+        "to give up",
+        "to abandon (a hope)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "やめる",
+      "category": "feelings",
+      "scene": "After a whole day with no luck, 瀧 comes close to giving up the search.",
+      "context": "Often written in kana (あきらめる); 諦 is a hard kanji. 〜を諦める = to give up on something. やめる just means to stop; 諦める means letting go of a hope.",
+      "example_sentence": "雨が強くなったので、山に登るのを諦めた。",
+      "example_reading": "あめ が つよく なった ので、 やま に のぼる の を あきらめた。",
+      "example_meaning": "The rain got heavier, so we gave up on climbing the mountain."
+    },
+    {
+      "word": "腹が減る",
+      "reading": "はらがへる",
+      "meanings": [
+        "to be hungry (casual, mostly male speech)"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "お腹がすく",
+      "category": "casual_speech",
+      "scene": "Tired and hungry after a day of fruitless searching, the three stop to eat.",
+      "context": "腹 (はら) = belly; a rough, casual version of お腹がすく. 腹減った！ is typical boys' talk. 腹が立つ = to get angry — same 腹, different meaning.",
+      "example_sentence": "部活のあとは、いつも腹が減って死にそうだ。",
+      "example_reading": "ぶかつ の あと は、 いつも はら が へって しにそう だ。",
+      "example_meaning": "After club practice I'm always starving."
+    },
+    {
+      "word": "主人",
+      "reading": "しゅじん",
+      "meanings": [
+        "owner (of a shop)",
+        "master",
+        "(my) husband"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "店の人",
+      "category": "town_life",
+      "scene": "The man who finally recognises the town is the owner of a ramen shop.",
+      "context": "店の主人 = the owner of a shop (店主 in the hard deck is the written word). 主人 also means 'my husband' (うちの主人); ご主人 = someone else's husband or the master of the house.",
+      "example_sentence": "このパン屋の主人は、毎朝四時に起きるそうだ。",
+      "example_reading": "この パンや の しゅじん は、 まいあさ よじ に おきる そう だ。",
+      "example_meaning": "I hear the owner of this bakery gets up at four every morning."
+    },
+    {
+      "word": "ようやく",
+      "reading": "ようやく",
+      "meanings": [
+        "finally",
+        "at last (after a long time)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "やっと",
+      "category": "literary",
+      "scene": "After a day of blank looks, the three at last meet someone who knows the town.",
+      "context": "ようやく = at last, after a long wait or effort — a slightly more written word than やっと. ついに has a stronger sense of 'in the end it came to this' (good or bad). The kanji 漸く is rare.",
+      "example_sentence": "三時間待って、ようやく順番が来た。",
+      "example_reading": "さんじかん まって、 ようやく じゅんばん が きた。",
+      "example_meaning": "After waiting three hours, my turn finally came."
+    },
+    {
+      "word": "災害",
+      "reading": "さいがい",
+      "meanings": [
+        "disaster",
+        "calamity"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "disaster",
+      "scene": "The owner explains what happened to 糸守 three years ago — a disaster the whole country heard about.",
+      "context": "災害 = a disaster that hits a whole area: 自然災害 (natural disaster), 災害が起きる, 災害に備える (prepare for disasters). 事故 (じこ) = an accident, on a smaller scale.",
+      "example_sentence": "この町では、毎年九月に災害に備えた訓練がある。",
+      "example_reading": "この まち では、 まいとし くがつ に さいがい に そなえた くんれん が ある。",
+      "example_meaning": "This town holds a disaster drill every September."
+    },
+    {
+      "word": "全国",
+      "reading": "ぜんこく",
+      "meanings": [
+        "the whole country",
+        "nationwide"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "日本中",
+      "category": "disaster",
+      "scene": "The destruction of 糸守 was news all over Japan.",
+      "context": "全国 = the whole country: 全国ニュース, 全国大会 (national tournament), 全国的に (nationwide), 全国各地 (all over the country). In casual speech: 日本中.",
+      "example_sentence": "明日は、全国的に晴れるでしょう。",
+      "example_reading": "あした は、 ぜんこくてき に はれる でしょう。",
+      "example_meaning": "Tomorrow it should be sunny nationwide."
+    },
+    {
+      "word": "発生",
+      "reading": "はっせい",
+      "meanings": [
+        "occurrence",
+        "outbreak",
+        "to occur (〜する)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "起きる",
+      "category": "disaster",
+      "scene": "Accounts of the disaster, spoken and printed, say when and how it happened.",
+      "context": "A news and report word: 事故が発生する, 地震が発生した, 火災発生. In everyday speech use 起きる / 起こる. Also 'to be produced' (ガスが発生する).",
+      "example_sentence": "今朝、駅の近くで火事が発生した。",
+      "example_reading": "けさ、 えき の ちかく で かじ が はっせい した。",
+      "example_meaning": "A fire broke out near the station this morning."
+    },
+    {
+      "word": "最中",
+      "reading": "さいちゅう",
+      "meanings": [
+        "in the middle of",
+        "at the height of"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "途中",
+      "category": "time_memory",
+      "scene": "The comet fragment fell right in the middle of the town's festival.",
+      "context": "Nの最中に / Vている最中に = right in the middle of (when something interrupts): 食事の最中に電話が鳴った. Read さいちゅう here; もなか is a sweet written with the same kanji.",
+      "example_sentence": "試合の最中に、急に雨が降り出した。",
+      "example_reading": "しあい の さいちゅう に、 きゅう に あめ が ふりだした。",
+      "example_meaning": "Right in the middle of the game, it suddenly started to rain."
+    },
+    {
+      "word": "亡くなる",
+      "reading": "なくなる",
+      "meanings": [
+        "to die",
+        "to pass away"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "死ぬ",
+      "category": "disaster",
+      "scene": "The owner tells them that hundreds of people died when the fragment struck the town.",
+      "context": "The polite, gentle way to say 死ぬ about people: 祖父が亡くなった. Same sound as 無くなる (to be lost, run out) — the kanji tell them apart. 亡くなった方 = the deceased.",
+      "example_sentence": "祖母が亡くなって、もう五年になる。",
+      "example_reading": "そぼ が なくなって、 もう ごねん に なる。",
+      "example_meaning": "It's been five years since my grandmother passed away."
+    },
+    {
+      "word": "死者",
+      "reading": "ししゃ",
+      "meanings": [
+        "the dead",
+        "fatalities",
+        "death toll"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "亡くなった人",
+      "category": "disaster",
+      "scene": "The disaster is told in numbers: how many dead, how many missing.",
+      "context": "News word: 死者が出る (there are deaths), 死者数 (death toll). 死亡 (しぼう) = death (formal, in reports); 犠牲者 (hard deck) = victims. In speech 亡くなった人 is gentler.",
+      "example_sentence": "その事故で、三人の死者が出た。",
+      "example_reading": "その じこ で、 さんにん の ししゃ が でた。",
+      "example_meaning": "Three people died in that accident."
+    },
+    {
+      "word": "数百",
+      "reading": "すうひゃく",
+      "meanings": [
+        "several hundred",
+        "hundreds"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "何百",
+      "category": "disaster",
+      "scene": "Hundreds of people were killed, the owner says.",
+      "context": "数 (すう) before a number = several: 数人 (a few people), 数日 (a few days), 数年前 (several years ago), 数千 (thousands). In speech: 何百人 (なんびゃくにん) = hundreds of people.",
+      "example_sentence": "コンサートには、数百人のファンが集まった。",
+      "example_reading": "コンサート には、 すうひゃくにん の ファン が あつまった。",
+      "example_meaning": "Several hundred fans gathered for the concert."
+    },
+    {
+      "word": "悲劇",
+      "reading": "ひげき",
+      "meanings": [
+        "tragedy"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "悲しい出来事",
+      "category": "disaster",
+      "scene": "The comet everyone came out to watch turned into a tragedy for 糸守.",
+      "context": "悲劇 = a tragedy (a real event, or a play); 悲劇的 = tragic. Opposite: 喜劇 (きげき, comedy). 劇 = drama (演劇, 劇場).",
+      "example_sentence": "その事故は、町の歴史に残る悲劇となった。",
+      "example_reading": "その じこ は、 まち の れきし に のこる ひげき と なった。",
+      "example_meaning": "That accident became a tragedy remembered in the town's history."
+    },
+    {
+      "word": "驚く",
+      "reading": "おどろく",
+      "meanings": [
+        "to be surprised",
+        "to be shocked",
+        "to be amazed"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "びっくりする",
+      "category": "feelings",
+      "scene": "What the owner tells them comes as a shock to all three.",
+      "context": "〜に驚く = to be surprised at something. びっくりする is the casual everyday word; 驚く sounds a little more written. 驚いたことに = to my surprise.",
+      "example_sentence": "久しぶりに会った弟の背が高くなっていて、驚いた。",
+      "example_reading": "ひさしぶり に あった おとうと の せ が たかく なって いて、 おどろいた。",
+      "example_meaning": "I was surprised at how tall my little brother had grown since I last saw him."
+    },
+    {
+      "word": "嘘",
+      "reading": "うそ",
+      "meanings": [
+        "lie",
+        "No way! / You're kidding! (exclamation)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "The natural reaction to news like this: no way — it can't be true.",
+      "context": "嘘をつく = to tell a lie. As an exclamation, 嘘！ / 嘘でしょ？ / 嘘だろ (rough) = No way! You're kidding! Often written in kana or katakana (ウソ).",
+      "example_sentence": "彼は嘘をつくと、すぐ顔が赤くなる。",
+      "example_reading": "かれ は うそ を つく と、 すぐ かお が あかく なる。",
+      "example_meaning": "Whenever he tells a lie, his face turns red right away."
+    },
+    {
+      "word": "冗談",
+      "reading": "じょうだん",
+      "meanings": [
+        "joke",
+        "jest"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Shock talk: news so impossible that it sounds like a bad joke.",
+      "context": "冗談を言う = to joke (not 冗談をする). 冗談でしょ？ / 冗談だろ？ = You're kidding, right? 冗談じゃない = no joke / no way (angry).",
+      "example_sentence": "冗談だと思ったら、本当の話だった。",
+      "example_reading": "じょうだん だ と おもったら、 ほんとう の はなし だった。",
+      "example_meaning": "I thought it was a joke, but it turned out to be true."
+    },
+    {
+      "word": "間違い",
+      "reading": "まちがい",
+      "meanings": [
+        "mistake",
+        "error"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ミス",
+      "category": "story_terms",
+      "scene": "瀧 insists there must be some mistake — the town and 三葉 can't have been gone for three years.",
+      "context": "何かの間違い = some mistake; 間違いない = no doubt, definitely. Verb: 間違える (to get something wrong). 間違い電話 = a wrong number.",
+      "example_sentence": "この住所は、きっと何かの間違いだと思います。",
+      "example_reading": "この じゅうしょ は、 きっと なにか の まちがい だ と おもいます。",
+      "example_meaning": "I'm sure this address must be some kind of mistake."
+    },
+    {
+      "word": "頭が真っ白になる",
+      "reading": "あたまがまっしろになる",
+      "meanings": [
+        "one's mind goes blank"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "何も考えられない",
+      "category": "feelings",
+      "scene": "As the truth about 糸守 sinks in, 瀧 can't think at all.",
+      "context": "真っ白 (まっしろ, with small っ) = pure white; with 頭 it means your mind goes blank from shock or nerves. Compare 目の前が真っ暗になる = everything goes dark (despair).",
+      "example_sentence": "面接で名前を聞かれた瞬間、頭が真っ白になった。",
+      "example_reading": "めんせつ で なまえ を きかれた しゅんかん、 あたま が まっしろ に なった。",
+      "example_meaning": "The moment they asked my name in the interview, my mind went blank."
+    },
+    {
+      "word": "崩れる",
+      "reading": "くずれる",
+      "meanings": [
+        "to collapse",
+        "to crumble",
+        "to fall apart"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "壊れる",
+      "category": "disaster",
+      "scene": "At the fenced-off site by the lake, broken buildings are all that's left of the streets 瀧 remembers.",
+      "context": "崩れる (intransitive) / 崩す (transitive). 建物が崩れる, 土砂崩れ (landslide), 天気が崩れる (weather turns bad), 体調を崩す (to fall ill). 壊れる = to break (machines, objects).",
+      "example_sentence": "大雨で、山の道が崩れてしまった。",
+      "example_reading": "おおあめ で、 やま の みち が くずれて しまった。",
+      "example_meaning": "The heavy rain caused the mountain road to collapse."
+    },
+    {
+      "word": "残る",
+      "reading": "のこる",
+      "meanings": [
+        "to remain",
+        "to be left (over)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "disaster",
+      "scene": "Of the lively town 瀧 remembers, almost nothing remains.",
+      "context": "残る (intransitive) = to remain; 残す (transitive) = to leave behind: 何も残っていない (nothing is left), 記憶に残る (to stay in your memory), メモを残す (to leave a note).",
+      "example_sentence": "冷蔵庫に、昨日のカレーがまだ少し残っている。",
+      "example_reading": "れいぞうこ に、 きのう の カレー が まだ すこし のこって いる。",
+      "example_meaning": "There's still a little of yesterday's curry left in the fridge."
+    },
+    {
+      "word": "黙る",
+      "reading": "だまる",
+      "meanings": [
+        "to fall silent",
+        "to say nothing"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "何も言わない",
+      "category": "feelings",
+      "scene": "Looking over the ruins, no one knows what to say, and the three fall silent.",
+      "context": "黙る = to stop talking; 黙って = silently, or without telling anyone (黙って出かける). 黙れ！ = Shut up! (rough). 沈黙 (ちんもく) is the written noun.",
+      "example_sentence": "先生に注意されて、クラスのみんなが黙った。",
+      "example_reading": "せんせい に ちゅうい されて、 クラス の みんな が だまった。",
+      "example_meaning": "When the teacher told us off, the whole class fell silent."
+    },
+    {
+      "word": "実際",
+      "reading": "じっさい",
+      "meanings": [
+        "actually",
+        "in reality",
+        "in practice"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "本当に",
+      "category": "story_terms",
+      "scene": "Standing in the ruins, 瀧 sees with his own eyes what actually happened to the town.",
+      "context": "実際に = actually, for real (実際に見る = to see it in person); 実際は = in reality (against what you thought). 実際の話 = a true story.",
+      "example_sentence": "写真で見るより、実際の山はずっと大きかった。",
+      "example_reading": "しゃしん で みる より、 じっさい の やま は ずっと おおきかった。",
+      "example_meaning": "The real mountain was much bigger than it looked in photos."
+    },
+    {
+      "word": "消える",
+      "reading": "きえる",
+      "meanings": [
+        "to disappear",
+        "to vanish",
+        "to go out (light, fire)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なくなる",
+      "category": "time_memory",
+      "scene": "三葉's diary entries vanish from 瀧's phone — and before long his memories start to vanish too.",
+      "context": "消える (intransitive) / 消す (transitive: 電気を消す, 字を消す). 消えてしまう = to vanish for good; 跡形もなく消える = to vanish without a trace. Also for lights, sounds and feelings.",
+      "example_sentence": "空に虹が出たが、すぐに消えてしまった。",
+      "example_reading": "そら に にじ が でた が、 すぐ に きえて しまった。",
+      "example_meaning": "A rainbow appeared in the sky, but it soon faded away."
+    },
+    {
+      "word": "焦る",
+      "reading": "あせる",
+      "meanings": [
+        "to panic",
+        "to feel rushed",
+        "to be impatient"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "As 三葉's diary entries vanish before his eyes, 瀧 panics.",
+      "context": "焦る = to feel rushed, impatient or panicky inside (焦らないで = don't rush, take it easy). 慌てる is more about flustered actions. 焦げる (こげる, food burns) shares the kanji.",
+      "example_sentence": "時間がなくて焦ったので、答えを書き間違えた。",
+      "example_reading": "じかん が なくて あせった ので、 こたえ を かきまちがえた。",
+      "example_meaning": "I was so rushed for time that I wrote the wrong answer."
+    },
+    {
+      "word": "落ち着く",
+      "reading": "おちつく",
+      "meanings": [
+        "to calm down",
+        "to settle down"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "As 瀧 grows frantic, 司 and 奥寺先輩 try to calm him down.",
+      "context": "落ち着いて！ / 落ち着け！ = Calm down! 落ち着いた人 = a calm, composed person; 落ち着かない = restless, unable to settle.",
+      "example_sentence": "深呼吸をしたら、少し気持ちが落ち着いた。",
+      "example_reading": "しんこきゅう を したら、 すこし きもち が おちついた。",
+      "example_meaning": "After I took a deep breath, I felt a little calmer."
+    },
+    {
+      "word": "記事",
+      "reading": "きじ",
+      "meanings": [
+        "article",
+        "news story"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "At the library, 瀧 reads old newspaper articles about the comet disaster.",
+      "context": "新聞記事 = newspaper article; 記事を読む / 書く; ネットの記事 = online article. 記者 (きしゃ) = reporter. Same sound as 生地 (fabric, dough) — the kanji tell them apart.",
+      "example_sentence": "新聞に、私たちの学校の記事が載った。",
+      "example_reading": "しんぶん に、 わたしたち の がっこう の きじ が のった。",
+      "example_meaning": "An article about our school appeared in the newspaper."
+    },
+    {
+      "word": "資料",
+      "reading": "しりょう",
+      "meanings": [
+        "materials",
+        "documents",
+        "records",
+        "data"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "瀧 pores over books and records about 糸守 and the comet at the library.",
+      "context": "資料 = reference material or documents you use to study or present: 資料を集める, 会議の資料, 歴史の資料. 記録 = a record of what happened (narrower).",
+      "example_sentence": "レポートを書くために、図書館で資料を集めた。",
+      "example_reading": "レポート を かく ため に、 としょかん で しりょう を あつめた。",
+      "example_meaning": "I gathered materials at the library to write my report."
+    },
+    {
+      "word": "事実",
+      "reading": "じじつ",
+      "meanings": [
+        "fact",
+        "truth",
+        "what really happened"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "本当のこと",
+      "category": "story_terms",
+      "scene": "The archives set out the facts in black and white — facts 瀧 doesn't want to accept.",
+      "context": "事実 = what actually happened: 事実を知る, 事実を受け入れる. 真実 (しんじつ) = the truth (deeper, more emotional). 実は = actually, to tell the truth.",
+      "example_sentence": "彼の話は、事実とは少し違っていた。",
+      "example_reading": "かれ の はなし は、 じじつ と は すこし ちがって いた。",
+      "example_meaning": "His story was a little different from what actually happened."
+    },
+    {
+      "word": "載る",
+      "reading": "のる",
+      "meanings": [
+        "to appear (in print)",
+        "to be listed",
+        "to be on (a page, a list)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "書いてある",
+      "category": "story_terms",
+      "scene": "In the list of the dead, 瀧 finds names he knows — 三葉's among them.",
+      "context": "載る = to be printed or listed: 新聞に載る, 名簿に名前が載っている. Transitive: 載せる (to print, to post). Same sound as 乗る (to ride) — different kanji.",
+      "example_sentence": "辞書に載っていない言葉を見つけた。",
+      "example_reading": "じしょ に のって いない ことば を みつけた。",
+      "example_meaning": "I found a word that isn't in the dictionary."
+    },
+    {
+      "word": "日付",
+      "reading": "ひづけ",
+      "meanings": [
+        "date (written on something)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "日にち",
+      "category": "time_memory",
+      "scene": "The dates in the newspapers and the dates 瀧 remembers don't match — they are three years apart.",
+      "context": "日付 = the date on a document, diary or receipt: 日付を書く, 日付が変わる (it passes midnight). 日にち = the day of an event (日にちを決める); 日時 = date and time.",
+      "example_sentence": "手紙の日付を見ると、十年前のものだった。",
+      "example_reading": "てがみ の ひづけ を みる と、 じゅうねん まえ の もの だった。",
+      "example_meaning": "Looking at the date on the letter, I saw it was from ten years ago."
+    },
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "meanings": [
+        "the past"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "昔",
+      "category": "time_memory",
+      "scene": "瀧 realises that the 三葉 he knew was living in the past — three years earlier.",
+      "context": "過去 = the past (neutral, a bit formal); 昔 = long ago (casual, often distant). 現在 (the present) and 未来 (the future) complete the set. 過去形 = past tense.",
+      "example_sentence": "過去のことを考えても、しかたがない。",
+      "example_reading": "かこ の こと を かんがえて も、 しかた が ない。",
+      "example_meaning": "There's no point dwelling on the past."
+    },
+    {
+      "word": "勘違い",
+      "reading": "かんちがい",
+      "meanings": [
+        "misunderstanding",
+        "mistaken belief",
+        "mix-up"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "間違い",
+      "category": "time_memory",
+      "scene": "Faced with the records, a question hangs in the air: could 瀧 somehow have mixed it all up?",
+      "context": "勘違いする = to get the wrong idea about a fact or someone's feelings. 間違い is any error; 勘違い is a mistake in what you believed. 勘違いしないで = don't get the wrong idea.",
+      "example_sentence": "会議は明日だと勘違いしていた。",
+      "example_reading": "かいぎ は あした だ と かんちがい して いた。",
+      "example_meaning": "I'd mistakenly thought the meeting was tomorrow."
+    },
+    {
+      "word": "受け入れる",
+      "reading": "うけいれる",
+      "meanings": [
+        "to accept",
+        "to come to terms with",
+        "to take in"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "認める",
+      "category": "feelings",
+      "scene": "瀧 struggles to accept that the town — and 三葉 — were lost three years ago.",
+      "context": "受け入れる = to accept facts, people or requests: 現実を受け入れる, 事実を受け入れる; also to take people in (留学生を受け入れる). 受け取る = to receive a thing.",
+      "example_sentence": "負けたことを、なかなか受け入れられなかった。",
+      "example_reading": "まけた こと を、 なかなか うけいれられなかった。",
+      "example_meaning": "It took me a long time to accept that we had lost."
+    },
+    {
+      "word": "一晩",
+      "reading": "ひとばん",
+      "meanings": [
+        "one night",
+        "overnight"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "time_memory",
+      "scene": "The town was destroyed in a single night — and after the library the three spend a night at an inn.",
+      "context": "一晩中 = all night long; 一晩泊まる = to stay one night. For hotel stays the counter is 泊: 一泊 (いっぱく) = one night, 二泊 (にはく) = two nights.",
+      "example_sentence": "一晩寝たら、熱が下がった。",
+      "example_reading": "ひとばん ねたら、 ねつ が さがった。",
+      "example_meaning": "After a night's sleep, my fever went down."
+    },
+    {
+      "word": "旅館",
+      "reading": "りょかん",
+      "meanings": [
+        "Japanese-style inn",
+        "ryokan"
+      ],
+      "jlpt": "N4",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "The three stay the night at an inn after the library.",
+      "context": "旅館 = a traditional Japanese inn (tatami rooms, futons, often dinner included). 宿 (やど, hard deck) is the general word for a place to stay; ホテル is Western-style; 民宿 (みんしゅく) = a family-run guesthouse.",
+      "example_sentence": "温泉のある旅館に二泊した。",
+      "example_reading": "おんせん の ある りょかん に にはく した。",
+      "example_meaning": "We stayed two nights at an inn with a hot spring."
+    },
+    {
+      "word": "泊まる",
+      "reading": "とまる",
+      "meanings": [
+        "to stay (overnight)",
+        "to lodge"
+      ],
+      "jlpt": "N4",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Far from home, the three stay overnight in the area before 瀧's next step.",
+      "context": "〜に泊まる = to stay overnight somewhere (ホテルに泊まる, 友だちの家に泊まる). Same sound as 止まる (to stop) — different kanji. 泊める = to put someone up.",
+      "example_sentence": "今夜は、友だちの家に泊まるつもりだ。",
+      "example_reading": "こんや は、 ともだち の いえ に とまる つもり だ。",
+      "example_meaning": "Tonight I'm planning to stay at a friend's place."
+    },
+    {
+      "word": "夜中",
+      "reading": "よなか",
+      "meanings": [
+        "the middle of the night",
+        "late at night"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "夜遅く",
+      "category": "time_memory",
+      "scene": "Late that night at the inn, 瀧 is still trying to hold on to her name.",
+      "context": "夜中 = the middle of the night (roughly midnight to the small hours); 真夜中 (まよなか) = the dead of night. 夜中に目が覚める = to wake up in the night.",
+      "example_sentence": "夜中に地震があって、目が覚めた。",
+      "example_reading": "よなか に じしん が あって、 め が さめた。",
+      "example_meaning": "There was an earthquake in the middle of the night, and it woke me up."
+    },
+    {
+      "word": "確か",
+      "reading": "たしか",
+      "meanings": [
+        "if I remember right",
+        "I think (it was) …",
+        "certain, reliable (な-adj.)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "たぶん",
+      "category": "time_memory",
+      "scene": "At the inn, 瀧 reaches for her name with an 'I'm sure it was …' — and it won't come.",
+      "context": "At the start of a sentence, 確か = 'if I remember correctly' (確か三時だったと思う). As a な-adjective it means certain or reliable (確かな情報). 確かに = certainly, indeed.",
+      "example_sentence": "あの店は、確か月曜日が休みだったと思う。",
+      "example_reading": "あの みせ は、 たしか げつようび が やすみ だった と おもう。",
+      "example_meaning": "If I remember right, that shop is closed on Mondays."
+    },
+    {
+      "word": "浮かぶ",
+      "reading": "うかぶ",
+      "meanings": [
+        "to come to mind",
+        "to float"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "思いつく",
+      "category": "time_memory",
+      "scene": "瀧 tries to picture 三葉's face and name, but they won't come to mind clearly.",
+      "context": "頭に浮かぶ / 心に浮かぶ = to come to mind; 顔が浮かぶ = someone's face comes to mind. Literal sense: to float (空に雲が浮かぶ). Transitive: 浮かべる (涙を浮かべる = eyes fill with tears).",
+      "example_sentence": "いいアイデアが、なかなか浮かばない。",
+      "example_reading": "いい アイデア が、 なかなか うかばない。",
+      "example_meaning": "A good idea just won't come to me."
+    },
+    {
+      "word": "どうしても",
+      "reading": "どうしても",
+      "meanings": [
+        "no matter what (I try)",
+        "simply (can't)",
+        "at all costs"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "全然",
+      "category": "literary",
+      "scene": "No matter how hard he tries, 瀧 simply can't bring back her name.",
+      "context": "With a negative: どうしても〜ない = just can't, however hard you try (どうしても思い出せない). With a positive: どうしても〜たい = want to at any cost (どうしても会いたい).",
+      "example_sentence": "どうしても、この問題の答えがわからない。",
+      "example_reading": "どうしても、 この もんだい の こたえ が わからない。",
+      "example_meaning": "No matter how hard I try, I can't work out the answer to this problem."
+    },
+    {
+      "word": "次第に",
+      "reading": "しだいに",
+      "meanings": [
+        "gradually",
+        "little by little"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "だんだん",
+      "category": "time_memory",
+      "scene": "Little by little, 瀧's memories of 三葉 begin to fade.",
+      "context": "次第に = gradually — a more written word than だんだん. Usually with a verb of change: 次第に暗くなる, 次第に薄れる. Not the grammar 〜次第 (as soon as / depending on).",
+      "example_sentence": "雨は、夜になると次第に強くなった。",
+      "example_reading": "あめ は、 よる に なる と しだいに つよく なった。",
+      "example_meaning": "As night came on, the rain gradually grew heavier."
+    }
+  ]
+}

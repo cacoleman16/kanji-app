@@ -8,30 +8,37 @@ chapter-by-chapter study guides, and how to make the decks more accurate as you 
 
 ## What already exists
 
-Each chapter has two decks, grouped in the app under one Vocabulary tile: **君の名は。 (Your Name) — Novel**.
+Each chapter has three decks, grouped in the app under one Vocabulary tile: **君の名は。 (Your Name) — Novel**.
 
-| Ch. | Title | Vocabulary cards | Grammar & Expressions cards |
-|---|---|---|---|
-| 1 | 夢（ゆめ）: Dream | 59 | 15 |
-| 2 | 端緒（たんしょ）: The First Clue | 70 | 19 |
-| 3 | 日々（ひび）: Days | 67 | 16 |
-| 4 | 探訪（たんぼう）: The Search | 65 | 19 |
-| 5 | 記憶（きおく）: Memory | 56 | 14 |
-| 6 | 再演（さいえん）: Re-staging | 59 | 14 |
-| 7 | うつくしく、もがく: Beautifully, Struggling | 51 | 12 |
-| 8 | 君の名は。（きみのなは）: Your Name Is… | 53 | 12 |
-| | **Total** | **480** | **121** |
+- **Core Words (N4–N3)**: the everyday backbone words of the chapter, mostly N4–N3 plus a few common N2
+  words and set phrases (跡形もなく, 思わず). Study this deck first.
+- **Vocabulary**: the harder words: N2–N1, literary narration, and story terms (組紐, 口噛み酒 …).
+- **Grammar & Expressions**: N3–N1 patterns, written-style devices, and Itomori dialect.
+
+| Ch. | Title | Core Words | Vocabulary | Grammar & Expressions |
+|---|---|---|---|---|
+| 1 | 夢（ゆめ）: Dream | 51 | 75 | 21 |
+| 2 | 端緒（たんしょ）: The First Clue | 58 | 69 | 19 |
+| 3 | 日々（ひび）: Days | 55 | 67 | 16 |
+| 4 | 探訪（たんぼう）: The Search | 56 | 64 | 19 |
+| 5 | 記憶（きおく）: Memory | 55 | 56 | 14 |
+| 6 | 再演（さいえん）: Re-staging | 57 | 59 | 14 |
+| 7 | うつくしく、もがく: Beautifully, Struggling | 55 | 51 | 12 |
+| 8 | 君の名は。（きみのなは）: Your Name Is… | 54 | 53 | 12 |
+| | **Total** | **441** | **494** | **127** |
 
 Files are in `agent-files/` (they need the `vocab_` prefix so `pipeline/bundle.py` picks them up):
 
 ```
+agent-files/vocab_kiminonawa_chN_core.json     ← core words (N4–N3),   deck_id kiminonawa-chN-core
 agent-files/vocab_kiminonawa_chN.json          ← vocabulary,           deck_id kiminonawa-chN-vocab
 agent-files/vocab_kiminonawa_chN_grammar.json  ← grammar & expressions, deck_id kiminonawa-chN-grammar
 ```
 
 **How accurate are they?**
 - **Chapter 1, opening page (p.5):** checked against a photo of the printed page. The words from the reader's
-  notebook (匂い, 愛おしい, 光, 温度, 隙間, 結びつく, 乳房, 開く, 第一章) are tagged `"flagged_in_notebook": true`.
+  notebook (匂い, 愛おしい, 光, 温度, 隙間, 結びつく, 乳房, 開く, 第一章), plus 跡形もなく and 体験, which the
+  reader flagged later in Chapter 1, are tagged `"flagged_in_notebook": true`.
 - **Everything else:** built from each chapter's scenes and the novel's style, not copied from the book page by
   page. Expect a few words to sit a chapter early or late, and some words the book uses to be missing.
   The "Refine a deck from page photos" prompt below fixes that.
@@ -69,8 +76,8 @@ guides and future features.
 > You're working in the `kanji-app` repo. Read `study-guides/kimi-no-na-wa/README.md` first.
 >
 > Make a study guide for **君の名は。 Chapter N** (replace N). Inputs:
-> - `agent-files/vocab_kiminonawa_chN.json` and `agent-files/vocab_kiminonawa_chN_grammar.json`. These are
->   the source of truth for readings and meanings; if you find a mistake, fix it in the JSON too.
+> - `agent-files/vocab_kiminonawa_chN_core.json`, `agent-files/vocab_kiminonawa_chN.json` and
+>   `agent-files/vocab_kiminonawa_chN_grammar.json`. These are the source of truth for readings and meanings; if you find a mistake, fix it in the JSON too.
 > - Any page photos or notebook photos I attach for this chapter.
 >
 > Write `study-guides/kimi-no-na-wa/chNN-<romanised title>.md` (e.g. `ch01-yume.md`) with these sections:
@@ -79,9 +86,10 @@ guides and future features.
 >    parentheses after hard kanji), then the same summary in English. Cover only this chapter and earlier;
 >    no spoilers from later chapters.
 > 2. **Who and where**: characters and places that appear, with readings (三葉 みつは, 糸守町 いともりまち …).
-> 3. **Read these first**: the 10–15 `high`-priority words, one line each: word, reading, meaning.
-> 4. **Vocabulary by scene**: every card in the vocab deck, grouped by scene in story order, as a table
->    (word | reading | meaning | note). Mark notebook words with ★.
+> 3. **Read these first**: the 10–15 `high`-priority words across the Core and Vocabulary decks, one line
+>    each: word, reading, meaning.
+> 4. **Vocabulary by scene**: every card in the Core and Vocabulary decks, grouped by scene in story order,
+>    as a table (word | reading | meaning | note). Mark Core words with ○ and notebook words with ★.
 > 5. **Grammar and style**: each grammar card explained in 3–6 lines: formation, nuance, how it differs from
 >    the closest pattern an N3 learner knows, plus one new original example sentence (not the card's).
 > 6. **Dialect corner** (if the chapter has dialect): Itomori form → standard Japanese → English.
@@ -112,18 +120,21 @@ Use this whenever you've photographed pages or notebook pages for a chapter.
 
 > You're working in the `kanji-app` repo. Read `study-guides/kimi-no-na-wa/README.md` first.
 >
-> I've attached photos of pages from **君の名は。 Chapter N** and/or my notebook for it. Update
-> `agent-files/vocab_kiminonawa_chN.json` and `agent-files/vocab_kiminonawa_chN_grammar.json`:
+> I've attached photos of pages from **君の名は。 Chapter N** and/or my notebook for it. Update the three
+> Chapter N decks: `agent-files/vocab_kiminonawa_chN_core.json` (N4–N3 everyday words and common phrases),
+> `agent-files/vocab_kiminonawa_chN.json` (harder words, N2–N1 and literary) and
+> `agent-files/vocab_kiminonawa_chN_grammar.json`:
 > 1. Read the pages. For every word in my notebook, make sure a card exists (add one if not) and set
 >    `"flagged_in_notebook": true`. Use the reading printed in the book's furigana.
-> 2. Add words and grammar from the pages that an N3 learner probably doesn't know and that aren't in
->    the deck. Follow the card format already in the file.
+> 2. Add words and grammar from the pages that an N3 learner may not know solidly and that aren't in any
+>    deck yet. N4–N3 words and common set phrases go in the Core deck; N2–N1, literary and story words go
+>    in the Vocabulary deck. Follow the card format already in the files.
 > 3. If a card's `scene` doesn't match what the pages show, fix the `scene`. If a word clearly belongs to
 >    another chapter, move it to that chapter's deck. Never keep the same `word` in two chapters of this
 >    novel (earliest chapter wins).
 > 4. Example sentences must be your own, not copied from the book. No romaji.
 > 5. Update `card_count` and the deck `notes` (say which pages are now checked against the book).
-> 6. Run `python3 pipeline/bundle.py`, check both decks load (each `card_count` should print), then commit
+> 6. Run `python3 pipeline/bundle.py`, check the decks load (each `card_count` should print), then commit
 >    and open a PR.
 
 ---
