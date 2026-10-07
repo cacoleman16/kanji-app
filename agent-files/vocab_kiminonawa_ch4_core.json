@@ -9,7 +9,7 @@
   "chapter_title_meaning": "The Search",
   "learner_level": "N3",
   "notes": "Everyday words for Chapter 4 — mostly N4–N3, plus a few common N2 words and set phrases. Built from the chapter's scenes (the trip to Hida, asking around, the ramen shop, the news of the disaster, the ruins, the library and the inn), not copied page by page; these are the words the main Vocabulary deck skipped as 'too easy', so study this deck before it. Example sentences are original.",
-  "card_count": 56,
+  "card_count": 53,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -35,26 +35,6 @@
     "town_life"
   ],
   "cards": [
-    {
-      "word": "連絡",
-      "reading": "れんらく",
-      "meanings": [
-        "contact",
-        "getting in touch",
-        "message"
-      ],
-      "jlpt": "N4",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "story_terms",
-      "scene": "The chapter opens with 瀧 unable to get in touch with 三葉 by any means.",
-      "context": "連絡する = to contact, get in touch; 連絡を取る = to get in touch; 連絡先 = contact details. The set phrase 連絡がつかない (can't reach someone) has its own card in the grammar deck.",
-      "example_sentence": "駅に着いたら、すぐ連絡してください。",
-      "example_reading": "えき に ついたら、 すぐ れんらく して ください。",
-      "example_meaning": "Please get in touch as soon as you reach the station."
-    },
     {
       "word": "返事",
       "reading": "へんじ",
@@ -345,25 +325,6 @@
       "example_meaning": "The key I lost never turned up in the end."
     },
     {
-      "word": "諦める",
-      "reading": "あきらめる",
-      "meanings": [
-        "to give up",
-        "to abandon (a hope)"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "やめる",
-      "category": "feelings",
-      "scene": "After a whole day with no luck, 瀧 comes close to giving up the search.",
-      "context": "Often written in kana (あきらめる); 諦 is a hard kanji. 〜を諦める = to give up on something. やめる just means to stop; 諦める means letting go of a hope.",
-      "example_sentence": "雨が強くなったので、山に登るのを諦めた。",
-      "example_reading": "あめ が つよく なった ので、 やま に のぼる の を あきらめた。",
-      "example_meaning": "The rain got heavier, so we gave up on climbing the mountain."
-    },
-    {
       "word": "腹が減る",
       "reading": "はらがへる",
       "meanings": [
@@ -400,25 +361,6 @@
       "example_sentence": "このパン屋の主人は、毎朝四時に起きるそうだ。",
       "example_reading": "この パンや の しゅじん は、 まいあさ よじ に おきる そう だ。",
       "example_meaning": "I hear the owner of this bakery gets up at four every morning."
-    },
-    {
-      "word": "ようやく",
-      "reading": "ようやく",
-      "meanings": [
-        "finally",
-        "at last (after a long time)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "やっと",
-      "category": "literary",
-      "scene": "After a day of blank looks, the three at last meet someone who knows the town.",
-      "context": "ようやく = at last, after a long wait or effort — a slightly more written word than やっと. ついに has a stronger sense of 'in the end it came to this' (good or bad). The kanji 漸く is rare.",
-      "example_sentence": "三時間待って、ようやく順番が来た。",
-      "example_reading": "さんじかん まって、 ようやく じゅんばん が きた。",
-      "example_meaning": "After waiting three hours, my turn finally came."
     },
     {
       "word": "災害",

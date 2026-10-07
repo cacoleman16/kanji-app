@@ -8,8 +8,8 @@
   "chapter_title_reading": "ゆめ",
   "chapter_title_meaning": "Dream",
   "learner_level": "N3",
-  "notes": "Grammar, literary devices and Itomori dialect for Chapter 1. The opening-page cards (p.5) are checked against the printed page, and the words you wrote in your notebook are tagged flagged_in_notebook. The rest — 三葉's morning, the comet on the news, the twilight lesson in class, braiding cords with her grandmother, and the shrine ritual — is built from the chapter's scenes and the novel's style, not copied out page by page, so a few words may turn up a chapter early or late. Example sentences are original, not quoted from the book.",
-  "card_count": 21,
+  "notes": "Grammar and written-style devices for Chapter 1. In this edition Chapter 1 is just the prologue (pp.5–8), and every card here is checked against the printed pages; each card's scene gives its page. Words from your notebook are tagged flagged_in_notebook. Example sentences are original, not quoted from the book.",
+  "card_count": 15,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -26,8 +26,6 @@
     "hard": "Rare kanji or irregular reading — learn the kana form first."
   },
   "categories": [
-    "casual_speech",
-    "dialect",
     "expression",
     "grammar",
     "literary_style"
@@ -46,12 +44,13 @@
       "kanji_difficulty": "medium",
       "simpler_synonym": "",
       "category": "literary_style",
-      "scene": "Opening page (p.5) — the waking sequence is a chain of one-noun sentences: ceiling, room, morning, alone, Tokyo.",
+      "scene": "p.5 — the waking lines are one-noun sentences: ceiling, room, morning, alone, Tokyo. pp.7–8 use the same device.",
       "context": "Form: … Noun。 — the sentence stops on a noun with no だ/です and no verb. It works like quick camera cuts: each noun is a snapshot. Read them as 'There's the …' / 'It's …'. 新海誠 uses it constantly.",
       "example_sentence": "夏の夜。静かな湖。遠くで聞こえる祭りの音。",
       "example_reading": "なつ の よる。 しずかな みずうみ。 とおく で きこえる まつり の おと。",
       "example_meaning": "A summer night. A still lake. The sound of a festival far away.",
-      "pattern": "… Noun。 (no verb or copula)"
+      "pattern": "… Noun。 (no verb or copula)",
+      "page": 5
     },
     {
       "word": "〜る (narrative present)",
@@ -66,12 +65,13 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "",
       "category": "literary_style",
-      "scene": "Opening page (p.5) — 目が開く, くっついている — the narration is in the present tense.",
+      "scene": "pp.5–8 — the whole prologue is narrated in the present tense: 目が開く, 私は乗る, 探している.",
       "context": "Form: dictionary / 〜ている forms in narration, mixed with 〜た. Present tense puts you inside the moment, like watching a film. Shifting to 〜た often signals looking back or a step outside the moment. In English you can usually translate either way.",
       "example_sentence": "電車が止まる。ドアが開く。私は一歩、外に出た。",
       "example_reading": "でんしゃ が とまる。 ドア が ひらく。 わたし は いっぽ、 そと に でた。",
       "example_meaning": "The train stops. The doors open. I stepped outside.",
-      "pattern": "Dictionary form / 〜ている in narration (instead of 〜た)"
+      "pattern": "Dictionary form / 〜ている in narration (instead of 〜た)",
+      "page": 5
     },
     {
       "word": "〜がたい",
@@ -86,32 +86,13 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "〜にくい",
       "category": "grammar",
-      "scene": "Opening page (p.5) — two people bound so closely they can hardly be separated (分かちがたく).",
+      "scene": "p.5 — two people bound so closely they can hardly be separated (分かちがたく).",
       "context": "Form: Vます-stem + がたい (also written 難い). Unlike 〜にくい (physically or practically hard), 〜がたい means you can't bring yourself to, emotionally or morally: 信じがたい (hard to believe), 忘れがたい (unforgettable), 許しがたい (unforgivable). Written, literary register.",
       "example_sentence": "あの夏の日々は、今でも忘れがたい思い出だ。",
       "example_reading": "あの なつ の ひび は、 いま でも わすれがたい おもいで だ。",
       "example_meaning": "Those summer days are still a memory I can hardly forget.",
-      "pattern": "Vます-stem + がたい"
-    },
-    {
-      "word": "Nなく",
-      "reading": "なく",
-      "meanings": [
-        "without N",
-        "with no N (adverbial)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "Nがなくて / Nなしで",
-      "category": "grammar",
-      "scene": "Opening page (p.5) — 隙間なく — pressed together with no gap at all.",
-      "context": "Form: Noun + なく — the adverb form of 'there is no N'. 隙間なく (with no gaps), 休みなく (without a break), 迷いなく (without hesitation), 間もなく (soon — lit. 'with no interval'). More written than 〜がなくて or 〜なしで.",
-      "example_sentence": "彼女は迷いなく答えを書いた。",
-      "example_reading": "かのじょ は まよい なく こたえ を かいた。",
-      "example_meaning": "She wrote her answer without hesitation.",
-      "pattern": "Noun + なく"
+      "pattern": "Vます-stem + がたい",
+      "page": 5
     },
     {
       "word": "〜なんて",
@@ -127,31 +108,13 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "〜など",
       "category": "grammar",
-      "scene": "Opening page (p.5) — 不安や寂しさなんて — anxiety, loneliness, any of that: none at all.",
+      "scene": "p.5 — 不安や寂しさなんて — anxiety, loneliness, any of that: none at all.",
       "context": "Form: Noun / plain form + なんて. Puts a feeling on the thing named — usually dismissive (宿題なんて = homework, ugh), sometimes amazed (彼が来るなんて! = I can't believe he's coming!). Casual, emotional cousin of など.",
       "example_sentence": "宿題なんて、明日やればいいよ。",
       "example_reading": "しゅくだい なんて、 あした やれば いい よ。",
       "example_meaning": "Homework? You can just do it tomorrow.",
-      "pattern": "Noun / plain form + なんて"
-    },
-    {
-      "word": "〜さ (adjective → noun)",
-      "reading": "さ",
-      "meanings": [
-        "-ness (turns an adjective into a noun)"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "grammar",
-      "scene": "Opening page (p.5) — 寂しさ — loneliness, from 寂しい.",
-      "context": "Form: い-adj stem + さ (寂しい → 寂しさ, 高い → 高さ); な-adj + さ (静か → 静かさ). Turns a quality into a noun you can talk about or measure. 〜み (甘み, 痛み) is closer to the felt sensation.",
-      "example_sentence": "一人になって、友だちの大切さが分かった。",
-      "example_reading": "ひとり に なって、 ともだち の たいせつさ が わかった。",
-      "example_meaning": "Being alone, I understood how precious friends are.",
-      "pattern": "い-adj stem / な-adj + さ"
+      "pattern": "Noun / plain form + なんて",
+      "page": 5
     },
     {
       "word": "〜のかけらもない",
@@ -166,52 +129,13 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "全然〜ない",
       "category": "expression",
-      "scene": "Opening page (p.5) — no anxiety or loneliness — not a shred (なんてかけらもない).",
+      "scene": "p.5 — no anxiety or loneliness — not a shred (なんてかけらもない).",
       "context": "Form: Noun + のかけらもない (or Noun + なんてかけらもない). Emphatic 'zero': 優しさのかけらもない (not a shred of kindness), 反省のかけらもない (not the least bit sorry). かけら = fragment.",
       "example_sentence": "あの人の言葉には、思いやりのかけらもなかった。",
       "example_reading": "あの ひと の ことば に は、 おもいやり の かけら も なかった。",
       "example_meaning": "There wasn't a shred of consideration in what that person said.",
-      "pattern": "Noun + のかけらもない"
-    },
-    {
-      "word": "まるで〜のように",
-      "reading": "まるで〜のように",
-      "meanings": [
-        "just like ~",
-        "as if ~"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜みたいに",
-      "category": "grammar",
-      "scene": "The opening compares the dream to being a nursing baby (〜のように); まるで often leads such comparisons in 新海誠's narration.",
-      "context": "Form: まるで + N の / plain form + ように (adverb) / ような (before a noun); casual: みたいに / みたいな. まるで flags a striking comparison: まるで夢のようだ.",
-      "example_sentence": "雪の朝、町はまるで絵のように静かだった。",
-      "example_reading": "ゆき の あさ、 まち は まるで え の よう に しずか だった。",
-      "example_meaning": "On the snowy morning, the town was as still as a painting.",
-      "pattern": "まるで + N の / plain form + ように・ような"
-    },
-    {
-      "word": "〜のだ (realisation)",
-      "reading": "のだ",
-      "meanings": [
-        "so that's it — ~",
-        "(the truth is) ~ (narration)"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "grammar",
-      "scene": "Opening page (p.5) — ——そうか。 After waking, the narrator realises what's going on.",
-      "context": "Form: plain form + のだ / んだ. In narration, especially right after そうか, のだ marks the moment something clicks: 'So that's it — I was dreaming.' Elsewhere it explains or emphasises. 〜のだった adds a reflective, looking-back feel.",
-      "example_sentence": "そうか、あれは全部夢だったのだ。",
-      "example_reading": "そう か、 あれ は ぜんぶ ゆめ だった の だ。",
-      "example_meaning": "I see — it was all a dream.",
-      "pattern": "Plain form + のだ / んだ"
+      "pattern": "Noun + のかけらもない",
+      "page": 5
     },
     {
       "word": "そうか / そっか",
@@ -226,19 +150,40 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "",
       "category": "expression",
-      "scene": "Opening page (p.5) — ——そうか。 The moment the waking dreamer understands.",
+      "scene": "p.5 — ——そうか。 The moment the waking dreamer understands.",
       "context": "Form: そうか (plain), そっか (casual), そうですか (polite). Falling tone = 'oh, I see / so that's it'; rising tone = 'really?'. In narration, ——そうか。 marks the click of understanding.",
       "example_sentence": "「明日は休みだよ。」「そっか、祝日だったね。」",
       "example_reading": "「あした は やすみ だ よ。」 「そっか、 しゅくじつ だった ね。」",
       "example_meaning": "'Tomorrow's a day off.' 'Oh right, it's a holiday.'",
-      "pattern": "そうか / そっか (plain) · そうですか (polite)"
+      "pattern": "そうか / そっか (plain) · そうですか (polite)",
+      "page": 5
     },
     {
-      "word": "〜に一度 / 〜に一本",
-      "reading": "にいちど / にいっぽん",
+      "word": "Nなく",
+      "reading": "なく",
       "meanings": [
-        "once every ~",
-        "one per ~ (frequency)"
+        "without N",
+        "with no N (adverbial)"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "Nがなくて / Nなしで",
+      "category": "grammar",
+      "scene": "p.5 隙間なく; p.6 跡形もなく, 余韻もなく. The prologue loves this pattern.",
+      "context": "Form: Noun + なく — the adverb form of 'there is no N'. 隙間なく (with no gaps), 休みなく (without a break), 迷いなく (without hesitation), 間もなく (soon — lit. 'with no interval'). More written than 〜がなくて or 〜なしで.",
+      "example_sentence": "彼女は迷いなく答えを書いた。",
+      "example_reading": "かのじょ は まよい なく こたえ を かいた。",
+      "example_meaning": "She wrote her answer without hesitation.",
+      "pattern": "Noun + なく",
+      "page": 5
+    },
+    {
+      "word": "〜さ (adjective → noun)",
+      "reading": "さ",
+      "meanings": [
+        "-ness (turns an adjective into a noun)"
       ],
       "jlpt": "N3",
       "priority": "medium",
@@ -246,19 +191,20 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "",
       "category": "grammar",
-      "scene": "The comet comes round only once in a very long cycle — and in a small town, lots of things come 'once every…'.",
-      "context": "Form: [time span] + に + [count]. 千年に一度 (once every thousand years), 一時間に一本 (one bus/train an hour), 週に三回 (three times a week). The counter changes with the thing counted: 本 for trains and buses, 度/回 for events.",
-      "example_sentence": "このバスは、一時間に一本しか来ない。",
-      "example_reading": "この バス は、 いちじかん に いっぽん しか こない。",
-      "example_meaning": "This bus only comes once an hour.",
-      "pattern": "Time span + に + 一度 / 一回 / 一本 …"
+      "scene": "p.5 寂しさ; p.6 唐突さ, ぬるさ.",
+      "context": "Form: い-adj stem + さ (寂しい → 寂しさ, 高い → 高さ); な-adj + さ (静か → 静かさ). Turns a quality into a noun you can talk about or measure. 〜み (甘み, 痛み) is closer to the felt sensation.",
+      "example_sentence": "一人になって、友だちの大切さが分かった。",
+      "example_reading": "ひとり に なって、 ともだち の たいせつさ が わかった。",
+      "example_meaning": "Being alone, I understood how precious friends are.",
+      "pattern": "い-adj stem / な-adj + さ",
+      "page": 5
     },
     {
-      "word": "〜ぶり",
-      "reading": "ぶり",
+      "word": "〜のだ (realisation)",
+      "reading": "のだ",
       "meanings": [
-        "for the first time in (period)",
-        "after an interval of ~"
+        "so that's it — ~",
+        "(the truth is) ~ (narration)"
       ],
       "jlpt": "N3",
       "priority": "medium",
@@ -266,193 +212,140 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "",
       "category": "grammar",
-      "scene": "News about the comet: its first close pass in an enormously long time.",
-      "context": "Form: [time span] + ぶり (に / の). 三年ぶりに会った (met for the first time in three years); 千年ぶりの接近 (the first approach in a thousand years). Don't mix it up with 〜ぶり meaning 'manner': 話しぶり (way of talking).",
-      "example_sentence": "五年ぶりに故郷の駅に降りた。",
-      "example_reading": "ごねん ぶり に こきょう の えき に おりた。",
-      "example_meaning": "I got off at my hometown station for the first time in five years.",
-      "pattern": "Time span + ぶり(に / の)"
+      "scene": "p.5 ends on ——そうか。 and p.6 opens with the realisation that she was dreaming (夢を見ていたんだ).",
+      "context": "Form: plain form + のだ / んだ. In narration, especially right after そうか, のだ marks the moment something clicks: 'So that's it — I was dreaming.' Elsewhere it explains or emphasises. 〜のだった adds a reflective, looking-back feel.",
+      "example_sentence": "そうか、あれは全部夢だったのだ。",
+      "example_reading": "そう か、 あれ は ぜんぶ ゆめ だった の だ。",
+      "example_meaning": "I see — it was all a dream.",
+      "pattern": "Plain form + のだ / んだ",
+      "page": 6
     },
     {
-      "word": "〜らしい (hearsay)",
-      "reading": "らしい",
+      "word": "〜ような気がする",
+      "reading": "ようなきがする",
       "meanings": [
-        "apparently ~",
-        "I hear that ~"
+        "have a feeling that ~",
+        "it seems to me that ~"
       ],
+      "pattern": "普通形 / Nの + ような気がする",
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "〜そうだ",
+      "simpler_synonym": "〜と思う",
       "category": "grammar",
-      "scene": "News and gossip about the comet: what everyone has heard.",
-      "context": "Form: plain form + らしい (N / な-adj drop だ). Information you got from someone else or the news. Different from 〜らしい meaning 'typical of' (男らしい) and from 〜そうだ (a more direct report of what was said).",
-      "example_sentence": "今夜は、彗星がよく見えるらしい。",
-      "example_reading": "こんや は、 すいせい が よく みえる らしい。",
-      "example_meaning": "Apparently the comet will be easy to see tonight.",
-      "pattern": "Plain form + らしい"
+      "scene": "p.6 — he feels as if he was once surprised by the taste of this water.",
+      "context": "Form: plain form / Nの + ような気がする (or just 〜気がする). Softer and vaguer than 〜と思う: an intuition you can't justify. In this story it marks half-memories, such as どこかで会ったような気がする.",
+      "example_sentence": "誰かに名前を呼ばれたような気がして、目が覚めた。",
+      "example_reading": "だれか に なまえ を よばれた よう な き が して、 め が さめた。",
+      "example_meaning": "I woke up feeling as if someone had called my name.",
+      "page": 6
     },
     {
-      "word": "〜って (casual quote)",
-      "reading": "って",
+      "word": "あまりの〜に",
+      "reading": "あまりの〜に",
       "meanings": [
-        "(they) said ~",
-        "(casual と / という)"
+        "with such (a) ~ that…",
+        "so ~ that…"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "とても〜ので",
+      "category": "grammar",
+      "scene": "p.6 — the waking is so abrupt (あまりの唐突さに) that tears spill.",
+      "context": "Form: あまりの + Noun + に / で — usually a noun made from an adjective (寒さ, 暑さ, 唐突さ). The result is something you couldn't help: あまりの痛みに声が出た.",
+      "example_sentence": "あまりの寒さに、手が動かなくなった。",
+      "example_reading": "あまり の さむさ に、 て が うごかなく なった。",
+      "example_meaning": "It was so cold that my hands stopped working.",
+      "pattern": "あまりの + Noun + に / で",
+      "page": 6
+    },
+    {
+      "word": "〜間もなく",
+      "reading": "まもなく",
+      "meanings": [
+        "without (even) time to ~",
+        "before one can ~"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "〜する時間もなく",
+      "category": "grammar",
+      "scene": "p.6 — tears come before she has time to think anything (なにを思う間もなく).",
+      "context": "Form: Vる / Noun の + 間もなく. Different from the adverb 間もなく = 'soon' (間もなく電車が参ります). Shares the Nなく pattern from p.5.",
+      "example_sentence": "休む間もなく、次の仕事が来た。",
+      "example_reading": "やすむ ま も なく、 つぎ の しごと が きた。",
+      "example_meaning": "Before I had time to rest, the next job came in.",
+      "pattern": "Vる / Noun の + 間もなく",
+      "page": 6
+    },
+    {
+      "word": "〜はず（の）",
+      "reading": "はず",
+      "meanings": [
+        "should (be)",
+        "must have",
+        "supposed to"
       ],
       "jlpt": "N3",
-      "priority": "medium",
+      "priority": "high",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "〜と言っていた",
-      "category": "casual_speech",
-      "scene": "Friends' chatter and gossip, passing on what someone said.",
-      "context": "Form: plain form / N + って = と / という / と言っていた. 来ないって = (they said) they're not coming. As a topic: 彗星って何? = what's a comet, anyway? Very common in dialogue.",
-      "example_sentence": "サヤちん、明日は来られないって。",
-      "example_reading": "サヤちん、 あした は こられない って。",
-      "example_meaning": "Saya-chin says she can't come tomorrow.",
-      "pattern": "Plain form / N + って"
+      "simpler_synonym": "",
+      "category": "grammar",
+      "scene": "p.6 — the dream she should have been having can never be remembered (見ていたはずの夢); p.20 'it should have been an ordinary day'.",
+      "context": "Form: plain form + はず(だ) / N の はず; before a noun: はずの + N. A confident expectation — often one that turns out wrong (〜はずなのに).",
+      "example_sentence": "鍵はかばんに入れたはずなのに、見つからない。",
+      "example_reading": "かぎ は かばん に いれた はず なのに、 みつからない。",
+      "example_meaning": "I'm sure I put the key in my bag, but I can't find it.",
+      "pattern": "Plain form + はず(だ) · はずの + Noun",
+      "page": 6
     },
     {
-      "word": "〜や (＝だ)",
-      "reading": "や",
+      "word": "Vます + 慣れる",
+      "reading": "なれる",
       "meanings": [
-        "is / am / are (copula, = だ)",
-        "western-Japan dialect"
+        "to get used to doing",
+        "well-practised at"
       ],
-      "jlpt": "",
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "grammar",
+      "scene": "p.7 — a necktie he's finally got used to tying (結び慣れて); a Tokyo she's finally used to seeing (見慣れて).",
+      "context": "Form: Vます-stem + 慣れる: 使い慣れる, 履き慣れた靴 (well-worn shoes), 見慣れた景色 (a familiar view). 〜てきた adds 'gradually'. Negative 見慣れない = unfamiliar.",
+      "example_sentence": "履き慣れた靴で、長い道を歩いた。",
+      "example_reading": "はきなれた くつ で、 ながい みち を あるいた。",
+      "example_meaning": "I walked the long road in my well-worn shoes.",
+      "pattern": "Vます-stem + 慣れる",
+      "page": 7
+    },
+    {
+      "word": "気づけば",
+      "reading": "きづけば",
+      "meanings": [
+        "before I knew it",
+        "when I realised"
+      ],
+      "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "だ",
-      "category": "dialect",
-      "scene": "Itomori characters swap だ for や all the time — 三葉 included, especially when she's upset.",
-      "context": "Form: Noun / な-adjective + や. 嫌や (= 嫌だ), そうや (= そうだ), 何や (= 何だ), 〜やった (= だった), 〜やない (= じゃない). Typical of western Japan (Kansai, Gifu/Hida). Itomori's speech is modelled on 飛騨弁.",
-      "example_sentence": "もう、こんな雨の日は嫌や。",
-      "example_reading": "もう、 こんな あめ の ひ は いや や。",
-      "example_meaning": "Ugh, I hate rainy days like this.",
-      "pattern": "Noun / な-adj + や (= だ)"
-    },
-    {
-      "word": "〜とる (＝〜ている)",
-      "reading": "とる",
-      "meanings": [
-        "is ~ing / has ~ed (= 〜ている)",
-        "western-Japan dialect"
-      ],
-      "jlpt": "",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜ている",
-      "category": "dialect",
-      "scene": "Family and friends in Itomori use 〜とる for 〜ている — 'what are you doing?' becomes 何しとるの?",
-      "context": "Form: 〜ている → 〜とる (from 〜ておる). 何しとるの? (= 何しているの?), 知っとる (= 知っている), 見とった (= 見ていた). After a voiced て it becomes 〜どる: 読んどる (= 読んでいる).",
-      "example_sentence": "お母さん、台所で何しとるの？",
-      "example_reading": "おかあさん、 だいどころ で なに しとる の？",
-      "example_meaning": "Mum, what are you doing in the kitchen?",
-      "pattern": "Vて → 〜とる / 〜どる (= 〜ている)"
-    },
-    {
-      "word": "〜ん (＝〜ない)",
-      "reading": "ん",
-      "meanings": [
-        "not (negative, = 〜ない)",
-        "western-Japan dialect"
-      ],
-      "jlpt": "",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜ない",
-      "category": "dialect",
-      "scene": "Itomori speech makes verbs negative with 〜ん: 知らん, 分からん.",
-      "context": "Form: Vない-stem + ん. 知らん (= 知らない), 分からん (= 分からない), 行かん (= 行かない), せん (= しない), こん (= 来ない). Not the explanatory ん of 〜んだ — check what comes before it.",
-      "example_sentence": "そんな話、ぜんぜん知らん。",
-      "example_reading": "そんな はなし、 ぜんぜん しらん。",
-      "example_meaning": "I've never heard anything like that.",
-      "pattern": "Vない-stem + ん (= 〜ない)"
-    },
-    {
-      "word": "〜やろ (＝だろう)",
-      "reading": "やろ",
-      "meanings": [
-        "probably / right? (= だろう / でしょう)",
-        "western-Japan dialect"
-      ],
-      "jlpt": "",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "だろう",
-      "category": "dialect",
-      "scene": "Itomori teens use 〜やろ to guess or to ask for agreement.",
-      "context": "Form: plain form + やろ. そうやろ? (right?), 来るやろ (they'll probably come). Rising tone = 'isn't it?'; falling tone = a guess. 〜やろか = だろうか (I wonder).",
-      "example_sentence": "明日は晴れるやろ。",
-      "example_reading": "あした は はれる やろ。",
-      "example_meaning": "It'll probably be sunny tomorrow.",
-      "pattern": "Plain form + やろ (= だろう)"
-    },
-    {
-      "word": "ええ (＝いい)",
-      "reading": "ええ",
-      "meanings": [
-        "good, fine (= いい)",
-        "western-Japan dialect"
-      ],
-      "jlpt": "",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "いい",
-      "category": "dialect",
-      "scene": "Itomori speakers say ええ for いい.",
-      "context": "Form: いい → ええ. ええよ (= いいよ, sure / OK), ええなあ (= いいなあ, lucky you), もうええ (= もういい, never mind / that's enough). Don't confuse it with the polite 'yes' ええ — tone and context tell them apart.",
-      "example_sentence": "東京はええなあ、何でもあって。",
-      "example_reading": "とうきょう は ええ なあ、 なんでも あって。",
-      "example_meaning": "Tokyo's so lucky — it's got everything.",
-      "pattern": "ええ = いい"
-    },
-    {
-      "word": "〜やさ",
-      "reading": "やさ",
-      "meanings": [
-        "(it) is, you know (= だよ / なんだ)",
-        "Hida-dialect sentence ending"
-      ],
-      "jlpt": "",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜だよ",
-      "category": "dialect",
-      "scene": "A sentence ending that marks Itomori speech as 飛騨弁-style, especially in older speakers' explanations.",
-      "context": "Form: Noun / plain form + (なん)やさ. Roughly だよ or なんだ — explaining or asserting gently: そうやさ (that's right, you know), 決まりなんやさ (it's the rule, you see). Very characteristic of the Hida region.",
-      "example_sentence": "この祭りは、昔からの決まりなんやさ。",
-      "example_reading": "この まつり は、 むかし から の きまり なん やさ。",
-      "example_meaning": "This festival is a custom from long ago, you see.",
-      "pattern": "Noun / plain form + (なん)やさ (= だよ / なんだ)"
-    },
-    {
-      "word": "〜やけど / 〜やで",
-      "reading": "やけど / やで",
-      "meanings": [
-        "but (= だけど)",
-        "you know (= だよ)",
-        "western-Japan dialect"
-      ],
-      "jlpt": "",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "だけど / だよ",
-      "category": "dialect",
-      "scene": "More Itomori-style endings: やけど for だけど, やで for だよ.",
-      "context": "Form: N / な-adj / plain + やけど (= だけど), + やで (= だよ). そうやけど = that's true, but…; 明日やで = it's tomorrow, you know. The same や that replaces だ.",
-      "example_sentence": "今日は雨やけど、祭りは明日やで。",
-      "example_reading": "きょう は あめ やけど、 まつり は あした やで。",
-      "example_meaning": "It's raining today, but the festival's tomorrow, you know.",
-      "pattern": "N / plain + やけど (= だけど) · やで (= だよ)"
+      "simpler_synonym": "いつの間にか",
+      "category": "expression",
+      "scene": "p.8 — before they know it, they're both searching for someone (also p.15).",
+      "context": "Form: 気づく → 気づけば (also 気がつけば). The ば-form here doesn't mean 'if' — it means 'when I noticed…'. Very common in narration.",
+      "example_sentence": "本を読んでいたら、気づけば夜中になっていた。",
+      "example_reading": "ほん を よんで いたら、 きづけば よなか に なって いた。",
+      "example_meaning": "I was reading, and before I knew it, it was the middle of the night.",
+      "pattern": "気づけば / 気がつけば + (what had happened)",
+      "page": 8
     }
   ]
 }

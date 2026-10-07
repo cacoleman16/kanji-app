@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Re-staging",
   "learner_level": "N3",
   "notes": "瀧 wakes in 三葉's body on the morning of the festival, the day the comet fragment will fall, and sets out to save the town: he recruits テッシー and サヤちん into a plan built on a blackout, a hijacked emergency broadcast and an evacuation, fails to persuade 三葉's father the mayor, then races up the mountain to the ご神体, where at twilight the two finally meet face to face. The deck focuses on planning and disaster vocabulary (作戦, 爆破, 変電所, 防災無線, 避難), the clash with the mayor, the desperate climb, and the literary language of the twilight meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
-  "card_count": 59,
+  "card_count": 56,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -376,25 +376,6 @@
       "example_meaning": "The typhoon knocked the power out, so we ate dinner by candlelight."
     },
     {
-      "word": "防災無線",
-      "reading": "ぼうさいむせん",
-      "meanings": [
-        "disaster-warning radio system",
-        "town emergency loudspeakers"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "町の放送",
-      "category": "disaster",
-      "scene": "サヤちん's part in the plan: take over the town's emergency broadcast from the school and announce an evacuation.",
-      "context": "防災 (disaster prevention) + 無線 (wireless, radio). Many Japanese towns have outdoor loudspeakers that play a chime every evening and carry warnings; the full name is 防災行政無線. Related: 防災訓練 (disaster drill), 防災グッズ (emergency kit).",
-      "example_sentence": "毎日夕方五時になると、防災無線から音楽が流れる。",
-      "example_reading": "まいにち ゆうがた ごじ に なる と、 ぼうさいむせん から おんがく が ながれる。",
-      "example_meaning": "Every day at five in the evening, music plays from the emergency loudspeakers."
-    },
-    {
       "word": "乗っ取る",
       "reading": "のっとる",
       "meanings": [
@@ -566,26 +547,6 @@
       "example_sentence": "運動会は小雨でも決行されるそうだ。",
       "example_reading": "うんどうかい は こさめ でも けっこう される そうだ。",
       "example_meaning": "I hear sports day will go ahead even if there's light rain."
-    },
-    {
-      "word": "オカルト",
-      "reading": "オカルト",
-      "meanings": [
-        "the occult",
-        "paranormal stuff",
-        "the supernatural"
-      ],
-      "jlpt": "N1",
-      "priority": "low",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "不思議な話",
-      "category": "town_life",
-      "scene": "テッシー's love of occult magazines is part of why he gets so fired up by 瀧's wild plan.",
-      "context": "From English 'occult', but in Japanese it covers ghosts, UFOs, prophecies and ancient mysteries — the whole mystery-magazine world. オカルト好き, オカルトマニア. The formal word is 超常現象 (ちょうじょうげんしょう, paranormal phenomena).",
-      "example_sentence": "兄はオカルト雑誌を毎月欠かさず買っている。",
-      "example_reading": "あに は オカルト ざっし を まいつき かかさず かって いる。",
-      "example_meaning": "My older brother buys an occult magazine every single month."
     },
     {
       "word": "張り切る",
@@ -880,26 +841,6 @@
       "example_sentence": "早く病院に行かないと、手遅れになるかもしれない。",
       "example_reading": "はやく びょういん に いかない と、 ておくれ に なる かもしれない。",
       "example_meaning": "If you don't go to the hospital soon, it may be too late."
-    },
-    {
-      "word": "漕ぐ",
-      "reading": "こぐ",
-      "meanings": [
-        "to pedal (a bike)",
-        "to row (a boat)",
-        "to swing (on a swing)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "自転車に乗る",
-      "category": "senses_body",
-      "scene": "On テッシー's borrowed bike, 瀧 pedals with everything he has toward the mountain.",
-      "context": "Covers any repeated pushing motion: 自転車を漕ぐ, ボートを漕ぐ, ブランコを漕ぐ. 立ち漕ぎ = pedalling standing up (for steep hills). Fun idiom: 舟を漕ぐ = to nod off, head bobbing like rowing.",
-      "example_sentence": "坂道で立ち上がって、思いきりペダルを漕いだ。",
-      "example_reading": "さかみち で たちあがって、 おもいきり ペダル を こいだ。",
-      "example_meaning": "On the slope I stood up and pedalled as hard as I could."
     },
     {
       "word": "全速力",

@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Beautifully, Struggling",
   "learner_level": "N3",
   "notes": "Everyday words for Chapter 7 — mostly N3, plus a good number of common N2 words and set phrases: the backbone vocabulary the main Vocabulary deck skips as 'too easy', from running and breathing hard, the blackout and the announcements, and the comet overhead, to the fall, getting back up, and the aftermath. The list is built from the chapter's scenes, not copied page by page (the last few aftermath cards may sit at the start of Ch.8); everyday words already taught in an earlier chapter's Core deck aren't repeated, and the example sentences are original. Study this deck before the chapter's Vocabulary deck.",
-  "card_count": 55,
+  "card_count": 51,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -447,26 +447,6 @@
       "example_meaning": "The sight of the children running around in the snow looked like such fun."
     },
     {
-      "word": "まぶしい",
-      "reading": "まぶしい",
-      "meanings": [
-        "dazzling",
-        "blinding",
-        "too bright to look at"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "明るすぎる",
-      "category": "senses_body",
-      "scene": "Fits the comet's dazzling light filling the sky as it breaks apart.",
-      "context": "Light so bright you can't look straight at it: 日差しがまぶしい. Figurative: まぶしい笑顔 = a radiant smile. The kanji 眩しい is usually written in kana.",
-      "example_sentence": "朝の日差しがまぶしくて、目を細めた。",
-      "example_reading": "あさ の ひざし が まぶしくて、 め を ほそめた。",
-      "example_meaning": "The morning sun was so bright that I squinted."
-    },
-    {
       "word": "恐ろしい",
       "reading": "おそろしい",
       "meanings": [
@@ -524,26 +504,6 @@
       "example_sentence": "台風が近づいているので、早めに帰りましょう。",
       "example_reading": "たいふう が ちかづいて いる ので、 はやめ に かえりましょう。",
       "example_meaning": "A typhoon is approaching, so let's go home early."
-    },
-    {
-      "word": "迫る",
-      "reading": "せまる",
-      "meanings": [
-        "to close in",
-        "to draw near",
-        "to press (for)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "近づく",
-      "category": "disaster",
-      "scene": "Fits the fragment closing in as the minutes run out.",
-      "context": "Something urgent or threatening coming closer: 危険が迫る, 締め切りが迫る (a deadline looms), 時間が迫る. 近づく is neutral 'get closer'; 迫る feels pressing. 返事を迫る = to press someone for an answer.",
-      "example_sentence": "試験が三日後に迫って、毎日図書館で勉強している。",
-      "example_reading": "しけん が みっかご に せまって、 まいにち としょかん で べんきょう して いる。",
-      "example_meaning": "The exam is only three days away, so I'm studying in the library every day."
     },
     {
       "word": "時刻",
@@ -700,25 +660,6 @@
       "example_sentence": "簡単な問題も解けなくて、自分が情けない。",
       "example_reading": "かんたんな もんだい も とけなくて、 じぶん が なさけない。",
       "example_meaning": "I couldn't even solve the easy problems — I feel pathetic."
-    },
-    {
-      "word": "泣き出す",
-      "reading": "なきだす",
-      "meanings": [
-        "to burst into tears",
-        "to start crying"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "泣く",
-      "category": "feelings",
-      "scene": "Fits the moment 三葉 breaks down in tears at her lowest point.",
-      "context": "泣く + 出す (suddenly start) — same pattern as 走り出す, 笑い出す. 泣き顔 = a crying face; 泣き虫 = a crybaby.",
-      "example_sentence": "犬がほえると、赤ちゃんが泣き出した。",
-      "example_reading": "いぬ が ほえる と、 あかちゃん が なきだした。",
-      "example_meaning": "When the dog barked, the baby burst into tears."
     },
     {
       "word": "力が抜ける",
@@ -953,26 +894,6 @@
       "example_sentence": "雨が強くなったので、試合をやめる判断をした。",
       "example_reading": "あめ が つよく なった ので、 しあい を やめる はんだん を した。",
       "example_meaning": "The rain got heavier, so we made the call to stop the match."
-    },
-    {
-      "word": "瞬間",
-      "reading": "しゅんかん",
-      "meanings": [
-        "moment",
-        "instant",
-        "the very moment (when)"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "とき",
-      "category": "time_memory",
-      "scene": "Fits the moment the fragment hits — everything turns on a single instant.",
-      "context": "Vた瞬間(に) = the moment that…: ドアを開けた瞬間. その瞬間 = at that very moment. 一瞬 (いっしゅん) measures a flash of time ('for an instant'); 瞬間 points at the moment itself.",
-      "example_sentence": "ドアを開けた瞬間、猫が外に飛び出した。",
-      "example_reading": "ドア を あけた しゅんかん、 ねこ が そと に とびだした。",
-      "example_meaning": "The moment I opened the door, the cat dashed outside."
     },
     {
       "word": "揺れる",

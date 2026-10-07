@@ -17,15 +17,15 @@ Each chapter has three decks, grouped in the app under one Vocabulary tile: **�
 
 | Ch. | Title | Core Words | Vocabulary | Grammar & Expressions |
 |---|---|---|---|---|
-| 1 | 夢（ゆめ）: Dream | 51 | 75 | 21 |
-| 2 | 端緒（たんしょ）: The First Clue | 58 | 69 | 19 |
-| 3 | 日々（ひび）: Days | 55 | 67 | 16 |
-| 4 | 探訪（たんぼう）: The Search | 56 | 64 | 19 |
-| 5 | 記憶（きおく）: Memory | 55 | 56 | 14 |
-| 6 | 再演（さいえん）: Re-staging | 57 | 59 | 14 |
-| 7 | うつくしく、もがく: Beautifully, Struggling | 55 | 51 | 12 |
-| 8 | 君の名は。（きみのなは）: Your Name Is… | 54 | 53 | 12 |
-| | **Total** | **441** | **494** | **127** |
+| 1 | 夢（ゆめ）: Dream | 39 | 46 | 15 |
+| 2 | 端緒（たんしょ）: The First Clue | 212 | 240 | 61 |
+| 3 | 日々（ひび）: Days | 49 | 64 | 13 |
+| 4 | 探訪（たんぼう）: The Search | 53 | 65 | 19 |
+| 5 | 記憶（きおく）: Memory | 51 | 54 | 14 |
+| 6 | 再演（さいえん）: Re-staging | 49 | 56 | 14 |
+| 7 | うつくしく、もがく: Beautifully, Struggling | 51 | 47 | 12 |
+| 8 | 君の名は。（きみのなは）: Your Name Is… | 49 | 50 | 10 |
+| | **Total** | **553** | **622** | **158** |
 
 Files are in `agent-files/` (they need the `vocab_` prefix so `pipeline/bundle.py` picks them up):
 

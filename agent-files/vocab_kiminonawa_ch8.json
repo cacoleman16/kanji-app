@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Your Name Is…",
   "learner_level": "N3",
   "notes": "Years later in Tokyo, 瀧 is a university student slogging through job hunting while 三葉 also lives and works in the city; old friends have moved on, and both feel an ache of loss for someone they cannot name as the seasons pass. A glimpse between two side-by-side trains sends them running through the streets until they meet on a shrine staircase. This deck focuses on job-hunting and adult-life words, the vocabulary of vague longing and loss, train and city scenes, weather and seasons, and the final meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
-  "card_count": 53,
+  "card_count": 50,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -36,25 +36,6 @@
     "tokyo_life"
   ],
   "cards": [
-    {
-      "word": "名",
-      "reading": "な",
-      "meanings": [
-        "name (literary)",
-        "reputation"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "名前",
-      "category": "literary",
-      "scene": "The chapter (and the whole novel) takes its title from a question about a name, asked with the old-fashioned word 名.",
-      "context": "名 on its own, read な, is the literary/older word for 名前: 名を名乗る (to give one's name), 名もない花 (a nameless flower), 名が知れる (to become well known). In compounds it is usually めい/みょう (有名, 名字), so the bare な reading is worth drilling.",
-      "example_sentence": "名も知らない人のことを、どうしてこんなに思い出すのだろう。",
-      "example_reading": "な も しらない ひと の こと を、 どうして こんなに おもいだす の だろう。",
-      "example_meaning": "Why do I keep thinking about someone whose name I don't even know?"
-    },
     {
       "word": "就職活動",
       "reading": "しゅうしょくかつどう",
@@ -361,26 +342,6 @@
       "example_sentence": "いつか、人の記憶に残るような建物の設計に携わりたい。",
       "example_reading": "いつか、 ひと の きおく に のこる ような たてもの の せっけい に たずさわりたい。",
       "example_meaning": "Someday I want to be involved in designing buildings that stay in people's memories."
-    },
-    {
-      "word": "ぼんやり",
-      "reading": "ぼんやり",
-      "meanings": [
-        "absent-mindedly",
-        "vaguely",
-        "dimly"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "なんとなく",
-      "category": "onomatopoeia",
-      "scene": "In quiet moments — on a train, at a window — 瀧 and 三葉 drift off, staring at nothing.",
-      "context": "Two senses: (1) a person spacing out (ぼんやりする, ぼんやり眺める); (2) something blurry or dim (ぼんやり見える, ぼんやりと覚えている). Both fit a chapter about half-remembered feelings.",
-      "example_sentence": "電車の窓に映る自分の顔を、ぼんやり見つめていた。",
-      "example_reading": "でんしゃ の まど に うつる じぶん の かお を、 ぼんやり みつめて いた。",
-      "example_meaning": "I stared absently at my own face reflected in the train window."
     },
     {
       "word": "喪失感",
@@ -806,25 +767,6 @@
       "example_sentence": "信じられない知らせに、彼は目を見開いた。",
       "example_reading": "しんじられない しらせ に、 かれ は め を みひらいた。",
       "example_meaning": "At the unbelievable news, his eyes went wide."
-    },
-    {
-      "word": "改札",
-      "reading": "かいさつ",
-      "meanings": [
-        "ticket gate",
-        "ticket barrier"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "駅の出口",
-      "category": "tokyo_life",
-      "scene": "Jumping off at the next station, they rush out through the ticket gates.",
-      "context": "改 (inspect, as in 切符を改める) + 札 (ticket, tag). 改札口 = the gate area, 改札を出る / 通る / 抜ける. In Tokyo you tap an IC card — and the gate snaps shut if your balance is too low.",
-      "example_sentence": "改札を抜けると、外は小雨が降っていた。",
-      "example_reading": "かいさつ を ぬける と、 そと は こさめ が ふって いた。",
-      "example_meaning": "When I went out through the ticket gate, a light rain was falling outside."
     },
     {
       "word": "駆け出す",
