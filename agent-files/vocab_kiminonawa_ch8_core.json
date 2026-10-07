@@ -1,0 +1,1177 @@
+{
+  "deck_id": "kiminonawa-ch8-core",
+  "deck_name": "君の名は。 Ch.8 君の名は。 — Core Words",
+  "version": "1.0",
+  "source": "新海誠『君の名は。』(角川つばさ文庫), 第八章「君の名は。」",
+  "chapter": 8,
+  "chapter_title": "君の名は。",
+  "chapter_title_reading": "きみのなは",
+  "chapter_title_meaning": "Your Name Is…",
+  "learner_level": "N3",
+  "notes": "Everyday words for Chapter 8 — mostly N4–N3, plus a few common N2 words and set phrases that the main Vocabulary deck skipped as 'too easy'. They are built from the chapter's scenes (job hunting, adult life in Tokyo, years of searching for someone, the two trains and the shrine staircase), not copied page by page, and every example sentence is original. Study this deck before the chapter's hard Vocabulary deck.",
+  "card_count": 60,
+  "priority_guide": {
+    "high": "Learn before or while reading this chapter — it carries the scene.",
+    "medium": "Useful; context usually helps if you forget it.",
+    "low": "Recognition is enough — look it up once, don't over-drill."
+  },
+  "difficulty_guide": {
+    "at_level": "Solidly N3 — should be mastered.",
+    "one_above": "N2 territory — worth stretching to.",
+    "two_above": "N1 / literary — ambitious; learn to recognise it."
+  },
+  "kanji_difficulty_guide": {
+    "easy": "Kanji are common; readable at N3.",
+    "medium": "One or more kanji may trip you — drill the reading.",
+    "hard": "Rare kanji or irregular reading — learn the kana form first."
+  },
+  "categories": [
+    "feelings",
+    "literary",
+    "nature_sky",
+    "senses_body",
+    "story_terms",
+    "time_memory",
+    "tokyo_life"
+  ],
+  "cards": [
+    {
+      "word": "経つ",
+      "reading": "たつ",
+      "meanings": [
+        "(time) to pass",
+        "to go by"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "過ぎる",
+      "category": "time_memory",
+      "scene": "The chapter jumps years ahead — time has passed since the comet.",
+      "context": "Only for time: 時間が経つ, 五年が経つ. Same sound as 立つ (to stand) and 建つ (to be built) — the kanji 経 (pass through) tells you it's time. 時が経つのは早い = time flies.",
+      "example_sentence": "大学に入ってから、もう三年が経った。",
+      "example_reading": "だいがく に はいって から、 もう さんねん が たった。",
+      "example_meaning": "Three years have already passed since I started university."
+    },
+    {
+      "word": "就職",
+      "reading": "しゅうしょく",
+      "meanings": [
+        "getting a job",
+        "finding employment"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "瀧, now a university student, is trying to land his first job.",
+      "context": "〜に就職する = to get a job at (with に). 就職活動 (main deck) is shortened to 就活 (しゅうかつ) in everyday talk. The other end of a career: 退職 (たいしょく) = leaving a job, retiring.",
+      "example_sentence": "兄は来年の春、東京の会社に就職する。",
+      "example_reading": "あに は らいねん の はる、 とうきょう の かいしゃ に しゅうしょく する。",
+      "example_meaning": "My older brother will start work at a Tokyo company next spring."
+    },
+    {
+      "word": "締める",
+      "reading": "しめる",
+      "meanings": [
+        "to tie (a necktie)",
+        "to fasten",
+        "to tighten"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Job-hunting days mean a dark suit and a neatly tied necktie.",
+      "context": "ネクタイを締める = to put on a tie; シートベルトを締める = to fasten a seatbelt. Don't mix it up with 閉める (しめる, to shut a door) — same sound, different kanji.",
+      "example_sentence": "面接の朝、鏡の前でネクタイを締めた。",
+      "example_reading": "めんせつ の あさ、 かがみ の まえ で ネクタイ を しめた。",
+      "example_meaning": "On the morning of the interview, I tied my necktie in front of the mirror."
+    },
+    {
+      "word": "緊張",
+      "reading": "きんちょう",
+      "meanings": [
+        "nervousness",
+        "tension"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Interview after interview — 瀧 has to keep his nerves under control in front of company interviewers.",
+      "context": "緊張する = to be nervous / tense; 緊張が解ける (とける) = the tension eases. Opposite: リラックスする. 緊 (tight) + 張 (stretch).",
+      "example_sentence": "面接の前は、緊張して手が震えた。",
+      "example_reading": "めんせつ の まえ は、 きんちょう して て が ふるえた。",
+      "example_meaning": "Before the interview, I was so nervous my hands shook."
+    },
+    {
+      "word": "敬語",
+      "reading": "けいご",
+      "meanings": [
+        "polite / honorific language",
+        "keigo"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "丁寧な言葉",
+      "category": "tokyo_life",
+      "scene": "Job interviews run on careful polite speech.",
+      "context": "敬 (respect) + 語 (language). It covers です/ます speech, 尊敬語 that raises the other person (いらっしゃる) and 謙譲語 that lowers yourself (申す). Job-hunting Japanese is famous for it — see 御社 in the main deck.",
+      "example_sentence": "面接では、正しい敬語を使わなければならない。",
+      "example_reading": "めんせつ で は、 ただしい けいご を つかわなければ ならない。",
+      "example_meaning": "In an interview you have to use correct polite language."
+    },
+    {
+      "word": "自信",
+      "reading": "じしん",
+      "meanings": [
+        "confidence",
+        "self-confidence"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Rejections pile up during the job hunt, and confidence wears thin.",
+      "context": "自信がある / ない; 自信を持つ = to be confident; 自信をなくす = to lose confidence. Same reading as 地震 (じしん, earthquake) — the kanji keep them apart.",
+      "example_sentence": "何度も落ちて、すっかり自信をなくした。",
+      "example_reading": "なんど も おちて、 すっかり じしん を なくした。",
+      "example_meaning": "After failing again and again, I lost all my confidence."
+    },
+    {
+      "word": "興味",
+      "reading": "きょうみ",
+      "meanings": [
+        "interest (in something)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "瀧 is drawn to architecture because he cares about how towns look.",
+      "context": "〜に興味がある / 興味を持つ = to be interested in (particle に). 興味深い (きょうみぶかい) = fascinating. 関心 (かんしん) is a more formal near-synonym.",
+      "example_sentence": "子どもの頃から、古い建物に興味があった。",
+      "example_reading": "こども の ころ から、 ふるい たてもの に きょうみ が あった。",
+      "example_meaning": "I've been interested in old buildings since I was a child."
+    },
+    {
+      "word": "風景",
+      "reading": "ふうけい",
+      "meanings": [
+        "scenery",
+        "landscape",
+        "scene (of a place)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "景色",
+      "category": "tokyo_life",
+      "scene": "瀧 cares about townscapes — the look and feel of streets and towns.",
+      "context": "風景 = a place seen as a whole picture, often with buildings and people in it: 街の風景 ≈ townscape. 景色 (けしき) = the view in front of you, especially a beautiful one.",
+      "example_sentence": "この写真には、昔の町の風景が残っている。",
+      "example_reading": "この しゃしん に は、 むかし の まち の ふうけい が のこって いる。",
+      "example_meaning": "This photo preserves the way the town used to look."
+    },
+    {
+      "word": "街",
+      "reading": "まち",
+      "meanings": [
+        "city streets",
+        "(downtown) city area"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "町",
+      "category": "tokyo_life",
+      "scene": "Tokyo's streets — the townscape 瀧 wants to help shape, and later the streets he searches.",
+      "context": "Same reading as 町, but 街 means busy streets or a city area (街角 = street corner, 商店街 = shopping street). 町 is a town as a place where people live — Itomori is a 町, Tokyo's crowded streets are 街.",
+      "example_sentence": "夜の街を、一人でゆっくり歩いた。",
+      "example_reading": "よる の まち を、 ひとり で ゆっくり あるいた。",
+      "example_meaning": "I walked slowly through the city streets at night, alone."
+    },
+    {
+      "word": "設計",
+      "reading": "せっけい",
+      "meanings": [
+        "design (of a building or machine)",
+        "plan"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Architecture means designing buildings and places — the kind of work 瀧 hopes to do.",
+      "context": "設計する = to design; 設計図 (せっけいず) = blueprint. デザイン is about looks and style; 設計 is the technical plan for building something.",
+      "example_sentence": "この駅は、有名な建築家が設計した。",
+      "example_reading": "この えき は、 ゆうめいな けんちくか が せっけい した。",
+      "example_meaning": "This station was designed by a famous architect."
+    },
+    {
+      "word": "将来",
+      "reading": "しょうらい",
+      "meanings": [
+        "(one's) future",
+        "in the future"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "これから",
+      "category": "time_memory",
+      "scene": "Job hunting makes 瀧 put his plans for the future into words.",
+      "context": "将来 = your own future, life plans (将来の夢 = what you want to be). 未来 (みらい) = the future in a bigger, more abstract sense (the future of humanity).",
+      "example_sentence": "将来は、人が安心して暮らせる町をつくりたい。",
+      "example_reading": "しょうらい は、 ひと が あんしん して くらせる まち を つくりたい。",
+      "example_meaning": "In the future, I want to build towns where people can live in peace."
+    },
+    {
+      "word": "結果",
+      "reading": "けっか",
+      "meanings": [
+        "result",
+        "outcome"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "After each interview comes the wait for the result.",
+      "context": "結果が出る = the results come out; 結果を待つ = to wait for the results. Its pair is 原因 (げんいん, cause). その結果 = as a result.",
+      "example_sentence": "試験の結果は、来週メールで届く。",
+      "example_reading": "しけん の けっか は、 らいしゅう メール で とどく。",
+      "example_meaning": "The exam results will arrive by e-mail next week."
+    },
+    {
+      "word": "祈る",
+      "reading": "いのる",
+      "meanings": [
+        "to pray",
+        "to wish (for)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "願う",
+      "category": "tokyo_life",
+      "scene": "Fits the rejection notices of the job hunt, which by custom close with a polite 'prayer' for the applicant's future.",
+      "context": "祈る = to pray, to wish hard for. Japanese rejection letters end with a set line wishing you success elsewhere (今後のご活躍をお祈りします), so job hunters call them お祈りメール — 'prayer e-mails'.",
+      "example_sentence": "母は、私の合格を毎日祈ってくれた。",
+      "example_reading": "はは は、 わたし の ごうかく を まいにち いのって くれた。",
+      "example_meaning": "My mother prayed every day that I would pass."
+    },
+    {
+      "word": "落ち込む",
+      "reading": "おちこむ",
+      "meanings": [
+        "to feel down",
+        "to be depressed",
+        "to sink"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "がっかりする",
+      "category": "feelings",
+      "scene": "Rejection after rejection is enough to get anyone down.",
+      "context": "落ち込む = to feel low (also literally to sink or fall into). Don't confuse with 〜に落ちる = to fail (an exam, an interview). Cheering someone up: 元気出して.",
+      "example_sentence": "第一志望の会社に落ちて、しばらく落ち込んだ。",
+      "example_reading": "だいいちしぼう の かいしゃ に おちて、 しばらく おちこんだ。",
+      "example_meaning": "I didn't get into my first-choice company and was down for a while."
+    },
+    {
+      "word": "諦める",
+      "reading": "あきらめる",
+      "meanings": [
+        "to give up",
+        "to abandon (hope)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "やめる",
+      "category": "feelings",
+      "scene": "The rejections keep coming, but the job hunt — and the search for someone — goes on.",
+      "context": "〜を諦める = to give up on something. Often written in kana: あきらめる. 諦めない = to keep going; 諦めがつく = to come to terms with it. やめる just means to stop; 諦める means letting go of a hope.",
+      "example_sentence": "何社に断られても、彼は諦めなかった。",
+      "example_reading": "なんしゃ に ことわられて も、 かれ は あきらめなかった。",
+      "example_meaning": "No matter how many companies turned him down, he didn't give up."
+    },
+    {
+      "word": "暮らす",
+      "reading": "くらす",
+      "meanings": [
+        "to live (one's daily life)",
+        "to get by"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "住む",
+      "category": "tokyo_life",
+      "scene": "三葉 now lives and works in Tokyo too.",
+      "context": "暮らす = to live your everyday life; 住む is just where you reside. Noun 暮らし: 一人暮らし = living alone, 東京の暮らし = life in Tokyo.",
+      "example_sentence": "姉は今、東京で一人で暮らしている。",
+      "example_reading": "あね は いま、 とうきょう で ひとり で くらして いる。",
+      "example_meaning": "My older sister now lives on her own in Tokyo."
+    },
+    {
+      "word": "通勤",
+      "reading": "つうきん",
+      "meanings": [
+        "commuting (to work)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Adult life in Tokyo means a train ride to work every morning.",
+      "context": "通 (go through) + 勤 (work). 通勤する = to commute to work; students 通学する (つうがく). 通勤ラッシュ = the morning rush hour.",
+      "example_sentence": "毎朝、満員電車で一時間かけて通勤している。",
+      "example_reading": "まいあさ、 まんいんでんしゃ で いちじかん かけて つうきん して いる。",
+      "example_meaning": "Every morning I spend an hour commuting on packed trains."
+    },
+    {
+      "word": "乗り換える",
+      "reading": "のりかえる",
+      "meanings": [
+        "to change (trains)",
+        "to transfer"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Tokyo's tangle of train lines — changing trains is part of everyday life.",
+      "context": "〜に乗り換える = to change to (a train or line). Noun: 乗り換え (a transfer). Ch.4's 乗り継ぐ is for connections on a long journey; 乗り換える is the daily-commute word.",
+      "example_sentence": "新宿で別の線に乗り換えた。",
+      "example_reading": "しんじゅく で べつ の せん に のりかえた。",
+      "example_meaning": "I changed to another line at Shinjuku."
+    },
+    {
+      "word": "偶然",
+      "reading": "ぐうぜん",
+      "meanings": [
+        "by chance",
+        "coincidence"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たまたま",
+      "category": "story_terms",
+      "scene": "Old acquaintances cross 瀧's path now and then — a city full of chance meetings and near misses.",
+      "context": "Adverb (偶然会う = to happen to meet) or noun (すごい偶然! = what a coincidence!). たまたま is the casual word. Its opposite in feel: 必然 (ひつぜん, inevitable) — or 運命.",
+      "example_sentence": "駅で偶然、高校の先輩に会った。",
+      "example_reading": "えき で ぐうぜん、 こうこう の せんぱい に あった。",
+      "example_meaning": "I happened to run into an upperclassman from high school at the station."
+    },
+    {
+      "word": "気づく",
+      "reading": "きづく",
+      "meanings": [
+        "to notice",
+        "to realise"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "気がつく",
+      "category": "senses_body",
+      "scene": "In a crowded city, people from the same story pass close by — even sit near each other — without noticing.",
+      "context": "〜に気づく = to notice (particle に). Also written 気付く; same meaning as 気がつく. 気づかないふりをする = to pretend not to notice.",
+      "example_sentence": "すぐ後ろに友達がいたのに、全然気づかなかった。",
+      "example_reading": "すぐ うしろ に ともだち が いた のに、 ぜんぜん きづかなかった。",
+      "example_meaning": "My friend was right behind me, but I didn't notice at all."
+    },
+    {
+      "word": "結婚式",
+      "reading": "けっこんしき",
+      "meanings": [
+        "wedding (ceremony)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "テッシー and サヤちん are engaged, so a wedding is on the way.",
+      "context": "結婚式を挙げる (あげる) = to hold a wedding. 婚約 (engagement, main deck) comes first; 式場 (しきじょう) = the wedding venue; 披露宴 (ひろうえん) = the reception.",
+      "example_sentence": "来年の春、二人は結婚式を挙げる予定だ。",
+      "example_reading": "らいねん の はる、 ふたり は けっこんしき を あげる よてい だ。",
+      "example_meaning": "The two of them plan to hold their wedding next spring."
+    },
+    {
+      "word": "指輪",
+      "reading": "ゆびわ",
+      "meanings": [
+        "ring (jewellery)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Old friends are getting engaged — the kind of news a ring on a finger announces.",
+      "context": "指 (finger) + 輪 (ring, loop). 婚約指輪 = engagement ring; 結婚指輪 = wedding ring; 薬指 (くすりゆび) = ring finger. 指輪をはめる = to put on a ring.",
+      "example_sentence": "彼女の左手の薬指に、指輪が光っていた。",
+      "example_reading": "かのじょ の ひだりて の くすりゆび に、 ゆびわ が ひかって いた。",
+      "example_meaning": "A ring shone on the ring finger of her left hand."
+    },
+    {
+      "word": "幸せ",
+      "reading": "しあわせ",
+      "meanings": [
+        "happiness",
+        "happy",
+        "fortunate"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Old friends are moving on into happy new lives — while 瀧 and 三葉 still feel something is missing.",
+      "context": "な-adjective and noun: 幸せな人生, 幸せになる (to become happy). 幸福 (こうふく) is the formal written word. 幸せそう = looking happy.",
+      "example_sentence": "昔の友達が幸せそうで、うれしかった。",
+      "example_reading": "むかし の ともだち が しあわせ そう で、 うれしかった。",
+      "example_meaning": "I was glad to see that my old friends seemed happy."
+    },
+    {
+      "word": "欠ける",
+      "reading": "かける",
+      "meanings": [
+        "to be missing",
+        "to be lacking",
+        "to be chipped"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "足りない",
+      "category": "feelings",
+      "scene": "Both 瀧 and 三葉 feel that something in their lives is missing.",
+      "context": "何かが欠けている = something is missing — the feeling at the heart of this chapter. Also physical: お皿が欠ける (a plate gets chipped), 月が欠ける (the moon wanes). Transitive: 欠く (かく).",
+      "example_sentence": "このパズルは、一つだけピースが欠けている。",
+      "example_reading": "この パズル は、 ひとつ だけ ピース が かけて いる。",
+      "example_meaning": "This puzzle is missing just one piece."
+    },
+    {
+      "word": "物足りない",
+      "reading": "ものたりない",
+      "meanings": [
+        "unsatisfying",
+        "not quite enough",
+        "something is lacking"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "何か足りない",
+      "category": "feelings",
+      "scene": "Their adult lives look fine on the surface, yet something always feels lacking.",
+      "context": "物 + 足りない (not enough). Used for food, explanations and life itself: この料理は少し物足りない. Lighter than 寂しい — nothing is wrong, but something's missing.",
+      "example_sentence": "毎日楽しいのに、何か物足りない。",
+      "example_reading": "まいにち たのしい のに、 なにか ものたりない。",
+      "example_meaning": "Every day is fun, and yet something feels lacking."
+    },
+    {
+      "word": "穴",
+      "reading": "あな",
+      "meanings": [
+        "hole",
+        "gap"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "The loss they carry feels like a hole in the heart.",
+      "context": "穴があく = a hole opens; 穴をあける = to make a hole (靴下に穴があいた = my sock has a hole). 心に穴があく = to feel empty inside — the main deck's ぽっかり often goes with it.",
+      "example_sentence": "大事な人を失って、心に穴があいたようだった。",
+      "example_reading": "だいじな ひと を うしなって、 こころ に あな が あいた よう だった。",
+      "example_meaning": "Losing someone dear felt like a hole had opened in my heart."
+    },
+    {
+      "word": "胸",
+      "reading": "むね",
+      "meanings": [
+        "chest",
+        "heart (feelings)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "The unexplained ache both of them feel sits in the chest.",
+      "context": "Like English 'heart', it's where feelings live: 胸が痛む (my heart aches), 胸がいっぱい (my heart is full), 胸がどきどきする (my heart is pounding). 心 is the heart/mind in a more abstract sense.",
+      "example_sentence": "久しぶりに故郷の写真を見て、胸が痛んだ。",
+      "example_reading": "ひさしぶり に こきょう の しゃしん を みて、 むね が いたんだ。",
+      "example_meaning": "Seeing photos of my hometown for the first time in ages made my heart ache."
+    },
+    {
+      "word": "わけもなく",
+      "reading": "わけもなく",
+      "meanings": [
+        "for no reason",
+        "without knowing why"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "なぜか",
+      "category": "literary",
+      "scene": "Sadness and longing come over them with no reason they can name.",
+      "context": "訳 (わけ, reason) + もなく = without any reason; usually written in kana. Close to なぜか, but stronger: there really is no reason you can see. Same shape as 跡形もなく and 何事もなく.",
+      "example_sentence": "夕焼けを見ていたら、わけもなく悲しくなった。",
+      "example_reading": "ゆうやけ を みて いたら、 わけ も なく かなしく なった。",
+      "example_meaning": "Watching the sunset, I felt sad for no reason."
+    },
+    {
+      "word": "どこか",
+      "reading": "どこか",
+      "meanings": [
+        "somewhere",
+        "somehow, in some way"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "literary",
+      "scene": "The person they are looking for is out there somewhere — and faces and places feel somehow familiar.",
+      "context": "どこか = somewhere (どこかへ行く); also 'somehow, in some way': どこか寂しい顔 = a face that is somehow sad. Same family as 誰か and 何か.",
+      "example_sentence": "この景色、どこかで見たことがある気がする。",
+      "example_reading": "この けしき、 どこか で みた こと が ある き が する。",
+      "example_meaning": "I feel like I've seen this view somewhere before."
+    },
+    {
+      "word": "癖",
+      "reading": "くせ",
+      "meanings": [
+        "habit",
+        "quirk"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Scanning crowds for someone they can't name has become almost a habit for both of them.",
+      "context": "癖 = a personal habit or quirk, often unconscious: 口癖 (くちぐせ) = a phrase you always say, 寝癖 = bed hair (Ch.1 deck). 習慣 (しゅうかん) is a habit you keep on purpose, like jogging.",
+      "example_sentence": "彼女には、考えごとをすると髪をさわる癖がある。",
+      "example_reading": "かのじょ に は、 かんがえごと を する と かみ を さわる くせ が ある。",
+      "example_meaning": "She has a habit of touching her hair when she's thinking."
+    },
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "meanings": [
+        "the past"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "昔",
+      "category": "time_memory",
+      "scene": "Something in their past matters deeply — but neither can remember what.",
+      "context": "過去 (past) ↔ 現在 (げんざい, present) ↔ 未来 (future). 過去形 = past tense. More formal than 昔 (むかし, long ago).",
+      "example_sentence": "過去を振り返らずに、前を向いて生きたい。",
+      "example_reading": "かこ を ふりかえらず に、 まえ を むいて いきたい。",
+      "example_meaning": "I want to live looking forward, without dwelling on the past."
+    },
+    {
+      "word": "運命",
+      "reading": "うんめい",
+      "meanings": [
+        "fate",
+        "destiny"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "time_memory",
+      "scene": "Near misses, a glimpse between trains, a meeting on the stairs — the chapter keeps raising the question of fate.",
+      "context": "運 (luck) + 命 (life). 運命の人 = 'the one', the person you're meant to be with; 運命を信じる = to believe in fate. 宿命 (しゅくめい) is a heavier, unavoidable destiny.",
+      "example_sentence": "あの日の出会いは、運命だったと思う。",
+      "example_reading": "あの ひ の であい は、 うんめい だった と おもう。",
+      "example_meaning": "I think meeting that day was fate."
+    },
+    {
+      "word": "季節",
+      "reading": "きせつ",
+      "meanings": [
+        "season"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "nature_sky",
+      "scene": "Season after season passes in Tokyo while the two keep searching.",
+      "context": "四季 (しき) = the four seasons; 季節の変わり目 = the turn of the seasons. 季節外れ (きせつはずれ) = out of season.",
+      "example_sentence": "季節が変わっても、その気持ちは変わらなかった。",
+      "example_reading": "きせつ が かわって も、 その きもち は かわらなかった。",
+      "example_meaning": "Even as the seasons changed, that feeling stayed the same."
+    },
+    {
+      "word": "いつの間にか",
+      "reading": "いつのまにか",
+      "meanings": [
+        "before one knows it",
+        "without noticing"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "知らないうちに",
+      "category": "time_memory",
+      "scene": "Before they know it, years have gone by.",
+      "context": "いつ + の + 間 + にか = 'at some point nobody noticed'. Often with 〜ていた, showing the change has already happened: いつの間にか寝ていた.",
+      "example_sentence": "本を読んでいたら、いつの間にか夜になっていた。",
+      "example_reading": "ほん を よんで いたら、 いつのまにか よる に なって いた。",
+      "example_meaning": "I was reading, and before I knew it, night had fallen."
+    },
+    {
+      "word": "繰り返す",
+      "reading": "くりかえす",
+      "meanings": [
+        "to repeat",
+        "to do over and over"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "もう一度する",
+      "category": "time_memory",
+      "scene": "Ordinary days repeat, one after another, as the seasons turn.",
+      "context": "繰り返す = to repeat: 失敗を繰り返す, 繰り返し練習する. Passive 繰り返される = to happen again and again. 繰 is a hard kanji — on its own, 繰る means to reel in thread or turn pages.",
+      "example_sentence": "同じような毎日を繰り返している。",
+      "example_reading": "おなじ ような まいにち を くりかえして いる。",
+      "example_meaning": "I'm living the same kind of day over and over."
+    },
+    {
+      "word": "散る",
+      "reading": "ちる",
+      "meanings": [
+        "to fall and scatter (petals, leaves)",
+        "to disperse"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "落ちる",
+      "category": "nature_sky",
+      "scene": "Fits the passing seasons — spring blossoms bloom and scatter as the years go by.",
+      "context": "散る = to fall and scatter: 桜が散る marks the end of spring, 気が散る = to be distracted. Same kanji in 散歩 (a stroll) and 散らかる (to be messy).",
+      "example_sentence": "強い風で、桜がすっかり散ってしまった。",
+      "example_reading": "つよい かぜ で、 さくら が すっかり ちって しまった。",
+      "example_meaning": "The strong wind blew all the cherry blossoms away."
+    },
+    {
+      "word": "積もる",
+      "reading": "つもる",
+      "meanings": [
+        "to pile up",
+        "to accumulate (snow, dust)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たまる",
+      "category": "nature_sky",
+      "scene": "Snow falls on Tokyo as the years pass.",
+      "context": "雪が積もる, ほこりが積もる. 積もる話 = lots of news to catch up on (after a long time apart). Transitive: 積む (つむ) = to stack, to load.",
+      "example_sentence": "一晩で、雪が三十センチも積もった。",
+      "example_reading": "ひとばん で、 ゆき が さんじゅっセンチ も つもった。",
+      "example_meaning": "Thirty centimetres of snow piled up overnight."
+    },
+    {
+      "word": "雨が上がる",
+      "reading": "あめがあがる",
+      "meanings": [
+        "the rain stops",
+        "it clears up"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "雨がやむ",
+      "category": "nature_sky",
+      "scene": "Rainy days come and go as the seasons pass.",
+      "context": "上がる here means 'to stop, clear up' (for rain or snow). 雨がやむ means the same but is plainer. 雨上がり = just after the rain.",
+      "example_sentence": "雨が上がって、空に虹が出た。",
+      "example_reading": "あめ が あがって、 そら に にじ が でた。",
+      "example_meaning": "The rain stopped and a rainbow appeared in the sky."
+    },
+    {
+      "word": "ホーム",
+      "reading": "ホーム",
+      "meanings": [
+        "(station) platform"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Busy morning platforms — the backdrop for the chapter's train scenes.",
+      "context": "Short for プラットホーム. 3番線のホーム = the platform for track 3; ホームドア = platform safety gates. Not 'home' — for that, use 家 or 自宅.",
+      "example_sentence": "ホームは、会社へ急ぐ人でいっぱいだった。",
+      "example_reading": "ホーム は、 かいしゃ へ いそぐ ひと で いっぱい だった。",
+      "example_meaning": "The platform was full of people hurrying to work."
+    },
+    {
+      "word": "揺れる",
+      "reading": "ゆれる",
+      "meanings": [
+        "to sway",
+        "to shake",
+        "to waver"
+      ],
+      "jlpt": "N3",
+      "priority": "low",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Swaying carriages on the morning trains.",
+      "context": "Intransitive: 電車が揺れる, 地震で家が揺れる, 気持ちが揺れる (feelings waver). Transitive: 揺らす (ゆらす) = to rock, shake something.",
+      "example_sentence": "電車が大きく揺れて、つり革につかまった。",
+      "example_reading": "でんしゃ が おおきく ゆれて、 つりかわ に つかまった。",
+      "example_meaning": "The train lurched, and I grabbed a hand strap."
+    },
+    {
+      "word": "一瞬",
+      "reading": "いっしゅん",
+      "meanings": [
+        "an instant",
+        "a moment"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "ちょっとの間",
+      "category": "time_memory",
+      "scene": "Two trains run side by side, and they see each other for only an instant.",
+      "context": "一 + 瞬 (a blink). 一瞬で = in an instant; 一瞬だけ = for just a moment. Close to 瞬間 (しゅんかん, 'the moment when…').",
+      "example_sentence": "一瞬、時間が止まったように感じた。",
+      "example_reading": "いっしゅん、 じかん が とまった よう に かんじた。",
+      "example_meaning": "For an instant, it felt as if time had stopped."
+    },
+    {
+      "word": "目が合う",
+      "reading": "めがあう",
+      "meanings": [
+        "(two people's) eyes meet",
+        "to make eye contact"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Through the windows of two passing trains, their eyes meet.",
+      "context": "〜と目が合う = to catch someone's eye (it just happens). 目を合わせる = to look someone in the eye on purpose; 目をそらす = to look away.",
+      "example_sentence": "教室で好きな人と目が合って、顔が赤くなった。",
+      "example_reading": "きょうしつ で すきな ひと と め が あって、 かお が あかく なった。",
+      "example_meaning": "My eyes met those of the person I like in class, and my face turned red."
+    },
+    {
+      "word": "確かめる",
+      "reading": "たしかめる",
+      "meanings": [
+        "to make sure",
+        "to check (for oneself)"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "調べる",
+      "category": "story_terms",
+      "scene": "They get off their trains to find out whether that face was really who they think.",
+      "context": "確かめる = to check something for yourself. 確認する (かくにん) is the formal or business word. Related: 確か (certain; also 'if I remember right').",
+      "example_sentence": "本当にあの人だったのか、確かめたかった。",
+      "example_reading": "ほんとう に あの ひと だった のか、 たしかめたかった。",
+      "example_meaning": "I wanted to make sure it really was that person."
+    },
+    {
+      "word": "夢中",
+      "reading": "むちゅう",
+      "meanings": [
+        "absorbed",
+        "frantically, single-mindedly",
+        "crazy about"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一生懸命",
+      "category": "feelings",
+      "scene": "Off the train, they run through the streets without a thought for anything else.",
+      "context": "夢 (dream) + 中: so caught up that you forget everything else. 〜に夢中になる = to be crazy about (ゲームに夢中). 夢中で走る = to run like mad, single-mindedly.",
+      "example_sentence": "夢中で走って、気がついたら知らない町にいた。",
+      "example_reading": "むちゅう で はしって、 き が ついたら しらない まち に いた。",
+      "example_meaning": "I ran without thinking, and when I came to my senses I was in an unfamiliar town."
+    },
+    {
+      "word": "追いかける",
+      "reading": "おいかける",
+      "meanings": [
+        "to chase",
+        "to run after"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "Each runs after a person glimpsed for a second from a train.",
+      "context": "追う (to chase) + かける. 〜を追いかける = to run after (a person; also a dream: 夢を追いかける). 追いつく = to catch up with.",
+      "example_sentence": "人ごみの中、その背中を追いかけた。",
+      "example_reading": "ひとごみ の なか、 その せなか を おいかけた。",
+      "example_meaning": "I chased after that figure through the crowd."
+    },
+    {
+      "word": "見回す",
+      "reading": "みまわす",
+      "meanings": [
+        "to look around"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Searching the streets, looking every way for the face they saw.",
+      "context": "見る + 回す (to turn): to look all around you. Compare きょろきょろ (Ch.2's restless glancing) and 見渡す (みわたす, to take in a wide view).",
+      "example_sentence": "駅を出て、まわりを見回した。",
+      "example_reading": "えき を でて、 まわり を みまわした。",
+      "example_meaning": "I came out of the station and looked all around."
+    },
+    {
+      "word": "坂",
+      "reading": "さか",
+      "meanings": [
+        "slope",
+        "hill (on a road)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "Fits the hilly city streets they run through on the way to the shrine staircase.",
+      "context": "坂道 (さかみち) = a sloping street; 上り坂 / 下り坂 = uphill / downhill. Tokyo is full of place names ending in 〜坂.",
+      "example_sentence": "長い坂を上ると、小さな神社があった。",
+      "example_reading": "ながい さか を のぼる と、 ちいさな じんじゃ が あった。",
+      "example_meaning": "At the top of a long slope, there was a small shrine."
+    },
+    {
+      "word": "階段",
+      "reading": "かいだん",
+      "meanings": [
+        "stairs",
+        "staircase"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "tokyo_life",
+      "scene": "The two finally meet on a staircase by a shrine.",
+      "context": "階段を上る (のぼる) / 下りる (おりる); 一段 = one step. Stone shrine steps are 石段 (Ch.1 deck); 階段 is the everyday word for any stairs.",
+      "example_sentence": "階段を一段ずつゆっくり上った。",
+      "example_reading": "かいだん を いちだん ずつ ゆっくり のぼった。",
+      "example_meaning": "I went up the stairs slowly, one step at a time."
+    },
+    {
+      "word": "近づく",
+      "reading": "ちかづく",
+      "meanings": [
+        "to approach",
+        "to get closer"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "story_terms",
+      "scene": "On the staircase, one coming up and one going down, they draw closer step by step.",
+      "context": "〜に近づく = to approach (intransitive). Transitive: 近づける = to bring something closer. Opposite: 遠ざかる (とおざかる). 近づいてくる / 近づいていく shows the direction.",
+      "example_sentence": "足音がだんだん近づいてきた。",
+      "example_reading": "あしおと が だんだん ちかづいて きた。",
+      "example_meaning": "The footsteps came closer and closer."
+    },
+    {
+      "word": "目をそらす",
+      "reading": "めをそらす",
+      "meanings": [
+        "to look away",
+        "to avert one's eyes"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Fits the moment they pass each other on the stairs as if they were strangers.",
+      "context": "そらす (逸らす) = to turn aside. 目をそらす = to avert your eyes; 話をそらす = to change the subject. Opposite: 目を合わせる.",
+      "example_sentence": "恥ずかしくて、思わず目をそらした。",
+      "example_reading": "はずかしくて、 おもわず め を そらした。",
+      "example_meaning": "I was embarrassed and looked away without thinking."
+    },
+    {
+      "word": "背中",
+      "reading": "せなか",
+      "meanings": [
+        "back (of the body)"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Once they have passed on the stairs, each has their back to the other.",
+      "context": "背 alone can also mean height (背が高い). 背中を向ける = to turn your back; 背中を押す = to give someone a push, encourage them.",
+      "example_sentence": "父の大きな背中を見て育った。",
+      "example_reading": "ちち の おおきな せなか を みて そだった。",
+      "example_meaning": "I grew up watching my father's broad back."
+    },
+    {
+      "word": "振り向く",
+      "reading": "ふりむく",
+      "meanings": [
+        "to turn around (to look)",
+        "to look back over one's shoulder"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "後ろを見る",
+      "category": "senses_body",
+      "scene": "After passing each other, they both turn around.",
+      "context": "振り向く = to turn your head or body to look behind you. 振り返る (main deck) is the same motion but can also mean looking back on the past; 振り向く is only the physical turn.",
+      "example_sentence": "名前を呼ばれて、振り向いた。",
+      "example_reading": "なまえ を よばれて、 ふりむいた。",
+      "example_meaning": "Someone called my name, and I turned around."
+    },
+    {
+      "word": "勇気",
+      "reading": "ゆうき",
+      "meanings": [
+        "courage",
+        "nerve"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Speaking to a stranger on the stairs takes courage.",
+      "context": "勇気を出す = to summon your courage; 勇気がいる = it takes courage. 勇 (brave) + 気 (spirit). 勇気づける = to encourage.",
+      "example_sentence": "勇気を出して、彼女に話しかけた。",
+      "example_reading": "ゆうき を だして、 かのじょ に はなしかけた。",
+      "example_meaning": "I worked up my courage and spoke to her."
+    },
+    {
+      "word": "声をかける",
+      "reading": "こえをかける",
+      "meanings": [
+        "to speak to (someone)",
+        "to call out to"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "話しかける",
+      "category": "story_terms",
+      "scene": "Someone has to be the first to speak on the staircase.",
+      "context": "〜に声をかける = to speak to someone to start a conversation, invite them, or check they're OK. 話しかける is similar; 声をかける is lighter — a greeting or a first word.",
+      "example_sentence": "道に迷っていたら、おばあさんが声をかけてくれた。",
+      "example_reading": "みち に まよって いたら、 おばあさん が こえ を かけて くれた。",
+      "example_meaning": "When I was lost, an old woman spoke to me."
+    },
+    {
+      "word": "尋ねる",
+      "reading": "たずねる",
+      "meanings": [
+        "to ask",
+        "to inquire"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "聞く",
+      "category": "story_terms",
+      "scene": "The chapter ends with the two asking each other's name.",
+      "context": "尋ねる = to ask (a question) — politer and more written than 聞く: 名前を尋ねる, 道を尋ねる. Same sound: 訪ねる (たずねる) = to visit.",
+      "example_sentence": "知らない人に、駅への道を尋ねた。",
+      "example_reading": "しらない ひと に、 えき へ の みち を たずねた。",
+      "example_meaning": "I asked a stranger the way to the station."
+    },
+    {
+      "word": "同時",
+      "reading": "どうじ",
+      "meanings": [
+        "(at) the same time",
+        "simultaneous"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "一緒に",
+      "category": "time_memory",
+      "scene": "On the stairs, the two speak up at the very same moment.",
+      "context": "同時に = at the same time. 同時通訳 = simultaneous interpretation. For a whole group acting at once, いっせいに.",
+      "example_sentence": "二人は同時に「あっ」と声を上げた。",
+      "example_reading": "ふたり は どうじ に 「あっ」 と こえ を あげた。",
+      "example_meaning": "The two of them cried out 'Oh!' at the same time."
+    },
+    {
+      "word": "頬",
+      "reading": "ほお",
+      "meanings": [
+        "cheek"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "hard",
+      "simpler_synonym": "ほっぺ",
+      "category": "senses_body",
+      "scene": "In the final meeting, tears run down their cheeks.",
+      "context": "Read ほお or ほほ (both standard). 頬を伝う涙 = tears running down the cheek; 頬を赤らめる = to blush. Casual or childish: ほっぺ / ほっぺた.",
+      "example_sentence": "冷たい風で、頬が赤くなった。",
+      "example_reading": "つめたい かぜ で、 ほお が あかく なった。",
+      "example_meaning": "My cheeks went red in the cold wind."
+    },
+    {
+      "word": "出会う",
+      "reading": "であう",
+      "meanings": [
+        "to meet (by chance / for the first time)",
+        "to come across"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "会う",
+      "category": "story_terms",
+      "scene": "After years of searching, the two finally meet face to face.",
+      "context": "〜に出会う = a meeting that matters, often by chance or for the first time. 会う is any meeting; 出会い = an encounter. めぐり会う (main deck) is the poetic 'to find each other at last'.",
+      "example_sentence": "大学で、一生の友達に出会った。",
+      "example_reading": "だいがく で、 いっしょう の ともだち に であった。",
+      "example_meaning": "At university I met a friend for life."
+    },
+    {
+      "word": "やっと",
+      "reading": "やっと",
+      "meanings": [
+        "at last",
+        "finally (with relief)"
+      ],
+      "jlpt": "N4",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "literary",
+      "scene": "After so many years and near misses, they have finally found each other.",
+      "context": "やっと = at last, after long waiting or effort, with relief: やっと終わった. More conversational than ついに. やっと〜できる = to barely manage.",
+      "example_sentence": "三時間待って、やっとバスが来た。",
+      "example_reading": "さんじかん まって、 やっと バス が きた。",
+      "example_meaning": "After waiting three hours, the bus finally came."
+    },
+    {
+      "word": "ついに",
+      "reading": "ついに",
+      "meanings": [
+        "finally",
+        "in the end"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "やっと",
+      "category": "literary",
+      "scene": "The climax the whole book has been building to — the moment comes at last.",
+      "context": "ついに (遂に) = finally, as the climax of a long process; also works for bad outcomes (ついに壊れた). ついに〜なかった = in the end, never ~. やっと stresses relief; ついに stresses the climax.",
+      "example_sentence": "何年もかかって、ついに夢がかなった。",
+      "example_reading": "なんねん も かかって、 ついに ゆめ が かなった。",
+      "example_meaning": "It took years, but my dream finally came true."
+    }
+  ]
+}
