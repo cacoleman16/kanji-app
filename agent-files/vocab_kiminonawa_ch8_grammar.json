@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Your Name Is…",
   "learner_level": "N3",
   "notes": "The final chapter moves between 瀧's job hunt, years of unexplained longing for both 瀧 and 三葉, and their meeting after a glimpse between two trains. This deck covers the N2/N1 patterns and literary devices that carry that mood: concession and trends for the job hunt, can't-help-it feelings and 'without ever' for the longing, and rhetorical suspicion and 'as if' for the meeting. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
-  "card_count": 12,
+  "card_count": 10,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -50,26 +50,6 @@
       "example_sentence": "建築の仕事を通じて、人々の暮らしを支えたいと考えています。",
       "example_reading": "けんちく の しごと を つうじて、 ひとびと の くらし を ささえたい と かんがえて います。",
       "example_meaning": "I hope to support people's lives through work in architecture."
-    },
-    {
-      "word": "〜てはじめて",
-      "reading": "てはじめて",
-      "meanings": [
-        "only after ~",
-        "not until ~"
-      ],
-      "pattern": "Vて + はじめて",
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜てから、やっと",
-      "category": "grammar",
-      "scene": "Grown up and out in the working world, the characters are only now starting to see their lives — and what's missing from them — clearly.",
-      "context": "Form: Vて + はじめて (初めて). 'Only once X happened did Y' — usually followed by a realization: 失ってはじめて大切さに気づく (you only see its value after losing it). Different from plain 初めて (for the first time).",
-      "example_sentence": "社会人になってはじめて、親のありがたさがわかった。",
-      "example_reading": "しゃかいじん に なって はじめて、 おや の ありがたさ が わかった。",
-      "example_meaning": "Only after I became a working adult did I understand how much I owed my parents."
     },
     {
       "word": "〜てならない",
@@ -190,26 +170,6 @@
       "example_sentence": "卒業の日は、嬉しいような寂しいような、不思議な気分だった。",
       "example_reading": "そつぎょう の ひ は、 うれしい ような さびしい ような、 ふしぎ な きぶん だった。",
       "example_meaning": "Graduation day felt strange — somehow both happy and lonely."
-    },
-    {
-      "word": "〜のではないか (inner suspicion)",
-      "reading": "のではないか",
-      "meanings": [
-        "perhaps ~ (I suspect)",
-        "could it be that ~?"
-      ],
-      "pattern": "plain form + のではないか",
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜かもしれない",
-      "category": "literary_style",
-      "scene": "Glimpsing a face through a train window, each begins to suspect: could it be that person?",
-      "context": "Form: plain form + のではないか (Na-adj / N + なのではないか); spoken 〜んじゃないか. In narration it is not a question to anyone — it voices a growing suspicion: もしかして、あの人なのではないか. On the certainty scale it sits above 〜かもしれない and below 〜に違いない.",
-      "example_sentence": "もしかしたら、あの人も誰かを探しているのではないか。",
-      "example_reading": "もしかしたら、 あの ひと も だれか を さがして いる の では ない か。",
-      "example_meaning": "Could it be that that person, too, is searching for someone?"
     },
     {
       "word": "〜ではあるまいか",

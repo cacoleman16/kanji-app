@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Days",
   "learner_level": "N3",
   "notes": "The body swaps between 瀧 and 三葉 become routine, with rules, complaints, a pilgrimage to the ご神体 where grandma explains ムスビ, and an awkward date that ends with a call that won't connect. This deck covers the grammar of rules and decisions (〜ことにする, sentence-final 〜こと), complaining (〜くせに, 〜てばかり, 〜どころか), grandma's speech (〜と引き換えに, dialect 〜なあかん), and the frustrations of the date and its aftermath (〜ものの, 〜かのように, 〜ずにはいられない). The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few patterns may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
-  "card_count": 16,
+  "card_count": 13,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -133,26 +133,6 @@
       "example_sentence": "節約するどころか、先月より三万円も多く使ってしまった。",
       "example_reading": "せつやく する どころ か、 せんげつ より さんまんえん も おおく つかって しまった。",
       "example_meaning": "Far from saving money, I spent 30,000 yen more than last month."
-    },
-    {
-      "word": "〜くせに",
-      "reading": "くせに",
-      "meanings": [
-        "even though ~ (resentful)",
-        "despite being ~"
-      ],
-      "pattern": "普通形 / Nの / なAな + くせに",
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜のに",
-      "category": "grammar",
-      "scene": "Fits the accusations in their notes, each blaming the other for acting out of character.",
-      "context": "Form: plain form / Nの / なAな + くせに. Like 〜のに, but with contempt or reproach toward a person: 男のくせに, 知らないくせに (you don't even know, and yet...). Used about other people (or yourself, mockingly), never neutrally.",
-      "example_sentence": "自分は遅刻するくせに、人には厳しいんだから。",
-      "example_reading": "じぶん は ちこく する くせ に、 ひと に は きびしい ん だ から。",
-      "example_meaning": "He's always late himself, yet he's strict with everyone else."
     },
     {
       "word": "〜もかまわず",
@@ -296,46 +276,6 @@
       "example_sentence": "デートの約束はしたものの、何を着ていけばいいか分からない。",
       "example_reading": "デート の やくそく は した もの の、 なに を きて いけば いい か わからない。",
       "example_meaning": "I made the date, but I have no idea what to wear."
-    },
-    {
-      "word": "〜ような気がする",
-      "reading": "ようなきがする",
-      "meanings": [
-        "have a feeling that ~",
-        "it seems to me that ~"
-      ],
-      "pattern": "普通形 / Nの + ような気がする",
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜と思う",
-      "category": "grammar",
-      "scene": "At the photo exhibition, a lake-town landscape gives 瀧 the vague feeling it means something to him.",
-      "context": "Form: plain form / Nの + ような気がする (or just 〜気がする). Softer and vaguer than 〜と思う: an intuition you can't justify. In this story it marks half-memories, such as どこかで会ったような気がする.",
-      "example_sentence": "誰かに名前を呼ばれたような気がして、目が覚めた。",
-      "example_reading": "だれか に なまえ を よばれた よう な き が して、 め が さめた。",
-      "example_meaning": "I woke up feeling as if someone had called my name."
-    },
-    {
-      "word": "〜かのように",
-      "reading": "かのように",
-      "meanings": [
-        "as if ~",
-        "as though ~ (when it isn't so)"
-      ],
-      "pattern": "普通形 + かのように (N / なA: である + かのように)",
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "〜みたいに",
-      "category": "grammar",
-      "scene": "Fits the end of the chapter, when the swaps stop as if nothing had ever happened.",
-      "context": "Form: plain form (N / な-adjective usually + である) + かのように. Compares with something that is not actually true: まるで何もなかったかのように. More literary than 〜みたいに or 〜ように; the か adds 'as if (though it isn't)'.",
-      "example_sentence": "彼はまるで何も知らないかのように、平気な顔をしていた。",
-      "example_reading": "かれ は まるで なにも しらない か の よう に、 へいき な かお を して いた。",
-      "example_meaning": "He kept a calm face, as if he knew nothing at all."
     },
     {
       "word": "〜ずにはいられない",

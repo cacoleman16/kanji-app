@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Your Name Is…",
   "learner_level": "N3",
   "notes": "Everyday words for Chapter 8 — mostly N4–N3, plus some common N2 words and set phrases that the main Vocabulary deck skipped as 'too easy'. They are built from the chapter's scenes (job hunting, adult life in Tokyo, years of searching for someone, the two trains and the shrine staircase), not copied page by page, and every example sentence is original. Study this deck before the chapter's hard Vocabulary deck.",
-  "card_count": 54,
+  "card_count": 49,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -92,26 +92,6 @@
       "example_sentence": "雑誌のプレゼントに応募したら、当たった。",
       "example_reading": "ざっし の プレゼント に おうぼ したら、 あたった。",
       "example_meaning": "I entered a magazine's prize draw and won."
-    },
-    {
-      "word": "締める",
-      "reading": "しめる",
-      "meanings": [
-        "to tie (a necktie)",
-        "to fasten",
-        "to tighten"
-      ],
-      "jlpt": "N3",
-      "priority": "low",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "",
-      "category": "tokyo_life",
-      "scene": "Job-hunting days mean a dark suit and a neatly tied necktie.",
-      "context": "ネクタイを締める = to put on a tie; シートベルトを締める = to fasten a seatbelt. Don't mix it up with 閉める (しめる, to shut a door) — same sound, different kanji.",
-      "example_sentence": "面接の朝、鏡の前でネクタイを締めた。",
-      "example_reading": "めんせつ の あさ、 かがみ の まえ で ネクタイ を しめた。",
-      "example_meaning": "On the morning of the interview, I tied my necktie in front of the mirror."
     },
     {
       "word": "お辞儀",
@@ -339,25 +319,6 @@
       "example_sentence": "毎朝、満員電車で一時間かけて通勤している。",
       "example_reading": "まいあさ、 まんいんでんしゃ で いちじかん かけて つうきん して いる。",
       "example_meaning": "Every morning I spend an hour commuting on packed trains."
-    },
-    {
-      "word": "気づく",
-      "reading": "きづく",
-      "meanings": [
-        "to notice",
-        "to realise"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "気がつく",
-      "category": "senses_body",
-      "scene": "In a crowded city, people from the same story pass close by — even sit near each other — without noticing.",
-      "context": "〜に気づく = to notice (particle に). Also written 気付く; same meaning as 気がつく. 気づかないふりをする = to pretend not to notice.",
-      "example_sentence": "すぐ後ろに友達がいたのに、全然気づかなかった。",
-      "example_reading": "すぐ うしろ に ともだち が いた のに、 ぜんぜん きづかなかった。",
-      "example_meaning": "My friend was right behind me, but I didn't notice at all."
     },
     {
       "word": "結婚式",
@@ -874,25 +835,6 @@
       "example_meaning": "Turn right at the next corner and you'll see the station."
     },
     {
-      "word": "階段",
-      "reading": "かいだん",
-      "meanings": [
-        "stairs",
-        "staircase"
-      ],
-      "jlpt": "N4",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "tokyo_life",
-      "scene": "The two finally meet on a staircase by a shrine.",
-      "context": "階段を上る (のぼる) / 下りる (おりる); 一段 = one step. Stone shrine steps are 石段 (Ch.1 deck); 階段 is the everyday word for any stairs.",
-      "example_sentence": "階段を一段ずつゆっくり上った。",
-      "example_reading": "かいだん を いちだん ずつ ゆっくり のぼった。",
-      "example_meaning": "I went up the stairs slowly, one step at a time."
-    },
-    {
       "word": "目をそらす",
       "reading": "めをそらす",
       "meanings": [
@@ -910,24 +852,6 @@
       "example_sentence": "恥ずかしくて、思わず目をそらした。",
       "example_reading": "はずかしくて、 おもわず め を そらした。",
       "example_meaning": "I was embarrassed and looked away without thinking."
-    },
-    {
-      "word": "背中",
-      "reading": "せなか",
-      "meanings": [
-        "back (of the body)"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "senses_body",
-      "scene": "Once they have passed on the stairs, each has their back to the other.",
-      "context": "背 alone can also mean height (背が高い). 背中を向ける = to turn your back; 背中を押す = to give someone a push, encourage them.",
-      "example_sentence": "父の大きな背中を見て育った。",
-      "example_reading": "ちち の おおきな せなか を みて そだった。",
-      "example_meaning": "I grew up watching my father's broad back."
     },
     {
       "word": "足を止める",
@@ -966,25 +890,6 @@
       "example_sentence": "名前を呼ばれて、振り向いた。",
       "example_reading": "なまえ を よばれて、 ふりむいた。",
       "example_meaning": "Someone called my name, and I turned around."
-    },
-    {
-      "word": "声をかける",
-      "reading": "こえをかける",
-      "meanings": [
-        "to speak to (someone)",
-        "to call out to"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "話しかける",
-      "category": "story_terms",
-      "scene": "Someone has to be the first to speak on the staircase.",
-      "context": "〜に声をかける = to speak to someone to start a conversation, invite them, or check they're OK. 話しかける is similar; 声をかける is lighter — a greeting or a first word.",
-      "example_sentence": "道に迷っていたら、おばあさんが声をかけてくれた。",
-      "example_reading": "みち に まよって いたら、 おばあさん が こえ を かけて くれた。",
-      "example_meaning": "When I was lost, an old woman spoke to me."
     },
     {
       "word": "同時",

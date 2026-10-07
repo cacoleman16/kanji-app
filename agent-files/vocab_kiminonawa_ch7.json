@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Beautifully, Struggling",
   "learner_level": "N3",
   "notes": "Back in her own body after the twilight meeting, 三葉 races down the mountain while the plan unfolds: テッシー cuts the town's power, サヤちん broadcasts the evacuation call, and the town office contradicts it. As the comet splits overhead, 三葉 falls, finds an unexpected message on her palm, and pushes on to confront her father before the fragment falls. The deck focuses on physical struggle, darkness and confusion, the comet as spectacle, despair and resolve, and aftermath words. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late — especially the aftermath cards (奇跡, 生存, 無事, 訓練, 大半), which may belong to the start of Ch.8. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
-  "card_count": 51,
+  "card_count": 47,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -75,26 +75,6 @@
       "example_sentence": "瀧は駅の階段を一気に駆け下りた。",
       "example_reading": "たき は えき の かいだん を いっき に かけおりた。",
       "example_meaning": "Taki dashed down the station stairs in one go."
-    },
-    {
-      "word": "斜面",
-      "reading": "しゃめん",
-      "meanings": [
-        "slope",
-        "incline",
-        "hillside"
-      ],
-      "jlpt": "N1",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "坂",
-      "category": "nature_sky",
-      "scene": "The mountainside 三葉 has to get down — and the kind of slope she later tumbles down.",
-      "context": "斜 (slant, diagonal) + 面 (surface). 斜面 is a natural slope or hillside; 坂 is usually a road or path that goes up or down. 急な斜面 = a steep slope. The same 斜 is in 斜め (ななめ, diagonal).",
-      "example_sentence": "雨のあとの斜面は滑りやすいので気をつけて。",
-      "example_reading": "あめ の あと の しゃめん は すべりやすい ので き を つけて。",
-      "example_meaning": "Slopes are slippery after rain, so be careful."
     },
     {
       "word": "息を切らす",
@@ -429,26 +409,6 @@
       "example_meaning": "If you don't hurry, you'll miss the bus."
     },
     {
-      "word": "輝く",
-      "reading": "かがやく",
-      "meanings": [
-        "to shine",
-        "to sparkle",
-        "to glitter"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "光る",
-      "category": "nature_sky",
-      "scene": "The comet blazes across the night sky above the festival.",
-      "context": "Stronger and more beautiful than 光る — brilliant, radiant light. Figurative too: 目が輝く (eyes light up), 輝かしい未来 (a brilliant future). Noun: 輝き.",
-      "example_sentence": "雨上がりの夜空に、星が輝いていた。",
-      "example_reading": "あめあがり の よぞら に、 ほし が かがやいて いた。",
-      "example_meaning": "Stars were shining in the night sky after the rain."
-    },
-    {
       "word": "砕ける",
       "reading": "くだける",
       "meanings": [
@@ -663,26 +623,6 @@
       "example_meaning": "The marathon runner collapsed, spent, just short of the finish line."
     },
     {
-      "word": "視界",
-      "reading": "しかい",
-      "meanings": [
-        "field of vision",
-        "view",
-        "visibility"
-      ],
-      "jlpt": "N1",
-      "priority": "medium",
-      "difficulty_vs_n3": "two_above",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "見えるところ",
-      "category": "senses_body",
-      "scene": "Fits the darkness and tears blurring 三葉's vision as she lies on the slope.",
-      "context": "視 (look) + 界 (boundary, world). 視界がぼやける / にじむ (vision blurs), 視界に入る (come into view), 視界が悪い (poor visibility, e.g. in fog).",
-      "example_sentence": "霧で視界が悪く、車はゆっくり進んだ。",
-      "example_reading": "きり で しかい が わるく、 くるま は ゆっくり すすんだ。",
-      "example_meaning": "Visibility was poor in the fog, so the cars moved slowly."
-    },
-    {
       "word": "滲む",
       "reading": "にじむ",
       "meanings": [
@@ -720,26 +660,6 @@
       "example_sentence": "映画の最後で、四葉はぽろぽろと涙をこぼした。",
       "example_reading": "えいが の さいご で、 よつは は ぽろぽろ と なみだ を こぼした。",
       "example_meaning": "At the end of the movie, Yotsuha's tears spilled down one after another."
-    },
-    {
-      "word": "震える",
-      "reading": "ふるえる",
-      "meanings": [
-        "to tremble",
-        "to shake",
-        "to shiver"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "",
-      "category": "senses_body",
-      "scene": "Fits 三葉's hands and legs shaking — from exhaustion and fear — as she lies on the slope.",
-      "context": "震 (quake) — the same kanji as 地震. 手が震える, 声が震える (voice trembles), 寒さに震える. Transitive: 震わせる (肩を震わせて泣く = cry with shaking shoulders).",
-      "example_sentence": "緊張で、発表のあいだずっと声が震えていた。",
-      "example_reading": "きんちょう で、 はっぴょう の あいだ ずっと こえ が ふるえて いた。",
-      "example_meaning": "My voice trembled with nerves through the whole presentation."
     },
     {
       "word": "掌",

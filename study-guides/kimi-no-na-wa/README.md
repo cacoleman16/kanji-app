@@ -17,15 +17,15 @@ Each chapter has three decks, grouped in the app under one Vocabulary tile: **�
 
 | Ch. | Title | Core Words | Vocabulary | Grammar & Expressions |
 |---|---|---|---|---|
-| 1 | 夢（ゆめ）: Dream | 51 | 75 | 21 |
-| 2 | 端緒（たんしょ）: The First Clue | 58 | 69 | 19 |
-| 3 | 日々（ひび）: Days | 55 | 67 | 16 |
-| 4 | 探訪（たんぼう）: The Search | 56 | 64 | 19 |
-| 5 | 記憶（きおく）: Memory | 55 | 56 | 14 |
-| 6 | 再演（さいえん）: Re-staging | 57 | 59 | 14 |
-| 7 | うつくしく、もがく: Beautifully, Struggling | 55 | 51 | 12 |
-| 8 | 君の名は。（きみのなは）: Your Name Is… | 54 | 53 | 12 |
-| | **Total** | **441** | **494** | **127** |
+| 1 | 夢（ゆめ）: Dream | 39 | 46 | 15 |
+| 2 | 端緒（たんしょ）: The First Clue | 212 | 240 | 61 |
+| 3 | 日々（ひび）: Days | 49 | 64 | 13 |
+| 4 | 探訪（たんぼう）: The Search | 53 | 65 | 19 |
+| 5 | 記憶（きおく）: Memory | 51 | 54 | 14 |
+| 6 | 再演（さいえん）: Re-staging | 49 | 56 | 14 |
+| 7 | うつくしく、もがく: Beautifully, Struggling | 51 | 47 | 12 |
+| 8 | 君の名は。（きみのなは）: Your Name Is… | 49 | 50 | 10 |
+| | **Total** | **553** | **622** | **158** |
 
 Files are in `agent-files/` (they need the `vocab_` prefix so `pipeline/bundle.py` picks them up):
 
@@ -35,13 +35,21 @@ agent-files/vocab_kiminonawa_chN.json          ← vocabulary,           deck_id
 agent-files/vocab_kiminonawa_chN_grammar.json  ← grammar & expressions, deck_id kiminonawa-chN-grammar
 ```
 
+**Chapter structure in this edition** (checked from photos): 第一章「夢」 is only the short prologue (pp.5–8).
+第二章「端緒」 starts on p.9 with 瀧's dream, his first morning in 三葉's body, and then 三葉's day (breakfast, the
+town broadcast, the comet on TV, the walk to school, her father's campaign speech, …). The other chapters' decks
+were planned before this was known, so their scene-to-chapter mapping may be shifted; photos will settle it.
+
 **How accurate are they?**
-- **Chapter 1, opening page (p.5):** checked against a photo of the printed page. The words from the reader's
-  notebook (匂い, 愛おしい, 光, 温度, 隙間, 結びつく, 乳房, 開く, 第一章), plus 跡形もなく and 体験, which the
-  reader flagged later in Chapter 1, are tagged `"flagged_in_notebook": true`.
-- **Everything else:** built from each chapter's scenes and the novel's style, not copied from the book page by
-  page. Expect a few words to sit a chapter early or late, and some words the book uses to be missing.
-  The "Refine a deck from page photos" prompt below fixes that.
+- **Chapter 1 (pp.5–8):** every card is checked against the printed pages. Each checked card has a `page` field
+  and its `scene` starts with `p.N —`.
+- **Chapter 2, pp.9 and 12–21:** checked the same way and listed first, in page order. pp.10–11 weren't
+  photographed; their cards say so. Everything after the checked cards says "Not yet checked against the book".
+- **Notebook words:** 匂い, 愛おしい, 光, 温度, 隙間, 結びつく, 乳房, 開く, 第一章, plus 跡形もなく, 一体感 and
+  消え失せる from p.6, are tagged `"flagged_in_notebook": true`.
+- **Chapters 3–8:** built from each chapter's scenes and the novel's style, not copied page by page. Expect some
+  words to sit a chapter early or late, and some words the book uses to be missing. The "Refine a deck from page
+  photos" prompt below fixes that.
 - **No repeats:** each word or pattern lives in exactly one chapter, the earliest one that needs it. If a
   word you meet in Chapter 6 isn't in the Chapter 6 deck, check the earlier chapters.
 - **Spoilers:** later chapters' `scene` and `context` fields describe what happens in those chapters. Study each
@@ -64,6 +72,7 @@ agent-files/vocab_kiminonawa_chN_grammar.json  ← grammar & expressions, deck_i
 | `context` | Nuance, look-alikes, kanji breakdown. Shown on the card back. |
 | `example_sentence` / `example_reading` / `example_meaning` | An original example sentence, its reading in hiragana with spaces between words, and its English. |
 | `flagged_in_notebook` | `true` if the reader wrote this word in their notebook. |
+| `page` | The page the word appears on, for cards checked against the book (absent on unchecked cards and cover credits). |
 
 The app shows `word`, `reading`, `meanings`, `category`, `context`, `jlpt` and the example sentence. The
 other fields (`priority`, `scene`, `pattern`, `flagged_in_notebook`, …) are kept in the JSON for study
@@ -129,7 +138,8 @@ Use this whenever you've photographed pages or notebook pages for a chapter.
 > 2. Add words and grammar from the pages that an N3 learner may not know solidly and that aren't in any
 >    deck yet. N4–N3 words and common set phrases go in the Core deck; N2–N1, literary and story words go
 >    in the Vocabulary deck. Follow the card format already in the files.
-> 3. If a card's `scene` doesn't match what the pages show, fix the `scene`. If a word clearly belongs to
+> 3. For every word you confirm on a page, set `"page": N` and start its `scene` with `p.N — `; keep each
+>    chapter's checked cards first, in page order. If a card's `scene` doesn't match what the pages show, fix the `scene`. If a word clearly belongs to
 >    another chapter, move it to that chapter's deck. Never keep the same `word` in two chapters of this
 >    novel (earliest chapter wins).
 > 4. Example sentences must be your own, not copied from the book. No romaji.

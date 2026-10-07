@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Re-staging",
   "learner_level": "N3",
   "notes": "Everyday words for Chapter 6 — mostly N4–N3, plus a few common N2 words and set phrases: the backbone vocabulary the main Vocabulary deck skipped as 'too easy'. The list is built from the chapter's scenes (the festival-morning relief, the plan at school, the clash with the mayor, the ride up the mountain and the twilight meeting), not copied page by page, and the example sentences are original. Study this deck before the hard Vocabulary deck.",
-  "card_count": 57,
+  "card_count": 49,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -407,44 +407,6 @@
       "example_meaning": "The power went out and the room went pitch-dark."
     },
     {
-      "word": "放送",
-      "reading": "ほうそう",
-      "meanings": [
-        "broadcast",
-        "announcement (over speakers)"
-      ],
-      "jlpt": "N4",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "アナウンス",
-      "category": "town_life",
-      "scene": "サヤちん's job is to take over the town's emergency broadcast and call for an evacuation.",
-      "context": "放送する = to broadcast; 校内放送 = a school PA announcement; 放送部 = a school broadcasting club; 放送を流す = to put out an announcement. The main deck's 防災無線 is the town's emergency speaker system.",
-      "example_sentence": "昼休みに、校内放送で私の名前が呼ばれた。",
-      "example_reading": "ひるやすみ に、 こうない ほうそう で わたし の なまえ が よばれた。",
-      "example_meaning": "At lunch break, my name was called over the school PA."
-    },
-    {
-      "word": "町じゅう",
-      "reading": "まちじゅう",
-      "meanings": [
-        "the whole town",
-        "all over town"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "町全体",
-      "category": "town_life",
-      "scene": "The evacuation call has to reach every corner of town through the outdoor speakers.",
-      "context": "〜じゅう (中) = throughout: 町じゅう, 世界じゅう, 一日じゅう (all day long). Often written 町中 — but 町中 read まちなか means 'in town, downtown', so watch the reading.",
-      "example_sentence": "その噂は、あっという間に町じゅうに広まった。",
-      "example_reading": "その うわさ は、 あっという ま に まちじゅう に ひろまった。",
-      "example_meaning": "The rumor spread all over town in no time."
-    },
-    {
       "word": "範囲",
       "reading": "はんい",
       "meanings": [
@@ -657,25 +619,6 @@
       "example_meaning": "Thinking it was just a kid talking, nobody took me seriously."
     },
     {
-      "word": "真剣",
-      "reading": "しんけん",
-      "meanings": [
-        "serious",
-        "earnest"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "まじめ",
-      "category": "feelings",
-      "scene": "瀧 begs the mayor to listen to him seriously.",
-      "context": "真剣な顔 = a serious face; 真剣に考える = to think hard about something. まじめ is a personality (diligent, sincere); 真剣 is how focused you are right now. 本気 = you really mean it.",
-      "example_sentence": "先生は私の相談を、真剣に聞いてくれた。",
-      "example_reading": "せんせい は わたし の そうだん を、 しんけん に きいて くれた。",
-      "example_meaning": "My teacher listened seriously to my problem."
-    },
-    {
       "word": "断る",
       "reading": "ことわる",
       "meanings": [
@@ -716,25 +659,6 @@
       "example_meaning": "Who would believe such a ridiculous story?"
     },
     {
-      "word": "怒り",
-      "reading": "いかり",
-      "meanings": [
-        "anger",
-        "rage"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "feelings",
-      "scene": "瀧's anger boils over when the mayor waves his warning away.",
-      "context": "Same kanji as 怒る (おこる), but the noun reads いかり. 怒りを感じる = to feel anger; 怒りを抑える (おさえる) = to hold in one's anger. The main deck's 込み上げる often goes with it.",
-      "example_sentence": "不公平な決定に、多くの人が怒りの声を上げた。",
-      "example_reading": "ふこうへいな けってい に、 おおく の ひと が いかり の こえ を あげた。",
-      "example_meaning": "Many people voiced their anger at the unfair decision."
-    },
-    {
       "word": "冷静",
       "reading": "れいせい",
       "meanings": [
@@ -772,25 +696,6 @@
       "example_sentence": "弟は、おもちゃを取った兄をにらんだ。",
       "example_reading": "おとうと は、 おもちゃ を とった あに を にらんだ。",
       "example_meaning": "The younger brother glared at his big brother, who had taken his toy."
-    },
-    {
-      "word": "表情",
-      "reading": "ひょうじょう",
-      "meanings": [
-        "(facial) expression",
-        "look"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "顔",
-      "category": "senses_body",
-      "scene": "Fits the change on the father's face when his 'daughter' suddenly grabs him.",
-      "context": "表情が変わる = someone's expression changes; 表情が明るい = to look cheerful; 無表情 = expressionless. 顔色 (かおいろ) is complexion: 顔色が悪い = to look pale.",
-      "example_sentence": "手紙を読んだ母の表情が、急に明るくなった。",
-      "example_reading": "てがみ を よんだ はは の ひょうじょう が、 きゅう に あかるく なった。",
-      "example_meaning": "My mother's face suddenly brightened when she read the letter."
     },
     {
       "word": "娘",
@@ -888,26 +793,6 @@
       "example_meaning": "I ran with everything I had, all the way to the end."
     },
     {
-      "word": "夢中",
-      "reading": "むちゅう",
-      "meanings": [
-        "absorbed",
-        "frantic",
-        "lost in (something)"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "feelings",
-      "scene": "瀧 pedals and climbs without a thought for anything but reaching 三葉.",
-      "context": "Literally 'inside a dream'. 〜に夢中になる = to be absorbed in / crazy about (ゲームに夢中). 夢中で〜 = frantically, without stopping to think (夢中で走る).",
-      "example_sentence": "弟はゲームに夢中で、呼んでも返事をしない。",
-      "example_reading": "おとうと は ゲーム に むちゅう で、 よんで も へんじ を しない。",
-      "example_meaning": "My little brother is so absorbed in his game that he doesn't answer when I call."
-    },
-    {
       "word": "日が暮れる",
       "reading": "ひがくれる",
       "meanings": [
@@ -983,44 +868,6 @@
       "example_sentence": "初対面の人と話すのは、少し緊張する。",
       "example_reading": "しょたいめん の ひと と はなす の は、 すこし きんちょう する。",
       "example_meaning": "Talking with people I'm meeting for the first time makes me a little nervous."
-    },
-    {
-      "word": "目の前",
-      "reading": "めのまえ",
-      "meanings": [
-        "right in front of one's eyes",
-        "right before one"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "前",
-      "category": "senses_body",
-      "scene": "For the first time, 三葉 stands right in front of 瀧, each in their own body.",
-      "context": "目の前に現れる = to appear right in front of you; 目の前で = before your very eyes. Also 'just ahead in time': 試験が目の前だ = the exam is just around the corner.",
-      "example_sentence": "目の前を、大きな犬が走っていった。",
-      "example_reading": "め の まえ を、 おおきな いぬ が はしって いった。",
-      "example_meaning": "A big dog ran past right in front of me."
-    },
-    {
-      "word": "見つめる",
-      "reading": "みつめる",
-      "meanings": [
-        "to gaze at",
-        "to stare at"
-      ],
-      "jlpt": "N2",
-      "priority": "high",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "じっと見る",
-      "category": "senses_body",
-      "scene": "Face to face on the rim, the two gaze at each other.",
-      "context": "見る + つめる (to press close): to keep your eyes fixed on something. じっと見つめる is a common pairing. にらむ is an angry stare; 見つめる is steady, often tender or intense.",
-      "example_sentence": "彼女は、窓の外の雨をじっと見つめていた。",
-      "example_reading": "かのじょ は、 まど の そと の あめ を じっと みつめて いた。",
-      "example_meaning": "She was gazing steadily at the rain outside the window."
     },
     {
       "word": "返す",

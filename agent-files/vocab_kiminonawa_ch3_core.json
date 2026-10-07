@@ -9,7 +9,7 @@
   "chapter_title_meaning": "Days",
   "learner_level": "N3",
   "notes": "Everyday words for Chapter 3, mostly N4–N3 plus a few common N2 words and set phrases: the backbone vocabulary the main Vocabulary deck skips as 'too easy'. The list is built from the chapter's scenes (rules and money, school life, the climb to the ご神体, the date in Tokyo, the call that won't connect), not copied page by page, and words already in another 君の名は。 deck are left out. Study it before the chapter's Vocabulary deck; example sentences are original.",
-  "card_count": 55,
+  "card_count": 49,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -196,26 +196,6 @@
       "example_sentence": "試合に勝ったことを、すぐ母に報告した。",
       "example_reading": "しあい に かった こと を、 すぐ はは に ほうこく した。",
       "example_meaning": "I told my mother right away that we'd won the match."
-    },
-    {
-      "word": "絶対",
-      "reading": "ぜったい",
-      "meanings": [
-        "absolutely",
-        "definitely",
-        "(with a negative) never"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "必ず",
-      "category": "story_terms",
-      "scene": "The rules in their phones are full of things the other must absolutely never do.",
-      "context": "絶対に〜ない = never, under any circumstances: 絶対に見ないで. Positive: 絶対に行く (I'll definitely go). 必ず works for positive sentences only; 絶対 works for both.",
-      "example_sentence": "このことは、絶対にだれにも言わないで。",
-      "example_reading": "この こと は、 ぜったい に だれ に も いわないで。",
-      "example_meaning": "Never tell anyone about this."
     },
     {
       "word": "守る",
@@ -474,26 +454,6 @@
       "example_meaning": "My older brother is very athletic and picks up any sport right away."
     },
     {
-      "word": "活躍",
-      "reading": "かつやく",
-      "meanings": [
-        "playing an active role",
-        "shining",
-        "a great performance"
-      ],
-      "jlpt": "N2",
-      "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "",
-      "category": "town_life",
-      "scene": "瀧, in 三葉's body, is the star of the basketball game.",
-      "context": "活躍する = to do great things, be the star: 試合で活躍する, 世界で活躍する選手. 大活躍 = a brilliant performance. 躍 (leap) is a hard kanji; this is the word to learn it from.",
-      "example_sentence": "新しい選手の大活躍で、チームは試合に勝った。",
-      "example_reading": "あたらしい せんしゅ の だいかつやく で、 チーム は しあい に かった。",
-      "example_meaning": "Thanks to the new player's brilliant performance, the team won the match."
-    },
-    {
       "word": "注目",
       "reading": "ちゅうもく",
       "meanings": [
@@ -610,25 +570,6 @@
       "example_sentence": "二人は高校のときから付き合っている。",
       "example_reading": "ふたり は こうこう の とき から つきあって いる。",
       "example_meaning": "The two of them have been going out since high school."
-    },
-    {
-      "word": "仲",
-      "reading": "なか",
-      "meanings": [
-        "relationship",
-        "terms (between people)"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "",
-      "category": "feelings",
-      "scene": "三葉, in 瀧's body, gets on close terms with 奥寺先輩 faster than 瀧 ever did.",
-      "context": "仲がいい = to be close, get along; 仲良くなる = to become friends; 仲直りする = to make up after a fight. 仲間 (なかま) = friends, teammates.",
-      "example_sentence": "最初はけんかばかりしていたが、今ではすっかり仲良くなった。",
-      "example_reading": "さいしょ は けんか ばかり して いた が、 いま で は すっかり なかよく なった。",
-      "example_meaning": "At first we fought all the time, but now we've become really close."
     },
     {
       "word": "誘う",
@@ -941,26 +882,6 @@
       "example_meaning": "This shop is quiet and has a nice atmosphere."
     },
     {
-      "word": "風景",
-      "reading": "ふうけい",
-      "meanings": [
-        "scenery",
-        "landscape",
-        "view"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "景色",
-      "category": "nature_sky",
-      "scene": "At the photo exhibition, 瀧 is drawn to pictures of rural landscapes.",
-      "context": "風景 is often a landscape as a picture or impression: 風景画 (landscape painting), 田舎の風景. 景色 (けしき) is the view in front of you right now: 窓からの景色.",
-      "example_sentence": "窓から見える田舎の風景が、とてもきれいだった。",
-      "example_reading": "まど から みえる いなか の ふうけい が、 とても きれい だった。",
-      "example_meaning": "The countryside scenery outside the window was beautiful."
-    },
-    {
       "word": "気になる",
       "reading": "きになる",
       "meanings": [
@@ -999,26 +920,6 @@
       "example_sentence": "正直に言うと、その映画はあまり面白くなかった。",
       "example_reading": "しょうじき に いう と、 その えいが は あまり おもしろく なかった。",
       "example_meaning": "To be honest, that film wasn't very interesting."
-    },
-    {
-      "word": "別れる",
-      "reading": "わかれる",
-      "meanings": [
-        "to part (from someone)",
-        "to say goodbye",
-        "to break up"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "feelings",
-      "scene": "The date ends with 瀧 and 奥寺 saying goodbye and going their separate ways.",
-      "context": "〜と別れる = to part from someone; also to break up with a partner. 分かれる (same sound) is for something splitting: 道が分かれる. Noun: 別れ = a parting, a farewell.",
-      "example_sentence": "駅で友達と別れて、一人で家に帰った。",
-      "example_reading": "えき で ともだち と わかれて、 ひとり で いえ に かえった。",
-      "example_meaning": "I said goodbye to my friend at the station and went home alone."
     },
     {
       "word": "結局",
@@ -1098,26 +999,6 @@
       "example_sentence": "昨日注文した本が、もう届いた。",
       "example_reading": "きのう ちゅうもん した ほん が、 もう とどいた。",
       "example_meaning": "The book I ordered yesterday has already arrived."
-    },
-    {
-      "word": "突然",
-      "reading": "とつぜん",
-      "meanings": [
-        "suddenly",
-        "abruptly",
-        "out of the blue"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "急に",
-      "category": "literary",
-      "scene": "After weeks of regular swaps, they suddenly stop.",
-      "context": "Adverb or な-adjective: 突然の雨 = a sudden shower. 急に is more casual and also covers quick changes in state (急に寒くなった). 突 (thrust) + 然 (state).",
-      "example_sentence": "晴れていたのに、突然雨が降り出した。",
-      "example_reading": "はれて いた のに、 とつぜん あめ が ふりだした。",
-      "example_meaning": "It had been sunny, but suddenly it started to rain."
     }
   ]
 }

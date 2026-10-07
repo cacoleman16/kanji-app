@@ -9,7 +9,7 @@
   "chapter_title_meaning": "The Search",
   "learner_level": "N3",
   "notes": "瀧 can no longer reach 三葉, so he sets out for Hida with 司 and 奥寺先輩, armed only with sketches of a landscape he remembers. A ramen shop owner identifies it as 糸守町, destroyed three years earlier when a comet fragment fell during its autumn festival; 瀧 faces the ruins, the newspaper archives and the list of the dead while his memories begin to slip. The deck focuses on searching and travel, rural Gifu, the disaster as news and historical record, shock and disbelief, and fading memory. The list is built from the chapter's scenes and the novel's style, not transcribed page by page, so a few words may sit a chapter early or late. Words and patterns already taught in an earlier chapter's deck aren't repeated here, even when this chapter uses them again.",
-  "card_count": 64,
+  "card_count": 65,
   "priority_guide": {
     "high": "Learn before or while reading this chapter — it carries the scene.",
     "medium": "Useful; context usually helps if you forget it.",
@@ -1275,24 +1275,43 @@
       "example_meaning": "My memory of the time around the accident is completely gone."
     },
     {
-      "word": "決意",
-      "reading": "けつい",
+      "word": "周期",
+      "reading": "しゅうき",
       "meanings": [
-        "determination",
-        "resolve",
-        "firm decision"
+        "cycle",
+        "period (of recurrence)",
+        "orbit time"
       ],
       "jlpt": "N1",
       "priority": "medium",
-      "difficulty_vs_n3": "one_above",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "決心",
-      "category": "feelings",
-      "scene": "瀧 makes up his mind to go alone to the shrine's sacred site on the mountain.",
-      "context": "決意する, 決意を固める (firm up one's resolve). Weightier than 決める; close to 決心, but 決意 sounds more formal and steely.",
-      "example_sentence": "彼は一人で山へ向かう決意をした。",
-      "example_reading": "かれ は ひとり で やま へ むかう けつい を した。",
-      "example_meaning": "He resolved to head into the mountains alone."
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "nature_sky",
+      "scene": "Not yet checked against the book: the comet's orbit and approach, as 瀧 reads up on it.",
+      "context": "周 (around) + 期 (period). 周期的 = periodic; 公転周期 (こうてんしゅうき) = orbital period. Also everyday: 生活の周期 (the rhythm of daily life).",
+      "example_sentence": "この彗星は、約七十六年の周期で地球に近づく。",
+      "example_reading": "この すいせい は、 やく ななじゅうろくねん の しゅうき で ちきゅう に ちかづく。",
+      "example_meaning": "This comet approaches Earth on a cycle of about 76 years."
+    },
+    {
+      "word": "接近",
+      "reading": "せっきん",
+      "meanings": [
+        "approach",
+        "drawing near"
+      ],
+      "jlpt": "N1",
+      "priority": "medium",
+      "difficulty_vs_n3": "two_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "近づくこと",
+      "category": "nature_sky",
+      "scene": "Not yet checked against the book: the comet's orbit and approach, as 瀧 reads up on it.",
+      "context": "接近する = to approach. News phrase: 最接近 (さいせっきん) = closest approach. Also used for storms: 台風が接近する (a typhoon is approaching).",
+      "example_sentence": "台風の接近で、明日の授業は休みになった。",
+      "example_reading": "たいふう の せっきん で、 あした の じゅぎょう は やすみ に なった。",
+      "example_meaning": "Classes were cancelled tomorrow because of the approaching typhoon."
     }
   ]
 }
