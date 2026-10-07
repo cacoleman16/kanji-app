@@ -30,6 +30,7 @@
     "feelings",
     "literary",
     "nature_sky",
+    "onomatopoeia",
     "senses_body",
     "story_terms",
     "time_memory",
@@ -134,6 +135,25 @@
       "example_meaning": "When I ran up the stairs, my chest got tight."
     },
     {
+      "word": "汗",
+      "reading": "あせ",
+      "meanings": [
+        "sweat",
+        "perspiration"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Fits 三葉's run: dripping with sweat as she races down toward the town.",
+      "context": "汗をかく = to sweat (use かく; 汗が出る is also fine). 汗を拭く = to wipe off sweat; 冷や汗 (ひやあせ) = a cold sweat; 汗だく = drenched in sweat.",
+      "example_sentence": "走ったあとで、たくさん汗をかいた。",
+      "example_reading": "はしった あと で、 たくさん あせ を かいた。",
+      "example_meaning": "I sweated a lot after running."
+    },
+    {
       "word": "心臓",
       "reading": "しんぞう",
       "meanings": [
@@ -188,6 +208,26 @@
       "example_sentence": "三日も寝ていなくて、もう限界だ。",
       "example_reading": "みっか も ねて いなくて、 もう げんかい だ。",
       "example_meaning": "I haven't slept for three days — I'm at my limit."
+    },
+    {
+      "word": "ふらふら",
+      "reading": "ふらふら",
+      "meanings": [
+        "unsteady",
+        "dizzy",
+        "staggering (from exhaustion)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "onomatopoeia",
+      "scene": "Fits 三葉 pushing on so exhausted that she can barely stay upright.",
+      "context": "ふらふらする = to feel unsteady or dizzy (from tiredness, fever or hunger). ふらふら歩く = to stagger, or to wander about aimlessly. Related: ふらつく (verb), よろめく (to stagger).",
+      "example_sentence": "熱があって、立つと頭がふらふらする。",
+      "example_reading": "ねつ が あって、 たつ と あたま が ふらふら する。",
+      "example_meaning": "I have a fever, and when I stand up I feel dizzy."
     },
     {
       "word": "途中",
@@ -368,6 +408,25 @@
       "example_meaning": "There seemed to have been some kind of commotion in front of the station, and people had gathered."
     },
     {
+      "word": "大勢",
+      "reading": "おおぜい",
+      "meanings": [
+        "a large number of people",
+        "a crowd"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "たくさんの人",
+      "category": "town_life",
+      "scene": "Fits the many festival-goers in the dark town, all of whom need to be moved.",
+      "context": "Only for people: 大勢の人, 大勢で (in a big group). The reading is おおぜい, not だいせい. For things, use たくさん.",
+      "example_sentence": "大勢の前で話すのは苦手だ。",
+      "example_reading": "おおぜい の まえ で はなす の は にがて だ。",
+      "example_meaning": "I'm bad at speaking in front of a lot of people."
+    },
+    {
       "word": "放送",
       "reading": "ほうそう",
       "meanings": [
@@ -387,25 +446,6 @@
       "example_meaning": "I learned from the station announcement that the train was delayed."
     },
     {
-      "word": "繰り返す",
-      "reading": "くりかえす",
-      "meanings": [
-        "to repeat",
-        "to do over and over"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "もう一度言う",
-      "category": "disaster",
-      "scene": "Emergency announcements repeat the same message over and over.",
-      "context": "Announcements say 繰り返します = 'I repeat.' Noun: 繰り返し (repetition). 繰 is tricky — learn it by sight. Don't confuse with 振り返る (to look back).",
-      "example_sentence": "同じ失敗を繰り返さないように、メモを取った。",
-      "example_reading": "おなじ しっぱい を くりかえさない よう に、 メモ を とった。",
-      "example_meaning": "I took notes so I wouldn't make the same mistake again."
-    },
-    {
       "word": "危険",
       "reading": "きけん",
       "meanings": [
@@ -423,6 +463,25 @@
       "example_sentence": "この川は深くて危険なので、泳がないでください。",
       "example_reading": "この かわ は ふかくて きけんな ので、 およがないで ください。",
       "example_meaning": "This river is deep and dangerous, so please don't swim in it."
+    },
+    {
+      "word": "安全",
+      "reading": "あんぜん",
+      "meanings": [
+        "safety",
+        "safe"
+      ],
+      "jlpt": "N3",
+      "priority": "high",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "disaster",
+      "scene": "The whole plan is to get everyone out of the danger zone to somewhere safe.",
+      "context": "Opposite of 危険. 安全な場所 = a safe place; 安全を確認する = to make sure it's safe. 安心 (あんしん) is feeling safe and at ease; 安全 is actually being safe.",
+      "example_sentence": "火事のときは、すぐに安全な場所に逃げてください。",
+      "example_reading": "かじ の とき は、 すぐ に あんぜんな ばしょ に にげて ください。",
+      "example_meaning": "If there's a fire, get to a safe place right away."
     },
     {
       "word": "落ち着く",
@@ -445,12 +504,11 @@
       "example_meaning": "Don't be nervous — just stay calm and talk."
     },
     {
-      "word": "勝手",
-      "reading": "かって",
+      "word": "情報",
+      "reading": "じょうほう",
       "meanings": [
-        "without permission",
-        "selfish",
-        "as one pleases"
+        "information",
+        "news (of what is happening)"
       ],
       "jlpt": "N3",
       "priority": "medium",
@@ -458,67 +516,11 @@
       "kanji_difficulty": "easy",
       "simpler_synonym": "",
       "category": "town_life",
-      "scene": "サヤちん's broadcast has no one's permission — she has taken over the town's emergency system.",
-      "context": "勝手に = without asking: 勝手に入らないで (don't come in without permission). 勝手な人 = a selfish person; 自分勝手 = selfish. 使い勝手 = how easy something is to use.",
-      "example_sentence": "人のノートを勝手に見ないでよ。",
-      "example_reading": "ひと の ノート を かって に みないで よ。",
-      "example_meaning": "Don't look at other people's notebooks without asking!"
-    },
-    {
-      "word": "迷う",
-      "reading": "まよう",
-      "meanings": [
-        "to hesitate",
-        "to be unsure",
-        "to get lost"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "feelings",
-      "scene": "Told one thing by サヤちん's broadcast and the opposite by the town office, people don't know what to do.",
-      "context": "道に迷う = to get lost; 〜か迷う = to be torn over whether to…: 行くか迷う. 迷子 (まいご) = a lost child. 悩む is worrying over a problem for a long time; 迷う is being torn between choices.",
-      "example_sentence": "赤と青、どちらのかばんを買うか迷っている。",
-      "example_reading": "あか と あお、 どちら の かばん を かう か まよって いる。",
-      "example_meaning": "I can't decide whether to buy the red bag or the blue one."
-    },
-    {
-      "word": "夜空",
-      "reading": "よぞら",
-      "meanings": [
-        "night sky"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "nature_sky",
-      "scene": "The comet blazes across the night sky above the festival.",
-      "context": "夜 + 空, with そら → ぞら. Same sound change: 青空 (あおぞら), 星空 (ほしぞら). 夜空を見上げる is a classic pairing.",
-      "example_sentence": "山の上から見る夜空は、星でいっぱいだった。",
-      "example_reading": "やま の うえ から みる よぞら は、 ほし で いっぱい だった。",
-      "example_meaning": "The night sky seen from the mountaintop was full of stars."
-    },
-    {
-      "word": "見上げる",
-      "reading": "みあげる",
-      "meanings": [
-        "to look up (at)"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "上を見る",
-      "category": "senses_body",
-      "scene": "All over the town, people look up at the comet as it splits apart.",
-      "context": "見 + 上げる (raise). Opposite: 見下ろす (to look down at). Compound verbs like this are everywhere in the narration: 見つめる, 見回す, 見送る.",
-      "example_sentence": "高いビルを見上げて、首が痛くなった。",
-      "example_reading": "たかい ビル を みあげて、 くび が いたく なった。",
-      "example_meaning": "My neck hurt from looking up at the tall buildings."
+      "scene": "With the power out and two announcements saying opposite things, no one knows which information to trust.",
+      "context": "情報を集める = to gather information; 情報が入る = word comes in; 個人情報 = personal data. 情 (feeling, situation) + 報 (report), as in 報道.",
+      "example_sentence": "インターネットで、旅行の情報を集めた。",
+      "example_reading": "インターネット で、 りょこう の じょうほう を あつめた。",
+      "example_meaning": "I gathered information about the trip on the internet."
     },
     {
       "word": "割れる",
@@ -619,25 +621,6 @@
       "example_meaning": "If we run, we might make the last bus."
     },
     {
-      "word": "転ぶ",
-      "reading": "ころぶ",
-      "meanings": [
-        "to fall over",
-        "to trip and fall"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "senses_body",
-      "scene": "Running flat out, 三葉 trips and falls.",
-      "context": "To fall over while walking or running. つまずく = to stumble on something (you may not go down); 転ぶ = you actually fall; 倒れる = to collapse or topple. Related: 転がる (to roll).",
-      "example_sentence": "雪の道で転んで、手をけがした。",
-      "example_reading": "ゆき の みち で ころんで、 て を けが した。",
-      "example_meaning": "I fell over on the snowy road and hurt my hand."
-    },
-    {
       "word": "倒れる",
       "reading": "たおれる",
       "meanings": [
@@ -677,42 +660,23 @@
       "example_meaning": "I was so tired that I sank down onto the ground."
     },
     {
-      "word": "怪我",
-      "reading": "けが",
+      "word": "汚れる",
+      "reading": "よごれる",
       "meanings": [
-        "injury",
-        "to get hurt"
-      ],
-      "jlpt": "N4",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "hard",
-      "simpler_synonym": "傷",
-      "category": "senses_body",
-      "scene": "Fits the scrapes and bruises 三葉 picks up when she tumbles down the slope.",
-      "context": "けがをする = to get hurt (not けがになる). けが人 = an injured person. The kanji 怪我 are irregular for this reading, so it's very often written in kana.",
-      "example_sentence": "サッカーの練習中に、足を怪我した。",
-      "example_reading": "サッカー の れんしゅうちゅう に、 あし を けが した。",
-      "example_meaning": "I hurt my leg during soccer practice."
-    },
-    {
-      "word": "痛み",
-      "reading": "いたみ",
-      "meanings": [
-        "pain",
-        "ache"
+        "to get dirty",
+        "to be stained"
       ],
       "jlpt": "N3",
       "priority": "medium",
       "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
+      "kanji_difficulty": "medium",
       "simpler_synonym": "",
       "category": "senses_body",
-      "scene": "Fits the pain running through 三葉's body after the fall.",
-      "context": "Noun from 痛い (adjective) and 痛む (verb, to hurt). 痛みがある, 痛みを感じる, 痛みに耐える (to bear the pain). 痛み止め = a painkiller.",
-      "example_sentence": "薬を飲んだら、頭の痛みが少し楽になった。",
-      "example_reading": "くすり を のんだら、 あたま の いたみ が すこし らく に なった。",
-      "example_meaning": "After I took some medicine, my headache eased a little."
+      "scene": "After tumbling down the slope, 三葉's clothes are filthy with mud.",
+      "context": "Intransitive: 服が汚れる. Transitive 汚す (よごす) = to make something dirty. 汚い (きたない) = dirty — same kanji, different reading. Noun: 汚れ = a stain, dirt.",
+      "example_sentence": "公園で遊んで、くつが汚れてしまった。",
+      "example_reading": "こうえん で あそんで、 くつ が よごれて しまった。",
+      "example_meaning": "I played in the park and got my shoes dirty."
     },
     {
       "word": "傷",
@@ -755,6 +719,26 @@
       "example_meaning": "We lost by one point, and it was so frustrating."
     },
     {
+      "word": "情けない",
+      "reading": "なさけない",
+      "meanings": [
+        "pathetic",
+        "miserable",
+        "ashamed (of oneself)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "Fits 三葉 lying in the mud, feeling useless at the very moment it matters most.",
+      "context": "Let down by yourself or someone: 自分が情けない = I'm ashamed of myself; 情けない声 = a pitiful voice. 恥ずかしい is embarrassment in front of others; 情けない is falling short of what you should be.",
+      "example_sentence": "簡単な問題も解けなくて、自分が情けない。",
+      "example_reading": "かんたんな もんだい も とけなくて、 じぶん が なさけない。",
+      "example_meaning": "I couldn't even solve the easy problems — I feel pathetic."
+    },
+    {
       "word": "泣き出す",
       "reading": "なきだす",
       "meanings": [
@@ -772,6 +756,26 @@
       "example_sentence": "犬がほえると、赤ちゃんが泣き出した。",
       "example_reading": "いぬ が ほえる と、 あかちゃん が なきだした。",
       "example_meaning": "When the dog barked, the baby burst into tears."
+    },
+    {
+      "word": "力が抜ける",
+      "reading": "ちからがぬける",
+      "meanings": [
+        "to lose one's strength",
+        "to go limp",
+        "to feel deflated"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "senses_body",
+      "scene": "Fits the moment after the fall, when all the strength drains out of 三葉's body.",
+      "context": "抜ける = to come out, slip away. 体から力が抜ける = to go limp. The transitive 肩の力を抜く = to relax your shoulders, loosen up. Also used for relief: ほっとして力が抜けた.",
+      "example_sentence": "結果を聞いて、ほっとして体の力が抜けた。",
+      "example_reading": "けっか を きいて、 ほっと して からだ の ちから が ぬけた。",
+      "example_meaning": "When I heard the result, I was so relieved that all the strength left my body."
     },
     {
       "word": "諦める",
@@ -793,45 +797,6 @@
       "example_meaning": "The rain got heavier, so we gave up on climbing the mountain."
     },
     {
-      "word": "思い出す",
-      "reading": "おもいだす",
-      "meanings": [
-        "to remember",
-        "to recall"
-      ],
-      "jlpt": "N4",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "time_memory",
-      "scene": "As she runs, 三葉 tries to hold on to his name — and finds she can no longer recall it.",
-      "context": "思い出す = to call something back to mind (an action); 覚えている = to still remember (a state). 思い出せない = I can't recall it. Noun: 思い出 = a memory.",
-      "example_sentence": "写真を見て、子どもの頃の夏休みを思い出した。",
-      "example_reading": "しゃしん を みて、 こども の ころ の なつやすみ を おもいだした。",
-      "example_meaning": "Looking at the photo, I remembered the summer holidays of my childhood."
-    },
-    {
-      "word": "文字",
-      "reading": "もじ",
-      "meanings": [
-        "letter",
-        "(written) character",
-        "writing"
-      ],
-      "jlpt": "N3",
-      "priority": "high",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "字",
-      "category": "story_terms",
-      "scene": "三葉 opens her hand expecting a name — but the letters written there say something else.",
-      "context": "Written characters in general: ひらがなの文字, 文字を書く. 字 (じ) is more everyday: 字がきれい = neat handwriting. 文字化け = garbled text on a screen.",
-      "example_sentence": "黒板の文字が小さくて、よく見えない。",
-      "example_reading": "こくばん の もじ が ちいさくて、 よく みえない。",
-      "example_meaning": "The writing on the blackboard is so small I can't see it well."
-    },
-    {
       "word": "拭く",
       "reading": "ふく",
       "meanings": [
@@ -851,23 +816,23 @@
       "example_meaning": "I dried my wet hair with a towel."
     },
     {
-      "word": "勇気",
-      "reading": "ゆうき",
+      "word": "励ます",
+      "reading": "はげます",
       "meanings": [
-        "courage",
-        "bravery"
+        "to encourage",
+        "to cheer up"
       ],
       "jlpt": "N3",
       "priority": "high",
       "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
+      "kanji_difficulty": "medium",
+      "simpler_synonym": "応援する",
       "category": "feelings",
-      "scene": "The words on her palm give 三葉 the courage to get back up.",
-      "context": "勇気がある; 勇気を出す = to work up courage; 勇気をもらう = to be encouraged by someone or something. 勇気づける = to encourage.",
-      "example_sentence": "勇気を出して、先輩に話しかけた。",
-      "example_reading": "ゆうき を だして、 せんぱい に はなしかけた。",
-      "example_meaning": "I worked up the courage to talk to my senior."
+      "scene": "Fits the way the words on her palm cheer 三葉 on and get her back on her feet.",
+      "context": "人を励ます = to encourage someone; 励まされる = to be encouraged; 励まし = encouragement. 応援する is to cheer for or back someone (a team, a plan); 励ます is lifting someone's spirits when they're down.",
+      "example_sentence": "試験に落ちた友だちを、みんなで励ました。",
+      "example_reading": "しけん に おちた ともだち を、 みんな で はげました。",
+      "example_meaning": "We all tried to cheer up our friend who had failed the exam."
     },
     {
       "word": "起き上がる",
@@ -948,26 +913,6 @@
       "example_meaning": "I want to get this job finished today, no matter what."
     },
     {
-      "word": "やっと",
-      "reading": "やっと",
-      "meanings": [
-        "at last",
-        "finally (after effort)",
-        "only just"
-      ],
-      "jlpt": "N4",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "easy",
-      "simpler_synonym": "",
-      "category": "literary",
-      "scene": "Battered and exhausted, 三葉 at last makes it to the town office.",
-      "context": "やっと = at last, with relief after effort or waiting (やっと着いた). ついに = finally, for a long-awaited or climactic outcome, good or bad. やっと can also mean 'only just': 食べていくのがやっとだ = I can barely get by.",
-      "example_sentence": "三時間並んで、やっとチケットが買えた。",
-      "example_reading": "さんじかん ならんで、 やっと チケット が かえた。",
-      "example_meaning": "After queuing for three hours, I finally managed to buy a ticket."
-    },
-    {
       "word": "たどり着く",
       "reading": "たどりつく",
       "meanings": [
@@ -1007,6 +952,26 @@
       "example_meaning": "I'm not joking — I'm really worried about you."
     },
     {
+      "word": "向き合う",
+      "reading": "むきあう",
+      "meanings": [
+        "to face (squarely)",
+        "to confront",
+        "to deal honestly with"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "feelings",
+      "scene": "At the town office, 三葉 has to face her father head-on.",
+      "context": "〜と向き合う = to face a person or problem honestly: 問題と向き合う, 自分と向き合う. 向かい合う is more physical — two people sitting or standing face to face.",
+      "example_sentence": "逃げないで、自分の気持ちと向き合うことにした。",
+      "example_reading": "にげないで、 じぶん の きもち と むきあう こと に した。",
+      "example_meaning": "Instead of running away, I decided to face my own feelings."
+    },
+    {
       "word": "見つめる",
       "reading": "みつめる",
       "meanings": [
@@ -1027,44 +992,43 @@
       "example_meaning": "She said nothing and just gazed out of the window."
     },
     {
-      "word": "ついに",
-      "reading": "ついに",
+      "word": "表情",
+      "reading": "ひょうじょう",
       "meanings": [
-        "finally",
-        "at last",
-        "in the end"
+        "facial expression",
+        "look (on one's face)"
       ],
       "jlpt": "N3",
-      "priority": "high",
+      "priority": "medium",
       "difficulty_vs_n3": "at_level",
       "kanji_difficulty": "easy",
-      "simpler_synonym": "とうとう",
-      "category": "literary",
-      "scene": "The moment the whole story has been building toward: the fragment finally falls.",
-      "context": "The long-awaited or unavoidable outcome arrives: ついに完成した (it was finally finished), ついに来なかった (in the end, he never came). とうとう is very close. Kanji 遂に, usually written in kana.",
-      "example_sentence": "十年かかって、ついに夢がかなった。",
-      "example_reading": "じゅうねん かかって、 ついに ゆめ が かなった。",
-      "example_meaning": "It took ten years, but my dream finally came true."
+      "simpler_synonym": "顔",
+      "category": "senses_body",
+      "scene": "Fits the confrontation at the town office, where so much is said by faces rather than words.",
+      "context": "表情が明るい / 暗い; 表情が変わる = one's expression changes; 無表情 = expressionless. 顔 is the face itself; 表情 is what it shows.",
+      "example_sentence": "手紙を読んで、母の表情が急に明るくなった。",
+      "example_reading": "てがみ を よんで、 はは の ひょうじょう が きゅう に あかるく なった。",
+      "example_meaning": "Reading the letter, my mother's face suddenly lit up."
     },
     {
-      "word": "一瞬",
-      "reading": "いっしゅん",
+      "word": "瞬間",
+      "reading": "しゅんかん",
       "meanings": [
-        "an instant",
-        "a moment",
-        "for a split second"
+        "moment",
+        "instant",
+        "the very moment (when)"
       ],
       "jlpt": "N2",
       "priority": "high",
       "difficulty_vs_n3": "one_above",
       "kanji_difficulty": "medium",
-      "simpler_synonym": "ちょっと",
+      "simpler_synonym": "とき",
       "category": "time_memory",
-      "scene": "Fits the impact: everything changes in a single instant.",
-      "context": "一瞬で / 一瞬のうちに = in an instant; 一瞬、〜 = for a split second. 瞬間 (しゅんかん) = the very moment: その瞬間. 瞬 also appears in 瞬く (またたく, to twinkle).",
-      "example_sentence": "一瞬、何が起きたのか分からなかった。",
-      "example_reading": "いっしゅん、 なに が おきた の か わからなかった。",
-      "example_meaning": "For a moment, I didn't understand what had happened."
+      "scene": "Fits the moment the fragment hits — everything turns on a single instant.",
+      "context": "Vた瞬間(に) = the moment that…: ドアを開けた瞬間. その瞬間 = at that very moment. 一瞬 (いっしゅん) measures a flash of time ('for an instant'); 瞬間 points at the moment itself.",
+      "example_sentence": "ゴールが決まった瞬間、みんなが立ち上がった。",
+      "example_reading": "ゴール が きまった しゅんかん、 みんな が たちあがった。",
+      "example_meaning": "The moment the goal went in, everyone stood up."
     },
     {
       "word": "揺れる",
@@ -1087,6 +1051,26 @@
       "example_meaning": "There was an earthquake in the night, and the house shook hard."
     },
     {
+      "word": "吹き飛ぶ",
+      "reading": "ふきとぶ",
+      "meanings": [
+        "to be blown away",
+        "to be blown off",
+        "to vanish (of worries)"
+      ],
+      "jlpt": "N2",
+      "priority": "medium",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "",
+      "category": "disaster",
+      "scene": "Fits the blast when the fragment strikes, tearing apart everything near it.",
+      "context": "吹く (blow) + 飛ぶ (fly). Intransitive: 屋根が吹き飛ぶ. Transitive 吹き飛ばす = to blow something away. Figurative: 疲れが吹き飛ぶ = your tiredness vanishes.",
+      "example_sentence": "強い風で、かさが吹き飛んでしまった。",
+      "example_reading": "つよい かぜ で、 かさ が ふきとんで しまった。",
+      "example_meaning": "My umbrella was blown away by the strong wind."
+    },
+    {
       "word": "助かる",
       "reading": "たすかる",
       "meanings": [
@@ -1105,6 +1089,25 @@
       "example_sentence": "手伝ってくれて、本当に助かったよ。",
       "example_reading": "てつだって くれて、 ほんとう に たすかった よ。",
       "example_meaning": "Thanks for helping — you really saved me."
+    },
+    {
+      "word": "生き残る",
+      "reading": "いきのこる",
+      "meanings": [
+        "to survive",
+        "to be left alive"
+      ],
+      "jlpt": "N2",
+      "priority": "high",
+      "difficulty_vs_n3": "one_above",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "助かる",
+      "category": "disaster",
+      "scene": "Aftermath (may fall at the start of Ch.8): against the odds, most of Itomori's people survive.",
+      "context": "生きる + 残る (remain). Noun: 生き残り = a survivor. 生存 is the formal, news-style word; 助かる stresses being saved.",
+      "example_sentence": "その船の事故で、生き残ったのは三人だけだった。",
+      "example_reading": "その ふね の じこ で、 いきのこった の は さんにん だけ だった。",
+      "example_meaning": "Only three people survived that accident at sea."
     },
     {
       "word": "命",
@@ -1126,26 +1129,6 @@
       "example_meaning": "The doctor saved the child's life."
     },
     {
-      "word": "偶然",
-      "reading": "ぐうぜん",
-      "meanings": [
-        "by chance",
-        "coincidence",
-        "accidentally"
-      ],
-      "jlpt": "N3",
-      "priority": "medium",
-      "difficulty_vs_n3": "at_level",
-      "kanji_difficulty": "medium",
-      "simpler_synonym": "たまたま",
-      "category": "time_memory",
-      "scene": "Aftermath (may fall at the start of Ch.8): by what looks like pure chance, an evacuation had been held that night, so most people were out of danger.",
-      "context": "偶然 / 偶然に = by chance: 駅で偶然会った. ただの偶然 = pure coincidence. たまたま is more casual. The opposite idea: 必然 (ひつぜん) = inevitable.",
-      "example_sentence": "旅行先のホテルで、偶然クラスメートに会った。",
-      "example_reading": "りょこうさき の ホテル で、 ぐうぜん クラスメート に あった。",
-      "example_meaning": "I happened to run into a classmate at the hotel on my trip."
-    },
-    {
       "word": "ほっとする",
       "reading": "ほっとする",
       "meanings": [
@@ -1163,6 +1146,25 @@
       "example_sentence": "試験が終わって、ほっとした。",
       "example_reading": "しけん が おわって、 ほっと した。",
       "example_meaning": "I was relieved when the exam was over."
+    },
+    {
+      "word": "記事",
+      "reading": "きじ",
+      "meanings": [
+        "(news) article",
+        "report"
+      ],
+      "jlpt": "N3",
+      "priority": "medium",
+      "difficulty_vs_n3": "at_level",
+      "kanji_difficulty": "easy",
+      "simpler_synonym": "ニュース",
+      "category": "disaster",
+      "scene": "Aftermath (may fall at the start of Ch.8): fits the news coverage of the town's narrow escape.",
+      "context": "新聞の記事 / ネットの記事; 記事を書く / 読む. 記 (record) + 事 (matter). 記者 (きしゃ) = a reporter.",
+      "example_sentence": "新聞に、私たちの学校の記事が出ていた。",
+      "example_reading": "しんぶん に、 わたしたち の がっこう の きじ が でて いた。",
+      "example_meaning": "There was an article about our school in the newspaper."
     },
     {
       "word": "旅",
