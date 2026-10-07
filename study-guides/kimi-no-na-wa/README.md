@@ -15,17 +15,17 @@ Each chapter has three decks, grouped in the app under one Vocabulary tile: **�
 - **Vocabulary**: the harder words: N2–N1, literary narration, and story terms (組紐, 口噛み酒 …).
 - **Grammar & Expressions**: N3–N1 patterns, written-style devices, and Itomori dialect.
 
-| Ch. | Title | Vocabulary cards | Grammar & Expressions cards |
-|---|---|---|---|
-| 1 | 夢（ゆめ）: Dream | 59 | 15 |
-| 2 | 端緒（たんしょ）: The First Clue | 70 | 19 |
-| 3 | 日々（ひび）: Days | 67 | 16 |
-| 4 | 探訪（たんぼう）: The Search | 65 | 19 |
-| 5 | 記憶（きおく）: Memory | 56 | 14 |
-| 6 | 再演（さいえん）: Re-staging | 59 | 14 |
-| 7 | うつくしく、もがく: Beautifully, Struggling | 51 | 12 |
-| 8 | 君の名は。（きみのなは）: Your Name Is… | 53 | 12 |
-| | **Total** | **480** | **121** |
+| Ch. | Title | Core Words | Vocabulary | Grammar & Expressions |
+|---|---|---|---|---|
+| 1 | 夢（ゆめ）: Dream | 51 | 75 | 21 |
+| 2 | 端緒（たんしょ）: The First Clue | 58 | 69 | 19 |
+| 3 | 日々（ひび）: Days | 55 | 67 | 16 |
+| 4 | 探訪（たんぼう）: The Search | 56 | 64 | 19 |
+| 5 | 記憶（きおく）: Memory | 55 | 56 | 14 |
+| 6 | 再演（さいえん）: Re-staging | 57 | 59 | 14 |
+| 7 | うつくしく、もがく: Beautifully, Struggling | 55 | 51 | 12 |
+| 8 | 君の名は。（きみのなは）: Your Name Is… | 54 | 53 | 12 |
+| | **Total** | **441** | **494** | **127** |
 
 Files are in `agent-files/` (they need the `vocab_` prefix so `pipeline/bundle.py` picks them up):
 
